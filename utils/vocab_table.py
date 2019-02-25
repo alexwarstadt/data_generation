@@ -1,32 +1,5 @@
 import numpy as np
-
-
-data_type = [("expression", "U20"),
-             ("category", "U20"),
-             ("category_2", "U20"),
-             ("animate", "U1"),
-             ("occupation", "U1"),
-             ("clothing", "U1"),
-             ("appearance", "U1"),
-             ("thing", "U1"),
-             ("sg", "U1"),
-             ("pl", "U1"),
-             ("mass", "U1"),
-             ("finite", "U1"),
-             ("bare", "U1"),
-             ("pres", "U1"),
-             ("ing", "U1"),
-             ("en", "U1"),
-             ("3sg", "U1"),
-             ("subj", "U20"),
-             ("obj", "U20"),
-             ("inflection", "U20"),
-             ("root", "U20"),
-             ("adjs", "U100"),
-             ("restrictor_N", "U100"),
-             ("restrictor_DE", "U100"),
-             ("scope_DE", "U100")
-            ]
+from utils.data_type import data_type
 
 
 vocab = np.genfromtxt("../vocabulary.csv", delimiter=",", names=True, dtype=data_type)
@@ -35,6 +8,12 @@ vocab = np.genfromtxt("../vocabulary.csv", delimiter=",", names=True, dtype=data
 #     return np.array(list(filter(lambda x: x[label]==value, vocab)), dtype=data_type)
 
 def get_all(label, value, table=vocab):
+    """
+    :param label: string. field name.
+    :param value: string. label.
+    :param table: ndarray of vocab items.
+    :return: table restricted to all entries with "value" in field "label"
+    """
     return np.array(list(filter(lambda x: x[label]==value, table)), dtype=data_type)
 
 def get_all_conjunctive(labels_values, table=vocab):
@@ -50,11 +29,10 @@ def get_all_conjunctive(labels_values, table=vocab):
 
 def get_matches_of(row, label, table=vocab):
     """
-    
-    :param row: 
-    :param label: 
-    :param table: 
-    :return: 
+    :param row: ndarray row. functor vocab item.
+    :param label: string. field containing selectional restrictions.
+    :param table: ndarray of vocab items.
+    :return: all entries in table that match the selectional restrictions of row as given in label.
     """
     value = str(np.array(row, dtype=data_type)[label])
     if value == "":
@@ -70,10 +48,10 @@ def get_matches_of(row, label, table=vocab):
 
 def get_matched_by(row, label, table=vocab):
     """
-    :param row: 
-    :param label: 
-    :param table: 
-    :return: 
+    :param row: ndarray row. selected vocab item.
+    :param label: string. field containing selectional restrictions.
+    :param table: ndarray of vocab items.
+    :return: all entries in table whose selectional restrictions in label are matched by row.
     """
     matches = []
     for entry in table:
@@ -122,7 +100,3 @@ def is_match_conj(row, conjunction):
     return match
 
 
-def get_one(row, label):
-    return str(np.array(row, dtype=data_type)[label])
-
-pass

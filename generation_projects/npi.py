@@ -1,34 +1,18 @@
 from utils.vocab_table import *
-import random
-import math
-
-
-def decision(probability):
-    return random.random() < probability
-
-def subset(set, probability):
-    # try:
-    #     return np.random.choice(set, math.floor(len(set) * probability))
-    # except ValueError:
-    #     pass
-    np.random.shuffle(set)
-    return set[:math.floor(len(set) * probability)]
-
-
+from utils.randomize import *
 
 
 def conjugate(verb_row, subj):
-    verb = ""
-    if get_one(verb_row, "finite") == "1":
+    if verb_row["finite"] == "1":
         # if get_one(verb_row, "pres") == "0":
         verb = verb_row[0]
     else:
-        if get_one(verb_row, "ing") == "1":
+        if verb_row["ing"] == "1":
             if subj["pl"] == "0":
                 verb = "is " + verb_row[0]
             else:
                 verb = "are " + verb_row[0]
-        elif get_one(verb_row, "en") == "1":
+        elif verb_row["en"] == "1":
             if subj["pl"] == "0":
                 verb = "has " + verb_row[0]
             else:
