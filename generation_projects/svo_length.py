@@ -1,4 +1,4 @@
-from artificial_generation.vocab_table import *
+from utils.vocab_table import *
 import random
 
 #Template: animate V inanimate
