@@ -5,7 +5,7 @@ This project includes utilities for generating sentences with certain grammatica
 
 OVERVIEW
 
-A shared vocabulary is kept in vocabulary.numbers, which must be exported to .csv to be read by the code.
+A shared vocabulary is vocabulary.csv to be read by the code.
 
 The utils package contains shared functionality for reading the vocab and accessing fields.
 
