@@ -3,7 +3,7 @@ from utils.conjugate import *
 from random import choice
 
 # initialize output file
-output = open("../../outputs/npi/environment=quantifiers.tsv", "w")
+output = open("../outputs/npi/environment=quantifiers.tsv", "w")
 
 # set total number of sentences to generate
 number_to_generate = 10000
