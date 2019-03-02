@@ -1,8 +1,12 @@
+# Authors: Alex Warstadt
+# Functions for accessing vocab matrices
+
 import numpy as np
 from utils.data_type import data_type
+import os
 
-
-vocab = np.genfromtxt("../vocabulary.csv", delimiter=",", names=True, dtype=data_type)
+project_home = "/Users/alexwarstadt/Workspace/data_generation"
+vocab = np.genfromtxt(os.path.join(project_home, "vocabulary.csv"), delimiter=",", names=True, dtype=data_type)
 
 # def get_all(label, value):
 #     return np.array(list(filter(lambda x: x[label]==value, vocab)), dtype=data_type)
@@ -78,11 +82,14 @@ def is_match_disj(row, disjunction):
     :param disjunction: a string corresponding to a disjunction of selectional restrictions
     :return: true if the row matches one of the disjuncts, false otherwise
     """
-    disjuncts = disjunction.split(";")
-    match = False
-    for d in disjuncts:
-        match = match or is_match_conj(row, d)
-    return match
+    if disjunction == "":
+        return True
+    else:
+        disjuncts = disjunction.split(";")
+        match = False
+        for d in disjuncts:
+            match = match or is_match_conj(row, d)
+        return match
 
 def is_match_conj(row, conjunction):
     """
