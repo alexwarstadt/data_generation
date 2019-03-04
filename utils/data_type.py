@@ -3,7 +3,7 @@
 # The first value is the name of the field (case sensitive!)
 # The second value is the encoding the data in that field. "U" is for unicode, the number marks the max number of characters.
 
-data_type = [("expression", "U20"),
+data_type = [("expression", "U100000"),
              ("category", "U20"),
              ("category_2", "U20"),
              ("common", "U1"),
@@ -19,6 +19,7 @@ data_type = [("expression", "U20"),
              ("3sg", "U1"),
              ("arg_1", "U100"),
              ("arg_2", "U100"),
+             ("arg_3", "U100"),
              ("root", "U20"),
              ("adjs", "U100"),
              ("restrictor_DE", "U100"),
