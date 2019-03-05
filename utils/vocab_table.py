@@ -6,6 +6,7 @@ from utils.data_type import data_type
 import os
 
 project_home = "/Users/alexwarstadt/Workspace/data_generation"
+project_home = "D:\Files\Work\GitHub\data_generation"
 vocab = np.genfromtxt(os.path.join(project_home, "vocabulary.csv"), delimiter=",", names=True, dtype=data_type)
 
 # def get_all(label, value):
