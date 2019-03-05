@@ -12,13 +12,14 @@ from utils.string_utils import remove_extra_whitespace
 output = open("../outputs/npi/environment=quantifiers.tsv", "w")
 
 # set total number of paradigms to generate
-number_to_generate = 1000
+number_to_generate = 100
 sentences = set()
 
 # gather word classes that will be accessed frequently
 all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1")])
 all_quantifiers = get_all("category", "(S/(S\\NP))/N")
 all_UE_quantifiers = get_all("restrictor_DE", "0", all_quantifiers)
+all_DE_quantifiers = get_all("restrictor_DE", "1", all_quantifiers)
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 
@@ -34,6 +35,8 @@ while len(sentences) < number_to_generate:
     # build all lexical items
     N1 = choice(all_animate_nouns)
     D1 = choice(get_matched_by(N1, "arg_1", all_quantifiers))
+    # D1_up = choice(get_matched_by(N1, "arg_1", all_UE_quantifiers))
+    # D1_down = choice(get_matched_by(N1, "arg_1", all_DE_quantifiers))
     V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
     conjugate(V1, N1)
     N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))

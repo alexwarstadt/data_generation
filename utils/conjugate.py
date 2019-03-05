@@ -12,9 +12,12 @@ def conjugate(verb, subj):
     # if verb["finite"] == "1":
     #     return
     # else:
-    subj_agree_auxiliaries = get_matched_by(subj, "arg_2", all_auxiliaries)
-    verb_agree_auxiliaries = get_matched_by(verb, "arg_1", subj_agree_auxiliaries)
-    aux = choice(verb_agree_auxiliaries)
+    subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_auxiliaries)
+    verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
+    try:
+        aux = choice(verb_agree_auxiliaries)
+    except IndexError:
+        pass
     verb[0] = aux[0] + " " + verb[0]
 
 
@@ -27,7 +30,7 @@ def return_aux(verb, subj):
     # if verb["finite"] == "1":
     #     return None
     # else:
-    subj_agree_auxiliaries = get_matched_by(subj, "arg_2", all_auxiliaries)
-    verb_agree_auxiliaries = get_matched_by(verb, "arg_1", subj_agree_auxiliaries)
+    subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_auxiliaries)
+    verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
     aux = choice(verb_agree_auxiliaries)
     return aux

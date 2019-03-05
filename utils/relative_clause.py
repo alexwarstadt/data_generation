@@ -51,7 +51,7 @@ def subject_relative_clause(noun):
 # test
 
 for i in range(1000):
-    N = choice(get_all("animate", "1"))
+    N = choice(get_all("animate", "1", get_all("category", "N")))
     rc = subject_relative_clause(N)
     print(N[0], rc[0])
 
