@@ -5,8 +5,8 @@ import numpy as np
 from utils.data_type import data_type
 import os
 
-project_home = "/Users/alexwarstadt/Workspace/data_generation"
-vocab = np.genfromtxt(os.path.join(project_home, "vocabulary.csv"), delimiter=",", names=True, dtype=data_type)
+vocab_path = os.path.join("/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1]), "vocabulary.csv")
+vocab = np.genfromtxt(vocab_path, delimiter=",", names=True, dtype=data_type)
 
 # def get_all(label, value):
 #     return np.array(list(filter(lambda x: x[label]==value, vocab)), dtype=data_type)

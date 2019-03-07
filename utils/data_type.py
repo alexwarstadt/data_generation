@@ -32,6 +32,7 @@ data_type = [("expression", "U100000"),
              ("thing", "U1"),
              ("breakable", "U1"),
              ("start_with_vowel", "U1"),
-             ("frontable", "U1")
+             ("frontable", "U1"),
+             ("gender", "U1")
             ]
 
