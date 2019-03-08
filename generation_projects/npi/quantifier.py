@@ -3,13 +3,15 @@
 
 # TODO: document metadata
 
-from utils.vocab_table import *
 from utils.conjugate import *
-from random import choice
 from utils.string_utils import remove_extra_whitespace
+from random import choice
+import numpy as np
 
 # initialize output file
-output = open("../outputs/npi/environment=quantifiers.tsv", "w")
+rel_output_path = "outputs/npi/environment=quantifiers.tsv"
+project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
+output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
 number_to_generate = 100

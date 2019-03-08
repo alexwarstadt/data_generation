@@ -3,11 +3,11 @@
 
 # TODO: document metadata
 
-from utils.vocab_table import *
-from utils.conjugate import *
-from utils.data_type import data_type
+from .vocab_table import *
+from .conjugate import *
+from .data_type import data_type
 from random import choice
-from utils.string_utils import remove_extra_whitespace
+from . import remove_extra_whitespace
 import numpy as np
 import random
 
@@ -50,9 +50,9 @@ def subject_relative_clause(noun):
 
 # test
 
-for i in range(1000):
-    N = choice(get_all("animate", "1", get_all("category", "N")))
-    rc = subject_relative_clause(N)
-    print(N[0], rc[0])
-
-pass
+# for i in range(1000):
+#     N = choice(get_all("animate", "1", get_all("category", "N")))
+#     rc = subject_relative_clause(N)
+#     print(N[0], rc[0])
+#
+# pass

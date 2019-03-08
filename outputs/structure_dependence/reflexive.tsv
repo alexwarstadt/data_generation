@@ -1,0 +1,40 @@
+exp=polar_src=1_highest=1_last=1	1		every dude who should talk to all pedestrians listened to himself.
+exp=polar_src=1_highest=0_last=0	0		every dude who should talk to all pedestrians listened to themselves.
+exp=polar_src=0_highest=1_last=0	1		every dude who should talk to himself listened to all pedestrians.
+exp=polar_src=0_highest=0_last=1	0		every dude who should talk to themselves listened to all pedestrians.
+exp=polar_src=1_highest=1_last=1	1		this kid who is admiring all boys hated himself.
+exp=polar_src=1_highest=0_last=0	0		this kid who is admiring all boys hated themselves.
+exp=polar_src=0_highest=1_last=0	1		this kid who is admiring himself hated all boys.
+exp=polar_src=0_highest=0_last=1	0		this kid who is admiring themselves hated all boys.
+exp=polar_src=1_highest=1_last=1	1		every girl who does remember many kids was helping herself.
+exp=polar_src=1_highest=0_last=0	0		every girl who does remember many kids was helping themselves.
+exp=polar_src=0_highest=1_last=0	1		every girl who does remember herself was helping many kids.
+exp=polar_src=0_highest=0_last=1	0		every girl who does remember themselves was helping many kids.
+exp=polar_src=1_highest=1_last=1	1		all cashiers who should attack that waitress will work with themselves.
+exp=polar_src=1_highest=0_last=0	0		all cashiers who should attack that waitress will work with itself.
+exp=polar_src=0_highest=1_last=0	1		all cashiers who should attack themselves will work with that waitress.
+exp=polar_src=0_highest=0_last=1	0		all cashiers who should attack itself will work with that waitress.
+exp=polar_src=1_highest=1_last=1	1		every teacher who visited all humans was attacking himself.
+exp=polar_src=1_highest=0_last=0	0		every teacher who visited all humans was attacking themselves.
+exp=polar_src=0_highest=1_last=0	1		every teacher who visited himself was attacking all humans.
+exp=polar_src=0_highest=0_last=1	0		every teacher who visited themselves was attacking all humans.
+exp=polar_src=1_highest=1_last=1	1		a gal who should love all boys kissed herself.
+exp=polar_src=1_highest=0_last=0	0		a gal who should love all boys kissed themselves.
+exp=polar_src=0_highest=1_last=0	1		a gal who should love herself kissed all boys.
+exp=polar_src=0_highest=0_last=1	0		a gal who should love themselves kissed all boys.
+exp=polar_src=1_highest=1_last=1	1		this patient who had talked to all men talked to himself.
+exp=polar_src=1_highest=0_last=0	0		this patient who had talked to all men talked to themselves.
+exp=polar_src=0_highest=1_last=0	1		this patient who had talked to himself talked to all men.
+exp=polar_src=0_highest=0_last=1	0		this patient who had talked to themselves talked to all men.
+exp=polar_src=1_highest=1_last=1	1		these pedestrians who should remember an actor are visiting themselves.
+exp=polar_src=1_highest=0_last=0	0		these pedestrians who should remember an actor are visiting himself.
+exp=polar_src=0_highest=1_last=0	1		these pedestrians who should remember themselves are visiting an actor.
+exp=polar_src=0_highest=0_last=1	0		these pedestrians who should remember himself are visiting an actor.
+exp=polar_src=1_highest=1_last=1	1		that actor who does remember these dudes is listening to himself.
+exp=polar_src=1_highest=0_last=0	0		that actor who does remember these dudes is listening to themselves.
+exp=polar_src=0_highest=1_last=0	1		that actor who does remember himself is listening to these dudes.
+exp=polar_src=0_highest=0_last=1	0		that actor who does remember themselves is listening to these dudes.
+exp=polar_src=1_highest=1_last=1	1		that man who was helping the girl talked to himself.
+exp=polar_src=1_highest=0_last=0	0		that man who was helping the girl talked to herself.
+exp=polar_src=0_highest=1_last=0	1		that man who was helping himself talked to the girl.
+exp=polar_src=0_highest=0_last=1	0		that man who was helping herself talked to the girl.
