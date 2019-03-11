@@ -12,11 +12,11 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of sentences to generate
-number_to_generate = 1000
+number_to_generate = 10
 sentences = set()
 
 # gather word classes that will be accessed frequently
-all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1")])
+all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("common", "1")])
 all_common_quantifiers = get_all("common", "1", get_all("category", "(S/(S\\NP))/N"))
 all_transitive_verbs = get_all("arg_1", "animate=1", get_all("category", "(S\\NP)/NP"))
 all_frontable_aux = get_all("frontable", "1") #TODO: don't worry about frontable aux

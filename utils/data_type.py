@@ -29,11 +29,13 @@ data_type = [("expression", "U100000"),
              ("occupation", "U1"),
              ("clothing", "U1"),
              ("appearance", "U1"),
-             ("thing", "U1"),
+             ("physical", "U1"),
+             ("conceptual", "U1"),
              ("breakable", "U1"),
              ("start_with_vowel", "U1"),
              ("frontable", "U1"),
              ("gender", "U1"),
-             ("irrpl", "U1")
+             ("irrpl", "U1"),
+             ("document", "U1")
             ]
 
