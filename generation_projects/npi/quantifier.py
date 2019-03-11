@@ -14,11 +14,11 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 100
+number_to_generate = 1000
 sentences = set()
 
 # gather word classes that will be accessed frequently
-all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1")])
+all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("common", "1")])
 all_quantifiers = get_all("category", "(S/(S\\NP))/N")
 all_UE_UE_quantifiers = get_all("restrictor_DE", "0", all_quantifiers)
 all_DE_UE_quantifiers = get_all("restrictor_DE", "1", get_all("scope_DE", "0", all_quantifiers)) #TODO: FC any takes singulars

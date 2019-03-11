@@ -18,7 +18,9 @@ def get_all(label, value, table=vocab):
     :param table: ndarray of vocab items.
     :return: table restricted to all entries with "value" in field "label"
     """
-    return np.array(list(filter(lambda x: x[label]==value, table)), dtype=data_type)
+    # TODO: this should not be based on string equality, but disjunction matching
+    # return np.array(list(filter(lambda x: condition_is_match_disj(value, x[label]), table)), dtype=data_type)
+    return np.array(list(filter(lambda x: x[label] == value, table)), dtype=data_type)
 
 def get_all_conjunctive(labels_values, table=vocab):
     """
@@ -106,4 +108,32 @@ def is_match_conj(row, conjunction):
             pass
     return match
 
+def condition_is_match_disj(condition, disjunction):
+    """
+    :param condition: a string representing a selectional condition
+    :param disjunction: a string corresponding to a disjunction of selectional restrictions
+    :return: true if the row matches one of the disjuncts, false otherwise
+    """
+    if disjunction == "":
+        return True
+    else:
+        disjuncts = disjunction.split(";")
+        match = False
+        for d in disjuncts:
+            match = match or condition_is_match_conj(condition, d)
+        return match
 
+def condition_is_match_conj(condition, conjunction):
+    """
+    :param condition: a string representing a selectional condition
+    :param conjunction: a string corresponding to a conjunction of selectional restrictions
+    :return: true if the row matches the conjunction, false otherwise
+    """
+    conjuncts = conj_list(conjunction)
+    match = True
+    for k, v in conjuncts:
+        try:
+            match = match and condition[k] == v
+        except TypeError:
+            pass
+    return match
