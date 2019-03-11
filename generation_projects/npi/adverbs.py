@@ -16,10 +16,10 @@ number_to_generate = 100
 sentences = set()
 
 # gather word classes that will be accessed frequently
+all_common_dets = np.append(get_all("expression", "the"), np.append(get_all("expression", "a"), get_all("expression", "an")))
 all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1")])
-all_adverbs = get_all("category_2", "Adv")
-all_nonfreq_adverbs = get_all("frequent", "0", all_adverbs)
-all_freq_adverbs = get_all("frequent", "1", all_adverbs)
+all_nonfreq_adverbs = get_all_conjunctive([("frequent", "0"), ("category_2", "Adv")])
+all_freq_adverbs = get_all_conjunctive([("frequent", "1"), ("category_2", "Adv")])
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_embedding_verbs = get_all_conjunctive([("category_2","V_embedding"),("finite","1")])
 all_nouns = get_all("category", "N")
@@ -27,34 +27,35 @@ all_nouns = get_all("category", "N")
 # sample sentences until desired number
 while len(sentences) < number_to_generate:
     # sentence template
-    # The N1   Adv     ever/also V1   that the N2   V2   the N3
-    # The boy  rarely  ever/also says that the girl sang the song
+    # D1    N1   Adv     ever/also V1   that D2    N2   V2   D3    N3
+    # The/a boy  rarely  ever/also says that the/a girl sang the/a song
 
     # build all lexical items
     #TODO: throw in modifiers
     N1 = choice(all_animate_nouns)
-    # D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
-    # D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
+    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
     Adv_freq = choice(all_freq_adverbs)
     Adv_nonfreq = choice(all_nonfreq_adverbs)
     V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
     conjugate(V1, N1)
     N2 = choice(all_animate_nouns)
+    D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
     V2 = choice(get_matched_by(N2, "arg_1", all_transitive_verbs))
     conjugate(V2, N2)
     N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
+    D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
 
     # build sentences with frequent adverb
-    sentence_1 = "the %s %s ever %s that the %s %s the %s ." % (N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_2 = "the %s %s also %s that the %s %s the %s ." % (N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_3 = "the %s %s %s that the %s ever %s the %s ." % (N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_4 = "the %s %s %s that the %s also %s the %s ." % (N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_1 = "%s %s %s ever %s that %s %s %s %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])
+    sentence_2 = "%s %s %s also %s that %s %s %s %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])
+    sentence_3 = "%s %s %s %s that %s %s ever %s %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])
+    sentence_4 = "%s %s %s %s that %s %s also %s %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])
 
     # build sentences with nonfrequent adverb
-    sentence_5 = "the %s %s ever %s that the %s %s the %s ." % (N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_6 = "the %s %s also %s that the %s %s the %s ." % (N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_7 = "the %s %s %s that the %s ever %s the %s ." % (N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_8 = "the %s %s %s that the %s also %s the %s ." % (N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_5 = "%s %s %s ever %s that %s %s %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])
+    sentence_6 = "%s %s %s also %s that %s %s %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])
+    sentence_7 = "%s %s %s %s that %s %s ever %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])
+    sentence_8 = "%s %s %s %s that %s %s also %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)
@@ -85,8 +86,6 @@ while len(sentences) < number_to_generate:
     sentences.add(sentence_1)
 
 # the end :)
-
-
 
 
 
