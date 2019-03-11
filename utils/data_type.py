@@ -33,6 +33,7 @@ data_type = [("expression", "U100000"),
              ("breakable", "U1"),
              ("start_with_vowel", "U1"),
              ("frontable", "U1"),
-             ("gender", "U1")
+             ("gender", "U1"),
+             ("irrpl", "U1")
             ]
 
