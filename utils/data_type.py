@@ -36,6 +36,7 @@ data_type = [("expression", "U100000"),
              ("frontable", "U1"),
              ("gender", "U1"),
              ("irrpl", "U1"),
-             ("document", "U1")
+             ("document", "U1"),
+             ("frequent", "U1")
             ]
 
