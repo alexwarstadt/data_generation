@@ -103,11 +103,11 @@ def subject_relative_clause(noun):
 
 # test
 
-tvs = get_all("category", "(S\\NP)/NP")
-
-for tv in tvs:
-    args = verb_args_from_verb(tv)
-    print(" ".join([args["subject"][0], args["auxiliary"][0], tv[0], args["object"][0]]))
+# tvs = get_all("category", "(S\\NP)/NP")
+#
+# for tv in tvs:
+#     args = verb_args_from_verb(tv)
+#     print(" ".join([args["subject"][0], args["auxiliary"][0], tv[0], args["object"][0]]))
 
 # for i in range(1000):
 #     N = choice(get_all("animate", "1", get_all("category", "N")))

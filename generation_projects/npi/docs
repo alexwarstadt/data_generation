@@ -1,0 +1,20 @@
+##### QUANTIFIER #####
+- Paradigm sample
+    experiment=NPI_env=quantifier_npi=any_quantifier=a_licensor=0_scope=1_npi-present=1	0		a lady who sells any pants had hugged many children .
+    experiment=NPI_env=quantifier_npi=any_quantifier=a_licensor=0_scope=1_npi-present=0	1		a lady who sells the pants had hugged many children .
+    experiment=NPI_env=quantifier_npi=any_quantifier=a_licensor=0_scope=0_npi-present=1	0		a lady who sells a lot of pants had hugged any children .
+    experiment=NPI_env=quantifier_npi=any_quantifier=a_licensor=0_scope=0_npi-present=0	1		a lady who sells a lot of pants had hugged the children .
+    experiment=NPI_env=quantifier_npi=any_quantifier=every_licensor=1_scope=1_npi-present=1	1		every lady who sells any pants had hugged many children .
+    experiment=NPI_env=quantifier_npi=any_quantifier=every_licensor=1_scope=1_npi-present=0	1		every lady who sells the pants had hugged many children .
+    experiment=NPI_env=quantifier_npi=any_quantifier=every_licensor=1_scope=0_npi-present=1	0		every lady who sells a lot of pants had hugged any children .
+    experiment=NPI_env=quantifier_npi=any_quantifier=every_licensor=1_scope=0_npi-present=0	1		every lady who sells a lot of pants had hugged the children .
+- Metadata
+    - experiment: the name of the experiment (i.e. NPI)
+    - env: the NPI environment in the dataset (i.e. quantifiers)
+    - npi: the specific NPI appearing in the example
+    - quantifier: the specific quantifier appearing in the example
+    - licensor: is the NPI licensor present?
+        - in this case, always a DE/UE quantifier like "every"
+    - scope: is the NPI or its replacement in the scope of the licensor?
+        - in this case, a relative clause modifying the subject
+    - npi-present: is the NPI present?

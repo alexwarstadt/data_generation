@@ -1,40 +1,40 @@
-exp=polar_src=1_highest=1_last=1	1		every dude who should talk to all pedestrians listened to himself.
-exp=polar_src=1_highest=0_last=0	0		every dude who should talk to all pedestrians listened to themselves.
-exp=polar_src=0_highest=1_last=0	1		every dude who should talk to himself listened to all pedestrians.
-exp=polar_src=0_highest=0_last=1	0		every dude who should talk to themselves listened to all pedestrians.
-exp=polar_src=1_highest=1_last=1	1		this kid who is admiring all boys hated himself.
-exp=polar_src=1_highest=0_last=0	0		this kid who is admiring all boys hated themselves.
-exp=polar_src=0_highest=1_last=0	1		this kid who is admiring himself hated all boys.
-exp=polar_src=0_highest=0_last=1	0		this kid who is admiring themselves hated all boys.
-exp=polar_src=1_highest=1_last=1	1		every girl who does remember many kids was helping herself.
-exp=polar_src=1_highest=0_last=0	0		every girl who does remember many kids was helping themselves.
-exp=polar_src=0_highest=1_last=0	1		every girl who does remember herself was helping many kids.
-exp=polar_src=0_highest=0_last=1	0		every girl who does remember themselves was helping many kids.
-exp=polar_src=1_highest=1_last=1	1		all cashiers who should attack that waitress will work with themselves.
-exp=polar_src=1_highest=0_last=0	0		all cashiers who should attack that waitress will work with itself.
-exp=polar_src=0_highest=1_last=0	1		all cashiers who should attack themselves will work with that waitress.
-exp=polar_src=0_highest=0_last=1	0		all cashiers who should attack itself will work with that waitress.
-exp=polar_src=1_highest=1_last=1	1		every teacher who visited all humans was attacking himself.
-exp=polar_src=1_highest=0_last=0	0		every teacher who visited all was attacking themselves.
-exp=polar_src=0_highest=1_last=0	1		every teacher who visited himself was attacking all humans.
-exp=polar_src=0_highest=0_last=1	0		every teacher who visited themselves was attacking all humans.
-exp=polar_src=1_highest=1_last=1	1		a gal who should love all boys kissed herself.
-exp=polar_src=1_highest=0_last=0	0		a gal who should love all boys kissed themselves.
-exp=polar_src=0_highest=1_last=0	1		a gal who should love herself kissed all boys.
-exp=polar_src=0_highest=0_last=1	0		a gal who should love themselves kissed all boys.
-exp=polar_src=1_highest=1_last=1	1		this patient who had talked to all men talked to himself.
-exp=polar_src=1_highest=0_last=0	0		this patient who had talked to all men talked to themselves.
-exp=polar_src=0_highest=1_last=0	1		this patient who had talked to himself talked to all men.
-exp=polar_src=0_highest=0_last=1	0		this patient who had talked to themselves talked to all men.
-exp=polar_src=1_highest=1_last=1	1		these pedestrians who should remember an actor are visiting themselves.
-exp=polar_src=1_highest=0_last=0	0		these pedestrians who should remember an actor are visiting himself.
-exp=polar_src=0_highest=1_last=0	1		these pedestrians who should remember themselves are visiting an actor.
-exp=polar_src=0_highest=0_last=1	0		these pedestrians who should remember himself are visiting an actor.
-exp=polar_src=1_highest=1_last=1	1		that actor who does remember these dudes is listening to himself.
-exp=polar_src=1_highest=0_last=0	0		that actor who does remember these dudes is listening to themselves.
-exp=polar_src=0_highest=1_last=0	1		that actor who does remember himself is listening to these dudes.
-exp=polar_src=0_highest=0_last=1	0		that actor who does remember themselves is listening to these dudes.
-exp=polar_src=1_highest=1_last=1	1		that man who was helping the girl talked to himself.
-exp=polar_src=1_highest=0_last=0	0		that man who was helping the girl talked to herself.
-exp=polar_src=0_highest=1_last=0	1		that man who was helping himself talked to the girl.
-exp=polar_src=0_highest=0_last=1	0		that man who was helping herself talked to the girl.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		a woman that works with herself praises some doctor.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		a woman that works with themselves praises some doctor.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		a woman that works with some doctor praises herself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		a woman that works with some doctor praises themselves.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		many dudes who had cared for themselves would like every actress.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		many dudes who had cared for herself would like every actress.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		many dudes who had cared for every actress would like themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		many dudes who had cared for every actress would like herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		these adults that criticized themselves would care for all books.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		these adults that criticized herself would care for all books.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		these adults that criticized all books would care for themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		these adults that criticized all books would care for herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		every man that praises himself had hugged many doctors.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		every man that praises themselves had hugged many doctors.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		every man that praises many doctors had hugged himself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		every man that praises many doctors had hugged themselves.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		the waiter who does care for themselves is criticizing the gal.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		the waiter who does care for herself is criticizing the gal.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		the waiter who does care for the gal is criticizing themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		the waiter who does care for the gal is criticizing herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		this driver that works with themselves has disliked a boy.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		this driver that works with himself has disliked a boy.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		this driver that works with a boy has disliked themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		this driver that works with a boy has disliked himself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		that adult who liked themselves was visiting the book.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		that adult who liked itself was visiting the book.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		that adult who liked the book was visiting themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		that adult who liked the book was visiting itself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		boys that are referencing themselves were admiring these essays.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		boys that are referencing itself were admiring these essays.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		boys that are referencing these essays were admiring themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		boys that are referencing these essays were admiring itself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		some men that can hate themselves attacked the dude.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		some men that can hate himself attacked the dude.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		some men that can hate the dude attacked themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		some men that can hate the dude attacked himself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=1	1		the dudes who have described themselves visited many stories.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-precede=0	0		the dudes who have described himself visited many stories.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-precede=1	1		the dudes who have described many stories visited themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-precede=1	0		the dudes who have described many stories visited himself.
