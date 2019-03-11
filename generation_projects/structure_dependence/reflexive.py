@@ -8,7 +8,9 @@ from utils.string_utils import remove_extra_whitespace
 
 
 # initialize output file
-output = open("../../outputs/structure_dependence/reflexive.tsv", "w")
+rel_output_path = "outputs/structure_dependence/polar_q.tsv"
+project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
+output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of sentences to generate
 number_to_generate = 10

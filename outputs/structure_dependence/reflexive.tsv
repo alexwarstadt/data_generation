@@ -15,7 +15,7 @@ exp=polar_src=1_highest=0_last=0	0		all cashiers who should attack that waitress
 exp=polar_src=0_highest=1_last=0	1		all cashiers who should attack themselves will work with that waitress.
 exp=polar_src=0_highest=0_last=1	0		all cashiers who should attack itself will work with that waitress.
 exp=polar_src=1_highest=1_last=1	1		every teacher who visited all humans was attacking himself.
-exp=polar_src=1_highest=0_last=0	0		every teacher who visited all humans was attacking themselves.
+exp=polar_src=1_highest=0_last=0	0		every teacher who visited all was attacking themselves.
 exp=polar_src=0_highest=1_last=0	1		every teacher who visited himself was attacking all humans.
 exp=polar_src=0_highest=0_last=1	0		every teacher who visited themselves was attacking all humans.
 exp=polar_src=1_highest=1_last=1	1		a gal who should love all boys kissed herself.
