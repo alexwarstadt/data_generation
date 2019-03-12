@@ -14,11 +14,11 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 1000
+number_to_generate = 10
 sentences = set()
 
 # gather word classes that will be accessed frequently
-all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("common", "1")])
+all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
 all_quantifiers = get_all("category", "(S/(S\\NP))/N")
 all_UE_UE_quantifiers = get_all("restrictor_DE", "0", all_quantifiers)
 all_DE_UE_quantifiers = get_all("restrictor_DE", "1", get_all("scope_DE", "0", all_quantifiers)) #TODO: FC any takes singulars
@@ -37,11 +37,11 @@ while len(sentences) < number_to_generate:
     D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
     D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
     V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V1, N1)
+    conjugate(V1, N1, allow_negated=False)
     N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))        # restrict to UE quantifiers, otherwise there could be another licensor
     V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V2, N1)
+    conjugate(V2, N1, allow_negated=False)
     N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
     D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
 
@@ -109,11 +109,11 @@ while len(sentences) < number_to_generate:
     D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
     D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
     V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    Aux1 = return_aux(V1, N1)
+    Aux1 = return_aux(V1, N1, allow_negated=False)
     N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))
     V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    Aux2 = return_aux(V2, N1)
+    Aux2 = return_aux(V2, N1, allow_negated=False)
     N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
     D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
 

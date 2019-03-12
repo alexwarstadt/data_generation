@@ -16,8 +16,8 @@ number_to_generate = 10
 sentences = set()
 
 # gather word classes that will be accessed frequently
-all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("common", "1")])
-all_common_quantifiers = get_all("common", "1", get_all("category", "(S/(S\\NP))/N"))
+all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
+all_frequent_quantifiers = get_all("frequent", "1", get_all("category", "(S/(S\\NP))/N"))
 all_transitive_verbs = get_all("arg_1", "animate=1", get_all("category", "(S\\NP)/NP"))
 all_frontable_aux = get_all("frontable", "1") #TODO: don't worry about frontable aux
 
@@ -33,11 +33,11 @@ while len(sentences) < number_to_generate:
     # is/has the man (is) kissing the patient who (has) met   the boy ?
 
     N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_quantifiers))
+    D1 = choice(get_matched_by(N1, "arg_1", all_frequent_quantifiers))
     N2 = choice(all_animate_nouns)
-    D2 = choice(get_matched_by(N2, "arg_1", all_common_quantifiers))
+    D2 = choice(get_matched_by(N2, "arg_1", all_frequent_quantifiers))
     N3 = choice(all_animate_nouns)
-    D3 = choice(get_matched_by(N3, "arg_1", all_common_quantifiers))
+    D3 = choice(get_matched_by(N3, "arg_1", all_frequent_quantifiers))
     Aux1 = choice(get_matched_by(N1, "arg_1", all_frontable_aux))   #TODO: worry about participles/present plurals that are homophones with past/bare
     V1 = choice(get_matches_of(Aux1, "arg_2", all_anim_anim_verbs))
     Aux2 = choice(get_matched_by(N1, "arg_1", all_frontable_aux))   #TODO: worry about participles/present plurals that are homophones with past/bare
