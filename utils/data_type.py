@@ -6,7 +6,7 @@
 data_type = [("expression", "U100000"),
              ("category", "U20"),
              ("category_2", "U20"),
-             ("common", "U1"),
+             ("frequent", "U1"),
              ("sg", "U1"),
              ("pl", "U1"),
              ("mass", "U1"),
@@ -37,6 +37,6 @@ data_type = [("expression", "U100000"),
              ("gender", "U1"),
              ("irrpl", "U1"),
              ("document", "U1"),
-             ("frequent", "U1")
+             ("negated", "U1")
             ]
 

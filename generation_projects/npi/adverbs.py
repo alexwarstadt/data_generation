@@ -41,7 +41,7 @@ while len(sentences) < number_to_generate:
     # build all lexical items
     #TODO: throw in modifiers
     N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+    D1 = choice(get_matched_by(N1, "arg_1", all_frequent_dets))
     Adv_freq = choice(all_freq_adverbs)
     Adv_nonfreq = choice(all_nonfreq_adverbs)
     V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
@@ -51,7 +51,7 @@ while len(sentences) < number_to_generate:
     V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_transitive_verbs))
     conjugate(V2, N2)
     N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
-    D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
+    D3 = choice(get_matched_by(N3, "arg_1", all_frequent_dets))
 
     # build sentences with frequent adverb
     sentence_1 = "%s %s %s ever %s that %s %s %s %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])

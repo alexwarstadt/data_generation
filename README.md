@@ -14,8 +14,7 @@ The generation_projects package contains scripts for specific generated datasets
 
 VOCABULARY
 
-The vocabulary should be edited in vocabulary.numbers. Once desired edits have been made, export to vocabulary.csv, as
-the .numbers file cannot be read.
+The vocabulary lives in vocabulary.csv.
 
 If you add a new column, you must update utils/data_type.py.
 
@@ -30,7 +29,25 @@ Selectional restrictions are written in disjunctive normal form:
 
 
 UTILS
+utils.conjugate includes functions which conjugate verbs and add selecting auxiliaries/modals
+utils.constituent_building includes functions which "do syntax":
+    - build a subject relative clause from a head (subject_relative_clause)
+    - gather all arguments of a verb (verb_args_from_verb)
+utils.data_type contains the all-important data_type necessary for the numpy structured array data structure used in the vocabulary
+utils.string_utils contains functions for modifying strings
+utils.vocab_table contains functions for creating and accessing the vocabulary table
+    - get_all gathers all vocab items with a given restriction
+    - get_all_conjunctive gathers all vocab items with the given restrictions
+
+
+DOCUMENTATION
+Within each project's output directory, there is (should be) a docs document which explains:
+    - the metadata in the output file
+    - the data paradigm
 
 
 GENERATION PROJECTS
-
+long distance
+npi
+plurality
+structure dependence
