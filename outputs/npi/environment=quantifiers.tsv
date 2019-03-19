@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 experiment=NPI_env=quantifier_npi=any_quantifier=some_licensor=0_scope=1_npi-present=1	0		some waitress who was kissing any lice is bringing more than three shoes .
 experiment=NPI_env=quantifier_npi=any_quantifier=some_licensor=0_scope=1_npi-present=0	1		some waitress who was kissing the lice is bringing more than three shoes .
 experiment=NPI_env=quantifier_npi=any_quantifier=some_licensor=0_scope=0_npi-present=1	0		some waitress who was kissing many lice is bringing any shoes .
@@ -21156,4 +21155,3 @@ experiment=NPI_env=quantifier_npi=any_quantifier=more than three_licensor=0_scop
 experiment=NPI_env=quantifier_npi=any_quantifier=more than three_licensor=0_scope=1_npi-present=0	1		more than three men who were criticizing the patients are breaking more than three books .
 experiment=NPI_env=quantifier_npi=any_quantifier=more than three_licensor=0_scope=0_npi-present=1	0		more than three men who were criticizing some patients are breaking any books .
 experiment=NPI_env=quantifier_npi=any_quantifier=more than three_licensor=0_scope=0_npi-present=0	1		more than three men who were criticizing some patients are breaking the books .
->>>>>>> 08286c41bff08c0235a14c30df046b5ddf8bfecb
