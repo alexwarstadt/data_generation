@@ -41,7 +41,7 @@ while len(sentences) < number_to_generate:
     # build all lexical items
     #TODO: throw in modifiers
     N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_frequent_dets))
+    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
     Adv_freq = choice(all_freq_adverbs)
     Adv_nonfreq = choice(all_nonfreq_adverbs)
     V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
@@ -51,7 +51,7 @@ while len(sentences) < number_to_generate:
     V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_transitive_verbs))
     conjugate(V2, N2)
     N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
-    D3 = choice(get_matched_by(N3, "arg_1", all_frequent_dets))
+    D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
 
     # build sentences with frequent adverb
     sentence_1 = "%s %s %s ever %s that %s %s %s %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], D2[0], N2[0], V2[0], D3[0], N3[0])
@@ -109,10 +109,10 @@ while len(sentences) < number_to_generate:
     Adv_freq = choice(all_freq_adverbs)
     Adv_nonfreq = choice(all_nonfreq_adverbs)
     V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    conjugate(V1, N1)
+    conjugate(V1, N1, allow_negated=False)
     N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    conjugate(V2, N1)
+    conjugate(V2, N1, allow_negated=False)
     N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
 
     # build sentences with frequent adverb
@@ -152,5 +152,80 @@ while len(sentences) < number_to_generate:
         output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=adverbs_npi=any_adverb=%s_licensor=1_scope=0_npi-present=0" % Adv_nonfreq[0], 1, sentence_8))
 
     sentences.add(sentence_1)
+
+# end of "any"
+
+# repeat for "at all"
+
+sentences = set()
+while len(sentences) < number_to_generate:
+    # sentence template
+    # D1    N1   who  Adv    V1    N2       (at all/on weekends) V2    N3    (at all/on weekends)
+    # The/a boy  who  rarely helps children (at all/on weekends) sang  songs (at all/on weekends)
+
+    # build all lexical items
+    N1 = choice(all_animate_nouns)
+    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+    Adv_freq = choice(all_freq_adverbs)
+    Adv_nonfreq = choice(all_nonfreq_adverbs)
+    V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+    conjugate(V1, N1, allow_negated=False)
+    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
+    V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+    conjugate(V2, N1, allow_negated=False)
+    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+
+    # build sentences with frequent adverb
+    sentence_1 = "%s %s who %s %s %s at all %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_2 = "%s %s who %s %s %s on weekends %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_3 = "%s %s who %s %s %s %s %s at all ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_4 = "%s %s who %s %s %s %s %s on weekends ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
+
+    # build sentences with nonfrequent adverb
+    sentence_5 = "%s %s who %s %s %s at all %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_6 = "%s %s who %s %s %s on weekends %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_7 = "%s %s who %s %s %s %s %s at all ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_8 = "%s %s who %s %s %s %s %s on weekends ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
+
+    # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
+    sentence_1 = remove_extra_whitespace(sentence_1)
+    sentence_2 = remove_extra_whitespace(sentence_2)
+    sentence_3 = remove_extra_whitespace(sentence_3)
+    sentence_4 = remove_extra_whitespace(sentence_4)
+    sentence_5 = remove_extra_whitespace(sentence_5)
+    sentence_6 = remove_extra_whitespace(sentence_6)
+    sentence_7 = remove_extra_whitespace(sentence_7)
+    sentence_8 = remove_extra_whitespace(sentence_8)
+
+    # write sentences to output
+    if sentence_1 not in sentences:
+        # sentences 1-4 have frequent adverb
+        output.write("%s\t%d\t\t%s\n" % (
+        "experiment=NPI_env=adverbs_npi=atall_adverb=%s_licensor=0_scope=1_npi-present=1" % Adv_freq[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % (
+        "experiment=NPI_env=adverbs_npi=atall_adverb=%s_licensor=0_scope=1_npi-present=0" % Adv_freq[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % (
+        "experiment=NPI_env=adverbs_npi=atall_adverb=%s_licensor=0_scope=0_npi-present=1" % Adv_freq[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % (
+        "experiment=NPI_env=adverbs_npi=atall_adverb=%s_licensor=0_scope=0_npi-present=0" % Adv_freq[0], 1, sentence_4))
+
+        # sentences 5-8 have nonfrequent adverb
+        output.write("%s\t%d\t\t%s\n" % (
+        "experiment=NPI_env=adverbs_npi=atall_adverb=%s_licensor=1_scope=1_npi-present=1" % Adv_nonfreq[0], 1,
+        sentence_5))
+        output.write("%s\t%d\t\t%s\n" % (
+        "experiment=NPI_env=adverbs_npi=atall_adverb=%s_licensor=1_scope=1_npi-present=0" % Adv_nonfreq[0], 1,
+        sentence_6))
+        output.write("%s\t%d\t\t%s\n" % (
+        "experiment=NPI_env=adverbs_npi=atall_adverb=%s_licensor=1_scope=0_npi-present=1" % Adv_nonfreq[0], 0,
+        sentence_7))
+        output.write("%s\t%d\t\t%s\n" % (
+        "experiment=NPI_env=adverbs_npi=atall_adverb=%s_licensor=1_scope=0_npi-present=0" % Adv_nonfreq[0], 1,
+        sentence_8))
+
+    # keep track of which sentences have already been generated
+    sentences.add(sentence_1)
+
+# end of adverbs
 
 output.close()
