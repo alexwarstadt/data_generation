@@ -98,6 +98,12 @@ while len(sentences) < number_to_generate:
 # ever doesn't occur with progressive
 # Every boy who has ever eaten a potato is tall.
 # *? Every boy who is ever eating a potato is tall.
+
+# PITFALL #2:
+# ever occurs after auxiliary "do"
+# The boy rarely ever did say that the girl wears jeans.
+# * The boy rarely did ever say that the girl wears jeans.
+
 sentences = set()
 all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
 while len(sentences) < number_to_generate:
@@ -128,17 +134,30 @@ while len(sentences) < number_to_generate:
     else:
         matrix_adv = "now" if Aux2["pres"] == "1" else "once"
 
+    # check for do/does/did for both aux verbs, make these directly adjacent to verb.
+    if Aux1[0] in ["do", "does", "did"]:
+        Aux1_final = ""
+        V1_final = Aux1[0] + " " + V1[0]
+    else:
+        Aux1_final = Aux1[0]
+        V1_final = V1[0]
 
+    if Aux2[0] in ["do", "does", "did"]:
+        Aux2_final = ""
+        V2_final = Aux2[0] + " " + V2[0]
+    else:
+        Aux2_final = Aux2[0]
+        V2_final = V2[0]
 
-    sentence_1 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_2 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1[0], emb_adv, V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_3 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_up[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_4 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], matrix_adv, V2[0], D3[0], N3[0])
+    sentence_1 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_2 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1_final, emb_adv, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_3 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_up[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_4 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, matrix_adv, V2_final, D3[0], N3[0])
 
-    sentence_5 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_6 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1[0], emb_adv, V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_7 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_down[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_8 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], matrix_adv, V2[0], D3[0], N3[0])
+    sentence_5 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_6 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1_final, emb_adv, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_7 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_down[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_8 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, matrix_adv, V2_final, D3[0], N3[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)

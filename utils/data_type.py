@@ -37,6 +37,7 @@ data_type = [("expression", "U100000"),
              ("gender", "U1"),
              ("irrpl", "U1"),
              ("document", "U1"),
-             ("negated", "U1")
+             ("negated", "U1"),
+             ("arg_clause", "U100")
             ]
 
