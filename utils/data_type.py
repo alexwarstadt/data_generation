@@ -38,6 +38,7 @@ data_type = [("expression", "U100000"),
              ("irrpl", "U1"),
              ("document", "U1"),
              ("negated", "U1"),
+             ("institution", "U1"),
              ("arg_clause", "U100")
             ]
 
