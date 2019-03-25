@@ -39,6 +39,7 @@ data_type = [("expression", "U100000"),
              ("document", "U1"),
              ("negated", "U1"),
              ("institution", "U1"),
-             ("arg_clause", "U100")
+             ("arg_clause", "U100"),
+             ("homophonous", "U1")
             ]
 

@@ -17,11 +17,10 @@ def conjugate(verb, subj, allow_negated=True):
     else:
         subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_auxiliaries)
     verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
-    try:
-        aux = choice(verb_agree_auxiliaries)
-    except IndexError:
-        pass
+    aux = choice(verb_agree_auxiliaries)
+    verb = verb.copy()
     verb[0] = aux[0] + " " + verb[0]
+    return verb
 
 
 def return_aux(verb, subj, allow_negated=True):
