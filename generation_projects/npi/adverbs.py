@@ -29,7 +29,7 @@ sentences = set()
 # * The boy rarely did ever say that the girl wears jeans.
 
 all_common_dets = np.append(get_all("expression", "the"), np.append(get_all("expression", "a"), get_all("expression", "an")))
-all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1")])
+all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
 all_nonfreq_adverbs = get_all_conjunctive([("frequent", "0"), ("category_2", "Adv")])
 all_freq_adverbs = get_all_conjunctive([("frequent", "1"), ("category_2", "Adv")])
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
