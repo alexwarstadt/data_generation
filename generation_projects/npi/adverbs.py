@@ -4,6 +4,7 @@
 from utils.conjugate import *
 from utils.string_utils import remove_extra_whitespace
 from random import choice
+import random
 import numpy as np
 
 # initialize output file
@@ -14,7 +15,7 @@ output = open(os.path.join(project_root, rel_output_path), "w")
 # generate sentences for "ever"
 
 # set total number of paradigms to generate
-number_to_generate = 100
+number_to_generate = 10
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -29,11 +30,13 @@ sentences = set()
 # * The boy rarely did ever say that the girl wears jeans.
 
 all_common_dets = np.append(get_all("expression", "the"), np.append(get_all("expression", "a"), get_all("expression", "an")))
-all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1")])
+all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
 all_nonfreq_adverbs = get_all_conjunctive([("frequent", "0"), ("category_2", "Adv")])
 all_freq_adverbs = get_all_conjunctive([("frequent", "1"), ("category_2", "Adv")])
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
+all_intransitive_verbs = get_all("category", "S\\NP")
+all_non_progressive_intransitive_verbs = get_all("ing", "0", all_intransitive_verbs)
 all_embedding_verbs = get_all_conjunctive([("category_2","V_embedding"),("finite","1")])
 all_nouns = get_all("category", "N")
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
@@ -53,10 +56,21 @@ while len(sentences) < number_to_generate:
     Aux1 = return_aux(V1, N1, allow_negated=False)
     N2 = choice(all_animate_nouns)
     D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
-    V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_transitive_verbs))
-    Aux2 = return_aux(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
-    D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
+
+    # select transitive or intransitive V2
+    x = random.random()
+    if x < 1/2:
+        # transitive V2
+        V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_transitive_verbs))
+        Aux2 = return_aux(V2, N1, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
+        D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
+    else:
+        # intransitive V2 - gives empty string for N3 and D3 slots
+        V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_intransitive_verbs))
+        Aux2 = return_aux(V2, N1, allow_negated=False)
+        N3 = " "
+        D3 = " "
 
     # check for do/does/did for both aux verbs, make the aux directly adjacent to verb.
     if Aux1[0] in ["do", "does", "did"]:
@@ -188,12 +202,30 @@ while len(sentences) < number_to_generate:
     D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
     Adv_freq = choice(all_freq_adverbs)
     Adv_nonfreq = choice(all_nonfreq_adverbs)
-    V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    conjugate(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+    # select transitive or intransitive V1
+    x = random.random()
+    if x < 1/2:
+        # transitive V2
+        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+        conjugate(V1, N1, allow_negated=False)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
+    else:
+        # intransitive V2 - gives empty string for N3 slot
+        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
+        conjugate(V1, N1, allow_negated=False)
+        N2 = " "
+
+    # select transitive or intransitive V2
+    if 1/3 < x < 2/3:
+        # transitive V2
+        V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+        conjugate(V2, N1, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+    else:
+        # intransitive V2 - gives empty string for N3 slot
+        V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
+        conjugate(V2, N1, allow_negated=False)
+        N3 = " "
 
     # build sentences with frequent adverb
     sentence_1 = "%s %s who %s %s %s at all %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])

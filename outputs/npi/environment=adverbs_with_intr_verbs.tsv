@@ -1,0 +1,240 @@
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the gal sometimes ever thought that a guy will resemble the radius .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the gal sometimes also thought that a guy will resemble the radius .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the gal sometimes thought that a guy will ever resemble the radius .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the gal sometimes thought that a guy will also resemble the radius .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the gal hardly ever thought that a guy will resemble the radius .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the gal hardly also thought that a guy will resemble the radius .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the gal hardly thought that a guy will ever resemble the radius .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the gal hardly thought that a guy will also resemble the radius .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		a teenager sometimes ever said that the actor does walk through the restaurant .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		a teenager sometimes also said that the actor does walk through the restaurant .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		a teenager sometimes said that the actor ever does walk through the restaurant .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		a teenager sometimes said that the actor also does walk through the restaurant .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		a teenager scarcely ever said that the actor does walk through the restaurant .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		a teenager scarcely also said that the actor does walk through the restaurant .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		a teenager scarcely said that the actor ever does walk through the restaurant .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		a teenager scarcely said that the actor also does walk through the restaurant .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the actors always ever imagined that an actor spins around .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the actors always also imagined that an actor spins around .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the actors always imagined that an actor ever spins around .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the actors always imagined that an actor also spins around .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the actors scarcely ever imagined that an actor spins around .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the actors scarcely also imagined that an actor spins around .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the actors scarcely imagined that an actor ever spins around .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the actors scarcely imagined that an actor also spins around .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the human often ever thought that the waiters had cleaned the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the human often also thought that the waiters had cleaned the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the human often thought that the waiters had ever cleaned the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the human often thought that the waiters had also cleaned the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the human seldom ever thought that the waiters had cleaned the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the human seldom also thought that the waiters had cleaned the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the human seldom thought that the waiters had ever cleaned the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the human seldom thought that the waiters had also cleaned the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the guest often ever explains that a woman has sighed .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the guest often also explains that a woman has sighed .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the guest often explains that a woman has ever sighed .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the guest often explains that a woman has also sighed .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the guest scarcely ever explains that a woman has sighed .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the guest scarcely also explains that a woman has sighed .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the guest scarcely explains that a woman has ever sighed .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the guest scarcely explains that a woman has also sighed .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the adults often ever explain that the adult have donated .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the adults often also explain that the adult have donated .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the adults often explain that the adult have ever donated .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the adults often explain that the adult have also donated .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the adults rarely ever explain that the adult have donated .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the adults rarely also explain that the adult have donated .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the adults rarely explain that the adult have ever donated .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the adults rarely explain that the adult have also donated .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the cashier sometimes ever imagined that the pedestrians had hunted .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the cashier sometimes also imagined that the pedestrians had hunted .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the cashier sometimes imagined that the pedestrians had ever hunted .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the cashier sometimes imagined that the pedestrians had also hunted .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the cashier scarcely ever imagined that the pedestrians had hunted .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the cashier scarcely also imagined that the pedestrians had hunted .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the cashier scarcely imagined that the pedestrians had ever hunted .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the cashier scarcely imagined that the pedestrians had also hunted .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the adult always ever thinks that the people has argued .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the adult always also thinks that the people has argued .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the adult always thinks that the people has ever argued .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the adult always thinks that the people has also argued .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the adult barely ever thinks that the people has argued .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the adult barely also thinks that the people has argued .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the adult barely thinks that the people has ever argued .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the adult barely thinks that the people has also argued .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the women often ever imagine that the boy will return to the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the women often also imagine that the boy will return to the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the women often imagine that the boy will ever return to the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the women often imagine that the boy will also return to the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the women seldom ever imagine that the boy will return to the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the women seldom also imagine that the boy will return to the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the women seldom imagine that the boy will ever return to the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the women seldom imagine that the boy will also return to the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		a guest always ever imagined that the adult has observed the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		a guest always also imagined that the adult has observed the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		a guest always imagined that the adult has ever observed the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		a guest always imagined that the adult has also observed the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		a guest seldom ever imagined that the adult has observed the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		a guest seldom also imagined that the adult has observed the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		a guest seldom imagined that the adult has ever observed the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		a guest seldom imagined that the adult has also observed the men .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=1_npi-present=1	0		the women who often scanned any plays described newspaper articles .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=1_npi-present=0	1		the women who often scanned the plays described newspaper articles .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=0_npi-present=1	0		the women who often scanned plays described any newspaper articles .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=0_npi-present=0	1		the women who often scanned plays described the newspaper articles .
+experiment=NPI_env=adverbs_npi=any_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the women who scarcely scanned any plays described newspaper articles .
+experiment=NPI_env=adverbs_npi=any_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the women who scarcely scanned the plays described newspaper articles .
+experiment=NPI_env=adverbs_npi=any_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the women who scarcely scanned plays described any newspaper articles .
+experiment=NPI_env=adverbs_npi=any_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the women who scarcely scanned plays described the newspaper articles .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=1_npi-present=1	0		the doctor who always loves any ladies resembles series .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=1_npi-present=0	1		the doctor who always loves the ladies resembles series .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=0_npi-present=1	0		the doctor who always loves ladies resembles any series .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=0_npi-present=0	1		the doctor who always loves ladies resembles the series .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the doctor who rarely loves any ladies resembles series .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the doctor who rarely loves the ladies resembles series .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the doctor who rarely loves ladies resembles any series .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the doctor who rarely loves ladies resembles the series .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=1_npi-present=1	0		the boys who always would kiss any guys explored banks .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=1_npi-present=0	1		the boys who always would kiss the guys explored banks .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=0_npi-present=1	0		the boys who always would kiss guys explored any banks .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=0_npi-present=0	1		the boys who always would kiss guys explored the banks .
+experiment=NPI_env=adverbs_npi=any_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the boys who seldom would kiss any guys explored banks .
+experiment=NPI_env=adverbs_npi=any_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the boys who seldom would kiss the guys explored banks .
+experiment=NPI_env=adverbs_npi=any_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the boys who seldom would kiss guys explored any banks .
+experiment=NPI_env=adverbs_npi=any_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the boys who seldom would kiss guys explored the banks .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=1_npi-present=1	0		the men who often had referenced any alumni had left women .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=1_npi-present=0	1		the men who often had referenced the alumni had left women .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=0_npi-present=1	0		the men who often had referenced alumni had left any women .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=0_npi-present=0	1		the men who often had referenced alumni had left the women .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the men who rarely had referenced any alumni had left women .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the men who rarely had referenced the alumni had left women .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the men who rarely had referenced alumni had left any women .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the men who rarely had referenced alumni had left the women .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=1_npi-present=1	0		the women who often saw any drivers will escape from pedestrians .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=1_npi-present=0	1		the women who often saw the drivers will escape from pedestrians .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=0_npi-present=1	0		the women who often saw drivers will escape from any pedestrians .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=0_npi-present=0	1		the women who often saw drivers will escape from the pedestrians .
+experiment=NPI_env=adverbs_npi=any_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the women who hardly saw any drivers will escape from pedestrians .
+experiment=NPI_env=adverbs_npi=any_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the women who hardly saw the drivers will escape from pedestrians .
+experiment=NPI_env=adverbs_npi=any_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the women who hardly saw drivers will escape from any pedestrians .
+experiment=NPI_env=adverbs_npi=any_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the women who hardly saw drivers will escape from the pedestrians .
+experiment=NPI_env=adverbs_npi=any_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		a cashier who sometimes had toured any banks kissed women .
+experiment=NPI_env=adverbs_npi=any_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		a cashier who sometimes had toured the banks kissed women .
+experiment=NPI_env=adverbs_npi=any_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		a cashier who sometimes had toured banks kissed any women .
+experiment=NPI_env=adverbs_npi=any_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		a cashier who sometimes had toured banks kissed the women .
+experiment=NPI_env=adverbs_npi=any_adverb=hardly_licensor=1_scope=1_npi-present=1	1		a cashier who hardly had toured any banks kissed women .
+experiment=NPI_env=adverbs_npi=any_adverb=hardly_licensor=1_scope=1_npi-present=0	1		a cashier who hardly had toured the banks kissed women .
+experiment=NPI_env=adverbs_npi=any_adverb=hardly_licensor=1_scope=0_npi-present=1	0		a cashier who hardly had toured banks kissed any women .
+experiment=NPI_env=adverbs_npi=any_adverb=hardly_licensor=1_scope=0_npi-present=0	1		a cashier who hardly had toured banks kissed the women .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=1_npi-present=1	0		the boy who often dropped by any high schools escaped from adults .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=1_npi-present=0	1		the boy who often dropped by the high schools escaped from adults .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=0_npi-present=1	0		the boy who often dropped by high schools escaped from any adults .
+experiment=NPI_env=adverbs_npi=any_adverb=often_licensor=0_scope=0_npi-present=0	1		the boy who often dropped by high schools escaped from the adults .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the boy who rarely dropped by any high schools escaped from adults .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the boy who rarely dropped by the high schools escaped from adults .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the boy who rarely dropped by high schools escaped from any adults .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the boy who rarely dropped by high schools escaped from the adults .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=1_npi-present=1	0		the waitress who always has listened to any adults could break books .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=1_npi-present=0	1		the waitress who always has listened to the adults could break books .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=0_npi-present=1	0		the waitress who always has listened to adults could break any books .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=0_npi-present=0	1		the waitress who always has listened to adults could break the books .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the waitress who rarely has listened to any adults could break books .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the waitress who rarely has listened to the adults could break books .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the waitress who rarely has listened to adults could break any books .
+experiment=NPI_env=adverbs_npi=any_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the waitress who rarely has listened to adults could break the books .
+experiment=NPI_env=adverbs_npi=any_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the children who sometimes praise any geese worked with doctors .
+experiment=NPI_env=adverbs_npi=any_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the children who sometimes praise the geese worked with doctors .
+experiment=NPI_env=adverbs_npi=any_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the children who sometimes praise geese worked with any doctors .
+experiment=NPI_env=adverbs_npi=any_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the children who sometimes praise geese worked with the doctors .
+experiment=NPI_env=adverbs_npi=any_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the children who seldom praise any geese worked with doctors .
+experiment=NPI_env=adverbs_npi=any_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the children who seldom praise the geese worked with doctors .
+experiment=NPI_env=adverbs_npi=any_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the children who seldom praise geese worked with any doctors .
+experiment=NPI_env=adverbs_npi=any_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the children who seldom praise geese worked with the doctors .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=1_npi-present=1	0		the actors who always have admired any dishes should lift reports .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=1_npi-present=0	1		the actors who always have admired the dishes should lift reports .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=0_npi-present=1	0		the actors who always have admired dishes should lift any reports .
+experiment=NPI_env=adverbs_npi=any_adverb=always_licensor=0_scope=0_npi-present=0	1		the actors who always have admired dishes should lift the reports .
+experiment=NPI_env=adverbs_npi=any_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the actors who scarcely have admired any dishes should lift reports .
+experiment=NPI_env=adverbs_npi=any_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the actors who scarcely have admired the dishes should lift reports .
+experiment=NPI_env=adverbs_npi=any_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the actors who scarcely have admired dishes should lift any reports .
+experiment=NPI_env=adverbs_npi=any_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the actors who scarcely have admired dishes should lift the reports .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=1_npi-present=1	0		the man who always sighs at all bikes to malls .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=1_npi-present=0	1		the man who always sighs on weekends bikes to malls .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=0_npi-present=1	0		the man who always sighs bikes to malls at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=0_npi-present=0	1		the man who always sighs bikes to malls on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the man who hardly sighs at all bikes to malls .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the man who hardly sighs on weekends bikes to malls .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the man who hardly sighs bikes to malls at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the man who hardly sighs bikes to malls on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=1_npi-present=1	0		the teachers who always have forfeited at all die .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=1_npi-present=0	1		the teachers who always have forfeited on weekends die .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=0_npi-present=1	0		the teachers who always have forfeited die at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=0_npi-present=0	1		the teachers who always have forfeited die on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the teachers who hardly have forfeited at all die .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the teachers who hardly have forfeited on weekends die .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the teachers who hardly have forfeited die at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the teachers who hardly have forfeited die on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the pedestrians who sometimes had dated at all watch waitresses .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the pedestrians who sometimes had dated on weekends watch waitresses .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the pedestrians who sometimes had dated watch waitresses at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the pedestrians who sometimes had dated watch waitresses on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the pedestrians who hardly had dated at all watch waitresses .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the pedestrians who hardly had dated on weekends watch waitresses .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the pedestrians who hardly had dated watch waitresses at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the pedestrians who hardly had dated watch waitresses on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=1_npi-present=1	0		the teachers who always might hug women at all attacked women .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=1_npi-present=0	1		the teachers who always might hug women on weekends attacked women .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=0_npi-present=1	0		the teachers who always might hug women attacked women at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=0_npi-present=0	1		the teachers who always might hug women attacked women on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the teachers who seldom might hug women at all attacked women .
+experiment=NPI_env=adverbs_npi=atall_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the teachers who seldom might hug women on weekends attacked women .
+experiment=NPI_env=adverbs_npi=atall_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the teachers who seldom might hug women attacked women at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the teachers who seldom might hug women attacked women on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=1_npi-present=1	0		an adult who always should profit at all can react .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=1_npi-present=0	1		an adult who always should profit on weekends can react .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=0_npi-present=1	0		an adult who always should profit can react at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=always_licensor=0_scope=0_npi-present=0	1		an adult who always should profit can react on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=1	1		an adult who hardly should profit at all can react .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=0	1		an adult who hardly should profit on weekends can react .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=1	0		an adult who hardly should profit can react at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=0	1		an adult who hardly should profit can react on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the actor who sometimes could scream at all talked .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the actor who sometimes could scream on weekends talked .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the actor who sometimes could scream talked at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the actor who sometimes could scream talked on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=barely_licensor=1_scope=1_npi-present=1	1		the actor who barely could scream at all talked .
+experiment=NPI_env=adverbs_npi=atall_adverb=barely_licensor=1_scope=1_npi-present=0	1		the actor who barely could scream on weekends talked .
+experiment=NPI_env=adverbs_npi=atall_adverb=barely_licensor=1_scope=0_npi-present=1	0		the actor who barely could scream talked at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=barely_licensor=1_scope=0_npi-present=0	1		the actor who barely could scream talked on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=1_npi-present=1	0		a pedestrian who often practiced at all stands up .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=1_npi-present=0	1		a pedestrian who often practiced on weekends stands up .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=0_npi-present=1	0		a pedestrian who often practiced stands up at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=0_npi-present=0	1		a pedestrian who often practiced stands up on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		a pedestrian who scarcely practiced at all stands up .
+experiment=NPI_env=adverbs_npi=atall_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		a pedestrian who scarcely practiced on weekends stands up .
+experiment=NPI_env=adverbs_npi=atall_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		a pedestrian who scarcely practiced stands up at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		a pedestrian who scarcely practiced stands up on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=1_npi-present=1	0		the doctors who often had taken brochures at all have taken rugs .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=1_npi-present=0	1		the doctors who often had taken brochures on weekends have taken rugs .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=0_npi-present=1	0		the doctors who often had taken brochures have taken rugs at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=0_npi-present=0	1		the doctors who often had taken brochures have taken rugs on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the doctors who hardly had taken brochures at all have taken rugs .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the doctors who hardly had taken brochures on weekends have taken rugs .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the doctors who hardly had taken brochures have taken rugs at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the doctors who hardly had taken brochures have taken rugs on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=1_npi-present=1	0		an adult who often drank at all did swallow .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=1_npi-present=0	1		an adult who often drank on weekends did swallow .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=0_npi-present=1	0		an adult who often drank did swallow at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=often_licensor=0_scope=0_npi-present=0	1		an adult who often drank did swallow on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=1	1		an adult who hardly drank at all did swallow .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=1_npi-present=0	1		an adult who hardly drank on weekends did swallow .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=1	0		an adult who hardly drank did swallow at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=hardly_licensor=1_scope=0_npi-present=0	1		an adult who hardly drank did swallow on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		a woman who sometimes can talk at all bought books .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		a woman who sometimes can talk on weekends bought books .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		a woman who sometimes can talk bought books at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		a woman who sometimes can talk bought books on weekends .
+experiment=NPI_env=adverbs_npi=atall_adverb=seldom_licensor=1_scope=1_npi-present=1	1		a woman who seldom can talk at all bought books .
+experiment=NPI_env=adverbs_npi=atall_adverb=seldom_licensor=1_scope=1_npi-present=0	1		a woman who seldom can talk on weekends bought books .
+experiment=NPI_env=adverbs_npi=atall_adverb=seldom_licensor=1_scope=0_npi-present=1	0		a woman who seldom can talk bought books at all .
+experiment=NPI_env=adverbs_npi=atall_adverb=seldom_licensor=1_scope=0_npi-present=0	1		a woman who seldom can talk bought books on weekends .
