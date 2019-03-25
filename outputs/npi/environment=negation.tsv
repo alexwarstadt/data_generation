@@ -1,0 +1,80 @@
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No customer can ever think that the guys chuckled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No customer can often think that the guys chuckled .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a customer can ever think that no guys chuckled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a customer can often think that no guys chuckled .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some customer can ever think that the guys chuckled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some customer can often think that the guys chuckled .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a customer can ever think that some guys chuckled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a customer can often think that some guys chuckled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No gal has ever thought that the humans smiled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No gal has often thought that the humans smiled .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a gal has ever thought that no humans smiled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a gal has often thought that no humans smiled .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some gal has ever thought that the humans smiled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some gal has often thought that the humans smiled .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a gal has ever thought that some humans smiled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a gal has often thought that some humans smiled .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No person is ever saying that the patient is stripping .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No person is often saying that the patient is stripping .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the person is ever saying that no patient is stripping .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the person is often saying that no patient is stripping .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some person is ever saying that the patient is stripping .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some person is often saying that the patient is stripping .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the person is ever saying that some patient is stripping .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the person is often saying that some patient is stripping .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No girls could ever say that the pedestrian are standing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No girls could often say that the pedestrian are standing .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the girls could ever say that no pedestrian are standing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the girls could often say that no pedestrian are standing .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some girls could ever say that the pedestrian are standing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some girls could often say that the pedestrian are standing .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the girls could ever say that some pedestrian are standing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the girls could often say that some pedestrian are standing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No men ever said that the ladies do write .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No men often said that the ladies do write .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the men ever said that no ladies do write .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the men often said that no ladies do write .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some men ever said that the ladies do write .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some men often said that the ladies do write .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the men ever said that some ladies do write .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the men often said that some ladies do write .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No guys ever thought that a cashier have cooperated .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No guys often thought that a cashier have cooperated .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the guys ever thought that no cashier have cooperated .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the guys often thought that no cashier have cooperated .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some guys ever thought that a cashier have cooperated .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some guys often thought that a cashier have cooperated .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the guys ever thought that some cashier have cooperated .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the guys often thought that some cashier have cooperated .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No actresses ever thought that the doctors are battling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No actresses often thought that the doctors are battling .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the actresses ever thought that no doctors are battling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the actresses often thought that no doctors are battling .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some actresses ever thought that the doctors are battling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some actresses often thought that the doctors are battling .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the actresses ever thought that some doctors are battling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the actresses often thought that some doctors are battling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No drivers should ever say that the humans clash .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No drivers should often say that the humans clash .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the drivers should ever say that no humans clash .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the drivers should often say that no humans clash .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some drivers should ever say that the humans clash .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some drivers should often say that the humans clash .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the drivers should ever say that some humans clash .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the drivers should often say that some humans clash .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No cashier can ever think that the actor has forfeited .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No cashier can often think that the actor has forfeited .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a cashier can ever think that no actor has forfeited .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a cashier can often think that no actor has forfeited .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some cashier can ever think that the actor has forfeited .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some cashier can often think that the actor has forfeited .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a cashier can ever think that some actor has forfeited .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a cashier can often think that some actor has forfeited .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No actors have ever thought that the doctor were waving .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No actors have often thought that the doctor were waving .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the actors have ever thought that no doctor were waving .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the actors have often thought that no doctor were waving .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some actors have ever thought that the doctor were waving .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some actors have often thought that the doctor were waving .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the actors have ever thought that some doctor were waving .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the actors have often thought that some doctor were waving .
