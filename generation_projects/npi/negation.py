@@ -21,7 +21,7 @@ sentences = set()
 # gather word classes that will be accessed frequently
 all_common_dets = np.append(get_all("expression", "the"), np.append(get_all("expression", "a"), get_all("expression", "an")))
 all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
-all_neg_det = np.append(get_all("category", "(S/(S\\NP))/N"), np.append(get_all("expression", "none of the"), get_all("expression", "no")))
+all_neg_det = np.append(get_all("expression", "none of the"), get_all("expression", "no"))
 all_neg_aux = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("negated", "1")])
 all_nonneg_aux = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("negated", "0")])
 #all_UE_UE_quantifiers = get_all("restrictor_DE", "0", all_quantifiers)
@@ -41,19 +41,21 @@ while len(sentences) < number_to_generate:
     #TODO: throw in modifiers
     N1 = choice(all_animate_nouns)
     D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+    Neg_word1 = choice(get_matched_by(N1, "arg_1", all_neg_det))
     V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
     Aux1 = return_aux(V1, N1, allow_negated=False)
     N2 = choice(all_animate_nouns)
     #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
-    V2 = choice(get_matched_by(N1, "arg_1", all_intransitive_verbs))
-    Aux2 = return_aux(V2, N1, allow_negated=False)
+    Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
+    V2 = choice(get_matched_by(N2, "arg_1", all_intransitive_verbs))
+    Aux2 = return_aux(V2, N2, allow_negated=False)
 
     # build sentences with licensor present
-    sentence_1 = "No %s %s ever %s that %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_2 = "No %s %s often %s that %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_3 = "%s %s %s ever %s that no %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0])
-    sentence_4 = "%s %s %s often %s that no %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0])
+    sentence_1 = "%s %s %s ever %s that %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
+    sentence_2 = "%s %s %s often %s that %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
+    sentence_3 = "%s %s %s ever %s that %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0])
+    sentence_4 = "%s %s %s often %s that %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0])
 
     # build sentences with no licensor present
     sentence_5 = "Some %s %s ever %s that %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
@@ -104,19 +106,21 @@ while len(sentences) < number_to_generate:
     #TODO: throw in modifiers
     N1 = choice(all_animate_nouns)
     D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+    Neg_word1 = choice(get_matched_by(N1, "arg_1", all_neg_det))
     V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
     Aux1 = return_aux(V1, N1, allow_negated=False)
     N2 = choice(all_animate_nouns)
     #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
-    V2 = choice(get_matched_by(N1, "arg_1", all_intransitive_verbs))
-    Aux2 = return_aux(V2, N1, allow_negated=False)
+    Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
+    V2 = choice(get_matched_by(N2, "arg_1", all_intransitive_verbs))
+    Aux2 = return_aux(V2, N2, allow_negated=False)
 
     # build sentences with licensor present
-    sentence_1 = "No %s %s %s that %s %s %s %s at all." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_2 = "No %s %s %s that %s %s %s %s sometimes." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_3 = "%s %s %s %s that no %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0])
-    sentence_4 = "%s %s %s %s that no %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0])
+    sentence_1 = "%s %s %s %s that %s %s %s %s at all." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
+    sentence_2 = "%s %s %s %s that %s %s %s %s sometimes." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
+    sentence_3 = "%s %s %s %s that %s %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0],  N2[0], Aux2[0], V2[0])
+    sentence_4 = "%s %s %s %s that %s %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0])
 
     # build sentences with no licensor present
     sentence_5 = "Some %s %s %s that %s %s %s %s at all." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
