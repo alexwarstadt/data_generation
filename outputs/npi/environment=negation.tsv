@@ -1,0 +1,160 @@
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No children have ever imagined that the human were profiting .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No children have often imagined that the human were profiting .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the children have ever imagined that no human were profiting .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the children have often imagined that no human were profiting .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some children have ever imagined that the human were profiting .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some children have often imagined that the human were profiting .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the children have ever imagined that some human were profiting .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the children have often imagined that some human were profiting .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No human was ever saying that the woman could see .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No human was often saying that the woman could see .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a human was ever saying that no woman could see .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a human was often saying that no woman could see .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some human was ever saying that the woman could see .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some human was often saying that the woman could see .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a human was ever saying that some woman could see .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a human was often saying that some woman could see .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No teenager was ever imagining that the boys is chuckling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No teenager was often imagining that the boys is chuckling .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the teenager was ever imagining that no boys is chuckling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the teenager was often imagining that no boys is chuckling .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some teenager was ever imagining that the boys is chuckling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some teenager was often imagining that the boys is chuckling .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the teenager was ever imagining that some boys is chuckling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the teenager was often imagining that some boys is chuckling .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No boy ever said that the actors weeps .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No boy often said that the actors weeps .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a boy ever said that no actors weeps .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a boy often said that no actors weeps .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some boy ever said that the actors weeps .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some boy often said that the actors weeps .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a boy ever said that some actors weeps .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a boy often said that some actors weeps .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No adult is ever imagining that the adults sat down .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No adult is often imagining that the adults sat down .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	an adult is ever imagining that no adults sat down .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	an adult is often imagining that no adults sat down .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some adult is ever imagining that the adults sat down .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some adult is often imagining that the adults sat down .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	an adult is ever imagining that some adults sat down .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	an adult is often imagining that some adults sat down .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No guys ever imagined that the woman drink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No guys often imagined that the woman drink .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the guys ever imagined that no woman drink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the guys often imagined that no woman drink .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some guys ever imagined that the woman drink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some guys often imagined that the woman drink .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the guys ever imagined that some woman drink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the guys often imagined that some woman drink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No pedestrian ever explained that the pedestrians will blink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No pedestrian often explained that the pedestrians will blink .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a pedestrian ever explained that no pedestrians will blink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a pedestrian often explained that no pedestrians will blink .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some pedestrian ever explained that the pedestrians will blink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some pedestrian often explained that the pedestrians will blink .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a pedestrian ever explained that some pedestrians will blink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a pedestrian often explained that some pedestrians will blink .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No teacher ever thinks that a driver should respond .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No teacher often thinks that a driver should respond .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a teacher ever thinks that no driver should respond .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a teacher often thinks that no driver should respond .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some teacher ever thinks that a driver should respond .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some teacher often thinks that a driver should respond .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a teacher ever thinks that some driver should respond .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a teacher often thinks that some driver should respond .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No waiter ever imagines that the drivers was going fishing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No waiter often imagines that the drivers was going fishing .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a waiter ever imagines that no drivers was going fishing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a waiter often imagines that no drivers was going fishing .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some waiter ever imagines that the drivers was going fishing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some waiter often imagines that the drivers was going fishing .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a waiter ever imagines that some drivers was going fishing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a waiter often imagines that some drivers was going fishing .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No girl is ever thinking that the students approves .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No girl is often thinking that the students approves .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a girl is ever thinking that no students approves .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a girl is often thinking that no students approves .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some girl is ever thinking that the students approves .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some girl is often thinking that the students approves .
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a girl is ever thinking that some students approves .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a girl is often thinking that some students approves .
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No doctor can imagine that the pedestrians has joked around at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No doctor can imagine that the pedestrians has joked around sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the doctor can imagine that no pedestrians has joked around at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the doctor can imagine that no pedestrians has joked around sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some doctor can imagine that the pedestrians has joked around at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some doctor can imagine that the pedestrians has joked around sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the doctor can imagine that some pedestrians has joked around at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the doctor can imagine that some pedestrians has joked around sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No driver thought that the people nods at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No driver thought that the people nods sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the driver thought that no people nods at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the driver thought that no people nods sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some driver thought that the people nods at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some driver thought that the people nods sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the driver thought that some people nods at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the driver thought that some people nods sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No human had explained that the children is washing at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No human had explained that the children is washing sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the human had explained that no children is washing at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the human had explained that no children is washing sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some human had explained that the children is washing at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some human had explained that the children is washing sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the human had explained that some children is washing at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the human had explained that some children is washing sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No guest had said that the men has murmured at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No guest had said that the men has murmured sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a guest had said that no men has murmured at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a guest had said that no men has murmured sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some guest had said that the men has murmured at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some guest had said that the men has murmured sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a guest had said that some men has murmured at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a guest had said that some men has murmured sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No drivers imagined that a teenager hide away at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No drivers imagined that a teenager hide away sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the drivers imagined that no teenager hide away at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the drivers imagined that no teenager hide away sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some drivers imagined that a teenager hide away at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some drivers imagined that a teenager hide away sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the drivers imagined that some teenager hide away at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the drivers imagined that some teenager hide away sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No child had said that the men read at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No child had said that the men read sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	a child had said that no men read at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	a child had said that no men read sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some child had said that the men read at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some child had said that the men read sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	a child had said that some men read at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	a child had said that some men read sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No people have thought that the cashier are drinking at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No people have thought that the cashier are drinking sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the people have thought that no cashier are drinking at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the people have thought that no cashier are drinking sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some people have thought that the cashier are drinking at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some people have thought that the cashier are drinking sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the people have thought that some cashier are drinking at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the people have thought that some cashier are drinking sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No teachers have thought that the actresses are dating at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No teachers have thought that the actresses are dating sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the teachers have thought that no actresses are dating at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the teachers have thought that no actresses are dating sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some teachers have thought that the actresses are dating at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some teachers have thought that the actresses are dating sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the teachers have thought that some actresses are dating at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the teachers have thought that some actresses are dating sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No actress thought that the customer was benefiting at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No actress thought that the customer was benefiting sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	an actress thought that no customer was benefiting at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	an actress thought that no customer was benefiting sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some actress thought that the customer was benefiting at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some actress thought that the customer was benefiting sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	an actress thought that some customer was benefiting at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	an actress thought that some customer was benefiting sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=1	No people think that the gal benefited at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=1_npi-present=0	No people think that the gal benefited sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=1_scope=0_npi-present=1	the people think that no gal benefited at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=1_scope=0_npi-present=0	the people think that no gal benefited sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=1_npi-present=1	Some people think that the gal benefited at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=1_npi-present=0	Some people think that the gal benefited sometimes.
+experiment=NPI_env=negation_npi=ever_quantifier=0_licensor=0_scope=0_npi-present=1	the people think that some gal benefited at all.
+experiment=NPI_env=negation_npi=ever_quantifier=1_licensor=0_scope=0_npi-present=0	the people think that some gal benefited sometimes.
