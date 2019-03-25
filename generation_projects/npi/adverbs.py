@@ -143,10 +143,10 @@ while len(sentences) < number_to_generate:
     Adv_freq = choice(all_freq_adverbs)
     Adv_nonfreq = choice(all_nonfreq_adverbs)
     V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    conjugate(V1, N1, allow_negated=False)
+    V1 = conjugate(V1, N1, allow_negated=False)
     N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    conjugate(V2, N1, allow_negated=False)
+    V2 = conjugate(V2, N1, allow_negated=False)
     N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
 
     # build sentences with frequent adverb
@@ -207,24 +207,24 @@ while len(sentences) < number_to_generate:
     if x < 1/2:
         # transitive V2
         V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-        conjugate(V1, N1, allow_negated=False)
+        V1 = conjugate(V1, N1, allow_negated=False)
         N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     else:
         # intransitive V2 - gives empty string for N3 slot
         V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        conjugate(V1, N1, allow_negated=False)
+        V1 = conjugate(V1, N1, allow_negated=False)
         N2 = " "
 
     # select transitive or intransitive V2
     if 1/3 < x < 2/3:
         # transitive V2
         V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-        conjugate(V2, N1, allow_negated=False)
+        V2 = conjugate(V2, N1, allow_negated=False)
         N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
     else:
         # intransitive V2 - gives empty string for N3 slot
         V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        conjugate(V2, N1, allow_negated=False)
+        V2 = conjugate(V2, N1, allow_negated=False)
         N3 = " "
 
     # build sentences with frequent adverb
