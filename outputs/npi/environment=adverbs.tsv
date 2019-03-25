@@ -1,0 +1,800 @@
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the guy always ever said that the actors insult the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the guy always also said that the actors insult the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the guy always said that the actors ever insult the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the guy always said that the actors also insult the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the guy hardly ever said that the actors insult the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the guy hardly also said that the actors insult the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the guy hardly said that the actors ever insult the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the guy hardly said that the actors also insult the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		a doctor always ever says that the dudes have criticized the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		a doctor always also says that the dudes have criticized the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		a doctor always says that the dudes ever have criticized the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		a doctor always says that the dudes also have criticized the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		a doctor seldom ever says that the dudes have criticized the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		a doctor seldom also says that the dudes have criticized the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		a doctor seldom says that the dudes ever have criticized the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		a doctor seldom says that the dudes also have criticized the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the women sometimes ever said that the waitress has taken a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the women sometimes also said that the waitress has taken a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the women sometimes said that the waitress ever has taken a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the women sometimes said that the waitress also has taken a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the women rarely ever said that the waitress has taken a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the women rarely also said that the waitress has taken a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the women rarely said that the waitress ever has taken a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the women rarely said that the waitress also has taken a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the teachers sometimes ever thought that the mouse talked to the waiter .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the teachers sometimes also thought that the mouse talked to the waiter .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the teachers sometimes thought that the mouse ever talked to the waiter .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the teachers sometimes thought that the mouse also talked to the waiter .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the teachers hardly ever thought that the mouse talked to the waiter .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the teachers hardly also thought that the mouse talked to the waiter .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the teachers hardly thought that the mouse ever talked to the waiter .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the teachers hardly thought that the mouse also talked to the waiter .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		an adult often ever thought that the waiters have insulted the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		an adult often also thought that the waiters have insulted the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		an adult often thought that the waiters ever have insulted the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		an adult often thought that the waiters also have insulted the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		an adult barely ever thought that the waiters have insulted the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		an adult barely also thought that the waiters have insulted the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		an adult barely thought that the waiters ever have insulted the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		an adult barely thought that the waiters also have insulted the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		a cashier always ever said that a cashier respected the teacher .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		a cashier always also said that a cashier respected the teacher .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		a cashier always said that a cashier ever respected the teacher .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		a cashier always said that a cashier also respected the teacher .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		a cashier rarely ever said that a cashier respected the teacher .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		a cashier rarely also said that a cashier respected the teacher .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		a cashier rarely said that a cashier ever respected the teacher .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		a cashier rarely said that a cashier also respected the teacher .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the women sometimes ever thought that the oxen have attacked the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the women sometimes also thought that the oxen have attacked the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the women sometimes thought that the oxen ever have attacked the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the women sometimes thought that the oxen also have attacked the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the women hardly ever thought that the oxen have attacked the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the women hardly also thought that the oxen have attacked the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the women hardly thought that the oxen ever have attacked the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the women hardly thought that the oxen also have attacked the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the mice always ever thought that an adult should talk about the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the mice always also thought that an adult should talk about the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the mice always thought that an adult ever should talk about the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the mice always thought that an adult also should talk about the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the mice hardly ever thought that an adult should talk about the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the mice hardly also thought that an adult should talk about the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the mice hardly thought that an adult ever should talk about the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the mice hardly thought that an adult also should talk about the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the lice sometimes ever say that the women do listen to a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the lice sometimes also say that the women do listen to a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the lice sometimes say that the women ever do listen to a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the lice sometimes say that the women also do listen to a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the lice barely ever say that the women do listen to a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the lice barely also say that the women do listen to a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the lice barely say that the women ever do listen to a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the lice barely say that the women also do listen to a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the cashiers often ever thought that the drivers have criticized the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the cashiers often also thought that the drivers have criticized the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the cashiers often thought that the drivers ever have criticized the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the cashiers often thought that the drivers also have criticized the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the cashiers hardly ever thought that the drivers have criticized the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the cashiers hardly also thought that the drivers have criticized the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the cashiers hardly thought that the drivers ever have criticized the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the cashiers hardly thought that the drivers also have criticized the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the children always ever think that the gals insult the humans .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the children always also think that the gals insult the humans .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the children always think that the gals ever insult the humans .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the children always think that the gals also insult the humans .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the children barely ever think that the gals insult the humans .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the children barely also think that the gals insult the humans .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the children barely think that the gals ever insult the humans .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the children barely think that the gals also insult the humans .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the dudes sometimes ever say that the doctor had broken the cups .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the dudes sometimes also say that the doctor had broken the cups .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the dudes sometimes say that the doctor ever had broken the cups .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the dudes sometimes say that the doctor also had broken the cups .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the dudes barely ever say that the doctor had broken the cups .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the dudes barely also say that the doctor had broken the cups .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the dudes barely say that the doctor ever had broken the cups .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the dudes barely say that the doctor also had broken the cups .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the customers always ever said that the offspring had attacked the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the customers always also said that the offspring had attacked the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the customers always said that the offspring ever had attacked the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the customers always said that the offspring also had attacked the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the customers seldom ever said that the offspring had attacked the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the customers seldom also said that the offspring had attacked the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the customers seldom said that the offspring ever had attacked the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the customers seldom said that the offspring also had attacked the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the cashiers always ever said that the child can love the ox .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the cashiers always also said that the child can love the ox .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the cashiers always said that the child ever can love the ox .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the cashiers always said that the child also can love the ox .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the cashiers hardly ever said that the child can love the ox .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the cashiers hardly also said that the child can love the ox .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the cashiers hardly said that the child ever can love the ox .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the cashiers hardly said that the child also can love the ox .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the boys sometimes ever think that the louse praised the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the boys sometimes also think that the louse praised the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the boys sometimes think that the louse ever praised the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the boys sometimes think that the louse also praised the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the boys barely ever think that the louse praised the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the boys barely also think that the louse praised the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the boys barely think that the louse ever praised the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the boys barely think that the louse also praised the pamphlets .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the human sometimes ever said that the louse does discuss the fish .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the human sometimes also said that the louse does discuss the fish .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the human sometimes said that the louse ever does discuss the fish .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the human sometimes said that the louse also does discuss the fish .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the human seldom ever said that the louse does discuss the fish .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the human seldom also said that the louse does discuss the fish .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the human seldom said that the louse ever does discuss the fish .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the human seldom said that the louse also does discuss the fish .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		an adult sometimes ever thought that the kids do have the hat .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		an adult sometimes also thought that the kids do have the hat .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		an adult sometimes thought that the kids ever do have the hat .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		an adult sometimes thought that the kids also do have the hat .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		an adult hardly ever thought that the kids do have the hat .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		an adult hardly also thought that the kids do have the hat .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		an adult hardly thought that the kids ever do have the hat .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		an adult hardly thought that the kids also do have the hat .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the kids always ever said that the woman is cleaning the articles .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the kids always also said that the woman is cleaning the articles .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the kids always said that the woman ever is cleaning the articles .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the kids always said that the woman also is cleaning the articles .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the kids rarely ever said that the woman is cleaning the articles .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the kids rarely also said that the woman is cleaning the articles .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the kids rarely said that the woman ever is cleaning the articles .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the kids rarely said that the woman also is cleaning the articles .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the mice often ever say that the human could describe the student .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the mice often also say that the human could describe the student .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the mice often say that the human ever could describe the student .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the mice often say that the human also could describe the student .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the mice barely ever say that the human could describe the student .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the mice barely also say that the human could describe the student .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the mice barely say that the human ever could describe the student .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the mice barely say that the human also could describe the student .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the actors always ever said that the doctor will hate the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the actors always also said that the doctor will hate the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the actors always said that the doctor ever will hate the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the actors always said that the doctor also will hate the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the actors scarcely ever said that the doctor will hate the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the actors scarcely also said that the doctor will hate the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the actors scarcely said that the doctor ever will hate the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the actors scarcely said that the doctor also will hate the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the people often ever thought that the adults were praising the kids .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the people often also thought that the adults were praising the kids .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the people often thought that the adults ever were praising the kids .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the people often thought that the adults also were praising the kids .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the people seldom ever thought that the adults were praising the kids .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the people seldom also thought that the adults were praising the kids .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the people seldom thought that the adults ever were praising the kids .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the people seldom thought that the adults also were praising the kids .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		an actress often ever says that the man kissed the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		an actress often also says that the man kissed the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		an actress often says that the man ever kissed the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		an actress often says that the man also kissed the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		an actress rarely ever says that the man kissed the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		an actress rarely also says that the man kissed the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		an actress rarely says that the man ever kissed the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		an actress rarely says that the man also kissed the waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the deer sometimes ever thought that the gal respected a waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the deer sometimes also thought that the gal respected a waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the deer sometimes thought that the gal ever respected a waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the deer sometimes thought that the gal also respected a waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the deer scarcely ever thought that the gal respected a waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the deer scarcely also thought that the gal respected a waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the deer scarcely thought that the gal ever respected a waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the deer scarcely thought that the gal also respected a waitress .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the driver often ever said that the mouse had a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the driver often also said that the mouse had a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the driver often said that the mouse ever had a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the driver often said that the mouse also had a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the driver barely ever said that the mouse had a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the driver barely also said that the mouse had a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the driver barely said that the mouse ever had a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the driver barely said that the mouse also had a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the cashier always ever said that the guys had cared for the girl .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the cashier always also said that the guys had cared for the girl .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the cashier always said that the guys ever had cared for the girl .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the cashier always said that the guys also had cared for the girl .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the cashier barely ever said that the guys had cared for the girl .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the cashier barely also said that the guys had cared for the girl .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the cashier barely said that the guys ever had cared for the girl .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the cashier barely said that the guys also had cared for the girl .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the women always ever think that the teachers have cleaned the chair .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the women always also think that the teachers have cleaned the chair .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the women always think that the teachers ever have cleaned the chair .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the women always think that the teachers also have cleaned the chair .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the women scarcely ever think that the teachers have cleaned the chair .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the women scarcely also think that the teachers have cleaned the chair .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the women scarcely think that the teachers ever have cleaned the chair .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the women scarcely think that the teachers also have cleaned the chair .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the fish often ever said that the patients visit the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the fish often also said that the patients visit the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the fish often said that the patients ever visit the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the fish often said that the patients also visit the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the fish scarcely ever said that the patients visit the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the fish scarcely also said that the patients visit the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the fish scarcely said that the patients ever visit the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the fish scarcely said that the patients also visit the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the mice often ever said that the woman talks about a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the mice often also said that the woman talks about a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the mice often said that the woman ever talks about a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the mice often said that the woman also talks about a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the mice seldom ever said that the woman talks about a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the mice seldom also said that the woman talks about a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the mice seldom said that the woman ever talks about a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the mice seldom said that the woman also talks about a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the children sometimes ever thought that the adults resemble a movie .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the children sometimes also thought that the adults resemble a movie .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the children sometimes thought that the adults ever resemble a movie .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the children sometimes thought that the adults also resemble a movie .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the children seldom ever thought that the adults resemble a movie .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the children seldom also thought that the adults resemble a movie .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the children seldom thought that the adults ever resemble a movie .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the children seldom thought that the adults also resemble a movie .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		a student often ever said that a dude has discussed a driver .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		a student often also said that a dude has discussed a driver .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		a student often said that a dude ever has discussed a driver .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		a student often said that a dude also has discussed a driver .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		a student scarcely ever said that a dude has discussed a driver .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		a student scarcely also said that a dude has discussed a driver .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		a student scarcely said that a dude ever has discussed a driver .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		a student scarcely said that a dude also has discussed a driver .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the men often ever thought that the kid can wear the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the men often also thought that the kid can wear the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the men often thought that the kid ever can wear the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the men often thought that the kid also can wear the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the men barely ever thought that the kid can wear the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the men barely also thought that the kid can wear the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the men barely thought that the kid ever can wear the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the men barely thought that the kid also can wear the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the guests often ever say that the waiters had hugged a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the guests often also say that the waiters had hugged a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the guests often say that the waiters ever had hugged a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the guests often say that the waiters also had hugged a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the guests hardly ever say that the waiters had hugged a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the guests hardly also say that the waiters had hugged a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the guests hardly say that the waiters ever had hugged a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the guests hardly say that the waiters also had hugged a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		a cashier often ever thinks that the mice described the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		a cashier often also thinks that the mice described the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		a cashier often thinks that the mice ever described the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		a cashier often thinks that the mice also described the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		a cashier hardly ever thinks that the mice described the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		a cashier hardly also thinks that the mice described the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		a cashier hardly thinks that the mice ever described the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		a cashier hardly thinks that the mice also described the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the actresses always ever think that a girl had hugged the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the actresses always also think that a girl had hugged the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the actresses always think that a girl ever had hugged the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the actresses always think that a girl also had hugged the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the actresses rarely ever think that a girl had hugged the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the actresses rarely also think that a girl had hugged the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the actresses rarely think that a girl ever had hugged the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the actresses rarely think that a girl also had hugged the women .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the sheep sometimes ever think that the customer was attacking the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the sheep sometimes also think that the customer was attacking the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the sheep sometimes think that the customer ever was attacking the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the sheep sometimes think that the customer also was attacking the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the sheep rarely ever think that the customer was attacking the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the sheep rarely also think that the customer was attacking the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the sheep rarely think that the customer ever was attacking the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the sheep rarely think that the customer also was attacking the goose .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the dudes often ever thought that the actors wore the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the dudes often also thought that the actors wore the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the dudes often thought that the actors ever wore the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the dudes often thought that the actors also wore the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the dudes rarely ever thought that the actors wore the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the dudes rarely also thought that the actors wore the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the dudes rarely thought that the actors ever wore the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the dudes rarely thought that the actors also wore the gloves .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the humans sometimes ever think that the guys had respected a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the humans sometimes also think that the guys had respected a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the humans sometimes think that the guys ever had respected a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the humans sometimes think that the guys also had respected a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the humans rarely ever think that the guys had respected a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the humans rarely also think that the guys had respected a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the humans rarely think that the guys ever had respected a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the humans rarely think that the guys also had respected a woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the cashiers often ever say that a patient would hug the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the cashiers often also say that a patient would hug the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the cashiers often say that a patient ever would hug the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the cashiers often say that a patient also would hug the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the cashiers seldom ever say that a patient would hug the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the cashiers seldom also say that a patient would hug the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the cashiers seldom say that a patient ever would hug the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the cashiers seldom say that a patient also would hug the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		a man always ever thinks that the alumnus criticized the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		a man always also thinks that the alumnus criticized the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		a man always thinks that the alumnus ever criticized the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		a man always thinks that the alumnus also criticized the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		a man rarely ever thinks that the alumnus criticized the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		a man rarely also thinks that the alumnus criticized the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		a man rarely thinks that the alumnus ever criticized the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		a man rarely thinks that the alumnus also criticized the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the ox always ever said that the gals listen to the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the ox always also said that the gals listen to the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the ox always said that the gals ever listen to the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the ox always said that the gals also listen to the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the ox seldom ever said that the gals listen to the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the ox seldom also said that the gals listen to the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the ox seldom said that the gals ever listen to the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the ox seldom said that the gals also listen to the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the teachers always ever think that the patients hated the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the teachers always also think that the patients hated the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the teachers always think that the patients ever hated the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the teachers always think that the patients also hated the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the teachers seldom ever think that the patients hated the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the teachers seldom also think that the patients hated the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the teachers seldom think that the patients ever hated the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the teachers seldom think that the patients also hated the cashiers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the boys always ever said that a teacher had loved the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the boys always also said that a teacher had loved the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the boys always said that a teacher ever had loved the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the boys always said that a teacher also had loved the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the boys rarely ever said that a teacher had loved the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the boys rarely also said that a teacher had loved the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the boys rarely said that a teacher ever had loved the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the boys rarely said that a teacher also had loved the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the sheep always ever said that the waitresses helped the pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the sheep always also said that the waitresses helped the pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the sheep always said that the waitresses ever helped the pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the sheep always said that the waitresses also helped the pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the sheep scarcely ever said that the waitresses helped the pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the sheep scarcely also said that the waitresses helped the pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the sheep scarcely said that the waitresses ever helped the pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the sheep scarcely said that the waitresses also helped the pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the lice sometimes ever say that the fish might insult the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the lice sometimes also say that the fish might insult the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the lice sometimes say that the fish ever might insult the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the lice sometimes say that the fish also might insult the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the lice barely ever say that the fish might insult the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the lice barely also say that the fish might insult the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the lice barely say that the fish ever might insult the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the lice barely say that the fish also might insult the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the alumni sometimes ever say that the waitresses are criticizing the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the alumni sometimes also say that the waitresses are criticizing the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the alumni sometimes say that the waitresses ever are criticizing the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the alumni sometimes say that the waitresses also are criticizing the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the alumni barely ever say that the waitresses are criticizing the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the alumni barely also say that the waitresses are criticizing the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the alumni barely say that the waitresses ever are criticizing the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the alumni barely say that the waitresses also are criticizing the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		a dude always ever says that the woman is kissing a doctor .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		a dude always also says that the woman is kissing a doctor .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		a dude always says that the woman ever is kissing a doctor .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		a dude always says that the woman also is kissing a doctor .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		a dude barely ever says that the woman is kissing a doctor .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		a dude barely also says that the woman is kissing a doctor .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		a dude barely says that the woman ever is kissing a doctor .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		a dude barely says that the woman also is kissing a doctor .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the mouse sometimes ever thought that the waitress wears the scarf .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the mouse sometimes also thought that the waitress wears the scarf .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the mouse sometimes thought that the waitress ever wears the scarf .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the mouse sometimes thought that the waitress also wears the scarf .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the mouse rarely ever thought that the waitress wears the scarf .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the mouse rarely also thought that the waitress wears the scarf .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the mouse rarely thought that the waitress ever wears the scarf .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the mouse rarely thought that the waitress also wears the scarf .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the waiters often ever thought that the gals have insulted the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the waiters often also thought that the gals have insulted the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the waiters often thought that the gals ever have insulted the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the waiters often thought that the gals also have insulted the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the waiters rarely ever thought that the gals have insulted the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the waiters rarely also thought that the gals have insulted the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the waiters rarely thought that the gals ever have insulted the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the waiters rarely thought that the gals also have insulted the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the lady sometimes ever thinks that the alumnus was criticizing the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the lady sometimes also thinks that the alumnus was criticizing the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the lady sometimes thinks that the alumnus ever was criticizing the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the lady sometimes thinks that the alumnus also was criticizing the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the lady rarely ever thinks that the alumnus was criticizing the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the lady rarely also thinks that the alumnus was criticizing the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the lady rarely thinks that the alumnus ever was criticizing the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the lady rarely thinks that the alumnus also was criticizing the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the lice always ever say that the guys have attacked the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the lice always also say that the guys have attacked the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the lice always say that the guys ever have attacked the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the lice always say that the guys also have attacked the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the lice seldom ever say that the guys have attacked the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the lice seldom also say that the guys have attacked the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the lice seldom say that the guys ever have attacked the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the lice seldom say that the guys also have attacked the kid .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the adults often ever say that the kids kissed a gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the adults often also say that the kids kissed a gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the adults often say that the kids ever kissed a gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the adults often say that the kids also kissed a gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the adults scarcely ever say that the kids kissed a gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the adults scarcely also say that the kids kissed a gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the adults scarcely say that the kids ever kissed a gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the adults scarcely say that the kids also kissed a gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the waiter sometimes ever thought that the alumni were criticizing the actor .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the waiter sometimes also thought that the alumni were criticizing the actor .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the waiter sometimes thought that the alumni ever were criticizing the actor .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the waiter sometimes thought that the alumni also were criticizing the actor .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the waiter scarcely ever thought that the alumni were criticizing the actor .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the waiter scarcely also thought that the alumni were criticizing the actor .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the waiter scarcely thought that the alumni ever were criticizing the actor .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the waiter scarcely thought that the alumni also were criticizing the actor .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the doctors always ever thought that the patients did admire the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the doctors always also thought that the patients did admire the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the doctors always thought that the patients ever did admire the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the doctors always thought that the patients also did admire the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the doctors rarely ever thought that the patients did admire the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the doctors rarely also thought that the patients did admire the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the doctors rarely thought that the patients ever did admire the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the doctors rarely thought that the patients also did admire the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the waiters often ever think that the students resemble a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the waiters often also think that the students resemble a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the waiters often think that the students ever resemble a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the waiters often think that the students also resemble a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the waiters scarcely ever think that the students resemble a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the waiters scarcely also think that the students resemble a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the waiters scarcely think that the students ever resemble a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the waiters scarcely think that the students also resemble a patient .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the drivers always ever say that the woman did discuss a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the drivers always also say that the woman did discuss a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the drivers always say that the woman ever did discuss a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the drivers always say that the woman also did discuss a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the drivers seldom ever say that the woman did discuss a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the drivers seldom also say that the woman did discuss a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the drivers seldom say that the woman ever did discuss a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the drivers seldom say that the woman also did discuss a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the fish sometimes ever thought that the teachers did bring a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the fish sometimes also thought that the teachers did bring a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the fish sometimes thought that the teachers ever did bring a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the fish sometimes thought that the teachers also did bring a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the fish hardly ever thought that the teachers did bring a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the fish hardly also thought that the teachers did bring a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the fish hardly thought that the teachers ever did bring a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the fish hardly thought that the teachers also did bring a cup .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the sheep sometimes ever says that the women will remember the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the sheep sometimes also says that the women will remember the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the sheep sometimes says that the women ever will remember the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the sheep sometimes says that the women also will remember the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the sheep seldom ever says that the women will remember the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the sheep seldom also says that the women will remember the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the sheep seldom says that the women ever will remember the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the sheep seldom says that the women also will remember the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the patient always ever says that the alumnus describes the children .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the patient always also says that the alumnus describes the children .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the patient always says that the alumnus ever describes the children .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the patient always says that the alumnus also describes the children .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the patient hardly ever says that the alumnus describes the children .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the patient hardly also says that the alumnus describes the children .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the patient hardly says that the alumnus ever describes the children .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the patient hardly says that the alumnus also describes the children .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the ox always ever says that the men are listening to a pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the ox always also says that the men are listening to a pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the ox always says that the men ever are listening to a pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the ox always says that the men also are listening to a pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the ox rarely ever says that the men are listening to a pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the ox rarely also says that the men are listening to a pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the ox rarely says that the men ever are listening to a pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the ox rarely says that the men also are listening to a pedestrian .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the kid often ever thinks that the boys dislike the alumni .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the kid often also thinks that the boys dislike the alumni .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the kid often thinks that the boys ever dislike the alumni .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the kid often thinks that the boys also dislike the alumni .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the kid scarcely ever thinks that the boys dislike the alumni .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the kid scarcely also thinks that the boys dislike the alumni .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the kid scarcely thinks that the boys ever dislike the alumni .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the kid scarcely thinks that the boys also dislike the alumni .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		a gal often ever thinks that the guests do talk to a human .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		a gal often also thinks that the guests do talk to a human .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		a gal often thinks that the guests ever do talk to a human .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		a gal often thinks that the guests also do talk to a human .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		a gal rarely ever thinks that the guests do talk to a human .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		a gal rarely also thinks that the guests do talk to a human .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		a gal rarely thinks that the guests ever do talk to a human .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		a gal rarely thinks that the guests also do talk to a human .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the man sometimes ever says that an adult does love the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the man sometimes also says that an adult does love the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the man sometimes says that an adult ever does love the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the man sometimes says that an adult also does love the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the man scarcely ever says that an adult does love the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the man scarcely also says that an adult does love the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the man scarcely says that an adult ever does love the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the man scarcely says that an adult also does love the boy .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the women always ever say that the woman might bring a dish .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the women always also say that the woman might bring a dish .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the women always say that the woman ever might bring a dish .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the women always say that the woman also might bring a dish .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the women barely ever say that the woman might bring a dish .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the women barely also say that the woman might bring a dish .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the women barely say that the woman ever might bring a dish .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the women barely say that the woman also might bring a dish .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the customers always ever said that the humans have discussed the cashier .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the customers always also said that the humans have discussed the cashier .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the customers always said that the humans ever have discussed the cashier .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the customers always said that the humans also have discussed the cashier .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the customers scarcely ever said that the humans have discussed the cashier .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the customers scarcely also said that the humans have discussed the cashier .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the customers scarcely said that the humans ever have discussed the cashier .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the customers scarcely said that the humans also have discussed the cashier .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the cashiers often ever said that the women saw the ladies .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the cashiers often also said that the women saw the ladies .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the cashiers often said that the women ever saw the ladies .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the cashiers often said that the women also saw the ladies .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the cashiers scarcely ever said that the women saw the ladies .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the cashiers scarcely also said that the women saw the ladies .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the cashiers scarcely said that the women ever saw the ladies .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the cashiers scarcely said that the women also saw the ladies .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the lice sometimes ever said that the kids listen to the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the lice sometimes also said that the kids listen to the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the lice sometimes said that the kids ever listen to the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the lice sometimes said that the kids also listen to the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the lice hardly ever said that the kids listen to the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the lice hardly also said that the kids listen to the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the lice hardly said that the kids ever listen to the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the lice hardly said that the kids also listen to the girls .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the offspring sometimes ever think that the teacher has insulted a pamphlet .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the offspring sometimes also think that the teacher has insulted a pamphlet .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the offspring sometimes think that the teacher ever has insulted a pamphlet .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the offspring sometimes think that the teacher also has insulted a pamphlet .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the offspring rarely ever think that the teacher has insulted a pamphlet .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the offspring rarely also think that the teacher has insulted a pamphlet .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the offspring rarely think that the teacher ever has insulted a pamphlet .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the offspring rarely think that the teacher also has insulted a pamphlet .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the fish always ever says that the children had respected the lady .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the fish always also says that the children had respected the lady .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the fish always says that the children ever had respected the lady .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the fish always says that the children also had respected the lady .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the fish hardly ever says that the children had respected the lady .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the fish hardly also says that the children had respected the lady .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the fish hardly says that the children ever had respected the lady .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the fish hardly says that the children also had respected the lady .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the men always ever said that the child resembled the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the men always also said that the child resembled the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the men always said that the child ever resembled the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the men always said that the child also resembled the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the men barely ever said that the child resembled the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the men barely also said that the child resembled the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the men barely said that the child ever resembled the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the men barely said that the child also resembled the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the deer often ever says that the men hug the customers .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the deer often also says that the men hug the customers .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the deer often says that the men ever hug the customers .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the deer often says that the men also hug the customers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the deer hardly ever says that the men hug the customers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the deer hardly also says that the men hug the customers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the deer hardly says that the men ever hug the customers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the deer hardly says that the men also hug the customers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the kids always ever say that a boy hugged the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the kids always also say that a boy hugged the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the kids always say that a boy ever hugged the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the kids always say that a boy also hugged the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the kids rarely ever say that a boy hugged the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the kids rarely also say that a boy hugged the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the kids rarely say that a boy ever hugged the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the kids rarely say that a boy also hugged the men .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the humans sometimes ever think that the guys kissed the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the humans sometimes also think that the guys kissed the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the humans sometimes think that the guys ever kissed the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the humans sometimes think that the guys also kissed the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the humans hardly ever think that the guys kissed the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the humans hardly also think that the guys kissed the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the humans hardly think that the guys ever kissed the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the humans hardly think that the guys also kissed the gal .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the teachers sometimes ever think that the waitress was criticizing the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the teachers sometimes also think that the waitress was criticizing the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the teachers sometimes think that the waitress ever was criticizing the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the teachers sometimes think that the waitress also was criticizing the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the teachers rarely ever think that the waitress was criticizing the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the teachers rarely also think that the waitress was criticizing the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the teachers rarely think that the waitress ever was criticizing the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the teachers rarely think that the waitress also was criticizing the deer .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the waiter often ever said that the waiters loved a customer .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the waiter often also said that the waiters loved a customer .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the waiter often said that the waiters ever loved a customer .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the waiter often said that the waiters also loved a customer .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the waiter seldom ever said that the waiters loved a customer .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the waiter seldom also said that the waiters loved a customer .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the waiter seldom said that the waiters ever loved a customer .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the waiter seldom said that the waiters also loved a customer .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the man always ever says that the person had brought the chairs .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the man always also says that the person had brought the chairs .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the man always says that the person ever had brought the chairs .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the man always says that the person also had brought the chairs .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the man barely ever says that the person had brought the chairs .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the man barely also says that the person had brought the chairs .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the man barely says that the person ever had brought the chairs .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the man barely says that the person also had brought the chairs .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the deer sometimes ever think that the ox can care for the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the deer sometimes also think that the ox can care for the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the deer sometimes think that the ox ever can care for the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the deer sometimes think that the ox also can care for the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the deer hardly ever think that the ox can care for the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the deer hardly also think that the ox can care for the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the deer hardly think that the ox ever can care for the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the deer hardly think that the ox also can care for the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the cashier always ever said that the waiter was insulting the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the cashier always also said that the waiter was insulting the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the cashier always said that the waiter ever was insulting the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the cashier always said that the waiter also was insulting the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the cashier hardly ever said that the waiter was insulting the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the cashier hardly also said that the waiter was insulting the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the cashier hardly said that the waiter ever was insulting the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the cashier hardly said that the waiter also was insulting the guys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the man always ever thought that the waiters are breaking a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the man always also thought that the waiters are breaking a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the man always thought that the waiters ever are breaking a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the man always thought that the waiters also are breaking a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the man seldom ever thought that the waiters are breaking a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the man seldom also thought that the waiters are breaking a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the man seldom thought that the waiters ever are breaking a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the man seldom thought that the waiters also are breaking a car .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		a lady sometimes ever said that the louse could reference the sheep .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		a lady sometimes also said that the louse could reference the sheep .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		a lady sometimes said that the louse ever could reference the sheep .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		a lady sometimes said that the louse also could reference the sheep .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		a lady scarcely ever said that the louse could reference the sheep .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		a lady scarcely also said that the louse could reference the sheep .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		a lady scarcely said that the louse ever could reference the sheep .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		a lady scarcely said that the louse also could reference the sheep .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the sheep sometimes ever says that the alumnus had criticized a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the sheep sometimes also says that the alumnus had criticized a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the sheep sometimes says that the alumnus ever had criticized a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the sheep sometimes says that the alumnus also had criticized a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the sheep seldom ever says that the alumnus had criticized a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the sheep seldom also says that the alumnus had criticized a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the sheep seldom says that the alumnus ever had criticized a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the sheep seldom says that the alumnus also had criticized a student .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the gals often ever think that the waitresses should care for the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the gals often also think that the waitresses should care for the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the gals often think that the waitresses ever should care for the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the gals often think that the waitresses also should care for the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the gals hardly ever think that the waitresses should care for the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the gals hardly also think that the waitresses should care for the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the gals hardly think that the waitresses ever should care for the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the gals hardly think that the waitresses also should care for the boys .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the gals always ever think that a guest can help the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the gals always also think that a guest can help the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the gals always think that a guest ever can help the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the gals always think that a guest also can help the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the gals seldom ever think that a guest can help the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the gals seldom also think that a guest can help the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the gals seldom think that a guest ever can help the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the gals seldom think that a guest also can help the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the actors sometimes ever think that the actors sold the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the actors sometimes also think that the actors sold the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the actors sometimes think that the actors ever sold the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the actors sometimes think that the actors also sold the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the actors rarely ever think that the actors sold the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the actors rarely also think that the actors sold the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the actors rarely think that the actors ever sold the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the actors rarely think that the actors also sold the books .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the oxen sometimes ever think that the mouse does criticize the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the oxen sometimes also think that the mouse does criticize the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the oxen sometimes think that the mouse ever does criticize the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the oxen sometimes think that the mouse also does criticize the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the oxen hardly ever think that the mouse does criticize the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the oxen hardly also think that the mouse does criticize the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the oxen hardly think that the mouse ever does criticize the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the oxen hardly think that the mouse also does criticize the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		a doctor often ever thinks that the adults criticize a story .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		a doctor often also thinks that the adults criticize a story .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		a doctor often thinks that the adults ever criticize a story .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		a doctor often thinks that the adults also criticize a story .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		a doctor scarcely ever thinks that the adults criticize a story .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		a doctor scarcely also thinks that the adults criticize a story .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		a doctor scarcely thinks that the adults ever criticize a story .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		a doctor scarcely thinks that the adults also criticize a story .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the person sometimes ever said that the child disliked the offspring .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the person sometimes also said that the child disliked the offspring .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the person sometimes said that the child ever disliked the offspring .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the person sometimes said that the child also disliked the offspring .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the person barely ever said that the child disliked the offspring .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the person barely also said that the child disliked the offspring .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the person barely said that the child ever disliked the offspring .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the person barely said that the child also disliked the offspring .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the ox sometimes ever said that the teachers insult the essays .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the ox sometimes also said that the teachers insult the essays .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the ox sometimes said that the teachers ever insult the essays .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the ox sometimes said that the teachers also insult the essays .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the ox rarely ever said that the teachers insult the essays .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the ox rarely also said that the teachers insult the essays .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the ox rarely said that the teachers ever insult the essays .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the ox rarely said that the teachers also insult the essays .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		a patient sometimes ever said that a teacher had talked to the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		a patient sometimes also said that a teacher had talked to the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		a patient sometimes said that a teacher ever had talked to the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		a patient sometimes said that a teacher also had talked to the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		a patient rarely ever said that a teacher had talked to the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		a patient rarely also said that a teacher had talked to the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		a patient rarely said that a teacher ever had talked to the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		a patient rarely said that a teacher also had talked to the woman .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the actress often ever thinks that a girl has helped the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the actress often also thinks that a girl has helped the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the actress often thinks that a girl ever has helped the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the actress often thinks that a girl also has helped the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the actress seldom ever thinks that a girl has helped the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the actress seldom also thinks that a girl has helped the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the actress seldom thinks that a girl ever has helped the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the actress seldom thinks that a girl also has helped the person .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the dude always ever thought that the women bought the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the dude always also thought that the women bought the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the dude always thought that the women ever bought the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the dude always thought that the women also bought the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the dude scarcely ever thought that the women bought the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the dude scarcely also thought that the women bought the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the dude scarcely thought that the women ever bought the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the dude scarcely thought that the women also bought the glasses .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the men often ever said that the ladies have bought a rug .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the men often also said that the ladies have bought a rug .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the men often said that the ladies ever have bought a rug .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the men often said that the ladies also have bought a rug .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the men seldom ever said that the ladies have bought a rug .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the men seldom also said that the ladies have bought a rug .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the men seldom said that the ladies ever have bought a rug .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the men seldom said that the ladies also have bought a rug .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the women sometimes ever think that the kids might hate the alumnus .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the women sometimes also think that the kids might hate the alumnus .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the women sometimes think that the kids ever might hate the alumnus .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the women sometimes think that the kids also might hate the alumnus .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the women rarely ever think that the kids might hate the alumnus .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the women rarely also think that the kids might hate the alumnus .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the women rarely think that the kids ever might hate the alumnus .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the women rarely think that the kids also might hate the alumnus .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the children sometimes ever say that the waitress is visiting the students .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the children sometimes also say that the waitress is visiting the students .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the children sometimes say that the waitress ever is visiting the students .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the children sometimes say that the waitress also is visiting the students .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=1	1		the children seldom ever say that the waitress is visiting the students .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=1_npi-present=0	1		the children seldom also say that the waitress is visiting the students .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=1	0		the children seldom say that the waitress ever is visiting the students .
+experiment=NPI_env=adverbs_npi=ever_adverb=seldom_licensor=1_scope=0_npi-present=0	1		the children seldom say that the waitress also is visiting the students .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the offspring sometimes ever think that the geese liked a fork .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the offspring sometimes also think that the geese liked a fork .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the offspring sometimes think that the geese ever liked a fork .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the offspring sometimes think that the geese also liked a fork .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the offspring hardly ever think that the geese liked a fork .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the offspring hardly also think that the geese liked a fork .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the offspring hardly think that the geese ever liked a fork .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the offspring hardly think that the geese also liked a fork .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=1	0		the man sometimes ever said that the customer wore the skirt .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=1_npi-present=0	1		the man sometimes also said that the customer wore the skirt .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=1	0		the man sometimes said that the customer ever wore the skirt .
+experiment=NPI_env=adverbs_npi=ever_adverb=sometimes_licensor=0_scope=0_npi-present=0	1		the man sometimes said that the customer also wore the skirt .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		the man barely ever said that the customer wore the skirt .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		the man barely also said that the customer wore the skirt .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		the man barely said that the customer ever wore the skirt .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		the man barely said that the customer also wore the skirt .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the men always ever say that a guest discusses the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the men always also say that a guest discusses the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the men always say that a guest ever discusses the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the men always say that a guest also discusses the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the men hardly ever say that a guest discusses the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the men hardly also say that a guest discusses the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the men hardly say that a guest ever discusses the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the men hardly say that a guest also discusses the teachers .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		a patient often ever said that a man listens to the child .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		a patient often also said that a man listens to the child .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		a patient often said that a man ever listens to the child .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		a patient often said that a man also listens to the child .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=1	1		a patient barely ever said that a man listens to the child .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=1_npi-present=0	1		a patient barely also said that a man listens to the child .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=1	0		a patient barely said that a man ever listens to the child .
+experiment=NPI_env=adverbs_npi=ever_adverb=barely_licensor=1_scope=0_npi-present=0	1		a patient barely said that a man also listens to the child .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the cashier often ever says that the offspring has discussed the human .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the cashier often also says that the offspring has discussed the human .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the cashier often says that the offspring ever has discussed the human .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the cashier often says that the offspring also has discussed the human .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=1	1		the cashier hardly ever says that the offspring has discussed the human .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=1_npi-present=0	1		the cashier hardly also says that the offspring has discussed the human .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=1	0		the cashier hardly says that the offspring ever has discussed the human .
+experiment=NPI_env=adverbs_npi=ever_adverb=hardly_licensor=1_scope=0_npi-present=0	1		the cashier hardly says that the offspring also has discussed the human .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=1	0		the ladies always ever say that the mice dislike the mice .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=1_npi-present=0	1		the ladies always also say that the mice dislike the mice .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=1	0		the ladies always say that the mice ever dislike the mice .
+experiment=NPI_env=adverbs_npi=ever_adverb=always_licensor=0_scope=0_npi-present=0	1		the ladies always say that the mice also dislike the mice .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=1	1		the ladies scarcely ever say that the mice dislike the mice .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=1_npi-present=0	1		the ladies scarcely also say that the mice dislike the mice .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=1	0		the ladies scarcely say that the mice ever dislike the mice .
+experiment=NPI_env=adverbs_npi=ever_adverb=scarcely_licensor=1_scope=0_npi-present=0	1		the ladies scarcely say that the mice also dislike the mice .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=1	0		the kid often ever said that the gals are describing the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=1_npi-present=0	1		the kid often also said that the gals are describing the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=1	0		the kid often said that the gals ever are describing the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=often_licensor=0_scope=0_npi-present=0	1		the kid often said that the gals also are describing the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=1	1		the kid rarely ever said that the gals are describing the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=1_npi-present=0	1		the kid rarely also said that the gals are describing the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=1	0		the kid rarely said that the gals ever are describing the oxen .
+experiment=NPI_env=adverbs_npi=ever_adverb=rarely_licensor=1_scope=0_npi-present=0	1		the kid rarely said that the gals also are describing the oxen .

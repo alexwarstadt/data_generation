@@ -74,5 +74,5 @@ def conjugate_broken(verb, subj, aux=2, t=3, m="INDICATIVE",neg=0): # TODO: Does
 for i in range (0,150):
     subject = choice(get_all("category", "N"))
     someverb = choice(get_all("category", "(S\\NP)/NP"))
-    conjugate(someverb, subject)
+    conjugate_broken(someverb, subject, neg=2)
     print(subject[0] + " " + someverb[0])
