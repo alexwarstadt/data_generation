@@ -1174,7 +1174,6 @@ is,(S\NP)(S[pred]\NP),copula,,,,,1,0,1,0,0,0,1,category=N^sg=1,category=(S[pred]
 are,(S\NP)(S[pred]\NP),copula,,,,,1,0,1,0,0,0,0,category=N^sg=0,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,,,,
 was,(S\NP)(S[pred]\NP),copula,,,,,1,0,0,1,0,0,0,category=N^sg=3,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,,,,
 were,(S\NP)(S[pred]\NP),copula,,,,,1,0,0,1,0,0,0,category=N^sg=4,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,,,,
-been,(S\NP)(S[pred]\NP),copula,,,,,0,0,0,0,0,1,0,category=N^sg=5,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 next to,(S[pred]\NP)/NP,Pred,,,,,,,,,,,,category=N^physical=1,category=N^physical=1,,,,,,,,,,,,,,,,,,,,,,

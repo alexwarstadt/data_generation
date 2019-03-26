@@ -1,0 +1,320 @@
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the teenagers ever drove to the restaurants .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the teenagers now drove to the restaurants .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the teenagers ever drove to only the restaurants .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the teenagers now drove to only the restaurants .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the teenagers also ever drove to the restaurants .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the teenagers also now drove to the restaurants .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the teenagers ever also drove to the restaurants .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the teenagers now also drove to the restaurants .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the women have ever remembered the guests .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the women have often remembered the guests .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the women have ever remembered only the guests .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the women have often remembered only the guests .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the women have also ever remembered the guests .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the women have also often remembered the guests .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the women have ever also remembered the guests .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the women have often also remembered the guests .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the cashier had ever biked to the banks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the cashier had now biked to the banks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the cashier had ever biked to only the banks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the cashier had now biked to only the banks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the cashier had also ever biked to the banks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the cashier had also now biked to the banks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the cashier had ever also biked to the banks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the cashier had now also biked to the banks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the boys had ever arrived at the banks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the boys had always arrived at the banks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the boys had ever arrived at only the banks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the boys had always arrived at only the banks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the boys had also ever arrived at the banks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the boys had also always arrived at the banks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the boys had ever also arrived at the banks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the boys had always also arrived at the banks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only a teacher might ever criticize the newspaper articles .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only a teacher might always criticize the newspaper articles .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	a teacher might ever criticize only the newspaper articles .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	a teacher might always criticize only the newspaper articles .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	a teacher might also ever criticize the newspaper articles .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	a teacher might also always criticize the newspaper articles .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	a teacher might ever also criticize the newspaper articles .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	a teacher might always also criticize the newspaper articles .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the drivers can ever investigate the art galleries .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the drivers can sometimes investigate the art galleries .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the drivers can ever investigate only the art galleries .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the drivers can sometimes investigate only the art galleries .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the drivers can also ever investigate the art galleries .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the drivers can also sometimes investigate the art galleries .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the drivers can ever also investigate the art galleries .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the drivers can sometimes also investigate the art galleries .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the students would ever reference the movies .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the students would always reference the movies .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the students would ever reference only the movies .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the students would always reference only the movies .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the students would also ever reference the movies .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the students would also always reference the movies .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the students would ever also reference the movies .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the students would always also reference the movies .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the gals ever run around the schools .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the gals often run around the schools .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the gals ever run around only the schools .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the gals often run around only the schools .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the gals also ever run around the schools .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the gals also often run around the schools .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the gals ever also run around the schools .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the gals often also run around the schools .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the waitress ever works with the actors .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the waitress often works with the actors .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the waitress ever works with only the actors .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the waitress often works with only the actors .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the waitress also ever works with the actors .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the waitress also often works with the actors .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the waitress ever also works with the actors .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the waitress often also works with the actors .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only a child ever runs around the malls .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only a child sometimes runs around the malls .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	a child ever runs around only the malls .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	a child sometimes runs around only the malls .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	a child also ever runs around the malls .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	a child also sometimes runs around the malls .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	a child ever also runs around the malls .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	a child sometimes also runs around the malls .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the pedestrians ever worked with the waitresses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the pedestrians sometimes worked with the waitresses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the pedestrians ever worked with only the waitresses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the pedestrians sometimes worked with only the waitresses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the pedestrians also ever worked with the waitresses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the pedestrians also sometimes worked with the waitresses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the pedestrians ever also worked with the waitresses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the pedestrians sometimes also worked with the waitresses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the patient should ever sell the rugs .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the patient should now sell the rugs .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the patient should ever sell only the rugs .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the patient should now sell only the rugs .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the patient should also ever sell the rugs .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the patient should also now sell the rugs .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the patient should ever also sell the rugs .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the patient should now also sell the rugs .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the gals might ever discuss the college campuses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the gals might often discuss the college campuses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the gals might ever discuss only the college campuses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the gals might often discuss only the college campuses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the gals might also ever discuss the college campuses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the gals might also often discuss the college campuses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the gals might ever also discuss the college campuses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the gals might often also discuss the college campuses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the gal ever brought the books .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the gal always brought the books .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the gal ever brought only the books .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the gal always brought only the books .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the gal also ever brought the books .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the gal also always brought the books .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the gal ever also brought the books .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the gal always also brought the books .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the humans ever hugged the actresses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the humans often hugged the actresses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the humans ever hugged only the actresses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the humans often hugged only the actresses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the humans also ever hugged the actresses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the humans also often hugged the actresses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the humans ever also hugged the actresses .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the humans often also hugged the actresses .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the guys ever go to the public parks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the guys always go to the public parks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the guys ever go to only the public parks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the guys always go to only the public parks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the guys also ever go to the public parks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the guys also always go to the public parks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the guys ever also go to the public parks .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the guys always also go to the public parks .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the guest can ever escape from the guests .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the guest can now escape from the guests .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the guest can ever escape from only the guests .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the guest can now escape from only the guests .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the guest can also ever escape from the guests .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the guest can also now escape from the guests .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the guest can ever also escape from the guests .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the guest can now also escape from the guests .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the patient ever dislikes the gals .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the patient always dislikes the gals .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the patient ever dislikes only the gals .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the patient always dislikes only the gals .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the patient also ever dislikes the gals .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the patient also always dislikes the gals .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the patient ever also dislikes the gals .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the patient always also dislikes the gals .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only a boy ever broke the plates .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only a boy now broke the plates .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	a boy ever broke only the plates .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	a boy now broke only the plates .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	a boy also ever broke the plates .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	a boy also now broke the plates .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	a boy ever also broke the plates .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	a boy now also broke the plates .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1	1	only the guys do ever resemble the dishes .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0	1	only the guys do always resemble the dishes .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1	0	the guys do ever resemble only the dishes .
+experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0	1	the guys do always resemble only the dishes .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1	0	the guys do also ever resemble the dishes .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0	1	the guys do also always resemble the dishes .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1	0	the guys do ever also resemble the dishes .
+experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0	1	the guys do always also resemble the dishes .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the actresses have worked with any customers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the actresses have worked with some customers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any actresses have only worked with the customers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some actresses have only worked with the customers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the actresses have also worked with any customers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the actresses have also worked with some customers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any actresses have also worked with the customers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some actresses have also worked with the customers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only an actor disliked any museums .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only an actor disliked some museums .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any actor only disliked the museums .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some actor only disliked the museums .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	an actor also disliked any museums .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	an actor also disliked some museums .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any actor also disliked the museums .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some actor also disliked the museums .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the humans drove to any movie theaters .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the humans drove to some movie theaters .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any humans only drove to the movie theaters .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some humans only drove to the movie theaters .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the humans also drove to any movie theaters .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the humans also drove to some movie theaters .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any humans also drove to the movie theaters .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some humans also drove to the movie theaters .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only a pedestrian passed any museums .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only a pedestrian passed some museums .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any pedestrian only passed the museums .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some pedestrian only passed the museums .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	a pedestrian also passed any museums .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	a pedestrian also passed some museums .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any pedestrian also passed the museums .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some pedestrian also passed the museums .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the girls had any rugs .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the girls had some rugs .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any girls only had the rugs .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some girls only had the rugs .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the girls also had any rugs .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the girls also had some rugs .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any girls also had the rugs .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some girls also had the rugs .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the adults had brought any pants .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the adults had brought some pants .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any adults had only brought the pants .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some adults had only brought the pants .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the adults had also brought any pants .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the adults had also brought some pants .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any adults had also brought the pants .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some adults had also brought the pants .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only a gal talked about any commentaries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only a gal talked about some commentaries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any gal only talked about the commentaries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some gal only talked about the commentaries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	a gal also talked about any commentaries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	a gal also talked about some commentaries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any gal also talked about the commentaries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some gal also talked about the commentaries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the humans will love any plays .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the humans will love some plays .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any humans will only love the plays .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some humans will only love the plays .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the humans will also love any plays .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the humans will also love some plays .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any humans will also love the plays .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some humans will also love the plays .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only a doctor respects any women .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only a doctor respects some women .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any doctor only respects the women .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some doctor only respects the women .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	a doctor also respects any women .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	a doctor also respects some women .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any doctor also respects the women .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some doctor also respects the women .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the teenagers kiss any waiters .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the teenagers kiss some waiters .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any teenagers only kiss the waiters .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some teenagers only kiss the waiters .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the teenagers also kiss any waiters .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the teenagers also kiss some waiters .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any teenagers also kiss the waiters .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some teenagers also kiss the waiters .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the guys visited any doctors .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the guys visited some doctors .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any guys only visited the doctors .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some guys only visited the doctors .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the guys also visited any doctors .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the guys also visited some doctors .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any guys also visited the doctors .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some guys also visited the doctors .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the waiter has hugged any people .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the waiter has hugged some people .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any waiter has only hugged the people .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some waiter has only hugged the people .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the waiter has also hugged any people .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the waiter has also hugged some people .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any waiter has also hugged the people .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some waiter has also hugged the people .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the waitresses have hugged any adults .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the waitresses have hugged some adults .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any waitresses have only hugged the adults .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some waitresses have only hugged the adults .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the waitresses have also hugged any adults .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the waitresses have also hugged some adults .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any waitresses have also hugged the adults .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some waitresses have also hugged the adults .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the guy been at any libraries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the guy been at some libraries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any guy only been at the libraries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some guy only been at the libraries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the guy also been at any libraries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the guy also been at some libraries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any guy also been at the libraries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some guy also been at the libraries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the child passed any malls .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the child passed some malls .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any child only passed the malls .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some child only passed the malls .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the child also passed any malls .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the child also passed some malls .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any child also passed the malls .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some child also passed the malls .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the customer should go to any art galleries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the customer should go to some art galleries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any customer should only go to the art galleries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some customer should only go to the art galleries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the customer should also go to any art galleries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the customer should also go to some art galleries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any customer should also go to the art galleries .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some customer should also go to the art galleries .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the men reference any customers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the men reference some customers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any men only reference the customers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some men only reference the customers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the men also reference any customers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the men also reference some customers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any men also reference the customers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some men also reference the customers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only an actor had referenced any drivers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only an actor had referenced some drivers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any actor had only referenced the drivers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some actor had only referenced the drivers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	an actor had also referenced any drivers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	an actor had also referenced some drivers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any actor had also referenced the drivers .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some actor had also referenced the drivers .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the waiter had insulted any people .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the waiter had insulted some people .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any waiter had only insulted the people .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some waiter had only insulted the people .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the waiter had also insulted any people .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the waiter had also insulted some people .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any waiter had also insulted the people .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some waiter had also insulted the people .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1	1	only the gal should explore any college campuses .
+experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0	1	only the gal should explore some college campuses .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1	0	any gal should only explore the college campuses .
+experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0	1	some gal should only explore the college campuses .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1	0	the gal should also explore any college campuses .
+experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0	1	the gal should also explore some college campuses .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1	0	any gal should also explore the college campuses .
+experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0	1	some gal should also explore the college campuses .
