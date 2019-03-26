@@ -1,0 +1,80 @@
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the boy ever tour the restaurants , the boy can bring newspaper articles .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the boy never tour the restaurants , the boy can bring newspaper articles .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the boy tour the restaurants , the boy can bring newspaper articles .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the boy tour the restaurants , the boy can bring newspaper articles .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the boy ever tour the restaurants , the boy can bring newspaper articles .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the boy never tour the restaurants , the boy can bring newspaper articles .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the boy tour the restaurants , the boy can bring newspaper articles .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the boy tour the restaurants , the boy can bring newspaper articles .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the people ever selling the forks , the people will pass schools .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the people never selling the forks , the people will pass schools .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the people selling the forks , the people will pass schools .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the people selling the forks , the people will pass schools .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the people ever selling the forks , the people will pass schools .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the people never selling the forks , the people will pass schools .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the people selling the forks , the people will pass schools .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the people selling the forks , the people will pass schools .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the students ever running around the art galleries , the students could talk .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the students never running around the art galleries , the students could talk .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the students running around the art galleries , the students could talk .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the students running around the art galleries , the students could talk .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the students ever running around the art galleries , the students could talk .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the students never running around the art galleries , the students could talk .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the students running around the art galleries , the students could talk .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the students running around the art galleries , the students could talk .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the people ever sell the cups , the people would correspond .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the people never sell the cups , the people would correspond .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the people sell the cups , the people would correspond .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the people sell the cups , the people would correspond .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the people ever sell the cups , the people would correspond .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the people never sell the cups , the people would correspond .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the people sell the cups , the people would correspond .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the people sell the cups , the people would correspond .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the woman ever skated around the restaurants , the woman might worry .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the woman never skated around the restaurants , the woman might worry .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the woman skated around the restaurants , the woman might worry .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the woman skated around the restaurants , the woman might worry .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the woman ever skated around the restaurants , the woman might worry .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the woman never skated around the restaurants , the woman might worry .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the woman skated around the restaurants , the woman might worry .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the woman skated around the restaurants , the woman might worry .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the people ever dislike the children , the people should hate movies .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the people never dislike the children , the people should hate movies .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the people dislike the children , the people should hate movies .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the people dislike the children , the people should hate movies .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the people ever dislike the children , the people should hate movies .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the people never dislike the children , the people should hate movies .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the people dislike the children , the people should hate movies .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the people dislike the children , the people should hate movies .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the woman ever discussing the cashiers , the woman should cook .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the woman never discussing the cashiers , the woman should cook .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the woman discussing the cashiers , the woman should cook .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the woman discussing the cashiers , the woman should cook .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the woman ever discussing the cashiers , the woman should cook .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the woman never discussing the cashiers , the woman should cook .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the woman discussing the cashiers , the woman should cook .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the woman discussing the cashiers , the woman should cook .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the actress ever arrived at the high schools , the actress might donate .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the actress never arrived at the high schools , the actress might donate .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the actress arrived at the high schools , the actress might donate .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the actress arrived at the high schools , the actress might donate .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the actress ever arrived at the high schools , the actress might donate .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the actress never arrived at the high schools , the actress might donate .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the actress arrived at the high schools , the actress might donate .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the actress arrived at the high schools , the actress might donate .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the gals ever hugging the offspring , the gals could remember reports .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the gals never hugging the offspring , the gals could remember reports .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the gals hugging the offspring , the gals could remember reports .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the gals hugging the offspring , the gals could remember reports .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the gals ever hugging the offspring , the gals could remember reports .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the gals never hugging the offspring , the gals could remember reports .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the gals hugging the offspring , the gals could remember reports .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the gals hugging the offspring , the gals could remember reports .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=1	1		if the patients ever cleaned the reports , the patients could worry .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=1_npi-present=0	1		if the patients never cleaned the reports , the patients could worry .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=1	0		ever if the patients cleaned the reports , the patients could worry .
+experiment=NPI_env=conditional_npi=ever_licensor=1_scope=0_npi-present=0	0		never if the patients cleaned the reports , the patients could worry .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=1	0		while the patients ever cleaned the reports , the patients could worry .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=1_npi-present=0	1		while the patients never cleaned the reports , the patients could worry .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=1	0		ever while the patients cleaned the reports , the patients could worry .
+experiment=NPI_env=conditional_npi=ever_licensor=0_scope=0_npi-present=0	0		never while the patients cleaned the reports , the patients could worry .
