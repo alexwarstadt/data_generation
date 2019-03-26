@@ -91,16 +91,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have only
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=ever_licensor=1_scope=1_npi-present=1", 1, sentence_1))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=ever_licensor=1_scope=1_npi-present=0", 1, sentence_2))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=ever_licensor=1_scope=0_npi-present=1", 0, sentence_3))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=ever_licensor=1_scope=0_npi-present=0", 1, sentence_4))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=1", 1, sentence_1))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=ever-licensor=1-scope=1-npi_present=0", 1, sentence_2))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=1", 0, sentence_3))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=ever-licensor=1-scope=0-npi_present=0", 1, sentence_4))
 
         # sentences 5-8 don't have only
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=ever_licensor=0_scope=1_npi-present=1", 0, sentence_5))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=ever_licensor=0_scope=1_npi-present=0", 1, sentence_6))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=ever_licensor=0_scope=0_npi-present=1", 0, sentence_7))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=ever_licensor=0_scope=0_npi-present=0", 1, sentence_8))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=1", 0, sentence_5))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=ever-licensor=0-scope=1-npi_present=0", 1, sentence_6))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=1", 0, sentence_7))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=ever-licensor=0-scope=0-npi_present=0", 1, sentence_8))
 
     sentences.add(sentence_1)
 
@@ -153,16 +153,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have only
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=any_licensor=1_scope=1_npi-present=1", 1, sentence_1))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=any_licensor=1_scope=1_npi-present=0", 1, sentence_2))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=any_licensor=1_scope=0_npi-present=1", 0, sentence_3))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=any_licensor=1_scope=0_npi-present=0", 1, sentence_4))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=1", 1, sentence_1))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=any-licensor=1-scope=1-npi_present=0", 1, sentence_2))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=1", 0, sentence_3))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=any-licensor=1-scope=0-npi_present=0", 1, sentence_4))
 
         # sentences 5-8 don't have only
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=any_licensor=0_scope=1_npi-present=1", 0, sentence_5))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=any_licensor=0_scope=1_npi-present=0", 1, sentence_6))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=any_licensor=0_scope=0_npi-present=1", 0, sentence_7))
-        output.write("%s\t%d\t%s\n" % ("experiment=NPI_env=only_npi=any_licensor=0_scope=0_npi-present=0", 1, sentence_8))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=1", 0, sentence_5))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=any-licensor=0-scope=1-npi_present=0", 1, sentence_6))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=1", 0, sentence_7))
+        output.write("%s\t%d\t%s\n" % ("experiment=NPI-env=only-npi=any-licensor=0-scope=0-npi_present=0", 1, sentence_8))
 
     sentences.add(sentence_1)
 
