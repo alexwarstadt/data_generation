@@ -92,16 +92,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=1" % 1, sentence_1))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=0" % 1, sentence_2))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=1" % 0, sentence_3))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=0" % 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=1" % Neg_word1[0], 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=0" % Neg_word1[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=1" % Neg_word2[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=0" % Neg_word2[0], 1, sentence_4))
 
         # sentences 5-8 have no negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=1_npi-present=1" % 0, sentence_5))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=1_npi-present=0" % 1, sentence_6))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=0_npi-present=1" % 0, sentence_7))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=0_npi-present=0" % 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=some_licensor=0_scope=1_npi-present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=some_licensor=0_scope=1_npi-present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=some_licensor=0_scope=0_npi-present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=some_licensor=0_scope=0_npi-present=0", 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -170,16 +170,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=1" % 1, sentence_1))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=0" % 1, sentence_2))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=1" % 0, sentence_3))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=0" % 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=1" % Neg_word1[0], 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=0" % Neg_word1[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=1" % Neg_word2[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=0" % Neg_word2[0], 1, sentence_4))
 
         # sentences 5-8 have no negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=1_npi-present=1" % 0, sentence_5))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=1_npi-present=0" % 1, sentence_6))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=0_npi-present=1" % 0, sentence_7))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=0_npi-present=0" % 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=1_npi-present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=1_npi-present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=0_npi-present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=0_npi-present=0", 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -233,16 +233,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=1" % 1, sentence_1))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=0" % 1, sentence_2))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=1" % 0, sentence_3))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=0" % 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=1" % Neg_word1[0], 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=0" % Neg_word1[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=1" % Neg_word1[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=0" % Neg_word1[0], 1, sentence_4))
 
         # sentences 5-8 have no negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=1_npi-present=1" % 0, sentence_5))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=1_npi-present=0" % 1, sentence_6))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=0_npi-present=1" % 0, sentence_7))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=0_npi-present=0" % 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=some_licensor=0_scope=1_npi-present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=some_licensor=0_scope=1_npi-present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=some_licensor=0_scope=0_npi-present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=some_licensor=0_scope=0_npi-present=0", 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -296,16 +296,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=1" % 1, sentence_1))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=0" % 1, sentence_2))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=1" % 1, sentence_3))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=0" % 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=1" % Neg_word1[0], 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=0" % Neg_word1[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=1" % Neg_word2[0], 1, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=0" % Neg_word2[0], 1, sentence_4))
 
         # sentences 5-8 have no negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=1_npi-present=1" % 0, sentence_5))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=1_npi-present=0" % 1, sentence_6))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=0_npi-present=1" % 0, sentence_7))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=0_npi-present=0" % 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=1_npi-present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=1_npi-present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=0_npi-present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=0_npi-present=0", 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -381,16 +381,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=1" % 1, sentence_1))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=1_npi-present=0" % 1, sentence_2))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=1" % 0, sentence_3))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=1_scope=0_npi-present=0" % 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=not_licensor=1_scope=1_npi-present=1", 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=not_licensor=1_scope=1_npi-present=0", 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=not_licensor=1_scope=0_npi-present=1", 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=not_licensor=1_scope=0_npi-present=0", 1, sentence_4))
 
         # sentences 5-8 have no negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=1_npi-present=1" % 0, sentence_5))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=1_npi-present=0" % 1, sentence_6))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=0_npi-present=1" % 0, sentence_7))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=%s_licensor=0_scope=0_npi-present=0" % 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=really_licensor=0_scope=1_npi-present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=really_licensor=0_scope=1_npi-present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=really_licensor=0_scope=0_npi-present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=ever_quantifier=really_licensor=0_scope=0_npi-present=0", 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -459,16 +459,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=1" % 1, sentence_1))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=0" % 1, sentence_2))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=1" % 0, sentence_3))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=0" % 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=not_licensor=1_scope=1_npi-present=1", 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=not_licensor=1_scope=1_npi-present=0", 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=not_licensor=1_scope=0_npi-present=1", 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=not_licensor=1_scope=0_npi-present=0", 1, sentence_4))
 
         # sentences 5-8 have no negation present
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=1_npi-present=1" % 0, sentence_5))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=1_npi-present=0" % 1, sentence_6))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=0_npi-present=1" % 0, sentence_7))
-        output.write("%s\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=0_scope=0_npi-present=0" % 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=really_licensor=0_scope=1_npi-present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=really_licensor=0_scope=1_npi-present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=really_licensor=0_scope=0_npi-present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=really_licensor=0_scope=0_npi-present=0", 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
