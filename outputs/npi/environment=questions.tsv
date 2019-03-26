@@ -1,80 +1,800 @@
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the cashiers wondered whether the adult ever left customers.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the cashiers wondered whether the adult never left customers.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the cashiers wondered ever whether the adult left customers.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the cashiers wondered never whether the adult left customers.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the cashiers explain that the adult ever left customers.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the cashiers explain that the adult never left customers.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the cashiers explain ever that the adult left customers.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the cashiers explain never that the adult left customers.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the boys wondered whether the teachers ever nod .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the boys wondered whether the teachers never nod .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the boys wondered ever whether the teachers nod .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the boys wondered never whether the teachers nod .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the boys said that the teachers ever nod .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the boys said that the teachers never nod .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the boys said ever that the teachers nod .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the boys said never that the teachers nod .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a customer wondered whether a driver ever singing .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a customer wondered whether a driver never singing .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a customer wondered ever whether a driver singing .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a customer wondered never whether a driver singing .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a customer thought that a driver ever singing .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a customer thought that a driver never singing .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a customer thought ever that a driver singing .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a customer thought never that a driver singing .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the boys wonder whether a waitress ever telephoned .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the boys wonder whether a waitress never telephoned .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the boys wonder ever whether a waitress telephoned .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the boys wonder never whether a waitress telephoned .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the boys explain that a waitress ever telephoned .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the boys explain that a waitress never telephoned .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the boys explain ever that a waitress telephoned .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the boys explain never that a waitress telephoned .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the guys wondered whether the actor ever bike to grocery stores.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the guys wondered whether the actor never bike to grocery stores.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the guys wondered ever whether the actor bike to grocery stores.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the guys wondered never whether the actor bike to grocery stores.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the guys say that the actor ever bike to grocery stores.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the guys say that the actor never bike to grocery stores.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the guys say ever that the actor bike to grocery stores.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the guys say never that the actor bike to grocery stores.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the men wonder whether a guest ever forget offspring.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the men wonder whether a guest never forget offspring.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the men wonder ever whether a guest forget offspring.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the men wonder never whether a guest forget offspring.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the men said that a guest ever forget offspring.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the men said that a guest never forget offspring.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the men said ever that a guest forget offspring.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the men said never that a guest forget offspring.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the drivers wonder whether the ladies ever donate .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the drivers wonder whether the ladies never donate .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the drivers wonder ever whether the ladies donate .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the drivers wonder never whether the ladies donate .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the drivers said that the ladies ever donate .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the drivers said that the ladies never donate .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the drivers said ever that the ladies donate .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the drivers said never that the ladies donate .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		an actress wonders whether an adult ever sang .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		an actress wonders whether an adult never sang .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		an actress wonders ever whether an adult sang .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		an actress wonders never whether an adult sang .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		an actress explained that an adult ever sang .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		an actress explained that an adult never sang .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		an actress explained ever that an adult sang .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		an actress explained never that an adult sang .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the people wonder whether a teacher ever succeeded .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the people wonder whether a teacher never succeeded .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the people wonder ever whether a teacher succeeded .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the people wonder never whether a teacher succeeded .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the people imagined that a teacher ever succeeded .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the people imagined that a teacher never succeeded .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the people imagined ever that a teacher succeeded .
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the people imagined never that a teacher succeeded .
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a guy wondered whether the patients ever bought gloves.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a guy wondered whether the patients never bought gloves.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a guy wondered ever whether the patients bought gloves.
-experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a guy wondered never whether the patients bought gloves.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a guy said that the patients ever bought gloves.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a guy said that the patients never bought gloves.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a guy said ever that the patients bought gloves.
-experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a guy said never that the patients bought gloves.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the teenagers wonder whether the people ever chatted .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the teenagers wonder whether the people never chatted .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the teenagers wonder ever whether the people chatted .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the teenagers wonder never whether the people chatted .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the teenagers say that the people ever chatted .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the teenagers say that the people never chatted .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the teenagers say ever that the people chatted .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the teenagers say never that the people chatted .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a boy wondered whether the adults ever negotiating .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a boy wondered whether the adults never negotiating .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a boy wondered ever whether the adults negotiating .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a boy wondered never whether the adults negotiating .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a boy thinks that the adults ever negotiating .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a boy thinks that the adults never negotiating .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a boy thinks ever that the adults negotiating .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a boy thinks never that the adults negotiating .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a guest wonders whether the doctors ever lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a guest wonders whether the doctors never lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a guest wonders ever whether the doctors lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a guest wonders never whether the doctors lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a guest explains that the doctors ever lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a guest explains that the doctors never lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a guest explains ever that the doctors lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a guest explains never that the doctors lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a student wondered whether a customer ever worry .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a student wondered whether a customer never worry .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a student wondered ever whether a customer worry .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a student wondered never whether a customer worry .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a student explained that a customer ever worry .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a student explained that a customer never worry .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a student explained ever that a customer worry .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a student explained never that a customer worry .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the boy wondered whether the teenagers ever run around high schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the boy wondered whether the teenagers never run around high schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the boy wondered ever whether the teenagers run around high schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the boy wondered never whether the teenagers run around high schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the boy thought that the teenagers ever run around high schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the boy thought that the teenagers never run around high schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the boy thought ever that the teenagers run around high schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the boy thought never that the teenagers run around high schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the guest wondered whether a teacher ever helped fish.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the guest wondered whether a teacher never helped fish.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the guest wondered ever whether a teacher helped fish.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the guest wondered never whether a teacher helped fish.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the guest says that a teacher ever helped fish.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the guest says that a teacher never helped fish.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the guest says ever that a teacher helped fish.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the guest says never that a teacher helped fish.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the drivers wonder whether the boy ever drive to banks.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the drivers wonder whether the boy never drive to banks.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the drivers wonder ever whether the boy drive to banks.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the drivers wonder never whether the boy drive to banks.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the drivers imagine that the boy ever drive to banks.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the drivers imagine that the boy never drive to banks.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the drivers imagine ever that the boy drive to banks.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the drivers imagine never that the boy drive to banks.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the boys wonder whether the adults ever disliked people.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the boys wonder whether the adults never disliked people.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the boys wonder ever whether the adults disliked people.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the boys wonder never whether the adults disliked people.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the boys say that the adults ever disliked people.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the boys say that the adults never disliked people.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the boys say ever that the adults disliked people.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the boys say never that the adults disliked people.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a pedestrian wondered whether a guy ever lied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a pedestrian wondered whether a guy never lied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a pedestrian wondered ever whether a guy lied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a pedestrian wondered never whether a guy lied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a pedestrian explained that a guy ever lied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a pedestrian explained that a guy never lied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a pedestrian explained ever that a guy lied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a pedestrian explained never that a guy lied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the children wonder whether a woman ever walked through art galleries.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the children wonder whether a woman never walked through art galleries.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the children wonder ever whether a woman walked through art galleries.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the children wonder never whether a woman walked through art galleries.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the children imagine that a woman ever walked through art galleries.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the children imagine that a woman never walked through art galleries.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the children imagine ever that a woman walked through art galleries.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the children imagine never that a woman walked through art galleries.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a waiter wondered whether a girl ever saluted .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a waiter wondered whether a girl never saluted .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a waiter wondered ever whether a girl saluted .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a waiter wondered never whether a girl saluted .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a waiter says that a girl ever saluted .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a waiter says that a girl never saluted .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a waiter says ever that a girl saluted .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a waiter says never that a girl saluted .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the child wondered whether the student ever dropping by grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the child wondered whether the student never dropping by grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the child wondered ever whether the student dropping by grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the child wondered never whether the student dropping by grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the child says that the student ever dropping by grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the child says that the student never dropping by grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the child says ever that the student dropping by grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the child says never that the student dropping by grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a waiter wonders whether the patients ever worked with ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a waiter wonders whether the patients never worked with ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a waiter wonders ever whether the patients worked with ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a waiter wonders never whether the patients worked with ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a waiter said that the patients ever worked with ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a waiter said that the patients never worked with ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a waiter said ever that the patients worked with ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a waiter said never that the patients worked with ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the waiter wonders whether the girl ever complained .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the waiter wonders whether the girl never complained .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the waiter wonders ever whether the girl complained .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the waiter wonders never whether the girl complained .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the waiter imagines that the girl ever complained .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the waiter imagines that the girl never complained .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the waiter imagines ever that the girl complained .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the waiter imagines never that the girl complained .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the man wonders whether the children ever like adults.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the man wonders whether the children never like adults.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the man wonders ever whether the children like adults.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the man wonders never whether the children like adults.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the man explained that the children ever like adults.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the man explained that the children never like adults.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the man explained ever that the children like adults.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the man explained never that the children like adults.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the waitress wondered whether the doctors ever stretching .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the waitress wondered whether the doctors never stretching .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the waitress wondered ever whether the doctors stretching .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the waitress wondered never whether the doctors stretching .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the waitress says that the doctors ever stretching .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the waitress says that the doctors never stretching .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the waitress says ever that the doctors stretching .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the waitress says never that the doctors stretching .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a guy wonders whether the teacher ever worn pants.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a guy wonders whether the teacher never worn pants.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a guy wonders ever whether the teacher worn pants.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a guy wonders never whether the teacher worn pants.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a guy explains that the teacher ever worn pants.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a guy explains that the teacher never worn pants.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a guy explains ever that the teacher worn pants.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a guy explains never that the teacher worn pants.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the man wondered whether the men ever passed banks.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the man wondered whether the men never passed banks.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the man wondered ever whether the men passed banks.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the man wondered never whether the men passed banks.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the man explained that the men ever passed banks.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the man explained that the men never passed banks.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the man explained ever that the men passed banks.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the man explained never that the men passed banks.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the women wonder whether the actresses ever cleaned rugs.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the women wonder whether the actresses never cleaned rugs.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the women wonder ever whether the actresses cleaned rugs.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the women wonder never whether the actresses cleaned rugs.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the women think that the actresses ever cleaned rugs.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the women think that the actresses never cleaned rugs.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the women think ever that the actresses cleaned rugs.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the women think never that the actresses cleaned rugs.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a boy wonders whether a doctor ever go to movie theaters.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a boy wonders whether a doctor never go to movie theaters.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a boy wonders ever whether a doctor go to movie theaters.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a boy wonders never whether a doctor go to movie theaters.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a boy thought that a doctor ever go to movie theaters.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a boy thought that a doctor never go to movie theaters.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a boy thought ever that a doctor go to movie theaters.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a boy thought never that a doctor go to movie theaters.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the boy wonders whether the actors ever read .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the boy wonders whether the actors never read .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the boy wonders ever whether the actors read .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the boy wonders never whether the actors read .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the boy thinks that the actors ever read .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the boy thinks that the actors never read .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the boy thinks ever that the actors read .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the boy thinks never that the actors read .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a guest wonders whether the patients ever attack customers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a guest wonders whether the patients never attack customers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a guest wonders ever whether the patients attack customers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a guest wonders never whether the patients attack customers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a guest said that the patients ever attack customers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a guest said that the patients never attack customers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a guest said ever that the patients attack customers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a guest said never that the patients attack customers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a pedestrian wonders whether a girl ever hated teenagers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a pedestrian wonders whether a girl never hated teenagers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a pedestrian wonders ever whether a girl hated teenagers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a pedestrian wonders never whether a girl hated teenagers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a pedestrian thinks that a girl ever hated teenagers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a pedestrian thinks that a girl never hated teenagers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a pedestrian thinks ever that a girl hated teenagers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a pedestrian thinks never that a girl hated teenagers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a waitress wondered whether an actor ever scanning newspaper articles.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a waitress wondered whether an actor never scanning newspaper articles.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a waitress wondered ever whether an actor scanning newspaper articles.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a waitress wondered never whether an actor scanning newspaper articles.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a waitress explained that an actor ever scanning newspaper articles.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a waitress explained that an actor never scanning newspaper articles.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a waitress explained ever that an actor scanning newspaper articles.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a waitress explained never that an actor scanning newspaper articles.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the drivers wondered whether the pedestrian ever dislikes books.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the drivers wondered whether the pedestrian never dislikes books.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the drivers wondered ever whether the pedestrian dislikes books.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the drivers wondered never whether the pedestrian dislikes books.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the drivers said that the pedestrian ever dislikes books.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the drivers said that the pedestrian never dislikes books.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the drivers said ever that the pedestrian dislikes books.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the drivers said never that the pedestrian dislikes books.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the guy wondered whether a child ever suffers .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the guy wondered whether a child never suffers .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the guy wondered ever whether a child suffers .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the guy wondered never whether a child suffers .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the guy thought that a child ever suffers .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the guy thought that a child never suffers .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the guy thought ever that a child suffers .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the guy thought never that a child suffers .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the cashiers wondered whether the children ever murmur .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the cashiers wondered whether the children never murmur .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the cashiers wondered ever whether the children murmur .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the cashiers wondered never whether the children murmur .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the cashiers say that the children ever murmur .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the cashiers say that the children never murmur .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the cashiers say ever that the children murmur .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the cashiers say never that the children murmur .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the guests wondered whether a teacher ever learn .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the guests wondered whether a teacher never learn .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the guests wondered ever whether a teacher learn .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the guests wondered never whether a teacher learn .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the guests thought that a teacher ever learn .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the guests thought that a teacher never learn .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the guests thought ever that a teacher learn .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the guests thought never that a teacher learn .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the actresses wonder whether the customers ever changed .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the actresses wonder whether the customers never changed .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the actresses wonder ever whether the customers changed .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the actresses wonder never whether the customers changed .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the actresses thought that the customers ever changed .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the actresses thought that the customers never changed .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the actresses thought ever that the customers changed .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the actresses thought never that the customers changed .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the waitress wondered whether the cashiers ever smiled .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the waitress wondered whether the cashiers never smiled .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the waitress wondered ever whether the cashiers smiled .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the waitress wondered never whether the cashiers smiled .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the waitress imagines that the cashiers ever smiled .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the waitress imagines that the cashiers never smiled .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the waitress imagines ever that the cashiers smiled .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the waitress imagines never that the cashiers smiled .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the actress wonders whether a doctor ever sees .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the actress wonders whether a doctor never sees .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the actress wonders ever whether a doctor sees .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the actress wonders never whether a doctor sees .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the actress explained that a doctor ever sees .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the actress explained that a doctor never sees .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the actress explained ever that a doctor sees .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the actress explained never that a doctor sees .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a pedestrian wondered whether the cashier ever drove to museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a pedestrian wondered whether the cashier never drove to museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a pedestrian wondered ever whether the cashier drove to museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a pedestrian wondered never whether the cashier drove to museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a pedestrian thought that the cashier ever drove to museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a pedestrian thought that the cashier never drove to museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a pedestrian thought ever that the cashier drove to museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a pedestrian thought never that the cashier drove to museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the woman wonders whether the guests ever assemble .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the woman wonders whether the guests never assemble .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the woman wonders ever whether the guests assemble .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the woman wonders never whether the guests assemble .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the woman said that the guests ever assemble .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the woman said that the guests never assemble .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the woman said ever that the guests assemble .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the woman said never that the guests assemble .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the ladies wondered whether the pedestrians ever leave schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the ladies wondered whether the pedestrians never leave schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the ladies wondered ever whether the pedestrians leave schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the ladies wondered never whether the pedestrians leave schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the ladies explained that the pedestrians ever leave schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the ladies explained that the pedestrians never leave schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the ladies explained ever that the pedestrians leave schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the ladies explained never that the pedestrians leave schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		an adult wondered whether the humans ever testified .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		an adult wondered whether the humans never testified .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		an adult wondered ever whether the humans testified .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		an adult wondered never whether the humans testified .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		an adult thinks that the humans ever testified .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		an adult thinks that the humans never testified .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		an adult thinks ever that the humans testified .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		an adult thinks never that the humans testified .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the woman wondered whether the boys ever argued .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the woman wondered whether the boys never argued .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the woman wondered ever whether the boys argued .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the woman wondered never whether the boys argued .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the woman said that the boys ever argued .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the woman said that the boys never argued .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the woman said ever that the boys argued .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the woman said never that the boys argued .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the gals wondered whether the waitress ever stands up .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the gals wondered whether the waitress never stands up .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the gals wondered ever whether the waitress stands up .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the gals wondered never whether the waitress stands up .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the gals think that the waitress ever stands up .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the gals think that the waitress never stands up .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the gals think ever that the waitress stands up .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the gals think never that the waitress stands up .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the teenagers wondered whether the gal ever testifies .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the teenagers wondered whether the gal never testifies .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the teenagers wondered ever whether the gal testifies .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the teenagers wondered never whether the gal testifies .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the teenagers imagined that the gal ever testifies .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the teenagers imagined that the gal never testifies .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the teenagers imagined ever that the gal testifies .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the teenagers imagined never that the gal testifies .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the students wondered whether the customer ever replied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the students wondered whether the customer never replied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the students wondered ever whether the customer replied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the students wondered never whether the customer replied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the students thought that the customer ever replied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the students thought that the customer never replied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the students thought ever that the customer replied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the students thought never that the customer replied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the actors wonder whether a lady ever worked with patients.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the actors wonder whether a lady never worked with patients.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the actors wonder ever whether a lady worked with patients.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the actors wonder never whether a lady worked with patients.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the actors say that a lady ever worked with patients.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the actors say that a lady never worked with patients.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the actors say ever that a lady worked with patients.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the actors say never that a lady worked with patients.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the women wonder whether the guests ever nodding .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the women wonder whether the guests never nodding .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the women wonder ever whether the guests nodding .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the women wonder never whether the guests nodding .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the women imagined that the guests ever nodding .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the women imagined that the guests never nodding .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the women imagined ever that the guests nodding .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the women imagined never that the guests nodding .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a person wondered whether an actor ever explore schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a person wondered whether an actor never explore schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a person wondered ever whether an actor explore schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a person wondered never whether an actor explore schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a person explains that an actor ever explore schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a person explains that an actor never explore schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a person explains ever that an actor explore schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a person explains never that an actor explore schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a guy wonders whether the doctors ever study .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a guy wonders whether the doctors never study .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a guy wonders ever whether the doctors study .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a guy wonders never whether the doctors study .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a guy explained that the doctors ever study .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a guy explained that the doctors never study .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a guy explained ever that the doctors study .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a guy explained never that the doctors study .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the teachers wonder whether the actress ever clean cars.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the teachers wonder whether the actress never clean cars.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the teachers wonder ever whether the actress clean cars.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the teachers wonder never whether the actress clean cars.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the teachers say that the actress ever clean cars.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the teachers say that the actress never clean cars.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the teachers say ever that the actress clean cars.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the teachers say never that the actress clean cars.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the pedestrian wonders whether the guests ever kiss .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the pedestrian wonders whether the guests never kiss .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the pedestrian wonders ever whether the guests kiss .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the pedestrian wonders never whether the guests kiss .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the pedestrian says that the guests ever kiss .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the pedestrian says that the guests never kiss .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the pedestrian says ever that the guests kiss .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the pedestrian says never that the guests kiss .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a teenager wonders whether the guys ever described women.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a teenager wonders whether the guys never described women.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a teenager wonders ever whether the guys described women.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a teenager wonders never whether the guys described women.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a teenager thinks that the guys ever described women.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a teenager thinks that the guys never described women.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a teenager thinks ever that the guys described women.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a teenager thinks never that the guys described women.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the customers wonder whether the ladies ever resemble grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the customers wonder whether the ladies never resemble grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the customers wonder ever whether the ladies resemble grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the customers wonder never whether the ladies resemble grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the customers said that the ladies ever resemble grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the customers said that the ladies never resemble grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the customers said ever that the ladies resemble grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the customers said never that the ladies resemble grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the gals wonder whether a waitress ever loves plays.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the gals wonder whether a waitress never loves plays.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the gals wonder ever whether a waitress loves plays.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the gals wonder never whether a waitress loves plays.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the gals imagine that a waitress ever loves plays.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the gals imagine that a waitress never loves plays.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the gals imagine ever that a waitress loves plays.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the gals imagine never that a waitress loves plays.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a waitress wonders whether the child ever runs around museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a waitress wonders whether the child never runs around museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a waitress wonders ever whether the child runs around museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a waitress wonders never whether the child runs around museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a waitress says that the child ever runs around museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a waitress says that the child never runs around museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a waitress says ever that the child runs around museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a waitress says never that the child runs around museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the man wondered whether the adult ever cleaning glasses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the man wondered whether the adult never cleaning glasses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the man wondered ever whether the adult cleaning glasses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the man wondered never whether the adult cleaning glasses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the man imagines that the adult ever cleaning glasses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the man imagines that the adult never cleaning glasses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the man imagines ever that the adult cleaning glasses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the man imagines never that the adult cleaning glasses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a human wonders whether the actor ever escaped from humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a human wonders whether the actor never escaped from humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a human wonders ever whether the actor escaped from humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a human wonders never whether the actor escaped from humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a human thought that the actor ever escaped from humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a human thought that the actor never escaped from humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a human thought ever that the actor escaped from humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a human thought never that the actor escaped from humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the human wonders whether the patients ever corresponding .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the human wonders whether the patients never corresponding .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the human wonders ever whether the patients corresponding .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the human wonders never whether the patients corresponding .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the human imagines that the patients ever corresponding .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the human imagines that the patients never corresponding .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the human imagines ever that the patients corresponding .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the human imagines never that the patients corresponding .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the gals wondered whether the guys ever slump over .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the gals wondered whether the guys never slump over .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the gals wondered ever whether the guys slump over .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the gals wondered never whether the guys slump over .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the gals imagine that the guys ever slump over .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the gals imagine that the guys never slump over .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the gals imagine ever that the guys slump over .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the gals imagine never that the guys slump over .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the patient wondered whether the woman ever dislikes humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the patient wondered whether the woman never dislikes humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the patient wondered ever whether the woman dislikes humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the patient wondered never whether the woman dislikes humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the patient says that the woman ever dislikes humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the patient says that the woman never dislikes humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the patient says ever that the woman dislikes humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the patient says never that the woman dislikes humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the students wonder whether the pedestrians ever selling gloves.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the students wonder whether the pedestrians never selling gloves.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the students wonder ever whether the pedestrians selling gloves.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the students wonder never whether the pedestrians selling gloves.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the students said that the pedestrians ever selling gloves.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the students said that the pedestrians never selling gloves.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the students said ever that the pedestrians selling gloves.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the students said never that the pedestrians selling gloves.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the ladies wonder whether the girl ever reply .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the ladies wonder whether the girl never reply .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the ladies wonder ever whether the girl reply .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the ladies wonder never whether the girl reply .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the ladies think that the girl ever reply .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the ladies think that the girl never reply .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the ladies think ever that the girl reply .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the ladies think never that the girl reply .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the actresses wonder whether the waiters ever break plates.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the actresses wonder whether the waiters never break plates.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the actresses wonder ever whether the waiters break plates.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the actresses wonder never whether the waiters break plates.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the actresses explained that the waiters ever break plates.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the actresses explained that the waiters never break plates.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the actresses explained ever that the waiters break plates.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the actresses explained never that the waiters break plates.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the pedestrians wonder whether the children ever laughing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the pedestrians wonder whether the children never laughing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the pedestrians wonder ever whether the children laughing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the pedestrians wonder never whether the children laughing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the pedestrians imagined that the children ever laughing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the pedestrians imagined that the children never laughing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the pedestrians imagined ever that the children laughing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the pedestrians imagined never that the children laughing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the guys wondered whether the patients ever helping geese.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the guys wondered whether the patients never helping geese.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the guys wondered ever whether the patients helping geese.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the guys wondered never whether the patients helping geese.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the guys imagine that the patients ever helping geese.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the guys imagine that the patients never helping geese.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the guys imagine ever that the patients helping geese.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the guys imagine never that the patients helping geese.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the woman wonders whether the gals ever investigated men.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the woman wonders whether the gals never investigated men.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the woman wonders ever whether the gals investigated men.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the woman wonders never whether the gals investigated men.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the woman imagined that the gals ever investigated men.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the woman imagined that the gals never investigated men.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the woman imagined ever that the gals investigated men.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the woman imagined never that the gals investigated men.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the gal wonders whether the waiter ever referenced movies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the gal wonders whether the waiter never referenced movies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the gal wonders ever whether the waiter referenced movies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the gal wonders never whether the waiter referenced movies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the gal explains that the waiter ever referenced movies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the gal explains that the waiter never referenced movies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the gal explains ever that the waiter referenced movies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the gal explains never that the waiter referenced movies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the drivers wonder whether a gal ever sold couches.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the drivers wonder whether a gal never sold couches.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the drivers wonder ever whether a gal sold couches.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the drivers wonder never whether a gal sold couches.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the drivers imagine that a gal ever sold couches.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the drivers imagine that a gal never sold couches.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the drivers imagine ever that a gal sold couches.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the drivers imagine never that a gal sold couches.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the teachers wondered whether the teachers ever scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the teachers wondered whether the teachers never scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the teachers wondered ever whether the teachers scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the teachers wondered never whether the teachers scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the teachers explain that the teachers ever scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the teachers explain that the teachers never scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the teachers explain ever that the teachers scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the teachers explain never that the teachers scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a waitress wondered whether the patients ever walk through grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a waitress wondered whether the patients never walk through grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a waitress wondered ever whether the patients walk through grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a waitress wondered never whether the patients walk through grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a waitress says that the patients ever walk through grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a waitress says that the patients never walk through grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a waitress says ever that the patients walk through grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a waitress says never that the patients walk through grocery stores.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the actor wonders whether a boy ever sitting down .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the actor wonders whether a boy never sitting down .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the actor wonders ever whether a boy sitting down .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the actor wonders never whether a boy sitting down .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the actor imagined that a boy ever sitting down .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the actor imagined that a boy never sitting down .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the actor imagined ever that a boy sitting down .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the actor imagined never that a boy sitting down .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the gal wondered whether the guest ever cared for people.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the gal wondered whether the guest never cared for people.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the gal wondered ever whether the guest cared for people.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the gal wondered never whether the guest cared for people.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the gal thought that the guest ever cared for people.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the gal thought that the guest never cared for people.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the gal thought ever that the guest cared for people.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the gal thought never that the guest cared for people.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the child wonders whether the waitresses ever dislike hospitals.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the child wonders whether the waitresses never dislike hospitals.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the child wonders ever whether the waitresses dislike hospitals.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the child wonders never whether the waitresses dislike hospitals.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the child imagined that the waitresses ever dislike hospitals.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the child imagined that the waitresses never dislike hospitals.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the child imagined ever that the waitresses dislike hospitals.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the child imagined never that the waitresses dislike hospitals.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the customers wonder whether the guys ever be at museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the customers wonder whether the guys never be at museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the customers wonder ever whether the guys be at museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the customers wonder never whether the guys be at museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the customers say that the guys ever be at museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the customers say that the guys never be at museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the customers say ever that the guys be at museums.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the customers say never that the guys be at museums.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a cashier wondered whether the ladies ever lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a cashier wondered whether the ladies never lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a cashier wondered ever whether the ladies lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a cashier wondered never whether the ladies lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a cashier says that the ladies ever lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a cashier says that the ladies never lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a cashier says ever that the ladies lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a cashier says never that the ladies lift brochures.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a lady wonders whether the teacher ever approaches humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a lady wonders whether the teacher never approaches humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a lady wonders ever whether the teacher approaches humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a lady wonders never whether the teacher approaches humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a lady imagines that the teacher ever approaches humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a lady imagines that the teacher never approaches humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a lady imagines ever that the teacher approaches humans.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a lady imagines never that the teacher approaches humans.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		an adult wondered whether an actor ever talks to guests.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		an adult wondered whether an actor never talks to guests.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		an adult wondered ever whether an actor talks to guests.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		an adult wondered never whether an actor talks to guests.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		an adult says that an actor ever talks to guests.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		an adult says that an actor never talks to guests.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		an adult says ever that an actor talks to guests.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		an adult says never that an actor talks to guests.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the doctors wondered whether the girl ever learning .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the doctors wondered whether the girl never learning .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the doctors wondered ever whether the girl learning .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the doctors wondered never whether the girl learning .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the doctors explain that the girl ever learning .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the doctors explain that the girl never learning .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the doctors explain ever that the girl learning .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the doctors explain never that the girl learning .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the adults wondered whether the child ever donated .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the adults wondered whether the child never donated .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the adults wondered ever whether the child donated .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the adults wondered never whether the child donated .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the adults explained that the child ever donated .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the adults explained that the child never donated .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the adults explained ever that the child donated .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the adults explained never that the child donated .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the driver wondered whether the driver ever walk through cafes.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the driver wondered whether the driver never walk through cafes.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the driver wondered ever whether the driver walk through cafes.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the driver wondered never whether the driver walk through cafes.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the driver thought that the driver ever walk through cafes.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the driver thought that the driver never walk through cafes.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the driver thought ever that the driver walk through cafes.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the driver thought never that the driver walk through cafes.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the ladies wondered whether the person ever reads .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the ladies wondered whether the person never reads .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the ladies wondered ever whether the person reads .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the ladies wondered never whether the person reads .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the ladies think that the person ever reads .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the ladies think that the person never reads .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the ladies think ever that the person reads .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the ladies think never that the person reads .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the boy wonders whether a human ever return to offspring.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the boy wonders whether a human never return to offspring.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the boy wonders ever whether a human return to offspring.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the boy wonders never whether a human return to offspring.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the boy says that a human ever return to offspring.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the boy says that a human never return to offspring.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the boy says ever that a human return to offspring.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the boy says never that a human return to offspring.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the guest wonders whether a patient ever discussed men.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the guest wonders whether a patient never discussed men.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the guest wonders ever whether a patient discussed men.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the guest wonders never whether a patient discussed men.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the guest explains that a patient ever discussed men.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the guest explains that a patient never discussed men.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the guest explains ever that a patient discussed men.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the guest explains never that a patient discussed men.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a driver wonders whether the actresses ever observed teachers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a driver wonders whether the actresses never observed teachers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a driver wonders ever whether the actresses observed teachers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a driver wonders never whether the actresses observed teachers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a driver explained that the actresses ever observed teachers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a driver explained that the actresses never observed teachers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a driver explained ever that the actresses observed teachers.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a driver explained never that the actresses observed teachers.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a guest wonders whether the actors ever approach ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a guest wonders whether the actors never approach ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a guest wonders ever whether the actors approach ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a guest wonders never whether the actors approach ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a guest imagined that the actors ever approach ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a guest imagined that the actors never approach ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a guest imagined ever that the actors approach ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a guest imagined never that the actors approach ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the lady wondered whether a teenager ever biking to college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the lady wondered whether a teenager never biking to college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the lady wondered ever whether a teenager biking to college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the lady wondered never whether a teenager biking to college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the lady imagined that a teenager ever biking to college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the lady imagined that a teenager never biking to college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the lady imagined ever that a teenager biking to college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the lady imagined never that a teenager biking to college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a cashier wonders whether the guest ever bike to high schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a cashier wonders whether the guest never bike to high schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a cashier wonders ever whether the guest bike to high schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a cashier wonders never whether the guest bike to high schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a cashier explains that the guest ever bike to high schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a cashier explains that the guest never bike to high schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a cashier explains ever that the guest bike to high schools.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a cashier explains never that the guest bike to high schools.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the waitress wondered whether the gal ever practicing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the waitress wondered whether the gal never practicing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the waitress wondered ever whether the gal practicing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the waitress wondered never whether the gal practicing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the waitress imagined that the gal ever practicing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the waitress imagined that the gal never practicing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the waitress imagined ever that the gal practicing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the waitress imagined never that the gal practicing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		an actor wondered whether the teenagers ever skate around college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		an actor wondered whether the teenagers never skate around college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		an actor wondered ever whether the teenagers skate around college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		an actor wondered never whether the teenagers skate around college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		an actor thought that the teenagers ever skate around college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		an actor thought that the teenagers never skate around college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		an actor thought ever that the teenagers skate around college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		an actor thought never that the teenagers skate around college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the teenager wonders whether the driver ever scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the teenager wonders whether the driver never scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the teenager wonders ever whether the driver scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the teenager wonders never whether the driver scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the teenager explained that the driver ever scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the teenager explained that the driver never scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the teenager explained ever that the driver scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the teenager explained never that the driver scanning stories.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the guys wondered whether the adults ever disagreed .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the guys wondered whether the adults never disagreed .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the guys wondered ever whether the adults disagreed .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the guys wondered never whether the adults disagreed .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the guys say that the adults ever disagreed .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the guys say that the adults never disagreed .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the guys say ever that the adults disagreed .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the guys say never that the adults disagreed .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the human wondered whether the adults ever respect mice.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the human wondered whether the adults never respect mice.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the human wondered ever whether the adults respect mice.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the human wondered never whether the adults respect mice.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the human imagined that the adults ever respect mice.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the human imagined that the adults never respect mice.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the human imagined ever that the adults respect mice.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the human imagined never that the adults respect mice.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the teenager wonders whether a patient ever studied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the teenager wonders whether a patient never studied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the teenager wonders ever whether a patient studied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the teenager wonders never whether a patient studied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the teenager imagines that a patient ever studied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the teenager imagines that a patient never studied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the teenager imagines ever that a patient studied .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the teenager imagines never that a patient studied .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the boy wonders whether the waitress ever nodded .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the boy wonders whether the waitress never nodded .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the boy wonders ever whether the waitress nodded .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the boy wonders never whether the waitress nodded .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the boy explained that the waitress ever nodded .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the boy explained that the waitress never nodded .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the boy explained ever that the waitress nodded .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the boy explained never that the waitress nodded .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the women wonder whether a waiter ever known ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the women wonder whether a waiter never known ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the women wonder ever whether a waiter known ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the women wonder never whether a waiter known ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the women imagined that a waiter ever known ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the women imagined that a waiter never known ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the women imagined ever that a waiter known ladies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the women imagined never that a waiter known ladies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the waitresses wondered whether the women ever wash .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the waitresses wondered whether the women never wash .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the waitresses wondered ever whether the women wash .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the waitresses wondered never whether the women wash .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the waitresses think that the women ever wash .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the waitresses think that the women never wash .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the waitresses think ever that the women wash .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the waitresses think never that the women wash .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the patient wonders whether the actor ever criticized doctors.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the patient wonders whether the actor never criticized doctors.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the patient wonders ever whether the actor criticized doctors.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the patient wonders never whether the actor criticized doctors.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the patient imagined that the actor ever criticized doctors.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the patient imagined that the actor never criticized doctors.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the patient imagined ever that the actor criticized doctors.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the patient imagined never that the actor criticized doctors.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the customers wonder whether the men ever scanned movies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the customers wonder whether the men never scanned movies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the customers wonder ever whether the men scanned movies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the customers wonder never whether the men scanned movies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the customers imagined that the men ever scanned movies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the customers imagined that the men never scanned movies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the customers imagined ever that the men scanned movies.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the customers imagined never that the men scanned movies.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the teenagers wondered whether the actress ever passed college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the teenagers wondered whether the actress never passed college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the teenagers wondered ever whether the actress passed college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the teenagers wondered never whether the actress passed college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the teenagers say that the actress ever passed college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the teenagers say that the actress never passed college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the teenagers say ever that the actress passed college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the teenagers say never that the actress passed college campuses.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the human wonders whether the actress ever chuckled .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the human wonders whether the actress never chuckled .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the human wonders ever whether the actress chuckled .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the human wonders never whether the actress chuckled .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the human explains that the actress ever chuckled .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the human explains that the actress never chuckled .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the human explains ever that the actress chuckled .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the human explains never that the actress chuckled .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the pedestrians wonder whether the actress ever hid away .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the pedestrians wonder whether the actress never hid away .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the pedestrians wonder ever whether the actress hid away .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the pedestrians wonder never whether the actress hid away .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the pedestrians say that the actress ever hid away .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the pedestrians say that the actress never hid away .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the pedestrians say ever that the actress hid away .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the pedestrians say never that the actress hid away .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a student wonders whether the actors ever respected gals.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a student wonders whether the actors never respected gals.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a student wonders ever whether the actors respected gals.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a student wonders never whether the actors respected gals.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a student said that the actors ever respected gals.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a student said that the actors never respected gals.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a student said ever that the actors respected gals.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a student said never that the actors respected gals.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a man wonders whether the cashiers ever practicing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a man wonders whether the cashiers never practicing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a man wonders ever whether the cashiers practicing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a man wonders never whether the cashiers practicing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a man thought that the cashiers ever practicing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a man thought that the cashiers never practicing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a man thought ever that the cashiers practicing .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a man thought never that the cashiers practicing .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the ladies wonder whether a lady ever loved plays.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the ladies wonder whether a lady never loved plays.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the ladies wonder ever whether a lady loved plays.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the ladies wonder never whether a lady loved plays.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the ladies think that a lady ever loved plays.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the ladies think that a lady never loved plays.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the ladies think ever that a lady loved plays.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the ladies think never that a lady loved plays.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		the patients wondered whether the students ever learned .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		the patients wondered whether the students never learned .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		the patients wondered ever whether the students learned .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		the patients wondered never whether the students learned .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		the patients thought that the students ever learned .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		the patients thought that the students never learned .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		the patients thought ever that the students learned .
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		the patients thought never that the students learned .
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=1	1		a teacher wonders whether a girl ever discusses books.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=1_npi-present=0	1		a teacher wonders whether a girl never discusses books.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=1	0		a teacher wonders ever whether a girl discusses books.
+experiment=NPI_env=questions_npi=ever_licensor=1_scope=0_npi-present=0	0		a teacher wonders never whether a girl discusses books.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=1	0		a teacher explained that a girl ever discusses books.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=1_npi-present=0	1		a teacher explained that a girl never discusses books.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=1	0		a teacher explained ever that a girl discusses books.
+experiment=NPI_env=questions_npi=ever_licensor=0_scope=0_npi-present=0	0		a teacher explained never that a girl discusses books.
