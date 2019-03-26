@@ -32,10 +32,10 @@ while len(sentences) < number_to_generate:
     #TODO: throw in modifiers
     N1 = choice(all_animate_nouns)
     V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V1, N1)
+    V1 = conjugate(V1, N1)
     N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V2, N1)
+    V2 = conjugate(V2, N1)
     N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
 
     # build sentences with conditional environment

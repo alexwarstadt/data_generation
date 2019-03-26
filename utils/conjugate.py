@@ -10,7 +10,7 @@ def conjugate(verb, subj, allow_negated=True):
     :param verb: vocab entry
     :param subj: vocab entry
     :param allow_negated: are negated auxiliaries (e.g. shouldn't) allowed
-    :return: none, side effects only. Modifies string of verb to include
+    :return: copy of verb with modified string to include auxiliary
     """
     if allow_negated:
         subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_auxiliaries)

@@ -37,11 +37,11 @@ while len(sentences) < number_to_generate:
     D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
     D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
     V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V1, N1, allow_negated=False)
+    V1 = conjugate(V1, N1, allow_negated=False)
     N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))        # restrict to UE quantifiers, otherwise there could be another licensor
     V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V2, N1, allow_negated=False)
+    V2 = conjugate(V2, N1, allow_negated=False)
     N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
     D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
 
