@@ -6,12 +6,13 @@
 from utils.conjugate import *
 from utils.string_utils import remove_extra_whitespace
 from random import choice
+import random
 import numpy as np
 
 # initialize output file
 rel_output_path = "outputs/npi/environment=negation.tsv"
-#project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
-project_root = "G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation"
+project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
+#project_root = "G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation"
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
@@ -29,6 +30,7 @@ all_nonneg_aux = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("n
 all_intransitive_verbs = get_all("category", "S\\NP")
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_embedding_verbs = get_all("category_2", "V_embedding")
+all_nouns = get_all("category", "N")
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 
 # sample sentences until desired number
@@ -48,20 +50,33 @@ while len(sentences) < number_to_generate:
     #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
     Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
-    V2 = choice(get_matched_by(N2, "arg_1", all_intransitive_verbs))
-    Aux2 = return_aux(V2, N2, allow_negated=False)
+
+    # select transitive or intransitive V2
+    x = random.random()
+    if x < 1/2:
+        # transitive V2
+        V2 = choice(get_matched_by(N2, "arg_1", all_transitive_verbs))
+        Aux2 = return_aux(V2, N2, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
+        D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
+    else:
+        # intransitive V2 - gives empty string for N3 and D3 slots
+        V2 = choice(get_matched_by(N2, "arg_1", all_intransitive_verbs))
+        Aux2 = return_aux(V2, N2, allow_negated=False)
+        N3 = " "
+        D3 = " "
 
     # build sentences with licensor present
-    sentence_1 = "%s %s %s ever %s that %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_2 = "%s %s %s often %s that %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_3 = "%s %s %s ever %s that %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0])
-    sentence_4 = "%s %s %s often %s that %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0])
+    sentence_1 = "%s %s %s ever %s that %s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_2 = "%s %s %s often %s that %s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_3 = "%s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_4 = "%s %s %s often %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
     # build sentences with no licensor present
-    sentence_5 = "Some %s %s ever %s that %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_6 = "Some %s %s often %s that %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_7 = "%s %s %s ever %s that some %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0])
-    sentence_8 = "%s %s %s often %s that some %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0])
+    sentence_5 = "Some %s %s ever %s that %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_6 = "Some %s %s often %s that %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_7 = "%s %s %s ever %s that some %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_8 = "%s %s %s often %s that some %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)
@@ -113,20 +128,33 @@ while len(sentences) < number_to_generate:
     #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
     Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
-    V2 = choice(get_matched_by(N2, "arg_1", all_intransitive_verbs))
-    Aux2 = return_aux(V2, N2, allow_negated=False)
+
+    # select transitive or intransitive V2
+    x = random.random()
+    if x < 1/2:
+        # transitive V2
+        V2 = choice(get_matched_by(N2, "arg_1", all_transitive_verbs))
+        Aux2 = return_aux(V2, N2, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
+        D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
+    else:
+        # intransitive V2 - gives empty string for N3 and D3 slots
+        V2 = choice(get_matched_by(N2, "arg_1", all_intransitive_verbs))
+        Aux2 = return_aux(V2, N2, allow_negated=False)
+        N3 = " "
+        D3 = " "
 
     # build sentences with licensor present
-    sentence_1 = "%s %s %s %s that %s %s %s %s at all." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_2 = "%s %s %s %s that %s %s %s %s sometimes." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_3 = "%s %s %s %s that %s %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0],  N2[0], Aux2[0], V2[0])
-    sentence_4 = "%s %s %s %s that %s %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0])
+    sentence_1 = "%s %s %s %s that %s %s %s %s %s %s at all." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_2 = "%s %s %s %s that %s %s %s %s %s %s sometimes." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_3 = "%s %s %s %s that %s %s %s %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0],  N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_4 = "%s %s %s %s that %s %s %s %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
     # build sentences with no licensor present
-    sentence_5 = "Some %s %s %s that %s %s %s %s at all." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_6 = "Some %s %s %s that %s %s %s %s sometimes." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0])
-    sentence_7 = "%s %s %s %s that some %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0])
-    sentence_8 = "%s %s %s %s that some %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0])
+    sentence_5 = "Some %s %s %s that %s %s %s %s %s %s at all." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_6 = "Some %s %s %s that %s %s %s %s %s %s sometimes." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_7 = "%s %s %s %s that some %s %s %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_8 = "%s %s %s %s that some %s %s %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)

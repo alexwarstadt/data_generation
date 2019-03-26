@@ -62,13 +62,13 @@ while len(sentences) < number_to_generate:
     if x < 1/2:
         # transitive V2
         V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_transitive_verbs))
-        Aux2 = return_aux(V2, N1, allow_negated=False)
+        Aux2 = return_aux(V2, N2, allow_negated=False)
         N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
         D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
     else:
         # intransitive V2 - gives empty string for N3 and D3 slots
         V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_intransitive_verbs))
-        Aux2 = return_aux(V2, N1, allow_negated=False)
+        Aux2 = return_aux(V2, N2, allow_negated=False)
         N3 = " "
         D3 = " "
 
