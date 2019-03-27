@@ -14,7 +14,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 10
+number_to_generate = 100
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -23,7 +23,7 @@ all_quantifiers = get_all("category", "(S/(S\\NP))/N")
 all_UE_UE_quantifiers = get_all("restrictor_DE", "0", all_quantifiers)
 all_DE_UE_quantifiers = get_all("restrictor_DE", "1", get_all("scope_DE", "0", all_quantifiers)) #TODO: FC any takes singulars
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
-all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
+all_non_singular_nouns = np.intersect1d(np.append(get_all("pl", "1"), get_all("mass", "1")), get_all("frequent", "1"))
 
 # sample sentences until desired number
 while len(sentences) < number_to_generate:
@@ -37,11 +37,11 @@ while len(sentences) < number_to_generate:
     D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
     D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
     V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V1, N1, allow_negated=False)
+    V1 = conjugate(V1, N1, allow_negated=False)
     N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))        # restrict to UE quantifiers, otherwise there could be another licensor
     V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V2, N1, allow_negated=False)
+    V2 = conjugate(V2, N1, allow_negated=False)
     N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
     D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
 
@@ -71,16 +71,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have quantifiers with UE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=1" % D1_up[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=0" % D1_up[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=1" % D1_up[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=0" % D1_up[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=0-scope=1-npi_present=1" % D1_up[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=0-scope=1-npi_present=0" % D1_up[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=0-scope=0-npi_present=1" % D1_up[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=0-scope=0-npi_present=0" % D1_up[0], 1, sentence_4))
 
         # sentences 5-8 have quantifiers with DE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=1" % D1_down[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=0" % D1_down[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=1" % D1_down[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=0" % D1_down[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=1-scope=1-npi_present=1" % D1_down[0], 1, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=1-scope=1-npi_present=0" % D1_down[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=1-scope=0-npi_present=1" % D1_down[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=1-scope=0-npi_present=0" % D1_down[0], 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -173,16 +173,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have quantifiers with UE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=1" % D1_up[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=0" % D1_up[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=1" % D1_up[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=0" % D1_up[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=0-scope=1-npi_present=1" % D1_up[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=0-scope=1-npi_present=0" % D1_up[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=0-scope=0-npi_present=1" % D1_up[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=0-scope=0-npi_present=0" % D1_up[0], 1, sentence_4))
 
         # sentences 5-8 have quantifiers with DE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=1" % D1_down[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=0" % D1_down[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=1" % D1_down[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=0" % D1_down[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=1-scope=1-npi_present=1" % D1_down[0], 1, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=1-scope=1-npi_present=0" % D1_down[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=1-scope=0-npi_present=1" % D1_down[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=1-scope=0-npi_present=0" % D1_down[0], 1, sentence_8))
 
     sentences.add(sentence_1)
 
