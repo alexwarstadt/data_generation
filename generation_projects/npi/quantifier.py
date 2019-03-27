@@ -5,8 +5,9 @@
 
 from utils.conjugate import *
 from utils.string_utils import remove_extra_whitespace
-from random import choice
+# from random import choice
 import numpy as np
+from utils.randomize import choice
 
 # initialize output file
 rel_output_path = "outputs/npi/environment=quantifiers.tsv"
@@ -38,12 +39,12 @@ while len(sentences) < number_to_generate:
     D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
     V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
     V1 = conjugate(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))        # restrict to UE quantifiers, otherwise there could be another licensor
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
+    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
     V2 = conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
+    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
 
     # build sentences with UE quantifier
     sentence_1 = "%s %s who %s any %s %s %s %s ." % (D1_up[0], N1[0], V1[0], N2[0], V2[0], D3[0], N3[0])
@@ -116,12 +117,12 @@ while len(sentences) < number_to_generate:
     D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
     V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
     Aux1 = return_aux(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))
-    V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_down, D1_up])
+    V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs), [V1])
     Aux2 = return_aux(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
+    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
 
     # the replacement for "ever" depends on the tense of the verb
     # if the auxiliary is empty (i.e. the main verb is finite), use the tense of the verb, else use the auxiliary
