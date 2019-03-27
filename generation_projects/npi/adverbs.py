@@ -15,7 +15,7 @@ output = open(os.path.join(project_root, rel_output_path), "w")
 # generate sentences for "ever"
 
 # set total number of paradigms to generate
-number_to_generate = 10
+number_to_generate = 100
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -44,8 +44,8 @@ all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 # sample sentences until desired number
 while len(sentences) < number_to_generate:
     # sentence template
-    # D1    N1   Adv    (Aux) ever/also V1   that D2    N2   (Aux) V2   D3    N3
-    # The/a boy  rarely (has) ever/also said that the/a girl (has) sung the/a song
+    # D1    N1  Aux1  Adv    ever/also V1   that D2    N2   (Aux) V2   D3    N3
+    # The/a boy (has) rarely ever/also said that the/a girl (has) sung the/a song
 
     # build all lexical items
     N1 = choice(all_animate_nouns)
@@ -88,16 +88,16 @@ while len(sentences) < number_to_generate:
         V2_final = V2[0]
 
     # build sentences with frequent adverb
-    sentence_1 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Adv_freq[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_2 = "%s %s %s %s also %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Adv_freq[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_3 = "%s %s %s %s %s that %s %s %s ever %s %s %s ." % (D1[0], N1[0], Adv_freq[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_4 = "%s %s %s %s %s that %s %s %s also %s %s %s ." % (D1[0], N1[0], Adv_freq[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_1 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_2 = "%s %s %s %s also %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0],  V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_3 = "%s %s %s %s %s that %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0],  V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_4 = "%s %s %s %s %s that %s %s %s also %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0],  V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
 
     # build sentences with nonfrequent adverb
-    sentence_5 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_6 = "%s %s %s %s also %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_7 = "%s %s %s %s %s that %s %s %s ever %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_8 = "%s %s %s %s %s that %s %s %s also %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_5 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_6 = "%s %s %s %s also %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_7 = "%s %s %s %s %s that %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_8 = "%s %s %s %s %s that %s %s %s also %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)
@@ -134,8 +134,8 @@ while len(sentences) < number_to_generate:
 sentences = set()
 while len(sentences) < number_to_generate:
     # sentence template
-    # D1    N1   who  Adv    V1     any/the/0  N2       V2   any/the/0  N3
-    # The/a boy  who  rarely helps  any/the/0  children sang any/the/0  songs
+    # D1    N1   who  (Aux1) Adv    V1     any/the/0 N2       V2   any/the/0  N3
+    # The/a boy  who  (had)  rarely helped any/the/0 children sang any/the/0  songs
 
     # build all lexical items
     N1 = choice(all_animate_nouns)
@@ -143,23 +143,31 @@ while len(sentences) < number_to_generate:
     Adv_freq = choice(all_freq_adverbs)
     Adv_nonfreq = choice(all_nonfreq_adverbs)
     V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    V1 = conjugate(V1, N1, allow_negated=False)
+    Aux1 = return_aux(V1, N1, allow_negated=False)
     N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
     V2 = conjugate(V2, N1, allow_negated=False)
     N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
 
+    # check for do/does/did for aux verb, make the aux directly adjacent to verb.
+    if Aux1[0] in ["do", "does", "did"]:
+        Aux1_final = ""
+        V1_final = Aux1[0] + " " + V1[0]
+    else:
+        Aux1_final = Aux1[0]
+        V1_final = V1[0]
+
     # build sentences with frequent adverb
-    sentence_1 = "%s %s who %s %s any %s %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_2 = "%s %s who %s %s the %s %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_3 = "%s %s who %s %s %s %s any %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_4 = "%s %s who %s %s %s %s the %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_1 = "%s %s who %s %s %s any %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0], V2[0], N3[0])
+    sentence_2 = "%s %s who %s %s %s the %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0], V2[0], N3[0])
+    sentence_3 = "%s %s who %s %s %s %s %s any %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0], V2[0], N3[0])
+    sentence_4 = "%s %s who %s %s %s %s %s the %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0], V2[0], N3[0])
 
     # build sentences with nonfrequent adverb
-    sentence_5 = "%s %s who %s %s any %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_6 = "%s %s who %s %s the %s %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_7 = "%s %s who %s %s %s %s any %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_8 = "%s %s who %s %s %s %s the %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_5 = "%s %s who %s %s %s any %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0], V2[0], N3[0])
+    sentence_6 = "%s %s who %s %s %s the %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0], V2[0], N3[0])
+    sentence_7 = "%s %s who %s %s %s %s %s any %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0], V2[0], N3[0])
+    sentence_8 = "%s %s who %s %s %s %s %s the %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0], V2[0], N3[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -194,8 +202,8 @@ while len(sentences) < number_to_generate:
 sentences = set()
 while len(sentences) < number_to_generate:
     # sentence template
-    # D1    N1   who  Adv    V1    N2       (at all/on weekends) V2    N3    (at all/on weekends)
-    # The/a boy  who  rarely helps children (at all/on weekends) sang  songs (at all/on weekends)
+    # D1    N1   who (Aux1) Adv    V1     N2       (at all/on weekends) (Aux2) V2   N3    (at all/on weekends)
+    # The/a boy  who (had)  rarely helped children (at all/on weekends) (has)  sung songs (at all/on weekends)
 
     # build all lexical items
     N1 = choice(all_animate_nouns)
@@ -205,39 +213,54 @@ while len(sentences) < number_to_generate:
     # select transitive or intransitive V1
     x = random.random()
     if x < 1/2:
-        # transitive V2
+        # transitive V1
         V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-        V1 = conjugate(V1, N1, allow_negated=False)
+        Aux1 = return_aux(V1, N1, allow_negated=False)
         N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     else:
-        # intransitive V2 - gives empty string for N3 slot
+        # intransitive V2 - gives empty string for N2 slot
         V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        V1 = conjugate(V1, N1, allow_negated=False)
+        Aux1 = return_aux(V1, N1, allow_negated=False)
         N2 = " "
 
     # select transitive or intransitive V2
     if 1/3 < x < 2/3:
         # transitive V2
         V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-        V2 = conjugate(V2, N1, allow_negated=False)
+        Aux2 = return_aux(V2, N1, allow_negated=False)
         N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
     else:
         # intransitive V2 - gives empty string for N3 slot
         V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        V2 = conjugate(V2, N1, allow_negated=False)
+        Aux2 = return_aux(V2, N1, allow_negated=False)
         N3 = " "
 
+    # check for do/does/did for aux verbs, make the aux directly adjacent to verb.
+    if Aux1[0] in ["do", "does", "did"]:
+        Aux1_final = ""
+        V1_final = Aux1[0] + " " + V1[0]
+    else:
+        Aux1_final = Aux1[0]
+        V1_final = V1[0]
+
+    if Aux2[0] in ["do", "does", "did"]:
+        Aux2_final = ""
+        V2_final = Aux2[0] + " " + V2[0]
+    else:
+        Aux2_final = Aux2[0]
+        V2_final = V2[0]
+
     # build sentences with frequent adverb
-    sentence_1 = "%s %s who %s %s %s at all %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_2 = "%s %s who %s %s %s on weekends %s %s ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_3 = "%s %s who %s %s %s %s %s at all ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_4 = "%s %s who %s %s %s %s %s on weekends ." % (D1[0], N1[0], Adv_freq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_1 = "%s %s who %s %s %s %s at all %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0], Aux2_final, V2_final, N3[0])
+    sentence_2 = "%s %s who %s %s %s %s on weekends %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0], Aux2_final, V2_final, N3[0])
+    sentence_3 = "%s %s who %s %s %s %s %s %s %s at all ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0], Aux2_final, V2_final, N3[0])
+    sentence_4 = "%s %s who %s %s %s %s %s %s %s on weekends ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0], Aux2_final, V2_final, N3[0])
 
     # build sentences with nonfrequent adverb
-    sentence_5 = "%s %s who %s %s %s at all %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_6 = "%s %s who %s %s %s on weekends %s %s ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_7 = "%s %s who %s %s %s %s %s at all ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
-    sentence_8 = "%s %s who %s %s %s %s %s on weekends ." % (D1[0], N1[0], Adv_nonfreq[0], V1[0], N2[0], V2[0], N3[0])
+    sentence_5 = "%s %s who %s %s %s %s at all %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0], Aux2_final, V2_final, N3[0])
+    sentence_6 = "%s %s who %s %s %s %s on weekends %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0], Aux2_final, V2_final, N3[0])
+    sentence_7 = "%s %s who %s %s %s %s %s %s %s at all ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0], Aux2_final, V2_final, N3[0])
+    sentence_8 = "%s %s who %s %s %s %s %s %s %s on weekends ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0], Aux2_final, V2_final, N3[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
