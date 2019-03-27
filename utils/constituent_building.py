@@ -82,6 +82,7 @@ def N_to_DP_mutate(noun, frequent=True):
     """
     D = N_to_DP(noun, frequent)
     noun[0] = D[0] + " " + noun[0]
+    return noun
 
 
 

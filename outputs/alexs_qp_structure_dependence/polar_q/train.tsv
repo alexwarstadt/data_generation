@@ -1,0 +1,934 @@
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=weren't-paradigm_in_domain=1	1		Weren't a lot of cashiers that had seen these glasses praising many students?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=weren't-paradigm_in_domain=1	0		Had a lot of cashiers that seen these glasses weren't praising many students?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=isn't-paradigm_in_domain=1	1		Isn't every driver that didn't break the car praising an actor?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=isn't-paradigm_in_domain=1	0		Didn't every driver that break the car isn't praising an actor?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=weren't-paradigm_in_domain=1	1		Weren't cashiers that aren't buying some dish describing many boys?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=weren't-paradigm_in_domain=1	0		Aren't cashiers that buying some dish weren't describing many boys?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=hadn't-paradigm_in_domain=1	1		Hadn't some kids that aren't helping every doctor forgotten girls?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=hadn't-paradigm_in_domain=1	0		Aren't some kids that helping every doctor hadn't forgotten girls?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=are-paradigm_in_domain=1	1		Are these teachers that were criticizing every article visiting some actresses?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=are-paradigm_in_domain=1	0		Were these teachers that criticizing every article are visiting some actresses?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=should-paradigm_in_domain=1	1		Should all ladies that are talking about every guest talk about many guests?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=should-paradigm_in_domain=1	0		Are all ladies that talking about every guest should talk about many guests?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=weren't-paradigm_in_domain=1	1		Weren't these waitresses that haven't worn every scarf helping many girls?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=weren't-paradigm_in_domain=1	0		Haven't these waitresses that worn every scarf weren't helping many girls?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=can-paradigm_in_domain=1	1		Can some ladies that were criticizing the human insult these waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=can-paradigm_in_domain=1	0		Were some ladies that criticizing the human can insult these waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=can't-paradigm_in_domain=1	1		Can't these guys that hadn't taken these articles see some cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=can't-paradigm_in_domain=1	0		Hadn't these guys that taken these articles can't see some cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=were-paradigm_in_domain=1	1		Were a lot of ladies who aren't breaking that cup insulting some students?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=were-paradigm_in_domain=1	0		Aren't a lot of ladies who breaking that cup were insulting some students?
+exp=polar-src=1-highest=1-last=1-aux1=won't-aux2=isn't-paradigm_in_domain=1	1		Isn't this waiter who won't sell gloves kissing this kid?
+exp=polar-src=1-highest=0-last=0-aux1=won't-aux2=isn't-paradigm_in_domain=1	0		Won't this waiter who sell gloves isn't kissing this kid?
+exp=polar-src=1-highest=1-last=1-aux1=doesn't-aux2=was-paradigm_in_domain=1	1		Was that teacher that doesn't kiss the women criticizing this dude?
+exp=polar-src=1-highest=0-last=0-aux1=doesn't-aux2=was-paradigm_in_domain=1	0		Doesn't that teacher that kiss the women was criticizing this dude?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=don't-paradigm_in_domain=1	1		Don't all actresses that aren't working with every child describe a lot of dudes?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=don't-paradigm_in_domain=1	0		Aren't all actresses that working with every child don't describe a lot of dudes?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=wasn't-paradigm_in_domain=1	1		Wasn't that essay that will resemble many adults criticizing every hat?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=wasn't-paradigm_in_domain=1	0		Will that essay that resemble many adults wasn't criticizing every hat?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=did-paradigm_in_domain=1	1		Did many teachers who had forgotten the men kiss these adults?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=did-paradigm_in_domain=1	0		Had many teachers who forgotten the men did kiss these adults?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=don't-paradigm_in_domain=1	1		Don't many kids that are helping all adults discuss cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=don't-paradigm_in_domain=1	0		Are many kids that helping all adults don't discuss cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=will-paradigm_in_domain=1	1		Will the doctors who weren't hugging some doctor help many boys?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=will-paradigm_in_domain=1	0		Weren't the doctors who hugging some doctor will help many boys?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=was-paradigm_in_domain=1	1		Was every patient that is praising these stories helping this woman?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=was-paradigm_in_domain=1	0		Is every patient that praising these stories was helping this woman?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=are-paradigm_in_domain=1	1		Are adults that were visiting a lot of waitresses discussing some adults?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=are-paradigm_in_domain=1	0		Were adults that visiting a lot of waitresses are discussing some adults?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=are-paradigm_in_domain=1	1		Are gals who aren't talking to many doctors kissing these cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=are-paradigm_in_domain=1	0		Aren't gals who talking to many doctors are kissing these cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=don't-paradigm_in_domain=1	1		Don't many humans who aren't admiring the man love a lot of cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=don't-paradigm_in_domain=1	0		Aren't many humans who admiring the man don't love a lot of cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=couldn't-paradigm_in_domain=1	1		Couldn't some adults that weren't hugging these cashiers talk about these waiters?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=couldn't-paradigm_in_domain=1	0		Weren't some adults that hugging these cashiers couldn't talk about these waiters?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't dudes who have forgotten adults help these women?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=shouldn't-paradigm_in_domain=1	0		Have dudes who forgotten adults shouldn't help these women?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=were-paradigm_in_domain=1	1		Were ladies that weren't visiting the actress helping actors?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=were-paradigm_in_domain=1	0		Weren't ladies that visiting the actress were helping actors?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=is-paradigm_in_domain=1	1		Is the pedestrian that didn't forget that guy attacking some person?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=is-paradigm_in_domain=1	0		Didn't the pedestrian that forget that guy is attacking some person?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=wasn't-paradigm_in_domain=1	1		Wasn't this doctor who will care for patients discussing some child?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=wasn't-paradigm_in_domain=1	0		Will this doctor who care for patients wasn't discussing some child?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't all patients that were kissing some actress describe many cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=shouldn't-paradigm_in_domain=1	0		Were all patients that kissing some actress shouldn't describe many cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=will-paradigm_in_domain=1	1		Will many dudes that are admiring all students talk about some gals?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=will-paradigm_in_domain=1	0		Are many dudes that admiring all students will talk about some gals?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=are-paradigm_in_domain=1	1		Are a lot of actors who are praising every girl talking to some boys?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=are-paradigm_in_domain=1	0		Are a lot of actors who praising every girl are talking to some boys?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=have-paradigm_in_domain=1	1		Have many waitresses who weren't buying some books known the doctors?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=have-paradigm_in_domain=1	0		Weren't many waitresses who buying some books have known the doctors?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=should-paradigm_in_domain=1	1		Should many gals that aren't taking that plate like some actresses?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=should-paradigm_in_domain=1	0		Aren't many gals that taking that plate should like some actresses?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=had-paradigm_in_domain=1	1		Had a lot of children that hadn't forgotten some kids known a lot of customers?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=had-paradigm_in_domain=1	0		Hadn't a lot of children that forgotten some kids had known a lot of customers?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=were-paradigm_in_domain=1	1		Were a lot of ladies that had forgotten some actors admiring a lot of boys?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=were-paradigm_in_domain=1	0		Had a lot of ladies that forgotten some actors were admiring a lot of boys?
+exp=polar-src=1-highest=1-last=1-aux1=couldn't-aux2=has-paradigm_in_domain=1	1		Has that girl who couldn't know that human forgotten that girl?
+exp=polar-src=1-highest=0-last=0-aux1=couldn't-aux2=has-paradigm_in_domain=1	0		Couldn't that girl who know that human has forgotten that girl?
+exp=polar-src=1-highest=1-last=1-aux1=wouldn't-aux2=isn't-paradigm_in_domain=1	1		Isn't that teacher who wouldn't remember the patients visiting a waitress?
+exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=isn't-paradigm_in_domain=1	0		Wouldn't that teacher who remember the patients isn't visiting a waitress?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=won't-paradigm_in_domain=1	1		Won't all teachers who hadn't known these humans see these women?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=won't-paradigm_in_domain=1	0		Hadn't all teachers who known these humans won't see these women?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=were-paradigm_in_domain=1	1		Were these doctors that hadn't worn some shoes describing many humans?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=were-paradigm_in_domain=1	0		Hadn't these doctors that worn some shoes were describing many humans?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=aren't-paradigm_in_domain=1	1		Aren't all gals who are talking about all articles admiring some children?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=aren't-paradigm_in_domain=1	0		Are all gals who talking about all articles aren't admiring some children?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=is-paradigm_in_domain=1	1		Is the student who didn't resemble that woman admiring that person?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=is-paradigm_in_domain=1	0		Didn't the student who resemble that woman is admiring that person?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=do-paradigm_in_domain=1	1		Do the adults that were helping every waiter reference the men?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=do-paradigm_in_domain=1	0		Were the adults that helping every waiter do reference the men?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=can-paradigm_in_domain=1	1		Can guys who have broken the cars talk to the people?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=can-paradigm_in_domain=1	0		Have guys who broken the cars can talk to the people?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=don't-paradigm_in_domain=1	1		Don't a lot of waitresses that are working with some dudes hate some cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=don't-paradigm_in_domain=1	0		Are a lot of waitresses that working with some dudes don't hate some cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=isn't-paradigm_in_domain=1	1		Isn't a girl that didn't remember the student visiting a waiter?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=isn't-paradigm_in_domain=1	0		Didn't a girl that remember the student isn't visiting a waiter?
+exp=polar-src=1-highest=1-last=1-aux1=shouldn't-aux2=has-paradigm_in_domain=1	1		Has a lady who shouldn't sell this car known the doctor?
+exp=polar-src=1-highest=0-last=0-aux1=shouldn't-aux2=has-paradigm_in_domain=1	0		Shouldn't a lady who sell this car has known the doctor?
+exp=polar-src=1-highest=1-last=1-aux1=doesn't-aux2=hasn't-paradigm_in_domain=1	1		Hasn't the girl that doesn't like the patient seen a guest?
+exp=polar-src=1-highest=0-last=0-aux1=doesn't-aux2=hasn't-paradigm_in_domain=1	0		Doesn't the girl that like the patient hasn't seen a guest?
+exp=polar-src=1-highest=1-last=1-aux1=was-aux2=is-paradigm_in_domain=1	1		Is some dude that was talking to some dude praising this driver?
+exp=polar-src=1-highest=0-last=0-aux1=was-aux2=is-paradigm_in_domain=1	0		Was some dude that talking to some dude is praising this driver?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=did-paradigm_in_domain=1	1		Did some humans that aren't buying all glasses reference some doctors?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=did-paradigm_in_domain=1	0		Aren't some humans that buying all glasses did reference some doctors?
+exp=polar-src=1-highest=1-last=1-aux1=was-aux2=isn't-paradigm_in_domain=1	1		Isn't some student that was admiring some waiters visiting the dude?
+exp=polar-src=1-highest=0-last=0-aux1=was-aux2=isn't-paradigm_in_domain=1	0		Was some student that admiring some waiters isn't visiting the dude?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=did-paradigm_in_domain=1	1		Did these people that have broken some plate respect a lot of humans?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=did-paradigm_in_domain=1	0		Have these people that broken some plate did respect a lot of humans?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=can't-paradigm_in_domain=1	1		Can't some cashiers who are breaking some chair forget the doctors?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=can't-paradigm_in_domain=1	0		Are some cashiers who breaking some chair can't forget the doctors?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=is-paradigm_in_domain=1	1		Is the waitress that will lift these glasses describing some customer?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=is-paradigm_in_domain=1	0		Will the waitress that lift these glasses is describing some customer?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=are-paradigm_in_domain=1	1		Are some women who aren't attacking a kid listening to gals?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=are-paradigm_in_domain=1	0		Aren't some women who attacking a kid are listening to gals?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't many guys who hadn't forgotten that lady help all waiters?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=wouldn't-paradigm_in_domain=1	0		Hadn't many guys who forgotten that lady wouldn't help all waiters?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=are-paradigm_in_domain=1	1		Are all people who were lifting this chair admiring all dudes?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=are-paradigm_in_domain=1	0		Were all people who lifting this chair are admiring all dudes?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=weren't-paradigm_in_domain=1	1		Weren't these children who are working with actresses admiring the waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=weren't-paradigm_in_domain=1	0		Are these children who working with actresses weren't admiring the waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=were-paradigm_in_domain=1	1		Were many actors who are taking some cup criticizing a lot of students?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=were-paradigm_in_domain=1	0		Are many actors who taking some cup were criticizing a lot of students?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=won't-paradigm_in_domain=1	1		Won't these women that had taken the glasses respect these boys?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=won't-paradigm_in_domain=1	0		Had these women that taken the glasses won't respect these boys?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=is-paradigm_in_domain=1	1		Is every boy that will remember that girl insulting the guest?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=is-paradigm_in_domain=1	0		Will every boy that remember that girl is insulting the guest?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=were-paradigm_in_domain=1	1		Were a lot of pedestrians that were kissing children talking about doctors?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=were-paradigm_in_domain=1	0		Were a lot of pedestrians that kissing children were talking about doctors?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=are-paradigm_in_domain=1	1		Are the ladies who aren't referencing the adults admiring all actresses?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=are-paradigm_in_domain=1	0		Aren't the ladies who referencing the adults are admiring all actresses?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't some people who had forgotten some man forget all humans?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=wouldn't-paradigm_in_domain=1	0		Had some people who forgotten some man wouldn't forget all humans?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=didn't-paradigm_in_domain=1	1		Didn't kids that aren't breaking dishes describe some kids?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=didn't-paradigm_in_domain=1	0		Aren't kids that breaking dishes didn't describe some kids?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=did-paradigm_in_domain=1	1		Did all actresses who are taking many forks talk about a lot of children?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=did-paradigm_in_domain=1	0		Are all actresses who taking many forks did talk about a lot of children?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=will-paradigm_in_domain=1	1		Will many pedestrians who are buying a lot of couches help all humans?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=will-paradigm_in_domain=1	0		Are many pedestrians who buying a lot of couches will help all humans?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=will-paradigm_in_domain=1	1		Will some waitresses that aren't talking to ladies hug some waiters?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=will-paradigm_in_domain=1	0		Aren't some waitresses that talking to ladies will hug some waiters?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=have-paradigm_in_domain=1	1		Have a lot of children that were criticizing some girls known some waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=have-paradigm_in_domain=1	0		Were a lot of children that criticizing some girls have known some waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=wasn't-paradigm_in_domain=1	1		Wasn't that cashier who is wearing some scarf kissing this guy?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=wasn't-paradigm_in_domain=1	0		Is that cashier who wearing some scarf wasn't kissing this guy?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't children who are insulting that book kiss patients?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=wouldn't-paradigm_in_domain=1	0		Are children who insulting that book wouldn't kiss patients?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=didn't-paradigm_in_domain=1	1		Didn't some pedestrians that are buying the shirt admire all kids?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=didn't-paradigm_in_domain=1	0		Are some pedestrians that buying the shirt didn't admire all kids?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=can-paradigm_in_domain=1	1		Can many men who had seen the chairs talk about all kids?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=can-paradigm_in_domain=1	0		Had many men who seen the chairs can talk about all kids?
+exp=polar-src=1-highest=1-last=1-aux1=wouldn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't this girl who wouldn't work with some guest criticizing a pedestrian?
+exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=wasn't-paradigm_in_domain=1	0		Wouldn't this girl who work with some guest wasn't criticizing a pedestrian?
+exp=polar-src=1-highest=1-last=1-aux1=can-aux2=isn't-paradigm_in_domain=1	1		Isn't a gal who can kiss the pedestrians talking about every guest?
+exp=polar-src=1-highest=0-last=0-aux1=can-aux2=isn't-paradigm_in_domain=1	0		Can a gal who kiss the pedestrians isn't talking about every guest?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=do-paradigm_in_domain=1	1		Do some pedestrians that aren't referencing some child work with all pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=do-paradigm_in_domain=1	0		Aren't some pedestrians that referencing some child do work with all pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=did-paradigm_in_domain=1	1		Did some actors who weren't visiting a lot of men listen to many drivers?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=did-paradigm_in_domain=1	0		Weren't some actors who visiting a lot of men did listen to many drivers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=aren't-paradigm_in_domain=1	1		Aren't some kids that aren't referencing some actors visiting some drivers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=aren't-paradigm_in_domain=1	0		Aren't some kids that referencing some actors aren't visiting some drivers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=didn't-paradigm_in_domain=1	1		Didn't a lot of women who weren't selling a lot of cups love some gals?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=didn't-paradigm_in_domain=1	0		Weren't a lot of women who selling a lot of cups didn't love some gals?
+exp=polar-src=1-highest=1-last=1-aux1=isn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't a man that isn't referencing children talking to some waiter?
+exp=polar-src=1-highest=0-last=0-aux1=isn't-aux2=wasn't-paradigm_in_domain=1	0		Isn't a man that referencing children wasn't talking to some waiter?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=won't-paradigm_in_domain=1	1		Won't some dudes who aren't discussing many dudes remember some pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=won't-paradigm_in_domain=1	0		Aren't some dudes who discussing many dudes won't remember some pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=didn't-paradigm_in_domain=1	1		Didn't many cashiers who weren't working with many girls talk to cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=didn't-paradigm_in_domain=1	0		Weren't many cashiers who working with many girls didn't talk to cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=isn't-paradigm_in_domain=1	1		Isn't a driver that hadn't seen some boy talking to some human?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=isn't-paradigm_in_domain=1	0		Hadn't a driver that seen some boy isn't talking to some human?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=wasn't-paradigm_in_domain=1	1		Wasn't that person that will love every boy helping some customer?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=wasn't-paradigm_in_domain=1	0		Will that person that love every boy wasn't helping some customer?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=couldn't-paradigm_in_domain=1	1		Couldn't these men that weren't discussing the stories kiss all kids?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=couldn't-paradigm_in_domain=1	0		Weren't these men that discussing the stories couldn't kiss all kids?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=didn't-paradigm_in_domain=1	1		Didn't waitresses that weren't working with women forget all humans?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=didn't-paradigm_in_domain=1	0		Weren't waitresses that working with women didn't forget all humans?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=should-paradigm_in_domain=1	1		Should guys that haven't known that doctor listen to guests?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=should-paradigm_in_domain=1	0		Haven't guys that known that doctor should listen to guests?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=should-paradigm_in_domain=1	1		Should the children who had forgotten an actor criticize ladies?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=should-paradigm_in_domain=1	0		Had the children who forgotten an actor should criticize ladies?
+exp=polar-src=1-highest=1-last=1-aux1=was-aux2=was-paradigm_in_domain=1	1		Was some doctor that was kissing cashiers talking to that gal?
+exp=polar-src=1-highest=0-last=0-aux1=was-aux2=was-paradigm_in_domain=1	0		Was some doctor that kissing cashiers was talking to that gal?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=are-paradigm_in_domain=1	1		Are all ladies that weren't admiring the boy talking to the pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=are-paradigm_in_domain=1	0		Weren't all ladies that admiring the boy are talking to the pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=won't-paradigm_in_domain=1	1		Won't guys that aren't helping some drivers criticize the ladies?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=won't-paradigm_in_domain=1	0		Aren't guys that helping some drivers won't criticize the ladies?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=can-paradigm_in_domain=1	1		Can a lot of guys that were buying some gloves hate many pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=can-paradigm_in_domain=1	0		Were a lot of guys that buying some gloves can hate many pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=isn't-paradigm_in_domain=1	1		Isn't every customer that is visiting the waiter referencing that dude?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=isn't-paradigm_in_domain=1	0		Is every customer that visiting the waiter isn't referencing that dude?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=hasn't-paradigm_in_domain=1	1		Hasn't some person that didn't care for that waitress seen a woman?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=hasn't-paradigm_in_domain=1	0		Didn't some person that care for that waitress hasn't seen a woman?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't some guy that wasn't attacking many boys kissing some guy?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=wasn't-paradigm_in_domain=1	0		Wasn't some guy that attacking many boys wasn't kissing some guy?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=is-paradigm_in_domain=1	1		Is every teacher that had known students talking to the doctor?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=is-paradigm_in_domain=1	0		Had every teacher that known students is talking to the doctor?
+exp=polar-src=1-highest=1-last=1-aux1=should-aux2=was-paradigm_in_domain=1	1		Was this article that should resemble a student criticizing a chair?
+exp=polar-src=1-highest=0-last=0-aux1=should-aux2=was-paradigm_in_domain=1	0		Should this article that resemble a student was criticizing a chair?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=can't-paradigm_in_domain=1	1		Can't these actors that are listening to every student know some customers?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=can't-paradigm_in_domain=1	0		Are these actors that listening to every student can't know some customers?
+exp=polar-src=1-highest=1-last=1-aux1=was-aux2=was-paradigm_in_domain=1	1		Was a pedestrian who was bringing all chairs visiting a customer?
+exp=polar-src=1-highest=0-last=0-aux1=was-aux2=was-paradigm_in_domain=1	0		Was a pedestrian who bringing all chairs was visiting a customer?
+exp=polar-src=1-highest=1-last=1-aux1=can-aux2=was-paradigm_in_domain=1	1		Was this girl who can take all articles kissing a girl?
+exp=polar-src=1-highest=0-last=0-aux1=can-aux2=was-paradigm_in_domain=1	0		Can this girl who take all articles was kissing a girl?
+exp=polar-src=1-highest=1-last=1-aux1=isn't-aux2=isn't-paradigm_in_domain=1	1		Isn't this waiter that isn't praising a driver admiring this adult?
+exp=polar-src=1-highest=0-last=0-aux1=isn't-aux2=isn't-paradigm_in_domain=1	0		Isn't this waiter that praising a driver isn't admiring this adult?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=are-paradigm_in_domain=1	1		Are some girls who aren't criticizing some boy discussing many customers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=are-paradigm_in_domain=1	0		Aren't some girls who criticizing some boy are discussing many customers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=were-paradigm_in_domain=1	1		Were the dudes that weren't breaking some fork helping doctors?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=were-paradigm_in_domain=1	0		Weren't the dudes that breaking some fork were helping doctors?
+exp=polar-src=1-highest=1-last=1-aux1=wouldn't-aux2=isn't-paradigm_in_domain=1	1		Isn't a patient who wouldn't attack a lot of guys referencing this boy?
+exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=isn't-paradigm_in_domain=1	0		Wouldn't a patient who attack a lot of guys isn't referencing this boy?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=don't-paradigm_in_domain=1	1		Don't these people who were insulting these boys describe many people?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=don't-paradigm_in_domain=1	0		Were these people who insulting these boys don't describe many people?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't teachers who are describing many boys admire some actors?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=shouldn't-paradigm_in_domain=1	0		Are teachers who describing many boys shouldn't admire some actors?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=weren't-paradigm_in_domain=1	1		Weren't movies that aren't praising some gal talking about books?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=weren't-paradigm_in_domain=1	0		Aren't movies that praising some gal weren't talking about books?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=won't-paradigm_in_domain=1	1		Won't adults that were referencing every woman hug a lot of waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=won't-paradigm_in_domain=1	0		Were adults that referencing every woman won't hug a lot of waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	1		Couldn't many waitresses who aren't discussing some customer attack these girls?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	0		Aren't many waitresses who discussing some customer couldn't attack these girls?
+exp=polar-src=1-highest=1-last=1-aux1=couldn't-aux2=is-paradigm_in_domain=1	1		Is every child that couldn't see the women admiring the gal?
+exp=polar-src=1-highest=0-last=0-aux1=couldn't-aux2=is-paradigm_in_domain=1	0		Couldn't every child that see the women is admiring the gal?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=didn't-paradigm_in_domain=1	1		Didn't a lot of boys that were insulting the guests attack many guests?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=didn't-paradigm_in_domain=1	0		Were a lot of boys that insulting the guests didn't attack many guests?
+exp=polar-src=1-highest=1-last=1-aux1=does-aux2=wasn't-paradigm_in_domain=1	1		Wasn't some book that does resemble this story discussing that cup?
+exp=polar-src=1-highest=0-last=0-aux1=does-aux2=wasn't-paradigm_in_domain=1	0		Does some book that resemble this story wasn't discussing that cup?
+exp=polar-src=1-highest=1-last=1-aux1=isn't-aux2=was-paradigm_in_domain=1	1		Was every woman that isn't attacking the waitresses visiting a human?
+exp=polar-src=1-highest=0-last=0-aux1=isn't-aux2=was-paradigm_in_domain=1	0		Isn't every woman that attacking the waitresses was visiting a human?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=did-paradigm_in_domain=1	1		Did all actors that are attacking that dude hug a lot of women?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=did-paradigm_in_domain=1	0		Are all actors that attacking that dude did hug a lot of women?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=is-paradigm_in_domain=1	1		Is some adult who wasn't kissing the guys helping this adult?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=is-paradigm_in_domain=1	0		Wasn't some adult who kissing the guys is helping this adult?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=are-paradigm_in_domain=1	1		Are some women who weren't praising some drivers referencing a lot of dudes?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=are-paradigm_in_domain=1	0		Weren't some women who praising some drivers are referencing a lot of dudes?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=are-paradigm_in_domain=1	1		Are these drivers who weren't helping a man working with all kids?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=are-paradigm_in_domain=1	0		Weren't these drivers who helping a man are working with all kids?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=won't-paradigm_in_domain=1	1		Won't many students who are listening to that child respect a lot of patients?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=won't-paradigm_in_domain=1	0		Are many students who listening to that child won't respect a lot of patients?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=won't-paradigm_in_domain=1	1		Won't many girls who aren't talking about many guys dislike the customers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=won't-paradigm_in_domain=1	0		Aren't many girls who talking about many guys won't dislike the customers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=are-paradigm_in_domain=1	1		Are students who aren't visiting some actresses talking to all waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=are-paradigm_in_domain=1	0		Aren't students who visiting some actresses are talking to all waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=is-paradigm_in_domain=1	1		Is a story that will resemble the customers criticizing a hat?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=is-paradigm_in_domain=1	0		Will a story that resemble the customers is criticizing a hat?
+exp=polar-src=1-highest=1-last=1-aux1=won't-aux2=isn't-paradigm_in_domain=1	1		Isn't some article that won't resemble books insulting the cup?
+exp=polar-src=1-highest=0-last=0-aux1=won't-aux2=isn't-paradigm_in_domain=1	0		Won't some article that resemble books isn't insulting the cup?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=can-paradigm_in_domain=1	1		Can many guys that hadn't known all humans talk to a lot of cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=can-paradigm_in_domain=1	0		Hadn't many guys that known all humans can talk to a lot of cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=don't-paradigm_in_domain=1	1		Don't humans who were taking many books discuss all women?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=don't-paradigm_in_domain=1	0		Were humans who taking many books don't discuss all women?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=should-paradigm_in_domain=1	1		Should all children who are praising the driver like all ladies?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=should-paradigm_in_domain=1	0		Are all children who praising the driver should like all ladies?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=couldn't-paradigm_in_domain=1	1		Couldn't the waitresses that were praising some adult dislike some students?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=couldn't-paradigm_in_domain=1	0		Were the waitresses that praising some adult couldn't dislike some students?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't a lot of dudes who haven't known actresses like boys?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=shouldn't-paradigm_in_domain=1	0		Haven't a lot of dudes who known actresses shouldn't like boys?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=can't-paradigm_in_domain=1	1		Can't many gals that were kissing some men forget all customers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=can't-paradigm_in_domain=1	0		Were many gals that kissing some men can't forget all customers?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=didn't-paradigm_in_domain=1	1		Didn't all gals that were visiting the cashier insult all gals?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=didn't-paradigm_in_domain=1	0		Were all gals that visiting the cashier didn't insult all gals?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=won't-paradigm_in_domain=1	1		Won't the actresses who were hugging the boys love these kids?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=won't-paradigm_in_domain=1	0		Were the actresses who hugging the boys won't love these kids?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't all guys that haven't forgotten some actor forget guys?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=wouldn't-paradigm_in_domain=1	0		Haven't all guys that forgotten some actor wouldn't forget guys?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=are-paradigm_in_domain=1	1		Are patients who are bringing some book discussing the girls?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=are-paradigm_in_domain=1	0		Are patients who bringing some book are discussing the girls?
+exp=polar-src=1-highest=1-last=1-aux1=has-aux2=wasn't-paradigm_in_domain=1	1		Wasn't the human who has worn some skirt criticizing that customer?
+exp=polar-src=1-highest=0-last=0-aux1=has-aux2=wasn't-paradigm_in_domain=1	0		Has the human who worn some skirt wasn't criticizing that customer?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't many adults who are referencing a child listen to some drivers?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=shouldn't-paradigm_in_domain=1	0		Are many adults who referencing a child shouldn't listen to some drivers?
+exp=polar-src=1-highest=1-last=1-aux1=can't-aux2=isn't-paradigm_in_domain=1	1		Isn't some waitress that can't like a waiter attacking some actor?
+exp=polar-src=1-highest=0-last=0-aux1=can't-aux2=isn't-paradigm_in_domain=1	0		Can't some waitress that like a waiter isn't attacking some actor?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=aren't-paradigm_in_domain=1	1		Aren't all boys that were talking to the teacher referencing a lot of children?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=aren't-paradigm_in_domain=1	0		Were all boys that talking to the teacher aren't referencing a lot of children?
+exp=polar-src=1-highest=1-last=1-aux1=isn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't every girl that isn't hugging the human talking to every pedestrian?
+exp=polar-src=1-highest=0-last=0-aux1=isn't-aux2=wasn't-paradigm_in_domain=1	0		Isn't every girl that hugging the human wasn't talking to every pedestrian?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=should-paradigm_in_domain=1	1		Should many guys who weren't describing the adult work with these guys?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=should-paradigm_in_domain=1	0		Weren't many guys who describing the adult should work with these guys?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can't-paradigm_in_domain=1	1		Can't many doctors that aren't criticizing a lot of girls see a lot of teachers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can't-paradigm_in_domain=1	0		Aren't many doctors that criticizing a lot of girls can't see a lot of teachers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=won't-paradigm_in_domain=1	1		Won't many women that aren't admiring every book attack some boys?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=won't-paradigm_in_domain=1	0		Aren't many women that admiring every book won't attack some boys?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=didn't-paradigm_in_domain=1	1		Didn't kids that have worn many glasses kiss the guys?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=didn't-paradigm_in_domain=1	0		Have kids that worn many glasses didn't kiss the guys?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=should-paradigm_in_domain=1	1		Should actors who are cleaning that fork like a lot of patients?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=should-paradigm_in_domain=1	0		Are actors who cleaning that fork should like a lot of patients?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=did-paradigm_in_domain=1	1		Did some women who weren't praising that student respect customers?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=did-paradigm_in_domain=1	0		Weren't some women who praising that student did respect customers?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=should-paradigm_in_domain=1	1		Should many drivers that were lifting every fork dislike a lot of actresses?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=should-paradigm_in_domain=1	0		Were many drivers that lifting every fork should dislike a lot of actresses?
+exp=polar-src=1-highest=1-last=1-aux1=won't-aux2=is-paradigm_in_domain=1	1		Is that actor who won't dislike that actor criticizing this man?
+exp=polar-src=1-highest=0-last=0-aux1=won't-aux2=is-paradigm_in_domain=1	0		Won't that actor who dislike that actor is criticizing this man?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=is-paradigm_in_domain=1	1		Is a lady who is praising some customers insulting that student?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=is-paradigm_in_domain=1	0		Is a lady who praising some customers is insulting that student?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=wasn't-paradigm_in_domain=1	1		Wasn't some person who is cleaning many pants attacking some actor?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=wasn't-paradigm_in_domain=1	0		Is some person who cleaning many pants wasn't attacking some actor?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=won't-paradigm_in_domain=1	1		Won't the actors who were talking to a doctor respect all boys?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=won't-paradigm_in_domain=1	0		Were the actors who talking to a doctor won't respect all boys?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=do-paradigm_in_domain=1	1		Do books that were insulting some doctors discuss these books?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=do-paradigm_in_domain=1	0		Were books that insulting some doctors do discuss these books?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=will-paradigm_in_domain=1	1		Will guys that haven't taken a lot of shoes hate these kids?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=will-paradigm_in_domain=1	0		Haven't guys that taken a lot of shoes will hate these kids?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't all dudes who are selling the books hate these waiters?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=wouldn't-paradigm_in_domain=1	0		Are all dudes who selling the books wouldn't hate these waiters?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=can-paradigm_in_domain=1	1		Can the patients that are kissing children help many cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=can-paradigm_in_domain=1	0		Are the patients that kissing children can help many cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=shouldn't-aux2=had-paradigm_in_domain=1	1		Had the dude who shouldn't hate some person seen that person?
+exp=polar-src=1-highest=0-last=0-aux1=shouldn't-aux2=had-paradigm_in_domain=1	0		Shouldn't the dude who hate some person had seen that person?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can-paradigm_in_domain=1	1		Can these men who aren't discussing all gals care for all girls?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can-paradigm_in_domain=1	0		Aren't these men who discussing all gals can care for all girls?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=aren't-paradigm_in_domain=1	1		Aren't many dudes that were discussing these patients talking to girls?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=aren't-paradigm_in_domain=1	0		Were many dudes that discussing these patients aren't talking to girls?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=do-paradigm_in_domain=1	1		Do all men who aren't working with a waiter visit all pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=do-paradigm_in_domain=1	0		Aren't all men who working with a waiter do visit all pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=don't-paradigm_in_domain=1	1		Don't the adults who aren't wearing a lot of gloves discuss a lot of guys?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=don't-paradigm_in_domain=1	0		Aren't the adults who wearing a lot of gloves don't discuss a lot of guys?
+exp=polar-src=1-highest=1-last=1-aux1=can't-aux2=is-paradigm_in_domain=1	1		Is the lady who can't bring a book working with the teacher?
+exp=polar-src=1-highest=0-last=0-aux1=can't-aux2=is-paradigm_in_domain=1	0		Can't the lady who bring a book is working with the teacher?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=aren't-paradigm_in_domain=1	1		Aren't these children that hadn't seen all dudes criticizing many actors?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=aren't-paradigm_in_domain=1	0		Hadn't these children that seen all dudes aren't criticizing many actors?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=should-paradigm_in_domain=1	1		Should some girls that were describing that actress admire all girls?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=should-paradigm_in_domain=1	0		Were some girls that describing that actress should admire all girls?
+exp=polar-src=1-highest=1-last=1-aux1=can't-aux2=hasn't-paradigm_in_domain=1	1		Hasn't that teacher who can't know that kid known the girl?
+exp=polar-src=1-highest=0-last=0-aux1=can't-aux2=hasn't-paradigm_in_domain=1	0		Can't that teacher who know that kid hasn't known the girl?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=will-paradigm_in_domain=1	1		Will children that were praising this movie like these adults?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=will-paradigm_in_domain=1	0		Were children that praising this movie will like these adults?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=was-paradigm_in_domain=1	1		Was some gal that wasn't listening to a waiter kissing a customer?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=was-paradigm_in_domain=1	0		Wasn't some gal that listening to a waiter was kissing a customer?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=did-paradigm_in_domain=1	1		Did some customers who weren't kissing an adult love these people?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=did-paradigm_in_domain=1	0		Weren't some customers who kissing an adult did love these people?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=were-paradigm_in_domain=1	1		Were the dudes that weren't attacking many ladies kissing a lot of actors?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=were-paradigm_in_domain=1	0		Weren't the dudes that attacking many ladies were kissing a lot of actors?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't some people that weren't bringing that dish talk about many guests?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=shouldn't-paradigm_in_domain=1	0		Weren't some people that bringing that dish shouldn't talk about many guests?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=did-paradigm_in_domain=1	1		Did some doctors who aren't bringing a hat like the gals?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=did-paradigm_in_domain=1	0		Aren't some doctors who bringing a hat did like the gals?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=didn't-paradigm_in_domain=1	1		Didn't these girls that haven't broken a lot of cups see these boys?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=didn't-paradigm_in_domain=1	0		Haven't these girls that broken a lot of cups didn't see these boys?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can't-paradigm_in_domain=1	1		Can't all waiters that aren't describing some people kiss the people?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can't-paradigm_in_domain=1	0		Aren't all waiters that describing some people can't kiss the people?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=are-paradigm_in_domain=1	1		Are some people who were taking the articles hugging many waiters?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=are-paradigm_in_domain=1	0		Were some people who taking the articles are hugging many waiters?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=was-paradigm_in_domain=1	1		Was a guy who hadn't seen many chairs praising a waitress?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=was-paradigm_in_domain=1	0		Hadn't a guy who seen many chairs was praising a waitress?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't some people that are cleaning many plates see humans?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=shouldn't-paradigm_in_domain=1	0		Are some people that cleaning many plates shouldn't see humans?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=couldn't-paradigm_in_domain=1	1		Couldn't some ladies who were listening to the lady care for these men?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=couldn't-paradigm_in_domain=1	0		Were some ladies who listening to the lady couldn't care for these men?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=didn't-paradigm_in_domain=1	1		Didn't some girls that are talking to the person kiss these doctors?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=didn't-paradigm_in_domain=1	0		Are some girls that talking to the person didn't kiss these doctors?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=do-paradigm_in_domain=1	1		Do kids who are selling many chairs care for all people?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=do-paradigm_in_domain=1	0		Are kids who selling many chairs do care for all people?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=can't-paradigm_in_domain=1	1		Can't these actors that hadn't forgotten some person know a lot of waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=can't-paradigm_in_domain=1	0		Hadn't these actors that forgotten some person can't know a lot of waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=was-paradigm_in_domain=1	1		Was some woman who had worn a lot of shoes admiring the human?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=was-paradigm_in_domain=1	0		Had some woman who worn a lot of shoes was admiring the human?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=aren't-paradigm_in_domain=1	1		Aren't many actresses who were discussing that essay visiting the dudes?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=aren't-paradigm_in_domain=1	0		Were many actresses who discussing that essay aren't visiting the dudes?
+exp=polar-src=1-highest=1-last=1-aux1=wouldn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't a pedestrian who wouldn't criticize many women hugging every student?
+exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=wasn't-paradigm_in_domain=1	0		Wouldn't a pedestrian who criticize many women wasn't hugging every student?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=can't-paradigm_in_domain=1	1		Can't many guys that are breaking that couch love a lot of people?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=can't-paradigm_in_domain=1	0		Are many guys that breaking that couch can't love a lot of people?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=was-paradigm_in_domain=1	1		Was this doctor who had known the girls talking to every guy?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=was-paradigm_in_domain=1	0		Had this doctor who known the girls was talking to every guy?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=aren't-paradigm_in_domain=1	1		Aren't some doctors that weren't breaking many cars kissing these guys?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=aren't-paradigm_in_domain=1	0		Weren't some doctors that breaking many cars aren't kissing these guys?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=should-paradigm_in_domain=1	1		Should many guests that are breaking a lot of plates help many pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=should-paradigm_in_domain=1	0		Are many guests that breaking a lot of plates should help many pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't these humans that had taken the shirt talk to these cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=shouldn't-paradigm_in_domain=1	0		Had these humans that taken the shirt shouldn't talk to these cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=is-paradigm_in_domain=1	1		Is some waiter who is breaking some plates helping a human?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=is-paradigm_in_domain=1	0		Is some waiter who breaking some plates is helping a human?
+exp=polar-src=1-highest=1-last=1-aux1=does-aux2=wasn't-paradigm_in_domain=1	1		Wasn't that guy who does bring the hat listening to every lady?
+exp=polar-src=1-highest=0-last=0-aux1=does-aux2=wasn't-paradigm_in_domain=1	0		Does that guy who bring the hat wasn't listening to every lady?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't these doctors who were visiting some doctor like some ladies?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=shouldn't-paradigm_in_domain=1	0		Were these doctors who visiting some doctor shouldn't like some ladies?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't all patients that haven't known some dudes see some adults?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=shouldn't-paradigm_in_domain=1	0		Haven't all patients that known some dudes shouldn't see some adults?
+exp=polar-src=1-highest=1-last=1-aux1=did-aux2=was-paradigm_in_domain=1	1		Was this pedestrian that did remember this student hugging some lady?
+exp=polar-src=1-highest=0-last=0-aux1=did-aux2=was-paradigm_in_domain=1	0		Did this pedestrian that remember this student was hugging some lady?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=should-paradigm_in_domain=1	1		Should teachers that were selling some chair know all dudes?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=should-paradigm_in_domain=1	0		Were teachers that selling some chair should know all dudes?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=did-paradigm_in_domain=1	1		Did these waitresses who weren't describing a person remember some doctors?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=did-paradigm_in_domain=1	0		Weren't these waitresses who describing a person did remember some doctors?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=didn't-paradigm_in_domain=1	1		Didn't gals who aren't buying these forks hug some men?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=didn't-paradigm_in_domain=1	0		Aren't gals who buying these forks didn't hug some men?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can't-paradigm_in_domain=1	1		Can't a lot of men who aren't buying these rugs reference many girls?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can't-paradigm_in_domain=1	0		Aren't a lot of men who buying these rugs can't reference many girls?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=are-paradigm_in_domain=1	1		Are some drivers who hadn't seen these dudes attacking a lot of students?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=are-paradigm_in_domain=1	0		Hadn't some drivers who seen these dudes are attacking a lot of students?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't the actresses who are breaking these plates praise the actors?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=shouldn't-paradigm_in_domain=1	0		Are the actresses who breaking these plates shouldn't praise the actors?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=don't-paradigm_in_domain=1	1		Don't a lot of people that weren't referencing all men describe the gals?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=don't-paradigm_in_domain=1	0		Weren't a lot of people that referencing all men don't describe the gals?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=didn't-paradigm_in_domain=1	1		Didn't all gals who aren't praising all gals like children?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=didn't-paradigm_in_domain=1	0		Aren't all gals who praising all gals didn't like children?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=did-paradigm_in_domain=1	1		Did these men that aren't cleaning books resemble a lot of children?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=did-paradigm_in_domain=1	0		Aren't these men that cleaning books did resemble a lot of children?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=were-paradigm_in_domain=1	1		Were these children who weren't hugging a lot of boys helping the guys?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=were-paradigm_in_domain=1	0		Weren't these children who hugging a lot of boys were helping the guys?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=did-paradigm_in_domain=1	1		Did these waitresses who aren't taking some cup resemble a lot of students?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=did-paradigm_in_domain=1	0		Aren't these waitresses who taking some cup did resemble a lot of students?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=aren't-paradigm_in_domain=1	1		Aren't dudes who were attacking that boy talking to many pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=aren't-paradigm_in_domain=1	0		Were dudes who attacking that boy aren't talking to many pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=weren't-paradigm_in_domain=1	1		Weren't many teachers who were lifting that chair kissing many actresses?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=weren't-paradigm_in_domain=1	0		Were many teachers who lifting that chair weren't kissing many actresses?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=isn't-paradigm_in_domain=1	1		Isn't a guest that wasn't talking to some waiter talking about every actor?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=isn't-paradigm_in_domain=1	0		Wasn't a guest that talking to some waiter isn't talking about every actor?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=did-paradigm_in_domain=1	1		Did children who weren't lifting these cups talk about people?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=did-paradigm_in_domain=1	0		Weren't children who lifting these cups did talk about people?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=weren't-paradigm_in_domain=1	1		Weren't some humans who were discussing the guests hugging some kids?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=weren't-paradigm_in_domain=1	0		Were some humans who discussing the guests weren't hugging some kids?
+exp=polar-src=1-highest=1-last=1-aux1=was-aux2=was-paradigm_in_domain=1	1		Was that actor who was selling the book praising this waitress?
+exp=polar-src=1-highest=0-last=0-aux1=was-aux2=was-paradigm_in_domain=1	0		Was that actor who selling the book was praising this waitress?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=will-paradigm_in_domain=1	1		Will all drivers who weren't lifting these rugs hug people?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=will-paradigm_in_domain=1	0		Weren't all drivers who lifting these rugs will hug people?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't boys that had taken a scarf kiss children?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=shouldn't-paradigm_in_domain=1	0		Had boys that taken a scarf shouldn't kiss children?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=couldn't-paradigm_in_domain=1	1		Couldn't some drivers that are criticizing all articles resemble a lot of children?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=couldn't-paradigm_in_domain=1	0		Are some drivers that criticizing all articles couldn't resemble a lot of children?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=don't-paradigm_in_domain=1	1		Don't all guys that aren't lifting the cars attack all teachers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=don't-paradigm_in_domain=1	0		Aren't all guys that lifting the cars don't attack all teachers?
+exp=polar-src=1-highest=1-last=1-aux1=should-aux2=isn't-paradigm_in_domain=1	1		Isn't every dude who should see these cashiers criticizing this adult?
+exp=polar-src=1-highest=0-last=0-aux1=should-aux2=isn't-paradigm_in_domain=1	0		Should every dude who see these cashiers isn't criticizing this adult?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=is-paradigm_in_domain=1	1		Is this lady that wasn't attacking every actor discussing that kid?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=is-paradigm_in_domain=1	0		Wasn't this lady that attacking every actor is discussing that kid?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=didn't-paradigm_in_domain=1	1		Didn't drivers who were praising every movie forget many humans?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=didn't-paradigm_in_domain=1	0		Were drivers who praising every movie didn't forget many humans?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=weren't-paradigm_in_domain=1	1		Weren't a lot of ladies who weren't selling the glasses insulting these dudes?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=weren't-paradigm_in_domain=1	0		Weren't a lot of ladies who selling the glasses weren't insulting these dudes?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't actresses who hadn't seen all teachers forget a lot of dudes?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=wouldn't-paradigm_in_domain=1	0		Hadn't actresses who seen all teachers wouldn't forget a lot of dudes?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can-paradigm_in_domain=1	1		Can many people who aren't breaking couches talk to the boys?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can-paradigm_in_domain=1	0		Aren't many people who breaking couches can talk to the boys?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=didn't-paradigm_in_domain=1	1		Didn't a lot of kids who aren't lifting all chairs know all waiters?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=didn't-paradigm_in_domain=1	0		Aren't a lot of kids who lifting all chairs didn't know all waiters?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	1		Couldn't many waitresses that aren't discussing a lot of adults resemble some girls?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	0		Aren't many waitresses that discussing a lot of adults couldn't resemble some girls?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't these kids that are talking to the doctor visit many doctors?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=wouldn't-paradigm_in_domain=1	0		Are these kids that talking to the doctor wouldn't visit many doctors?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=couldn't-paradigm_in_domain=1	1		Couldn't some essays that were referencing an actress praise plays?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=couldn't-paradigm_in_domain=1	0		Were some essays that referencing an actress couldn't praise plays?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=don't-paradigm_in_domain=1	1		Don't the customers that weren't talking about the lady hug many kids?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=don't-paradigm_in_domain=1	0		Weren't the customers that talking about the lady don't hug many kids?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=couldn't-paradigm_in_domain=1	1		Couldn't these waiters who weren't hugging all cashiers resemble a lot of humans?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=couldn't-paradigm_in_domain=1	0		Weren't these waiters who hugging all cashiers couldn't resemble a lot of humans?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=were-paradigm_in_domain=1	1		Were a lot of adults who weren't breaking many cars talking about these women?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=were-paradigm_in_domain=1	0		Weren't a lot of adults who breaking many cars were talking about these women?
+exp=polar-src=1-highest=1-last=1-aux1=should-aux2=wasn't-paradigm_in_domain=1	1		Wasn't the waitress who should love that girl kissing a child?
+exp=polar-src=1-highest=0-last=0-aux1=should-aux2=wasn't-paradigm_in_domain=1	0		Should the waitress who love that girl wasn't kissing a child?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=should-paradigm_in_domain=1	1		Should adults who haven't taken some plate work with these cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=should-paradigm_in_domain=1	0		Haven't adults who taken some plate should work with these cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=weren't-paradigm_in_domain=1	1		Weren't many humans who haven't worn some scarf helping many ladies?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=weren't-paradigm_in_domain=1	0		Haven't many humans who worn some scarf weren't helping many ladies?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=was-paradigm_in_domain=1	1		Was that cashier that wasn't insulting a waiter talking to that actress?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=was-paradigm_in_domain=1	0		Wasn't that cashier that insulting a waiter was talking to that actress?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't this actor who wasn't working with this pedestrian praising a student?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=wasn't-paradigm_in_domain=1	0		Wasn't this actor who working with this pedestrian wasn't praising a student?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=will-paradigm_in_domain=1	1		Will some cashiers that are listening to that girl insult the drivers?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=will-paradigm_in_domain=1	0		Are some cashiers that listening to that girl will insult the drivers?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=are-paradigm_in_domain=1	1		Are a lot of drivers who had known this waitress working with all boys?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=are-paradigm_in_domain=1	0		Had a lot of drivers who known this waitress are working with all boys?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=should-paradigm_in_domain=1	1		Should many customers that had broken a lot of glasses hate some girls?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=should-paradigm_in_domain=1	0		Had many customers that broken a lot of glasses should hate some girls?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=can-paradigm_in_domain=1	1		Can all customers who were lifting these books forget some boys?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=can-paradigm_in_domain=1	0		Were all customers who lifting these books can forget some boys?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=can't-paradigm_in_domain=1	1		Can't the women who weren't praising many essays insult women?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=can't-paradigm_in_domain=1	0		Weren't the women who praising many essays can't insult women?
+exp=polar-src=1-highest=1-last=1-aux1=was-aux2=isn't-paradigm_in_domain=1	1		Isn't every story that was discussing a driver praising every story?
+exp=polar-src=1-highest=0-last=0-aux1=was-aux2=isn't-paradigm_in_domain=1	0		Was every story that discussing a driver isn't praising every story?
+exp=polar-src=1-highest=1-last=1-aux1=was-aux2=was-paradigm_in_domain=1	1		Was every actor who was discussing some actress describing that cashier?
+exp=polar-src=1-highest=0-last=0-aux1=was-aux2=was-paradigm_in_domain=1	0		Was every actor who discussing some actress was describing that cashier?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=can't-paradigm_in_domain=1	1		Can't all people who are describing these teachers listen to some actresses?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=can't-paradigm_in_domain=1	0		Are all people who describing these teachers can't listen to some actresses?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=won't-paradigm_in_domain=1	1		Won't all children that were criticizing some guest care for these patients?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=won't-paradigm_in_domain=1	0		Were all children that criticizing some guest won't care for these patients?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=is-paradigm_in_domain=1	1		Is every human that will clean some fork describing every gal?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=is-paradigm_in_domain=1	0		Will every human that clean some fork is describing every gal?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=can-paradigm_in_domain=1	1		Can some patients who have known all guys dislike cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=can-paradigm_in_domain=1	0		Have some patients who known all guys can dislike cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't these girls that aren't insulting this teacher forget girls?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=shouldn't-paradigm_in_domain=1	0		Aren't these girls that insulting this teacher shouldn't forget girls?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=wasn't-paradigm_in_domain=1	1		Wasn't this child that had known every pedestrian working with some dude?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=wasn't-paradigm_in_domain=1	0		Had this child that known every pedestrian wasn't working with some dude?
+exp=polar-src=1-highest=1-last=1-aux1=isn't-aux2=isn't-paradigm_in_domain=1	1		Isn't a man who isn't listening to the men listening to the adult?
+exp=polar-src=1-highest=0-last=0-aux1=isn't-aux2=isn't-paradigm_in_domain=1	0		Isn't a man who listening to the men isn't listening to the adult?
+exp=polar-src=1-highest=1-last=1-aux1=couldn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't some doctor who couldn't hate this guy praising the teacher?
+exp=polar-src=1-highest=0-last=0-aux1=couldn't-aux2=wasn't-paradigm_in_domain=1	0		Couldn't some doctor who hate this guy wasn't praising the teacher?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=will-paradigm_in_domain=1	1		Will the doctors that haven't broken couches discuss some cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=will-paradigm_in_domain=1	0		Haven't the doctors that broken couches will discuss some cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=do-paradigm_in_domain=1	1		Do these gals who are cleaning every rug talk to all men?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=do-paradigm_in_domain=1	0		Are these gals who cleaning every rug do talk to all men?
+exp=polar-src=1-highest=1-last=1-aux1=wouldn't-aux2=isn't-paradigm_in_domain=1	1		Isn't that person that wouldn't admire that guest discussing this adult?
+exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=isn't-paradigm_in_domain=1	0		Wouldn't that person that admire that guest isn't discussing this adult?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=is-paradigm_in_domain=1	1		Is the adult that hadn't broken this plate insulting every person?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=is-paradigm_in_domain=1	0		Hadn't the adult that broken this plate is insulting every person?
+exp=polar-src=1-highest=1-last=1-aux1=was-aux2=was-paradigm_in_domain=1	1		Was every customer who was helping a lot of waiters referencing the waiter?
+exp=polar-src=1-highest=0-last=0-aux1=was-aux2=was-paradigm_in_domain=1	0		Was every customer who helping a lot of waiters was referencing the waiter?
+exp=polar-src=1-highest=1-last=1-aux1=can't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't every book that can't talk about some kids discussing this play?
+exp=polar-src=1-highest=0-last=0-aux1=can't-aux2=wasn't-paradigm_in_domain=1	0		Can't every book that talk about some kids wasn't discussing this play?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=aren't-paradigm_in_domain=1	1		Aren't all dudes who were attacking this dude attacking a lot of gals?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=aren't-paradigm_in_domain=1	0		Were all dudes who attacking this dude aren't attacking a lot of gals?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=isn't-paradigm_in_domain=1	1		Isn't this gal that is hugging this adult working with that cashier?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=isn't-paradigm_in_domain=1	0		Is this gal that hugging this adult isn't working with that cashier?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=can't-paradigm_in_domain=1	1		Can't a lot of women who haven't worn many glasses see all women?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=can't-paradigm_in_domain=1	0		Haven't a lot of women who worn many glasses can't see all women?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=wasn't-paradigm_in_domain=1	1		Wasn't the kid who will like a lot of men insulting a kid?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=wasn't-paradigm_in_domain=1	0		Will the kid who like a lot of men wasn't insulting a kid?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=are-paradigm_in_domain=1	1		Are all guests that aren't admiring this gal describing all teachers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=are-paradigm_in_domain=1	0		Aren't all guests that admiring this gal are describing all teachers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't all men who weren't wearing this scarf hate many kids?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=shouldn't-paradigm_in_domain=1	0		Weren't all men who wearing this scarf shouldn't hate many kids?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=wasn't-paradigm_in_domain=1	1		Wasn't some doctor who is describing some ladies visiting the guy?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=wasn't-paradigm_in_domain=1	0		Is some doctor who describing some ladies wasn't visiting the guy?
+exp=polar-src=1-highest=1-last=1-aux1=does-aux2=isn't-paradigm_in_domain=1	1		Isn't every woman who does sell every book listening to this cashier?
+exp=polar-src=1-highest=0-last=0-aux1=does-aux2=isn't-paradigm_in_domain=1	0		Does every woman who sell every book isn't listening to this cashier?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=weren't-paradigm_in_domain=1	1		Weren't some plays that are talking about this kid praising these essays?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=weren't-paradigm_in_domain=1	0		Are some plays that talking about this kid weren't praising these essays?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=didn't-paradigm_in_domain=1	1		Didn't some guests who were breaking many dishes discuss many customers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=didn't-paradigm_in_domain=1	0		Were some guests who breaking many dishes didn't discuss many customers?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=were-paradigm_in_domain=1	1		Were a lot of drivers that were selling a lot of articles talking about cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=were-paradigm_in_domain=1	0		Were a lot of drivers that selling a lot of articles were talking about cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=is-paradigm_in_domain=1	1		Is that guest that will resemble this hat attacking a student?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=is-paradigm_in_domain=1	0		Will that guest that resemble this hat is attacking a student?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=don't-paradigm_in_domain=1	1		Don't a lot of students who weren't describing some movies love the girls?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=don't-paradigm_in_domain=1	0		Weren't a lot of students who describing some movies don't love the girls?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=can-paradigm_in_domain=1	1		Can many men that hadn't broken this dish see these pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=can-paradigm_in_domain=1	0		Hadn't many men that broken this dish can see these pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=won't-paradigm_in_domain=1	1		Won't the guys who hadn't taken some gloves resemble some patients?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=won't-paradigm_in_domain=1	0		Hadn't the guys who taken some gloves won't resemble some patients?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=were-paradigm_in_domain=1	1		Were drivers who weren't visiting a human helping all gals?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=were-paradigm_in_domain=1	0		Weren't drivers who visiting a human were helping all gals?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't all people that are praising guests listen to many waiters?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=shouldn't-paradigm_in_domain=1	0		Are all people that praising guests shouldn't listen to many waiters?
+exp=polar-src=1-highest=1-last=1-aux1=shouldn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't the boy that shouldn't forget the children hugging some patient?
+exp=polar-src=1-highest=0-last=0-aux1=shouldn't-aux2=wasn't-paradigm_in_domain=1	0		Shouldn't the boy that forget the children wasn't hugging some patient?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=do-paradigm_in_domain=1	1		Do the boys who aren't describing the adults like a lot of guests?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=do-paradigm_in_domain=1	0		Aren't the boys who describing the adults do like a lot of guests?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can-paradigm_in_domain=1	1		Can the women that aren't attacking every driver know the women?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can-paradigm_in_domain=1	0		Aren't the women that attacking every driver can know the women?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=can-paradigm_in_domain=1	1		Can waitresses who were working with some person forget many guys?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=can-paradigm_in_domain=1	0		Were waitresses who working with some person can forget many guys?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=couldn't-paradigm_in_domain=1	1		Couldn't the pedestrians that were bringing these glasses see the actors?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=couldn't-paradigm_in_domain=1	0		Were the pedestrians that bringing these glasses couldn't see the actors?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=were-paradigm_in_domain=1	1		Were these women that aren't talking to the actress listening to the adults?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=were-paradigm_in_domain=1	0		Aren't these women that talking to the actress were listening to the adults?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can-paradigm_in_domain=1	1		Can actresses that aren't working with waitresses see some doctors?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can-paradigm_in_domain=1	0		Aren't actresses that working with waitresses can see some doctors?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't all patients who weren't selling every scarf insult some cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=wouldn't-paradigm_in_domain=1	0		Weren't all patients who selling every scarf wouldn't insult some cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=aren't-paradigm_in_domain=1	1		Aren't some girls that are hugging the driver working with some girls?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=aren't-paradigm_in_domain=1	0		Are some girls that hugging the driver aren't working with some girls?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=haven't-paradigm_in_domain=1	1		Haven't these kids that hadn't worn some shoes seen doctors?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=haven't-paradigm_in_domain=1	0		Hadn't these kids that worn some shoes haven't seen doctors?
+exp=polar-src=1-highest=1-last=1-aux1=has-aux2=was-paradigm_in_domain=1	1		Was some girl who has known this customer criticizing that waiter?
+exp=polar-src=1-highest=0-last=0-aux1=has-aux2=was-paradigm_in_domain=1	0		Has some girl who known this customer was criticizing that waiter?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=couldn't-paradigm_in_domain=1	1		Couldn't a lot of men that haven't worn these shoes respect all people?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=couldn't-paradigm_in_domain=1	0		Haven't a lot of men that worn these shoes couldn't respect all people?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=weren't-paradigm_in_domain=1	1		Weren't a lot of ladies that aren't bringing these chairs working with a lot of men?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=weren't-paradigm_in_domain=1	0		Aren't a lot of ladies that bringing these chairs weren't working with a lot of men?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=will-paradigm_in_domain=1	1		Will a lot of girls who hadn't known that pedestrian hug kids?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=will-paradigm_in_domain=1	0		Hadn't a lot of girls who known that pedestrian will hug kids?
+exp=polar-src=1-highest=1-last=1-aux1=won't-aux2=hadn't-paradigm_in_domain=1	1		Hadn't the dude that won't hate ladies known every driver?
+exp=polar-src=1-highest=0-last=0-aux1=won't-aux2=hadn't-paradigm_in_domain=1	0		Won't the dude that hate ladies hadn't known every driver?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=didn't-paradigm_in_domain=1	1		Didn't these gals that are breaking this dish hug all guys?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=didn't-paradigm_in_domain=1	0		Are these gals that breaking this dish didn't hug all guys?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=can-paradigm_in_domain=1	1		Can the drivers that are talking about many children describe these guys?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=can-paradigm_in_domain=1	0		Are the drivers that talking about many children can describe these guys?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=was-paradigm_in_domain=1	1		Was every teacher who didn't resemble pedestrians kissing every student?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=was-paradigm_in_domain=1	0		Didn't every teacher who resemble pedestrians was kissing every student?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=couldn't-paradigm_in_domain=1	1		Couldn't all teachers who were lifting a plate hate all children?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=couldn't-paradigm_in_domain=1	0		Were all teachers who lifting a plate couldn't hate all children?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't a girl who wasn't kissing many actors visiting some dude?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=wasn't-paradigm_in_domain=1	0		Wasn't a girl who kissing many actors wasn't visiting some dude?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=didn't-paradigm_in_domain=1	1		Didn't these doctors who weren't admiring all shoes hate a lot of girls?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=didn't-paradigm_in_domain=1	0		Weren't these doctors who admiring all shoes didn't hate a lot of girls?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=don't-paradigm_in_domain=1	1		Don't a lot of guys that are discussing many movies respect the humans?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=don't-paradigm_in_domain=1	0		Are a lot of guys that discussing many movies don't respect the humans?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=did-paradigm_in_domain=1	1		Did these humans that were visiting drivers describe many actors?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=did-paradigm_in_domain=1	0		Were these humans that visiting drivers did describe many actors?
+exp=polar-src=1-highest=1-last=1-aux1=can-aux2=was-paradigm_in_domain=1	1		Was a child that can bring a book working with that man?
+exp=polar-src=1-highest=0-last=0-aux1=can-aux2=was-paradigm_in_domain=1	0		Can a child that bring a book was working with that man?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't many teachers who haven't worn this skirt like waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=wouldn't-paradigm_in_domain=1	0		Haven't many teachers who worn this skirt wouldn't like waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=should-paradigm_in_domain=1	1		Should these patients that have taken the glasses reference a lot of ladies?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=should-paradigm_in_domain=1	0		Have these patients that taken the glasses should reference a lot of ladies?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=will-paradigm_in_domain=1	1		Will many people that weren't describing dudes admire all people?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=will-paradigm_in_domain=1	0		Weren't many people that describing dudes will admire all people?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	1		Couldn't a lot of guests that aren't wearing a dress describe a lot of waiters?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	0		Aren't a lot of guests that wearing a dress couldn't describe a lot of waiters?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=did-paradigm_in_domain=1	1		Did a lot of women who were hugging many waitresses listen to all doctors?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=did-paradigm_in_domain=1	0		Were a lot of women who hugging many waitresses did listen to all doctors?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't many teachers who had seen that glass resemble the women?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=wouldn't-paradigm_in_domain=1	0		Had many teachers who seen that glass wouldn't resemble the women?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=do-paradigm_in_domain=1	1		Do these dudes that weren't breaking a fork know the adults?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=do-paradigm_in_domain=1	0		Weren't these dudes that breaking a fork do know the adults?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=do-paradigm_in_domain=1	1		Do many students that weren't describing some gals kiss many gals?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=do-paradigm_in_domain=1	0		Weren't many students that describing some gals do kiss many gals?
+exp=polar-src=1-highest=1-last=1-aux1=can-aux2=is-paradigm_in_domain=1	1		Is that book that can praise a movie discussing every book?
+exp=polar-src=1-highest=0-last=0-aux1=can-aux2=is-paradigm_in_domain=1	0		Can that book that praise a movie is discussing every book?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=are-paradigm_in_domain=1	1		Are many men who hadn't broken the dishes working with a lot of doctors?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=are-paradigm_in_domain=1	0		Hadn't many men who broken the dishes are working with a lot of doctors?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=is-paradigm_in_domain=1	1		Is that girl who wasn't praising a lot of waiters working with that customer?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=is-paradigm_in_domain=1	0		Wasn't that girl who praising a lot of waiters is working with that customer?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=have-paradigm_in_domain=1	1		Have all boys that haven't worn a lot of shoes forgotten all customers?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=have-paradigm_in_domain=1	0		Haven't all boys that worn a lot of shoes have forgotten all customers?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=did-paradigm_in_domain=1	1		Did many patients who are admiring every human see students?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=did-paradigm_in_domain=1	0		Are many patients who admiring every human did see students?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can't-paradigm_in_domain=1	1		Can't some pedestrians who aren't taking forks hate the kids?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can't-paradigm_in_domain=1	0		Aren't some pedestrians who taking forks can't hate the kids?
+exp=polar-src=1-highest=1-last=1-aux1=was-aux2=isn't-paradigm_in_domain=1	1		Isn't this boy that was cleaning the glasses discussing some guy?
+exp=polar-src=1-highest=0-last=0-aux1=was-aux2=isn't-paradigm_in_domain=1	0		Was this boy that cleaning the glasses isn't discussing some guy?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't all pedestrians who are visiting many humans discuss some dudes?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=wouldn't-paradigm_in_domain=1	0		Are all pedestrians who visiting many humans wouldn't discuss some dudes?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=can't-paradigm_in_domain=1	1		Can't students who were wearing many gloves admire these waiters?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=can't-paradigm_in_domain=1	0		Were students who wearing many gloves can't admire these waiters?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=do-paradigm_in_domain=1	1		Do some people who were admiring patients like some cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=do-paradigm_in_domain=1	0		Were some people who admiring patients do like some cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=don't-paradigm_in_domain=1	1		Don't drivers who haven't worn some glasses attack all students?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=don't-paradigm_in_domain=1	0		Haven't drivers who worn some glasses don't attack all students?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=should-paradigm_in_domain=1	1		Should the waiters who have broken that cup dislike many men?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=should-paradigm_in_domain=1	0		Have the waiters who broken that cup should dislike many men?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=do-paradigm_in_domain=1	1		Do guys that aren't cleaning these glasses love guys?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=do-paradigm_in_domain=1	0		Aren't guys that cleaning these glasses do love guys?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=don't-paradigm_in_domain=1	1		Don't a lot of kids who haven't worn that skirt hug these children?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=don't-paradigm_in_domain=1	0		Haven't a lot of kids who worn that skirt don't hug these children?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=should-paradigm_in_domain=1	1		Should many cashiers that aren't wearing every dress kiss some drivers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=should-paradigm_in_domain=1	0		Aren't many cashiers that wearing every dress should kiss some drivers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=don't-paradigm_in_domain=1	1		Don't gals that weren't taking plates hug many people?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=don't-paradigm_in_domain=1	0		Weren't gals that taking plates don't hug many people?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=can't-paradigm_in_domain=1	1		Can't these waiters that were talking about that child talk to drivers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=can't-paradigm_in_domain=1	0		Were these waiters that talking about that child can't talk to drivers?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=are-paradigm_in_domain=1	1		Are some guests who haven't forgotten the woman visiting these people?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=are-paradigm_in_domain=1	0		Haven't some guests who forgotten the woman are visiting these people?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=hadn't-paradigm_in_domain=1	1		Hadn't all waiters who have seen the patient known some gals?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=hadn't-paradigm_in_domain=1	0		Have all waiters who seen the patient hadn't known some gals?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can't-paradigm_in_domain=1	1		Can't all teachers who aren't kissing many people attack women?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can't-paradigm_in_domain=1	0		Aren't all teachers who kissing many people can't attack women?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=aren't-paradigm_in_domain=1	1		Aren't patients that are insulting some customers visiting some waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=aren't-paradigm_in_domain=1	0		Are patients that insulting some customers aren't visiting some waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=don't-paradigm_in_domain=1	1		Don't guests that weren't cleaning forks admire all gals?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=don't-paradigm_in_domain=1	0		Weren't guests that cleaning forks don't admire all gals?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=don't-paradigm_in_domain=1	1		Don't all children that were kissing an adult respect these humans?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=don't-paradigm_in_domain=1	0		Were all children that kissing an adult don't respect these humans?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=were-paradigm_in_domain=1	1		Were the doctors who were criticizing many doctors listening to all drivers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=were-paradigm_in_domain=1	0		Were the doctors who criticizing many doctors were listening to all drivers?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=wasn't-paradigm_in_domain=1	1		Wasn't every student who is attacking some human visiting some actor?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=wasn't-paradigm_in_domain=1	0		Is every student who attacking some human wasn't visiting some actor?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't some men that weren't insulting every person kiss some pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=wouldn't-paradigm_in_domain=1	0		Weren't some men that insulting every person wouldn't kiss some pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=are-paradigm_in_domain=1	1		Are a lot of girls who aren't listening to a lot of teachers kissing these students?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=are-paradigm_in_domain=1	0		Aren't a lot of girls who listening to a lot of teachers are kissing these students?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=isn't-paradigm_in_domain=1	1		Isn't the doctor who hadn't seen this driver talking about that pedestrian?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=isn't-paradigm_in_domain=1	0		Hadn't the doctor who seen this driver isn't talking about that pedestrian?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=was-paradigm_in_domain=1	1		Was a gal that didn't visit many actors talking to every adult?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=was-paradigm_in_domain=1	0		Didn't a gal that visit many actors was talking to every adult?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=is-paradigm_in_domain=1	1		Is every waiter who is selling every book listening to that customer?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=is-paradigm_in_domain=1	0		Is every waiter who selling every book is listening to that customer?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=did-paradigm_in_domain=1	1		Did children who aren't describing some gal reference many children?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=did-paradigm_in_domain=1	0		Aren't children who describing some gal did reference many children?
+exp=polar-src=1-highest=1-last=1-aux1=should-aux2=is-paradigm_in_domain=1	1		Is this human who should know some girl talking about the waiter?
+exp=polar-src=1-highest=0-last=0-aux1=should-aux2=is-paradigm_in_domain=1	0		Should this human who know some girl is talking about the waiter?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't dudes that were working with the adult attack these patients?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=wouldn't-paradigm_in_domain=1	0		Were dudes that working with the adult wouldn't attack these patients?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=hadn't-paradigm_in_domain=1	1		Hadn't some adults who weren't taking these forks forgotten these waiters?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=hadn't-paradigm_in_domain=1	0		Weren't some adults who taking these forks hadn't forgotten these waiters?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=can-paradigm_in_domain=1	1		Can students that have forgotten some guests remember students?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=can-paradigm_in_domain=1	0		Have students that forgotten some guests can remember students?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=aren't-paradigm_in_domain=1	1		Aren't these cashiers that were listening to this person admiring many gals?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=aren't-paradigm_in_domain=1	0		Were these cashiers that listening to this person aren't admiring many gals?
+exp=polar-src=1-highest=1-last=1-aux1=won't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't that student that won't have these chairs listening to that actress?
+exp=polar-src=1-highest=0-last=0-aux1=won't-aux2=wasn't-paradigm_in_domain=1	0		Won't that student that have these chairs wasn't listening to that actress?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=were-paradigm_in_domain=1	1		Were all students that weren't helping a lot of guys admiring all pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=were-paradigm_in_domain=1	0		Weren't all students that helping a lot of guys were admiring all pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=wasn't-paradigm_in_domain=1	1		Wasn't this student who is cleaning the pants attacking this teacher?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=wasn't-paradigm_in_domain=1	0		Is this student who cleaning the pants wasn't attacking this teacher?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=hasn't-paradigm_in_domain=1	1		Hasn't some guest who didn't love all girls seen this guy?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=hasn't-paradigm_in_domain=1	0		Didn't some guest who love all girls hasn't seen this guy?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=has-paradigm_in_domain=1	1		Has some pedestrian who didn't break a cup known every dude?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=has-paradigm_in_domain=1	0		Didn't some pedestrian who break a cup has known every dude?
+exp=polar-src=1-highest=1-last=1-aux1=shouldn't-aux2=isn't-paradigm_in_domain=1	1		Isn't the human that shouldn't have a rug talking to the guest?
+exp=polar-src=1-highest=0-last=0-aux1=shouldn't-aux2=isn't-paradigm_in_domain=1	0		Shouldn't the human that have a rug isn't talking to the guest?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't the adults that were admiring that lady visit these drivers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=wouldn't-paradigm_in_domain=1	0		Were the adults that admiring that lady wouldn't visit these drivers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=are-paradigm_in_domain=1	1		Are the actors who aren't talking about that pedestrian referencing many cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=are-paradigm_in_domain=1	0		Aren't the actors who talking about that pedestrian are referencing many cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't many girls that were insulting the person talk to many doctors?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=wouldn't-paradigm_in_domain=1	0		Were many girls that insulting the person wouldn't talk to many doctors?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=do-paradigm_in_domain=1	1		Do these humans that are discussing this teacher describe these gals?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=do-paradigm_in_domain=1	0		Are these humans that discussing this teacher do describe these gals?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=hadn't-paradigm_in_domain=1	1		Hadn't kids that aren't criticizing a lot of patients seen gals?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=hadn't-paradigm_in_domain=1	0		Aren't kids that criticizing a lot of patients hadn't seen gals?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=was-paradigm_in_domain=1	1		Was some patient that didn't love that person listening to this child?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=was-paradigm_in_domain=1	0		Didn't some patient that love that person was listening to this child?
+exp=polar-src=1-highest=1-last=1-aux1=will-aux2=was-paradigm_in_domain=1	1		Was the patient that will care for some pedestrians kissing a girl?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=was-paradigm_in_domain=1	0		Will the patient that care for some pedestrians was kissing a girl?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=do-paradigm_in_domain=1	1		Do some drivers that weren't visiting the ladies forget a lot of pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=do-paradigm_in_domain=1	0		Weren't some drivers that visiting the ladies do forget a lot of pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=don't-paradigm_in_domain=1	1		Don't a lot of humans who had broken all glasses care for students?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=don't-paradigm_in_domain=1	0		Had a lot of humans who broken all glasses don't care for students?
+exp=polar-src=1-highest=1-last=1-aux1=wouldn't-aux2=hadn't-paradigm_in_domain=1	1		Hadn't the actor that wouldn't see the gloves seen the teacher?
+exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=hadn't-paradigm_in_domain=1	0		Wouldn't the actor that see the gloves hadn't seen the teacher?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't this doctor that didn't know that woman describing some woman?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=wasn't-paradigm_in_domain=1	0		Didn't this doctor that know that woman wasn't describing some woman?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=did-paradigm_in_domain=1	1		Did the adults that aren't praising humans talk about many students?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=did-paradigm_in_domain=1	0		Aren't the adults that praising humans did talk about many students?
+exp=polar-src=1-highest=1-last=1-aux1=won't-aux2=is-paradigm_in_domain=1	1		Is some woman who won't resemble these teachers discussing this doctor?
+exp=polar-src=1-highest=0-last=0-aux1=won't-aux2=is-paradigm_in_domain=1	0		Won't some woman who resemble these teachers is discussing this doctor?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=weren't-paradigm_in_domain=1	1		Weren't all waiters that were taking these glasses discussing some adults?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=weren't-paradigm_in_domain=1	0		Were all waiters that taking these glasses weren't discussing some adults?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=do-paradigm_in_domain=1	1		Do all kids who were criticizing the dudes attack people?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=do-paradigm_in_domain=1	0		Were all kids who criticizing the dudes do attack people?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=weren't-paradigm_in_domain=1	1		Weren't a lot of teachers who weren't lifting some couches insulting these waiters?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=weren't-paradigm_in_domain=1	0		Weren't a lot of teachers who lifting some couches weren't insulting these waiters?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=couldn't-paradigm_in_domain=1	1		Couldn't a lot of patients who are referencing every man listen to a lot of girls?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=couldn't-paradigm_in_domain=1	0		Are a lot of patients who referencing every man couldn't listen to a lot of girls?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=weren't-paradigm_in_domain=1	1		Weren't the actresses who haven't worn every skirt admiring these patients?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=weren't-paradigm_in_domain=1	0		Haven't the actresses who worn every skirt weren't admiring these patients?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=can't-paradigm_in_domain=1	1		Can't some pedestrians who are hugging some actors respect these men?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=can't-paradigm_in_domain=1	0		Are some pedestrians who hugging some actors can't respect these men?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't these cashiers that were cleaning these gloves like gals?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=wouldn't-paradigm_in_domain=1	0		Were these cashiers that cleaning these gloves wouldn't like gals?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=weren't-paradigm_in_domain=1	1		Weren't many guests who aren't taking many gloves working with these guys?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=weren't-paradigm_in_domain=1	0		Aren't many guests who taking many gloves weren't working with these guys?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=haven't-paradigm_in_domain=1	1		Haven't these patients that weren't visiting waiters forgotten some actors?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=haven't-paradigm_in_domain=1	0		Weren't these patients that visiting waiters haven't forgotten some actors?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=won't-paradigm_in_domain=1	1		Won't these teachers that are bringing a plate like all cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=won't-paradigm_in_domain=1	0		Are these teachers that bringing a plate won't like all cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't a lot of actors that weren't discussing men insult the children?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=shouldn't-paradigm_in_domain=1	0		Weren't a lot of actors that discussing men shouldn't insult the children?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=do-paradigm_in_domain=1	1		Do a lot of waitresses who had worn every scarf discuss the waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=do-paradigm_in_domain=1	0		Had a lot of waitresses who worn every scarf do discuss the waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=can-aux2=isn't-paradigm_in_domain=1	1		Isn't this waiter that can describe that pedestrian praising that kid?
+exp=polar-src=1-highest=0-last=0-aux1=can-aux2=isn't-paradigm_in_domain=1	0		Can this waiter that describe that pedestrian isn't praising that kid?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=were-paradigm_in_domain=1	1		Were a lot of girls who have forgotten this child admiring many dudes?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=were-paradigm_in_domain=1	0		Have a lot of girls who forgotten this child were admiring many dudes?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=will-paradigm_in_domain=1	1		Will children who had broken this car talk about some dudes?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=will-paradigm_in_domain=1	0		Had children who broken this car will talk about some dudes?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=won't-paradigm_in_domain=1	1		Won't doctors who are buying these chairs resemble these dudes?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=won't-paradigm_in_domain=1	0		Are doctors who buying these chairs won't resemble these dudes?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't many patients that weren't talking about all guests listen to these ladies?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=wouldn't-paradigm_in_domain=1	0		Weren't many patients that talking about all guests wouldn't listen to these ladies?
+exp=polar-src=1-highest=1-last=1-aux1=shouldn't-aux2=isn't-paradigm_in_domain=1	1		Isn't the article that shouldn't praise the doctor referencing this book?
+exp=polar-src=1-highest=0-last=0-aux1=shouldn't-aux2=isn't-paradigm_in_domain=1	0		Shouldn't the article that praise the doctor isn't referencing this book?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=are-paradigm_in_domain=1	1		Are the customers who are bringing books visiting a lot of actors?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=are-paradigm_in_domain=1	0		Are the customers who bringing books are visiting a lot of actors?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=aren't-paradigm_in_domain=1	1		Aren't these ladies that are describing these gals listening to students?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=aren't-paradigm_in_domain=1	0		Are these ladies that describing these gals aren't listening to students?
+exp=polar-src=1-highest=1-last=1-aux1=can-aux2=is-paradigm_in_domain=1	1		Is some child that can break many cars insulting some teacher?
+exp=polar-src=1-highest=0-last=0-aux1=can-aux2=is-paradigm_in_domain=1	0		Can some child that break many cars is insulting some teacher?
+exp=polar-src=1-highest=1-last=1-aux1=isn't-aux2=is-paradigm_in_domain=1	1		Is a guy that isn't referencing every patient describing every man?
+exp=polar-src=1-highest=0-last=0-aux1=isn't-aux2=is-paradigm_in_domain=1	0		Isn't a guy that referencing every patient is describing every man?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=had-paradigm_in_domain=1	1		Had many customers that are cleaning some shoes known these cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=had-paradigm_in_domain=1	0		Are many customers that cleaning some shoes had known these cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=won't-paradigm_in_domain=1	1		Won't many patients that were working with all pedestrians attack some humans?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=won't-paradigm_in_domain=1	0		Were many patients that working with all pedestrians won't attack some humans?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can't-paradigm_in_domain=1	1		Can't waiters who aren't lifting books work with all girls?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can't-paradigm_in_domain=1	0		Aren't waiters who lifting books can't work with all girls?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=won't-paradigm_in_domain=1	1		Won't all guests that haven't forgotten some waiters work with the dudes?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=won't-paradigm_in_domain=1	0		Haven't all guests that forgotten some waiters won't work with the dudes?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=was-paradigm_in_domain=1	1		Was a patient who had worn many shoes working with that lady?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=was-paradigm_in_domain=1	0		Had a patient who worn many shoes was working with that lady?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=was-paradigm_in_domain=1	1		Was this guy who didn't praise that play discussing a driver?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=was-paradigm_in_domain=1	0		Didn't this guy who praise that play was discussing a driver?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't customers who are talking to every cashier hug these ladies?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=shouldn't-paradigm_in_domain=1	0		Are customers who talking to every cashier shouldn't hug these ladies?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=don't-paradigm_in_domain=1	1		Don't some customers that have seen every human resemble these customers?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=don't-paradigm_in_domain=1	0		Have some customers that seen every human don't resemble these customers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=should-paradigm_in_domain=1	1		Should the actors that weren't insulting the doctor like some gals?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=should-paradigm_in_domain=1	0		Weren't the actors that insulting the doctor should like some gals?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=didn't-paradigm_in_domain=1	1		Didn't some pedestrians that weren't hugging the children attack some cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=didn't-paradigm_in_domain=1	0		Weren't some pedestrians that hugging the children didn't attack some cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=should-paradigm_in_domain=1	1		Should the men that aren't attacking some students attack the teachers?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=should-paradigm_in_domain=1	0		Aren't the men that attacking some students should attack the teachers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=should-paradigm_in_domain=1	1		Should waiters who aren't attacking waitresses discuss doctors?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=should-paradigm_in_domain=1	0		Aren't waiters who attacking waitresses should discuss doctors?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=didn't-paradigm_in_domain=1	1		Didn't all women that haven't worn a lot of pants hug all cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=didn't-paradigm_in_domain=1	0		Haven't all women that worn a lot of pants didn't hug all cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=did-paradigm_in_domain=1	1		Did some drivers that are insulting some story dislike some humans?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=did-paradigm_in_domain=1	0		Are some drivers that insulting some story did dislike some humans?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=is-paradigm_in_domain=1	1		Is that lady who is breaking many cars working with some human?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=is-paradigm_in_domain=1	0		Is that lady who breaking many cars is working with some human?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=aren't-paradigm_in_domain=1	1		Aren't many waitresses that aren't visiting many actors criticizing some boys?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=aren't-paradigm_in_domain=1	0		Aren't many waitresses that visiting many actors aren't criticizing some boys?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=do-paradigm_in_domain=1	1		Do many drivers that hadn't taken every cup talk to some waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=do-paradigm_in_domain=1	0		Hadn't many drivers that taken every cup do talk to some waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=can-paradigm_in_domain=1	1		Can these children that were discussing humans talk to all teachers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=can-paradigm_in_domain=1	0		Were these children that discussing humans can talk to all teachers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=don't-paradigm_in_domain=1	1		Don't a lot of doctors that aren't buying every book resemble many actors?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=don't-paradigm_in_domain=1	0		Aren't a lot of doctors that buying every book don't resemble many actors?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=are-paradigm_in_domain=1	1		Are a lot of adults that had taken a cup attacking these adults?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=are-paradigm_in_domain=1	0		Had a lot of adults that taken a cup are attacking these adults?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't the dudes that were attacking a lot of patients remember some kids?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=shouldn't-paradigm_in_domain=1	0		Were the dudes that attacking a lot of patients shouldn't remember some kids?
+exp=polar-src=1-highest=1-last=1-aux1=shouldn't-aux2=has-paradigm_in_domain=1	1		Has that child who shouldn't attack every waitress forgotten some student?
+exp=polar-src=1-highest=0-last=0-aux1=shouldn't-aux2=has-paradigm_in_domain=1	0		Shouldn't that child who attack every waitress has forgotten some student?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=were-paradigm_in_domain=1	1		Were a lot of gals that were helping the students helping all customers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=were-paradigm_in_domain=1	0		Were a lot of gals that helping the students were helping all customers?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=do-paradigm_in_domain=1	1		Do guys that had worn the glasses describe many cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=do-paradigm_in_domain=1	0		Had guys that worn the glasses do describe many cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=won't-paradigm_in_domain=1	1		Won't adults that are referencing that movie kiss students?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=won't-paradigm_in_domain=1	0		Are adults that referencing that movie won't kiss students?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't all boys who were breaking every car hug some boys?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=shouldn't-paradigm_in_domain=1	0		Were all boys who breaking every car shouldn't hug some boys?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=did-paradigm_in_domain=1	1		Did these ladies who aren't listening to some people reference these children?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=did-paradigm_in_domain=1	0		Aren't these ladies who listening to some people did reference these children?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=should-paradigm_in_domain=1	1		Should many men that are talking to the waitress kiss a lot of gals?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=should-paradigm_in_domain=1	0		Are many men that talking to the waitress should kiss a lot of gals?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=will-paradigm_in_domain=1	1		Will all essays that weren't praising all women discuss many plays?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=will-paradigm_in_domain=1	0		Weren't all essays that praising all women will discuss many plays?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=weren't-paradigm_in_domain=1	1		Weren't some girls who are praising plays helping some pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=weren't-paradigm_in_domain=1	0		Are some girls who praising plays weren't helping some pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=can-aux2=isn't-paradigm_in_domain=1	1		Isn't that dude who can hate a lot of customers attacking this woman?
+exp=polar-src=1-highest=0-last=0-aux1=can-aux2=isn't-paradigm_in_domain=1	0		Can that dude who hate a lot of customers isn't attacking this woman?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=don't-paradigm_in_domain=1	1		Don't all women who are discussing this article discuss the patients?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=don't-paradigm_in_domain=1	0		Are all women who discussing this article don't discuss the patients?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=were-paradigm_in_domain=1	1		Were many guys who had forgotten this doctor working with some doctors?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=were-paradigm_in_domain=1	0		Had many guys who forgotten this doctor were working with some doctors?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=won't-paradigm_in_domain=1	1		Won't many women who hadn't forgotten this woman criticize the cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=won't-paradigm_in_domain=1	0		Hadn't many women who forgotten this woman won't criticize the cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=do-paradigm_in_domain=1	1		Do all cashiers who weren't talking to dudes listen to the humans?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=do-paradigm_in_domain=1	0		Weren't all cashiers who talking to dudes do listen to the humans?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=didn't-paradigm_in_domain=1	1		Didn't all ladies that were taking rugs insult all adults?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=didn't-paradigm_in_domain=1	0		Were all ladies that taking rugs didn't insult all adults?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=can't-paradigm_in_domain=1	1		Can't some drivers that had known every child hate a lot of boys?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=can't-paradigm_in_domain=1	0		Had some drivers that known every child can't hate a lot of boys?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=don't-paradigm_in_domain=1	1		Don't some humans that are taking some cars talk about some pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=don't-paradigm_in_domain=1	0		Are some humans that taking some cars don't talk about some pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=do-paradigm_in_domain=1	1		Do a lot of patients who aren't breaking all cups admire a lot of kids?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=do-paradigm_in_domain=1	0		Aren't a lot of patients who breaking all cups do admire a lot of kids?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=were-paradigm_in_domain=1	1		Were a lot of students that aren't listening to every student hugging the girls?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=were-paradigm_in_domain=1	0		Aren't a lot of students that listening to every student were hugging the girls?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=can't-paradigm_in_domain=1	1		Can't all men that weren't helping the guy talk to all people?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=can't-paradigm_in_domain=1	0		Weren't all men that helping the guy can't talk to all people?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	1		Couldn't customers who aren't listening to this woman see all patients?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	0		Aren't customers who listening to this woman couldn't see all patients?
+exp=polar-src=1-highest=1-last=1-aux1=does-aux2=was-paradigm_in_domain=1	1		Was some actress that does work with some doctor talking to this dude?
+exp=polar-src=1-highest=0-last=0-aux1=does-aux2=was-paradigm_in_domain=1	0		Does some actress that work with some doctor was talking to this dude?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=weren't-paradigm_in_domain=1	1		Weren't ladies who haven't forgotten some driver criticizing a lot of guys?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=weren't-paradigm_in_domain=1	0		Haven't ladies who forgotten some driver weren't criticizing a lot of guys?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't girls who are insulting a customer love a lot of waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=shouldn't-paradigm_in_domain=1	0		Are girls who insulting a customer shouldn't love a lot of waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't some articles that were praising these cashiers discuss many articles?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=shouldn't-paradigm_in_domain=1	0		Were some articles that praising these cashiers shouldn't discuss many articles?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=weren't-paradigm_in_domain=1	1		Weren't some people who were lifting these glasses talking about some adults?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=weren't-paradigm_in_domain=1	0		Were some people who lifting these glasses weren't talking about some adults?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=won't-paradigm_in_domain=1	1		Won't a lot of humans who were selling a lot of couches work with the dudes?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=won't-paradigm_in_domain=1	0		Were a lot of humans who selling a lot of couches won't work with the dudes?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't these doctors that hadn't worn some gloves praise these customers?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=shouldn't-paradigm_in_domain=1	0		Hadn't these doctors that worn some gloves shouldn't praise these customers?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=are-paradigm_in_domain=1	1		Are all kids that were helping this waitress discussing a lot of people?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=are-paradigm_in_domain=1	0		Were all kids that helping this waitress are discussing a lot of people?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=will-paradigm_in_domain=1	1		Will some guests that weren't talking to all dudes hug all guys?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=will-paradigm_in_domain=1	0		Weren't some guests that talking to all dudes will hug all guys?
+exp=polar-src=1-highest=1-last=1-aux1=hasn't-aux2=is-paradigm_in_domain=1	1		Is the lady that hasn't broken some couches kissing the actress?
+exp=polar-src=1-highest=0-last=0-aux1=hasn't-aux2=is-paradigm_in_domain=1	0		Hasn't the lady that broken some couches is kissing the actress?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=weren't-paradigm_in_domain=1	1		Weren't many actors that were criticizing every patient referencing many customers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=weren't-paradigm_in_domain=1	0		Were many actors that criticizing every patient weren't referencing many customers?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=did-paradigm_in_domain=1	1		Did doctors who hadn't seen the articles care for all patients?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=did-paradigm_in_domain=1	0		Hadn't doctors who seen the articles did care for all patients?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=aren't-paradigm_in_domain=1	1		Aren't dudes that were listening to every student kissing a lot of cashiers?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=aren't-paradigm_in_domain=1	0		Were dudes that listening to every student aren't kissing a lot of cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can-paradigm_in_domain=1	1		Can a lot of movies that aren't describing children describe a lot of plays?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can-paradigm_in_domain=1	0		Aren't a lot of movies that describing children can describe a lot of plays?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=will-paradigm_in_domain=1	1		Will all adults who weren't kissing the gal criticize many ladies?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=will-paradigm_in_domain=1	0		Weren't all adults who kissing the gal will criticize many ladies?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=can-paradigm_in_domain=1	1		Can all men who are helping the gals admire a lot of men?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=can-paradigm_in_domain=1	0		Are all men who helping the gals can admire a lot of men?
+exp=polar-src=1-highest=1-last=1-aux1=didn't-aux2=isn't-paradigm_in_domain=1	1		Isn't every movie that didn't resemble the students criticizing a couch?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=isn't-paradigm_in_domain=1	0		Didn't every movie that resemble the students isn't criticizing a couch?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=don't-paradigm_in_domain=1	1		Don't children that had seen every customer kiss the teachers?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=don't-paradigm_in_domain=1	0		Had children that seen every customer don't kiss the teachers?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=can-paradigm_in_domain=1	1		Can patients that weren't kissing this guy kiss women?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=can-paradigm_in_domain=1	0		Weren't patients that kissing this guy can kiss women?
+exp=polar-src=1-highest=1-last=1-aux1=doesn't-aux2=has-paradigm_in_domain=1	1		Has every person who doesn't buy the glass forgotten that man?
+exp=polar-src=1-highest=0-last=0-aux1=doesn't-aux2=has-paradigm_in_domain=1	0		Doesn't every person who buy the glass has forgotten that man?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=have-paradigm_in_domain=1	1		Have some children that aren't lifting some cars forgotten all gals?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=have-paradigm_in_domain=1	0		Aren't some children that lifting some cars have forgotten all gals?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	1		Couldn't women who aren't selling every fork discuss some pedestrians?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=couldn't-paradigm_in_domain=1	0		Aren't women who selling every fork couldn't discuss some pedestrians?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=do-paradigm_in_domain=1	1		Do all kids that are cleaning this book know these humans?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=do-paradigm_in_domain=1	0		Are all kids that cleaning this book do know these humans?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=won't-paradigm_in_domain=1	1		Won't many ladies who were working with women work with some boys?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=won't-paradigm_in_domain=1	0		Were many ladies who working with women won't work with some boys?
+exp=polar-src=1-highest=1-last=1-aux1=weren't-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't actresses that weren't buying this couch know the guests?
+exp=polar-src=1-highest=0-last=0-aux1=weren't-aux2=wouldn't-paradigm_in_domain=1	0		Weren't actresses that buying this couch wouldn't know the guests?
+exp=polar-src=1-highest=1-last=1-aux1=hasn't-aux2=was-paradigm_in_domain=1	1		Was that waitress that hasn't broken some books admiring every driver?
+exp=polar-src=1-highest=0-last=0-aux1=hasn't-aux2=was-paradigm_in_domain=1	0		Hasn't that waitress that broken some books was admiring every driver?
+exp=polar-src=1-highest=1-last=1-aux1=hadn't-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't the actors that hadn't broken that cup reference these dudes?
+exp=polar-src=1-highest=0-last=0-aux1=hadn't-aux2=wouldn't-paradigm_in_domain=1	0		Hadn't the actors that broken that cup wouldn't reference these dudes?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=won't-paradigm_in_domain=1	1		Won't many people that aren't taking many cups visit a lot of waiters?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=won't-paradigm_in_domain=1	0		Aren't many people that taking many cups won't visit a lot of waiters?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=isn't-paradigm_in_domain=1	1		Isn't some human who wasn't talking about this customer insulting this boy?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=isn't-paradigm_in_domain=1	0		Wasn't some human who talking about this customer isn't insulting this boy?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=do-paradigm_in_domain=1	1		Do all guests that are discussing these teachers hug many customers?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=do-paradigm_in_domain=1	0		Are all guests that discussing these teachers do hug many customers?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=will-paradigm_in_domain=1	1		Will cashiers that are referencing this gal praise some people?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=will-paradigm_in_domain=1	0		Are cashiers that referencing this gal will praise some people?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=are-paradigm_in_domain=1	1		Are many men who have taken these cars talking about the men?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=are-paradigm_in_domain=1	0		Have many men who taken these cars are talking about the men?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=wouldn't-paradigm_in_domain=1	1		Wouldn't the kids who have taken the pants listen to a lot of dudes?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=wouldn't-paradigm_in_domain=1	0		Have the kids who taken the pants wouldn't listen to a lot of dudes?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=shouldn't-paradigm_in_domain=1	1		Shouldn't many men that are admiring that lady help a lot of children?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=shouldn't-paradigm_in_domain=1	0		Are many men that admiring that lady shouldn't help a lot of children?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=will-paradigm_in_domain=1	1		Will the guests who have worn the skirt praise dudes?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=will-paradigm_in_domain=1	0		Have the guests who worn the skirt will praise dudes?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=don't-paradigm_in_domain=1	1		Don't these waitresses who were admiring a lot of plates praise a lot of boys?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=don't-paradigm_in_domain=1	0		Were these waitresses who admiring a lot of plates don't praise a lot of boys?
+exp=polar-src=1-highest=1-last=1-aux1=can-aux2=is-paradigm_in_domain=1	1		Is this guest who can break every plate insulting this guy?
+exp=polar-src=1-highest=0-last=0-aux1=can-aux2=is-paradigm_in_domain=1	0		Can this guest who break every plate is insulting this guy?
+exp=polar-src=1-highest=1-last=1-aux1=can't-aux2=isn't-paradigm_in_domain=1	1		Isn't that human that can't resemble a woman attacking this student?
+exp=polar-src=1-highest=0-last=0-aux1=can't-aux2=isn't-paradigm_in_domain=1	0		Can't that human that resemble a woman isn't attacking this student?
+exp=polar-src=1-highest=1-last=1-aux1=couldn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't some essay that couldn't resemble the dudes talking about the couch?
+exp=polar-src=1-highest=0-last=0-aux1=couldn't-aux2=wasn't-paradigm_in_domain=1	0		Couldn't some essay that resemble the dudes wasn't talking about the couch?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=will-paradigm_in_domain=1	1		Will these adults who aren't admiring the dudes hug a lot of patients?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=will-paradigm_in_domain=1	0		Aren't these adults who admiring the dudes will hug a lot of patients?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=weren't-paradigm_in_domain=1	1		Weren't some patients that have seen some person helping some boys?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=weren't-paradigm_in_domain=1	0		Have some patients that seen some person weren't helping some boys?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=haven't-paradigm_in_domain=1	1		Haven't many pedestrians who aren't selling that cup forgotten a lot of boys?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=haven't-paradigm_in_domain=1	0		Aren't many pedestrians who selling that cup haven't forgotten a lot of boys?
+exp=polar-src=1-highest=1-last=1-aux1=shouldn't-aux2=wasn't-paradigm_in_domain=1	1		Wasn't that boy that shouldn't sell that glass attacking the customer?
+exp=polar-src=1-highest=0-last=0-aux1=shouldn't-aux2=wasn't-paradigm_in_domain=1	0		Shouldn't that boy that sell that glass wasn't attacking the customer?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=aren't-paradigm_in_domain=1	1		Aren't the stories that were referencing this man describing many articles?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=aren't-paradigm_in_domain=1	0		Were the stories that referencing this man aren't describing many articles?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=should-paradigm_in_domain=1	1		Should the dudes who were selling every book praise all kids?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=should-paradigm_in_domain=1	0		Were the dudes who selling every book should praise all kids?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=were-paradigm_in_domain=1	1		Were the drivers who had taken a car listening to actors?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=were-paradigm_in_domain=1	0		Had the drivers who taken a car were listening to actors?
+exp=polar-src=1-highest=1-last=1-aux1=are-aux2=won't-paradigm_in_domain=1	1		Won't all women who are working with a guy kiss these guests?
+exp=polar-src=1-highest=0-last=0-aux1=are-aux2=won't-paradigm_in_domain=1	0		Are all women who working with a guy won't kiss these guests?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=should-paradigm_in_domain=1	1		Should many gals who have known many adults love all guys?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=should-paradigm_in_domain=1	0		Have many gals who known many adults should love all guys?
+exp=polar-src=1-highest=1-last=1-aux1=aren't-aux2=can't-paradigm_in_domain=1	1		Can't some people who aren't wearing some shoes like a lot of waiters?
+exp=polar-src=1-highest=0-last=0-aux1=aren't-aux2=can't-paradigm_in_domain=1	0		Aren't some people who wearing some shoes can't like a lot of waiters?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=aren't-paradigm_in_domain=1	1		Aren't a lot of humans who were listening to this driver attacking the waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=aren't-paradigm_in_domain=1	0		Were a lot of humans who listening to this driver aren't attacking the waitresses?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=don't-paradigm_in_domain=1	1		Don't some boys who haven't broken the glasses love a lot of women?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=don't-paradigm_in_domain=1	0		Haven't some boys who broken the glasses don't love a lot of women?
+exp=polar-src=1-highest=1-last=1-aux1=were-aux2=haven't-paradigm_in_domain=1	1		Haven't all adults that were describing many plays known a lot of guests?
+exp=polar-src=1-highest=0-last=0-aux1=were-aux2=haven't-paradigm_in_domain=1	0		Were all adults that describing many plays haven't known a lot of guests?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=was-paradigm_in_domain=1	1		Was some guest that is praising some actresses criticizing a human?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=was-paradigm_in_domain=1	0		Is some guest that praising some actresses was criticizing a human?
