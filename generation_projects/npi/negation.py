@@ -32,6 +32,7 @@ all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_embedding_verbs = get_all("category_2", "V_embedding")
 all_nouns = get_all("category", "N")
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
+sentence_final_npi = ["yet", "at all", "in years"]
 
 # sample sentences until desired number
 while len(sentences) < number_to_generate:
@@ -109,7 +110,7 @@ while len(sentences) < number_to_generate:
     sentences.add(sentence_1)
 
 # -------------------------
-# now do it for "at all"
+# now do it for sentence final NPIs
 
 sentences = set()
 
@@ -130,6 +131,7 @@ while len(sentences) < number_to_generate:
     #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
     Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
+    Final_npi = choice(sentence_final_npi)
 
     # select transitive or intransitive V2
     x = random.random()
@@ -147,16 +149,16 @@ while len(sentences) < number_to_generate:
         D3 = " "
 
     # build sentences with licensor present
-    sentence_1 = "%s %s %s %s that %s %s %s %s %s %s at all." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_1 = "%s %s %s %s that %s %s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
     sentence_2 = "%s %s %s %s that %s %s %s %s %s %s sometimes." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_3 = "%s %s %s %s that %s %s %s %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0],  N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_4 = "%s %s %s %s that %s %s %s %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_3 = "%s %s %s %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0],  N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
+    sentence_4 = "%s %s %s %s that %s %s %s %s %s %s sometimes ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
     # build sentences with no licensor present
-    sentence_5 = "Some %s %s %s that %s %s %s %s %s %s at all." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_6 = "Some %s %s %s that %s %s %s %s %s %s sometimes." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_7 = "%s %s %s %s that some %s %s %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_8 = "%s %s %s %s that some %s %s %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_5 = "Some %s %s %s that %s %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
+    sentence_6 = "Some %s %s %s that %s %s %s %s %s %s sometimes ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_7 = "%s %s %s %s that some %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
+    sentence_8 = "%s %s %s %s that some %s %s %s %s %s sometimes ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)
@@ -172,16 +174,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have negation present
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=1" % Neg_word1[0], 1, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=0" % Neg_word1[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=1" % Neg_word2[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=0" % Neg_word2[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=%s_licensor=1_scope=1_npi-present=1" % Final_npi % Neg_word1[0], 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=%s_licensor=1_scope=1_npi-present=0" % Final_npi % Neg_word1[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=%s_licensor=1_scope=0_npi-present=1" % Final_npi % Neg_word2[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=%s_licensor=1_scope=0_npi-present=0" % Final_npi % Neg_word2[0], 1, sentence_4))
 
         # sentences 5-8 have no negation present
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=1_npi-present=1", 0, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=1_npi-present=0", 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=0_npi-present=1", 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=0_npi-present=0", 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=some_licensor=0_scope=1_npi-present=1" % Final_npi , 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=some_licensor=0_scope=1_npi-present=0" % Final_npi , 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=some_licensor=0_scope=0_npi-present=1" % Final_npi , 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=some_licensor=0_scope=0_npi-present=0" % Final_npi , 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -250,7 +252,7 @@ while len(sentences) < number_to_generate:
     sentences.add(sentence_1)
 
 # -------------------------
-# Now monoclausal cases with "at all"
+# Now monoclausal cases with sentence final npi
 
 sentences = set()
 
@@ -271,18 +273,19 @@ while len(sentences) < number_to_generate:
     #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
     Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
+    Final_npi = choice(sentence_final_npi)
 
     # build sentences with licensor present
-    sentence_1 = "%s %s %s %s %s %s at all ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0])
-    sentence_2 = "%s %s %s %s %s %s sometimes." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0])
-    sentence_3 = "%s %s %s %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0])
-    sentence_4 = "%s %s %s %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0])
+    sentence_1 = "%s %s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi)
+    sentence_2 = "%s %s %s %s %s %s sometimes ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0])
+    sentence_3 = "%s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0], Final_npi)
+    sentence_4 = "%s %s %s %s %s %s sometimes ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0])
 
     # build sentences with no licensor present
-    sentence_5 = "Some %s %s %s %s %s at all." % (N1[0], Aux1[0], V1[0], D2[0], N2[0])
-    sentence_6 = "Some %s %s %s %s %s sometimes." % (N1[0], Aux1[0], V1[0], D2[0], N2[0])
-    sentence_7 = "%s %s %s %s some %s at all." % (D1[0], N1[0], Aux1[0], V1[0], N2[0])
-    sentence_8 = "%s %s %s %s some %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], N2[0])
+    sentence_5 = "Some %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi)
+    sentence_6 = "Some %s %s %s %s %s sometimes ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0])
+    sentence_7 = "%s %s %s %s some %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0], Final_npi)
+    sentence_8 = "%s %s %s %s some %s sometimes ." % (D1[0], N1[0], Aux1[0], V1[0], N2[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)
@@ -298,16 +301,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have negation present
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=1" % Neg_word1[0], 1, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=1_npi-present=0" % Neg_word1[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=1" % Neg_word2[0], 1, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=%s_licensor=1_scope=0_npi-present=0" % Neg_word2[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=%s_licensor=1_scope=1_npi-present=1" % Final_npi % Neg_word1[0], 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=%s_licensor=1_scope=1_npi-present=0" % Final_npi % Neg_word1[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=%s_licensor=1_scope=0_npi-present=1" % Final_npi % Neg_word2[0], 1, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=%s_licensor=1_scope=0_npi-present=0" % Final_npi % Neg_word2[0], 1, sentence_4))
 
         # sentences 5-8 have no negation present
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=1_npi-present=1", 0, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=1_npi-present=0", 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=0_npi-present=1", 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=some_licensor=0_scope=0_npi-present=0", 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=some_licensor=0_scope=1_npi-present=1" % Final_npi , 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=some_licensor=0_scope=1_npi-present=0" % Final_npi , 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=some_licensor=0_scope=0_npi-present=1" % Final_npi , 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=some_licensor=0_scope=0_npi-present=0" % Final_npi , 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -398,7 +401,7 @@ while len(sentences) < number_to_generate:
     sentences.add(sentence_1)
 
 # -------------------------
-# now do it for "at all" with not as the licnesor
+# now do it for sentence final npi with not as the licnesor
 
 sentences = set()
 
@@ -419,6 +422,7 @@ while len(sentences) < number_to_generate:
     #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
     D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
     Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
+    Final_npi = choice(sentence_final_npi)
 
     # select transitive or intransitive V2
     x = random.random()
@@ -436,16 +440,16 @@ while len(sentences) < number_to_generate:
         D3 = " "
 
     # build sentences with licensor present
-    sentence_1 = "%s %s %s not %s that %s %s %s %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_2 = "%s %s %s not %s that %s %s %s %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_3 = "%s %s %s %s that %s %s %s not %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], D2[0],  N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_4 = "%s %s %s %s that %s %s %s not %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_1 = "%s %s %s not %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
+    sentence_2 = "%s %s %s not %s that %s %s %s %s %s %s sometimes ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_3 = "%s %s %s %s that %s %s %s not %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0],  N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
+    sentence_4 = "%s %s %s %s that %s %s %s not %s %s %s sometimes ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
     # build sentences with no licensor present
-    sentence_5 = "%s %s %s really %s that %s %s %s %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_6 = "%s %s %s really %s that %s %s %s %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_7 = "%s %s %s %s that %s %s %s really %s %s %s at all." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_8 = "%s %s %s %s that %s %s %s really %s %s %s sometimes." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_5 = "%s %s %s really %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
+    sentence_6 = "%s %s %s really %s that %s %s %s %s %s %s sometimes ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_7 = "%s %s %s %s that %s %s %s really %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
+    sentence_8 = "%s %s %s %s that %s %s %s really %s %s %s sometimes ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)
@@ -461,16 +465,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have negation present
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=not_licensor=1_scope=1_npi-present=1", 1, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=not_licensor=1_scope=1_npi-present=0", 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=not_licensor=1_scope=0_npi-present=1", 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=not_licensor=1_scope=0_npi-present=0", 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=not_licensor=1_scope=1_npi-present=1" % Final_npi , 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=not_licensor=1_scope=1_npi-present=0" % Final_npi , 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=not_licensor=1_scope=0_npi-present=1" % Final_npi , 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=not_licensor=1_scope=0_npi-present=0" % Final_npi , 1, sentence_4))
 
         # sentences 5-8 have no negation present
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=really_licensor=0_scope=1_npi-present=1", 0, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=really_licensor=0_scope=1_npi-present=0", 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=really_licensor=0_scope=0_npi-present=1", 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=at-all_quantifier=really_licensor=0_scope=0_npi-present=0", 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=really_licensor=0_scope=1_npi-present=1" % Final_npi , 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=really_licensor=0_scope=1_npi-present=0" % Final_npi , 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=really_licensor=0_scope=0_npi-present=1" % Final_npi , 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=negation_npi=%s_quantifier=really_licensor=0_scope=0_npi-present=0" % Final_npi , 1, sentence_8))
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
 
