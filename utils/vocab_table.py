@@ -56,6 +56,22 @@ def get_matches_of(row, label, table=vocab):
         return np.array(matches, dtype=data_type)
 
 
+def get_matches_of_conj(rows_labels, table=vocab):
+    """
+    :param rows_labels: list of (r,l) pairs: [(r1, l1), (r2, l2), (r3, l3)]
+    :param table: ndarray of vocab items.
+    :return: all entries in table that match the selectional restrictions of all rows as given by labels.
+    """
+    to_return = table
+    for row, label in rows_labels:
+        value = str(np.array(row, dtype=data_type)[label])
+        if value == "":
+            pass
+        else:
+            to_return = np.array(list(filter(lambda x: is_match_disj(x, value), to_return)), dtype=data_type)
+    return to_return
+
+
 def get_matched_by(row, label, table=vocab):
     """
     :param row: ndarray row. selected vocab item.

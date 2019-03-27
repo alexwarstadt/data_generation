@@ -5,8 +5,9 @@
 
 from utils.conjugate import *
 from utils.string_utils import remove_extra_whitespace
-from random import choice
+# from random import choice
 import numpy as np
+from utils.randomize import choice
 
 # initialize output file
 rel_output_path = "outputs/npi/environment=quantifiers.tsv"
@@ -14,7 +15,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 10
+number_to_generate = 100
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -23,7 +24,7 @@ all_quantifiers = get_all("category", "(S/(S\\NP))/N")
 all_UE_UE_quantifiers = get_all("restrictor_DE", "0", all_quantifiers)
 all_DE_UE_quantifiers = get_all("restrictor_DE", "1", get_all("scope_DE", "0", all_quantifiers)) #TODO: FC any takes singulars
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
-all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
+all_non_singular_nouns = np.intersect1d(np.append(get_all("pl", "1"), get_all("mass", "1")), get_all("frequent", "1"))
 
 # sample sentences until desired number
 while len(sentences) < number_to_generate:
@@ -37,13 +38,13 @@ while len(sentences) < number_to_generate:
     D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
     D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
     V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))        # restrict to UE quantifiers, otherwise there could be another licensor
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
+    V1 = conjugate(V1, N1, allow_negated=False)
+    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
+    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
+    V2 = conjugate(V2, N1, allow_negated=False)
+    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
 
     # build sentences with UE quantifier
     sentence_1 = "%s %s who %s any %s %s %s %s ." % (D1_up[0], N1[0], V1[0], N2[0], V2[0], D3[0], N3[0])
@@ -71,16 +72,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have quantifiers with UE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=1" % D1_up[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=0" % D1_up[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=1" % D1_up[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=0" % D1_up[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=0-scope=1-npi_present=1" % D1_up[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=0-scope=1-npi_present=0" % D1_up[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=0-scope=0-npi_present=1" % D1_up[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=0-scope=0-npi_present=0" % D1_up[0], 1, sentence_4))
 
         # sentences 5-8 have quantifiers with DE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=1" % D1_down[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=0" % D1_down[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=1" % D1_down[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=0" % D1_down[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=1-scope=1-npi_present=1" % D1_down[0], 1, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=1-scope=1-npi_present=0" % D1_down[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=1-scope=0-npi_present=1" % D1_down[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=any-quantifier=%s-licensor=1-scope=0-npi_present=0" % D1_down[0], 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -98,6 +99,12 @@ while len(sentences) < number_to_generate:
 # ever doesn't occur with progressive
 # Every boy who has ever eaten a potato is tall.
 # *? Every boy who is ever eating a potato is tall.
+
+# PITFALL #2:
+# ever occurs after auxiliary "do"
+# The boy rarely ever did say that the girl wears jeans.
+# * The boy rarely did ever say that the girl wears jeans.
+
 sentences = set()
 all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
 while len(sentences) < number_to_generate:
@@ -110,12 +117,12 @@ while len(sentences) < number_to_generate:
     D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
     V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
     Aux1 = return_aux(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))
-    V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_down, D1_up])
+    V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs), [V1])
     Aux2 = return_aux(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
+    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
 
     # the replacement for "ever" depends on the tense of the verb
     # if the auxiliary is empty (i.e. the main verb is finite), use the tense of the verb, else use the auxiliary
@@ -128,17 +135,30 @@ while len(sentences) < number_to_generate:
     else:
         matrix_adv = "now" if Aux2["pres"] == "1" else "once"
 
+    # check for do/does/did for both aux verbs, make these directly adjacent to verb.
+    if Aux1[0] in ["do", "does", "did"]:
+        Aux1_final = ""
+        V1_final = Aux1[0] + " " + V1[0]
+    else:
+        Aux1_final = Aux1[0]
+        V1_final = V1[0]
 
+    if Aux2[0] in ["do", "does", "did"]:
+        Aux2_final = ""
+        V2_final = Aux2[0] + " " + V2[0]
+    else:
+        Aux2_final = Aux2[0]
+        V2_final = V2[0]
 
-    sentence_1 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_2 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1[0], emb_adv, V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_3 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_up[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_4 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], matrix_adv, V2[0], D3[0], N3[0])
+    sentence_1 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_2 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1_final, emb_adv, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_3 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_up[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_4 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, matrix_adv, V2_final, D3[0], N3[0])
 
-    sentence_5 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_6 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1[0], emb_adv, V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_7 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_down[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_8 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], matrix_adv, V2[0], D3[0], N3[0])
+    sentence_5 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_6 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1_final, emb_adv, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_7 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_down[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_8 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, matrix_adv, V2_final, D3[0], N3[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -154,16 +174,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have quantifiers with UE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=1" % D1_up[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=0" % D1_up[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=1" % D1_up[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=0" % D1_up[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=0-scope=1-npi_present=1" % D1_up[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=0-scope=1-npi_present=0" % D1_up[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=0-scope=0-npi_present=1" % D1_up[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=0-scope=0-npi_present=0" % D1_up[0], 1, sentence_4))
 
         # sentences 5-8 have quantifiers with DE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=1" % D1_down[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=0" % D1_down[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=1" % D1_down[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=0" % D1_down[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=1-scope=1-npi_present=1" % D1_down[0], 1, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=1-scope=1-npi_present=0" % D1_down[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=1-scope=0-npi_present=1" % D1_down[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=quantifier-npi=ever-quantifier=%s-licensor=1-scope=0-npi_present=0" % D1_down[0], 1, sentence_8))
 
     sentences.add(sentence_1)
 
