@@ -25,6 +25,10 @@ def handle_arguments(cl_arguments):
                         help="Learning rate")
     parser.add_argument('--val_interval', '-v', type=str, default="100",
                         help="How many batches between validation stages")
+    parser.add_argument('--batch_size', '-b', type=str, default="32",
+                        help="size of training batch")
+    parser.add_argument('--grid_search', '-g', type=bool, default=False,
+                        help="Whether to do grid search based on BERT hyperparameters")
     return parser.parse_args(cl_arguments)
 
 header = """#!/bin/bash
@@ -48,20 +52,42 @@ if __name__ == '__main__':
     experiment_dir = os.path.join(os.getcwd(), args.exp_name) if args.slurm_dir is None else args.slurm_dir
     if not os.path.isdir(experiment_dir):
         os.mkdir(experiment_dir)
-    for i in range(int(args.number_runs)):
-        slurm_file = os.path.join(experiment_dir, "run_%d.sbatch" % i)
-        out_file = open(slurm_file, "w")
-        out_file.write(header)
-        out_file.write("export JIANT_DATA_DIR=%s\n" % args.data_dir )
-        out_file.write("export NFS_PROJECT_PREFIX=%s\n" % args.output_dir)
-        out_file.write("python $JIANT_PROJECT_PREFIX/main.py --config_file " + args.config_file)
-        out_file.write("--overrides \"run_name=run_" + str(i))
-        out_file.write(" max_epochs=" + args.max_epochs)
-        out_file.write(" lr=" + args.lr)
-        out_file.write(" val_interval=" + args.val_interval)
-        out_file.write(" exp_name=" + args.exp_name)
-        out_file.write(" random_seed=" + str(random.randint(1000, 10000)))
-        out_file.write("\"")
+    if args.grid_search:
+        i = 0
+        for lr in [0.0005, 0.0003, 0.0002, 0.0001, 0.00008]:
+            for batch_size in [16, 32]:
+                for max_epochs in [3, 4, 10]:
+                    slurm_file = os.path.join(experiment_dir, "run_%d.sbatch" % i)
+                    out_file = open(slurm_file, "w")
+                    out_file.write(header)
+                    out_file.write("export JIANT_DATA_DIR=%s\n" % args.data_dir)
+                    out_file.write("export NFS_PROJECT_PREFIX=%s\n" % args.output_dir)
+                    out_file.write("python $JIANT_PROJECT_PREFIX/main.py --config_file " + args.config_file)
+                    out_file.write(" --overrides \"run_name=run_" + str(i))
+                    out_file.write(", max_epochs=" + str(max_epochs))
+                    out_file.write(", lr=" + str(lr))
+                    out_file.write(", val_interval=" + args.val_interval)
+                    out_file.write(", exp_name=" + args.exp_name)
+                    out_file.write(", random_seed=" + str(random.randint(1000, 10000)))
+                    out_file.write(", batch_size=" + str(batch_size))
+                    out_file.write("\"")
+                    i += 1
+    else:
+        for i in range(int(args.number_runs)):
+            slurm_file = os.path.join(experiment_dir, "run_%d.sbatch" % i)
+            out_file = open(slurm_file, "w")
+            out_file.write(header)
+            out_file.write("export JIANT_DATA_DIR=%s\n" % args.data_dir )
+            out_file.write("export NFS_PROJECT_PREFIX=%s\n" % args.output_dir)
+            out_file.write("python $JIANT_PROJECT_PREFIX/main.py --config_file " + args.config_file)
+            out_file.write(" --overrides \"run_name=run_" + str(i))
+            out_file.write(", max_epochs=" + args.max_epochs)
+            out_file.write(", lr=" + args.lr)
+            out_file.write(", val_interval=" + args.val_interval)
+            out_file.write(", exp_name=" + args.exp_name)
+            out_file.write(", random_seed=" + str(random.randint(1000, 10000)))
+            out_file.write(", batch_size=" + str(args.batch_size))
+            out_file.write("\"")
 
 
 """

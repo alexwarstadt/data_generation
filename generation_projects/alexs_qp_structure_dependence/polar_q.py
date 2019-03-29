@@ -4,7 +4,7 @@
 from utils.conjugate import *
 from utils.constituent_building import verb_args_from_verb
 from utils.constituent_building import N_to_DP_mutate
-from random import choice
+from utils.randomize import choice
 import numpy as np
 from utils.string_utils import string_beautify
 
@@ -72,21 +72,21 @@ while len(sentences) < number_to_generate:
     else:
         N1 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_nouns)))
 
-    N3 = N_to_DP_mutate(choice(get_matched_by(V2, "arg_2", get_all_conjunctive([("animate", N1["animate"]), ("sg", N1["sg"])], all_nouns))))
+    N3 = N_to_DP_mutate(choice(get_matched_by(V2, "arg_2", get_all_conjunctive([("animate", N1["animate"]), ("sg", N1["sg"])], all_nouns)), [N1]))
 
     if N3["sg"] == "0":
         # if N3 is plural, then V1 must not be bare
         try:
-            V1 = choice(get_matched_by(N3, "arg_1", all_non_bare_verbs))
+            V1 = choice(get_matched_by(N3, "arg_1", all_non_bare_verbs), [V2])
         except IndexError:
             print(V2[0], N1[0], N3[0])
             continue
     else:
-        V1 = choice(get_matched_by(N3, "arg_1", all_safe_verbs))
+        V1 = choice(get_matched_by(N3, "arg_1", all_safe_verbs), [V2])
 
-    N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns)))
+    N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns), [N1, N3]))
     Aux1 = choice(get_matched_by(V1, "arg_2", get_matched_by(N1, "arg_1", all_frontable_aux)))
-    Aux2 = choice(get_matched_by(V2, "arg_2", get_matched_by(N1, "arg_1", all_frontable_aux)))
+    Aux2 = choice(get_matched_by(V2, "arg_2", get_matched_by(N1, "arg_1", all_frontable_aux)), [Aux1])
     Rel = choice(get_matched_by(N1, "arg_1", get_all("category_2", "rel")))
 
     sentence_1 = "%s %s %s %s %s %s %s %s?" % (Aux2[0], N1[0], Rel[0], Aux1[0], V1[0], N2[0], V2[0], N3[0])
