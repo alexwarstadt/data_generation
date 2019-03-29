@@ -1,5 +1,6 @@
 # Author: Alex Warstadt
 # Script for generating Chomsky's "structure dependent" sentences for QP1
+# Loosens some restrictions from polar_q so that complementizer + finite verb is not such a reliable cue
 
 from utils.conjugate import *
 from utils.constituent_building import verb_args_from_verb
@@ -34,8 +35,9 @@ all_singular_nouns = get_all("sg", "0", all_nouns)
 
 
 all_transitive_verbs = get_all_conjunctive([("category", "(S\\NP)/NP"), ("finite", "0")])
-all_homophonous_participles = get_all("homophonous", "1", all_transitive_verbs)
-all_safe_verbs = np.setdiff1d(all_transitive_verbs, all_homophonous_participles)       # verbs that (a) require an aux and (b) don't have homophonous past/participle
+# all_homophonous_participles = get_all("homophonous", "1", all_transitive_verbs)
+# all_safe_verbs = np.setdiff1d(all_transitive_verbs, all_homophonous_participles)       # verbs that (a) require an aux and (b) don't have homophonous past/participle
+all_safe_verbs = all_transitive_verbs
 all_non_bare_verbs = get_all("bare", "0", all_safe_verbs)
 
 all_frontable_aux = get_all("frontable", "1") #TODO: don't worry about frontable aux
@@ -66,11 +68,11 @@ while len(sentences) < number_to_generate:
 
     # The arguments of V2 must match in animacy/number
     V2 = choice(all_consistent_transitive_verbs)
-    if V2["bare"] == "1":
+    # if V2["bare"] == "1":
         # if the verb is bare, it will be homophonous with the present plural, so avoid
-        N1 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_singular_nouns)))
-    else:
-        N1 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_nouns)))
+    #     N1 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_singular_nouns)))
+    # else:
+    N1 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_nouns)))
 
     N3 = N_to_DP_mutate(choice(get_matched_by(V2, "arg_2", get_all_conjunctive([("animate", N1["animate"]), ("sg", N1["sg"])], all_nouns))))
 
@@ -100,8 +102,6 @@ while len(sentences) < number_to_generate:
     sentence_4 = string_beautify(sentence_4)
 
     writer = np.random.choice([train_output, dev_output, test_output], 1, p=[0.5, 0.25, 0.25])[0]
-
-
     if sentence_1 not in sentences:
         if writer == test_output:
             writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=1-highest=1-last=1-aux1=%s-aux2=%s" % (Aux1[0], Aux2[0]), 1, sentence_1))

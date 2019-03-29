@@ -10,7 +10,7 @@ from utils.string_utils import string_beautify
 
 
 # initialize output file
-rel_output_path = "outputs/alexs_qp_structure_dependence/polar_q/3_28-1k"
+rel_output_path = "outputs/structure_dependence/polar_q/"
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
 train_output = open(os.path.join(project_root, rel_output_path, "train.tsv"), "w")
 test_output = open(os.path.join(project_root, rel_output_path, "test_full.tsv"), "w")
@@ -18,7 +18,7 @@ test2_output = open(os.path.join(project_root, rel_output_path, "test.tsv"), "w"
 dev_output = open(os.path.join(project_root, rel_output_path, "dev.tsv"), "w")
 
 # set total number of sentences to generate
-number_to_generate = 100
+number_to_generate = 1000
 sentences = set()
 test_counter = 0    # Jiant requires test data to be in numbered, two-column format
 
@@ -58,11 +58,8 @@ all_consistent_transitive_verbs = np.union1d(
 
 # sample sentences until desired number
 while len(sentences) < number_to_generate:
-    # Aux1/2 D1  N1  who Aux1  V1    D2  N2  Aux2 V2      D3  N3
-    # is/has the man who (has) met   the boy (is) kissing the patient ?
-
-    # Aux1/2 D1  N1  Aux2 V2      D3  N3      who Aux2  V2    D2  N2
-    # is/has the man (is) kissing the patient who (has) met   the boy ?
+    # I told the man to help/helping the actress kissing a girl.
+    # I told the man kissing a girl to help/helping the actress.
 
     # The arguments of V2 must match in animacy/number
     V2 = choice(all_consistent_transitive_verbs)
@@ -99,61 +96,36 @@ while len(sentences) < number_to_generate:
     sentence_3 = string_beautify(sentence_3)
     sentence_4 = string_beautify(sentence_4)
 
-    writer = np.random.choice([train_output, dev_output, test_output], 1, p=[0.5, 0.25, 0.25])[0]
+    in_domain_writer = np.random.choice([train_output, dev_output, test_output], 1, p=[0.5, 0.25, 0.25])[0]
+    out_of_domain_writer = np.random.choice([dev_output, test_output], 1)[0] \
+        if in_domain_writer == train_output \
+        else in_domain_writer
+    paradigm_in_domain = 1 if in_domain_writer == train_output else 0
 
 
     if sentence_1 not in sentences:
-        if writer == test_output:
-            writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=1-highest=1-last=1-aux1=%s-aux2=%s" % (Aux1[0], Aux2[0]), 1, sentence_1))
-            writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=1-highest=0-last=0-aux1=%s-aux2=%s" % (Aux1[0], Aux2[0]), 0, sentence_2))
-            writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=0-highest=1-last=0-aux1=%s-aux2=%s" % (Aux1[0], Aux2[0]), 1, sentence_3))
-            writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=0-highest=0-last=1-aux1=%s-aux2=%s" % (Aux1[0], Aux2[0]), 0, sentence_4))
-            test2_output.write("%d\t%s\n" % (test_counter, sentence_1))
-            test_counter += 1
-            test2_output.write("%d\t%s\n" % (test_counter, sentence_2))
-            test_counter += 1
-            test2_output.write("%d\t%s\n" % (test_counter, sentence_3))
-            test_counter += 1
-            test2_output.write("%d\t%s\n" % (test_counter, sentence_4))
-            test_counter += 1
-        else:
-            writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=1-highest=1-last=1-aux1=%s-aux2=%s" % (Aux1[0], Aux2[0]), 1, sentence_1))
-            writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=1-highest=0-last=0-aux1=%s-aux2=%s" % (Aux1[0], Aux2[0]), 0, sentence_2))
-        sentences.add(sentence_1)
+        in_domain_writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=1-highest=1-last=1-aux1=%s-aux2=%s-paradigm_in_domain=%d" % (Aux1[0], Aux2[0], paradigm_in_domain), 1, sentence_1))
+        in_domain_writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=1-highest=0-last=0-aux1=%s-aux2=%s-paradigm_in_domain=%d" % (Aux1[0], Aux2[0], paradigm_in_domain), 0, sentence_2))
+        out_of_domain_writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=0-highest=1-last=0-aux1=%s-aux2=%s-paradigm_in_domain=%d" % (Aux1[0], Aux2[0], paradigm_in_domain), 1, sentence_3))
+        out_of_domain_writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=0-highest=0-last=1-aux1=%s-aux2=%s-paradigm_in_domain=%d" % (Aux1[0], Aux2[0], paradigm_in_domain), 0, sentence_4))
+
+    if in_domain_writer == test_output:
+        test2_output.write("%d\t%s\n" % (test_counter, sentence_1))
+        test_counter += 1
+        test2_output.write("%d\t%s\n" % (test_counter, sentence_2))
+        test_counter += 1
+
+    if out_of_domain_writer == test_output:
+        test2_output.write("%d\t%s\n" % (test_counter, sentence_3))
+        test_counter += 1
+        test2_output.write("%d\t%s\n" % (test_counter, sentence_4))
+        test_counter += 1
+
+    sentences.add(sentence_1)
 
 train_output.close()
 test_output.close()
 test2_output.close()
 dev_output.close()
-
-
-
-"""
-Think more about the paradigm
-
-1.  1   Has the teacher [who is] praising the essay criticized the student?
-2.  0   Is the teacher [who praising] the essay has criticized the student?
-3.  1   Has the teacher criticized the student [who is] praising the essay?
-4.  0   Is the teacher has criticized the student [who praising] the essay? 
-
-
-1.  1   Has the teacher who is praising the essay has criticized the student?
-2.  0   Is the teacher who is praising the essay has criticized the student?
-3.  1   Has the teacher has criticized the student who is praising the essay?
-4.  0   Is the teacher has criticized the student who is praising the essay? 
-
-
-Question: Does the model use the bigram of complementizer + finite verb to identify grammatical sentences?
-- Response 1: If this were so we would expect to see incorrect classification on ungrammatical sentences with the same bigram
-- Response 2: If we eliminate this as a reliable cue...
-    1.  1   Has the teacher [who praising the essay criticized the student?
-    2.  0   Is the teacher [who praising] the essay has criticized the student?
-    3.  1   Has the teacher criticized the student [who is] praising the essay?
-    4.  0   Is the teacher has criticized the student [who praising] the essay? 
-
-
-
-"""
-
 
 
