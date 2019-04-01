@@ -1,0 +1,712 @@
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a essay is competing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a essay is nodding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a essays will compete
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a essays are nodding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a offspring will compete
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a offspring is nodding
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a offsprings are competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a offsprings will nod
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the hair communicates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the hair approves
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the hairs communicate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the hairs approve
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the child communicates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the child approves
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the children communicate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the children approve
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a patient had chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a patient had read
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a patients will chat
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a patients will read
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a cactus was chatting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a cactus will read
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a cactuss were chatting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a cactuss were reading
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the high school dated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the high school yelled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the high schools dated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the high schools yelled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the deer dated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the deer yelled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the deer dated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the deer yelled
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the pedestrian will communicate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the pedestrian will lie
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the pedestrians will communicate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the pedestrians will lie
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the sheep has communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the sheep will lie
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the sheep have communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the sheep will lie
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a guy met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a guy won
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a guys met
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a guys won
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a ox met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a ox won
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a oxen met
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a oxen won
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the brochure conspires
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the brochure yells
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the brochures conspire
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the brochures yell
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the medium conspires
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the medium yells
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the media conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the media yell
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the book chats
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the book weeps
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the books chat
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the books weep
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the paralysis chats
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the paralysis weeps
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the paralyses chat
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the paralyses weep
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the fork had disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the fork was chuckling
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the forks will disagree
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the forks will chuckle
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the analysis was disagreeing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the analysis had chuckled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the analyses had disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the analyses were chuckling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the commentary meets
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the commentary telephones
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the commentaries meet
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the commentaries telephone
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the man meets
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the man telephones
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the men meet
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the men telephone
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the book is corresponding
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the book is exercising
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the books are corresponding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the books have exercised
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the axis has corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the axis will exercise
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the axes are corresponding
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the axes will exercise
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the college campus will debate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the college campus will see
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the college campuss have debated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the college campuss will see
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the ox is debating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the ox has seen
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the oxen are debating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the oxen have seen
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a student chats
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a student yells
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a students chat
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a students yell
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a fungus chats
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a fungus yells
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a fungi chat
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a fungi yell
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a brochure had assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a brochure will succeed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a brochures will assemble
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a brochures were succeeding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a fish had assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a fish will succeed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a fish were assembling
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a fish had succeeded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the teacher conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the teacher succeeded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the teachers conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the teachers succeeded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the man conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the man succeeded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the men conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the men succeeded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the museum will disagree
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the museum has stretched
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the museums will disagree
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the museums have stretched
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the deer will disagree
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the deer will stretch
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the deer are disagreeing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the deer are stretching
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the girl has conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the girl is forfeiting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the girls have conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the girls are forfeiting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the cactus will conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the cactus will forfeit
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the cactuss will conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the cactuss have forfeited
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a human had fought
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a human had retaliated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a humen were fighting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a humen were retaliating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a fungus will fight
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a fungus was retaliating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a fungi had fought
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a fungi will retaliate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a cafe will clash
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a cafe will succeed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a scsasfses s had clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a scsasfses s were succeeding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a woman will clash
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a woman was succeeding
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a women will clash
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a women will succeed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a pedestrian conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a pedestrian performed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a pedestrians conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a pedestrians performed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a axis conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a axis performed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a axes conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a axes performed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a teenager fights
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a teenager succeeds
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a teenagers fight
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a teenagers succeed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a means fights
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a means succeeds
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a meanss fight
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a meanss succeed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		some teacher assembles
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		some teacher drinks
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		some teachers assemble
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		some teachers drink
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		some analysis assembles
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		some analysis drinks
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		some analyses assemble
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		some analyses drink
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the high school was conspiring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the high school was sat downing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the high schools will conspire
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the high schools had sat downed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the fish will conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the fish will sat down
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the fish had conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the fish had sat downed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the high school chats
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the high school dies
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the high schools chat
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the high schools die
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the woman chats
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the woman dies
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the women chat
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the women die
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a student was clashing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a student had profited
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a students had clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a students will profit
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a medium was clashing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a medium was profiting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a media were clashing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a media were profiting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the report has reunited
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the report will protest
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the reports are reuniting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the reports are protesting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the means has reunited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the means is protesting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the meanss are reuniting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the meanss have protested
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a glass will debate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a glass is spin arounding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a glasses will debate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a glasses have spin arounded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a analysis has debated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a analysis will spin around
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a analyses have debated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a analyses have spin arounded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		that teacher had argued
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		that teacher was smiling
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		that teachers had argued
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		that teachers had smiled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		that cactus was arguing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		that cactus had smiled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		that cactuss had argued
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		that cactuss will smile
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		some woman is conferring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		some woman is learning
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		some women will confer
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		some women will learn
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		some child will confer
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		some child will learn
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		some children have conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		some children are learning
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a movie divorced
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a movie compromised
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a movies divorced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a movies compromised
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a offspring divorced
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a offspring compromised
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a offsprings divorced
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a offsprings compromised
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a public park interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a public park studied
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a public parks interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a public parks studied
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a sheep interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a sheep studied
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a sheep interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a sheep studied
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the shirt had embraced
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the shirt will struggle
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the shirts had embraced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the shirts had struggled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the crisis will embrace
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the crisis had struggled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the crises will embrace
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the crises were struggling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a scarf assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a scarf shouted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a scarves assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a scarves shouted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a offspring assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a offspring shouted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a offsprings assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a offsprings shouted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a adult hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a adult hunted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a adults hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a adults hunted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a basis hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a basis hunted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a bases hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a bases hunted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a cafe will interact
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a cafe had cried
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a scsasfses s will interact
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a scsasfses s had cried
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a woman had interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a woman will cry
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a women were interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a women were crying
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a bank has married
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a bank has whispered
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a banks are marrying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a banks are whispering
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a analysis has married
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a analysis has whispered
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a analyses have married
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a analyses are whispering
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		some driver has assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		some driver will forfeit
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		some drivers have assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		some drivers are forfeiting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		some species has assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		some species is forfeiting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		some species have assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		some species have forfeited
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		some art gallery competed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		some art gallery stood upped
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		some art galleries competed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		some art galleries stood upped
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		some synthesis competed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		some synthesis stood upped
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		some syntheses competed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		some syntheses stood upped
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the teenager hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the teenager slump overred
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the teenagers hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the teenagers slump overred
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the woman hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the woman slump overred
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the women hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the women slump overred
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a fork collaborates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a fork hunts
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a forks collaborate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a forks hunt
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a medium collaborates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a medium hunts
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a media collaborate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a media hunt
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the commentary clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the commentary struggled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the commentaries clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the commentaries struggled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the man clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the man struggled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the men clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the men struggled
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the report conspires
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the report weeps
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the reports conspire
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the reports weep
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the synopsis conspires
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the synopsis weeps
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the synopses conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the synopses weep
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		some fork marries
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		some fork profits
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		some forks marry
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		some forks profit
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		some synthesis marries
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		some synthesis profits
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		some syntheses marry
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		some syntheses profit
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the gal is corresponding
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the gal will benefit
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the gals are corresponding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the gals have benefited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the oasis is corresponding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the oasis is benefiting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the oases are corresponding
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the oases will benefit
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a actress was interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a actress will reply
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a actresses were interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a actresses were replying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a synthesis had interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a synthesis was replying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a syntheses were interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a syntheses will reply
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		this cafe conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		this cafe screamed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		this scsasfses s conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		this scsasfses s screamed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		this medium conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		this medium screamed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		this media conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		this media screamed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the patient will embrace
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the patient has benefited
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the patients are embracing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the patients have benefited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the hypothesis has embraced
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the hypothesis is benefiting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the hypotheses are embracing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the hypotheses are benefiting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the guy argues
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the guy writes
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the guys argue
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the guys write
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the child argues
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the child writes
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the children argue
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the children write
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a guest disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a guest work harded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a guests disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a guests work harded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a woman disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a woman work harded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a women disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a women work harded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a movie corresponds
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a movie dies
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a movies correspond
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a movies die
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a means corresponds
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a means dies
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a meanss correspond
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a meanss die
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the library had conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the library had stretched
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the libraries were conspiring
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the libraries were stretching
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the sheep had conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the sheep will stretch
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the sheep will conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the sheep had stretched
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a hair married
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a hair responded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a hairs married
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a hairs responded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a cactus married
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a cactus responded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a cactuss married
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a cactuss responded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a hat collaborates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a hat learns
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a hats collaborate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a hats learn
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a child collaborates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a child learns
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a children collaborate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a children learn
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a couch was competing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a couch was winning
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a couches had competed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a couches will win
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a alumnus had competed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a alumnus was winning
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a alumnuss were competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a alumnuss had won
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		that dress will reunite
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		that dress will weep
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		that dresses are reuniting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		that dresses are weeping
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		that deer has reunited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		that deer will weep
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		that deer will reunite
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		that deer have wept
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the museum will meet
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the museum has stood upped
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the museums will meet
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the museums have stood upped
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the parenthesis is meeting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the parenthesis has stood upped
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the parentheses have met
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the parentheses will stood up
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a mall is interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a mall has slumped overred
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a malls have interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a malls will slumped over
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a cactus is interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a cactus has slumped overred
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a cactuss have interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a cactuss are slumped overring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a grocery store argued
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a grocery store stretched
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a grocery stores argued
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a grocery stores stretched
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a goose argued
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a goose stretched
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a geese argued
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a geese stretched
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a actor conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a actor hunted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a actors conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a actors hunted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a means conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a means hunted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a meanss conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a meanss hunted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the nose disagrees
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the nose drinks
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the noses disagree
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the noses drink
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the paralysis disagrees
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the paralysis drinks
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the paralyses disagree
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the paralyses drink
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the college campus was kissing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the college campus had painted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the college campuss had kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the college campuss were painting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the medium was kissing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the medium was painting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the media were kissing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the media will paint
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a teacher kisses
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a teacher benefits
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a teachers kiss
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a teachers benefit
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a man kisses
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a man benefits
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a men kiss
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a men benefit
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a person had dated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a person was exercising
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a people were dating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a people had exercised
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a goose will date
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a goose will exercise
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a geese will date
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a geese had exercised
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a pamphlet argued
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a pamphlet surrendered
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a pamphlets argued
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a pamphlets surrendered
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a cactus argued
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a cactus surrendered
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a cactuss argued
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a cactuss surrendered
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the adult reunites
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the adult negotiates
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the adults reunite
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the adults negotiate
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the sheep reunites
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the sheep negotiates
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the sheep reunite
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the sheep negotiate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the actor is interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the actor is stretching
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the actors are interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the actors have stretched
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the crisis will interact
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the crisis is stretching
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the crises will interact
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the crises have stretched
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		some customer met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		some customer wept
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		some customers met
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		some customers wept
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		some ellipsis met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		some ellipsis wept
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		some ellipses met
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		some ellipses wept
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the museum argues
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the museum changes
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the museums argue
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the museums change
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the phenomenon argues
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the phenomenon changes
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the phenomena argue
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the phenomena change
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the scarf reunites
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the scarf forfeits
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the scarves reunite
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the scarves forfeit
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the fish reunites
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the fish forfeits
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the fish reunite
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the fish forfeit
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		this fork conspires
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		this fork litters
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		this forks conspire
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		this forks litter
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		this phenomenon conspires
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		this phenomenon litters
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		this phenomena conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		this phenomena litter
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		that teacher chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		that teacher saluted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		that teachers chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		that teachers saluted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		that fish chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		that fish saluted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		that fish chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		that fish saluted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a scarf disagrees
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a scarf litters
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a scarves disagree
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a scarves litter
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a analysis disagrees
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a analysis litters
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a analyses disagree
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a analyses litter
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a boy hugs
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a boy boasts
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a boys hug
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a boys boast
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a species hugs
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a species boasts
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a species hug
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a species boast
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the hat collaborates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the hat cooks
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the hats collaborate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the hats cook
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the crisis collaborates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the crisis cooks
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the crises collaborate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the crises cook
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the cafe competes
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the cafe protests
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the scsasfses s compete
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the scsasfses s protest
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the tooth competes
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the tooth protests
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the teeth compete
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the teeth protest
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a restaurant will meet
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a restaurant has nodded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a restaurants are meeting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a restaurants are nodding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a analysis is meeting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a analysis will nod
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a analyses are meeting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a analyses are nodding
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a book debates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a book learns
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a books debate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a books learn
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a synopsis debates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a synopsis learns
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a synopses debate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a synopses learn
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the report will embrace
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the report will explaining everythe
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the reports will embrace
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the reports will explaining everythe
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the tooth will embrace
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the tooth is explaining everything
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the teeth will embrace
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the teeth are explaining everything
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the face is interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the face will drink
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the faces will interact
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the faces have drunk
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the thesis will interact
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the thesis has drunk
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the theses will interact
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the theses have drunk
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		some actress was hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		some actress had surrendered
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		some actresses were hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		some actresses had surrendered
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		some cactus will hug
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		some cactus was surrendering
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		some cactuss had hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		some cactuss will surrender
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the cafe was collaborating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the cafe had studied
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the scsasfses s were collaborating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the scsasfses s were studying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the fish will collaborate
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the fish had studied
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the fish had collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the fish will study
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a human will collaborate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a human has explained everythed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a humen will collaborate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a humen have explained everythed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a synthesis has collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a synthesis will explained everythe
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a syntheses are collaborating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a syntheses will explained everythe
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the student divorced
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the student compromised
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the students divorced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the students compromised
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the axis divorced
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the axis compromised
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the axes divorced
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the axes compromised
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a glass disagrees
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a glass reads
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a glasses disagree
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a glasses read
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a cactus disagrees
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a cactus reads
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a cactuss disagree
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a cactuss read
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the commentary has met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the commentary is cheering
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the commentaries have met
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the commentaries will cheer
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the series has met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the series is cheering
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the series will meet
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the series are cheering
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the cup argued
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the cup succeeded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the cups argued
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the cups succeeded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the synopsis argued
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the synopsis succeeded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the synopses argued
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the synopses succeeded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		a play had corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		a play had scratched
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		a plays will correspond
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		a plays had scratched
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		a alumnus was corresponding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		a alumnus will scratch
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		a alumnuss were corresponding
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		a alumnuss will scratch
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		that person will confer
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		that person had died
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		that people had conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		that people will die
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		that oasis had conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		that oasis was dying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		that oases will confer
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		that oases were dying
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1	0		the school kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0	1		the school sanged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1	1		the schools kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0	1		the schools sanged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1	0		the thesis kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0	1		the thesis sanged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1	1		the theses kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0	1		the theses sanged

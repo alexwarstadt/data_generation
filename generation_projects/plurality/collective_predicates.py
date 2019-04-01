@@ -1,10 +1,13 @@
 # Authors: Hagen Blix
 # Script for generating sentences with collective predicates
 
-from utils.conjugate import *
+# import pattern.en
+# from pattern.en import conjugate as pconj
+from utils.conjugate2 import *
 from utils.string_utils import remove_extra_whitespace
 from random import choice
 import numpy as np
+
 
 # initialize output file
 rel_output_path = "outputs/plurals/environment=collectivepredicates.tsv"
@@ -12,171 +15,150 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 10
+number_to_generate = 800
 sentences = set()
 
 
+
 # gather word classes that will be accessed frequently
-all_irregular_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "1")])
+all_irregular_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "1")],table=vocab_irrpl)
 all_irregular_nouns_sg = get_all("sg", "1", all_irregular_nouns)
-all_irregular_nouns_pl = get_all("pl", "1", all_irregular_nouns)
-all_regular_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "0")])
+# all_irregular_nouns_pl = get_all("pl", "1", all_irregular_nouns)
+all_regular_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "")])
 all_regular_nouns_sg = get_all("sg", "1", all_regular_nouns)
-all_regular_nouns_pl = get_all("pl", "1", all_regular_nouns)
+# all_regular_nouns_pl = get_all("pl", "1", all_regular_nouns)
+all_coll_pred = get_all("category_2", "IV_ag_pl")
+all_ncoll_pred = get_all("category_2", "IV_ag")
 
-# all_collective_predicates = get_all_conjunctive(["category", ""], ["collective_pred", ""])
+while len(sentences) < number_to_generate/3:
 
-# From below: Old stuff
+    Nreg_sg = choice(all_regular_nouns_sg)
+    Nreg_pl = Nreg_sg.copy()
+    Nreg_pl[0] = pattern.en.pluralize(Nreg_pl[0])
+    Nreg_pl["sg"] = 0
+    Nreg_pl["pl"] = 1
+    Nirr_sg = choice(all_irregular_nouns_sg)
+    Nirr_pl = Nirr_sg.copy()
+    Nirr_pl[0] = pattern.en.pluralize(Nirr_pl[0])
+    Nirr_pl["sg"] = 0
+    Nirr_pl["pl"] = 1
+
+    coll_pred = choice(all_coll_pred)
+    ncoll_pred = choice(all_ncoll_pred)
+    # TODO Doesn't match the noun and the verb for animacy etc?
+    # TODO: You might want to exhaust the list of irregular nouns?
+
+    # Determiners (just strings):
+    definiteness = np.random.choice([True, False])
+    if definiteness:
+    # Definites:
+        det_def_abstract = np.random.choice([1, 2, 3], p=[0.9, 0.05, 0.05])
+        if det_def_abstract == 1:
+            Dreg_sg = "the"
+            Dirr_sg = "the"
+            Dpl = "the"
+        elif det_def_abstract == 2:
+            Dreg_sg = "this"
+            Dirr_sg = "this"
+            Dpl = "these"
+        elif det_def_abstract == 3:
+            Dreg_sg = "that"
+            Dirr_sg = "that"
+            Dpl = "those"
+    else:
+    # Indefinites:
+        det_indef_abstract = np.random.choice([True, False], p=[0.85, 0.15])  # True = indef article, False = some
+        if det_indef_abstract:
+            try:
+                if Nreg_sg["start_with_vowel"] == 1:
+                    Dreg_sg = "an"
+                else:
+                    Dreg_sg = "a"
+            except:
+                Dreg_sg = "a"
+            if Nirr_sg[0][0] in ["a", "e", "i", "o"]:
+                Dirr_sg = "an"
+            else:
+                Dirr_sg = "a"
+
+        else:
+            Dreg_sg = "some"
+            Dirr_sg = "some"
+            Dpl = "some"
 
 
-# gather word classes that will be accessed frequently
-all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
-all_quantifiers = get_all("category", "(S/(S\\NP))/N")
-all_UE_UE_quantifiers = get_all("restrictor_DE", "0", all_quantifiers)
-all_DE_UE_quantifiers = get_all("restrictor_DE", "1", get_all("scope_DE", "0", all_quantifiers)) #TODO: FC any takes singulars
-all_transitive_verbs = get_all("category", "(S\\NP)/NP")
-all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
+    # Build Paradigms
+    # Step 1: Generate conjugation pattern:
+    the_aux = np.random.choice([0,1])
+    the_tense = np.random.choice([0,1])
+    the_neg = np.random.choice([0,1], p=[0.8, 0.2])
 
-# sample sentences until desired number
-while len(sentences) < number_to_generate:
-    # sentence template
-    # D1     N1   who V1      any/the/D2    N2      V2    any/the/D3  N3
-    # every  boy  who bought  any/the/some  apples  sang  any/the/a   song
+    copy_verb = coll_pred.copy()
+    conjugate2(copy_verb,Nreg_sg,the_aux,the_tense,the_neg)
+    sentence_1 = remove_extra_whitespace(Dreg_sg + " " + Nreg_sg[0] + " " + copy_verb[0])
+    sentence_1_meta = "experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1"
+    sentence_1_grammaticality = 0
 
-    # build all lexical items
-    #TODO: throw in modifiers
-    N1 = choice(all_animate_nouns)
-    D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
-    D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
-    V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))        # restrict to UE quantifiers, otherwise there could be another licensor
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
+    copy_verb = ncoll_pred.copy()
+    conjugate2(copy_verb,Nreg_sg,the_aux,the_tense,the_neg)
+    sentence_2 = remove_extra_whitespace(Dreg_sg + " " + Nreg_sg[0] + " " + copy_verb[0])
+    sentence_2_meta = "experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0"
+    sentence_2_grammaticality = 1
 
-    # build sentences with UE quantifier
-    sentence_1 = "%s %s who %s any %s %s %s %s ." % (D1_up[0], N1[0], V1[0], N2[0], V2[0], D3[0], N3[0])
-    sentence_2 = "%s %s who %s the %s %s %s %s ." % (D1_up[0], N1[0], V1[0], N2[0], V2[0], D3[0], N3[0])
-    sentence_3 = "%s %s who %s %s %s %s any %s ." % (D1_up[0], N1[0], V1[0], D2[0], N2[0], V2[0], N3[0])
-    sentence_4 = "%s %s who %s %s %s %s the %s ." % (D1_up[0], N1[0], V1[0], D2[0], N2[0], V2[0], N3[0])
+    copy_verb = coll_pred.copy()
+    conjugate2(copy_verb, Nreg_pl, the_aux, the_tense, the_neg)
+    sentence_3 = remove_extra_whitespace(Dreg_sg + " " + Nreg_pl[0] + " " + copy_verb[0])
+    sentence_3_meta = "experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1"
+    sentence_3_grammaticality = 1
 
-    # build sentences with DE quantifier
-    sentence_5 = "%s %s who %s any %s %s %s %s ." % (D1_down[0], N1[0], V1[0], N2[0], V2[0], D3[0], N3[0])
-    sentence_6 = "%s %s who %s the %s %s %s %s ." % (D1_down[0], N1[0], V1[0], N2[0], V2[0], D3[0], N3[0])
-    sentence_7 = "%s %s who %s %s %s %s any %s ." % (D1_down[0], N1[0], V1[0], D2[0], N2[0], V2[0], N3[0])
-    sentence_8 = "%s %s who %s %s %s %s the %s ." % (D1_down[0], N1[0], V1[0], D2[0], N2[0], V2[0], N3[0])
+    copy_verb = ncoll_pred.copy()
+    conjugate2(copy_verb, Nreg_pl, the_aux, the_tense, the_neg)
+    sentence_4 = remove_extra_whitespace(Dreg_sg + " " + Nreg_pl[0] + " " + copy_verb[0])
+    sentence_4_meta = "experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0"
+    sentence_4_grammaticality = 1
 
-    # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
-    # but the code outputs a determiner with an empty string. might want to change this)
-    sentence_1 = remove_extra_whitespace(sentence_1)
-    sentence_2 = remove_extra_whitespace(sentence_2)
-    sentence_3 = remove_extra_whitespace(sentence_3)
-    sentence_4 = remove_extra_whitespace(sentence_4)
-    sentence_5 = remove_extra_whitespace(sentence_5)
-    sentence_6 = remove_extra_whitespace(sentence_6)
-    sentence_7 = remove_extra_whitespace(sentence_7)
-    sentence_8 = remove_extra_whitespace(sentence_8)
+    copy_verb = coll_pred.copy()
+    conjugate2(copy_verb, Nirr_sg, the_aux, the_tense, the_neg)
+    sentence_5 = remove_extra_whitespace(Dreg_sg + " " + Nirr_sg[0] + " " + copy_verb[0])
+    sentence_5_meta = "experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1"
+    sentence_5_grammaticality = 0
 
-    # write sentences to output
-    if sentence_1 not in sentences:
+    copy_verb = ncoll_pred.copy()
+    conjugate2(copy_verb, Nirr_sg, the_aux, the_tense, the_neg)
+    sentence_6 = remove_extra_whitespace(Dreg_sg + " " + Nirr_sg[0] + " " + copy_verb[0])
+    sentence_6_meta = "experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0"
+    sentence_6_grammaticality = 1
+
+    copy_verb = coll_pred.copy()
+    conjugate2(copy_verb, Nirr_pl, the_aux, the_tense, the_neg)
+    sentence_7 = remove_extra_whitespace(Dreg_sg + " " + Nirr_pl[0] + " " + copy_verb[0])
+    sentence_7_meta = "experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1"
+    sentence_7_grammaticality = 1
+
+    copy_verb = ncoll_pred.copy()
+    conjugate2(copy_verb, Nirr_pl, the_aux, the_tense, the_neg)
+    sentence_8 = remove_extra_whitespace(Dreg_sg + " " + Nirr_pl[0] + " " + copy_verb[0])
+    sentence_8_meta = "experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0"
+    sentence_8_grammaticality = 1
+
+
+    if sentence_1 not in sentences and sentence_2 not in sentences and sentence_5 not in sentences:
         # sentences 1-4 have quantifiers with UE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=1" % D1_up[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=0" % D1_up[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=1" % D1_up[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=0" % D1_up[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % (sentence_1_meta, sentence_1_grammaticality, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % (sentence_2_meta, sentence_2_grammaticality, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % (sentence_3_meta, sentence_3_grammaticality, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % (sentence_4_meta, sentence_4_grammaticality, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % (sentence_5_meta, sentence_5_grammaticality, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % (sentence_6_meta, sentence_6_grammaticality, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % (sentence_7_meta, sentence_7_grammaticality, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % (sentence_8_meta, sentence_8_grammaticality, sentence_8))
 
-        # sentences 5-8 have quantifiers with DE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=1" % D1_down[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=0" % D1_down[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=1" % D1_down[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=0" % D1_down[0], 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
-
-# the end :)
-
-
+    sentences.add(sentence_2)
+    sentences.add(sentence_5)
 
 
-
-
-# repeat for "ever"
-
-# PITFALL:
-# ever doesn't occur with progressive
-# Every boy who has ever eaten a potato is tall.
-# *? Every boy who is ever eating a potato is tall.
-sentences = set()
-all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
-while len(sentences) < number_to_generate:
-    # sentence template
-    # D1     N1   who  (Aux)  ever  V1      the  N2      V2    D2  N3
-    # every  boy  who  (has)  ever  bought  the  apples  sang  a   song
-
-    N1 = choice(all_animate_nouns)
-    D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
-    D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
-    V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    Aux1 = return_aux(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers))
-    V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    Aux2 = return_aux(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers))
-
-    # the replacement for "ever" depends on the tense of the verb
-    # if the auxiliary is empty (i.e. the main verb is finite), use the tense of the verb, else use the auxiliary
-    if Aux1[0] == "":
-        emb_adv = "now" if V1["pres"] == "1" else "once"
-    else:
-        emb_adv = "now" if Aux1["pres"] == "1" else "once"
-    if Aux2[0] == "":
-        matrix_adv = "now" if V2["pres"] == "1" else "once"
-    else:
-        matrix_adv = "now" if Aux2["pres"] == "1" else "once"
-
-
-
-    sentence_1 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_2 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1[0], emb_adv, V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_3 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_up[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_4 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_up[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], matrix_adv, V2[0], D3[0], N3[0])
-
-    sentence_5 = "%s %s who %s ever %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_6 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1[0], emb_adv, V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_7 = "%s %s who %s %s %s %s %s ever %s %s %s ." % (D1_down[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_8 = "%s %s who %s %s %s %s %s %s %s %s %s ." % (D1_down[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], matrix_adv, V2[0], D3[0], N3[0])
-
-    # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
-    sentence_1 = remove_extra_whitespace(sentence_1)
-    sentence_2 = remove_extra_whitespace(sentence_2)
-    sentence_3 = remove_extra_whitespace(sentence_3)
-    sentence_4 = remove_extra_whitespace(sentence_4)
-    sentence_5 = remove_extra_whitespace(sentence_5)
-    sentence_6 = remove_extra_whitespace(sentence_6)
-    sentence_7 = remove_extra_whitespace(sentence_7)
-    sentence_8 = remove_extra_whitespace(sentence_8)
-
-
-    # write sentences to output
-    if sentence_1 not in sentences:
-        # sentences 1-4 have quantifiers with UE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=1" % D1_up[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=1_npi-present=0" % D1_up[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=1" % D1_up[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=0_scope=0_npi-present=0" % D1_up[0], 1, sentence_4))
-
-        # sentences 5-8 have quantifiers with DE restrictor
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=1" % D1_down[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=1_npi-present=0" % D1_down[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=1" % D1_down[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI_env=quantifier_npi=any_quantifier=%s_licensor=1_scope=0_npi-present=0" % D1_down[0], 1, sentence_8))
-
-    sentences.add(sentence_1)
 
 output.close()
