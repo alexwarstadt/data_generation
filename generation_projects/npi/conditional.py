@@ -15,7 +15,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 10
+number_to_generate = 100
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -80,15 +80,15 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have conditional environment
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-licensor=1_scope=1_npi_present=1", 1, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-licensor=1_scope=1_npi_present=0", 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-licensor=1_scope=0_npi_present=1", 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-licensor=1_scope=0_npi_present=0", 0, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1", 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0", 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1", 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0", 0, sentence_4))
         # sentences 5-8 have non-conditional environment
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-licensor=0_scope=1_npi_present=1", 0, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-licensor=0_scope=1_npi_present=0", 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-licensor=0_scope=0_npi_present=1", 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-licensor=0_scope=0_npi_present=0", 0, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0", 0, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
