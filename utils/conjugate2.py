@@ -19,7 +19,7 @@ def conjugate2(verb, subj, aux=2, t=3, m="INDICATIVE",neg=0): # TODO: Does not w
     :return: none, side effects only. Modifies string of verb to be inflected for tense/aspect (includes the auxiliary in the string)
     # TODO: Adverbs?
     """
-    auxiliaries = ["have", "be", "will"] # perfect, imperfective, future
+    auxiliaries = ["have", "be"] # perfect, imperfective
     tenses = ["present", "past"]
     the_person = 3
     if subj["pl"] == 1 or subj["pl"] == "1": # TODO Workaround for a bug where this is sometimes int and sometimes str?
