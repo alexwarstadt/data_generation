@@ -1,0 +1,1760 @@
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the plate chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the plate smiled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the plates chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the plates smiled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the phenomenon chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the phenomenon smiled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the phenomena chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the phenomena smiled
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the hat had met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the hat had telephoned
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the hats were meeting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the hats had telephoned
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the oasis had met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the oasis had telephoned
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the oases were meeting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the oases were telephoning
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a cashier was assembling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a cashier was hunting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		cashiers had assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		cashiers had hunted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a man was assembling
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a man was hunting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		men were assembling
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		men were hunting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a man communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a man cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		men communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		men cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		an offspring communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		an offspring cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		offspring communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		offspring cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the rug chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the rug played
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the rugs chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the rugs played
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the means chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the means played
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the means chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the means played
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the driver divorces
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the driver litters
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the drivers divorce
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the drivers litter
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the mouse divorces
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the mouse litters
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the mice divorce
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the mice litter
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a restaurant meets
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a restaurant cheers
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		restaurants meet
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		restaurants cheer
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a hypothesis meets
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a hypothesis cheers
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		hypotheses meet
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		hypotheses cheer
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the book has chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the book is talking
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the books have chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the books have talked
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the crisis has chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the crisis is talking
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the crises have chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the crises have talked
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the report had fought
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the report was complaining
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the reports were fighting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the reports were complaining
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the parenthesis had fought
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the parenthesis had complained
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the parentheses were fighting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the parentheses had complained
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a fork has conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a fork is crying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		forks are conferring
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		forks are crying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a species is conferring
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a species has cried
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		species are conferring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		species are crying
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a story communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a story forfeited
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		stories communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		stories forfeited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a synopsis communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a synopsis forfeited
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		synopses communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		synopses forfeited
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the mall has corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the mall has responded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the malls have corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the malls are responding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the medium has corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the medium has responded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the media have corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the media have responded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a play has interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a play has changed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		plays have interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		plays are changing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a tooth has interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a tooth is changing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		teeth are interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		teeth have changed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the dress conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the dress studied
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the dresses conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the dresses studied
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the parenthesis conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the parenthesis studied
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the parentheses conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the parentheses studied
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the dress was reuniting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the dress had murmured
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the dresses had reunited
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the dresses had murmured
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the thesis had reunited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the thesis was murmuring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the theses were reuniting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the theses were murmuring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the boy had kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the boy had died
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the boys had kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the boys had died
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the offspring was kissing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the offspring was dying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the offspring had kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the offspring had died
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a book has corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a book is complaining
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		books have corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		books are complaining
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a synopsis has corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a synopsis is complaining
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		synopses have corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		synopses are complaining
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the shirt disagrees
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the shirt sings
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the shirts disagree
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the shirts sing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the medium disagrees
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the medium sings
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the media disagree
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the media sing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some child flirts
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some child talks
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some children flirt
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some children talk
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some ox flirts
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some ox talks
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some oxen flirt
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some oxen talk
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a report was competing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a report was changing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		reports were competing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		reports had changed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a stimulus had competed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a stimulus was changing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		stimuli were competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		stimuli were changing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a brochure has corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a brochure has cooked
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		brochures are corresponding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		brochures are cooking
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a thesis has corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a thesis is cooking
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		theses have corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		theses are cooking
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a book kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a book changed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		books kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		books changed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a stimulus kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a stimulus changed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		stimuli kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		stimuli changed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the couch was debating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the couch was saluting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the couches had debated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the couches had saluted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the series had debated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the series was saluting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the series were debating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the series had saluted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a shirt clashes
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a shirt grins
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		shirts clash
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		shirts grin
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a cactus clashes
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a cactus grins
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		cacti clash
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		cacti grin
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a face was conspiring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a face had read
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		faces had conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		faces had read
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a tooth had conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a tooth had read
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		teeth had conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		teeth were reading
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		that rug is communicating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		that rug is donating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		those rugs are communicating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		those rugs have donated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		that means has communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		that means has donated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		those means are communicating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		those means are donating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		that story has disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		that story is washing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		those stories are disagreeing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		those stories are washing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		that cactus is disagreeing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		that cactus has washed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		those cacti have disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		those cacti are washing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the fork is arguing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the fork has died
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the forks have argued
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the forks have died
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the phenomenon has argued
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the phenomenon has died
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the phenomena have argued
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the phenomena are dying
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a woman has interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a woman is smiling
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		women have interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		women have smiled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a woman has interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a woman is smiling
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		women have interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		women are smiling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the mall had competed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the mall had hunted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the malls had competed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the malls had hunted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the species had competed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the species was hunting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the species were competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the species had hunted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the book was hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the book had hunted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the books were hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the books had hunted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the diagnosis was hugging
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the diagnosis had hunted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the diagnoses had hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the diagnoses were hunting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the doctor assembles
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the doctor stretches
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the doctors assemble
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the doctors stretch
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the offspring assembles
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the offspring stretches
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the offspring assemble
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the offspring stretch
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the book has conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the book has approved
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the books are conferring
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the books have approved
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the synopsis has conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the synopsis is approving
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the synopses are conferring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the synopses are approving
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a high school reunited
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a high school swallowed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		high schools reunited
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		high schools swallowed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a parenthesis reunited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a parenthesis swallowed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		parentheses reunited
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		parentheses swallowed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the gal meets
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the gal writes
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the gals meet
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the gals write
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the louse meets
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the louse writes
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the lice meet
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the lice write
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a girl was debating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a girl was weeping
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		girls had debated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		girls had wept
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a goose had debated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a goose had wept
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		geese had debated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		geese were weeping
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the cafe was debating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the cafe had shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the scsasfses s were debating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the scsasfses s were shrugging
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the species had debated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the species had shrugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the species had debated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the species had shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a glass disagrees
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a glass waves
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		glasses disagree
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		glasses wave
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an axis disagrees
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an axis waves
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		axes disagree
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		axes wave
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a mall had hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a mall had studied
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		malls were hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		malls were studying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		an analysis was hugging
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		an analysis was studying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		analyses had hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		analyses had studied
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a grocery store argued
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a grocery store shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		grocery stores argued
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		grocery stores shrugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		an analysis argued
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		an analysis shrugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		analyses argued
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		analyses shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		this woman conspires
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		this woman compromises
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		these women conspire
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		these women compromise
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		this child conspires
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		this child compromises
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		these children conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		these children compromise
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the museum collaborated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the museum worried
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the museums collaborated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the museums worried
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the radius collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the radius worried
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the radii collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the radii worried
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a movie theater embraces
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a movie theater drinks
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		movie theaters embrace
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		movie theaters drink
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a foot embraces
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a foot drinks
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		feet embrace
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		feet drink
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a dish flirted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a dish cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		dishes flirted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		dishes cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		an analysis flirted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		an analysis cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		analyses flirted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		analyses cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the guy is competing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the guy is eating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the guys have competed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the guys are eating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the offspring is competing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the offspring has eaten
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the offspring are competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the offspring have eaten
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a scarf had disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a scarf was sighing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		scarves had disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		scarves had sighed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a crisis was disagreeing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a crisis was sighing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		crises had disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		crises had sighed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the patient assembles
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the patient sees
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the patients assemble
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the patients see
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the child assembles
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the child sees
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the children assemble
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the children see
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a scarf communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a scarf shouted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		scarves communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		scarves shouted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a crisis communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a crisis shouted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		crises communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		crises shouted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the human communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the human wrote
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the humen communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the humen wrote
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the man communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the man wrote
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the men communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the men wrote
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the school assembles
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the school washes
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the schools assemble
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the schools wash
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the synopsis assembles
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the synopsis washes
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the synopses assemble
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the synopses wash
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the doctor was meeting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the doctor was murmuring
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the doctors were meeting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the doctors were murmuring
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the goose had met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the goose was murmuring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the geese were meeting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the geese were murmuring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a couch had competed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a couch had screamed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		couches were competing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		couches were screaming
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a species had competed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a species had screamed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		species were competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		species had screamed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a car has divorced
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a car has shouted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		cars are divorcing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		cars are shouting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a basis has divorced
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a basis is shouting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		bases have divorced
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		bases are shouting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a man hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a man drank
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		men hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		men drank
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		an offspring hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		an offspring drank
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		offspring hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		offspring drank
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the pedestrian debates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the pedestrian cries
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the pedestrians debate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the pedestrians cry
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the mouse debates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the mouse cries
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the mice debate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the mice cry
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a movie theater has corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a movie theater is suffering
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		movie theaters are corresponding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		movie theaters are suffering
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a stimulus has corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a stimulus has suffered
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		stimuli are corresponding
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		stimuli have suffered
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a restaurant has interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a restaurant has wept
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		restaurants are interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		restaurants are weeping
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a crisis is interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a crisis is weeping
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		crises are interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		crises are weeping
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the college campus has hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the college campus has played
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the college campuss have hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the college campuss are playing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the stimulus is hugging
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the stimulus has played
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the stimuli have hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the stimuli are playing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a dress was assembling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a dress was playing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		dresses had assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		dresses were playing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a foot was assembling
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a foot had played
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		feet had assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		feet were playing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		that waitress interacts
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		that waitress smiles
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		those waitresses interact
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		those waitresses smile
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		that man interacts
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		that man smiles
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		those men interact
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		those men smile
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the movie divorces
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the movie talks
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the movies divorce
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the movies talk
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the hypothesis divorces
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the hypothesis talks
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the hypotheses divorce
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the hypotheses talk
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the boy was hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the boy was donating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the boys were hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the boys were donating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the woman was hugging
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the woman was donating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the women had hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the women had donated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the college campus is kissing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the college campus has cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the college campuss are kissing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the college campuss are cooperating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the means has kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the means has cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the means are kissing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the means have cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a story had conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a story was forfeiting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		stories had conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		stories were forfeiting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a parenthesis had conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a parenthesis had forfeited
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		parentheses were conferring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		parentheses had forfeited
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		some waitress fought
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		some waitress learnt
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		some waitresses fought
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		some waitresses learnt
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		some louse fought
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		some louse learnt
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		some lice fought
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		some lice learnt
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the scarf had disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the scarf was approving
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the scarves were disagreeing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the scarves were approving
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the tooth had disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the tooth had approved
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the teeth were disagreeing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the teeth were approving
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a hospital is competing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a hospital has practiced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		hospitals are competing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		hospitals are practicing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a crisis has competed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a crisis has practiced
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		crises are competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		crises are practicing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		some driver clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		some driver protested
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		some drivers clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		some drivers protested
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		some child clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		some child protested
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		some children clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		some children protested
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a cafe fights
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a cafe weeps
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		scsasfses s fight
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		scsasfses s weep
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a parenthesis fights
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a parenthesis weeps
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		parentheses fight
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		parentheses weep
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some hat is disagreeing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some hat is exercising
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some hats have disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some hats have exercised
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some medium has disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some medium is exercising
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some media are disagreeing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some media have exercised
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some cashier has hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some cashier has murmured
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some cashiers have hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some cashiers have murmured
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some louse has hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some louse is murmuring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some lice have hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some lice are murmuring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a actress argues
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a actress studies
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		actresses argue
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		actresses study
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a man argues
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a man studies
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		men argue
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		men study
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the customer corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the customer saluted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the customers corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the customers saluted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the goose corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the goose saluted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the geese corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the geese saluted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the cafe met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the cafe nodded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the scsasfses s met
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the scsasfses s nodded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the cactus met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the cactus nodded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the cacti met
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the cacti nodded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a face was competing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a face had profited
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		faces were competing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		faces had profited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a phenomenon had competed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a phenomenon was profiting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		phenomena were competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		phenomena were profiting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a patient clashes
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a patient talks
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		patients clash
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		patients talk
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an ox clashes
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an ox talks
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		oxen clash
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		oxen talk
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a student flirts
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a student mutters
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		students flirt
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		students mutter
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a child flirts
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a child mutters
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		children flirt
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		children mutter
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a play conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a play boasted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		plays conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		plays boasted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a basis conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a basis boasted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		bases conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		bases boasted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some brochure meets
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some brochure practices
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some brochures meet
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some brochures practice
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some axis meets
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some axis practices
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some axes meet
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some axes practice
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the essay clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the essay replied
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the essays clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the essays replied
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the stimulus clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the stimulus replied
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the stimuli clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the stimuli replied
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a library is competing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a library has performed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		libraries have competed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		libraries have performed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an axis is competing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an axis is performing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		axes are competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		axes are performing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the shirt kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the shirt chuckled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the shirts kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the shirts chuckled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the basis kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the basis chuckled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the bases kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the bases chuckled
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		some high school flirted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		some high school cried
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		some high schools flirted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		some high schools cried
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		some oasis flirted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		some oasis cried
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		some oases flirted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		some oases cried
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a gal was interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a gal had studied
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		gals had interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		gals were studying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a woman was interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a woman had studied
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		women had interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		women were studying
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some customer flirts
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some customer retaliates
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some customers flirt
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some customers retaliate
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some goose flirts
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some goose retaliates
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some geese flirt
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some geese retaliate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a car conspires
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a car lies
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		cars conspire
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		cars lie
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a hypothesis conspires
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a hypothesis lies
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		hypotheses conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		hypotheses lie
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the boy argued
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the boy testified
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the boys argued
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the boys testified
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the louse argued
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the louse testified
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the lice argued
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the lice testified
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		this brochure is competing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		this brochure has changed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		these brochures are competing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		these brochures are changing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		this radius is competing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		this radius is changing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		these radii are competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		these radii are changing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a school clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a school washed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		schools clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		schools washed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a paralysis clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a paralysis washed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		paralyses clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		paralyses washed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the essay has collaborated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the essay is replying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the essays are collaborating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the essays have replied
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the analysis is collaborating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the analysis has replied
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the analyses have collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the analyses have replied
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the dish had corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the dish had responded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the dishes were corresponding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the dishes were responding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the basis had corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the basis had responded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the bases had corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the bases were responding
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the face flirts
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the face litters
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the faces flirt
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the faces litter
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the cactus flirts
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the cactus litters
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the cacti flirt
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the cacti litter
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the face has met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the face is cooking
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the faces are meeting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the faces are cooking
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the diagnosis has met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the diagnosis is cooking
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the diagnoses are meeting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the diagnoses have cooked
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the report was dating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the report had lied
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the reports had dated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the reports were lying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the paralysis was dating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the paralysis had lied
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the paralyses had dated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the paralyses had lied
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the grocery store was kissing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the grocery store was chuckling
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the grocery stores had kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the grocery stores had chuckled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the crisis had kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the crisis was chuckling
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the crises were kissing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the crises were chuckling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the rug is flirting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the rug has cooked
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the rugs have flirted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the rugs have cooked
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the fungus is flirting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the fungus has cooked
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the fungi are flirting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the fungi have cooked
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a scarf has clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a scarf has laughed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		scarves are clashing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		scarves have laughed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a nucleus is clashing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a nucleus has laughed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		nuclei are clashing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		nuclei have laughed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		that book met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		that book nodded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		those books met
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		those books nodded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		that analysis met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		that analysis nodded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		those analyses met
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		those analyses nodded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a pedestrian is dating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a pedestrian has learnt
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		pedestrians are dating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		pedestrians have learnt
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an ox has dated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an ox is learning
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		oxen are dating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		oxen are learning
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the dress was divorcing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the dress had nodded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the dresses had divorced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the dresses had nodded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the crisis had divorced
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the crisis was nodding
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the crises had divorced
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the crises had nodded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a hat has married
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a hat has responded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		hats are marrying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		hats are responding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a nucleus is marrying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a nucleus has responded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		nuclei have married
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		nuclei have responded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a cup communicates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a cup cries
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		cups communicate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		cups cry
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an oasis communicates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an oasis cries
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		oases communicate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		oases cry
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the hospital meets
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the hospital drinks
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the hospitals meet
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the hospitals drink
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the paralysis meets
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the paralysis drinks
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the paralyses meet
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the paralyses drink
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the customer dates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the customer wins
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the customers date
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the customers win
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the louse dates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the louse wins
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the lice date
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the lice win
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a guy has dated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a guy is seeing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		guys are dating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		guys have seen
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a child has dated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a child has seen
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		children have dated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		children have seen
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the college campus is interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the college campus has suffered
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the college campuss have interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the college campuss have suffered
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the stimulus is interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the stimulus is suffering
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the stimuli have interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the stimuli are suffering
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the story is chatting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the story is lying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the stories have chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the stories have lied
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the phenomenon is chatting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the phenomenon has lied
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the phenomena have chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the phenomena have lied
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the pamphlet had met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the pamphlet had eaten
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the pamphlets were meeting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the pamphlets had eaten
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the cactus was meeting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the cactus had eaten
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the cacti were meeting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the cacti had eaten
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the restaurant is interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the restaurant is talking
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the restaurants have interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the restaurants are talking
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the foot is interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the foot is talking
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the feet have interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the feet are talking
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the face has corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the face has reacted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the faces are corresponding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the faces are reacting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the synthesis is corresponding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the synthesis has reacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the syntheses have corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the syntheses have reacted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		some car had argued
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		some car had written
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		some cars were arguing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		some cars were writing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		some nucleus was arguing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		some nucleus was writing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		some nuclei had argued
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		some nuclei were writing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a library corresponds
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a library responds
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		libraries correspond
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		libraries respond
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a medium corresponds
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a medium responds
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		media correspond
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		media respond
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a pamphlet was conspiring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a pamphlet was grinning
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		pamphlets had conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		pamphlets had grinned
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a nucleus had conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a nucleus was grinning
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		nuclei had conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		nuclei had grinned
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a essay had collaborated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a essay had shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		essays were collaborating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		essays were shrugging
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a foot had collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a foot was shrugging
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		feet were collaborating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		feet had shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the face was assembling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the face had eaten
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the faces had assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the faces had eaten
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the synthesis had assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the synthesis had eaten
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the syntheses were assembling
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the syntheses were eating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a actress had chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a actress was scratching
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		actresses were chatting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		actresses had scratched
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a mouse had chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a mouse had scratched
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		mice were chatting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		mice had scratched
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a cup argued
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a cup wrote
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		cups argued
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		cups wrote
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a phenomenon argued
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a phenomenon wrote
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		phenomena argued
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		phenomena wrote
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a library communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a library talked
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		libraries communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		libraries talked
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a series communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a series talked
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		series communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		series talked
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a shirt is conspiring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a shirt has exercised
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		shirts have conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		shirts are exercising
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a radius is conspiring
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a radius has exercised
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		radii have conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		radii are exercising
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		some commentary had collaborated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		some commentary was chuckling
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		some commentaries had collaborated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		some commentaries had chuckled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		some hypothesis had collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		some hypothesis had chuckled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		some hypotheses were collaborating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		some hypotheses were chuckling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a waiter embraces
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a waiter cooks
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		waiters embrace
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		waiters cook
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an offspring embraces
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an offspring cooks
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		offspring embrace
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		offspring cook
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the public park collaborated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the public park wept
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the public parks collaborated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the public parks wept
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the means collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the means wept
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the means collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the means wept
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		that doctor has interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		that doctor is telephoning
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		those doctors are interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		those doctors have telephoned
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		that goose is interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		that goose has telephoned
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		those geese are interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		those geese have telephoned
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a cafe was dating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a cafe was succeeding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		scsasfses s were dating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		scsasfses s had succeeded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a synthesis was dating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a synthesis was succeeding
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		syntheses had dated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		syntheses were succeeding
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the grocery store is chatting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the grocery store is cooperating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the grocery stores are chatting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the grocery stores have cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the radius is chatting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the radius is cooperating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the radii are chatting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the radii are cooperating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the customer was reuniting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the customer had lied
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the customers had reunited
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the customers were lying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the louse was reuniting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the louse was lying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the lice had reunited
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the lice had lied
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		that boy interacts
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		that boy grins
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		those boys interact
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		those boys grin
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		that woman interacts
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		that woman grins
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		those women interact
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		those women grin
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the grocery store chats
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the grocery store salutes
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the grocery stores chat
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the grocery stores salute
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the nucleus chats
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the nucleus salutes
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the nuclei chat
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the nuclei salute
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the woman was conspiring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the woman had smiled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the women had conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the women were smiling
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the child was conspiring
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the child had smiled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the children were conspiring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the children were smiling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the newspaper article was marrying
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the newspaper article had read
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the newspaper articles were marrying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the newspaper articles had read
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the paralysis was marrying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the paralysis had read
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the paralyses were marrying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the paralyses had read
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		this movie had clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		this movie was compromising
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		these movies were clashing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		these movies were compromising
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		this fungus had clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		this fungus had compromised
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		these fungi had clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		these fungi were compromising
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the couch hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the couch protested
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the couches hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the couches protested
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the stimulus hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the stimulus protested
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the stimuli hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the stimuli protested
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		that school had met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		that school was exercising
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		those schools were meeting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		those schools had exercised
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		that hypothesis had met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		that hypothesis was exercising
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		those hypotheses were meeting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		those hypotheses had exercised
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the movie theater divorces
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the movie theater cheers
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the movie theaters divorce
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the movie theaters cheer
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the diagnosis divorces
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the diagnosis cheers
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the diagnoses divorce
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the diagnoses cheer
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some cafe conspires
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some cafe negotiates
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some scsasfses s conspire
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some scsasfses s negotiate
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some fungus conspires
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some fungus negotiates
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some fungi conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some fungi negotiate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a newspaper article had hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a newspaper article had learnt
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		newspaper articles had hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		newspaper articles had learnt
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a species had hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a species had learnt
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		species were hugging
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		species were learning
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a guy is flirting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a guy is writing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		guys have flirted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		guys are writing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a mouse is flirting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a mouse is writing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		mice have flirted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		mice are writing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a chair was chatting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a chair had sighed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		chairs were chatting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		chairs were sighing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a synthesis had chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a synthesis had sighed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		syntheses had chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		syntheses had sighed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a play is kissing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a play is yelling
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		plays are kissing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		plays are yelling
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a series has kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a series is yelling
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		series have kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		series are yelling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the story was clashing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the story had compromised
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the stories had clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the stories had compromised
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the phenomenon was clashing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the phenomenon was compromising
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the phenomena were clashing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the phenomena had compromised
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a driver competes
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a driver grins
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		drivers compete
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		drivers grin
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a louse competes
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a louse grins
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		lice compete
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		lice grin
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the driver chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the driver responded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the drivers chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the drivers responded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the goose chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the goose responded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the geese chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the geese responded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		this dress marries
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		this dress mutters
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		these dresses marry
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		these dresses mutter
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		this species marries
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		this species mutters
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		these species marry
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		these species mutter
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the documentary flirted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the documentary practiced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the documentaries flirted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the documentaries practiced
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the foot flirted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the foot practiced
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the feet flirted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the feet practiced
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a couch divorces
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a couch smiles
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		couches divorce
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		couches smile
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a foot divorces
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a foot smiles
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		feet divorce
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		feet smile
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a essay kisses
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a essay donates
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		essays kiss
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		essays donate
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an axis kisses
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an axis donates
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		axes kiss
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		axes donate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a skirt had hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a skirt was laughing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		skirts were hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		skirts had laughed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a hypothesis had hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a hypothesis had laughed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		hypotheses were hugging
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		hypotheses were laughing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the bank disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the bank complained
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the banks disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the banks complained
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the radius disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the radius complained
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the radii disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the radii complained
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a public park is flirting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a public park is scratching
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		public parks are flirting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		public parks have scratched
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a cactus is flirting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a cactus is scratching
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		cacti have flirted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		cacti are scratching
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a glass marries
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a glass cries
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		glasses marry
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		glasses cry
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a hypothesis marries
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a hypothesis cries
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		hypotheses marry
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		hypotheses cry
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a dress is embracing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a dress has chuckled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		dresses have embraced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		dresses have chuckled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a tooth is embracing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a tooth has chuckled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		teeth have embraced
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		teeth have chuckled
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the man was conferring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the man had cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the men had conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the men had cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the child had conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the child was cooperating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the children were conferring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the children had cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a chair was marrying
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a chair was cooperating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		chairs were marrying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		chairs were cooperating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a foot had married
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a foot was cooperating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		feet were marrying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		feet were cooperating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the art gallery kisses
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the art gallery boasts
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the art galleries kiss
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the art galleries boast
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the means kisses
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the means boasts
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the means kiss
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the means boast
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the couch is arguing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the couch has written
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the couches are arguing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the couches have written
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the thesis has argued
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the thesis is writing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the theses are arguing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the theses are writing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		this plate was embracing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		this plate had practiced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		these plates had embraced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		these plates were practicing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		this radius was embracing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		this radius was practicing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		these radii had embraced
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		these radii had practiced
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the hospital is assembling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the hospital is scratching
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the hospitals are assembling
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the hospitals have scratched
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the cactus has assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the cactus has scratched
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the cacti have assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the cacti have scratched
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the waitress communicates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the waitress wins
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the waitresses communicate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the waitresses win
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the ox communicates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the ox wins
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the oxen communicate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the oxen win
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the car hugs
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the car washes
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the cars hug
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the cars wash
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the oasis hugs
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the oasis washes
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the oases hug
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the oases wash
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		that driver kisses
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		that driver studies
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		those drivers kiss
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		those drivers study
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		that louse kisses
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		that louse studies
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		those lice kiss
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		those lice study
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a cafe was kissing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a cafe was complaining
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		scsasfses s had kissed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		scsasfses s were complaining
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a synthesis was kissing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a synthesis was complaining
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		syntheses had kissed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		syntheses were complaining
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the scarf has fought
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the scarf has blinked
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the scarves are fighting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the scarves are blinking
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the stimulus is fighting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the stimulus has blinked
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the stimuli have fought
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the stimuli are blinking
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a lady married
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a lady died
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		ladies married
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		ladies died
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		an offspring married
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		an offspring died
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		offspring married
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		offspring died
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the nose has dated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the nose is murmuring
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the noses are dating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the noses have murmured
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the axis has dated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the axis has murmured
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the axes are dating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the axes are murmuring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the chair assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the chair saluted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the chairs assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the chairs saluted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the series assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the series saluted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the series assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the series saluted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a human conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a human protested
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		humen conferred
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		humen protested
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a man conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a man protested
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		men conferred
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		men protested
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the story fought
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the story shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the stories fought
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the stories shrugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the cactus fought
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the cactus shrugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the cacti fought
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the cacti shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the waiter was hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the waiter had testified
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the waiters had hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the waiters were testifying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the woman had hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the woman had testified
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the women were hugging
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the women had testified
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a hair is arguing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a hair is cooperating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		hairs have argued
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		hairs are cooperating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a species is arguing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a species has cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		species are arguing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		species have cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the rug had chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the rug was forfeiting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the rugs had chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the rugs had forfeited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the oasis had chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the oasis was forfeiting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the oases had chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the oases were forfeiting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a restaurant is hugging
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a restaurant is responding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		restaurants have hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		restaurants are responding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an ellipsis is hugging
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an ellipsis has responded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		ellipses have hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		ellipses have responded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some hair is collaborating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some hair is practicing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some hairs have collaborated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some hairs have practiced
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some species has collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some species is practicing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some species have collaborated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some species are practicing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a art gallery was assembling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a art gallery was replying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		art galleries were assembling
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		art galleries had replied
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a hypothesis had assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a hypothesis had replied
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		hypotheses had assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		hypotheses were replying
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the essay communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the essay testified
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the essays communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the essays testified
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the basis communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the basis testified
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the bases communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the bases testified
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a newspaper article was embracing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a newspaper article had exercised
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		newspaper articles had embraced
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		newspaper articles were exercising
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a synthesis was embracing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a synthesis was exercising
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		syntheses were embracing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		syntheses were exercising
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a movie is chatting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a movie has complained
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		movies have chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		movies have complained
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a phenomenon is chatting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a phenomenon is complaining
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		phenomena have chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		phenomena have complained
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the person was competing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the person had screamed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the people had competed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the people were screaming
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the offspring had competed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the offspring was screaming
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the offspring were competing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the offspring had screamed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a guest is interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a guest is cheering
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		guests are interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		guests are cheering
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an offspring is interacting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an offspring has cheered
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		offspring have interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		offspring are cheering
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a cashier has communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a cashier is reading
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		cashiers have communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		cashiers have read
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a woman is communicating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a woman is reading
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		women are communicating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		women are reading
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some woman confers
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some woman suffers
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some women confer
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some women suffer
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some louse confers
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some louse suffers
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some lice confer
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some lice suffer
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the girl had clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the girl had shouted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the girls had clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the girls had shouted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the mouse was clashing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the mouse had shouted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the mice had clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the mice had shouted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a doctor was chatting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a doctor was worrying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		doctors had chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		doctors had worried
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a man had chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a man was worrying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		men had chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		men were worrying
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a teenager is clashing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a teenager is playing
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		teenagers have clashed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		teenagers are playing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a child has clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a child has played
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		children have clashed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		children are playing
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the school competed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the school murmured
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the schools competed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the schools murmured
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the cactus competed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the cactus murmured
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the cacti competed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the cacti murmured
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a person corresponds
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a person concurs
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		people correspond
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		people concur
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a mouse corresponds
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a mouse concurs
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		mice correspond
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		mice concur
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the book has communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the book has protested
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the books are communicating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the books are protesting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the ellipsis is communicating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the ellipsis has protested
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the ellipses are communicating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the ellipses are protesting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some hospital is corresponding
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some hospital has scratched
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some hospitals have corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some hospitals are scratching
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some crisis is corresponding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some crisis has scratched
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some crises have corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some crises have scratched
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a waiter flirts
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a waiter exercises
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		waiters flirt
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		waiters exercise
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an ox flirts
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an ox exercises
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		oxen flirt
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		oxen exercise
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a teacher collaborates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a teacher boasts
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		teachers collaborate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		teachers boast
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a louse collaborates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a louse boasts
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		lice collaborate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		lice boast
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a customer conspires
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a customer concurs
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		customers conspire
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		customers concur
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a goose conspires
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a goose concurs
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		geese conspire
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		geese concur
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the school was interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the school was learning
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the schools had interacted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the schools had learnt
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the thesis had interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the thesis had learnt
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the theses had interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the theses were learning
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the brochure was flirting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the brochure had approved
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the brochures had flirted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the brochures had approved
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the hypothesis was flirting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the hypothesis was approving
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the hypotheses had flirted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the hypotheses had approved
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a hat had debated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a hat had cried
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		hats had debated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		hats had cried
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a species was debating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a species was crying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		species had debated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		species had cried
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the public park hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the public park cried
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the public parks hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the public parks cried
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the fungus hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the fungus cried
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the fungi hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the fungi cried
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the actress was assembling
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the actress had cheered
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the actresses had assembled
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the actresses were cheering
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the alumnus was assembling
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the alumnus had cheered
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the alumni had assembled
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the alumni were cheering
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the woman kisses
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the woman eats
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the women kiss
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the women eat
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the alumnus kisses
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the alumnus eats
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the alumni kiss
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the alumni eat
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the library competes
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the library testifies
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the libraries compete
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the libraries testify
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the series competes
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the series testifies
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the series compete
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the series testify
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		some child had conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		some child had worried
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		some children were conspiring
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		some children were worrying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		some woman was conspiring
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		some woman was worrying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		some women were conspiring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		some women had worried
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the driver married
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the driver painted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the drivers married
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the drivers painted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the woman married
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the woman painted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the women married
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the women painted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the plate had married
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the plate was succeeding
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the plates were marrying
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the plates were succeeding
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the crisis was marrying
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the crisis had succeeded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the crises were marrying
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the crises had succeeded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a library had dated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a library was eating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		libraries were dating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		libraries had eaten
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a cactus was dating
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a cactus was eating
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		cacti had dated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		cacti had eaten
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the library disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the library sanged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the libraries disagreed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the libraries sanged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the foot disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the foot sanged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the feet disagreed
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the feet sanged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a story marries
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a story shouts
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		stories marry
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		stories shout
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a synopsis marries
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a synopsis shouts
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		synopses marry
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		synopses shout
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a movie hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a movie telephoned
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		movies hugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		movies telephoned
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a diagnosis hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a diagnosis telephoned
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		diagnoses hugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		diagnoses telephoned
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the high school is debating
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the high school has exercised
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the high schools are debating
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the high schools are exercising
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the paralysis has debated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the paralysis is exercising
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the paralyses have debated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the paralyses have exercised
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the art gallery is interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the art gallery is benefiting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the art galleries are interacting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the art galleries are benefiting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the crisis has interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the crisis has benefited
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the crises have interacted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the crises have benefited
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the book is conferring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the book has swallowed
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the books are conferring
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the books are swallowing
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the foot is conferring
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the foot is swallowing
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the feet are conferring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the feet have swallowed
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a gal communicates
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a gal worries
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		gals communicate
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		gals worry
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an alumnus communicates
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an alumnus worries
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		alumni communicate
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		alumni worry
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the car dated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the car cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the cars dated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the cars cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the analysis dated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the analysis cooperated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the analyses dated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the analyses cooperated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		the waiter corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		the waiter surrendered
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		the waiters corresponded
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		the waiters surrendered
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		the alumnus corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		the alumnus surrendered
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		the alumni corresponded
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		the alumni surrendered
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a pamphlet communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a pamphlet shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		pamphlets communicated
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		pamphlets shrugged
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		a radius communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		a radius shrugged
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		radii communicated
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		radii shrugged
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the grocery store confers
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the grocery store worries
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the grocery stores confer
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the grocery stores worry
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the ellipsis confers
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the ellipsis worries
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the ellipses confer
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the ellipses worry
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the story has conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the story is weeping
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the stories have conspired
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the stories have wept
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the nucleus is conspiring
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the nucleus has wept
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the nuclei have conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the nuclei are weeping
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		some lady reunites
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		some lady negotiates
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		some ladies reunite
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		some ladies negotiate
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		some offspring reunites
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		some offspring negotiates
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		some offspring reunite
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		some offspring negotiate
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a bank has met
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a bank is boasting
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		banks have met
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		banks have boasted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		a synthesis has met
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		a synthesis has boasted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		syntheses have met
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		syntheses are boasting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		the college campus clashes
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		the college campus shouts
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		the college campuss clash
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		the college campuss shout
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		the stimulus clashes
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		the stimulus shouts
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		the stimuli clash
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		the stimuli shout
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		this actor chats
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		this actor reads
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		these actors chat
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		these actors read
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		this child chats
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		this child reads
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		these children chat
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		these children read
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		some dish was conspiring
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		some dish had forfeited
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		some dishes were conspiring
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		some dishes were forfeiting
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		some hypothesis had conspired
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		some hypothesis was forfeiting
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		some hypotheses were conspiring
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		some hypotheses were forfeiting
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=true	0		a art gallery clashes
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=true	1		a art gallery scratches
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=true	1		art galleries clash
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=true	1		art galleries scratch
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=true	0		an axis clashes
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=true	1		an axis scratches
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=true	1		axes clash
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=true	1		axes scratch
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=1_present=false	0		a glass chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=1_coll=0_present=false	1		a glass forfeited
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=1_present=false	1		glasses chatted
+experiment=plurals_env=collective_predicates_reg=1_sg=0_coll=0_present=false	1		glasses forfeited
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=1_present=false	0		an oasis chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=1_coll=0_present=false	1		an oasis forfeited
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=1_present=false	1		oases chatted
+experiment=plurals_env=collective_predicates_reg=0_sg=0_coll=0_present=false	1		oases forfeited
