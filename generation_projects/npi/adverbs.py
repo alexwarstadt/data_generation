@@ -1,4 +1,4 @@
-# Authors: Anna Alsop
+# Authors: Anna Alsop (based on Alex Warstadt's quantifier.py)
 # Script for generating NPI sentences with adverbs as licensors
 
 from utils.conjugate import *
@@ -15,7 +15,7 @@ output = open(os.path.join(project_root, rel_output_path), "w")
 # generate sentences for "ever"
 
 # set total number of paradigms to generate
-number_to_generate = 100
+number_to_generate = 50
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -41,6 +41,14 @@ all_embedding_verbs = get_all_conjunctive([("category_2","V_embedding"),("finite
 all_nouns = get_all("category", "N")
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 
+# gather NPI replacements
+any_replacements = np.append(get_all("expression", "the"),
+                                 np.append(get_all("expression", "these"),
+                                 np.append(get_all("expression", "those"),
+                                 np.append(get_all("expression", "this"), get_all("expression", "that")))))
+ever_replacements = np.array(["often", "also", "fortunately", "certainly", "clearly"])
+adverb_npi_replacements = np.array(["regularly", "on weekends", "on occasion", "for a while", "as well"])
+
 # sample sentences until desired number
 while len(sentences) < number_to_generate:
     # sentence template
@@ -52,6 +60,7 @@ while len(sentences) < number_to_generate:
     D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
     Adv_freq = choice(all_freq_adverbs)
     Adv_nonfreq = choice(all_nonfreq_adverbs)
+    NPI_replacement = choice(ever_replacements)
     V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
     Aux1 = return_aux(V1, N1, allow_negated=False)
     N2 = choice(all_animate_nouns)
@@ -89,15 +98,15 @@ while len(sentences) < number_to_generate:
 
     # build sentences with frequent adverb
     sentence_1 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_2 = "%s %s %s %s also %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0],  V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_2 = "%s %s %s %s %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], NPI_replacement, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
     sentence_3 = "%s %s %s %s %s that %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0],  V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_4 = "%s %s %s %s %s that %s %s %s also %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0],  V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_4 = "%s %s %s %s %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0],  V1_final, D2[0], N2[0], Aux2_final, NPI_replacement, V2_final, D3[0], N3[0])
 
     # build sentences with nonfrequent adverb
     sentence_5 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_6 = "%s %s %s %s also %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_6 = "%s %s %s %s %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], NPI_replacement, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
     sentence_7 = "%s %s %s %s %s that %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_8 = "%s %s %s %s %s that %s %s %s also %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_8 = "%s %s %s %s %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0], N2[0], Aux2_final, NPI_replacement, V2_final, D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)
