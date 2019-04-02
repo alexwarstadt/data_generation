@@ -8,7 +8,7 @@ import os
 
 vocab_path = os.path.join("/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1]), "vocabulary.csv")
 vocab = np.genfromtxt(vocab_path, delimiter=",", names=True, dtype=data_type, encoding="latin1")
-#decode TODO: make this not a hack
+# decode TODO: make this not a hack
 for entry in vocab:
     entry[0] = re.sub("!", "'", entry[0])
 
@@ -24,7 +24,7 @@ def get_all(label, value, table=vocab):
     """
     # TODO: this should not be based on string equality, but disjunction matching
     # return np.array(list(filter(lambda x: condition_is_match_disj(value, x[label]), table)), dtype=data_type)
-    return np.array(list(filter(lambda x: x[label] == value, table)), dtype=data_type)
+    return np.array(list(filter(lambda x: x[label] == value, table)), dtype=table.dtype)
 
 def get_all_conjunctive(labels_values, table=vocab):
     """
@@ -33,7 +33,7 @@ def get_all_conjunctive(labels_values, table=vocab):
     """
     to_return = table
     for label, value in labels_values:
-        to_return = np.array(list(filter(lambda x: x[label] == value, to_return)), dtype=data_type)
+        to_return = np.array(list(filter(lambda x: x[label] == value, to_return)), dtype=table.dtype)
     return to_return
 
 
@@ -44,7 +44,7 @@ def get_matches_of(row, label, table=vocab):
     :param table: ndarray of vocab items.
     :return: all entries in table that match the selectional restrictions of row as given in label.
     """
-    value = str(np.array(row, dtype=data_type)[label])
+    value = str(np.array(row, dtype=table.dtype)[label])
     if value == "":
         pass
     else:
@@ -53,7 +53,7 @@ def get_matches_of(row, label, table=vocab):
         for disjunct in values:
             k_vs = conj_list(disjunct)
             matches.extend(list(get_all_conjunctive(k_vs, table)))
-        return np.array(matches, dtype=data_type)
+        return np.array(matches, dtype=table.dtype)
 
 
 def get_matches_of_conj(rows_labels, table=vocab):
@@ -64,11 +64,11 @@ def get_matches_of_conj(rows_labels, table=vocab):
     """
     to_return = table
     for row, label in rows_labels:
-        value = str(np.array(row, dtype=data_type)[label])
+        value = str(np.array(row, dtype=table.dtype)[label])
         if value == "":
             pass
         else:
-            to_return = np.array(list(filter(lambda x: is_match_disj(x, value), to_return)), dtype=data_type)
+            to_return = np.array(list(filter(lambda x: is_match_disj(x, value), to_return)), dtype=table.dtype)
     return to_return
 
 
@@ -81,7 +81,7 @@ def get_matched_by(row, label, table=vocab):
     """
     matches = []
     for entry in table:
-        value = str(np.array(entry, dtype=data_type)[label])
+        value = str(np.array(entry, dtype=table.dtype)[label])
         if is_match_disj(row, value):
             matches.append(entry)
     return np.array(matches)

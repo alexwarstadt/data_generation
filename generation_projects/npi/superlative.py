@@ -95,16 +95,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have frequent adverb
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
 
         # sentences 5-8 have nonfrequent adverb
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=1-scope=1-npi_present=1" % Adj[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=1-scope=1-npi_present=0" % Adj[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=1-scope=0-npi_present=1" % Adj[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=1-scope=0-npi_present=0" % Adj[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=1-scope=1-npi_present=1" % Adj[0], 1, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=1-scope=1-npi_present=0" % Adj[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=1-scope=0-npi_present=1" % Adj[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=1-scope=0-npi_present=0" % Adj[0], 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
