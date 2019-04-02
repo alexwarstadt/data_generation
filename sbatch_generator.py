@@ -54,9 +54,9 @@ if __name__ == '__main__':
         os.mkdir(experiment_dir)
     if args.grid_search:
         i = 0
-        for lr in [0.0005, 0.0003, 0.0002, 0.0001, 0.00008]:
-            for batch_size in [16, 32]:
-                for max_epochs in [3, 4, 10]:
+        for lr in [0.00003, 0.00002, 0.00001]:
+            for batch_size in [16]:
+                for max_epochs in [4, 5, 10]:
                     slurm_file = os.path.join(experiment_dir, "run_%d.sbatch" % i)
                     out_file = open(slurm_file, "w")
                     out_file.write(header)

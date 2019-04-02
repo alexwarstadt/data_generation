@@ -1,3 +1,6 @@
+# Author: Alex Warstadt
+# Script for parsing the metadata column in generated datasets
+
 import numpy as np
 from utils.vocab_table import *
 import os
@@ -18,7 +21,7 @@ def read_data_tsv(data_file_path):
     line0 = peek_line(data_file)
     metadata = line0.split("\t")[0].split("-")
     keys = [kv.split("=")[0] for kv in metadata]
-    data_type = [(k, "U100") for k in keys] + [("judgment", "U1"), ("sentence", "U10000"), ("original_metadata", "U10000")]
+    data_type = [(k, "U100") for k in keys] + [("judgment", "i1"), ("sentence", "U10000"), ("original_metadata", "U10000")]
     data_table = []
     for line in data_file:
         columns = line.split("\t")
@@ -31,6 +34,11 @@ def read_data_tsv(data_file_path):
 
 
 def make_subsets(in_domain_size):
+    """
+    Function that makes datasets for all subsets of the environments, of a certain size
+    :param in_domain_size: number of environments to be in-domain
+    :return: none. writes to output
+    """
 
     large_table = []
     npi_path = "../outputs/npi/"
@@ -40,7 +48,7 @@ def make_subsets(in_domain_size):
 
     stack = np.concatenate(large_table)
     environments = set(stack["env"])
-    output_dir = "../outputs/npi/subsets"
+    output_dir = "../outputs/npi/subsets_6"
     subsets = list(itertools.combinations(environments, in_domain_size))
     for in_domain in subsets:
         out_domain = np.setdiff1d(list(environments), in_domain)
@@ -66,11 +74,7 @@ def make_subsets(in_domain_size):
                 test_counter += 1
 
 
+# make_subsets(6)
 
-    pass
-
-make_subsets(4)
-
-pass
 
 
