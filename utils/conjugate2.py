@@ -9,7 +9,7 @@ import pattern.en
 # Pattern for Python. Journal of Machine Learning Research, 13: 2031–2035.
 # https://www.clips.uantwerpen.be/pattern
 
-def conjugate2(verb, subj, aux=2, t=3, m="INDICATIVE",neg=0): # TODO: Does not work with the verbs that are coded with prepositions.
+def conjugate_broken(verb, subj, aux=2, t=3, m="INDICATIVE",neg=0): # TODO: Does not work with the verbs that are coded with prepositions.
     """
     :param verb: vocab entry
     :param subj: vocab entry
@@ -19,7 +19,7 @@ def conjugate2(verb, subj, aux=2, t=3, m="INDICATIVE",neg=0): # TODO: Does not w
     :return: none, side effects only. Modifies string of verb to be inflected for tense/aspect (includes the auxiliary in the string)
     # TODO: Adverbs?
     """
-    auxiliaries = ["have", "be"] # perfect, imperfective
+    auxiliaries = ["have", "be", "will"] # perfect, imperfective, future
     tenses = ["present", "past"]
     the_person = 3
     if subj["pl"] == 1 or subj["pl"] == "1": # TODO Workaround for a bug where this is sometimes int and sometimes str?
@@ -71,8 +71,8 @@ def conjugate2(verb, subj, aux=2, t=3, m="INDICATIVE",neg=0): # TODO: Does not w
 
 
 # Debug / Test
-# for i in range (0,150):
-#     subject = choice(get_all("category", "N"))
-#     someverb = choice(get_all("category", "(S\\NP)/NP"))
-#     conjugate2(someverb, subject)
-#     print(subject[0] + " " + someverb[0])
+for i in range (0,150):
+    subject = choice(get_all("category", "N"))
+    someverb = choice(get_all("category", "(S\\NP)/NP"))
+    conjugate_broken(someverb, subject, neg=2)
+    print(subject[0] + " " + someverb[0])
