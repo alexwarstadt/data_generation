@@ -114,10 +114,10 @@ def extract_pairs(src, config, args):
 
 # output format
 # acceptability_minimal_pairs.tsv
-# column0: label, whether the first sentence is acceptable
+# column0: src, source tsv file of each pair
 # column1: sent1, first sentence in each pair 
 # column2: sent2, second sentence in each pair
-# column3: src, source tsv file of each pair
+# column3: label, whether the first sentence is acceptable
 # note that, every pair is made of one positive and one negative sentence
 
 def main(arguments):
