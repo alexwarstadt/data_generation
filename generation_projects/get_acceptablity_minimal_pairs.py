@@ -17,13 +17,42 @@ from pytorch_pretrained_bert import BertTokenizer, OpenAIGPTTokenizer
 # sent_id: column index of sentence text
 # units: maximum number of units of sentence pairs to extract from this tsv
 data_config = OrderedDict()
+# add 7 NPI datasets
 for key in ['adverbs', 'conditionals', 'negation', 'only', \
     'quantifiers', 'questions', 'superlative']:
     data_config['NPI-%s' % key] = {
         'file': os.path.join('npi', 'environment=%s.tsv' % key),
         'label_id': 1,
         'sent_id': 3,
-        'units': 0.15}
+        'units': 0.5}
+# add 1 plurals dataset
+data_config['plurals'] = {
+    'file': os.path.join('plurals', 'environment=collectivepredicates.tsv'),
+    'label_id': 1,
+    'sent_id': 3,
+    'units': 1}
+# add 1 long_distance dataset
+data_config['long_distance'] = {
+    'file': os.path.join('long_distance/aux_agreement', 'dev.tsv'),
+    'label_id': 1,
+    'sent_id': 3,
+    'units': 1}
+# add 3 qp_structure_dependence datasets
+data_config['npi_scope'] = {
+    'file': os.path.join('alexs_qp_structure_dependence/npi_scope/10k/CoLA', 'dev.tsv'),
+    'label_id': 1,
+    'sent_id': 3,
+    'units': 1}
+data_config['npi_scope'] = {
+    'file': os.path.join('alexs_qp_structure_dependence/polar_q/10k', 'dev.tsv'),
+    'label_id': 1,
+    'sent_id': 3,
+    'units': 1}
+data_config['reflexive'] = {
+    'file': os.path.join('alexs_qp_structure_dependence/reflexive/10k/CoLA', 'dev.tsv'),
+    'label_id': 1,
+    'sent_id': 3,
+    'units': 1}
 
 
 gpt_tokenizer = OpenAIGPTTokenizer.from_pretrained('openai-gpt')
@@ -85,10 +114,10 @@ def extract_pairs(src, config, args):
 
 # output format
 # acceptability_minimal_pairs.tsv
-# column0: src, source tsv file of each pair
+# column0: label, whether the first sentence is acceptable
 # column1: sent1, first sentence in each pair 
 # column2: sent2, second sentence in each pair
-# column3: label, whether the first sentence is acceptable
+# column3: src, source tsv file of each pair
 # note that, every pair is made of one positive and one negative sentence
 
 def main(arguments):
