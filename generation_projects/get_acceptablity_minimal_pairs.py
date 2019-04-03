@@ -43,7 +43,7 @@ data_config['npi_scope'] = {
     'label_id': 1,
     'sent_id': 3,
     'units': 1}
-data_config['npi_scope'] = {
+data_config['polar_q'] = {
     'file': os.path.join('alexs_qp_structure_dependence/polar_q/10k', 'dev.tsv'),
     'label_id': 1,
     'sent_id': 3,
@@ -56,7 +56,7 @@ data_config['reflexive'] = {
 
 
 gpt_tokenizer = OpenAIGPTTokenizer.from_pretrained('openai-gpt')
-bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=True)
 
 def diff(seq_0, seq_1):
     return len([0 for i, j in zip(seq_0, seq_1) if i != j]) == 1  
