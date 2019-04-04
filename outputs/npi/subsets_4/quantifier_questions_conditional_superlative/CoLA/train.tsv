@@ -1,0 +1,1040 @@
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some humans who have observed the people break many dishes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any humans who have observed the people break many dishes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any humans who have observed many people break the dishes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=1-npi_present=0	1		pedestrians who will help the guys had lifted many couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some woman who had observed many adults forgets the people .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every woman who had observed any adults forgets people .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every woman who had observed many adults forgets any people .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a lot of-licensor=0-scope=1-npi_present=0	1		a lot of teenagers who have talked to the waitresses resemble some reports .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all teenagers who have talked to waitresses resemble any reports .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all teenagers who have talked to waitresses resemble the reports .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every adult who drives to the banks is leaving high schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some man who are at the cafes breaks couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every man who are at the cafes breaks couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every man who are at many cafes breaks any couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=1-npi_present=1	0		cashiers who ran around any college campuses have seen more than three pants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=0-npi_present=0	1		cashiers who ran around some college campuses have seen the pants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every driver who kissed any drivers referenced many children .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every driver who kissed the drivers referenced many children .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every driver who kissed the drivers referenced the children .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some guest who kisses a lot of drivers was admiring the girls .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any ladies who dropped by the schools would criticize the teenagers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=1-npi_present=0	1		actors who fled from the public parks will kiss some guys .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all actors who fled from a lot of public parks will kiss any guys .
+experiment=NPI-env=quantifier-npi=any-crucial_item=more than three-licensor=0-scope=1-npi_present=0	1		more than three pedestrians who criticize the girls boycotted some hospitals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any pedestrians who criticize any girls boycotted some hospitals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any pedestrians who criticize the girls boycotted some hospitals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=many-licensor=0-scope=0-npi_present=1	0		many pedestrians who dislike a lot of grocery stores boycotted any movie theaters .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all pedestrians who dislike any grocery stores boycotted movie theaters .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all pedestrians who dislike the grocery stores boycotted movie theaters .
+experiment=NPI-env=quantifier-npi=any-crucial_item=more than three-licensor=0-scope=1-npi_present=1	0		more than three ladies who discussed any students are investigating some libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=more than three-licensor=0-scope=0-npi_present=0	1		more than three ladies who discussed the students are investigating the libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=an-licensor=0-scope=0-npi_present=0	1		an actress who was walking through a lot of schools had visited the grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every actress who was walking through the schools had visited some grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the waitress who was fleeing from any grocery stores investigates customers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every waitress who was fleeing from many grocery stores investigates any customers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=0-npi_present=0	1		the cashier who had skated around many high schools arrives at the movie theaters .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=1-npi_present=0	1		people who tour the grocery stores walk through some libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any people who tour any grocery stores walk through some libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any people who tour many grocery stores walk through the libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the pedestrians who did lift any reports had dropped by more than three libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any pedestrians who did lift the reports had dropped by more than three libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any pedestrians who did lift a lot of reports had dropped by the libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the waitress who had brought any shoes is escaping from a lot of hospitals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every waitress who had brought any shoes is escaping from a lot of hospitals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=more than three-licensor=0-scope=0-npi_present=0	1		more than three waiters who can observe a lot of cashiers could see the books .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any waiters who can observe a lot of cashiers could see any books .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some teacher who was cleaning any cups did explore a lot of libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some teacher who was cleaning more than three cups did explore any libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every teacher who was cleaning any cups did explore a lot of libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every teacher who was cleaning the cups did explore a lot of libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every boy who has hugged the gals remembered more than three guys .
+experiment=NPI-env=quantifier-npi=any-crucial_item=more than three-licensor=0-scope=0-npi_present=1	0		more than three teachers who are leaving a lot of banks return to any students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=more than three-licensor=0-scope=0-npi_present=0	1		more than three teachers who are leaving a lot of banks return to the students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all teachers who are leaving a lot of banks return to any students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all teachers who are leaving a lot of banks return to the students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=1-npi_present=0	1		a guy who lifted the forks might admire the customers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all children who had talked about any stories had talked to a lot of cashiers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some actor who did forget the newspaper articles had left hospitals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some actor who did forget more than three newspaper articles had left any hospitals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every actor who did forget more than three newspaper articles had left any hospitals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=0-npi_present=1	0		actresses who bike to some art galleries could tour any cafes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all actresses who bike to the art galleries could tour a lot of cafes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=many-licensor=0-scope=1-npi_present=1	0		many teachers who had known any pedestrians have escaped from some teenagers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=many-licensor=0-scope=1-npi_present=0	1		many teachers who had known the pedestrians have escaped from some teenagers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=0	1		the patient who has approached the guests insulted patients .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=0-npi_present=0	1		the patient who has approached guests insulted the patients .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every patient who has approached any guests insulted patients .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every patient who has approached the guests insulted patients .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every patient who has approached guests insulted any patients .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some ladies who would listen to any humans praised a lot of drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all ladies who would listen to any humans praised a lot of drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all ladies who would listen to the humans praised a lot of drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all ladies who would listen to more than three humans praised any drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the person who hates any waiters left some museums .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=0	1		the person who hates the waiters left some museums .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every person who hates any waiters left some museums .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every person who hates waiters left the museums .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a lot of-licensor=0-scope=0-npi_present=0	1		a lot of guys who might describe some art galleries would clean the cars .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all guys who might describe some art galleries would clean any cars .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=1-npi_present=0	1		teachers who knew the waiters were dropping by more than three art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=0-npi_present=0	1		teachers who knew more than three waiters were dropping by the art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any teachers who knew any waiters were dropping by more than three art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any teachers who knew more than three waiters were dropping by any art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any teachers who knew more than three waiters were dropping by the art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=0-npi_present=0	1		a lady who has known more than three men should describe the girls .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every lady who has known the men should describe the girls .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every lady who has known more than three men should describe the girls .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every gal who has kissed some ladies was wearing any pants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=1-npi_present=0	1		a lady who fled from the hospitals will describe some drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=0-npi_present=1	0		a lady who fled from some hospitals will describe any drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every lady who fled from any hospitals will describe some drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every lady who fled from the hospitals will describe some drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every lady who fled from some hospitals will describe any drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some teenagers who lifted any reports have attacked many humans .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some teenagers who lifted many reports have attacked the humans .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any teenagers who lifted many reports have attacked any humans .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some adults who had explored more than three grocery stores had worn any glasses .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the person who goes to any cafes does hate many adults .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=0	1		the person who goes to the cafes does hate many adults .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every person who goes to the cafes does hate many adults .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every person who goes to cafes does hate any adults .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the people who are dropping by any schools approached patients .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all people who are dropping by schools approached any patients .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=1-npi_present=0	1		guests who approach the women are exploring the schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=0-npi_present=1	0		guests who approach some women are exploring any schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all guests who approach the women are exploring the schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all guests who approach some women are exploring any schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every lady who goes to the schools might remember plays .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every lady who goes to more than three schools might remember any plays .
+experiment=NPI-env=quantifier-npi=any-crucial_item=an-licensor=0-scope=1-npi_present=0	1		an actress who had discussed the customers bought many newspaper articles .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=0	1		the waiter who had approached the adults is investigating many restaurants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every waiter who had approached the adults is investigating many restaurants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every waiter who had approached many adults is investigating any restaurants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=1-npi_present=0	1		a human who had been at the hospitals was selling the couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=0-npi_present=0	1		a human who had been at hospitals was selling the couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every pedestrian who admires the pants cared for more than three boys .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every pedestrian who admires pants cared for any boys .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every pedestrian who admires pants cared for the boys .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every guy who will see any reports broke chairs .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every guy who will see the reports broke chairs .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every guy who will see some reports broke the chairs .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every child who did escape from any museums has remembered some banks .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every child who did escape from the museums has remembered some banks .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every child who did escape from museums has remembered the banks .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some waitress who ran around any art galleries is hugging the boys .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some waitress who ran around art galleries is hugging any boys .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some waitress who ran around art galleries is hugging the boys .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some customers who had hated the documentaries could visit drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a lot of-licensor=0-scope=0-npi_present=0	1		a lot of girls who dropped by banks discuss the gals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some patient who should leave any girls bought the shoes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every guest who watches any cashiers listens to humans .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every guest who watches cashiers listens to the humans .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the guys who will remember a lot of movies did bike to any grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=0-npi_present=0	1		the guys who will remember a lot of movies did bike to the grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all guys who will remember any movies did bike to some grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all guys who will remember the movies did bike to some grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all guys who will remember a lot of movies did bike to any grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all guys who will remember a lot of movies did bike to the grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some doctor who works with many waitresses might flee from any actresses .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some doctor who works with many waitresses might flee from the actresses .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every doctor who works with many waitresses might flee from the actresses .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some adult who had been at a lot of grocery stores should watch the men .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every adult who had been at any grocery stores should watch many men .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some waiters who describe more than three newspaper articles had been at any movie theaters .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some woman who kisses the women worked with a lot of students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some woman who kisses more than three women worked with the students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every woman who kisses any women worked with a lot of students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every woman who kisses the women worked with a lot of students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some teacher who worked with the drivers should talk to a lot of teenagers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some teacher who worked with a lot of drivers should talk to the teenagers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every teacher who worked with a lot of drivers should talk to any teenagers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some people who referenced any commentaries exit a lot of schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some people who referenced the commentaries exit a lot of schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some people who referenced the commentaries exit any schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all people who referenced the commentaries exit a lot of schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=1-npi_present=1	0		students who like any guests have a lot of pants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=0-npi_present=1	0		students who like a lot of guests have any pants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any students who like a lot of guests have any pants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=1-npi_present=1	0		gals who cleaned any plates have visited many grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=0-npi_present=1	0		gals who cleaned some plates have visited any grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all gals who cleaned some plates have visited the grocery stores .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=0-npi_present=1	0		cashiers who love some drivers skate around any high schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=0-npi_present=0	1		cashiers who love some drivers skate around the high schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all cashiers who love the drivers skate around more than three high schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a lot of-licensor=0-scope=1-npi_present=0	1		a lot of people who had sold the chairs have hugged some drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a lot of-licensor=0-scope=0-npi_present=1	0		a lot of people who had sold more than three chairs have hugged any drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any people who had sold any chairs have hugged some drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any people who had sold more than three chairs have hugged any drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any people who had sold more than three chairs have hugged the drivers .
+experiment=NPI-env=quantifier-npi=any-crucial_item=many-licensor=0-scope=0-npi_present=1	0		many waitresses who were criticizing more than three commentaries had respected any banks .
+experiment=NPI-env=quantifier-npi=any-crucial_item=many-licensor=0-scope=0-npi_present=0	1		many waitresses who were criticizing more than three commentaries had respected the banks .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some patient who might bring a lot of forks disliked the men .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every patient who might bring a lot of forks disliked the men .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a lot of-licensor=0-scope=0-npi_present=0	1		a lot of women who scanned many documentaries lift the dishes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all women who scanned any documentaries lift the dishes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all women who scanned the documentaries lift the dishes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all women who scanned many documentaries lift the dishes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some children who have been at any cafes will wear more than three glasses .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some children who have been at the cafes will wear more than three glasses .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any children who have been at more than three cafes will wear any glasses .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any children who have been at more than three cafes will wear the glasses .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=1-npi_present=0	1		a man who did work with the teachers liked books .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every man who did work with any teachers liked books .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every man who did work with the teachers liked books .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every man who did work with the teachers liked the books .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some boy who was discussing the banks bikes to the schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every boy who was discussing any banks bikes to the schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every boy who was discussing the banks bikes to the schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=many-licensor=0-scope=1-npi_present=1	0		many people who scan any plays did flee from more than three humans .
+experiment=NPI-env=quantifier-npi=any-crucial_item=many-licensor=0-scope=1-npi_present=0	1		many people who scan the plays did flee from more than three humans .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any people who scan any plays did flee from more than three humans .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every student who is examining the reports insulted some newspaper articles .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the girls who praised any students have gone to more than three high schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the girls who praised more than three students have gone to any high schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all girls who praised any students have gone to more than three high schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all girls who praised the students have gone to more than three high schools .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some waiter who can remember doctors was watching the guests .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every waiter who can remember any doctors was watching the guests .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some lady who did drop by the banks is breaking a lot of couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some lady who did drop by banks is breaking any couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every lady who did drop by any banks is breaking a lot of couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any humans who listen to actresses skated around any libraries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all ladies who described any teenagers flee from the hospitals .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some drivers who should clean many books are buying any couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any drivers who should clean the books are buying many couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all adults who remembered more than three college campuses do hug any students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all adults who remembered more than three college campuses do hug the students .
+experiment=NPI-env=quantifier-npi=any-crucial_item=more than three-licensor=0-scope=1-npi_present=1	0		more than three waitresses who admired any doctors watch many waiters .
+experiment=NPI-env=quantifier-npi=any-crucial_item=more than three-licensor=0-scope=0-npi_present=0	1		more than three waitresses who admired many doctors watch the waiters .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any waitresses who admired many doctors watch any waiters .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=1-npi_present=0	1		a man who cares for the humans was lifting a lot of couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=0-npi_present=1	0		a man who cares for some humans was lifting any couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every man who cares for the humans was lifting a lot of couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every man who cares for some humans was lifting any couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every man who cares for some humans was lifting the couches .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some humans who examine the newspaper articles run around many art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some humans who examine a lot of newspaper articles run around any art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some humans who examine a lot of newspaper articles run around the art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any humans who examine a lot of newspaper articles run around the art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every man who had praised the guys did drop by any restaurants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every man who had praised the guys did drop by the restaurants .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some boy who was talking to more than three children cares for the girls .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every boy who was talking to more than three children cares for any girls .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every woman who was investigating any gals was bringing the plates .
+experiment=NPI-env=quantifier-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some actress who escaped from any college campuses drives to more than three art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every actress who escaped from college campuses drives to any art galleries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=more than three-licensor=0-scope=0-npi_present=0	1		more than three humans who will boycott restaurants criticized the museums .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any humans who will boycott any restaurants criticized some museums .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any humans who will boycott the restaurants criticized some museums .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every actress who described drivers loved the commentaries .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=0-npi_present=0	1		the person who was running around many cafes did clean the shoes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every person who was running around any cafes did clean some shoes .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all guys who had known the students disliked the museums .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the doctors who forgot any customers were kissing some children .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=1-npi_present=0	1		the doctors who forgot the customers were kissing some children .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the doctors who forgot some customers were kissing any children .
+experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=0-npi_present=0	1		the doctors who forgot some customers were kissing the children .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all doctors who forgot any customers were kissing some children .
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all doctors who forgot the customers were kissing some children .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any drivers who are discussing the children praised the people .
+experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any drivers who are discussing some children praised any people .
+experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=0-npi_present=0	1		a student who had loved some women bought the pants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=1-npi_present=1	0		more than three teachers who had ever bought the dishes reference the books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=0-npi_present=1	0		more than three teachers who had bought the dishes ever reference the books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any teachers who had ever bought the dishes reference the books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any guests who reference gals once referenced the books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=1-npi_present=1	0		a student who ever works with pedestrians lifts more than three newspaper articles .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=0-npi_present=0	1		a student who works with pedestrians now lifts more than three newspaper articles .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every student who now works with pedestrians lifts more than three newspaper articles .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any actors who might investigate a lot of malls now observe adults .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=1-npi_present=1	0		more than three teachers who ever resemble some couches can escape from the high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all teachers who resemble some couches can now escape from the high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=an-licensor=0-scope=1-npi_present=0	1		an adult who now does respect a lot of waiters cleans some newspaper articles .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every adult who does respect a lot of waiters now cleans some newspaper articles .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the person who had ever listened to more than three patients had cared for some drivers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=0	1		the person who had once listened to more than three patients had cared for some drivers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every person who had once listened to more than three patients had cared for some drivers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=0-npi_present=1	0		guys who will exit more than three cafes ever walked through many malls .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=0-npi_present=0	1		guys who will exit more than three cafes once walked through many malls .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any guys who will ever exit more than three cafes walked through many malls .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the pedestrian who ever listened to a lot of ladies will forget more than three teenagers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the pedestrian who listened to a lot of ladies will ever forget more than three teenagers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every pedestrian who ever listened to a lot of ladies will forget more than three teenagers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every pedestrian who once listened to a lot of ladies will forget more than three teenagers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every pedestrian who listened to a lot of ladies will now forget more than three teenagers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some human who has now known many teenagers saw more than three pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some human who has known many teenagers ever saw more than three pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every human who has ever known many teenagers saw more than three pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=0-npi_present=1	0		a child who worked with many drivers has ever scanned documentaries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=0-npi_present=0	1		a child who worked with many drivers has now scanned documentaries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every child who ever worked with many drivers has scanned documentaries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every child who worked with many drivers has ever scanned documentaries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every child who worked with many drivers has now scanned documentaries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some gals who can forget a lot of people now drop by many high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any gals who can ever forget a lot of people drop by many high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any gals who can now forget a lot of people drop by many high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any humans who could ever wear a lot of glasses run around many public parks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any humans who could wear a lot of glasses ever run around many public parks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some lady who resembles the art galleries ever kissed a lot of guys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some lady who resembles the art galleries once kissed a lot of guys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every lady who ever resembles the art galleries kissed a lot of guys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every lady who resembles the art galleries ever kissed a lot of guys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some guests who had ever discussed a lot of doctors will scan the essays .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some guests who had once discussed a lot of doctors will scan the essays .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some guests who had discussed a lot of doctors will ever scan the essays .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some guests who had discussed a lot of doctors will now scan the essays .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any guests who had ever discussed a lot of doctors will scan the essays .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any guests who had discussed a lot of doctors will now scan the essays .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=1-npi_present=1	0		a guy who ever drove to a lot of museums has listened to the teachers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every guy who ever drove to a lot of museums has listened to the teachers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every guy who drove to a lot of museums has now listened to the teachers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some guests who attack a lot of adults ever left a lot of men .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any guests who now attack a lot of adults left a lot of men .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any guests who attack a lot of adults ever left a lot of men .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=0-npi_present=1	0		more than three guys who talk about the drivers had ever dropped by a lot of public parks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any guys who ever talk about the drivers had dropped by a lot of public parks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any guys who now talk about the drivers had dropped by a lot of public parks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every guest who now describes many teachers runs around the college campuses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every cashier who has now insulted a lot of college campuses might take some books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every cashier who has insulted a lot of college campuses might now take some books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some actors who would ever bike to a lot of malls leave the actresses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some actors who would bike to a lot of malls ever leave the actresses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the boys who would be at more than three college campuses ever dropped by some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any boys who would once be at more than three college campuses dropped by some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any boys who would be at more than three college campuses ever dropped by some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any boys who would be at more than three college campuses once dropped by some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some guests who now do work with the waiters insult more than three men .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some boy who would admire a lot of couches has ever known children .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some boy who would admire a lot of couches has now known children .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every boy who would admire a lot of couches has ever known children .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the guest who has ever explored a lot of libraries should boycott many banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every guest who has explored a lot of libraries should ever boycott many banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every waiter who has now kissed many patients liked many books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every waiter who has kissed many patients ever liked many books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every waiter who has kissed many patients once liked many books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any waiters who have ever admired some people forgot some gals .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any waiters who have now admired some people forgot some gals .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any waiters who have admired some people ever forgot some gals .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any waiters who have admired some people once forgot some gals .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some man who ever attacked students has helped many men .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some man who attacked students has ever helped many men .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every man who ever attacked students has helped many men .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every man who once attacked students has helped many men .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every man who attacked students has now helped many men .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some pedestrian who cleaned the shoes could ever resemble the children .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every pedestrian who ever cleaned the shoes could resemble the children .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every pedestrian who cleaned the shoes could ever resemble the children .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some guy who once did praise the plays had explored many art galleries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some guy who did praise the plays had once explored many art galleries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the person who will ever admire some cars had taken more than three reports .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the person who will admire some cars had ever taken more than three reports .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every person who will admire some cars had once taken more than three reports .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some gal who could ever see more than three books will pass many high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some gal who could once see more than three books will pass many high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some gal who could see more than three books will ever pass many high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every gal who could ever see more than three books will pass many high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every gal who could see more than three books will ever pass many high schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some girl who ever went to a lot of restaurants passes banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some girl who went to a lot of restaurants now passes banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every girl who once went to a lot of restaurants passes banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every girl who went to a lot of restaurants ever passes banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=an-licensor=0-scope=1-npi_present=0	1		an actress who now lifts reports will dislike some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=an-licensor=0-scope=0-npi_present=1	0		an actress who lifts reports will ever dislike some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every actress who ever lifts reports will dislike some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=1-npi_present=1	0		many gals who ever forgot some ladies remembered more than three waiters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any gals who once forgot some ladies remembered more than three waiters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the children who might ever visit many actors should approach a lot of pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all children who might ever visit many actors should approach a lot of pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any actresses who once went to more than three high schools do visit many students .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=0-npi_present=1	0		many guests who wore pants ever criticized a lot of movies .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any guests who once wore pants criticized a lot of movies .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some cashier who ever watches the patients tours the banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the actor who ever skates around grocery stores attacks more than three doctors .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every actor who now skates around grocery stores attacks more than three doctors .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every actor who skates around grocery stores now attacks more than three doctors .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some gals who will clean more than three books ever wear many glasses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all gals who will ever clean more than three books wear many glasses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all gals who will now clean more than three books wear many glasses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=1-npi_present=0	1		many adults who should now be at some schools knew some students .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=0-npi_present=0	1		many adults who should be at some schools once knew some students .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all adults who should be at some schools ever knew some students .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all adults who should be at some schools once knew some students .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=1-npi_present=1	0		more than three boys who have ever attacked many actresses had sold many rugs .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=1-npi_present=0	1		more than three boys who have now attacked many actresses had sold many rugs .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=0-npi_present=1	0		more than three boys who have attacked many actresses had ever sold many rugs .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any boys who have ever attacked many actresses had sold many rugs .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=1-npi_present=1	0		a person who ever has some shoes biked to the movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=0-npi_present=1	0		a person who has some shoes ever biked to the movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every person who has some shoes once biked to the movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=0	1		the guests who have now cared for many girls dislike a lot of adults .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the guests who have cared for many girls ever dislike a lot of adults .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=0	1		the guests who have cared for many girls now dislike a lot of adults .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any guests who have cared for many girls ever dislike a lot of adults .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every teenager who might drive to many restaurants ever does praise more than three boys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every teenager who might drive to many restaurants now does praise more than three boys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any waiters who once listened to many gals scanned reports .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any waiters who listened to many gals ever scanned reports .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=0-npi_present=1	0		many customers who bike to more than three grocery stores had ever driven to some cafes .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any customers who now bike to more than three grocery stores had driven to some cafes .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any customers who bike to more than three grocery stores had once driven to some cafes .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all girls who see the plates ever visit many boys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all girls who see the plates now visit many boys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some human who can ever break the cups resembles many cars .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some human who can break the cups ever resembles many cars .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every human who can ever break the cups resembles many cars .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every human who can break the cups ever resembles many cars .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every human who can break the cups now resembles many cars .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some waiter who now examines newspaper articles skated around a lot of restaurants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some waiter who examines newspaper articles ever skated around a lot of restaurants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every waiter who examines newspaper articles ever skated around a lot of restaurants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=0	1		the waitresses who now kiss many cashiers might sell newspaper articles .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the waitresses who loved many customers ever praise some guys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any waitresses who ever loved many customers praise some guys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=1-npi_present=0	1		many guests who can now talk to the boys praised the pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=0-npi_present=1	0		many guests who can talk to the boys ever praised the pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any guests who can now talk to the boys praised the pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any guests who can talk to the boys ever praised the pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=1-npi_present=1	0		a lot of ladies who could ever explore the banks arrive at some libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=0-npi_present=1	0		a lot of ladies who could explore the banks ever arrive at some libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any ladies who could ever explore the banks arrive at some libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any ladies who could once explore the banks arrive at some libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=1-npi_present=1	0		students who ever talked to some doctors drive to some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=0-npi_present=0	1		students who talked to some doctors now drive to some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all students who talked to some doctors now drive to some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every woman who ever respected many schools approached more than three waitresses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every woman who respected many schools ever approached more than three waitresses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every woman who respected many schools once approached more than three waitresses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=1-npi_present=0	1		ladies who now go to the public parks respect some patients .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=0-npi_present=1	0		ladies who go to the public parks ever respect some patients .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all ladies who go to the public parks now respect some patients .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=0-npi_present=1	0		many waitresses who have attacked a lot of actresses have ever biked to the libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all waitresses who have now attacked a lot of actresses have biked to the libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all waitresses who have attacked a lot of actresses have ever biked to the libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some pedestrian who loved many gals once investigated a lot of libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every pedestrian who loved many gals ever investigated a lot of libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some doctor who has ever insulted ladies will hate a lot of guys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some doctor who has now insulted ladies will hate a lot of guys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some doctor who has insulted ladies will ever hate a lot of guys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some adult who once did clean cups has left many libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some adult who did clean cups has now left many libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every adult who did clean cups has ever left many libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=0-npi_present=0	1		many customers who disliked the children now have some books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all customers who ever disliked the children have some books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all customers who disliked the children now have some books .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every girl who ever went to a lot of restaurants did reference actors .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the doctor who insulted a lot of people has ever sold a lot of plates .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every doctor who ever insulted a lot of people has sold a lot of plates .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=1-npi_present=0	1		a lot of girls who now visit the high schools see some humans .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any girls who visit the high schools now see some humans .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any children who had ever approached the customers might see a lot of couches .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=1-npi_present=1	0		a lot of customers who ever boycott many museums had helped many cashiers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all customers who now boycott many museums had helped many cashiers .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0	1		every man who had respected actors can now see a lot of ladies .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=1-npi_present=0	1		more than three boys who have now boycotted many cafes had sold many plates .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=0-npi_present=0	1		more than three boys who have boycotted many cafes had once sold many plates .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all boys who have ever boycotted many cafes had sold many plates .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all boys who have boycotted many cafes had once sold many plates .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=1-npi_present=1	0		ladies who had ever returned to some cashiers should escape from many restaurants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=1-npi_present=0	1		ladies who had once returned to some cashiers should escape from many restaurants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=0-npi_present=1	0		ladies who had returned to some cashiers should ever escape from many restaurants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=0-npi_present=0	1		ladies who had returned to some cashiers should now escape from many restaurants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all ladies who had ever returned to some cashiers should escape from many restaurants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all ladies who had returned to some cashiers should now escape from many restaurants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the actresses who ever hug some cashiers have more than three glasses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any actresses who ever hug some cashiers have more than three glasses .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every cashier who has disliked more than three stories had ever worn many pants .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=an-licensor=0-scope=1-npi_present=1	0		an adult who will ever go to a lot of college campuses has returned to the boys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every adult who will now go to a lot of college campuses has returned to the boys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every adult who will go to a lot of college campuses has ever returned to the boys .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=1-npi_present=0	1		more than three actresses who now do skate around the high schools went to many banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=0	1		any actresses who now do skate around the high schools went to many banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any actresses who do skate around the high schools ever went to many banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any actresses who do skate around the high schools once went to many banks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0	1		some girls who have now listened to the boys have arrived at public parks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some girls who have listened to the boys have ever arrived at public parks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0	1		some girls who have listened to the boys have now arrived at public parks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=1	0		any girls who have listened to the boys have ever arrived at public parks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the person who had ever loved some essays has broken forks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the person who had loved some essays has ever broken forks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every person who had once loved some essays has broken forks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every person who had loved some essays has ever broken forks .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every driver who had once kissed many adults are at some schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every driver who had kissed many adults ever are at some schools .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every patient who once respected patients can resemble the dishes .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=0-npi_present=0	1		a child who remembers doctors once loved more than three pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=0	1		the driver who resembles a lot of drivers once exited many grocery stores .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=1-npi_present=1	0		many teachers who can ever attack gals investigate more than three hospitals .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=0-npi_present=1	0		many teachers who can attack gals ever investigate more than three hospitals .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any teachers who can ever attack gals investigate more than three hospitals .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=1-npi_present=0	1		men who would once dislike some cafes had talked about a lot of girls .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any men who would ever dislike some cafes had talked about a lot of girls .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=more than three-licensor=0-scope=1-npi_present=1	0		more than three guys who might ever scan a lot of plays should sell many couches .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all guys who might scan a lot of plays should ever sell many couches .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=1-npi_present=1	0		a lot of men who ever scan more than three documentaries listened to pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=0-npi_present=0	1		a lot of men who scan more than three documentaries once listened to pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1	1		all men who ever scan more than three documentaries listened to pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=1-npi_present=1	0		a girl who ever did drive to more than three hospitals toured some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=1-npi_present=0	1		a girl who once did drive to more than three hospitals toured some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=0-npi_present=1	0		a girl who did drive to more than three hospitals ever toured some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=0-npi_present=0	1		a girl who did drive to more than three hospitals once toured some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every girl who ever did drive to more than three hospitals toured some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every girl who did drive to more than three hospitals ever toured some movie theaters .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=0-npi_present=0	1		many people who attacked some children have now been at more than three libraries .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the humans who ever sold many cups been at a lot of museums .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=0	1		the humans who once sold many cups been at a lot of museums .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the humans who sold many cups ever been at a lot of museums .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0	1		all humans who once sold many cups been at a lot of museums .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1	0		all humans who sold many cups ever been at a lot of museums .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all humans who sold many cups once been at a lot of museums .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=1-npi_present=1	0		a lot of children who ever hate more than three documentaries had taken some chairs .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=0-npi_present=1	0		a lot of children who hate more than three documentaries had ever taken some chairs .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0	1		all children who hate more than three documentaries had once taken some chairs .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1	0		some teenager who had ever driven to many restaurants might listen to students .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1	0		some teenager who had driven to many restaurants might ever listen to students .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=1-npi_present=1	0		a lot of guys who ever scanned some essays forget humans .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=1-npi_present=0	1		a lot of guys who once scanned some essays forget humans .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any guys who ever scanned some essays forget humans .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=0-npi_present=0	1		any guys who scanned some essays now forget humans .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=a-licensor=0-scope=0-npi_present=1	0		a pedestrian who has seen the guests ever respected actors .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every pedestrian who has seen the guests ever respected actors .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=-licensor=0-scope=1-npi_present=0	1		children who now is at many libraries will clean more than three gloves .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=any-licensor=1-scope=1-npi_present=1	1		any children who ever is at many libraries will clean more than three gloves .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the guest who knew more than three humans will ever insult some guests .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=0	1		the guest who knew more than three humans will now insult some guests .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every guest who ever knew more than three humans will insult some guests .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0	1		every teacher who once criticized art galleries cleaned some reports .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1	0		every teacher who criticized art galleries ever cleaned some reports .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=1	0		the waiter who ever explored many hospitals knew pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=0-npi_present=1	0		the waiter who explored many hospitals ever knew pedestrians .
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1	1		every waiter who ever explored many hospitals knew pedestrians .
+experiment=NPI-env=questions-npi=ever-crucial_item=wondered-licensor=1-scope=0-npi_present=1	0		the actresses wondered ever whether the human exited high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=wondered-licensor=1-scope=0-npi_present=0	0		the actresses wondered never whether the human exited high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=said-licensor=0-scope=1-npi_present=0	1		the actresses said that the human never exited high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=said-licensor=0-scope=0-npi_present=1	0		the actresses said ever that the human exited high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=wonder-licensor=1-scope=1-npi_present=0	1		the guests wonder whether the actor never learns .
+experiment=NPI-env=questions-npi=ever-crucial_item=wonder-licensor=1-scope=0-npi_present=0	0		the guests wonder never whether the actor learns .
+experiment=NPI-env=questions-npi=ever-crucial_item=explain-licensor=0-scope=1-npi_present=1	0		the guests explain that the actor ever learns .
+experiment=NPI-env=questions-npi=ever-crucial_item=wondered-licensor=1-scope=1-npi_present=1	1		the students wondered whether the pedestrians ever listened to students.
+experiment=NPI-env=questions-npi=ever-crucial_item=wondered-licensor=1-scope=0-npi_present=1	0		the students wondered ever whether the pedestrians listened to students.
+experiment=NPI-env=questions-npi=ever-crucial_item=said-licensor=0-scope=1-npi_present=0	1		the guests said that the adults never arguing .
+experiment=NPI-env=questions-npi=ever-crucial_item=thinks-licensor=0-scope=1-npi_present=1	0		the doctor thinks that the cashiers ever waving .
+experiment=NPI-env=questions-npi=ever-crucial_item=thinks-licensor=0-scope=0-npi_present=0	0		the doctor thinks never that the cashiers waving .
+experiment=NPI-env=questions-npi=ever-crucial_item=wonders-licensor=1-scope=1-npi_present=1	1		the child wonders whether the cashier ever examined pamphlets.
+experiment=NPI-env=questions-npi=ever-crucial_item=wonders-licensor=1-scope=0-npi_present=0	0		the child wonders never whether the cashier examined pamphlets.
+experiment=NPI-env=questions-npi=ever-crucial_item=explains-licensor=0-scope=1-npi_present=1	0		the child explains that the cashier ever examined pamphlets.
+experiment=NPI-env=questions-npi=ever-crucial_item=wonder-licensor=1-scope=1-npi_present=0	1		the adults wonder whether the teenagers never boycott art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=wonder-licensor=1-scope=0-npi_present=0	0		the adults wonder never whether the teenagers boycott art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=say-licensor=0-scope=1-npi_present=1	0		the adults say that the teenagers ever boycott art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=says-licensor=0-scope=0-npi_present=0	0		the waitress says never that a teacher chuckle .
+experiment=NPI-env=questions-npi=ever-crucial_item=wonders-licensor=1-scope=0-npi_present=0	0		the woman wonders never whether the woman exercises .
+experiment=NPI-env=questions-npi=ever-crucial_item=thinks-licensor=0-scope=0-npi_present=0	0		the woman thinks never that the woman exercises .
+experiment=NPI-env=questions-npi=ever-crucial_item=wonders-licensor=1-scope=0-npi_present=1	0		the customer wonders ever whether the teachers sang .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the man never scanning the newspaper articles , the man can concur .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the man scanning the newspaper articles , the man can concur .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the man scanning the newspaper articles , the man can concur .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if a person ever sell the cars , a person could read .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if a person sell the cars , a person could read .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while a person never sell the cars , a person could read .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the women dislike the alumni , the women will practice .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if a lady ever explore the movie theaters , a lady might grin .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while a lady never explore the movie theaters , a lady might grin .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a lady explore the movie theaters , a lady might grin .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the humans ever worked with the sheep , the humans might slump over .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the humans never worked with the sheep , the humans might slump over .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the humans ever worked with the sheep , the humans might slump over .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the humans never worked with the sheep , the humans might slump over .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the humans worked with the sheep , the humans might slump over .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the waiters attacked the children , the waiters might practice .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the waiters attacked the children , the waiters might practice .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the teacher ever hates the drivers , the teacher can sit down .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the teacher hates the drivers , the teacher can sit down .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the teacher hates the drivers , the teacher can sit down .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if a guy never sells the brochures , a guy would examine movies .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if a guy sells the brochures , a guy would examine movies .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while a guy ever sells the brochures , a guy would examine movies .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while a guy sells the brochures , a guy would examine movies .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the actress ever escaping from the adults , the actress can talk .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the actress never escaping from the adults , the actress can talk .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the actress escaping from the adults , the actress can talk .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the actress escaping from the adults , the actress can talk .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if a person respect the fish , a person might skate around museums .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while a person ever respect the fish , a person might skate around museums .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a person respect the fish , a person might skate around museums .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the teachers never wearing the glasses , the teachers would sell reports .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the teachers never wearing the glasses , the teachers would sell reports .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the teachers wearing the glasses , the teachers would sell reports .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the doctors ever scanning the commentaries , the doctors should love actors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the doctors scanning the commentaries , the doctors should love actors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the pedestrians explore the malls , the pedestrians might win .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the pedestrians ever explore the malls , the pedestrians might win .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the pedestrians explore the malls , the pedestrians might win .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the actors never breaking the plates , the actors could conspire .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the actors breaking the plates , the actors could conspire .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the actors never breaking the plates , the actors could conspire .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if a guy passed the cafes , a guy should hug humans .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while a guy passed the cafes , a guy should hug humans .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while a cashier ever dislike the sheep , a cashier can spin around .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a cashier dislike the sheep , a cashier can spin around .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the adult describes the banks , the adult should listen to children .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the students watched the drivers , the students should die .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the students ever watched the drivers , the students should die .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the students watched the drivers , the students should die .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if a guest listened to the guys , a guest could cheer .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a guest listened to the guys , a guest could cheer .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the gal bringing the rugs , the gal will forfeit .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the driver visits the museums , the driver would wear glasses .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the teacher ever known the cashiers , the teacher might negotiate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the teacher ever known the cashiers , the teacher might negotiate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if a waiter never criticizing the restaurants , a waiter would blink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while a waiter ever criticizing the restaurants , a waiter would blink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a waiter criticizing the restaurants , a waiter would blink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the woman ever returned to the women , the woman might mutter .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the woman never returned to the women , the woman might mutter .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the woman returned to the women , the woman might mutter .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the woman ever returned to the women , the woman might mutter .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while a boy never visited the guests , a boy can boast .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a boy visited the guests , a boy can boast .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while a boy visited the guests , a boy can boast .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the patient never left the waitresses , the patient can talk about movie theaters .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the patient left the waitresses , the patient can talk about movie theaters .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the actresses clean the books , the actresses will stretch .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the actresses ever clean the books , the actresses will stretch .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the actresses clean the books , the actresses will stretch .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the teacher never walked through the banks , the teacher can be at grocery stores .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the teacher walked through the banks , the teacher can be at grocery stores .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the adults ever broken the books , the adults will kiss .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the adults broken the books , the adults will kiss .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the adults never broken the books , the adults will kiss .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the adults broken the books , the adults will kiss .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the adult never examined the movies , the adult might break glasses .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the adult examined the movies , the adult might break glasses .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the adult examined the movies , the adult might break glasses .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the men ever bought the brochures , the men could drink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the men never bought the brochures , the men could drink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the men ever bought the brochures , the men could drink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the men bought the brochures , the men could drink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the men bought the brochures , the men could drink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the human ever escapes from the grocery stores , the human might go to public parks .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the human ever escapes from the grocery stores , the human might go to public parks .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the human never escapes from the grocery stores , the human might go to public parks .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the waitresses never talking to the deer , the waitresses might succeed .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the waitresses never talking to the deer , the waitresses might succeed .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if a pedestrian likes the pants , a pedestrian should explain everything .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while a pedestrian ever likes the pants , a pedestrian should explain everything .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the boys ever like the ladies , the boys would approve .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the boys never like the ladies , the boys would approve .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the boys like the ladies , the boys would approve .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the boys ever like the ladies , the boys would approve .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if a customer never loves the documentaries , a customer might shrug .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if a customer loves the documentaries , a customer might shrug .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while a customer ever loves the documentaries , a customer might shrug .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a customer loves the documentaries , a customer might shrug .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the lady ever has the cars , the lady could respond .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the actor never exited the grocery stores , the actor might work with teenagers .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the actor exited the grocery stores , the actor might work with teenagers .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the actor exited the grocery stores , the actor might work with teenagers .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the actor ever exited the grocery stores , the actor might work with teenagers .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the driver lifting the gloves , the driver could worry .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the driver lifting the gloves , the driver could worry .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the driver never lifting the gloves , the driver could worry .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the driver lifting the gloves , the driver could worry .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the drivers ever drop by the art galleries , the drivers will clean dishes .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the drivers never drop by the art galleries , the drivers will clean dishes .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the actors never investigating the libraries , the actors can reply .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the actors investigating the libraries , the actors can reply .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if a man criticizing the alumni , a man can observe actors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the guy fled from the grocery stores , the guy could run around malls .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the gals ever listening to the customers , the gals can flee from doctors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the gals listening to the customers , the gals can flee from doctors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the gal never be at the malls , the gal can talk about grocery stores .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the gal be at the malls , the gal can talk about grocery stores .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the gal ever be at the malls , the gal can talk about grocery stores .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the gal be at the malls , the gal can talk about grocery stores .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the actresses kissing the guys , the actresses should forget mice .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the actresses ever kissing the guys , the actresses should forget mice .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the human never praised the pedestrians , the human will answer .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the human praised the pedestrians , the human will answer .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the human ever praised the pedestrians , the human will answer .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the human praised the pedestrians , the human will answer .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the cashiers never love the brochures , the cashiers can write hard .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the humans ever escape from the restaurants , the humans can write hard .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the humans escape from the restaurants , the humans can write hard .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the humans escape from the restaurants , the humans can write hard .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if a child ever touring the libraries , a child can investigate high schools .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if a child never touring the libraries , a child can investigate high schools .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the guests respected the waitresses , the guests will bike to schools .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the lady ever breaking the dishes , the lady will have newspaper articles .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the lady breaking the dishes , the lady will have newspaper articles .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the gal admired the mice , the gal should cheer .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the gal never admired the mice , the gal should cheer .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the gal admired the mice , the gal should cheer .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if a teenager forgotten the guys , a teenager could examine stories .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a teenager forgotten the guys , a teenager could examine stories .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the gal ever are at the malls , the gal might insult actors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the gal never are at the malls , the gal might insult actors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the gal are at the malls , the gal might insult actors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the gal never are at the malls , the gal might insult actors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the gal are at the malls , the gal might insult actors .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the men like the actresses , the men will bring shoes .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the men like the actresses , the men will bring shoes .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the men like the actresses , the men will bring shoes .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the adults ever driven to the malls , the adults might attack lice .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the adults never driven to the malls , the adults might attack lice .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the adults ever driven to the malls , the adults might attack lice .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the patients talked to the mice , the patients should grin .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the patients talked to the mice , the patients should grin .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the men admiring the students , the men could study .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the men admiring the students , the men could study .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the cashier ever praising the cashiers , the cashier will whisper .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if a boy never dislikes the fish , a boy would sit down .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if a boy dislikes the fish , a boy would sit down .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while a boy dislikes the fish , a boy would sit down .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if a waiter never passes the cafes , a waiter should bring gloves .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while a waiter ever passes the cafes , a waiter should bring gloves .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while a waiter never passes the cafes , a waiter should bring gloves .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a waiter passes the cafes , a waiter should bring gloves .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while a waiter passes the cafes , a waiter should bring gloves .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the guy discusses the patients , the guy could arrive at cafes .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the guy never discusses the patients , the guy could arrive at cafes .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the cashier ever worn the pants , the cashier can sell plates .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the cashier worn the pants , the cashier can sell plates .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the cashier worn the pants , the cashier can sell plates .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the cashier worn the pants , the cashier can sell plates .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while an actor praised the reports , an actor would talk .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the teachers never skated around the museums , the teachers will cooperate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the teachers ever skated around the museums , the teachers will cooperate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the teachers skated around the museums , the teachers will cooperate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the actress ever brought the forks , the actress will eat .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the actress never brought the forks , the actress will eat .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the actress brought the forks , the actress will eat .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the teacher never boycotting the restaurants , the teacher would shrug .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the teacher boycotting the restaurants , the teacher would shrug .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the teacher boycotting the restaurants , the teacher would shrug .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the teacher ever boycotting the restaurants , the teacher would shrug .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the teacher never boycotting the restaurants , the teacher would shrug .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the person ever arrived at the banks , the person can donate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the person arrived at the banks , the person can donate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the person ever arrived at the banks , the person can donate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the person never arrived at the banks , the person can donate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the person arrived at the banks , the person can donate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the children never lifting the glasses , the children will mutter .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the children lifting the glasses , the children will mutter .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the children never lifting the glasses , the children will mutter .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the children lifting the glasses , the children will mutter .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the doctors ever described the movies , the doctors can drop by banks .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the doctors never described the movies , the doctors can drop by banks .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the doctors described the movies , the doctors can drop by banks .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the doctors described the movies , the doctors can drop by banks .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if a lady ever broken the couches , a lady should scratch .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if a lady never broken the couches , a lady should scratch .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while a lady ever broken the couches , a lady should scratch .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while a lady broken the couches , a lady should scratch .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the woman helping the cashiers , the woman would like cashiers .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the woman helping the cashiers , the woman would like cashiers .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the men ever reference the essays , the men could bike to banks .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the men reference the essays , the men could bike to banks .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the waiters ever forgotten the customers , the waiters should swallow .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the waiters never forgotten the customers , the waiters should swallow .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the waiters forgotten the customers , the waiters should swallow .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the waiters forgotten the customers , the waiters should swallow .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the man dropped by the libraries , the man can hate people .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the pedestrian ever worked with the waitresses , the pedestrian should cry .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the pedestrian worked with the waitresses , the pedestrian should cry .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the teenager ever watch the pedestrians , the teenager should explain everything .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the teenager watch the pedestrians , the teenager should explain everything .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the teenager watch the pedestrians , the teenager should explain everything .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the teenager watch the pedestrians , the teenager should explain everything .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if a waitress ever disliked the movie theaters , a waitress should donate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if a waitress never disliked the movie theaters , a waitress should donate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a waitress disliked the movie theaters , a waitress should donate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while a waitress disliked the movie theaters , a waitress should donate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the doctor ever passes the malls , the doctor can skate around high schools .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the doctor passes the malls , the doctor can skate around high schools .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while a teacher never works with the children , a teacher could weep .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while a teacher works with the children , a teacher could weep .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the actress never hugging the men , the actress would run around libraries .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if the actress hugging the men , the actress would run around libraries .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if the pedestrians ever visit the doctors , the pedestrians can arrive at movie theaters .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the pedestrians visit the doctors , the pedestrians can arrive at movie theaters .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the pedestrians ever visit the doctors , the pedestrians can arrive at movie theaters .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the pedestrians visit the doctors , the pedestrians can arrive at movie theaters .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the guy never referencing the waitresses , the guy might negotiate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the guy referencing the waitresses , the guy might negotiate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the guy never referencing the waitresses , the guy might negotiate .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the women never loved the people , the women should stand up .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the women loved the people , the women should stand up .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the women ever loved the people , the women should stand up .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the women never loved the people , the women should stand up .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the women loved the people , the women should stand up .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if an adult ever saw the cups , an adult should scratch .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while an adult saw the cups , an adult should scratch .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if a teacher never investigate the high schools , a teacher would drink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if a teacher investigate the high schools , a teacher would drink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if a teacher investigate the high schools , a teacher would drink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while a teacher never investigate the high schools , a teacher would drink .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the actresses never admiring the ladies , the actresses might exit libraries .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the actresses admiring the ladies , the actresses might exit libraries .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the driver never flees from the waitresses , the driver could wear pants .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the driver flees from the waitresses , the driver could wear pants .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the driver flees from the waitresses , the driver could wear pants .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1	1		if a human ever forgets the plays , a human should buy newspaper articles .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0	0		never if a human forgets the plays , a human should buy newspaper articles .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while a human never forgets the plays , a human should buy newspaper articles .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while a human forgets the plays , a human should buy newspaper articles .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1	0		while the ladies ever arrive at the art galleries , the ladies can boast .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the ladies never arrive at the art galleries , the ladies can boast .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the ladies arrive at the art galleries , the ladies can boast .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0	1		if the guest never talks to the boys , the guest should learn .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the guest talks to the boys , the guest should learn .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0	1		while the guest never talks to the boys , the guest should learn .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1	0		ever while the guest talks to the boys , the guest should learn .
+experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0	0		never while the guest talks to the boys , the guest should learn .
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1	0		ever if the women drive to the grocery stores , the women will resemble nuclei .
+experiment=NPI-env=superlative-npi=ever-crucial_item=young-licensor=0-scope=0-npi_present=0	1		the pedestrian has also hated the young man that the waiter had cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=young-licensor=1-scope=1-npi_present=0	1		the pedestrian has hated the youngest man that the waiter had also cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=1-npi_present=1	0		the teenagers should listen to the important person that the doctors had ever described .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=0-npi_present=1	0		the teenagers should ever listen to the most important person that the doctors had described .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=0-scope=1-npi_present=1	0		the teacher had cleaned the good couches that the adults had ever bought .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=1-scope=1-npi_present=1	1		the teacher had cleaned the best couches that the adults had ever bought .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=1-scope=0-npi_present=1	0		the teacher had ever cleaned the best couches that the adults had bought .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=1-npi_present=1	0		the gals have exited the important cafes that the teacher had ever remembered .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=1-npi_present=0	1		the gals have exited the important cafes that the teacher had also remembered .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=1-npi_present=1	1		the gals have exited the most important cafes that the teacher had ever remembered .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=0-npi_present=1	0		the gals have ever exited the most important cafes that the teacher had remembered .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=1-npi_present=1	0		the doctors like the important waiter that the cashier has ever respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=0-npi_present=0	1		the doctors also like the important waiter that the cashier has respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=1-npi_present=1	1		the doctors like the most important waiter that the cashier has ever respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=1-npi_present=0	1		the doctors like the most important waiter that the cashier has also respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=0-scope=0-npi_present=0	1		a guest has also returned to the good restaurant that the girl had explored .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=1-scope=1-npi_present=1	1		a guest has returned to the best restaurant that the girl had ever explored .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=0-scope=1-npi_present=0	1		the boys have worked with the nice pedestrian that the adults have also respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=0-scope=0-npi_present=1	0		the boys have ever worked with the nice pedestrian that the adults have respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=0-scope=0-npi_present=0	1		the boys have also worked with the nice pedestrian that the adults have respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=1-scope=0-npi_present=1	0		the boys have ever worked with the nicest pedestrian that the adults have respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=1-scope=0-npi_present=0	1		the boys have also worked with the nicest pedestrian that the adults have respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=0-scope=0-npi_present=0	1		the cashiers might also have the cheap cup that the man has sold .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=1-scope=1-npi_present=1	1		the cashiers might have the cheapest cup that the man has ever sold .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=0-npi_present=0	1		a pedestrian could also praise the bad report that the pedestrians had admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=0-scope=0-npi_present=1	0		the person has ever attacked the serious doctor that the gals had hugged .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=1-scope=1-npi_present=1	1		the person has attacked the most serious doctor that the gals had ever hugged .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=1-scope=1-npi_present=0	1		the person has attacked the most serious doctor that the gals had also hugged .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=1-scope=0-npi_present=0	1		the person has also attacked the most serious doctor that the gals had hugged .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=1-npi_present=1	0		the adults had passed the new public parks that the child had ever ran around .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=1-npi_present=0	1		the adults had passed the new public parks that the child had also ran around .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=1-npi_present=1	1		the adults had passed the newest public parks that the child had ever ran around .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=1-npi_present=0	1		the adults had passed the newest public parks that the child had also ran around .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=0-npi_present=1	0		the adults had ever passed the newest public parks that the child had ran around .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=0-scope=1-npi_present=1	0		the teenagers listen to the happy actresses that the boys have ever fled from .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=0-scope=1-npi_present=0	1		the teenagers listen to the happy actresses that the boys have also fled from .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=0-scope=0-npi_present=1	0		the teenagers ever listen to the happy actresses that the boys have fled from .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=1-scope=1-npi_present=0	1		the teenagers listen to the happiest actresses that the boys have also fled from .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=0-npi_present=1	0		the student had ever taken the old chair that the pedestrians have brought .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=0-scope=0-npi_present=0	1		the customers have also lifted the good dish that the waitress had admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=1-scope=0-npi_present=0	1		the customers have also lifted the best dish that the waitress had admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=0-scope=1-npi_present=1	0		the waitresses have criticized the cheap library that the man had ever disliked .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=1-scope=1-npi_present=1	1		the waitresses have criticized the cheapest library that the man had ever disliked .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=1-scope=1-npi_present=0	1		the waitresses have criticized the cheapest library that the man had also disliked .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=1-npi_present=1	0		a student arrived at the new high schools that the doctor had ever disliked .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=1-npi_present=0	1		a student arrived at the new high schools that the doctor had also disliked .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=1-npi_present=1	0		an actress has investigated the new art galleries that the humans have ever ran around .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=1-npi_present=0	1		an actress has investigated the newest art galleries that the humans have also ran around .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=0-npi_present=1	0		an actress has ever investigated the newest art galleries that the humans have ran around .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=0-npi_present=0	1		an actress has also investigated the newest art galleries that the humans have ran around .
+experiment=NPI-env=superlative-npi=ever-crucial_item=young-licensor=1-scope=1-npi_present=1	1		the actors have attacked the youngest customer that the stories had ever insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=young-licensor=1-scope=0-npi_present=1	0		the actors have ever attacked the youngest customer that the stories had insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=young-licensor=1-scope=0-npi_present=0	1		the actors have also attacked the youngest customer that the stories had insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=0-scope=0-npi_present=1	0		the adults ever work with the big boy that the newspaper articles had described .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=1-scope=0-npi_present=1	0		the adults ever work with the biggest boy that the newspaper articles had described .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=1-npi_present=0	1		the teenagers criticize the small doctors that the driver had also respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=0-npi_present=1	0		the teenagers ever criticize the small doctors that the driver had respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=1-scope=1-npi_present=0	1		the teenagers criticize the smallest doctors that the driver had also respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=1-scope=0-npi_present=1	0		the teenagers ever criticize the smallest doctors that the driver had respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=1-npi_present=1	1		the boys could describe the longest newspaper articles that the adult had ever taken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=1-npi_present=0	1		the boys could describe the longest newspaper articles that the adult had also taken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=0-scope=1-npi_present=1	0		the customers hated the big drivers that the cashier had ever approached .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=0-scope=0-npi_present=1	0		the boys ever criticize the long reports that the essays have discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=0-scope=0-npi_present=0	1		the boys also criticize the long reports that the essays have discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=1-npi_present=1	1		the boys criticize the longest reports that the essays have ever discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=1-npi_present=0	1		the boys criticize the longest reports that the essays have also discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=0-npi_present=1	0		the boys ever criticize the longest reports that the essays have discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=0-scope=0-npi_present=0	1		the women also described the nice gal that the students have hugged .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=0-scope=1-npi_present=1	0		the guys disliked the happy guy that the driver has ever kissed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=0-scope=0-npi_present=1	0		the guys ever disliked the happy guy that the driver has kissed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=1-scope=1-npi_present=0	1		the guests should help the oldest lady that the child had also referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=1-scope=0-npi_present=0	1		the guests should also help the oldest lady that the child had referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=1-npi_present=1	0		a pedestrian admired the bad teenager that the waitress had ever remembered .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=0-npi_present=1	0		a pedestrian ever admired the worst teenager that the waitress had remembered .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=0-scope=0-npi_present=1	0		the guest ever examined the long books that the drivers had forgotten .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=0-npi_present=1	0		the guest ever examined the longest books that the drivers had forgotten .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=1-npi_present=1	0		the boys have walked through the old cafe that the teenager has ever dropped by .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=1-npi_present=0	1		the boys have walked through the old cafe that the teenager has also dropped by .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=0-npi_present=1	0		the boys have ever walked through the old cafe that the teenager has dropped by .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=0-npi_present=0	1		the boys have also walked through the old cafe that the teenager has dropped by .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=1-scope=1-npi_present=0	1		the boys have walked through the oldest cafe that the teenager has also dropped by .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=0-scope=1-npi_present=1	0		the humans had described the fast patients that the girls have ever observed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=1-npi_present=1	1		the humans had described the fastest patients that the girls have ever observed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=1-npi_present=0	1		the humans had described the fastest patients that the girls have also observed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=0-npi_present=1	0		the doctor ever helped the small customers that the humans had worked with .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=1-scope=1-npi_present=0	1		the doctor helped the smallest customers that the humans had also worked with .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=1-scope=0-npi_present=1	0		the doctor ever helped the smallest customers that the humans had worked with .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=1-npi_present=0	1		the child had returned to the small boy that the child had also cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=0-npi_present=0	1		the child had also returned to the small boy that the child had cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=1-scope=1-npi_present=0	1		the child had returned to the smallest boy that the child had also cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=0-scope=1-npi_present=1	0		the guys had described the nice boys that the customers had ever helped .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=0-scope=1-npi_present=0	1		the guys had described the nice boys that the customers had also helped .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=1-scope=1-npi_present=1	1		a woman flees from the biggest guests that the waitresses have ever helped .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=1-scope=0-npi_present=0	1		a woman also flees from the biggest guests that the waitresses have helped .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=1-scope=0-npi_present=1	0		the woman ever remembers the nicest customer that the student has helped .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=0-scope=1-npi_present=0	1		the students can criticize the happy actor that the drivers have also known .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=0-scope=0-npi_present=0	1		the students can also criticize the happy actor that the drivers have known .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=1-npi_present=1	0		the girls biked to the bad grocery store that the patients have ever walked through .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=0-npi_present=0	1		the girls also biked to the bad grocery store that the patients have walked through .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=1-npi_present=1	1		the girls biked to the worst grocery store that the patients have ever walked through .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=1-npi_present=0	1		the girls biked to the worst grocery store that the patients have also walked through .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=0-npi_present=0	1		the guys might also love the longest newspaper article that the boy has admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=0-scope=1-npi_present=0	1		the child has passed the popular hospitals that the girl had also visited .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=0-scope=0-npi_present=1	0		the child has ever passed the popular hospitals that the girl had visited .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=1-scope=1-npi_present=0	1		the child has passed the most popular hospitals that the girl had also visited .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=1-scope=0-npi_present=0	1		the child has also passed the most popular hospitals that the girl had visited .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=0-scope=0-npi_present=0	1		the students had also respected the popular cashier that the pedestrians have worked with .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=1-scope=0-npi_present=1	0		the students had ever respected the most popular cashier that the pedestrians have worked with .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=0-scope=1-npi_present=1	0		a child loved the big teacher that the cashiers had ever admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=0-scope=1-npi_present=0	1		a child loved the big teacher that the cashiers had also admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=0-scope=0-npi_present=0	1		a child also loved the big teacher that the cashiers had admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=1-scope=1-npi_present=1	1		a child loved the biggest teacher that the cashiers had ever admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=1-scope=0-npi_present=0	1		a child also loved the biggest teacher that the cashiers had admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=1-scope=0-npi_present=0	1		a student also walks through the most popular hospital that the cashier has boycotted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=0-scope=1-npi_present=1	0		the girls had remembered the popular college campuses that the guest has ever passed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=0-scope=0-npi_present=0	1		the girls had also remembered the popular college campuses that the guest has passed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=0-scope=0-npi_present=0	1		the humans will also hug the big adults that the man has observed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=0-npi_present=1	0		the drivers ever visited the important child that the customer has disliked .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=0-npi_present=1	0		the drivers ever visited the most important child that the customer has disliked .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=0-scope=1-npi_present=0	1		the girls will pass the cheap public park that the patients have also toured .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=1-npi_present=1	0		the drivers did tour the small libraries that the ladies had ever escaped from .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=1-scope=1-npi_present=1	1		the drivers did tour the smallest libraries that the ladies had ever escaped from .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=0-npi_present=1	0		a child has ever talked about the important commentary that the waitress had referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=1-npi_present=0	1		a child has talked about the most important commentary that the waitress had also referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=0-npi_present=0	1		a child has also talked about the most important commentary that the waitress had referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=1-npi_present=1	1		the student might watch the most important actress that the actors have ever investigated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=0-scope=1-npi_present=0	1		the teenagers did forget the long newspaper article that the actors had also scanned .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=1-npi_present=1	1		the teenagers did forget the longest newspaper article that the actors had ever scanned .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=0-npi_present=1	0		the girl ever discusses the bad banks that the children have insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=0-npi_present=0	1		the girl also discusses the bad banks that the children have insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=1-npi_present=1	1		the girl discusses the worst banks that the children have ever insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=0-npi_present=0	1		the girl also discusses the worst banks that the children have insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=0-npi_present=1	0		the doctors had ever investigated the newest libraries that the adults had walked through .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=0-npi_present=1	0		the waitresses ever had the important chair that the guests had brought .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=0-scope=1-npi_present=1	0		the drivers will talk to the fast humans that the customer had ever known .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=1-npi_present=1	1		the drivers will talk to the fastest humans that the customer had ever known .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=0-npi_present=1	0		the drivers will ever talk to the fastest humans that the customer had known .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=1-npi_present=1	1		the boys remembered the worst stories that the waiters had ever referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=1-npi_present=0	1		the boys remembered the worst stories that the waiters had also referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=1-npi_present=1	0		the adult has taken the small plate that the doctors have ever broken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=0-npi_present=1	0		the adult has ever taken the small plate that the doctors have broken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=0-npi_present=0	1		the adult has also taken the small plate that the doctors have broken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=1-scope=0-npi_present=0	1		the adult has also taken the smallest plate that the doctors have broken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=1-npi_present=0	1		the child remembers the longest essay that the plays have also praised .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=0-npi_present=1	0		the child ever remembers the longest essay that the plays have praised .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=1-npi_present=1	0		the waitress should scan the bad book that the gals had ever lifted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=0-npi_present=1	0		the waitress should ever scan the worst book that the gals had lifted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=0-npi_present=1	0		the pedestrians had ever criticized the important newspaper articles that the waiters had loved .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=0-npi_present=0	1		the pedestrians had also criticized the most important newspaper articles that the waiters had loved .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=0-npi_present=0	1		the waitress also visits the new high schools that the gal had remembered .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=0-npi_present=1	0		the waitress ever visits the newest high schools that the gal had remembered .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=0-scope=1-npi_present=1	0		the driver had known the serious women that the human had ever watched .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=0-scope=1-npi_present=0	1		the driver had known the serious women that the human had also watched .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=0-scope=0-npi_present=1	0		the driver had ever known the serious women that the human had watched .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=1-scope=0-npi_present=1	0		the driver had ever known the most serious women that the human had watched .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=0-scope=1-npi_present=1	0		a waiter had criticized the happy teachers that the teenager has ever admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=1-scope=1-npi_present=1	1		a waiter had criticized the happiest teachers that the teenager has ever admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=1-scope=0-npi_present=1	0		a waiter had ever criticized the happiest teachers that the teenager has admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=young-licensor=1-scope=0-npi_present=0	1		the doctors had also helped the youngest guest that the gal has discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=0-scope=0-npi_present=0	1		the doctors should also bring the good dish that the teenagers have taken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=1-scope=1-npi_present=0	1		the doctors should bring the best dish that the teenagers have also taken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=1-npi_present=1	1		a teenager had talked about the most important guest that the man has ever discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=1-npi_present=0	1		a teenager had talked about the most important guest that the man has also discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=0-npi_present=1	0		a teenager had ever talked about the most important guest that the man has discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=0-scope=1-npi_present=0	1		the doctors visited the fast gal that the girls had also hated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=0-scope=0-npi_present=0	1		the doctors also visited the fast gal that the girls had hated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=1-npi_present=1	1		the doctors visited the fastest gal that the girls had ever hated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=1-npi_present=0	1		the doctors visited the fastest gal that the girls had also hated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=0-npi_present=0	1		the doctors also visited the fastest gal that the girls had hated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=1-scope=1-npi_present=1	1		the ladies criticize the happiest guest that the waitresses have ever hugged .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=1-scope=0-npi_present=0	1		the ladies also criticize the happiest guest that the waitresses have hugged .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=1-npi_present=0	1		the man buys the old books that the actress has also broken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=0-npi_present=0	1		the man also buys the old books that the actress has broken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=1-scope=0-npi_present=1	0		the doctors ever work with the happiest teenagers that the essays had insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=0-npi_present=1	0		the doctor ever dropped by the new restaurant that the patient had insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=0-npi_present=0	1		the doctor also dropped by the new restaurant that the patient had insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=1-npi_present=0	1		the doctor dropped by the newest restaurant that the patient had also insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=0-npi_present=0	1		the doctor also dropped by the newest restaurant that the patient had insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=1-npi_present=0	1		the adult references the old teacher that the lady had also cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=0-npi_present=0	1		the adult also references the old teacher that the lady had cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=1-scope=1-npi_present=1	1		the adult references the oldest teacher that the lady had ever cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=1-npi_present=1	0		the customers have criticized the old girls that the actress has ever respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=1-scope=1-npi_present=1	1		the customers have criticized the oldest girls that the actress has ever respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=1-scope=1-npi_present=0	1		the customers have criticized the oldest girls that the actress has also respected .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=0-scope=1-npi_present=1	0		the customer had seen the good forks that the guy has ever sold .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=0-scope=0-npi_present=1	0		the customer had ever seen the good forks that the guy has sold .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=0-scope=1-npi_present=1	0		the drivers had passed the cheap hospital that the doctors had ever returned to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=0-scope=0-npi_present=1	0		the drivers had ever passed the cheap hospital that the doctors had returned to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=1-scope=1-npi_present=1	1		the drivers had passed the cheapest hospital that the doctors had ever returned to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=1-scope=1-npi_present=0	1		the drivers had passed the cheapest hospital that the doctors had also returned to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=1-scope=0-npi_present=1	0		the drivers had ever passed the cheapest hospital that the doctors had returned to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=1-scope=0-npi_present=0	1		the drivers had also passed the cheapest hospital that the doctors had returned to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=0-scope=0-npi_present=1	0		the child has ever sold the long books that the play had referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=0-scope=0-npi_present=0	1		the child has also sold the long books that the play had referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=1-npi_present=1	1		the child has sold the longest books that the play had ever referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=1-npi_present=0	1		the child has sold the longest books that the play had also referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=0-npi_present=1	0		the child has ever sold the longest books that the play had referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=long-licensor=1-scope=0-npi_present=0	1		the child has also sold the longest books that the play had referenced .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=0-scope=1-npi_present=1	0		the driver has referenced the good commentary that the people have ever loved .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=0-scope=0-npi_present=1	0		the driver has ever referenced the good commentary that the people have loved .
+experiment=NPI-env=superlative-npi=ever-crucial_item=good-licensor=1-scope=1-npi_present=0	1		the driver has referenced the best commentary that the people have also loved .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=1-scope=1-npi_present=0	1		the girls broke the cheapest chairs that the patients have also taken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=cheap-licensor=1-scope=0-npi_present=1	0		the girls ever broke the cheapest chairs that the patients have taken .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=0-scope=1-npi_present=0	1		a cashier had visited the fast boy that the adults had also cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=0-scope=0-npi_present=1	0		a cashier had ever visited the fast boy that the adults had cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=0-npi_present=0	1		a cashier had also visited the fastest boy that the adults had cared for .
+experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=1-npi_present=1	0		the patients should kiss the old girls that the guy has ever loved .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=0-scope=1-npi_present=0	1		the guests hugged the nice patient that the boy had also approached .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=0-scope=0-npi_present=1	0		the guests ever hugged the nice patient that the boy had approached .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=1-scope=1-npi_present=1	1		the guests hugged the nicest patient that the boy had ever approached .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=0-scope=0-npi_present=0	1		the doctors had also described the fast teachers that the cashier has watched .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=1-npi_present=1	1		the doctors had described the fastest teachers that the cashier has ever watched .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=0-scope=0-npi_present=0	1		the person had also described the popular public park that the actress has disliked .
+experiment=NPI-env=superlative-npi=ever-crucial_item=popular-licensor=1-scope=0-npi_present=1	0		the person had ever described the most popular public park that the actress has disliked .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=1-npi_present=1	0		a child visited the small waitresses that the pedestrians have ever kissed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=1-scope=1-npi_present=0	1		a child visited the smallest waitresses that the pedestrians have also kissed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=1-scope=0-npi_present=0	1		a child also visited the smallest waitresses that the pedestrians have kissed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=1-npi_present=0	1		a person could buy the bad dishes that the guy has also admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=1-npi_present=0	1		a person could buy the worst dishes that the guy has also admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=0-npi_present=0	1		a person could also buy the worst dishes that the guy has admired .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=1-npi_present=1	0		the lady cleans the new dishes that the doctor has ever cleaned .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=1-npi_present=0	1		the lady cleans the new dishes that the doctor has also cleaned .
+experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=1-scope=1-npi_present=0	1		the lady cleans the newest dishes that the doctor has also cleaned .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=0-scope=0-npi_present=1	0		the students ever kissed the fast boys that the girl had returned to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=fast-licensor=1-scope=0-npi_present=0	1		the students also kissed the fastest boys that the girl had returned to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=1-npi_present=1	1		the patient helps the most important students that the adult had ever criticized .
+experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=1-scope=1-npi_present=0	1		the patient helps the most important students that the adult had also criticized .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=0-scope=1-npi_present=0	1		the teenager disliked the serious ladies that the boy had also investigated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=0-scope=0-npi_present=1	0		the teenager ever disliked the serious ladies that the boy had investigated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=0-scope=0-npi_present=0	1		the teenager also disliked the serious ladies that the boy had investigated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=1-scope=0-npi_present=0	1		the teenager also disliked the most serious ladies that the boy had investigated .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=1-scope=1-npi_present=1	1		the teachers should visit the happiest driver that the human had ever escaped from .
+experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=1-scope=0-npi_present=0	1		the teachers should also visit the happiest driver that the human had escaped from .
+experiment=NPI-env=superlative-npi=ever-crucial_item=young-licensor=0-scope=0-npi_present=1	0		the pedestrians ever escaped from the young waitresses that the boys have talked to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=young-licensor=1-scope=1-npi_present=1	1		the pedestrians escaped from the youngest waitresses that the boys have ever talked to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=young-licensor=1-scope=0-npi_present=0	1		the pedestrians also escaped from the youngest waitresses that the boys have talked to .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=0-scope=0-npi_present=0	1		the man also approaches the serious students that the teenager had criticized .
+experiment=NPI-env=superlative-npi=ever-crucial_item=serious-licensor=1-scope=1-npi_present=0	1		the man approaches the most serious students that the teenager had also criticized .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=1-npi_present=0	1		the person has described the bad hospital that the men had also insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=0-scope=0-npi_present=1	0		the person has ever described the bad hospital that the men had insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=bad-licensor=1-scope=1-npi_present=0	1		the person has described the worst hospital that the men had also insulted .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=1-scope=1-npi_present=1	1		the adult saw the nicest waiters that the cashier had ever discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=1-scope=1-npi_present=0	1		the adult saw the nicest waiters that the cashier had also discussed .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=0-scope=1-npi_present=1	0		the teenager described the big people that the driver has ever praised .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=1-scope=1-npi_present=1	1		the teenager described the biggest people that the driver has ever praised .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=1-scope=0-npi_present=1	0		the teenager ever described the biggest people that the driver has praised .
+experiment=NPI-env=superlative-npi=ever-crucial_item=big-licensor=1-scope=0-npi_present=0	1		the teenager also described the biggest people that the driver has praised .
