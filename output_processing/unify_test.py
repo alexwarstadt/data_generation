@@ -22,7 +22,7 @@ def handle_arguments(cl_arguments):
                         help="Path to the full four-column test file")
     parser.add_argument('--datasets_dir', '-d', type=str,
                         help="Path to all datasets for experiment set")
-    parser.add_argument('--results_output', '-r', type=str,
+    parser.add_argument('--results_summary_output', '-r', type=str,
                         help="Path to write outputs of results summary.")
     parser.add_argument('--main_experiment_dir', '-e', type=str,
                         help="Directory containing experiment, or else directory containing set of experiments.")
@@ -32,12 +32,13 @@ def handle_arguments(cl_arguments):
 
 
 def process_experiment_set(args):
+    results_summary_output = open(args.results_summary_output, "w")
     for exp_dir in os.listdir(args.main_experiment_dir):
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
-        process_experiment(sub_experiment_dir, args)
+        process_experiment(sub_experiment_dir, results_summary_output, args)
 
 
-def process_experiment(experiment_dir, args):
+def process_experiment(experiment_dir, results_summary_output, args):
     """
     Processes test results for a given experiment.
     :param experiment_dir: the directory that jiant creates for an experiment with "results.tsv"
@@ -56,7 +57,7 @@ def process_experiment(experiment_dir, args):
                 full_test_path = args.full_test_path
             table = make_unified_table(test_outputs_path, full_test_path)
             if args.experiment_type is "reflexive":
-                reflexives_scores(table)
+                reflexives_scores(table, results_summary_output)
             if args.experiment_type is "polar_q":
                 polar_q_scores(table)
             if args.experiment_type is "npi_scope":
@@ -99,19 +100,19 @@ def get_predictions(test_outputs_path, missing_first_line=True):
 
 
 
-def reflexives_scores(table):
+def reflexives_scores(table, results_summary_output):
     in_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "0")], table)
     out_of_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1")], table)
-    print("in_domain", sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"]))
-    print("out_of_domain", sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"]))
+    results_summary_output.write("\t".join(["in_domain", sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])]))
+    results_summary_output.write("\t".join(["out_of_domain", sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])]))
     reflexives = ["himself", "herself", "itself", "themselves"]
     pairs = itertools.combinations(reflexives, 2)
     for pair in pairs:
         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[0]), ("refl2", pair[1])], table)
-        print(pair[0], pair[1], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+        results_summary_output.write("\t".join([pair[0], pair[1], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"])]))
         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[1]), ("refl2", pair[0])], table)
-        print(pair[1], pair[0], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-    print()
+        results_summary_output.write("\t".join([pair[1], pair[0], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"])]))
+    results_summary_output.write("\n")
 
 
 def npi_subsets_score(table, name):
