@@ -63,14 +63,14 @@ def process_experiment(experiment_dir, results_summary_output, args):
                 full_test_path = args.full_test_path
             table = make_unified_table(test_outputs_path, full_test_path)
             results_summary_output.write("experiment_type " + args.experiment_type)
-            if args.experiment_type is "reflexive":
+            if args.experiment_type == "reflexive":
                 results_summary_output.write("it's reflexive!")
                 reflexives_scores(table, results_summary_output)
-            if args.experiment_type is "polar_q":
+            if args.experiment_type == "polar_q":
                 polar_q_scores(table)
-            if args.experiment_type is "npi_scope":
+            if args.experiment_type == "npi_scope":
                 npi_scope_scores(table)
-            if args.experiment_type is "npi_subsets":
+            if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
 
 
