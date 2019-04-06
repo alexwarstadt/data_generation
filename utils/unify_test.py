@@ -18,8 +18,10 @@ def handle_arguments(cl_arguments):
                         help="Name of the test output file")
     parser.add_argument('--experiment_type', '-x', type=str,
                         help="Name of experiment/dataset to choose kind of analysis to do")
-    parser.add_argument('--test_path', '-t', type=str,
+    parser.add_argument('--full_test_path', '-t', type=str,
                         help="Path to the full four-column test file")
+    parser.add_argument('--datasets_dir', '-d', type=str,
+                        help="Path to all datasets for experiment set")
     parser.add_argument('--results_output', '-r', type=str,
                         help="Path to write outputs of results summary.")
     parser.add_argument('--main_experiment_dir', '-e', type=str,
@@ -48,7 +50,11 @@ def process_experiment(experiment_dir, args):
             test_outputs_path = os.path.join(run_dir, args.test_outputs_name)
             if not os.path.isfile(test_outputs_path):
                 continue
-            table = make_unified_table(test_outputs_path, args)
+            if args.is_experiment_set:
+                full_test_path = os.path.join(args.datasets_dir, experiment_dir.split("/")[-1], "CoLA", "test_full.tsv")              # TODO: -2????
+            else:
+                full_test_path = args.full_test_path
+            table = make_unified_table(test_outputs_path, full_test_path)
             if args.experiment_name is "reflexive":
                 reflexives_scores(table)
             if args.experiment_name is "polar_q":
@@ -59,14 +65,14 @@ def process_experiment(experiment_dir, args):
                 npi_subsets_score(table, experiment_dir)
 
 
-def make_unified_table(test_outputs_path, args):
+def make_unified_table(test_outputs_path, full_test_path):
     """
     Makes a table with test predictions and test data/metadata combined.
     :param test_outputs_path: file containing the test predictions
     :param args: command-line arguments
     :return: table containing test data, metadata, and predictions
     """
-    old_table = utils.metadata_parse.read_data_tsv(args.test_path)
+    old_table = utils.metadata_parse.read_data_tsv(full_test_path)
     predictions = get_predictions(test_outputs_path)
     # table = unify_table(old_table, predictions)
     new_dt = np.dtype(old_table.dtype.descr + [('prediction', 'i1')])
