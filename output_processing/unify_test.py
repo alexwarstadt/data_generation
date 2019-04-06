@@ -34,6 +34,8 @@ def handle_arguments(cl_arguments):
 def process_experiment_set(args):
     results_summary_output = open(args.results_summary_output, "w")
     for exp_dir in os.listdir(args.main_experiment_dir):
+        if os.path.isfile(exp_dir):
+            continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
         process_experiment(sub_experiment_dir, results_summary_output, args)
 
