@@ -38,7 +38,7 @@ def process_experiment_set(args):
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
         process_experiment(sub_experiment_dir, results_summary_output, args)
-
+    results_summary_output.close()
 
 def process_experiment(experiment_dir, results_summary_output, args):
     """
@@ -47,7 +47,9 @@ def process_experiment(experiment_dir, results_summary_output, args):
     :param args: 
     :return: 
     """
+    results_summary_output.write(experiment_dir + "\n")
     for run in os.listdir(experiment_dir):
+        results_summary_output.write(run + "\n")
         run_dir = os.path.join(experiment_dir, run)
         if os.path.isdir(run_dir):
             test_outputs_path = os.path.join(run_dir, args.test_outputs_name)
