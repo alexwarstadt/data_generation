@@ -55,6 +55,7 @@ def process_experiment(experiment_dir, results_summary_output, args):
         if os.path.isdir(run_dir):
             test_outputs_path = os.path.join(run_dir, args.test_outputs_name)
             if not os.path.isfile(test_outputs_path):
+                results_summary_output.write(test_outputs_path + " is not file")
                 continue
             if args.is_experiment_set:
                 full_test_path = os.path.join(args.datasets_dir, experiment_dir.split("/")[-1], "CoLA", "test_full.tsv")              # TODO: -2????
