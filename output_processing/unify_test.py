@@ -40,6 +40,7 @@ def process_experiment_set(args):
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
         results_summary.append(process_experiment(sub_experiment_dir, args))
+    print(results_summary)
     results_summary = np.array(results_summary, dtype=get_results_dtype(args))
     # results_summary = np.concatenate(results_summary)
     print(results_summary)
