@@ -66,6 +66,7 @@ def process_experiment(experiment_dir, args):
     """
     # results_summary_output.write(experiment_dir + "\n")
     results_summary = []
+    print("process exp ", experiment_dir)
     for run in os.listdir(experiment_dir):
         new_row = [experiment_dir, run]
         # new_row = np.empty((0, len(results_summary.dtype)), results_summary.dtype)
