@@ -93,8 +93,6 @@ def process_experiment(experiment_dir, args):
             if args.experiment_type == "polar_q":
                 polar_q_scores(table)
             if args.experiment_type == "npi_scope":
-                print("new_row", new_row)
-                print(table)
                 new_row.extend(npi_scope_scores(table))
             if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
@@ -153,6 +151,7 @@ def reflexives_scores(table):
 
 
 def npi_scope_scores(table):
+    print("npi_scope_scores!")
     in_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "0")], table)
     out_of_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1")], table)
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
@@ -162,6 +161,7 @@ def npi_scope_scores(table):
     results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
     sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1")], table)
     results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+    print(results)
     npis = ["any", "ever", "yet"]
     for npi in npis:
         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi)], table)
