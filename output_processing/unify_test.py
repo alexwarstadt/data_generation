@@ -93,9 +93,7 @@ def process_experiment(experiment_dir, args):
             if args.experiment_type == "polar_q":
                 polar_q_scores(table)
             if args.experiment_type == "npi_scope":
-                x = npi_scope_scores()
-                print("x! ", x)
-                # new_row.extend(npi_scope_scores(table))
+                new_row.extend(npi_scope_scores(table))
             if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
             results_summary.append(tuple(new_row))
