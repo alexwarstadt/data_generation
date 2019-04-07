@@ -32,46 +32,65 @@ def handle_arguments(cl_arguments):
 
 
 def process_experiment_set(args):
+    results_summary = []
     results_summary_output = open(args.results_summary_output, "w")
     for exp_dir in os.listdir(args.main_experiment_dir):
         if not os.path.isdir(os.path.join(args.main_experiment_dir, exp_dir)):
             results_summary_output.write("is not dir: " + exp_dir)
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
-        process_experiment(sub_experiment_dir, results_summary_output, args)
-    results_summary_output.close()
+        results_summary.append(process_experiment(sub_experiment_dir, args))
+    results_summary = np.array(results_summary, dtype=get_results_dtype(args))
+    # results_summary = np.concatenate(results_summary)
+    np.savetxt(args.results_summary_output, results_summary, delimiter=",", header="name,r,m", fmt="%s,%f,%f", comments='')
+    # results_summary_output.close()
 
-def process_experiment(experiment_dir, results_summary_output, args):
+def get_results_dtype(args):
+    dtype = []
+    if args.is_experiment_set:
+        dtype.append(("experiment name", "U100"))
+    dtype.append(("run name", "U100"))
+    if args.experiment_type == "reflexive":
+        dtype.extend([("in domain accuracy", "i10"), ("out of domain accuracy", "i10")])
+        reflexives = ["himself", "herself", "itself", "themselves"]
+        pairs = itertools.combinations(reflexives, 2)
+        for pair in pairs:
+            dtype.extend([("%s %s accuracy" % (pair[0], pair[1]), "i10"), ("%s %s accuracy" % (pair[1], pair[0]), "i10")])
+
+def process_experiment(experiment_dir, args):
     """
     Processes test results for a given experiment.
     :param experiment_dir: the directory that jiant creates for an experiment with "results.tsv"
     :param args: 
     :return: 
     """
-    results_summary_output.write(experiment_dir + "\n")
+    # results_summary_output.write(experiment_dir + "\n")
+    results_summary = []
     for run in os.listdir(experiment_dir):
-        results_summary_output.write(run + "\n")
+        new_row = [experiment_dir, run]
+        # new_row = np.empty((0, len(results_summary.dtype)), results_summary.dtype)
+        # results_summary_output.write(run + "\n")
         run_dir = os.path.join(experiment_dir, run)
         if os.path.isdir(run_dir):
             test_outputs_path = os.path.join(run_dir, args.test_outputs_name)
             if not os.path.isfile(test_outputs_path):
-                results_summary_output.write(test_outputs_path + " is not file")
+                # results_summary_output.write(test_outputs_path + " is not file")
                 continue
             if args.is_experiment_set:
                 full_test_path = os.path.join(args.datasets_dir, experiment_dir.split("/")[-1], "CoLA", "test_full.tsv")              # TODO: -2????
             else:
                 full_test_path = args.full_test_path
             table = make_unified_table(test_outputs_path, full_test_path)
-            results_summary_output.write("experiment_type " + args.experiment_type)
             if args.experiment_type == "reflexive":
-                results_summary_output.write("it's reflexive!")
-                reflexives_scores(table, results_summary_output)
+                new_row.extend(reflexives_scores(table))
             if args.experiment_type == "polar_q":
                 polar_q_scores(table)
             if args.experiment_type == "npi_scope":
                 npi_scope_scores(table)
             if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
+            results_summary.append(results_summary)
+    return results_summary
 
 
 def make_unified_table(test_outputs_path, full_test_path):
@@ -108,19 +127,25 @@ def get_predictions(test_outputs_path, missing_first_line=True):
 
 
 
-def reflexives_scores(table, results_summary_output):
+def reflexives_scores(table):
+    # results = []
     in_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "0")], table)
     out_of_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1")], table)
-    results_summary_output.write("\t".join(["in_domain", sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])]))
-    results_summary_output.write("\t".join(["out_of_domain", sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])]))
+    in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
+    out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
+    results = [in_domain_accuracy, out_of_domain_accuracy]
+    # results_summary_output.write("\t".join(["in_domain", ]))
+    # results_summary_output.write("\t".join(["out_of_domain", ]))
     reflexives = ["himself", "herself", "itself", "themselves"]
     pairs = itertools.combinations(reflexives, 2)
     for pair in pairs:
         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[0]), ("refl2", pair[1])], table)
-        results_summary_output.write("\t".join([pair[0], pair[1], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"])]))
+        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[1]), ("refl2", pair[0])], table)
-        results_summary_output.write("\t".join([pair[1], pair[0], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"])]))
-    results_summary_output.write("\n")
+        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+    return results
+    #     results_summary_output.write("\t".join([pair[1], pair[0], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"])]))
+    # results_summary_output.write("\n")
 
 
 def npi_subsets_score(table, name):
