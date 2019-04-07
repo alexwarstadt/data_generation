@@ -39,6 +39,7 @@ def process_experiment_set(args):
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
         results_summary.extend(process_experiment(sub_experiment_dir, args))
+    print(results_summary)
     dtype = get_results_dtype(args)
     results_summary = np.array(results_summary, dtype=dtype)
     header = "\t".join(results_summary.dtype.names)
@@ -92,7 +93,7 @@ def process_experiment(experiment_dir, args):
             if args.experiment_type == "polar_q":
                 polar_q_scores(table)
             if args.experiment_type == "npi_scope":
-                npi_scope_scores(table)
+                new_row.extend(npi_scope_scores(table))
             if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
             results_summary.append(tuple(new_row))
@@ -167,6 +168,7 @@ def npi_scope_scores(table):
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "1")], table)
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+    print(results)
     return results
 
 
