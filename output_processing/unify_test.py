@@ -55,11 +55,11 @@ def get_results_dtype(args):
         dtype.append(("experiment name", "U100"))
     dtype.append(("run name", "U100"))
     if args.experiment_type == "reflexive":
-        dtype.extend([("in domain accuracy", "i10"), ("out of domain accuracy", "i10")])
+        dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
         reflexives = ["himself", "herself", "itself", "themselves"]
         pairs = itertools.combinations(reflexives, 2)
         for pair in pairs:
-            dtype.extend([("%s %s accuracy" % (pair[0], pair[1]), "i10"), ("%s %s accuracy" % (pair[1], pair[0]), "i10")])
+            dtype.extend([("%s %s accuracy" % (pair[0], pair[1]), "f8"), ("%s %s accuracy" % (pair[1], pair[0]), "f8")])
     return dtype
 
 def process_experiment(experiment_dir, args):
