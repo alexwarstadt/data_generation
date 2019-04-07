@@ -94,7 +94,8 @@ def process_experiment(experiment_dir, args):
                 polar_q_scores(table)
             if args.experiment_type == "npi_scope":
                 try:
-                    x = npi_scope_scores(table)
+                    # x = npi_scope_scores(table)
+                    x = npi_scope_scores()
                     print("x! ", x)
                     new_row.extend(npi_scope_scores(table))
                 except TypeError:
@@ -156,8 +157,9 @@ def reflexives_scores(table):
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
     return results
 
-def npi_scope_scores(table):
-    print("npi_scope_scores!")
+
+def npi_scope_scores():
+    # print("npi_scope_scores!")
     return []
 
 
