@@ -65,7 +65,8 @@ def get_results_dtype(args):
         for npi in ["any", "ever", "yet"]:
             dtype.extend([("npi=%s" % npi, "f8"), ("npi=%s_cond_3_unacceptable" % npi, "f8"), ("npi=%s_cond_4_acceptable" % npi, "f8")])
     if args.experiment_type == "polar_q":
-        pass
+        dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
+        dtype.extend([("cond_3_acceptable", "f8"), ("cond_4_unacceptable", "f8")])
     return dtype
 
 def process_experiment(experiment_dir, args):
@@ -153,7 +154,6 @@ def reflexives_scores(table):
 
 
 def npi_scope_scores(table):
-    print("npi_scope_scores!")
     in_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "0")], table)
     out_of_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1")], table)
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
@@ -163,7 +163,6 @@ def npi_scope_scores(table):
     results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
     sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1")], table)
     results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-    print(results)
     npis = ["any", "ever", "yet"]
     for npi in npis:
         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi)], table)
@@ -172,8 +171,22 @@ def npi_scope_scores(table):
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "1")], table)
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-    print(results)
     return results
+
+
+def polar_q_scores(table):
+    in_domain = utils.vocab_table.get_all_conjunctive([("src", "1")], table)
+    out_of_domain = utils.vocab_table.get_all_conjunctive([("src", "1")], table)
+    in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
+    out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
+    results = [in_domain_accuracy, out_of_domain_accuracy]
+    cond_3 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("hightest", "1")], table)
+    cond_4 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("hightest", "0")], table)
+    results.append(sklearn.metrics.accuracy_score(cond_3["judgment"], cond_3["prediction"]))
+    results.append(sklearn.metrics.accuracy_score(cond_4["judgment"], cond_4["prediction"]))
+    return results
+
+
 
 
 
@@ -196,9 +209,6 @@ def npi_subsets_score(table, name):
     print("No_NPI", sklearn.metrics.accuracy_score(no_npi["judgment"], no_npi["prediction"]))
     print()
 
-
-def polar_q_scores(table):
-    pass
 
 
 
