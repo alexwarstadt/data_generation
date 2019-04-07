@@ -39,7 +39,6 @@ def process_experiment_set(args):
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
         results_summary.extend(process_experiment(sub_experiment_dir, args))
-    print(results_summary)
     dtype = get_results_dtype(args)
     results_summary = np.array(results_summary, dtype=dtype)
     header = "\t".join(results_summary.dtype.names)
@@ -176,7 +175,7 @@ def npi_scope_scores(table):
 
 def polar_q_scores(table):
     in_domain = utils.vocab_table.get_all_conjunctive([("src", "1")], table)
-    out_of_domain = utils.vocab_table.get_all_conjunctive([("src", "1")], table)
+    out_of_domain = utils.vocab_table.get_all_conjunctive([("src", "0")], table)
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]

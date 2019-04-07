@@ -7,7 +7,7 @@ def handle_arguments(cl_arguments):
     parser = argparse.ArgumentParser(description='')
     # Configuration files
 
-    parser.add_argument('--number_runs', '-n', type=str,
+    parser.add_argument('--number_runs', '-n', type=int,
                         help="Number of runs to generate")
     parser.add_argument('--slurm_dir', '-s', type=str,
                         help="Location where slurm scripts go")
@@ -89,37 +89,3 @@ if __name__ == '__main__':
             out_file.write(", batch_size=" + str(args.batch_size))
             out_file.write("\"")
 
-
-"""
-python -m sbatch_generator -n 20 -d ~/jiant/data_generation_outputs/structure_dependence/polar_q/ \
-    -o /scratch/asw462/jiant/structure_dependence/polar_q/ \
-    -x polar_q_1k -e 15 -l 0.00001 -v 100
-"""
-
-
-
-
-
-
-
-#!/bin/bash
-
-# Generic job script for all experiments.
-
-#SBATCH --cpus-per-task=7
-#SBATCH --gres=gpu:p40:1
-#SBATCH --mem=16GB
-#SBATCH -t24:00:00
-#SBATCH --mail-type=END
-#SBATCH --mail-user=alexwarstadt@gmail.com
-
-#PRINCE PRINCE_GPU_COMPUTE_MODE=default
-
-# Run.
-#
-# export JIANT_DATA_DIR=~/jiant/data_generation_outputs/structure_dependence/reflexive/3_20-5k
-# export NFS_PROJECT_PREFIX=/scratch/asw462/jiant/structure_dependence/reflexive/
-#
-# python     ../main.py     \
-# --config_file ../config/bert_tasks.conf     \
-# --overrides "run_name=refl_14, max_epochs=15, lr=7E-6, val_interval=100, exp_name=refl"
