@@ -42,6 +42,7 @@ def process_experiment_set(args):
         results_summary.append(process_experiment(sub_experiment_dir, args))
     results_summary = np.array(results_summary, dtype=get_results_dtype(args))
     # results_summary = np.concatenate(results_summary)
+    print(results_summary)
     np.savetxt(args.results_summary_output, results_summary, delimiter=",", header="name,r,m", fmt="%s,%f,%f", comments='')
     # results_summary_output.close()
 
