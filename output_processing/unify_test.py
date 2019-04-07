@@ -48,7 +48,7 @@ def process_experiment_set(args):
     header = "\t".join(results_summary.dtype.names)
     results_summary_output.write(header + "\n")
     for line in results_summary:
-        results_summary_output.write("\t".join(line) + "\n")
+        results_summary_output.write("\t".join([str(x) for x in line]) + "\n")
     # np.savetxt(args.results_summary_output, results_summary, delimiter=",", header=header, comments='')
     results_summary_output.close()
 
