@@ -180,8 +180,8 @@ def polar_q_scores(table):
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]
-    cond_3 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("hightest", "1")], table)
-    cond_4 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("hightest", "0")], table)
+    cond_3 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "1")], table)
+    cond_4 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "0")], table)
     results.append(sklearn.metrics.accuracy_score(cond_3["judgment"], cond_3["prediction"]))
     results.append(sklearn.metrics.accuracy_score(cond_4["judgment"], cond_4["prediction"]))
     return results
