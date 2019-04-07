@@ -36,20 +36,15 @@ def process_experiment_set(args):
     results_summary_output = open(args.results_summary_output, "w")
     for exp_dir in os.listdir(args.main_experiment_dir):
         if not os.path.isdir(os.path.join(args.main_experiment_dir, exp_dir)):
-            results_summary_output.write("is not dir: " + exp_dir)
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
         results_summary.extend(process_experiment(sub_experiment_dir, args))
-    # print(results_summary)
     dtype = get_results_dtype(args)
     results_summary = np.array(results_summary, dtype=dtype)
-    # results_summary = np.concatenate(results_summary)
-    # print(results_summary)
     header = "\t".join(results_summary.dtype.names)
     results_summary_output.write(header + "\n")
     for line in results_summary:
         results_summary_output.write("\t".join([str(x) for x in line]) + "\n")
-    # np.savetxt(args.results_summary_output, results_summary, delimiter=",", header=header, comments='')
     results_summary_output.close()
 
 def get_results_dtype(args):
@@ -63,6 +58,13 @@ def get_results_dtype(args):
         pairs = itertools.combinations(reflexives, 2)
         for pair in pairs:
             dtype.extend([("%s %s accuracy" % (pair[0], pair[1]), "f8"), ("%s %s accuracy" % (pair[1], pair[0]), "f8")])
+    if args.experiment_type == "npi_scope":
+        dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
+        dtype.extend([("cond_3_unacceptable", "f8"), ("cond_4_acceptable", "f8")])
+        for npi in ["any", "ever", "yet"]:
+            dtype.extend([("npi=%s" % npi, "f8"), ("npi=%s_cond_3_unacceptable" % npi, "f8"), ("npi=%s_cond_4_acceptable" % npi, "f8")])
+    if args.experiment_type == "polar_q":
+
     return dtype
 
 def process_experiment(experiment_dir, args):
@@ -72,22 +74,16 @@ def process_experiment(experiment_dir, args):
     :param args: 
     :return: 
     """
-    # results_summary_output.write(experiment_dir + "\n")
     results_summary = []
-    # print("process exp ", experiment_dir)
     for run in os.listdir(experiment_dir):
-        # print("run ", run)
         new_row = [experiment_dir, run]
-        # new_row = np.empty((0, len(results_summary.dtype)), results_summary.dtype)
-        # results_summary_output.write(run + "\n")
         run_dir = os.path.join(experiment_dir, run)
         if os.path.isdir(run_dir):
             test_outputs_path = os.path.join(run_dir, args.test_outputs_name)
             if not os.path.isfile(test_outputs_path):
-                # results_summary_output.write(test_outputs_path + " is not file")
                 continue
             if args.is_experiment_set:
-                full_test_path = os.path.join(args.datasets_dir, experiment_dir.split("/")[-1], "CoLA", "test_full.tsv")              # TODO: -2????
+                full_test_path = os.path.join(args.datasets_dir, experiment_dir.split("/")[-1], "CoLA", "test_full.tsv")
             else:
                 full_test_path = args.full_test_path
             table = make_unified_table(test_outputs_path, full_test_path)
@@ -138,14 +134,11 @@ def get_predictions(test_outputs_path, missing_first_line=True):
 
 
 def reflexives_scores(table):
-    # results = []
     in_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "0")], table)
     out_of_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1")], table)
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]
-    # results_summary_output.write("\t".join(["in_domain", ]))
-    # results_summary_output.write("\t".join(["out_of_domain", ]))
     reflexives = ["himself", "herself", "itself", "themselves"]
     pairs = itertools.combinations(reflexives, 2)
     for pair in pairs:
@@ -153,10 +146,29 @@ def reflexives_scores(table):
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[1]), ("refl2", pair[0])], table)
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-    # print(results)
     return results
-    #     results_summary_output.write("\t".join([pair[1], pair[0], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"])]))
-    # results_summary_output.write("\n")
+
+
+def npi_scope_scores(table):
+    in_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "0")], table)
+    out_of_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1")], table)
+    in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
+    out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
+    results = [in_domain_accuracy, out_of_domain_accuracy]
+    sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0")], table)
+    results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+    sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1")], table)
+    results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+    npis = ["any", "ever", "yet"]
+    for npi in npis:
+        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi)], table)
+        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "0")], table)
+        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "1")], table)
+        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+    return results
+
 
 
 def npi_subsets_score(table, name):
