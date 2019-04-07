@@ -40,14 +40,17 @@ def process_experiment_set(args):
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
         results_summary.extend(process_experiment(sub_experiment_dir, args))
-    print(results_summary)
+    # print(results_summary)
     dtype = get_results_dtype(args)
     results_summary = np.array(results_summary, dtype=dtype)
     # results_summary = np.concatenate(results_summary)
-    print(results_summary)
-    header = ",".join(results_summary.dtype.names)
-    np.savetxt(args.results_summary_output, results_summary, delimiter=",", header=header, comments='')
-    # results_summary_output.close()
+    # print(results_summary)
+    header = "\t".join(results_summary.dtype.names)
+    results_summary_output.write(header + "\n")
+    for line in results_summary:
+        results_summary_output.write("\t".join(line) + "\n")
+    # np.savetxt(args.results_summary_output, results_summary, delimiter=",", header=header, comments='')
+    results_summary_output.close()
 
 def get_results_dtype(args):
     dtype = []
