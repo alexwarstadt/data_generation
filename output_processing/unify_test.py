@@ -92,7 +92,7 @@ def process_experiment(experiment_dir, args):
             if args.experiment_type == "reflexive":
                 new_row.extend(reflexives_scores(table))
             if args.experiment_type == "polar_q":
-                polar_q_scores(table)
+                new_row.extend(polar_q_scores(table))
             if args.experiment_type == "npi_scope":
                 new_row.extend(npi_scope_scores(table))
             if args.experiment_type == "npi_subsets":
