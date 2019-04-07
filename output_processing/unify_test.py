@@ -64,7 +64,7 @@ def get_results_dtype(args):
         for npi in ["any", "ever", "yet"]:
             dtype.extend([("npi=%s" % npi, "f8"), ("npi=%s_cond_3_unacceptable" % npi, "f8"), ("npi=%s_cond_4_acceptable" % npi, "f8")])
     if args.experiment_type == "polar_q":
-
+        pass
     return dtype
 
 def process_experiment(experiment_dir, args):
