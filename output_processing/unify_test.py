@@ -94,6 +94,8 @@ def process_experiment(experiment_dir, args):
                 polar_q_scores(table)
             if args.experiment_type == "npi_scope":
                 try:
+                    x = npi_scope_scores(table)
+                    print(x)
                     new_row.extend(npi_scope_scores(table))
                 except TypeError:
                     print(new_row)
