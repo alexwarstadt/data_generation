@@ -95,11 +95,12 @@ def process_experiment(experiment_dir, args):
             if args.experiment_type == "npi_scope":
                 try:
                     x = npi_scope_scores(table)
-                    print(x)
+                    print("x! ", x)
                     new_row.extend(npi_scope_scores(table))
                 except TypeError:
-                    print(new_row)
-                    print(table)
+                    pass
+                    # print(new_row)
+                    # print(table)
             if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
             results_summary.append(tuple(new_row))
@@ -155,29 +156,33 @@ def reflexives_scores(table):
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
     return results
 
-
 def npi_scope_scores(table):
     print("npi_scope_scores!")
-    in_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "0")], table)
-    out_of_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1")], table)
-    in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
-    out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
-    results = [in_domain_accuracy, out_of_domain_accuracy]
-    sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0")], table)
-    results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-    sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1")], table)
-    results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-    print(results)
-    npis = ["any", "ever", "yet"]
-    for npi in npis:
-        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi)], table)
-        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "0")], table)
-        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "1")], table)
-        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-    print(results)
-    return results
+    return []
+
+
+# def npi_scope_scores(table):
+#     print("npi_scope_scores!")
+#     in_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "0")], table)
+#     out_of_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1")], table)
+#     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
+#     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
+#     results = [in_domain_accuracy, out_of_domain_accuracy]
+#     sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0")], table)
+#     results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+#     sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1")], table)
+#     results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+#     print(results)
+#     npis = ["any", "ever", "yet"]
+#     for npi in npis:
+#         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi)], table)
+#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+#         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "0")], table)
+#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+#         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "1")], table)
+#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+#     print(results)
+#     return results
 
 
 
