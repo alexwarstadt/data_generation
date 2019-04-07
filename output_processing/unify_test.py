@@ -39,7 +39,7 @@ def process_experiment_set(args):
             results_summary_output.write("is not dir: " + exp_dir)
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
-        results_summary.append(process_experiment(sub_experiment_dir, args))
+        results_summary.extend(process_experiment(sub_experiment_dir, args))
     print(results_summary)
     results_summary = np.array(results_summary, dtype=get_results_dtype(args))
     # results_summary = np.concatenate(results_summary)
@@ -68,9 +68,9 @@ def process_experiment(experiment_dir, args):
     """
     # results_summary_output.write(experiment_dir + "\n")
     results_summary = []
-    print("process exp ", experiment_dir)
+    # print("process exp ", experiment_dir)
     for run in os.listdir(experiment_dir):
-        print("run ", run)
+        # print("run ", run)
         new_row = [experiment_dir, run]
         # new_row = np.empty((0, len(results_summary.dtype)), results_summary.dtype)
         # results_summary_output.write(run + "\n")
@@ -93,7 +93,7 @@ def process_experiment(experiment_dir, args):
                 npi_scope_scores(table)
             if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
-            results_summary.append(results_summary)
+            results_summary.append(tuple(new_row))
     return results_summary
 
 
@@ -147,7 +147,7 @@ def reflexives_scores(table):
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[1]), ("refl2", pair[0])], table)
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-    print(results)
+    # print(results)
     return results
     #     results_summary_output.write("\t".join([pair[1], pair[0], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"])]))
     # results_summary_output.write("\n")
