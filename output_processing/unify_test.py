@@ -68,6 +68,7 @@ def process_experiment(experiment_dir, args):
     results_summary = []
     print("process exp ", experiment_dir)
     for run in os.listdir(experiment_dir):
+        print("run ", run)
         new_row = [experiment_dir, run]
         # new_row = np.empty((0, len(results_summary.dtype)), results_summary.dtype)
         # results_summary_output.write(run + "\n")
@@ -144,6 +145,7 @@ def reflexives_scores(table):
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[1]), ("refl2", pair[0])], table)
         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+    print(results)
     return results
     #     results_summary_output.write("\t".join([pair[1], pair[0], sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"])]))
     # results_summary_output.write("\n")
