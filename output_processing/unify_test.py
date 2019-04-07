@@ -45,7 +45,7 @@ def process_experiment_set(args):
     results_summary = np.array(results_summary, dtype=dtype)
     # results_summary = np.concatenate(results_summary)
     print(results_summary)
-    header = ",".join(dtype.names)
+    header = ",".join(results_summary.dtype.names)
     np.savetxt(args.results_summary_output, results_summary, delimiter=",", header=header, comments='')
     # results_summary_output.close()
 
@@ -60,6 +60,7 @@ def get_results_dtype(args):
         pairs = itertools.combinations(reflexives, 2)
         for pair in pairs:
             dtype.extend([("%s %s accuracy" % (pair[0], pair[1]), "i10"), ("%s %s accuracy" % (pair[1], pair[0]), "i10")])
+    return dtype
 
 def process_experiment(experiment_dir, args):
     """
