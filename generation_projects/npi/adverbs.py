@@ -375,41 +375,25 @@ while len(sentences) < number_to_generate:
         Aux2 = return_aux(V2, N1, allow_negated=False)
         N3 = " "
 
-    # check for do/does/did for aux verbs, make the aux directly adjacent to verb.
-    # TODO: Do we need this? Only selected past and -en forms of the verb, not bare.
-    if Aux1[0] in ["do", "does", "did"]:
-        Aux1_final = ""
-        V1_final = Aux1[0] + " " + V1[0]
-    else:
-        Aux1_final = Aux1[0]
-        V1_final = V1[0]
-
-    if Aux2[0] in ["do", "does", "did"]:
-        Aux2_final = ""
-        V2_final = Aux2[0] + " " + V2[0]
-    else:
-        Aux2_final = Aux2[0]
-        V2_final = V2[0]
-
     # build sentences with frequent adverb
-    sentence_1 = "%s %s who %s %s %s %s in years %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0],
-                                                              Aux2_final, V2_final, N3[0])
-    sentence_2 = "%s %s who %s %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0],
-                                                          NPI_replacement, Aux2_final, V2_final, N3[0])
-    sentence_3 = "%s %s who %s %s %s %s %s %s %s in years ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0],
-                                                              Aux2_final, V2_final, N3[0])
-    sentence_4 = "%s %s who %s %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0],
-                                                          Aux2_final, V2_final, N3[0], NPI_replacement)
+    sentence_1 = "%s %s who %s %s %s %s in years %s %s %s ." % (D1[0], N1[0], Aux1[0], Adv_freq[0], V1[0], N2[0],
+                                                                Aux2[0], V2[0], N3[0])
+    sentence_2 = "%s %s who %s %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], Adv_freq[0], V1[0], N2[0],
+                                                          NPI_replacement, Aux2[0], V2[0], N3[0])
+    sentence_3 = "%s %s who %s %s %s %s %s %s %s in years ." % (D1[0], N1[0], Aux1[0], Adv_freq[0], V1[0], N2[0],
+                                                                Aux2[0], V2[0], N3[0])
+    sentence_4 = "%s %s who %s %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], Adv_freq[0], V1[0], N2[0],
+                                                          Aux2[0], V2[0], N3[0], NPI_replacement)
 
     # build sentences with nonfrequent adverb
-    sentence_5 = "%s %s who %s %s %s %s in years %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0],
-                                                              Aux2_final, V2_final, N3[0])
-    sentence_6 = "%s %s who %s %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0],
-                                                          NPI_replacement, Aux2_final, V2_final, N3[0])
-    sentence_7 = "%s %s who %s %s %s %s %s %s %s in years ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0],
-                                                              Aux2_final, V2_final, N3[0])
-    sentence_8 = "%s %s who %s %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, N2[0],
-                                                          Aux2_final, V2_final, N3[0], NPI_replacement)
+    sentence_5 = "%s %s who %s %s %s %s in years %s %s %s ." % (D1[0], N1[0], Aux1[0], Adv_nonfreq[0], V1[0], N2[0],
+                                                                Aux2[0], V2[0], N3[0])
+    sentence_6 = "%s %s who %s %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], Adv_nonfreq[0], V1[0], N2[0],
+                                                          NPI_replacement, Aux2[0], V2[0], N3[0])
+    sentence_7 = "%s %s who %s %s %s %s %s %s %s in years ." % (D1[0], N1[0], Aux1[0], Adv_nonfreq[0], V1[0], N2[0],
+                                                                Aux2[0], V2[0], N3[0])
+    sentence_8 = "%s %s who %s %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], Adv_nonfreq[0], V1[0], N2[0],
+                                                          Aux2[0], V2[0], N3[0], NPI_replacement)
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
