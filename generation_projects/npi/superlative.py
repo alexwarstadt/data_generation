@@ -14,7 +14,7 @@ output = open(os.path.join(project_root, rel_output_path), "w")
 # generate sentences for "ever"
 
 # set total number of paradigms to generate
-number_to_generate = 30
+number_to_generate = 1000
 sentences = set()
 
 # gather word classes that will be accessed frequently
