@@ -30,10 +30,12 @@ all_non_progressive_intransitive_verbs = get_all("ing", "0", all_intransitive_ve
 #adverbs = ('always','sometimes','often', 'now')
 
 all_institutions = get_all_conjunctive([("category","N"),("institution","1"),("sg","1")])
+all_plural_non_institutions = get_all_conjunctive([("category","N"),("institution","0"),("pl","1")])
 
 #quantity_adv = ('happily', 'angrily', 'appropriately', 'inappropriately')
 
-replace_ever = ["often", "also", "really", "certainly", "clearly"]
+replace_ever = ["often", "really", "certainly", "clearly"]
+
 any_decoys = np.concatenate((get_all("expression", "the"), get_all_conjunctive([("expression", "that"), ("category_2", "D")]),
                          get_all("expression", "this"), get_all("expression", "these"), get_all("expression", "those")))
 
@@ -201,7 +203,7 @@ while len(sentences) < number_to_generate:
             D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         else:
             # intransitive V - gives empty string for N2 and D2 slots
-            V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+            V = choice(get_matched_by(N1, "arg_1", all_intransitive_verbs))
             V = conjugate(V, N1, allow_negated=False)
             N2 = " "
             D2 = " "
@@ -426,11 +428,11 @@ while len(sentences) < number_to_generate:
             # transitive V
             V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
             V = conjugate(V, N1, allow_negated=False)
-            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+            N2 = choice(get_matches_of(V, "arg_2", all_plural_non_institutions),[N1])
             D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         else:
             # intransitive V - gives empty string for N2 and D2 slots
-            V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+            V = choice(get_matched_by(N1, "arg_1", all_intransitive_verbs))
             V = conjugate(V, N1, allow_negated=False)
             N2 = " "
             D2 = " "
