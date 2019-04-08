@@ -5,7 +5,7 @@
 
 from utils.conjugate import *
 from utils.string_utils import remove_extra_whitespace
-from random import choice
+from utils.randomize import choice
 import random
 import numpy as np
 
@@ -15,7 +15,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 100
+number_to_generate = 50
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -29,49 +29,54 @@ all_non_progressive_intransitive_verbs = get_all("ing", "0", all_intransitive_ve
 
 #adverbs = ('always','sometimes','often', 'now')
 
-sentence_final_adv = ('sometimes', 'today', 'this year', 'this week')
-quantity_adv = ('happily', 'angrily', 'appropriately', 'inappropriately')
+all_institutions = get_all_conjunctive([("category","N"),("institution","1"),("sg","1")])
+
+#quantity_adv = ('happily', 'angrily', 'appropriately', 'inappropriately')
 
 replace_ever = ["often", "also", "really", "certainly", "clearly"]
+any_decoys = np.concatenate((get_all("expression", "the"), get_all_conjunctive([("expression", "that"), ("category_2", "D")]),
+                         get_all("expression", "this"), get_all("expression", "these"), get_all("expression", "those")))
+
+replace_adv = ["regularly", "on weekends", "on occasion", "for a while", "as well"]
 
 
 
-
-
-# ever
+####################################### ever
 sentences = set()
 while len(sentences) < number_to_generate:
 
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adv = choice(replace_ever)
 
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adv = choice(replace_ever)
-
-    # select transitive or intransitive V
-    x = random.random()
-    if x < 1/2:
-        # transitive V
+        # select transitive or intransitive V
+        x = random.random()
+     #   if x < 1/2:
+            # transitive V
         V = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
         Aux = return_aux(V, N1, allow_negated=False)
-        N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns))
+        N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
         D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
-    else:
-        # intransitive V - gives empty string for N2 and D2 slots
-        V = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        Aux = return_aux(V, N1, allow_negated=False)
-        N2 = " "
-        D2 = " "
+        #else:
+            # intransitive V - gives empty string for N2 and D2 slots
+            #V = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
+            #Aux = return_aux(V, N1, allow_negated=False)
+            #N2 = " "
+            #D2 = " "
 
-    # sentence templates
-    # D1 N1 (Aux) only adv/ever V D2 N2.
-    # D1 N1 (Aux) adv/ever only V1 D2 N2.
-    # D1 N1 (Aux) also adv/ever V D2 N2.
-    # D1 N1 (Aux) adv/ever also V D2 N2.
+        # sentence templates
+        # Only D1 N1 (Aux) adv/ever V D2 N2.
+        # D1 N1 (Aux) adv/ever V1 only D2 N2.
+        # D1 N1 (Aux) also adv/ever V D2 N2.
+        # D1 N1 (Aux) adv/ever also V D2 N2.
+    except IndexError:
+        continue
 
-    sentence_1 = "%s %s %s only ever %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_2 = "%s %s %s only %s %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
-    sentence_3 = "%s %s %s ever only %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_4 = "%s %s %s %s only %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
+    sentence_1 = "only %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_2 = "only %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
+    sentence_3 = "%s %s %s ever %s only %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_4 = "%s %s %s %s %s only %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
 
     sentence_5 = "%s %s %s also ever %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
     sentence_6 = "%s %s %s also %s %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
@@ -106,7 +111,8 @@ while len(sentences) < number_to_generate:
     sentences.add(sentence_1)
 
 
-#any
+####################################### any
+
 sentences = set()
 while len(sentences) < number_to_generate:
 
@@ -115,13 +121,17 @@ while len(sentences) < number_to_generate:
     # Any/Some N1 (Aux) only V D2 N2.
     # D1 N1 (Aux) also V any/some N2.
     # Any/Some N1 (Aux) also V D2 N2.
-
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    V = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    Aux = return_aux(V, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns))
-    D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+        V = conjugate(V, N1, allow_negated=False)
+        N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+        D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
+        any_decoy_N2 = choice(get_matched_by(N2, "arg_1", any_decoys))
+        any_decoy_N1 = choice(get_matched_by(N1, "arg_1", any_decoys))
+    except IndexError:
+        continue
 
     # sentence templates
     # Only D1 N1 (Aux) V any/some N2.
@@ -129,15 +139,15 @@ while len(sentences) < number_to_generate:
     # D1 N1 (Aux) also V any/some N2.
     # Any/Some N1 (Aux) also V D2 N2.
 
-    sentence_1 = "only %s %s %s %s any %s ." % (D1[0], N1[0], Aux[0], V[0], N2[0])
-    sentence_2 = "only %s %s %s %s some %s ." % (D1[0], N1[0], Aux[0], V[0], N2[0])
-    sentence_3 = "any %s %s only %s %s %s ." % (N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_4 = "some %s %s only %s %s %s ." % (N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_1 = "only %s %s %s any %s ." % (D1[0], N1[0], V[0], N2[0])
+    sentence_2 = "only %s %s %s %s %s ." % (D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
+    sentence_3 = "any %s only %s %s %s ." % (N1[0], V[0], D2[0], N2[0])
+    sentence_4 = "%s %s only %s %s %s ." % (any_decoy_N1[0], N1[0],  V[0], D2[0], N2[0])
 
-    sentence_5 = "%s %s %s also %s any %s ." % (D1[0], N1[0], Aux[0], V[0], N2[0])
-    sentence_6 = "%s %s %s also %s some %s ." % (D1[0], N1[0], Aux[0], V[0], N2[0])
-    sentence_7 = "any %s %s also %s %s %s ." % (N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_8 = "some %s %s also %s %s %s ." % (N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_5 = "%s %s also %s any %s ." % (D1[0], N1[0], V[0], N2[0])
+    sentence_6 = "%s %s also %s %s %s ." % (D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
+    sentence_7 = "any %s also %s %s %s ." % (N1[0],  V[0], D2[0], N2[0])
+    sentence_8 = "%s %s also %s %s %s ." % (any_decoy_N1[0], N1[0], V[0], D2[0], N2[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -169,47 +179,124 @@ while len(sentences) < number_to_generate:
 
 
 
-# at all
+###################################### at all
+
 sentences = set()
 while len(sentences) < number_to_generate:
 
 
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        q_adv = choice(replace_adv)
+        fin_adv = choice(all_institutions)
 
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    q_adv = choice(quantity_adv)
-    fin_adv = choice(sentence_final_adv)
-
-    # select transitive or intransitive V
-    x = random.random()
-    if x < 1/2:
-        # transitive V
-        V = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-        Aux = return_aux(V, N1, allow_negated=False)
-        N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns))
-        D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
-    else:
-        # intransitive V - gives empty string for N2 and D2 slots
-        V = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        Aux = return_aux(V, N1, allow_negated=False)
-        N2 = " "
-        D2 = " "
+        # select transitive or intransitive V
+        x = random.random()
+        if x < 1/2:
+            # transitive V
+            V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+            V = conjugate(V, N1, allow_negated=False)
+            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+            D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
+        else:
+            # intransitive V - gives empty string for N2 and D2 slots
+            V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+            V = conjugate(V, N1, allow_negated=False)
+            N2 = " "
+            D2 = " "
+    except IndexError:
+        continue
 
     # sentence templates
-    # Only D1 N1 (Aux) V D2 N2 at all/q fin_adv
-    # D1 N1 (Aux) V D2 N2 at all/q only fin_adv
-    # D1 N1 (Aux) also V D2 N2 at all/q fin_adv
-    # D1 N1 (Aux) V D2 N2 at all/q also fin_adv
+    # Only D1 N1 (Aux) V D2 N2 at all/q at the [institution]
+    # D1 N1 (Aux) V D2 N2 at all/q only at the [institution]
+    # D1 N1 (Aux) also V D2 N2 at all/q at the [institution]
+    # D1 N1 (Aux) V D2 N2 at all/q also at the [institution]
 
-    sentence_1 = "only %s %s %s %s %s %s at all %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0], fin_adv)
-    sentence_2 = "only %s %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0], q_adv, fin_adv)
-    sentence_3 = "%s %s %s %s %s %s at all only %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0], fin_adv)
-    sentence_4 = "%s %s %s %s %s %s %s only %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0], q_adv, fin_adv)
+    sentence_1 = "only %s %s %s %s %s at all at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_2 = "only %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_3 = "%s %s %s %s %s at all only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_4 = "%s %s %s %s %s only at the %s ." % (D1[0], N1[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-    sentence_5 = "%s %s %s also %s %s %s at all %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0], fin_adv)
-    sentence_6 = "%s %s %s also %s %s %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0], q_adv, fin_adv)
-    sentence_7 = "%s %s %s %s %s %s at all also %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0], fin_adv)
-    sentence_8 = "%s %s %s %s %s %s %s also %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0], q_adv, fin_adv)
+    sentence_5 = "%s %s also %s %s %s at all at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "%s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s at all also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+
+    # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
+    sentence_1 = remove_extra_whitespace(sentence_1)
+    sentence_2 = remove_extra_whitespace(sentence_2)
+    sentence_3 = remove_extra_whitespace(sentence_3)
+    sentence_4 = remove_extra_whitespace(sentence_4)
+    sentence_5 = remove_extra_whitespace(sentence_5)
+    sentence_6 = remove_extra_whitespace(sentence_6)
+    sentence_7 = remove_extra_whitespace(sentence_7)
+    sentence_8 = remove_extra_whitespace(sentence_8)
+
+
+    # write sentences to output
+    if sentence_1 not in sentences:
+        # sentences 1-4 have only
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=atall-crucial_item=_-licensor=1-scope=1-npi_present=1", 1, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=atall-crucial_item=_-licensor=1-scope=1-npi_present=0", 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=atall-crucial_item=_-licensor=1-scope=0-npi_present=1", 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=atall-crucial_item=_-licensor=1-scope=0-npi_present=0", 1, sentence_4))
+
+        # sentences 5-8 don't have only
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=atall-crucial_item=_-licensor=0-scope=1-npi_present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=atall-crucial_item=_-licensor=0-scope=1-npi_present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=atall-crucial_item=_-licensor=0-scope=0-npi_present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=atall-crucial_item=_-licensor=0-scope=0-npi_present=0", 1, sentence_8))
+
+    sentences.add(sentence_1)
+
+
+###################################### yet
+
+sentences = set()
+while len(sentences) < number_to_generate:
+
+
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        q_adv = choice(replace_adv)
+        fin_adv = choice(all_institutions)
+
+        # select transitive or intransitive V
+        x = random.random()
+        if x < 1/2:
+            # transitive V
+            V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+            V = conjugate(V, N1, allow_negated=False)
+            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+            D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
+        else:
+            # intransitive V - gives empty string for N2 and D2 slots
+            V = choice(get_matched_by(N1, "arg_1", all_intransitive_verbs))
+            V = conjugate(V, N1, allow_negated=False)
+            N2 = " "
+            D2 = " "
+
+    except IndexError:
+        continue
+
+    # sentence templates
+    # Only D1 N1 (Aux) V D2 N2 yet/q at the [institution]
+    # D1 N1 (Aux) V D2 N2 yet/q only at the [institution]
+    # D1 N1 (Aux) also V D2 N2 yet/q at the [institution]
+    # D1 N1 (Aux) V D2 N2 yet/q also at the [institution]
+
+    sentence_1 = "only %s %s %s %s %s yet at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_2 = "only %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_3 = "%s %s %s %s %s yet only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_4 = "%s %s %s %s %s %s only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+
+    sentence_5 = "%s %s also %s %s %s yet at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "%s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s yet also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -240,6 +327,157 @@ while len(sentences) < number_to_generate:
 
 
 
+###################################### in years
+all_past_or_perfect_transitive_verbs = np.union1d(get_all("past", "1", all_transitive_verbs), get_all("en", "1", all_transitive_verbs))
+all_past_or_perfect_intransitive_verbs = np.union1d(get_all("past", "1", all_intransitive_verbs), get_all("en", "1", all_intransitive_verbs))
+
+
+sentences = set()
+while len(sentences) < number_to_generate:
+
+
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        q_adv = choice(replace_adv)
+        fin_adv = choice(all_institutions)
+
+        # select transitive or intransitive V
+        x = random.random()
+        if x < 1/2:
+            # transitive V
+            V = choice(get_matched_by(N1, "arg_1", all_past_or_perfect_transitive_verbs))
+            V = conjugate(V, N1, allow_negated=False)
+            #Aux = return_aux(V, N1, allow_negated=False)
+            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+            D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
+        else:
+            # intransitive V - gives empty string for N2 and D2 slots
+            V = choice(get_matched_by(N1, "arg_1", all_past_or_perfect_intransitive_verbs))
+            V = conjugate(V, N1, allow_negated=False)
+            #Aux = return_aux(V, N1, allow_negated=False)
+            N2 = " "
+            D2 = " "
+    except IndexError:
+        continue
+
+    # sentence templates
+    # Only D1 N1 (Aux) V D2 N2 in years/q at the [institution]
+    # D1 N1 (Aux) V D2 N2 in years/q only at the [institution]
+    # D1 N1 (Aux) also V D2 N2 in years/q at the [institution]
+    # D1 N1 (Aux) V D2 N2 in years/q also at the [institution]
+
+    sentence_1 = "only %s %s %s %s %s in years at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_2 = "only %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_3 = "%s %s %s %s %s in years only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_4 = "%s %s %s %s %s %s only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+
+    sentence_5 = "%s %s also %s %s %s in years at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "%s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s in years also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+
+    # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
+    sentence_1 = remove_extra_whitespace(sentence_1)
+    sentence_2 = remove_extra_whitespace(sentence_2)
+    sentence_3 = remove_extra_whitespace(sentence_3)
+    sentence_4 = remove_extra_whitespace(sentence_4)
+    sentence_5 = remove_extra_whitespace(sentence_5)
+    sentence_6 = remove_extra_whitespace(sentence_6)
+    sentence_7 = remove_extra_whitespace(sentence_7)
+    sentence_8 = remove_extra_whitespace(sentence_8)
+
+
+    # write sentences to output
+    if sentence_1 not in sentences:
+        # sentences 1-4 have only
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=inyears-crucial_item=_-licensor=1-scope=1-npi_present=1", 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=inyears-crucial_item=_-licensor=1-scope=1-npi_present=0", 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=inyears-crucial_item=_-licensor=1-scope=0-npi_present=1", 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=inyears-crucial_item=_-licensor=1-scope=0-npi_present=0", 1, sentence_4))
+
+        # sentences 5-8 don't have only
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=inyears-crucial_item=_-licensor=0-scope=1-npi_present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=inyears-crucial_item=_-licensor=0-scope=1-npi_present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=inyears-crucial_item=_-licensor=0-scope=0-npi_present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=inyears-crucial_item=_-licensor=0-scope=0-npi_present=0", 1, sentence_8))
+
+    sentences.add(sentence_1)
+
+
+
+###################################### either
+
+
+
+sentences = set()
+while len(sentences) < number_to_generate:
+
+
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        q_adv = choice(replace_adv)
+        fin_adv = choice(all_institutions)
+
+        # select transitive or intransitive V
+        x = random.random()
+        if x < 1/2:
+            # transitive V
+            V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+            V = conjugate(V, N1, allow_negated=False)
+            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+            D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
+        else:
+            # intransitive V - gives empty string for N2 and D2 slots
+            V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+            V = conjugate(V, N1, allow_negated=False)
+            N2 = " "
+            D2 = " "
+    except IndexError:
+        continue
+    # sentence templates
+    # Only D1 N1 (Aux) V D2 N2 either/q at the [institution]
+    # D1 N1 (Aux) V D2 N2 either/q only at the [institution]
+    # D1 N1 (Aux) also V D2 N2 either/q at the [institution]
+    # D1 N1 (Aux) V D2 N2 either/q also at the [institution]
+
+    sentence_1 = "only %s %s %s %s %s either at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_2 = "only %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_3 = "%s %s %s %s %s either only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_4 = "%s %s %s %s %s %s only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+
+    sentence_5 = "%s %s also %s %s %s either at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "%s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s either also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+
+    # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
+    sentence_1 = remove_extra_whitespace(sentence_1)
+    sentence_2 = remove_extra_whitespace(sentence_2)
+    sentence_3 = remove_extra_whitespace(sentence_3)
+    sentence_4 = remove_extra_whitespace(sentence_4)
+    sentence_5 = remove_extra_whitespace(sentence_5)
+    sentence_6 = remove_extra_whitespace(sentence_6)
+    sentence_7 = remove_extra_whitespace(sentence_7)
+    sentence_8 = remove_extra_whitespace(sentence_8)
+
+
+    # write sentences to output
+    if sentence_1 not in sentences:
+        # sentences 1-4 have only
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=yet-crucial_item=_-licensor=1-scope=1-npi_present=1", 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=yet-crucial_item=_-licensor=1-scope=1-npi_present=0", 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=yet-crucial_item=_-licensor=1-scope=0-npi_present=1", 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=yet-crucial_item=_-licensor=1-scope=0-npi_present=0", 1, sentence_4))
+
+        # sentences 5-8 don't have only
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=yet-crucial_item=_-licensor=0-scope=1-npi_present=1", 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=yet-crucial_item=_-licensor=0-scope=1-npi_present=0", 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=yet-crucial_item=_-licensor=0-scope=0-npi_present=1", 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=only-npi=yet-crucial_item=_-licensor=0-scope=0-npi_present=0", 1, sentence_8))
+
+    sentences.add(sentence_1)
 
 
 output.close()
