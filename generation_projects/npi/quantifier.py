@@ -15,7 +15,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 10
+number_to_generate = 1000
 sentences = set()
 
 # ========== GENERATE FOR ANY ===========
@@ -36,19 +36,23 @@ while len(sentences) < number_to_generate:
 
     # build all lexical items
     #TODO: throw in modifiers
-    N1 = choice(all_animate_nouns)
-    D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
-    D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
-    V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    V1 = conjugate(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
-    V2 = conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
-    any_decoy_N2 = choice(get_matched_by(N2, "arg_1", any_decoys))
-    any_decoy_N3 = choice(get_matched_by(N3, "arg_1", any_decoys))
+    try:
+        N1 = choice(all_animate_nouns)
+        D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
+        D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
+        V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+        V1 = conjugate(V1, N1, allow_negated=False)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
+        V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
+        V2 = conjugate(V2, N1, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+        D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
+        any_decoy_N2 = choice(get_matched_by(N2, "arg_1", any_decoys))
+        any_decoy_N3 = choice(get_matched_by(N3, "arg_1", any_decoys))
+    except IndexError:
+        print(N1[0], N2[0], V2[0])
+        continue
 
     # build sentences with UE quantifier
     sentence_1 = "%s %s who %s any %s %s %s %s." % (D1_up[0], N1[0], V1[0], N2[0], V2[0], D3[0], N3[0])
@@ -115,32 +119,23 @@ while len(sentences) < number_to_generate:
     # sentence template
     # D1     N1   who  (Aux)  ever  V1      the  N2      V2    D2  N3
     # every  boy  who  (has)  ever  bought  the  apples  sang  a   song
+    try:
+        N1 = choice(all_animate_nouns)
+        D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
+        D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
+        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+        Aux1 = return_aux(V1, N1, allow_negated=False)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_down, D1_up])
+        V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs), [V1])
+        Aux2 = return_aux(V2, N1, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+        D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
+        decoy = choice(["often", "also", "obviously", "clearly", "fortunately"])
+    except IndexError:
+        print(N1[0], N2[0], V2[0])
+        continue
 
-    N1 = choice(all_animate_nouns)
-    D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
-    D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
-    V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    Aux1 = return_aux(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_down, D1_up])
-    V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs), [V1])
-    Aux2 = return_aux(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
-    decoy = choice(["often", "also", "obviously", "clearly", "fortunately"])
-
-    # # the replacement for "ever" depends on the tense of the verb
-    # # if the auxiliary is empty (i.e. the main verb is finite), use the tense of the verb, else use the auxiliary
-    # if Aux1[0] == "":
-    #     emb_adv = "now" if V1["pres"] == "1" else "once"
-    # else:
-    #     emb_adv = "now" if Aux1["pres"] == "1" else "once"
-    # if Aux2[0] == "":
-    #     matrix_adv = "now" if V2["pres"] == "1" else "once"
-    # else:
-    #     matrix_adv = "now" if Aux2["pres"] == "1" else "once"
-
-    # check for do/does/did for both aux verbs, make these directly adjacent to verb.
     if Aux1[0] in ["do", "does", "did"]:
         Aux1_final = ""
         V1_final = Aux1[0] + " " + V1[0]
@@ -204,18 +199,22 @@ while len(sentences) < number_to_generate:
 
     # build all lexical items
     #TODO: throw in modifiers
-    N1 = choice(all_animate_nouns)
-    D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
-    D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
-    V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    V1 = conjugate(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
-    V2 = conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
-    decoy = choice(["regularly", "on weekends", "on occasion", "for a while", "as well"])
+    try:
+        N1 = choice(all_animate_nouns)
+        D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
+        D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
+        V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+        V1 = conjugate(V1, N1, allow_negated=False)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
+        V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
+        V2 = conjugate(V2, N1, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+        D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
+        decoy = choice(["regularly", "on weekends", "on occasion", "for a while", "as well"])
+    except IndexError:
+        print(N1[0], N2[0], V2[0])
+        continue
 
     # build sentences with UE quantifier
     sentence_1 = "%s %s who %s %s %s %s %s %s %s." % (D1_up[0], N1[0], V1[0], D2[0], N2[0], "yet", V2[0], D3[0], N3[0])
@@ -268,18 +267,22 @@ while len(sentences) < number_to_generate:
 
     # build all lexical items
     #TODO: throw in modifiers
-    N1 = choice(all_animate_nouns)
-    D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
-    D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
-    V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    V1 = conjugate(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
-    V2 = conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
-    decoy = choice(["regularly", "on weekends", "on occasion", "for a while", "as well"])
+    try:
+        N1 = choice(all_animate_nouns)
+        D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
+        D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
+        V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+        V1 = conjugate(V1, N1, allow_negated=False)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
+        V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
+        V2 = conjugate(V2, N1, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+        D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
+        decoy = choice(["regularly", "on weekends", "on occasion", "for a while", "as well"])
+    except IndexError:
+        print(N1[0], N2[0], V2[0])
+        continue
 
     # build sentences with UE quantifier
     sentence_1 = "%s %s who %s %s %s %s %s %s %s." % (D1_up[0], N1[0], V1[0], D2[0], N2[0], "at all", V2[0], D3[0], N3[0])
@@ -335,18 +338,22 @@ while len(sentences) < number_to_generate:
 
     # build all lexical items
     #TODO: throw in modifiers
-    N1 = choice(all_animate_nouns)
-    D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
-    D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
-    V1 = choice(get_matched_by(N1, "arg_1", all_past_or_perfect_verbs))
-    V1 = conjugate(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
-    V2 = choice(get_matched_by(N1, "arg_1", all_past_or_perfect_verbs), [V1])
-    V2 = conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
-    decoy = choice(["regularly", "on weekends", "on occasion", "for a while", "as well"])
+    try:
+        N1 = choice(all_animate_nouns)
+        D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
+        D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
+        V1 = choice(get_matched_by(N1, "arg_1", all_past_or_perfect_verbs))
+        V1 = conjugate(V1, N1, allow_negated=False)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
+        V2 = choice(get_matched_by(N1, "arg_1", all_past_or_perfect_verbs), [V1])
+        V2 = conjugate(V2, N1, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+        D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
+        decoy = choice(["regularly", "on weekends", "on occasion", "for a while", "as well"])
+    except IndexError:
+        print(N1[0], N2[0], V2[0])
+        continue
 
     # build sentences with UE quantifier
     sentence_1 = "%s %s who %s %s %s %s %s %s %s." % (D1_up[0], N1[0], V1[0], D2[0], N2[0], "in years", V2[0], D3[0], N3[0])
@@ -401,18 +408,22 @@ while len(sentences) < number_to_generate:
 
     # build all lexical items
     #TODO: throw in modifiers
-    N1 = choice(all_animate_nouns)
-    D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
-    D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
-    V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    V1 = conjugate(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
-    D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
-    V2 = conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
-    D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
-    decoy = choice(["regularly", "on weekends", "on occasion", "for a while", "as well"])
+    try:
+        N1 = choice(all_animate_nouns)
+        D1_up = choice(get_matched_by(N1, "arg_1", all_UE_UE_quantifiers))
+        D1_down = choice(get_matched_by(N1, "arg_1", all_DE_UE_quantifiers))
+        V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+        V1 = conjugate(V1, N1, allow_negated=False)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        D2 = choice(get_matched_by(N2, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])       # restrict to UE quantifiers, otherwise there could be another licensor
+        V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
+        V2 = conjugate(V2, N1, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
+        D3 = choice(get_matched_by(N3, "arg_1", all_UE_UE_quantifiers), [D1_up, D1_down])
+        decoy = choice(["regularly", "on weekends", "on occasion", "for a while", "as well"])
+    except IndexError:
+        print(N1[0], N2[0], V2[0])
+        continue
 
     # build sentences with UE quantifier
     sentence_1 = "%s %s who %s %s %s %s %s %s %s." % (D1_up[0], N1[0], V1[0], D2[0], N2[0], "either", V2[0], D3[0], N3[0])
