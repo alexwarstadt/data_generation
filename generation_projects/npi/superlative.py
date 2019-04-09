@@ -3,7 +3,7 @@
 
 from utils.conjugate import *
 from utils.string_utils import remove_extra_whitespace
-from random import choice
+from utils.randomize import choice
 import numpy as np
 
 # initialize output file
@@ -165,7 +165,7 @@ while len(sentences) < number_to_generate:
     except IndexError:
         print(N1[0], N2[0])
         continue
-
+        
     # check for do/does/did for Aux1 (Aux2 is always had/has/have), make the aux directly adjacent to verb.
     if Aux1[0] in ["do", "does", "did"]:
         Aux1_final = ""
