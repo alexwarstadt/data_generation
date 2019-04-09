@@ -250,6 +250,9 @@ while len(sentences) < number_to_generate:
     except IndexError:
         print(N1[0], N2[0])
         continue
+    except TypeError:
+        print("Type error")
+        continue
 
     # build sentences with plain adjective
     sentence_1 = "%s %s who %s the %s %s at all %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0],
@@ -326,6 +329,9 @@ while len(sentences) < number_to_generate:
         NPI_replacement = choice(adverb_npi_replacements)
     except IndexError:
         print(N1[0], N2[0])
+        continue
+    except TypeError:
+        print("Type error")
         continue
 
     # build sentences with plain adjective
@@ -405,6 +411,9 @@ while len(sentences) < number_to_generate:
     except IndexError:
         print(N1[0], N2[0])
         continue
+    except TypeError:
+        print("Type error")
+        continue
 
     # build sentences with plain adjective
     sentence_1 = "%s %s who %s the %s %s in years %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0],
@@ -482,6 +491,9 @@ while len(sentences) < number_to_generate:
         NPI_replacement = choice(adverb_npi_replacements)
     except IndexError:
         print(N1[0], N2[0])
+        continue
+    except TypeError:
+        print("Type error")
         continue
 
     # build sentences with plain adjective
