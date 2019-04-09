@@ -1,160 +1,160 @@
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		a waitress does not ever bring the gloves .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		a waitress does not clearly bring the gloves .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		a waitress does ever not bring the gloves .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		a waitress does clearly not bring the gloves .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		a waitress does really ever bring the gloves .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		a waitress does really clearly bring the gloves .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		a waitress does ever really bring the gloves .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		a waitress does clearly really bring the gloves .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		a person had not ever lied .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		a person had not certainly lied .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		a person had ever not lied .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		a person had certainly not lied .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		a person had really ever lied .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		a person had really certainly lied .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		a person had ever really lied .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		a person had certainly really lied .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the gals had not ever attacked the adults .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the gals had not really attacked the adults .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the gals had ever not attacked the adults .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the gals had really not attacked the adults .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the gals had really ever attacked the adults .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the gals had really really attacked the adults .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the gals had ever really attacked the adults .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the gals had really really attacked the adults .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the guy would not ever retaliate .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the guy would not also retaliate .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the guy would ever not retaliate .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the guy would also not retaliate .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the guy would really ever retaliate .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the guy would really also retaliate .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the guy would ever really retaliate .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the guy would also really retaliate .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		a gal could not ever exit the banks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		a gal could not often exit the banks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		a gal could ever not exit the banks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		a gal could often not exit the banks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		a gal could really ever exit the banks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		a gal could really often exit the banks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		a gal could ever really exit the banks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		a gal could often really exit the banks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the drivers are not ever selling the report .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the drivers are not really selling the report .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the drivers are ever not selling the report .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the drivers are really not selling the report .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the drivers are really ever selling the report .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the drivers are really really selling the report .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the drivers are ever really selling the report .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the drivers are really really selling the report .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the people are not ever playing .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the people are not really playing .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the people are ever not playing .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the people are really not playing .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the people are really ever playing .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the people are really really playing .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the people are ever really playing .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the people are really really playing .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the children do not ever hunt .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the children do not certainly hunt .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the children do ever not hunt .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the children do certainly not hunt .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the children do really ever hunt .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the children do really certainly hunt .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the children do ever really hunt .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the children do certainly really hunt .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the men do not ever reference the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the men do not also reference the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the men do ever not reference the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the men do also not reference the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the men do really ever reference the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the men do really also reference the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the men do ever really reference the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the men do also really reference the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the patients are not ever dying .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the patients are not often dying .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the patients are ever not dying .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the patients are often not dying .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the patients are really ever dying .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the patients are really often dying .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the patients are ever really dying .
-experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the patients are often really dying .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the doctors had not ran around any public parks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the doctors had not ran around those public parks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any doctors had not ran around those public parks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the doctors had not ran around those public parks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the doctors had really ran around any public parks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the doctors had really ran around those public parks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any doctors had really ran around the public parks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the doctors had really ran around the public parks .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the people might not escape from any children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the people might not escape from the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any people might not escape from the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the people might not escape from the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the people might really escape from any children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the people might really escape from the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any people might really escape from the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the people might really escape from the children .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		those children had not dropped by any college campuses .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		those children had not dropped by the college campuses .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any children had not dropped by the college campuses .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		those children had not dropped by the college campuses .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		those children had really dropped by any college campuses .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		those children had really dropped by the college campuses .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any children had really dropped by those college campuses .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		those children had really dropped by those college campuses .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		that teenagers did not like any gals .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		that teenagers did not like the gals .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any teenagers did not like the gals .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		that teenagers did not like the gals .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		that teenagers did really like any gals .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		that teenagers did really like the gals .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any teenagers did really like that gals .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		that teenagers did really like that gals .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		those people are not going to any libraries .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		those people are not going to that libraries .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any people are not going to that libraries .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		those people are not going to that libraries .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		those people are really going to any libraries .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		those people are really going to that libraries .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any people are really going to those libraries .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		those people are really going to those libraries .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		that guests were not returning to any humans .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		that guests were not returning to those humans .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any guests were not returning to those humans .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		that guests were not returning to those humans .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		that guests were really returning to any humans .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		that guests were really returning to those humans .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any guests were really returning to that humans .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		that guests were really returning to that humans .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		that students should not clean any rugs .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		that students should not clean these rugs .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any students should not clean these rugs .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		that students should not clean these rugs .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		that students should really clean any rugs .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		that students should really clean these rugs .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any students should really clean that rugs .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		that students should really clean that rugs .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		those actors are not wearing any pants .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		those actors are not wearing these pants .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any actors are not wearing these pants .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		those actors are not wearing these pants .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		those actors are really wearing any pants .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		those actors are really wearing these pants .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any actors are really wearing those pants .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		those actors are really wearing those pants .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the customers had not bought any books .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the customers had not bought that books .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any customers had not bought that books .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the customers had not bought that books .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the customers had really bought any books .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the customers had really bought that books .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any customers had really bought the books .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the customers had really bought the books .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		these students can not drive to any grocery stores .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		these students can not drive to that grocery stores .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any students can not drive to that grocery stores .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		these students can not drive to that grocery stores .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		these students can really drive to any grocery stores .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		these students can really drive to that grocery stores .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any students can really drive to these grocery stores .
-experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		these students can really drive to these grocery stores .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		a student had not ever left the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		a student had not really left the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		a student had ever not left the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		a student had really not left the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		a student had really ever left the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		a student had really really left the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		a student had ever really left the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		a student had really really left the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the boy has not ever attacked the gals .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the boy has not often attacked the gals .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the boy has ever not attacked the gals .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the boy has often not attacked the gals .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the boy has really ever attacked the gals .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the boy has really often attacked the gals .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the boy has ever really attacked the gals .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the boy has often really attacked the gals .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the men have not ever hated the humans .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the men have not really hated the humans .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the men have ever not hated the humans .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the men have really not hated the humans .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the men have really ever hated the humans .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the men have really really hated the humans .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the men have ever really hated the humans .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the men have really really hated the humans .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		a teacher was not ever spinning around .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		a teacher was not certainly spinning around .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		a teacher was ever not spinning around .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		a teacher was certainly not spinning around .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		a teacher was really ever spinning around .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		a teacher was really certainly spinning around .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		a teacher was ever really spinning around .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		a teacher was certainly really spinning around .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		a boy will not ever observe the teacher .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		a boy will not certainly observe the teacher .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		a boy will ever not observe the teacher .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		a boy will certainly not observe the teacher .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		a boy will really ever observe the teacher .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		a boy will really certainly observe the teacher .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		a boy will ever really observe the teacher .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		a boy will certainly really observe the teacher .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the cashiers are not ever fighting .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the cashiers are not often fighting .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the cashiers are ever not fighting .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the cashiers are often not fighting .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the cashiers are really ever fighting .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the cashiers are really often fighting .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the cashiers are ever really fighting .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the cashiers are often really fighting .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		a girl was not ever going to the college campuses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		a girl was not certainly going to the college campuses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		a girl was ever not going to the college campuses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		a girl was certainly not going to the college campuses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		a girl was really ever going to the college campuses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		a girl was really certainly going to the college campuses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		a girl was ever really going to the college campuses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		a girl was certainly really going to the college campuses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the gals were not ever retaliating .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the gals were not often retaliating .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the gals were ever not retaliating .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the gals were often not retaliating .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the gals were really ever retaliating .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the gals were really often retaliating .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the gals were ever really retaliating .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the gals were often really retaliating .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the driver is not ever hugging a pedestrian .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the driver is not really hugging a pedestrian .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the driver is ever not hugging a pedestrian .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the driver is really not hugging a pedestrian .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the driver is really ever hugging a pedestrian .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the driver is really really hugging a pedestrian .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the driver is ever really hugging a pedestrian .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the driver is really really hugging a pedestrian .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the guys did not ever remember the public parks .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the guys did not often remember the public parks .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1	0		the guys did ever not remember the public parks .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the guys did often not remember the public parks .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the guys did really ever remember the public parks .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the guys did really often remember the public parks .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1	0		the guys did ever really remember the public parks .
+experiment=NPI-env=sentential_negation_monoclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the guys did often really remember the public parks .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		these pedestrians are not returning to any actresses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		these pedestrians are not returning to those actresses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any pedestrians are not returning to those actresses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		these pedestrians are not returning to those actresses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		these pedestrians are really returning to any actresses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		these pedestrians are really returning to those actresses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any pedestrians are really returning to these actresses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		these pedestrians are really returning to these actresses .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		those students have not exited any art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		those students have not exited those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any students have not exited those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		those students have not exited those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		those students have really exited any art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		those students have really exited those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any students have really exited those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		those students have really exited those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		those men might not help any adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		those men might not help the adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any men might not help the adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		those men might not help the adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		those men might really help any adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		those men might really help the adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any men might really help those adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		those men might really help those adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		these women could not leave any art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		these women could not leave those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any women could not leave those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		these women could not leave those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		these women could really leave any art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		these women could really leave those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any women could really leave these art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		these women could really leave these art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		the waitresses were not observing any waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		the waitresses were not observing the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any waitresses were not observing the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		the waitresses were not observing the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		the waitresses were really observing any waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		the waitresses were really observing the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any waitresses were really observing the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		the waitresses were really observing the waiters .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		those customers can not escape from any adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		those customers can not escape from these adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any customers can not escape from these adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		those customers can not escape from these adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		those customers can really escape from any adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		those customers can really escape from these adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any customers can really escape from those adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		those customers can really escape from those adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		these patients had not boycotted any schools .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		these patients had not boycotted the schools .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any patients had not boycotted the schools .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		these patients had not boycotted the schools .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		these patients had really boycotted any schools .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		these patients had really boycotted the schools .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any patients had really boycotted these schools .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		these patients had really boycotted these schools .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		those gals have not cleaned any shoes .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		those gals have not cleaned those shoes .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any gals have not cleaned those shoes .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		those gals have not cleaned those shoes .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		those gals have really cleaned any shoes .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		those gals have really cleaned those shoes .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any gals have really cleaned those shoes .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		those gals have really cleaned those shoes .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		those actors will not dislike any art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		those actors will not dislike those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any actors will not dislike those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		those actors will not dislike those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		those actors will really dislike any art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		those actors will really dislike those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any actors will really dislike those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		those actors will really dislike those art galleries .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1	1		these waitresses were not escaping from any adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0	1		these waitresses were not escaping from these adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1	0		any waitresses were not escaping from these adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0	1		these waitresses were not escaping from these adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1	0		these waitresses were really escaping from any adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0	1		these waitresses were really escaping from these adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1	0		any waitresses were really escaping from these adults .
+experiment=NPI-env=sentential_negation_monoclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0	1		these waitresses were really escaping from these adults .
