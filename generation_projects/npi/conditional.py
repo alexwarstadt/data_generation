@@ -37,7 +37,7 @@ while len(sentences) < number_to_generate:
     decoy = choice(["often", "also", "obviously", "clearly", "fortunately"])
 
     # build sentences with conditional environment
-    sentence_1 = "if the %s ever %s the %s, the %s  %s the %s ." % (N1[0], V1[0], N2[0], N1[0], V2[0], N3[0])
+    sentence_1 = "if the %s ever %s  the %s, the %s  %s the %s ." % (N1[0], V1[0], N2[0], N1[0], V2[0], N3[0])
     sentence_2 = "if the %s %s %s the %s, the %s  %s the %s ." % (N1[0], decoy, V1[0], N2[0], N1[0], V2[0], N3[0])
     sentence_3 = "if the %s %s the %s, the %s ever %s the %s ." % (N1[0], V1[0], N2[0], N1[0], V2[0], N3[0])
     sentence_4 = "if the %s %s the %s, the %s %s %s the %s ." % (N1[0], V1[0], N2[0], N1[0], decoy, V2[0], N3[0])

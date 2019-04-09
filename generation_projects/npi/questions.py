@@ -74,9 +74,9 @@ while len(sentences) < number_to_generate:
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
 
-    sentences = set()
-    all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
-    while len(sentences) < number_to_generate:
+sentences = set()
+all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
+while len(sentences) < number_to_generate:
         # sentence template
         # N1    wonders  whether   N2    V1  any N3
         # Ann   wonders  whether  James  ate  any apples
@@ -155,8 +155,8 @@ while len(sentences) < number_to_generate:
             sentence_4 = "the %s wonder %s whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # build sentences with conditional-like environment
-            sentence_5 = "the %s know that the %s %s  %s yet." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
+            sentence_5 = "the %s know that the %s %s the %s yet." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_6 = "the %s know that the %s %s the %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
             sentence_7 = "the %s know yet that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
             sentence_8 = "the %s know %s that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
@@ -192,9 +192,9 @@ while len(sentences) < number_to_generate:
 
             sentences.add(sentence_1)
 
-        sentences = set()
-        all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
-        while len(sentences) < number_to_generate:
+sentences = set()
+all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
+while len(sentences) < number_to_generate:
             # sentence template
             # N1    wonders  whether   N2    V1  N3 at all
             # Ann   wonders  whether  James  ate  apples at all
@@ -214,8 +214,8 @@ while len(sentences) < number_to_generate:
             sentence_4 = "the %s wonder %s whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # build sentences with conditional-like environment
-            sentence_5 = "the %s know that the %s %s  %s at all." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
+            sentence_5 = "the %s know that the %s %s the %s at all." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_6 = "the %s know that the %s %s the %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
             sentence_7 = "the %s know at all that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
             sentence_8 = "the %s know  %s that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
@@ -251,9 +251,10 @@ while len(sentences) < number_to_generate:
 
             sentences.add(sentence_1)
 
-        sentences = set()
-        all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
-        while len(sentences) < number_to_generate:
+sentences = set()
+
+all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
+while len(sentences) < number_to_generate:
             # sentence template
             # N1    wonders  whether   N2    V1  N3 in years
             # Ann   wonders  whether  James  ate  apples in years
@@ -267,14 +268,14 @@ while len(sentences) < number_to_generate:
 
 
             # build sentences with conditional environment
-            sentence_1 = "the %s wonder whether the %s %s %s in years." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_2 = "the %s wonder whether the %s  %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_3 = "the %s wonder in years whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_4 = "the %s  wonder %s whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_1 = "the %s wonder whether the %s %s the %s in years." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_2 = "the %s wonder whether the %s  %s the %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
+            sentence_3 = "the %s wonder in years whether the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_4 = "the %s  wonder %s whether the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # build sentences with conditional-like environment
             sentence_5 = "the %s know that the %s %s  %s in years." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
+            sentence_6 = "the %s know that the %s %s the %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
             sentence_7 = "the %s know in years that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
             sentence_8 = "the %s know  %s that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
@@ -310,9 +311,11 @@ while len(sentences) < number_to_generate:
 
             sentences.add(sentence_1)
 
-        sentences = set()
-        all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
-        while len(sentences) < number_to_generate:
+
+sentences = set()
+
+all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
+while len(sentences) < number_to_generate:
             # sentence template
             # N1    wonders  whether   N2    V1  N3 in years
             # Ann   wonders  whether  James  ate  apples in years
@@ -326,14 +329,14 @@ while len(sentences) < number_to_generate:
 
 
             # build sentences with conditional environment
-            sentence_1 = "the %s wonder whether the %s %s %s either." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_2 = "the %s wonder whether the %s  %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_3 = "the %s wonder either whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_4 = "the %s wonder %s whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_1 = "the %s wonder whether the %s %s the %s either." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_2 = "the %s wonder whether the %s  %s the %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
+            sentence_3 = "the %s wonder either whether the %s %s  the %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_4 = "the %s wonder %s whether the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # build sentences with conditional-like environment
-            sentence_5 = "the %s know that the %s %s  %s either." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
+            sentence_5 = "the %s know that the %s %s the  %s either." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_6 = "the %s know that the %s %s the %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
             sentence_7 = "the %s know either that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
             sentence_8 = "the %s know %s that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
