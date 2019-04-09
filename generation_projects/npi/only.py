@@ -34,7 +34,7 @@ all_plural_non_institutions = get_all_conjunctive([("category","N"),("institutio
 
 #quantity_adv = ('happily', 'angrily', 'appropriately', 'inappropriately')
 
-replace_ever = ["often", "really", "certainly", "clearly"]
+replace_ever = ["often", "also", "really", "certainly", "clearly"]
 
 any_decoys = np.concatenate((get_all("expression", "the"), get_all_conjunctive([("expression", "that"), ("category_2", "D")]),
                          get_all("expression", "this"), get_all("expression", "these"), get_all("expression", "those")))
@@ -80,10 +80,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s %s %s ever %s only %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
     sentence_4 = "%s %s %s %s %s only %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
 
-    sentence_5 = "%s %s %s also ever %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_6 = "%s %s %s also %s %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
-    sentence_7 = "%s %s %s ever also %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_8 = "%s %s %s %s also %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
+    sentence_5 = "even %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_6 = "even %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
+    sentence_7 = "%s %s %s ever %s even %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_8 = "%s %s %s %s %s even %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -146,10 +146,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "any %s only %s %s %s ." % (N1[0], V[0], D2[0], N2[0])
     sentence_4 = "%s %s only %s %s %s ." % (any_decoy_N1[0], N1[0],  V[0], D2[0], N2[0])
 
-    sentence_5 = "%s %s also %s any %s ." % (D1[0], N1[0], V[0], N2[0])
-    sentence_6 = "%s %s also %s %s %s ." % (D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
-    sentence_7 = "any %s also %s %s %s ." % (N1[0],  V[0], D2[0], N2[0])
-    sentence_8 = "%s %s also %s %s %s ." % (any_decoy_N1[0], N1[0], V[0], D2[0], N2[0])
+    sentence_5 = "even %s %s %s any %s ." % (D1[0], N1[0], V[0], N2[0])
+    sentence_6 = "even %s %s %s %s %s ." % (D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
+    sentence_7 = "any %s even %s %s %s ." % (N1[0],  V[0], D2[0], N2[0])
+    sentence_8 = "%s %s even %s %s %s ." % (any_decoy_N1[0], N1[0], V[0], D2[0], N2[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -221,10 +221,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s %s %s %s %s at all only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_4 = "%s %s %s %s %s only at the %s ." % (D1[0], N1[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-    sentence_5 = "%s %s also %s %s %s at all at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "%s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s at all also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_5 = "even %s %s %s %s %s at all at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s at all even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -295,10 +295,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s %s %s %s %s yet only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_4 = "%s %s %s %s %s %s only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-    sentence_5 = "%s %s also %s %s %s yet at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "%s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s yet also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_5 = "even %s %s %s %s %s yet at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s yet even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -374,10 +374,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s %s %s %s %s in years only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_4 = "%s %s %s %s %s %s only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-    sentence_5 = "%s %s also %s %s %s in years at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "%s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s in years also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_5 = "even %s %s %s %s %s in years at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s in years even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -449,10 +449,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s %s %s %s %s either only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_4 = "%s %s %s %s %s %s only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-    sentence_5 = "%s %s also %s %s %s either at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "%s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s either also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s also at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_5 = "even %s %s also %s %s %s either at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "even %s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s either even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
