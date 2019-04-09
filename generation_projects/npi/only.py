@@ -15,7 +15,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 50
+number_to_generate = 1000
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -115,6 +115,7 @@ while len(sentences) < number_to_generate:
 
     sentences.add(sentence_1)
 
+output.flush()
 
 ####################################### any
 
@@ -182,6 +183,7 @@ while len(sentences) < number_to_generate:
     sentences.add(sentence_1)
 
 
+output.flush()
 
 
 ###################################### at all
@@ -257,6 +259,8 @@ while len(sentences) < number_to_generate:
     sentences.add(sentence_1)
 
 
+output.flush()
+
 ###################################### yet
 
 sentences = set()
@@ -331,6 +335,7 @@ while len(sentences) < number_to_generate:
     sentences.add(sentence_1)
 
 
+output.flush()
 
 ###################################### in years
 all_past_or_perfect_transitive_verbs = np.union1d(get_all("past", "1", all_transitive_verbs), get_all("en", "1", all_transitive_verbs))
@@ -409,6 +414,7 @@ while len(sentences) < number_to_generate:
 
     sentences.add(sentence_1)
 
+output.flush()
 
 
 ###################################### either

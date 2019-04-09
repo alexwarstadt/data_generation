@@ -17,7 +17,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 10
+number_to_generate = 1000
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -128,6 +128,8 @@ while len(sentences) < number_to_generate:
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
 
+
+output.flush()
 # -------------------------
 # Sentence final NPI
 
