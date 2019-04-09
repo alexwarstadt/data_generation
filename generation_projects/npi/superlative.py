@@ -145,7 +145,7 @@ while len(sentences) < number_to_generate:
 
     # build all lexical items
     try:
-        N1 = choice(all_animate_nouns)
+        N1 = choice(all_non_singular_nouns)
         NPI_replacement_N1 = choice(get_matched_by(N1, "arg_1", any_replacements))
         Adj_super = choice(all_superlative_adjectives)
         Adj = choice(get_all("expression", Adj_super["adjs"]))
