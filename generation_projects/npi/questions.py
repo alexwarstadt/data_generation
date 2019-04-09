@@ -34,18 +34,19 @@ while len(sentences) < number_to_generate:
     V1 = choice(get_matched_by(N2, "arg_1", all_transitive_verbs))
     conjugate(V1, N2)
     N3 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
+    decoy = choice(["often", "also", "obviously", "clearly", "fortunately"])
 
     # build sentences with conditional environment
     sentence_1 = "the %s wonder whether the %s ever %s the %s." % (N1[0], N2[0], V1[0], N3[0])
-    sentence_2 = "the %s wonder whether the %s often %s the %s." % (N1[0], N2[0], V1[0], N3[0])
+    sentence_2 = "the %s wonder whether the %s %s %s the %s." % (N1[0], N2[0], decoy, V1[0], N3[0])
     sentence_3 = "the %s ever wonder whether the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
-    sentence_4 = "the %s often wonder whether the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
+    sentence_4 = "the %s %s wonder whether the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
     # build sentences with conditional-like environment
     sentence_5 = "the %s know that the %s ever %s the %s." % (N1[0], N2[0], V1[0], N3[0])
-    sentence_6 = "the %s know that the %s often %s the %s." % (N1[0], N2[0], V1[0], N3[0])
+    sentence_6 = "the %s know that the %s %s %s the %s." % (N1[0], N2[0], decoy, V1[0], N3[0])
     sentence_7 = "the %s ever know that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
-    sentence_8 = "the %s often know that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
+    sentence_8 = "the %s %s know that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
     # remove doubled up spaces
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -150,14 +151,14 @@ while len(sentences) < number_to_generate:
             # build sentences with conditional environment
             sentence_1 = "the %s wonder whether the %s %s %s yet." % (N1[0], N2[0], V1[0], N3[0])
             sentence_2 = "the %s wonder whether the %s  %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_3 = "the %s any wonder whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_4 = "the %s %s wonder whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_3 = "the %s wonder yet whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_4 = "the %s wonder %s whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # build sentences with conditional-like environment
             sentence_5 = "the %s know that the %s %s  %s yet." % (N1[0], N2[0], V1[0], N3[0])
             sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_7 = "the %s yet know that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_8 = "the %s %s know that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_7 = "the %s know yet that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_8 = "the %s know %s that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # remove doubled up spaces
             sentence_1 = remove_extra_whitespace(sentence_1)
@@ -209,14 +210,14 @@ while len(sentences) < number_to_generate:
             # build sentences with conditional environment
             sentence_1 = "the %s wonder whether the %s %s %s at all." % (N1[0], N2[0], V1[0], N3[0])
             sentence_2 = "the %s wonder whether the %s  %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_3 = "the %s at all wonder whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_4 = "the %s %s wonder whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_3 = "the %s wonder at all  whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_4 = "the %s wonder %s whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # build sentences with conditional-like environment
             sentence_5 = "the %s know that the %s %s  %s at all." % (N1[0], N2[0], V1[0], N3[0])
             sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_7 = "the %s at all know that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_8 = "the %s %s know that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_7 = "the %s know at all that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_8 = "the %s know  %s that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # remove doubled up spaces
             sentence_1 = remove_extra_whitespace(sentence_1)
@@ -268,14 +269,14 @@ while len(sentences) < number_to_generate:
             # build sentences with conditional environment
             sentence_1 = "the %s wonder whether the %s %s %s in years." % (N1[0], N2[0], V1[0], N3[0])
             sentence_2 = "the %s wonder whether the %s  %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_3 = "the %s in years wonder whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_4 = "the %s %s wonder whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_3 = "the %s wonder in years whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_4 = "the %s  wonder %s whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # build sentences with conditional-like environment
             sentence_5 = "the %s know that the %s %s  %s in years." % (N1[0], N2[0], V1[0], N3[0])
             sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_7 = "the %s in years know that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_8 = "the %s %s know that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_7 = "the %s know in years that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_8 = "the %s know  %s that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # remove doubled up spaces
             sentence_1 = remove_extra_whitespace(sentence_1)
@@ -327,14 +328,14 @@ while len(sentences) < number_to_generate:
             # build sentences with conditional environment
             sentence_1 = "the %s wonder whether the %s %s %s either." % (N1[0], N2[0], V1[0], N3[0])
             sentence_2 = "the %s wonder whether the %s  %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_3 = "the %s either wonder whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_4 = "the %s %s wonder whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_3 = "the %s wonder either whether the %s %s  %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_4 = "the %s wonder %s whether the %s %s  %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # build sentences with conditional-like environment
             sentence_5 = "the %s know that the %s %s  %s either." % (N1[0], N2[0], V1[0], N3[0])
             sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
-            sentence_7 = "the %s either know that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_8 = "the %s %s know that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
+            sentence_7 = "the %s know either that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
+            sentence_8 = "the %s know %s that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
             # remove doubled up spaces
             sentence_1 = remove_extra_whitespace(sentence_1)
