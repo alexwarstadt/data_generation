@@ -56,22 +56,26 @@ while len(sentences) < number_to_generate:
     # The/a boy (has)  bought the fastest   car that the girl had  ever seen.
 
     # build all lexical items
-    N1 = choice(all_animate_nouns) # boy
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adj_super = choice(all_superlative_adjectives) # fastest
-    Adj = choice(get_all("expression", Adj_super["adjs"])) # fast
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns)) # car
-    # select verb that selects for N1, N2
-    V1_options = np.array(list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
-                                      all_non_progressive_transitive_verbs)), dtype=data_type)
-    V1 = choice(V1_options) # bought
-    Aux1 = return_aux(V1, N1, allow_negated=False)
-    # select -en verb that selects for N2
-    V2_options = np.array(list(filter(lambda x: is_match_disj(N2, x["arg_2"]), all_en_verbs)), dtype=data_type)
-    V2 = choice(V2_options)
-    N3 = choice(get_matches_of(V2, "arg_1", all_nouns))  # girl
-    Aux2 = return_aux(V2, N3, allow_negated=False) # had or has
-    NPI_replacement = choice(ever_replacements)
+    try:
+        N1 = choice(all_animate_nouns) # boy
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adj_super = choice(all_superlative_adjectives) # fastest
+        Adj = choice(get_all("expression", Adj_super["adjs"])) # fast
+        N2 = choice(get_matches_of(Adj, "arg_1", all_nouns)) # car
+        # select verb that selects for N1, N2
+        V1_options = np.array(list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
+                                          all_non_progressive_transitive_verbs)), dtype=data_type)
+        V1 = choice(V1_options) # bought
+        Aux1 = return_aux(V1, N1, allow_negated=False)
+        # select -en verb that selects for N2
+        V2_options = np.array(list(filter(lambda x: is_match_disj(N2, x["arg_2"]), all_en_verbs)), dtype=data_type)
+        V2 = choice(V2_options)
+        N3 = choice(get_matches_of(V2, "arg_1", all_nouns))  # girl
+        Aux2 = return_aux(V2, N3, allow_negated=False) # had or has
+        NPI_replacement = choice(ever_replacements)
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # check for do/does/did for Aux1 (Aux2 is always had/has/have), make the aux directly adjacent to verb.
     if Aux1[0] in ["do", "does", "did"]:
@@ -140,23 +144,27 @@ while len(sentences) < number_to_generate:
     # The/any boys (have) eaten the biggest   burger that the/any waitresses had   seen.
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    NPI_replacement_N1 = choice(get_matched_by(N1, "arg_1", any_replacements))
-    Adj_super = choice(all_superlative_adjectives)
-    Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
-    # select verb that selects for N1, N2
-    V1_options = np.array(
-        list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
-                    all_transitive_verbs)), dtype=data_type)
-    V1 = choice(V1_options)
-    Aux1 = return_aux(V1, N1, allow_negated=False)
-    # select -en verb that selects for N2
-    V2_options = np.array(list(filter(lambda x: is_match_disj(N2, x["arg_2"]), all_en_verbs)), dtype=data_type)
-    V2 = choice(V2_options)
-    N3 = choice(get_matches_of(V2, "arg_1", all_non_singular_nouns))
-    Aux2 = return_aux(V2, N3, allow_negated=False)
-    NPI_replacement_N3 = choice(get_matched_by(N3, "arg_1", any_replacements))
+    try:
+        N1 = choice(all_animate_nouns)
+        NPI_replacement_N1 = choice(get_matched_by(N1, "arg_1", any_replacements))
+        Adj_super = choice(all_superlative_adjectives)
+        Adj = choice(get_all("expression", Adj_super["adjs"]))
+        N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+        # select verb that selects for N1, N2
+        V1_options = np.array(
+            list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
+                        all_transitive_verbs)), dtype=data_type)
+        V1 = choice(V1_options)
+        Aux1 = return_aux(V1, N1, allow_negated=False)
+        # select -en verb that selects for N2
+        V2_options = np.array(list(filter(lambda x: is_match_disj(N2, x["arg_2"]), all_en_verbs)), dtype=data_type)
+        V2 = choice(V2_options)
+        N3 = choice(get_matches_of(V2, "arg_1", all_non_singular_nouns))
+        Aux2 = return_aux(V2, N3, allow_negated=False)
+        NPI_replacement_N3 = choice(get_matched_by(N3, "arg_1", any_replacements))
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # check for do/does/did for Aux1 (Aux2 is always had/has/have), make the aux directly adjacent to verb.
     if Aux1[0] in ["do", "does", "did"]:
@@ -224,20 +232,24 @@ while len(sentences) < number_to_generate:
     # The boys who ate     the biggest   burger (at all/on weekends) (Aux2) sang songs (at all/on weekends).
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adj_super = choice(all_superlative_adjectives)
-    Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
-    # select verb that selects for N1, N2
-    V1_options = np.array(
-        list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
-                    all_past_verbs)), dtype=data_type)
-    V1 = choice(V1_options)
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    Aux2 = return_aux(V2, N3, allow_negated=False)
-    NPI_replacement = choice(adverb_npi_replacements)
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adj_super = choice(all_superlative_adjectives)
+        Adj = choice(get_all("expression", Adj_super["adjs"]))
+        N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+        # select verb that selects for N1, N2
+        V1_options = np.array(
+            list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
+                        all_past_verbs)), dtype=data_type)
+        V1 = choice(V1_options)
+        V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+        Aux2 = return_aux(V2, N1, allow_negated=False)
+        NPI_replacement = choice(adverb_npi_replacements)
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # build sentences with plain adjective
     sentence_1 = "%s %s who %s the %s %s at all %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0],
@@ -297,20 +309,24 @@ while len(sentences) < number_to_generate:
     # The boys who ate     the biggest   burger (yet/on weekends) (Aux2) sang songs (yet/on weekends).
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adj_super = choice(all_superlative_adjectives)
-    Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
-    # select verb that selects for N1, N2
-    V1_options = np.array(
-        list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
-                    all_past_verbs)), dtype=data_type)
-    V1 = choice(V1_options)
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    Aux2 = return_aux(V2, N3, allow_negated=False)
-    NPI_replacement = choice(adverb_npi_replacements)
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adj_super = choice(all_superlative_adjectives)
+        Adj = choice(get_all("expression", Adj_super["adjs"]))
+        N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+        # select verb that selects for N1, N2
+        V1_options = np.array(
+            list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
+                        all_past_verbs)), dtype=data_type)
+        V1 = choice(V1_options)
+        V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+        Aux2 = return_aux(V2, N1, allow_negated=False)
+        NPI_replacement = choice(adverb_npi_replacements)
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # build sentences with plain adjective
     sentence_1 = "%s %s who %s the %s %s yet %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0],
@@ -371,20 +387,24 @@ while len(sentences) < number_to_generate:
     # The boys who ate     the biggest   burger (in years/on weekends) (Aux2) sang songs (in years/on weekends).
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adj_super = choice(all_superlative_adjectives)
-    Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
-    # select verb that selects for N1, N2
-    V1_options = np.array(
-        list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
-                    all_past_verbs)), dtype=data_type)
-    V1 = choice(V1_options)
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    Aux2 = return_aux(V2, N3, allow_negated=False)
-    NPI_replacement = choice(adverb_npi_replacements)
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adj_super = choice(all_superlative_adjectives)
+        Adj = choice(get_all("expression", Adj_super["adjs"]))
+        N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+        # select verb that selects for N1, N2
+        V1_options = np.array(
+            list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
+                        all_past_verbs)), dtype=data_type)
+        V1 = choice(V1_options)
+        V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+        Aux2 = return_aux(V2, N1, allow_negated=False)
+        NPI_replacement = choice(adverb_npi_replacements)
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # build sentences with plain adjective
     sentence_1 = "%s %s who %s the %s %s in years %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0],
@@ -445,20 +465,24 @@ while len(sentences) < number_to_generate:
     # The boys who ate     the biggest   burger (either/on weekends) (Aux2) sang songs (in years/on weekends).
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adj_super = choice(all_superlative_adjectives)
-    Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
-    # select verb that selects for N1, N2
-    V1_options = np.array(
-        list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
-                    all_past_verbs)), dtype=data_type)
-    V1 = choice(V1_options)
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    Aux2 = return_aux(V2, N3, allow_negated=False)
-    NPI_replacement = choice(adverb_npi_replacements)
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adj_super = choice(all_superlative_adjectives)
+        Adj = choice(get_all("expression", Adj_super["adjs"]))
+        N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+        # select verb that selects for N1, N2
+        V1_options = np.array(
+            list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
+                        all_past_verbs)), dtype=data_type)
+        V1 = choice(V1_options)
+        V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+        Aux2 = return_aux(V2, N1, allow_negated=False)
+        NPI_replacement = choice(adverb_npi_replacements)
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # build sentences with plain adjective
     sentence_1 = "%s %s who %s the %s %s either %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0],
