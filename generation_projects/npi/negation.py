@@ -102,8 +102,8 @@ while len(sentences) < number_to_generate:
     sentence_4 = "%s %s %s %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, Neg_word2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
 
     # build sentences with no licensor present
-    sentence_5 = "Some %s %s ever %s that %s %s %s %s %s %s ." % (N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_6 = "Some %s %s %s %s that %s %s %s %s %s %s ." % (N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_5 = "some %s %s ever %s that %s %s %s %s %s %s ." % (N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_6 = "some %s %s %s %s that %s %s %s %s %s %s ." % (N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
     sentence_7 = "%s %s %s ever %s that some %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, N2[0], Aux2_final, V2_final, D3[0], N3[0])
     sentence_8 = "%s %s %s %s %s that some %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, N2[0], Aux2_final, V2_final, D3[0], N3[0])
 
@@ -198,8 +198,8 @@ for Final_npi in sentence_final_npi:
         sentence_4 = "%s %s %s %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0],  Final_nonnpi, Neg_word2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
         # build sentences with no licensor present
-        sentence_5 = "Some %s %s %s that %s %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
-        sentence_6 = "Some %s %s %s that %s %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_nonnpi)
+        sentence_5 = "some %s %s %s that %s %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_npi)
+        sentence_6 = "some %s %s %s that %s %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0], Final_nonnpi)
         sentence_7 = "%s %s %s %s %s that some %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Final_npi, N2[0], Aux2[0], V2[0], D3[0], N3[0])
         sentence_8 = "%s %s %s %s %s that some %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Final_nonnpi, N2[0], Aux2[0], V2[0], D3[0], N3[0])
 
@@ -273,8 +273,8 @@ while len(sentences) < number_to_generate:
     sentence_4 = "%s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, Neg_word2[0], N2[0])
 
     # build sentences with no licensor present
-    sentence_5 = "Some %s %s ever %s %s %s ." % (N1[0], Aux1_final, V1_final, D2[0], N2[0])
-    sentence_6 = "Some %s %s %s %s %s %s ." % (N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0])
+    sentence_5 = "some %s %s ever %s %s %s ." % (N1[0], Aux1_final, V1_final, D2[0], N2[0])
+    sentence_6 = "some %s %s %s %s %s %s ." % (N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0])
     sentence_7 = "%s %s %s ever %s some %s ." % (D1[0], N1[0], Aux1_final, V1_final, N2[0])
     sentence_8 = "%s %s %s %s %s some %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, N2[0])
 
@@ -348,8 +348,8 @@ for Final_npi in sentence_final_npi:
         sentence_4 = "%s %s %s %s %s %s %s at %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi, Neg_word2[0], N3[0])
 
         # build sentences with no licensor present
-        sentence_5 = "Some %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi)
-        sentence_6 = "Some %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi)
+        sentence_5 = "some %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi)
+        sentence_6 = "some %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi)
         sentence_7 = "%s %s %s %s %s %s %s at some %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi, N3[0])
         sentence_8 = "%s %s %s %s %s %s %s at some %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi, N3[0])
 

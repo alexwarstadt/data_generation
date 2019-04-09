@@ -22,7 +22,7 @@ sentences = set()
 
 # gather word classes that will be accessed frequently
 all_common_dets = np.append(get_all("expression", "the"), np.append(get_all("expression", "a"), get_all("expression", "an")))
-all_def_dets = np.append(get_all("expression", "the"), np.append(get_all("expression", "these"), np.append(get_all("expression", "those"), np.append(get_all("expression", "this"), get_all("expression", "that")))))
+all_def_dets = np.append(get_all("expression", "the"), np.append(get_all("expression", "these"), np.append(get_all("expression", "those"), np.append(get_all("expression", "this"), get_all_conjunctive([("expression", "that"), ("category_2", "D")])))))
 npi_any = np.append(get_all("expression", "any"), get_all("expression", "any"))
 all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
 all_neg_det = np.append(get_all("expression", "none of the"), get_all("expression", "no"))
