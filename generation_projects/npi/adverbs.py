@@ -61,8 +61,8 @@ adverb_npi_replacements = np.array(["regularly", "on weekends", "on occasion", "
 # sample sentences until desired number
 while len(sentences) < number_to_generate:
     # sentence template
-    # D1    N1  Aux1  Adv    ever/also V1   that D2    N2   (Aux) V2   D3    N3
-    # The/a boy (has) rarely ever/also said that the/a girl (has) sung the/a song
+    # D1    N1  Aux1 (Adv)    ever/also V1   that D2    N2   Aux2 (Adv)    V2   D3    N3
+    # The/a boy has  (rarely) ever/also said that the/a girl has  (rarely) sung the/a song
 
     # build all lexical items
     try:
@@ -114,25 +114,28 @@ while len(sentences) < number_to_generate:
         Aux2_final = Aux2[0]
         V2_final = V2[0]
 
+    # D1    N1  Aux1 (Adv)    ever/also V1   that D2    N2   Aux2 (Adv)    V2   D3    N3
+    # The/a boy has  (rarely) ever/also said that the/a girl has  (rarely) sung the/a song
+
     # build sentences with frequent adverb
     sentence_1 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final,
                                                                    D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
     sentence_2 = "%s %s %s %s %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], NPI_replacement,
                                                                  V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_3 = "%s %s %s %s %s that %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0],  V1_final,
-                                                                   D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_4 = "%s %s %s %s %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0],  V1_final, D2[0],
-                                                                 N2[0], Aux2_final, NPI_replacement, V2_final, D3[0], N3[0])
+    sentence_3 = "%s %s %s ever %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, D2[0], N2[0],
+                                                                   Aux2_final, Adv_freq[0], V2_final, D3[0], N3[0])
+    sentence_4 = "%s %s %s %s %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, NPI_replacement, V1_final, D2[0],
+                                                                 N2[0], Aux2_final, Adv_freq[0], V2_final, D3[0], N3[0])
 
     # build sentences with nonfrequent adverb
     sentence_5 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final,
                                                                    D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
     sentence_6 = "%s %s %s %s %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], NPI_replacement,
                                                                  V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_7 = "%s %s %s %s %s that %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final,
-                                                                   D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_8 = "%s %s %s %s %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_nonfreq[0], V1_final, D2[0],
-                                                                 N2[0], Aux2_final, NPI_replacement, V2_final, D3[0], N3[0])
+    sentence_7 = "%s %s %s ever %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, D2[0], N2[0],
+                                                                   Aux2_final, Adv_nonfreq[0], V2_final, D3[0], N3[0])
+    sentence_8 = "%s %s %s %s %s that %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, NPI_replacement, V1_final, D2[0],
+                                                                 N2[0], Aux2_final, Adv_nonfreq[0], V2_final, D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)

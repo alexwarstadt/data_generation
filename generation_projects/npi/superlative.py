@@ -268,7 +268,7 @@ while len(sentences) < number_to_generate:
                                                            Aux2[0], V2[0], N3[0])
     sentence_7 = "%s %s who %s the %s %s %s %s %s at all ." % (D1[0], N1[0], V1[0], Adj_super[0], N2[0], Aux2[0], V2[0],
                                                                N3[0])
-    sentence_8 = "%s %s who %s the %s %s %s %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0], N3[0],
+    sentence_8 = "%s %s who %s the %s %s %s %s %s %s ." % (D1[0], N1[0], V1[0], Adj_super[0], N2[0], Aux2[0], V2[0], N3[0],
                                                            NPI_replacement)
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
@@ -345,7 +345,7 @@ while len(sentences) < number_to_generate:
                                                            Aux2[0], V2[0], N3[0])
     sentence_7 = "%s %s who %s the %s %s %s %s %s yet ." % (D1[0], N1[0], V1[0], Adj_super[0], N2[0], Aux2[0], V2[0],
                                                             N3[0])
-    sentence_8 = "%s %s who %s the %s %s %s %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0], N3[0],
+    sentence_8 = "%s %s who %s the %s %s %s %s %s %s ." % (D1[0], N1[0], V1[0], Adj_super[0], N2[0], Aux2[0], V2[0], N3[0],
                                                            NPI_replacement)
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
@@ -423,7 +423,7 @@ while len(sentences) < number_to_generate:
                                                            Aux2[0], V2[0], N3[0])
     sentence_7 = "%s %s who %s the %s %s %s %s %s in years ." % (D1[0], N1[0], V1[0], Adj_super[0], N2[0], Aux2[0], V2[0],
                                                                N3[0])
-    sentence_8 = "%s %s who %s the %s %s %s %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0], N3[0],
+    sentence_8 = "%s %s who %s the %s %s %s %s %s %s ." % (D1[0], N1[0], V1[0], Adj_super[0], N2[0], Aux2[0], V2[0], N3[0],
                                                            NPI_replacement)
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
@@ -501,7 +501,7 @@ while len(sentences) < number_to_generate:
                                                            Aux2[0], V2[0], N3[0])
     sentence_7 = "%s %s who %s the %s %s %s %s %s either ." % (D1[0], N1[0], V1[0], Adj_super[0], N2[0], Aux2[0], V2[0],
                                                                N3[0])
-    sentence_8 = "%s %s who %s the %s %s %s %s %s %s ." % (D1[0], N1[0], V1[0], Adj[0], N2[0], Aux2[0], V2[0], N3[0],
+    sentence_8 = "%s %s who %s the %s %s %s %s %s %s ." % (D1[0], N1[0], V1[0], Adj_super[0], N2[0], Aux2[0], V2[0], N3[0],
                                                            NPI_replacement)
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
