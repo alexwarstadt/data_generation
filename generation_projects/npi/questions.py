@@ -214,7 +214,7 @@ while len(sentences) < number_to_generate:
 
             # build sentences with conditional-like environment
             sentence_5 = "the %s know that the %s %s  %s at all." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], decoy, N3[0])
+            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
             sentence_7 = "the %s at all know that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
             sentence_8 = "the %s %s know that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
@@ -273,7 +273,7 @@ while len(sentences) < number_to_generate:
 
             # build sentences with conditional-like environment
             sentence_5 = "the %s know that the %s %s  %s in years." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], decoy, N3[0])
+            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
             sentence_7 = "the %s in years know that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
             sentence_8 = "the %s %s know that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
@@ -332,7 +332,7 @@ while len(sentences) < number_to_generate:
 
             # build sentences with conditional-like environment
             sentence_5 = "the %s know that the %s %s  %s either." % (N1[0], N2[0], V1[0], N3[0])
-            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], decoy, N3[0])
+            sentence_6 = "the %s know that the %s %s %s %s." % (N1[0], N2[0], V1[0], N3[0], decoy)
             sentence_7 = "the %s either know that the %s %s the %s." % (N1[0], N2[0], V1[0], N3[0])
             sentence_8 = "the %s %s know that the %s %s the %s." % (N1[0], decoy, N2[0], V1[0], N3[0])
 
