@@ -3,7 +3,7 @@
 
 from utils.conjugate import *
 from utils.string_utils import remove_extra_whitespace
-from random import choice
+from utils.randomize import choice
 import random
 import numpy as np
 
@@ -65,34 +65,39 @@ while len(sentences) < number_to_generate:
     # The/a boy (has) rarely ever/also said that the/a girl (has) sung the/a song
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adv_freq = choice(all_freq_adverbs)
-    Adv_nonfreq = choice(all_nonfreq_adverbs)
-    # If nonfrequent Adv is often, don't use it as a replacement for "ever"
-    if Adv_nonfreq[0] == "often":
-        NPI_replacement = choice(ever_replacements_no_often)
-    else:
-        NPI_replacement = choice(ever_replacements)
-    V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
-    Aux1 = return_aux(V1, N1, allow_negated=False)
-    N2 = choice(all_animate_nouns)
-    D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adv_freq = choice(all_freq_adverbs)
+        Adv_nonfreq = choice(all_nonfreq_adverbs)
+        # If nonfrequent Adv is often, don't use it as a replacement for "ever"
+        if Adv_nonfreq[0] == "often":
+            NPI_replacement = choice(ever_replacements_no_often)
+        else:
+            NPI_replacement = choice(ever_replacements)
+        V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
+        Aux1 = return_aux(V1, N1, allow_negated=False)
+        N2 = choice(all_animate_nouns, [N1])
+        D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
 
-    # select transitive or intransitive V2
-    x = random.random()
-    if x < 1/2:
-        # transitive V2
-        V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_transitive_verbs))
-        Aux2 = return_aux(V2, N2, allow_negated=False)
-        N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
-        D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
-    else:
-        # intransitive V2 - gives empty string for N3 and D3 slots
-        V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_intransitive_verbs))
-        Aux2 = return_aux(V2, N2, allow_negated=False)
-        N3 = " "
-        D3 = " "
+        # select transitive or intransitive V2
+        x = random.random()
+        if x < 1/2:
+            # transitive V2
+            V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_transitive_verbs))
+            Aux2 = return_aux(V2, N2, allow_negated=False)
+            N3 = choice(get_matches_of(V2, "arg_2", all_nouns), [N1,N2])
+            D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
+        else:
+            # intransitive V2 - gives empty string for N3 and D3 slots
+            V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_intransitive_verbs))
+            Aux2 = return_aux(V2, N2, allow_negated=False)
+            N3 = " "
+            D3 = " "
+
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # check for do/does/did for both aux verbs, make the aux directly adjacent to verb.
     if Aux1[0] in ["do", "does", "did"]:
@@ -168,18 +173,22 @@ while len(sentences) < number_to_generate:
     # The/a boy  who  (had)  rarely helped any/the/0 children sang any/the/0  songs
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adv_freq = choice(all_freq_adverbs)
-    Adv_nonfreq = choice(all_nonfreq_adverbs)
-    V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    Aux1 = return_aux(V1, N1, allow_negated=False)
-    N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-    V2 = conjugate(V2, N1, allow_negated=False)
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    NPI_replacement_N2 = choice(get_matched_by(N2, "arg_1", any_replacements))
-    NPI_replacement_N3 = choice(get_matched_by(N3, "arg_1", any_replacements))
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adv_freq = choice(all_freq_adverbs)
+        Adv_nonfreq = choice(all_nonfreq_adverbs)
+        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+        Aux1 = return_aux(V1, N1, allow_negated=False)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs), [V1])
+        V2 = conjugate(V2, N1, allow_negated=False)
+        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1,N2])
+        NPI_replacement_N2 = choice(get_matched_by(N2, "arg_1", any_replacements))
+        NPI_replacement_N3 = choice(get_matched_by(N3, "arg_1", any_replacements))
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # check for do/does/did for aux verb, make the aux directly adjacent to verb.
     if Aux1[0] in ["do", "does", "did"]:
@@ -242,35 +251,43 @@ while len(sentences) < number_to_generate:
     # The/a boy  who (had)  rarely helped children (at all/on weekends) (has)  sung songs (at all/on weekends)
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adv_freq = choice(all_freq_adverbs)
-    Adv_nonfreq = choice(all_nonfreq_adverbs)
-    NPI_replacement = choice(adverb_npi_replacements)
-    # select transitive or intransitive V1
-    x = random.random()
-    if x < 1/2:
-        # transitive V1
-        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-        Aux1 = return_aux(V1, N1, allow_negated=False)
-        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    else:
-        # intransitive V2 - gives empty string for N2 slot
-        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        Aux1 = return_aux(V1, N1, allow_negated=False)
-        N2 = " "
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adv_freq = choice(all_freq_adverbs)
+        Adv_nonfreq = choice(all_nonfreq_adverbs)
+        NPI_replacement = choice(adverb_npi_replacements)
 
-    # select transitive or intransitive V2
-    if 1/3 < x < 2/3:
-        # transitive V2
-        V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-        Aux2 = return_aux(V2, N1, allow_negated=False)
-        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    else:
-        # intransitive V2 - gives empty string for N3 slot
-        V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        Aux2 = return_aux(V2, N1, allow_negated=False)
-        N3 = " "
+        # select transitive or intransitive V1
+        x = random.random()
+        if x < 1/2:
+            # transitive V1
+            V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+            Aux1 = return_aux(V1, N1, allow_negated=False)
+            N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        else:
+            # intransitive V2 - gives empty string for N2 slot
+            V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
+            Aux1 = return_aux(V1, N1, allow_negated=False)
+            N2 = " "
+
+        # select transitive or intransitive V2
+        if 1/3 < x < 2/3:
+            # transitive V2
+            V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs), [V1])
+            Aux2 = return_aux(V2, N1, allow_negated=False)
+            if N2 == " ":
+                N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1])
+            else:
+                N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1,N2])
+        else:
+            # intransitive V2 - gives empty string for N3 slot
+            V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs), [V1])
+            Aux2 = return_aux(V2, N1, allow_negated=False)
+            N3 = " "
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # check for do/does/did for aux verbs, make the aux directly adjacent to verb.
     if Aux1[0] in ["do", "does", "did"]:
@@ -345,35 +362,43 @@ while len(sentences) < number_to_generate:
     # The/a boy  who (had)  rarely helped children (in years/on weekends) (has)  sung songs (in years/on weekends)
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adv_freq = choice(all_freq_adverbs)
-    Adv_nonfreq = choice(all_nonfreq_adverbs)
-    NPI_replacement = choice(adverb_npi_replacements)
-    # select transitive or intransitive V1
-    x = random.random()
-    if x < 1/2:
-        # transitive V1
-        V1 = choice(get_matched_by(N1, "arg_1", all_past_perfect_transitive_verbs))
-        Aux1 = return_aux(V1, N1, allow_negated=False)
-        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    else:
-        # intransitive V1 - gives empty string for N1 slot
-        V1 = choice(get_matched_by(N1, "arg_1", all_past_perfect_intransitive_verbs))
-        Aux1 = return_aux(V1, N1, allow_negated=False)
-        N2 = " "
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adv_freq = choice(all_freq_adverbs)
+        Adv_nonfreq = choice(all_nonfreq_adverbs)
+        NPI_replacement = choice(adverb_npi_replacements)
 
-    # select transitive or intransitive V2
-    if 1/3 < x < 2/3:
-        # transitive V2
-        V2 = choice(get_matched_by(N1, "arg_1", all_past_perfect_transitive_verbs))
-        Aux2 = return_aux(V2, N1, allow_negated=False)
-        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    else:
-        # intransitive V2 - gives empty string for N3 slot
-        V2 = choice(get_matched_by(N1, "arg_1", all_past_perfect_intransitive_verbs))
-        Aux2 = return_aux(V2, N1, allow_negated=False)
-        N3 = " "
+        # select transitive or intransitive V1
+        x = random.random()
+        if x < 1/2:
+            # transitive V1
+            V1 = choice(get_matched_by(N1, "arg_1", all_past_perfect_transitive_verbs))
+            Aux1 = return_aux(V1, N1, allow_negated=False)
+            N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        else:
+            # intransitive V1 - gives empty string for N1 slot
+            V1 = choice(get_matched_by(N1, "arg_1", all_past_perfect_intransitive_verbs))
+            Aux1 = return_aux(V1, N1, allow_negated=False)
+            N2 = " "
+
+        # select transitive or intransitive V2
+        if 1/3 < x < 2/3:
+            # transitive V2
+            V2 = choice(get_matched_by(N1, "arg_1", all_past_perfect_transitive_verbs), [V1])
+            Aux2 = return_aux(V2, N1, allow_negated=False)
+            if N2 == " ":
+                N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1])
+            else:
+                N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1,N2])
+        else:
+            # intransitive V2 - gives empty string for N3 slot
+            V2 = choice(get_matched_by(N1, "arg_1", all_past_perfect_intransitive_verbs), [V1])
+            Aux2 = return_aux(V2, N1, allow_negated=False)
+            N3 = " "
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # build sentences with frequent adverb
     sentence_1 = "%s %s who %s %s %s %s in years %s %s %s ." % (D1[0], N1[0], Aux1[0], Adv_freq[0], V1[0], N2[0],
@@ -433,50 +458,58 @@ while len(sentences) < number_to_generate:
     # The/a boy  who (had)  rarely helped children (either/on weekends) (has)  sung songs (either/on weekends)
 
     # build all lexical items
-    N1 = choice(all_animate_nouns)
-    D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
-    Adv_freq = choice(all_freq_adverbs)
-    Adv_nonfreq = choice(all_nonfreq_adverbs)
-    NPI_replacement = choice(adverb_npi_replacements)
-    # select transitive or intransitive V1
-    x = random.random()
-    if x < 1/2:
-        # transitive V1
-        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-        Aux1 = return_aux(V1, N1, allow_negated=False)
-        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
-    else:
-        # intransitive V2 - gives empty string for N2 slot
-        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        Aux1 = return_aux(V1, N1, allow_negated=False)
-        N2 = " "
+    try:
+        N1 = choice(all_animate_nouns)
+        D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
+        Adv_freq = choice(all_freq_adverbs)
+        Adv_nonfreq = choice(all_nonfreq_adverbs)
+        NPI_replacement = choice(adverb_npi_replacements)
 
-    # select transitive or intransitive V2
-    if 1/3 < x < 2/3:
-        # transitive V2
-        V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
-        Aux2 = return_aux(V2, N1, allow_negated=False)
-        N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
-    else:
-        # intransitive V2 - gives empty string for N3 slot
-        V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
-        Aux2 = return_aux(V2, N1, allow_negated=False)
-        N3 = " "
+        # select transitive or intransitive V1
+        x = random.random()
+        if x < 1/2:
+            # transitive V1
+            V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
+            Aux1 = return_aux(V1, N1, allow_negated=False)
+            N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns), [N1])
+        else:
+            # intransitive V2 - gives empty string for N2 slot
+            V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs))
+            Aux1 = return_aux(V1, N1, allow_negated=False)
+            N2 = " "
 
-    # check for do/does/did for aux verbs, make the aux directly adjacent to verb.
-    if Aux1[0] in ["do", "does", "did"]:
-        Aux1_final = ""
-        V1_final = Aux1[0] + " " + V1[0]
-    else:
-        Aux1_final = Aux1[0]
-        V1_final = V1[0]
+        # select transitive or intransitive V2
+        if 1/3 < x < 2/3:
+            # transitive V2
+            V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs), [V1])
+            Aux2 = return_aux(V2, N1, allow_negated=False)
+            if N2 == " ":
+                N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1])
+            else:
+                N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1,N2])
+        else:
+            # intransitive V2 - gives empty string for N3 slot
+            V2 = choice(get_matched_by(N1, "arg_1", all_non_progressive_intransitive_verbs), [V1])
+            Aux2 = return_aux(V2, N1, allow_negated=False)
+            N3 = " "
 
-    if Aux2[0] in ["do", "does", "did"]:
-        Aux2_final = ""
-        V2_final = Aux2[0] + " " + V2[0]
-    else:
-        Aux2_final = Aux2[0]
-        V2_final = V2[0]
+        # check for do/does/did for aux verbs, make the aux directly adjacent to verb.
+        if Aux1[0] in ["do", "does", "did"]:
+            Aux1_final = ""
+            V1_final = Aux1[0] + " " + V1[0]
+        else:
+            Aux1_final = Aux1[0]
+            V1_final = V1[0]
+
+        if Aux2[0] in ["do", "does", "did"]:
+            Aux2_final = ""
+            V2_final = Aux2[0] + " " + V2[0]
+        else:
+            Aux2_final = Aux2[0]
+            V2_final = V2[0]
+    except IndexError:
+        print(N1[0], N2[0])
+        continue
 
     # build sentences with frequent adverb
     sentence_1 = "%s %s who %s %s %s %s either %s %s %s ." % (D1[0], N1[0], Aux1_final, Adv_freq[0], V1_final, N2[0],
