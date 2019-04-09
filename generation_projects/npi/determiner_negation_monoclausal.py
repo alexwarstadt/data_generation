@@ -10,14 +10,14 @@ import random
 import numpy as np
 
 # initialize output file
-#project_root = "G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation"
+# project_root = "G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation"
 # output = open(os.path.join(project_root, rel_output_path), "w")
 rel_output_path = "outputs/npi/environment=determiner_negation_monoclausal.tsv"
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 1000
+number_to_generate = 10
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -31,8 +31,8 @@ all_nonneg_aux = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("n
 all_intransitive_verbs = get_all("category", "S\\NP")
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_embedding_verbs = get_all("category_2", "V_embedding")
-all_nouns = get_all("category", "N")
-all_institution_nouns = get_all("institution","1")
+all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
+all_institution_nouns = np.append(get_all_conjunctive([("institution","1"), ("pl","1")]),get_all_conjunctive([("institution","1"), ("mass","1")]))
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 all_non_singular_nouns_freq = np.append(get_all_conjunctive([("category", "N"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("frequent", "1"), ("mass","1")]))
 all_non_singular_animate_nouns = np.append(get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("mass","1")]))
@@ -62,13 +62,16 @@ while len(sentences) < number_to_generate:
         Neg_word1 = choice(get_matched_by(N1, "arg_1", all_neg_det))
         V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
         Aux1 = require_aux(V1, N1, allow_negated=False)
-        N2 = choice(all_animate_nouns)
-        #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
+        #N2 = choice(all_animate_nouns)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns_freq))
         D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
         repl_ever = choice(replace_ever)
     except IndexError:
         #print(N1[0], N2[0], V1[0])
+        continue
+    except TypeError:
+        print("found type error again")
         continue
 
     if Aux1[0] in ["do", "does", "did"]:
@@ -81,12 +84,12 @@ while len(sentences) < number_to_generate:
     # build sentences with licensor present
     sentence_1 = "%s %s %s ever %s %s %s ." % (Neg_word1[0], N1[0], Aux1_final, V1_final, D2[0], N2[0])
     sentence_2 = "%s %s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0])
-    sentence_3 = "%s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, Neg_word2[0], N2[0])
-    sentence_4 = "%s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, Neg_word2[0], N2[0])
+    sentence_3 = "%s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, Neg_word1[0], N2[0])
+    sentence_4 = "%s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, Neg_word1[0], N2[0])
 
     # build sentences with no licensor present
-    sentence_5 = "Some %s %s ever %s %s %s ." % (N1[0], Aux1_final, V1_final, D2[0], N2[0])
-    sentence_6 = "Some %s %s %s %s %s %s ." % (N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0])
+    sentence_5 = "some %s %s ever %s %s %s ." % (N1[0], Aux1_final, V1_final, D2[0], N2[0])
+    sentence_6 = "some %s %s %s %s %s %s ." % (N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0])
     sentence_7 = "%s %s %s ever %s some %s ." % (D1[0], N1[0], Aux1_final, V1_final, N2[0])
     sentence_8 = "%s %s %s %s %s some %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, N2[0])
 
@@ -139,7 +142,7 @@ for Final_npi in sentence_final_npi:
             Neg_word1 = choice(get_matched_by(N1, "arg_1", all_neg_det))
             V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
             Aux1 = return_aux(V1, N1, allow_negated=False)
-            N2 = choice(all_animate_nouns)
+            N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns_freq))
             D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
             Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
             Final_nonnpi = choice(sentence_final_nonnpi)
@@ -153,16 +156,19 @@ for Final_npi in sentence_final_npi:
         except IndexError:
             #print(N1[0], N2[0], V1[0])
             continue
+        except TypeError:
+            print("found type error again")
+            continue
 
         # build sentences with licensor present
         sentence_1 = "%s %s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi)
         sentence_2 = "%s %s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi)
-        sentence_3 = "%s %s %s %s %s %s %s at %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi, Neg_word3[0], N3[0])
-        sentence_4 = "%s %s %s %s %s %s %s at %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi, Neg_word3[0], N3[0])
+        sentence_3 = "%s %s %s %s %s %s %s at %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi, Neg_word1[0], N3[0])
+        sentence_4 = "%s %s %s %s %s %s %s at %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi, Neg_word1[0], N3[0])
 
         # build sentences with no licensor present
-        sentence_5 = "Some %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi)
-        sentence_6 = "Some %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi)
+        sentence_5 = "some %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi)
+        sentence_6 = "some %s %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi)
         sentence_7 = "%s %s %s %s %s %s %s at some %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_npi, N3[0])
         sentence_8 = "%s %s %s %s %s %s %s at some %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Final_nonnpi, N3[0])
 
@@ -224,8 +230,8 @@ while len(sentences) < number_to_generate:
     # build sentences with licensor present
     sentence_1 = "%s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], Any[0], N2[0])
     sentence_2 = "%s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0])
-    sentence_3 = "%s %s %s %s %s %s ." % (Any[0], N1[0], Aux1[0], V1[0], Neg_word2[0],  N2[0])
-    sentence_4 = "%s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word2[0], N2[0])
+    sentence_3 = "%s %s %s %s %s %s ." % (Any[0], N1[0], Aux1[0], V1[0], Neg_word1[0],  N2[0])
+    sentence_4 = "%s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], Neg_word1[0], N2[0])
 
     # build sentences with no licensor present
     sentence_5 = "some %s %s %s %s %s ." % (N1[0], Aux1[0], V1[0], Any[0], N2[0])

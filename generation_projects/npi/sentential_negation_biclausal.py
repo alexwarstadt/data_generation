@@ -10,14 +10,14 @@ import random
 import numpy as np
 
 # initialize output file
-#project_root = "G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation"
+# project_root = "G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation"
 # output = open(os.path.join(project_root, rel_output_path), "w")
 rel_output_path = "outputs/npi/environment=sentential_negation_biclausal.tsv"
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 1000
+number_to_generate = 10
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -31,7 +31,7 @@ all_nonneg_aux = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("n
 all_intransitive_verbs = get_all("category", "S\\NP")
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_embedding_verbs = get_all("category_2", "V_embedding")
-all_nouns = get_all("category", "N")
+all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
 all_institution_nouns = get_all("institution","1")
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 all_non_singular_nouns_freq = np.append(get_all_conjunctive([("category", "N"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("frequent", "1"), ("mass","1")]))
@@ -63,7 +63,7 @@ while len(sentences) < number_to_generate:
         Neg_word1 = choice(get_matched_by(N1, "arg_1", all_neg_det))
         V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
         Aux1 = require_aux(V1, N1, allow_negated=False)
-        N2 = choice(all_animate_nouns)
+        N2 = choice(all_nouns)
         D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
         repl_ever = choice(replace_ever)
@@ -84,6 +84,9 @@ while len(sentences) < number_to_generate:
             D3 = " "
     except IndexError:
         #print(N1[0], N2[0], V2[0])
+        continue
+    except TypeError:
+        print("found type error again")
         continue
 
     if Aux1[0] in ["do", "does", "did"]:
@@ -161,8 +164,7 @@ for Final_npi in sentence_final_npi:
             Neg_word1 = choice(get_matched_by(N1, "arg_1", all_neg_det))
             V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
             Aux1 = require_aux(V1, N1, allow_negated=False)
-            N2 = choice(all_animate_nouns)
-            #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
+            N2 = choice(all_nouns)
             D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
             Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
             Final_nonnpi = choice(sentence_final_nonnpi)
@@ -193,6 +195,9 @@ for Final_npi in sentence_final_npi:
                 D3 = " "
         except IndexError:
             #print(N1[0], N2[0], V2[0])
+            continue
+        except TypeError:
+            print("found type error again")
             continue
 
         # build sentences with licensor present
@@ -274,6 +279,9 @@ while len(sentences) < number_to_generate:
             D3 = " "
     except IndexError:
         #print(N1[0], N2[0], V2[0])
+        continue
+    except TypeError:
+        print("found type error again")
         continue
 
     # build sentences with licensor present

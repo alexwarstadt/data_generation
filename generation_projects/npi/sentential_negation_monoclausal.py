@@ -17,7 +17,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 1000
+number_to_generate = 10
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -31,7 +31,7 @@ all_nonneg_aux = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("n
 all_intransitive_verbs = get_all("category", "S\\NP")
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_embedding_verbs = get_all("category_2", "V_embedding")
-all_nouns = get_all("category", "N")
+all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
 all_institution_nouns = get_all("institution","1")
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 all_non_singular_nouns_freq = np.append(get_all_conjunctive([("category", "N"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("frequent", "1"), ("mass","1")]))
@@ -153,7 +153,7 @@ while len(sentences) < number_to_generate:
         Any = choice(npi_any)
         V1 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
         Aux1 = require_aux(V1, N1, allow_negated=False)
-        N2 = choice(all_non_singular_nouns_freq)
+        N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns_freq))
         D2 = choice(get_matched_by(N2, "arg_1", all_def_dets))
     except IndexError:
         #print(N1[0], N2[0], V1[0])
