@@ -3,7 +3,7 @@
 
 from utils.conjugate import *
 from utils.string_utils import remove_extra_whitespace
-from random import choice
+from utils.randomize import choice
 import numpy as np
 
 # initialize output file
@@ -60,7 +60,7 @@ while len(sentences) < number_to_generate:
     D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
     Adj_super = choice(all_superlative_adjectives) # fastest
     Adj = choice(get_all("expression", Adj_super["adjs"])) # fast
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns)) # car
+    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns), [N1]) # car
     # select verb that selects for N1, N2
     V1_options = np.array(list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
                                       all_non_progressive_transitive_verbs)), dtype=data_type)
@@ -68,8 +68,8 @@ while len(sentences) < number_to_generate:
     Aux1 = return_aux(V1, N1, allow_negated=False)
     # select -en verb that selects for N2
     V2_options = np.array(list(filter(lambda x: is_match_disj(N2, x["arg_2"]), all_en_verbs)), dtype=data_type)
-    V2 = choice(V2_options)
-    N3 = choice(get_matches_of(V2, "arg_1", all_nouns))  # girl
+    V2 = choice(V2_options, [V1])
+    N3 = choice(get_matches_of(V2, "arg_1", all_nouns), [N1, N2])  # girl
     Aux2 = return_aux(V2, N3, allow_negated=False) # had or has
     NPI_replacement = choice(ever_replacements)
 
@@ -144,7 +144,7 @@ while len(sentences) < number_to_generate:
     NPI_replacement_N1 = choice(get_matched_by(N1, "arg_1", any_replacements))
     Adj_super = choice(all_superlative_adjectives)
     Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns), [N1])
     # select verb that selects for N1, N2
     V1_options = np.array(
         list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
@@ -153,8 +153,8 @@ while len(sentences) < number_to_generate:
     Aux1 = return_aux(V1, N1, allow_negated=False)
     # select -en verb that selects for N2
     V2_options = np.array(list(filter(lambda x: is_match_disj(N2, x["arg_2"]), all_en_verbs)), dtype=data_type)
-    V2 = choice(V2_options)
-    N3 = choice(get_matches_of(V2, "arg_1", all_non_singular_nouns))
+    V2 = choice(V2_options, [V1])
+    N3 = choice(get_matches_of(V2, "arg_1", all_non_singular_nouns), [N1, N2])
     Aux2 = return_aux(V2, N3, allow_negated=False)
     NPI_replacement_N3 = choice(get_matched_by(N3, "arg_1", any_replacements))
 
@@ -228,14 +228,14 @@ while len(sentences) < number_to_generate:
     D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
     Adj_super = choice(all_superlative_adjectives)
     Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns), [N1])
     # select verb that selects for N1, N2
     V1_options = np.array(
         list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
                     all_past_verbs)), dtype=data_type)
     V1 = choice(V1_options)
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
+    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
     Aux2 = return_aux(V2, N3, allow_negated=False)
     NPI_replacement = choice(adverb_npi_replacements)
 
@@ -301,14 +301,14 @@ while len(sentences) < number_to_generate:
     D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
     Adj_super = choice(all_superlative_adjectives)
     Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns), [N1])
     # select verb that selects for N1, N2
     V1_options = np.array(
         list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
                     all_past_verbs)), dtype=data_type)
     V1 = choice(V1_options)
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
+    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
     Aux2 = return_aux(V2, N3, allow_negated=False)
     NPI_replacement = choice(adverb_npi_replacements)
 
@@ -375,14 +375,14 @@ while len(sentences) < number_to_generate:
     D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
     Adj_super = choice(all_superlative_adjectives)
     Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns), [N1])
     # select verb that selects for N1, N2
     V1_options = np.array(
         list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
                     all_past_verbs)), dtype=data_type)
     V1 = choice(V1_options)
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
+    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
     Aux2 = return_aux(V2, N3, allow_negated=False)
     NPI_replacement = choice(adverb_npi_replacements)
 
@@ -449,14 +449,14 @@ while len(sentences) < number_to_generate:
     D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
     Adj_super = choice(all_superlative_adjectives)
     Adj = choice(get_all("expression", Adj_super["adjs"]))
-    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns))
+    N2 = choice(get_matches_of(Adj, "arg_1", all_nouns), [N1])
     # select verb that selects for N1, N2
     V1_options = np.array(
         list(filter(lambda x: np.logical_and(is_match_disj(N2, x["arg_2"]), is_match_disj(N1, x["arg_1"])),
                     all_past_verbs)), dtype=data_type)
     V1 = choice(V1_options)
-    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns))
+    V2 = choice(get_matched_by(N1, "arg_1", all_transitive_verbs), [V1])
+    N3 = choice(get_matches_of(V2, "arg_2", all_non_singular_nouns), [N1, N2])
     Aux2 = return_aux(V2, N3, allow_negated=False)
     NPI_replacement = choice(adverb_npi_replacements)
 
