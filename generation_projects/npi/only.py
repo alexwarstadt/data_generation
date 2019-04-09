@@ -24,6 +24,7 @@ all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_intransitive_verbs = get_all("category", "S\\NP")
 all_non_singular_nouns = np.intersect1d(np.append(get_all("pl", "1"), get_all("mass", "1")), get_all("frequent", "1"))
+all_non_singular_animate_nouns = np.intersect1d(all_animate_nouns, all_non_singular_nouns)
 all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
 all_non_progressive_intransitive_verbs = get_all("ing", "0", all_intransitive_verbs)
 
@@ -34,7 +35,7 @@ all_plural_non_institutions = get_all_conjunctive([("category","N"),("institutio
 
 #quantity_adv = ('happily', 'angrily', 'appropriately', 'inappropriately')
 
-replace_ever = ["often", "really", "certainly", "clearly"]
+replace_ever = ["often", "really", "certainly", "clearly", "also"]
 
 any_decoys = np.concatenate((get_all("expression", "the"), get_all_conjunctive([("expression", "that"), ("category_2", "D")]),
                          get_all("expression", "this"), get_all("expression", "these"), get_all("expression", "those")))
@@ -126,7 +127,7 @@ while len(sentences) < number_to_generate:
     # D1 N1 (Aux) also V any/some N2.
     # Any/Some N1 (Aux) also V D2 N2.
     try:
-        N1 = choice(all_animate_nouns)
+        N1 = choice(all_non_singular_animate_nouns)
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
         V = conjugate(V, N1, allow_negated=False)
