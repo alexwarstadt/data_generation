@@ -292,7 +292,7 @@ while len(sentences) < number_to_generate:
             # write sentences to output
             if sentence_1 not in sentences:
                 output.write("%s\t%d\t\t%s\n" % (
-                    "experiment=NPI_env=questions_npi=inyears_licensor=1_scope=1_npi-present=1", 1, sentence_1))
+                    "experiment=NPI_env=questions_npi=inyears_licensor=1_scope=1_npi-present=1", 0, sentence_1))
                 output.write("%s\t%d\t\t%s\n" % (
                     "experiment=NPI_env=questions_npi=inyears_licensor=1_scope=1_npi-present=0", 1, sentence_2))
                 output.write("%s\t%d\t\t%s\n" % (
@@ -353,7 +353,7 @@ while len(sentences) < number_to_generate:
             # write sentences to output
             if sentence_1 not in sentences:
                 output.write("%s\t%d\t\t%s\n" % (
-                    "experiment=NPI_env=questions_npi=either_licensor=1_scope=1_npi-present=1", 1, sentence_1))
+                    "experiment=NPI_env=questions_npi=either_licensor=1_scope=1_npi-present=1", 0, sentence_1))
                 output.write("%s\t%d\t\t%s\n" % (
                     "experiment=NPI_env=questions_npi=either_licensor=1_scope=1_npi-present=0", 1, sentence_2))
                 output.write("%s\t%d\t\t%s\n" % (
