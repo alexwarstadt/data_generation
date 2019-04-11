@@ -133,6 +133,34 @@ def get_predictions(test_outputs_path, missing_first_line=True):
     return predictions
 
 
+def four_outcomes(column_a, column_b):
+    outcomes = [0, 0, 0, 0]
+    for a, b in zip(column_a, column_b):
+        if a == 1 and b == 1:
+            outcomes[0] += 1
+        if a == 1 and b == 0:
+            outcomes[0] += 1
+        if a == 0 and b == 1:
+            outcomes[0] += 1
+        if a == 0 and b == 0:
+            outcomes[0] += 1
+    return [x / len(column_a) for x in outcomes]
+
+
+# def reflexives_scores(table):
+#     in_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "0")], table)
+#     out_of_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1")], table)
+#     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
+#     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
+#     results = [in_domain_accuracy, out_of_domain_accuracy]
+#     reflexives = ["himself", "herself", "itself", "themselves"]
+#     pairs = itertools.combinations(reflexives, 2)
+#     for pair in pairs:
+#         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[0]), ("refl2", pair[1])], table)
+#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+#         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[1]), ("refl2", pair[0])], table)
+#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+#     return results
 
 def reflexives_scores(table):
     in_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "0")], table)
@@ -140,6 +168,7 @@ def reflexives_scores(table):
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]
+
     reflexives = ["himself", "herself", "itself", "themselves"]
     pairs = itertools.combinations(reflexives, 2)
     for pair in pairs:
