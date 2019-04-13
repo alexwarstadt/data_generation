@@ -54,10 +54,11 @@ def get_results_dtype(args):
     dtype.append(("run name", "U100"))
     if args.experiment_type == "reflexive":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
-        reflexives = ["himself", "herself", "itself", "themselves"]
-        pairs = itertools.combinations(reflexives, 2)
-        for pair in pairs:
-            dtype.extend([("%s %s accuracy" % (pair[0], pair[1]), "f8"), ("%s %s accuracy" % (pair[1], pair[0]), "f8")])
+        dtype.extend([("1/1", "f8"), ("out of domain accuracy", "f8"), ("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
+        # reflexives = ["himself", "herself", "itself", "themselves"]
+        # pairs = itertools.combinations(reflexives, 2)
+        # for pair in pairs:
+        #     dtype.extend([("%s %s accuracy" % (pair[0], pair[1]), "f8"), ("%s %s accuracy" % (pair[1], pair[0]), "f8")])
     if args.experiment_type == "npi_scope":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
         dtype.extend([("cond_3_unacceptable", "f8"), ("cond_4_acceptable", "f8")])
@@ -168,7 +169,9 @@ def reflexives_scores(table):
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]
-    results.extend(four_outcomes(out_of_domain["judgment"], out_of_domain["prediction"]))
+    sentences3 = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1"), ("matrix_antecedent", "1")], table)
+    sentences4 = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1"), ("matrix_antecedent", "0")], table)
+    results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
     return results
 
 
@@ -203,8 +206,9 @@ def npi_scope_scores(table):
     results.extend(four_outcomes(out_of_domain["judgment"], out_of_domain["prediction"]))
     npis = ["any", "ever", "yet"]
     for npi in npis:
-        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi)], out_of_domain)
-        results.extend(four_outcomes(sentences["judgment"], sentences["prediction"]))
+        sentences3 = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0"), ("npi", npi)], table)
+        sentences4 = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1"), ("npi", npi)], table)
+        results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
     return results
 
 
@@ -215,10 +219,9 @@ def polar_q_scores(table):
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]
     results.extend(four_outcomes(out_of_domain["judgment"], out_of_domain["prediction"]))
-    # cond_3 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "1")], table)
-    # cond_4 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "0")], table)
-    # results.append(sklearn.metrics.accuracy_score(cond_3["judgment"], cond_3["prediction"]))
-    # results.append(sklearn.metrics.accuracy_score(cond_4["judgment"], cond_4["prediction"]))
+    sentences3 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "1")], table)
+    sentences4 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "0")], table)
+    results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
     return results
 
 
