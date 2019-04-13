@@ -41,7 +41,7 @@ def make_subsets(in_domain_size):
     """
 
     large_table = []
-    npi_path = "../outputs/npi/"
+    npi_path = "../outputs/npi/environments/"
     for file in os.listdir(npi_path):
         if file[-4:] == ".tsv":
             large_table.append(read_data_tsv(os.path.join(npi_path, file)))
