@@ -54,7 +54,7 @@ def get_results_dtype(args):
     dtype.append(("run name", "U100"))
     if args.experiment_type == "reflexive":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
-        dtype.extend([("1/1", "f8"), ("out of domain accuracy", "f8"), ("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
+        dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
         # reflexives = ["himself", "herself", "itself", "themselves"]
         # pairs = itertools.combinations(reflexives, 2)
         # for pair in pairs:
@@ -63,10 +63,10 @@ def get_results_dtype(args):
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
         dtype.extend([("cond_3_unacceptable", "f8"), ("cond_4_acceptable", "f8")])
         for npi in ["any", "ever", "yet"]:
-            dtype.extend([("npi=%s" % npi, "f8"), ("npi=%s_cond_3_unacceptable" % npi, "f8"), ("npi=%s_cond_4_acceptable" % npi, "f8")])
+            dtype.extend([(npi+":1/1", "f8"), (npi+":1/0", "f8"), (npi+":0/1", "f8"), (npi+":0/0", "f8")])
     if args.experiment_type == "polar_q":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
-        dtype.extend([("cond_3_acceptable", "f8"), ("cond_4_unacceptable", "f8")])
+        dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
     return dtype
 
 def process_experiment(experiment_dir, args):
