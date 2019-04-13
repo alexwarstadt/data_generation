@@ -141,11 +141,11 @@ def four_outcomes(column_a, column_b):
         if a == 1 and b == 1:
             outcomes[0] += 1
         if a == 1 and b == 0:
-            outcomes[0] += 1
+            outcomes[1] += 1
         if a == 0 and b == 1:
-            outcomes[0] += 1
+            outcomes[2] += 1
         if a == 0 and b == 0:
-            outcomes[0] += 1
+            outcomes[3] += 1
     return [x / len(column_a) for x in outcomes]
 
 
