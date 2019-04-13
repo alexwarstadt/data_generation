@@ -204,7 +204,9 @@ def npi_scope_scores(table):
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]
-    results.extend(four_outcomes(out_of_domain["judgment"], out_of_domain["prediction"]))
+    sentences3 = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0")], table)
+    sentences4 = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1")], table)
+    results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
     npis = ["any", "ever", "yet"]
     for npi in npis:
         sentences3 = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0"), ("npi", npi)], table)
