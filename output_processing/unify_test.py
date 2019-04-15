@@ -89,7 +89,7 @@ def process_experiment(experiment_dir, args):
                 full_test_path = os.path.join(args.datasets_dir, experiment_dir.split("/")[-1], "CoLA", "test_full.tsv")
             else:
                 full_test_path = args.full_test_path
-            table = make_unified_table(test_outputs_path, full_test_path)
+            table = make_unified_table(test_outputs_path, full_test_path, args)
             if args.experiment_type == "reflexive":
                 new_row.extend(reflexives_scores(table))
             if args.experiment_type == "polar_q":
@@ -104,7 +104,7 @@ def process_experiment(experiment_dir, args):
     return results_summary
 
 
-def make_unified_table(test_outputs_path, full_test_path):
+def make_unified_table(test_outputs_path, full_test_path, args):
     """
     Makes a table with test predictions and test data/metadata combined.
     :param test_outputs_path: file containing the test predictions
@@ -112,7 +112,7 @@ def make_unified_table(test_outputs_path, full_test_path):
     :return: table containing test data, metadata, and predictions
     """
     old_table = utils.metadata_parse.read_data_tsv(full_test_path)
-    predictions = get_predictions(test_outputs_path)
+    predictions = get_predictions(test_outputs_path, args.missing_first_line)
     # table = unify_table(old_table, predictions)
     new_dt = np.dtype(old_table.dtype.descr + [('prediction', 'i1')])
     table = np.zeros(old_table.shape, new_dt)
