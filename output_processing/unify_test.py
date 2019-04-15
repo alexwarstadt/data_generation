@@ -97,7 +97,7 @@ def process_experiment(experiment_dir, args):
             if args.experiment_type == "npi_scope":
                 new_row.extend(npi_scope_scores(table))
             if args.experiment_type == "embedded_tense":
-                embedded_tense_scores(table)
+                new_row.extend(embedded_tense_scores(table))
             if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
             results_summary.append(tuple(new_row))
