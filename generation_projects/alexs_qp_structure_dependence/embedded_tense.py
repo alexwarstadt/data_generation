@@ -71,11 +71,7 @@ for writer in [train_output, dev_output, test_output]:
             N3 = N_to_DP_mutate(choice(get_matches_of(V3, "arg_2", get_all_conjunctive([("animate", N1["animate"]), ("sg", N1["sg"])], all_nouns)), [N1]))
             V1 = choice(get_matched_by(N1, "arg_1", all_pres_verbs), [V3])
             V2 = get_all_conjunctive([("expression", past(V1, N1["sg"])), ("past", "1")])[0]
-            # V4 = get_all_conjunctive([("expression", past(V3, N1["sg"])), ("past", "1")])[0]
             N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns), [N1, N3]))
-            # Aux1 = choice(get_matched_by(V1, "arg_2", get_matched_by(N1, "arg_1", all_aux)))
-            # Aux2 = choice(get_matched_by(V2, "arg_2", get_matched_by(N1, "arg_1", all_aux)))
-            # Aux3 = choice(get_matched_by(V3, "arg_2", get_matched_by(N1, "arg_1", all_aux)))
             Rel = choice(get_matched_by(N1, "arg_1", get_all("category_2", "rel")))
         except IndexError:
             continue

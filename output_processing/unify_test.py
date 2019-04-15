@@ -55,17 +55,15 @@ def get_results_dtype(args):
     if args.experiment_type == "reflexive":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
         dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
-        # reflexives = ["himself", "herself", "itself", "themselves"]
-        # pairs = itertools.combinations(reflexives, 2)
-        # for pair in pairs:
-        #     dtype.extend([("%s %s accuracy" % (pair[0], pair[1]), "f8"), ("%s %s accuracy" % (pair[1], pair[0]), "f8")])
     if args.experiment_type == "npi_scope":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
-        # dtype.extend([("cond_3_unacceptable", "f8"), ("cond_4_acceptable", "f8")])
         dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
         for npi in ["any", "ever", "yet"]:
             dtype.extend([(npi+":1/1", "f8"), (npi+":1/0", "f8"), (npi+":0/1", "f8"), (npi+":0/0", "f8")])
     if args.experiment_type == "polar_q":
+        dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
+        dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
+    if args.experiment_type == "embedded_tense":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
         dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
     return dtype
@@ -96,6 +94,8 @@ def process_experiment(experiment_dir, args):
                 new_row.extend(polar_q_scores(table))
             if args.experiment_type == "npi_scope":
                 new_row.extend(npi_scope_scores(table))
+            if args.experiment_type == "embedded_tense":
+                embedded_tense_scores(table)
             if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
             results_summary.append(tuple(new_row))
@@ -149,21 +149,6 @@ def four_outcomes(column_a, column_b):
     return [x / len(column_a) for x in outcomes]
 
 
-# def reflexives_scores(table):
-#     in_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "0")], table)
-#     out_of_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1")], table)
-#     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
-#     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
-#     results = [in_domain_accuracy, out_of_domain_accuracy]
-#     reflexives = ["himself", "herself", "itself", "themselves"]
-#     pairs = itertools.combinations(reflexives, 2)
-#     for pair in pairs:
-#         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[0]), ("refl2", pair[1])], table)
-#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-#         sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[1]), ("refl2", pair[0])], table)
-#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-#     return results
-
 def reflexives_scores(table):
     in_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "0")], table)
     out_of_domain = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1")], table)
@@ -175,28 +160,6 @@ def reflexives_scores(table):
     results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
     return results
 
-
-
-
-# def npi_scope_scores(table):
-#     in_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "0")], table)
-#     out_of_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1")], table)
-#     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
-#     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
-#     results = [in_domain_accuracy, out_of_domain_accuracy]
-#     sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0")], table)
-#     results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-#     sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1")], table)
-#     results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-#     npis = ["any", "ever", "yet"]
-#     for npi in npis:
-#         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi)], table)
-#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-#         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "0")], table)
-#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-#         sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "1")], table)
-#         results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-#     return results
 
 def npi_scope_scores(table):
     in_domain = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "0")], table)
@@ -228,6 +191,17 @@ def polar_q_scores(table):
 
 
 
+def embedded_tense_scores(table):
+    in_domain = utils.vocab_table.get_all_conjunctive([("src", "1")], table)
+    out_of_domain = utils.vocab_table.get_all_conjunctive([("src", "0")], table)
+    in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
+    out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
+    results = [in_domain_accuracy, out_of_domain_accuracy]
+    sentences3 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("emb_past", "1")], table)
+    sentences4 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("emb_past", "0")], table)
+    results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
+    return results
+
 
 
 def npi_subsets_score(table, name):
@@ -251,44 +225,9 @@ def npi_subsets_score(table, name):
 
 
 
-
 if __name__ == '__main__':
     args = handle_arguments(sys.argv[1:])
     if args.is_experiment_set:
         process_experiment_set(args)
     else:
         process_experiment(args.main_experiment_dir, args)
-
-
-
-# def process_npi_subsets(experiment_directory, name):
-#     for output in os.listdir(experiment_directory):
-#         if os.path.isfile(os.path.join(experiment_directory, output)):
-#             print(output)
-#             old_table = utils.metadata_parse.read_data_tsv(os.path.join(experiment_directory, test_full))
-#             predictions = get_predictions(os.path.join(experiment_directory, output))
-#             table = unify_table(old_table, predictions)
-#             npi_subsets_score(table, name)
-#
-#
-# def process_reflexives(experiment_directory):
-#     for output in os.listdir(experiment_directory):
-#         if os.path.isfile(os.path.join(experiment_directory, output)):
-#             old_table = utils.metadata_parse.read_data_tsv(os.path.join(experiment_directory, test_full))
-#             predictions = get_predictions(os.path.join(experiment_directory, output))
-#             table = unify_table(old_table, predictions)
-#             reflexives_scores(table)
-
-# directory = "../outputs/alexs_qp_structure_dependence/reflexive/1k"
-# process_reflexives(directory)
-
-
-# directory = "../outputs/npi/subsets_6"
-# for dir_end in os.listdir("../outputs/npi/subsets_6"):
-#     print(dir_end)
-#     process_npi_subsets(os.path.join(directory, dir_end), dir_end)
-#     print("\n===============================\n")
-#
-#
-#
-# pass
