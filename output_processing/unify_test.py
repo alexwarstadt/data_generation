@@ -131,7 +131,6 @@ def get_predictions(test_outputs_path, missing_first_line=True):
     :param missing_first_line: 
     :return: 
     """
-    print("MISSING FL:", missing_first_line)
     predictions = [line.split("\t")[1] for line in open(test_outputs_path)]
     if missing_first_line:
         predictions[0] = 1
