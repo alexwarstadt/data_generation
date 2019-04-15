@@ -28,6 +28,8 @@ def handle_arguments(cl_arguments):
                         help="Directory containing experiment, or else directory containing set of experiments.")
     parser.add_argument('--is_experiment_set', '-s', type=bool, default=True,
                         help="Is the experiment dir a set of experiments (>1 results.tsv)?")
+    parser.add_argument('--missing_first_line', '-m', type=bool, default=True,
+                        help="Is the experiment dir a set of experiments (>1 results.tsv)?")
     return parser.parse_args(cl_arguments)
 
 
@@ -132,6 +134,8 @@ def get_predictions(test_outputs_path, missing_first_line=True):
     predictions = [line.split("\t")[1] for line in open(test_outputs_path)]
     if missing_first_line:
         predictions[0] = 1
+    else:
+        predictions = predictions[1:]
     return predictions
 
 
