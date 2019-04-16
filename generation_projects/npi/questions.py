@@ -4,6 +4,10 @@ from utils.string_utils import remove_extra_whitespace
 from random import choice
 import numpy as np
 
+# TODO 1: Restrict generation to frequent nouns
+# TODO 2: Fix metadata (a) switch "-" and "_" (b) make sure metadata fields match other environments exactly
+# TODO 3: Paradigm metadata feature, use generation_projects/npi/add_paradigm_feature.py script
+
 # initialize output file
 rel_output_path = "outputs/npi/environment=questions.tsv"
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
