@@ -1,0 +1,463 @@
+	experiment	environment	npi	crucial_item	licensor	scope	npi_present	paradigm	acceptability	blank	sentence	rand_int
+1	NPI	determiner_negation_biclausal	at all	some	0	0	0	2244	1	NA	The women think as well that some commentaries referenced a lady.	1e+05
+2	NPI	negation	either	no	1	0	1	4126	0	NA	The pedestrians are saying either that none of the cars resemble the senators.	99999
+3	NPI	determiner_negation_biclausal	any	some	0	0	1	5895	0	NA	Any customers have thought that some waiters explored the schools.	99998
+4	NPI	determiner_negation_monoclausal	yet	some	0	0	0	1989	1	NA	The women had taken the shoes for a while at some public parks.	99998
+5	NPI	questions	atall	_	1	0	0	2728	1	NA	The patients wonder regularly whether the man liked plates.	99998
+6	NPI	superlative	any	cheapest	1	1	1	1299	1	NA	The rugs resemble the cheapest dishes that any teenagers had broken.	99998
+7	NPI	only	yet	_	0	0	0	3243	1	NA	The waiters loved actors regularly even at the bank.	99997
+8	NPI	quantifier	inyears	some	0	0	0	4373	1	NA	Some cashier who bought many gloves investigated more than three hospitals on weekends.	99997
+9	NPI	questions	either	_	1	0	1	4723	0	NA	The boys wonder either whether the man examined the plays.	99997
+10	NPI	only	any	_	0	0	0	1227	1	NA	These drivers even are driving to the movie theaters.	99996
+11	NPI	questions	inyears	_	1	1	1	3704	0	NA	The actresses wonder whether the teacher hasnt disliked the drivers in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=_-licensor=1-scope=1-npi_present=0-paradigm=3704	1		The actresses wonder whether the teacher hasnt disliked the drivers on weekends.	99996
+12	NPI	sentential_negation_biclausal	yet	not	1	0	0	1021	1	NA	A driver might imagine on occasion that a person was not studying.	99996
+13	NPI	sentential_negation_biclausal	any	really	0	1	0	5292	1	NA	The dancers are really explaining that the senators should bring a newspaper article.	99996
+14	NPI	determiner_negation_monoclausal	at all	no	1	1	0	2739	1	NA	No teenager is driving to the schools on occasion.	99995
+15	NPI	questions	yet	_	1	1	1	1987	1	NA	The teenagers wonder whether the actor wouldnt describe newspaper articles yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=_-licensor=1-scope=1-npi_present=0-paradigm=1987	1		The teenagers wonder whether the actor wouldnt describe newspaper articles for a while.	99995
+16	NPI	quantifier	yet	many	0	0	1	2786	0	NA	Many cashiers who examined the essays helped a lot of dancers yet.	99994
+17	NPI	sentential_negation_biclausal	any	really	0	0	1	5959	0	NA	Any adults have thought that the boys are really working with the student.	99994
+18	NPI	superlative	inyears	cheap	0	1	1	4577	0	NA	A guest who bought the cheap cars in years ran around banks.	99994
+19	NPI	conditional	yet	_	1	1	1	2459	0	NA	If the actress saw the rugs yet, the actress passes the schools.	99993
+20	NPI	conditional	either	_	1	0	0	5927	1	NA	If the men knew the dancers, the men tour the students on occasion.	99993
+21	NPI	only	yet	_	1	1	1	3596	1	NA	Only the people will mutter yet at the art gallery.	99993
+22	NPI	quantifier	inyears	some	0	1	1	4328	0	NA	Some doctor who admired the pedestrians in years visited a lot of people.	99993
+23	NPI	quantifier	inyears	every	1	0	0	4871	1	NA	Every driver who described the actors referenced the dancers as well.	99993
+24	NPI	questions	ever	_	1	0	1	154	0	NA	The people ever wonder whether the children skate around the public parks.	99993
+25	NPI	conditional	yet	_	1	0	0	2006	1	NA	If the adult helped the guests, the teachers dislike the pedestrians on occasion.	99992
+26	NPI	determiner_negation_biclausal	yet	some	0	1	0	1309	1	NA	Some boys imagine that the guys telephone for a while.	99992
+27	NPI	negation	either	no	1	1	0	4174	1	NA	No waiter said that the ladies love the cashiers regularly.	99992
+28	NPI	determiner_negation_biclausal	any	no	1	0	1	5268	0	NA	Any men explain that no eyes resemble a story.	99992
+29	NPI	determiner_negation_monoclausal	in years	no	1	0	1	3904	0	NA	The customer thought the grocery stores in years at no cafes.	99992
+30	NPI	only	inyears	_	0	0	0	4838	1	NA	The dancers competed as well even at the movie theater.	99992
+31	NPI	questions	ever	_	1	1	0	9	1	NA	The actors wonder whether the women obviously been at the malls.	99992
+32	NPI	adverbs	ever	seldom	1	1	0	257	1	NA	A guy seldom also explains that the driver shrugs.	99991
+33	NPI	conditional	atall	_	1	0	1	3685	0	NA	If the people observed the drivers, the people are insulting the brochures at all.	99991
+34	NPI	only	ever	_	0	1	0	423	1	NA	Even the actors had also talked to the adults.	99991
+35	NPI	only	any	_	0	1	1	1092	0	NA	Even the children had brought any shoes.	99991
+37	NPI	sentential_negation_monoclausal	any	not	1	0	0	1062	1	NA	Those guys had not dropped by these grocery stores.	99991
+38	NPI	superlative	inyears	smallest	1	0	1	4336	0	NA	The waiters who toured the smallest restaurants will see brochures in years.	99991
+39	NPI	adverbs	any	always	0	1	0	1860	1	NA	The customers who have always lifted the books listened to guests.	99990
+40	NPI	sentential_negation_biclausal	either	really	0	1	1	4627	0	NA	A boy will really say that the pants are shrinking either.	99990
+41	NPI	sentential_negation_monoclausal	any	not	1	0	1	1520	0	NA	Any waiters had not seen these guys.	99990
+42	NPI	simplequestions	atall	_	1	1	0	3127	1	NA	Do the adults dislike the commentaries for a while?	99990
+43	NPI	determiner_negation_biclausal	any	no	1	0	0	5795	1	NA	Those actors think that no commentaries had talked about the people.	99989
+45	NPI	conditional	atall	_	1	1	1	3986	1	NA	If the adult discussed the plays at all, the senators will examine the reports.	99988
+46	NPI	only	atall	_	0	0	0	2867	1	NA	A waitress movie theaters as well even at the mall.	99988
+47	NPI	quantifier	any	all	1	1	1	776	1	NA	All senators who were skated around any restaurants tour more than three high schools.	99988
+48	NPI	superlative	inyears	good	0	0	0	4961	1	NA	The driver who criticized the good teenager breaks books as well.	99988
+49	NPI	adverbs	either	always	0	0	1	4491	0	NA	The patient who could always talk about banks should yell either.	99987
+50	NPI	determiner_negation_biclausal	in years	some	0	0	1	3911	0	NA	A lady has thought in years that some actors blinked.	99987
+51	NPI	determiner_negation_monoclausal	at all	no	1	0	1	2189	0	NA	A patient is returning to the drivers at all at no malls.	99987
+52	NPI	only	yet	_	1	0	1	3100	0	NA	The dancer was referencing patients yet only at the cafe.	99987
+53	NPI	only	either	_	1	1	1	5232	0	NA	Only the man forfeited either at the museum.	99987
+54	NPI	superlative	yet	biggest	1	1	1	3064	1	NA	A waitress who returned to the biggest museums yet might arrive at restaurants.	99987
+55	NPI	conditional	any	_	0	0	0	1284	1	NA	While the senator toured the banks, the actress should wear these pants.	99986
+56	NPI	negation	at all	no	1	0	0	2738	1	NA	The dancers imagine on occasion that no documentaries will criticize the people.	99986
+57	NPI	quantifier	yet	a lot of	0	0	0	2360	1	NA	A lot of drivers who had toured the schools drove to many college campuses regularly.	99986
+58	NPI	quantifier	yet	all	1	1	1	2548	0	NA	All customers who exit banks yet have been at a lot of movie theaters.	99986
+59	NPI	sentential_negation_monoclausal	ever	really	0	1	1	949	0	NA	The actor is really ever littering.	99986
+60	NPI	superlative	either	happiest	1	0	1	5065	0	NA	A boy who cared for the happiest senator has described documentaries either.	99986
+61	NPI	determiner_negation_biclausal	ever	some	0	1	0	126	1	NA	Some actor clearly does imagine that the art galleries resemble a play.	99985
+62	NPI	determiner_negation_monoclausal	in years	some	0	1	0	3340	1	NA	Some waiter had imagined the children for a while.	99985
+63	NPI	questions	ever	_	1	1	1	491	1	NA	The waiters wonder whether the teenager ever explores the schools.	99985
+65	NPI	adverbs	atall	sometimes	0	1	1	2803	0	NA	The waitresses who have sometimes stood up at all performed.	99984
+66	NPI	adverbs	inyears	often	0	1	1	3210	0	NA	The actors who often explored art galleries in years have drunk.	99984
+67	NPI	negation	at all	none of the	1	1	1	2541	1	NA	None of the teachers explained that the newspaper articles can win at all.	99984
+68	NPI	determiner_negation_biclausal	in years	some	0	1	1	3788	0	NA	Some man imagined that the waitresses have assembled in years.	99984
+71	NPI	only	inyears	_	0	0	1	4546	0	NA	The person baked in years even at the school.	99984
+72	NPI	quantifier	any		0	0	0	853	1	NA	Adults who had driven to the cafes bike to those banks.	99984
+73	NPI	sentential_negation_biclausal	yet	really	0	0	0	1181	1	NA	The senator had explained on occasion that the boy can really donate.	99984
+74	NPI	sentential_negation_biclausal	at all	not	1	0	0	2334	1	NA	The man will say for a while that the movies could not talk about the museum.	99984
+75	NPI	sentential_negation_monoclausal	ever	not	1	1	1	460	1	NA	The guys were not ever speaking up.	99984
+76	NPI	determiner_negation_biclausal	either	some	0	0	0	4527	1	NA	The senators said regularly that some commentaries won.	99983
+77	NPI	determiner_negation_biclausal	either	some	0	1	0	4870	1	NA	Some people had explained that the adults suffered on occasion.	99983
+78	NPI	only	either	_	0	1	1	5359	0	NA	Even the pedestrians hunt either at the mall.	99983
+81	NPI	simplequestions	any	_	0	1	0	1081	1	NA	That man has watched the girls.	99983
+82	NPI	adverbs	either	sometimes	0	0	0	4082	1	NA	The waitresses who had sometimes embraced could write hard regularly.	99982
+83	NPI	only	any	_	0	1	0	1741	1	NA	Even the women took those pants.	99982
+84	NPI	quantifier	ever	all	1	1	1	1149	1	NA	All boys who ever biked to libraries had listened to the guys.	99982
+85	NPI	quantifier	either	a lot of	0	1	1	5565	0	NA	A lot of waitresses who lift the rugs either attack many drivers.	99982
+86	NPI	questions	ever	_	0	0	1	961	0	NA	The pedestrians ever know that the pedestrian broke the plates.	99982
+87	NPI	sentential_negation_biclausal	ever	really	0	1	0	130	1	NA	The children are really clearly explaining that the eyes can resemble the public park.	99982
+88	NPI	sentential_negation_monoclausal	ever	really	0	0	1	685	0	NA	The women were ever really studying.	99982
+89	NPI	superlative	atall	most important	1	1	1	2434	0	NA	A pedestrian who returned to the most important customers at all goes to hospitals.	99982
+90	NPI	adverbs	inyears	sometimes	0	0	0	3547	1	NA	The ladies who have sometimes talked have succeeded on occasion.	99981
+92	NPI	only	ever	_	1	1	1	862	1	NA	Only the students can ever break the chairs.	99981
+93	NPI	superlative	yet	important	0	1	0	3443	1	NA	The teachers who left the important hospital regularly were arriving at libraries.	99981
+94	NPI	conditional	any	_	0	1	0	1749	1	NA	While the waitress liked the newspaper articles, the girls did escape from the ladies.	99980
+95	NPI	determiner_negation_monoclausal	any	no	1	1	0	5049	1	NA	No children could escape from these patients.	99980
+96	NPI	questions	ever	_	0	1	1	687	0	NA	The girls know that the customers ever know the children.	99980
+98	NPI	adverbs	inyears	hardly	1	0	1	3957	0	NA	The boys who have hardly hugged screamed in years.	99979
+99	NPI	negation	either	no	1	1	1	4152	1	NA	No boy is explaining that the documentaries have talked about the high school either.	99979
+100	NPI	quantifier	yet	any	1	0	1	2128	0	NA	Any children who skate around the art galleries were cleaning the cups yet.	99979
+102	NPI	questions	yet	_	0	1	1	1031	0	NA	The doctors know that the waiter hasnt explored the college campuses yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=_-licensor=0-scope=1-npi_present=0-paradigm=1031	1		The doctors know that the waiter hasnt explored the college campuses on occasion.	99979
+103	NPI	questions	atall	_	0	1	1	2531	0	NA	The drivers know that the boys couldnt visit the malls at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=_-licensor=0-scope=1-npi_present=0-paradigm=2531	1		The drivers know that the boys couldnt visit the malls on occasion.	99979
+105	NPI	superlative	ever	oldest	1	1	1	548	1	NA	A doctor references the oldest girl that the customer had ever admired.	99979
+107	NPI	adverbs	ever	often	0	1	0	677	1	NA	A teacher often often explains that the guests would cheer.	99978
+108	NPI	adverbs	atall	often	0	0	0	2085	1	NA	A cashier who might often benefit has baked on occasion.	99978
+109	NPI	determiner_negation_biclausal	at all	some	0	0	1	2598	0	NA	The waiter said at all that some actors are profiting.	99978
+110	NPI	sentential_negation_biclausal	at all	really	0	0	0	2414	1	NA	A waitress had imagined on weekends that the report had really won.	99978
+111	NPI	determiner_negation_biclausal	ever	no	1	1	0	723	1	NA	No girl should often think that the gloves were shrinking.	99977
+113	NPI	sentential_negation_biclausal	in years	not	1	0	1	3094	0	NA	The patient imagined in years that the actors had not laughed.	99977
+114	NPI	simplequestions	ever	_	0	1	1	510	0	NA	The driver ever had cleaned the forks.	99977
+115	NPI	sentential_negation_monoclausal	ever	not	1	1	0	538	1	NA	The doctor should not really praise the adult.	99976
+116	NPI	superlative	any	happy	0	1	0	1534	1	NA	The books can resemble the happy students that the waiters had attacked.	99976
+120	NPI	superlative	any	newest	1	0	1	1540	0	NA	Any women were breaking the newest cars that senators have seen.	99975
+121	NPI	adverbs	any	scarcely	1	1	0	1281	1	NA	The men who scarcely described those banks reference reports.	99974
+122	NPI	conditional	yet	_	0	1	0	2520	1	NA	While the girl arrived at the movie theaters regularly, the woman is scanning the books.	99974
+123	NPI	negation	in years	none of the	1	0	1	3935	0	NA	The students have said in years that none of the cashiers have eaten.	99974
+124	NPI	negation	either	no	1	0	0	4959	1	NA	The student thought for a while that no ladies wave.	99974
+125	NPI	only	yet	_	0	0	1	3329	0	NA	The customers have worn glasses yet even at the college campus.	99974
+126	NPI	only	inyears	_	0	1	0	4255	1	NA	Even a student had scratched for a while at the cafe.	99974
+127	NPI	quantifier	ever	more than three	0	0	0	1267	1	NA	More than three women who investigated some restaurants clearly admired gloves.	99974
+128	NPI	questions	inyears	_	1	0	0	3597	1	NA	The patients wonder on occasion whether the boy might drive to the restaurants.	99974
+129	NPI	sentential_negation_biclausal	ever	not	1	1	0	333	1	NA	The guests had not really said that the pedestrians should approach a person.	99974
+130	NPI	superlative	atall	smallest	1	1	0	2678	1	NA	The boy who remembered the smallest actresses as well described girls.	99974
+131	NPI	superlative	atall	fastest	1	0	0	2921	1	NA	The girl who liked the fastest driver does take books on weekends.	99974
+133	NPI	determiner_negation_monoclausal	yet	no	1	1	0	1850	1	NA	No adult has attacked the cashiers as well.	99973
+134	NPI	determiner_negation_monoclausal	in years	no	1	1	0	3150	1	NA	No teachers said the high schools as well.	99973
+135	NPI	only	ever	_	0	0	0	548	1	NA	The waitresses do really hate even the plays.	99973
+136	NPI	sentential_negation_biclausal	at all	really	0	1	1	2399	0	NA	The cashier was really thinking that the doctors did collaborate at all.	99973
+137	NPI	sentential_negation_biclausal	any	not	1	0	0	5729	1	NA	Those people have said that those patients have not hidden away.	99973
+138	NPI	only	either	_	0	0	1	5778	0	NA	An actor boasts either even at the museum.	99972
+139	NPI	adverbs	ever	hardly	1	1	1	491	1	NA	The students hardly ever explained that a waitress might chuckle.	99971
+140	NPI	determiner_negation_monoclausal	any	no	1	0	1	5069	0	NA	Any teachers had kissed no cars.	99971
+141	NPI	only	any	_	1	0	1	1676	0	NA	Any drivers only break the glasses.	99971
+142	NPI	quantifier	inyears	every	1	1	1	4139	0	NA	Every child who skated around a lot of college campuses in years has insulted many cafes.	99971
+144	NPI	adverbs	ever	rarely	1	0	1	197	0	NA	A customer ever thought that the cashiers will rarely sing.	99970
+148	NPI	only	any	_	1	1	1	1141	1	NA	Only the pedestrians admire any books.	99970
+151	NPI	questions	yet	_	1	0	0	1766	1	NA	The ladies wonder for a while whether the teenagers can like men.	99970
+153	NPI	adverbs	any	often	0	1	1	1837	0	NA	The waitresses who might often investigate any students had escaped from art galleries.	99969
+154	NPI	conditional	ever	_	0	0	1	809	0	NA	While the waitress was hugging the students, the dancers would ever explore the dancers.	99969
+155	NPI	determiner_negation_monoclausal	any	some	0	1	0	5926	1	NA	Some customers have taken those essays.	99969
+156	NPI	only	ever	_	0	1	1	341	0	NA	Even the pedestrian ever respected the men.	99969
+158	NPI	questions	either	_	0	1	1	4890	0	NA	The doctors know that the actors escape from the children either.	99969
+159	NPI	sentential_negation_biclausal	either	really	0	0	0	4188	1	NA	The people had explained as well that the waiter is really studying.	99969
+163	NPI	quantifier	either	an	0	0	1	5066	0	NA	An actor who will skate around more than three cafes should be at a lot of high schools either.	99968
+164	NPI	sentential_negation_biclausal	at all	not	1	0	1	2428	0	NA	The teenagers are imagining at all that the dishes will not resemble the malls.	99968
+166	NPI	sentential_negation_monoclausal	any	not	1	1	1	1085	1	NA	These women are not boycotting any movie theaters.	99968
+167	NPI	conditional	ever	_	0	0	0	132	1	NA	While the senator was praising the girls, the man was often visiting the college campuses.	99967
+168	NPI	quantifier	atall	all	1	0	1	3401	0	NA	All children who hugged more than three ladies drove to a lot of art galleries at all.	99967
+169	NPI	quantifier	atall	every	1	1	0	3646	1	NA	Every actor who kissed more than three pedestrians regularly was visiting many dancers.	99967
+171	NPI	superlative	any	fastest	1	1	0	1343	1	NA	The hair resembled the fastest adult that those teenagers had approached.	99967
+172	NPI	adverbs	either	barely	1	1	0	4403	1	NA	A man who barely murmured for a while did work hard.	99966
+173	NPI	negation	yet	no	1	1	0	1955	1	NA	No adult has said that the couches did resemble the waiter regularly.	99966
+174	NPI	determiner_negation_monoclausal	either	no	1	0	1	4879	0	NA	A man liked the teenagers either at no malls.	99966
+175	NPI	quantifier	inyears	every	1	1	0	4511	1	NA	Every woman who has criticized more than three drivers regularly had walked through more than three grocery stores.	99966
+177	NPI	adverbs	inyears	always	0	1	0	3159	1	NA	The guy who always went doctorsing as well answered.	99965
+178	NPI	quantifier	yet	any	1	0	0	2998	1	NA	Any customers who had skated around a lot of libraries kissed the actresses for a while.	99965
+180	NPI	sentential_negation_biclausal	any	not	1	0	1	5312	0	NA	Any patients were saying that those boys have not replied.	99965
+181	NPI	conditional	ever	_	0	1	0	861	1	NA	While the woman can also hug the cashiers, the teenager is breaking the couches.	99964
+182	NPI	only	atall	_	0	1	0	2908	1	NA	Even an actor had helped teenagers on weekends at the library.	99964
+183	NPI	quantifier	yet	the	0	1	1	2554	0	NA	The dancer who should go to banks yet exits many museums.	99964
+184	NPI	questions	either	_	0	0	1	4891	0	NA	The patients know either that the pedestrians havent hugged the customers.
+experiment=NPI-env=questions-npi=either-crucial_item=_-licensor=0-scope=0-npi_present=0-paradigm=4891	1		The patients know on weekends that the pedestrians havent hugged the customers.	99964
+185	NPI	sentential_negation_biclausal	either	not	1	0	0	4915	1	NA	The people might explain as well that the commentary would not win.	99964
+186	NPI	superlative	any	newest	1	0	0	1930	1	NA	The reports do discuss the newest hospital that patients had dropped by.	99964
+187	NPI	superlative	inyears	youngest	1	1	1	4908	1	NA	A woman who saw the youngest customers in years was talking about girls.	99964
+188	NPI	superlative	either	longest	1	1	1	5609	0	NA	The actresses who examined the longest commentaries either have lifted gloves.	99964
+190	NPI	only	ever	_	0	0	1	376	0	NA	The patients ever cared for even the men.	99963
+191	NPI	quantifier	any	all	1	0	1	756	0	NA	All dancers who attacked girls might wear any glasses.	99963
+193	NPI	negation	yet	none of the	1	1	1	1219	1	NA	None of the girls have explained that the teachers play yet.	99961
+194	NPI	negation	in years	none of the	1	1	1	3580	1	NA	None of the people had imagined that the reports won in years.	99961
+196	NPI	sentential_negation_biclausal	ever	really	0	1	1	561	0	NA	The men will really ever think that a senator can answer.	99961
+197	NPI	simplequestions	any	_	0	1	1	2265	0	NA	The actress was scanning the newspaper articles.	99961
+198	NPI	conditional	yet	_	0	0	1	2217	0	NA	While the lady took the rugs, the waiter does take the plates yet.	99960
+199	NPI	adverbs	any	barely	1	0	0	1020	1	NA	The person who should barely admire guests praised the essays.	99959
+200	NPI	conditional	inyears	_	0	0	1	4627	0	NA	While the senator referenced the men, the waiter will wear the pants in years.	99959
+205	NPI	only	atall	_	1	1	1	2888	1	NA	Only the students were weeping at all at the cafe.	99959
+207	NPI	questions	atall	_	0	0	1	2180	0	NA	The women know at all that the guest saw the ladies.	99959
+209	NPI	simplequestions	any	_	1	1	0	1346	1	NA	Do those senators drive to the restaurants?	99959
+210	NPI	conditional	either	_	1	0	1	5665	0	NA	If the girls kissed the girls, the dancer insults the sheep either.	99958
+211	NPI	determiner_negation_monoclausal	yet	no	1	0	1	1270	0	NA	The senators have taken the books yet at no restaurants.	99958
+212	NPI	only	atall	_	1	0	1	2436	0	NA	A person was talking to adults at all only at the public park.	99958
+213	NPI	only	yet	_	1	1	0	3327	1	NA	Only a lady had fled from banks for a while at the movie theater.	99958
+214	NPI	only	inyears	_	1	0	1	4739	0	NA	The waiters went to movie theaters in years only at the hospital.	99958
+216	NPI	adverbs	atall	scarcely	1	0	0	2471	1	NA	The guys who scarcely cooked drank on weekends.	99957
+217	NPI	conditional	either	_	1	1	0	5363	1	NA	If the student attacked the actresses for a while, the student could skate around the senators.	99957
+221	NPI	adverbs	ever	always	0	1	1	818	0	NA	The boys always ever explained that a lady arrives at the hospital.	99956
+222	NPI	conditional	atall	_	0	0	1	3384	0	NA	While the waitress remembered the waiters, the teenagers will describe the libraries at all.	99956
+223	NPI	quantifier	ever	every	1	0	1	1773	0	NA	Every student who does dislike more than three boys would ever lift books.	99956
+224	NPI	quantifier	either	the	0	0	0	5403	1	NA	The people who would describe more than three teachers care for some doctors as well.	99956
+225	NPI	questions	inyears	_	1	0	1	3980	0	NA	The actresses wonder in years whether the drivers werent returning to the libraries.
+experiment=NPI-env=questions-npi=inyears-crucial_item=_-licensor=1-scope=0-npi_present=0-paradigm=3980	1		The actresses wonder for a while whether the drivers werent returning to the libraries.	99956
+227	NPI	sentential_negation_biclausal	either	not	1	1	0	4664	1	NA	The adult is not thinking that the college campus can resemble the college campuses on occasion.	99956
+228	NPI	superlative	yet	longest	1	0	1	3779	0	NA	A senator who referenced the longest reports described movies yet.	99956
+231	NPI	questions	yet	_	0	0	0	1865	1	NA	The people know on weekends that the cashier arrives at the cafes.	99955
+237	NPI	superlative	ever	serious	0	0	1	382	0	NA	The customers would ever hate the serious actors that the guys have respected.	99954
+238	NPI	adverbs	any	often	0	0	0	1810	1	NA	A woman who could often insult schools remembered this doctors.	99953
+239	NPI	conditional	any	_	1	1	1	1888	1	NA	If the actor drove to any museums, the senator was admiring the boys.	99953
+240	NPI	determiner_negation_monoclausal	in years	some	0	1	1	3913	0	NA	Some girls said the patients in years.	99953
+241	NPI	only	any	_	1	0	0	1583	1	NA	Those teachers only are admiring the teenagers.	99953
+242	NPI	sentential_negation_biclausal	either	not	1	0	1	4642	0	NA	The guy had thought either that the pants were not shrinking.	99953
+243	NPI	adverbs	either	often	0	1	0	4456	1	NA	The guys who often wash on occasion had responded.	99952
+244	NPI	determiner_negation_biclausal	either	some	0	1	1	4097	0	NA	Some waitresses would explain that the cups resemble the commentaries either.	99952
+246	NPI	determiner_negation_monoclausal	at all	some	0	0	0	2779	1	NA	The boys pass the libraries on weekends at some malls.	99952
+248	NPI	superlative	yet	smallest	1	0	0	3942	1	NA	The dancers who insulted the smallest books will go to hospitals on weekends.	99952
+249	NPI	determiner_negation_monoclausal	ever	some	0	0	0	702	1	NA	The customers had really listened to some ladies.	99951
+250	NPI	determiner_negation_monoclausal	in years	no	1	0	0	3425	1	NA	The waiter had said the malls on occasion at no cafes.	99951
+252	NPI	superlative	atall	young	0	0	0	2447	1	NA	The cashiers who praised the young waitress were driving to malls on occasion.	99951
+253	NPI	determiner_negation_biclausal	ever	none of the	1	1	1	149	1	NA	None of the doctors have ever imagined that the women retaliate.	99950
+254	NPI	only	atall	_	0	1	1	2138	0	NA	Even a dancer sells cars at all at the museum.	99950
+256	NPI	quantifier	either	all	1	1	1	5015	0	NA	All actors who had attacked more than three doctors either buy books.	99950
+257	NPI	superlative	ever	worst	1	0	0	413	1	NA	A student fortunately worked with the worst guest that the actors had admired.	99950
+258	NPI	superlative	atall	big	0	0	1	2947	0	NA	The person who resembled the big adults tours movie theaters at all.	99950
+259	NPI	superlative	either	new	0	0	0	5220	1	NA	The cashiers who biked to the new movie theater had escaped from waiters as well.	99950
+262	NPI	quantifier	inyears	every	1	0	1	4437	0	NA	Every guy who helped a lot of guys had cleaned chairs in years.	99949
+263	NPI	questions	ever	_	0	1	0	886	1	NA	The teachers know that the cashiers also have fled from the banks.	99949
+265	NPI	determiner_negation_biclausal	at all	some	0	1	0	2997	1	NA	Some actor said that the children bake on occasion.	99948
+268	NPI	sentential_negation_biclausal	at all	not	1	1	1	2894	1	NA	A woman can not explain that the women do practice at all.	99948
+269	NPI	determiner_negation_monoclausal	at all	some	0	0	1	2108	0	NA	A patient discusses the patients at all at some art galleries.	99947
+271	NPI	conditional	yet	_	0	1	1	2419	0	NA	While the pedestrians went to the high schools yet, the people skate around the schools.	99946
+273	NPI	quantifier	either	every	1	1	0	5406	1	NA	Every driver who is arriving at a lot of movie theaters on occasion would take many pants.	99946
+276	NPI	sentential_negation_monoclausal	any	really	0	0	0	1238	1	NA	Those teachers would really resemble those art galleries.	99946
+277	NPI	conditional	any	_	0	1	1	1264	0	NA	While the adult returned to any children, the students could talk about the commentaries.	99945
+278	NPI	conditional	atall	_	0	1	1	3358	0	NA	While the teachers referenced the pedestrians at all, the waitresses would skate around the college campuses.	99945
+279	NPI	determiner_negation_biclausal	yet	some	0	0	1	1722	0	NA	The waitress should say yet that some plays insult a driver.	99945
+283	NPI	conditional	yet	_	1	0	1	2756	0	NA	If the children saw the doctors, the dancer might flee from the women yet.	99944
+284	NPI	conditional	either	_	1	1	1	5131	0	NA	If the teenagers bought the books either, the people would dislike the pedestrians.	99944
+285	NPI	determiner_negation_biclausal	ever	some	0	0	0	938	1	NA	A woman had certainly imagined that some glasses resemble the restaurant.	99944
+286	NPI	determiner_negation_monoclausal	ever	no	1	0	1	819	0	NA	The men ever do investigate no guests.	99944
+288	NPI	sentential_negation_biclausal	yet	not	1	1	0	1379	1	NA	The teenagers should not explain that the plays have won regularly.	99943
+289	NPI	sentential_negation_biclausal	yet	really	0	1	1	1923	0	NA	The pedestrians might really think that the adults can stand up yet.	99943
+291	NPI	simplequestions	any	_	1	1	1	2497	1	NA	Had any senator kissed the sheep?	99943
+294	NPI	adverbs	either	rarely	1	0	0	4316	1	NA	A girl who rarely suffered has cleaned reports regularly.	99942
+296	NPI	superlative	inyears	smallest	1	0	0	4606	1	NA	The waiters who remembered the smallest movie theater escape from movie theaters as well.	99942
+299	NPI	conditional	inyears	_	0	0	0	4507	1	NA	While the pedestrians respected the cafes, the pedestrians is working with the lady on weekends.	99941
+304	NPI	determiner_negation_biclausal	in years	some	0	0	0	3310	1	NA	The student explained as well that some actresses had hated the dancer.	99940
+305	NPI	adverbs	any	sometimes	0	0	1	1756	0	NA	A dancer who sometimes does escape from people had escaped from any guys.	99939
+306	NPI	adverbs	inyears	scarcely	1	1	1	3464	1	NA	The students who had scarcely discussed customers in years cried.	99939
+307	NPI	determiner_negation_biclausal	ever	some	0	0	1	461	0	NA	The men are ever saying that some guys have painted.	99939
+308	NPI	determiner_negation_monoclausal	yet	no	1	0	0	1838	1	NA	The teachers have kissed the teachers on weekends at no schools.	99939
+309	NPI	determiner_negation_monoclausal	yet	some	0	1	1	1975	0	NA	Some boy had fled from the actors yet.	99939
+310	NPI	determiner_negation_monoclausal	either	no	1	0	0	4487	1	NA	The customer will scan the movies on occasion at no grocery stores.	99939
+311	NPI	superlative	ever	worst	1	0	1	327	0	NA	The man will ever clean the worst dish that the patient had brought.	99939
+313	NPI	adverbs	ever	sometimes	0	0	1	68	0	NA	The actor ever imagines that the teenagers sometimes divorced.	99938
+318	NPI	conditional	either	_	0	1	0	5292	1	NA	While the patients kissed the students as well, the patients is listening to the child.	99937
+321	NPI	sentential_negation_monoclausal	any	really	0	0	1	1553	0	NA	Any cashiers had really known the pedestrians.	99937
+322	NPI	superlative	yet	fast	0	1	1	3306	0	NA	The teenager who approached the fast senator yet biked to movie theaters.	99937
+324	NPI	determiner_negation_monoclausal	ever	some	0	1	1	822	0	NA	Some doctor had ever talked to the people.	99935
+330	NPI	only	ever	_	1	1	0	712	1	NA	Only the actresses had clearly talked to the teenagers.	99934
+331	NPI	quantifier	yet	any	1	1	0	2730	1	NA	Any women who brought some newspaper articles on occasion should take a lot of dishes.	99934
+332	NPI	questions	yet	_	1	0	1	1003	0	NA	The customers wonder yet whether the girls arent going to high schools.
+experiment=NPI-env=questions-npi=yet-crucial_item=_-licensor=1-scope=0-npi_present=0-paradigm=1003	1		The customers wonder for a while whether the girls arent going to high schools.	99933
+334	NPI	superlative	atall	happy	0	1	1	2590	0	NA	The ladies who attacked the happy adults at all pass hospitals.	99933
+336	NPI	determiner_negation_monoclausal	any	some	0	0	1	5643	0	NA	Any teenagers might boycott some books.	99932
+339	NPI	determiner_negation_monoclausal	any	some	0	0	0	5898	1	NA	The drivers are examining some cafes.	99931
+340	NPI	questions	inyears	_	0	0	0	3258	1	NA	The senators know on occasion that the teenagers have hugged the guests.	99931
+342	NPI	adverbs	any	hardly	1	0	1	1263	0	NA	The doctors who hardly admired cashiers would care for any children.	99930
+343	NPI	determiner_negation_monoclausal	ever	no	1	1	0	615	1	NA	No actresses can often resemble the plays.	99930
+344	NPI	determiner_negation_monoclausal	any	no	1	1	1	5174	1	NA	No women run around any hair.	99930
+345	NPI	only	atall	_	0	0	1	2173	0	NA	A lady weeps at all even at the hospital.	99930
+349	NPI	conditional	atall	_	1	0	0	3158	1	NA	If the cashiers fled from the guests, the actors hug the actors as well.	99929
+352	NPI	conditional	ever	_	1	0	0	363	1	NA	If the guest lifts the dishes, the boy was clearly approaching the children.	99928
+353	NPI	determiner_negation_biclausal	yet	some	0	0	0	1749	1	NA	A teacher says as well that some hair will resemble the pedestrians.	99928
+354	NPI	determiner_negation_monoclausal	either	some	0	0	1	4892	0	NA	A senator drives to the public parks either at some banks.	99928
+356	NPI	negation	yet	none of the	1	0	0	1829	1	NA	The teenagers explain on occasion that none of the gloves could resemble the newspaper article.	99927
+357	NPI	quantifier	any	all	1	0	0	616	1	NA	All teachers who might run around restaurants respected these malls.	99927
+358	NPI	sentential_negation_biclausal	in years	really	0	1	0	3034	1	NA	A lady really explained that the adults have assembled regularly.	99927
+362	NPI	simplequestions	ever	_	0	1	0	592	1	NA	The patients often can insult the hospitals.	99926
+364	NPI	superlative	yet	youngest	1	1	0	3730	1	NA	The patients who visited the youngest guys on weekends do lift pants.	99926
+368	NPI	sentential_negation_biclausal	at all	really	0	1	0	2793	1	NA	The boy is really explaining that the rug might resemble the cups as well.	99925
+369	NPI	superlative	either	oldest	1	0	0	5444	1	NA	The guy who resembled the oldest customers is praising brochures as well.	99925
+370	NPI	conditional	inyears	_	1	0	0	4779	1	NA	If the guys helped the doctors, the guys were observing the people as well.	99924
+371	NPI	determiner_negation_monoclausal	ever	some	0	1	0	526	1	NA	Some adults are often skated around the public parks.	99924
+373	NPI	conditional	atall	_	1	1	0	3406	1	NA	If the pedestrian helped the dancers on occasion, the patient was arriving at the restaurants.	99923
+377	NPI	negation	in years	no	1	1	0	3366	1	NA	No waiter had thought that the dancers went to the schools as well.	99922
+378	NPI	determiner_negation_monoclausal	either	no	1	1	1	4900	1	NA	No actors wear the gloves either.	99922
+381	NPI	conditional	yet	_	0	0	0	2665	1	NA	While the person kissed the patients, the men might lift the newspaper articles on weekends.	99921
+383	NPI	questions	either	_	0	1	0	4571	1	NA	The adults know that the people have respected the women for a while.	99921
+384	NPI	simplequestions	atall	_	1	1	1	3993	1	NA	Had the senator discussed the art galleries at all?	99921
+389	NPI	determiner_negation_biclausal	any	no	1	1	1	5581	1	NA	No people would explain that any pedestrians arrived at the grocery stores.	99919
+393	NPI	adverbs	either	sometimes	0	1	1	4715	0	NA	The teenagers who sometimes cry either had approved.	99918
+395	NPI	determiner_negation_monoclausal	ever	no	1	0	0	765	1	NA	The customers had clearly watched no patients.	99918
+397	NPI	only	inyears	_	1	0	0	4258	1	NA	A doctor lied for a while only at the restaurant.	99918
+398	NPI	quantifier	inyears	many	0	1	0	4944	1	NA	Many actors who went to more than three libraries as well had escaped from a lot of college campuses.	99918
+401	NPI	conditional	ever	_	1	0	1	781	0	NA	If the cashier does leave the high schools, the waiters ever bike to the cafes.	99917
+404	NPI	questions	atall	_	1	1	0	2144	1	NA	The customers wonder whether the doctors scan books regularly.	99917
+405	NPI	conditional	atall	_	0	1	0	3552	1	NA	While the girls returned to the guests as well, the girls see the pedestrians.	99916
+407	NPI	determiner_negation_monoclausal	at all	some	0	1	1	2700	0	NA	Some guest tours the museums at all.	99916
+408	NPI	quantifier	any	the	0	1	1	897	0	NA	The doctor who can examine any documentaries cares for people.	99916
+410	NPI	sentential_negation_monoclausal	any	really	0	1	0	1030	1	NA	Those senators are really attacking the actors.	99916
+413	NPI	adverbs	inyears	barely	1	1	0	3463	1	NA	The doctors who have barely suffered regularly have muttered.	99915
+414	NPI	conditional	yet	_	1	1	0	2091	1	NA	If the actor loved the teenagers as well, the man breaks the plates.	99915
+417	NPI	conditional	either	_	0	1	1	5272	0	NA	While the waitresses criticized the banks either, the actress should describe the movie theaters.	99914
+419	NPI	quantifier	atall	a	0	0	1	3763	0	NA	A person who talked to some dancers will bike to museums at all.	99914
+420	NPI	sentential_negation_biclausal	yet	really	0	0	1	1916	0	NA	The dancer does say yet that the guys had really practiced.	99914
+427	NPI	quantifier	either	all	1	0	1	5602	0	NA	All senators who can know a lot of teenagers are dropping by more than three hospitals either.	99911
+433	NPI	sentential_negation_monoclausal	any	really	0	1	1	1728	0	NA	The children did really kiss any doctors.	99909
+437	NPI	only	atall	_	1	1	0	2097	1	NA	Only the adult was talking to girls as well at the hospital.	99908
+438	NPI	sentential_negation_biclausal	any	really	0	1	1	5317	0	NA	These students have really said that any people had broken the forks.	99908
+441	NPI	superlative	ever	long	0	1	0	415	1	NA	The waiter did describe the long report that the teenagers have clearly taken.	99908
+442	NPI	superlative	ever	small	0	0	0	328	1	NA	The students would fortunately praise the small child that the customers have talked about.	99907
+444	NPI	quantifier	atall	the	0	1	0	3163	1	NA	The pedestrian who has respected some grocery stores regularly will watch a lot of teenagers.	99906
+446	NPI	superlative	atall	young	0	1	0	2433	1	NA	The customer who attacked the young child on occasion disliked ladies.	99906
+450	NPI	questions	atall	_	1	0	1	2114	0	NA	The guests wonder at all whether the senator would see boys.	99905
+454	NPI	determiner_negation_monoclausal	either	no	1	1	0	4408	1	NA	No ladies did wear the glasses on occasion.	99904
+455	NPI	quantifier	ever	every	1	0	0	1371	1	NA	Every student who attacked a lot of customers can also break chairs.	99904
+463	NPI	questions	yet	_	0	0	1	1801	0	NA	The teenagers know yet that the pedestrian hasnt bought the pamphlets.
+experiment=NPI-env=questions-npi=yet-crucial_item=_-licensor=0-scope=0-npi_present=0-paradigm=1801	1		The teenagers know on occasion that the pedestrian hasnt bought the pamphlets.	99902
+464	NPI	sentential_negation_biclausal	ever	really	0	0	0	831	1	NA	The teacher is certainly saying that a skirt did really shrink.	99902
+465	NPI	simplequestions	ever	_	1	1	1	554	1	NA	Would the actress ever run around the art galleries?	99902
+467	NPI	adverbs	atall	barely	1	0	1	2902	0	NA	The actor who barely did discuss books should cheer at all.	99901
+468	NPI	negation	yet	no	1	0	1	1536	0	NA	The teacher imagined yet that no guests have interacted.	99901
+469	NPI	determiner_negation_biclausal	any	some	0	1	0	5048	1	NA	Some patients explained that these cafes did resemble the teachers.	99901
+470	NPI	determiner_negation_biclausal	any	some	0	0	0	5120	1	NA	The patients think that some guys were lying.	99901
+472	NPI	sentential_negation_monoclausal	any	not	1	1	0	1733	1	NA	The boys are not taking those glasses.	99901
+474	NPI	superlative	atall	worst	1	0	1	2171	0	NA	The customer who loved the worst people would leave doctors at all.	99901
+477	NPI	determiner_negation_monoclausal	any	some	0	1	1	5672	0	NA	Some boys boycott any people.	99900
+478	NPI	sentential_negation_biclausal	ever	not	1	0	0	700	1	NA	The drivers might also imagine that the guys do not telephone.	99900
+485	NPI	simplequestions	atall	_	0	1	0	3385	1	NA	The teachers had fled from the sheep as well.	99899
+486	NPI	adverbs	atall	often	0	0	1	2490	0	NA	The doctors who would often skate around movie theaters examine pamphlets at all.	99898
+487	NPI	conditional	any	_	1	0	0	1066	1	NA	If the those driver the attacked, the boys men could sell reports.	99898
+488	NPI	negation	at all	none of the	1	0	1	2693	0	NA	The pedestrians have explained at all that no waiters might sit down.	99898
+490	NPI	superlative	yet	happy	0	0	0	3327	1	NA	A cashier who listened to the happy senators talks to drivers regularly.	99898
+494	NPI	questions	inyears	_	0	1	1	3818	0	NA	The actresses know that the pedestrian hasnt scanned pamphlets in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=_-licensor=0-scope=1-npi_present=0-paradigm=3818	1		The actresses know that the pedestrian hasnt scanned the pamphlets regularly.	99896
+499	NPI	only	yet	_	1	0	0	3633	1	NA	The girl could dislike teenagers on occasion only at the grocery store.	99895
+500	NPI	sentential_negation_biclausal	yet	not	1	0	1	1872	0	NA	A teenager had imagined yet that the student will not wear the shoes.	99895
+501	NPI	sentential_negation_monoclausal	ever	really	0	1	0	477	1	NA	The woman is really also watching the pedestrians.	99895
+504	NPI	conditional	inyears	_	0	1	0	4571	1	NA	While the boys knew the adults regularly, the boys is exiting the woman.	99893
+507	NPI	quantifier	ever	more than three	0	0	1	1222	0	NA	More than three people who can attack a lot of teenagers ever watch actors.	99893
+510	NPI	conditional	ever	_	1	1	1	830	1	NA	If the cashiers ever go to the hospitals, the pedestrian is touring the libraries.	99892
+514	NPI	sentential_negation_biclausal	ever	really	0	0	1	306	0	NA	The waiters would ever imagine that the waiter is really protesting.	99892
+520	NPI	superlative	inyears	best	1	1	0	4818	1	NA	The girls who talked to the best pedestrian on weekends have sold newspaper articles.	99891
+521	NPI	superlative	either	cheap	0	1	1	5966	0	NA	A patient who resembled the cheap high schools either does escape from restaurants.	99891
+528	NPI	determiner_negation_biclausal	in years	some	0	1	0	3224	1	NA	Some customers had said that the pants shrank on weekends.	99888
+532	NPI	sentential_negation_biclausal	in years	really	0	0	1	3591	0	NA	The doctors thought in years that the scarf has really shrunk.	99888
+537	NPI	only	either	_	1	0	0	5948	1	NA	The boys have muttered as well only at the library.	99886
+539	NPI	superlative	either	small	0	1	0	5234	1	NA	The guy who discussed the small dancer for a while approached teenagers.	99886
+542	NPI	conditional	inyears	_	1	1	0	4472	1	NA	If the women explored the hospitals for a while, the women dislike the adults.	99885
+544	NPI	determiner_negation_monoclausal	in years	some	0	0	0	3040	1	NA	The senators imagined the grocery stores as well at some high schools.	99885
+549	NPI	adverbs	ever	rarely	1	0	0	955	1	NA	The doctors often explain that a girl rarely had the cars.	99884
+550	NPI	determiner_negation_monoclausal	at all	some	0	1	0	2644	1	NA	Some actress discussed the customers regularly.	99884
+554	NPI	quantifier	atall	every	1	0	0	3696	1	NA	Every child who was scanning more than three books is investigating a lot of boys on occasion.	99883
+565	NPI	determiner_negation_monoclausal	either	some	0	0	0	4995	1	NA	The adult talks about the waitresses on occasion at some grocery stores.	99880
+577	NPI	quantifier	ever	every	1	1	0	1086	1	NA	Every waitress who often toured more than three movie theaters has criticized a lot of people.	99878
+590	NPI	conditional	inyears	_	1	0	1	4435	0	NA	If the ladies sold the chairs, the dancers would explore the restaurants in years.	99874
+593	NPI	determiner_negation_monoclausal	ever	some	0	0	1	437	0	NA	The doctors have ever escaped from some teenagers.	99874
+602	NPI	sentential_negation_biclausal	yet	really	0	1	0	1023	1	NA	The boys could really say that the glasses would resemble the boy on weekends.	99872
+607	NPI	only	inyears	_	0	1	1	4669	0	NA	Even the guys had spun around in years at the public park.	99871
+608	NPI	only	either	_	0	0	0	5629	1	NA	A girl has sighed regularly even at the grocery store.	99871
+619	NPI	determiner_negation_biclausal	any	some	0	1	1	5811	0	NA	Some cashiers think that any women could compete.	99867
+620	NPI	only	yet	_	0	1	0	3652	1	NA	Even the children have answered for a while at the grocery store.	99867
+624	NPI	only	any	_	0	0	1	1620	0	NA	Any waiters even observed the guests.	99866
+625	NPI	questions	atall	_	0	0	0	2049	1	NA	The actresses know on weekends that the teenager visited the high schools.	99866
+627	NPI	conditional	any	_	1	1	0	1812	1	NA	If the doctor cared for these children, the girl discusses the movies.	99865
+629	NPI	sentential_negation_biclausal	either	not	1	1	1	4583	1	NA	The waitresses have not explained that the actor was hunting either.	99865
+634	NPI	questions	yet	_	0	1	0	1309	1	NA	The actors know that the dancer helps the sheep as well.	99864
+636	NPI	sentential_negation_monoclausal	ever	really	0	0	0	802	1	NA	The doctors will often really write hard.	99864
+643	NPI	sentential_negation_biclausal	in years	not	1	1	1	3258	1	NA	The waitress has not said that a dress has shrunk in years.	99862
+644	NPI	sentential_negation_biclausal	in years	not	1	0	0	3329	1	NA	The senators thought on weekends that the people have not shouted.	99862
+665	NPI	negation	at all	no	1	1	0	2254	1	NA	No waiter is thinking that the cars can resemble an report on weekends.	99857
+670	NPI	questions	ever	_	1	0	0	571	1	NA	The students obviously wonder whether the waitress could arrive at the malls.	99856
+682	NPI	quantifier	any	an	0	0	1	834	0	NA	An actor who scanned a lot of books criticizes any restaurants.	99853
+684	NPI	superlative	yet	good	0	0	1	3256	0	NA	A pedestrian who attacked the good waitresses had taken cups yet.	99853
+690	NPI	only	ever	_	1	0	1	901	0	NA	The actresses had ever known only the guys.	99850
+691	NPI	sentential_negation_biclausal	either	really	0	1	0	4123	1	NA	A waiter had really thought that the malls did resemble an actress on weekends.	99850
+695	NPI	quantifier	either	an	0	1	0	5662	1	NA	An actress who discussed many pedestrians regularly can praise a lot of books.	99848
+706	NPI	quantifier	atall		0	1	1	3893	0	NA	Girls who would describe many high schools at all are running around many restaurants.	99846
+712	NPI	only	atall	_	1	0	0	2979	1	NA	The teenagers regularly only at the movie theater.	99843
+714	NPI	questions	atall	_	0	1	0	2260	1	NA	The guests know that the children help the boys on occasion.	99843
+715	NPI	sentential_negation_biclausal	ever	not	1	1	1	650	1	NA	The lady is not ever thinking that the college campuses did resemble the newspaper article.	99843
+716	NPI	sentential_negation_biclausal	any	really	0	0	0	5142	1	NA	The patients are saying that the rugs could really resemble the ladies.	99843
+723	NPI	determiner_negation_biclausal	ever	no	1	0	0	257	1	NA	A teenager is also saying that no pedestrians kiss the teenager.	99841
+735	NPI	determiner_negation_biclausal	ever	none of the	1	0	1	172	0	NA	A senator had ever thought that no college campuses did resemble the stories.	99839
+736	NPI	quantifier	ever	the	0	1	0	1177	1	NA	The girl who might clearly talk to some women bought many couches.	99839
+744	NPI	adverbs	inyears	hardly	1	0	0	3706	1	NA	The man who has hardly skated around libraries forgot brochures on occasion.	99835
+748	NPI	quantifier	any	all	1	1	0	704	1	NA	All waitresses who are attacking the adults had walked through the museums.	99835
+750	NPI	questions	yet	_	1	1	0	1471	1	NA	The women wonder whether the girls walk through museums as well.	99835
+761	NPI	sentential_negation_monoclausal	ever	not	1	0	1	176	0	NA	The adult would ever not murmur.	99833
+765	NPI	sentential_negation_biclausal	ever	not	1	0	1	300	0	NA	The ladies should ever think that a cashier had not explained everything.	99831
+768	NPI	determiner_negation_monoclausal	yet	some	0	1	0	1641	1	NA	Some waiters were taking the rugs on weekends.	99830
+769	NPI	superlative	ever	newest	1	1	0	454	1	NA	The teacher can run around the newest museums that the ladies had clearly walked through.	99830
+770	NPI	superlative	inyears	happy	0	1	0	4615	1	NA	A woman who worked with the happy lady on occasion helped teachers.	99830
+771	NPI	determiner_negation_monoclausal	either	some	0	1	0	4897	1	NA	Some doctors had admired the girls on weekends.	99829
+778	NPI	sentential_negation_biclausal	either	really	0	0	1	4271	0	NA	The women were imagining either that a dancer would really boycott the public park.	99828
+793	NPI	adverbs	ever	sometimes	0	0	0	901	1	NA	The guest obviously thought that the patient would sometimes talk about the louse.	99824
+813	NPI	superlative	any	happy	0	0	1	1708	0	NA	Any teachers were discussing the happy actor that girls had seen.	99820
+822	NPI	quantifier	either	every	1	0	0	5634	1	NA	Every guest who would hug girls had disliked stories on weekends.	99818
+834	NPI	quantifier	yet	many	0	1	0	2452	1	NA	Many guys who lifted some reports as well talk about more than three actors.	99815
+842	NPI	questions	either	_	1	0	0	4493	1	NA	The pedestrians wonder for a while whether the child is examining the movies.	99812
+843	NPI	sentential_negation_biclausal	in years	really	0	0	0	3153	1	NA	A doctor imagined on occasion that an report had really won.	99812
+857	NPI	determiner_negation_monoclausal	yet	no	1	1	1	1162	1	NA	No cashiers are selling the couches yet.	99806
+874	NPI	sentential_negation_biclausal	at all	not	1	1	0	2584	1	NA	The cashiers have not said that the men have left the mall as well.	99801
+883	NPI	conditional	atall	_	0	0	0	3915	1	NA	While the customer bought the couches, the teachers are talking to the women on occasion.	99798
+894	NPI	sentential_negation_biclausal	yet	not	1	1	1	1619	1	NA	A customer might not say that the actors had donated yet.	99796
+898	NPI	superlative	either	best	1	1	0	5366	1	NA	A patient who worked with the best patients for a while will scan books.	99796
+903	NPI	adverbs	atall	always	0	1	0	2705	1	NA	The men who have always murmured on weekends weep.	99794
+925	NPI	superlative	ever	nice	0	1	1	39	0	NA	A woman has watched the nice guy that the guys had ever returned to.	99790
+926	NPI	adverbs	any	barely	1	1	1	1634	1	NA	The teenagers who should barely wear any glasses insult men.	99789
+928	NPI	determiner_negation_monoclausal	any	no	1	0	0	5519	1	NA	These waitresses helped no rugs.	99789
+934	NPI	determiner_negation_monoclausal	in years	some	0	0	1	3362	0	NA	The doctors had explained the museums in years at some grocery stores.	99788
+943	NPI	only	any	_	1	1	0	1301	1	NA	Only the dancers loved the doctors.	99786
+947	NPI	simplequestions	ever	_	1	1	0	136	1	NA	Had the actor often respected the high schools?	99786
+956	NPI	quantifier	ever	the	0	1	1	1113	0	NA	The actress who has ever been at a lot of college campuses admired some books.	99783
+959	NPI	sentential_negation_monoclausal	ever	not	1	0	0	801	1	NA	The ladies did clearly not lift the pants.	99783
+971	NPI	determiner_negation_biclausal	any	none of the	1	1	0	5112	1	NA	None of the people are imagining that these books resemble the ladies.	99781
+986	NPI	determiner_negation_monoclausal	in years	no	1	1	1	3694	1	NA	No women had thought the books in years.	99779
+1000	NPI	conditional	ever	_	0	1	1	975	0	NA	While the women ever return to the girls, the patient might pass the college campuses.	99775
+1015	NPI	conditional	either	_	0	0	1	5411	0	NA	While the lady scanned the stories, the dancers are selling the plates either.	99771
+1047	NPI	questions	inyears	_	1	1	0	3774	1	NA	The men wonder whether the drivers have examined the stories as well.	99763
+1062	NPI	adverbs	atall	scarcely	1	1	0	2075	1	NA	The teenagers who should scarcely help adults as well cry.	99759
+1063	NPI	adverbs	atall	scarcely	1	1	1	2234	1	NA	The actors who scarcely tour grocery stores at all could drop by college campuses.	99759
+1089	NPI	conditional	inyears	_	1	1	1	4968	0	NA	If the woman explored the museums in years, the boy is arriving at the banks.	99754
+1090	NPI	only	ever	_	1	0	0	341	1	NA	The pedestrian certainly respected only the men.	99754
+1093	NPI	superlative	either	fast	0	0	1	5708	0	NA	The senators who respected the fast student watch teachers either.	99754
+1094	NPI	conditional	inyears	_	0	1	1	4903	0	NA	While the doctors boycotted the college campuses in years, the cashiers are criticizing the customers.	99753
+1095	NPI	negation	in years	no	1	0	0	3033	1	NA	A student has explained for a while that no books disagreed.	99753
+1098	NPI	only	yet	_	0	1	1	3945	0	NA	Even the girl approved yet at the school.	99752
+1099	NPI	only	either	_	0	1	0	5607	1	NA	Even the teenager could shrug on occasion at the school.	99752
+1102	NPI	conditional	ever	_	1	1	0	85	1	NA	If the doctor was fortunately selling the cups, the patient is dropping by the college campuses.	99750
+1106	NPI	determiner_negation_monoclausal	at all	no	1	1	1	2099	1	NA	No man drove to the restaurants at all.	99749
+1112	NPI	questions	either	_	1	1	1	4569	0	NA	The teenagers wonder whether the teachers arent returning to the men either.
+experiment=NPI-env=questions-npi=either-crucial_item=_-licensor=1-scope=1-npi_present=0-paradigm=4569	1		The teenagers wonder whether the teachers arent returning to the men regularly.	99748
+1113	NPI	superlative	any	popular	0	1	1	1476	0	NA	The patients are observing the popular ladies that any waiters have referenced.	99748
+1122	NPI	sentential_negation_biclausal	any	not	1	1	1	5604	1	NA	The teachers were not imagining that any actors are practicing.	99746
+1128	NPI	questions	inyears	_	0	1	0	3193	1	NA	The children know that the waiters took the couches as well.	99745
+1129	NPI	sentential_negation_biclausal	in years	really	0	1	1	3806	0	NA	The senators really thought that the guy has complained in years.	99745
+1143	NPI	only	either	_	1	1	0	5045	1	NA	Only the women drank for a while at the bank.	99742
+1147	NPI	questions	either	_	0	0	0	4353	1	NA	The senators know on occasion that the doctor went to the malls.	99741
+1153	NPI	determiner_negation_monoclausal	ever	no	1	1	1	323	1	NA	No dancers might ever forget the waitresses.	99738
+1160	NPI	questions	ever	_	0	0	0	826	1	NA	The guests obviously know that the girl works with the girls.	99738
+1165	NPI	only	inyears	_	1	1	1	4306	0	NA	Only the guest had performed in years at the grocery store.	99737
+1166	NPI	only	inyears	_	1	1	0	4501	1	NA	Only the senators ran around grocery stores as well at the movie theater.	99737
+1175	NPI	determiner_negation_biclausal	either	some	0	0	1	4026	0	NA	The boy is saying either that some high schools can resemble the guy.	99734
+1197	NPI	determiner_negation_biclausal	at all	some	0	1	1	2630	0	NA	Some actor was explaining that the guests had been at the hospitals at all.	99729
+1204	NPI	sentential_negation_biclausal	in years	not	1	1	0	3874	1	NA	The child has not thought that the waitresses have attacked a man on weekends.	99728
+1243	NPI	adverbs	inyears	always	0	0	1	3863	0	NA	The students who always won have drunk in years.	99716
+1251	NPI	questions	either	_	1	1	0	4422	1	NA	The actors wonder whether the women are touring the museums for a while.	99715
+1258	NPI	quantifier	atall		0	0	0	3342	1	NA	Ladies who had boycotted a lot of banks have praised a lot of students for a while.	99713
+1273	NPI	determiner_negation_biclausal	ever	some	0	1	1	421	0	NA	Some guest was ever imagining that the stories disagree.	99709
+1278	NPI	sentential_negation_biclausal	at all	really	0	0	1	2600	0	NA	The senators were explaining at all that the documentaries have really won.	99709
+1283	NPI	determiner_negation_monoclausal	either	some	0	1	1	4118	0	NA	Some adult had hated the dancers either.	99707
+1298	NPI	quantifier	inyears	some	0	0	1	4470	0	NA	Some students who admired many gloves have passed banks in years.	99704
+1389	NPI	only	either	_	1	0	1	5824	0	NA	The girl is muttering either only at the public park.	99684
+1409	NPI	adverbs	either	barely	1	1	1	4841	1	NA	The cashiers who had barely telephoned either slump over.	99679
+1439	NPI	determiner_negation_biclausal	yet	some	0	1	1	1253	0	NA	Some girls have said that the cars resemble the ladies yet.	99673
+1524	NPI	questions	atall	_	1	1	1	2883	1	NA	The drivers wonder whether the child is being at museums at all.	99650
+1548	NPI	quantifier	any		0	1	0	406	1	NA	Actors who are returning to the girls had returned to some boys.	99644
+1592	NPI	determiner_negation_monoclausal	yet	some	0	0	1	1374	0	NA	A teacher had kissed the guests yet at some cafes.	99633
+1597	NPI	sentential_negation_biclausal	any	not	1	1	0	5462	1	NA	The adults should not think that the cars should resemble the dish.	99632
+1655	NPI	quantifier	atall	every	1	1	1	3205	1	NA	Every child who has loved more than three plays at all observes some men.	99618
+1666	NPI	adverbs	either	barely	1	0	1	4391	0	NA	The students who barely described art galleries talked to children either.	99615
+1705	NPI	superlative	any	bad	0	0	0	1742	1	NA	These drivers know the bad teenagers that waitresses had disliked.	99607
+1729	NPI	questions	inyears	_	0	0	1	3748	0	NA	The pedestrians know in years that the patients have driven to the banks.	99601
+1756	NPI	determiner_negation_monoclausal	at all	no	1	0	0	2973	1	NA	An adult is discussing the guys on weekends at no college campuses.	99596
+1777	NPI	conditional	any	_	0	0	1	1736	0	NA	While the patient been at the high schools, the girl flees from any pedestrians.	99592
+1791	NPI	superlative	inyears	bad	0	0	1	4563	0	NA	The adults who talked to the bad boy admire ladies in years.	99590
+2035	NPI	conditional	either	_	0	0	0	5221	1	NA	While the guests talked about the students, the guests should have the students on weekends.	99537
+2056	NPI	simplequestions	atall	_	0	1	1	3044	0	NA	The person would flee from the guys at all.	99535
+2222	NPI	conditional	any	_	1	0	1	1480	0	NA	If the doctors worked with the customers, the girls can leave any children.	99493
+12999	NPI	questions	any	_	1	0	1	1000	0	NA	Any boys wonder whether the driver will admire newspaper articles.	97016
+27624	NPI	questions	any	_	0	0	1	1000	0	NA	The boys any know that the driver will admire the newspaper articles.	93757
+60673	NPI	questions	any	_	0	1	1	1000	0	NA	The boys know that the driver will admire any newspaper articles.	86330
+224085	NPI	questions	any	_	1	0	0	1000	1	NA	The boys wonder whether the driver will admire newspaper articles.	49396
+253977	NPI	questions	any	_	1	1	1	1000	1	NA	The boys wonder whether the driver will admire any newspaper articles.	42609
+294630	NPI	questions	any	_	0	1	0	1000	1	NA	The boys know that the driver will admire the newspaper articles.	33416
+324570	NPI	questions	any	_	0	0	0	1000	1	NA	The boys know that the driver will admire the newspaper articles.	26660
+359131	NPI	questions	any	_	1	1	0	1000	1	NA	The boys wonder whether the driver will admire the newspaper articles.	18854
