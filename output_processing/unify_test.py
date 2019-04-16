@@ -41,7 +41,7 @@ def process_experiment_set(args):
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
         results_summary.extend(process_experiment(sub_experiment_dir, args))
-    dtype = get_results_dtype(args)
+    dtype = get_results_dtype(args.is_experiment_set, args.experiment_type)
     results_summary = np.array(results_summary, dtype=dtype)
     header = "\t".join(results_summary.dtype.names)
     results_summary_output.write(header + "\n")
@@ -49,23 +49,23 @@ def process_experiment_set(args):
         results_summary_output.write("\t".join([str(x) for x in line]) + "\n")
     results_summary_output.close()
 
-def get_results_dtype(args):
+def get_results_dtype(is_experiment_set, experiment_type):
     dtype = []
-    if args.is_experiment_set:
+    if is_experiment_set:
         dtype.append(("experiment name", "U100"))
     dtype.append(("run name", "U100"))
-    if args.experiment_type == "reflexive":
+    if experiment_type == "reflexive":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
         dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
-    if args.experiment_type == "npi_scope":
+    if experiment_type == "npi_scope":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
         dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
         for npi in ["any", "ever", "yet"]:
             dtype.extend([(npi+":1/1", "f8"), (npi+":1/0", "f8"), (npi+":0/1", "f8"), (npi+":0/0", "f8")])
-    if args.experiment_type == "polar_q":
+    if experiment_type == "polar_q":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
         dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
-    if args.experiment_type == "embedded_tense":
+    if experiment_type == "embedded_tense":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
         dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
     return dtype
