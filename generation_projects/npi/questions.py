@@ -133,9 +133,9 @@ while len(sentences) < number_to_generate:
 
         sentences.add(sentence_1)
 
-        sentences = set()
-        all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
-        while len(sentences) < number_to_generate:
+sentences = set()
+all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
+while len(sentences) < number_to_generate:
             # sentence template
             # N1    wonders  whether   N2    V1  N3 yet
             # Ann   wonders  whether  James  ate  apples yet
