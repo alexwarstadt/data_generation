@@ -9,7 +9,7 @@ def add_paradigm_feature(dataset_path, output_path=None, paradigm_size=8):
     :param dataset_path: 
     :param output_path: 
     :param paradigm_size: number of lines per paradigm
-    :return: rewrites datset but with paradigm count added to metadata column
+    :return: rewrites dataset but with paradigm count added to metadata column
     """
     data = [line for line in open(dataset_path)]
     if output_path is None:
@@ -33,12 +33,12 @@ def reformat_sentence(sentence):
     return sentence
 
 
-project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
-npi_dir = "outputs/npi/"
-for file in os.listdir(os.path.join(project_root, npi_dir)):
-    if ".tsv" in file:
-        if "environment=sentential_negation_monoclausal.tsv" not in file:
-            paradigm_size = 4 if "simplequestions" in file else 8
-            dataset_path = os.path.join(project_root, npi_dir, file)
-            output_path = os.path.join(project_root, npi_dir, file)
-            add_paradigm_feature(dataset_path, output_path, paradigm_size)
+# project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
+# npi_dir = "outputs/npi/"
+# for file in os.listdir(os.path.join(project_root, npi_dir)):
+#     if ".tsv" in file:
+#         if "environment=sentential_negation_monoclausal.tsv" not in file:
+#             paradigm_size = 4 if "simplequestions" in file else 8
+#             dataset_path = os.path.join(project_root, npi_dir, file)
+#             output_path = os.path.join(project_root, npi_dir, file)
+#             add_paradigm_feature(dataset_path, output_path, paradigm_size)

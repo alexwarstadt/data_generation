@@ -69,6 +69,10 @@ while len(sentences) < number_to_generate:
         N1 = choice(all_animate_nouns)
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         Adv_freq = choice(all_freq_adverbs)
+        if Adv_freq[0] == "often":
+            NPI_replacement = choice(ever_replacements_no_often)
+        else:
+            NPI_replacement = choice(ever_replacements)
         Adv_nonfreq = choice(all_nonfreq_adverbs)
         # If nonfrequent Adv is often, don't use it as a replacement for "ever"
         if Adv_nonfreq[0] == "often":
