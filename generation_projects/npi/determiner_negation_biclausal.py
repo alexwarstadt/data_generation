@@ -226,10 +226,10 @@ for Final_npi in sentence_final_npi:
         # write sentences to output
         if sentence_1 not in sentences:
             # sentences 1-4 have negation present
-            output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=negation-npi=%s-crucial_item=%s-licensor=1-scope=1-npi_present=1" % (Final_npi, Neg_word1[0]), 1, sentence_1))
-            output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=negation-npi=%s-crucial_item=%s-licensor=1-scope=1-npi_present=0" % (Final_npi, Neg_word1[0]), 1, sentence_2))
-            output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=negation-npi=%s-crucial_item=%s-licensor=1-scope=0-npi_present=1" % (Final_npi, Neg_word2[0]), 0, sentence_3))
-            output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=negation-npi=%s-crucial_item=%s-licensor=1-scope=0-npi_present=0" % (Final_npi, Neg_word2[0]), 1, sentence_4))
+            output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=determiner_negation_biclausal-npi=%s-crucial_item=%s-licensor=1-scope=1-npi_present=1" % (Final_npi, Neg_word1[0]), 1, sentence_1))
+            output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=determiner_negation_biclausal-npi=%s-crucial_item=%s-licensor=1-scope=1-npi_present=0" % (Final_npi, Neg_word1[0]), 1, sentence_2))
+            output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=determiner_negation_biclausal-npi=%s-crucial_item=%s-licensor=1-scope=0-npi_present=1" % (Final_npi, Neg_word2[0]), 0, sentence_3))
+            output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=determiner_negation_biclausal-npi=%s-crucial_item=%s-licensor=1-scope=0-npi_present=0" % (Final_npi, Neg_word2[0]), 1, sentence_4))
 
             # sentences 5-8 have no negation present
             output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=determiner_negation_biclausal-npi=%s-crucial_item=some-licensor=0-scope=1-npi_present=1" % Final_npi , 0, sentence_5))
