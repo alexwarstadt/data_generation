@@ -105,6 +105,7 @@ def make_splits(test_size = 125, dev_size = 125, train_size = 1250):
                 for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
                     test.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
                     test2.write("%d\t%s" % (test_counter, line["sentence"]))
+                    test_counter += 1
 
             for p in paradigms[test_size:test_size+dev_size]:
                 for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
