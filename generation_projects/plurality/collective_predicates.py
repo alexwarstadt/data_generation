@@ -128,6 +128,8 @@ while len(sentences) < number_to_generate/3:
     else:
         tensestring = "false"
 
+    # todo: Fix the string for present tense, since negation and an auxiliary will also tell the subject number (as will the determiner)
+
     copy_verb = coll_pred.copy()
     conjugate2(copy_verb,Nreg_sg,the_aux,the_tense,the_neg)
     sentence_1 = remove_extra_whitespace(Dreg_sg + " " + Nreg_sg[0] + " " + copy_verb[0])
