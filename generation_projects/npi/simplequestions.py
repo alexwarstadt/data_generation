@@ -3,8 +3,7 @@ from utils.string_utils import remove_extra_whitespace
 # from random import choice
 import numpy as np
 from utils.randomize import choice
-
-# TODO 3: Paradigm metadata feature, use generation_projects/npi/add_paradigm_feature.py script
+from outputs.npi.post_process_data import add_paradigm_feature
 
 # initialize output file
 rel_output_path = "outputs/npi/environment=simplequestions.tsv"
@@ -12,7 +11,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 10
+number_to_generate = 1000
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -317,3 +316,8 @@ while len(sentences) < number_to_generate:
     sentences.add(sentence_1)
 
 output.close()
+
+# add paradigm parameter to metadata
+dataset_path = os.path.join(project_root, rel_output_path)
+output_path = os.path.join(project_root, rel_output_path)
+add_paradigm_feature(dataset_path, output_path, paradigm_size=4)
