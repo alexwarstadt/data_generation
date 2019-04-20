@@ -13,7 +13,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 10
+number_to_generate = 1000
 sentences = set()
 
 # gather word classes that will be accessed frequently
