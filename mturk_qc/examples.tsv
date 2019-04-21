@@ -1,463 +1,501 @@
-	experiment	environment	npi	crucial_item	licensor	scope	npi_present	paradigm	acceptability	blank	sentence	rand_int
-1	NPI	determiner_negation_biclausal	at all	some	0	0	0	2244	1	NA	The women think as well that some commentaries referenced a lady.	1e+05
-2	NPI	negation	either	no	1	0	1	4126	0	NA	The pedestrians are saying either that none of the cars resemble the senators.	99999
-3	NPI	determiner_negation_biclausal	any	some	0	0	1	5895	0	NA	Any customers have thought that some waiters explored the schools.	99998
-4	NPI	determiner_negation_monoclausal	yet	some	0	0	0	1989	1	NA	The women had taken the shoes for a while at some public parks.	99998
-5	NPI	questions	atall	_	1	0	0	2728	1	NA	The patients wonder regularly whether the man liked plates.	99998
-6	NPI	superlative	any	cheapest	1	1	1	1299	1	NA	The rugs resemble the cheapest dishes that any teenagers had broken.	99998
-7	NPI	only	yet	_	0	0	0	3243	1	NA	The waiters loved actors regularly even at the bank.	99997
-8	NPI	quantifier	inyears	some	0	0	0	4373	1	NA	Some cashier who bought many gloves investigated more than three hospitals on weekends.	99997
-9	NPI	questions	either	_	1	0	1	4723	0	NA	The boys wonder either whether the man examined the plays.	99997
-10	NPI	only	any	_	0	0	0	1227	1	NA	These drivers even are driving to the movie theaters.	99996
-11	NPI	questions	inyears	_	1	1	1	3704	0	NA	The actresses wonder whether the teacher hasnt disliked the drivers in years.
-experiment=NPI-env=questions-npi=inyears-crucial_item=_-licensor=1-scope=1-npi_present=0-paradigm=3704	1		The actresses wonder whether the teacher hasnt disliked the drivers on weekends.	99996
-12	NPI	sentential_negation_biclausal	yet	not	1	0	0	1021	1	NA	A driver might imagine on occasion that a person was not studying.	99996
-13	NPI	sentential_negation_biclausal	any	really	0	1	0	5292	1	NA	The dancers are really explaining that the senators should bring a newspaper article.	99996
-14	NPI	determiner_negation_monoclausal	at all	no	1	1	0	2739	1	NA	No teenager is driving to the schools on occasion.	99995
-15	NPI	questions	yet	_	1	1	1	1987	1	NA	The teenagers wonder whether the actor wouldnt describe newspaper articles yet.
-experiment=NPI-env=questions-npi=yet-crucial_item=_-licensor=1-scope=1-npi_present=0-paradigm=1987	1		The teenagers wonder whether the actor wouldnt describe newspaper articles for a while.	99995
-16	NPI	quantifier	yet	many	0	0	1	2786	0	NA	Many cashiers who examined the essays helped a lot of dancers yet.	99994
-17	NPI	sentential_negation_biclausal	any	really	0	0	1	5959	0	NA	Any adults have thought that the boys are really working with the student.	99994
-18	NPI	superlative	inyears	cheap	0	1	1	4577	0	NA	A guest who bought the cheap cars in years ran around banks.	99994
-19	NPI	conditional	yet	_	1	1	1	2459	0	NA	If the actress saw the rugs yet, the actress passes the schools.	99993
-20	NPI	conditional	either	_	1	0	0	5927	1	NA	If the men knew the dancers, the men tour the students on occasion.	99993
-21	NPI	only	yet	_	1	1	1	3596	1	NA	Only the people will mutter yet at the art gallery.	99993
-22	NPI	quantifier	inyears	some	0	1	1	4328	0	NA	Some doctor who admired the pedestrians in years visited a lot of people.	99993
-23	NPI	quantifier	inyears	every	1	0	0	4871	1	NA	Every driver who described the actors referenced the dancers as well.	99993
-24	NPI	questions	ever	_	1	0	1	154	0	NA	The people ever wonder whether the children skate around the public parks.	99993
-25	NPI	conditional	yet	_	1	0	0	2006	1	NA	If the adult helped the guests, the teachers dislike the pedestrians on occasion.	99992
-26	NPI	determiner_negation_biclausal	yet	some	0	1	0	1309	1	NA	Some boys imagine that the guys telephone for a while.	99992
-27	NPI	negation	either	no	1	1	0	4174	1	NA	No waiter said that the ladies love the cashiers regularly.	99992
-28	NPI	determiner_negation_biclausal	any	no	1	0	1	5268	0	NA	Any men explain that no eyes resemble a story.	99992
-29	NPI	determiner_negation_monoclausal	in years	no	1	0	1	3904	0	NA	The customer thought the grocery stores in years at no cafes.	99992
-30	NPI	only	inyears	_	0	0	0	4838	1	NA	The dancers competed as well even at the movie theater.	99992
-31	NPI	questions	ever	_	1	1	0	9	1	NA	The actors wonder whether the women obviously been at the malls.	99992
-32	NPI	adverbs	ever	seldom	1	1	0	257	1	NA	A guy seldom also explains that the driver shrugs.	99991
-33	NPI	conditional	atall	_	1	0	1	3685	0	NA	If the people observed the drivers, the people are insulting the brochures at all.	99991
-34	NPI	only	ever	_	0	1	0	423	1	NA	Even the actors had also talked to the adults.	99991
-35	NPI	only	any	_	0	1	1	1092	0	NA	Even the children had brought any shoes.	99991
-37	NPI	sentential_negation_monoclausal	any	not	1	0	0	1062	1	NA	Those guys had not dropped by these grocery stores.	99991
-38	NPI	superlative	inyears	smallest	1	0	1	4336	0	NA	The waiters who toured the smallest restaurants will see brochures in years.	99991
-39	NPI	adverbs	any	always	0	1	0	1860	1	NA	The customers who have always lifted the books listened to guests.	99990
-40	NPI	sentential_negation_biclausal	either	really	0	1	1	4627	0	NA	A boy will really say that the pants are shrinking either.	99990
-41	NPI	sentential_negation_monoclausal	any	not	1	0	1	1520	0	NA	Any waiters had not seen these guys.	99990
-42	NPI	simplequestions	atall	_	1	1	0	3127	1	NA	Do the adults dislike the commentaries for a while?	99990
-43	NPI	determiner_negation_biclausal	any	no	1	0	0	5795	1	NA	Those actors think that no commentaries had talked about the people.	99989
-45	NPI	conditional	atall	_	1	1	1	3986	1	NA	If the adult discussed the plays at all, the senators will examine the reports.	99988
-46	NPI	only	atall	_	0	0	0	2867	1	NA	A waitress movie theaters as well even at the mall.	99988
-47	NPI	quantifier	any	all	1	1	1	776	1	NA	All senators who were skated around any restaurants tour more than three high schools.	99988
-48	NPI	superlative	inyears	good	0	0	0	4961	1	NA	The driver who criticized the good teenager breaks books as well.	99988
-49	NPI	adverbs	either	always	0	0	1	4491	0	NA	The patient who could always talk about banks should yell either.	99987
-50	NPI	determiner_negation_biclausal	in years	some	0	0	1	3911	0	NA	A lady has thought in years that some actors blinked.	99987
-51	NPI	determiner_negation_monoclausal	at all	no	1	0	1	2189	0	NA	A patient is returning to the drivers at all at no malls.	99987
-52	NPI	only	yet	_	1	0	1	3100	0	NA	The dancer was referencing patients yet only at the cafe.	99987
-53	NPI	only	either	_	1	1	1	5232	0	NA	Only the man forfeited either at the museum.	99987
-54	NPI	superlative	yet	biggest	1	1	1	3064	1	NA	A waitress who returned to the biggest museums yet might arrive at restaurants.	99987
-55	NPI	conditional	any	_	0	0	0	1284	1	NA	While the senator toured the banks, the actress should wear these pants.	99986
-56	NPI	negation	at all	no	1	0	0	2738	1	NA	The dancers imagine on occasion that no documentaries will criticize the people.	99986
-57	NPI	quantifier	yet	a lot of	0	0	0	2360	1	NA	A lot of drivers who had toured the schools drove to many college campuses regularly.	99986
-58	NPI	quantifier	yet	all	1	1	1	2548	0	NA	All customers who exit banks yet have been at a lot of movie theaters.	99986
-59	NPI	sentential_negation_monoclausal	ever	really	0	1	1	949	0	NA	The actor is really ever littering.	99986
-60	NPI	superlative	either	happiest	1	0	1	5065	0	NA	A boy who cared for the happiest senator has described documentaries either.	99986
-61	NPI	determiner_negation_biclausal	ever	some	0	1	0	126	1	NA	Some actor clearly does imagine that the art galleries resemble a play.	99985
-62	NPI	determiner_negation_monoclausal	in years	some	0	1	0	3340	1	NA	Some waiter had imagined the children for a while.	99985
-63	NPI	questions	ever	_	1	1	1	491	1	NA	The waiters wonder whether the teenager ever explores the schools.	99985
-65	NPI	adverbs	atall	sometimes	0	1	1	2803	0	NA	The waitresses who have sometimes stood up at all performed.	99984
-66	NPI	adverbs	inyears	often	0	1	1	3210	0	NA	The actors who often explored art galleries in years have drunk.	99984
-67	NPI	negation	at all	none of the	1	1	1	2541	1	NA	None of the teachers explained that the newspaper articles can win at all.	99984
-68	NPI	determiner_negation_biclausal	in years	some	0	1	1	3788	0	NA	Some man imagined that the waitresses have assembled in years.	99984
-71	NPI	only	inyears	_	0	0	1	4546	0	NA	The person baked in years even at the school.	99984
-72	NPI	quantifier	any		0	0	0	853	1	NA	Adults who had driven to the cafes bike to those banks.	99984
-73	NPI	sentential_negation_biclausal	yet	really	0	0	0	1181	1	NA	The senator had explained on occasion that the boy can really donate.	99984
-74	NPI	sentential_negation_biclausal	at all	not	1	0	0	2334	1	NA	The man will say for a while that the movies could not talk about the museum.	99984
-75	NPI	sentential_negation_monoclausal	ever	not	1	1	1	460	1	NA	The guys were not ever speaking up.	99984
-76	NPI	determiner_negation_biclausal	either	some	0	0	0	4527	1	NA	The senators said regularly that some commentaries won.	99983
-77	NPI	determiner_negation_biclausal	either	some	0	1	0	4870	1	NA	Some people had explained that the adults suffered on occasion.	99983
-78	NPI	only	either	_	0	1	1	5359	0	NA	Even the pedestrians hunt either at the mall.	99983
-81	NPI	simplequestions	any	_	0	1	0	1081	1	NA	That man has watched the girls.	99983
-82	NPI	adverbs	either	sometimes	0	0	0	4082	1	NA	The waitresses who had sometimes embraced could write hard regularly.	99982
-83	NPI	only	any	_	0	1	0	1741	1	NA	Even the women took those pants.	99982
-84	NPI	quantifier	ever	all	1	1	1	1149	1	NA	All boys who ever biked to libraries had listened to the guys.	99982
-85	NPI	quantifier	either	a lot of	0	1	1	5565	0	NA	A lot of waitresses who lift the rugs either attack many drivers.	99982
-86	NPI	questions	ever	_	0	0	1	961	0	NA	The pedestrians ever know that the pedestrian broke the plates.	99982
-87	NPI	sentential_negation_biclausal	ever	really	0	1	0	130	1	NA	The children are really clearly explaining that the eyes can resemble the public park.	99982
-88	NPI	sentential_negation_monoclausal	ever	really	0	0	1	685	0	NA	The women were ever really studying.	99982
-89	NPI	superlative	atall	most important	1	1	1	2434	0	NA	A pedestrian who returned to the most important customers at all goes to hospitals.	99982
-90	NPI	adverbs	inyears	sometimes	0	0	0	3547	1	NA	The ladies who have sometimes talked have succeeded on occasion.	99981
-92	NPI	only	ever	_	1	1	1	862	1	NA	Only the students can ever break the chairs.	99981
-93	NPI	superlative	yet	important	0	1	0	3443	1	NA	The teachers who left the important hospital regularly were arriving at libraries.	99981
-94	NPI	conditional	any	_	0	1	0	1749	1	NA	While the waitress liked the newspaper articles, the girls did escape from the ladies.	99980
-95	NPI	determiner_negation_monoclausal	any	no	1	1	0	5049	1	NA	No children could escape from these patients.	99980
-96	NPI	questions	ever	_	0	1	1	687	0	NA	The girls know that the customers ever know the children.	99980
-98	NPI	adverbs	inyears	hardly	1	0	1	3957	0	NA	The boys who have hardly hugged screamed in years.	99979
-99	NPI	negation	either	no	1	1	1	4152	1	NA	No boy is explaining that the documentaries have talked about the high school either.	99979
-100	NPI	quantifier	yet	any	1	0	1	2128	0	NA	Any children who skate around the art galleries were cleaning the cups yet.	99979
-102	NPI	questions	yet	_	0	1	1	1031	0	NA	The doctors know that the waiter hasnt explored the college campuses yet.
-experiment=NPI-env=questions-npi=yet-crucial_item=_-licensor=0-scope=1-npi_present=0-paradigm=1031	1		The doctors know that the waiter hasnt explored the college campuses on occasion.	99979
-103	NPI	questions	atall	_	0	1	1	2531	0	NA	The drivers know that the boys couldnt visit the malls at all.
-experiment=NPI-env=questions-npi=atall-crucial_item=_-licensor=0-scope=1-npi_present=0-paradigm=2531	1		The drivers know that the boys couldnt visit the malls on occasion.	99979
-105	NPI	superlative	ever	oldest	1	1	1	548	1	NA	A doctor references the oldest girl that the customer had ever admired.	99979
-107	NPI	adverbs	ever	often	0	1	0	677	1	NA	A teacher often often explains that the guests would cheer.	99978
-108	NPI	adverbs	atall	often	0	0	0	2085	1	NA	A cashier who might often benefit has baked on occasion.	99978
-109	NPI	determiner_negation_biclausal	at all	some	0	0	1	2598	0	NA	The waiter said at all that some actors are profiting.	99978
-110	NPI	sentential_negation_biclausal	at all	really	0	0	0	2414	1	NA	A waitress had imagined on weekends that the report had really won.	99978
-111	NPI	determiner_negation_biclausal	ever	no	1	1	0	723	1	NA	No girl should often think that the gloves were shrinking.	99977
-113	NPI	sentential_negation_biclausal	in years	not	1	0	1	3094	0	NA	The patient imagined in years that the actors had not laughed.	99977
-114	NPI	simplequestions	ever	_	0	1	1	510	0	NA	The driver ever had cleaned the forks.	99977
-115	NPI	sentential_negation_monoclausal	ever	not	1	1	0	538	1	NA	The doctor should not really praise the adult.	99976
-116	NPI	superlative	any	happy	0	1	0	1534	1	NA	The books can resemble the happy students that the waiters had attacked.	99976
-120	NPI	superlative	any	newest	1	0	1	1540	0	NA	Any women were breaking the newest cars that senators have seen.	99975
-121	NPI	adverbs	any	scarcely	1	1	0	1281	1	NA	The men who scarcely described those banks reference reports.	99974
-122	NPI	conditional	yet	_	0	1	0	2520	1	NA	While the girl arrived at the movie theaters regularly, the woman is scanning the books.	99974
-123	NPI	negation	in years	none of the	1	0	1	3935	0	NA	The students have said in years that none of the cashiers have eaten.	99974
-124	NPI	negation	either	no	1	0	0	4959	1	NA	The student thought for a while that no ladies wave.	99974
-125	NPI	only	yet	_	0	0	1	3329	0	NA	The customers have worn glasses yet even at the college campus.	99974
-126	NPI	only	inyears	_	0	1	0	4255	1	NA	Even a student had scratched for a while at the cafe.	99974
-127	NPI	quantifier	ever	more than three	0	0	0	1267	1	NA	More than three women who investigated some restaurants clearly admired gloves.	99974
-128	NPI	questions	inyears	_	1	0	0	3597	1	NA	The patients wonder on occasion whether the boy might drive to the restaurants.	99974
-129	NPI	sentential_negation_biclausal	ever	not	1	1	0	333	1	NA	The guests had not really said that the pedestrians should approach a person.	99974
-130	NPI	superlative	atall	smallest	1	1	0	2678	1	NA	The boy who remembered the smallest actresses as well described girls.	99974
-131	NPI	superlative	atall	fastest	1	0	0	2921	1	NA	The girl who liked the fastest driver does take books on weekends.	99974
-133	NPI	determiner_negation_monoclausal	yet	no	1	1	0	1850	1	NA	No adult has attacked the cashiers as well.	99973
-134	NPI	determiner_negation_monoclausal	in years	no	1	1	0	3150	1	NA	No teachers said the high schools as well.	99973
-135	NPI	only	ever	_	0	0	0	548	1	NA	The waitresses do really hate even the plays.	99973
-136	NPI	sentential_negation_biclausal	at all	really	0	1	1	2399	0	NA	The cashier was really thinking that the doctors did collaborate at all.	99973
-137	NPI	sentential_negation_biclausal	any	not	1	0	0	5729	1	NA	Those people have said that those patients have not hidden away.	99973
-138	NPI	only	either	_	0	0	1	5778	0	NA	An actor boasts either even at the museum.	99972
-139	NPI	adverbs	ever	hardly	1	1	1	491	1	NA	The students hardly ever explained that a waitress might chuckle.	99971
-140	NPI	determiner_negation_monoclausal	any	no	1	0	1	5069	0	NA	Any teachers had kissed no cars.	99971
-141	NPI	only	any	_	1	0	1	1676	0	NA	Any drivers only break the glasses.	99971
-142	NPI	quantifier	inyears	every	1	1	1	4139	0	NA	Every child who skated around a lot of college campuses in years has insulted many cafes.	99971
-144	NPI	adverbs	ever	rarely	1	0	1	197	0	NA	A customer ever thought that the cashiers will rarely sing.	99970
-148	NPI	only	any	_	1	1	1	1141	1	NA	Only the pedestrians admire any books.	99970
-151	NPI	questions	yet	_	1	0	0	1766	1	NA	The ladies wonder for a while whether the teenagers can like men.	99970
-153	NPI	adverbs	any	often	0	1	1	1837	0	NA	The waitresses who might often investigate any students had escaped from art galleries.	99969
-154	NPI	conditional	ever	_	0	0	1	809	0	NA	While the waitress was hugging the students, the dancers would ever explore the dancers.	99969
-155	NPI	determiner_negation_monoclausal	any	some	0	1	0	5926	1	NA	Some customers have taken those essays.	99969
-156	NPI	only	ever	_	0	1	1	341	0	NA	Even the pedestrian ever respected the men.	99969
-158	NPI	questions	either	_	0	1	1	4890	0	NA	The doctors know that the actors escape from the children either.	99969
-159	NPI	sentential_negation_biclausal	either	really	0	0	0	4188	1	NA	The people had explained as well that the waiter is really studying.	99969
-163	NPI	quantifier	either	an	0	0	1	5066	0	NA	An actor who will skate around more than three cafes should be at a lot of high schools either.	99968
-164	NPI	sentential_negation_biclausal	at all	not	1	0	1	2428	0	NA	The teenagers are imagining at all that the dishes will not resemble the malls.	99968
-166	NPI	sentential_negation_monoclausal	any	not	1	1	1	1085	1	NA	These women are not boycotting any movie theaters.	99968
-167	NPI	conditional	ever	_	0	0	0	132	1	NA	While the senator was praising the girls, the man was often visiting the college campuses.	99967
-168	NPI	quantifier	atall	all	1	0	1	3401	0	NA	All children who hugged more than three ladies drove to a lot of art galleries at all.	99967
-169	NPI	quantifier	atall	every	1	1	0	3646	1	NA	Every actor who kissed more than three pedestrians regularly was visiting many dancers.	99967
-171	NPI	superlative	any	fastest	1	1	0	1343	1	NA	The hair resembled the fastest adult that those teenagers had approached.	99967
-172	NPI	adverbs	either	barely	1	1	0	4403	1	NA	A man who barely murmured for a while did work hard.	99966
-173	NPI	negation	yet	no	1	1	0	1955	1	NA	No adult has said that the couches did resemble the waiter regularly.	99966
-174	NPI	determiner_negation_monoclausal	either	no	1	0	1	4879	0	NA	A man liked the teenagers either at no malls.	99966
-175	NPI	quantifier	inyears	every	1	1	0	4511	1	NA	Every woman who has criticized more than three drivers regularly had walked through more than three grocery stores.	99966
-177	NPI	adverbs	inyears	always	0	1	0	3159	1	NA	The guy who always went doctorsing as well answered.	99965
-178	NPI	quantifier	yet	any	1	0	0	2998	1	NA	Any customers who had skated around a lot of libraries kissed the actresses for a while.	99965
-180	NPI	sentential_negation_biclausal	any	not	1	0	1	5312	0	NA	Any patients were saying that those boys have not replied.	99965
-181	NPI	conditional	ever	_	0	1	0	861	1	NA	While the woman can also hug the cashiers, the teenager is breaking the couches.	99964
-182	NPI	only	atall	_	0	1	0	2908	1	NA	Even an actor had helped teenagers on weekends at the library.	99964
-183	NPI	quantifier	yet	the	0	1	1	2554	0	NA	The dancer who should go to banks yet exits many museums.	99964
-184	NPI	questions	either	_	0	0	1	4891	0	NA	The patients know either that the pedestrians havent hugged the customers.
-experiment=NPI-env=questions-npi=either-crucial_item=_-licensor=0-scope=0-npi_present=0-paradigm=4891	1		The patients know on weekends that the pedestrians havent hugged the customers.	99964
-185	NPI	sentential_negation_biclausal	either	not	1	0	0	4915	1	NA	The people might explain as well that the commentary would not win.	99964
-186	NPI	superlative	any	newest	1	0	0	1930	1	NA	The reports do discuss the newest hospital that patients had dropped by.	99964
-187	NPI	superlative	inyears	youngest	1	1	1	4908	1	NA	A woman who saw the youngest customers in years was talking about girls.	99964
-188	NPI	superlative	either	longest	1	1	1	5609	0	NA	The actresses who examined the longest commentaries either have lifted gloves.	99964
-190	NPI	only	ever	_	0	0	1	376	0	NA	The patients ever cared for even the men.	99963
-191	NPI	quantifier	any	all	1	0	1	756	0	NA	All dancers who attacked girls might wear any glasses.	99963
-193	NPI	negation	yet	none of the	1	1	1	1219	1	NA	None of the girls have explained that the teachers play yet.	99961
-194	NPI	negation	in years	none of the	1	1	1	3580	1	NA	None of the people had imagined that the reports won in years.	99961
-196	NPI	sentential_negation_biclausal	ever	really	0	1	1	561	0	NA	The men will really ever think that a senator can answer.	99961
-197	NPI	simplequestions	any	_	0	1	1	2265	0	NA	The actress was scanning the newspaper articles.	99961
-198	NPI	conditional	yet	_	0	0	1	2217	0	NA	While the lady took the rugs, the waiter does take the plates yet.	99960
-199	NPI	adverbs	any	barely	1	0	0	1020	1	NA	The person who should barely admire guests praised the essays.	99959
-200	NPI	conditional	inyears	_	0	0	1	4627	0	NA	While the senator referenced the men, the waiter will wear the pants in years.	99959
-205	NPI	only	atall	_	1	1	1	2888	1	NA	Only the students were weeping at all at the cafe.	99959
-207	NPI	questions	atall	_	0	0	1	2180	0	NA	The women know at all that the guest saw the ladies.	99959
-209	NPI	simplequestions	any	_	1	1	0	1346	1	NA	Do those senators drive to the restaurants?	99959
-210	NPI	conditional	either	_	1	0	1	5665	0	NA	If the girls kissed the girls, the dancer insults the sheep either.	99958
-211	NPI	determiner_negation_monoclausal	yet	no	1	0	1	1270	0	NA	The senators have taken the books yet at no restaurants.	99958
-212	NPI	only	atall	_	1	0	1	2436	0	NA	A person was talking to adults at all only at the public park.	99958
-213	NPI	only	yet	_	1	1	0	3327	1	NA	Only a lady had fled from banks for a while at the movie theater.	99958
-214	NPI	only	inyears	_	1	0	1	4739	0	NA	The waiters went to movie theaters in years only at the hospital.	99958
-216	NPI	adverbs	atall	scarcely	1	0	0	2471	1	NA	The guys who scarcely cooked drank on weekends.	99957
-217	NPI	conditional	either	_	1	1	0	5363	1	NA	If the student attacked the actresses for a while, the student could skate around the senators.	99957
-221	NPI	adverbs	ever	always	0	1	1	818	0	NA	The boys always ever explained that a lady arrives at the hospital.	99956
-222	NPI	conditional	atall	_	0	0	1	3384	0	NA	While the waitress remembered the waiters, the teenagers will describe the libraries at all.	99956
-223	NPI	quantifier	ever	every	1	0	1	1773	0	NA	Every student who does dislike more than three boys would ever lift books.	99956
-224	NPI	quantifier	either	the	0	0	0	5403	1	NA	The people who would describe more than three teachers care for some doctors as well.	99956
-225	NPI	questions	inyears	_	1	0	1	3980	0	NA	The actresses wonder in years whether the drivers werent returning to the libraries.
-experiment=NPI-env=questions-npi=inyears-crucial_item=_-licensor=1-scope=0-npi_present=0-paradigm=3980	1		The actresses wonder for a while whether the drivers werent returning to the libraries.	99956
-227	NPI	sentential_negation_biclausal	either	not	1	1	0	4664	1	NA	The adult is not thinking that the college campus can resemble the college campuses on occasion.	99956
-228	NPI	superlative	yet	longest	1	0	1	3779	0	NA	A senator who referenced the longest reports described movies yet.	99956
-231	NPI	questions	yet	_	0	0	0	1865	1	NA	The people know on weekends that the cashier arrives at the cafes.	99955
-237	NPI	superlative	ever	serious	0	0	1	382	0	NA	The customers would ever hate the serious actors that the guys have respected.	99954
-238	NPI	adverbs	any	often	0	0	0	1810	1	NA	A woman who could often insult schools remembered this doctors.	99953
-239	NPI	conditional	any	_	1	1	1	1888	1	NA	If the actor drove to any museums, the senator was admiring the boys.	99953
-240	NPI	determiner_negation_monoclausal	in years	some	0	1	1	3913	0	NA	Some girls said the patients in years.	99953
-241	NPI	only	any	_	1	0	0	1583	1	NA	Those teachers only are admiring the teenagers.	99953
-242	NPI	sentential_negation_biclausal	either	not	1	0	1	4642	0	NA	The guy had thought either that the pants were not shrinking.	99953
-243	NPI	adverbs	either	often	0	1	0	4456	1	NA	The guys who often wash on occasion had responded.	99952
-244	NPI	determiner_negation_biclausal	either	some	0	1	1	4097	0	NA	Some waitresses would explain that the cups resemble the commentaries either.	99952
-246	NPI	determiner_negation_monoclausal	at all	some	0	0	0	2779	1	NA	The boys pass the libraries on weekends at some malls.	99952
-248	NPI	superlative	yet	smallest	1	0	0	3942	1	NA	The dancers who insulted the smallest books will go to hospitals on weekends.	99952
-249	NPI	determiner_negation_monoclausal	ever	some	0	0	0	702	1	NA	The customers had really listened to some ladies.	99951
-250	NPI	determiner_negation_monoclausal	in years	no	1	0	0	3425	1	NA	The waiter had said the malls on occasion at no cafes.	99951
-252	NPI	superlative	atall	young	0	0	0	2447	1	NA	The cashiers who praised the young waitress were driving to malls on occasion.	99951
-253	NPI	determiner_negation_biclausal	ever	none of the	1	1	1	149	1	NA	None of the doctors have ever imagined that the women retaliate.	99950
-254	NPI	only	atall	_	0	1	1	2138	0	NA	Even a dancer sells cars at all at the museum.	99950
-256	NPI	quantifier	either	all	1	1	1	5015	0	NA	All actors who had attacked more than three doctors either buy books.	99950
-257	NPI	superlative	ever	worst	1	0	0	413	1	NA	A student fortunately worked with the worst guest that the actors had admired.	99950
-258	NPI	superlative	atall	big	0	0	1	2947	0	NA	The person who resembled the big adults tours movie theaters at all.	99950
-259	NPI	superlative	either	new	0	0	0	5220	1	NA	The cashiers who biked to the new movie theater had escaped from waiters as well.	99950
-262	NPI	quantifier	inyears	every	1	0	1	4437	0	NA	Every guy who helped a lot of guys had cleaned chairs in years.	99949
-263	NPI	questions	ever	_	0	1	0	886	1	NA	The teachers know that the cashiers also have fled from the banks.	99949
-265	NPI	determiner_negation_biclausal	at all	some	0	1	0	2997	1	NA	Some actor said that the children bake on occasion.	99948
-268	NPI	sentential_negation_biclausal	at all	not	1	1	1	2894	1	NA	A woman can not explain that the women do practice at all.	99948
-269	NPI	determiner_negation_monoclausal	at all	some	0	0	1	2108	0	NA	A patient discusses the patients at all at some art galleries.	99947
-271	NPI	conditional	yet	_	0	1	1	2419	0	NA	While the pedestrians went to the high schools yet, the people skate around the schools.	99946
-273	NPI	quantifier	either	every	1	1	0	5406	1	NA	Every driver who is arriving at a lot of movie theaters on occasion would take many pants.	99946
-276	NPI	sentential_negation_monoclausal	any	really	0	0	0	1238	1	NA	Those teachers would really resemble those art galleries.	99946
-277	NPI	conditional	any	_	0	1	1	1264	0	NA	While the adult returned to any children, the students could talk about the commentaries.	99945
-278	NPI	conditional	atall	_	0	1	1	3358	0	NA	While the teachers referenced the pedestrians at all, the waitresses would skate around the college campuses.	99945
-279	NPI	determiner_negation_biclausal	yet	some	0	0	1	1722	0	NA	The waitress should say yet that some plays insult a driver.	99945
-283	NPI	conditional	yet	_	1	0	1	2756	0	NA	If the children saw the doctors, the dancer might flee from the women yet.	99944
-284	NPI	conditional	either	_	1	1	1	5131	0	NA	If the teenagers bought the books either, the people would dislike the pedestrians.	99944
-285	NPI	determiner_negation_biclausal	ever	some	0	0	0	938	1	NA	A woman had certainly imagined that some glasses resemble the restaurant.	99944
-286	NPI	determiner_negation_monoclausal	ever	no	1	0	1	819	0	NA	The men ever do investigate no guests.	99944
-288	NPI	sentential_negation_biclausal	yet	not	1	1	0	1379	1	NA	The teenagers should not explain that the plays have won regularly.	99943
-289	NPI	sentential_negation_biclausal	yet	really	0	1	1	1923	0	NA	The pedestrians might really think that the adults can stand up yet.	99943
-291	NPI	simplequestions	any	_	1	1	1	2497	1	NA	Had any senator kissed the sheep?	99943
-294	NPI	adverbs	either	rarely	1	0	0	4316	1	NA	A girl who rarely suffered has cleaned reports regularly.	99942
-296	NPI	superlative	inyears	smallest	1	0	0	4606	1	NA	The waiters who remembered the smallest movie theater escape from movie theaters as well.	99942
-299	NPI	conditional	inyears	_	0	0	0	4507	1	NA	While the pedestrians respected the cafes, the pedestrians is working with the lady on weekends.	99941
-304	NPI	determiner_negation_biclausal	in years	some	0	0	0	3310	1	NA	The student explained as well that some actresses had hated the dancer.	99940
-305	NPI	adverbs	any	sometimes	0	0	1	1756	0	NA	A dancer who sometimes does escape from people had escaped from any guys.	99939
-306	NPI	adverbs	inyears	scarcely	1	1	1	3464	1	NA	The students who had scarcely discussed customers in years cried.	99939
-307	NPI	determiner_negation_biclausal	ever	some	0	0	1	461	0	NA	The men are ever saying that some guys have painted.	99939
-308	NPI	determiner_negation_monoclausal	yet	no	1	0	0	1838	1	NA	The teachers have kissed the teachers on weekends at no schools.	99939
-309	NPI	determiner_negation_monoclausal	yet	some	0	1	1	1975	0	NA	Some boy had fled from the actors yet.	99939
-310	NPI	determiner_negation_monoclausal	either	no	1	0	0	4487	1	NA	The customer will scan the movies on occasion at no grocery stores.	99939
-311	NPI	superlative	ever	worst	1	0	1	327	0	NA	The man will ever clean the worst dish that the patient had brought.	99939
-313	NPI	adverbs	ever	sometimes	0	0	1	68	0	NA	The actor ever imagines that the teenagers sometimes divorced.	99938
-318	NPI	conditional	either	_	0	1	0	5292	1	NA	While the patients kissed the students as well, the patients is listening to the child.	99937
-321	NPI	sentential_negation_monoclausal	any	really	0	0	1	1553	0	NA	Any cashiers had really known the pedestrians.	99937
-322	NPI	superlative	yet	fast	0	1	1	3306	0	NA	The teenager who approached the fast senator yet biked to movie theaters.	99937
-324	NPI	determiner_negation_monoclausal	ever	some	0	1	1	822	0	NA	Some doctor had ever talked to the people.	99935
-330	NPI	only	ever	_	1	1	0	712	1	NA	Only the actresses had clearly talked to the teenagers.	99934
-331	NPI	quantifier	yet	any	1	1	0	2730	1	NA	Any women who brought some newspaper articles on occasion should take a lot of dishes.	99934
-332	NPI	questions	yet	_	1	0	1	1003	0	NA	The customers wonder yet whether the girls arent going to high schools.
-experiment=NPI-env=questions-npi=yet-crucial_item=_-licensor=1-scope=0-npi_present=0-paradigm=1003	1		The customers wonder for a while whether the girls arent going to high schools.	99933
-334	NPI	superlative	atall	happy	0	1	1	2590	0	NA	The ladies who attacked the happy adults at all pass hospitals.	99933
-336	NPI	determiner_negation_monoclausal	any	some	0	0	1	5643	0	NA	Any teenagers might boycott some books.	99932
-339	NPI	determiner_negation_monoclausal	any	some	0	0	0	5898	1	NA	The drivers are examining some cafes.	99931
-340	NPI	questions	inyears	_	0	0	0	3258	1	NA	The senators know on occasion that the teenagers have hugged the guests.	99931
-342	NPI	adverbs	any	hardly	1	0	1	1263	0	NA	The doctors who hardly admired cashiers would care for any children.	99930
-343	NPI	determiner_negation_monoclausal	ever	no	1	1	0	615	1	NA	No actresses can often resemble the plays.	99930
-344	NPI	determiner_negation_monoclausal	any	no	1	1	1	5174	1	NA	No women run around any hair.	99930
-345	NPI	only	atall	_	0	0	1	2173	0	NA	A lady weeps at all even at the hospital.	99930
-349	NPI	conditional	atall	_	1	0	0	3158	1	NA	If the cashiers fled from the guests, the actors hug the actors as well.	99929
-352	NPI	conditional	ever	_	1	0	0	363	1	NA	If the guest lifts the dishes, the boy was clearly approaching the children.	99928
-353	NPI	determiner_negation_biclausal	yet	some	0	0	0	1749	1	NA	A teacher says as well that some hair will resemble the pedestrians.	99928
-354	NPI	determiner_negation_monoclausal	either	some	0	0	1	4892	0	NA	A senator drives to the public parks either at some banks.	99928
-356	NPI	negation	yet	none of the	1	0	0	1829	1	NA	The teenagers explain on occasion that none of the gloves could resemble the newspaper article.	99927
-357	NPI	quantifier	any	all	1	0	0	616	1	NA	All teachers who might run around restaurants respected these malls.	99927
-358	NPI	sentential_negation_biclausal	in years	really	0	1	0	3034	1	NA	A lady really explained that the adults have assembled regularly.	99927
-362	NPI	simplequestions	ever	_	0	1	0	592	1	NA	The patients often can insult the hospitals.	99926
-364	NPI	superlative	yet	youngest	1	1	0	3730	1	NA	The patients who visited the youngest guys on weekends do lift pants.	99926
-368	NPI	sentential_negation_biclausal	at all	really	0	1	0	2793	1	NA	The boy is really explaining that the rug might resemble the cups as well.	99925
-369	NPI	superlative	either	oldest	1	0	0	5444	1	NA	The guy who resembled the oldest customers is praising brochures as well.	99925
-370	NPI	conditional	inyears	_	1	0	0	4779	1	NA	If the guys helped the doctors, the guys were observing the people as well.	99924
-371	NPI	determiner_negation_monoclausal	ever	some	0	1	0	526	1	NA	Some adults are often skated around the public parks.	99924
-373	NPI	conditional	atall	_	1	1	0	3406	1	NA	If the pedestrian helped the dancers on occasion, the patient was arriving at the restaurants.	99923
-377	NPI	negation	in years	no	1	1	0	3366	1	NA	No waiter had thought that the dancers went to the schools as well.	99922
-378	NPI	determiner_negation_monoclausal	either	no	1	1	1	4900	1	NA	No actors wear the gloves either.	99922
-381	NPI	conditional	yet	_	0	0	0	2665	1	NA	While the person kissed the patients, the men might lift the newspaper articles on weekends.	99921
-383	NPI	questions	either	_	0	1	0	4571	1	NA	The adults know that the people have respected the women for a while.	99921
-384	NPI	simplequestions	atall	_	1	1	1	3993	1	NA	Had the senator discussed the art galleries at all?	99921
-389	NPI	determiner_negation_biclausal	any	no	1	1	1	5581	1	NA	No people would explain that any pedestrians arrived at the grocery stores.	99919
-393	NPI	adverbs	either	sometimes	0	1	1	4715	0	NA	The teenagers who sometimes cry either had approved.	99918
-395	NPI	determiner_negation_monoclausal	ever	no	1	0	0	765	1	NA	The customers had clearly watched no patients.	99918
-397	NPI	only	inyears	_	1	0	0	4258	1	NA	A doctor lied for a while only at the restaurant.	99918
-398	NPI	quantifier	inyears	many	0	1	0	4944	1	NA	Many actors who went to more than three libraries as well had escaped from a lot of college campuses.	99918
-401	NPI	conditional	ever	_	1	0	1	781	0	NA	If the cashier does leave the high schools, the waiters ever bike to the cafes.	99917
-404	NPI	questions	atall	_	1	1	0	2144	1	NA	The customers wonder whether the doctors scan books regularly.	99917
-405	NPI	conditional	atall	_	0	1	0	3552	1	NA	While the girls returned to the guests as well, the girls see the pedestrians.	99916
-407	NPI	determiner_negation_monoclausal	at all	some	0	1	1	2700	0	NA	Some guest tours the museums at all.	99916
-408	NPI	quantifier	any	the	0	1	1	897	0	NA	The doctor who can examine any documentaries cares for people.	99916
-410	NPI	sentential_negation_monoclausal	any	really	0	1	0	1030	1	NA	Those senators are really attacking the actors.	99916
-413	NPI	adverbs	inyears	barely	1	1	0	3463	1	NA	The doctors who have barely suffered regularly have muttered.	99915
-414	NPI	conditional	yet	_	1	1	0	2091	1	NA	If the actor loved the teenagers as well, the man breaks the plates.	99915
-417	NPI	conditional	either	_	0	1	1	5272	0	NA	While the waitresses criticized the banks either, the actress should describe the movie theaters.	99914
-419	NPI	quantifier	atall	a	0	0	1	3763	0	NA	A person who talked to some dancers will bike to museums at all.	99914
-420	NPI	sentential_negation_biclausal	yet	really	0	0	1	1916	0	NA	The dancer does say yet that the guys had really practiced.	99914
-427	NPI	quantifier	either	all	1	0	1	5602	0	NA	All senators who can know a lot of teenagers are dropping by more than three hospitals either.	99911
-433	NPI	sentential_negation_monoclausal	any	really	0	1	1	1728	0	NA	The children did really kiss any doctors.	99909
-437	NPI	only	atall	_	1	1	0	2097	1	NA	Only the adult was talking to girls as well at the hospital.	99908
-438	NPI	sentential_negation_biclausal	any	really	0	1	1	5317	0	NA	These students have really said that any people had broken the forks.	99908
-441	NPI	superlative	ever	long	0	1	0	415	1	NA	The waiter did describe the long report that the teenagers have clearly taken.	99908
-442	NPI	superlative	ever	small	0	0	0	328	1	NA	The students would fortunately praise the small child that the customers have talked about.	99907
-444	NPI	quantifier	atall	the	0	1	0	3163	1	NA	The pedestrian who has respected some grocery stores regularly will watch a lot of teenagers.	99906
-446	NPI	superlative	atall	young	0	1	0	2433	1	NA	The customer who attacked the young child on occasion disliked ladies.	99906
-450	NPI	questions	atall	_	1	0	1	2114	0	NA	The guests wonder at all whether the senator would see boys.	99905
-454	NPI	determiner_negation_monoclausal	either	no	1	1	0	4408	1	NA	No ladies did wear the glasses on occasion.	99904
-455	NPI	quantifier	ever	every	1	0	0	1371	1	NA	Every student who attacked a lot of customers can also break chairs.	99904
-463	NPI	questions	yet	_	0	0	1	1801	0	NA	The teenagers know yet that the pedestrian hasnt bought the pamphlets.
-experiment=NPI-env=questions-npi=yet-crucial_item=_-licensor=0-scope=0-npi_present=0-paradigm=1801	1		The teenagers know on occasion that the pedestrian hasnt bought the pamphlets.	99902
-464	NPI	sentential_negation_biclausal	ever	really	0	0	0	831	1	NA	The teacher is certainly saying that a skirt did really shrink.	99902
-465	NPI	simplequestions	ever	_	1	1	1	554	1	NA	Would the actress ever run around the art galleries?	99902
-467	NPI	adverbs	atall	barely	1	0	1	2902	0	NA	The actor who barely did discuss books should cheer at all.	99901
-468	NPI	negation	yet	no	1	0	1	1536	0	NA	The teacher imagined yet that no guests have interacted.	99901
-469	NPI	determiner_negation_biclausal	any	some	0	1	0	5048	1	NA	Some patients explained that these cafes did resemble the teachers.	99901
-470	NPI	determiner_negation_biclausal	any	some	0	0	0	5120	1	NA	The patients think that some guys were lying.	99901
-472	NPI	sentential_negation_monoclausal	any	not	1	1	0	1733	1	NA	The boys are not taking those glasses.	99901
-474	NPI	superlative	atall	worst	1	0	1	2171	0	NA	The customer who loved the worst people would leave doctors at all.	99901
-477	NPI	determiner_negation_monoclausal	any	some	0	1	1	5672	0	NA	Some boys boycott any people.	99900
-478	NPI	sentential_negation_biclausal	ever	not	1	0	0	700	1	NA	The drivers might also imagine that the guys do not telephone.	99900
-485	NPI	simplequestions	atall	_	0	1	0	3385	1	NA	The teachers had fled from the sheep as well.	99899
-486	NPI	adverbs	atall	often	0	0	1	2490	0	NA	The doctors who would often skate around movie theaters examine pamphlets at all.	99898
-487	NPI	conditional	any	_	1	0	0	1066	1	NA	If the those driver the attacked, the boys men could sell reports.	99898
-488	NPI	negation	at all	none of the	1	0	1	2693	0	NA	The pedestrians have explained at all that no waiters might sit down.	99898
-490	NPI	superlative	yet	happy	0	0	0	3327	1	NA	A cashier who listened to the happy senators talks to drivers regularly.	99898
-494	NPI	questions	inyears	_	0	1	1	3818	0	NA	The actresses know that the pedestrian hasnt scanned pamphlets in years.
-experiment=NPI-env=questions-npi=inyears-crucial_item=_-licensor=0-scope=1-npi_present=0-paradigm=3818	1		The actresses know that the pedestrian hasnt scanned the pamphlets regularly.	99896
-499	NPI	only	yet	_	1	0	0	3633	1	NA	The girl could dislike teenagers on occasion only at the grocery store.	99895
-500	NPI	sentential_negation_biclausal	yet	not	1	0	1	1872	0	NA	A teenager had imagined yet that the student will not wear the shoes.	99895
-501	NPI	sentential_negation_monoclausal	ever	really	0	1	0	477	1	NA	The woman is really also watching the pedestrians.	99895
-504	NPI	conditional	inyears	_	0	1	0	4571	1	NA	While the boys knew the adults regularly, the boys is exiting the woman.	99893
-507	NPI	quantifier	ever	more than three	0	0	1	1222	0	NA	More than three people who can attack a lot of teenagers ever watch actors.	99893
-510	NPI	conditional	ever	_	1	1	1	830	1	NA	If the cashiers ever go to the hospitals, the pedestrian is touring the libraries.	99892
-514	NPI	sentential_negation_biclausal	ever	really	0	0	1	306	0	NA	The waiters would ever imagine that the waiter is really protesting.	99892
-520	NPI	superlative	inyears	best	1	1	0	4818	1	NA	The girls who talked to the best pedestrian on weekends have sold newspaper articles.	99891
-521	NPI	superlative	either	cheap	0	1	1	5966	0	NA	A patient who resembled the cheap high schools either does escape from restaurants.	99891
-528	NPI	determiner_negation_biclausal	in years	some	0	1	0	3224	1	NA	Some customers had said that the pants shrank on weekends.	99888
-532	NPI	sentential_negation_biclausal	in years	really	0	0	1	3591	0	NA	The doctors thought in years that the scarf has really shrunk.	99888
-537	NPI	only	either	_	1	0	0	5948	1	NA	The boys have muttered as well only at the library.	99886
-539	NPI	superlative	either	small	0	1	0	5234	1	NA	The guy who discussed the small dancer for a while approached teenagers.	99886
-542	NPI	conditional	inyears	_	1	1	0	4472	1	NA	If the women explored the hospitals for a while, the women dislike the adults.	99885
-544	NPI	determiner_negation_monoclausal	in years	some	0	0	0	3040	1	NA	The senators imagined the grocery stores as well at some high schools.	99885
-549	NPI	adverbs	ever	rarely	1	0	0	955	1	NA	The doctors often explain that a girl rarely had the cars.	99884
-550	NPI	determiner_negation_monoclausal	at all	some	0	1	0	2644	1	NA	Some actress discussed the customers regularly.	99884
-554	NPI	quantifier	atall	every	1	0	0	3696	1	NA	Every child who was scanning more than three books is investigating a lot of boys on occasion.	99883
-565	NPI	determiner_negation_monoclausal	either	some	0	0	0	4995	1	NA	The adult talks about the waitresses on occasion at some grocery stores.	99880
-577	NPI	quantifier	ever	every	1	1	0	1086	1	NA	Every waitress who often toured more than three movie theaters has criticized a lot of people.	99878
-590	NPI	conditional	inyears	_	1	0	1	4435	0	NA	If the ladies sold the chairs, the dancers would explore the restaurants in years.	99874
-593	NPI	determiner_negation_monoclausal	ever	some	0	0	1	437	0	NA	The doctors have ever escaped from some teenagers.	99874
-602	NPI	sentential_negation_biclausal	yet	really	0	1	0	1023	1	NA	The boys could really say that the glasses would resemble the boy on weekends.	99872
-607	NPI	only	inyears	_	0	1	1	4669	0	NA	Even the guys had spun around in years at the public park.	99871
-608	NPI	only	either	_	0	0	0	5629	1	NA	A girl has sighed regularly even at the grocery store.	99871
-619	NPI	determiner_negation_biclausal	any	some	0	1	1	5811	0	NA	Some cashiers think that any women could compete.	99867
-620	NPI	only	yet	_	0	1	0	3652	1	NA	Even the children have answered for a while at the grocery store.	99867
-624	NPI	only	any	_	0	0	1	1620	0	NA	Any waiters even observed the guests.	99866
-625	NPI	questions	atall	_	0	0	0	2049	1	NA	The actresses know on weekends that the teenager visited the high schools.	99866
-627	NPI	conditional	any	_	1	1	0	1812	1	NA	If the doctor cared for these children, the girl discusses the movies.	99865
-629	NPI	sentential_negation_biclausal	either	not	1	1	1	4583	1	NA	The waitresses have not explained that the actor was hunting either.	99865
-634	NPI	questions	yet	_	0	1	0	1309	1	NA	The actors know that the dancer helps the sheep as well.	99864
-636	NPI	sentential_negation_monoclausal	ever	really	0	0	0	802	1	NA	The doctors will often really write hard.	99864
-643	NPI	sentential_negation_biclausal	in years	not	1	1	1	3258	1	NA	The waitress has not said that a dress has shrunk in years.	99862
-644	NPI	sentential_negation_biclausal	in years	not	1	0	0	3329	1	NA	The senators thought on weekends that the people have not shouted.	99862
-665	NPI	negation	at all	no	1	1	0	2254	1	NA	No waiter is thinking that the cars can resemble an report on weekends.	99857
-670	NPI	questions	ever	_	1	0	0	571	1	NA	The students obviously wonder whether the waitress could arrive at the malls.	99856
-682	NPI	quantifier	any	an	0	0	1	834	0	NA	An actor who scanned a lot of books criticizes any restaurants.	99853
-684	NPI	superlative	yet	good	0	0	1	3256	0	NA	A pedestrian who attacked the good waitresses had taken cups yet.	99853
-690	NPI	only	ever	_	1	0	1	901	0	NA	The actresses had ever known only the guys.	99850
-691	NPI	sentential_negation_biclausal	either	really	0	1	0	4123	1	NA	A waiter had really thought that the malls did resemble an actress on weekends.	99850
-695	NPI	quantifier	either	an	0	1	0	5662	1	NA	An actress who discussed many pedestrians regularly can praise a lot of books.	99848
-706	NPI	quantifier	atall		0	1	1	3893	0	NA	Girls who would describe many high schools at all are running around many restaurants.	99846
-712	NPI	only	atall	_	1	0	0	2979	1	NA	The teenagers regularly only at the movie theater.	99843
-714	NPI	questions	atall	_	0	1	0	2260	1	NA	The guests know that the children help the boys on occasion.	99843
-715	NPI	sentential_negation_biclausal	ever	not	1	1	1	650	1	NA	The lady is not ever thinking that the college campuses did resemble the newspaper article.	99843
-716	NPI	sentential_negation_biclausal	any	really	0	0	0	5142	1	NA	The patients are saying that the rugs could really resemble the ladies.	99843
-723	NPI	determiner_negation_biclausal	ever	no	1	0	0	257	1	NA	A teenager is also saying that no pedestrians kiss the teenager.	99841
-735	NPI	determiner_negation_biclausal	ever	none of the	1	0	1	172	0	NA	A senator had ever thought that no college campuses did resemble the stories.	99839
-736	NPI	quantifier	ever	the	0	1	0	1177	1	NA	The girl who might clearly talk to some women bought many couches.	99839
-744	NPI	adverbs	inyears	hardly	1	0	0	3706	1	NA	The man who has hardly skated around libraries forgot brochures on occasion.	99835
-748	NPI	quantifier	any	all	1	1	0	704	1	NA	All waitresses who are attacking the adults had walked through the museums.	99835
-750	NPI	questions	yet	_	1	1	0	1471	1	NA	The women wonder whether the girls walk through museums as well.	99835
-761	NPI	sentential_negation_monoclausal	ever	not	1	0	1	176	0	NA	The adult would ever not murmur.	99833
-765	NPI	sentential_negation_biclausal	ever	not	1	0	1	300	0	NA	The ladies should ever think that a cashier had not explained everything.	99831
-768	NPI	determiner_negation_monoclausal	yet	some	0	1	0	1641	1	NA	Some waiters were taking the rugs on weekends.	99830
-769	NPI	superlative	ever	newest	1	1	0	454	1	NA	The teacher can run around the newest museums that the ladies had clearly walked through.	99830
-770	NPI	superlative	inyears	happy	0	1	0	4615	1	NA	A woman who worked with the happy lady on occasion helped teachers.	99830
-771	NPI	determiner_negation_monoclausal	either	some	0	1	0	4897	1	NA	Some doctors had admired the girls on weekends.	99829
-778	NPI	sentential_negation_biclausal	either	really	0	0	1	4271	0	NA	The women were imagining either that a dancer would really boycott the public park.	99828
-793	NPI	adverbs	ever	sometimes	0	0	0	901	1	NA	The guest obviously thought that the patient would sometimes talk about the louse.	99824
-813	NPI	superlative	any	happy	0	0	1	1708	0	NA	Any teachers were discussing the happy actor that girls had seen.	99820
-822	NPI	quantifier	either	every	1	0	0	5634	1	NA	Every guest who would hug girls had disliked stories on weekends.	99818
-834	NPI	quantifier	yet	many	0	1	0	2452	1	NA	Many guys who lifted some reports as well talk about more than three actors.	99815
-842	NPI	questions	either	_	1	0	0	4493	1	NA	The pedestrians wonder for a while whether the child is examining the movies.	99812
-843	NPI	sentential_negation_biclausal	in years	really	0	0	0	3153	1	NA	A doctor imagined on occasion that an report had really won.	99812
-857	NPI	determiner_negation_monoclausal	yet	no	1	1	1	1162	1	NA	No cashiers are selling the couches yet.	99806
-874	NPI	sentential_negation_biclausal	at all	not	1	1	0	2584	1	NA	The cashiers have not said that the men have left the mall as well.	99801
-883	NPI	conditional	atall	_	0	0	0	3915	1	NA	While the customer bought the couches, the teachers are talking to the women on occasion.	99798
-894	NPI	sentential_negation_biclausal	yet	not	1	1	1	1619	1	NA	A customer might not say that the actors had donated yet.	99796
-898	NPI	superlative	either	best	1	1	0	5366	1	NA	A patient who worked with the best patients for a while will scan books.	99796
-903	NPI	adverbs	atall	always	0	1	0	2705	1	NA	The men who have always murmured on weekends weep.	99794
-925	NPI	superlative	ever	nice	0	1	1	39	0	NA	A woman has watched the nice guy that the guys had ever returned to.	99790
-926	NPI	adverbs	any	barely	1	1	1	1634	1	NA	The teenagers who should barely wear any glasses insult men.	99789
-928	NPI	determiner_negation_monoclausal	any	no	1	0	0	5519	1	NA	These waitresses helped no rugs.	99789
-934	NPI	determiner_negation_monoclausal	in years	some	0	0	1	3362	0	NA	The doctors had explained the museums in years at some grocery stores.	99788
-943	NPI	only	any	_	1	1	0	1301	1	NA	Only the dancers loved the doctors.	99786
-947	NPI	simplequestions	ever	_	1	1	0	136	1	NA	Had the actor often respected the high schools?	99786
-956	NPI	quantifier	ever	the	0	1	1	1113	0	NA	The actress who has ever been at a lot of college campuses admired some books.	99783
-959	NPI	sentential_negation_monoclausal	ever	not	1	0	0	801	1	NA	The ladies did clearly not lift the pants.	99783
-971	NPI	determiner_negation_biclausal	any	none of the	1	1	0	5112	1	NA	None of the people are imagining that these books resemble the ladies.	99781
-986	NPI	determiner_negation_monoclausal	in years	no	1	1	1	3694	1	NA	No women had thought the books in years.	99779
-1000	NPI	conditional	ever	_	0	1	1	975	0	NA	While the women ever return to the girls, the patient might pass the college campuses.	99775
-1015	NPI	conditional	either	_	0	0	1	5411	0	NA	While the lady scanned the stories, the dancers are selling the plates either.	99771
-1047	NPI	questions	inyears	_	1	1	0	3774	1	NA	The men wonder whether the drivers have examined the stories as well.	99763
-1062	NPI	adverbs	atall	scarcely	1	1	0	2075	1	NA	The teenagers who should scarcely help adults as well cry.	99759
-1063	NPI	adverbs	atall	scarcely	1	1	1	2234	1	NA	The actors who scarcely tour grocery stores at all could drop by college campuses.	99759
-1089	NPI	conditional	inyears	_	1	1	1	4968	0	NA	If the woman explored the museums in years, the boy is arriving at the banks.	99754
-1090	NPI	only	ever	_	1	0	0	341	1	NA	The pedestrian certainly respected only the men.	99754
-1093	NPI	superlative	either	fast	0	0	1	5708	0	NA	The senators who respected the fast student watch teachers either.	99754
-1094	NPI	conditional	inyears	_	0	1	1	4903	0	NA	While the doctors boycotted the college campuses in years, the cashiers are criticizing the customers.	99753
-1095	NPI	negation	in years	no	1	0	0	3033	1	NA	A student has explained for a while that no books disagreed.	99753
-1098	NPI	only	yet	_	0	1	1	3945	0	NA	Even the girl approved yet at the school.	99752
-1099	NPI	only	either	_	0	1	0	5607	1	NA	Even the teenager could shrug on occasion at the school.	99752
-1102	NPI	conditional	ever	_	1	1	0	85	1	NA	If the doctor was fortunately selling the cups, the patient is dropping by the college campuses.	99750
-1106	NPI	determiner_negation_monoclausal	at all	no	1	1	1	2099	1	NA	No man drove to the restaurants at all.	99749
-1112	NPI	questions	either	_	1	1	1	4569	0	NA	The teenagers wonder whether the teachers arent returning to the men either.
-experiment=NPI-env=questions-npi=either-crucial_item=_-licensor=1-scope=1-npi_present=0-paradigm=4569	1		The teenagers wonder whether the teachers arent returning to the men regularly.	99748
-1113	NPI	superlative	any	popular	0	1	1	1476	0	NA	The patients are observing the popular ladies that any waiters have referenced.	99748
-1122	NPI	sentential_negation_biclausal	any	not	1	1	1	5604	1	NA	The teachers were not imagining that any actors are practicing.	99746
-1128	NPI	questions	inyears	_	0	1	0	3193	1	NA	The children know that the waiters took the couches as well.	99745
-1129	NPI	sentential_negation_biclausal	in years	really	0	1	1	3806	0	NA	The senators really thought that the guy has complained in years.	99745
-1143	NPI	only	either	_	1	1	0	5045	1	NA	Only the women drank for a while at the bank.	99742
-1147	NPI	questions	either	_	0	0	0	4353	1	NA	The senators know on occasion that the doctor went to the malls.	99741
-1153	NPI	determiner_negation_monoclausal	ever	no	1	1	1	323	1	NA	No dancers might ever forget the waitresses.	99738
-1160	NPI	questions	ever	_	0	0	0	826	1	NA	The guests obviously know that the girl works with the girls.	99738
-1165	NPI	only	inyears	_	1	1	1	4306	0	NA	Only the guest had performed in years at the grocery store.	99737
-1166	NPI	only	inyears	_	1	1	0	4501	1	NA	Only the senators ran around grocery stores as well at the movie theater.	99737
-1175	NPI	determiner_negation_biclausal	either	some	0	0	1	4026	0	NA	The boy is saying either that some high schools can resemble the guy.	99734
-1197	NPI	determiner_negation_biclausal	at all	some	0	1	1	2630	0	NA	Some actor was explaining that the guests had been at the hospitals at all.	99729
-1204	NPI	sentential_negation_biclausal	in years	not	1	1	0	3874	1	NA	The child has not thought that the waitresses have attacked a man on weekends.	99728
-1243	NPI	adverbs	inyears	always	0	0	1	3863	0	NA	The students who always won have drunk in years.	99716
-1251	NPI	questions	either	_	1	1	0	4422	1	NA	The actors wonder whether the women are touring the museums for a while.	99715
-1258	NPI	quantifier	atall		0	0	0	3342	1	NA	Ladies who had boycotted a lot of banks have praised a lot of students for a while.	99713
-1273	NPI	determiner_negation_biclausal	ever	some	0	1	1	421	0	NA	Some guest was ever imagining that the stories disagree.	99709
-1278	NPI	sentential_negation_biclausal	at all	really	0	0	1	2600	0	NA	The senators were explaining at all that the documentaries have really won.	99709
-1283	NPI	determiner_negation_monoclausal	either	some	0	1	1	4118	0	NA	Some adult had hated the dancers either.	99707
-1298	NPI	quantifier	inyears	some	0	0	1	4470	0	NA	Some students who admired many gloves have passed banks in years.	99704
-1389	NPI	only	either	_	1	0	1	5824	0	NA	The girl is muttering either only at the public park.	99684
-1409	NPI	adverbs	either	barely	1	1	1	4841	1	NA	The cashiers who had barely telephoned either slump over.	99679
-1439	NPI	determiner_negation_biclausal	yet	some	0	1	1	1253	0	NA	Some girls have said that the cars resemble the ladies yet.	99673
-1524	NPI	questions	atall	_	1	1	1	2883	1	NA	The drivers wonder whether the child is being at museums at all.	99650
-1548	NPI	quantifier	any		0	1	0	406	1	NA	Actors who are returning to the girls had returned to some boys.	99644
-1592	NPI	determiner_negation_monoclausal	yet	some	0	0	1	1374	0	NA	A teacher had kissed the guests yet at some cafes.	99633
-1597	NPI	sentential_negation_biclausal	any	not	1	1	0	5462	1	NA	The adults should not think that the cars should resemble the dish.	99632
-1655	NPI	quantifier	atall	every	1	1	1	3205	1	NA	Every child who has loved more than three plays at all observes some men.	99618
-1666	NPI	adverbs	either	barely	1	0	1	4391	0	NA	The students who barely described art galleries talked to children either.	99615
-1705	NPI	superlative	any	bad	0	0	0	1742	1	NA	These drivers know the bad teenagers that waitresses had disliked.	99607
-1729	NPI	questions	inyears	_	0	0	1	3748	0	NA	The pedestrians know in years that the patients have driven to the banks.	99601
-1756	NPI	determiner_negation_monoclausal	at all	no	1	0	0	2973	1	NA	An adult is discussing the guys on weekends at no college campuses.	99596
-1777	NPI	conditional	any	_	0	0	1	1736	0	NA	While the patient been at the high schools, the girl flees from any pedestrians.	99592
-1791	NPI	superlative	inyears	bad	0	0	1	4563	0	NA	The adults who talked to the bad boy admire ladies in years.	99590
-2035	NPI	conditional	either	_	0	0	0	5221	1	NA	While the guests talked about the students, the guests should have the students on weekends.	99537
-2056	NPI	simplequestions	atall	_	0	1	1	3044	0	NA	The person would flee from the guys at all.	99535
-2222	NPI	conditional	any	_	1	0	1	1480	0	NA	If the doctors worked with the customers, the girls can leave any children.	99493
-12999	NPI	questions	any	_	1	0	1	1000	0	NA	Any boys wonder whether the driver will admire newspaper articles.	97016
-27624	NPI	questions	any	_	0	0	1	1000	0	NA	The boys any know that the driver will admire the newspaper articles.	93757
-60673	NPI	questions	any	_	0	1	1	1000	0	NA	The boys know that the driver will admire any newspaper articles.	86330
-224085	NPI	questions	any	_	1	0	0	1000	1	NA	The boys wonder whether the driver will admire newspaper articles.	49396
-253977	NPI	questions	any	_	1	1	1	1000	1	NA	The boys wonder whether the driver will admire any newspaper articles.	42609
-294630	NPI	questions	any	_	0	1	0	1000	1	NA	The boys know that the driver will admire the newspaper articles.	33416
-324570	NPI	questions	any	_	0	0	0	1000	1	NA	The boys know that the driver will admire the newspaper articles.	26660
-359131	NPI	questions	any	_	1	1	0	1000	1	NA	The boys wonder whether the driver will admire the newspaper articles.	18854
+""	"metadata"	"experiment"	"environment"	"npi"	"crucial_item"	"licensor"	"scope"	"npi_present"	"paradigm"	"acceptability"	"sentence"	"rand_int"
+"1"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=342"	"NPI"	"adverbs"	"ever"	"often"	"0"	"0"	"1"	"342"	0	"A teenager ever explains that the lady will often arrive at the library."	16
+"2"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=3927"	"NPI"	"adverbs"	"inyears"	"seldom"	"1"	"0"	"1"	"3927"	0	"A senator who seldom attacked adults ate in years."	39
+"4"	"experiment=NPI-env=adverbs-npi=either-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=4941"	"NPI"	"adverbs"	"either"	"sometimes"	"0"	"1"	"1"	"4941"	0	"The cashier who sometimes wrote either has lied."	48
+"6"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=2840"	"NPI"	"adverbs"	"atall"	"barely"	"1"	"1"	"0"	"2840"	1	"A person who barely succeeds regularly benefited."	73
+"7"	"experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1272"	"NPI"	"adverbs"	"any"	"seldom"	"1"	"1"	"0"	"1272"	1	"A customer who seldom returned to the actors remembers newspaper articles."	79
+"8"	"experiment=NPI-env=adverbs-npi=either-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=4444"	"NPI"	"adverbs"	"either"	"often"	"0"	"0"	"1"	"4444"	0	"The waitresses who often did bring glasses had conferred either."	91
+"9"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=2635"	"NPI"	"adverbs"	"atall"	"always"	"0"	"1"	"1"	"2635"	0	"The child who always nods at all has spoken up."	93
+"10"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=3517"	"NPI"	"adverbs"	"inyears"	"always"	"0"	"1"	"1"	"3517"	0	"The doctor who has always cheered in years had coped."	98
+"11"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=2085"	"NPI"	"adverbs"	"atall"	"often"	"0"	"1"	"0"	"2085"	1	"The waiters who often tour movie theaters for a while murmur."	108
+"12"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=3236"	"NPI"	"adverbs"	"inyears"	"often"	"0"	"1"	"0"	"3236"	1	"The ladies who often won on occasion have broken dishes."	108
+"15"	"experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1862"	"NPI"	"adverbs"	"any"	"always"	"0"	"1"	"1"	"1862"	0	"A person who always buys any rugs will break cars."	110
+"17"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=2657"	"NPI"	"adverbs"	"atall"	"often"	"0"	"0"	"1"	"2657"	0	"The children who will often correspond have admired glasses at all."	113
+"18"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=3865"	"NPI"	"adverbs"	"inyears"	"rarely"	"1"	"0"	"0"	"3865"	1	"The patient who had rarely changed has worried as well."	115
+"19"	"experiment=NPI-env=adverbs-npi=either-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=4993"	"NPI"	"adverbs"	"either"	"rarely"	"1"	"0"	"1"	"4993"	0	"The students who rarely left guys will disagree either."	121
+"20"	"experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1136"	"NPI"	"adverbs"	"any"	"sometimes"	"0"	"1"	"0"	"1136"	1	"The boy who had sometimes remembered those teachers scanned commentaries."	137
+"23"	"experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1063"	"NPI"	"adverbs"	"any"	"seldom"	"1"	"1"	"1"	"1063"	1	"The dancer who seldom forgot any dancers had biked to hospitals."	142
+"27"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=2472"	"NPI"	"adverbs"	"atall"	"hardly"	"1"	"0"	"1"	"2472"	0	"The dancers who hardly approach students had sat down at all."	163
+"29"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=138"	"NPI"	"adverbs"	"ever"	"often"	"0"	"0"	"0"	"138"	1	"The women obviously said that an actor often visits the child."	164
+"31"	"experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1841"	"NPI"	"adverbs"	"any"	"sometimes"	"0"	"0"	"0"	"1841"	1	"The guests who sometimes knew teenagers fled from these malls."	176
+"37"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=526"	"NPI"	"adverbs"	"ever"	"always"	"0"	"1"	"0"	"526"	1	"The child always obviously imagined that the students kiss the adults."	199
+"39"	"experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1552"	"NPI"	"adverbs"	"any"	"always"	"0"	"0"	"1"	"1552"	0	"A customer who has always arrived at schools discusses any cashiers."	200
+"41"	"experiment=NPI-env=adverbs-npi=either-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=4830"	"NPI"	"adverbs"	"either"	"scarcely"	"1"	"1"	"1"	"4830"	1	"A waiter who scarcely criticizes drivers either can insult people."	209
+"42"	"experiment=NPI-env=adverbs-npi=either-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=4931"	"NPI"	"adverbs"	"either"	"sometimes"	"0"	"1"	"0"	"4931"	1	"The cashier who sometimes drops by libraries on occasion might stand up."	210
+"43"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=3216"	"NPI"	"adverbs"	"inyears"	"scarcely"	"1"	"1"	"1"	"3216"	1	"A patient who scarcely admired doctors in years has spun around."	213
+"44"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=298"	"NPI"	"adverbs"	"ever"	"seldom"	"1"	"0"	"0"	"298"	1	"The girl also explained that a man seldom helped the children."	216
+"49"	"experiment=NPI-env=adverbs-npi=either-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=4488"	"NPI"	"adverbs"	"either"	"rarely"	"1"	"0"	"0"	"4488"	1	"The teacher who has rarely sold plates had lifted glasses on weekends."	227
+"52"	"experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1890"	"NPI"	"adverbs"	"any"	"scarcely"	"1"	"0"	"1"	"1890"	0	"The adults who will scarcely criticize cafes should resemble any plates."	231
+"53"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=2604"	"NPI"	"adverbs"	"atall"	"scarcely"	"1"	"0"	"0"	"2604"	1	"The children who had scarcely wept will cheer on weekends."	231
+"61"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=2182"	"NPI"	"adverbs"	"atall"	"always"	"0"	"0"	"0"	"2182"	1	"A driver who always criticizes high schools could remember essays on occasion."	275
+"63"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=309"	"NPI"	"adverbs"	"ever"	"seldom"	"1"	"1"	"0"	"309"	1	"The actors seldom also imagine that the girls had lifted the cars."	282
+"65"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=855"	"NPI"	"adverbs"	"ever"	"rarely"	"1"	"1"	"1"	"855"	1	"The patient rarely ever imagines that the waiters have debated."	293
+"79"	"experiment=NPI-env=adverbs-npi=either-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=4080"	"NPI"	"adverbs"	"either"	"seldom"	"1"	"1"	"0"	"4080"	1	"A waiter who seldom does win regularly responds."	332
+"91"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=55"	"NPI"	"adverbs"	"ever"	"always"	"0"	"1"	"1"	"55"	0	"The adult always ever imagines that a driver would care for the patients."	361
+"111"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=2403"	"NPI"	"adverbs"	"atall"	"seldom"	"1"	"1"	"1"	"2403"	1	"The children who could seldom collaborate at all flirted."	409
+"114"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=3217"	"NPI"	"adverbs"	"inyears"	"always"	"0"	"0"	"0"	"3217"	1	"A woman who always kissed people had cried for a while."	419
+"117"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=517"	"NPI"	"adverbs"	"ever"	"seldom"	"1"	"0"	"1"	"517"	0	"A woman ever said that a waiter seldom negotiates."	427
+"130"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=3606"	"NPI"	"adverbs"	"inyears"	"often"	"0"	"0"	"1"	"3606"	0	"The senator who has often performed spoke up in years."	447
+"135"	"experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1280"	"NPI"	"adverbs"	"any"	"scarcely"	"1"	"0"	"0"	"1280"	1	"The boys who had scarcely fled from teachers had approached these waitresses."	461
+"139"	"experiment=NPI-env=adverbs-npi=either-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=4595"	"NPI"	"adverbs"	"either"	"sometimes"	"0"	"0"	"0"	"4595"	1	"The actors who sometimes do attack customers shout as well."	469
+"251"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=3815"	"NPI"	"adverbs"	"inyears"	"barely"	"1"	"1"	"0"	"3815"	1	"A guest who has barely worn shoes on occasion chuckled."	735
+"113"	"experiment=NPI-env=superlative-npi=yet-crucial_item=small-licensor=0-scope=1-npi_present=0-paradigm=3477"	"NPI"	"superlative"	"yet"	"small"	"0"	"1"	"0"	"3477"	1	"The pedestrians who bought the small reports on occasion toured public parks."	16
+"211"	"experiment=NPI-env=superlative-npi=ever-crucial_item=newest-licensor=1-scope=1-npi_present=1-paradigm=361"	"NPI"	"superlative"	"ever"	"newest"	"1"	"1"	"1"	"361"	1	"The waiters did insult the newest hospital that the people had ever criticized."	24
+"410"	"experiment=NPI-env=superlative-npi=yet-crucial_item=old-licensor=0-scope=1-npi_present=1-paradigm=3790"	"NPI"	"superlative"	"yet"	"old"	"0"	"1"	"1"	"3790"	0	"The patients who left the old waiter yet were watching senators."	45
+"610"	"experiment=NPI-env=superlative-npi=yet-crucial_item=big-licensor=0-scope=0-npi_present=1-paradigm=3456"	"NPI"	"superlative"	"yet"	"big"	"0"	"0"	"1"	"3456"	0	"The guests who knew the big guys had skated around restaurants yet."	50
+"86"	"experiment=NPI-env=superlative-npi=ever-crucial_item=most popular-licensor=1-scope=0-npi_present=0-paradigm=975"	"NPI"	"superlative"	"ever"	"most popular"	"1"	"0"	"0"	"975"	1	"An actress fortunately sold the most popular dish that the doctor has brought."	60
+"96"	"experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=1-npi_present=0-paradigm=843"	"NPI"	"superlative"	"ever"	"small"	"0"	"1"	"0"	"843"	1	"A woman lifts the small glass that the senator had clearly taken."	67
+"105"	"experiment=NPI-env=superlative-npi=any-crucial_item=old-licensor=0-scope=0-npi_present=1-paradigm=1044"	"NPI"	"superlative"	"any"	"old"	"0"	"0"	"1"	"1044"	0	"Any libraries can resemble the old waitress that women had respected."	73
+"1110"	"experiment=NPI-env=superlative-npi=atall-crucial_item=nice-licensor=0-scope=0-npi_present=0-paradigm=2725"	"NPI"	"superlative"	"atall"	"nice"	"0"	"0"	"0"	"2725"	1	"The student who respected the nice pedestrian might have plates regularly."	73
+"13"	"experiment=NPI-env=superlative-npi=atall-crucial_item=best-licensor=1-scope=0-npi_present=0-paradigm=2444"	"NPI"	"superlative"	"atall"	"best"	"1"	"0"	"0"	"2444"	1	"The dancers who liked the best actresses admired newspaper articles as well."	85
+"14"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=most important-licensor=1-scope=1-npi_present=0-paradigm=4179"	"NPI"	"superlative"	"inyears"	"most important"	"1"	"1"	"0"	"4179"	1	"The lady who helped the most important girl on weekends insulted men."	93
+"153"	"experiment=NPI-env=superlative-npi=atall-crucial_item=old-licensor=0-scope=1-npi_present=1-paradigm=2796"	"NPI"	"superlative"	"atall"	"old"	"0"	"1"	"1"	"2796"	0	"The girls who bought the old couches at all were insulting books."	105
+"16"	"experiment=NPI-env=superlative-npi=yet-crucial_item=most important-licensor=1-scope=1-npi_present=0-paradigm=3090"	"NPI"	"superlative"	"yet"	"most important"	"1"	"1"	"0"	"3090"	1	"A guest who went to the most important college campuses for a while will observe fish."	109
+"191"	"experiment=NPI-env=superlative-npi=either-crucial_item=youngest-licensor=1-scope=0-npi_present=0-paradigm=5748"	"NPI"	"superlative"	"either"	"youngest"	"1"	"0"	"0"	"5748"	1	"The patients who admired the youngest driver will bike to high schools as well."	115
+"21"	"experiment=NPI-env=superlative-npi=any-crucial_item=most popular-licensor=1-scope=1-npi_present=0-paradigm=1183"	"NPI"	"superlative"	"any"	"most popular"	"1"	"1"	"0"	"1183"	1	"The movie theaters resemble the most popular high schools that these actors have remembered."	120
+"22"	"experiment=NPI-env=superlative-npi=any-crucial_item=smallest-licensor=1-scope=0-npi_present=1-paradigm=1720"	"NPI"	"superlative"	"any"	"smallest"	"1"	"0"	"1"	"1720"	0	"Any glasses resemble the smallest cafes that fish had boycotted."	120
+"239"	"experiment=NPI-env=superlative-npi=atall-crucial_item=cheapest-licensor=1-scope=0-npi_present=1-paradigm=2999"	"NPI"	"superlative"	"atall"	"cheapest"	"1"	"0"	"1"	"2999"	0	"The dancers who talked about the cheapest school leave actresses at all."	123
+"24"	"experiment=NPI-env=superlative-npi=yet-crucial_item=best-licensor=1-scope=0-npi_present=1-paradigm=3796"	"NPI"	"superlative"	"yet"	"best"	"1"	"0"	"1"	"3796"	0	"The guests who boycotted the best grocery store have brochures yet."	125
+"271"	"experiment=NPI-env=superlative-npi=ever-crucial_item=worst-licensor=1-scope=0-npi_present=1-paradigm=264"	"NPI"	"superlative"	"ever"	"worst"	"1"	"0"	"1"	"264"	0	"The pedestrian might ever have the worst rug that the man has sold."	135
+"28"	"experiment=NPI-env=superlative-npi=any-crucial_item=long-licensor=0-scope=0-npi_present=0-paradigm=1173"	"NPI"	"superlative"	"any"	"long"	"0"	"0"	"0"	"1173"	1	"These teenagers discussed the long commentaries that books had praised."	135
+"30"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=nicest-licensor=1-scope=1-npi_present=1-paradigm=4350"	"NPI"	"superlative"	"inyears"	"nicest"	"1"	"1"	"1"	"4350"	1	"The actor who returned to the nicest senator in years hugged girls."	136
+"312"	"experiment=NPI-env=superlative-npi=either-crucial_item=big-licensor=0-scope=0-npi_present=1-paradigm=5724"	"NPI"	"superlative"	"either"	"big"	"0"	"0"	"1"	"5724"	0	"A cashier who insulted the big teachers loves waitresses either."	137
+"33"	"experiment=NPI-env=superlative-npi=atall-crucial_item=bad-licensor=0-scope=0-npi_present=1-paradigm=2994"	"NPI"	"superlative"	"atall"	"bad"	"0"	"0"	"1"	"2994"	0	"A girl who left the bad high schools respects malls at all."	144
+"35"	"experiment=NPI-env=superlative-npi=either-crucial_item=best-licensor=1-scope=1-npi_present=0-paradigm=5366"	"NPI"	"superlative"	"either"	"best"	"1"	"1"	"0"	"5366"	1	"A patient who worked with the best patients for a while will scan books."	153
+"371"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=long-licensor=0-scope=1-npi_present=1-paradigm=4443"	"NPI"	"superlative"	"inyears"	"long"	"0"	"1"	"1"	"4443"	0	"A lady who described the long report in years has sold books."	155
+"38"	"experiment=NPI-env=superlative-npi=ever-crucial_item=small-licensor=0-scope=1-npi_present=1-paradigm=898"	"NPI"	"superlative"	"ever"	"small"	"0"	"1"	"1"	"898"	0	"The waitresses had dropped by the small cafes that the doctors have ever boycotted."	156
+"441"	"experiment=NPI-env=superlative-npi=either-crucial_item=bad-licensor=0-scope=0-npi_present=0-paradigm=5001"	"NPI"	"superlative"	"either"	"bad"	"0"	"0"	"0"	"5001"	1	"The children who approached the bad waiters criticized cafes for a while."	161
+"45"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=worst-licensor=1-scope=0-npi_present=1-paradigm=4466"	"NPI"	"superlative"	"inyears"	"worst"	"1"	"0"	"1"	"4466"	0	"A waitress who talked about the worst movies returned to ladies in years."	163
+"47"	"experiment=NPI-env=superlative-npi=any-crucial_item=fastest-licensor=1-scope=0-npi_present=0-paradigm=1245"	"NPI"	"superlative"	"any"	"fastest"	"1"	"0"	"0"	"1245"	1	"These drivers escaped from the fastest adult that cashiers had admired."	173
+"50"	"experiment=NPI-env=superlative-npi=atall-crucial_item=happiest-licensor=1-scope=1-npi_present=0-paradigm=2814"	"NPI"	"superlative"	"atall"	"happiest"	"1"	"1"	"0"	"2814"	1	"The guests who returned to the happiest waitresses for a while bike to cafes."	179
+"54"	"experiment=NPI-env=superlative-npi=either-crucial_item=popular-licensor=0-scope=1-npi_present=1-paradigm=5396"	"NPI"	"superlative"	"either"	"popular"	"0"	"1"	"1"	"5396"	0	"A teacher who disliked the popular pedestrian either ran around museums."	187
+"55"	"experiment=NPI-env=superlative-npi=either-crucial_item=happy-licensor=0-scope=1-npi_present=0-paradigm=5744"	"NPI"	"superlative"	"either"	"happy"	"0"	"1"	"0"	"5744"	1	"The patient who saw the happy women for a while observed actresses."	188
+"612"	"experiment=NPI-env=superlative-npi=atall-crucial_item=most serious-licensor=1-scope=1-npi_present=1-paradigm=2832"	"NPI"	"superlative"	"atall"	"most serious"	"1"	"1"	"1"	"2832"	0	"The men who helped the most serious guys at all should run around schools."	198
+"62"	"experiment=NPI-env=superlative-npi=any-crucial_item=most important-licensor=1-scope=1-npi_present=1-paradigm=1097"	"NPI"	"superlative"	"any"	"most important"	"1"	"1"	"1"	"1097"	1	"The pants resemble the most important drivers that any people have visited."	202
+"64"	"experiment=NPI-env=superlative-npi=atall-crucial_item=good-licensor=0-scope=1-npi_present=0-paradigm=2358"	"NPI"	"superlative"	"atall"	"good"	"0"	"1"	"0"	"2358"	1	"A man who insulted the good cafe regularly is exploring cafes."	205
+"74"	"experiment=NPI-env=superlative-npi=any-crucial_item=nice-licensor=0-scope=1-npi_present=0-paradigm=1623"	"NPI"	"superlative"	"any"	"nice"	"0"	"1"	"0"	"1623"	1	"The men had talked about the nice waitresses that these adults have returned to."	224
+"76"	"experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=0-npi_present=0-paradigm=125"	"NPI"	"superlative"	"ever"	"important"	"0"	"0"	"0"	"125"	1	"A lady fortunately visited the important children that the drivers have returned to."	225
+"77"	"experiment=NPI-env=superlative-npi=yet-crucial_item=fastest-licensor=1-scope=1-npi_present=1-paradigm=3004"	"NPI"	"superlative"	"yet"	"fastest"	"1"	"1"	"1"	"3004"	1	"The guys who loved the fastest patients yet hate newspaper articles."	229
+"82"	"experiment=NPI-env=superlative-npi=either-crucial_item=fastest-licensor=1-scope=1-npi_present=1-paradigm=5698"	"NPI"	"superlative"	"either"	"fastest"	"1"	"1"	"1"	"5698"	0	"A doctor who admired the fastest drivers either is fleeing from women."	240
+"90"	"experiment=NPI-env=superlative-npi=ever-crucial_item=happy-licensor=0-scope=0-npi_present=1-paradigm=624"	"NPI"	"superlative"	"ever"	"happy"	"0"	"0"	"1"	"624"	0	"A cashier has ever insulted the happy teenager that the customers have kissed."	246
+"92"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=smallest-licensor=1-scope=0-npi_present=0-paradigm=4632"	"NPI"	"superlative"	"inyears"	"smallest"	"1"	"0"	"0"	"4632"	1	"The teachers who ran around the smallest mall should leave waiters regularly."	253
+"95"	"experiment=NPI-env=superlative-npi=yet-crucial_item=important-licensor=0-scope=0-npi_present=0-paradigm=3090"	"NPI"	"superlative"	"yet"	"important"	"0"	"0"	"0"	"3090"	1	"A guest who went to the important college campuses will observe fish for a while."	256
+"97"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=happy-licensor=0-scope=1-npi_present=0-paradigm=4916"	"NPI"	"superlative"	"inyears"	"happy"	"0"	"1"	"0"	"4916"	1	"A guy who escaped from the happy pedestrian for a while can talk about pedestrians."	258
+"100"	"experiment=NPI-env=superlative-npi=any-crucial_item=small-licensor=0-scope=1-npi_present=1-paradigm=1075"	"NPI"	"superlative"	"any"	"small"	"0"	"1"	"1"	"1075"	0	"The shoes resemble the small movie theater that any teachers had ran around."	262
+"102"	"experiment=NPI-env=superlative-npi=either-crucial_item=newest-licensor=1-scope=0-npi_present=1-paradigm=5015"	"NPI"	"superlative"	"either"	"newest"	"1"	"0"	"1"	"5015"	0	"A customer who dropped by the newest libraries has attacked waitresses either."	267
+"1111"	"experiment=NPI-env=superlative-npi=yet-crucial_item=smallest-licensor=1-scope=0-npi_present=0-paradigm=3871"	"NPI"	"superlative"	"yet"	"smallest"	"1"	"0"	"0"	"3871"	1	"A customer who left the smallest woman arrives at hospitals regularly."	285
+"132"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=fast-licensor=0-scope=0-npi_present=1-paradigm=4989"	"NPI"	"superlative"	"inyears"	"fast"	"0"	"0"	"1"	"4989"	0	"A person who described the fast adults has boycotted museums in years."	315
+"134"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=important-licensor=0-scope=0-npi_present=0-paradigm=4168"	"NPI"	"superlative"	"inyears"	"important"	"0"	"0"	"0"	"4168"	1	"A person who walked through the important grocery stores is arriving at restaurants as well."	316
+"235"	"experiment=NPI-env=superlative-npi=ever-crucial_item=fastest-licensor=1-scope=1-npi_present=0-paradigm=103"	"NPI"	"superlative"	"ever"	"fastest"	"1"	"1"	"0"	"103"	1	"The man has fled from the fastest patient that the documentaries had also talked about."	544
+"123"	"experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3917"	"NPI"	"only"	"yet"	"only"	"1"	"0"	"1"	"3917"	0	"The guests loved stories yet only at the library."	5
+"215"	"experiment=NPI-env=sentential_negation_biclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1-paradigm=5899"	"NPI"	"sentential_negation_biclausal"	"any"	"not"	"1"	"0"	"1"	"5899"	0	"Any doctors are saying that those reports are not disagreeing."	10
+"412"	"experiment=NPI-env=quantifier-npi=ever-crucial_item=many-licensor=0-scope=1-npi_present=1-paradigm=1012"	"NPI"	"quantifier"	"ever"	"many"	"0"	"1"	"1"	"1012"	0	"Many cashiers who ever flee from a lot of malls did work with some senators."	11
+"5"	"experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4643"	"NPI"	"only"	"inyears"	"even"	"0"	"0"	"0"	"4643"	1	"The teenagers had left teachers regularly even at the movie theater."	15
+"710"	"experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0-paradigm=949"	"NPI"	"conditional"	"ever"	"while"	"0"	"0"	"0"	"949"	1	"While the child approaches the women, the drivers will also exit the restaurants."	17
+"810"	"experiment=NPI-env=simplequestions-npi=any-crucial_item=?-licensor=0-scope=1-npi_present=0-paradigm=1803"	"NPI"	"simplequestions"	"any"	"?"	"0"	"1"	"0"	"1803"	1	"The student was praising these men."	21
+"910"	"experiment=NPI-env=simplequestions-npi=either-crucial_item=?-licensor=1-scope=1-npi_present=0-paradigm=5427"	"NPI"	"simplequestions"	"either"	"?"	"1"	"1"	"0"	"5427"	1	"Is the waiter going to the restaurants on occasion?"	23
+"1010"	"experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2108"	"NPI"	"determiner_negation_biclausal"	"at all"	"some"	"0"	"0"	"0"	"2108"	1	"The senators are saying for a while that some books resemble the waitresses."	24
+"142"	"experiment=NPI-env=conditional-npi=any-crucial_item=while-licensor=0-scope=0-npi_present=1-paradigm=1510"	"NPI"	"conditional"	"any"	"while"	"0"	"0"	"1"	"1510"	0	"While the girl likes the guests, the pedestrian will drop by any movie theaters."	31
+"163"	"experiment=NPI-env=quantifier-npi=either-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=5235"	"NPI"	"quantifier"	"either"	"every"	"1"	"1"	"1"	"5235"	0	"Every waiter who could observe many customers either praised boys."	32
+"171"	"experiment=NPI-env=conditional-npi=either-crucial_item=while-licensor=0-scope=1-npi_present=0-paradigm=5892"	"NPI"	"conditional"	"either"	"while"	"0"	"1"	"0"	"5892"	1	"While the cashier returns to the high schools as well, the senators will boycott the movie theaters."	33
+"194"	"experiment=NPI-env=simplequestions-npi=ever-crucial_item=?-licensor=1-scope=1-npi_present=0-paradigm=301"	"NPI"	"simplequestions"	"ever"	"?"	"1"	"1"	"0"	"301"	1	"Were the senators clearly talking about the guys?"	34
+"124"	"experiment=NPI-env=conditional-npi=any-crucial_item=while-licensor=0-scope=0-npi_present=1-paradigm=1201"	"NPI"	"conditional"	"any"	"while"	"0"	"0"	"1"	"1201"	0	"While the senator exits the banks, the students will dislike any college campuses."	0
+"216"	"experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=244"	"NPI"	"quantifier"	"any"	"all"	"1"	"0"	"1"	"244"	0	"All actresses who were biking to libraries skate around any movie theaters."	0
+"3"	"experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2512"	"NPI"	"conditional"	"yet"	"if"	"1"	"0"	"1"	"2512"	0	"If the waiters sell the pants, the teacher will reference the actresses yet."	1
+"414"	"experiment=NPI-env=quantifier-npi=atall-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=3907"	"NPI"	"quantifier"	"atall"	"every"	"1"	"1"	"0"	"3907"	1	"Every cashier who has skated around a lot of hospitals on occasion should break a lot of forks."	1
+"56"	"experiment=NPI-env=sentential_negation_biclausal-npi=yet-crucial_item=really-licensor=0-scope=0-npi_present=1-paradigm=1473"	"NPI"	"sentential_negation_biclausal"	"yet"	"really"	"0"	"0"	"1"	"1473"	0	"A patient had said yet that the museums could really resemble a play."	1
+"613"	"experiment=NPI-env=simplequestions-npi=ever-crucial_item=?-licensor=1-scope=1-npi_present=0-paradigm=867"	"NPI"	"simplequestions"	"ever"	"?"	"1"	"1"	"0"	"867"	1	"Might the customer clearly take the books?"	1
+"711"	"experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2014"	"NPI"	"determiner_negation_biclausal"	"at all"	"some"	"0"	"0"	"0"	"2014"	1	"The people explain on weekends that some girls conferred."	2
+"811"	"experiment=NPI-env=quantifier-npi=either-crucial_item=-licensor=0-scope=1-npi_present=0-paradigm=5820"	"NPI"	"quantifier"	"either"	""	"0"	"1"	"0"	"5820"	1	"Drivers who did observe more than three boys on weekends kiss many guys."	2
+"911"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=youngest-licensor=1-scope=0-npi_present=1-paradigm=4237"	"NPI"	"superlative"	"inyears"	"youngest"	"1"	"0"	"1"	"4237"	0	"The students who talked to the youngest dancer praise actresses in years."	2
+"1011"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=2234"	"NPI"	"adverbs"	"atall"	"sometimes"	"0"	"1"	"1"	"2234"	0	"A man who should sometimes go to restaurants at all complains."	3
+"1112"	"experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3101"	"NPI"	"determiner_negation_biclausal"	"in years"	"some"	"0"	"0"	"1"	"3101"	0	"A patient thought in years that some movies have won."	3
+"1210"	"experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2014"	"NPI"	"questions"	"yet"	"whether"	"1"	"0"	"1"	"2014"	0	"The guys have wondered yet whether the people did walk through college campuses."	3
+"131"	"experiment=NPI-env=sentential_negation_biclausal-npi=yet-crucial_item=not-licensor=1-scope=0-npi_present=0-paradigm=1057"	"NPI"	"sentential_negation_biclausal"	"yet"	"not"	"1"	"0"	"0"	"1057"	1	"The senators have said for a while that the cashier has not worn a shirt."	3
+"143"	"experiment=NPI-env=adverbs-npi=either-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=4032"	"NPI"	"adverbs"	"either"	"barely"	"1"	"0"	"1"	"4032"	0	"The boys who have barely smiled took forks either."	4
+"157"	"experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4731"	"NPI"	"only"	"inyears"	"even"	"0"	"0"	"0"	"4731"	1	"The men watched actresses as well even at the school."	4
+"166"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=3892"	"NPI"	"adverbs"	"inyears"	"barely"	"1"	"0"	"1"	"3892"	0	"An actress who has barely sat down has loved women in years."	5
+"172"	"experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3178"	"NPI"	"only"	"yet"	"only"	"1"	"0"	"1"	"3178"	0	"A person can talk to women yet only at the cafe."	5
+"195"	"experiment=NPI-env=quantifier-npi=inyears-crucial_item=many-licensor=0-scope=0-npi_present=1-paradigm=4750"	"NPI"	"quantifier"	"inyears"	"many"	"0"	"0"	"1"	"4750"	0	"Many pedestrians who discussed customers had admired the chairs in years."	5
+"201"	"experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=1-npi_present=1-paradigm=1514"	"NPI"	"quantifier"	"ever"	"a lot of"	"0"	"1"	"1"	"1514"	0	"A lot of adults who have ever boycotted public parks can drop by many museums."	6
+"217"	"experiment=NPI-env=simplequestions-npi=yet-crucial_item=?-licensor=1-scope=1-npi_present=1-paradigm=4873"	"NPI"	"simplequestions"	"yet"	"?"	"1"	"1"	"1"	"4873"	1	"Did the ladies arrive at the libraries yet?"	6
+"221"	"experiment=NPI-env=conditional-npi=yet-crucial_item=while-licensor=0-scope=0-npi_present=0-paradigm=2419"	"NPI"	"conditional"	"yet"	"while"	"0"	"0"	"0"	"2419"	1	"While the customers go to the banks, the child will clean the newspaper articles on occasion."	7
+"2310"	"experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5652"	"NPI"	"determiner_negation_biclausal"	"any"	"some"	"0"	"0"	"1"	"5652"	0	"Any actresses have imagined that some documentaries insulted the girls."	7
+"241"	"experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=3110"	"NPI"	"questions"	"atall"	"whether"	"0"	"0"	"1"	"3110"	0	"The drivers have said at all that the girls could talk about the actresses."	7
+"25"	"experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=5404"	"NPI"	"questions"	"either"	"whether"	"0"	"0"	"0"	"5404"	1	"The ladies have said on occasion that the teenager biked to the cafes."	7
+"26"	"experiment=NPI-env=adverbs-npi=either-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=4342"	"NPI"	"adverbs"	"either"	"sometimes"	"0"	"1"	"1"	"4342"	0	"The children who sometimes slumped over either boasted."	8
+"277"	"experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=3215"	"NPI"	"determiner_negation_biclausal"	"in years"	"none of the"	"1"	"1"	"0"	"3215"	1	"None of the girls said that the waitresses had investigated an adult on weekends."	8
+"285"	"experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=2757"	"NPI"	"questions"	"yet"	"whether"	"0"	"1"	"1"	"2757"	0	"The actresses have said that the guys fled from the doctors yet."	8
+"291"	"experiment=NPI-env=sentential_negation_biclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=1-paradigm=5311"	"NPI"	"sentential_negation_biclausal"	"any"	"not"	"1"	"0"	"1"	"5311"	0	"Any ladies have thought that these newspaper articles were not winning."	8
+"301"	"experiment=NPI-env=simplequestions-npi=any-crucial_item=?-licensor=1-scope=1-npi_present=0-paradigm=1801"	"NPI"	"simplequestions"	"any"	"?"	"1"	"1"	"0"	"1801"	1	"Has the senator toured the hospitals?"	8
+"313"	"experiment=NPI-env=superlative-npi=yet-crucial_item=happy-licensor=0-scope=1-npi_present=1-paradigm=3374"	"NPI"	"superlative"	"yet"	"happy"	"0"	"1"	"1"	"3374"	0	"The lady who fled from the happy cashiers yet should talk to girls."	8
+"32"	"experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=925"	"NPI"	"only"	"ever"	"even"	"0"	"0"	"0"	"925"	1	"The customers had also visited even the museums."	9
+"333"	"experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2791"	"NPI"	"only"	"atall"	"even"	"0"	"0"	"1"	"2791"	0	"The adults did laugh at all even at the hospital."	9
+"34"	"experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2997"	"NPI"	"only"	"atall"	"even"	"0"	"1"	"1"	"2997"	0	"Even a customer was arriving at hospitals at all at the hospital."	9
+"352"	"experiment=NPI-env=quantifier-npi=inyears-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=4014"	"NPI"	"quantifier"	"inyears"	"all"	"1"	"0"	"0"	"4014"	1	"All cashiers who cleaned some plates praised some waiters on occasion."	9
+"36"	"experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3377"	"NPI"	"questions"	"atall"	"whether"	"1"	"1"	"0"	"3377"	1	"The waiters have wondered whether the waitresses were leaving banks on weekends."	9
+"372"	"experiment=NPI-env=quantifier-npi=either-crucial_item=any-licensor=1-scope=0-npi_present=0-paradigm=5685"	"NPI"	"quantifier"	"either"	"any"	"1"	"0"	"0"	"5685"	1	"Any teachers who do walk through many malls would bike to many museums on occasion."	10
+"40"	"experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4167"	"NPI"	"conditional"	"inyears"	"if"	"1"	"0"	"1"	"4167"	0	"If the students have explored the movie theaters, the teenager will listen to the dancers in years."	11
+"422"	"experiment=NPI-env=superlative-npi=ever-crucial_item=best-licensor=1-scope=1-npi_present=1-paradigm=970"	"NPI"	"superlative"	"ever"	"best"	"1"	"1"	"1"	"970"	1	"The people can drop by the best museums that the teacher has ever remembered."	11
+"431"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=573"	"NPI"	"adverbs"	"ever"	"sometimes"	"0"	"0"	"1"	"573"	0	"The teachers ever think that the boy could sometimes return to the people."	12
+"442"	"experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=0-paradigm=125"	"NPI"	"conditional"	"ever"	"while"	"0"	"0"	"0"	"125"	1	"While the doctor references the adults, the women will clearly drive to the malls."	12
+"451"	"experiment=NPI-env=sentential_negation_biclausal-npi=at all-crucial_item=not-licensor=1-scope=0-npi_present=0-paradigm=2264"	"NPI"	"sentential_negation_biclausal"	"at all"	"not"	"1"	"0"	"0"	"2264"	1	"The customer had thought on weekends that the girls had not kissed the adults."	12
+"46"	"experiment=NPI-env=sentential_negation_biclausal-npi=in years-crucial_item=really-licensor=0-scope=0-npi_present=0-paradigm=3482"	"NPI"	"sentential_negation_biclausal"	"in years"	"really"	"0"	"0"	"0"	"3482"	1	"The waitresses had explained as well that a newspaper article has really praised a guy."	12
+"471"	"experiment=NPI-env=conditional-npi=inyears-crucial_item=while-licensor=0-scope=1-npi_present=0-paradigm=4407"	"NPI"	"conditional"	"inyears"	"while"	"0"	"1"	"0"	"4407"	1	"While the lady had dropped by the restaurants for a while, the children will dislike the girls."	13
+"48"	"experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1013"	"NPI"	"determiner_negation_biclausal"	"yet"	"some"	"0"	"0"	"1"	"1013"	0	"The actors imagined yet that some actresses compromised."	13
+"493"	"experiment=NPI-env=sentential_negation_biclausal-npi=in years-crucial_item=really-licensor=0-scope=1-npi_present=1-paradigm=3386"	"NPI"	"sentential_negation_biclausal"	"in years"	"really"	"0"	"1"	"1"	"3386"	0	"The guest had really thought that a movie had praised the woman in years."	13
+"502"	"experiment=NPI-env=sentential_negation_biclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=1-paradigm=5740"	"NPI"	"sentential_negation_biclausal"	"any"	"really"	"0"	"0"	"1"	"5740"	0	"Any drivers would imagine that the guests have really helped the guy."	13
+"51"	"experiment=NPI-env=simplequestions-npi=either-crucial_item=?-licensor=1-scope=1-npi_present=0-paradigm=5296"	"NPI"	"simplequestions"	"either"	"?"	"1"	"1"	"0"	"5296"	1	"Were the waitresses wearing the glasses on weekends?"	13
+"521"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=young-licensor=0-scope=0-npi_present=0-paradigm=4239"	"NPI"	"superlative"	"inyears"	"young"	"0"	"0"	"0"	"4239"	1	"The customers who remembered the young actors forget stories on weekends."	13
+"531"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=2372"	"NPI"	"adverbs"	"atall"	"barely"	"1"	"1"	"0"	"2372"	1	"A girl who barely is at museums on weekends sees cups."	14
+"541"	"experiment=NPI-env=superlative-npi=yet-crucial_item=old-licensor=0-scope=1-npi_present=0-paradigm=3303"	"NPI"	"superlative"	"yet"	"old"	"0"	"1"	"0"	"3303"	1	"The patients who sold the old couch on occasion have boycotted college campuses."	14
+"551"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=bad-licensor=0-scope=1-npi_present=1-paradigm=4740"	"NPI"	"superlative"	"inyears"	"bad"	"0"	"1"	"1"	"4740"	0	"The pedestrian who criticized the bad newspaper article in years hated dancers."	14
+"58"	"experiment=NPI-env=simplequestions-npi=any-crucial_item=?-licensor=0-scope=1-npi_present=0-paradigm=1292"	"NPI"	"simplequestions"	"any"	"?"	"0"	"1"	"0"	"1292"	1	"The actresses were discussing the hospitals."	15
+"59"	"experiment=NPI-env=superlative-npi=ever-crucial_item=most serious-licensor=1-scope=0-npi_present=0-paradigm=97"	"NPI"	"superlative"	"ever"	"most serious"	"1"	"0"	"0"	"97"	1	"A waiter had fortunately remembered the most serious girls that the patient had respected."	15
+"614"	"experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=1010"	"NPI"	"adverbs"	"any"	"barely"	"1"	"1"	"0"	"1010"	1	"A cashier who barely does visit the men broke chairs."	16
+"622"	"experiment=NPI-env=quantifier-npi=inyears-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4726"	"NPI"	"quantifier"	"inyears"	"some"	"0"	"0"	"0"	"4726"	1	"Some customer who had been at the schools went to many museums on weekends."	16
+"651"	"experiment=NPI-env=conditional-npi=yet-crucial_item=while-licensor=0-scope=1-npi_present=1-paradigm=2085"	"NPI"	"conditional"	"yet"	"while"	"0"	"1"	"1"	"2085"	0	"While the waiters pass the museums yet, the dancer will drive to the cafes."	17
+"66"	"experiment=NPI-env=quantifier-npi=any-crucial_item=-licensor=0-scope=0-npi_present=1-paradigm=435"	"NPI"	"quantifier"	"any"	""	"0"	"0"	"1"	"435"	0	"Cashiers who had ran around a lot of cafes took any glasses."	17
+"67"	"experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=969"	"NPI"	"questions"	"ever"	"whether"	"0"	"0"	"1"	"969"	0	"The drivers ever say that the doctor had taken the chairs."	17
+"68"	"experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=2906"	"NPI"	"questions"	"yet"	"whether"	"0"	"0"	"0"	"2906"	1	"The doctors have said as well that the women are referencing the patients."	17
+"69"	"experiment=NPI-env=simplequestions-npi=atall-crucial_item=?-licensor=0-scope=1-npi_present=1-paradigm=2599"	"NPI"	"simplequestions"	"atall"	"?"	"0"	"1"	"1"	"2599"	0	"The adults might break the cars at all."	17
+"70"	"experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1508"	"NPI"	"only"	"any"	"only"	"1"	"0"	"1"	"1508"	0	"Any doctors only are at the schools."	18
+"71"	"experiment=NPI-env=quantifier-npi=ever-crucial_item=the-licensor=0-scope=1-npi_present=0-paradigm=1461"	"NPI"	"quantifier"	"ever"	"the"	"0"	"1"	"0"	"1461"	1	"The dancers who have often praised some patients cared for many drivers."	18
+"72"	"experiment=NPI-env=superlative-npi=atall-crucial_item=nicest-licensor=1-scope=0-npi_present=0-paradigm=2407"	"NPI"	"superlative"	"atall"	"nicest"	"1"	"0"	"0"	"2407"	1	"An adult who left the nicest dancer has forgotten cashiers for a while."	18
+"73"	"experiment=NPI-env=conditional-npi=either-crucial_item=while-licensor=0-scope=0-npi_present=1-paradigm=5152"	"NPI"	"conditional"	"either"	"while"	"0"	"0"	"1"	"5152"	0	"While the boys care for the teachers, the boy will talk about the public parks either."	19
+"741"	"experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4610"	"NPI"	"determiner_negation_biclausal"	"either"	"some"	"0"	"1"	"0"	"4610"	1	"Some doctors imagined that the girls did return to the waitress regularly."	19
+"75"	"experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5432"	"NPI"	"conditional"	"either"	"if"	"1"	"1"	"0"	"5432"	1	"If the lady remembers the plays as well, the student will drive to the hospitals."	20
+"761"	"experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=77"	"NPI"	"only"	"ever"	"only"	"1"	"0"	"0"	"77"	1	"A pedestrian also loved only the boys."	20
+"771"	"experiment=NPI-env=quantifier-npi=atall-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3431"	"NPI"	"quantifier"	"atall"	"some"	"0"	"0"	"1"	"3431"	0	"Some boy who escapes from schools has explored high schools at all."	20
+"78"	"experiment=NPI-env=simplequestions-npi=inyears-crucial_item=?-licensor=1-scope=1-npi_present=0-paradigm=3895"	"NPI"	"simplequestions"	"inyears"	"?"	"1"	"1"	"0"	"3895"	1	"Had the teenagers passed the banks on weekends?"	20
+"791"	"experiment=NPI-env=superlative-npi=ever-crucial_item=new-licensor=0-scope=1-npi_present=1-paradigm=958"	"NPI"	"superlative"	"ever"	"new"	"0"	"1"	"1"	"958"	0	"The teenager walks through the new high schools that the adult has ever left."	20
+"80"	"experiment=NPI-env=superlative-npi=yet-crucial_item=worst-licensor=1-scope=0-npi_present=1-paradigm=3435"	"NPI"	"superlative"	"yet"	"worst"	"1"	"0"	"1"	"3435"	0	"The boys who observed the worst driver cleaned cups yet."	20
+"81"	"experiment=NPI-env=superlative-npi=either-crucial_item=longest-licensor=1-scope=0-npi_present=0-paradigm=5913"	"NPI"	"superlative"	"either"	"longest"	"1"	"0"	"0"	"5913"	1	"A student who remembered the longest reports has examined stories for a while."	20
+"821"	"experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1913"	"NPI"	"only"	"any"	"only"	"1"	"0"	"0"	"1913"	1	"These actresses only have sold the glasses."	21
+"83"	"experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4786"	"NPI"	"questions"	"inyears"	"whether"	"1"	"1"	"1"	"4786"	0	"The adults have wondered whether the actor has the cups in years."	21
+"84"	"experiment=NPI-env=sentential_negation_biclausal-npi=in years-crucial_item=not-licensor=1-scope=1-npi_present=0-paradigm=3980"	"NPI"	"sentential_negation_biclausal"	"in years"	"not"	"1"	"1"	"0"	"3980"	1	"The people not imagined that the book had described the actors as well."	21
+"85"	"experiment=NPI-env=simplequestions-npi=ever-crucial_item=?-licensor=0-scope=1-npi_present=0-paradigm=763"	"NPI"	"simplequestions"	"ever"	"?"	"0"	"1"	"0"	"763"	1	"The waiter has also disliked the cafes."	21
+"87"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=2407"	"NPI"	"adverbs"	"atall"	"sometimes"	"0"	"1"	"0"	"2407"	1	"The customers who sometimes hate commentaries for a while can help patients."	22
+"88"	"experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=963"	"NPI"	"conditional"	"ever"	"if"	"1"	"1"	"1"	"963"	1	"If the doctors ever watch the patients, the patient will scan the reports."	22
+"89"	"experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1384"	"NPI"	"conditional"	"any"	"if"	"1"	"1"	"1"	"1384"	1	"If the teenager remembers any libraries, the dancers will know the adults."	22
+"901"	"experiment=NPI-env=sentential_negation_biclausal-npi=at all-crucial_item=not-licensor=1-scope=0-npi_present=1-paradigm=2387"	"NPI"	"sentential_negation_biclausal"	"at all"	"not"	"1"	"0"	"1"	"2387"	0	"The lady has explained at all that the guy has not sung."	22
+"93"	"experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1176"	"NPI"	"questions"	"any"	"whether"	"1"	"1"	"1"	"1176"	1	"The actresses wonder whether the student is passing any grocery stores."	24
+"94"	"experiment=NPI-env=sentential_negation_biclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=1-paradigm=186"	"NPI"	"sentential_negation_biclausal"	"ever"	"really"	"0"	"1"	"1"	"186"	0	"The waitresses have really ever imagined that the boys will profit."	24
+"951"	"experiment=NPI-env=sentential_negation_biclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=0-paradigm=710"	"NPI"	"sentential_negation_biclausal"	"ever"	"really"	"0"	"0"	"0"	"710"	1	"The girls do also think that the teacher can really discuss the guests."	24
+"971"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=3830"	"NPI"	"adverbs"	"inyears"	"always"	"0"	"1"	"1"	"3830"	0	"An actress who always disliked children in years biked to cafes."	25
+"98"	"experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=2493"	"NPI"	"determiner_negation_biclausal"	"at all"	"none of the"	"1"	"1"	"0"	"2493"	1	"None of the guests said that the couches resemble the movie theaters on occasion."	25
+"99"	"experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1788"	"NPI"	"only"	"any"	"even"	"0"	"1"	"0"	"1788"	1	"Even the adults listen to the actresses."	25
+"1001"	"experiment=NPI-env=quantifier-npi=either-crucial_item=a-licensor=0-scope=1-npi_present=1-paradigm=5882"	"NPI"	"quantifier"	"either"	"a"	"0"	"1"	"1"	"5882"	0	"A waitress who was skated around more than three public parks either runs around some high schools."	25
+"101"	"experiment=NPI-env=quantifier-npi=either-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=5984"	"NPI"	"quantifier"	"either"	"every"	"1"	"1"	"1"	"5984"	0	"Every adult who did hate a lot of students either will respect more than three patients."	25
+"1021"	"experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=945"	"NPI"	"determiner_negation_biclausal"	"ever"	"none of the"	"1"	"0"	"1"	"945"	0	"The pedestrians could ever imagine that none of the movies will talk about the malls."	26
+"103"	"experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4153"	"NPI"	"determiner_negation_biclausal"	"either"	"none of the"	"1"	"0"	"0"	"4153"	1	"The children said on weekends that none of the restaurants might resemble the actresses."	26
+"104"	"experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3624"	"NPI"	"only"	"yet"	"even"	"0"	"0"	"1"	"3624"	0	"The teenagers examined reports yet even at the public park."	26
+"106"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=720"	"NPI"	"adverbs"	"ever"	"hardly"	"1"	"1"	"1"	"720"	1	"The ladies hardly ever think that a waiter passed the movie theaters."	27
+"107"	"experiment=NPI-env=conditional-npi=inyears-crucial_item=while-licensor=0-scope=1-npi_present=1-paradigm=4544"	"NPI"	"conditional"	"inyears"	"while"	"0"	"1"	"1"	"4544"	0	"While the senators have talked about the cashiers in years, the guy will examine the stories."	27
+"108"	"experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1840"	"NPI"	"determiner_negation_biclausal"	"yet"	"no"	"1"	"1"	"0"	"1840"	1	"No guest is thinking that the stories have won for a while."	27
+"109"	"experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5081"	"NPI"	"conditional"	"either"	"if"	"1"	"1"	"1"	"5081"	0	"If the guy cleans the gloves either, the women will escape from the high schools."	28
+"110"	"experiment=NPI-env=conditional-npi=either-crucial_item=while-licensor=0-scope=1-npi_present=0-paradigm=5597"	"NPI"	"conditional"	"either"	"while"	"0"	"1"	"0"	"5597"	1	"While the cashiers praise the essays for a while, the person will wear the glasses."	28
+"1113"	"experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4612"	"NPI"	"determiner_negation_biclausal"	"either"	"no"	"1"	"1"	"1"	"4612"	1	"No waiter explains that the doctors had fled from a waitress either."	28
+"112"	"experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3892"	"NPI"	"only"	"yet"	"only"	"1"	"1"	"1"	"3892"	1	"Only the boys have talked yet at the hospital."	28
+"115"	"experiment=NPI-env=sentential_negation_biclausal-npi=either-crucial_item=really-licensor=0-scope=0-npi_present=1-paradigm=4942"	"NPI"	"sentential_negation_biclausal"	"either"	"really"	"0"	"0"	"1"	"4942"	0	"The driver would explain either that the people had really admired the woman."	28
+"116"	"experiment=NPI-env=simplequestions-npi=atall-crucial_item=?-licensor=0-scope=1-npi_present=0-paradigm=2089"	"NPI"	"simplequestions"	"atall"	"?"	"0"	"1"	"0"	"2089"	1	"The adults have helped the guys on weekends."	28
+"1171"	"experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3779"	"NPI"	"determiner_negation_biclausal"	"in years"	"some"	"0"	"1"	"0"	"3779"	1	"Some waiters imagined that the pants had shrunk for a while."	29
+"118"	"experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=418"	"NPI"	"only"	"ever"	"only"	"1"	"1"	"1"	"418"	1	"Only the doctor has ever exited the schools."	29
+"119"	"experiment=NPI-env=quantifier-npi=either-crucial_item=any-licensor=1-scope=0-npi_present=1-paradigm=5471"	"NPI"	"quantifier"	"either"	"any"	"1"	"0"	"1"	"5471"	0	"Any guys who lifted a lot of reports were discussing some malls either."	29
+"120"	"experiment=NPI-env=quantifier-npi=yet-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=2274"	"NPI"	"quantifier"	"yet"	"every"	"1"	"0"	"0"	"2274"	1	"Every actress who flees from more than three students knows more than three women for a while."	30
+"121"	"experiment=NPI-env=simplequestions-npi=ever-crucial_item=?-licensor=1-scope=1-npi_present=1-paradigm=6"	"NPI"	"simplequestions"	"ever"	"?"	"1"	"1"	"1"	"6"	1	"Is the pedestrian ever listening to the children?"	30
+"122"	"experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=76"	"NPI"	"conditional"	"ever"	"if"	"1"	"0"	"1"	"76"	0	"If the patient watches the guests, the actors will ever drop by the public parks."	31
+"125"	"experiment=NPI-env=sentential_negation_biclausal-npi=at all-crucial_item=really-licensor=0-scope=0-npi_present=0-paradigm=2436"	"NPI"	"sentential_negation_biclausal"	"at all"	"really"	"0"	"0"	"0"	"2436"	1	"The waiters should say as well that the eyes might really resemble the newspaper articles."	31
+"126"	"experiment=NPI-env=sentential_negation_biclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=0-paradigm=5953"	"NPI"	"sentential_negation_biclausal"	"any"	"really"	"0"	"1"	"0"	"5953"	1	"The senators are really saying that those restaurants can resemble the drivers."	31
+"127"	"experiment=NPI-env=superlative-npi=atall-crucial_item=youngest-licensor=1-scope=0-npi_present=1-paradigm=2654"	"NPI"	"superlative"	"atall"	"youngest"	"1"	"0"	"1"	"2654"	0	"The doctors who remembered the youngest student were breaking glasses at all."	31
+"128"	"experiment=NPI-env=superlative-npi=atall-crucial_item=happy-licensor=0-scope=0-npi_present=0-paradigm=2722"	"NPI"	"superlative"	"atall"	"happy"	"0"	"0"	"0"	"2722"	1	"The doctor who saw the happy woman will criticize dancers regularly."	31
+"129"	"experiment=NPI-env=superlative-npi=yet-crucial_item=young-licensor=0-scope=0-npi_present=1-paradigm=3498"	"NPI"	"superlative"	"yet"	"young"	"0"	"0"	"1"	"3498"	0	"The boys who kissed the young lady should walk through restaurants yet."	31
+"1301"	"experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5235"	"NPI"	"determiner_negation_biclausal"	"any"	"none of the"	"1"	"1"	"0"	"5235"	1	"None of the gals are explaining that these movie theaters resemble the stories."	32
+"1321"	"experiment=NPI-env=sentential_negation_biclausal-npi=any-crucial_item=really-licensor=0-scope=0-npi_present=0-paradigm=5907"	"NPI"	"sentential_negation_biclausal"	"any"	"really"	"0"	"0"	"0"	"5907"	1	"The waiters did imagine that those commentaries do really insult a guy."	32
+"133"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=2012"	"NPI"	"adverbs"	"atall"	"seldom"	"1"	"0"	"0"	"2012"	1	"The patients who seldom embrace love waiters regularly."	33
+"1341"	"experiment=NPI-env=conditional-npi=any-crucial_item=while-licensor=0-scope=1-npi_present=1-paradigm=1323"	"NPI"	"conditional"	"any"	"while"	"0"	"1"	"1"	"1323"	0	"While the guys approach any drivers, the customer will explore the cafes."	33
+"136"	"experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1"	"NPI"	"determiner_negation_biclausal"	"ever"	"no"	"1"	"1"	"1"	"1"	1	"No customer was ever thinking that the senators had returned to the restaurant."	33
+"137"	"experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2299"	"NPI"	"determiner_negation_biclausal"	"at all"	"no"	"1"	"1"	"1"	"2299"	1	"No dancer was saying that the high schools resemble the grocery store at all."	33
+"138"	"experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2436"	"NPI"	"determiner_negation_biclausal"	"at all"	"some"	"0"	"1"	"0"	"2436"	1	"Some driver imagined that the actors were kissing the senators on weekends."	33
+"1391"	"experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=5022"	"NPI"	"questions"	"either"	"whether"	"0"	"1"	"1"	"5022"	0	"The drivers have said that the students disliked the college campuses either."	33
+"140"	"experiment=NPI-env=sentential_negation_biclausal-npi=either-crucial_item=really-licensor=0-scope=1-npi_present=0-paradigm=4979"	"NPI"	"sentential_negation_biclausal"	"either"	"really"	"0"	"1"	"0"	"4979"	1	"The customers had really imagined that the couches can resemble a child for a while."	33
+"141"	"experiment=NPI-env=simplequestions-npi=yet-crucial_item=?-licensor=0-scope=1-npi_present=0-paradigm=4280"	"NPI"	"simplequestions"	"yet"	"?"	"0"	"1"	"0"	"4280"	1	"The patients had respected the senators for a while."	33
+"144"	"experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1315"	"NPI"	"conditional"	"any"	"if"	"1"	"0"	"0"	"1315"	1	"If the these teacher the exits, the public parks will children skate around restaurants."	35
+"145"	"experiment=NPI-env=conditional-npi=atall-crucial_item=while-licensor=0-scope=0-npi_present=1-paradigm=3602"	"NPI"	"conditional"	"atall"	"while"	"0"	"0"	"1"	"3602"	0	"While the doctors insult the schools, the drivers will remember the dancers at all."	35
+"146"	"experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=480"	"NPI"	"determiner_negation_biclausal"	"ever"	"none of the"	"1"	"1"	"0"	"480"	1	"None of the gals might often think that the gloves would resemble the grocery store."	35
+"147"	"experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=16"	"NPI"	"only"	"ever"	"even"	"0"	"1"	"0"	"16"	1	"Even the girls really help the doctors."	35
+"149"	"experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1424"	"NPI"	"only"	"any"	"only"	"1"	"1"	"0"	"1424"	1	"Only the teachers have lifted those glasses."	35
+"150"	"experiment=NPI-env=quantifier-npi=inyears-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=4584"	"NPI"	"quantifier"	"inyears"	"every"	"1"	"1"	"1"	"4584"	0	"Every guest who lifted the couches in years dropped by more than three public parks."	35
+"151"	"experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=5269"	"NPI"	"questions"	"either"	"whether"	"0"	"0"	"1"	"5269"	0	"The teachers have said either that the waitresses forgot the boys."	35
+"152"	"experiment=NPI-env=sentential_negation_biclausal-npi=either-crucial_item=really-licensor=0-scope=1-npi_present=1-paradigm=4567"	"NPI"	"sentential_negation_biclausal"	"either"	"really"	"0"	"1"	"1"	"4567"	0	"A child did really explain that the actress has talked about the adults either."	35
+"154"	"experiment=NPI-env=superlative-npi=either-crucial_item=serious-licensor=0-scope=1-npi_present=0-paradigm=5577"	"NPI"	"superlative"	"either"	"serious"	"0"	"1"	"0"	"5577"	1	"The teachers who observed the serious ladies on weekends have remembered movies."	35
+"155"	"experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1564"	"NPI"	"conditional"	"any"	"if"	"1"	"0"	"1"	"1564"	0	"If the patient boycotts the high schools, the lady will have any dishes."	36
+"156"	"experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5960"	"NPI"	"conditional"	"either"	"if"	"1"	"0"	"1"	"5960"	0	"If the adult respects the grocery stores, the doctor will know the waiters either."	36
+"158"	"experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2420"	"NPI"	"only"	"atall"	"even"	"0"	"1"	"0"	"2420"	1	"Even the customer will clean shoes on occasion at the movie theater."	36
+"160"	"experiment=NPI-env=conditional-npi=atall-crucial_item=while-licensor=0-scope=0-npi_present=0-paradigm=3843"	"NPI"	"conditional"	"atall"	"while"	"0"	"0"	"0"	"3843"	1	"While the waitress skates around the banks, the student will drive to the grocery stores for a while."	37
+"161"	"experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=2025"	"NPI"	"questions"	"yet"	"whether"	"0"	"0"	"1"	"2025"	0	"The teenagers have said yet that the students will like the plates."	37
+"162"	"experiment=NPI-env=sentential_negation_biclausal-npi=in years-crucial_item=not-licensor=1-scope=1-npi_present=1-paradigm=3119"	"NPI"	"sentential_negation_biclausal"	"in years"	"not"	"1"	"1"	"1"	"3119"	1	"The cashiers had not said that the people have murmured in years."	37
+"164"	"experiment=NPI-env=superlative-npi=ever-crucial_item=nice-licensor=0-scope=1-npi_present=0-paradigm=967"	"NPI"	"superlative"	"ever"	"nice"	"0"	"1"	"0"	"967"	1	"A lady had disliked the nice customers that the girls have fortunately disliked."	37
+"165"	"experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4288"	"NPI"	"determiner_negation_biclausal"	"either"	"no"	"1"	"0"	"1"	"4288"	0	"The doctors have explained either that no waiters had passed the high schools."	38
+"170"	"experiment=NPI-env=adverbs-npi=either-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=4670"	"NPI"	"adverbs"	"either"	"always"	"0"	"0"	"1"	"4670"	0	"The children who always changed concurred either."	39
+"173"	"experiment=NPI-env=quantifier-npi=atall-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=3493"	"NPI"	"quantifier"	"atall"	"every"	"1"	"0"	"0"	"3493"	1	"Every boy who had known more than three waiters can talk to more than three guys on occasion."	39
+"176"	"experiment=NPI-env=conditional-npi=atall-crucial_item=while-licensor=0-scope=1-npi_present=1-paradigm=3360"	"NPI"	"conditional"	"atall"	"while"	"0"	"1"	"1"	"3360"	0	"While the women describe the college campuses at all, the waitresses will admire the waiters."	40
+"177"	"experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=341"	"NPI"	"questions"	"ever"	"whether"	"0"	"0"	"0"	"341"	1	"The patients obviously say that the guests insult the plays."	40
+"178"	"experiment=NPI-env=sentential_negation_biclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=1-paradigm=353"	"NPI"	"sentential_negation_biclausal"	"ever"	"not"	"1"	"0"	"1"	"353"	0	"The guest had ever said that the girls had not scanned the movies."	40
+"180"	"experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4545"	"NPI"	"questions"	"inyears"	"whether"	"1"	"0"	"0"	"4545"	1	"The girls have wondered regularly whether the adult has praised the actresses."	41
+"181"	"experiment=NPI-env=sentential_negation_biclausal-npi=yet-crucial_item=not-licensor=1-scope=0-npi_present=1-paradigm=1718"	"NPI"	"sentential_negation_biclausal"	"yet"	"not"	"1"	"0"	"1"	"1718"	0	"The pedestrians are thinking yet that the doctor has not replied."	41
+"185"	"experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4489"	"NPI"	"only"	"inyears"	"only"	"1"	"1"	"0"	"4489"	1	"Only the gals arrived at movie theaters regularly at the school."	43
+"186"	"experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5144"	"NPI"	"only"	"either"	"only"	"1"	"1"	"1"	"5144"	0	"Only the teacher had waved either at the art gallery."	43
+"188"	"experiment=NPI-env=conditional-npi=inyears-crucial_item=while-licensor=0-scope=0-npi_present=1-paradigm=4420"	"NPI"	"conditional"	"inyears"	"while"	"0"	"0"	"1"	"4420"	0	"While the pedestrian had talked about the movie theaters, the woman will hate the adults in years."	44
+"189"	"experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5337"	"NPI"	"only"	"either"	"even"	"0"	"0"	"0"	"5337"	1	"The customers have cooked for a while even at the restaurant."	44
+"192"	"experiment=NPI-env=quantifier-npi=either-crucial_item=-licensor=0-scope=0-npi_present=1-paradigm=5265"	"NPI"	"quantifier"	"either"	""	"0"	"0"	"1"	"5265"	0	"Guests who will break more than three plates have known more than three waitresses either."	45
+"193"	"experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1069"	"NPI"	"questions"	"any"	"whether"	"0"	"1"	"0"	"1069"	1	"The teenagers say that the dancers were describing these students."	45
+"198"	"experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3538"	"NPI"	"only"	"yet"	"only"	"1"	"0"	"0"	"3538"	1	"A boy is worrying regularly only at the cafe."	46
+"202"	"experiment=NPI-env=conditional-npi=inyears-crucial_item=while-licensor=0-scope=0-npi_present=0-paradigm=4896"	"NPI"	"conditional"	"inyears"	"while"	"0"	"0"	"0"	"4896"	1	"While the teachers have known the girls, the cashier will wear the shoes regularly."	47
+"209"	"experiment=NPI-env=sentential_negation_biclausal-npi=in years-crucial_item=really-licensor=0-scope=0-npi_present=1-paradigm=3525"	"NPI"	"sentential_negation_biclausal"	"in years"	"really"	"0"	"0"	"1"	"3525"	0	"The gals have said in years that a documentary has really won."	48
+"210"	"experiment=NPI-env=simplequestions-npi=atall-crucial_item=?-licensor=1-scope=1-npi_present=1-paradigm=2950"	"NPI"	"simplequestions"	"atall"	"?"	"1"	"1"	"1"	"2950"	1	"Had the waiters cared for the people at all?"	48
+"212"	"experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4096"	"NPI"	"determiner_negation_biclausal"	"either"	"some"	"0"	"1"	"1"	"4096"	0	"Some teachers imagine that the senators can love a boy either."	49
+"213"	"experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5569"	"NPI"	"only"	"either"	"only"	"1"	"0"	"1"	"5569"	0	"The waiter spoke up either only at the college campus."	49
+"214"	"experiment=NPI-env=quantifier-npi=yet-crucial_item=an-licensor=0-scope=1-npi_present=0-paradigm=2878"	"NPI"	"quantifier"	"yet"	"an"	"0"	"1"	"0"	"2878"	1	"An adult who runs around the malls for a while cleans pants."	49
+"218"	"experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=597"	"NPI"	"only"	"ever"	"only"	"1"	"0"	"1"	"597"	0	"A child had ever attacked only the pedestrians."	51
+"219"	"experiment=NPI-env=quantifier-npi=ever-crucial_item=a lot of-licensor=0-scope=0-npi_present=1-paradigm=1986"	"NPI"	"quantifier"	"ever"	"a lot of"	"0"	"0"	"1"	"1986"	0	"A lot of teachers who should insult the drivers can ever take the pants."	51
+"223"	"experiment=NPI-env=conditional-npi=any-crucial_item=while-licensor=0-scope=1-npi_present=0-paradigm=1752"	"NPI"	"conditional"	"any"	"while"	"0"	"1"	"0"	"1752"	1	"While the customer discusses the grocery stores, the men will praise the actors."	52
+"224"	"experiment=NPI-env=conditional-npi=atall-crucial_item=while-licensor=0-scope=1-npi_present=0-paradigm=3730"	"NPI"	"conditional"	"atall"	"while"	"0"	"1"	"0"	"3730"	1	"While the senators kiss the guys on weekends, the guy will flee from the children."	52
+"227"	"experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3515"	"NPI"	"determiner_negation_biclausal"	"in years"	"some"	"0"	"0"	"0"	"3515"	1	"The patient thought for a while that some hair resembled the malls."	52
+"228"	"experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=608"	"NPI"	"only"	"ever"	"even"	"0"	"0"	"1"	"608"	0	"A waitress does ever love even the men."	52
+"229"	"experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4540"	"NPI"	"only"	"inyears"	"only"	"1"	"0"	"1"	"4540"	0	"The dancer had hated women in years only at the hospital."	52
+"230"	"experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=651"	"NPI"	"questions"	"ever"	"whether"	"0"	"1"	"1"	"651"	0	"The guys say that the dancer ever does care for the cashiers."	52
+"231"	"experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=4688"	"NPI"	"questions"	"inyears"	"whether"	"0"	"1"	"1"	"4688"	0	"The doctors have said that the person has talked to ladies in years."	52
+"232"	"experiment=NPI-env=sentential_negation_biclausal-npi=either-crucial_item=really-licensor=0-scope=0-npi_present=0-paradigm=4976"	"NPI"	"sentential_negation_biclausal"	"either"	"really"	"0"	"0"	"0"	"4976"	1	"The women do imagine on weekends that the movies were really disagreeing."	52
+"233"	"experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5539"	"NPI"	"determiner_negation_biclausal"	"any"	"no"	"1"	"0"	"0"	"5539"	1	"The guests are saying that none of the patients are hiding away."	53
+"234"	"experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2899"	"NPI"	"only"	"atall"	"only"	"1"	"0"	"0"	"2899"	1	"The woman museums regularly only at the art gallery."	53
+"236"	"experiment=NPI-env=conditional-npi=any-crucial_item=while-licensor=0-scope=0-npi_present=0-paradigm=1658"	"NPI"	"conditional"	"any"	"while"	"0"	"0"	"0"	"1658"	1	"While the person wears the glasses, the women will flee from those ladies."	54
+"237"	"experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3344"	"NPI"	"conditional"	"atall"	"if"	"1"	"0"	"1"	"3344"	0	"If the waitresses respect the pedestrians, the teacher will pass the college campuses at all."	54
+"238"	"experiment=NPI-env=quantifier-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2132"	"NPI"	"quantifier"	"yet"	"some"	"0"	"1"	"1"	"2132"	0	"Some waiter who sells many gloves yet is escaping from a lot of girls."	54
+"240"	"experiment=NPI-env=sentential_negation_biclausal-npi=in years-crucial_item=really-licensor=0-scope=1-npi_present=0-paradigm=3303"	"NPI"	"sentential_negation_biclausal"	"in years"	"really"	"0"	"1"	"0"	"3303"	1	"The waiters have really imagined that the man has attacked a waiter for a while."	54
+"243"	"experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1843"	"NPI"	"only"	"any"	"even"	"0"	"0"	"0"	"1843"	1	"Those actresses even flee from the college campuses."	55
+"244"	"experiment=NPI-env=quantifier-npi=inyears-crucial_item=many-licensor=0-scope=1-npi_present=0-paradigm=4098"	"NPI"	"quantifier"	"inyears"	"many"	"0"	"1"	"0"	"4098"	1	"Many teenagers who broke the plates on weekends have criticized a lot of students."	55
+"245"	"experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=759"	"NPI"	"quantifier"	"any"	"every"	"1"	"1"	"1"	"759"	1	"Every waitress who disliked any waitresses resembled more than three art galleries."	56
+"246"	"experiment=NPI-env=sentential_negation_biclausal-npi=yet-crucial_item=not-licensor=1-scope=1-npi_present=0-paradigm=1081"	"NPI"	"sentential_negation_biclausal"	"yet"	"not"	"1"	"1"	"0"	"1081"	1	"A waiter had not said that the bank should resemble the eyes as well."	56
+"247"	"experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1498"	"NPI"	"questions"	"any"	"whether"	"1"	"0"	"0"	"1498"	1	"The students wonder whether the teacher is attacking boys."	57
+"248"	"experiment=NPI-env=sentential_negation_biclausal-npi=at all-crucial_item=not-licensor=1-scope=1-npi_present=0-paradigm=2783"	"NPI"	"sentential_negation_biclausal"	"at all"	"not"	"1"	"1"	"0"	"2783"	1	"The actor was not imagining that the senators had cried regularly."	57
+"249"	"experiment=NPI-env=superlative-npi=any-crucial_item=popular-licensor=0-scope=0-npi_present=1-paradigm=1238"	"NPI"	"superlative"	"any"	"popular"	"0"	"0"	"1"	"1238"	0	"Any waitresses should listen to the popular adult that movies had talked about."	57
+"250"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=222"	"NPI"	"adverbs"	"ever"	"sometimes"	"0"	"0"	"0"	"222"	1	"The customer clearly says that a waiter sometimes boasted."	58
+"2511"	"experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1459"	"NPI"	"adverbs"	"any"	"sometimes"	"0"	"0"	"1"	"1459"	0	"The actresses who have sometimes worn glasses do be at any cafes."	58
+"253"	"experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=314"	"NPI"	"quantifier"	"any"	"all"	"1"	"0"	"0"	"314"	1	"All people who do exit the restaurants will bike to these libraries."	58
+"255"	"experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=554"	"NPI"	"questions"	"ever"	"whether"	"1"	"1"	"1"	"554"	1	"The children wonder whether the actresses ever should break the glasses."	58
+"262"	"experiment=NPI-env=superlative-npi=atall-crucial_item=important-licensor=0-scope=1-npi_present=1-paradigm=2229"	"NPI"	"superlative"	"atall"	"important"	"0"	"1"	"1"	"2229"	0	"The boys who forgot the important report at all toured schools."	60
+"263"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=3441"	"NPI"	"adverbs"	"inyears"	"often"	"0"	"1"	"0"	"3441"	1	"An actor who often cleaned glasses on occasion had studied."	61
+"264"	"experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2586"	"NPI"	"only"	"atall"	"only"	"1"	"1"	"0"	"2586"	1	"Only the guest can buy forks as well at the grocery store."	61
+"265"	"experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1822"	"NPI"	"adverbs"	"any"	"often"	"0"	"0"	"0"	"1822"	1	"The adults who have often boycotted schools took these pants."	62
+"269"	"experiment=NPI-env=simplequestions-npi=either-crucial_item=?-licensor=0-scope=1-npi_present=1-paradigm=5836"	"NPI"	"simplequestions"	"either"	"?"	"0"	"1"	"1"	"5836"	0	"The ladies were admiring the men either."	62
+"272"	"experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=3854"	"NPI"	"questions"	"atall"	"whether"	"0"	"1"	"1"	"3854"	0	"The ladies have said that the waiters resemble the men at all."	63
+"273"	"experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3983"	"NPI"	"questions"	"atall"	"whether"	"1"	"0"	"0"	"3983"	1	"The customers have wondered on occasion whether the waiters can listen to ladies."	63
+"274"	"experiment=NPI-env=simplequestions-npi=yet-crucial_item=?-licensor=0-scope=1-npi_present=1-paradigm=4467"	"NPI"	"simplequestions"	"yet"	"?"	"0"	"1"	"1"	"4467"	0	"The women were arriving at the high schools yet."	63
+"275"	"experiment=NPI-env=superlative-npi=either-crucial_item=nicest-licensor=1-scope=0-npi_present=1-paradigm=5855"	"NPI"	"superlative"	"either"	"nicest"	"1"	"0"	"1"	"5855"	0	"The senators who criticized the nicest boy do describe stories either."	63
+"276"	"experiment=NPI-env=conditional-npi=either-crucial_item=while-licensor=0-scope=0-npi_present=0-paradigm=5253"	"NPI"	"conditional"	"either"	"while"	"0"	"0"	"0"	"5253"	1	"While the girl likes the ladies, the customer will escape from the malls on occasion."	65
+"278"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=3289"	"NPI"	"adverbs"	"inyears"	"scarcely"	"1"	"1"	"1"	"3289"	1	"A guy who scarcely described actors in years scanned plays."	66
+"281"	"experiment=NPI-env=superlative-npi=yet-crucial_item=bad-licensor=0-scope=0-npi_present=0-paradigm=3981"	"NPI"	"superlative"	"yet"	"bad"	"0"	"0"	"0"	"3981"	1	"The girls who forgot the bad commentaries had dropped by movie theaters as well."	66
+"282"	"experiment=NPI-env=conditional-npi=either-crucial_item=while-licensor=0-scope=1-npi_present=1-paradigm=5259"	"NPI"	"conditional"	"either"	"while"	"0"	"1"	"1"	"5259"	0	"While the men clean the gloves either, the driver will dislike the doctors."	67
+"283"	"experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1905"	"NPI"	"determiner_negation_biclausal"	"yet"	"no"	"1"	"1"	"1"	"1905"	1	"No actress is imagining that the cars resemble the plate yet."	67
+"284"	"experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=635"	"NPI"	"only"	"ever"	"only"	"1"	"1"	"0"	"635"	1	"Only the actors clearly brought the books."	67
+"287"	"experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5201"	"NPI"	"conditional"	"either"	"if"	"1"	"0"	"0"	"5201"	1	"If the dancers talk about the cafes, the students will love the actresses for a while."	68
+"289"	"experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3101"	"NPI"	"determiner_negation_biclausal"	"in years"	"some"	"0"	"1"	"1"	"3101"	0	"Some patient thought that the movies have won in years."	68
+"290"	"experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4825"	"NPI"	"only"	"inyears"	"only"	"1"	"1"	"1"	"4825"	0	"Only the dancer had blinked in years at the restaurant."	68
+"292"	"experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=915"	"NPI"	"determiner_negation_biclausal"	"ever"	"some"	"0"	"0"	"1"	"915"	0	"The doctor was ever thinking that some pedestrians have fought."	69
+"293"	"experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3765"	"NPI"	"only"	"yet"	"even"	"0"	"1"	"0"	"3765"	1	"Even the cashiers admire newspaper articles as well at the library."	69
+"294"	"experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3782"	"NPI"	"only"	"yet"	"even"	"0"	"1"	"1"	"3782"	0	"Even a guy had described schools yet at the restaurant."	69
+"295"	"experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4372"	"NPI"	"questions"	"inyears"	"whether"	"1"	"1"	"0"	"4372"	1	"The patients have wondered whether the girl was being at the restaurants as well."	69
+"296"	"experiment=NPI-env=quantifier-npi=atall-crucial_item=a lot of-licensor=0-scope=1-npi_present=1-paradigm=3497"	"NPI"	"quantifier"	"atall"	"a lot of"	"0"	"1"	"1"	"3497"	0	"A lot of actors who cleaned more than three reports at all have explored the hospitals."	70
+"299"	"experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3544"	"NPI"	"conditional"	"atall"	"if"	"1"	"1"	"0"	"3544"	1	"If the waitresses escape from the children regularly, the people will arrive at the public parks."	71
+"300"	"experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1883"	"NPI"	"questions"	"any"	"whether"	"0"	"1"	"1"	"1883"	0	"The customers say that the senators discuss any reports."	71
+"303"	"experiment=NPI-env=conditional-npi=yet-crucial_item=while-licensor=0-scope=0-npi_present=1-paradigm=2200"	"NPI"	"conditional"	"yet"	"while"	"0"	"0"	"1"	"2200"	0	"While the senator hugs the students, the actress will investigate the doctors yet."	72
+"304"	"experiment=NPI-env=conditional-npi=yet-crucial_item=while-licensor=0-scope=1-npi_present=0-paradigm=2986"	"NPI"	"conditional"	"yet"	"while"	"0"	"1"	"0"	"2986"	1	"While the cashier explores the restaurants on occasion, the patients will remember the museums."	72
+"306"	"experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1350"	"NPI"	"determiner_negation_biclausal"	"yet"	"some"	"0"	"0"	"0"	"1350"	1	"A girl thinks as well that some essays are winning."	72
+"311"	"experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3009"	"NPI"	"questions"	"atall"	"whether"	"1"	"1"	"1"	"3009"	1	"The dancers have wondered whether the girl should walk through grocery stores at all."	73
+"317"	"experiment=NPI-env=superlative-npi=atall-crucial_item=cheap-licensor=0-scope=0-npi_present=1-paradigm=2902"	"NPI"	"superlative"	"atall"	"cheap"	"0"	"0"	"1"	"2902"	0	"A lady who saw the cheap dishes would attack drivers at all."	74
+"319"	"experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4244"	"NPI"	"conditional"	"inyears"	"if"	"1"	"1"	"1"	"4244"	0	"If the adult had investigated the waitresses in years, the person will explore the banks."	75
+"320"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=most popular-licensor=1-scope=1-npi_present=1-paradigm=4187"	"NPI"	"superlative"	"inyears"	"most popular"	"1"	"1"	"1"	"4187"	1	"The pedestrians who boycotted the most popular cafe in years criticize malls."	75
+"321"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=3054"	"NPI"	"adverbs"	"inyears"	"scarcely"	"1"	"0"	"0"	"3054"	1	"The ladies who have scarcely answered insulted art galleries as well."	76
+"323"	"experiment=NPI-env=sentential_negation_biclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=1-paradigm=5568"	"NPI"	"sentential_negation_biclausal"	"any"	"not"	"1"	"1"	"1"	"5568"	1	"These men are not saying that any cashiers were cooperating."	76
+"327"	"experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1185"	"NPI"	"determiner_negation_biclausal"	"yet"	"some"	"0"	"1"	"0"	"1185"	1	"Some person can think that the glasses resemble a customer for a while."	78
+"329"	"experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1962"	"NPI"	"determiner_negation_biclausal"	"yet"	"none of the"	"1"	"0"	"0"	"1962"	1	"A patient would say for a while that no guys go to the mall."	79
+"331"	"experiment=NPI-env=superlative-npi=any-crucial_item=young-licensor=0-scope=0-npi_present=0-paradigm=1648"	"NPI"	"superlative"	"any"	"young"	"0"	"0"	"0"	"1648"	1	"Those pants resemble the young actress that ladies had forgotten."	79
+"332"	"experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=1-paradigm=271"	"NPI"	"conditional"	"ever"	"while"	"0"	"1"	"1"	"271"	0	"While the person ever describes the actresses, the boys will attack the drivers."	80
+"335"	"experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4795"	"NPI"	"only"	"inyears"	"even"	"0"	"1"	"1"	"4795"	0	"Even a child had seen drivers in years at the grocery store."	80
+"336"	"experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5954"	"NPI"	"questions"	"either"	"whether"	"1"	"0"	"1"	"5954"	0	"The girls have wondered either whether the dancer has approached the senators."	80
+"338"	"experiment=NPI-env=superlative-npi=yet-crucial_item=fastest-licensor=1-scope=1-npi_present=0-paradigm=3419"	"NPI"	"superlative"	"yet"	"fastest"	"1"	"1"	"0"	"3419"	1	"The doctors who forgot the fastest woman on weekends can praise waiters."	80
+"339"	"experiment=NPI-env=quantifier-npi=yet-crucial_item=any-licensor=1-scope=0-npi_present=1-paradigm=2378"	"NPI"	"quantifier"	"yet"	"any"	"1"	"0"	"1"	"2378"	0	"Any dancers who admire a lot of customers admired many drivers yet."	81
+"340"	"experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=4554"	"NPI"	"questions"	"inyears"	"whether"	"0"	"0"	"1"	"4554"	0	"The dancers have said in years that the patients were describing the women."	81
+"341"	"experiment=NPI-env=superlative-npi=either-crucial_item=young-licensor=0-scope=0-npi_present=0-paradigm=5056"	"NPI"	"superlative"	"either"	"young"	"0"	"0"	"0"	"5056"	1	"A pedestrian who remembered the young boy listens to adults on weekends."	81
+"344"	"experiment=NPI-env=quantifier-npi=yet-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=2684"	"NPI"	"quantifier"	"yet"	"all"	"1"	"1"	"0"	"2684"	1	"All adults who have kissed many drivers on weekends have toured the schools."	83
+"346"	"experiment=NPI-env=quantifier-npi=atall-crucial_item=any-licensor=1-scope=0-npi_present=1-paradigm=3423"	"NPI"	"quantifier"	"atall"	"any"	"1"	"0"	"1"	"3423"	0	"Any students who did run around the movie theaters discussed a lot of girls at all."	84
+"350"	"experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4853"	"NPI"	"determiner_negation_biclausal"	"either"	"some"	"0"	"0"	"1"	"4853"	0	"The people think either that some cafes will resemble the pants."	85
+"351"	"experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1685"	"NPI"	"quantifier"	"ever"	"every"	"1"	"0"	"1"	"1685"	0	"Every waitress who has biked to a lot of museums ever bikes to a lot of college campuses."	85
+"353"	"experiment=NPI-env=superlative-npi=any-crucial_item=oldest-licensor=1-scope=1-npi_present=0-paradigm=1986"	"NPI"	"superlative"	"any"	"oldest"	"1"	"1"	"0"	"1986"	1	"The high schools did resemble the oldest cafes that the cashiers had talked about."	85
+"355"	"experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1735"	"NPI"	"adverbs"	"any"	"sometimes"	"0"	"1"	"1"	"1735"	0	"The people who should sometimes boycott any restaurants skate around public parks."	86
+"356"	"experiment=NPI-env=adverbs-npi=either-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=4625"	"NPI"	"adverbs"	"either"	"hardly"	"1"	"1"	"1"	"4625"	1	"The girls who hardly passed cafes either could win."	86
+"360"	"experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4793"	"NPI"	"determiner_negation_biclausal"	"either"	"no"	"1"	"1"	"0"	"4793"	1	"No actress did say that the actors were cooperating for a while."	86
+"362"	"experiment=NPI-env=quantifier-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1542"	"NPI"	"quantifier"	"ever"	"some"	"0"	"0"	"0"	"1542"	1	"Some boy who watches many guys fortunately bought many pants."	86
+"363"	"experiment=NPI-env=superlative-npi=yet-crucial_item=worst-licensor=1-scope=0-npi_present=0-paradigm=3237"	"NPI"	"superlative"	"yet"	"worst"	"1"	"0"	"0"	"3237"	1	"The dancers who investigated the worst patient pass art galleries regularly."	86
+"366"	"experiment=NPI-env=simplequestions-npi=ever-crucial_item=?-licensor=0-scope=1-npi_present=1-paradigm=444"	"NPI"	"simplequestions"	"ever"	"?"	"0"	"1"	"1"	"444"	0	"The dancers were ever running around the public parks."	87
+"370"	"experiment=NPI-env=sentential_negation_biclausal-npi=at all-crucial_item=really-licensor=0-scope=1-npi_present=0-paradigm=2282"	"NPI"	"sentential_negation_biclausal"	"at all"	"really"	"0"	"1"	"0"	"2282"	1	"A child was really saying that a documentary has praised the commentaries for a while."	88
+"373"	"experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1465"	"NPI"	"adverbs"	"any"	"rarely"	"1"	"1"	"1"	"1465"	1	"The senator who rarely hugs any guys passes libraries."	90
+"374"	"experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5464"	"NPI"	"determiner_negation_biclausal"	"any"	"some"	"0"	"0"	"0"	"5464"	1	"These actors have thought that some gloves shrink."	90
+"375"	"experiment=NPI-env=superlative-npi=atall-crucial_item=small-licensor=0-scope=1-npi_present=0-paradigm=2464"	"NPI"	"superlative"	"atall"	"small"	"0"	"1"	"0"	"2464"	1	"The doctors who escaped from the small cashiers on occasion wear gloves."	90
+"380"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=most serious-licensor=1-scope=1-npi_present=0-paradigm=4296"	"NPI"	"superlative"	"inyears"	"most serious"	"1"	"1"	"0"	"4296"	1	"The cashiers who described the most serious child for a while will boycott grocery stores."	91
+"382"	"experiment=NPI-env=quantifier-npi=yet-crucial_item=-licensor=0-scope=0-npi_present=1-paradigm=2567"	"NPI"	"quantifier"	"yet"	""	"0"	"0"	"1"	"2567"	0	"Customers who cared for the boys pass many libraries yet."	92
+"384"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=2057"	"NPI"	"adverbs"	"atall"	"sometimes"	"0"	"0"	"1"	"2057"	0	"The children who can sometimes approach students won at all."	93
+"388"	"experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5552"	"NPI"	"determiner_negation_biclausal"	"any"	"none of the"	"1"	"1"	"1"	"5552"	1	"None of the senators did think that any glasses were shrinking."	94
+"390"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=11"	"NPI"	"adverbs"	"ever"	"hardly"	"1"	"0"	"0"	"11"	1	"The students fortunately said that the guys have hardly murmured."	95
+"391"	"experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1738"	"NPI"	"adverbs"	"any"	"sometimes"	"0"	"1"	"0"	"1738"	1	"The students who sometimes exit these libraries observe actors."	95
+"394"	"experiment=NPI-env=quantifier-npi=either-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=5647"	"NPI"	"quantifier"	"either"	"every"	"1"	"1"	"0"	"5647"	1	"Every lady who does explore some art galleries on weekends visited more than three malls."	95
+"396"	"experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=4129"	"NPI"	"questions"	"inyears"	"whether"	"0"	"0"	"0"	"4129"	1	"The guys have said regularly that the pedestrians could respect the movie theaters."	96
+"397"	"experiment=NPI-env=simplequestions-npi=inyears-crucial_item=?-licensor=0-scope=1-npi_present=0-paradigm=3732"	"NPI"	"simplequestions"	"inyears"	"?"	"0"	"1"	"0"	"3732"	1	"The dancer has criticized the documentaries on occasion."	96
+"398"	"experiment=NPI-env=simplequestions-npi=either-crucial_item=?-licensor=1-scope=1-npi_present=1-paradigm=5358"	"NPI"	"simplequestions"	"either"	"?"	"1"	"1"	"1"	"5358"	0	"Is the lady attacking the actresses either?"	96
+"400"	"experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3113"	"NPI"	"conditional"	"atall"	"if"	"1"	"1"	"1"	"3113"	1	"If the dancers listen to the women at all, the man will buy the dishes."	97
+"406"	"experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=778"	"NPI"	"questions"	"ever"	"whether"	"0"	"1"	"0"	"778"	1	"The people say that the senator fortunately knew the senators."	99
+"407"	"experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2358"	"NPI"	"determiner_negation_biclausal"	"at all"	"some"	"0"	"0"	"1"	"2358"	0	"The doctors had thought at all that some glasses were shrinking."	100
+"408"	"experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3982"	"NPI"	"only"	"yet"	"only"	"1"	"1"	"0"	"3982"	1	"Only the customers attack adults on occasion at the high school."	100
+"409"	"experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5808"	"NPI"	"only"	"either"	"even"	"0"	"1"	"1"	"5808"	0	"Even the men have shouted either at the college campus."	100
+"411"	"experiment=NPI-env=simplequestions-npi=inyears-crucial_item=?-licensor=0-scope=1-npi_present=1-paradigm=3791"	"NPI"	"simplequestions"	"inyears"	"?"	"0"	"1"	"1"	"3791"	0	"The adult had respected the actresses in years."	100
+"413"	"experiment=NPI-env=sentential_negation_biclausal-npi=in years-crucial_item=not-licensor=1-scope=0-npi_present=1-paradigm=3409"	"NPI"	"sentential_negation_biclausal"	"in years"	"not"	"1"	"0"	"1"	"3409"	0	"The driver had said in years that the boys had not driven to the school."	101
+"416"	"experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1301"	"NPI"	"only"	"any"	"even"	"0"	"1"	"1"	"1301"	0	"Even the gals loved any doctors."	102
+"418"	"experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1255"	"NPI"	"quantifier"	"ever"	"all"	"1"	"1"	"1"	"1255"	1	"All waitresses who ever insult some art galleries described a lot of girls."	102
+"421"	"experiment=NPI-env=superlative-npi=either-crucial_item=oldest-licensor=1-scope=1-npi_present=1-paradigm=5011"	"NPI"	"superlative"	"either"	"oldest"	"1"	"1"	"1"	"5011"	0	"The dancers who discussed the oldest schools either escaped from drivers."	103
+"423"	"experiment=NPI-env=superlative-npi=atall-crucial_item=youngest-licensor=1-scope=1-npi_present=1-paradigm=2960"	"NPI"	"superlative"	"atall"	"youngest"	"1"	"1"	"1"	"2960"	0	"The child who talked to the youngest actress at all would pass banks."	104
+"424"	"experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=643"	"NPI"	"determiner_negation_biclausal"	"ever"	"some"	"0"	"1"	"1"	"643"	0	"Some patients can ever explain that the doctors knew the adults."	105
+"426"	"experiment=NPI-env=quantifier-npi=any-crucial_item=many-licensor=0-scope=1-npi_present=0-paradigm=346"	"NPI"	"quantifier"	"any"	"many"	"0"	"1"	"0"	"346"	1	"Many actresses who lift these couches walk through some grocery stores."	105
+"432"	"experiment=NPI-env=superlative-npi=any-crucial_item=newest-licensor=1-scope=0-npi_present=1-paradigm=1876"	"NPI"	"superlative"	"any"	"newest"	"1"	"0"	"1"	"1876"	0	"Any guys have bought the newest chairs that guests have admired."	107
+"447"	"experiment=NPI-env=quantifier-npi=any-crucial_item=any-licensor=1-scope=1-npi_present=0-paradigm=136"	"NPI"	"quantifier"	"any"	"any"	"1"	"1"	"0"	"136"	1	"Any guests who should attack the actresses will flee from some girls."	111
+"456"	"experiment=NPI-env=simplequestions-npi=yet-crucial_item=?-licensor=1-scope=1-npi_present=0-paradigm=4192"	"NPI"	"simplequestions"	"yet"	"?"	"1"	"1"	"0"	"4192"	1	"Would the adults bring the glasses on occasion?"	114
+"458"	"experiment=NPI-env=adverbs-npi=either-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=4751"	"NPI"	"adverbs"	"either"	"always"	"0"	"1"	"0"	"4751"	1	"A senator who always talks to girls as well had washed."	115
+"466"	"experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=61"	"NPI"	"conditional"	"ever"	"if"	"1"	"1"	"0"	"61"	1	"If the ladies obviously admire the patients, the student will walk through the public parks."	117
+"469"	"experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4150"	"NPI"	"only"	"inyears"	"only"	"1"	"0"	"0"	"4150"	1	"The children had disliked documentaries on weekends only at the movie theater."	117
+"470"	"experiment=NPI-env=sentential_negation_biclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=0-paradigm=334"	"NPI"	"sentential_negation_biclausal"	"ever"	"not"	"1"	"1"	"0"	"334"	1	"The men will not clearly say that a person can wash."	117
+"473"	"experiment=NPI-env=quantifier-npi=any-crucial_item=a-licensor=0-scope=1-npi_present=1-paradigm=565"	"NPI"	"quantifier"	"any"	"a"	"0"	"1"	"1"	"565"	0	"A pedestrian who forgot any people returns to public parks."	118
+"476"	"experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4800"	"NPI"	"only"	"inyears"	"even"	"0"	"0"	"1"	"4800"	0	"A woman had laughed in years even at the bank."	119
+"477"	"experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2543"	"NPI"	"questions"	"yet"	"whether"	"1"	"1"	"1"	"2543"	1	"The girls have wondered whether the patients have referenced waiters yet."	119
+"478"	"experiment=NPI-env=sentential_negation_biclausal-npi=either-crucial_item=not-licensor=1-scope=0-npi_present=1-paradigm=4165"	"NPI"	"sentential_negation_biclausal"	"either"	"not"	"1"	"0"	"1"	"4165"	0	"The ladies are imagining either that the customer had not exercised."	119
+"480"	"experiment=NPI-env=superlative-npi=either-crucial_item=small-licensor=0-scope=0-npi_present=1-paradigm=5799"	"NPI"	"superlative"	"either"	"small"	"0"	"0"	"1"	"5799"	0	"A guest who saw the small teachers has explored schools either."	119
+"488"	"experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=152"	"NPI"	"determiner_negation_biclausal"	"ever"	"none of the"	"1"	"0"	"0"	"152"	1	"The dancer had certainly imagined that no children did yell."	122
+"491"	"experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2747"	"NPI"	"determiner_negation_biclausal"	"at all"	"none of the"	"1"	"0"	"0"	"2747"	1	"A pedestrian was saying as well that no glasses could resemble the doctor."	123
+"492"	"experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=3915"	"NPI"	"determiner_negation_biclausal"	"in years"	"no"	"1"	"0"	"0"	"3915"	1	"The men had imagined as well that no plays had criticized the restaurant."	123
+"494"	"experiment=NPI-env=sentential_negation_biclausal-npi=yet-crucial_item=really-licensor=0-scope=1-npi_present=0-paradigm=1428"	"NPI"	"sentential_negation_biclausal"	"yet"	"really"	"0"	"1"	"0"	"1428"	1	"A driver had really explained that the malls did resemble the fork on weekends."	123
+"495"	"experiment=NPI-env=superlative-npi=any-crucial_item=nicest-licensor=1-scope=0-npi_present=0-paradigm=1795"	"NPI"	"superlative"	"any"	"nicest"	"1"	"0"	"0"	"1795"	1	"These art galleries will resemble the nicest students that women had attacked."	123
+"497"	"experiment=NPI-env=adverbs-npi=either-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=4802"	"NPI"	"adverbs"	"either"	"scarcely"	"1"	"0"	"0"	"4802"	1	"The customers who scarcely hunt bake for a while."	124
+"499"	"experiment=NPI-env=simplequestions-npi=atall-crucial_item=?-licensor=1-scope=1-npi_present=0-paradigm=2283"	"NPI"	"simplequestions"	"atall"	"?"	"1"	"1"	"0"	"2283"	1	"Are the waiters escaping from the children as well?"	124
+"501"	"experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1496"	"NPI"	"determiner_negation_biclausal"	"yet"	"no"	"1"	"0"	"1"	"1496"	0	"A patient was thinking yet that no glasses resemble the public park."	125
+"509"	"experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4251"	"NPI"	"determiner_negation_biclausal"	"either"	"some"	"0"	"0"	"0"	"4251"	1	"A doctor thought on weekends that some books resemble an actress."	128
+"510"	"experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5634"	"NPI"	"determiner_negation_biclausal"	"any"	"some"	"0"	"1"	"1"	"5634"	0	"Some children think that any documentaries had referenced the children."	128
+"512"	"experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5080"	"NPI"	"determiner_negation_biclausal"	"any"	"some"	"0"	"1"	"0"	"5080"	1	"Some cashiers had explained that those customers can talk."	129
+"515"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=312"	"NPI"	"adverbs"	"ever"	"barely"	"1"	"1"	"0"	"312"	1	"The teenager barely fortunately thinks that the teenagers examined a documentary."	130
+"517"	"experiment=NPI-env=superlative-npi=ever-crucial_item=best-licensor=1-scope=0-npi_present=1-paradigm=746"	"NPI"	"superlative"	"ever"	"best"	"1"	"0"	"1"	"746"	0	"A student ever knew the best teacher that the waitress has worked with."	130
+"519"	"experiment=NPI-env=quantifier-npi=yet-crucial_item=the-licensor=0-scope=0-npi_present=0-paradigm=2644"	"NPI"	"quantifier"	"yet"	"the"	"0"	"0"	"0"	"2644"	1	"The girls who walked through a lot of cafes had attacked more than three cashiers regularly."	131
+"523"	"experiment=NPI-env=sentential_negation_biclausal-npi=at all-crucial_item=really-licensor=0-scope=1-npi_present=1-paradigm=2949"	"NPI"	"sentential_negation_biclausal"	"at all"	"really"	"0"	"1"	"1"	"2949"	0	"The men are really imagining that a newspaper article could disagree at all."	131
+"525"	"experiment=NPI-env=simplequestions-npi=either-crucial_item=?-licensor=0-scope=1-npi_present=0-paradigm=5872"	"NPI"	"simplequestions"	"either"	"?"	"0"	"1"	"0"	"5872"	1	"The actress has driven to the restaurants on weekends."	132
+"528"	"experiment=NPI-env=quantifier-npi=atall-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3883"	"NPI"	"quantifier"	"atall"	"some"	"0"	"0"	"0"	"3883"	1	"Some waitress who had described more than three teachers had worn the shoes on occasion."	133
+"533"	"experiment=NPI-env=quantifier-npi=atall-crucial_item=the-licensor=0-scope=1-npi_present=0-paradigm=3532"	"NPI"	"quantifier"	"atall"	"the"	"0"	"1"	"0"	"3532"	1	"The person who explored some banks as well does talk about many commentaries."	134
+"535"	"experiment=NPI-env=superlative-npi=any-crucial_item=cheap-licensor=0-scope=1-npi_present=0-paradigm=1858"	"NPI"	"superlative"	"any"	"cheap"	"0"	"1"	"0"	"1858"	1	"The movie theaters resemble the cheap library that the ladies have arrived at."	134
+"549"	"experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5278"	"NPI"	"questions"	"either"	"whether"	"1"	"1"	"0"	"5278"	1	"The waitresses have wondered whether the adults had biked to the restaurants as well."	137
+"550"	"experiment=NPI-env=superlative-npi=either-crucial_item=longest-licensor=1-scope=1-npi_present=0-paradigm=5392"	"NPI"	"superlative"	"either"	"longest"	"1"	"1"	"0"	"5392"	1	"The driver who resembled the longest commentary for a while does bring books."	137
+"553"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=3590"	"NPI"	"adverbs"	"inyears"	"rarely"	"1"	"1"	"0"	"3590"	1	"The girls who rarely chatted regularly have interacted."	138
+"554"	"experiment=NPI-env=quantifier-npi=yet-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=2612"	"NPI"	"quantifier"	"yet"	"every"	"1"	"1"	"1"	"2612"	0	"Every guy who has seen more than three cashiers yet had left many women."	138
+"555"	"experiment=NPI-env=sentential_negation_biclausal-npi=either-crucial_item=not-licensor=1-scope=0-npi_present=0-paradigm=4047"	"NPI"	"sentential_negation_biclausal"	"either"	"not"	"1"	"0"	"0"	"4047"	1	"The pedestrians had imagined regularly that the newspaper article is not disagreeing."	138
+"558"	"experiment=NPI-env=quantifier-npi=inyears-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=4180"	"NPI"	"quantifier"	"inyears"	"all"	"1"	"1"	"0"	"4180"	1	"All actors who have fled from cafes regularly have hated many waiters."	139
+"559"	"experiment=NPI-env=quantifier-npi=either-crucial_item=the-licensor=0-scope=0-npi_present=0-paradigm=5442"	"NPI"	"quantifier"	"either"	"the"	"0"	"0"	"0"	"5442"	1	"The guests who help some students wear more than three glasses on occasion."	139
+"560"	"experiment=NPI-env=superlative-npi=ever-crucial_item=important-licensor=0-scope=0-npi_present=0-paradigm=309"	"NPI"	"superlative"	"ever"	"important"	"0"	"0"	"0"	"309"	1	"The women had also investigated the important students that the man has helped."	139
+"564"	"experiment=NPI-env=superlative-npi=any-crucial_item=new-licensor=0-scope=1-npi_present=1-paradigm=1046"	"NPI"	"superlative"	"any"	"new"	"0"	"1"	"1"	"1046"	0	"The guests were bringing the new glasses that any waiters have brought."	141
+"568"	"experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2306"	"NPI"	"conditional"	"yet"	"if"	"1"	"1"	"0"	"2306"	1	"If the person talks about the drivers for a while, the students will tour the restaurants."	142
+"569"	"experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1662"	"NPI"	"quantifier"	"ever"	"every"	"1"	"1"	"0"	"1662"	1	"Every doctor who clearly toured many restaurants respects many senators."	142
+"570"	"experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2326"	"NPI"	"questions"	"yet"	"whether"	"1"	"1"	"0"	"2326"	1	"The actresses have wondered whether the teachers could go to malls regularly."	142
+"572"	"experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2286"	"NPI"	"determiner_negation_biclausal"	"at all"	"none of the"	"1"	"0"	"1"	"2286"	0	"The actresses imagined at all that no college campuses resemble the cup."	143
+"574"	"experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1559"	"NPI"	"questions"	"any"	"whether"	"1"	"0"	"1"	"1559"	0	"Any customers wonder whether the waitress is arriving at movie theaters."	143
+"575"	"experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5635"	"NPI"	"questions"	"either"	"whether"	"1"	"1"	"1"	"5635"	0	"The ladies have wondered whether the actress discusses the teachers either."	143
+"576"	"experiment=NPI-env=sentential_negation_biclausal-npi=ever-crucial_item=really-licensor=0-scope=0-npi_present=1-paradigm=141"	"NPI"	"sentential_negation_biclausal"	"ever"	"really"	"0"	"0"	"1"	"141"	0	"The actors are ever explaining that the play could really insult the schools."	143
+"579"	"experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=0-npi_present=1-paradigm=499"	"NPI"	"conditional"	"ever"	"while"	"0"	"0"	"1"	"499"	0	"While the children discuss the books, the customer will ever bike to the high schools."	144
+"580"	"experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4739"	"NPI"	"conditional"	"inyears"	"if"	"1"	"0"	"0"	"4739"	1	"If the dancers have listened to the guys, the drivers will approach the actors on occasion."	144
+"587"	"experiment=NPI-env=superlative-npi=either-crucial_item=fast-licensor=0-scope=1-npi_present=1-paradigm=5942"	"NPI"	"superlative"	"either"	"fast"	"0"	"1"	"1"	"5942"	0	"The children who discussed the fast student either had biked to museums."	144
+"592"	"experiment=NPI-env=superlative-npi=ever-crucial_item=old-licensor=0-scope=0-npi_present=1-paradigm=620"	"NPI"	"superlative"	"ever"	"old"	"0"	"0"	"1"	"620"	0	"The person could ever boycott the old restaurants that the actresses have left."	146
+"596"	"experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1004"	"NPI"	"questions"	"any"	"whether"	"1"	"1"	"0"	"1004"	1	"The waiters wonder whether the actor is running around those restaurants."	147
+"600"	"experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5872"	"NPI"	"only"	"either"	"even"	"0"	"1"	"0"	"5872"	1	"Even the teenager murmured on occasion at the cafe."	148
+"603"	"experiment=NPI-env=quantifier-npi=inyears-crucial_item=the-licensor=0-scope=1-npi_present=1-paradigm=4536"	"NPI"	"quantifier"	"inyears"	"the"	"0"	"1"	"1"	"4536"	0	"The dancer who has passed banks in years had worked with many guys."	149
+"611"	"experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2249"	"NPI"	"only"	"atall"	"even"	"0"	"0"	"0"	"2249"	1	"The actor gals regularly even at the art gallery."	151
+"619"	"experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=611"	"NPI"	"questions"	"ever"	"whether"	"1"	"1"	"0"	"611"	1	"The customers wonder whether the guys also had broken the plates."	153
+"621"	"experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3743"	"NPI"	"conditional"	"atall"	"if"	"1"	"0"	"0"	"3743"	1	"If the person scans the documentaries, the student will be at the movie theaters on occasion."	154
+"624"	"experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2961"	"NPI"	"conditional"	"yet"	"if"	"1"	"1"	"1"	"2961"	0	"If the cashier works with the people yet, the boy will criticize the college campuses."	155
+"626"	"experiment=NPI-env=sentential_negation_biclausal-npi=yet-crucial_item=really-licensor=0-scope=0-npi_present=0-paradigm=1274"	"NPI"	"sentential_negation_biclausal"	"yet"	"really"	"0"	"0"	"0"	"1274"	1	"The guys had thought on weekends that a book might really resemble the children."	155
+"631"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=youngest-licensor=1-scope=0-npi_present=0-paradigm=4080"	"NPI"	"superlative"	"inyears"	"youngest"	"1"	"0"	"0"	"4080"	1	"The girls who insulted the youngest woman escape from grocery stores regularly."	156
+"633"	"experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=5312"	"NPI"	"questions"	"either"	"whether"	"0"	"1"	"0"	"5312"	1	"The men have said that the student has escaped from the banks on weekends."	157
+"635"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=2468"	"NPI"	"adverbs"	"atall"	"scarcely"	"1"	"0"	"1"	"2468"	0	"The children who have scarcely muttered lied at all."	158
+"638"	"experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=2702"	"NPI"	"questions"	"yet"	"whether"	"0"	"1"	"0"	"2702"	1	"The children have said that the guests were helping the dancers as well."	158
+"640"	"experiment=NPI-env=sentential_negation_biclausal-npi=at all-crucial_item=really-licensor=0-scope=0-npi_present=1-paradigm=2794"	"NPI"	"sentential_negation_biclausal"	"at all"	"really"	"0"	"0"	"1"	"2794"	0	"A student would imagine at all that the commentaries have really praised the patient."	158
+"645"	"experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5353"	"NPI"	"determiner_negation_biclausal"	"any"	"none of the"	"1"	"0"	"1"	"5353"	0	"Any women explain that no essays do disagree."	160
+"648"	"experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3929"	"NPI"	"questions"	"atall"	"whether"	"1"	"0"	"1"	"3929"	0	"The patients have wondered at all whether the guest has brought shoes."	160
+"658"	"experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4217"	"NPI"	"conditional"	"inyears"	"if"	"1"	"1"	"0"	"4217"	1	"If the adults have investigated the waitresses on occasion, the customers will leave the movie theaters."	162
+"667"	"experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3047"	"NPI"	"determiner_negation_biclausal"	"in years"	"no"	"1"	"1"	"1"	"3047"	1	"No guy explained that the drivers had praised the doctors in years."	163
+"668"	"experiment=NPI-env=quantifier-npi=inyears-crucial_item=any-licensor=1-scope=0-npi_present=1-paradigm=4112"	"NPI"	"quantifier"	"inyears"	"any"	"1"	"0"	"1"	"4112"	0	"Any actors who described more than three banks have escaped from more than three libraries in years."	163
+"669"	"experiment=NPI-env=sentential_negation_biclausal-npi=yet-crucial_item=not-licensor=1-scope=1-npi_present=1-paradigm=1176"	"NPI"	"sentential_negation_biclausal"	"yet"	"not"	"1"	"1"	"1"	"1176"	1	"The waiters have not imagined that the girl had driven to the cafes yet."	163
+"672"	"experiment=NPI-env=superlative-npi=atall-crucial_item=cheapest-licensor=1-scope=1-npi_present=0-paradigm=2086"	"NPI"	"superlative"	"atall"	"cheapest"	"1"	"1"	"0"	"2086"	1	"A patient who discussed the cheapest school as well was attacking doctors."	164
+"678"	"experiment=NPI-env=superlative-npi=any-crucial_item=cheapest-licensor=1-scope=1-npi_present=1-paradigm=1853"	"NPI"	"superlative"	"any"	"cheapest"	"1"	"1"	"1"	"1853"	1	"The museums might resemble the cheapest museum that any teachers had skated around."	167
+"685"	"experiment=NPI-env=quantifier-npi=any-crucial_item=the-licensor=0-scope=0-npi_present=0-paradigm=15"	"NPI"	"quantifier"	"any"	"the"	"0"	"0"	"0"	"15"	1	"The waiters who praised books toured these schools."	169
+"686"	"experiment=NPI-env=sentential_negation_biclausal-npi=at all-crucial_item=not-licensor=1-scope=1-npi_present=1-paradigm=2830"	"NPI"	"sentential_negation_biclausal"	"at all"	"not"	"1"	"1"	"1"	"2830"	1	"A senator had not said that the doctors do remember the teachers at all."	169
+"690"	"experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1161"	"NPI"	"questions"	"any"	"whether"	"0"	"0"	"1"	"1161"	0	"Any customers say that the actresses forgot the plays."	170
+"691"	"experiment=NPI-env=adverbs-npi=either-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=4456"	"NPI"	"adverbs"	"either"	"sometimes"	"0"	"0"	"0"	"4456"	1	"The waitresses who sometimes grinned might play for a while."	171
+"693"	"experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1206"	"NPI"	"only"	"any"	"only"	"1"	"1"	"1"	"1206"	1	"Only the boys will hate any stories."	171
+"721"	"experiment=NPI-env=sentential_negation_biclausal-npi=either-crucial_item=not-licensor=1-scope=1-npi_present=0-paradigm=4589"	"NPI"	"sentential_negation_biclausal"	"either"	"not"	"1"	"1"	"0"	"4589"	1	"The waitresses were not saying that a hat did resemble the waiters for a while."	180
+"722"	"experiment=NPI-env=simplequestions-npi=any-crucial_item=?-licensor=0-scope=1-npi_present=1-paradigm=1233"	"NPI"	"simplequestions"	"any"	"?"	"0"	"1"	"1"	"1233"	0	"The customer was selling any rugs."	180
+"729"	"experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4326"	"NPI"	"only"	"inyears"	"even"	"0"	"1"	"0"	"4326"	1	"Even the driver laughed as well at the bank."	182
+"752"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=313"	"NPI"	"adverbs"	"ever"	"often"	"0"	"1"	"0"	"313"	1	"The man often obviously thought that the teenager investigates the museum."	189
+"757"	"experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=3937"	"NPI"	"questions"	"atall"	"whether"	"0"	"0"	"0"	"3937"	1	"The men have said as well that the waiters will respect the waitresses."	191
+"762"	"experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5202"	"NPI"	"only"	"either"	"only"	"1"	"0"	"0"	"5202"	1	"The cashier was suffering for a while only at the library."	192
+"764"	"experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2187"	"NPI"	"only"	"atall"	"only"	"1"	"0"	"1"	"2187"	0	"A person is spinning around at all only at the restaurant."	193
+"774"	"experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1879"	"NPI"	"adverbs"	"any"	"seldom"	"1"	"0"	"1"	"1879"	0	"A child who has seldom left drivers has watched any waitresses."	198
+"777"	"experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=834"	"NPI"	"only"	"ever"	"even"	"0"	"1"	"1"	"834"	0	"Even a teenager has ever scanned the documentaries."	198
+"778"	"experiment=NPI-env=sentential_negation_biclausal-npi=ever-crucial_item=not-licensor=1-scope=1-npi_present=1-paradigm=898"	"NPI"	"sentential_negation_biclausal"	"ever"	"not"	"1"	"1"	"1"	"898"	1	"The ladies are not ever imagining that the teacher is slumping over."	198
+"785"	"experiment=NPI-env=simplequestions-npi=inyears-crucial_item=?-licensor=1-scope=1-npi_present=1-paradigm=3571"	"NPI"	"simplequestions"	"inyears"	"?"	"1"	"1"	"1"	"3571"	0	"Had the woman boycotted the movie theaters in years?"	199
+"803"	"experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1594"	"NPI"	"questions"	"any"	"whether"	"0"	"0"	"0"	"1594"	1	"Those boys say that the cashiers will lift the forks."	203
+"807"	"experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4780"	"NPI"	"questions"	"inyears"	"whether"	"1"	"0"	"1"	"4780"	0	"The waiters have wondered in years whether the waitress is biking to the schools."	204
+"808"	"experiment=NPI-env=sentential_negation_biclausal-npi=in years-crucial_item=not-licensor=1-scope=0-npi_present=0-paradigm=3842"	"NPI"	"sentential_negation_biclausal"	"in years"	"not"	"1"	"0"	"0"	"3842"	1	"The men had imagined on weekends that the waiter had not explained everything."	204
+"828"	"experiment=NPI-env=quantifier-npi=atall-crucial_item=any-licensor=1-scope=1-npi_present=1-paradigm=3063"	"NPI"	"quantifier"	"atall"	"any"	"1"	"1"	"1"	"3063"	1	"Any students who attack a lot of customers at all could boycott some high schools."	207
+"829"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=young-licensor=0-scope=0-npi_present=1-paradigm=4833"	"NPI"	"superlative"	"inyears"	"young"	"0"	"0"	"1"	"4833"	0	"The pedestrian who remembered the young senators cleans forks in years."	207
+"845"	"experiment=NPI-env=superlative-npi=yet-crucial_item=worst-licensor=1-scope=1-npi_present=1-paradigm=3237"	"NPI"	"superlative"	"yet"	"worst"	"1"	"1"	"1"	"3237"	1	"The dancers who investigated the worst patient yet pass art galleries."	211
+"846"	"experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3033"	"NPI"	"only"	"yet"	"even"	"0"	"0"	"0"	"3033"	1	"The children had taken cars regularly even at the mall."	212
+"855"	"experiment=NPI-env=simplequestions-npi=any-crucial_item=?-licensor=1-scope=1-npi_present=1-paradigm=1359"	"NPI"	"simplequestions"	"any"	"?"	"1"	"1"	"1"	"1359"	1	"Is the pedestrian dropping by any hospitals?"	214
+"868"	"experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=56"	"NPI"	"determiner_negation_biclausal"	"ever"	"some"	"0"	"0"	"0"	"56"	1	"A dancer is certainly imagining that some art galleries resemble a documentary."	217
+"891"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=2131"	"NPI"	"adverbs"	"atall"	"sometimes"	"0"	"0"	"0"	"2131"	1	"The women who sometimes took pants had cried on weekends."	222
+"921"	"experiment=NPI-env=conditional-npi=ever-crucial_item=while-licensor=0-scope=1-npi_present=0-paradigm=276"	"NPI"	"conditional"	"ever"	"while"	"0"	"1"	"0"	"276"	1	"While the doctor clearly drives to the grocery stores, the women will describe the ladies."	228
+"932"	"experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2683"	"NPI"	"questions"	"yet"	"whether"	"1"	"0"	"0"	"2683"	1	"The teenagers have wondered on weekends whether the students are working with ladies."	234
+"968"	"experiment=NPI-env=superlative-npi=inyears-crucial_item=good-licensor=0-scope=1-npi_present=0-paradigm=4542"	"NPI"	"superlative"	"inyears"	"good"	"0"	"1"	"0"	"4542"	1	"A dancer who liked the good pedestrian on occasion hates documentaries."	245
+"978"	"experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1040"	"NPI"	"determiner_negation_biclausal"	"yet"	"some"	"0"	"1"	"1"	"1040"	0	"Some pedestrians will explain that the glasses do resemble the high school yet."	249
+"981"	"experiment=NPI-env=adverbs-npi=either-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=4835"	"NPI"	"adverbs"	"either"	"rarely"	"1"	"1"	"0"	"4835"	1	"The customers who have rarely boycotted cafes regularly do answer."	250
+"990"	"experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=4310"	"NPI"	"questions"	"inyears"	"whether"	"0"	"1"	"0"	"4310"	1	"The actors have said that the teenager had helped the drivers on occasion."	251
+"996"	"experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5675"	"NPI"	"only"	"either"	"even"	"0"	"0"	"1"	"5675"	0	"The senator can see either even at the art gallery."	253
+"1008"	"experiment=NPI-env=sentential_negation_biclausal-npi=yet-crucial_item=really-licensor=0-scope=1-npi_present=1-paradigm=1395"	"NPI"	"sentential_negation_biclausal"	"yet"	"really"	"0"	"1"	"1"	"1395"	0	"The students would really say that the dishes will resemble the couches yet."	255
+"1022"	"experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2941"	"NPI"	"only"	"atall"	"only"	"1"	"1"	"1"	"2941"	1	"Only the women approve at all at the college campus."	259
+"1032"	"experiment=NPI-env=sentential_negation_biclausal-npi=any-crucial_item=not-licensor=1-scope=0-npi_present=0-paradigm=5592"	"NPI"	"sentential_negation_biclausal"	"any"	"not"	"1"	"0"	"0"	"5592"	1	"These teachers have thought that those chairs can not resemble the students."	260
+"1057"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=457"	"NPI"	"adverbs"	"ever"	"sometimes"	"0"	"1"	"1"	"457"	0	"The pedestrians sometimes ever said that the patients chatted."	266
+"1068"	"experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1459"	"NPI"	"conditional"	"any"	"if"	"1"	"1"	"0"	"1459"	1	"If the doctors escape from these pedestrians, the senator will respect the grocery stores."	270
+"1087"	"experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=950"	"NPI"	"questions"	"ever"	"whether"	"1"	"0"	"0"	"950"	1	"The waiters obviously wonder whether the girls praise the actors."	274
+"1089"	"experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1188"	"NPI"	"adverbs"	"any"	"rarely"	"1"	"0"	"0"	"1188"	1	"A waiter who should rarely clean chairs had described these girls."	275
+"1100"	"experiment=NPI-env=superlative-npi=ever-crucial_item=oldest-licensor=1-scope=1-npi_present=0-paradigm=432"	"NPI"	"superlative"	"ever"	"oldest"	"1"	"1"	"0"	"432"	1	"The doctors should sell the oldest glass that the waiters have fortunately admired."	278
+"1104"	"experiment=NPI-env=sentential_negation_biclausal-npi=ever-crucial_item=really-licensor=0-scope=1-npi_present=0-paradigm=714"	"NPI"	"sentential_negation_biclausal"	"ever"	"really"	"0"	"1"	"0"	"714"	1	"The waiter has really also imagined that the cars do resemble a book."	280
+"1117"	"experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1586"	"NPI"	"only"	"any"	"even"	"0"	"0"	"1"	"1586"	0	"Any guys even had worn the glasses."	283
+"1173"	"experiment=NPI-env=sentential_negation_biclausal-npi=either-crucial_item=not-licensor=1-scope=1-npi_present=1-paradigm=4261"	"NPI"	"sentential_negation_biclausal"	"either"	"not"	"1"	"1"	"1"	"4261"	1	"The girls had not explained that an essay was winning either."	296
+"1174"	"experiment=NPI-env=sentential_negation_biclausal-npi=any-crucial_item=not-licensor=1-scope=1-npi_present=0-paradigm=5806"	"NPI"	"sentential_negation_biclausal"	"any"	"not"	"1"	"1"	"0"	"5806"	1	"Those cashiers are not saying that the grocery stores might resemble the hair."	296
+"1196"	"experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1238"	"NPI"	"quantifier"	"ever"	"every"	"1"	"0"	"0"	"1238"	1	"Every doctor who has boycotted some public parks often left many women."	301
+"1201"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=3192"	"NPI"	"adverbs"	"inyears"	"sometimes"	"0"	"0"	"0"	"3192"	1	"The girls who sometimes slumped over attacked women regularly."	303
+"1252"	"experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3768"	"NPI"	"determiner_negation_biclausal"	"in years"	"none of the"	"1"	"0"	"1"	"3768"	0	"A woman explained in years that no teenagers have won."	316
+"1283"	"experiment=NPI-env=sentential_negation_biclausal-npi=any-crucial_item=really-licensor=0-scope=1-npi_present=1-paradigm=5707"	"NPI"	"sentential_negation_biclausal"	"any"	"really"	"0"	"1"	"1"	"5707"	0	"These teenagers did really say that any cups might resemble a hat."	322
+"1368"	"experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2774"	"NPI"	"conditional"	"yet"	"if"	"1"	"0"	"0"	"2774"	1	"If the dancers bike to the banks, the person will scan the books regularly."	345
+"1425"	"experiment=NPI-env=adverbs-npi=atall-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=2767"	"NPI"	"adverbs"	"atall"	"scarcely"	"1"	"1"	"1"	"2767"	1	"The boys who had scarcely interacted at all can struggle."	357
+"1462"	"experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2590"	"NPI"	"determiner_negation_biclausal"	"at all"	"some"	"0"	"1"	"1"	"2590"	0	"Some child has imagined that the girls murmur at all."	364
+"1518"	"experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=3814"	"NPI"	"questions"	"atall"	"whether"	"0"	"1"	"0"	"3814"	1	"The students have said that the man bikes to the high schools as well."	376
+"1533"	"experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=53"	"NPI"	"determiner_negation_biclausal"	"ever"	"some"	"0"	"1"	"0"	"53"	1	"Some actor has certainly explained that the books will win."	382
+"1537"	"experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=355"	"NPI"	"adverbs"	"ever"	"scarcely"	"1"	"0"	"1"	"355"	0	"The guy ever explained that a patient scarcely yelled."	384
+"1693"	"experiment=NPI-env=adverbs-npi=inyears-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=3508"	"NPI"	"adverbs"	"inyears"	"often"	"0"	"0"	"1"	"3508"	0	"The women who have often read smiled in years."	423
+"2091"	"experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5231"	"NPI"	"questions"	"either"	"whether"	"1"	"0"	"0"	"5231"	1	"The ladies have wondered on occasion whether the drivers have hugged the girls."	516
+"2153"	"experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=922"	"NPI"	"questions"	"ever"	"whether"	"1"	"0"	"1"	"922"	0	"The boys ever wonder whether the student has gone to the schools."	530
+"2248"	"experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5609"	"NPI"	"only"	"either"	"only"	"1"	"1"	"0"	"5609"	1	"Only the cashiers had written for a while at the movie theater."	551
+"2640"	"experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=709"	"NPI"	"conditional"	"ever"	"if"	"1"	"0"	"0"	"709"	1	"If the patient kisses the children, the students will also respect the teenagers."	650
+"2708"	"experiment=NPI-env=sentential_negation_biclausal-npi=ever-crucial_item=not-licensor=1-scope=0-npi_present=0-paradigm=372"	"NPI"	"sentential_negation_biclausal"	"ever"	"not"	"1"	"0"	"0"	"372"	1	"The senators are clearly thinking that a book has not won."	665
