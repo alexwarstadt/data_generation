@@ -6,7 +6,16 @@ library(tidyr)
 
 setwd("G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation/mturk_qc")
 
-allData = read.table('../outputs/npi/all_environments.tsv',sep='\t',header=F)
+filenames = list.files("../outputs/npi/environments/", pattern='*.tsv',full.names = T)
+allData=NULL
+for(i in c(1:length(filenames))){
+  temp = read.table(filenames[i],sep='\t',header=F)
+  allData = rbind(allData,temp)
+}
+
+# make tsv with all environments
+write.table(allData,"../outputs/npi/all_environments.tsv",sep='\t',col.names=NA)
+
 names(allData) <- c('metadata','acceptability','blank','sentence')
 
 smaller = function(x) (gsub(".*=","",x))
@@ -16,7 +25,7 @@ Data2 = allData%>%
   select(-blank)%>%
   separate(metadata,c("experiment","environment","npi","crucial_item","licensor","scope","npi_present","paradigm"),"-",remove=F)%>%
   mutate_at(c("experiment","environment","npi","crucial_item","licensor","scope","npi_present","paradigm"),smaller)%>%
-  mutate(rand_int=round(runif(nrow(Data2),min=0,max=100000)))%>%
+  mutate(rand_int=round(runif(nrow(allData),min=0,max=100000)))%>%
   arrange(rand_int)
 
 # troubleshotting
@@ -99,8 +108,11 @@ for(i in c(1:25)){
   print(paste0("subsetTempData run",i,": ",nrow(subsetTempData)))
   already_used = rbind(already_used,subsetTempData)
   dataFile = rbind(subsetTempData,attnChks)
-  write.table(dataFile,paste0("dataset",i,".tsv"), sep='\t',col.names=NA)
+  turkDataFile = NULL
+  for(j in c(1:nrow(dataFile))){
+    turktemp = paste0("# trial ",j," ",dataFile$metadata[j],"-acceptability=",dataFile$acceptability[j],"\n",dataFile$sentence[j],"\n")
+    turkDataFile=rbind(turkDataFile,turktemp)
+  }
+  write.table(turkDataFile,paste0("dataset",i,".txt"), sep='\t',quote=F,col.names=F,row.names=F)
 }
 
-# check last dataset
-see25=read.table("dataset25.tsv",sep='\t',header=T)
