@@ -1,0 +1,1000 @@
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=529	1		No man has ever said that the girls did win.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=529	1		No man has certainly said that the girls did win.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=529	0		A man has ever said that no girls did win.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=529	0		A man has certainly said that no girls did win.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=529	1		Some man has ever said that the girls did win.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=529	1		Some man has certainly said that the girls did win.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=529	0		A man has ever said that some girls did win.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=529	0		A man has certainly said that some girls did win.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3910	1		No actor has thought that the documentaries won in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3910	1		No actor has thought that the documentaries won on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=3910	0		The actor has thought in years that no documentaries won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=3910	0		The actor has thought on weekends that no documentaries won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3910	1		Some actor has thought that the documentaries won in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3910	1		Some actor has thought that the documentaries won on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3910	0		The actor has thought in years that some documentaries won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3910	0		The actor has thought on weekends that some documentaries won.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5529	1		No waiters were saying that any actresses had stood up.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5529	1		No waiters were saying that the actresses had stood up.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5529	0		Any waiters were saying that no actresses had stood up.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5529	0		Those waiters were saying that no actresses had stood up.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5529	1		Some waiters were saying that any actresses had stood up.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5529	1		Some waiters were saying that the actresses had stood up.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5529	0		Any waiters were saying that some actresses had stood up.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5529	0		Those waiters were saying that some actresses had stood up.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4560	1		No teenager could explain that the newspaper articles are discussing an report either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4560	1		No teenager could explain that the newspaper articles are discussing an report regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4560	0		A teenager could explain either that no newspaper articles are discussing an report.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4560	0		A teenager could explain regularly that no newspaper articles are discussing an report.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4560	1		Some teenager could explain that the newspaper articles are discussing an report either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4560	1		Some teenager could explain that the newspaper articles are discussing an report regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4560	0		A teenager could explain either that some newspaper articles are discussing an report.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4560	0		A teenager could explain regularly that some newspaper articles are discussing an report.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5048	1		None of the patients explained that any cafes did resemble the teachers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5048	1		None of the patients explained that these cafes did resemble the teachers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5048	0		Any patients explained that none of the cafes did resemble the teachers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5048	0		These patients explained that none of the cafes did resemble the teachers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5048	1		Some patients explained that any cafes did resemble the teachers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5048	1		Some patients explained that these cafes did resemble the teachers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5048	0		Any patients explained that some cafes did resemble the teachers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5048	0		These patients explained that some cafes did resemble the teachers.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=1450	1		None of the actors had imagined that the adults had left a girl yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=1450	1		None of the actors had imagined that the adults had left a girl on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1450	0		The actors had imagined yet that none of the adults had left a girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1450	0		The actors had imagined on occasion that none of the adults had left a girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1450	1		Some actors had imagined that the adults had left a girl yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1450	1		Some actors had imagined that the adults had left a girl on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1450	0		The actors had imagined yet that some adults had left a girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1450	0		The actors had imagined on occasion that some adults had left a girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2308	1		No teacher says that the people concurred at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2308	1		No teacher says that the people concurred on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=2308	0		A teacher says at all that no people concurred.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=2308	0		A teacher says on weekends that no people concurred.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2308	1		Some teacher says that the people concurred at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2308	1		Some teacher says that the people concurred on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2308	0		A teacher says at all that some people concurred.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2308	0		A teacher says on weekends that some people concurred.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3074	1		No women imagined that the senators had gone to the schools in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3074	1		No women imagined that the senators had gone to the schools on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=3074	0		The women imagined in years that no senators had gone to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=3074	0		The women imagined on occasion that no senators had gone to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3074	1		Some women imagined that the senators had gone to the schools in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3074	1		Some women imagined that the senators had gone to the schools on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3074	0		The women imagined in years that some senators had gone to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3074	0		The women imagined on occasion that some senators had gone to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5500	1		No women could say that any banks would resemble the person.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5500	1		No women could say that these banks would resemble the person.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5500	0		Any women could say that no banks would resemble the person.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5500	0		Those women could say that no banks would resemble the person.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5500	1		Some women could say that any banks would resemble the person.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5500	1		Some women could say that these banks would resemble the person.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5500	0		Any women could say that some banks would resemble the person.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5500	0		Those women could say that some banks would resemble the person.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2214	1		No adult explained that the people praise a documentary at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2214	1		No adult explained that the people praise a documentary as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=2214	0		An adult explained at all that no people praise a documentary.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=2214	0		An adult explained as well that no people praise a documentary.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2214	1		Some adult explained that the people praise a documentary at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2214	1		Some adult explained that the people praise a documentary as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2214	0		An adult explained at all that some people praise a documentary.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2214	0		An adult explained as well that some people praise a documentary.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5251	1		No gals had thought that any reports criticize the restaurant.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5251	1		No gals had thought that these reports criticize the restaurant.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5251	0		Any gals had thought that no reports criticize the restaurant.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5251	0		These gals had thought that no reports criticize the restaurant.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5251	1		Some gals had thought that any reports criticize the restaurant.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5251	1		Some gals had thought that these reports criticize the restaurant.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5251	0		Any gals had thought that some reports criticize the restaurant.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5251	0		These gals had thought that some reports criticize the restaurant.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4232	1		No gals imagine that the men walk through the grocery stores either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4232	1		No gals imagine that the men walk through the grocery stores for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4232	0		The gals imagine either that no men walk through the grocery stores.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4232	0		The gals imagine for a while that no men walk through the grocery stores.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4232	1		Some gals imagine that the men walk through the grocery stores either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4232	1		Some gals imagine that the men walk through the grocery stores for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4232	0		The gals imagine either that some men walk through the grocery stores.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4232	0		The gals imagine for a while that some men walk through the grocery stores.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3516	1		No doctors explained that the commentaries have won in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3516	1		No doctors explained that the commentaries have won for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=3516	0		The doctors explained in years that no commentaries have won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=3516	0		The doctors explained for a while that no commentaries have won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3516	1		Some doctors explained that the commentaries have won in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3516	1		Some doctors explained that the commentaries have won for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3516	0		The doctors explained in years that some commentaries have won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3516	0		The doctors explained for a while that some commentaries have won.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=970	1		No waitress is ever explaining that the college campuses resemble a scarf.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=970	1		No waitress is also explaining that the college campuses resemble a scarf.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=970	0		A waitress is ever explaining that no college campuses resemble a scarf.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=970	0		A waitress is also explaining that no college campuses resemble a scarf.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=970	1		Some waitress is ever explaining that the college campuses resemble a scarf.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=970	1		Some waitress is also explaining that the college campuses resemble a scarf.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=970	0		A waitress is ever explaining that some college campuses resemble a scarf.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=970	0		A waitress is also explaining that some college campuses resemble a scarf.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=3012	1		None of the drivers imagined that the children ran around the schools in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=3012	1		None of the drivers imagined that the children ran around the schools regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3012	0		The drivers imagined in years that none of the children ran around the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3012	0		The drivers imagined regularly that none of the children ran around the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3012	1		Some drivers imagined that the children ran around the schools in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3012	1		Some drivers imagined that the children ran around the schools regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3012	0		The drivers imagined in years that some children ran around the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3012	0		The drivers imagined regularly that some children ran around the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5195	1		None of the gals should say that any drivers have returned to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5195	1		None of the gals should say that these drivers have returned to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5195	0		Any gals should say that none of the drivers have returned to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5195	0		Those gals should say that none of the drivers have returned to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5195	1		Some gals should say that any drivers have returned to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5195	1		Some gals should say that these drivers have returned to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5195	0		Any gals should say that some drivers have returned to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5195	0		Those gals should say that some drivers have returned to the schools.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2479	1		No senators had imagined that the malls resemble an report at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2479	1		No senators had imagined that the malls resemble an report for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2479	0		The senators had imagined at all that no malls resemble an report.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2479	0		The senators had imagined for a while that no malls resemble an report.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2479	1		Some senators had imagined that the malls resemble an report at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2479	1		Some senators had imagined that the malls resemble an report for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2479	0		The senators had imagined at all that some malls resemble an report.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2479	0		The senators had imagined for a while that some malls resemble an report.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5228	1		No ladies are saying that any teenagers spun around.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5228	1		No ladies are saying that the teenagers spun around.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5228	0		Any ladies are saying that no teenagers spun around.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5228	0		These ladies are saying that no teenagers spun around.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5228	1		Some ladies are saying that any teenagers spun around.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5228	1		Some ladies are saying that the teenagers spun around.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5228	0		Any ladies are saying that some teenagers spun around.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5228	0		These ladies are saying that some teenagers spun around.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3650	1		No boys had explained that the customers slumped over in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3650	1		No boys had explained that the customers slumped over on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3650	0		The boys had explained in years that no customers slumped over.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3650	0		The boys had explained on occasion that no customers slumped over.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3650	1		Some boys had explained that the customers slumped over in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3650	1		Some boys had explained that the customers slumped over on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3650	0		The boys had explained in years that some customers slumped over.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3650	0		The boys had explained on occasion that some customers slumped over.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1919	1		No cashier has thought that the banks will resemble the malls yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1919	1		No cashier has thought that the banks will resemble the malls on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1919	0		The cashier has thought yet that no banks will resemble the malls.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=1919	0		The cashier has thought on occasion that no banks will resemble the malls.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1919	1		Some cashier has thought that the banks will resemble the malls yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1919	1		Some cashier has thought that the banks will resemble the malls on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1919	0		The cashier has thought yet that some banks will resemble the malls.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1919	0		The cashier has thought on occasion that some banks will resemble the malls.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5872	1		None of the girls thought that any cups will resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5872	1		None of the girls thought that these cups will resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5872	0		Any girls thought that none of the cups will resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5872	0		The girls thought that none of the cups will resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5872	1		Some girls thought that any cups will resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5872	1		Some girls thought that these cups will resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5872	0		Any girls thought that some cups will resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5872	0		The girls thought that some cups will resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=1632	1		None of the drivers do explain that the newspaper articles did describe the waitresses yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=1632	1		None of the drivers do explain that the newspaper articles did describe the waitresses as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1632	0		The drivers do explain yet that none of the newspaper articles did describe the waitresses.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1632	0		The drivers do explain as well that none of the newspaper articles did describe the waitresses.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1632	1		Some drivers do explain that the newspaper articles did describe the waitresses yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1632	1		Some drivers do explain that the newspaper articles did describe the waitresses as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1632	0		The drivers do explain yet that some newspaper articles did describe the waitresses.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1632	0		The drivers do explain as well that some newspaper articles did describe the waitresses.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3434	1		No waitresses have explained that the waiters had played in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3434	1		No waitresses have explained that the waiters had played as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3434	0		The waitresses have explained in years that no waiters had played.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3434	0		The waitresses have explained as well that no waiters had played.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3434	1		Some waitresses have explained that the waiters had played in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3434	1		Some waitresses have explained that the waiters had played as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3434	0		The waitresses have explained in years that some waiters had played.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3434	0		The waitresses have explained as well that some waiters had played.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2632	1		No person explained that the pants do resemble the couches at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2632	1		No person explained that the pants do resemble the couches on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=2632	0		The person explained at all that no pants do resemble the couches.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=2632	0		The person explained on occasion that no pants do resemble the couches.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2632	1		Some person explained that the pants do resemble the couches at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2632	1		Some person explained that the pants do resemble the couches on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2632	0		The person explained at all that some pants do resemble the couches.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2632	0		The person explained on occasion that some pants do resemble the couches.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3617	1		No actor said that the books had discussed the school in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3617	1		No actor said that the books had discussed the school on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=3617	0		The actor said in years that no books had discussed the school.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=3617	0		The actor said on occasion that no books had discussed the school.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3617	1		Some actor said that the books had discussed the school in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3617	1		Some actor said that the books had discussed the school on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3617	0		The actor said in years that some books had discussed the school.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3617	0		The actor said on occasion that some books had discussed the school.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4197	1		No teacher was explaining that the actors joked around either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4197	1		No teacher was explaining that the actors joked around as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4197	0		The teacher was explaining either that no actors joked around.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4197	0		The teacher was explaining as well that no actors joked around.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4197	1		Some teacher was explaining that the actors joked around either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4197	1		Some teacher was explaining that the actors joked around as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4197	0		The teacher was explaining either that some actors joked around.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4197	0		The teacher was explaining as well that some actors joked around.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5592	1		No gals have thought that any doctors will divorce.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5592	1		No gals have thought that those doctors will divorce.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5592	0		Any gals have thought that no doctors will divorce.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5592	0		Those gals have thought that no doctors will divorce.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5592	1		Some gals have thought that any doctors will divorce.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5592	1		Some gals have thought that those doctors will divorce.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5592	0		Any gals have thought that some doctors will divorce.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5592	0		Those gals have thought that some doctors will divorce.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=543	1		None of the customers ever do explain that the doctors muttered.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=543	1		None of the customers also do explain that the doctors muttered.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=543	0		The customers ever do explain that none of the doctors muttered.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=543	0		The customers also do explain that none of the doctors muttered.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=543	1		Some customers ever do explain that the doctors muttered.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=543	1		Some customers also do explain that the doctors muttered.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=543	0		The customers ever do explain that some doctors muttered.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=543	0		The customers also do explain that some doctors muttered.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5836	1		No boys said that any newspaper articles criticize the children.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5836	1		No boys said that those newspaper articles criticize the children.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5836	0		Any boys said that no newspaper articles criticize the children.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5836	0		The boys said that no newspaper articles criticize the children.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5836	1		Some boys said that any newspaper articles criticize the children.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5836	1		Some boys said that those newspaper articles criticize the children.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5836	0		Any boys said that some newspaper articles criticize the children.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5836	0		The boys said that some newspaper articles criticize the children.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2142	1		No driver was imagining that the shoes were shrinking at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2142	1		No driver was imagining that the shoes were shrinking as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2142	0		A driver was imagining at all that no shoes were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2142	0		A driver was imagining as well that no shoes were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2142	1		Some driver was imagining that the shoes were shrinking at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2142	1		Some driver was imagining that the shoes were shrinking as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2142	0		A driver was imagining at all that some shoes were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2142	0		A driver was imagining as well that some shoes were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2294	1		No actress says that the stories have referenced the adults at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2294	1		No actress says that the stories have referenced the adults on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2294	0		An actress says at all that no stories have referenced the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2294	0		An actress says on occasion that no stories have referenced the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2294	1		Some actress says that the stories have referenced the adults at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2294	1		Some actress says that the stories have referenced the adults on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2294	0		An actress says at all that some stories have referenced the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2294	0		An actress says on occasion that some stories have referenced the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=868	1		No boy had ever explained that the movies disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=868	1		No boy had certainly explained that the movies disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=868	0		The boy had ever explained that no movies disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=868	0		The boy had certainly explained that no movies disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=868	1		Some boy had ever explained that the movies disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=868	1		Some boy had certainly explained that the movies disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=868	0		The boy had ever explained that some movies disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=868	0		The boy had certainly explained that some movies disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2716	1		No men thought that the customers were reacting at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2716	1		No men thought that the customers were reacting for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2716	0		The men thought at all that no customers were reacting.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2716	0		The men thought for a while that no customers were reacting.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2716	1		Some men thought that the customers were reacting at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2716	1		Some men thought that the customers were reacting for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2716	0		The men thought at all that some customers were reacting.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2716	0		The men thought for a while that some customers were reacting.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5943	1		None of the senators might say that any guests have cooked.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5943	1		None of the senators might say that these guests have cooked.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5943	0		Any senators might say that none of the guests have cooked.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5943	0		Those senators might say that none of the guests have cooked.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5943	1		Some senators might say that any guests have cooked.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5943	1		Some senators might say that these guests have cooked.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5943	0		Any senators might say that some guests have cooked.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5943	0		Those senators might say that some guests have cooked.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5868	1		None of the actors would imagine that any movies were winning.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5868	1		None of the actors would imagine that these movies were winning.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5868	0		Any actors would imagine that none of the movies were winning.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5868	0		The actors would imagine that none of the movies were winning.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5868	1		Some actors would imagine that any movies were winning.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5868	1		Some actors would imagine that these movies were winning.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5868	0		Any actors would imagine that some movies were winning.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5868	0		The actors would imagine that some movies were winning.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3026	1		No doctor had thought that the doctors have walked through the museums in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3026	1		No doctor had thought that the doctors have walked through the museums regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3026	0		A doctor had thought in years that no doctors have walked through the museums.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3026	0		A doctor had thought regularly that no doctors have walked through the museums.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3026	1		Some doctor had thought that the doctors have walked through the museums in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3026	1		Some doctor had thought that the doctors have walked through the museums regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3026	0		A doctor had thought in years that some doctors have walked through the museums.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3026	0		A doctor had thought regularly that some doctors have walked through the museums.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4959	1		No student thought that the ladies wave either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4959	1		No student thought that the ladies wave for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4959	0		The student thought either that no ladies wave.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4959	0		The student thought for a while that no ladies wave.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4959	1		Some student thought that the ladies wave either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4959	1		Some student thought that the ladies wave for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4959	0		The student thought either that some ladies wave.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4959	0		The student thought for a while that some ladies wave.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1394	1		No actor explained that the senators skated around the cafes yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1394	1		No actor explained that the senators skated around the cafes for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1394	0		An actor explained yet that no senators skated around the cafes.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1394	0		An actor explained for a while that no senators skated around the cafes.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1394	1		Some actor explained that the senators skated around the cafes yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1394	1		Some actor explained that the senators skated around the cafes for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1394	0		An actor explained yet that some senators skated around the cafes.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1394	0		An actor explained for a while that some senators skated around the cafes.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2599	1		No waiter thought that the people have scanned an essay at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2599	1		No waiter thought that the people have scanned an essay as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=2599	0		The waiter thought at all that no people have scanned an essay.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=2599	0		The waiter thought as well that no people have scanned an essay.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2599	1		Some waiter thought that the people have scanned an essay at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2599	1		Some waiter thought that the people have scanned an essay as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2599	0		The waiter thought at all that some people have scanned an essay.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2599	0		The waiter thought as well that some people have scanned an essay.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1980	1		No person will say that the pants did resemble a teenager yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1980	1		No person will say that the pants did resemble a teenager regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1980	0		The person will say yet that no pants did resemble a teenager.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=1980	0		The person will say regularly that no pants did resemble a teenager.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1980	1		Some person will say that the pants did resemble a teenager yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1980	1		Some person will say that the pants did resemble a teenager regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1980	0		The person will say yet that some pants did resemble a teenager.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1980	0		The person will say regularly that some pants did resemble a teenager.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3724	1		No dancer imagined that the cashiers have conferred in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3724	1		No dancer imagined that the cashiers have conferred on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3724	0		A dancer imagined in years that no cashiers have conferred.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3724	0		A dancer imagined on weekends that no cashiers have conferred.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3724	1		Some dancer imagined that the cashiers have conferred in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3724	1		Some dancer imagined that the cashiers have conferred on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3724	0		A dancer imagined in years that some cashiers have conferred.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3724	0		A dancer imagined on weekends that some cashiers have conferred.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4710	1		No teacher was imagining that the girls have divorced either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4710	1		No teacher was imagining that the girls have divorced on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4710	0		The teacher was imagining either that no girls have divorced.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4710	0		The teacher was imagining on weekends that no girls have divorced.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4710	1		Some teacher was imagining that the girls have divorced either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4710	1		Some teacher was imagining that the girls have divorced on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4710	0		The teacher was imagining either that some girls have divorced.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4710	0		The teacher was imagining on weekends that some girls have divorced.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3614	1		No cashier imagined that the actors dropped by the art galleries in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3614	1		No cashier imagined that the actors dropped by the art galleries regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3614	0		The cashier imagined in years that no actors dropped by the art galleries.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3614	0		The cashier imagined regularly that no actors dropped by the art galleries.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3614	1		Some cashier imagined that the actors dropped by the art galleries in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3614	1		Some cashier imagined that the actors dropped by the art galleries regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3614	0		The cashier imagined in years that some actors dropped by the art galleries.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3614	0		The cashier imagined regularly that some actors dropped by the art galleries.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2696	1		No doctor should think that the ladies surrender at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2696	1		No doctor should think that the ladies surrender as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2696	0		A doctor should think at all that no ladies surrender.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2696	0		A doctor should think as well that no ladies surrender.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2696	1		Some doctor should think that the ladies surrender at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2696	1		Some doctor should think that the ladies surrender as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2696	0		A doctor should think at all that some ladies surrender.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2696	0		A doctor should think as well that some ladies surrender.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=190	1		No student should ever say that the movie theaters would resemble the waiter.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=190	1		No student should also say that the movie theaters would resemble the waiter.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=190	0		A student should ever say that no movie theaters would resemble the waiter.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=190	0		A student should also say that no movie theaters would resemble the waiter.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=190	1		Some student should ever say that the movie theaters would resemble the waiter.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=190	1		Some student should also say that the movie theaters would resemble the waiter.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=190	0		A student should ever say that some movie theaters would resemble the waiter.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=190	0		A student should also say that some movie theaters would resemble the waiter.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=206	1		No boys had ever imagined that the movies could insult the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=206	1		No boys had often imagined that the movies could insult the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=206	0		The boys had ever imagined that no movies could insult the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=206	0		The boys had often imagined that no movies could insult the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=206	1		Some boys had ever imagined that the movies could insult the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=206	1		Some boys had often imagined that the movies could insult the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=206	0		The boys had ever imagined that some movies could insult the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=206	0		The boys had often imagined that some movies could insult the adults.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3975	1		No customers imagined that the people hid away in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3975	1		No customers imagined that the people hid away for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3975	0		The customers imagined in years that no people hid away.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3975	0		The customers imagined for a while that no people hid away.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3975	1		Some customers imagined that the people hid away in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3975	1		Some customers imagined that the people hid away for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3975	0		The customers imagined in years that some people hid away.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3975	0		The customers imagined for a while that some people hid away.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1024	1		No boy thinks that the gloves could resemble the customers yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1024	1		No boy thinks that the gloves could resemble the customers for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1024	0		The boy thinks yet that no gloves could resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=1024	0		The boy thinks for a while that no gloves could resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1024	1		Some boy thinks that the gloves could resemble the customers yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1024	1		Some boy thinks that the gloves could resemble the customers for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1024	0		The boy thinks yet that some gloves could resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1024	0		The boy thinks for a while that some gloves could resemble the customers.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4473	1		No person had imagined that the guests dropped by the grocery store either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4473	1		No person had imagined that the guests dropped by the grocery store on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4473	0		A person had imagined either that no guests dropped by the grocery store.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4473	0		A person had imagined on occasion that no guests dropped by the grocery store.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4473	1		Some person had imagined that the guests dropped by the grocery store either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4473	1		Some person had imagined that the guests dropped by the grocery store on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4473	0		A person had imagined either that some guests dropped by the grocery store.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4473	0		A person had imagined on occasion that some guests dropped by the grocery store.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1449	1		No actor can explain that the cups resemble a face yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1449	1		No actor can explain that the cups resemble a face for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1449	0		An actor can explain yet that no cups resemble a face.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=1449	0		An actor can explain for a while that no cups resemble a face.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1449	1		Some actor can explain that the cups resemble a face yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1449	1		Some actor can explain that the cups resemble a face for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1449	0		An actor can explain yet that some cups resemble a face.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1449	0		An actor can explain for a while that some cups resemble a face.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5710	1		No women said that any men have explored the mall.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5710	1		No women said that the men have explored the mall.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5710	0		Any women said that no men have explored the mall.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5710	0		The women said that no men have explored the mall.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5710	1		Some women said that any men have explored the mall.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5710	1		Some women said that the men have explored the mall.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5710	0		Any women said that some men have explored the mall.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5710	0		The women said that some men have explored the mall.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4558	1		No guest does think that the teenagers blink either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4558	1		No guest does think that the teenagers blink for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4558	0		A guest does think either that no teenagers blink.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4558	0		A guest does think for a while that no teenagers blink.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4558	1		Some guest does think that the teenagers blink either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4558	1		Some guest does think that the teenagers blink for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4558	0		A guest does think either that some teenagers blink.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4558	0		A guest does think for a while that some teenagers blink.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5566	1		No guests do think that any pants might resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5566	1		No guests do think that the pants might resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5566	0		Any guests do think that no pants might resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5566	0		Those guests do think that no pants might resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5566	1		Some guests do think that any pants might resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5566	1		Some guests do think that the pants might resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5566	0		Any guests do think that some pants might resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5566	0		Those guests do think that some pants might resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2137	1		No pedestrian has said that the college campuses resemble the cars at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2137	1		No pedestrian has said that the college campuses resemble the cars for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2137	0		The pedestrian has said at all that no college campuses resemble the cars.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2137	0		The pedestrian has said for a while that no college campuses resemble the cars.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2137	1		Some pedestrian has said that the college campuses resemble the cars at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2137	1		Some pedestrian has said that the college campuses resemble the cars for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2137	0		The pedestrian has said at all that some college campuses resemble the cars.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2137	0		The pedestrian has said for a while that some college campuses resemble the cars.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1649	1		No person explained that the children can love the driver yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1649	1		No person explained that the children can love the driver on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1649	0		A person explained yet that no children can love the driver.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=1649	0		A person explained on weekends that no children can love the driver.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1649	1		Some person explained that the children can love the driver yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1649	1		Some person explained that the children can love the driver on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1649	0		A person explained yet that some children can love the driver.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1649	0		A person explained on weekends that some children can love the driver.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3708	1		No actress said that the senators dated in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3708	1		No actress said that the senators dated on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3708	0		An actress said in years that no senators dated.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3708	0		An actress said on occasion that no senators dated.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3708	1		Some actress said that the senators dated in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3708	1		Some actress said that the senators dated on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3708	0		An actress said in years that some senators dated.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3708	0		An actress said on occasion that some senators dated.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2825	1		No student imagines that the pants can shrink at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2825	1		No student imagines that the pants can shrink regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=2825	0		The student imagines at all that no pants can shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=2825	0		The student imagines regularly that no pants can shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2825	1		Some student imagines that the pants can shrink at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2825	1		Some student imagines that the pants can shrink regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2825	0		The student imagines at all that some pants can shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2825	0		The student imagines regularly that some pants can shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1893	1		No people are imagining that the glasses had shrunk yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1893	1		No people are imagining that the glasses had shrunk regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1893	0		The people are imagining yet that no glasses had shrunk.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1893	0		The people are imagining regularly that no glasses had shrunk.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1893	1		Some people are imagining that the glasses had shrunk yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1893	1		Some people are imagining that the glasses had shrunk regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1893	0		The people are imagining yet that some glasses had shrunk.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1893	0		The people are imagining regularly that some glasses had shrunk.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1390	1		No waiter imagines that the gloves resemble the hospitals yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1390	1		No waiter imagines that the gloves resemble the hospitals on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1390	0		The waiter imagines yet that no gloves resemble the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1390	0		The waiter imagines on occasion that no gloves resemble the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1390	1		Some waiter imagines that the gloves resemble the hospitals yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1390	1		Some waiter imagines that the gloves resemble the hospitals on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1390	0		The waiter imagines yet that some gloves resemble the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1390	0		The waiter imagines on occasion that some gloves resemble the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3636	1		No lady has thought that the adults have met in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3636	1		No lady has thought that the adults have met for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=3636	0		A lady has thought in years that no adults have met.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=3636	0		A lady has thought for a while that no adults have met.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3636	1		Some lady has thought that the adults have met in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3636	1		Some lady has thought that the adults have met for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3636	0		A lady has thought in years that some adults have met.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3636	0		A lady has thought for a while that some adults have met.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5453	1		None of the patients imagined that any cups resemble the pedestrian.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5453	1		None of the patients imagined that those cups resemble the pedestrian.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5453	0		Any patients imagined that none of the cups resemble the pedestrian.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5453	0		The patients imagined that none of the cups resemble the pedestrian.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5453	1		Some patients imagined that any cups resemble the pedestrian.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5453	1		Some patients imagined that those cups resemble the pedestrian.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5453	0		Any patients imagined that some cups resemble the pedestrian.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5453	0		The patients imagined that some cups resemble the pedestrian.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5789	1		None of the cashiers would explain that any forks should resemble a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5789	1		None of the cashiers would explain that the forks should resemble a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5789	0		Any cashiers would explain that none of the forks should resemble a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5789	0		The cashiers would explain that none of the forks should resemble a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5789	1		Some cashiers would explain that any forks should resemble a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5789	1		Some cashiers would explain that the forks should resemble a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5789	0		Any cashiers would explain that some forks should resemble a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5789	0		The cashiers would explain that some forks should resemble a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2211	1		No driver will explain that the movies win at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2211	1		No driver will explain that the movies win as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2211	0		The driver will explain at all that no movies win.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2211	0		The driver will explain as well that no movies win.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2211	1		Some driver will explain that the movies win at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2211	1		Some driver will explain that the movies win as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2211	0		The driver will explain at all that some movies win.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2211	0		The driver will explain as well that some movies win.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=101	1		No patient had ever imagined that the reports had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=101	1		No patient had clearly imagined that the reports had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=101	0		The patient had ever imagined that no reports had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=101	0		The patient had clearly imagined that no reports had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=101	1		Some patient had ever imagined that the reports had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=101	1		Some patient had clearly imagined that the reports had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=101	0		The patient had ever imagined that some reports had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=101	0		The patient had clearly imagined that some reports had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1824	1		No drivers imagined that the banks should resemble the books yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1824	1		No drivers imagined that the banks should resemble the books for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1824	0		The drivers imagined yet that no banks should resemble the books.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1824	0		The drivers imagined for a while that no banks should resemble the books.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1824	1		Some drivers imagined that the banks should resemble the books yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1824	1		Some drivers imagined that the banks should resemble the books for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1824	0		The drivers imagined yet that some banks should resemble the books.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1824	0		The drivers imagined for a while that some banks should resemble the books.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5126	1		No girls will think that any ladies are painting.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5126	1		No girls will think that the ladies are painting.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5126	0		Any girls will think that no ladies are painting.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5126	0		The girls will think that no ladies are painting.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5126	1		Some girls will think that any ladies are painting.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5126	1		Some girls will think that the ladies are painting.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5126	0		Any girls will think that some ladies are painting.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5126	0		The girls will think that some ladies are painting.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4960	1		No guys have thought that the adults are kissing the teenagers either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4960	1		No guys have thought that the adults are kissing the teenagers on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4960	0		The guys have thought either that no adults are kissing the teenagers.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4960	0		The guys have thought on occasion that no adults are kissing the teenagers.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4960	1		Some guys have thought that the adults are kissing the teenagers either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4960	1		Some guys have thought that the adults are kissing the teenagers on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4960	0		The guys have thought either that some adults are kissing the teenagers.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4960	0		The guys have thought on occasion that some adults are kissing the teenagers.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=2289	1		None of the guys will think that the teachers were flirting at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=2289	1		None of the guys will think that the teachers were flirting as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2289	0		The guys will think at all that none of the teachers were flirting.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2289	0		The guys will think as well that none of the teachers were flirting.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2289	1		Some guys will think that the teachers were flirting at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2289	1		Some guys will think that the teachers were flirting as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2289	0		The guys will think at all that some teachers were flirting.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2289	0		The guys will think as well that some teachers were flirting.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=26	1		None of the pedestrians are ever explaining that the pedestrians were fleeing from a student.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=26	1		None of the pedestrians are really explaining that the pedestrians were fleeing from a student.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=26	0		The pedestrians are ever explaining that none of the pedestrians were fleeing from a student.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=26	0		The pedestrians are really explaining that none of the pedestrians were fleeing from a student.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=26	1		Some pedestrians are ever explaining that the pedestrians were fleeing from a student.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=26	1		Some pedestrians are really explaining that the pedestrians were fleeing from a student.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=26	0		The pedestrians are ever explaining that some pedestrians were fleeing from a student.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=26	0		The pedestrians are really explaining that some pedestrians were fleeing from a student.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2245	1		No customer might say that the waitresses were leaving the public park at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2245	1		No customer might say that the waitresses were leaving the public park on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=2245	0		The customer might say at all that no waitresses were leaving the public park.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=2245	0		The customer might say on occasion that no waitresses were leaving the public park.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2245	1		Some customer might say that the waitresses were leaving the public park at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2245	1		Some customer might say that the waitresses were leaving the public park on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2245	0		The customer might say at all that some waitresses were leaving the public park.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2245	0		The customer might say on occasion that some waitresses were leaving the public park.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4216	1		No driver says that the doctors paint either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4216	1		No driver says that the doctors paint on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4216	0		A driver says either that no doctors paint.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4216	0		A driver says on occasion that no doctors paint.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4216	1		Some driver says that the doctors paint either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4216	1		Some driver says that the doctors paint on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4216	0		A driver says either that some doctors paint.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4216	0		A driver says on occasion that some doctors paint.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5929	1		No people were imagining that any hair would resemble the car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5929	1		No people were imagining that the hair would resemble the car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5929	0		Any people were imagining that no hair would resemble the car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5929	0		Those people were imagining that no hair would resemble the car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5929	1		Some people were imagining that any hair would resemble the car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5929	1		Some people were imagining that the hair would resemble the car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5929	0		Any people were imagining that some hair would resemble the car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5929	0		Those people were imagining that some hair would resemble the car.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=1564	1		None of the customers imagine that the schools resemble the girl yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=1564	1		None of the customers imagine that the schools resemble the girl as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1564	0		The customers imagine yet that none of the schools resemble the girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1564	0		The customers imagine as well that none of the schools resemble the girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1564	1		Some customers imagine that the schools resemble the girl yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1564	1		Some customers imagine that the schools resemble the girl as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1564	0		The customers imagine yet that some schools resemble the girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1564	0		The customers imagine as well that some schools resemble the girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3056	1		No children imagined that the waiters skated around the malls in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3056	1		No children imagined that the waiters skated around the malls as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3056	0		The children imagined in years that no waiters skated around the malls.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3056	0		The children imagined as well that no waiters skated around the malls.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3056	1		Some children imagined that the waiters skated around the malls in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3056	1		Some children imagined that the waiters skated around the malls as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3056	0		The children imagined in years that some waiters skated around the malls.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3056	0		The children imagined as well that some waiters skated around the malls.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1552	1		No guest is saying that the actresses examine a newspaper article yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1552	1		No guest is saying that the actresses examine a newspaper article on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1552	0		The guest is saying yet that no actresses examine a newspaper article.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1552	0		The guest is saying on occasion that no actresses examine a newspaper article.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1552	1		Some guest is saying that the actresses examine a newspaper article yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1552	1		Some guest is saying that the actresses examine a newspaper article on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1552	0		The guest is saying yet that some actresses examine a newspaper article.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1552	0		The guest is saying on occasion that some actresses examine a newspaper article.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=891	1		No drivers can ever say that the eyes will resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=891	1		No drivers can often say that the eyes will resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=891	0		The drivers can ever say that no eyes will resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=891	0		The drivers can often say that no eyes will resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=891	1		Some drivers can ever say that the eyes will resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=891	1		Some drivers can often say that the eyes will resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=891	0		The drivers can ever say that some eyes will resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=891	0		The drivers can often say that some eyes will resemble the library.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5743	1		None of the children explained that any documentaries could win.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5743	1		None of the children explained that those documentaries could win.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5743	0		Any children explained that none of the documentaries could win.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5743	0		The children explained that none of the documentaries could win.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5743	1		Some children explained that any documentaries could win.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5743	1		Some children explained that those documentaries could win.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5743	0		Any children explained that some documentaries could win.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5743	0		The children explained that some documentaries could win.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3644	1		No patient thought that the people had won in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3644	1		No patient thought that the people had won on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=3644	0		The patient thought in years that no people had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=3644	0		The patient thought on occasion that no people had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3644	1		Some patient thought that the people had won in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3644	1		Some patient thought that the people had won on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3644	0		The patient thought in years that some people had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3644	0		The patient thought on occasion that some people had won.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=1876	1		None of the guests had imagined that the college campuses resemble the eyes yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=1876	1		None of the guests had imagined that the college campuses resemble the eyes on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1876	0		The guests had imagined yet that none of the college campuses resemble the eyes.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=1876	0		The guests had imagined on weekends that none of the college campuses resemble the eyes.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1876	1		Some guests had imagined that the college campuses resemble the eyes yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1876	1		Some guests had imagined that the college campuses resemble the eyes on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1876	0		The guests had imagined yet that some college campuses resemble the eyes.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1876	0		The guests had imagined on weekends that some college campuses resemble the eyes.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3596	1		No patient has explained that the reports described the child in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3596	1		No patient has explained that the reports described the child for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3596	0		A patient has explained in years that no reports described the child.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3596	0		A patient has explained for a while that no reports described the child.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3596	1		Some patient has explained that the reports described the child in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3596	1		Some patient has explained that the reports described the child for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3596	0		A patient has explained in years that some reports described the child.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3596	0		A patient has explained for a while that some reports described the child.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1823	1		No woman says that the gloves would resemble the girl yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1823	1		No woman says that the gloves would resemble the girl for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1823	0		The woman says yet that no gloves would resemble the girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1823	0		The woman says for a while that no gloves would resemble the girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1823	1		Some woman says that the gloves would resemble the girl yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1823	1		Some woman says that the gloves would resemble the girl for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1823	0		The woman says yet that some gloves would resemble the girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1823	0		The woman says for a while that some gloves would resemble the girl.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=4898	1		None of the women did imagine that the chairs do resemble a dish either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=4898	1		None of the women did imagine that the chairs do resemble a dish regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4898	0		The women did imagine either that none of the chairs do resemble a dish.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4898	0		The women did imagine regularly that none of the chairs do resemble a dish.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4898	1		Some women did imagine that the chairs do resemble a dish either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4898	1		Some women did imagine that the chairs do resemble a dish regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4898	0		The women did imagine either that some chairs do resemble a dish.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4898	0		The women did imagine regularly that some chairs do resemble a dish.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1909	1		No actor is explaining that the guests can clean the newspaper articles yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1909	1		No actor is explaining that the guests can clean the newspaper articles on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1909	0		The actor is explaining yet that no guests can clean the newspaper articles.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=1909	0		The actor is explaining on occasion that no guests can clean the newspaper articles.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1909	1		Some actor is explaining that the guests can clean the newspaper articles yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1909	1		Some actor is explaining that the guests can clean the newspaper articles on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1909	0		The actor is explaining yet that some guests can clean the newspaper articles.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1909	0		The actor is explaining on occasion that some guests can clean the newspaper articles.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2438	1		No guys thought that the couches did resemble the stories at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2438	1		No guys thought that the couches did resemble the stories regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2438	0		The guys thought at all that no couches did resemble the stories.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2438	0		The guys thought regularly that no couches did resemble the stories.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2438	1		Some guys thought that the couches did resemble the stories at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2438	1		Some guys thought that the couches did resemble the stories regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2438	0		The guys thought at all that some couches did resemble the stories.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2438	0		The guys thought regularly that some couches did resemble the stories.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5060	1		None of the customers think that any pants might resemble the cups.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5060	1		None of the customers think that those pants might resemble the cups.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5060	0		Any customers think that none of the pants might resemble the cups.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5060	0		These customers think that none of the pants might resemble the cups.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5060	1		Some customers think that any pants might resemble the cups.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5060	1		Some customers think that those pants might resemble the cups.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5060	0		Any customers think that some pants might resemble the cups.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5060	0		These customers think that some pants might resemble the cups.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=4070	1		None of the ladies have said that the hospitals resemble the hospitals either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=4070	1		None of the ladies have said that the hospitals resemble the hospitals on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4070	0		The ladies have said either that none of the hospitals resemble the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4070	0		The ladies have said on weekends that none of the hospitals resemble the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4070	1		Some ladies have said that the hospitals resemble the hospitals either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4070	1		Some ladies have said that the hospitals resemble the hospitals on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4070	0		The ladies have said either that some hospitals resemble the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4070	0		The ladies have said on weekends that some hospitals resemble the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5595	1		None of the pedestrians have said that any students would scan the commentaries.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5595	1		None of the pedestrians have said that those students would scan the commentaries.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5595	0		Any pedestrians have said that none of the students would scan the commentaries.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5595	0		The pedestrians have said that none of the students would scan the commentaries.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5595	1		Some pedestrians have said that any students would scan the commentaries.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5595	1		Some pedestrians have said that those students would scan the commentaries.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5595	0		Any pedestrians have said that some students would scan the commentaries.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5595	0		The pedestrians have said that some students would scan the commentaries.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5286	1		No customers were explaining that any cups resemble a car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5286	1		No customers were explaining that these cups resemble a car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5286	0		Any customers were explaining that no cups resemble a car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5286	0		Those customers were explaining that no cups resemble a car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5286	1		Some customers were explaining that any cups resemble a car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5286	1		Some customers were explaining that these cups resemble a car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5286	0		Any customers were explaining that some cups resemble a car.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5286	0		Those customers were explaining that some cups resemble a car.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4371	1		No cashier explained that the ladies are touring the art galleries either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4371	1		No cashier explained that the ladies are touring the art galleries on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4371	0		A cashier explained either that no ladies are touring the art galleries.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4371	0		A cashier explained on occasion that no ladies are touring the art galleries.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4371	1		Some cashier explained that the ladies are touring the art galleries either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4371	1		Some cashier explained that the ladies are touring the art galleries on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4371	0		A cashier explained either that some ladies are touring the art galleries.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4371	0		A cashier explained on occasion that some ladies are touring the art galleries.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=14	1		No doctor would ever imagine that the teenagers were smiling.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=14	1		No doctor would really imagine that the teenagers were smiling.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=14	0		The doctor would ever imagine that no teenagers were smiling.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=14	0		The doctor would really imagine that no teenagers were smiling.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=14	1		Some doctor would ever imagine that the teenagers were smiling.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=14	1		Some doctor would really imagine that the teenagers were smiling.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=14	0		The doctor would ever imagine that some teenagers were smiling.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=14	0		The doctor would really imagine that some teenagers were smiling.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=952	1		None of the guys could ever explain that the pants were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=952	1		None of the guys could really explain that the pants were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=952	0		The guys could ever explain that none of the pants were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=952	0		The guys could really explain that none of the pants were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=952	1		Some guys could ever explain that the pants were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=952	1		Some guys could really explain that the pants were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=952	0		The guys could ever explain that some pants were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=952	0		The guys could really explain that some pants were shrinking.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4693	1		No students are imagining that the girls marry either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4693	1		No students are imagining that the girls marry regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4693	0		The students are imagining either that no girls marry.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4693	0		The students are imagining regularly that no girls marry.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4693	1		Some students are imagining that the girls marry either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4693	1		Some students are imagining that the girls marry regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4693	0		The students are imagining either that some girls marry.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4693	0		The students are imagining regularly that some girls marry.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=721	1		No boys had ever explained that the gloves will shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=721	1		No boys had also explained that the gloves will shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=721	0		The boys had ever explained that no gloves will shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=721	0		The boys had also explained that no gloves will shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=721	1		Some boys had ever explained that the gloves will shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=721	1		Some boys had also explained that the gloves will shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=721	0		The boys had ever explained that some gloves will shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=721	0		The boys had also explained that some gloves will shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2021	1		No cashier did think that the teenagers have forgotten a movie at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2021	1		No cashier did think that the teenagers have forgotten a movie on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2021	0		The cashier did think at all that no teenagers have forgotten a movie.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2021	0		The cashier did think on occasion that no teenagers have forgotten a movie.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2021	1		Some cashier did think that the teenagers have forgotten a movie at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2021	1		Some cashier did think that the teenagers have forgotten a movie on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2021	0		The cashier did think at all that some teenagers have forgotten a movie.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2021	0		The cashier did think on occasion that some teenagers have forgotten a movie.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5459	1		None of the students are imagining that any customers observe a customer.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5459	1		None of the students are imagining that the customers observe a customer.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5459	0		Any students are imagining that none of the customers observe a customer.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5459	0		The students are imagining that none of the customers observe a customer.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5459	1		Some students are imagining that any customers observe a customer.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5459	1		Some students are imagining that the customers observe a customer.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5459	0		Any students are imagining that some customers observe a customer.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5459	0		The students are imagining that some customers observe a customer.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2991	1		No waiter thinks that the guests might debate at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2991	1		No waiter thinks that the guests might debate on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2991	0		A waiter thinks at all that no guests might debate.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2991	0		A waiter thinks on occasion that no guests might debate.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2991	1		Some waiter thinks that the guests might debate at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2991	1		Some waiter thinks that the guests might debate on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2991	0		A waiter thinks at all that some guests might debate.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2991	0		A waiter thinks on occasion that some guests might debate.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4184	1		No doctor imagines that the patients described a driver either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4184	1		No doctor imagines that the patients described a driver for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4184	0		The doctor imagines either that no patients described a driver.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4184	0		The doctor imagines for a while that no patients described a driver.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4184	1		Some doctor imagines that the patients described a driver either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4184	1		Some doctor imagines that the patients described a driver for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4184	0		The doctor imagines either that some patients described a driver.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4184	0		The doctor imagines for a while that some patients described a driver.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=454	1		No guest might ever say that the cashiers would see.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=454	1		No guest might often say that the cashiers would see.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=454	0		The guest might ever say that no cashiers would see.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=454	0		The guest might often say that no cashiers would see.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=454	1		Some guest might ever say that the cashiers would see.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=454	1		Some guest might often say that the cashiers would see.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=454	0		The guest might ever say that some cashiers would see.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=454	0		The guest might often say that some cashiers would see.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4386	1		No women can explain that the shoes resemble a couch either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4386	1		No women can explain that the shoes resemble a couch on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4386	0		The women can explain either that no shoes resemble a couch.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4386	0		The women can explain on weekends that no shoes resemble a couch.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4386	1		Some women can explain that the shoes resemble a couch either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4386	1		Some women can explain that the shoes resemble a couch on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4386	0		The women can explain either that some shoes resemble a couch.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4386	0		The women can explain on weekends that some shoes resemble a couch.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=67	1		No patient could ever say that the guys have approached an adult.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=67	1		No patient could clearly say that the guys have approached an adult.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=67	0		A patient could ever say that no guys have approached an adult.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=67	0		A patient could clearly say that no guys have approached an adult.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=67	1		Some patient could ever say that the guys have approached an adult.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=67	1		Some patient could clearly say that the guys have approached an adult.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=67	0		A patient could ever say that some guys have approached an adult.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=67	0		A patient could clearly say that some guys have approached an adult.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=5207	1		None of the gals have imagined that any glasses will resemble the banks.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=5207	1		None of the gals have imagined that these glasses will resemble the banks.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5207	0		Any gals have imagined that none of the glasses will resemble the banks.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5207	0		These gals have imagined that none of the glasses will resemble the banks.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5207	1		Some gals have imagined that any glasses will resemble the banks.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5207	1		Some gals have imagined that these glasses will resemble the banks.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5207	0		Any gals have imagined that some glasses will resemble the banks.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5207	0		These gals have imagined that some glasses will resemble the banks.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=215	1		No woman can ever think that the shoes shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=215	1		No woman can often think that the shoes shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=215	0		The woman can ever think that no shoes shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=215	0		The woman can often think that no shoes shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=215	1		Some woman can ever think that the shoes shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=215	1		Some woman can often think that the shoes shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=215	0		The woman can ever think that some shoes shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=ever-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=215	0		The woman can often think that some shoes shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5880	1		No guys have thought that any actresses competed.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5880	1		No guys have thought that the actresses competed.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5880	0		Any guys have thought that no actresses competed.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5880	0		These guys have thought that no actresses competed.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5880	1		Some guys have thought that any actresses competed.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5880	1		Some guys have thought that the actresses competed.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5880	0		Any guys have thought that some actresses competed.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5880	0		These guys have thought that some actresses competed.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=3849	1		None of the doctors explained that the students had wept in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=3849	1		None of the doctors explained that the students had wept as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3849	0		The doctors explained in years that none of the students had wept.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3849	0		The doctors explained as well that none of the students had wept.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3849	1		Some doctors explained that the students had wept in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3849	1		Some doctors explained that the students had wept as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3849	0		The doctors explained in years that some students had wept.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3849	0		The doctors explained as well that some students had wept.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5405	1		No doctors explained that any ladies are arriving at the movie theater.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5405	1		No doctors explained that the ladies are arriving at the movie theater.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=5405	0		Any doctors explained that no ladies are arriving at the movie theater.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=5405	0		These doctors explained that no ladies are arriving at the movie theater.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5405	1		Some doctors explained that any ladies are arriving at the movie theater.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5405	1		Some doctors explained that the ladies are arriving at the movie theater.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5405	0		Any doctors explained that some ladies are arriving at the movie theater.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5405	0		These doctors explained that some ladies are arriving at the movie theater.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1060	1		No patient was saying that the banks did resemble a dish yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1060	1		No patient was saying that the banks did resemble a dish as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1060	0		A patient was saying yet that no banks did resemble a dish.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=1060	0		A patient was saying as well that no banks did resemble a dish.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1060	1		Some patient was saying that the banks did resemble a dish yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1060	1		Some patient was saying that the banks did resemble a dish as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1060	0		A patient was saying yet that some banks did resemble a dish.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1060	0		A patient was saying as well that some banks did resemble a dish.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=4704	1		None of the doctors are thinking that the waitresses were visiting the hospitals either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=4704	1		None of the doctors are thinking that the waitresses were visiting the hospitals as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4704	0		The doctors are thinking either that none of the waitresses were visiting the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4704	0		The doctors are thinking as well that none of the waitresses were visiting the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4704	1		Some doctors are thinking that the waitresses were visiting the hospitals either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4704	1		Some doctors are thinking that the waitresses were visiting the hospitals as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4704	0		The doctors are thinking either that some waitresses were visiting the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4704	0		The doctors are thinking as well that some waitresses were visiting the hospitals.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1747	1		No patients were imagining that the ladies were succeeding yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1747	1		No patients were imagining that the ladies were succeeding for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=1747	0		The patients were imagining yet that no ladies were succeeding.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=1747	0		The patients were imagining for a while that no ladies were succeeding.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1747	1		Some patients were imagining that the ladies were succeeding yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1747	1		Some patients were imagining that the ladies were succeeding for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1747	0		The patients were imagining yet that some ladies were succeeding.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1747	0		The patients were imagining for a while that some ladies were succeeding.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4103	1		No patient is explaining that the college campuses did resemble a man either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4103	1		No patient is explaining that the college campuses did resemble a man regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4103	0		A patient is explaining either that no college campuses did resemble a man.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4103	0		A patient is explaining regularly that no college campuses did resemble a man.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4103	1		Some patient is explaining that the college campuses did resemble a man either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4103	1		Some patient is explaining that the college campuses did resemble a man regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4103	0		A patient is explaining either that some college campuses did resemble a man.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4103	0		A patient is explaining regularly that some college campuses did resemble a man.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4902	1		No guest said that the hospitals will resemble the boy either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4902	1		No guest said that the hospitals will resemble the boy regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4902	0		A guest said either that no hospitals will resemble the boy.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4902	0		A guest said regularly that no hospitals will resemble the boy.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4902	1		Some guest said that the hospitals will resemble the boy either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4902	1		Some guest said that the hospitals will resemble the boy regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4902	0		A guest said either that some hospitals will resemble the boy.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4902	0		A guest said regularly that some hospitals will resemble the boy.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=2390	1		None of the actresses will explain that the essays were discussing a dancer at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=2390	1		None of the actresses will explain that the essays were discussing a dancer on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2390	0		The actresses will explain at all that none of the essays were discussing a dancer.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2390	0		The actresses will explain on occasion that none of the essays were discussing a dancer.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2390	1		Some actresses will explain that the essays were discussing a dancer at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2390	1		Some actresses will explain that the essays were discussing a dancer on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2390	0		The actresses will explain at all that some essays were discussing a dancer.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2390	0		The actresses will explain on occasion that some essays were discussing a dancer.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2436	1		No driver imagined that the actors were kissing the senators at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2436	1		No driver imagined that the actors were kissing the senators on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2436	0		The driver imagined at all that no actors were kissing the senators.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2436	0		The driver imagined on weekends that no actors were kissing the senators.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2436	1		Some driver imagined that the actors were kissing the senators at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2436	1		Some driver imagined that the actors were kissing the senators on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2436	0		The driver imagined at all that some actors were kissing the senators.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2436	0		The driver imagined on weekends that some actors were kissing the senators.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2389	1		No actors are imagining that the dishes will resemble the plates at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2389	1		No actors are imagining that the dishes will resemble the plates for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2389	0		The actors are imagining at all that no dishes will resemble the plates.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2389	0		The actors are imagining for a while that no dishes will resemble the plates.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2389	1		Some actors are imagining that the dishes will resemble the plates at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2389	1		Some actors are imagining that the dishes will resemble the plates for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2389	0		The actors are imagining at all that some dishes will resemble the plates.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2389	0		The actors are imagining for a while that some dishes will resemble the plates.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=2905	1		No man had said that the ladies have taken a fork at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=2905	1		No man had said that the ladies have taken a fork regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=2905	0		A man had said at all that no ladies have taken a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=2905	0		A man had said regularly that no ladies have taken a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=2905	1		Some man had said that the ladies have taken a fork at all.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=2905	1		Some man had said that the ladies have taken a fork regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=2905	0		A man had said at all that some ladies have taken a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=at all-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=2905	0		A man had said regularly that some ladies have taken a fork.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1482	1		No boy is explaining that the documentaries should disagree yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1482	1		No boy is explaining that the documentaries should disagree on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1482	0		A boy is explaining yet that no documentaries should disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1482	0		A boy is explaining on weekends that no documentaries should disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1482	1		Some boy is explaining that the documentaries should disagree yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1482	1		Some boy is explaining that the documentaries should disagree on weekends.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1482	0		A boy is explaining yet that some documentaries should disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1482	0		A boy is explaining on weekends that some documentaries should disagree.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5422	1		No students do say that any students care for the cashiers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5422	1		No students do say that those students care for the cashiers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5422	0		Any students do say that no students care for the cashiers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5422	0		Those students do say that no students care for the cashiers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5422	1		Some students do say that any students care for the cashiers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5422	1		Some students do say that those students care for the cashiers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5422	0		Any students do say that some students care for the cashiers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5422	0		Those students do say that some students care for the cashiers.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=5400	1		No men thought that any gals learned.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=5400	1		No men thought that these gals learned.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=5400	0		Any men thought that no gals learned.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=5400	0		These men thought that no gals learned.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=5400	1		Some men thought that any gals learned.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=5400	1		Some men thought that these gals learned.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=5400	0		Any men thought that some gals learned.
+experiment=NPI-env=determiner_negation_biclausal-npi=any-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=5400	0		These men thought that some gals learned.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=1672	1		None of the boys think that the adults are discussing the college campus yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=1672	1		None of the boys think that the adults are discussing the college campus regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1672	0		The boys think yet that none of the adults are discussing the college campus.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1672	0		The boys think regularly that none of the adults are discussing the college campus.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1672	1		Some boys think that the adults are discussing the college campus yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1672	1		Some boys think that the adults are discussing the college campus regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1672	0		The boys think yet that some adults are discussing the college campus.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1672	0		The boys think regularly that some adults are discussing the college campus.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3674	1		No ladies have imagined that the stories have won in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3674	1		No ladies have imagined that the stories have won regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=3674	0		The ladies have imagined in years that no stories have won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=3674	0		The ladies have imagined regularly that no stories have won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3674	1		Some ladies have imagined that the stories have won in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3674	1		Some ladies have imagined that the stories have won regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3674	0		The ladies have imagined in years that some stories have won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3674	0		The ladies have imagined regularly that some stories have won.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3252	1		No pedestrian has said that the actors boycotted the movie theaters in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3252	1		No pedestrian has said that the actors boycotted the movie theaters regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=3252	0		A pedestrian has said in years that no actors boycotted the movie theaters.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=3252	0		A pedestrian has said regularly that no actors boycotted the movie theaters.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3252	1		Some pedestrian has said that the actors boycotted the movie theaters in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3252	1		Some pedestrian has said that the actors boycotted the movie theaters regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3252	0		A pedestrian has said in years that some actors boycotted the movie theaters.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3252	0		A pedestrian has said regularly that some actors boycotted the movie theaters.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=4118	1		None of the guys have thought that the shoes can shrink either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=4118	1		None of the guys have thought that the shoes can shrink on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=1-paradigm=4118	0		The guys have thought either that none of the shoes can shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=0-npi_present=0-paradigm=4118	0		The guys have thought on occasion that none of the shoes can shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4118	1		Some guys have thought that the shoes can shrink either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4118	1		Some guys have thought that the shoes can shrink on occasion.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4118	0		The guys have thought either that some shoes can shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4118	0		The guys have thought on occasion that some shoes can shrink.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=3023	1		No waiter thought that the boys clashed in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=3023	1		No waiter thought that the boys clashed regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3023	0		The waiter thought in years that no boys clashed.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3023	0		The waiter thought regularly that no boys clashed.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3023	1		Some waiter thought that the boys clashed in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3023	1		Some waiter thought that the boys clashed regularly.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3023	0		The waiter thought in years that some boys clashed.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3023	0		The waiter thought regularly that some boys clashed.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=4736	1		No student had thought that the gals do interact either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=4736	1		No student had thought that the gals do interact for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=4736	0		The student had thought either that no gals do interact.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=4736	0		The student had thought for a while that no gals do interact.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=4736	1		Some student had thought that the gals do interact either.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=4736	1		Some student had thought that the gals do interact for a while.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=4736	0		The student had thought either that some gals do interact.
+experiment=NPI-env=determiner_negation_biclausal-npi=either-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=4736	0		The student had thought for a while that some gals do interact.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=1-paradigm=1389	1		No ladies can think that the cafes do resemble the cars yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=no-licensor=1-scope=1-npi_present=0-paradigm=1389	1		No ladies can think that the cafes do resemble the cars as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=1389	0		The ladies can think yet that no cafes do resemble the cars.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=1389	0		The ladies can think as well that no cafes do resemble the cars.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=1389	1		Some ladies can think that the cafes do resemble the cars yet.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=1389	1		Some ladies can think that the cafes do resemble the cars as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=1389	0		The ladies can think yet that some cafes do resemble the cars.
+experiment=NPI-env=determiner_negation_biclausal-npi=yet-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=1389	0		The ladies can think as well that some cafes do resemble the cars.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=1-npi_present=1-paradigm=3483	1		None of the ladies imagined that the waiters approved in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=1-npi_present=0-paradigm=3483	1		None of the ladies imagined that the waiters approved as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=1-paradigm=3483	0		The ladies imagined in years that none of the waiters approved.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=none of the-licensor=1-scope=0-npi_present=0-paradigm=3483	0		The ladies imagined as well that none of the waiters approved.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=1-paradigm=3483	1		Some ladies imagined that the waiters approved in years.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=1-npi_present=0-paradigm=3483	1		Some ladies imagined that the waiters approved as well.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=1-paradigm=3483	0		The ladies imagined in years that some waiters approved.
+experiment=NPI-env=determiner_negation_biclausal-npi=in years-crucial_item=some-licensor=0-scope=0-npi_present=0-paradigm=3483	0		The ladies imagined as well that some waiters approved.

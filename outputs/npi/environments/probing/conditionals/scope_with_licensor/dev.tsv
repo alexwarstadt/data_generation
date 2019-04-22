@@ -1,0 +1,500 @@
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=328	1		If the patients ever sell the dishes, the waitresses will escape from the hospitals.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=328	1		If the patients clearly sell the dishes, the waitresses will escape from the hospitals.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=328	0		If the patients sell the dishes, the waitresses will ever escape from the hospitals.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=328	0		If the patients sell the dishes, the waitresses will clearly escape from the hospitals.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4125	1		If the guests have forgotten the documentaries in years, the man will investigate the waiters.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4125	1		If the guests have forgotten the documentaries on occasion, the man will investigate the waiters.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4125	0		If the guests have forgotten the documentaries, the man will investigate the waiters in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4125	0		If the guests have forgotten the documentaries, the man will investigate the waiters on occasion.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3665	1		If the teacher works with the waiters at all, the teenagers will approach the senators.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3665	1		If the teacher works with the waiters for a while, the teenagers will approach the senators.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3665	0		If the teacher works with the waiters, the teenagers will approach the senators at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3665	0		If the teacher works with the waiters, the teenagers will approach the senators for a while.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5998	1		If the women run around the high schools either, the senator will go to the restaurants.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5998	1		If the women run around the high schools as well, the senator will go to the restaurants.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5998	0		If the women run around the high schools, the senator will go to the restaurants either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5998	0		If the women run around the high schools, the senator will go to the restaurants as well.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2568	1		If the ladies return to the girls yet, the waiters will love the women.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2568	1		If the ladies return to the girls as well, the waiters will love the women.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2568	0		If the ladies return to the girls, the waiters will love the women yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2568	0		If the ladies return to the girls, the waiters will love the women as well.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4251	1		If the guys have referenced the pedestrians in years, the boys will clean the cups.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4251	1		If the guys have referenced the pedestrians regularly, the boys will clean the cups.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4251	0		If the guys have referenced the pedestrians, the boys will clean the cups in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4251	0		If the guys have referenced the pedestrians, the boys will clean the cups regularly.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4276	1		If the boy had scanned the movies in years, the driver will love the girls.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4276	1		If the boy had scanned the movies on occasion, the driver will love the girls.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4276	0		If the boy had scanned the movies, the driver will love the girls in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4276	0		If the boy had scanned the movies, the driver will love the girls on occasion.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1436	1		If the guy examines any plays, the patients will walk through the high schools.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1436	1		If the guy examines the plays, the patients will walk through the high schools.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1436	0		If the guy examines the plays, the patients will walk through any high schools.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1436	0		If the the guy the examines, the plays will patients walk through high schools.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2158	1		If the actor hates the pedestrians yet, the customers will sell the glasses.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2158	1		If the actor hates the pedestrians as well, the customers will sell the glasses.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2158	0		If the actor hates the pedestrians, the customers will sell the glasses yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2158	0		If the actor hates the pedestrians, the customers will sell the glasses as well.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4081	1		If the guests have disliked the banks in years, the doctor will forget the men.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4081	1		If the guests have disliked the banks on occasion, the doctor will forget the men.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4081	0		If the guests have disliked the banks, the doctor will forget the men in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4081	0		If the guests have disliked the banks, the doctor will forget the men on occasion.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=282	1		If the ladies ever scan the commentaries, the people will skate around the movie theaters.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=282	1		If the ladies often scan the commentaries, the people will skate around the movie theaters.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=282	0		If the ladies scan the commentaries, the people will ever skate around the movie theaters.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=282	0		If the ladies scan the commentaries, the people will often skate around the movie theaters.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4318	1		If the guests had skated around the museums in years, the guest will approach the cashiers.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4318	1		If the guests had skated around the museums for a while, the guest will approach the cashiers.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4318	0		If the guests had skated around the museums, the guest will approach the cashiers in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4318	0		If the guests had skated around the museums, the guest will approach the cashiers for a while.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1065	1		If the people watch any teachers, the cashiers will scan the documentaries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1065	1		If the people watch the teachers, the cashiers will scan the documentaries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1065	0		If the people watch the teachers, the cashiers will scan any documentaries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1065	0		If the the people the watch, the teachers will cashiers scan documentaries.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3659	1		If the senators talk to the teenagers at all, the actors will attack the guys.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3659	1		If the senators talk to the teenagers on occasion, the actors will attack the guys.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3659	0		If the senators talk to the teenagers, the actors will attack the guys at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3659	0		If the senators talk to the teenagers, the actors will attack the guys on occasion.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2942	1		If the men exit the libraries yet, the doctor will leave the patients.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2942	1		If the men exit the libraries on weekends, the doctor will leave the patients.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2942	0		If the men exit the libraries, the doctor will leave the patients yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2942	0		If the men exit the libraries, the doctor will leave the patients on weekends.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5978	1		If the guys arrive at the hospitals either, the adult will investigate the college campuses.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5978	1		If the guys arrive at the hospitals as well, the adult will investigate the college campuses.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5978	0		If the guys arrive at the hospitals, the adult will investigate the college campuses either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5978	0		If the guys arrive at the hospitals, the adult will investigate the college campuses as well.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=988	1		If the actors ever break the chairs, the man will flee from the schools.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=988	1		If the actors fortunately break the chairs, the man will flee from the schools.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=988	0		If the actors break the chairs, the man will ever flee from the schools.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=988	0		If the actors break the chairs, the man will fortunately flee from the schools.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=217	1		If the doctors ever flee from the patients, the woman will talk about the men.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=217	1		If the doctors fortunately flee from the patients, the woman will talk about the men.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=217	0		If the doctors flee from the patients, the woman will ever talk about the men.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=217	0		If the doctors flee from the patients, the woman will fortunately talk about the men.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4331	1		If the adult had talked to the senators in years, the children will hug the drivers.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4331	1		If the adult had talked to the senators on occasion, the children will hug the drivers.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4331	0		If the adult had talked to the senators, the children will hug the drivers in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4331	0		If the adult had talked to the senators, the children will hug the drivers on occasion.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=311	1		If the teacher ever respects the children, the driver will talk about the people.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=311	1		If the teacher also respects the children, the driver will talk about the people.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=311	0		If the teacher respects the children, the driver will ever talk about the people.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=311	0		If the teacher respects the children, the driver will also talk about the people.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3392	1		If the boy dislikes the stories at all, the guests will return to the hospitals.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3392	1		If the boy dislikes the stories on weekends, the guests will return to the hospitals.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3392	0		If the boy dislikes the stories, the guests will return to the hospitals at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3392	0		If the boy dislikes the stories, the guests will return to the hospitals on weekends.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3748	1		If the driver drops by the libraries at all, the actor will have the forks.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3748	1		If the driver drops by the libraries for a while, the actor will have the forks.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3748	0		If the driver drops by the libraries, the actor will have the forks at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3748	0		If the driver drops by the libraries, the actor will have the forks for a while.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3972	1		If the teenagers help the teachers at all, the ladies will return to the customers.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3972	1		If the teenagers help the teachers regularly, the ladies will return to the customers.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3972	0		If the teenagers help the teachers, the ladies will return to the customers at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3972	0		If the teenagers help the teachers, the ladies will return to the customers regularly.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2008	1		If the people forget the dancers yet, the students will describe the hospitals.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2008	1		If the people forget the dancers for a while, the students will describe the hospitals.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2008	0		If the people forget the dancers, the students will describe the hospitals yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2008	0		If the people forget the dancers, the students will describe the hospitals for a while.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1592	1		If the person admires any women, the actresses will sell the gloves.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1592	1		If the person admires the women, the actresses will sell the gloves.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1592	0		If the person admires the women, the actresses will sell any gloves.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1592	0		If the the person the admires, the women will actresses sell gloves.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1887	1		If the drivers tour any hospitals, the actor will escape from the college campuses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1887	1		If the drivers tour the hospitals, the actor will escape from the college campuses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1887	0		If the drivers tour the hospitals, the actor will escape from any college campuses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1887	0		If the the drivers the tour, the hospitals will actor escape from college campuses.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4678	1		If the lady had worn the gloves in years, the doctor will lift the dishes.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4678	1		If the lady had worn the gloves for a while, the doctor will lift the dishes.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4678	0		If the lady had worn the gloves, the doctor will lift the dishes in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4678	0		If the lady had worn the gloves, the doctor will lift the dishes for a while.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1276	1		If the women attack any children, the guys will skate around the college campuses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1276	1		If the women attack those children, the guys will skate around the college campuses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1276	0		If the women attack the children, the guys will skate around any college campuses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1276	0		If the those women the attack, the children will guys skate around college campuses.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5200	1		If the girl drives to the public parks either, the teachers will break the forks.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5200	1		If the girl drives to the public parks for a while, the teachers will break the forks.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5200	0		If the girl drives to the public parks, the teachers will break the forks either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5200	0		If the girl drives to the public parks, the teachers will break the forks for a while.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1731	1		If the pedestrians break any forks, the patients will walk through the public parks.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1731	1		If the pedestrians break the forks, the patients will walk through the public parks.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1731	0		If the pedestrians break the forks, the patients will walk through any public parks.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1731	0		If the the pedestrians the break, the forks will patients walk through public parks.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2112	1		If the girl returns to the movie theaters yet, the doctors will observe the waitresses.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2112	1		If the girl returns to the movie theaters regularly, the doctors will observe the waitresses.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2112	0		If the girl returns to the movie theaters, the doctors will observe the waitresses yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2112	0		If the girl returns to the movie theaters, the doctors will observe the waitresses regularly.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4864	1		If the teacher has visited the high schools in years, the driver will wear the glasses.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4864	1		If the teacher has visited the high schools on weekends, the driver will wear the glasses.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4864	0		If the teacher has visited the high schools, the driver will wear the glasses in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4864	0		If the teacher has visited the high schools, the driver will wear the glasses on weekends.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=203	1		If the man ever listens to the men, the dancer will examine the commentaries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=203	1		If the man obviously listens to the men, the dancer will examine the commentaries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=203	0		If the man listens to the men, the dancer will ever examine the commentaries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=203	0		If the man listens to the men, the dancer will obviously examine the commentaries.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4672	1		If the drivers have examined the books in years, the doctor will walk through the banks.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4672	1		If the drivers have examined the books on weekends, the doctor will walk through the banks.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4672	0		If the drivers have examined the books, the doctor will walk through the banks in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4672	0		If the drivers have examined the books, the doctor will walk through the banks on weekends.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2225	1		If the adults drop by the cafes yet, the girl will know the waitresses.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2225	1		If the adults drop by the cafes on weekends, the girl will know the waitresses.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2225	0		If the adults drop by the cafes, the girl will know the waitresses yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2225	0		If the adults drop by the cafes, the girl will know the waitresses on weekends.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3305	1		If the guys sell the rugs at all, the cashiers will drop by the libraries.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3305	1		If the guys sell the rugs on weekends, the cashiers will drop by the libraries.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3305	0		If the guys sell the rugs, the cashiers will drop by the libraries at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3305	0		If the guys sell the rugs, the cashiers will drop by the libraries on weekends.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1168	1		If the man bikes to any movie theaters, the guy will respect the girls.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1168	1		If the man bikes to those movie theaters, the guy will respect the girls.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1168	0		If the man bikes to the movie theaters, the guy will respect any girls.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1168	0		If the those man the bikes to, the movie theaters will guy respect girls.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2175	1		If the waiters help the children yet, the students will remember the art galleries.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2175	1		If the waiters help the children as well, the students will remember the art galleries.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2175	0		If the waiters help the children, the students will remember the art galleries yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2175	0		If the waiters help the children, the students will remember the art galleries as well.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1051	1		If the waiters visit any hospitals, the people will walk through the malls.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1051	1		If the waiters visit those hospitals, the people will walk through the malls.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1051	0		If the waiters visit the hospitals, the people will walk through any malls.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1051	0		If the those waiters the visit, the hospitals will people walk through malls.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4548	1		If the actress has listened to the patients in years, the women will pass the schools.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4548	1		If the actress has listened to the patients on weekends, the women will pass the schools.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4548	0		If the actress has listened to the patients, the women will pass the schools in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4548	0		If the actress has listened to the patients, the women will pass the schools on weekends.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=882	1		If the children ever bike to the schools, the boys will pass the libraries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=882	1		If the children often bike to the schools, the boys will pass the libraries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=882	0		If the children bike to the schools, the boys will ever pass the libraries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=882	0		If the children bike to the schools, the boys will often pass the libraries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1603	1		If the guy wears any gloves, the doctor will clean the glasses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1603	1		If the guy wears these gloves, the doctor will clean the glasses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1603	0		If the guy wears the gloves, the doctor will clean any glasses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1603	0		If the these guy the wears, the gloves will doctor clean glasses.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5045	1		If the girls sell the books either, the guy will walk through the museums.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5045	1		If the girls sell the books on weekends, the guy will walk through the museums.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5045	0		If the girls sell the books, the guy will walk through the museums either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5045	0		If the girls sell the books, the guy will walk through the museums on weekends.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=389	1		If the waitresses ever respect the art galleries, the senators will see the customers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=389	1		If the waitresses obviously respect the art galleries, the senators will see the customers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=389	0		If the waitresses respect the art galleries, the senators will ever see the customers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=389	0		If the waitresses respect the art galleries, the senators will obviously see the customers.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4186	1		If the students have bought the books in years, the girls will skate around the art galleries.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4186	1		If the students have bought the books on occasion, the girls will skate around the art galleries.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4186	0		If the students have bought the books, the girls will skate around the art galleries in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4186	0		If the students have bought the books, the girls will skate around the art galleries on occasion.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1443	1		If the dancers explore any restaurants, the student will bike to the hospitals.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1443	1		If the dancers explore the restaurants, the student will bike to the hospitals.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1443	0		If the dancers explore the restaurants, the student will bike to any hospitals.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1443	0		If the the dancers the explore, the restaurants will student bike to hospitals.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4003	1		If the senator has biked to the schools in years, the actor will discuss the newspaper articles.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4003	1		If the senator has biked to the schools for a while, the actor will discuss the newspaper articles.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4003	0		If the senator has biked to the schools, the actor will discuss the newspaper articles in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4003	0		If the senator has biked to the schools, the actor will discuss the newspaper articles for a while.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4183	1		If the actress had boycotted the hospitals in years, the lady will sell the cars.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4183	1		If the actress had boycotted the hospitals as well, the lady will sell the cars.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4183	0		If the actress had boycotted the hospitals, the lady will sell the cars in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4183	0		If the actress had boycotted the hospitals, the lady will sell the cars as well.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=803	1		If the cashiers ever see the reports, the waitress will care for the teenagers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=803	1		If the cashiers often see the reports, the waitress will care for the teenagers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=803	0		If the cashiers see the reports, the waitress will ever care for the teenagers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=803	0		If the cashiers see the reports, the waitress will often care for the teenagers.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5873	1		If the cashiers arrive at the malls either, the children will investigate the people.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5873	1		If the cashiers arrive at the malls regularly, the children will investigate the people.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5873	0		If the cashiers arrive at the malls, the children will investigate the people either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5873	0		If the cashiers arrive at the malls, the children will investigate the people regularly.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2651	1		If the dancer scans the stories yet, the senators will like the girls.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2651	1		If the dancer scans the stories for a while, the senators will like the girls.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2651	0		If the dancer scans the stories, the senators will like the girls yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2651	0		If the dancer scans the stories, the senators will like the girls for a while.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3981	1		If the patient hugs the dancers at all, the girls will help the boys.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3981	1		If the patient hugs the dancers regularly, the girls will help the boys.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3981	0		If the patient hugs the dancers, the girls will help the boys at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3981	0		If the patient hugs the dancers, the girls will help the boys regularly.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=455	1		If the teachers ever lift the cars, the student will bike to the libraries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=455	1		If the teachers obviously lift the cars, the student will bike to the libraries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=455	0		If the teachers lift the cars, the student will ever bike to the libraries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=455	0		If the teachers lift the cars, the student will obviously bike to the libraries.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5841	1		If the guest hugs the children either, the adults will kiss the doctors.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5841	1		If the guest hugs the children regularly, the adults will kiss the doctors.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5841	0		If the guest hugs the children, the adults will kiss the doctors either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5841	0		If the guest hugs the children, the adults will kiss the doctors regularly.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1780	1		If the patients remember any hospitals, the student will return to the actresses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1780	1		If the patients remember the hospitals, the student will return to the actresses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1780	0		If the patients remember the hospitals, the student will return to any actresses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1780	0		If the the patients the remember, the hospitals will student return to actresses.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5891	1		If the dancers leave the doctors either, the adult will explore the cafes.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5891	1		If the dancers leave the doctors for a while, the adult will explore the cafes.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5891	0		If the dancers leave the doctors, the adult will explore the cafes either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5891	0		If the dancers leave the doctors, the adult will explore the cafes for a while.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4438	1		If the patient had left the high schools in years, the guests will explore the museums.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4438	1		If the patient had left the high schools on occasion, the guests will explore the museums.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4438	0		If the patient had left the high schools, the guests will explore the museums in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4438	0		If the patient had left the high schools, the guests will explore the museums on occasion.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4903	1		If the lady has passed the college campuses in years, the actress will hate the doctors.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4903	1		If the lady has passed the college campuses for a while, the actress will hate the doctors.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4903	0		If the lady has passed the college campuses, the actress will hate the doctors in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4903	0		If the lady has passed the college campuses, the actress will hate the doctors for a while.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2040	1		If the students admire the patients yet, the teachers will leave the malls.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2040	1		If the students admire the patients on weekends, the teachers will leave the malls.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2040	0		If the students admire the patients, the teachers will leave the malls yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2040	0		If the students admire the patients, the teachers will leave the malls on weekends.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5055	1		If the guy knows the pedestrians either, the teenager will sell the cups.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5055	1		If the guy knows the pedestrians on weekends, the teenager will sell the cups.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5055	0		If the guy knows the pedestrians, the teenager will sell the cups either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5055	0		If the guy knows the pedestrians, the teenager will sell the cups on weekends.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1290	1		If the men hug any boys, the boy will skate around the movie theaters.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1290	1		If the men hug these boys, the boy will skate around the movie theaters.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1290	0		If the men hug the boys, the boy will skate around any movie theaters.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1290	0		If the these men the hug, the boys will boy skate around movie theaters.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1939	1		If the cashier buys any pants, the boy will have the books.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1939	1		If the cashier buys those pants, the boy will have the books.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1939	0		If the cashier buys the pants, the boy will have any books.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1939	0		If the those cashier the buys, the pants will boy have books.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2243	1		If the actress talks about the museums yet, the girls will talk about the people.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2243	1		If the actress talks about the museums on weekends, the girls will talk about the people.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2243	0		If the actress talks about the museums, the girls will talk about the people yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2243	0		If the actress talks about the museums, the girls will talk about the people on weekends.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1945	1		If the senators skate around any high schools, the boy will be at the banks.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1945	1		If the senators skate around those high schools, the boy will be at the banks.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1945	0		If the senators skate around the high schools, the boy will be at any banks.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1945	0		If the those senators the skate around, the high schools will boy be at banks.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=875	1		If the teacher ever references the books, the girls will kiss the customers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=875	1		If the teacher obviously references the books, the girls will kiss the customers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=875	0		If the teacher references the books, the girls will ever kiss the customers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=875	0		If the teacher references the books, the girls will obviously kiss the customers.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5013	1		If the people approach the men either, the patients will listen to the actors.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5013	1		If the people approach the men as well, the patients will listen to the actors.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5013	0		If the people approach the men, the patients will listen to the actors either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5013	0		If the people approach the men, the patients will listen to the actors as well.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4872	1		If the girl had arrived at the high schools in years, the teacher will walk through the schools.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4872	1		If the girl had arrived at the high schools as well, the teacher will walk through the schools.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4872	0		If the girl had arrived at the high schools, the teacher will walk through the schools in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4872	0		If the girl had arrived at the high schools, the teacher will walk through the schools as well.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1432	1		If the teenager exits any movie theaters, the guests will dislike the art galleries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1432	1		If the teenager exits the movie theaters, the guests will dislike the art galleries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1432	0		If the teenager exits the movie theaters, the guests will dislike any art galleries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1432	0		If the the teenager the exits, the movie theaters will guests dislike art galleries.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3987	1		If the boys reference the men at all, the lady will boycott the public parks.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3987	1		If the boys reference the men as well, the lady will boycott the public parks.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3987	0		If the boys reference the men, the lady will boycott the public parks at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3987	0		If the boys reference the men, the lady will boycott the public parks as well.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5359	1		If the man tours the museums either, the girls will skate around the schools.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5359	1		If the man tours the museums for a while, the girls will skate around the schools.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5359	0		If the man tours the museums, the girls will skate around the schools either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5359	0		If the man tours the museums, the girls will skate around the schools for a while.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2396	1		If the doctors are at the public parks yet, the doctor will discuss the boys.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2396	1		If the doctors are at the public parks on occasion, the doctor will discuss the boys.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2396	0		If the doctors are at the public parks, the doctor will discuss the boys yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2396	0		If the doctors are at the public parks, the doctor will discuss the boys on occasion.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2680	1		If the student remembers the movies yet, the cashier will like the children.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2680	1		If the student remembers the movies for a while, the cashier will like the children.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2680	0		If the student remembers the movies, the cashier will like the children yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2680	0		If the student remembers the movies, the cashier will like the children for a while.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4798	1		If the guys had investigated the actors in years, the customer will leave the actresses.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4798	1		If the guys had investigated the actors as well, the customer will leave the actresses.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4798	0		If the guys had investigated the actors, the customer will leave the actresses in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4798	0		If the guys had investigated the actors, the customer will leave the actresses as well.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2470	1		If the teacher cleans the pants yet, the woman will visit the hospitals.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2470	1		If the teacher cleans the pants on occasion, the woman will visit the hospitals.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2470	0		If the teacher cleans the pants, the woman will visit the hospitals yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2470	0		If the teacher cleans the pants, the woman will visit the hospitals on occasion.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1518	1		If the actress describes any waiters, the actresses will escape from the students.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1518	1		If the actress describes those waiters, the actresses will escape from the students.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1518	0		If the actress describes the waiters, the actresses will escape from any students.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1518	0		If the those actress the describes, the waiters will actresses escape from students.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1093	1		If the cashier attacks any students, the driver will go to the cafes.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1093	1		If the cashier attacks these students, the driver will go to the cafes.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1093	0		If the cashier attacks the students, the driver will go to any cafes.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1093	0		If the these cashier the attacks, the students will driver go to cafes.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1458	1		If the cashier attacks any patients, the girl will bike to the cafes.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1458	1		If the cashier attacks the patients, the girl will bike to the cafes.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1458	0		If the cashier attacks the patients, the girl will bike to any cafes.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1458	0		If the the cashier the attacks, the patients will girl bike to cafes.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1489	1		If the cashier loves any actors, the man will love the reports.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1489	1		If the cashier loves the actors, the man will love the reports.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1489	0		If the cashier loves the actors, the man will love any reports.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1489	0		If the the cashier the loves, the actors will man love reports.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4519	1		If the man has praised the teachers in years, the lady will help the guests.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4519	1		If the man has praised the teachers as well, the lady will help the guests.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4519	0		If the man has praised the teachers, the lady will help the guests in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4519	0		If the man has praised the teachers, the lady will help the guests as well.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1690	1		If the people skate around any libraries, the drivers will walk through the art galleries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1690	1		If the people skate around the libraries, the drivers will walk through the art galleries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1690	0		If the people skate around the libraries, the drivers will walk through any art galleries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1690	0		If the the people the skate around, the libraries will drivers walk through art galleries.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3168	1		If the waitress wears the shoes at all, the customers will dislike the documentaries.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3168	1		If the waitress wears the shoes on occasion, the customers will dislike the documentaries.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3168	0		If the waitress wears the shoes, the customers will dislike the documentaries at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3168	0		If the waitress wears the shoes, the customers will dislike the documentaries on occasion.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3551	1		If the woman passes the banks at all, the waiter will skate around the cafes.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3551	1		If the woman passes the banks on occasion, the waiter will skate around the cafes.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3551	0		If the woman passes the banks, the waiter will skate around the cafes at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3551	0		If the woman passes the banks, the waiter will skate around the cafes on occasion.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2065	1		If the customers buy the pants yet, the pedestrians will kiss the doctors.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2065	1		If the customers buy the pants on weekends, the pedestrians will kiss the doctors.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2065	0		If the customers buy the pants, the pedestrians will kiss the doctors yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2065	0		If the customers buy the pants, the pedestrians will kiss the doctors on weekends.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3651	1		If the dancer runs around the public parks at all, the waitresses will listen to the drivers.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3651	1		If the dancer runs around the public parks regularly, the waitresses will listen to the drivers.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3651	0		If the dancer runs around the public parks, the waitresses will listen to the drivers at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3651	0		If the dancer runs around the public parks, the waitresses will listen to the drivers regularly.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1796	1		If the senator talks to any teachers, the actress will approach the women.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1796	1		If the senator talks to the teachers, the actress will approach the women.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1796	0		If the senator talks to the teachers, the actress will approach any women.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1796	0		If the the senator the talks to, the teachers will actress approach women.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1274	1		If the customers care for any drivers, the ladies will explore the movie theaters.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1274	1		If the customers care for the drivers, the ladies will explore the movie theaters.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1274	0		If the customers care for the drivers, the ladies will explore any movie theaters.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1274	0		If the the customers the care for, the drivers will ladies explore movie theaters.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1885	1		If the ladies criticize any essays, the dancer will go to the art galleries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1885	1		If the ladies criticize these essays, the dancer will go to the art galleries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1885	0		If the ladies criticize the essays, the dancer will go to any art galleries.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1885	0		If the these ladies the criticize, the essays will dancer go to art galleries.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=302	1		If the pedestrians ever return to the schools, the senator will take the reports.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=302	1		If the pedestrians obviously return to the schools, the senator will take the reports.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=302	0		If the pedestrians return to the schools, the senator will ever take the reports.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=302	0		If the pedestrians return to the schools, the senator will obviously take the reports.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4395	1		If the pedestrians had dropped by the hospitals in years, the boys will be at the art galleries.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4395	1		If the pedestrians had dropped by the hospitals for a while, the boys will be at the art galleries.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4395	0		If the pedestrians had dropped by the hospitals, the boys will be at the art galleries in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4395	0		If the pedestrians had dropped by the hospitals, the boys will be at the art galleries for a while.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1812	1		If the adults wear any pants, the senator will hate the guys.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1812	1		If the adults wear these pants, the senator will hate the guys.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1812	0		If the adults wear the pants, the senator will hate any guys.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1812	0		If the these adults the wear, the pants will senator hate guys.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3066	1		If the dancer arrives at the college campuses at all, the ladies will drop by the movie theaters.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3066	1		If the dancer arrives at the college campuses regularly, the ladies will drop by the movie theaters.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3066	0		If the dancer arrives at the college campuses, the ladies will drop by the movie theaters at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3066	0		If the dancer arrives at the college campuses, the ladies will drop by the movie theaters regularly.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=688	1		If the waiters ever examine the reports, the actor will take the couches.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=688	1		If the waiters clearly examine the reports, the actor will take the couches.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=688	0		If the waiters examine the reports, the actor will ever take the couches.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=688	0		If the waiters examine the reports, the actor will clearly take the couches.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1115	1		If the dancers go to any hospitals, the boys will go to the high schools.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1115	1		If the dancers go to the hospitals, the boys will go to the high schools.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1115	0		If the dancers go to the hospitals, the boys will go to any high schools.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1115	0		If the the dancers the go to, the hospitals will boys go to high schools.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4612	1		If the boys have walked through the college campuses in years, the waitresses will kiss the ladies.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4612	1		If the boys have walked through the college campuses on occasion, the waitresses will kiss the ladies.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4612	0		If the boys have walked through the college campuses, the waitresses will kiss the ladies in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4612	0		If the boys have walked through the college campuses, the waitresses will kiss the ladies on occasion.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1569	1		If the dancer observes any people, the boys will leave the students.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1569	1		If the dancer observes those people, the boys will leave the students.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1569	0		If the dancer observes the people, the boys will leave any students.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1569	0		If the those dancer the observes, the people will boys leave students.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=750	1		If the men ever have the shoes, the woman will talk about the college campuses.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=750	1		If the men obviously have the shoes, the woman will talk about the college campuses.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=750	0		If the men have the shoes, the woman will ever talk about the college campuses.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=750	0		If the men have the shoes, the woman will obviously talk about the college campuses.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5167	1		If the ladies listen to the dancers either, the senator will love the senators.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5167	1		If the ladies listen to the dancers regularly, the senator will love the senators.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5167	0		If the ladies listen to the dancers, the senator will love the senators either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5167	0		If the ladies listen to the dancers, the senator will love the senators regularly.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3656	1		If the people remember the patients at all, the women will break the glasses.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3656	1		If the people remember the patients on occasion, the women will break the glasses.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3656	0		If the people remember the patients, the women will break the glasses at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3656	0		If the people remember the patients, the women will break the glasses on occasion.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2721	1		If the patients run around the libraries yet, the teacher will approach the guys.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2721	1		If the patients run around the libraries regularly, the teacher will approach the guys.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2721	0		If the patients run around the libraries, the teacher will approach the guys yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2721	0		If the patients run around the libraries, the teacher will approach the guys regularly.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5463	1		If the waitress has the books either, the girls will buy the glasses.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5463	1		If the waitress has the books on occasion, the girls will buy the glasses.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5463	0		If the waitress has the books, the girls will buy the glasses either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5463	0		If the waitress has the books, the girls will buy the glasses on occasion.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2517	1		If the woman leaves the movie theaters yet, the adult will observe the people.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2517	1		If the woman leaves the movie theaters regularly, the adult will observe the people.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2517	0		If the woman leaves the movie theaters, the adult will observe the people yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2517	0		If the woman leaves the movie theaters, the adult will observe the people regularly.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1697	1		If the ladies examine any books, the patient will help the guests.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1697	1		If the ladies examine these books, the patient will help the guests.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1697	0		If the ladies examine the books, the patient will help any guests.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1697	0		If the these ladies the examine, the books will patient help guests.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4182	1		If the actors had left the patients in years, the actor will scan the stories.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4182	1		If the actors had left the patients on weekends, the actor will scan the stories.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4182	0		If the actors had left the patients, the actor will scan the stories in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4182	0		If the actors had left the patients, the actor will scan the stories on weekends.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=212	1		If the guy ever wears the shoes, the adult will walk through the cafes.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=212	1		If the guy clearly wears the shoes, the adult will walk through the cafes.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=212	0		If the guy wears the shoes, the adult will ever walk through the cafes.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=212	0		If the guy wears the shoes, the adult will clearly walk through the cafes.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3687	1		If the girls leave the malls at all, the students will see the actresses.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3687	1		If the girls leave the malls on weekends, the students will see the actresses.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3687	0		If the girls leave the malls, the students will see the actresses at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3687	0		If the girls leave the malls, the students will see the actresses on weekends.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1404	1		If the girl buys any forks, the ladies will examine the movies.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1404	1		If the girl buys the forks, the ladies will examine the movies.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1404	0		If the girl buys the forks, the ladies will examine any movies.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1404	0		If the the girl the buys, the forks will ladies examine movies.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=2415	1		If the customers like the actresses yet, the child will buy the books.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=2415	1		If the customers like the actresses on weekends, the child will buy the books.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=2415	0		If the customers like the actresses, the child will buy the books yet.
+experiment=NPI-env=conditional-npi=yet-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=2415	0		If the customers like the actresses, the child will buy the books on weekends.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1802	1		If the waitresses escape from any malls, the cashier will take the glasses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1802	1		If the waitresses escape from these malls, the cashier will take the glasses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1802	0		If the waitresses escape from the malls, the cashier will take any glasses.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1802	0		If the these waitresses the escape from, the malls will cashier take glasses.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5027	1		If the women flee from the people either, the teenagers will break the dishes.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5027	1		If the women flee from the people on weekends, the teenagers will break the dishes.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5027	0		If the women flee from the people, the teenagers will break the dishes either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5027	0		If the women flee from the people, the teenagers will break the dishes on weekends.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3626	1		If the adult forgets the cashiers at all, the boy will be at the schools.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3626	1		If the adult forgets the cashiers for a while, the boy will be at the schools.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3626	0		If the adult forgets the cashiers, the boy will be at the schools at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3626	0		If the adult forgets the cashiers, the boy will be at the schools for a while.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5659	1		If the waitresses exit the art galleries either, the guy will investigate the waiters.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5659	1		If the waitresses exit the art galleries as well, the guy will investigate the waiters.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5659	0		If the waitresses exit the art galleries, the guy will investigate the waiters either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5659	0		If the waitresses exit the art galleries, the guy will investigate the waiters as well.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=1144	1		If the men drop by any college campuses, the doctors will explore the museums.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=1144	1		If the men drop by those college campuses, the doctors will explore the museums.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=1144	0		If the men drop by the college campuses, the doctors will explore any museums.
+experiment=NPI-env=conditional-npi=any-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=1144	0		If the those men the drop by, the college campuses will doctors explore museums.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3338	1		If the guest talks about the high schools at all, the guests will love the pedestrians.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3338	1		If the guest talks about the high schools on occasion, the guests will love the pedestrians.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3338	0		If the guest talks about the high schools, the guests will love the pedestrians at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3338	0		If the guest talks about the high schools, the guests will love the pedestrians on occasion.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=112	1		If the ladies ever bike to the college campuses, the pedestrians will hate the dancers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=112	1		If the ladies often bike to the college campuses, the pedestrians will hate the dancers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=112	0		If the ladies bike to the college campuses, the pedestrians will ever hate the dancers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=112	0		If the ladies bike to the college campuses, the pedestrians will often hate the dancers.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=4365	1		If the teacher has approached the guys in years, the girls will care for the waiters.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=4365	1		If the teacher has approached the guys for a while, the girls will care for the waiters.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=4365	0		If the teacher has approached the guys, the girls will care for the waiters in years.
+experiment=NPI-env=conditional-npi=inyears-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=4365	0		If the teacher has approached the guys, the girls will care for the waiters for a while.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5593	1		If the men visit the schools either, the girl will go to the high schools.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5593	1		If the men visit the schools as well, the girl will go to the high schools.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5593	0		If the men visit the schools, the girl will go to the high schools either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5593	0		If the men visit the schools, the girl will go to the high schools as well.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3446	1		If the doctor likes the chairs at all, the woman will skate around the movie theaters.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3446	1		If the doctor likes the chairs for a while, the woman will skate around the movie theaters.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3446	0		If the doctor likes the chairs, the woman will skate around the movie theaters at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3446	0		If the doctor likes the chairs, the woman will skate around the movie theaters for a while.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=87	1		If the lady ever boycotts the cafes, the cashiers will clean the forks.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=87	1		If the lady obviously boycotts the cafes, the cashiers will clean the forks.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=87	0		If the lady boycotts the cafes, the cashiers will ever clean the forks.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=87	0		If the lady boycotts the cafes, the cashiers will obviously clean the forks.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3335	1		If the waiters observe the dancers at all, the ladies will discuss the malls.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3335	1		If the waiters observe the dancers on occasion, the ladies will discuss the malls.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3335	0		If the waiters observe the dancers, the ladies will discuss the malls at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3335	0		If the waiters observe the dancers, the ladies will discuss the malls on occasion.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=288	1		If the patient ever exits the schools, the adult will see the teenagers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=288	1		If the patient clearly exits the schools, the adult will see the teenagers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=288	0		If the patient exits the schools, the adult will ever see the teenagers.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=288	0		If the patient exits the schools, the adult will clearly see the teenagers.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3396	1		If the waitresses lift the chairs at all, the waiters will see the teachers.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3396	1		If the waitresses lift the chairs on weekends, the waiters will see the teachers.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3396	0		If the waitresses lift the chairs, the waiters will see the teachers at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3396	0		If the waitresses lift the chairs, the waiters will see the teachers on weekends.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5587	1		If the girl investigates the waitresses either, the ladies will explore the restaurants.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5587	1		If the girl investigates the waitresses as well, the ladies will explore the restaurants.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5587	0		If the girl investigates the waitresses, the ladies will explore the restaurants either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5587	0		If the girl investigates the waitresses, the ladies will explore the restaurants as well.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=5311	1		If the children clean the rugs either, the customers will drive to the public parks.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=5311	1		If the children clean the rugs regularly, the customers will drive to the public parks.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=5311	0		If the children clean the rugs, the customers will drive to the public parks either.
+experiment=NPI-env=conditional-npi=either-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=5311	0		If the children clean the rugs, the customers will drive to the public parks regularly.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=3619	1		If the people bike to the schools at all, the lady will visit the senators.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=3619	1		If the people bike to the schools as well, the lady will visit the senators.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=3619	0		If the people bike to the schools, the lady will visit the senators at all.
+experiment=NPI-env=conditional-npi=atall-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=3619	0		If the people bike to the schools, the lady will visit the senators as well.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=1-paradigm=536	1		If the person ever walks through the hospitals, the senator will exit the museums.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=1-npi_present=0-paradigm=536	1		If the person often walks through the hospitals, the senator will exit the museums.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=1-paradigm=536	0		If the person walks through the hospitals, the senator will ever exit the museums.
+experiment=NPI-env=conditional-npi=ever-crucial_item=if-licensor=1-scope=0-npi_present=0-paradigm=536	0		If the person walks through the hospitals, the senator will often exit the museums.
