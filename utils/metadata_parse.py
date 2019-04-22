@@ -6,6 +6,8 @@ from utils.vocab_table import *
 import os
 import itertools
 import random
+import shutil
+import re
 
 random.seed(1)
 
@@ -118,9 +120,64 @@ def make_splits(test_size=125, dev_size=125, train_size=1250):
                     train.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
 
 
+def make_probing_data():
+    """
+    Function that creates probing datasets for each environment (after splits have been created)
+    :return: none. writes to output
+    """
+    metadata_labels = ['licensor', 'scope', 'npi_present']
+    npi_path = "outputs/npi/environments/"
+    splits_path = os.path.join(npi_path, 'splits')
+    probing_path = os.path.join(npi_path, 'probing')
+    split_folders = os.listdir(splits_path)
 
+    if not os.path.isdir(probing_path):
+        os.mkdir(probing_path)  
+
+    for split_folder in split_folders:
+        if not os.path.isdir(os.path.join(probing_path, split_folder)):
+            os.mkdir(os.path.join(probing_path, split_folder))  
+
+        for metadata_label in metadata_labels:      
+
+            if not os.path.isdir(os.path.join(probing_path, split_folder, metadata_label)):
+                os.mkdir(os.path.join(probing_path, split_folder, metadata_label))
+
+            split_folder_files = ['train.tsv', 'dev.tsv', 'test_full.tsv']
+            #for file_name in split_folder_files:
+            #    full_file_name = os.path.join(split_folder, file_name)
+            #    shutil.copy(full_file_name, os.path.join(probing_path, metadata_label))
+            #split_folder_files.remove('test.tsv')
+
+            for file in split_folder_files:
+                infile = open(os.path.join(splits_path, split_folder, file), 'r')
+                lines = infile.read().split('\n')
+                lines = [re.sub('\t[0-9]\t\t', '\t'+x.split(metadata_label+'=')[1][0]+'\t\t', x) for x in lines if len(x) != 0]
+                infile.close()
+
+                outfile = open(os.path.join(probing_path, split_folder, metadata_label, file), 'w')
+                for line in lines:
+                    outfile.write(line+'\n')
+
+            infile = open(os.path.join(splits_path, split_folder, 'test.tsv'), 'r')
+            outfile = open(os.path.join(probing_path, split_folder, metadata_label, 'test.tsv'), 'w')
+            outfile.write(infile.read())
+            infile.close()
+            outfile.close()
+    
 # make_subsets(6)
                    
-make_splits(test_size=250, dev_size=250, train_size=2500)
+# make_splits(test_size=250, dev_size=250, train_size=2500)
+
+# make_probing_data()
+
+
+     
+
+        
+        
+        
+
+
 
 

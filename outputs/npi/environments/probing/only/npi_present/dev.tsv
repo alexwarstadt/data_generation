@@ -1,0 +1,1000 @@
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=988	1		Only a woman had ever dropped by the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=988	0		Only a woman had often dropped by the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=988	1		A woman had ever dropped by only the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=988	0		A woman had often dropped by only the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=988	1		Even a woman had ever dropped by the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=988	0		Even a woman had often dropped by the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=988	1		A woman had ever dropped by even the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=988	0		A woman had often dropped by even the restaurants.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4605	1		Only the ladies boycotted hospitals in years at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4605	0		Only the ladies boycotted hospitals on weekends at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4605	1		The ladies boycotted hospitals in years only at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4605	0		The ladies boycotted hospitals on weekends only at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4605	1		Even the ladies boycotted hospitals in years at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4605	0		Even the ladies boycotted hospitals on weekends at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4605	1		The ladies boycotted hospitals in years even at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4605	0		The ladies boycotted hospitals on weekends even at the art gallery.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=289	1		Only a doctor ever runs around the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=289	0		Only a doctor really runs around the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=289	1		A doctor ever runs around only the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=289	0		A doctor really runs around only the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=289	1		Even a doctor ever runs around the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=289	0		Even a doctor really runs around the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=289	1		A doctor ever runs around even the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=289	0		A doctor really runs around even the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=971	1		Only the girl ever was at the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=971	0		Only the girl really was at the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=971	1		The girl ever was at only the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=971	0		The girl really was at only the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=971	1		Even the girl ever was at the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=971	0		Even the girl really was at the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=971	1		The girl ever was at even the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=971	0		The girl really was at even the museums.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3583	1		Only the child criticized men yet at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3583	0		Only the child criticized men regularly at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3583	1		The child criticized men yet only at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3583	0		The child criticized men regularly only at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3583	1		Even the child criticized men yet at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3583	0		Even the child criticized men regularly at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3583	1		The child criticized men yet even at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3583	0		The child criticized men regularly even at the museum.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1937	1		Only the waiters see any women.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1937	0		Only the waiters see these women.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1937	1		Any waiters only see the women.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1937	0		Those waiters only see the women.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1937	1		Even the waiters see any women.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1937	0		Even the waiters see these women.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1937	1		Any waiters even see the women.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1937	0		Those waiters even see the women.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2268	1		Only the women are working with children at all at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2268	0		Only the women are working with children as well at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2268	1		The women are working with children at all only at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2268	0		The women children as well only at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2268	1		Even the women are working with children at all at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2268	0		Even the women are working with children as well at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2268	1		The women are working with children at all even at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2268	0		The women children as well even at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2491	1		Only the customers grin at all at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2491	0		Only the customers grin on occasion at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2491	1		The customers grin at all only at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2491	0		The customers on occasion only at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2491	1		Even the customers grin at all at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2491	0		Even the customers grin on occasion at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2491	1		The customers grin at all even at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2491	0		The customers on occasion even at the museum.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5460	1		Only the waitresses are grinning either at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5460	0		Only the waitresses are grinning as well at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5460	1		The waitresses are grinning either only at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5460	0		The waitresses are grinning as well only at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5460	1		Even the waitresses are grinning either at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5460	0		Even the waitresses are grinning as well at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5460	1		The waitresses are grinning either even at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5460	0		The waitresses are grinning as well even at the art gallery.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=130	1		Only a customer can ever resemble the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=130	0		Only a customer can also resemble the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=130	1		A customer can ever resemble only the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=130	0		A customer can also resemble only the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=130	1		Even a customer can ever resemble the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=130	0		Even a customer can also resemble the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=130	1		A customer can ever resemble even the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=130	0		A customer can also resemble even the cafes.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5883	1		Only the gals marry either at the school.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5883	0		Only the gals marry on occasion at the school.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5883	1		The gals marry either only at the school.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5883	0		The gals marry on occasion only at the school.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5883	1		Even the gals marry either at the school.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5883	0		Even the gals marry on occasion at the school.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5883	1		The gals marry either even at the school.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5883	0		The gals marry on occasion even at the school.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1256	1		Only the adults discussed any guests.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1256	0		Only the adults discussed the guests.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1256	1		Any adults only discussed the guests.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1256	0		The adults only discussed the guests.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1256	1		Even the adults discussed any guests.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1256	0		Even the adults discussed the guests.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1256	1		Any adults even discussed the guests.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1256	0		The adults even discussed the guests.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2332	1		Only the patient dies at all at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2332	0		Only the patient dies on weekends at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2332	1		The patient dies at all only at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2332	0		The patient on weekends only at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2332	1		Even the patient dies at all at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2332	0		Even the patient dies on weekends at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2332	1		The patient dies at all even at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2332	0		The patient on weekends even at the mall.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3283	1		Only the women had investigated movie theaters yet at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3283	0		Only the women had investigated movie theaters on weekends at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3283	1		The women had investigated movie theaters yet only at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3283	0		The women had investigated movie theaters on weekends only at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3283	1		Even the women had investigated movie theaters yet at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3283	0		Even the women had investigated movie theaters on weekends at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3283	1		The women had investigated movie theaters yet even at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3283	0		The women had investigated movie theaters on weekends even at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3158	1		Only a patient could hug patients yet at the art gallery.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3158	0		Only a patient could hug patients as well at the art gallery.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3158	1		A patient could hug patients yet only at the art gallery.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3158	0		A patient could hug patients as well only at the art gallery.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3158	1		Even a patient could hug patients yet at the art gallery.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3158	0		Even a patient could hug patients as well at the art gallery.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3158	1		A patient could hug patients yet even at the art gallery.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3158	0		A patient could hug patients as well even at the art gallery.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1577	1		Only the waitresses examine any stories.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1577	0		Only the waitresses examine those stories.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1577	1		Any waitresses only examine the stories.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1577	0		These waitresses only examine the stories.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1577	1		Even the waitresses examine any stories.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1577	0		Even the waitresses examine those stories.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1577	1		Any waitresses even examine the stories.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1577	0		These waitresses even examine the stories.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1835	1		Only the actresses had walked through any high schools.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1835	0		Only the actresses had walked through these high schools.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1835	1		Any actresses only had walked through the high schools.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1835	0		The actresses only had walked through the high schools.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1835	1		Even the actresses had walked through any high schools.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1835	0		Even the actresses had walked through these high schools.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1835	1		Any actresses even had walked through the high schools.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1835	0		The actresses even had walked through the high schools.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1590	1		Only the girls had approached any drivers.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1590	0		Only the girls had approached these drivers.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1590	1		Any girls only had approached the drivers.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1590	0		The girls only had approached the drivers.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1590	1		Even the girls had approached any drivers.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1590	0		Even the girls had approached these drivers.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1590	1		Any girls even had approached the drivers.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1590	0		The girls even had approached the drivers.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5564	1		Only the women drank either at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5564	0		Only the women drank on occasion at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5564	1		The women drank either only at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5564	0		The women drank on occasion only at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5564	1		Even the women drank either at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5564	0		Even the women drank on occasion at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5564	1		The women drank either even at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5564	0		The women drank on occasion even at the restaurant.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2584	1		Only a senator had negotiated at all at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2584	0		Only a senator had negotiated regularly at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2584	1		A senator had negotiated at all only at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2584	0		A senator regularly only at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2584	1		Even a senator had negotiated at all at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2584	0		Even a senator had negotiated regularly at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2584	1		A senator had negotiated at all even at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2584	0		A senator regularly even at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4679	1		Only the ladies had kissed drivers in years at the high school.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4679	0		Only the ladies had kissed drivers on weekends at the high school.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4679	1		The ladies had kissed drivers in years only at the high school.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4679	0		The ladies had kissed drivers on weekends only at the high school.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4679	1		Even the ladies had kissed drivers in years at the high school.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4679	0		Even the ladies had kissed drivers on weekends at the high school.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4679	1		The ladies had kissed drivers in years even at the high school.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4679	0		The ladies had kissed drivers on weekends even at the high school.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4028	1		Only the teachers cooperated in years at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4028	0		Only the teachers cooperated on weekends at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4028	1		The teachers cooperated in years only at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4028	0		The teachers cooperated on weekends only at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4028	1		Even the teachers cooperated in years at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4028	0		Even the teachers cooperated on weekends at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4028	1		The teachers cooperated in years even at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4028	0		The teachers cooperated on weekends even at the bank.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5749	1		Only the driver benefits either at the museum.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5749	0		Only the driver benefits on occasion at the museum.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5749	1		The driver benefits either only at the museum.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5749	0		The driver benefits on occasion only at the museum.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5749	1		Even the driver benefits either at the museum.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5749	0		Even the driver benefits on occasion at the museum.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5749	1		The driver benefits either even at the museum.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5749	0		The driver benefits on occasion even at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3897	1		Only the waitress was protesting yet at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3897	0		Only the waitress was protesting for a while at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3897	1		The waitress was protesting yet only at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3897	0		The waitress was protesting for a while only at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3897	1		Even the waitress was protesting yet at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3897	0		Even the waitress was protesting for a while at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3897	1		The waitress was protesting yet even at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3897	0		The waitress was protesting for a while even at the college campus.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5447	1		Only a girl ate either at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5447	0		Only a girl ate on occasion at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5447	1		A girl ate either only at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5447	0		A girl ate on occasion only at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5447	1		Even a girl ate either at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5447	0		Even a girl ate on occasion at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5447	1		A girl ate either even at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5447	0		A girl ate on occasion even at the grocery store.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1405	1		Only the pedestrians talked about any college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1405	0		Only the pedestrians talked about the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1405	1		Any pedestrians only talked about the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1405	0		The pedestrians only talked about the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1405	1		Even the pedestrians talked about any college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1405	0		Even the pedestrians talked about the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1405	1		Any pedestrians even talked about the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1405	0		The pedestrians even talked about the college campuses.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4742	1		Only the man shrugged in years at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4742	0		Only the man shrugged for a while at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4742	1		The man shrugged in years only at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4742	0		The man shrugged for a while only at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4742	1		Even the man shrugged in years at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4742	0		Even the man shrugged for a while at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4742	1		The man shrugged in years even at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4742	0		The man shrugged for a while even at the movie theater.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=85	1		Only the pedestrians could ever go to the hospitals.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=85	0		Only the pedestrians could clearly go to the hospitals.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=85	1		The pedestrians could ever go to only the hospitals.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=85	0		The pedestrians could clearly go to only the hospitals.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=85	1		Even the pedestrians could ever go to the hospitals.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=85	0		Even the pedestrians could clearly go to the hospitals.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=85	1		The pedestrians could ever go to even the hospitals.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=85	0		The pedestrians could clearly go to even the hospitals.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=423	1		Only the actors had ever talked to the adults.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=423	0		Only the actors had also talked to the adults.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=423	1		The actors had ever talked to only the adults.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=423	0		The actors had also talked to only the adults.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=423	1		Even the actors had ever talked to the adults.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=423	0		Even the actors had also talked to the adults.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=423	1		The actors had ever talked to even the adults.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=423	0		The actors had also talked to even the adults.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2570	1		Only the students flirt at all at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2570	0		Only the students flirt on occasion at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2570	1		The students flirt at all only at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2570	0		The students on occasion only at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2570	1		Even the students flirt at all at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2570	0		Even the students flirt on occasion at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2570	1		The students flirt at all even at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2570	0		The students on occasion even at the bank.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=754	1		Only the patient did ever bike to the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=754	0		Only the patient did really bike to the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=754	1		The patient did ever bike to only the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=754	0		The patient did really bike to only the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=754	1		Even the patient did ever bike to the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=754	0		Even the patient did really bike to the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=754	1		The patient did ever bike to even the high schools.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=754	0		The patient did really bike to even the high schools.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3716	1		Only the lady had studied yet at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3716	0		Only the lady had studied for a while at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3716	1		The lady had studied yet only at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3716	0		The lady had studied for a while only at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3716	1		Even the lady had studied yet at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3716	0		Even the lady had studied for a while at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3716	1		The lady had studied yet even at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3716	0		The lady had studied for a while even at the library.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4985	1		Only the patients have walked through schools in years at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4985	0		Only the patients have walked through schools regularly at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4985	1		The patients have walked through schools in years only at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4985	0		The patients have walked through schools regularly only at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4985	1		Even the patients have walked through schools in years at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4985	0		Even the patients have walked through schools regularly at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4985	1		The patients have walked through schools in years even at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4985	0		The patients have walked through schools regularly even at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3579	1		Only a senator forgets boys yet at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3579	0		Only a senator forgets boys for a while at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3579	1		A senator forgets boys yet only at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3579	0		A senator forgets boys for a while only at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3579	1		Even a senator forgets boys yet at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3579	0		Even a senator forgets boys for a while at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3579	1		A senator forgets boys yet even at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3579	0		A senator forgets boys for a while even at the library.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5378	1		Only the ladies have sung either at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5378	0		Only the ladies have sung for a while at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5378	1		The ladies have sung either only at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5378	0		The ladies have sung for a while only at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5378	1		Even the ladies have sung either at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5378	0		Even the ladies have sung for a while at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5378	1		The ladies have sung either even at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5378	0		The ladies have sung for a while even at the cafe.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1516	1		Only the teachers have remembered any adults.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1516	0		Only the teachers have remembered the adults.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1516	1		Any teachers only have remembered the adults.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1516	0		The teachers only have remembered the adults.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1516	1		Even the teachers have remembered any adults.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1516	0		Even the teachers have remembered the adults.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1516	1		Any teachers even have remembered the adults.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1516	0		The teachers even have remembered the adults.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1884	1		Only the customers discuss any public parks.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1884	0		Only the customers discuss those public parks.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1884	1		Any customers only discuss the public parks.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1884	0		Those customers only discuss the public parks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1884	1		Even the customers discuss any public parks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1884	0		Even the customers discuss those public parks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1884	1		Any customers even discuss the public parks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1884	0		Those customers even discuss the public parks.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4112	1		Only the drivers divorced in years at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4112	0		Only the drivers divorced for a while at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4112	1		The drivers divorced in years only at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4112	0		The drivers divorced for a while only at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4112	1		Even the drivers divorced in years at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4112	0		Even the drivers divorced for a while at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4112	1		The drivers divorced in years even at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4112	0		The drivers divorced for a while even at the movie theater.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1617	1		Only the boys had bought any couches.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1617	0		Only the boys had bought those couches.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1617	1		Any boys only had bought the couches.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1617	0		Those boys only had bought the couches.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1617	1		Even the boys had bought any couches.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1617	0		Even the boys had bought those couches.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1617	1		Any boys even had bought the couches.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1617	0		Those boys even had bought the couches.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1103	1		Only the doctors have any plates.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1103	0		Only the doctors have those plates.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1103	1		Any doctors only have the plates.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1103	0		These doctors only have the plates.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1103	1		Even the doctors have any plates.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1103	0		Even the doctors have those plates.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1103	1		Any doctors even have the plates.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1103	0		These doctors even have the plates.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3561	1		Only a girl could describe actors yet at the restaurant.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3561	0		Only a girl could describe actors regularly at the restaurant.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3561	1		A girl could describe actors yet only at the restaurant.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3561	0		A girl could describe actors regularly only at the restaurant.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3561	1		Even a girl could describe actors yet at the restaurant.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3561	0		Even a girl could describe actors regularly at the restaurant.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3561	1		A girl could describe actors yet even at the restaurant.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3561	0		A girl could describe actors regularly even at the restaurant.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1400	1		Only the humans were boycotting any banks.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1400	0		Only the humans were boycotting those banks.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1400	1		Any humans only were boycotting the banks.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1400	0		The humans only were boycotting the banks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1400	1		Even the humans were boycotting any banks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1400	0		Even the humans were boycotting those banks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1400	1		Any humans even were boycotting the banks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1400	0		The humans even were boycotting the banks.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4287	1		Only an actress fled from schools in years at the cafe.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4287	0		Only an actress fled from schools for a while at the cafe.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4287	1		An actress fled from schools in years only at the cafe.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4287	0		An actress fled from schools for a while only at the cafe.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4287	1		Even an actress fled from schools in years at the cafe.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4287	0		Even an actress fled from schools for a while at the cafe.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4287	1		An actress fled from schools in years even at the cafe.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4287	0		An actress fled from schools for a while even at the cafe.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2208	1		Only the waiters have discussed schools at all at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2208	0		Only the waiters have discussed schools for a while at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2208	1		The waiters have discussed schools at all only at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2208	0		The waiters schools for a while only at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2208	1		Even the waiters have discussed schools at all at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2208	0		Even the waiters have discussed schools for a while at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2208	1		The waiters have discussed schools at all even at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2208	0		The waiters schools for a while even at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4472	1		Only a cashier had gone fishing in years at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4472	0		Only a cashier had gone fishing as well at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4472	1		A cashier had gone fishing in years only at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4472	0		A cashier had gone fishing as well only at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4472	1		Even a cashier had gone fishing in years at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4472	0		Even a cashier had gone fishing as well at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4472	1		A cashier had gone fishing in years even at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4472	0		A cashier had gone fishing as well even at the art gallery.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=955	1		Only the waitresses should ever reference the teenagers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=955	0		Only the waitresses should often reference the teenagers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=955	1		The waitresses should ever reference only the teenagers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=955	0		The waitresses should often reference only the teenagers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=955	1		Even the waitresses should ever reference the teenagers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=955	0		Even the waitresses should often reference the teenagers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=955	1		The waitresses should ever reference even the teenagers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=955	0		The waitresses should often reference even the teenagers.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1271	1		Only the men are working with any actors.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1271	0		Only the men are working with these actors.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1271	1		Any men only are working with the actors.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1271	0		Those men only are working with the actors.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1271	1		Even the men are working with any actors.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1271	0		Even the men are working with these actors.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1271	1		Any men even are working with the actors.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1271	0		Those men even are working with the actors.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4921	1		Only the gals have whispered in years at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4921	0		Only the gals have whispered regularly at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4921	1		The gals have whispered in years only at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4921	0		The gals have whispered regularly only at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4921	1		Even the gals have whispered in years at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4921	0		Even the gals have whispered regularly at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4921	1		The gals have whispered in years even at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4921	0		The gals have whispered regularly even at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4905	1		Only the drivers had conspired in years at the restaurant.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4905	0		Only the drivers had conspired on weekends at the restaurant.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4905	1		The drivers had conspired in years only at the restaurant.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4905	0		The drivers had conspired on weekends only at the restaurant.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4905	1		Even the drivers had conspired in years at the restaurant.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4905	0		Even the drivers had conspired on weekends at the restaurant.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4905	1		The drivers had conspired in years even at the restaurant.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4905	0		The drivers had conspired on weekends even at the restaurant.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3750	1		Only the children examine plays yet at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3750	0		Only the children examine plays on occasion at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3750	1		The children examine plays yet only at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3750	0		The children examine plays on occasion only at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3750	1		Even the children examine plays yet at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3750	0		Even the children examine plays on occasion at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3750	1		The children examine plays yet even at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3750	0		The children examine plays on occasion even at the grocery store.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1022	1		Only the ladies left any doctors.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1022	0		Only the ladies left those doctors.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1022	1		Any ladies only left the doctors.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1022	0		Those ladies only left the doctors.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1022	1		Even the ladies left any doctors.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1022	0		Even the ladies left those doctors.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1022	1		Any ladies even left the doctors.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1022	0		Those ladies even left the doctors.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4834	1		Only a waitress has negotiated in years at the library.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4834	0		Only a waitress has negotiated for a while at the library.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4834	1		A waitress has negotiated in years only at the library.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4834	0		A waitress has negotiated for a while only at the library.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4834	1		Even a waitress has negotiated in years at the library.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4834	0		Even a waitress has negotiated for a while at the library.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4834	1		A waitress has negotiated in years even at the library.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4834	0		A waitress has negotiated for a while even at the library.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1889	1		Only the women had insulted any actresses.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1889	0		Only the women had insulted those actresses.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1889	1		Any women only had insulted the actresses.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1889	0		These women only had insulted the actresses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1889	1		Even the women had insulted any actresses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1889	0		Even the women had insulted those actresses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1889	1		Any women even had insulted the actresses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1889	0		These women even had insulted the actresses.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3244	1		Only the men hate people yet at the hospital.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3244	0		Only the men hate people on weekends at the hospital.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3244	1		The men hate people yet only at the hospital.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3244	0		The men hate people on weekends only at the hospital.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3244	1		Even the men hate people yet at the hospital.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3244	0		Even the men hate people on weekends at the hospital.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3244	1		The men hate people yet even at the hospital.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3244	0		The men hate people on weekends even at the hospital.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1108	1		Only the teenagers walk through any malls.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1108	0		Only the teenagers walk through these malls.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1108	1		Any teenagers only walk through the malls.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1108	0		These teenagers only walk through the malls.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1108	1		Even the teenagers walk through any malls.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1108	0		Even the teenagers walk through these malls.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1108	1		Any teenagers even walk through the malls.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1108	0		These teenagers even walk through the malls.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2977	1		Only the student is protesting at all at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2977	0		Only the student is protesting for a while at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2977	1		The student is protesting at all only at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2977	0		The student for a while only at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2977	1		Even the student is protesting at all at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2977	0		Even the student is protesting for a while at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2977	1		The student is protesting at all even at the mall.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2977	0		The student for a while even at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4265	1		Only a person explored schools in years at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4265	0		Only a person explored schools for a while at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4265	1		A person explored schools in years only at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4265	0		A person explored schools for a while only at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4265	1		Even a person explored schools in years at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4265	0		Even a person explored schools for a while at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4265	1		A person explored schools in years even at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4265	0		A person explored schools for a while even at the mall.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=866	1		Only the ladies ever are at the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=866	0		Only the ladies really are at the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=866	1		The ladies ever are at only the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=866	0		The ladies really are at only the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=866	1		Even the ladies ever are at the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=866	0		Even the ladies really are at the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=866	1		The ladies ever are at even the cafes.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=866	0		The ladies really are at even the cafes.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1981	1		Only the cashiers have left any high schools.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1981	0		Only the cashiers have left the high schools.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1981	1		Any cashiers only have left the high schools.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1981	0		The cashiers only have left the high schools.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1981	1		Even the cashiers have left any high schools.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1981	0		Even the cashiers have left the high schools.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1981	1		Any cashiers even have left the high schools.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1981	0		The cashiers even have left the high schools.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4199	1		Only a guy had described doctors in years at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4199	0		Only a guy had described doctors regularly at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4199	1		A guy had described doctors in years only at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4199	0		A guy had described doctors regularly only at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4199	1		Even a guy had described doctors in years at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4199	0		Even a guy had described doctors regularly at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4199	1		A guy had described doctors in years even at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4199	0		A guy had described doctors regularly even at the mall.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4586	1		Only the patients have dropped by grocery stores in years at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4586	0		Only the patients have dropped by grocery stores on weekends at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4586	1		The patients have dropped by grocery stores in years only at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4586	0		The patients have dropped by grocery stores on weekends only at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4586	1		Even the patients have dropped by grocery stores in years at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4586	0		Even the patients have dropped by grocery stores on weekends at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4586	1		The patients have dropped by grocery stores in years even at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4586	0		The patients have dropped by grocery stores on weekends even at the hospital.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5712	1		Only a cashier does complain either at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5712	0		Only a cashier does complain on weekends at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5712	1		A cashier does complain either only at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5712	0		A cashier does complain on weekends only at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5712	1		Even a cashier does complain either at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5712	0		Even a cashier does complain on weekends at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5712	1		A cashier does complain either even at the restaurant.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5712	0		A cashier does complain on weekends even at the restaurant.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=644	1		Only the guests ever exited the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=644	0		Only the guests clearly exited the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=644	1		The guests ever exited only the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=644	0		The guests clearly exited only the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=644	1		Even the guests ever exited the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=644	0		Even the guests clearly exited the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=644	1		The guests ever exited even the museums.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=644	0		The guests clearly exited even the museums.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2632	1		Only the drivers met at all at the restaurant.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2632	0		Only the drivers met for a while at the restaurant.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2632	1		The drivers met at all only at the restaurant.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2632	0		The drivers for a while only at the restaurant.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2632	1		Even the drivers met at all at the restaurant.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2632	0		Even the drivers met for a while at the restaurant.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2632	1		The drivers met at all even at the restaurant.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2632	0		The drivers for a while even at the restaurant.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4294	1		Only the actor smiled in years at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4294	0		Only the actor smiled on occasion at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4294	1		The actor smiled in years only at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4294	0		The actor smiled on occasion only at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4294	1		Even the actor smiled in years at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4294	0		Even the actor smiled on occasion at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4294	1		The actor smiled in years even at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4294	0		The actor smiled on occasion even at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4520	1		Only the students reacted in years at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4520	0		Only the students reacted for a while at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4520	1		The students reacted in years only at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4520	0		The students reacted for a while only at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4520	1		Even the students reacted in years at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4520	0		Even the students reacted for a while at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4520	1		The students reacted in years even at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4520	0		The students reacted for a while even at the movie theater.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4374	1		Only a waitress had yelled in years at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4374	0		Only a waitress had yelled on weekends at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4374	1		A waitress had yelled in years only at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4374	0		A waitress had yelled on weekends only at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4374	1		Even a waitress had yelled in years at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4374	0		Even a waitress had yelled on weekends at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4374	1		A waitress had yelled in years even at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4374	0		A waitress had yelled on weekends even at the bank.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3110	1		Only the doctor protested yet at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3110	0		Only the doctor protested as well at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3110	1		The doctor protested yet only at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3110	0		The doctor protested as well only at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3110	1		Even the doctor protested yet at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3110	0		Even the doctor protested as well at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3110	1		The doctor protested yet even at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3110	0		The doctor protested as well even at the school.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4975	1		Only a senator performed in years at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4975	0		Only a senator performed regularly at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4975	1		A senator performed in years only at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4975	0		A senator performed regularly only at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4975	1		Even a senator performed in years at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4975	0		Even a senator performed regularly at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4975	1		A senator performed in years even at the hospital.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4975	0		A senator performed regularly even at the hospital.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5201	1		Only an actor struggled either at the public park.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5201	0		Only an actor struggled on occasion at the public park.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5201	1		An actor struggled either only at the public park.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5201	0		An actor struggled on occasion only at the public park.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5201	1		Even an actor struggled either at the public park.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5201	0		Even an actor struggled on occasion at the public park.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5201	1		An actor struggled either even at the public park.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5201	0		An actor struggled on occasion even at the public park.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3295	1		Only a pedestrian concurred yet at the high school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3295	0		Only a pedestrian concurred on weekends at the high school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3295	1		A pedestrian concurred yet only at the high school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3295	0		A pedestrian concurred on weekends only at the high school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3295	1		Even a pedestrian concurred yet at the high school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3295	0		Even a pedestrian concurred on weekends at the high school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3295	1		A pedestrian concurred yet even at the high school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3295	0		A pedestrian concurred on weekends even at the high school.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4936	1		Only the guests had worn glasses in years at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4936	0		Only the guests had worn glasses on occasion at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4936	1		The guests had worn glasses in years only at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4936	0		The guests had worn glasses on occasion only at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4936	1		Even the guests had worn glasses in years at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4936	0		Even the guests had worn glasses on occasion at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4936	1		The guests had worn glasses in years even at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4936	0		The guests had worn glasses on occasion even at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4568	1		Only the girls reunited in years at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4568	0		Only the girls reunited on weekends at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4568	1		The girls reunited in years only at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4568	0		The girls reunited on weekends only at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4568	1		Even the girls reunited in years at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4568	0		Even the girls reunited on weekends at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4568	1		The girls reunited in years even at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4568	0		The girls reunited on weekends even at the college campus.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5880	1		Only the people are chatting either at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5880	0		Only the people are chatting as well at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5880	1		The people are chatting either only at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5880	0		The people are chatting as well only at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5880	1		Even the people are chatting either at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5880	0		Even the people are chatting as well at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5880	1		The people are chatting either even at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5880	0		The people are chatting as well even at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2031	1		Only the driver could smile at all at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2031	0		Only the driver could smile as well at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2031	1		The driver could smile at all only at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2031	0		The driver as well only at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2031	1		Even the driver could smile at all at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2031	0		Even the driver could smile as well at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2031	1		The driver could smile at all even at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2031	0		The driver as well even at the school.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=743	1		Only the dancer might ever attack the drivers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=743	0		Only the dancer might also attack the drivers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=743	1		The dancer might ever attack only the drivers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=743	0		The dancer might also attack only the drivers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=743	1		Even the dancer might ever attack the drivers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=743	0		Even the dancer might also attack the drivers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=743	1		The dancer might ever attack even the drivers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=743	0		The dancer might also attack even the drivers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=941	1		Only the guest ever explored the movie theaters.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=941	0		Only the guest certainly explored the movie theaters.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=941	1		The guest ever explored only the movie theaters.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=941	0		The guest certainly explored only the movie theaters.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=941	1		Even the guest ever explored the movie theaters.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=941	0		Even the guest certainly explored the movie theaters.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=941	1		The guest ever explored even the movie theaters.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=941	0		The guest certainly explored even the movie theaters.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3166	1		Only the ladies praised boys yet at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3166	0		Only the ladies praised boys on weekends at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3166	1		The ladies praised boys yet only at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3166	0		The ladies praised boys on weekends only at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3166	1		Even the ladies praised boys yet at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3166	0		Even the ladies praised boys on weekends at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3166	1		The ladies praised boys yet even at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3166	0		The ladies praised boys on weekends even at the grocery store.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=449	1		Only the girl ever brought the chairs.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=449	0		Only the girl certainly brought the chairs.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=449	1		The girl ever brought only the chairs.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=449	0		The girl certainly brought only the chairs.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=449	1		Even the girl ever brought the chairs.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=449	0		Even the girl certainly brought the chairs.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=449	1		The girl ever brought even the chairs.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=449	0		The girl certainly brought even the chairs.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2573	1		Only an adult was passing banks at all at the cafe.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2573	0		Only an adult was passing banks on occasion at the cafe.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2573	1		An adult was passing banks at all only at the cafe.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2573	0		An adult banks on occasion only at the cafe.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2573	1		Even an adult was passing banks at all at the cafe.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2573	0		Even an adult was passing banks on occasion at the cafe.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2573	1		An adult was passing banks at all even at the cafe.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2573	0		An adult banks on occasion even at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5290	1		Only the customer approves either at the school.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5290	0		Only the customer approves on occasion at the school.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5290	1		The customer approves either only at the school.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5290	0		The customer approves on occasion only at the school.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5290	1		Even the customer approves either at the school.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5290	0		Even the customer approves on occasion at the school.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5290	1		The customer approves either even at the school.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5290	0		The customer approves on occasion even at the school.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1135	1		Only the humans are skated around any libraries.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1135	0		Only the humans are skated around these libraries.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1135	1		Any humans only are skated around the libraries.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1135	0		These humans only are skated around the libraries.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1135	1		Even the humans are skated around any libraries.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1135	0		Even the humans are skated around these libraries.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1135	1		Any humans even are skated around the libraries.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1135	0		These humans even are skated around the libraries.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1174	1		Only the men have approached any women.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1174	0		Only the men have approached the women.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1174	1		Any men only have approached the women.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1174	0		Those men only have approached the women.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1174	1		Even the men have approached any women.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1174	0		Even the men have approached the women.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1174	1		Any men even have approached the women.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1174	0		Those men even have approached the women.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=514	1		Only the girls had ever respected the customers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=514	0		Only the girls had often respected the customers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=514	1		The girls had ever respected only the customers.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=514	0		The girls had often respected only the customers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=514	1		Even the girls had ever respected the customers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=514	0		Even the girls had often respected the customers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=514	1		The girls had ever respected even the customers.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=514	0		The girls had often respected even the customers.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4240	1		Only the customer whispered in years at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4240	0		Only the customer whispered regularly at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4240	1		The customer whispered in years only at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4240	0		The customer whispered regularly only at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4240	1		Even the customer whispered in years at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4240	0		Even the customer whispered regularly at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4240	1		The customer whispered in years even at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4240	0		The customer whispered regularly even at the bank.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4054	1		Only the customer has retaliated in years at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4054	0		Only the customer has retaliated on occasion at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4054	1		The customer has retaliated in years only at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4054	0		The customer has retaliated on occasion only at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4054	1		Even the customer has retaliated in years at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4054	0		Even the customer has retaliated on occasion at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4054	1		The customer has retaliated in years even at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4054	0		The customer has retaliated on occasion even at the grocery store.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1891	1		Only the people had admired any pants.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1891	0		Only the people had admired the pants.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1891	1		Any people only had admired the pants.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1891	0		These people only had admired the pants.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1891	1		Even the people had admired any pants.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1891	0		Even the people had admired the pants.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1891	1		Any people even had admired the pants.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1891	0		These people even had admired the pants.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1181	1		Only the waitresses break any forks.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1181	0		Only the waitresses break those forks.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1181	1		Any waitresses only break the forks.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1181	0		The waitresses only break the forks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1181	1		Even the waitresses break any forks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1181	0		Even the waitresses break those forks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1181	1		Any waitresses even break the forks.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1181	0		The waitresses even break the forks.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4039	1		Only the waiter had lied in years at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4039	0		Only the waiter had lied as well at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4039	1		The waiter had lied in years only at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4039	0		The waiter had lied as well only at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4039	1		Even the waiter had lied in years at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4039	0		Even the waiter had lied as well at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4039	1		The waiter had lied in years even at the art gallery.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4039	0		The waiter had lied as well even at the art gallery.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=47	1		Only a man does ever drive to the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=47	0		Only a man does clearly drive to the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=47	1		A man does ever drive to only the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=47	0		A man does clearly drive to only the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=47	1		Even a man does ever drive to the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=47	0		Even a man does clearly drive to the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=47	1		A man does ever drive to even the restaurants.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=47	0		A man does clearly drive to even the restaurants.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4183	1		Only a pedestrian has drunk in years at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4183	0		Only a pedestrian has drunk on weekends at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4183	1		A pedestrian has drunk in years only at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4183	0		A pedestrian has drunk on weekends only at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4183	1		Even a pedestrian has drunk in years at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4183	0		Even a pedestrian has drunk on weekends at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4183	1		A pedestrian has drunk in years even at the grocery store.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4183	0		A pedestrian has drunk on weekends even at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5697	1		Only the teachers change either at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5697	0		Only the teachers change as well at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5697	1		The teachers change either only at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5697	0		The teachers change as well only at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5697	1		Even the teachers change either at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5697	0		Even the teachers change as well at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5697	1		The teachers change either even at the grocery store.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5697	0		The teachers change as well even at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2846	1		Only a cashier is approving at all at the public park.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2846	0		Only a cashier is approving as well at the public park.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2846	1		A cashier is approving at all only at the public park.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2846	0		A cashier as well only at the public park.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2846	1		Even a cashier is approving at all at the public park.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2846	0		Even a cashier is approving as well at the public park.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2846	1		A cashier is approving at all even at the public park.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2846	0		A cashier as well even at the public park.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=797	1		Only the teacher ever approached the actors.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=797	0		Only the teacher clearly approached the actors.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=797	1		The teacher ever approached only the actors.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=797	0		The teacher clearly approached only the actors.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=797	1		Even the teacher ever approached the actors.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=797	0		Even the teacher clearly approached the actors.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=797	1		The teacher ever approached even the actors.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=797	0		The teacher clearly approached even the actors.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=122	1		Only the boy ever explores the college campuses.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=122	0		Only the boy certainly explores the college campuses.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=122	1		The boy ever explores only the college campuses.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=122	0		The boy certainly explores only the college campuses.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=122	1		Even the boy ever explores the college campuses.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=122	0		Even the boy certainly explores the college campuses.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=122	1		The boy ever explores even the college campuses.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=122	0		The boy certainly explores even the college campuses.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2563	1		Only the teacher stretches at all at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2563	0		Only the teacher stretches regularly at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2563	1		The teacher stretches at all only at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2563	0		The teacher regularly only at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2563	1		Even the teacher stretches at all at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2563	0		Even the teacher stretches regularly at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2563	1		The teacher stretches at all even at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2563	0		The teacher regularly even at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3629	1		Only the child had seen couches yet at the cafe.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3629	0		Only the child had seen couches regularly at the cafe.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3629	1		The child had seen couches yet only at the cafe.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3629	0		The child had seen couches regularly only at the cafe.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3629	1		Even the child had seen couches yet at the cafe.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3629	0		Even the child had seen couches regularly at the cafe.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3629	1		The child had seen couches yet even at the cafe.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3629	0		The child had seen couches regularly even at the cafe.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3478	1		Only the actress did like teenagers yet at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3478	0		Only the actress did like teenagers for a while at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3478	1		The actress did like teenagers yet only at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3478	0		The actress did like teenagers for a while only at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3478	1		Even the actress did like teenagers yet at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3478	0		Even the actress did like teenagers for a while at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3478	1		The actress did like teenagers yet even at the grocery store.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3478	0		The actress did like teenagers for a while even at the grocery store.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2863	1		Only a boy talked about pedestrians at all at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2863	0		Only a boy talked about pedestrians on weekends at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2863	1		A boy talked about pedestrians at all only at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2863	0		A boy pedestrians on weekends only at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2863	1		Even a boy talked about pedestrians at all at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2863	0		Even a boy talked about pedestrians on weekends at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2863	1		A boy talked about pedestrians at all even at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2863	0		A boy pedestrians on weekends even at the school.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1154	1		Only the waiters were lifting any books.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1154	0		Only the waiters were lifting these books.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1154	1		Any waiters only were lifting the books.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1154	0		Those waiters only were lifting the books.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1154	1		Even the waiters were lifting any books.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1154	0		Even the waiters were lifting these books.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1154	1		Any waiters even were lifting the books.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1154	0		Those waiters even were lifting the books.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1618	1		Only the students scan any movies.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1618	0		Only the students scan those movies.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1618	1		Any students only scan the movies.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1618	0		Those students only scan the movies.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1618	1		Even the students scan any movies.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1618	0		Even the students scan those movies.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1618	1		Any students even scan the movies.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1618	0		Those students even scan the movies.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2613	1		Only the actors have helped women at all at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2613	0		Only the actors have helped women as well at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2613	1		The actors have helped women at all only at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2613	0		The actors women as well only at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2613	1		Even the actors have helped women at all at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2613	0		Even the actors have helped women as well at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2613	1		The actors have helped women at all even at the bank.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2613	0		The actors women as well even at the bank.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1714	1		Only the actors did reference any cashiers.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1714	0		Only the actors did reference these cashiers.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1714	1		Any actors only did reference the cashiers.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1714	0		These actors only did reference the cashiers.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1714	1		Even the actors did reference any cashiers.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1714	0		Even the actors did reference these cashiers.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1714	1		Any actors even did reference the cashiers.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1714	0		These actors even did reference the cashiers.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3094	1		Only the teacher ran around schools yet at the public park.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3094	0		Only the teacher ran around schools on weekends at the public park.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3094	1		The teacher ran around schools yet only at the public park.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3094	0		The teacher ran around schools on weekends only at the public park.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3094	1		Even the teacher ran around schools yet at the public park.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3094	0		Even the teacher ran around schools on weekends at the public park.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3094	1		The teacher ran around schools yet even at the public park.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3094	0		The teacher ran around schools on weekends even at the public park.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1579	1		Only the teachers were walking through any art galleries.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1579	0		Only the teachers were walking through those art galleries.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1579	1		Any teachers only were walking through the art galleries.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1579	0		Those teachers only were walking through the art galleries.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1579	1		Even the teachers were walking through any art galleries.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1579	0		Even the teachers were walking through those art galleries.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1579	1		Any teachers even were walking through the art galleries.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1579	0		Those teachers even were walking through the art galleries.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=673	1		Only a boy has ever explored the art galleries.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=673	0		Only a boy has certainly explored the art galleries.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=673	1		A boy has ever explored only the art galleries.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=673	0		A boy has certainly explored only the art galleries.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=673	1		Even a boy has ever explored the art galleries.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=673	0		Even a boy has certainly explored the art galleries.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=673	1		A boy has ever explored even the art galleries.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=673	0		A boy has certainly explored even the art galleries.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3200	1		Only a man would insult actors yet at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3200	0		Only a man would insult actors regularly at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3200	1		A man would insult actors yet only at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3200	0		A man would insult actors regularly only at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3200	1		Even a man would insult actors yet at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3200	0		Even a man would insult actors regularly at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3200	1		A man would insult actors yet even at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3200	0		A man would insult actors regularly even at the school.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5465	1		Only the doctor should slump over either at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5465	0		Only the doctor should slump over for a while at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5465	1		The doctor should slump over either only at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5465	0		The doctor should slump over for a while only at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5465	1		Even the doctor should slump over either at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5465	0		Even the doctor should slump over for a while at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5465	1		The doctor should slump over either even at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5465	0		The doctor should slump over for a while even at the art gallery.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1304	1		Only the men were touring any college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1304	0		Only the men were touring the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1304	1		Any men only were touring the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1304	0		Those men only were touring the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1304	1		Even the men were touring any college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1304	0		Even the men were touring the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1304	1		Any men even were touring the college campuses.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1304	0		Those men even were touring the college campuses.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3407	1		Only an adult escaped from movie theaters yet at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3407	0		Only an adult escaped from movie theaters as well at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3407	1		An adult escaped from movie theaters yet only at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3407	0		An adult escaped from movie theaters as well only at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3407	1		Even an adult escaped from movie theaters yet at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3407	0		Even an adult escaped from movie theaters as well at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3407	1		An adult escaped from movie theaters yet even at the museum.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3407	0		An adult escaped from movie theaters as well even at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4908	1		Only the teachers have scratched in years at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4908	0		Only the teachers have scratched on occasion at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4908	1		The teachers have scratched in years only at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4908	0		The teachers have scratched on occasion only at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4908	1		Even the teachers have scratched in years at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4908	0		Even the teachers have scratched on occasion at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4908	1		The teachers have scratched in years even at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4908	0		The teachers have scratched on occasion even at the college campus.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=4237	1		Only a cashier laughed in years at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=4237	0		Only a cashier laughed on weekends at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=4237	1		A cashier laughed in years only at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=4237	0		A cashier laughed on weekends only at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=4237	1		Even a cashier laughed in years at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=4237	0		Even a cashier laughed on weekends at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=4237	1		A cashier laughed in years even at the museum.
+experiment=NPI-env=only-npi=inyears-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=4237	0		A cashier laughed on weekends even at the museum.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2907	1		Only the guy might stand up at all at the library.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2907	0		Only the guy might stand up for a while at the library.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2907	1		The guy might stand up at all only at the library.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2907	0		The guy for a while only at the library.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2907	1		Even the guy might stand up at all at the library.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2907	0		Even the guy might stand up for a while at the library.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2907	1		The guy might stand up at all even at the library.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2907	0		The guy for a while even at the library.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3907	1		Only the guests lifted glasses yet at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3907	0		Only the guests lifted glasses on weekends at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3907	1		The guests lifted glasses yet only at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3907	0		The guests lifted glasses on weekends only at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3907	1		Even the guests lifted glasses yet at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3907	0		Even the guests lifted glasses on weekends at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3907	1		The guests lifted glasses yet even at the college campus.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3907	0		The guests lifted glasses on weekends even at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2505	1		Only the teacher is standing up at all at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2505	0		Only the teacher is standing up on occasion at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2505	1		The teacher is standing up at all only at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2505	0		The teacher on occasion only at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2505	1		Even the teacher is standing up at all at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2505	0		Even the teacher is standing up on occasion at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2505	1		The teacher is standing up at all even at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2505	0		The teacher on occasion even at the college campus.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2851	1		Only a guest should spin around at all at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2851	0		Only a guest should spin around regularly at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2851	1		A guest should spin around at all only at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2851	0		A guest regularly only at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2851	1		Even a guest should spin around at all at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2851	0		Even a guest should spin around regularly at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2851	1		A guest should spin around at all even at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2851	0		A guest regularly even at the school.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5137	1		Only the actresses assembled either at the library.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5137	0		Only the actresses assembled for a while at the library.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5137	1		The actresses assembled either only at the library.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5137	0		The actresses assembled for a while only at the library.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5137	1		Even the actresses assembled either at the library.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5137	0		Even the actresses assembled for a while at the library.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5137	1		The actresses assembled either even at the library.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5137	0		The actresses assembled for a while even at the library.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=2574	1		Only the guy knows adults at all at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=2574	0		Only the guy knows adults on occasion at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=2574	1		The guy knows adults at all only at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=2574	0		The guy adults on occasion only at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=2574	1		Even the guy knows adults at all at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=2574	0		Even the guy knows adults on occasion at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=2574	1		The guy knows adults at all even at the school.
+experiment=NPI-env=only-npi=atall-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=2574	0		The guy adults on occasion even at the school.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5395	1		Only the cashiers are cooking either at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5395	0		Only the cashiers are cooking on occasion at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5395	1		The cashiers are cooking either only at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5395	0		The cashiers are cooking on occasion only at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5395	1		Even the cashiers are cooking either at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5395	0		Even the cashiers are cooking on occasion at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5395	1		The cashiers are cooking either even at the cafe.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5395	0		The cashiers are cooking on occasion even at the cafe.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=95	1		Only the patients can ever love the stories.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=95	0		Only the patients can often love the stories.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=95	1		The patients can ever love only the stories.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=95	0		The patients can often love only the stories.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=95	1		Even the patients can ever love the stories.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=95	0		Even the patients can often love the stories.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=95	1		The patients can ever love even the stories.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=95	0		The patients can often love even the stories.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=5063	1		Only the actresses talked either at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=5063	0		Only the actresses talked as well at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=5063	1		The actresses talked either only at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=5063	0		The actresses talked as well only at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=5063	1		Even the actresses talked either at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=5063	0		Even the actresses talked as well at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=5063	1		The actresses talked either even at the art gallery.
+experiment=NPI-env=only-npi=either-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=5063	0		The actresses talked as well even at the art gallery.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=1005	1		Only the adults should leave any children.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=1005	0		Only the adults should leave these children.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=1005	1		Any adults only should leave the children.
+experiment=NPI-env=only-npi=any-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=1005	0		These adults only should leave the children.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=1005	1		Even the adults should leave any children.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=1005	0		Even the adults should leave these children.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=1005	1		Any adults even should leave the children.
+experiment=NPI-env=only-npi=any-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=1005	0		These adults even should leave the children.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=3487	1		Only the drivers have murmured yet at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=3487	0		Only the drivers have murmured regularly at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=3487	1		The drivers have murmured yet only at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=3487	0		The drivers have murmured regularly only at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=3487	1		Even the drivers have murmured yet at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=3487	0		Even the drivers have murmured regularly at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=3487	1		The drivers have murmured yet even at the school.
+experiment=NPI-env=only-npi=yet-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=3487	0		The drivers have murmured regularly even at the school.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=204	1		Only the humans ever returned to the girls.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=204	0		Only the humans often returned to the girls.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=204	1		The humans ever returned to only the girls.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=204	0		The humans often returned to only the girls.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=204	1		Even the humans ever returned to the girls.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=204	0		Even the humans often returned to the girls.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=204	1		The humans ever returned to even the girls.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=204	0		The humans often returned to even the girls.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=1-paradigm=483	1		Only the patients ever talk to the people.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=1-npi_present=0-paradigm=483	0		Only the patients really talk to the people.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=1-paradigm=483	1		The patients ever talk to only the people.
+experiment=NPI-env=only-npi=ever-crucial_item=only-licensor=1-scope=0-npi_present=0-paradigm=483	0		The patients really talk to only the people.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=1-paradigm=483	1		Even the patients ever talk to the people.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=1-npi_present=0-paradigm=483	0		Even the patients really talk to the people.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=1-paradigm=483	1		The patients ever talk to even the people.
+experiment=NPI-env=only-npi=ever-crucial_item=even-licensor=0-scope=0-npi_present=0-paradigm=483	0		The patients really talk to even the people.
