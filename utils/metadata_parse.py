@@ -77,7 +77,7 @@ def make_subsets(in_domain_size):
                 test_counter += 1
 
 
-def make_splits(test_size = 125, dev_size = 125, train_size = 1250):
+def make_splits(test_size=125, dev_size=125, train_size=1250):
     """
     Function that makes train/dev/test splits for each enviroment
     :param test_size: number of paradigms in the test set
@@ -86,12 +86,14 @@ def make_splits(test_size = 125, dev_size = 125, train_size = 1250):
     :return: none. writes to output
     """
 
-    npi_path = "outputs/npi/environments"
-    output_dir = "outputs/npi/environments/splits/"
+    npi_path = "../outputs/npi/environments"
+    output_dir = "../outputs/npi/environments/splits/"
     for file in os.listdir(npi_path):
         if file[-4:] == ".tsv":
             read_file = read_data_tsv(os.path.join(npi_path, file))
             dir_name = file[12:-4]
+            if os.path.isdir(os.path.join(output_dir, dir_name)):
+                continue
             os.mkdir(os.path.join(output_dir, dir_name))
                 
             train = open(os.path.join(output_dir, dir_name, "train.tsv"), "w")
@@ -119,6 +121,6 @@ def make_splits(test_size = 125, dev_size = 125, train_size = 1250):
 
 # make_subsets(6)
                    
-make_splits(test_size = 125, dev_size = 125, train_size = 1250)
+make_splits(test_size=250, dev_size=250, train_size=2500)
 
 
