@@ -125,7 +125,7 @@ def make_probing_data():
     Function that creates probing datasets for each environment (after splits have been created)
     :return: none. writes to output
     """
-    metadata_labels = ['licensor', 'scope', 'npi_present']
+    metadata_labels = ['licensor', 'scope', 'npi_present', 'scope_with_licensor']
     npi_path = "outputs/npi/environments/"
     splits_path = os.path.join(npi_path, 'splits')
     probing_path = os.path.join(npi_path, 'probing')
@@ -139,31 +139,32 @@ def make_probing_data():
             os.mkdir(os.path.join(probing_path, split_folder))  
 
         for metadata_label in metadata_labels:      
-
             if not os.path.isdir(os.path.join(probing_path, split_folder, metadata_label)):
                 os.mkdir(os.path.join(probing_path, split_folder, metadata_label))
 
             split_folder_files = ['train.tsv', 'dev.tsv', 'test_full.tsv']
-            #for file_name in split_folder_files:
-            #    full_file_name = os.path.join(split_folder, file_name)
-            #    shutil.copy(full_file_name, os.path.join(probing_path, metadata_label))
-            #split_folder_files.remove('test.tsv')
 
             for file in split_folder_files:
                 infile = open(os.path.join(splits_path, split_folder, file), 'r')
                 lines = infile.read().split('\n')
-                lines = [re.sub('\t[0-9]\t\t', '\t'+x.split(metadata_label+'=')[1][0]+'\t\t', x) for x in lines if len(x) != 0]
-                infile.close()
-
+                if metadata_label != 'scope_with_licensor':
+                    lines = [re.sub('\t[0-9]\t\t', '\t'+x.split(metadata_label+'=')[1][0]+'\t\t', x) for x in lines if len(x) != 0]
+                else:
+                    lines = [re.sub('\t[0-9]\t\t', '\t'+x.split('scope=')[1][0]+'\t\t', x) for x in lines if len(x) != 0 and 'licensor=1' in x]
                 outfile = open(os.path.join(probing_path, split_folder, metadata_label, file), 'w')
                 for line in lines:
                     outfile.write(line+'\n')
+                infile.close()
+                outfile.close()
 
             infile = open(os.path.join(splits_path, split_folder, 'test.tsv'), 'r')
             outfile = open(os.path.join(probing_path, split_folder, metadata_label, 'test.tsv'), 'w')
             outfile.write(infile.read())
             infile.close()
             outfile.close()
+   
+
+# add a scope data where licensor is always there
     
 # make_subsets(6)
                    

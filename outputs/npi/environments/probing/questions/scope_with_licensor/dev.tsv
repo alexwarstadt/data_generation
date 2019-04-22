@@ -1,0 +1,500 @@
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=988	1		The people wonder whether the students ever can remember the commentaries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=988	1		The people wonder whether the students also can remember the commentaries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=988	0		The people ever wonder whether the students can remember the commentaries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=988	0		The people also wonder whether the students can remember the commentaries.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4605	1		The men have wondered whether the pedestrians can like the cars in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4605	1		The men have wondered whether the pedestrians can like the cars on occasion.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4605	0		The men have wondered in years whether the pedestrians can like the cars.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4605	0		The men have wondered on occasion whether the pedestrians can like the cars.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=289	1		The children wonder whether the people ever hug the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=289	1		The children wonder whether the people often hug the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=289	0		The children ever wonder whether the people hug the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=289	0		The children often wonder whether the people hug the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=971	1		The boys wonder whether the pedestrians ever praised the drivers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=971	1		The boys wonder whether the pedestrians clearly praised the drivers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=971	0		The boys ever wonder whether the pedestrians praised the drivers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=971	0		The boys clearly wonder whether the pedestrians praised the drivers.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3583	1		The dancers have wondered whether the actor talks to guests at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3583	1		The dancers have wondered whether the actor talks to guests as well.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3583	0		The dancers have wondered at all whether the actor talks to guests.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3583	0		The dancers have wondered as well whether the actor talks to guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1937	1		The people wonder whether the doctors sold any chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1937	1		The people wonder whether the doctors sold these chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1937	0		Any people wonder whether the doctors sold chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1937	0		These people wonder whether the doctors sold chairs.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2268	1		The customers have wondered whether the actor should arrive at libraries yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2268	1		The customers have wondered whether the actor should arrive at libraries regularly.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2268	0		The customers have wondered yet whether the actor should arrive at libraries.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2268	0		The customers have wondered regularly whether the actor should arrive at libraries.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2491	1		The girls have wondered whether the guests did drop by libraries yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2491	1		The girls have wondered whether the guests did drop by libraries as well.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2491	0		The girls have wondered yet whether the guests did drop by libraries.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2491	0		The girls have wondered as well whether the guests did drop by libraries.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5460	1		The cashiers have wondered whether the lady has left the children either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5460	1		The cashiers have wondered whether the lady has left the children regularly.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5460	0		The cashiers have wondered either whether the lady has left the children.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5460	0		The cashiers have wondered regularly whether the lady has left the children.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=130	1		The dancers wonder whether the adult ever knows the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=130	1		The dancers wonder whether the adult often knows the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=130	0		The dancers ever wonder whether the adult knows the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=130	0		The dancers often wonder whether the adult knows the adults.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5883	1		The guys have wondered whether the boy attacked the dancers either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5883	1		The guys have wondered whether the boy attacked the dancers on weekends.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5883	0		The guys have wondered either whether the boy attacked the dancers.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5883	0		The guys have wondered on weekends whether the boy attacked the dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1256	1		The girls wonder whether the women will observe any dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1256	1		The girls wonder whether the women will observe the dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1256	0		Any girls wonder whether the women will observe dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1256	0		Those girls wonder whether the women will observe dancers.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2332	1		The people have wondered whether the cashier examines reports yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2332	1		The people have wondered whether the cashier examines reports as well.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2332	0		The people have wondered yet whether the cashier examines reports.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2332	0		The people have wondered as well whether the cashier examines reports.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3283	1		The women have wondered whether the boy was criticizing waitresses at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3283	1		The women have wondered whether the boy was criticizing waitresses on weekends.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3283	0		The women have wondered at all whether the boy was criticizing waitresses.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3283	0		The women have wondered on weekends whether the boy was criticizing waitresses.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3158	1		The cashiers have wondered whether the student is criticizing adults at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3158	1		The cashiers have wondered whether the student is criticizing adults on weekends.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3158	0		The cashiers have wondered at all whether the student is criticizing adults.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3158	0		The cashiers have wondered on weekends whether the student is criticizing adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1577	1		The customers wonder whether the man is attacking any pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1577	1		The customers wonder whether the man is attacking those pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1577	0		Any customers wonder whether the man is attacking pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1577	0		The customers wonder whether the man is attacking pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1835	1		The waitresses wonder whether the girls are praising any women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1835	1		The waitresses wonder whether the girls are praising the women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1835	0		Any waitresses wonder whether the girls are praising women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1835	0		Those waitresses wonder whether the girls are praising women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1590	1		The dancers wonder whether the actor has listened to any guys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1590	1		The dancers wonder whether the actor has listened to these guys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1590	0		Any dancers wonder whether the actor has listened to guys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1590	0		Those dancers wonder whether the actor has listened to guys.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5564	1		The waiters have wondered whether the children scanned the movies either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5564	1		The waiters have wondered whether the children scanned the movies as well.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5564	0		The waiters have wondered either whether the children scanned the movies.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5564	0		The waiters have wondered as well whether the children scanned the movies.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2584	1		The customers have wondered whether the waiters were boycotting art galleries yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2584	1		The customers have wondered whether the waiters were boycotting art galleries on weekends.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2584	0		The customers have wondered yet whether the waiters were boycotting art galleries.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2584	0		The customers have wondered on weekends whether the waiters were boycotting art galleries.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4679	1		The girls have wondered whether the boys forget the teachers in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4679	1		The girls have wondered whether the boys forget the teachers regularly.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4679	0		The girls have wondered in years whether the boys forget the teachers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4679	0		The girls have wondered regularly whether the boys forget the teachers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4028	1		The adults have wondered whether the men pass the museums in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4028	1		The adults have wondered whether the men pass the museums regularly.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4028	0		The adults have wondered in years whether the men pass the museums.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4028	0		The adults have wondered regularly whether the men pass the museums.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5749	1		The doctors have wondered whether the adults are taking the forks either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5749	1		The doctors have wondered whether the adults are taking the forks on weekends.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5749	0		The doctors have wondered either whether the adults are taking the forks.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5749	0		The doctors have wondered on weekends whether the adults are taking the forks.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3897	1		The people have wondered whether the senator hated cashiers at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3897	1		The people have wondered whether the senator hated cashiers on weekends.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3897	0		The people have wondered at all whether the senator hated cashiers.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3897	0		The people have wondered on weekends whether the senator hated cashiers.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5447	1		The cashiers have wondered whether the people were examining the plays either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5447	1		The cashiers have wondered whether the people were examining the plays for a while.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5447	0		The cashiers have wondered either whether the people were examining the plays.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5447	0		The cashiers have wondered for a while whether the people were examining the plays.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1405	1		The customers wonder whether the dancer fled from any malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1405	1		The customers wonder whether the dancer fled from the malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1405	0		Any customers wonder whether the dancer fled from malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1405	0		Those customers wonder whether the dancer fled from malls.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4742	1		The dancers have wondered whether the child has ran around the hospitals in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4742	1		The dancers have wondered whether the child has ran around the hospitals on weekends.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4742	0		The dancers have wondered in years whether the child has ran around the hospitals.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4742	0		The dancers have wondered on weekends whether the child has ran around the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=85	1		The dancers wonder whether the actor ever had walked through the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=85	1		The dancers wonder whether the actor obviously had walked through the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=85	0		The dancers ever wonder whether the actor had walked through the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=85	0		The dancers obviously wonder whether the actor had walked through the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=423	1		The children wonder whether the teenager ever could boycott the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=423	1		The children wonder whether the teenager also could boycott the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=423	0		The children ever wonder whether the teenager could boycott the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=423	0		The children also wonder whether the teenager could boycott the restaurants.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2570	1		The girls have wondered whether the actresses would attack senators yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2570	1		The girls have wondered whether the actresses would attack senators for a while.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2570	0		The girls have wondered yet whether the actresses would attack senators.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2570	0		The girls have wondered for a while whether the actresses would attack senators.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=754	1		The girls wonder whether the girl ever might clean the dishes.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=754	1		The girls wonder whether the girl obviously might clean the dishes.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=754	0		The girls ever wonder whether the girl might clean the dishes.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=754	0		The girls obviously wonder whether the girl might clean the dishes.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3716	1		The women have wondered whether the students exit high schools at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3716	1		The women have wondered whether the students exit high schools for a while.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3716	0		The women have wondered at all whether the students exit high schools.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3716	0		The women have wondered for a while whether the students exit high schools.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4985	1		The students have wondered whether the child might lift the pants in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4985	1		The students have wondered whether the child might lift the pants for a while.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4985	0		The students have wondered in years whether the child might lift the pants.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4985	0		The students have wondered for a while whether the child might lift the pants.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3579	1		The pedestrians have wondered whether the guest is praising waitresses at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3579	1		The pedestrians have wondered whether the guest is praising waitresses as well.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3579	0		The pedestrians have wondered at all whether the guest is praising waitresses.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3579	0		The pedestrians have wondered as well whether the guest is praising waitresses.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5378	1		The guys have wondered whether the boys would criticize the newspaper articles either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5378	1		The guys have wondered whether the boys would criticize the newspaper articles for a while.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5378	0		The guys have wondered either whether the boys would criticize the newspaper articles.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5378	0		The guys have wondered for a while whether the boys would criticize the newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1516	1		The dancers wonder whether the man kissed any boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1516	1		The dancers wonder whether the man kissed those boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1516	0		Any dancers wonder whether the man kissed boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1516	0		The dancers wonder whether the man kissed boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1884	1		The children wonder whether the adults had explored any movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1884	1		The children wonder whether the adults had explored these movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1884	0		Any children wonder whether the adults had explored movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1884	0		The children wonder whether the adults had explored movie theaters.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4112	1		The drivers have wondered whether the pedestrians had listened to the senators in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4112	1		The drivers have wondered whether the pedestrians had listened to the senators on occasion.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4112	0		The drivers have wondered in years whether the pedestrians had listened to the senators.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4112	0		The drivers have wondered on occasion whether the pedestrians had listened to the senators.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1617	1		The men wonder whether the pedestrians talk about any commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1617	1		The men wonder whether the pedestrians talk about those commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1617	0		Any men wonder whether the pedestrians talk about commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1617	0		The men wonder whether the pedestrians talk about commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1103	1		The actresses wonder whether the women had loved any boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1103	1		The actresses wonder whether the women had loved the boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1103	0		Any actresses wonder whether the women had loved boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1103	0		Those actresses wonder whether the women had loved boys.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3561	1		The students have wondered whether the actors might exit schools at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3561	1		The students have wondered whether the actors might exit schools on weekends.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3561	0		The students have wondered at all whether the actors might exit schools.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3561	0		The students have wondered on weekends whether the actors might exit schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1400	1		The waitresses wonder whether the boys returned to any women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1400	1		The waitresses wonder whether the boys returned to those women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1400	0		Any waitresses wonder whether the boys returned to women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1400	0		The waitresses wonder whether the boys returned to women.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4287	1		The waiters have wondered whether the waitress is buying the pants in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4287	1		The waiters have wondered whether the waitress is buying the pants on occasion.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4287	0		The waiters have wondered in years whether the waitress is buying the pants.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4287	0		The waiters have wondered on occasion whether the waitress is buying the pants.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2208	1		The waitresses have wondered whether the boys talk to patients yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2208	1		The waitresses have wondered whether the boys talk to patients on occasion.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2208	0		The waitresses have wondered yet whether the boys talk to patients.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2208	0		The waitresses have wondered on occasion whether the boys talk to patients.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4472	1		The teachers have wondered whether the students have sold the reports in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4472	1		The teachers have wondered whether the students have sold the reports regularly.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4472	0		The teachers have wondered in years whether the students have sold the reports.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4472	0		The teachers have wondered regularly whether the students have sold the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=955	1		The ladies wonder whether the boy ever loved the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=955	1		The ladies wonder whether the boy clearly loved the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=955	0		The ladies ever wonder whether the boy loved the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=955	0		The ladies clearly wonder whether the boy loved the adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1271	1		The teachers wonder whether the children are scanning any documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1271	1		The teachers wonder whether the children are scanning those documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1271	0		Any teachers wonder whether the children are scanning documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1271	0		The teachers wonder whether the children are scanning documentaries.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4921	1		The women have wondered whether the guests can know the teachers in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4921	1		The women have wondered whether the guests can know the teachers for a while.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4921	0		The women have wondered in years whether the guests can know the teachers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4921	0		The women have wondered for a while whether the guests can know the teachers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4905	1		The senators have wondered whether the woman is visiting the girls in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4905	1		The senators have wondered whether the woman is visiting the girls on occasion.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4905	0		The senators have wondered in years whether the woman is visiting the girls.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4905	0		The senators have wondered on occasion whether the woman is visiting the girls.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3750	1		The waitresses have wondered whether the adults are bringing pants at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3750	1		The waitresses have wondered whether the adults are bringing pants for a while.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3750	0		The waitresses have wondered at all whether the adults are bringing pants.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3750	0		The waitresses have wondered for a while whether the adults are bringing pants.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1022	1		The actors wonder whether the driver should sell any reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1022	1		The actors wonder whether the driver should sell these reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1022	0		Any actors wonder whether the driver should sell reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1022	0		Those actors wonder whether the driver should sell reports.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4834	1		The dancers have wondered whether the actress has hugged the senators in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4834	1		The dancers have wondered whether the actress has hugged the senators on occasion.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4834	0		The dancers have wondered in years whether the actress has hugged the senators.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4834	0		The dancers have wondered on occasion whether the actress has hugged the senators.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1889	1		The people wonder whether the teacher escaped from any cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1889	1		The people wonder whether the teacher escaped from these cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1889	0		Any people wonder whether the teacher escaped from cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1889	0		The people wonder whether the teacher escaped from cafes.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3244	1		The doctors have wondered whether the teenager is bringing newspaper articles at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3244	1		The doctors have wondered whether the teenager is bringing newspaper articles regularly.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3244	0		The doctors have wondered at all whether the teenager is bringing newspaper articles.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3244	0		The doctors have wondered regularly whether the teenager is bringing newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1108	1		The pedestrians wonder whether the dancer will take any forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1108	1		The pedestrians wonder whether the dancer will take those forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1108	0		Any pedestrians wonder whether the dancer will take forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1108	0		The pedestrians wonder whether the dancer will take forks.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2977	1		The actresses have wondered whether the guest has taken forks yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2977	1		The actresses have wondered whether the guest has taken forks regularly.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2977	0		The actresses have wondered yet whether the guest has taken forks.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2977	0		The actresses have wondered regularly whether the guest has taken forks.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4265	1		The customers have wondered whether the actresses resemble the grocery stores in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4265	1		The customers have wondered whether the actresses resemble the grocery stores on occasion.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4265	0		The customers have wondered in years whether the actresses resemble the grocery stores.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4265	0		The customers have wondered on occasion whether the actresses resemble the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=866	1		The men wonder whether the waiter ever loves the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=866	1		The men wonder whether the waiter also loves the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=866	0		The men ever wonder whether the waiter loves the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=866	0		The men also wonder whether the waiter loves the reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1981	1		The guys wonder whether the driver buys any chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1981	1		The guys wonder whether the driver buys those chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1981	0		Any guys wonder whether the driver buys chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1981	0		The guys wonder whether the driver buys chairs.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4199	1		The adults have wondered whether the men will discuss the grocery stores in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4199	1		The adults have wondered whether the men will discuss the grocery stores on weekends.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4199	0		The adults have wondered in years whether the men will discuss the grocery stores.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4199	0		The adults have wondered on weekends whether the men will discuss the grocery stores.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4586	1		The guests have wondered whether the waiters have disliked the teenagers in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4586	1		The guests have wondered whether the waiters have disliked the teenagers on weekends.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4586	0		The guests have wondered in years whether the waiters have disliked the teenagers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4586	0		The guests have wondered on weekends whether the waiters have disliked the teenagers.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5712	1		The actresses have wondered whether the students are criticizing the essays either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5712	1		The actresses have wondered whether the students are criticizing the essays for a while.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5712	0		The actresses have wondered either whether the students are criticizing the essays.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5712	0		The actresses have wondered for a while whether the students are criticizing the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=644	1		The people wonder whether the doctors ever have the glasses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=644	1		The people wonder whether the doctors often have the glasses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=644	0		The people ever wonder whether the doctors have the glasses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=644	0		The people often wonder whether the doctors have the glasses.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2632	1		The waitresses have wondered whether the ladies do forget men yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2632	1		The waitresses have wondered whether the ladies do forget men as well.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2632	0		The waitresses have wondered yet whether the ladies do forget men.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2632	0		The waitresses have wondered as well whether the ladies do forget men.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4294	1		The waitresses have wondered whether the children will boycott the art galleries in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4294	1		The waitresses have wondered whether the children will boycott the art galleries on weekends.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4294	0		The waitresses have wondered in years whether the children will boycott the art galleries.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4294	0		The waitresses have wondered on weekends whether the children will boycott the art galleries.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4520	1		The students have wondered whether the patient wears the glasses in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4520	1		The students have wondered whether the patient wears the glasses as well.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4520	0		The students have wondered in years whether the patient wears the glasses.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4520	0		The students have wondered as well whether the patient wears the glasses.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4374	1		The doctors have wondered whether the adults are attacking the drivers in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4374	1		The doctors have wondered whether the adults are attacking the drivers on occasion.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4374	0		The doctors have wondered in years whether the adults are attacking the drivers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4374	0		The doctors have wondered on occasion whether the adults are attacking the drivers.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3110	1		The drivers have wondered whether the girls could talk about actresses at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3110	1		The drivers have wondered whether the girls could talk about actresses as well.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3110	0		The drivers have wondered at all whether the girls could talk about actresses.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3110	0		The drivers have wondered as well whether the girls could talk about actresses.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4975	1		The doctors have wondered whether the teacher can bring the couches in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4975	1		The doctors have wondered whether the teacher can bring the couches as well.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4975	0		The doctors have wondered in years whether the teacher can bring the couches.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4975	0		The doctors have wondered as well whether the teacher can bring the couches.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5201	1		The waitresses have wondered whether the doctor hated the actors either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5201	1		The waitresses have wondered whether the doctor hated the actors on weekends.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5201	0		The waitresses have wondered either whether the doctor hated the actors.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5201	0		The waitresses have wondered on weekends whether the doctor hated the actors.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3295	1		The men have wondered whether the guys should go to banks at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3295	1		The men have wondered whether the guys should go to banks as well.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3295	0		The men have wondered at all whether the guys should go to banks.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3295	0		The men have wondered as well whether the guys should go to banks.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4936	1		The men have wondered whether the senator has respected the high schools in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4936	1		The men have wondered whether the senator has respected the high schools on occasion.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4936	0		The men have wondered in years whether the senator has respected the high schools.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4936	0		The men have wondered on occasion whether the senator has respected the high schools.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4568	1		The women have wondered whether the doctors were exploring the hospitals in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4568	1		The women have wondered whether the doctors were exploring the hospitals for a while.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4568	0		The women have wondered in years whether the doctors were exploring the hospitals.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4568	0		The women have wondered for a while whether the doctors were exploring the hospitals.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5880	1		The drivers have wondered whether the man would like the glasses either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5880	1		The drivers have wondered whether the man would like the glasses on weekends.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5880	0		The drivers have wondered either whether the man would like the glasses.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5880	0		The drivers have wondered on weekends whether the man would like the glasses.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2031	1		The drivers have wondered whether the actors had sold books yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2031	1		The drivers have wondered whether the actors had sold books for a while.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2031	0		The drivers have wondered yet whether the actors had sold books.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2031	0		The drivers have wondered for a while whether the actors had sold books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=743	1		The senators wonder whether the waitresses ever could admire the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=743	1		The senators wonder whether the waitresses often could admire the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=743	0		The senators ever wonder whether the waitresses could admire the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=743	0		The senators often wonder whether the waitresses could admire the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=941	1		The patients wonder whether the doctor ever took the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=941	1		The patients wonder whether the doctor often took the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=941	0		The patients ever wonder whether the doctor took the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=941	0		The patients often wonder whether the doctor took the books.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3166	1		The actors have wondered whether the teenagers are approaching men at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3166	1		The actors have wondered whether the teenagers are approaching men regularly.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3166	0		The actors have wondered at all whether the teenagers are approaching men.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3166	0		The actors have wondered regularly whether the teenagers are approaching men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=449	1		The adults wonder whether the waitress ever has talked to the children.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=449	1		The adults wonder whether the waitress obviously has talked to the children.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=449	0		The adults ever wonder whether the waitress has talked to the children.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=449	0		The adults obviously wonder whether the waitress has talked to the children.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2573	1		The cashiers have wondered whether the actress drives to public parks yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2573	1		The cashiers have wondered whether the actress drives to public parks for a while.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2573	0		The cashiers have wondered yet whether the actress drives to public parks.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2573	0		The cashiers have wondered for a while whether the actress drives to public parks.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5290	1		The drivers have wondered whether the dancers reference the documentaries either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5290	1		The drivers have wondered whether the dancers reference the documentaries on occasion.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5290	0		The drivers have wondered either whether the dancers reference the documentaries.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5290	0		The drivers have wondered on occasion whether the dancers reference the documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1135	1		The waiters wonder whether the person will care for any women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1135	1		The waiters wonder whether the person will care for the women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1135	0		Any waiters wonder whether the person will care for women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1135	0		The waiters wonder whether the person will care for women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1174	1		The customers wonder whether the customer hugged any adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1174	1		The customers wonder whether the customer hugged those adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1174	0		Any customers wonder whether the customer hugged adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1174	0		These customers wonder whether the customer hugged adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=514	1		The senators wonder whether the doctor ever cared for the doctors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=514	1		The senators wonder whether the doctor clearly cared for the doctors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=514	0		The senators ever wonder whether the doctor cared for the doctors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=514	0		The senators clearly wonder whether the doctor cared for the doctors.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4240	1		The people have wondered whether the boys hug the ladies in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4240	1		The people have wondered whether the boys hug the ladies as well.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4240	0		The people have wondered in years whether the boys hug the ladies.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4240	0		The people have wondered as well whether the boys hug the ladies.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4054	1		The actresses have wondered whether the guys have loved the teenagers in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4054	1		The actresses have wondered whether the guys have loved the teenagers on weekends.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4054	0		The actresses have wondered in years whether the guys have loved the teenagers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4054	0		The actresses have wondered on weekends whether the guys have loved the teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1891	1		The waiters wonder whether the waiter has kissed any guys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1891	1		The waiters wonder whether the waiter has kissed these guys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1891	0		Any waiters wonder whether the waiter has kissed guys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1891	0		These waiters wonder whether the waiter has kissed guys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1181	1		The teenagers wonder whether the driver flees from any guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1181	1		The teenagers wonder whether the driver flees from those guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1181	0		Any teenagers wonder whether the driver flees from guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1181	0		Those teenagers wonder whether the driver flees from guests.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4039	1		The students have wondered whether the guys had fled from the public parks in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4039	1		The students have wondered whether the guys had fled from the public parks as well.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4039	0		The students have wondered in years whether the guys had fled from the public parks.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4039	0		The students have wondered as well whether the guys had fled from the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=47	1		The boys wonder whether the actresses ever disliked the plays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=47	1		The boys wonder whether the actresses fortunately disliked the plays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=47	0		The boys ever wonder whether the actresses disliked the plays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=47	0		The boys fortunately wonder whether the actresses disliked the plays.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4183	1		The doctors have wondered whether the actor attacks the customers in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4183	1		The doctors have wondered whether the actor attacks the customers on weekends.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4183	0		The doctors have wondered in years whether the actor attacks the customers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4183	0		The doctors have wondered on weekends whether the actor attacks the customers.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5697	1		The actresses have wondered whether the patients will describe the cafes either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5697	1		The actresses have wondered whether the patients will describe the cafes as well.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5697	0		The actresses have wondered either whether the patients will describe the cafes.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5697	0		The actresses have wondered as well whether the patients will describe the cafes.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2846	1		The waiters have wondered whether the teacher has biked to museums yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2846	1		The waiters have wondered whether the teacher has biked to museums on occasion.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2846	0		The waiters have wondered yet whether the teacher has biked to museums.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2846	0		The waiters have wondered on occasion whether the teacher has biked to museums.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=797	1		The senators wonder whether the dancers ever can drop by the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=797	1		The senators wonder whether the dancers obviously can drop by the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=797	0		The senators ever wonder whether the dancers can drop by the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=797	0		The senators obviously wonder whether the dancers can drop by the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=122	1		The actresses wonder whether the pedestrian ever goes to the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=122	1		The actresses wonder whether the pedestrian fortunately goes to the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=122	0		The actresses ever wonder whether the pedestrian goes to the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=122	0		The actresses fortunately wonder whether the pedestrian goes to the hospitals.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2563	1		The actresses have wondered whether the people have observed boys yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2563	1		The actresses have wondered whether the people have observed boys on occasion.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2563	0		The actresses have wondered yet whether the people have observed boys.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2563	0		The actresses have wondered on occasion whether the people have observed boys.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3629	1		The waitresses have wondered whether the adults were walking through high schools at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3629	1		The waitresses have wondered whether the adults were walking through high schools on occasion.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3629	0		The waitresses have wondered at all whether the adults were walking through high schools.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3629	0		The waitresses have wondered on occasion whether the adults were walking through high schools.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3478	1		The women have wondered whether the students might drop by banks at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3478	1		The women have wondered whether the students might drop by banks on weekends.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3478	0		The women have wondered at all whether the students might drop by banks.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3478	0		The women have wondered on weekends whether the students might drop by banks.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2863	1		The actresses have wondered whether the senators were visiting women yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2863	1		The actresses have wondered whether the senators were visiting women on occasion.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2863	0		The actresses have wondered yet whether the senators were visiting women.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2863	0		The actresses have wondered on occasion whether the senators were visiting women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1154	1		The waitresses wonder whether the dancer is praising any patients.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1154	1		The waitresses wonder whether the dancer is praising those patients.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1154	0		Any waitresses wonder whether the dancer is praising patients.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1154	0		Those waitresses wonder whether the dancer is praising patients.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1618	1		The waitresses wonder whether the teacher cared for any guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1618	1		The waitresses wonder whether the teacher cared for those guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1618	0		Any waitresses wonder whether the teacher cared for guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1618	0		Those waitresses wonder whether the teacher cared for guests.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2613	1		The doctors have wondered whether the students do hug ladies yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2613	1		The doctors have wondered whether the students do hug ladies as well.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2613	0		The doctors have wondered yet whether the students do hug ladies.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2613	0		The doctors have wondered as well whether the students do hug ladies.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1714	1		The cashiers wonder whether the people were attacking any men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1714	1		The cashiers wonder whether the people were attacking these men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1714	0		Any cashiers wonder whether the people were attacking men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1714	0		Those cashiers wonder whether the people were attacking men.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3094	1		The men have wondered whether the waitresses sold cars at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3094	1		The men have wondered whether the waitresses sold cars for a while.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3094	0		The men have wondered at all whether the waitresses sold cars.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3094	0		The men have wondered for a while whether the waitresses sold cars.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1579	1		The people wonder whether the guys had taken any couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1579	1		The people wonder whether the guys had taken these couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1579	0		Any people wonder whether the guys had taken couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1579	0		The people wonder whether the guys had taken couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=673	1		The women wonder whether the teenager ever bought the forks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=673	1		The women wonder whether the teenager also bought the forks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=673	0		The women ever wonder whether the teenager bought the forks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=673	0		The women also wonder whether the teenager bought the forks.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3200	1		The teachers have wondered whether the customers break forks at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3200	1		The teachers have wondered whether the customers break forks for a while.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3200	0		The teachers have wondered at all whether the customers break forks.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3200	0		The teachers have wondered for a while whether the customers break forks.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5465	1		The people have wondered whether the children should drive to the public parks either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5465	1		The people have wondered whether the children should drive to the public parks on weekends.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5465	0		The people have wondered either whether the children should drive to the public parks.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5465	0		The people have wondered on weekends whether the children should drive to the public parks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1304	1		The customers wonder whether the guest had investigated any guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1304	1		The customers wonder whether the guest had investigated those guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1304	0		Any customers wonder whether the guest had investigated guests.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1304	0		These customers wonder whether the guest had investigated guests.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3407	1		The cashiers have wondered whether the adult works with patients at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3407	1		The cashiers have wondered whether the adult works with patients for a while.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3407	0		The cashiers have wondered at all whether the adult works with patients.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3407	0		The cashiers have wondered for a while whether the adult works with patients.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4908	1		The actresses have wondered whether the actor is approaching the drivers in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4908	1		The actresses have wondered whether the actor is approaching the drivers as well.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4908	0		The actresses have wondered in years whether the actor is approaching the drivers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4908	0		The actresses have wondered as well whether the actor is approaching the drivers.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=4237	1		The adults have wondered whether the patients do bike to the malls in years.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=4237	1		The adults have wondered whether the patients do bike to the malls on occasion.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=4237	0		The adults have wondered in years whether the patients do bike to the malls.
+experiment=NPI-env=questions-npi=inyears-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=4237	0		The adults have wondered on occasion whether the patients do bike to the malls.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2907	1		The people have wondered whether the waitress cleans chairs yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2907	1		The people have wondered whether the waitress cleans chairs for a while.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2907	0		The people have wondered yet whether the waitress cleans chairs.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2907	0		The people have wondered for a while whether the waitress cleans chairs.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3907	1		The waitresses have wondered whether the dancer is bringing plates at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3907	1		The waitresses have wondered whether the dancer is bringing plates regularly.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3907	0		The waitresses have wondered at all whether the dancer is bringing plates.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3907	0		The waitresses have wondered regularly whether the dancer is bringing plates.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2505	1		The students have wondered whether the pedestrians hug drivers yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2505	1		The students have wondered whether the pedestrians hug drivers for a while.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2505	0		The students have wondered yet whether the pedestrians hug drivers.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2505	0		The students have wondered for a while whether the pedestrians hug drivers.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2851	1		The men have wondered whether the boy had left pedestrians yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2851	1		The men have wondered whether the boy had left pedestrians regularly.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2851	0		The men have wondered yet whether the boy had left pedestrians.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2851	0		The men have wondered regularly whether the boy had left pedestrians.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5137	1		The pedestrians have wondered whether the doctors did tour the schools either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5137	1		The pedestrians have wondered whether the doctors did tour the schools on weekends.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5137	0		The pedestrians have wondered either whether the doctors did tour the schools.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5137	0		The pedestrians have wondered on weekends whether the doctors did tour the schools.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=2574	1		The doctors have wondered whether the lady watches people yet.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=2574	1		The doctors have wondered whether the lady watches people regularly.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=2574	0		The doctors have wondered yet whether the lady watches people.
+experiment=NPI-env=questions-npi=yet-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=2574	0		The doctors have wondered regularly whether the lady watches people.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5395	1		The cashiers have wondered whether the waiters walk through the libraries either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5395	1		The cashiers have wondered whether the waiters walk through the libraries on occasion.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5395	0		The cashiers have wondered either whether the waiters walk through the libraries.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5395	0		The cashiers have wondered on occasion whether the waiters walk through the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=95	1		The children wonder whether the students ever examined the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=95	1		The children wonder whether the students clearly examined the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=95	0		The children ever wonder whether the students examined the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=95	0		The children clearly wonder whether the students examined the stories.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=5063	1		The doctors have wondered whether the cashier had known the senators either.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=5063	1		The doctors have wondered whether the cashier had known the senators regularly.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=5063	0		The doctors have wondered either whether the cashier had known the senators.
+experiment=NPI-env=questions-npi=either-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=5063	0		The doctors have wondered regularly whether the cashier had known the senators.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1005	1		The students wonder whether the women had broken any chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1005	1		The students wonder whether the women had broken those chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1005	0		Any students wonder whether the women had broken chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1005	0		These students wonder whether the women had broken chairs.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=3487	1		The actors have wondered whether the teachers were observing boys at all.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=3487	1		The actors have wondered whether the teachers were observing boys on occasion.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=3487	0		The actors have wondered at all whether the teachers were observing boys.
+experiment=NPI-env=questions-npi=atall-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=3487	0		The actors have wondered on occasion whether the teachers were observing boys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=204	1		The waitresses wonder whether the customer ever exited the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=204	1		The waitresses wonder whether the customer fortunately exited the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=204	0		The waitresses ever wonder whether the customer exited the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=204	0		The waitresses fortunately wonder whether the customer exited the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=483	1		The waitresses wonder whether the adults ever tour the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=483	1		The waitresses wonder whether the adults also tour the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=483	0		The waitresses ever wonder whether the adults tour the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=483	0		The waitresses also wonder whether the adults tour the hospitals.
