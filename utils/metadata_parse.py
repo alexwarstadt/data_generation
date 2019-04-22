@@ -5,6 +5,9 @@ import numpy as np
 from utils.vocab_table import *
 import os
 import itertools
+import random
+
+random.seed(1)
 
 def peek_line(f):
     pos = f.tell()
@@ -74,7 +77,48 @@ def make_subsets(in_domain_size):
                 test_counter += 1
 
 
-# make_subsets(6)
+def make_splits(test_size = 125, dev_size = 125, train_size = 1250):
+    """
+    Function that makes train/dev/test splits for each enviroment
+    :param test_size: number of paradigms in the test set
+    :param dev_size: number of paradigms in the test set
+    :param train_size: number of environments to be in-domain
+    :return: none. writes to output
+    """
 
+    npi_path = "outputs/npi/environments"
+    output_dir = "outputs/npi/environments/splits/"
+    for file in os.listdir(npi_path):
+        if file[-4:] == ".tsv":
+            read_file = read_data_tsv(os.path.join(npi_path, file))
+            dir_name = file[12:-4]
+            os.mkdir(os.path.join(output_dir, dir_name))
+                
+            train = open(os.path.join(output_dir, dir_name, "train.tsv"), "w")
+            test = open(os.path.join(output_dir, dir_name, "test_full.tsv"), "w")
+            test2 = open(os.path.join(output_dir, dir_name, "test.tsv"), "w")
+            dev = open(os.path.join(output_dir, dir_name, "dev.tsv"), "w")
+            test_counter = 0
+    
+            paradigms = list(set(read_file["paradigm"]))
+            for p in paradigms[:test_size]:
+                for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
+                    test.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
+                    test2.write("%d\t%s" % (test_counter, line["sentence"]))
+                    test_counter += 1
+
+            for p in paradigms[test_size:test_size+dev_size]:
+                for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
+                    dev.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
+     
+            for p in paradigms[test_size+dev_size:test_size+dev_size+train_size]:
+                for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
+                    train.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
+
+
+
+# make_subsets(6)
+                   
+make_splits(test_size = 125, dev_size = 125, train_size = 1250)
 
 
