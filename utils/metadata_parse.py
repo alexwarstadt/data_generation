@@ -106,6 +106,7 @@ def make_splits(test_size=125, dev_size=125, train_size=1250):
     
             paradigms = list(set(read_file["paradigm"]))
             for p in paradigms[:test_size]:
+                test.write("index\tsentence\n")
                 for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
                     test.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
                     test2.write("%d\t%s" % (test_counter, line["sentence"]))
@@ -170,7 +171,7 @@ def make_probing_data():
                    
 # make_splits(test_size=250, dev_size=250, train_size=2500)
 
-# make_probing_data()
+make_probing_data()
 
 
      
