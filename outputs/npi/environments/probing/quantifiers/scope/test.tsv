@@ -1,1001 +1,1001 @@
-index   sentence
-0	A cashier who has rugs yet can clean dishes.
-1	A cashier who has rugs on occasion can clean dishes.
-2	A cashier who has rugs can clean dishes yet.
-3	A cashier who has rugs can clean dishes on occasion.
-4	Every cashier who has rugs yet can clean dishes.
-5	Every cashier who has rugs on occasion can clean dishes.
-6	Every cashier who has rugs can clean dishes yet.
-7	Every cashier who has rugs can clean dishes on occasion.
-8	A dancer who has arrived at a lot of museums either admires a lot of adults.
-9	A dancer who has arrived at a lot of museums for a while admires a lot of adults.
-10	A dancer who has arrived at a lot of museums admires a lot of adults either.
-11	A dancer who has arrived at a lot of museums admires a lot of adults for a while.
-12	Every dancer who has arrived at a lot of museums either admires a lot of adults.
-13	Every dancer who has arrived at a lot of museums for a while admires a lot of adults.
-14	Every dancer who has arrived at a lot of museums admires a lot of adults either.
-15	Every dancer who has arrived at a lot of museums admires a lot of adults for a while.
-16	Some patient who returns to more than three waiters either kissed more than three people.
-17	Some patient who returns to more than three waiters regularly kissed more than three people.
-18	Some patient who returns to more than three waiters kissed more than three people either.
-19	Some patient who returns to more than three waiters kissed more than three people regularly.
-20	Every patient who returns to more than three waiters either kissed more than three people.
-21	Every patient who returns to more than three waiters regularly kissed more than three people.
-22	Every patient who returns to more than three waiters kissed more than three people either.
-23	Every patient who returns to more than three waiters kissed more than three people regularly.
-24	An actress who knew many ladies yet watches a lot of guests.
-25	An actress who knew many ladies on occasion watches a lot of guests.
-26	An actress who knew many ladies watches a lot of guests yet.
-27	An actress who knew many ladies watches a lot of guests on occasion.
-28	Every actress who knew many ladies yet watches a lot of guests.
-29	Every actress who knew many ladies on occasion watches a lot of guests.
-30	Every actress who knew many ladies watches a lot of guests yet.
-31	Every actress who knew many ladies watches a lot of guests on occasion.
-32	Some customer who cared for many actors at all skated around movie theaters.
-33	Some customer who cared for many actors for a while skated around movie theaters.
-34	Some customer who cared for many actors skated around movie theaters at all.
-35	Some customer who cared for many actors skated around movie theaters for a while.
-36	Every customer who cared for many actors at all skated around movie theaters.
-37	Every customer who cared for many actors for a while skated around movie theaters.
-38	Every customer who cared for many actors skated around movie theaters at all.
-39	Every customer who cared for many actors skated around movie theaters for a while.
-40	Many patients who help more than three teachers either forget some ladies.
-41	Many patients who help more than three teachers on weekends forget some ladies.
-42	Many patients who help more than three teachers forget some ladies either.
-43	Many patients who help more than three teachers forget some ladies on weekends.
-44	Any patients who help more than three teachers either forget some ladies.
-45	Any patients who help more than three teachers on weekends forget some ladies.
-46	Any patients who help more than three teachers forget some ladies either.
-47	Any patients who help more than three teachers forget some ladies on weekends.
-48	The customer who returned to a lot of dancers in years dropped by many public parks.
-49	The customer who returned to a lot of dancers regularly dropped by many public parks.
-50	The customer who returned to a lot of dancers dropped by many public parks in years.
-51	The customer who returned to a lot of dancers dropped by many public parks regularly.
-52	Every customer who returned to a lot of dancers in years dropped by many public parks.
-53	Every customer who returned to a lot of dancers regularly dropped by many public parks.
-54	Every customer who returned to a lot of dancers dropped by many public parks in years.
-55	Every customer who returned to a lot of dancers dropped by many public parks regularly.
-56	The boys who ever described a lot of ladies observed some doctors.
-57	The boys who also described a lot of ladies observed some doctors.
-58	The boys who described a lot of ladies ever observed some doctors.
-59	The boys who described a lot of ladies also observed some doctors.
-60	Any boys who ever described a lot of ladies observed some doctors.
-61	Any boys who also described a lot of ladies observed some doctors.
-62	Any boys who described a lot of ladies ever observed some doctors.
-63	Any boys who described a lot of ladies also observed some doctors.
-64	A teacher who watched a lot of children in years boycotted many schools.
-65	A teacher who watched a lot of children on occasion boycotted many schools.
-66	A teacher who watched a lot of children boycotted many schools in years.
-67	A teacher who watched a lot of children boycotted many schools on occasion.
-68	Every teacher who watched a lot of children in years boycotted many schools.
-69	Every teacher who watched a lot of children on occasion boycotted many schools.
-70	Every teacher who watched a lot of children boycotted many schools in years.
-71	Every teacher who watched a lot of children boycotted many schools on occasion.
-72	The teacher who hates a lot of ladies at all does wear more than three gloves.
-73	The teacher who hates a lot of ladies regularly does wear more than three gloves.
-74	The teacher who hates a lot of ladies does wear more than three gloves at all.
-75	The teacher who hates a lot of ladies does wear more than three gloves regularly.
-76	Every teacher who hates a lot of ladies at all does wear more than three gloves.
-77	Every teacher who hates a lot of ladies regularly does wear more than three gloves.
-78	Every teacher who hates a lot of ladies does wear more than three gloves at all.
-79	Every teacher who hates a lot of ladies does wear more than three gloves regularly.
-80	Some girl who ever listened to many teachers works with a lot of pedestrians.
-81	Some girl who obviously listened to many teachers works with a lot of pedestrians.
-82	Some girl who listened to many teachers ever works with a lot of pedestrians.
-83	Some girl who listened to many teachers obviously works with a lot of pedestrians.
-84	Every girl who ever listened to many teachers works with a lot of pedestrians.
-85	Every girl who obviously listened to many teachers works with a lot of pedestrians.
-86	Every girl who listened to many teachers ever works with a lot of pedestrians.
-87	Every girl who listened to many teachers obviously works with a lot of pedestrians.
-88	More than three women who dropped by many high schools at all skated around many hospitals.
-89	More than three women who dropped by many high schools on weekends skated around many hospitals.
-90	More than three women who dropped by many high schools skated around many hospitals at all.
-91	More than three women who dropped by many high schools skated around many hospitals on weekends.
-92	All women who dropped by many high schools at all skated around many hospitals.
-93	All women who dropped by many high schools on weekends skated around many hospitals.
-94	All women who dropped by many high schools skated around many hospitals at all.
-95	All women who dropped by many high schools skated around many hospitals on weekends.
-96	Some doctor who ever does admire a lot of children had disliked more than three banks.
-97	Some doctor who often does admire a lot of children had disliked more than three banks.
-98	Some doctor who does admire a lot of children had ever disliked more than three banks.
-99	Some doctor who does admire a lot of children had often disliked more than three banks.
-100	Every doctor who ever does admire a lot of children had disliked more than three banks.
-101	Every doctor who often does admire a lot of children had disliked more than three banks.
-102	Every doctor who does admire a lot of children had ever disliked more than three banks.
-103	Every doctor who does admire a lot of children had often disliked more than three banks.
-104	Some ladies who will insult more than three senators yet run around more than three museums.
-105	Some ladies who will insult more than three senators on weekends run around more than three museums.
-106	Some ladies who will insult more than three senators run around more than three museums yet.
-107	Some ladies who will insult more than three senators run around more than three museums on weekends.
-108	All ladies who will insult more than three senators yet run around more than three museums.
-109	All ladies who will insult more than three senators on weekends run around more than three museums.
-110	All ladies who will insult more than three senators run around more than three museums yet.
-111	All ladies who will insult more than three senators run around more than three museums on weekends.
-112	The pedestrians who attack dancers yet criticized patients.
-113	The pedestrians who attack dancers regularly criticized patients.
-114	The pedestrians who attack dancers criticized patients yet.
-115	The pedestrians who attack dancers criticized patients regularly.
-116	All pedestrians who attack dancers yet criticized patients.
-117	All pedestrians who attack dancers regularly criticized patients.
-118	All pedestrians who attack dancers criticized patients yet.
-119	All pedestrians who attack dancers criticized patients regularly.
-120	Some girls who had gone to any college campuses have observed a lot of waiters.
-121	Some girls who had gone to those college campuses have observed a lot of waiters.
-122	Some girls who had gone to many college campuses have observed any waiters.
-123	Some girls who had gone to many college campuses have observed the waiters.
-124	Any girls who had gone to any college campuses have observed a lot of waiters.
-125	Any girls who had gone to those college campuses have observed a lot of waiters.
-126	Any girls who had gone to many college campuses have observed any waiters.
-127	Any girls who had gone to many college campuses have observed the waiters.
-128	The girl who was touring libraries yet was wearing gloves.
-129	The girl who was touring libraries on weekends was wearing gloves.
-130	The girl who was touring libraries was wearing gloves yet.
-131	The girl who was touring libraries was wearing gloves on weekends.
-132	Every girl who was touring libraries yet was wearing gloves.
-133	Every girl who was touring libraries on weekends was wearing gloves.
-134	Every girl who was touring libraries was wearing gloves yet.
-135	Every girl who was touring libraries was wearing gloves on weekends.
-136	A senator who ever helped a lot of ladies will walk through the movie theaters.
-137	A senator who clearly helped a lot of ladies will walk through the movie theaters.
-138	A senator who helped a lot of ladies will ever walk through the movie theaters.
-139	A senator who helped a lot of ladies will clearly walk through the movie theaters.
-140	Every senator who ever helped a lot of ladies will walk through the movie theaters.
-141	Every senator who clearly helped a lot of ladies will walk through the movie theaters.
-142	Every senator who helped a lot of ladies will ever walk through the movie theaters.
-143	Every senator who helped a lot of ladies will clearly walk through the movie theaters.
-144	A lot of cashiers who are lifting cups yet returned to more than three guys.
-145	A lot of cashiers who are lifting cups for a while returned to more than three guys.
-146	A lot of cashiers who are lifting cups returned to more than three guys yet.
-147	A lot of cashiers who are lifting cups returned to more than three guys for a while.
-148	Any cashiers who are lifting cups yet returned to more than three guys.
-149	Any cashiers who are lifting cups for a while returned to more than three guys.
-150	Any cashiers who are lifting cups returned to more than three guys yet.
-151	Any cashiers who are lifting cups returned to more than three guys for a while.
-152	More than three teachers who had gone to many hospitals either have returned to some guys.
-153	More than three teachers who had gone to many hospitals as well have returned to some guys.
-154	More than three teachers who had gone to many hospitals have returned to some guys either.
-155	More than three teachers who had gone to many hospitals have returned to some guys as well.
-156	Any teachers who had gone to many hospitals either have returned to some guys.
-157	Any teachers who had gone to many hospitals as well have returned to some guys.
-158	Any teachers who had gone to many hospitals have returned to some guys either.
-159	Any teachers who had gone to many hospitals have returned to some guys as well.
-160	Some boy who had explored any cafes arrives at a lot of college campuses.
-161	Some boy who had explored these cafes arrives at a lot of college campuses.
-162	Some boy who had explored a lot of cafes arrives at any college campuses.
-163	Some boy who had explored a lot of cafes arrives at those college campuses.
-164	Every boy who had explored any cafes arrives at a lot of college campuses.
-165	Every boy who had explored these cafes arrives at a lot of college campuses.
-166	Every boy who had explored a lot of cafes arrives at any college campuses.
-167	Every boy who had explored a lot of cafes arrives at those college campuses.
-168	Drivers who ever examined many books do investigate more than three boys.
-169	Drivers who also examined many books do investigate more than three boys.
-170	Drivers who examined many books ever do investigate more than three boys.
-171	Drivers who examined many books also do investigate more than three boys.
-172	All drivers who ever examined many books do investigate more than three boys.
-173	All drivers who also examined many books do investigate more than three boys.
-174	All drivers who examined many books ever do investigate more than three boys.
-175	All drivers who examined many books also do investigate more than three boys.
-176	Many customers who had remembered schools in years wore glasses.
-177	Many customers who had remembered schools as well wore glasses.
-178	Many customers who had remembered schools wore glasses in years.
-179	Many customers who had remembered schools wore glasses as well.
-180	Any customers who had remembered schools in years wore glasses.
-181	Any customers who had remembered schools as well wore glasses.
-182	Any customers who had remembered schools wore glasses in years.
-183	Any customers who had remembered schools wore glasses as well.
-184	More than three women who biked to a lot of hospitals either had scanned a lot of essays.
-185	More than three women who biked to a lot of hospitals regularly had scanned a lot of essays.
-186	More than three women who biked to a lot of hospitals had scanned a lot of essays either.
-187	More than three women who biked to a lot of hospitals had scanned a lot of essays regularly.
-188	Any women who biked to a lot of hospitals either had scanned a lot of essays.
-189	Any women who biked to a lot of hospitals regularly had scanned a lot of essays.
-190	Any women who biked to a lot of hospitals had scanned a lot of essays either.
-191	Any women who biked to a lot of hospitals had scanned a lot of essays regularly.
-192	A lot of dancers who are taking the rugs either forget women.
-193	A lot of dancers who are taking the rugs as well forget women.
-194	A lot of dancers who are taking the rugs forget women either.
-195	A lot of dancers who are taking the rugs forget women as well.
-196	All dancers who are taking the rugs either forget women.
-197	All dancers who are taking the rugs as well forget women.
-198	All dancers who are taking the rugs forget women either.
-199	All dancers who are taking the rugs forget women as well.
-200	Some guest who might wear the gloves either would criticize a lot of guests.
-201	Some guest who might wear the gloves for a while would criticize a lot of guests.
-202	Some guest who might wear the gloves would criticize a lot of guests either.
-203	Some guest who might wear the gloves would criticize a lot of guests for a while.
-204	Every guest who might wear the gloves either would criticize a lot of guests.
-205	Every guest who might wear the gloves for a while would criticize a lot of guests.
-206	Every guest who might wear the gloves would criticize a lot of guests either.
-207	Every guest who might wear the gloves would criticize a lot of guests for a while.
-208	A lot of girls who approached the students either should describe many teachers.
-209	A lot of girls who approached the students regularly should describe many teachers.
-210	A lot of girls who approached the students should describe many teachers either.
-211	A lot of girls who approached the students should describe many teachers regularly.
-212	All girls who approached the students either should describe many teachers.
-213	All girls who approached the students regularly should describe many teachers.
-214	All girls who approached the students should describe many teachers either.
-215	All girls who approached the students should describe many teachers regularly.
-216	Some patient who is lifting more than three dishes at all attacked many dancers.
-217	Some patient who is lifting more than three dishes as well attacked many dancers.
-218	Some patient who is lifting more than three dishes attacked many dancers at all.
-219	Some patient who is lifting more than three dishes attacked many dancers as well.
-220	Every patient who is lifting more than three dishes at all attacked many dancers.
-221	Every patient who is lifting more than three dishes as well attacked many dancers.
-222	Every patient who is lifting more than three dishes attacked many dancers at all.
-223	Every patient who is lifting more than three dishes attacked many dancers as well.
-224	A cashier who resembled some pants yet should observe a lot of boys.
-225	A cashier who resembled some pants regularly should observe a lot of boys.
-226	A cashier who resembled some pants should observe a lot of boys yet.
-227	A cashier who resembled some pants should observe a lot of boys regularly.
-228	Every cashier who resembled some pants yet should observe a lot of boys.
-229	Every cashier who resembled some pants regularly should observe a lot of boys.
-230	Every cashier who resembled some pants should observe a lot of boys yet.
-231	Every cashier who resembled some pants should observe a lot of boys regularly.
-232	A customer who had ever dropped by some hospitals approached some women.
-233	A customer who had also dropped by some hospitals approached some women.
-234	A customer who had dropped by some hospitals ever approached some women.
-235	A customer who had dropped by some hospitals also approached some women.
-236	Every customer who had ever dropped by some hospitals approached some women.
-237	Every customer who had also dropped by some hospitals approached some women.
-238	Every customer who had dropped by some hospitals ever approached some women.
-239	Every customer who had dropped by some hospitals also approached some women.
-240	A woman who would ever criticize teachers kisses guests.
-241	A woman who would clearly criticize teachers kisses guests.
-242	A woman who would criticize teachers ever kisses guests.
-243	A woman who would criticize teachers clearly kisses guests.
-244	Every woman who would ever criticize teachers kisses guests.
-245	Every woman who would clearly criticize teachers kisses guests.
-246	Every woman who would criticize teachers ever kisses guests.
-247	Every woman who would criticize teachers clearly kisses guests.
-248	Some senators who walked through many art galleries at all have kissed a lot of teachers.
-249	Some senators who walked through many art galleries on weekends have kissed a lot of teachers.
-250	Some senators who walked through many art galleries have kissed a lot of teachers at all.
-251	Some senators who walked through many art galleries have kissed a lot of teachers on weekends.
-252	All senators who walked through many art galleries at all have kissed a lot of teachers.
-253	All senators who walked through many art galleries on weekends have kissed a lot of teachers.
-254	All senators who walked through many art galleries have kissed a lot of teachers at all.
-255	All senators who walked through many art galleries have kissed a lot of teachers on weekends.
-256	A person who has helped any drivers skated around museums.
-257	A person who has helped the drivers skated around museums.
-258	A person who has helped some drivers skated around any museums.
-259	A person who has helped some drivers skated around these museums.
-260	Every person who has helped any drivers skated around museums.
-261	Every person who has helped the drivers skated around museums.
-262	Every person who has helped some drivers skated around any museums.
-263	Every person who has helped some drivers skated around these museums.
-264	Many guests who have examined any essays had talked to teenagers.
-265	Many guests who have examined those essays had talked to teenagers.
-266	Many guests who have examined essays had talked to any teenagers.
-267	Many guests who have examined essays had talked to these teenagers.
-268	All guests who have examined any essays had talked to teenagers.
-269	All guests who have examined those essays had talked to teenagers.
-270	All guests who have examined essays had talked to any teenagers.
-271	All guests who have examined essays had talked to these teenagers.
-272	Some man who does hate a lot of students at all was discussing a lot of senators.
-273	Some man who does hate a lot of students regularly was discussing a lot of senators.
-274	Some man who does hate a lot of students was discussing a lot of senators at all.
-275	Some man who does hate a lot of students was discussing a lot of senators regularly.
-276	Every man who does hate a lot of students at all was discussing a lot of senators.
-277	Every man who does hate a lot of students regularly was discussing a lot of senators.
-278	Every man who does hate a lot of students was discussing a lot of senators at all.
-279	Every man who does hate a lot of students was discussing a lot of senators regularly.
-280	A customer who has seen teenagers yet respects adults.
-281	A customer who has seen teenagers on weekends respects adults.
-282	A customer who has seen teenagers respects adults yet.
-283	A customer who has seen teenagers respects adults on weekends.
-284	Every customer who has seen teenagers yet respects adults.
-285	Every customer who has seen teenagers on weekends respects adults.
-286	Every customer who has seen teenagers respects adults yet.
-287	Every customer who has seen teenagers respects adults on weekends.
-288	More than three customers who were walking through some art galleries at all had toured some libraries.
-289	More than three customers who were walking through some art galleries regularly had toured some libraries.
-290	More than three customers who were walking through some art galleries had toured some libraries at all.
-291	More than three customers who were walking through some art galleries had toured some libraries regularly.
-292	All customers who were walking through some art galleries at all had toured some libraries.
-293	All customers who were walking through some art galleries regularly had toured some libraries.
-294	All customers who were walking through some art galleries had toured some libraries at all.
-295	All customers who were walking through some art galleries had toured some libraries regularly.
-296	A lot of children who have boycotted more than three banks in years brought the glasses.
-297	A lot of children who have boycotted more than three banks regularly brought the glasses.
-298	A lot of children who have boycotted more than three banks brought the glasses in years.
-299	A lot of children who have boycotted more than three banks brought the glasses regularly.
-300	Any children who have boycotted more than three banks in years brought the glasses.
-301	Any children who have boycotted more than three banks regularly brought the glasses.
-302	Any children who have boycotted more than three banks brought the glasses in years.
-303	Any children who have boycotted more than three banks brought the glasses regularly.
-304	A driver who listened to a lot of ladies either knows people.
-305	A driver who listened to a lot of ladies regularly knows people.
-306	A driver who listened to a lot of ladies knows people either.
-307	A driver who listened to a lot of ladies knows people regularly.
-308	Every driver who listened to a lot of ladies either knows people.
-309	Every driver who listened to a lot of ladies regularly knows people.
-310	Every driver who listened to a lot of ladies knows people either.
-311	Every driver who listened to a lot of ladies knows people regularly.
-312	Some waitress who cleans many chairs either did pass more than three cafes.
-313	Some waitress who cleans many chairs for a while did pass more than three cafes.
-314	Some waitress who cleans many chairs did pass more than three cafes either.
-315	Some waitress who cleans many chairs did pass more than three cafes for a while.
-316	Every waitress who cleans many chairs either did pass more than three cafes.
-317	Every waitress who cleans many chairs for a while did pass more than three cafes.
-318	Every waitress who cleans many chairs did pass more than three cafes either.
-319	Every waitress who cleans many chairs did pass more than three cafes for a while.
-320	Actresses who exited many cafes yet might lift the pants.
-321	Actresses who exited many cafes regularly might lift the pants.
-322	Actresses who exited many cafes might lift the pants yet.
-323	Actresses who exited many cafes might lift the pants regularly.
-324	Any actresses who exited many cafes yet might lift the pants.
-325	Any actresses who exited many cafes regularly might lift the pants.
-326	Any actresses who exited many cafes might lift the pants yet.
-327	Any actresses who exited many cafes might lift the pants regularly.
-328	The senators who have lifted a lot of books in years have driven to more than three malls.
-329	The senators who have lifted a lot of books as well have driven to more than three malls.
-330	The senators who have lifted a lot of books have driven to more than three malls in years.
-331	The senators who have lifted a lot of books have driven to more than three malls as well.
-332	All senators who have lifted a lot of books in years have driven to more than three malls.
-333	All senators who have lifted a lot of books as well have driven to more than three malls.
-334	All senators who have lifted a lot of books have driven to more than three malls in years.
-335	All senators who have lifted a lot of books have driven to more than three malls as well.
-336	More than three pedestrians who dislike any teenagers observed teachers.
-337	More than three pedestrians who dislike the teenagers observed teachers.
-338	More than three pedestrians who dislike teenagers observed any teachers.
-339	More than three pedestrians who dislike teenagers observed these teachers.
-340	Any pedestrians who dislike any teenagers observed teachers.
-341	Any pedestrians who dislike the teenagers observed teachers.
-342	Any pedestrians who dislike teenagers observed any teachers.
-343	Any pedestrians who dislike teenagers observed these teachers.
-344	Ladies who talked about the actors in years hugged some adults.
-345	Ladies who talked about the actors regularly hugged some adults.
-346	Ladies who talked about the actors hugged some adults in years.
-347	Ladies who talked about the actors hugged some adults regularly.
-348	All ladies who talked about the actors in years hugged some adults.
-349	All ladies who talked about the actors regularly hugged some adults.
-350	All ladies who talked about the actors hugged some adults in years.
-351	All ladies who talked about the actors hugged some adults regularly.
-352	More than three doctors who explored banks in years boycotted a lot of art galleries.
-353	More than three doctors who explored banks for a while boycotted a lot of art galleries.
-354	More than three doctors who explored banks boycotted a lot of art galleries in years.
-355	More than three doctors who explored banks boycotted a lot of art galleries for a while.
-356	Any doctors who explored banks in years boycotted a lot of art galleries.
-357	Any doctors who explored banks for a while boycotted a lot of art galleries.
-358	Any doctors who explored banks boycotted a lot of art galleries in years.
-359	Any doctors who explored banks boycotted a lot of art galleries for a while.
-360	A waiter who has loved patients in years had attacked the teachers.
-361	A waiter who has loved patients for a while had attacked the teachers.
-362	A waiter who has loved patients had attacked the teachers in years.
-363	A waiter who has loved patients had attacked the teachers for a while.
-364	Every waiter who has loved patients in years had attacked the teachers.
-365	Every waiter who has loved patients for a while had attacked the teachers.
-366	Every waiter who has loved patients had attacked the teachers in years.
-367	Every waiter who has loved patients had attacked the teachers for a while.
-368	The child who talked about some teenagers either will take many cups.
-369	The child who talked about some teenagers for a while will take many cups.
-370	The child who talked about some teenagers will take many cups either.
-371	The child who talked about some teenagers will take many cups for a while.
-372	Every child who talked about some teenagers either will take many cups.
-373	Every child who talked about some teenagers for a while will take many cups.
-374	Every child who talked about some teenagers will take many cups either.
-375	Every child who talked about some teenagers will take many cups for a while.
-376	An actor who ever had dishes has bought more than three gloves.
-377	An actor who often had dishes has bought more than three gloves.
-378	An actor who had dishes has ever bought more than three gloves.
-379	An actor who had dishes has often bought more than three gloves.
-380	Every actor who ever had dishes has bought more than three gloves.
-381	Every actor who often had dishes has bought more than three gloves.
-382	Every actor who had dishes has ever bought more than three gloves.
-383	Every actor who had dishes has often bought more than three gloves.
-384	Women who had ever passed many cafes know some men.
-385	Women who had obviously passed many cafes know some men.
-386	Women who had passed many cafes ever know some men.
-387	Women who had passed many cafes obviously know some men.
-388	Any women who had ever passed many cafes know some men.
-389	Any women who had obviously passed many cafes know some men.
-390	Any women who had passed many cafes ever know some men.
-391	Any women who had passed many cafes obviously know some men.
-392	Some actress who had glasses in years escaped from restaurants.
-393	Some actress who had glasses for a while escaped from restaurants.
-394	Some actress who had glasses escaped from restaurants in years.
-395	Some actress who had glasses escaped from restaurants for a while.
-396	Every actress who had glasses in years escaped from restaurants.
-397	Every actress who had glasses for a while escaped from restaurants.
-398	Every actress who had glasses escaped from restaurants in years.
-399	Every actress who had glasses escaped from restaurants for a while.
-400	More than three actresses who ever know many drivers had worked with many teenagers.
-401	More than three actresses who fortunately know many drivers had worked with many teenagers.
-402	More than three actresses who know many drivers had ever worked with many teenagers.
-403	More than three actresses who know many drivers had fortunately worked with many teenagers.
-404	All actresses who ever know many drivers had worked with many teenagers.
-405	All actresses who fortunately know many drivers had worked with many teenagers.
-406	All actresses who know many drivers had ever worked with many teenagers.
-407	All actresses who know many drivers had fortunately worked with many teenagers.
-408	Some ladies who have ever seen more than three shoes could dislike more than three waiters.
-409	Some ladies who have also seen more than three shoes could dislike more than three waiters.
-410	Some ladies who have seen more than three shoes could ever dislike more than three waiters.
-411	Some ladies who have seen more than three shoes could also dislike more than three waiters.
-412	All ladies who have ever seen more than three shoes could dislike more than three waiters.
-413	All ladies who have also seen more than three shoes could dislike more than three waiters.
-414	All ladies who have seen more than three shoes could ever dislike more than three waiters.
-415	All ladies who have seen more than three shoes could also dislike more than three waiters.
-416	The student who would ever break some plates had fled from a lot of cafes.
-417	The student who would obviously break some plates had fled from a lot of cafes.
-418	The student who would break some plates had ever fled from a lot of cafes.
-419	The student who would break some plates had obviously fled from a lot of cafes.
-420	Every student who would ever break some plates had fled from a lot of cafes.
-421	Every student who would obviously break some plates had fled from a lot of cafes.
-422	Every student who would break some plates had ever fled from a lot of cafes.
-423	Every student who would break some plates had obviously fled from a lot of cafes.
-424	Some customer who scanned any movies goes to many art galleries.
-425	Some customer who scanned those movies goes to many art galleries.
-426	Some customer who scanned the movies goes to any art galleries.
-427	Some customer who scanned the movies goes to the art galleries.
-428	Every customer who scanned any movies goes to many art galleries.
-429	Every customer who scanned those movies goes to many art galleries.
-430	Every customer who scanned the movies goes to any art galleries.
-431	Every customer who scanned the movies goes to the art galleries.
-432	More than three boys who will talk about any actors did observe the teenagers.
-433	More than three boys who will talk about those actors did observe the teenagers.
-434	More than three boys who will talk about a lot of actors did observe any teenagers.
-435	More than three boys who will talk about a lot of actors did observe those teenagers.
-436	All boys who will talk about any actors did observe the teenagers.
-437	All boys who will talk about those actors did observe the teenagers.
-438	All boys who will talk about a lot of actors did observe any teenagers.
-439	All boys who will talk about a lot of actors did observe those teenagers.
-440	An adult who had admired actresses in years sold a lot of pants.
-441	An adult who had admired actresses on occasion sold a lot of pants.
-442	An adult who had admired actresses sold a lot of pants in years.
-443	An adult who had admired actresses sold a lot of pants on occasion.
-444	Every adult who had admired actresses in years sold a lot of pants.
-445	Every adult who had admired actresses on occasion sold a lot of pants.
-446	Every adult who had admired actresses sold a lot of pants in years.
-447	Every adult who had admired actresses sold a lot of pants on occasion.
-448	Some actress who does go to the hospitals at all criticized the people.
-449	Some actress who does go to the hospitals on occasion criticized the people.
-450	Some actress who does go to the hospitals criticized the people at all.
-451	Some actress who does go to the hospitals criticized the people on occasion.
-452	Every actress who does go to the hospitals at all criticized the people.
-453	Every actress who does go to the hospitals on occasion criticized the people.
-454	Every actress who does go to the hospitals criticized the people at all.
-455	Every actress who does go to the hospitals criticized the people on occasion.
-456	Many people who are examining commentaries yet are selling the cups.
-457	Many people who are examining commentaries on occasion are selling the cups.
-458	Many people who are examining commentaries are selling the cups yet.
-459	Many people who are examining commentaries are selling the cups on occasion.
-460	Any people who are examining commentaries yet are selling the cups.
-461	Any people who are examining commentaries on occasion are selling the cups.
-462	Any people who are examining commentaries are selling the cups yet.
-463	Any people who are examining commentaries are selling the cups on occasion.
-464	An actress who could boycott art galleries either had known the adults.
-465	An actress who could boycott art galleries on occasion had known the adults.
-466	An actress who could boycott art galleries had known the adults either.
-467	An actress who could boycott art galleries had known the adults on occasion.
-468	Every actress who could boycott art galleries either had known the adults.
-469	Every actress who could boycott art galleries on occasion had known the adults.
-470	Every actress who could boycott art galleries had known the adults either.
-471	Every actress who could boycott art galleries had known the adults on occasion.
-472	Some girls who had watched any actors sold reports.
-473	Some girls who had watched those actors sold reports.
-474	Some girls who had watched the actors sold any reports.
-475	Some girls who had watched the actors sold these reports.
-476	All girls who had watched any actors sold reports.
-477	All girls who had watched those actors sold reports.
-478	All girls who had watched the actors sold any reports.
-479	All girls who had watched the actors sold these reports.
-480	More than three guests who are exiting some banks at all investigated malls.
-481	More than three guests who are exiting some banks as well investigated malls.
-482	More than three guests who are exiting some banks investigated malls at all.
-483	More than three guests who are exiting some banks investigated malls as well.
-484	All guests who are exiting some banks at all investigated malls.
-485	All guests who are exiting some banks as well investigated malls.
-486	All guests who are exiting some banks investigated malls at all.
-487	All guests who are exiting some banks investigated malls as well.
-488	More than three adults who can skate around the movie theaters yet are touring some schools.
-489	More than three adults who can skate around the movie theaters on weekends are touring some schools.
-490	More than three adults who can skate around the movie theaters are touring some schools yet.
-491	More than three adults who can skate around the movie theaters are touring some schools on weekends.
-492	Any adults who can skate around the movie theaters yet are touring some schools.
-493	Any adults who can skate around the movie theaters on weekends are touring some schools.
-494	Any adults who can skate around the movie theaters are touring some schools yet.
-495	Any adults who can skate around the movie theaters are touring some schools on weekends.
-496	A pedestrian who was selling a lot of couches either will explore more than three museums.
-497	A pedestrian who was selling a lot of couches on weekends will explore more than three museums.
-498	A pedestrian who was selling a lot of couches will explore more than three museums either.
-499	A pedestrian who was selling a lot of couches will explore more than three museums on weekends.
-500	Every pedestrian who was selling a lot of couches either will explore more than three museums.
-501	Every pedestrian who was selling a lot of couches on weekends will explore more than three museums.
-502	Every pedestrian who was selling a lot of couches will explore more than three museums either.
-503	Every pedestrian who was selling a lot of couches will explore more than three museums on weekends.
-504	A customer who is skated around any banks is examining many newspaper articles.
-505	A customer who is skated around the banks is examining many newspaper articles.
-506	A customer who is skated around a lot of banks is examining any newspaper articles.
-507	A customer who is skated around a lot of banks is examining the newspaper articles.
-508	Every customer who is skated around any banks is examining many newspaper articles.
-509	Every customer who is skated around the banks is examining many newspaper articles.
-510	Every customer who is skated around a lot of banks is examining any newspaper articles.
-511	Every customer who is skated around a lot of banks is examining the newspaper articles.
-512	The customer who had disliked reports in years has helped more than three girls.
-513	The customer who had disliked reports regularly has helped more than three girls.
-514	The customer who had disliked reports has helped more than three girls in years.
-515	The customer who had disliked reports has helped more than three girls regularly.
-516	Every customer who had disliked reports in years has helped more than three girls.
-517	Every customer who had disliked reports regularly has helped more than three girls.
-518	Every customer who had disliked reports has helped more than three girls in years.
-519	Every customer who had disliked reports has helped more than three girls regularly.
-520	A guy who has discussed some boys either watched a lot of actresses.
-521	A guy who has discussed some boys regularly watched a lot of actresses.
-522	A guy who has discussed some boys watched a lot of actresses either.
-523	A guy who has discussed some boys watched a lot of actresses regularly.
-524	Every guy who has discussed some boys either watched a lot of actresses.
-525	Every guy who has discussed some boys regularly watched a lot of actresses.
-526	Every guy who has discussed some boys watched a lot of actresses either.
-527	Every guy who has discussed some boys watched a lot of actresses regularly.
-528	A lot of boys who should observe any guys have cleaned shoes.
-529	A lot of boys who should observe those guys have cleaned shoes.
-530	A lot of boys who should observe guys have cleaned any shoes.
-531	A lot of boys who should observe guys have cleaned the shoes.
-532	All boys who should observe any guys have cleaned shoes.
-533	All boys who should observe those guys have cleaned shoes.
-534	All boys who should observe guys have cleaned any shoes.
-535	All boys who should observe guys have cleaned the shoes.
-536	The doctor who has been at grocery stores yet arrives at a lot of libraries.
-537	The doctor who has been at grocery stores regularly arrives at a lot of libraries.
-538	The doctor who has been at grocery stores arrives at a lot of libraries yet.
-539	The doctor who has been at grocery stores arrives at a lot of libraries regularly.
-540	Every doctor who has been at grocery stores yet arrives at a lot of libraries.
-541	Every doctor who has been at grocery stores regularly arrives at a lot of libraries.
-542	Every doctor who has been at grocery stores arrives at a lot of libraries yet.
-543	Every doctor who has been at grocery stores arrives at a lot of libraries regularly.
-544	Some driver who described the actors in years referenced the dancers.
-545	Some driver who described the actors as well referenced the dancers.
-546	Some driver who described the actors referenced the dancers in years.
-547	Some driver who described the actors referenced the dancers as well.
-548	Every driver who described the actors in years referenced the dancers.
-549	Every driver who described the actors as well referenced the dancers.
-550	Every driver who described the actors referenced the dancers in years.
-551	Every driver who described the actors referenced the dancers as well.
-552	A cashier who knew many waiters yet exited more than three banks.
-553	A cashier who knew many waiters for a while exited more than three banks.
-554	A cashier who knew many waiters exited more than three banks yet.
-555	A cashier who knew many waiters exited more than three banks for a while.
-556	Every cashier who knew many waiters yet exited more than three banks.
-557	Every cashier who knew many waiters for a while exited more than three banks.
-558	Every cashier who knew many waiters exited more than three banks yet.
-559	Every cashier who knew many waiters exited more than three banks for a while.
-560	The waitress who can wear a lot of pants yet is exploring museums.
-561	The waitress who can wear a lot of pants for a while is exploring museums.
-562	The waitress who can wear a lot of pants is exploring museums yet.
-563	The waitress who can wear a lot of pants is exploring museums for a while.
-564	Every waitress who can wear a lot of pants yet is exploring museums.
-565	Every waitress who can wear a lot of pants for a while is exploring museums.
-566	Every waitress who can wear a lot of pants is exploring museums yet.
-567	Every waitress who can wear a lot of pants is exploring museums for a while.
-568	Some cashier who ever did care for the men had driven to more than three restaurants.
-569	Some cashier who often did care for the men had driven to more than three restaurants.
-570	Some cashier who did care for the men had ever driven to more than three restaurants.
-571	Some cashier who did care for the men had often driven to more than three restaurants.
-572	Every cashier who ever did care for the men had driven to more than three restaurants.
-573	Every cashier who often did care for the men had driven to more than three restaurants.
-574	Every cashier who did care for the men had ever driven to more than three restaurants.
-575	Every cashier who did care for the men had often driven to more than three restaurants.
-576	Some people who should help the teachers at all hugged a lot of boys.
-577	Some people who should help the teachers regularly hugged a lot of boys.
-578	Some people who should help the teachers hugged a lot of boys at all.
-579	Some people who should help the teachers hugged a lot of boys regularly.
-580	All people who should help the teachers at all hugged a lot of boys.
-581	All people who should help the teachers regularly hugged a lot of boys.
-582	All people who should help the teachers hugged a lot of boys at all.
-583	All people who should help the teachers hugged a lot of boys regularly.
-584	A customer who had helped any doctors praises many plays.
-585	A customer who had helped the doctors praises many plays.
-586	A customer who had helped a lot of doctors praises any plays.
-587	A customer who had helped a lot of doctors praises these plays.
-588	Every customer who had helped any doctors praises many plays.
-589	Every customer who had helped the doctors praises many plays.
-590	Every customer who had helped a lot of doctors praises any plays.
-591	Every customer who had helped a lot of doctors praises these plays.
-592	Some adult who had biked to the cafes in years had broken a lot of cars.
-593	Some adult who had biked to the cafes on occasion had broken a lot of cars.
-594	Some adult who had biked to the cafes had broken a lot of cars in years.
-595	Some adult who had biked to the cafes had broken a lot of cars on occasion.
-596	Every adult who had biked to the cafes in years had broken a lot of cars.
-597	Every adult who had biked to the cafes on occasion had broken a lot of cars.
-598	Every adult who had biked to the cafes had broken a lot of cars in years.
-599	Every adult who had biked to the cafes had broken a lot of cars on occasion.
-600	A patient who was boycotting a lot of libraries either references more than three adults.
-601	A patient who was boycotting a lot of libraries on weekends references more than three adults.
-602	A patient who was boycotting a lot of libraries references more than three adults either.
-603	A patient who was boycotting a lot of libraries references more than three adults on weekends.
-604	Every patient who was boycotting a lot of libraries either references more than three adults.
-605	Every patient who was boycotting a lot of libraries on weekends references more than three adults.
-606	Every patient who was boycotting a lot of libraries references more than three adults either.
-607	Every patient who was boycotting a lot of libraries references more than three adults on weekends.
-608	More than three students who might attack a lot of women yet had broken dishes.
-609	More than three students who might attack a lot of women on occasion had broken dishes.
-610	More than three students who might attack a lot of women had broken dishes yet.
-611	More than three students who might attack a lot of women had broken dishes on occasion.
-612	Any students who might attack a lot of women yet had broken dishes.
-613	Any students who might attack a lot of women on occasion had broken dishes.
-614	Any students who might attack a lot of women had broken dishes yet.
-615	Any students who might attack a lot of women had broken dishes on occasion.
-616	The lady who was selling some dishes yet did dislike a lot of high schools.
-617	The lady who was selling some dishes for a while did dislike a lot of high schools.
-618	The lady who was selling some dishes did dislike a lot of high schools yet.
-619	The lady who was selling some dishes did dislike a lot of high schools for a while.
-620	Every lady who was selling some dishes yet did dislike a lot of high schools.
-621	Every lady who was selling some dishes for a while did dislike a lot of high schools.
-622	Every lady who was selling some dishes did dislike a lot of high schools yet.
-623	Every lady who was selling some dishes did dislike a lot of high schools for a while.
-624	Many adults who did investigate any high schools had investigated the actors.
-625	Many adults who did investigate these high schools had investigated the actors.
-626	Many adults who did investigate a lot of high schools had investigated any actors.
-627	Many adults who did investigate a lot of high schools had investigated those actors.
-628	Any adults who did investigate any high schools had investigated the actors.
-629	Any adults who did investigate these high schools had investigated the actors.
-630	Any adults who did investigate a lot of high schools had investigated any actors.
-631	Any adults who did investigate a lot of high schools had investigated those actors.
-632	Children who did run around any museums do boycott more than three public parks.
-633	Children who did run around the museums do boycott more than three public parks.
-634	Children who did run around many museums do boycott any public parks.
-635	Children who did run around many museums do boycott those public parks.
-636	Any children who did run around any museums do boycott more than three public parks.
-637	Any children who did run around the museums do boycott more than three public parks.
-638	Any children who did run around many museums do boycott any public parks.
-639	Any children who did run around many museums do boycott those public parks.
-640	More than three guests who would ever bring many rugs go to many banks.
-641	More than three guests who would fortunately bring many rugs go to many banks.
-642	More than three guests who would bring many rugs ever go to many banks.
-643	More than three guests who would bring many rugs fortunately go to many banks.
-644	All guests who would ever bring many rugs go to many banks.
-645	All guests who would fortunately bring many rugs go to many banks.
-646	All guests who would bring many rugs ever go to many banks.
-647	All guests who would bring many rugs fortunately go to many banks.
-648	Some waitresses who ever described the patients skate around more than three museums.
-649	Some waitresses who fortunately described the patients skate around more than three museums.
-650	Some waitresses who described the patients ever skate around more than three museums.
-651	Some waitresses who described the patients fortunately skate around more than three museums.
-652	All waitresses who ever described the patients skate around more than three museums.
-653	All waitresses who fortunately described the patients skate around more than three museums.
-654	All waitresses who described the patients ever skate around more than three museums.
-655	All waitresses who described the patients fortunately skate around more than three museums.
-656	More than three waitresses who have some books at all walked through a lot of college campuses.
-657	More than three waitresses who have some books on occasion walked through a lot of college campuses.
-658	More than three waitresses who have some books walked through a lot of college campuses at all.
-659	More than three waitresses who have some books walked through a lot of college campuses on occasion.
-660	All waitresses who have some books at all walked through a lot of college campuses.
-661	All waitresses who have some books on occasion walked through a lot of college campuses.
-662	All waitresses who have some books walked through a lot of college campuses at all.
-663	All waitresses who have some books walked through a lot of college campuses on occasion.
-664	Some actress who talked to more than three people in years has ran around the libraries.
-665	Some actress who talked to more than three people on weekends has ran around the libraries.
-666	Some actress who talked to more than three people has ran around the libraries in years.
-667	Some actress who talked to more than three people has ran around the libraries on weekends.
-668	Every actress who talked to more than three people in years has ran around the libraries.
-669	Every actress who talked to more than three people on weekends has ran around the libraries.
-670	Every actress who talked to more than three people has ran around the libraries in years.
-671	Every actress who talked to more than three people has ran around the libraries on weekends.
-672	The child who ever talked to many waiters will lift plates.
-673	The child who fortunately talked to many waiters will lift plates.
-674	The child who talked to many waiters will ever lift plates.
-675	The child who talked to many waiters will fortunately lift plates.
-676	Every child who ever talked to many waiters will lift plates.
-677	Every child who fortunately talked to many waiters will lift plates.
-678	Every child who talked to many waiters will ever lift plates.
-679	Every child who talked to many waiters will fortunately lift plates.
-680	Some man who has ran around more than three high schools in years disliked a lot of stories.
-681	Some man who has ran around more than three high schools for a while disliked a lot of stories.
-682	Some man who has ran around more than three high schools disliked a lot of stories in years.
-683	Some man who has ran around more than three high schools disliked a lot of stories for a while.
-684	Every man who has ran around more than three high schools in years disliked a lot of stories.
-685	Every man who has ran around more than three high schools for a while disliked a lot of stories.
-686	Every man who has ran around more than three high schools disliked a lot of stories in years.
-687	Every man who has ran around more than three high schools disliked a lot of stories for a while.
-688	Adults who admired a lot of glasses in years have biked to the hospitals.
-689	Adults who admired a lot of glasses regularly have biked to the hospitals.
-690	Adults who admired a lot of glasses have biked to the hospitals in years.
-691	Adults who admired a lot of glasses have biked to the hospitals regularly.
-692	All adults who admired a lot of glasses in years have biked to the hospitals.
-693	All adults who admired a lot of glasses regularly have biked to the hospitals.
-694	All adults who admired a lot of glasses have biked to the hospitals in years.
-695	All adults who admired a lot of glasses have biked to the hospitals regularly.
-696	Many women who dropped by public parks either could bike to movie theaters.
-697	Many women who dropped by public parks regularly could bike to movie theaters.
-698	Many women who dropped by public parks could bike to movie theaters either.
-699	Many women who dropped by public parks could bike to movie theaters regularly.
-700	All women who dropped by public parks either could bike to movie theaters.
-701	All women who dropped by public parks regularly could bike to movie theaters.
-702	All women who dropped by public parks could bike to movie theaters either.
-703	All women who dropped by public parks could bike to movie theaters regularly.
-704	The drivers who are going to some schools at all are driving to many hospitals.
-705	The drivers who are going to some schools for a while are driving to many hospitals.
-706	The drivers who are going to some schools are driving to many hospitals at all.
-707	The drivers who are going to some schools are driving to many hospitals for a while.
-708	All drivers who are going to some schools at all are driving to many hospitals.
-709	All drivers who are going to some schools for a while are driving to many hospitals.
-710	All drivers who are going to some schools are driving to many hospitals at all.
-711	All drivers who are going to some schools are driving to many hospitals for a while.
-712	A dancer who kisses any adults saw the glasses.
-713	A dancer who kisses those adults saw the glasses.
-714	A dancer who kisses adults saw any glasses.
-715	A dancer who kisses adults saw these glasses.
-716	Every dancer who kisses any adults saw the glasses.
-717	Every dancer who kisses those adults saw the glasses.
-718	Every dancer who kisses adults saw any glasses.
-719	Every dancer who kisses adults saw these glasses.
-720	A lot of cashiers who have driven to schools at all left some adults.
-721	A lot of cashiers who have driven to schools for a while left some adults.
-722	A lot of cashiers who have driven to schools left some adults at all.
-723	A lot of cashiers who have driven to schools left some adults for a while.
-724	Any cashiers who have driven to schools at all left some adults.
-725	Any cashiers who have driven to schools for a while left some adults.
-726	Any cashiers who have driven to schools left some adults at all.
-727	Any cashiers who have driven to schools left some adults for a while.
-728	Actors who have taken any couches walk through a lot of banks.
-729	Actors who have taken those couches walk through a lot of banks.
-730	Actors who have taken the couches walk through any banks.
-731	Actors who have taken the couches walk through those banks.
-732	Any actors who have taken any couches walk through a lot of banks.
-733	Any actors who have taken those couches walk through a lot of banks.
-734	Any actors who have taken the couches walk through any banks.
-735	Any actors who have taken the couches walk through those banks.
-736	Some actor who was praising a lot of patients either was criticizing a lot of waiters.
-737	Some actor who was praising a lot of patients for a while was criticizing a lot of waiters.
-738	Some actor who was praising a lot of patients was criticizing a lot of waiters either.
-739	Some actor who was praising a lot of patients was criticizing a lot of waiters for a while.
-740	Every actor who was praising a lot of patients either was criticizing a lot of waiters.
-741	Every actor who was praising a lot of patients for a while was criticizing a lot of waiters.
-742	Every actor who was praising a lot of patients was criticizing a lot of waiters either.
-743	Every actor who was praising a lot of patients was criticizing a lot of waiters for a while.
-744	Some students who attack any cashiers were breaking books.
-745	Some students who attack those cashiers were breaking books.
-746	Some students who attack many cashiers were breaking any books.
-747	Some students who attack many cashiers were breaking the books.
-748	Any students who attack any cashiers were breaking books.
-749	Any students who attack those cashiers were breaking books.
-750	Any students who attack many cashiers were breaking any books.
-751	Any students who attack many cashiers were breaking the books.
-752	A waitress who knows any students wore many gloves.
-753	A waitress who knows these students wore many gloves.
-754	A waitress who knows the students wore any gloves.
-755	A waitress who knows the students wore those gloves.
-756	Every waitress who knows any students wore many gloves.
-757	Every waitress who knows these students wore many gloves.
-758	Every waitress who knows the students wore any gloves.
-759	Every waitress who knows the students wore those gloves.
-760	A man who has praised any waitresses has escaped from the actors.
-761	A man who has praised these waitresses has escaped from the actors.
-762	A man who has praised a lot of waitresses has escaped from any actors.
-763	A man who has praised a lot of waitresses has escaped from the actors.
-764	Every man who has praised any waitresses has escaped from the actors.
-765	Every man who has praised these waitresses has escaped from the actors.
-766	Every man who has praised a lot of waitresses has escaped from any actors.
-767	Every man who has praised a lot of waitresses has escaped from the actors.
-768	Many women who wore some gloves at all respect more than three hospitals.
-769	Many women who wore some gloves regularly respect more than three hospitals.
-770	Many women who wore some gloves respect more than three hospitals at all.
-771	Many women who wore some gloves respect more than three hospitals regularly.
-772	Any women who wore some gloves at all respect more than three hospitals.
-773	Any women who wore some gloves regularly respect more than three hospitals.
-774	Any women who wore some gloves respect more than three hospitals at all.
-775	Any women who wore some gloves respect more than three hospitals regularly.
-776	A senator who talks about any men helped a lot of waitresses.
-777	A senator who talks about the men helped a lot of waitresses.
-778	A senator who talks about more than three men helped any waitresses.
-779	A senator who talks about more than three men helped those waitresses.
-780	Every senator who talks about any men helped a lot of waitresses.
-781	Every senator who talks about the men helped a lot of waitresses.
-782	Every senator who talks about more than three men helped any waitresses.
-783	Every senator who talks about more than three men helped those waitresses.
-784	Many cashiers who have cared for the patients yet could discuss the teachers.
-785	Many cashiers who have cared for the patients as well could discuss the teachers.
-786	Many cashiers who have cared for the patients could discuss the teachers yet.
-787	Many cashiers who have cared for the patients could discuss the teachers as well.
-788	Any cashiers who have cared for the patients yet could discuss the teachers.
-789	Any cashiers who have cared for the patients as well could discuss the teachers.
-790	Any cashiers who have cared for the patients could discuss the teachers yet.
-791	Any cashiers who have cared for the patients could discuss the teachers as well.
-792	A person who had hated the books yet knows some students.
-793	A person who had hated the books on occasion knows some students.
-794	A person who had hated the books knows some students yet.
-795	A person who had hated the books knows some students on occasion.
-796	Every person who had hated the books yet knows some students.
-797	Every person who had hated the books on occasion knows some students.
-798	Every person who had hated the books knows some students yet.
-799	Every person who had hated the books knows some students on occasion.
-800	A guest who bought more than three shoes yet criticized a lot of pedestrians.
-801	A guest who bought more than three shoes as well criticized a lot of pedestrians.
-802	A guest who bought more than three shoes criticized a lot of pedestrians yet.
-803	A guest who bought more than three shoes criticized a lot of pedestrians as well.
-804	Every guest who bought more than three shoes yet criticized a lot of pedestrians.
-805	Every guest who bought more than three shoes as well criticized a lot of pedestrians.
-806	Every guest who bought more than three shoes criticized a lot of pedestrians yet.
-807	Every guest who bought more than three shoes criticized a lot of pedestrians as well.
-808	A lot of teenagers who have scanned books in years had known some cashiers.
-809	A lot of teenagers who have scanned books on occasion had known some cashiers.
-810	A lot of teenagers who have scanned books had known some cashiers in years.
-811	A lot of teenagers who have scanned books had known some cashiers on occasion.
-812	Any teenagers who have scanned books in years had known some cashiers.
-813	Any teenagers who have scanned books on occasion had known some cashiers.
-814	Any teenagers who have scanned books had known some cashiers in years.
-815	Any teenagers who have scanned books had known some cashiers on occasion.
-816	More than three students who drove to any movie theaters exited many restaurants.
-817	More than three students who drove to the movie theaters exited many restaurants.
-818	More than three students who drove to the movie theaters exited any restaurants.
-819	More than three students who drove to the movie theaters exited these restaurants.
-820	All students who drove to any movie theaters exited many restaurants.
-821	All students who drove to the movie theaters exited many restaurants.
-822	All students who drove to the movie theaters exited any restaurants.
-823	All students who drove to the movie theaters exited these restaurants.
-824	The person who lifted many dishes at all is referencing more than three waitresses.
-825	The person who lifted many dishes on weekends is referencing more than three waitresses.
-826	The person who lifted many dishes is referencing more than three waitresses at all.
-827	The person who lifted many dishes is referencing more than three waitresses on weekends.
-828	Every person who lifted many dishes at all is referencing more than three waitresses.
-829	Every person who lifted many dishes on weekends is referencing more than three waitresses.
-830	Every person who lifted many dishes is referencing more than three waitresses at all.
-831	Every person who lifted many dishes is referencing more than three waitresses on weekends.
-832	An actress who had insulted more than three high schools at all sold many cars.
-833	An actress who had insulted more than three high schools on weekends sold many cars.
-834	An actress who had insulted more than three high schools sold many cars at all.
-835	An actress who had insulted more than three high schools sold many cars on weekends.
-836	Every actress who had insulted more than three high schools at all sold many cars.
-837	Every actress who had insulted more than three high schools on weekends sold many cars.
-838	Every actress who had insulted more than three high schools sold many cars at all.
-839	Every actress who had insulted more than three high schools sold many cars on weekends.
-840	More than three teenagers who ever forget many plays attacked a lot of drivers.
-841	More than three teenagers who also forget many plays attacked a lot of drivers.
-842	More than three teenagers who forget many plays ever attacked a lot of drivers.
-843	More than three teenagers who forget many plays also attacked a lot of drivers.
-844	Any teenagers who ever forget many plays attacked a lot of drivers.
-845	Any teenagers who also forget many plays attacked a lot of drivers.
-846	Any teenagers who forget many plays ever attacked a lot of drivers.
-847	Any teenagers who forget many plays also attacked a lot of drivers.
-848	Some customer who skates around any schools was watching more than three women.
-849	Some customer who skates around these schools was watching more than three women.
-850	Some customer who skates around more than three schools was watching any women.
-851	Some customer who skates around more than three schools was watching those women.
-852	Every customer who skates around any schools was watching more than three women.
-853	Every customer who skates around these schools was watching more than three women.
-854	Every customer who skates around more than three schools was watching any women.
-855	Every customer who skates around more than three schools was watching those women.
-856	Some child who has seen gloves in years had known many women.
-857	Some child who has seen gloves for a while had known many women.
-858	Some child who has seen gloves had known many women in years.
-859	Some child who has seen gloves had known many women for a while.
-860	Every child who has seen gloves in years had known many women.
-861	Every child who has seen gloves for a while had known many women.
-862	Every child who has seen gloves had known many women in years.
-863	Every child who has seen gloves had known many women for a while.
-864	A teacher who praised some movies yet examined many newspaper articles.
-865	A teacher who praised some movies on occasion examined many newspaper articles.
-866	A teacher who praised some movies examined many newspaper articles yet.
-867	A teacher who praised some movies examined many newspaper articles on occasion.
-868	Every teacher who praised some movies yet examined many newspaper articles.
-869	Every teacher who praised some movies on occasion examined many newspaper articles.
-870	Every teacher who praised some movies examined many newspaper articles yet.
-871	Every teacher who praised some movies examined many newspaper articles on occasion.
-872	Some doctor who drove to a lot of college campuses in years had listened to a lot of customers.
-873	Some doctor who drove to a lot of college campuses on weekends had listened to a lot of customers.
-874	Some doctor who drove to a lot of college campuses had listened to a lot of customers in years.
-875	Some doctor who drove to a lot of college campuses had listened to a lot of customers on weekends.
-876	Every doctor who drove to a lot of college campuses in years had listened to a lot of customers.
-877	Every doctor who drove to a lot of college campuses on weekends had listened to a lot of customers.
-878	Every doctor who drove to a lot of college campuses had listened to a lot of customers in years.
-879	Every doctor who drove to a lot of college campuses had listened to a lot of customers on weekends.
-880	Many ladies who can forget more than three guys at all have bought a lot of books.
-881	Many ladies who can forget more than three guys on occasion have bought a lot of books.
-882	Many ladies who can forget more than three guys have bought a lot of books at all.
-883	Many ladies who can forget more than three guys have bought a lot of books on occasion.
-884	All ladies who can forget more than three guys at all have bought a lot of books.
-885	All ladies who can forget more than three guys on occasion have bought a lot of books.
-886	All ladies who can forget more than three guys have bought a lot of books at all.
-887	All ladies who can forget more than three guys have bought a lot of books on occasion.
-888	More than three students who have ever insulted many teachers forget a lot of senators.
-889	More than three students who have fortunately insulted many teachers forget a lot of senators.
-890	More than three students who have insulted many teachers ever forget a lot of senators.
-891	More than three students who have insulted many teachers fortunately forget a lot of senators.
-892	All students who have ever insulted many teachers forget a lot of senators.
-893	All students who have fortunately insulted many teachers forget a lot of senators.
-894	All students who have insulted many teachers ever forget a lot of senators.
-895	All students who have insulted many teachers fortunately forget a lot of senators.
-896	Some man who was dropping by movie theaters yet examined many documentaries.
-897	Some man who was dropping by movie theaters on occasion examined many documentaries.
-898	Some man who was dropping by movie theaters examined many documentaries yet.
-899	Some man who was dropping by movie theaters examined many documentaries on occasion.
-900	Every man who was dropping by movie theaters yet examined many documentaries.
-901	Every man who was dropping by movie theaters on occasion examined many documentaries.
-902	Every man who was dropping by movie theaters examined many documentaries yet.
-903	Every man who was dropping by movie theaters examined many documentaries on occasion.
-904	More than three people who should be at a lot of public parks at all hate a lot of actors.
-905	More than three people who should be at a lot of public parks on weekends hate a lot of actors.
-906	More than three people who should be at a lot of public parks hate a lot of actors at all.
-907	More than three people who should be at a lot of public parks hate a lot of actors on weekends.
-908	Any people who should be at a lot of public parks at all hate a lot of actors.
-909	Any people who should be at a lot of public parks on weekends hate a lot of actors.
-910	Any people who should be at a lot of public parks hate a lot of actors at all.
-911	Any people who should be at a lot of public parks hate a lot of actors on weekends.
-912	A dancer who can like some actors either remembers many teenagers.
-913	A dancer who can like some actors on occasion remembers many teenagers.
-914	A dancer who can like some actors remembers many teenagers either.
-915	A dancer who can like some actors remembers many teenagers on occasion.
-916	Every dancer who can like some actors either remembers many teenagers.
-917	Every dancer who can like some actors on occasion remembers many teenagers.
-918	Every dancer who can like some actors remembers many teenagers either.
-919	Every dancer who can like some actors remembers many teenagers on occasion.
-920	Some lady who sees many glasses yet had skated around cafes.
-921	Some lady who sees many glasses for a while had skated around cafes.
-922	Some lady who sees many glasses had skated around cafes yet.
-923	Some lady who sees many glasses had skated around cafes for a while.
-924	Every lady who sees many glasses yet had skated around cafes.
-925	Every lady who sees many glasses for a while had skated around cafes.
-926	Every lady who sees many glasses had skated around cafes yet.
-927	Every lady who sees many glasses had skated around cafes for a while.
-928	Some patient who ran around restaurants in years had described doctors.
-929	Some patient who ran around restaurants regularly had described doctors.
-930	Some patient who ran around restaurants had described doctors in years.
-931	Some patient who ran around restaurants had described doctors regularly.
-932	Every patient who ran around restaurants in years had described doctors.
-933	Every patient who ran around restaurants regularly had described doctors.
-934	Every patient who ran around restaurants had described doctors in years.
-935	Every patient who ran around restaurants had described doctors regularly.
-936	An actor who drives to any hospitals will work with the students.
-937	An actor who drives to those hospitals will work with the students.
-938	An actor who drives to some hospitals will work with any students.
-939	An actor who drives to some hospitals will work with these students.
-940	Every actor who drives to any hospitals will work with the students.
-941	Every actor who drives to those hospitals will work with the students.
-942	Every actor who drives to some hospitals will work with any students.
-943	Every actor who drives to some hospitals will work with these students.
-944	A lot of actors who had ever biked to many banks described many libraries.
-945	A lot of actors who had obviously biked to many banks described many libraries.
-946	A lot of actors who had biked to many banks ever described many libraries.
-947	A lot of actors who had biked to many banks obviously described many libraries.
-948	All actors who had ever biked to many banks described many libraries.
-949	All actors who had obviously biked to many banks described many libraries.
-950	All actors who had biked to many banks ever described many libraries.
-951	All actors who had biked to many banks obviously described many libraries.
-952	Some student who should have many cars yet had passed high schools.
-953	Some student who should have many cars regularly had passed high schools.
-954	Some student who should have many cars had passed high schools yet.
-955	Some student who should have many cars had passed high schools regularly.
-956	Every student who should have many cars yet had passed high schools.
-957	Every student who should have many cars regularly had passed high schools.
-958	Every student who should have many cars had passed high schools yet.
-959	Every student who should have many cars had passed high schools regularly.
-960	More than three women who ever sell forks admire a lot of shoes.
-961	More than three women who obviously sell forks admire a lot of shoes.
-962	More than three women who sell forks ever admire a lot of shoes.
-963	More than three women who sell forks obviously admire a lot of shoes.
-964	All women who ever sell forks admire a lot of shoes.
-965	All women who obviously sell forks admire a lot of shoes.
-966	All women who sell forks ever admire a lot of shoes.
-967	All women who sell forks obviously admire a lot of shoes.
-968	Some patient who had ever cared for teachers had skated around the cafes.
-969	Some patient who had obviously cared for teachers had skated around the cafes.
-970	Some patient who had cared for teachers had ever skated around the cafes.
-971	Some patient who had cared for teachers had obviously skated around the cafes.
-972	Every patient who had ever cared for teachers had skated around the cafes.
-973	Every patient who had obviously cared for teachers had skated around the cafes.
-974	Every patient who had cared for teachers had ever skated around the cafes.
-975	Every patient who had cared for teachers had obviously skated around the cafes.
-976	A woman who does be at many art galleries either has cared for some cashiers.
-977	A woman who does be at many art galleries as well has cared for some cashiers.
-978	A woman who does be at many art galleries has cared for some cashiers either.
-979	A woman who does be at many art galleries has cared for some cashiers as well.
-980	Every woman who does be at many art galleries either has cared for some cashiers.
-981	Every woman who does be at many art galleries as well has cared for some cashiers.
-982	Every woman who does be at many art galleries has cared for some cashiers either.
-983	Every woman who does be at many art galleries has cared for some cashiers as well.
-984	The doctors who have boycotted many schools yet respect pedestrians.
-985	The doctors who have boycotted many schools as well respect pedestrians.
-986	The doctors who have boycotted many schools respect pedestrians yet.
-987	The doctors who have boycotted many schools respect pedestrians as well.
-988	Any doctors who have boycotted many schools yet respect pedestrians.
-989	Any doctors who have boycotted many schools as well respect pedestrians.
-990	Any doctors who have boycotted many schools respect pedestrians yet.
-991	Any doctors who have boycotted many schools respect pedestrians as well.
-992	More than three students who had been at many libraries either are listening to many pedestrians.
-993	More than three students who had been at many libraries on weekends are listening to many pedestrians.
-994	More than three students who had been at many libraries are listening to many pedestrians either.
-995	More than three students who had been at many libraries are listening to many pedestrians on weekends.
-996	All students who had been at many libraries either are listening to many pedestrians.
-997	All students who had been at many libraries on weekends are listening to many pedestrians.
-998	All students who had been at many libraries are listening to many pedestrians either.
-999	All students who had been at many libraries are listening to many pedestrians on weekends.
+index	sentence
+0	Every woman who should go to more than three public parks should listen to the boys.
+1	Every woman who should go to more than three public parks should listen to any boys.
+2	Every woman who should go to the public parks should listen to a lot of boys.
+3	Every woman who should go to any public parks should listen to a lot of boys.
+4	Some woman who should go to more than three public parks should listen to the boys.
+5	Some woman who should go to more than three public parks should listen to any boys.
+6	Some woman who should go to the public parks should listen to a lot of boys.
+7	Some woman who should go to any public parks should listen to a lot of boys.
+8	Students who left some cafes often know many guys.
+9	Students who left some cafes ever know many guys.
+10	Students who often left some cafes know many guys.
+11	Students who ever left some cafes know many guys.
+12	Any students who left some cafes often know many guys.
+13	Any students who left some cafes ever know many guys.
+14	Any students who often left some cafes know many guys.
+15	Any students who ever left some cafes know many guys.
+16	A child who dislikes a lot of plays is investigating these movie theaters.
+17	A child who dislikes a lot of plays is investigating any movie theaters.
+18	A child who dislikes the plays is investigating a lot of movie theaters.
+19	A child who dislikes any plays is investigating a lot of movie theaters.
+20	Every child who dislikes a lot of plays is investigating these movie theaters.
+21	Every child who dislikes a lot of plays is investigating any movie theaters.
+22	Every child who dislikes the plays is investigating a lot of movie theaters.
+23	Every child who dislikes any plays is investigating a lot of movie theaters.
+24	Any children who attack many teenagers had hugged those senators.
+25	Any children who attack many teenagers had hugged any senators.
+26	Any children who attack those teenagers had hugged more than three senators.
+27	Any children who attack any teenagers had hugged more than three senators.
+28	Some children who attack many teenagers had hugged those senators.
+29	Some children who attack many teenagers had hugged any senators.
+30	Some children who attack those teenagers had hugged more than three senators.
+31	Some children who attack any teenagers had hugged more than three senators.
+32	Guests who did hug many dancers bike to these banks.
+33	Guests who did hug many dancers bike to any banks.
+34	Guests who did hug those dancers bike to many banks.
+35	Guests who did hug any dancers bike to many banks.
+36	All guests who did hug many dancers bike to these banks.
+37	All guests who did hug many dancers bike to any banks.
+38	All guests who did hug those dancers bike to many banks.
+39	All guests who did hug any dancers bike to many banks.
+40	Every dancer who is working with a lot of senators will praise the movies.
+41	Every dancer who is working with a lot of senators will praise any movies.
+42	Every dancer who is working with those senators will praise more than three movies.
+43	Every dancer who is working with any senators will praise more than three movies.
+44	The dancer who is working with a lot of senators will praise the movies.
+45	The dancer who is working with a lot of senators will praise any movies.
+46	The dancer who is working with those senators will praise more than three movies.
+47	The dancer who is working with any senators will praise more than three movies.
+48	All pedestrians who criticize more than three guys clearly visited a lot of ladies.
+49	All pedestrians who criticize more than three guys ever visited a lot of ladies.
+50	All pedestrians who clearly criticize more than three guys visited a lot of ladies.
+51	All pedestrians who ever criticize more than three guys visited a lot of ladies.
+52	The pedestrians who criticize more than three guys clearly visited a lot of ladies.
+53	The pedestrians who criticize more than three guys ever visited a lot of ladies.
+54	The pedestrians who clearly criticize more than three guys visited a lot of ladies.
+55	The pedestrians who ever criticize more than three guys visited a lot of ladies.
+56	All boys who should reference more than three essays were visiting these banks.
+57	All boys who should reference more than three essays were visiting any banks.
+58	All boys who should reference these essays were visiting a lot of banks.
+59	All boys who should reference any essays were visiting a lot of banks.
+60	Many boys who should reference more than three essays were visiting these banks.
+61	Many boys who should reference more than three essays were visiting any banks.
+62	Many boys who should reference these essays were visiting a lot of banks.
+63	Many boys who should reference any essays were visiting a lot of banks.
+64	Every driver who has loved more than three patients approaches those people.
+65	Every driver who has loved more than three patients approaches any people.
+66	Every driver who has loved the patients approaches many people.
+67	Every driver who has loved any patients approaches many people.
+68	The driver who has loved more than three patients approaches those people.
+69	The driver who has loved more than three patients approaches any people.
+70	The driver who has loved the patients approaches many people.
+71	The driver who has loved any patients approaches many people.
+72	A dancer who had hated people cares for the patients.
+73	A dancer who had hated people cares for any patients.
+74	A dancer who had hated these people cares for the patients.
+75	A dancer who had hated any people cares for the patients.
+76	Every dancer who had hated people cares for the patients.
+77	Every dancer who had hated people cares for any patients.
+78	Every dancer who had hated these people cares for the patients.
+79	Every dancer who had hated any people cares for the patients.
+80	Any waitresses who discuss a lot of commentaries have cared for those students.
+81	Any waitresses who discuss a lot of commentaries have cared for any students.
+82	Any waitresses who discuss these commentaries have cared for students.
+83	Any waitresses who discuss any commentaries have cared for students.
+84	Some waitresses who discuss a lot of commentaries have cared for those students.
+85	Some waitresses who discuss a lot of commentaries have cared for any students.
+86	Some waitresses who discuss these commentaries have cared for students.
+87	Some waitresses who discuss any commentaries have cared for students.
+88	Every customer who had talked to a lot of patients also passed many college campuses.
+89	Every customer who had talked to a lot of patients ever passed many college campuses.
+90	Every customer who had also talked to a lot of patients passed many college campuses.
+91	Every customer who had ever talked to a lot of patients passed many college campuses.
+92	Some customer who had talked to a lot of patients also passed many college campuses.
+93	Some customer who had talked to a lot of patients ever passed many college campuses.
+94	Some customer who had also talked to a lot of patients passed many college campuses.
+95	Some customer who had ever talked to a lot of patients passed many college campuses.
+96	Every man who insulted the hospitals will clearly clean many cups.
+97	Every man who insulted the hospitals will ever clean many cups.
+98	Every man who clearly insulted the hospitals will clean many cups.
+99	Every man who ever insulted the hospitals will clean many cups.
+100	Some man who insulted the hospitals will clearly clean many cups.
+101	Some man who insulted the hospitals will ever clean many cups.
+102	Some man who clearly insulted the hospitals will clean many cups.
+103	Some man who ever insulted the hospitals will clean many cups.
+104	Every customer who had arrived at some movie theaters had visited these hospitals.
+105	Every customer who had arrived at some movie theaters had visited any hospitals.
+106	Every customer who had arrived at those movie theaters had visited hospitals.
+107	Every customer who had arrived at any movie theaters had visited hospitals.
+108	The customer who had arrived at some movie theaters had visited these hospitals.
+109	The customer who had arrived at some movie theaters had visited any hospitals.
+110	The customer who had arrived at those movie theaters had visited hospitals.
+111	The customer who had arrived at any movie theaters had visited hospitals.
+112	Any guys who had talked about many drivers often biked to some movie theaters.
+113	Any guys who had talked about many drivers ever biked to some movie theaters.
+114	Any guys who had often talked about many drivers biked to some movie theaters.
+115	Any guys who had ever talked about many drivers biked to some movie theaters.
+116	More than three guys who had talked about many drivers often biked to some movie theaters.
+117	More than three guys who had talked about many drivers ever biked to some movie theaters.
+118	More than three guys who had often talked about many drivers biked to some movie theaters.
+119	More than three guys who had ever talked about many drivers biked to some movie theaters.
+120	All drivers who listened to adults had often gone to schools.
+121	All drivers who listened to adults had ever gone to schools.
+122	All drivers who often listened to adults had gone to schools.
+123	All drivers who ever listened to adults had gone to schools.
+124	Many drivers who listened to adults had often gone to schools.
+125	Many drivers who listened to adults had ever gone to schools.
+126	Many drivers who often listened to adults had gone to schools.
+127	Many drivers who ever listened to adults had gone to schools.
+128	Adults who had driven to the cafes bike to those banks.
+129	Adults who had driven to the cafes bike to any banks.
+130	Adults who had driven to those cafes bike to many banks.
+131	Adults who had driven to any cafes bike to many banks.
+132	Any adults who had driven to the cafes bike to those banks.
+133	Any adults who had driven to the cafes bike to any banks.
+134	Any adults who had driven to those cafes bike to many banks.
+135	Any adults who had driven to any cafes bike to many banks.
+136	Every child who has criticized the teenagers might also clean a lot of cups.
+137	Every child who has criticized the teenagers might ever clean a lot of cups.
+138	Every child who has also criticized the teenagers might clean a lot of cups.
+139	Every child who has ever criticized the teenagers might clean a lot of cups.
+140	Some child who has criticized the teenagers might also clean a lot of cups.
+141	Some child who has criticized the teenagers might ever clean a lot of cups.
+142	Some child who has also criticized the teenagers might clean a lot of cups.
+143	Some child who has ever criticized the teenagers might clean a lot of cups.
+144	All senators who were referencing people were escaping from these cashiers.
+145	All senators who were referencing people were escaping from any cashiers.
+146	All senators who were referencing those people were escaping from the cashiers.
+147	All senators who were referencing any people were escaping from the cashiers.
+148	Many senators who were referencing people were escaping from these cashiers.
+149	Many senators who were referencing people were escaping from any cashiers.
+150	Many senators who were referencing those people were escaping from the cashiers.
+151	Many senators who were referencing any people were escaping from the cashiers.
+152	All teenagers who had approached a lot of children do hate the boys.
+153	All teenagers who had approached a lot of children do hate any boys.
+154	All teenagers who had approached those children do hate the boys.
+155	All teenagers who had approached any children do hate the boys.
+156	Many teenagers who had approached a lot of children do hate the boys.
+157	Many teenagers who had approached a lot of children do hate any boys.
+158	Many teenagers who had approached those children do hate the boys.
+159	Many teenagers who had approached any children do hate the boys.
+160	Any teachers who are walking through some museums brought the pants.
+161	Any teachers who are walking through some museums brought any pants.
+162	Any teachers who are walking through these museums brought some pants.
+163	Any teachers who are walking through any museums brought some pants.
+164	More than three teachers who are walking through some museums brought the pants.
+165	More than three teachers who are walking through some museums brought any pants.
+166	More than three teachers who are walking through these museums brought some pants.
+167	More than three teachers who are walking through any museums brought some pants.
+168	A patient who should bring the books will praise the plays.
+169	A patient who should bring the books will praise any plays.
+170	A patient who should bring these books will praise some plays.
+171	A patient who should bring any books will praise some plays.
+172	Every patient who should bring the books will praise the plays.
+173	Every patient who should bring the books will praise any plays.
+174	Every patient who should bring these books will praise some plays.
+175	Every patient who should bring any books will praise some plays.
+176	All patients who visit some actors fortunately saw a lot of boys.
+177	All patients who visit some actors ever saw a lot of boys.
+178	All patients who fortunately visit some actors saw a lot of boys.
+179	All patients who ever visit some actors saw a lot of boys.
+180	Many patients who visit some actors fortunately saw a lot of boys.
+181	Many patients who visit some actors ever saw a lot of boys.
+182	Many patients who fortunately visit some actors saw a lot of boys.
+183	Many patients who ever visit some actors saw a lot of boys.
+184	Patients who drive to more than three banks might also have many reports.
+185	Patients who drive to more than three banks might ever have many reports.
+186	Patients who also drive to more than three banks might have many reports.
+187	Patients who ever drive to more than three banks might have many reports.
+188	All patients who drive to more than three banks might also have many reports.
+189	All patients who drive to more than three banks might ever have many reports.
+190	All patients who also drive to more than three banks might have many reports.
+191	All patients who ever drive to more than three banks might have many reports.
+192	All guys who lifted a lot of shoes often discuss some banks.
+193	All guys who lifted a lot of shoes ever discuss some banks.
+194	All guys who often lifted a lot of shoes discuss some banks.
+195	All guys who ever lifted a lot of shoes discuss some banks.
+196	The guys who lifted a lot of shoes often discuss some banks.
+197	The guys who lifted a lot of shoes ever discuss some banks.
+198	The guys who often lifted a lot of shoes discuss some banks.
+199	The guys who ever lifted a lot of shoes discuss some banks.
+200	Every adult who skated around the museums had helped the actresses.
+201	Every adult who skated around the museums had helped any actresses.
+202	Every adult who skated around the museums had helped many actresses.
+203	Every adult who skated around any museums had helped many actresses.
+204	Some adult who skated around the museums had helped the actresses.
+205	Some adult who skated around the museums had helped any actresses.
+206	Some adult who skated around the museums had helped many actresses.
+207	Some adult who skated around any museums had helped many actresses.
+208	A person who toured malls obviously broke more than three books.
+209	A person who toured malls ever broke more than three books.
+210	A person who obviously toured malls broke more than three books.
+211	A person who ever toured malls broke more than three books.
+212	Every person who toured malls obviously broke more than three books.
+213	Every person who toured malls ever broke more than three books.
+214	Every person who obviously toured malls broke more than three books.
+215	Every person who ever toured malls broke more than three books.
+216	Any dancers who had discussed more than three banks often took some plates.
+217	Any dancers who had discussed more than three banks ever took some plates.
+218	Any dancers who had often discussed more than three banks took some plates.
+219	Any dancers who had ever discussed more than three banks took some plates.
+220	Many dancers who had discussed more than three banks often took some plates.
+221	Many dancers who had discussed more than three banks ever took some plates.
+222	Many dancers who had often discussed more than three banks took some plates.
+223	Many dancers who had ever discussed more than three banks took some plates.
+224	Every adult who is returning to a lot of customers should criticize these ladies.
+225	Every adult who is returning to a lot of customers should criticize any ladies.
+226	Every adult who is returning to these customers should criticize more than three ladies.
+227	Every adult who is returning to any customers should criticize more than three ladies.
+228	The adult who is returning to a lot of customers should criticize these ladies.
+229	The adult who is returning to a lot of customers should criticize any ladies.
+230	The adult who is returning to these customers should criticize more than three ladies.
+231	The adult who is returning to any customers should criticize more than three ladies.
+232	Every doctor who was helping women has referenced those students.
+233	Every doctor who was helping women has referenced any students.
+234	Every doctor who was helping these women has referenced more than three students.
+235	Every doctor who was helping any women has referenced more than three students.
+236	The doctor who was helping women has referenced those students.
+237	The doctor who was helping women has referenced any students.
+238	The doctor who was helping these women has referenced more than three students.
+239	The doctor who was helping any women has referenced more than three students.
+240	Every teacher who had examined a lot of reports walked through those schools.
+241	Every teacher who had examined a lot of reports walked through any schools.
+242	Every teacher who had examined the reports walked through schools.
+243	Every teacher who had examined any reports walked through schools.
+244	Some teacher who had examined a lot of reports walked through those schools.
+245	Some teacher who had examined a lot of reports walked through any schools.
+246	Some teacher who had examined the reports walked through schools.
+247	Some teacher who had examined any reports walked through schools.
+248	Every boy who had boycotted a lot of grocery stores had been at those public parks.
+249	Every boy who had boycotted a lot of grocery stores had been at any public parks.
+250	Every boy who had boycotted the grocery stores had been at more than three public parks.
+251	Every boy who had boycotted any grocery stores had been at more than three public parks.
+252	Some boy who had boycotted a lot of grocery stores had been at those public parks.
+253	Some boy who had boycotted a lot of grocery stores had been at any public parks.
+254	Some boy who had boycotted the grocery stores had been at more than three public parks.
+255	Some boy who had boycotted any grocery stores had been at more than three public parks.
+256	A senator who dislikes more than three movies obviously did buy a lot of rugs.
+257	A senator who dislikes more than three movies ever did buy a lot of rugs.
+258	A senator who obviously dislikes more than three movies did buy a lot of rugs.
+259	A senator who ever dislikes more than three movies did buy a lot of rugs.
+260	Every senator who dislikes more than three movies obviously did buy a lot of rugs.
+261	Every senator who dislikes more than three movies ever did buy a lot of rugs.
+262	Every senator who obviously dislikes more than three movies did buy a lot of rugs.
+263	Every senator who ever dislikes more than three movies did buy a lot of rugs.
+264	A lady who might go to a lot of movie theaters would often have glasses.
+265	A lady who might go to a lot of movie theaters would ever have glasses.
+266	A lady who might often go to a lot of movie theaters would have glasses.
+267	A lady who might ever go to a lot of movie theaters would have glasses.
+268	Every lady who might go to a lot of movie theaters would often have glasses.
+269	Every lady who might go to a lot of movie theaters would ever have glasses.
+270	Every lady who might often go to a lot of movie theaters would have glasses.
+271	Every lady who might ever go to a lot of movie theaters would have glasses.
+272	Any senators who exit more than three public parks insulted these waitresses.
+273	Any senators who exit more than three public parks insulted any waitresses.
+274	Any senators who exit those public parks insulted a lot of waitresses.
+275	Any senators who exit any public parks insulted a lot of waitresses.
+276	Many senators who exit more than three public parks insulted these waitresses.
+277	Many senators who exit more than three public parks insulted any waitresses.
+278	Many senators who exit those public parks insulted a lot of waitresses.
+279	Many senators who exit any public parks insulted a lot of waitresses.
+280	Every actor who has escaped from more than three men obviously insulted more than three waitresses.
+281	Every actor who has escaped from more than three men ever insulted more than three waitresses.
+282	Every actor who has obviously escaped from more than three men insulted more than three waitresses.
+283	Every actor who has ever escaped from more than three men insulted more than three waitresses.
+284	The actor who has escaped from more than three men obviously insulted more than three waitresses.
+285	The actor who has escaped from more than three men ever insulted more than three waitresses.
+286	The actor who has obviously escaped from more than three men insulted more than three waitresses.
+287	The actor who has ever escaped from more than three men insulted more than three waitresses.
+288	A lot of ladies who sell the couches are at these high schools.
+289	A lot of ladies who sell the couches are at any high schools.
+290	A lot of ladies who sell these couches are at some high schools.
+291	A lot of ladies who sell any couches are at some high schools.
+292	All ladies who sell the couches are at these high schools.
+293	All ladies who sell the couches are at any high schools.
+294	All ladies who sell these couches are at some high schools.
+295	All ladies who sell any couches are at some high schools.
+296	Every girl who was referencing the ladies will boycott the movie theaters.
+297	Every girl who was referencing the ladies will boycott any movie theaters.
+298	Every girl who was referencing those ladies will boycott a lot of movie theaters.
+299	Every girl who was referencing any ladies will boycott a lot of movie theaters.
+300	Some girl who was referencing the ladies will boycott the movie theaters.
+301	Some girl who was referencing the ladies will boycott any movie theaters.
+302	Some girl who was referencing those ladies will boycott a lot of movie theaters.
+303	Some girl who was referencing any ladies will boycott a lot of movie theaters.
+304	A teenager who is lifting the gloves is boycotting these malls.
+305	A teenager who is lifting the gloves is boycotting any malls.
+306	A teenager who is lifting the gloves is boycotting the malls.
+307	A teenager who is lifting any gloves is boycotting the malls.
+308	Every teenager who is lifting the gloves is boycotting these malls.
+309	Every teenager who is lifting the gloves is boycotting any malls.
+310	Every teenager who is lifting the gloves is boycotting the malls.
+311	Every teenager who is lifting any gloves is boycotting the malls.
+312	A senator who has seen a lot of men remembered those people.
+313	A senator who has seen a lot of men remembered any people.
+314	A senator who has seen those men remembered people.
+315	A senator who has seen any men remembered people.
+316	Every senator who has seen a lot of men remembered those people.
+317	Every senator who has seen a lot of men remembered any people.
+318	Every senator who has seen those men remembered people.
+319	Every senator who has seen any men remembered people.
+320	Every pedestrian who runs around many cafes boycotted the banks.
+321	Every pedestrian who runs around many cafes boycotted any banks.
+322	Every pedestrian who runs around these cafes boycotted some banks.
+323	Every pedestrian who runs around any cafes boycotted some banks.
+324	The pedestrian who runs around many cafes boycotted the banks.
+325	The pedestrian who runs around many cafes boycotted any banks.
+326	The pedestrian who runs around these cafes boycotted some banks.
+327	The pedestrian who runs around any cafes boycotted some banks.
+328	A lot of boys who hate guests would fortunately scan some books.
+329	A lot of boys who hate guests would ever scan some books.
+330	A lot of boys who fortunately hate guests would scan some books.
+331	A lot of boys who ever hate guests would scan some books.
+332	All boys who hate guests would fortunately scan some books.
+333	All boys who hate guests would ever scan some books.
+334	All boys who fortunately hate guests would scan some books.
+335	All boys who ever hate guests would scan some books.
+336	Every actor who has skated around many museums often listened to waiters.
+337	Every actor who has skated around many museums ever listened to waiters.
+338	Every actor who has often skated around many museums listened to waiters.
+339	Every actor who has ever skated around many museums listened to waiters.
+340	The actor who has skated around many museums often listened to waiters.
+341	The actor who has skated around many museums ever listened to waiters.
+342	The actor who has often skated around many museums listened to waiters.
+343	The actor who has ever skated around many museums listened to waiters.
+344	Every teenager who should listen to patients does criticize the restaurants.
+345	Every teenager who should listen to patients does criticize any restaurants.
+346	Every teenager who should listen to these patients does criticize more than three restaurants.
+347	Every teenager who should listen to any patients does criticize more than three restaurants.
+348	Some teenager who should listen to patients does criticize the restaurants.
+349	Some teenager who should listen to patients does criticize any restaurants.
+350	Some teenager who should listen to these patients does criticize more than three restaurants.
+351	Some teenager who should listen to any patients does criticize more than three restaurants.
+352	A guest who wears gloves will remember the art galleries.
+353	A guest who wears gloves will remember any art galleries.
+354	A guest who wears these gloves will remember more than three art galleries.
+355	A guest who wears any gloves will remember more than three art galleries.
+356	Every guest who wears gloves will remember the art galleries.
+357	Every guest who wears gloves will remember any art galleries.
+358	Every guest who wears these gloves will remember more than three art galleries.
+359	Every guest who wears any gloves will remember more than three art galleries.
+360	Every pedestrian who returns to many people lifted these newspaper articles.
+361	Every pedestrian who returns to many people lifted any newspaper articles.
+362	Every pedestrian who returns to the people lifted more than three newspaper articles.
+363	Every pedestrian who returns to any people lifted more than three newspaper articles.
+364	Some pedestrian who returns to many people lifted these newspaper articles.
+365	Some pedestrian who returns to many people lifted any newspaper articles.
+366	Some pedestrian who returns to the people lifted more than three newspaper articles.
+367	Some pedestrian who returns to any people lifted more than three newspaper articles.
+368	Every cashier who works with a lot of cashiers is attacking the children.
+369	Every cashier who works with a lot of cashiers is attacking any children.
+370	Every cashier who works with the cashiers is attacking more than three children.
+371	Every cashier who works with any cashiers is attacking more than three children.
+372	The cashier who works with a lot of cashiers is attacking the children.
+373	The cashier who works with a lot of cashiers is attacking any children.
+374	The cashier who works with the cashiers is attacking more than three children.
+375	The cashier who works with any cashiers is attacking more than three children.
+376	Every actor who has listened to a lot of guys has also toured some public parks.
+377	Every actor who has listened to a lot of guys has ever toured some public parks.
+378	Every actor who has also listened to a lot of guys has toured some public parks.
+379	Every actor who has ever listened to a lot of guys has toured some public parks.
+380	The actor who has listened to a lot of guys has also toured some public parks.
+381	The actor who has listened to a lot of guys has ever toured some public parks.
+382	The actor who has also listened to a lot of guys has toured some public parks.
+383	The actor who has ever listened to a lot of guys has toured some public parks.
+384	All women who hated more than three waitresses could often buy shoes.
+385	All women who hated more than three waitresses could ever buy shoes.
+386	All women who often hated more than three waitresses could buy shoes.
+387	All women who ever hated more than three waitresses could buy shoes.
+388	The women who hated more than three waitresses could often buy shoes.
+389	The women who hated more than three waitresses could ever buy shoes.
+390	The women who often hated more than three waitresses could buy shoes.
+391	The women who ever hated more than three waitresses could buy shoes.
+392	A customer who was attacking the students was praising the girls.
+393	A customer who was attacking the students was praising any girls.
+394	A customer who was attacking these students was praising some girls.
+395	A customer who was attacking any students was praising some girls.
+396	Every customer who was attacking the students was praising the girls.
+397	Every customer who was attacking the students was praising any girls.
+398	Every customer who was attacking these students was praising some girls.
+399	Every customer who was attacking any students was praising some girls.
+400	Every girl who did escape from many boys goes to those grocery stores.
+401	Every girl who did escape from many boys goes to any grocery stores.
+402	Every girl who did escape from those boys goes to more than three grocery stores.
+403	Every girl who did escape from any boys goes to more than three grocery stores.
+404	The girl who did escape from many boys goes to those grocery stores.
+405	The girl who did escape from many boys goes to any grocery stores.
+406	The girl who did escape from those boys goes to more than three grocery stores.
+407	The girl who did escape from any boys goes to more than three grocery stores.
+408	Every actress who scans some books often buys rugs.
+409	Every actress who scans some books ever buys rugs.
+410	Every actress who often scans some books buys rugs.
+411	Every actress who ever scans some books buys rugs.
+412	The actress who scans some books often buys rugs.
+413	The actress who scans some books ever buys rugs.
+414	The actress who often scans some books buys rugs.
+415	The actress who ever scans some books buys rugs.
+416	A boy who did tour the restaurants was talking to these guys.
+417	A boy who did tour the restaurants was talking to any guys.
+418	A boy who did tour the restaurants was talking to more than three guys.
+419	A boy who did tour any restaurants was talking to more than three guys.
+420	Every boy who did tour the restaurants was talking to these guys.
+421	Every boy who did tour the restaurants was talking to any guys.
+422	Every boy who did tour the restaurants was talking to more than three guys.
+423	Every boy who did tour any restaurants was talking to more than three guys.
+424	Every customer who approaches some adults dropped by these museums.
+425	Every customer who approaches some adults dropped by any museums.
+426	Every customer who approaches those adults dropped by more than three museums.
+427	Every customer who approaches any adults dropped by more than three museums.
+428	The customer who approaches some adults dropped by these museums.
+429	The customer who approaches some adults dropped by any museums.
+430	The customer who approaches those adults dropped by more than three museums.
+431	The customer who approaches any adults dropped by more than three museums.
+432	All students who did wear many gloves were skated around these public parks.
+433	All students who did wear many gloves were skated around any public parks.
+434	All students who did wear these gloves were skated around public parks.
+435	All students who did wear any gloves were skated around public parks.
+436	Some students who did wear many gloves were skated around these public parks.
+437	Some students who did wear many gloves were skated around any public parks.
+438	Some students who did wear these gloves were skated around public parks.
+439	Some students who did wear any gloves were skated around public parks.
+440	Every actress who knew many students has clearly insulted some children.
+441	Every actress who knew many students has ever insulted some children.
+442	Every actress who clearly knew many students has insulted some children.
+443	Every actress who ever knew many students has insulted some children.
+444	The actress who knew many students has clearly insulted some children.
+445	The actress who knew many students has ever insulted some children.
+446	The actress who clearly knew many students has insulted some children.
+447	The actress who ever knew many students has insulted some children.
+448	Every adult who sells a lot of books often admired a lot of newspaper articles.
+449	Every adult who sells a lot of books ever admired a lot of newspaper articles.
+450	Every adult who often sells a lot of books admired a lot of newspaper articles.
+451	Every adult who ever sells a lot of books admired a lot of newspaper articles.
+452	Some adult who sells a lot of books often admired a lot of newspaper articles.
+453	Some adult who sells a lot of books ever admired a lot of newspaper articles.
+454	Some adult who often sells a lot of books admired a lot of newspaper articles.
+455	Some adult who ever sells a lot of books admired a lot of newspaper articles.
+456	A lot of actors who had biked to many banks obviously described many libraries.
+457	A lot of actors who had biked to many banks ever described many libraries.
+458	A lot of actors who had obviously biked to many banks described many libraries.
+459	A lot of actors who had ever biked to many banks described many libraries.
+460	All actors who had biked to many banks obviously described many libraries.
+461	All actors who had biked to many banks ever described many libraries.
+462	All actors who had obviously biked to many banks described many libraries.
+463	All actors who had ever biked to many banks described many libraries.
+464	A man who has gone to a lot of restaurants obviously sells some cups.
+465	A man who has gone to a lot of restaurants ever sells some cups.
+466	A man who has obviously gone to a lot of restaurants sells some cups.
+467	A man who has ever gone to a lot of restaurants sells some cups.
+468	Every man who has gone to a lot of restaurants obviously sells some cups.
+469	Every man who has gone to a lot of restaurants ever sells some cups.
+470	Every man who has obviously gone to a lot of restaurants sells some cups.
+471	Every man who has ever gone to a lot of restaurants sells some cups.
+472	Every woman who disliked the girls also escapes from the restaurants.
+473	Every woman who disliked the girls ever escapes from the restaurants.
+474	Every woman who also disliked the girls escapes from the restaurants.
+475	Every woman who ever disliked the girls escapes from the restaurants.
+476	Some woman who disliked the girls also escapes from the restaurants.
+477	Some woman who disliked the girls ever escapes from the restaurants.
+478	Some woman who also disliked the girls escapes from the restaurants.
+479	Some woman who ever disliked the girls escapes from the restaurants.
+480	All waiters who explored restaurants should visit those high schools.
+481	All waiters who explored restaurants should visit any high schools.
+482	All waiters who explored those restaurants should visit high schools.
+483	All waiters who explored any restaurants should visit high schools.
+484	Many waiters who explored restaurants should visit those high schools.
+485	Many waiters who explored restaurants should visit any high schools.
+486	Many waiters who explored those restaurants should visit high schools.
+487	Many waiters who explored any restaurants should visit high schools.
+488	Any adults who might insult the patients obviously had the chairs.
+489	Any adults who might insult the patients ever had the chairs.
+490	Any adults who might obviously insult the patients had the chairs.
+491	Any adults who might ever insult the patients had the chairs.
+492	Many adults who might insult the patients obviously had the chairs.
+493	Many adults who might insult the patients ever had the chairs.
+494	Many adults who might obviously insult the patients had the chairs.
+495	Many adults who might ever insult the patients had the chairs.
+496	Doctors who examined many reports are kissing these pedestrians.
+497	Doctors who examined many reports are kissing any pedestrians.
+498	Doctors who examined the reports are kissing the pedestrians.
+499	Doctors who examined any reports are kissing the pedestrians.
+500	All doctors who examined many reports are kissing these pedestrians.
+501	All doctors who examined many reports are kissing any pedestrians.
+502	All doctors who examined the reports are kissing the pedestrians.
+503	All doctors who examined any reports are kissing the pedestrians.
+504	Waiters who skate around more than three banks were taking those plates.
+505	Waiters who skate around more than three banks were taking any plates.
+506	Waiters who skate around these banks were taking more than three plates.
+507	Waiters who skate around any banks were taking more than three plates.
+508	All waiters who skate around more than three banks were taking those plates.
+509	All waiters who skate around more than three banks were taking any plates.
+510	All waiters who skate around these banks were taking more than three plates.
+511	All waiters who skate around any banks were taking more than three plates.
+512	A lot of men who have skated around the cafes will criticize those movie theaters.
+513	A lot of men who have skated around the cafes will criticize any movie theaters.
+514	A lot of men who have skated around these cafes will criticize many movie theaters.
+515	A lot of men who have skated around any cafes will criticize many movie theaters.
+516	Any men who have skated around the cafes will criticize those movie theaters.
+517	Any men who have skated around the cafes will criticize any movie theaters.
+518	Any men who have skated around these cafes will criticize many movie theaters.
+519	Any men who have skated around any cafes will criticize many movie theaters.
+520	All waitresses who helped the girls often wore some shoes.
+521	All waitresses who helped the girls ever wore some shoes.
+522	All waitresses who often helped the girls wore some shoes.
+523	All waitresses who ever helped the girls wore some shoes.
+524	More than three waitresses who helped the girls often wore some shoes.
+525	More than three waitresses who helped the girls ever wore some shoes.
+526	More than three waitresses who often helped the girls wore some shoes.
+527	More than three waitresses who ever helped the girls wore some shoes.
+528	A lot of men who went to some malls will buy the dishes.
+529	A lot of men who went to some malls will buy any dishes.
+530	A lot of men who went to the malls will buy more than three dishes.
+531	A lot of men who went to any malls will buy more than three dishes.
+532	Any men who went to some malls will buy the dishes.
+533	Any men who went to some malls will buy any dishes.
+534	Any men who went to the malls will buy more than three dishes.
+535	Any men who went to any malls will buy more than three dishes.
+536	A woman who will see many adults approaches these men.
+537	A woman who will see many adults approaches any men.
+538	A woman who will see these adults approaches more than three men.
+539	A woman who will see any adults approaches more than three men.
+540	Every woman who will see many adults approaches these men.
+541	Every woman who will see many adults approaches any men.
+542	Every woman who will see these adults approaches more than three men.
+543	Every woman who will see any adults approaches more than three men.
+544	Any adults who do admire more than three boys were working with those senators.
+545	Any adults who do admire more than three boys were working with any senators.
+546	Any adults who do admire the boys were working with some senators.
+547	Any adults who do admire any boys were working with some senators.
+548	The adults who do admire more than three boys were working with those senators.
+549	The adults who do admire more than three boys were working with any senators.
+550	The adults who do admire the boys were working with some senators.
+551	The adults who do admire any boys were working with some senators.
+552	Every teacher who disliked a lot of restaurants arrived at the college campuses.
+553	Every teacher who disliked a lot of restaurants arrived at any college campuses.
+554	Every teacher who disliked those restaurants arrived at some college campuses.
+555	Every teacher who disliked any restaurants arrived at some college campuses.
+556	The teacher who disliked a lot of restaurants arrived at the college campuses.
+557	The teacher who disliked a lot of restaurants arrived at any college campuses.
+558	The teacher who disliked those restaurants arrived at some college campuses.
+559	The teacher who disliked any restaurants arrived at some college campuses.
+560	Every senator who had visited more than three museums scans the books.
+561	Every senator who had visited more than three museums scans any books.
+562	Every senator who had visited those museums scans the books.
+563	Every senator who had visited any museums scans the books.
+564	Some senator who had visited more than three museums scans the books.
+565	Some senator who had visited more than three museums scans any books.
+566	Some senator who had visited those museums scans the books.
+567	Some senator who had visited any museums scans the books.
+568	A girl who criticized many stories has clearly admired more than three men.
+569	A girl who criticized many stories has ever admired more than three men.
+570	A girl who clearly criticized many stories has admired more than three men.
+571	A girl who ever criticized many stories has admired more than three men.
+572	Every girl who criticized many stories has clearly admired more than three men.
+573	Every girl who criticized many stories has ever admired more than three men.
+574	Every girl who clearly criticized many stories has admired more than three men.
+575	Every girl who ever criticized many stories has admired more than three men.
+576	All drivers who were kissing some girls will break these dishes.
+577	All drivers who were kissing some girls will break any dishes.
+578	All drivers who were kissing these girls will break many dishes.
+579	All drivers who were kissing any girls will break many dishes.
+580	The drivers who were kissing some girls will break these dishes.
+581	The drivers who were kissing some girls will break any dishes.
+582	The drivers who were kissing these girls will break many dishes.
+583	The drivers who were kissing any girls will break many dishes.
+584	Any adults who remembered a lot of women fortunately do observe a lot of customers.
+585	Any adults who remembered a lot of women ever do observe a lot of customers.
+586	Any adults who fortunately remembered a lot of women do observe a lot of customers.
+587	Any adults who ever remembered a lot of women do observe a lot of customers.
+588	The adults who remembered a lot of women fortunately do observe a lot of customers.
+589	The adults who remembered a lot of women ever do observe a lot of customers.
+590	The adults who fortunately remembered a lot of women do observe a lot of customers.
+591	The adults who ever remembered a lot of women do observe a lot of customers.
+592	A person who was lifting cups biked to these malls.
+593	A person who was lifting cups biked to any malls.
+594	A person who was lifting the cups biked to more than three malls.
+595	A person who was lifting any cups biked to more than three malls.
+596	Every person who was lifting cups biked to these malls.
+597	Every person who was lifting cups biked to any malls.
+598	Every person who was lifting the cups biked to more than three malls.
+599	Every person who was lifting any cups biked to more than three malls.
+600	Cashiers who do sell a lot of forks also arrive at more than three museums.
+601	Cashiers who do sell a lot of forks ever arrive at more than three museums.
+602	Cashiers who also do sell a lot of forks arrive at more than three museums.
+603	Cashiers who ever do sell a lot of forks arrive at more than three museums.
+604	Any cashiers who do sell a lot of forks also arrive at more than three museums.
+605	Any cashiers who do sell a lot of forks ever arrive at more than three museums.
+606	Any cashiers who also do sell a lot of forks arrive at more than three museums.
+607	Any cashiers who ever do sell a lot of forks arrive at more than three museums.
+608	Every student who would break some plates had obviously fled from a lot of cafes.
+609	Every student who would break some plates had ever fled from a lot of cafes.
+610	Every student who would obviously break some plates had fled from a lot of cafes.
+611	Every student who would ever break some plates had fled from a lot of cafes.
+612	The student who would break some plates had obviously fled from a lot of cafes.
+613	The student who would break some plates had ever fled from a lot of cafes.
+614	The student who would obviously break some plates had fled from a lot of cafes.
+615	The student who would ever break some plates had fled from a lot of cafes.
+616	Doctors who can boycott more than three malls often do hug some waiters.
+617	Doctors who can boycott more than three malls ever do hug some waiters.
+618	Doctors who can often boycott more than three malls do hug some waiters.
+619	Doctors who can ever boycott more than three malls do hug some waiters.
+620	Any doctors who can boycott more than three malls often do hug some waiters.
+621	Any doctors who can boycott more than three malls ever do hug some waiters.
+622	Any doctors who can often boycott more than three malls do hug some waiters.
+623	Any doctors who can ever boycott more than three malls do hug some waiters.
+624	Every doctor who sells the glasses also discussed the books.
+625	Every doctor who sells the glasses ever discussed the books.
+626	Every doctor who also sells the glasses discussed the books.
+627	Every doctor who ever sells the glasses discussed the books.
+628	Some doctor who sells the glasses also discussed the books.
+629	Some doctor who sells the glasses ever discussed the books.
+630	Some doctor who also sells the glasses discussed the books.
+631	Some doctor who ever sells the glasses discussed the books.
+632	A lot of waitresses who dropped by many hospitals had obviously bought many cars.
+633	A lot of waitresses who dropped by many hospitals had ever bought many cars.
+634	A lot of waitresses who obviously dropped by many hospitals had bought many cars.
+635	A lot of waitresses who ever dropped by many hospitals had bought many cars.
+636	Any waitresses who dropped by many hospitals had obviously bought many cars.
+637	Any waitresses who dropped by many hospitals had ever bought many cars.
+638	Any waitresses who obviously dropped by many hospitals had bought many cars.
+639	Any waitresses who ever dropped by many hospitals had bought many cars.
+640	Every woman who talks to the waiters also investigated the malls.
+641	Every woman who talks to the waiters ever investigated the malls.
+642	Every woman who also talks to the waiters investigated the malls.
+643	Every woman who ever talks to the waiters investigated the malls.
+644	Some woman who talks to the waiters also investigated the malls.
+645	Some woman who talks to the waiters ever investigated the malls.
+646	Some woman who also talks to the waiters investigated the malls.
+647	Some woman who ever talks to the waiters investigated the malls.
+648	All children who bike to a lot of libraries had boycotted those movie theaters.
+649	All children who bike to a lot of libraries had boycotted any movie theaters.
+650	All children who bike to these libraries had boycotted some movie theaters.
+651	All children who bike to any libraries had boycotted some movie theaters.
+652	More than three children who bike to a lot of libraries had boycotted those movie theaters.
+653	More than three children who bike to a lot of libraries had boycotted any movie theaters.
+654	More than three children who bike to these libraries had boycotted some movie theaters.
+655	More than three children who bike to any libraries had boycotted some movie theaters.
+656	All drivers who had arrived at more than three college campuses are talking to those patients.
+657	All drivers who had arrived at more than three college campuses are talking to any patients.
+658	All drivers who had arrived at these college campuses are talking to many patients.
+659	All drivers who had arrived at any college campuses are talking to many patients.
+660	Some drivers who had arrived at more than three college campuses are talking to those patients.
+661	Some drivers who had arrived at more than three college campuses are talking to any patients.
+662	Some drivers who had arrived at these college campuses are talking to many patients.
+663	Some drivers who had arrived at any college campuses are talking to many patients.
+664	A lot of waiters who leave men talked about those students.
+665	A lot of waiters who leave men talked about any students.
+666	A lot of waiters who leave these men talked about many students.
+667	A lot of waiters who leave any men talked about many students.
+668	All waiters who leave men talked about those students.
+669	All waiters who leave men talked about any students.
+670	All waiters who leave these men talked about many students.
+671	All waiters who leave any men talked about many students.
+672	Adults who have sold many forks skated around these cafes.
+673	Adults who have sold many forks skated around any cafes.
+674	Adults who have sold the forks skated around some cafes.
+675	Adults who have sold any forks skated around some cafes.
+676	Any adults who have sold many forks skated around these cafes.
+677	Any adults who have sold many forks skated around any cafes.
+678	Any adults who have sold the forks skated around some cafes.
+679	Any adults who have sold any forks skated around some cafes.
+680	Every pedestrian who has criticized a lot of stories cleans the gloves.
+681	Every pedestrian who has criticized a lot of stories cleans any gloves.
+682	Every pedestrian who has criticized the stories cleans many gloves.
+683	Every pedestrian who has criticized any stories cleans many gloves.
+684	Some pedestrian who has criticized a lot of stories cleans the gloves.
+685	Some pedestrian who has criticized a lot of stories cleans any gloves.
+686	Some pedestrian who has criticized the stories cleans many gloves.
+687	Some pedestrian who has criticized any stories cleans many gloves.
+688	Any guys who investigate more than three college campuses have kissed the actresses.
+689	Any guys who investigate more than three college campuses have kissed any actresses.
+690	Any guys who investigate these college campuses have kissed the actresses.
+691	Any guys who investigate any college campuses have kissed the actresses.
+692	Many guys who investigate more than three college campuses have kissed the actresses.
+693	Many guys who investigate more than three college campuses have kissed any actresses.
+694	Many guys who investigate these college campuses have kissed the actresses.
+695	Many guys who investigate any college campuses have kissed the actresses.
+696	A teacher who might visit the men often listens to more than three guests.
+697	A teacher who might visit the men ever listens to more than three guests.
+698	A teacher who might often visit the men listens to more than three guests.
+699	A teacher who might ever visit the men listens to more than three guests.
+700	Every teacher who might visit the men often listens to more than three guests.
+701	Every teacher who might visit the men ever listens to more than three guests.
+702	Every teacher who might often visit the men listens to more than three guests.
+703	Every teacher who might ever visit the men listens to more than three guests.
+704	Every customer who has praised the newspaper articles fortunately was at malls.
+705	Every customer who has praised the newspaper articles ever was at malls.
+706	Every customer who has fortunately praised the newspaper articles was at malls.
+707	Every customer who has ever praised the newspaper articles was at malls.
+708	Some customer who has praised the newspaper articles fortunately was at malls.
+709	Some customer who has praised the newspaper articles ever was at malls.
+710	Some customer who has fortunately praised the newspaper articles was at malls.
+711	Some customer who has ever praised the newspaper articles was at malls.
+712	Any guests who biked to a lot of banks had escaped from these malls.
+713	Any guests who biked to a lot of banks had escaped from any malls.
+714	Any guests who biked to these banks had escaped from malls.
+715	Any guests who biked to any banks had escaped from malls.
+716	More than three guests who biked to a lot of banks had escaped from these malls.
+717	More than three guests who biked to a lot of banks had escaped from any malls.
+718	More than three guests who biked to these banks had escaped from malls.
+719	More than three guests who biked to any banks had escaped from malls.
+720	Any cashiers who dislike more than three essays fortunately skate around more than three cafes.
+721	Any cashiers who dislike more than three essays ever skate around more than three cafes.
+722	Any cashiers who fortunately dislike more than three essays skate around more than three cafes.
+723	Any cashiers who ever dislike more than three essays skate around more than three cafes.
+724	Some cashiers who dislike more than three essays fortunately skate around more than three cafes.
+725	Some cashiers who dislike more than three essays ever skate around more than three cafes.
+726	Some cashiers who fortunately dislike more than three essays skate around more than three cafes.
+727	Some cashiers who ever dislike more than three essays skate around more than three cafes.
+728	All adults who discussed a lot of girls obviously disliked some dancers.
+729	All adults who discussed a lot of girls ever disliked some dancers.
+730	All adults who obviously discussed a lot of girls disliked some dancers.
+731	All adults who ever discussed a lot of girls disliked some dancers.
+732	More than three adults who discussed a lot of girls obviously disliked some dancers.
+733	More than three adults who discussed a lot of girls ever disliked some dancers.
+734	More than three adults who obviously discussed a lot of girls disliked some dancers.
+735	More than three adults who ever discussed a lot of girls disliked some dancers.
+736	Every guest who has skated around many high schools fortunately boycotts public parks.
+737	Every guest who has skated around many high schools ever boycotts public parks.
+738	Every guest who has fortunately skated around many high schools boycotts public parks.
+739	Every guest who has ever skated around many high schools boycotts public parks.
+740	Some guest who has skated around many high schools fortunately boycotts public parks.
+741	Some guest who has skated around many high schools ever boycotts public parks.
+742	Some guest who has fortunately skated around many high schools boycotts public parks.
+743	Some guest who has ever skated around many high schools boycotts public parks.
+744	Every doctor who will examine documentaries cares for the people.
+745	Every doctor who will examine documentaries cares for any people.
+746	Every doctor who will examine these documentaries cares for people.
+747	Every doctor who will examine any documentaries cares for people.
+748	The doctor who will examine documentaries cares for the people.
+749	The doctor who will examine documentaries cares for any people.
+750	The doctor who will examine these documentaries cares for people.
+751	The doctor who will examine any documentaries cares for people.
+752	Every person who bikes to a lot of hospitals also examines a lot of newspaper articles.
+753	Every person who bikes to a lot of hospitals ever examines a lot of newspaper articles.
+754	Every person who also bikes to a lot of hospitals examines a lot of newspaper articles.
+755	Every person who ever bikes to a lot of hospitals examines a lot of newspaper articles.
+756	Some person who bikes to a lot of hospitals also examines a lot of newspaper articles.
+757	Some person who bikes to a lot of hospitals ever examines a lot of newspaper articles.
+758	Some person who also bikes to a lot of hospitals examines a lot of newspaper articles.
+759	Some person who ever bikes to a lot of hospitals examines a lot of newspaper articles.
+760	Every guest who walks through many public parks breaks the plates.
+761	Every guest who walks through many public parks breaks any plates.
+762	Every guest who walks through the public parks breaks some plates.
+763	Every guest who walks through any public parks breaks some plates.
+764	The guest who walks through many public parks breaks the plates.
+765	The guest who walks through many public parks breaks any plates.
+766	The guest who walks through the public parks breaks some plates.
+767	The guest who walks through any public parks breaks some plates.
+768	A pedestrian who loved more than three waiters should fortunately bike to more than three college campuses.
+769	A pedestrian who loved more than three waiters should ever bike to more than three college campuses.
+770	A pedestrian who fortunately loved more than three waiters should bike to more than three college campuses.
+771	A pedestrian who ever loved more than three waiters should bike to more than three college campuses.
+772	Every pedestrian who loved more than three waiters should fortunately bike to more than three college campuses.
+773	Every pedestrian who loved more than three waiters should ever bike to more than three college campuses.
+774	Every pedestrian who fortunately loved more than three waiters should bike to more than three college campuses.
+775	Every pedestrian who ever loved more than three waiters should bike to more than three college campuses.
+776	Every adult who hated more than three doctors has broken the cars.
+777	Every adult who hated more than three doctors has broken any cars.
+778	Every adult who hated those doctors has broken many cars.
+779	Every adult who hated any doctors has broken many cars.
+780	Some adult who hated more than three doctors has broken the cars.
+781	Some adult who hated more than three doctors has broken any cars.
+782	Some adult who hated those doctors has broken many cars.
+783	Some adult who hated any doctors has broken many cars.
+784	An actress who drops by some museums helped these teenagers.
+785	An actress who drops by some museums helped any teenagers.
+786	An actress who drops by the museums helped more than three teenagers.
+787	An actress who drops by any museums helped more than three teenagers.
+788	Every actress who drops by some museums helped these teenagers.
+789	Every actress who drops by some museums helped any teenagers.
+790	Every actress who drops by the museums helped more than three teenagers.
+791	Every actress who drops by any museums helped more than three teenagers.
+792	Teenagers who know a lot of students watch these patients.
+793	Teenagers who know a lot of students watch any patients.
+794	Teenagers who know those students watch the patients.
+795	Teenagers who know any students watch the patients.
+796	All teenagers who know a lot of students watch these patients.
+797	All teenagers who know a lot of students watch any patients.
+798	All teenagers who know those students watch the patients.
+799	All teenagers who know any students watch the patients.
+800	All girls who might wear the shoes have often cared for the cashiers.
+801	All girls who might wear the shoes have ever cared for the cashiers.
+802	All girls who might often wear the shoes have cared for the cashiers.
+803	All girls who might ever wear the shoes have cared for the cashiers.
+804	More than three girls who might wear the shoes have often cared for the cashiers.
+805	More than three girls who might wear the shoes have ever cared for the cashiers.
+806	More than three girls who might often wear the shoes have cared for the cashiers.
+807	More than three girls who might ever wear the shoes have cared for the cashiers.
+808	Every patient who will praise essays also references the people.
+809	Every patient who will praise essays ever references the people.
+810	Every patient who will also praise essays references the people.
+811	Every patient who will ever praise essays references the people.
+812	Some patient who will praise essays also references the people.
+813	Some patient who will praise essays ever references the people.
+814	Some patient who will also praise essays references the people.
+815	Some patient who will ever praise essays references the people.
+816	Every person who might scan a lot of books fortunately approached the actors.
+817	Every person who might scan a lot of books ever approached the actors.
+818	Every person who might fortunately scan a lot of books approached the actors.
+819	Every person who might ever scan a lot of books approached the actors.
+820	Some person who might scan a lot of books fortunately approached the actors.
+821	Some person who might scan a lot of books ever approached the actors.
+822	Some person who might fortunately scan a lot of books approached the actors.
+823	Some person who might ever scan a lot of books approached the actors.
+824	Any men who took plates clearly describe movie theaters.
+825	Any men who took plates ever describe movie theaters.
+826	Any men who clearly took plates describe movie theaters.
+827	Any men who ever took plates describe movie theaters.
+828	Some men who took plates clearly describe movie theaters.
+829	Some men who took plates ever describe movie theaters.
+830	Some men who clearly took plates describe movie theaters.
+831	Some men who ever took plates describe movie theaters.
+832	A senator who has biked to a lot of high schools had also listened to ladies.
+833	A senator who has biked to a lot of high schools had ever listened to ladies.
+834	A senator who has also biked to a lot of high schools had listened to ladies.
+835	A senator who has ever biked to a lot of high schools had listened to ladies.
+836	Every senator who has biked to a lot of high schools had also listened to ladies.
+837	Every senator who has biked to a lot of high schools had ever listened to ladies.
+838	Every senator who has also biked to a lot of high schools had listened to ladies.
+839	Every senator who has ever biked to a lot of high schools had listened to ladies.
+840	All women who hug the students often hugged some children.
+841	All women who hug the students ever hugged some children.
+842	All women who often hug the students hugged some children.
+843	All women who ever hug the students hugged some children.
+844	Many women who hug the students often hugged some children.
+845	Many women who hug the students ever hugged some children.
+846	Many women who often hug the students hugged some children.
+847	Many women who ever hug the students hugged some children.
+848	Every pedestrian who watched many ladies often cleaned plates.
+849	Every pedestrian who watched many ladies ever cleaned plates.
+850	Every pedestrian who often watched many ladies cleaned plates.
+851	Every pedestrian who ever watched many ladies cleaned plates.
+852	Some pedestrian who watched many ladies often cleaned plates.
+853	Some pedestrian who watched many ladies ever cleaned plates.
+854	Some pedestrian who often watched many ladies cleaned plates.
+855	Some pedestrian who ever watched many ladies cleaned plates.
+856	A pedestrian who does watch a lot of customers disliked these art galleries.
+857	A pedestrian who does watch a lot of customers disliked any art galleries.
+858	A pedestrian who does watch the customers disliked more than three art galleries.
+859	A pedestrian who does watch any customers disliked more than three art galleries.
+860	Every pedestrian who does watch a lot of customers disliked these art galleries.
+861	Every pedestrian who does watch a lot of customers disliked any art galleries.
+862	Every pedestrian who does watch the customers disliked more than three art galleries.
+863	Every pedestrian who does watch any customers disliked more than three art galleries.
+864	Every woman who visited more than three customers was talking to the students.
+865	Every woman who visited more than three customers was talking to any students.
+866	Every woman who visited the customers was talking to many students.
+867	Every woman who visited any customers was talking to many students.
+868	Some woman who visited more than three customers was talking to the students.
+869	Some woman who visited more than three customers was talking to any students.
+870	Some woman who visited the customers was talking to many students.
+871	Some woman who visited any customers was talking to many students.
+872	A lot of patients who can go to many restaurants fortunately care for women.
+873	A lot of patients who can go to many restaurants ever care for women.
+874	A lot of patients who can fortunately go to many restaurants care for women.
+875	A lot of patients who can ever go to many restaurants care for women.
+876	All patients who can go to many restaurants fortunately care for women.
+877	All patients who can go to many restaurants ever care for women.
+878	All patients who can fortunately go to many restaurants care for women.
+879	All patients who can ever go to many restaurants care for women.
+880	Every senator who scanned a lot of plays was investigating those boys.
+881	Every senator who scanned a lot of plays was investigating any boys.
+882	Every senator who scanned those plays was investigating some boys.
+883	Every senator who scanned any plays was investigating some boys.
+884	The senator who scanned a lot of plays was investigating those boys.
+885	The senator who scanned a lot of plays was investigating any boys.
+886	The senator who scanned those plays was investigating some boys.
+887	The senator who scanned any plays was investigating some boys.
+888	Every guy who has gone to some hospitals would also admire some books.
+889	Every guy who has gone to some hospitals would ever admire some books.
+890	Every guy who has also gone to some hospitals would admire some books.
+891	Every guy who has ever gone to some hospitals would admire some books.
+892	The guy who has gone to some hospitals would also admire some books.
+893	The guy who has gone to some hospitals would ever admire some books.
+894	The guy who has also gone to some hospitals would admire some books.
+895	The guy who has ever gone to some hospitals would admire some books.
+896	All senators who were skated around a lot of restaurants tour these high schools.
+897	All senators who were skated around a lot of restaurants tour any high schools.
+898	All senators who were skated around these restaurants tour more than three high schools.
+899	All senators who were skated around any restaurants tour more than three high schools.
+900	The senators who were skated around a lot of restaurants tour these high schools.
+901	The senators who were skated around a lot of restaurants tour any high schools.
+902	The senators who were skated around these restaurants tour more than three high schools.
+903	The senators who were skated around any restaurants tour more than three high schools.
+904	All senators who had explored more than three museums fortunately examine more than three reports.
+905	All senators who had explored more than three museums ever examine more than three reports.
+906	All senators who had fortunately explored more than three museums examine more than three reports.
+907	All senators who had ever explored more than three museums examine more than three reports.
+908	Some senators who had explored more than three museums fortunately examine more than three reports.
+909	Some senators who had explored more than three museums ever examine more than three reports.
+910	Some senators who had fortunately explored more than three museums examine more than three reports.
+911	Some senators who had ever explored more than three museums examine more than three reports.
+912	A driver who does forget a lot of documentaries has often helped guys.
+913	A driver who does forget a lot of documentaries has ever helped guys.
+914	A driver who often does forget a lot of documentaries has helped guys.
+915	A driver who ever does forget a lot of documentaries has helped guys.
+916	Every driver who does forget a lot of documentaries has often helped guys.
+917	Every driver who does forget a lot of documentaries has ever helped guys.
+918	Every driver who often does forget a lot of documentaries has helped guys.
+919	Every driver who ever does forget a lot of documentaries has helped guys.
+920	All actresses who had remembered essays obviously listened to many people.
+921	All actresses who had remembered essays ever listened to many people.
+922	All actresses who had obviously remembered essays listened to many people.
+923	All actresses who had ever remembered essays listened to many people.
+924	More than three actresses who had remembered essays obviously listened to many people.
+925	More than three actresses who had remembered essays ever listened to many people.
+926	More than three actresses who had obviously remembered essays listened to many people.
+927	More than three actresses who had ever remembered essays listened to many people.
+928	All boys who have kissed more than three drivers have clearly disliked many girls.
+929	All boys who have kissed more than three drivers have ever disliked many girls.
+930	All boys who have clearly kissed more than three drivers have disliked many girls.
+931	All boys who have ever kissed more than three drivers have disliked many girls.
+932	Some boys who have kissed more than three drivers have clearly disliked many girls.
+933	Some boys who have kissed more than three drivers have ever disliked many girls.
+934	Some boys who have clearly kissed more than three drivers have disliked many girls.
+935	Some boys who have ever kissed more than three drivers have disliked many girls.
+936	Any teenagers who wear the pants obviously attack more than three customers.
+937	Any teenagers who wear the pants ever attack more than three customers.
+938	Any teenagers who obviously wear the pants attack more than three customers.
+939	Any teenagers who ever wear the pants attack more than three customers.
+940	Many teenagers who wear the pants obviously attack more than three customers.
+941	Many teenagers who wear the pants ever attack more than three customers.
+942	Many teenagers who obviously wear the pants attack more than three customers.
+943	Many teenagers who ever wear the pants attack more than three customers.
+944	Every teenager who dropped by some cafes will arrive at those grocery stores.
+945	Every teenager who dropped by some cafes will arrive at any grocery stores.
+946	Every teenager who dropped by these cafes will arrive at more than three grocery stores.
+947	Every teenager who dropped by any cafes will arrive at more than three grocery stores.
+948	The teenager who dropped by some cafes will arrive at those grocery stores.
+949	The teenager who dropped by some cafes will arrive at any grocery stores.
+950	The teenager who dropped by these cafes will arrive at more than three grocery stores.
+951	The teenager who dropped by any cafes will arrive at more than three grocery stores.
+952	Students who had skated around the libraries like those actresses.
+953	Students who had skated around the libraries like any actresses.
+954	Students who had skated around those libraries like a lot of actresses.
+955	Students who had skated around any libraries like a lot of actresses.
+956	All students who had skated around the libraries like those actresses.
+957	All students who had skated around the libraries like any actresses.
+958	All students who had skated around those libraries like a lot of actresses.
+959	All students who had skated around any libraries like a lot of actresses.
+960	Every guest who talked to some women had criticized those waiters.
+961	Every guest who talked to some women had criticized any waiters.
+962	Every guest who talked to these women had criticized more than three waiters.
+963	Every guest who talked to any women had criticized more than three waiters.
+964	The guest who talked to some women had criticized those waiters.
+965	The guest who talked to some women had criticized any waiters.
+966	The guest who talked to these women had criticized more than three waiters.
+967	The guest who talked to any women had criticized more than three waiters.
+968	Every person who saw couches also investigated pedestrians.
+969	Every person who saw couches ever investigated pedestrians.
+970	Every person who also saw couches investigated pedestrians.
+971	Every person who ever saw couches investigated pedestrians.
+972	The person who saw couches also investigated pedestrians.
+973	The person who saw couches ever investigated pedestrians.
+974	The person who also saw couches investigated pedestrians.
+975	The person who ever saw couches investigated pedestrians.
+976	Women who should go to a lot of college campuses boycott the high schools.
+977	Women who should go to a lot of college campuses boycott any high schools.
+978	Women who should go to these college campuses boycott a lot of high schools.
+979	Women who should go to any college campuses boycott a lot of high schools.
+980	Any women who should go to a lot of college campuses boycott the high schools.
+981	Any women who should go to a lot of college campuses boycott any high schools.
+982	Any women who should go to these college campuses boycott a lot of high schools.
+983	Any women who should go to any college campuses boycott a lot of high schools.
+984	Any doctors who examine more than three movies fortunately talked to a lot of patients.
+985	Any doctors who examine more than three movies ever talked to a lot of patients.
+986	Any doctors who fortunately examine more than three movies talked to a lot of patients.
+987	Any doctors who ever examine more than three movies talked to a lot of patients.
+988	Many doctors who examine more than three movies fortunately talked to a lot of patients.
+989	Many doctors who examine more than three movies ever talked to a lot of patients.
+990	Many doctors who fortunately examine more than three movies talked to a lot of patients.
+991	Many doctors who ever examine more than three movies talked to a lot of patients.
+992	Every lady who likes actresses also drives to a lot of art galleries.
+993	Every lady who likes actresses ever drives to a lot of art galleries.
+994	Every lady who also likes actresses drives to a lot of art galleries.
+995	Every lady who ever likes actresses drives to a lot of art galleries.
+996	Some lady who likes actresses also drives to a lot of art galleries.
+997	Some lady who likes actresses ever drives to a lot of art galleries.
+998	Some lady who also likes actresses drives to a lot of art galleries.
+999	Some lady who ever likes actresses drives to a lot of art galleries.
