@@ -1,501 +1,1001 @@
-index	sentence
+index   sentence
 0	No man has ever said that the girls did win.
 1	No man has certainly said that the girls did win.
 2	A man has ever said that no girls did win.
 3	A man has certainly said that no girls did win.
-4	No actor has thought that the documentaries won in years.
-5	No actor has thought that the documentaries won on weekends.
-6	The actor has thought in years that no documentaries won.
-7	The actor has thought on weekends that no documentaries won.
-8	No waiters were saying that any actresses had stood up.
-9	No waiters were saying that the actresses had stood up.
-10	Any waiters were saying that no actresses had stood up.
-11	Those waiters were saying that no actresses had stood up.
-12	No teenager could explain that the newspaper articles are discussing an report either.
-13	No teenager could explain that the newspaper articles are discussing an report regularly.
-14	A teenager could explain either that no newspaper articles are discussing an report.
-15	A teenager could explain regularly that no newspaper articles are discussing an report.
-16	None of the patients explained that any cafes did resemble the teachers.
-17	None of the patients explained that these cafes did resemble the teachers.
-18	Any patients explained that none of the cafes did resemble the teachers.
-19	These patients explained that none of the cafes did resemble the teachers.
-20	None of the actors had imagined that the adults had left a girl yet.
-21	None of the actors had imagined that the adults had left a girl on occasion.
-22	The actors had imagined yet that none of the adults had left a girl.
-23	The actors had imagined on occasion that none of the adults had left a girl.
-24	No teacher says that the people concurred at all.
-25	No teacher says that the people concurred on weekends.
-26	A teacher says at all that no people concurred.
-27	A teacher says on weekends that no people concurred.
-28	No women imagined that the senators had gone to the schools in years.
-29	No women imagined that the senators had gone to the schools on occasion.
-30	The women imagined in years that no senators had gone to the schools.
-31	The women imagined on occasion that no senators had gone to the schools.
-32	No women could say that any banks would resemble the person.
-33	No women could say that these banks would resemble the person.
-34	Any women could say that no banks would resemble the person.
-35	Those women could say that no banks would resemble the person.
-36	No adult explained that the people praise a documentary at all.
-37	No adult explained that the people praise a documentary as well.
-38	An adult explained at all that no people praise a documentary.
-39	An adult explained as well that no people praise a documentary.
-40	No gals had thought that any reports criticize the restaurant.
-41	No gals had thought that these reports criticize the restaurant.
-42	Any gals had thought that no reports criticize the restaurant.
-43	These gals had thought that no reports criticize the restaurant.
-44	No gals imagine that the men walk through the grocery stores either.
-45	No gals imagine that the men walk through the grocery stores for a while.
-46	The gals imagine either that no men walk through the grocery stores.
-47	The gals imagine for a while that no men walk through the grocery stores.
-48	No doctors explained that the commentaries have won in years.
-49	No doctors explained that the commentaries have won for a while.
-50	The doctors explained in years that no commentaries have won.
-51	The doctors explained for a while that no commentaries have won.
-52	No waitress is ever explaining that the college campuses resemble a scarf.
-53	No waitress is also explaining that the college campuses resemble a scarf.
-54	A waitress is ever explaining that no college campuses resemble a scarf.
-55	A waitress is also explaining that no college campuses resemble a scarf.
-56	None of the drivers imagined that the children ran around the schools in years.
-57	None of the drivers imagined that the children ran around the schools regularly.
-58	The drivers imagined in years that none of the children ran around the schools.
-59	The drivers imagined regularly that none of the children ran around the schools.
-60	None of the gals should say that any drivers have returned to the schools.
-61	None of the gals should say that these drivers have returned to the schools.
-62	Any gals should say that none of the drivers have returned to the schools.
-63	Those gals should say that none of the drivers have returned to the schools.
-64	No senators had imagined that the malls resemble an report at all.
-65	No senators had imagined that the malls resemble an report for a while.
-66	The senators had imagined at all that no malls resemble an report.
-67	The senators had imagined for a while that no malls resemble an report.
-68	No ladies are saying that any teenagers spun around.
-69	No ladies are saying that the teenagers spun around.
-70	Any ladies are saying that no teenagers spun around.
-71	These ladies are saying that no teenagers spun around.
-72	No boys had explained that the customers slumped over in years.
-73	No boys had explained that the customers slumped over on occasion.
-74	The boys had explained in years that no customers slumped over.
-75	The boys had explained on occasion that no customers slumped over.
-76	No cashier has thought that the banks will resemble the malls yet.
-77	No cashier has thought that the banks will resemble the malls on occasion.
-78	The cashier has thought yet that no banks will resemble the malls.
-79	The cashier has thought on occasion that no banks will resemble the malls.
-80	None of the girls thought that any cups will resemble the customers.
-81	None of the girls thought that these cups will resemble the customers.
-82	Any girls thought that none of the cups will resemble the customers.
-83	The girls thought that none of the cups will resemble the customers.
-84	None of the drivers do explain that the newspaper articles did describe the waitresses yet.
-85	None of the drivers do explain that the newspaper articles did describe the waitresses as well.
-86	The drivers do explain yet that none of the newspaper articles did describe the waitresses.
-87	The drivers do explain as well that none of the newspaper articles did describe the waitresses.
-88	No waitresses have explained that the waiters had played in years.
-89	No waitresses have explained that the waiters had played as well.
-90	The waitresses have explained in years that no waiters had played.
-91	The waitresses have explained as well that no waiters had played.
-92	No person explained that the pants do resemble the couches at all.
-93	No person explained that the pants do resemble the couches on occasion.
-94	The person explained at all that no pants do resemble the couches.
-95	The person explained on occasion that no pants do resemble the couches.
-96	No actor said that the books had discussed the school in years.
-97	No actor said that the books had discussed the school on occasion.
-98	The actor said in years that no books had discussed the school.
-99	The actor said on occasion that no books had discussed the school.
-100	No teacher was explaining that the actors joked around either.
-101	No teacher was explaining that the actors joked around as well.
-102	The teacher was explaining either that no actors joked around.
-103	The teacher was explaining as well that no actors joked around.
-104	No gals have thought that any doctors will divorce.
-105	No gals have thought that those doctors will divorce.
-106	Any gals have thought that no doctors will divorce.
-107	Those gals have thought that no doctors will divorce.
-108	None of the customers ever do explain that the doctors muttered.
-109	None of the customers also do explain that the doctors muttered.
-110	The customers ever do explain that none of the doctors muttered.
-111	The customers also do explain that none of the doctors muttered.
-112	No boys said that any newspaper articles criticize the children.
-113	No boys said that those newspaper articles criticize the children.
-114	Any boys said that no newspaper articles criticize the children.
-115	The boys said that no newspaper articles criticize the children.
-116	No driver was imagining that the shoes were shrinking at all.
-117	No driver was imagining that the shoes were shrinking as well.
-118	A driver was imagining at all that no shoes were shrinking.
-119	A driver was imagining as well that no shoes were shrinking.
-120	No actress says that the stories have referenced the adults at all.
-121	No actress says that the stories have referenced the adults on occasion.
-122	An actress says at all that no stories have referenced the adults.
-123	An actress says on occasion that no stories have referenced the adults.
-124	No boy had ever explained that the movies disagree.
-125	No boy had certainly explained that the movies disagree.
-126	The boy had ever explained that no movies disagree.
-127	The boy had certainly explained that no movies disagree.
-128	No men thought that the customers were reacting at all.
-129	No men thought that the customers were reacting for a while.
-130	The men thought at all that no customers were reacting.
-131	The men thought for a while that no customers were reacting.
-132	None of the senators might say that any guests have cooked.
-133	None of the senators might say that these guests have cooked.
-134	Any senators might say that none of the guests have cooked.
-135	Those senators might say that none of the guests have cooked.
-136	None of the actors would imagine that any movies were winning.
-137	None of the actors would imagine that these movies were winning.
-138	Any actors would imagine that none of the movies were winning.
-139	The actors would imagine that none of the movies were winning.
-140	No doctor had thought that the doctors have walked through the museums in years.
-141	No doctor had thought that the doctors have walked through the museums regularly.
-142	A doctor had thought in years that no doctors have walked through the museums.
-143	A doctor had thought regularly that no doctors have walked through the museums.
-144	No student thought that the ladies wave either.
-145	No student thought that the ladies wave for a while.
-146	The student thought either that no ladies wave.
-147	The student thought for a while that no ladies wave.
-148	No actor explained that the senators skated around the cafes yet.
-149	No actor explained that the senators skated around the cafes for a while.
-150	An actor explained yet that no senators skated around the cafes.
-151	An actor explained for a while that no senators skated around the cafes.
-152	No waiter thought that the people have scanned an essay at all.
-153	No waiter thought that the people have scanned an essay as well.
-154	The waiter thought at all that no people have scanned an essay.
-155	The waiter thought as well that no people have scanned an essay.
-156	No person will say that the pants did resemble a teenager yet.
-157	No person will say that the pants did resemble a teenager regularly.
-158	The person will say yet that no pants did resemble a teenager.
-159	The person will say regularly that no pants did resemble a teenager.
-160	No dancer imagined that the cashiers have conferred in years.
-161	No dancer imagined that the cashiers have conferred on weekends.
-162	A dancer imagined in years that no cashiers have conferred.
-163	A dancer imagined on weekends that no cashiers have conferred.
-164	No teacher was imagining that the girls have divorced either.
-165	No teacher was imagining that the girls have divorced on weekends.
-166	The teacher was imagining either that no girls have divorced.
-167	The teacher was imagining on weekends that no girls have divorced.
-168	No cashier imagined that the actors dropped by the art galleries in years.
-169	No cashier imagined that the actors dropped by the art galleries regularly.
-170	The cashier imagined in years that no actors dropped by the art galleries.
-171	The cashier imagined regularly that no actors dropped by the art galleries.
-172	No doctor should think that the ladies surrender at all.
-173	No doctor should think that the ladies surrender as well.
-174	A doctor should think at all that no ladies surrender.
-175	A doctor should think as well that no ladies surrender.
-176	No student should ever say that the movie theaters would resemble the waiter.
-177	No student should also say that the movie theaters would resemble the waiter.
-178	A student should ever say that no movie theaters would resemble the waiter.
-179	A student should also say that no movie theaters would resemble the waiter.
-180	No boys had ever imagined that the movies could insult the adults.
-181	No boys had often imagined that the movies could insult the adults.
-182	The boys had ever imagined that no movies could insult the adults.
-183	The boys had often imagined that no movies could insult the adults.
-184	No customers imagined that the people hid away in years.
-185	No customers imagined that the people hid away for a while.
-186	The customers imagined in years that no people hid away.
-187	The customers imagined for a while that no people hid away.
-188	No boy thinks that the gloves could resemble the customers yet.
-189	No boy thinks that the gloves could resemble the customers for a while.
-190	The boy thinks yet that no gloves could resemble the customers.
-191	The boy thinks for a while that no gloves could resemble the customers.
-192	No person had imagined that the guests dropped by the grocery store either.
-193	No person had imagined that the guests dropped by the grocery store on occasion.
-194	A person had imagined either that no guests dropped by the grocery store.
-195	A person had imagined on occasion that no guests dropped by the grocery store.
-196	No actor can explain that the cups resemble a face yet.
-197	No actor can explain that the cups resemble a face for a while.
-198	An actor can explain yet that no cups resemble a face.
-199	An actor can explain for a while that no cups resemble a face.
-200	No women said that any men have explored the mall.
-201	No women said that the men have explored the mall.
-202	Any women said that no men have explored the mall.
-203	The women said that no men have explored the mall.
-204	No guest does think that the teenagers blink either.
-205	No guest does think that the teenagers blink for a while.
-206	A guest does think either that no teenagers blink.
-207	A guest does think for a while that no teenagers blink.
-208	No guests do think that any pants might resemble the library.
-209	No guests do think that the pants might resemble the library.
-210	Any guests do think that no pants might resemble the library.
-211	Those guests do think that no pants might resemble the library.
-212	No pedestrian has said that the college campuses resemble the cars at all.
-213	No pedestrian has said that the college campuses resemble the cars for a while.
-214	The pedestrian has said at all that no college campuses resemble the cars.
-215	The pedestrian has said for a while that no college campuses resemble the cars.
-216	No person explained that the children can love the driver yet.
-217	No person explained that the children can love the driver on weekends.
-218	A person explained yet that no children can love the driver.
-219	A person explained on weekends that no children can love the driver.
-220	No actress said that the senators dated in years.
-221	No actress said that the senators dated on occasion.
-222	An actress said in years that no senators dated.
-223	An actress said on occasion that no senators dated.
-224	No student imagines that the pants can shrink at all.
-225	No student imagines that the pants can shrink regularly.
-226	The student imagines at all that no pants can shrink.
-227	The student imagines regularly that no pants can shrink.
-228	No people are imagining that the glasses had shrunk yet.
-229	No people are imagining that the glasses had shrunk regularly.
-230	The people are imagining yet that no glasses had shrunk.
-231	The people are imagining regularly that no glasses had shrunk.
-232	No waiter imagines that the gloves resemble the hospitals yet.
-233	No waiter imagines that the gloves resemble the hospitals on occasion.
-234	The waiter imagines yet that no gloves resemble the hospitals.
-235	The waiter imagines on occasion that no gloves resemble the hospitals.
-236	No lady has thought that the adults have met in years.
-237	No lady has thought that the adults have met for a while.
-238	A lady has thought in years that no adults have met.
-239	A lady has thought for a while that no adults have met.
-240	None of the patients imagined that any cups resemble the pedestrian.
-241	None of the patients imagined that those cups resemble the pedestrian.
-242	Any patients imagined that none of the cups resemble the pedestrian.
-243	The patients imagined that none of the cups resemble the pedestrian.
-244	None of the cashiers would explain that any forks should resemble a fork.
-245	None of the cashiers would explain that the forks should resemble a fork.
-246	Any cashiers would explain that none of the forks should resemble a fork.
-247	The cashiers would explain that none of the forks should resemble a fork.
-248	No driver will explain that the movies win at all.
-249	No driver will explain that the movies win as well.
-250	The driver will explain at all that no movies win.
-251	The driver will explain as well that no movies win.
-252	No patient had ever imagined that the reports had won.
-253	No patient had clearly imagined that the reports had won.
-254	The patient had ever imagined that no reports had won.
-255	The patient had clearly imagined that no reports had won.
-256	No drivers imagined that the banks should resemble the books yet.
-257	No drivers imagined that the banks should resemble the books for a while.
-258	The drivers imagined yet that no banks should resemble the books.
-259	The drivers imagined for a while that no banks should resemble the books.
-260	No girls will think that any ladies are painting.
-261	No girls will think that the ladies are painting.
-262	Any girls will think that no ladies are painting.
-263	The girls will think that no ladies are painting.
-264	No guys have thought that the adults are kissing the teenagers either.
-265	No guys have thought that the adults are kissing the teenagers on occasion.
-266	The guys have thought either that no adults are kissing the teenagers.
-267	The guys have thought on occasion that no adults are kissing the teenagers.
-268	None of the guys will think that the teachers were flirting at all.
-269	None of the guys will think that the teachers were flirting as well.
-270	The guys will think at all that none of the teachers were flirting.
-271	The guys will think as well that none of the teachers were flirting.
-272	None of the pedestrians are ever explaining that the pedestrians were fleeing from a student.
-273	None of the pedestrians are really explaining that the pedestrians were fleeing from a student.
-274	The pedestrians are ever explaining that none of the pedestrians were fleeing from a student.
-275	The pedestrians are really explaining that none of the pedestrians were fleeing from a student.
-276	No customer might say that the waitresses were leaving the public park at all.
-277	No customer might say that the waitresses were leaving the public park on occasion.
-278	The customer might say at all that no waitresses were leaving the public park.
-279	The customer might say on occasion that no waitresses were leaving the public park.
-280	No driver says that the doctors paint either.
-281	No driver says that the doctors paint on occasion.
-282	A driver says either that no doctors paint.
-283	A driver says on occasion that no doctors paint.
-284	No people were imagining that any hair would resemble the car.
-285	No people were imagining that the hair would resemble the car.
-286	Any people were imagining that no hair would resemble the car.
-287	Those people were imagining that no hair would resemble the car.
-288	None of the customers imagine that the schools resemble the girl yet.
-289	None of the customers imagine that the schools resemble the girl as well.
-290	The customers imagine yet that none of the schools resemble the girl.
-291	The customers imagine as well that none of the schools resemble the girl.
-292	No children imagined that the waiters skated around the malls in years.
-293	No children imagined that the waiters skated around the malls as well.
-294	The children imagined in years that no waiters skated around the malls.
-295	The children imagined as well that no waiters skated around the malls.
-296	No guest is saying that the actresses examine a newspaper article yet.
-297	No guest is saying that the actresses examine a newspaper article on occasion.
-298	The guest is saying yet that no actresses examine a newspaper article.
-299	The guest is saying on occasion that no actresses examine a newspaper article.
-300	No drivers can ever say that the eyes will resemble the library.
-301	No drivers can often say that the eyes will resemble the library.
-302	The drivers can ever say that no eyes will resemble the library.
-303	The drivers can often say that no eyes will resemble the library.
-304	None of the children explained that any documentaries could win.
-305	None of the children explained that those documentaries could win.
-306	Any children explained that none of the documentaries could win.
-307	The children explained that none of the documentaries could win.
-308	No patient thought that the people had won in years.
-309	No patient thought that the people had won on occasion.
-310	The patient thought in years that no people had won.
-311	The patient thought on occasion that no people had won.
-312	None of the guests had imagined that the college campuses resemble the eyes yet.
-313	None of the guests had imagined that the college campuses resemble the eyes on weekends.
-314	The guests had imagined yet that none of the college campuses resemble the eyes.
-315	The guests had imagined on weekends that none of the college campuses resemble the eyes.
-316	No patient has explained that the reports described the child in years.
-317	No patient has explained that the reports described the child for a while.
-318	A patient has explained in years that no reports described the child.
-319	A patient has explained for a while that no reports described the child.
-320	No woman says that the gloves would resemble the girl yet.
-321	No woman says that the gloves would resemble the girl for a while.
-322	The woman says yet that no gloves would resemble the girl.
-323	The woman says for a while that no gloves would resemble the girl.
-324	None of the women did imagine that the chairs do resemble a dish either.
-325	None of the women did imagine that the chairs do resemble a dish regularly.
-326	The women did imagine either that none of the chairs do resemble a dish.
-327	The women did imagine regularly that none of the chairs do resemble a dish.
-328	No actor is explaining that the guests can clean the newspaper articles yet.
-329	No actor is explaining that the guests can clean the newspaper articles on occasion.
-330	The actor is explaining yet that no guests can clean the newspaper articles.
-331	The actor is explaining on occasion that no guests can clean the newspaper articles.
-332	No guys thought that the couches did resemble the stories at all.
-333	No guys thought that the couches did resemble the stories regularly.
-334	The guys thought at all that no couches did resemble the stories.
-335	The guys thought regularly that no couches did resemble the stories.
-336	None of the customers think that any pants might resemble the cups.
-337	None of the customers think that those pants might resemble the cups.
-338	Any customers think that none of the pants might resemble the cups.
-339	These customers think that none of the pants might resemble the cups.
-340	None of the ladies have said that the hospitals resemble the hospitals either.
-341	None of the ladies have said that the hospitals resemble the hospitals on weekends.
-342	The ladies have said either that none of the hospitals resemble the hospitals.
-343	The ladies have said on weekends that none of the hospitals resemble the hospitals.
-344	None of the pedestrians have said that any students would scan the commentaries.
-345	None of the pedestrians have said that those students would scan the commentaries.
-346	Any pedestrians have said that none of the students would scan the commentaries.
-347	The pedestrians have said that none of the students would scan the commentaries.
-348	No customers were explaining that any cups resemble a car.
-349	No customers were explaining that these cups resemble a car.
-350	Any customers were explaining that no cups resemble a car.
-351	Those customers were explaining that no cups resemble a car.
-352	No cashier explained that the ladies are touring the art galleries either.
-353	No cashier explained that the ladies are touring the art galleries on occasion.
-354	A cashier explained either that no ladies are touring the art galleries.
-355	A cashier explained on occasion that no ladies are touring the art galleries.
-356	No doctor would ever imagine that the teenagers were smiling.
-357	No doctor would really imagine that the teenagers were smiling.
-358	The doctor would ever imagine that no teenagers were smiling.
-359	The doctor would really imagine that no teenagers were smiling.
-360	None of the guys could ever explain that the pants were shrinking.
-361	None of the guys could really explain that the pants were shrinking.
-362	The guys could ever explain that none of the pants were shrinking.
-363	The guys could really explain that none of the pants were shrinking.
-364	No students are imagining that the girls marry either.
-365	No students are imagining that the girls marry regularly.
-366	The students are imagining either that no girls marry.
-367	The students are imagining regularly that no girls marry.
-368	No boys had ever explained that the gloves will shrink.
-369	No boys had also explained that the gloves will shrink.
-370	The boys had ever explained that no gloves will shrink.
-371	The boys had also explained that no gloves will shrink.
-372	No cashier did think that the teenagers have forgotten a movie at all.
-373	No cashier did think that the teenagers have forgotten a movie on occasion.
-374	The cashier did think at all that no teenagers have forgotten a movie.
-375	The cashier did think on occasion that no teenagers have forgotten a movie.
-376	None of the students are imagining that any customers observe a customer.
-377	None of the students are imagining that the customers observe a customer.
-378	Any students are imagining that none of the customers observe a customer.
-379	The students are imagining that none of the customers observe a customer.
-380	No waiter thinks that the guests might debate at all.
-381	No waiter thinks that the guests might debate on occasion.
-382	A waiter thinks at all that no guests might debate.
-383	A waiter thinks on occasion that no guests might debate.
-384	No doctor imagines that the patients described a driver either.
-385	No doctor imagines that the patients described a driver for a while.
-386	The doctor imagines either that no patients described a driver.
-387	The doctor imagines for a while that no patients described a driver.
-388	No guest might ever say that the cashiers would see.
-389	No guest might often say that the cashiers would see.
-390	The guest might ever say that no cashiers would see.
-391	The guest might often say that no cashiers would see.
-392	No women can explain that the shoes resemble a couch either.
-393	No women can explain that the shoes resemble a couch on weekends.
-394	The women can explain either that no shoes resemble a couch.
-395	The women can explain on weekends that no shoes resemble a couch.
-396	No patient could ever say that the guys have approached an adult.
-397	No patient could clearly say that the guys have approached an adult.
-398	A patient could ever say that no guys have approached an adult.
-399	A patient could clearly say that no guys have approached an adult.
-400	None of the gals have imagined that any glasses will resemble the banks.
-401	None of the gals have imagined that these glasses will resemble the banks.
-402	Any gals have imagined that none of the glasses will resemble the banks.
-403	These gals have imagined that none of the glasses will resemble the banks.
-404	No woman can ever think that the shoes shrink.
-405	No woman can often think that the shoes shrink.
-406	The woman can ever think that no shoes shrink.
-407	The woman can often think that no shoes shrink.
-408	No guys have thought that any actresses competed.
-409	No guys have thought that the actresses competed.
-410	Any guys have thought that no actresses competed.
-411	These guys have thought that no actresses competed.
-412	None of the doctors explained that the students had wept in years.
-413	None of the doctors explained that the students had wept as well.
-414	The doctors explained in years that none of the students had wept.
-415	The doctors explained as well that none of the students had wept.
-416	No doctors explained that any ladies are arriving at the movie theater.
-417	No doctors explained that the ladies are arriving at the movie theater.
-418	Any doctors explained that no ladies are arriving at the movie theater.
-419	These doctors explained that no ladies are arriving at the movie theater.
-420	No patient was saying that the banks did resemble a dish yet.
-421	No patient was saying that the banks did resemble a dish as well.
-422	A patient was saying yet that no banks did resemble a dish.
-423	A patient was saying as well that no banks did resemble a dish.
-424	None of the doctors are thinking that the waitresses were visiting the hospitals either.
-425	None of the doctors are thinking that the waitresses were visiting the hospitals as well.
-426	The doctors are thinking either that none of the waitresses were visiting the hospitals.
-427	The doctors are thinking as well that none of the waitresses were visiting the hospitals.
-428	No patients were imagining that the ladies were succeeding yet.
-429	No patients were imagining that the ladies were succeeding for a while.
-430	The patients were imagining yet that no ladies were succeeding.
-431	The patients were imagining for a while that no ladies were succeeding.
-432	No patient is explaining that the college campuses did resemble a man either.
-433	No patient is explaining that the college campuses did resemble a man regularly.
-434	A patient is explaining either that no college campuses did resemble a man.
-435	A patient is explaining regularly that no college campuses did resemble a man.
-436	No guest said that the hospitals will resemble the boy either.
-437	No guest said that the hospitals will resemble the boy regularly.
-438	A guest said either that no hospitals will resemble the boy.
-439	A guest said regularly that no hospitals will resemble the boy.
-440	None of the actresses will explain that the essays were discussing a dancer at all.
-441	None of the actresses will explain that the essays were discussing a dancer on occasion.
-442	The actresses will explain at all that none of the essays were discussing a dancer.
-443	The actresses will explain on occasion that none of the essays were discussing a dancer.
-444	No driver imagined that the actors were kissing the senators at all.
-445	No driver imagined that the actors were kissing the senators on weekends.
-446	The driver imagined at all that no actors were kissing the senators.
-447	The driver imagined on weekends that no actors were kissing the senators.
-448	No actors are imagining that the dishes will resemble the plates at all.
-449	No actors are imagining that the dishes will resemble the plates for a while.
-450	The actors are imagining at all that no dishes will resemble the plates.
-451	The actors are imagining for a while that no dishes will resemble the plates.
-452	No man had said that the ladies have taken a fork at all.
-453	No man had said that the ladies have taken a fork regularly.
-454	A man had said at all that no ladies have taken a fork.
-455	A man had said regularly that no ladies have taken a fork.
-456	No boy is explaining that the documentaries should disagree yet.
-457	No boy is explaining that the documentaries should disagree on weekends.
-458	A boy is explaining yet that no documentaries should disagree.
-459	A boy is explaining on weekends that no documentaries should disagree.
-460	No students do say that any students care for the cashiers.
-461	No students do say that those students care for the cashiers.
-462	Any students do say that no students care for the cashiers.
-463	Those students do say that no students care for the cashiers.
-464	No men thought that any gals learned.
-465	No men thought that these gals learned.
-466	Any men thought that no gals learned.
-467	These men thought that no gals learned.
-468	None of the boys think that the adults are discussing the college campus yet.
-469	None of the boys think that the adults are discussing the college campus regularly.
-470	The boys think yet that none of the adults are discussing the college campus.
-471	The boys think regularly that none of the adults are discussing the college campus.
-472	No ladies have imagined that the stories have won in years.
-473	No ladies have imagined that the stories have won regularly.
-474	The ladies have imagined in years that no stories have won.
-475	The ladies have imagined regularly that no stories have won.
-476	No pedestrian has said that the actors boycotted the movie theaters in years.
-477	No pedestrian has said that the actors boycotted the movie theaters regularly.
-478	A pedestrian has said in years that no actors boycotted the movie theaters.
-479	A pedestrian has said regularly that no actors boycotted the movie theaters.
-480	None of the guys have thought that the shoes can shrink either.
-481	None of the guys have thought that the shoes can shrink on occasion.
-482	The guys have thought either that none of the shoes can shrink.
-483	The guys have thought on occasion that none of the shoes can shrink.
-484	No waiter thought that the boys clashed in years.
-485	No waiter thought that the boys clashed regularly.
-486	The waiter thought in years that no boys clashed.
-487	The waiter thought regularly that no boys clashed.
-488	No student had thought that the gals do interact either.
-489	No student had thought that the gals do interact for a while.
-490	The student had thought either that no gals do interact.
-491	The student had thought for a while that no gals do interact.
-492	No ladies can think that the cafes do resemble the cars yet.
-493	No ladies can think that the cafes do resemble the cars as well.
-494	The ladies can think yet that no cafes do resemble the cars.
-495	The ladies can think as well that no cafes do resemble the cars.
-496	None of the ladies imagined that the waiters approved in years.
-497	None of the ladies imagined that the waiters approved as well.
-498	The ladies imagined in years that none of the waiters approved.
-499	The ladies imagined as well that none of the waiters approved.
+4	Some man has ever said that the girls did win.
+5	Some man has certainly said that the girls did win.
+6	A man has ever said that some girls did win.
+7	A man has certainly said that some girls did win.
+8	No actor has thought that the documentaries won in years.
+9	No actor has thought that the documentaries won on weekends.
+10	The actor has thought in years that no documentaries won.
+11	The actor has thought on weekends that no documentaries won.
+12	Some actor has thought that the documentaries won in years.
+13	Some actor has thought that the documentaries won on weekends.
+14	The actor has thought in years that some documentaries won.
+15	The actor has thought on weekends that some documentaries won.
+16	No waiters were saying that any actresses had stood up.
+17	No waiters were saying that the actresses had stood up.
+18	Any waiters were saying that no actresses had stood up.
+19	Those waiters were saying that no actresses had stood up.
+20	Some waiters were saying that any actresses had stood up.
+21	Some waiters were saying that the actresses had stood up.
+22	Any waiters were saying that some actresses had stood up.
+23	Those waiters were saying that some actresses had stood up.
+24	No teenager could explain that the newspaper articles are discussing an report either.
+25	No teenager could explain that the newspaper articles are discussing an report regularly.
+26	A teenager could explain either that no newspaper articles are discussing an report.
+27	A teenager could explain regularly that no newspaper articles are discussing an report.
+28	Some teenager could explain that the newspaper articles are discussing an report either.
+29	Some teenager could explain that the newspaper articles are discussing an report regularly.
+30	A teenager could explain either that some newspaper articles are discussing an report.
+31	A teenager could explain regularly that some newspaper articles are discussing an report.
+32	None of the patients explained that any cafes did resemble the teachers.
+33	None of the patients explained that these cafes did resemble the teachers.
+34	Any patients explained that none of the cafes did resemble the teachers.
+35	These patients explained that none of the cafes did resemble the teachers.
+36	Some patients explained that any cafes did resemble the teachers.
+37	Some patients explained that these cafes did resemble the teachers.
+38	Any patients explained that some cafes did resemble the teachers.
+39	These patients explained that some cafes did resemble the teachers.
+40	None of the actors had imagined that the adults had left a girl yet.
+41	None of the actors had imagined that the adults had left a girl on occasion.
+42	The actors had imagined yet that none of the adults had left a girl.
+43	The actors had imagined on occasion that none of the adults had left a girl.
+44	Some actors had imagined that the adults had left a girl yet.
+45	Some actors had imagined that the adults had left a girl on occasion.
+46	The actors had imagined yet that some adults had left a girl.
+47	The actors had imagined on occasion that some adults had left a girl.
+48	No teacher says that the people concurred at all.
+49	No teacher says that the people concurred on weekends.
+50	A teacher says at all that no people concurred.
+51	A teacher says on weekends that no people concurred.
+52	Some teacher says that the people concurred at all.
+53	Some teacher says that the people concurred on weekends.
+54	A teacher says at all that some people concurred.
+55	A teacher says on weekends that some people concurred.
+56	No women imagined that the senators had gone to the schools in years.
+57	No women imagined that the senators had gone to the schools on occasion.
+58	The women imagined in years that no senators had gone to the schools.
+59	The women imagined on occasion that no senators had gone to the schools.
+60	Some women imagined that the senators had gone to the schools in years.
+61	Some women imagined that the senators had gone to the schools on occasion.
+62	The women imagined in years that some senators had gone to the schools.
+63	The women imagined on occasion that some senators had gone to the schools.
+64	No women could say that any banks would resemble the person.
+65	No women could say that these banks would resemble the person.
+66	Any women could say that no banks would resemble the person.
+67	Those women could say that no banks would resemble the person.
+68	Some women could say that any banks would resemble the person.
+69	Some women could say that these banks would resemble the person.
+70	Any women could say that some banks would resemble the person.
+71	Those women could say that some banks would resemble the person.
+72	No adult explained that the people praise a documentary at all.
+73	No adult explained that the people praise a documentary as well.
+74	An adult explained at all that no people praise a documentary.
+75	An adult explained as well that no people praise a documentary.
+76	Some adult explained that the people praise a documentary at all.
+77	Some adult explained that the people praise a documentary as well.
+78	An adult explained at all that some people praise a documentary.
+79	An adult explained as well that some people praise a documentary.
+80	No gals had thought that any reports criticize the restaurant.
+81	No gals had thought that these reports criticize the restaurant.
+82	Any gals had thought that no reports criticize the restaurant.
+83	These gals had thought that no reports criticize the restaurant.
+84	Some gals had thought that any reports criticize the restaurant.
+85	Some gals had thought that these reports criticize the restaurant.
+86	Any gals had thought that some reports criticize the restaurant.
+87	These gals had thought that some reports criticize the restaurant.
+88	No gals imagine that the men walk through the grocery stores either.
+89	No gals imagine that the men walk through the grocery stores for a while.
+90	The gals imagine either that no men walk through the grocery stores.
+91	The gals imagine for a while that no men walk through the grocery stores.
+92	Some gals imagine that the men walk through the grocery stores either.
+93	Some gals imagine that the men walk through the grocery stores for a while.
+94	The gals imagine either that some men walk through the grocery stores.
+95	The gals imagine for a while that some men walk through the grocery stores.
+96	No doctors explained that the commentaries have won in years.
+97	No doctors explained that the commentaries have won for a while.
+98	The doctors explained in years that no commentaries have won.
+99	The doctors explained for a while that no commentaries have won.
+100	Some doctors explained that the commentaries have won in years.
+101	Some doctors explained that the commentaries have won for a while.
+102	The doctors explained in years that some commentaries have won.
+103	The doctors explained for a while that some commentaries have won.
+104	No waitress is ever explaining that the college campuses resemble a scarf.
+105	No waitress is also explaining that the college campuses resemble a scarf.
+106	A waitress is ever explaining that no college campuses resemble a scarf.
+107	A waitress is also explaining that no college campuses resemble a scarf.
+108	Some waitress is ever explaining that the college campuses resemble a scarf.
+109	Some waitress is also explaining that the college campuses resemble a scarf.
+110	A waitress is ever explaining that some college campuses resemble a scarf.
+111	A waitress is also explaining that some college campuses resemble a scarf.
+112	None of the drivers imagined that the children ran around the schools in years.
+113	None of the drivers imagined that the children ran around the schools regularly.
+114	The drivers imagined in years that none of the children ran around the schools.
+115	The drivers imagined regularly that none of the children ran around the schools.
+116	Some drivers imagined that the children ran around the schools in years.
+117	Some drivers imagined that the children ran around the schools regularly.
+118	The drivers imagined in years that some children ran around the schools.
+119	The drivers imagined regularly that some children ran around the schools.
+120	None of the gals should say that any drivers have returned to the schools.
+121	None of the gals should say that these drivers have returned to the schools.
+122	Any gals should say that none of the drivers have returned to the schools.
+123	Those gals should say that none of the drivers have returned to the schools.
+124	Some gals should say that any drivers have returned to the schools.
+125	Some gals should say that these drivers have returned to the schools.
+126	Any gals should say that some drivers have returned to the schools.
+127	Those gals should say that some drivers have returned to the schools.
+128	No senators had imagined that the malls resemble an report at all.
+129	No senators had imagined that the malls resemble an report for a while.
+130	The senators had imagined at all that no malls resemble an report.
+131	The senators had imagined for a while that no malls resemble an report.
+132	Some senators had imagined that the malls resemble an report at all.
+133	Some senators had imagined that the malls resemble an report for a while.
+134	The senators had imagined at all that some malls resemble an report.
+135	The senators had imagined for a while that some malls resemble an report.
+136	No ladies are saying that any teenagers spun around.
+137	No ladies are saying that the teenagers spun around.
+138	Any ladies are saying that no teenagers spun around.
+139	These ladies are saying that no teenagers spun around.
+140	Some ladies are saying that any teenagers spun around.
+141	Some ladies are saying that the teenagers spun around.
+142	Any ladies are saying that some teenagers spun around.
+143	These ladies are saying that some teenagers spun around.
+144	No boys had explained that the customers slumped over in years.
+145	No boys had explained that the customers slumped over on occasion.
+146	The boys had explained in years that no customers slumped over.
+147	The boys had explained on occasion that no customers slumped over.
+148	Some boys had explained that the customers slumped over in years.
+149	Some boys had explained that the customers slumped over on occasion.
+150	The boys had explained in years that some customers slumped over.
+151	The boys had explained on occasion that some customers slumped over.
+152	No cashier has thought that the banks will resemble the malls yet.
+153	No cashier has thought that the banks will resemble the malls on occasion.
+154	The cashier has thought yet that no banks will resemble the malls.
+155	The cashier has thought on occasion that no banks will resemble the malls.
+156	Some cashier has thought that the banks will resemble the malls yet.
+157	Some cashier has thought that the banks will resemble the malls on occasion.
+158	The cashier has thought yet that some banks will resemble the malls.
+159	The cashier has thought on occasion that some banks will resemble the malls.
+160	None of the girls thought that any cups will resemble the customers.
+161	None of the girls thought that these cups will resemble the customers.
+162	Any girls thought that none of the cups will resemble the customers.
+163	The girls thought that none of the cups will resemble the customers.
+164	Some girls thought that any cups will resemble the customers.
+165	Some girls thought that these cups will resemble the customers.
+166	Any girls thought that some cups will resemble the customers.
+167	The girls thought that some cups will resemble the customers.
+168	None of the drivers do explain that the newspaper articles did describe the waitresses yet.
+169	None of the drivers do explain that the newspaper articles did describe the waitresses as well.
+170	The drivers do explain yet that none of the newspaper articles did describe the waitresses.
+171	The drivers do explain as well that none of the newspaper articles did describe the waitresses.
+172	Some drivers do explain that the newspaper articles did describe the waitresses yet.
+173	Some drivers do explain that the newspaper articles did describe the waitresses as well.
+174	The drivers do explain yet that some newspaper articles did describe the waitresses.
+175	The drivers do explain as well that some newspaper articles did describe the waitresses.
+176	No waitresses have explained that the waiters had played in years.
+177	No waitresses have explained that the waiters had played as well.
+178	The waitresses have explained in years that no waiters had played.
+179	The waitresses have explained as well that no waiters had played.
+180	Some waitresses have explained that the waiters had played in years.
+181	Some waitresses have explained that the waiters had played as well.
+182	The waitresses have explained in years that some waiters had played.
+183	The waitresses have explained as well that some waiters had played.
+184	No person explained that the pants do resemble the couches at all.
+185	No person explained that the pants do resemble the couches on occasion.
+186	The person explained at all that no pants do resemble the couches.
+187	The person explained on occasion that no pants do resemble the couches.
+188	Some person explained that the pants do resemble the couches at all.
+189	Some person explained that the pants do resemble the couches on occasion.
+190	The person explained at all that some pants do resemble the couches.
+191	The person explained on occasion that some pants do resemble the couches.
+192	No actor said that the books had discussed the school in years.
+193	No actor said that the books had discussed the school on occasion.
+194	The actor said in years that no books had discussed the school.
+195	The actor said on occasion that no books had discussed the school.
+196	Some actor said that the books had discussed the school in years.
+197	Some actor said that the books had discussed the school on occasion.
+198	The actor said in years that some books had discussed the school.
+199	The actor said on occasion that some books had discussed the school.
+200	No teacher was explaining that the actors joked around either.
+201	No teacher was explaining that the actors joked around as well.
+202	The teacher was explaining either that no actors joked around.
+203	The teacher was explaining as well that no actors joked around.
+204	Some teacher was explaining that the actors joked around either.
+205	Some teacher was explaining that the actors joked around as well.
+206	The teacher was explaining either that some actors joked around.
+207	The teacher was explaining as well that some actors joked around.
+208	No gals have thought that any doctors will divorce.
+209	No gals have thought that those doctors will divorce.
+210	Any gals have thought that no doctors will divorce.
+211	Those gals have thought that no doctors will divorce.
+212	Some gals have thought that any doctors will divorce.
+213	Some gals have thought that those doctors will divorce.
+214	Any gals have thought that some doctors will divorce.
+215	Those gals have thought that some doctors will divorce.
+216	None of the customers ever do explain that the doctors muttered.
+217	None of the customers also do explain that the doctors muttered.
+218	The customers ever do explain that none of the doctors muttered.
+219	The customers also do explain that none of the doctors muttered.
+220	Some customers ever do explain that the doctors muttered.
+221	Some customers also do explain that the doctors muttered.
+222	The customers ever do explain that some doctors muttered.
+223	The customers also do explain that some doctors muttered.
+224	No boys said that any newspaper articles criticize the children.
+225	No boys said that those newspaper articles criticize the children.
+226	Any boys said that no newspaper articles criticize the children.
+227	The boys said that no newspaper articles criticize the children.
+228	Some boys said that any newspaper articles criticize the children.
+229	Some boys said that those newspaper articles criticize the children.
+230	Any boys said that some newspaper articles criticize the children.
+231	The boys said that some newspaper articles criticize the children.
+232	No driver was imagining that the shoes were shrinking at all.
+233	No driver was imagining that the shoes were shrinking as well.
+234	A driver was imagining at all that no shoes were shrinking.
+235	A driver was imagining as well that no shoes were shrinking.
+236	Some driver was imagining that the shoes were shrinking at all.
+237	Some driver was imagining that the shoes were shrinking as well.
+238	A driver was imagining at all that some shoes were shrinking.
+239	A driver was imagining as well that some shoes were shrinking.
+240	No actress says that the stories have referenced the adults at all.
+241	No actress says that the stories have referenced the adults on occasion.
+242	An actress says at all that no stories have referenced the adults.
+243	An actress says on occasion that no stories have referenced the adults.
+244	Some actress says that the stories have referenced the adults at all.
+245	Some actress says that the stories have referenced the adults on occasion.
+246	An actress says at all that some stories have referenced the adults.
+247	An actress says on occasion that some stories have referenced the adults.
+248	No boy had ever explained that the movies disagree.
+249	No boy had certainly explained that the movies disagree.
+250	The boy had ever explained that no movies disagree.
+251	The boy had certainly explained that no movies disagree.
+252	Some boy had ever explained that the movies disagree.
+253	Some boy had certainly explained that the movies disagree.
+254	The boy had ever explained that some movies disagree.
+255	The boy had certainly explained that some movies disagree.
+256	No men thought that the customers were reacting at all.
+257	No men thought that the customers were reacting for a while.
+258	The men thought at all that no customers were reacting.
+259	The men thought for a while that no customers were reacting.
+260	Some men thought that the customers were reacting at all.
+261	Some men thought that the customers were reacting for a while.
+262	The men thought at all that some customers were reacting.
+263	The men thought for a while that some customers were reacting.
+264	None of the senators might say that any guests have cooked.
+265	None of the senators might say that these guests have cooked.
+266	Any senators might say that none of the guests have cooked.
+267	Those senators might say that none of the guests have cooked.
+268	Some senators might say that any guests have cooked.
+269	Some senators might say that these guests have cooked.
+270	Any senators might say that some guests have cooked.
+271	Those senators might say that some guests have cooked.
+272	None of the actors would imagine that any movies were winning.
+273	None of the actors would imagine that these movies were winning.
+274	Any actors would imagine that none of the movies were winning.
+275	The actors would imagine that none of the movies were winning.
+276	Some actors would imagine that any movies were winning.
+277	Some actors would imagine that these movies were winning.
+278	Any actors would imagine that some movies were winning.
+279	The actors would imagine that some movies were winning.
+280	No doctor had thought that the doctors have walked through the museums in years.
+281	No doctor had thought that the doctors have walked through the museums regularly.
+282	A doctor had thought in years that no doctors have walked through the museums.
+283	A doctor had thought regularly that no doctors have walked through the museums.
+284	Some doctor had thought that the doctors have walked through the museums in years.
+285	Some doctor had thought that the doctors have walked through the museums regularly.
+286	A doctor had thought in years that some doctors have walked through the museums.
+287	A doctor had thought regularly that some doctors have walked through the museums.
+288	No student thought that the ladies wave either.
+289	No student thought that the ladies wave for a while.
+290	The student thought either that no ladies wave.
+291	The student thought for a while that no ladies wave.
+292	Some student thought that the ladies wave either.
+293	Some student thought that the ladies wave for a while.
+294	The student thought either that some ladies wave.
+295	The student thought for a while that some ladies wave.
+296	No actor explained that the senators skated around the cafes yet.
+297	No actor explained that the senators skated around the cafes for a while.
+298	An actor explained yet that no senators skated around the cafes.
+299	An actor explained for a while that no senators skated around the cafes.
+300	Some actor explained that the senators skated around the cafes yet.
+301	Some actor explained that the senators skated around the cafes for a while.
+302	An actor explained yet that some senators skated around the cafes.
+303	An actor explained for a while that some senators skated around the cafes.
+304	No waiter thought that the people have scanned an essay at all.
+305	No waiter thought that the people have scanned an essay as well.
+306	The waiter thought at all that no people have scanned an essay.
+307	The waiter thought as well that no people have scanned an essay.
+308	Some waiter thought that the people have scanned an essay at all.
+309	Some waiter thought that the people have scanned an essay as well.
+310	The waiter thought at all that some people have scanned an essay.
+311	The waiter thought as well that some people have scanned an essay.
+312	No person will say that the pants did resemble a teenager yet.
+313	No person will say that the pants did resemble a teenager regularly.
+314	The person will say yet that no pants did resemble a teenager.
+315	The person will say regularly that no pants did resemble a teenager.
+316	Some person will say that the pants did resemble a teenager yet.
+317	Some person will say that the pants did resemble a teenager regularly.
+318	The person will say yet that some pants did resemble a teenager.
+319	The person will say regularly that some pants did resemble a teenager.
+320	No dancer imagined that the cashiers have conferred in years.
+321	No dancer imagined that the cashiers have conferred on weekends.
+322	A dancer imagined in years that no cashiers have conferred.
+323	A dancer imagined on weekends that no cashiers have conferred.
+324	Some dancer imagined that the cashiers have conferred in years.
+325	Some dancer imagined that the cashiers have conferred on weekends.
+326	A dancer imagined in years that some cashiers have conferred.
+327	A dancer imagined on weekends that some cashiers have conferred.
+328	No teacher was imagining that the girls have divorced either.
+329	No teacher was imagining that the girls have divorced on weekends.
+330	The teacher was imagining either that no girls have divorced.
+331	The teacher was imagining on weekends that no girls have divorced.
+332	Some teacher was imagining that the girls have divorced either.
+333	Some teacher was imagining that the girls have divorced on weekends.
+334	The teacher was imagining either that some girls have divorced.
+335	The teacher was imagining on weekends that some girls have divorced.
+336	No cashier imagined that the actors dropped by the art galleries in years.
+337	No cashier imagined that the actors dropped by the art galleries regularly.
+338	The cashier imagined in years that no actors dropped by the art galleries.
+339	The cashier imagined regularly that no actors dropped by the art galleries.
+340	Some cashier imagined that the actors dropped by the art galleries in years.
+341	Some cashier imagined that the actors dropped by the art galleries regularly.
+342	The cashier imagined in years that some actors dropped by the art galleries.
+343	The cashier imagined regularly that some actors dropped by the art galleries.
+344	No doctor should think that the ladies surrender at all.
+345	No doctor should think that the ladies surrender as well.
+346	A doctor should think at all that no ladies surrender.
+347	A doctor should think as well that no ladies surrender.
+348	Some doctor should think that the ladies surrender at all.
+349	Some doctor should think that the ladies surrender as well.
+350	A doctor should think at all that some ladies surrender.
+351	A doctor should think as well that some ladies surrender.
+352	No student should ever say that the movie theaters would resemble the waiter.
+353	No student should also say that the movie theaters would resemble the waiter.
+354	A student should ever say that no movie theaters would resemble the waiter.
+355	A student should also say that no movie theaters would resemble the waiter.
+356	Some student should ever say that the movie theaters would resemble the waiter.
+357	Some student should also say that the movie theaters would resemble the waiter.
+358	A student should ever say that some movie theaters would resemble the waiter.
+359	A student should also say that some movie theaters would resemble the waiter.
+360	No boys had ever imagined that the movies could insult the adults.
+361	No boys had often imagined that the movies could insult the adults.
+362	The boys had ever imagined that no movies could insult the adults.
+363	The boys had often imagined that no movies could insult the adults.
+364	Some boys had ever imagined that the movies could insult the adults.
+365	Some boys had often imagined that the movies could insult the adults.
+366	The boys had ever imagined that some movies could insult the adults.
+367	The boys had often imagined that some movies could insult the adults.
+368	No customers imagined that the people hid away in years.
+369	No customers imagined that the people hid away for a while.
+370	The customers imagined in years that no people hid away.
+371	The customers imagined for a while that no people hid away.
+372	Some customers imagined that the people hid away in years.
+373	Some customers imagined that the people hid away for a while.
+374	The customers imagined in years that some people hid away.
+375	The customers imagined for a while that some people hid away.
+376	No boy thinks that the gloves could resemble the customers yet.
+377	No boy thinks that the gloves could resemble the customers for a while.
+378	The boy thinks yet that no gloves could resemble the customers.
+379	The boy thinks for a while that no gloves could resemble the customers.
+380	Some boy thinks that the gloves could resemble the customers yet.
+381	Some boy thinks that the gloves could resemble the customers for a while.
+382	The boy thinks yet that some gloves could resemble the customers.
+383	The boy thinks for a while that some gloves could resemble the customers.
+384	No person had imagined that the guests dropped by the grocery store either.
+385	No person had imagined that the guests dropped by the grocery store on occasion.
+386	A person had imagined either that no guests dropped by the grocery store.
+387	A person had imagined on occasion that no guests dropped by the grocery store.
+388	Some person had imagined that the guests dropped by the grocery store either.
+389	Some person had imagined that the guests dropped by the grocery store on occasion.
+390	A person had imagined either that some guests dropped by the grocery store.
+391	A person had imagined on occasion that some guests dropped by the grocery store.
+392	No actor can explain that the cups resemble a face yet.
+393	No actor can explain that the cups resemble a face for a while.
+394	An actor can explain yet that no cups resemble a face.
+395	An actor can explain for a while that no cups resemble a face.
+396	Some actor can explain that the cups resemble a face yet.
+397	Some actor can explain that the cups resemble a face for a while.
+398	An actor can explain yet that some cups resemble a face.
+399	An actor can explain for a while that some cups resemble a face.
+400	No women said that any men have explored the mall.
+401	No women said that the men have explored the mall.
+402	Any women said that no men have explored the mall.
+403	The women said that no men have explored the mall.
+404	Some women said that any men have explored the mall.
+405	Some women said that the men have explored the mall.
+406	Any women said that some men have explored the mall.
+407	The women said that some men have explored the mall.
+408	No guest does think that the teenagers blink either.
+409	No guest does think that the teenagers blink for a while.
+410	A guest does think either that no teenagers blink.
+411	A guest does think for a while that no teenagers blink.
+412	Some guest does think that the teenagers blink either.
+413	Some guest does think that the teenagers blink for a while.
+414	A guest does think either that some teenagers blink.
+415	A guest does think for a while that some teenagers blink.
+416	No guests do think that any pants might resemble the library.
+417	No guests do think that the pants might resemble the library.
+418	Any guests do think that no pants might resemble the library.
+419	Those guests do think that no pants might resemble the library.
+420	Some guests do think that any pants might resemble the library.
+421	Some guests do think that the pants might resemble the library.
+422	Any guests do think that some pants might resemble the library.
+423	Those guests do think that some pants might resemble the library.
+424	No pedestrian has said that the college campuses resemble the cars at all.
+425	No pedestrian has said that the college campuses resemble the cars for a while.
+426	The pedestrian has said at all that no college campuses resemble the cars.
+427	The pedestrian has said for a while that no college campuses resemble the cars.
+428	Some pedestrian has said that the college campuses resemble the cars at all.
+429	Some pedestrian has said that the college campuses resemble the cars for a while.
+430	The pedestrian has said at all that some college campuses resemble the cars.
+431	The pedestrian has said for a while that some college campuses resemble the cars.
+432	No person explained that the children can love the driver yet.
+433	No person explained that the children can love the driver on weekends.
+434	A person explained yet that no children can love the driver.
+435	A person explained on weekends that no children can love the driver.
+436	Some person explained that the children can love the driver yet.
+437	Some person explained that the children can love the driver on weekends.
+438	A person explained yet that some children can love the driver.
+439	A person explained on weekends that some children can love the driver.
+440	No actress said that the senators dated in years.
+441	No actress said that the senators dated on occasion.
+442	An actress said in years that no senators dated.
+443	An actress said on occasion that no senators dated.
+444	Some actress said that the senators dated in years.
+445	Some actress said that the senators dated on occasion.
+446	An actress said in years that some senators dated.
+447	An actress said on occasion that some senators dated.
+448	No student imagines that the pants can shrink at all.
+449	No student imagines that the pants can shrink regularly.
+450	The student imagines at all that no pants can shrink.
+451	The student imagines regularly that no pants can shrink.
+452	Some student imagines that the pants can shrink at all.
+453	Some student imagines that the pants can shrink regularly.
+454	The student imagines at all that some pants can shrink.
+455	The student imagines regularly that some pants can shrink.
+456	No people are imagining that the glasses had shrunk yet.
+457	No people are imagining that the glasses had shrunk regularly.
+458	The people are imagining yet that no glasses had shrunk.
+459	The people are imagining regularly that no glasses had shrunk.
+460	Some people are imagining that the glasses had shrunk yet.
+461	Some people are imagining that the glasses had shrunk regularly.
+462	The people are imagining yet that some glasses had shrunk.
+463	The people are imagining regularly that some glasses had shrunk.
+464	No waiter imagines that the gloves resemble the hospitals yet.
+465	No waiter imagines that the gloves resemble the hospitals on occasion.
+466	The waiter imagines yet that no gloves resemble the hospitals.
+467	The waiter imagines on occasion that no gloves resemble the hospitals.
+468	Some waiter imagines that the gloves resemble the hospitals yet.
+469	Some waiter imagines that the gloves resemble the hospitals on occasion.
+470	The waiter imagines yet that some gloves resemble the hospitals.
+471	The waiter imagines on occasion that some gloves resemble the hospitals.
+472	No lady has thought that the adults have met in years.
+473	No lady has thought that the adults have met for a while.
+474	A lady has thought in years that no adults have met.
+475	A lady has thought for a while that no adults have met.
+476	Some lady has thought that the adults have met in years.
+477	Some lady has thought that the adults have met for a while.
+478	A lady has thought in years that some adults have met.
+479	A lady has thought for a while that some adults have met.
+480	None of the patients imagined that any cups resemble the pedestrian.
+481	None of the patients imagined that those cups resemble the pedestrian.
+482	Any patients imagined that none of the cups resemble the pedestrian.
+483	The patients imagined that none of the cups resemble the pedestrian.
+484	Some patients imagined that any cups resemble the pedestrian.
+485	Some patients imagined that those cups resemble the pedestrian.
+486	Any patients imagined that some cups resemble the pedestrian.
+487	The patients imagined that some cups resemble the pedestrian.
+488	None of the cashiers would explain that any forks should resemble a fork.
+489	None of the cashiers would explain that the forks should resemble a fork.
+490	Any cashiers would explain that none of the forks should resemble a fork.
+491	The cashiers would explain that none of the forks should resemble a fork.
+492	Some cashiers would explain that any forks should resemble a fork.
+493	Some cashiers would explain that the forks should resemble a fork.
+494	Any cashiers would explain that some forks should resemble a fork.
+495	The cashiers would explain that some forks should resemble a fork.
+496	No driver will explain that the movies win at all.
+497	No driver will explain that the movies win as well.
+498	The driver will explain at all that no movies win.
+499	The driver will explain as well that no movies win.
+500	Some driver will explain that the movies win at all.
+501	Some driver will explain that the movies win as well.
+502	The driver will explain at all that some movies win.
+503	The driver will explain as well that some movies win.
+504	No patient had ever imagined that the reports had won.
+505	No patient had clearly imagined that the reports had won.
+506	The patient had ever imagined that no reports had won.
+507	The patient had clearly imagined that no reports had won.
+508	Some patient had ever imagined that the reports had won.
+509	Some patient had clearly imagined that the reports had won.
+510	The patient had ever imagined that some reports had won.
+511	The patient had clearly imagined that some reports had won.
+512	No drivers imagined that the banks should resemble the books yet.
+513	No drivers imagined that the banks should resemble the books for a while.
+514	The drivers imagined yet that no banks should resemble the books.
+515	The drivers imagined for a while that no banks should resemble the books.
+516	Some drivers imagined that the banks should resemble the books yet.
+517	Some drivers imagined that the banks should resemble the books for a while.
+518	The drivers imagined yet that some banks should resemble the books.
+519	The drivers imagined for a while that some banks should resemble the books.
+520	No girls will think that any ladies are painting.
+521	No girls will think that the ladies are painting.
+522	Any girls will think that no ladies are painting.
+523	The girls will think that no ladies are painting.
+524	Some girls will think that any ladies are painting.
+525	Some girls will think that the ladies are painting.
+526	Any girls will think that some ladies are painting.
+527	The girls will think that some ladies are painting.
+528	No guys have thought that the adults are kissing the teenagers either.
+529	No guys have thought that the adults are kissing the teenagers on occasion.
+530	The guys have thought either that no adults are kissing the teenagers.
+531	The guys have thought on occasion that no adults are kissing the teenagers.
+532	Some guys have thought that the adults are kissing the teenagers either.
+533	Some guys have thought that the adults are kissing the teenagers on occasion.
+534	The guys have thought either that some adults are kissing the teenagers.
+535	The guys have thought on occasion that some adults are kissing the teenagers.
+536	None of the guys will think that the teachers were flirting at all.
+537	None of the guys will think that the teachers were flirting as well.
+538	The guys will think at all that none of the teachers were flirting.
+539	The guys will think as well that none of the teachers were flirting.
+540	Some guys will think that the teachers were flirting at all.
+541	Some guys will think that the teachers were flirting as well.
+542	The guys will think at all that some teachers were flirting.
+543	The guys will think as well that some teachers were flirting.
+544	None of the pedestrians are ever explaining that the pedestrians were fleeing from a student.
+545	None of the pedestrians are really explaining that the pedestrians were fleeing from a student.
+546	The pedestrians are ever explaining that none of the pedestrians were fleeing from a student.
+547	The pedestrians are really explaining that none of the pedestrians were fleeing from a student.
+548	Some pedestrians are ever explaining that the pedestrians were fleeing from a student.
+549	Some pedestrians are really explaining that the pedestrians were fleeing from a student.
+550	The pedestrians are ever explaining that some pedestrians were fleeing from a student.
+551	The pedestrians are really explaining that some pedestrians were fleeing from a student.
+552	No customer might say that the waitresses were leaving the public park at all.
+553	No customer might say that the waitresses were leaving the public park on occasion.
+554	The customer might say at all that no waitresses were leaving the public park.
+555	The customer might say on occasion that no waitresses were leaving the public park.
+556	Some customer might say that the waitresses were leaving the public park at all.
+557	Some customer might say that the waitresses were leaving the public park on occasion.
+558	The customer might say at all that some waitresses were leaving the public park.
+559	The customer might say on occasion that some waitresses were leaving the public park.
+560	No driver says that the doctors paint either.
+561	No driver says that the doctors paint on occasion.
+562	A driver says either that no doctors paint.
+563	A driver says on occasion that no doctors paint.
+564	Some driver says that the doctors paint either.
+565	Some driver says that the doctors paint on occasion.
+566	A driver says either that some doctors paint.
+567	A driver says on occasion that some doctors paint.
+568	No people were imagining that any hair would resemble the car.
+569	No people were imagining that the hair would resemble the car.
+570	Any people were imagining that no hair would resemble the car.
+571	Those people were imagining that no hair would resemble the car.
+572	Some people were imagining that any hair would resemble the car.
+573	Some people were imagining that the hair would resemble the car.
+574	Any people were imagining that some hair would resemble the car.
+575	Those people were imagining that some hair would resemble the car.
+576	None of the customers imagine that the schools resemble the girl yet.
+577	None of the customers imagine that the schools resemble the girl as well.
+578	The customers imagine yet that none of the schools resemble the girl.
+579	The customers imagine as well that none of the schools resemble the girl.
+580	Some customers imagine that the schools resemble the girl yet.
+581	Some customers imagine that the schools resemble the girl as well.
+582	The customers imagine yet that some schools resemble the girl.
+583	The customers imagine as well that some schools resemble the girl.
+584	No children imagined that the waiters skated around the malls in years.
+585	No children imagined that the waiters skated around the malls as well.
+586	The children imagined in years that no waiters skated around the malls.
+587	The children imagined as well that no waiters skated around the malls.
+588	Some children imagined that the waiters skated around the malls in years.
+589	Some children imagined that the waiters skated around the malls as well.
+590	The children imagined in years that some waiters skated around the malls.
+591	The children imagined as well that some waiters skated around the malls.
+592	No guest is saying that the actresses examine a newspaper article yet.
+593	No guest is saying that the actresses examine a newspaper article on occasion.
+594	The guest is saying yet that no actresses examine a newspaper article.
+595	The guest is saying on occasion that no actresses examine a newspaper article.
+596	Some guest is saying that the actresses examine a newspaper article yet.
+597	Some guest is saying that the actresses examine a newspaper article on occasion.
+598	The guest is saying yet that some actresses examine a newspaper article.
+599	The guest is saying on occasion that some actresses examine a newspaper article.
+600	No drivers can ever say that the eyes will resemble the library.
+601	No drivers can often say that the eyes will resemble the library.
+602	The drivers can ever say that no eyes will resemble the library.
+603	The drivers can often say that no eyes will resemble the library.
+604	Some drivers can ever say that the eyes will resemble the library.
+605	Some drivers can often say that the eyes will resemble the library.
+606	The drivers can ever say that some eyes will resemble the library.
+607	The drivers can often say that some eyes will resemble the library.
+608	None of the children explained that any documentaries could win.
+609	None of the children explained that those documentaries could win.
+610	Any children explained that none of the documentaries could win.
+611	The children explained that none of the documentaries could win.
+612	Some children explained that any documentaries could win.
+613	Some children explained that those documentaries could win.
+614	Any children explained that some documentaries could win.
+615	The children explained that some documentaries could win.
+616	No patient thought that the people had won in years.
+617	No patient thought that the people had won on occasion.
+618	The patient thought in years that no people had won.
+619	The patient thought on occasion that no people had won.
+620	Some patient thought that the people had won in years.
+621	Some patient thought that the people had won on occasion.
+622	The patient thought in years that some people had won.
+623	The patient thought on occasion that some people had won.
+624	None of the guests had imagined that the college campuses resemble the eyes yet.
+625	None of the guests had imagined that the college campuses resemble the eyes on weekends.
+626	The guests had imagined yet that none of the college campuses resemble the eyes.
+627	The guests had imagined on weekends that none of the college campuses resemble the eyes.
+628	Some guests had imagined that the college campuses resemble the eyes yet.
+629	Some guests had imagined that the college campuses resemble the eyes on weekends.
+630	The guests had imagined yet that some college campuses resemble the eyes.
+631	The guests had imagined on weekends that some college campuses resemble the eyes.
+632	No patient has explained that the reports described the child in years.
+633	No patient has explained that the reports described the child for a while.
+634	A patient has explained in years that no reports described the child.
+635	A patient has explained for a while that no reports described the child.
+636	Some patient has explained that the reports described the child in years.
+637	Some patient has explained that the reports described the child for a while.
+638	A patient has explained in years that some reports described the child.
+639	A patient has explained for a while that some reports described the child.
+640	No woman says that the gloves would resemble the girl yet.
+641	No woman says that the gloves would resemble the girl for a while.
+642	The woman says yet that no gloves would resemble the girl.
+643	The woman says for a while that no gloves would resemble the girl.
+644	Some woman says that the gloves would resemble the girl yet.
+645	Some woman says that the gloves would resemble the girl for a while.
+646	The woman says yet that some gloves would resemble the girl.
+647	The woman says for a while that some gloves would resemble the girl.
+648	None of the women did imagine that the chairs do resemble a dish either.
+649	None of the women did imagine that the chairs do resemble a dish regularly.
+650	The women did imagine either that none of the chairs do resemble a dish.
+651	The women did imagine regularly that none of the chairs do resemble a dish.
+652	Some women did imagine that the chairs do resemble a dish either.
+653	Some women did imagine that the chairs do resemble a dish regularly.
+654	The women did imagine either that some chairs do resemble a dish.
+655	The women did imagine regularly that some chairs do resemble a dish.
+656	No actor is explaining that the guests can clean the newspaper articles yet.
+657	No actor is explaining that the guests can clean the newspaper articles on occasion.
+658	The actor is explaining yet that no guests can clean the newspaper articles.
+659	The actor is explaining on occasion that no guests can clean the newspaper articles.
+660	Some actor is explaining that the guests can clean the newspaper articles yet.
+661	Some actor is explaining that the guests can clean the newspaper articles on occasion.
+662	The actor is explaining yet that some guests can clean the newspaper articles.
+663	The actor is explaining on occasion that some guests can clean the newspaper articles.
+664	No guys thought that the couches did resemble the stories at all.
+665	No guys thought that the couches did resemble the stories regularly.
+666	The guys thought at all that no couches did resemble the stories.
+667	The guys thought regularly that no couches did resemble the stories.
+668	Some guys thought that the couches did resemble the stories at all.
+669	Some guys thought that the couches did resemble the stories regularly.
+670	The guys thought at all that some couches did resemble the stories.
+671	The guys thought regularly that some couches did resemble the stories.
+672	None of the customers think that any pants might resemble the cups.
+673	None of the customers think that those pants might resemble the cups.
+674	Any customers think that none of the pants might resemble the cups.
+675	These customers think that none of the pants might resemble the cups.
+676	Some customers think that any pants might resemble the cups.
+677	Some customers think that those pants might resemble the cups.
+678	Any customers think that some pants might resemble the cups.
+679	These customers think that some pants might resemble the cups.
+680	None of the ladies have said that the hospitals resemble the hospitals either.
+681	None of the ladies have said that the hospitals resemble the hospitals on weekends.
+682	The ladies have said either that none of the hospitals resemble the hospitals.
+683	The ladies have said on weekends that none of the hospitals resemble the hospitals.
+684	Some ladies have said that the hospitals resemble the hospitals either.
+685	Some ladies have said that the hospitals resemble the hospitals on weekends.
+686	The ladies have said either that some hospitals resemble the hospitals.
+687	The ladies have said on weekends that some hospitals resemble the hospitals.
+688	None of the pedestrians have said that any students would scan the commentaries.
+689	None of the pedestrians have said that those students would scan the commentaries.
+690	Any pedestrians have said that none of the students would scan the commentaries.
+691	The pedestrians have said that none of the students would scan the commentaries.
+692	Some pedestrians have said that any students would scan the commentaries.
+693	Some pedestrians have said that those students would scan the commentaries.
+694	Any pedestrians have said that some students would scan the commentaries.
+695	The pedestrians have said that some students would scan the commentaries.
+696	No customers were explaining that any cups resemble a car.
+697	No customers were explaining that these cups resemble a car.
+698	Any customers were explaining that no cups resemble a car.
+699	Those customers were explaining that no cups resemble a car.
+700	Some customers were explaining that any cups resemble a car.
+701	Some customers were explaining that these cups resemble a car.
+702	Any customers were explaining that some cups resemble a car.
+703	Those customers were explaining that some cups resemble a car.
+704	No cashier explained that the ladies are touring the art galleries either.
+705	No cashier explained that the ladies are touring the art galleries on occasion.
+706	A cashier explained either that no ladies are touring the art galleries.
+707	A cashier explained on occasion that no ladies are touring the art galleries.
+708	Some cashier explained that the ladies are touring the art galleries either.
+709	Some cashier explained that the ladies are touring the art galleries on occasion.
+710	A cashier explained either that some ladies are touring the art galleries.
+711	A cashier explained on occasion that some ladies are touring the art galleries.
+712	No doctor would ever imagine that the teenagers were smiling.
+713	No doctor would really imagine that the teenagers were smiling.
+714	The doctor would ever imagine that no teenagers were smiling.
+715	The doctor would really imagine that no teenagers were smiling.
+716	Some doctor would ever imagine that the teenagers were smiling.
+717	Some doctor would really imagine that the teenagers were smiling.
+718	The doctor would ever imagine that some teenagers were smiling.
+719	The doctor would really imagine that some teenagers were smiling.
+720	None of the guys could ever explain that the pants were shrinking.
+721	None of the guys could really explain that the pants were shrinking.
+722	The guys could ever explain that none of the pants were shrinking.
+723	The guys could really explain that none of the pants were shrinking.
+724	Some guys could ever explain that the pants were shrinking.
+725	Some guys could really explain that the pants were shrinking.
+726	The guys could ever explain that some pants were shrinking.
+727	The guys could really explain that some pants were shrinking.
+728	No students are imagining that the girls marry either.
+729	No students are imagining that the girls marry regularly.
+730	The students are imagining either that no girls marry.
+731	The students are imagining regularly that no girls marry.
+732	Some students are imagining that the girls marry either.
+733	Some students are imagining that the girls marry regularly.
+734	The students are imagining either that some girls marry.
+735	The students are imagining regularly that some girls marry.
+736	No boys had ever explained that the gloves will shrink.
+737	No boys had also explained that the gloves will shrink.
+738	The boys had ever explained that no gloves will shrink.
+739	The boys had also explained that no gloves will shrink.
+740	Some boys had ever explained that the gloves will shrink.
+741	Some boys had also explained that the gloves will shrink.
+742	The boys had ever explained that some gloves will shrink.
+743	The boys had also explained that some gloves will shrink.
+744	No cashier did think that the teenagers have forgotten a movie at all.
+745	No cashier did think that the teenagers have forgotten a movie on occasion.
+746	The cashier did think at all that no teenagers have forgotten a movie.
+747	The cashier did think on occasion that no teenagers have forgotten a movie.
+748	Some cashier did think that the teenagers have forgotten a movie at all.
+749	Some cashier did think that the teenagers have forgotten a movie on occasion.
+750	The cashier did think at all that some teenagers have forgotten a movie.
+751	The cashier did think on occasion that some teenagers have forgotten a movie.
+752	None of the students are imagining that any customers observe a customer.
+753	None of the students are imagining that the customers observe a customer.
+754	Any students are imagining that none of the customers observe a customer.
+755	The students are imagining that none of the customers observe a customer.
+756	Some students are imagining that any customers observe a customer.
+757	Some students are imagining that the customers observe a customer.
+758	Any students are imagining that some customers observe a customer.
+759	The students are imagining that some customers observe a customer.
+760	No waiter thinks that the guests might debate at all.
+761	No waiter thinks that the guests might debate on occasion.
+762	A waiter thinks at all that no guests might debate.
+763	A waiter thinks on occasion that no guests might debate.
+764	Some waiter thinks that the guests might debate at all.
+765	Some waiter thinks that the guests might debate on occasion.
+766	A waiter thinks at all that some guests might debate.
+767	A waiter thinks on occasion that some guests might debate.
+768	No doctor imagines that the patients described a driver either.
+769	No doctor imagines that the patients described a driver for a while.
+770	The doctor imagines either that no patients described a driver.
+771	The doctor imagines for a while that no patients described a driver.
+772	Some doctor imagines that the patients described a driver either.
+773	Some doctor imagines that the patients described a driver for a while.
+774	The doctor imagines either that some patients described a driver.
+775	The doctor imagines for a while that some patients described a driver.
+776	No guest might ever say that the cashiers would see.
+777	No guest might often say that the cashiers would see.
+778	The guest might ever say that no cashiers would see.
+779	The guest might often say that no cashiers would see.
+780	Some guest might ever say that the cashiers would see.
+781	Some guest might often say that the cashiers would see.
+782	The guest might ever say that some cashiers would see.
+783	The guest might often say that some cashiers would see.
+784	No women can explain that the shoes resemble a couch either.
+785	No women can explain that the shoes resemble a couch on weekends.
+786	The women can explain either that no shoes resemble a couch.
+787	The women can explain on weekends that no shoes resemble a couch.
+788	Some women can explain that the shoes resemble a couch either.
+789	Some women can explain that the shoes resemble a couch on weekends.
+790	The women can explain either that some shoes resemble a couch.
+791	The women can explain on weekends that some shoes resemble a couch.
+792	No patient could ever say that the guys have approached an adult.
+793	No patient could clearly say that the guys have approached an adult.
+794	A patient could ever say that no guys have approached an adult.
+795	A patient could clearly say that no guys have approached an adult.
+796	Some patient could ever say that the guys have approached an adult.
+797	Some patient could clearly say that the guys have approached an adult.
+798	A patient could ever say that some guys have approached an adult.
+799	A patient could clearly say that some guys have approached an adult.
+800	None of the gals have imagined that any glasses will resemble the banks.
+801	None of the gals have imagined that these glasses will resemble the banks.
+802	Any gals have imagined that none of the glasses will resemble the banks.
+803	These gals have imagined that none of the glasses will resemble the banks.
+804	Some gals have imagined that any glasses will resemble the banks.
+805	Some gals have imagined that these glasses will resemble the banks.
+806	Any gals have imagined that some glasses will resemble the banks.
+807	These gals have imagined that some glasses will resemble the banks.
+808	No woman can ever think that the shoes shrink.
+809	No woman can often think that the shoes shrink.
+810	The woman can ever think that no shoes shrink.
+811	The woman can often think that no shoes shrink.
+812	Some woman can ever think that the shoes shrink.
+813	Some woman can often think that the shoes shrink.
+814	The woman can ever think that some shoes shrink.
+815	The woman can often think that some shoes shrink.
+816	No guys have thought that any actresses competed.
+817	No guys have thought that the actresses competed.
+818	Any guys have thought that no actresses competed.
+819	These guys have thought that no actresses competed.
+820	Some guys have thought that any actresses competed.
+821	Some guys have thought that the actresses competed.
+822	Any guys have thought that some actresses competed.
+823	These guys have thought that some actresses competed.
+824	None of the doctors explained that the students had wept in years.
+825	None of the doctors explained that the students had wept as well.
+826	The doctors explained in years that none of the students had wept.
+827	The doctors explained as well that none of the students had wept.
+828	Some doctors explained that the students had wept in years.
+829	Some doctors explained that the students had wept as well.
+830	The doctors explained in years that some students had wept.
+831	The doctors explained as well that some students had wept.
+832	No doctors explained that any ladies are arriving at the movie theater.
+833	No doctors explained that the ladies are arriving at the movie theater.
+834	Any doctors explained that no ladies are arriving at the movie theater.
+835	These doctors explained that no ladies are arriving at the movie theater.
+836	Some doctors explained that any ladies are arriving at the movie theater.
+837	Some doctors explained that the ladies are arriving at the movie theater.
+838	Any doctors explained that some ladies are arriving at the movie theater.
+839	These doctors explained that some ladies are arriving at the movie theater.
+840	No patient was saying that the banks did resemble a dish yet.
+841	No patient was saying that the banks did resemble a dish as well.
+842	A patient was saying yet that no banks did resemble a dish.
+843	A patient was saying as well that no banks did resemble a dish.
+844	Some patient was saying that the banks did resemble a dish yet.
+845	Some patient was saying that the banks did resemble a dish as well.
+846	A patient was saying yet that some banks did resemble a dish.
+847	A patient was saying as well that some banks did resemble a dish.
+848	None of the doctors are thinking that the waitresses were visiting the hospitals either.
+849	None of the doctors are thinking that the waitresses were visiting the hospitals as well.
+850	The doctors are thinking either that none of the waitresses were visiting the hospitals.
+851	The doctors are thinking as well that none of the waitresses were visiting the hospitals.
+852	Some doctors are thinking that the waitresses were visiting the hospitals either.
+853	Some doctors are thinking that the waitresses were visiting the hospitals as well.
+854	The doctors are thinking either that some waitresses were visiting the hospitals.
+855	The doctors are thinking as well that some waitresses were visiting the hospitals.
+856	No patients were imagining that the ladies were succeeding yet.
+857	No patients were imagining that the ladies were succeeding for a while.
+858	The patients were imagining yet that no ladies were succeeding.
+859	The patients were imagining for a while that no ladies were succeeding.
+860	Some patients were imagining that the ladies were succeeding yet.
+861	Some patients were imagining that the ladies were succeeding for a while.
+862	The patients were imagining yet that some ladies were succeeding.
+863	The patients were imagining for a while that some ladies were succeeding.
+864	No patient is explaining that the college campuses did resemble a man either.
+865	No patient is explaining that the college campuses did resemble a man regularly.
+866	A patient is explaining either that no college campuses did resemble a man.
+867	A patient is explaining regularly that no college campuses did resemble a man.
+868	Some patient is explaining that the college campuses did resemble a man either.
+869	Some patient is explaining that the college campuses did resemble a man regularly.
+870	A patient is explaining either that some college campuses did resemble a man.
+871	A patient is explaining regularly that some college campuses did resemble a man.
+872	No guest said that the hospitals will resemble the boy either.
+873	No guest said that the hospitals will resemble the boy regularly.
+874	A guest said either that no hospitals will resemble the boy.
+875	A guest said regularly that no hospitals will resemble the boy.
+876	Some guest said that the hospitals will resemble the boy either.
+877	Some guest said that the hospitals will resemble the boy regularly.
+878	A guest said either that some hospitals will resemble the boy.
+879	A guest said regularly that some hospitals will resemble the boy.
+880	None of the actresses will explain that the essays were discussing a dancer at all.
+881	None of the actresses will explain that the essays were discussing a dancer on occasion.
+882	The actresses will explain at all that none of the essays were discussing a dancer.
+883	The actresses will explain on occasion that none of the essays were discussing a dancer.
+884	Some actresses will explain that the essays were discussing a dancer at all.
+885	Some actresses will explain that the essays were discussing a dancer on occasion.
+886	The actresses will explain at all that some essays were discussing a dancer.
+887	The actresses will explain on occasion that some essays were discussing a dancer.
+888	No driver imagined that the actors were kissing the senators at all.
+889	No driver imagined that the actors were kissing the senators on weekends.
+890	The driver imagined at all that no actors were kissing the senators.
+891	The driver imagined on weekends that no actors were kissing the senators.
+892	Some driver imagined that the actors were kissing the senators at all.
+893	Some driver imagined that the actors were kissing the senators on weekends.
+894	The driver imagined at all that some actors were kissing the senators.
+895	The driver imagined on weekends that some actors were kissing the senators.
+896	No actors are imagining that the dishes will resemble the plates at all.
+897	No actors are imagining that the dishes will resemble the plates for a while.
+898	The actors are imagining at all that no dishes will resemble the plates.
+899	The actors are imagining for a while that no dishes will resemble the plates.
+900	Some actors are imagining that the dishes will resemble the plates at all.
+901	Some actors are imagining that the dishes will resemble the plates for a while.
+902	The actors are imagining at all that some dishes will resemble the plates.
+903	The actors are imagining for a while that some dishes will resemble the plates.
+904	No man had said that the ladies have taken a fork at all.
+905	No man had said that the ladies have taken a fork regularly.
+906	A man had said at all that no ladies have taken a fork.
+907	A man had said regularly that no ladies have taken a fork.
+908	Some man had said that the ladies have taken a fork at all.
+909	Some man had said that the ladies have taken a fork regularly.
+910	A man had said at all that some ladies have taken a fork.
+911	A man had said regularly that some ladies have taken a fork.
+912	No boy is explaining that the documentaries should disagree yet.
+913	No boy is explaining that the documentaries should disagree on weekends.
+914	A boy is explaining yet that no documentaries should disagree.
+915	A boy is explaining on weekends that no documentaries should disagree.
+916	Some boy is explaining that the documentaries should disagree yet.
+917	Some boy is explaining that the documentaries should disagree on weekends.
+918	A boy is explaining yet that some documentaries should disagree.
+919	A boy is explaining on weekends that some documentaries should disagree.
+920	No students do say that any students care for the cashiers.
+921	No students do say that those students care for the cashiers.
+922	Any students do say that no students care for the cashiers.
+923	Those students do say that no students care for the cashiers.
+924	Some students do say that any students care for the cashiers.
+925	Some students do say that those students care for the cashiers.
+926	Any students do say that some students care for the cashiers.
+927	Those students do say that some students care for the cashiers.
+928	No men thought that any gals learned.
+929	No men thought that these gals learned.
+930	Any men thought that no gals learned.
+931	These men thought that no gals learned.
+932	Some men thought that any gals learned.
+933	Some men thought that these gals learned.
+934	Any men thought that some gals learned.
+935	These men thought that some gals learned.
+936	None of the boys think that the adults are discussing the college campus yet.
+937	None of the boys think that the adults are discussing the college campus regularly.
+938	The boys think yet that none of the adults are discussing the college campus.
+939	The boys think regularly that none of the adults are discussing the college campus.
+940	Some boys think that the adults are discussing the college campus yet.
+941	Some boys think that the adults are discussing the college campus regularly.
+942	The boys think yet that some adults are discussing the college campus.
+943	The boys think regularly that some adults are discussing the college campus.
+944	No ladies have imagined that the stories have won in years.
+945	No ladies have imagined that the stories have won regularly.
+946	The ladies have imagined in years that no stories have won.
+947	The ladies have imagined regularly that no stories have won.
+948	Some ladies have imagined that the stories have won in years.
+949	Some ladies have imagined that the stories have won regularly.
+950	The ladies have imagined in years that some stories have won.
+951	The ladies have imagined regularly that some stories have won.
+952	No pedestrian has said that the actors boycotted the movie theaters in years.
+953	No pedestrian has said that the actors boycotted the movie theaters regularly.
+954	A pedestrian has said in years that no actors boycotted the movie theaters.
+955	A pedestrian has said regularly that no actors boycotted the movie theaters.
+956	Some pedestrian has said that the actors boycotted the movie theaters in years.
+957	Some pedestrian has said that the actors boycotted the movie theaters regularly.
+958	A pedestrian has said in years that some actors boycotted the movie theaters.
+959	A pedestrian has said regularly that some actors boycotted the movie theaters.
+960	None of the guys have thought that the shoes can shrink either.
+961	None of the guys have thought that the shoes can shrink on occasion.
+962	The guys have thought either that none of the shoes can shrink.
+963	The guys have thought on occasion that none of the shoes can shrink.
+964	Some guys have thought that the shoes can shrink either.
+965	Some guys have thought that the shoes can shrink on occasion.
+966	The guys have thought either that some shoes can shrink.
+967	The guys have thought on occasion that some shoes can shrink.
+968	No waiter thought that the boys clashed in years.
+969	No waiter thought that the boys clashed regularly.
+970	The waiter thought in years that no boys clashed.
+971	The waiter thought regularly that no boys clashed.
+972	Some waiter thought that the boys clashed in years.
+973	Some waiter thought that the boys clashed regularly.
+974	The waiter thought in years that some boys clashed.
+975	The waiter thought regularly that some boys clashed.
+976	No student had thought that the gals do interact either.
+977	No student had thought that the gals do interact for a while.
+978	The student had thought either that no gals do interact.
+979	The student had thought for a while that no gals do interact.
+980	Some student had thought that the gals do interact either.
+981	Some student had thought that the gals do interact for a while.
+982	The student had thought either that some gals do interact.
+983	The student had thought for a while that some gals do interact.
+984	No ladies can think that the cafes do resemble the cars yet.
+985	No ladies can think that the cafes do resemble the cars as well.
+986	The ladies can think yet that no cafes do resemble the cars.
+987	The ladies can think as well that no cafes do resemble the cars.
+988	Some ladies can think that the cafes do resemble the cars yet.
+989	Some ladies can think that the cafes do resemble the cars as well.
+990	The ladies can think yet that some cafes do resemble the cars.
+991	The ladies can think as well that some cafes do resemble the cars.
+992	None of the ladies imagined that the waiters approved in years.
+993	None of the ladies imagined that the waiters approved as well.
+994	The ladies imagined in years that none of the waiters approved.
+995	The ladies imagined as well that none of the waiters approved.
+996	Some ladies imagined that the waiters approved in years.
+997	Some ladies imagined that the waiters approved as well.
+998	The ladies imagined in years that some waiters approved.
+999	The ladies imagined as well that some waiters approved.

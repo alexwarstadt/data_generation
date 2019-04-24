@@ -158,15 +158,9 @@ def make_probing_data():
                 infile.close()
                 outfile.close()
 
-            test_full = open(os.path.join(probing_path, split_folder, metadata_label, 'test_full.tsv'), 'r')
-            test_full_sentences = test_full.readlines()
+            infile = open(os.path.join(splits_path, split_folder, 'test.tsv'), 'r')
             outfile = open(os.path.join(probing_path, split_folder, metadata_label, 'test.tsv'), 'w')
-            outfile.write("index\tsentence\n")
-            count = 0
-            for i in test_full_sentences:
-                outfile.write(str(count)+'\t'+i.split('\t')[-1])
-                count += 1            
-
+            outfile.write(infile.read())
             infile.close()
             outfile.close()
    

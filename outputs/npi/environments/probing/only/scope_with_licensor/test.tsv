@@ -1,501 +1,1001 @@
-index	sentence
+index   sentence
 0	Only the humans listened to men at all at the library.
 1	Only the humans listened to men on occasion at the library.
 2	The humans listened to men at all only at the library.
 3	The humans men on occasion only at the library.
-4	Only a driver is working hard either at the bank.
-5	Only a driver is working hard as well at the bank.
-6	A driver is working hard either only at the bank.
-7	A driver is working hard as well only at the bank.
-8	Only an actor would concur either at the art gallery.
-9	Only an actor would concur on occasion at the art gallery.
-10	An actor would concur either only at the art gallery.
-11	An actor would concur on occasion only at the art gallery.
-12	Only the driver boycotted museums at all at the mall.
-13	Only the driver boycotted museums as well at the mall.
-14	The driver boycotted museums at all only at the mall.
-15	The driver museums as well only at the mall.
-16	Only a woman cooks yet at the grocery store.
-17	Only a woman cooks on occasion at the grocery store.
-18	A woman cooks yet only at the grocery store.
-19	A woman cooks on occasion only at the grocery store.
-20	Only a woman has saluted either at the high school.
-21	Only a woman has saluted as well at the high school.
-22	A woman has saluted either only at the high school.
-23	A woman has saluted as well only at the high school.
-24	Only the actress has yelled in years at the library.
-25	Only the actress has yelled on occasion at the library.
-26	The actress has yelled in years only at the library.
-27	The actress has yelled on occasion only at the library.
-28	Only the waitresses described any hospitals.
-29	Only the waitresses described those hospitals.
-30	Any waitresses only described the hospitals.
-31	These waitresses only described the hospitals.
-32	Only the man has kissed boys in years at the cafe.
-33	Only the man has kissed boys regularly at the cafe.
-34	The man has kissed boys in years only at the cafe.
-35	The man has kissed boys regularly only at the cafe.
-36	Only a pedestrian does cry yet at the grocery store.
-37	Only a pedestrian does cry for a while at the grocery store.
-38	A pedestrian does cry yet only at the grocery store.
-39	A pedestrian does cry for a while only at the grocery store.
-40	Only the guys passed any restaurants.
-41	Only the guys passed the restaurants.
-42	Any guys only passed the restaurants.
-43	Those guys only passed the restaurants.
-44	Only the doctor does leave women yet at the college campus.
-45	Only the doctor does leave women on weekends at the college campus.
-46	The doctor does leave women yet only at the college campus.
-47	The doctor does leave women on weekends only at the college campus.
-48	Only the boys would listen to any teachers.
-49	Only the boys would listen to those teachers.
-50	Any boys only would listen to the teachers.
-51	These boys only would listen to the teachers.
-52	Only a boy had stretched at all at the bank.
-53	Only a boy had stretched regularly at the bank.
-54	A boy had stretched at all only at the bank.
-55	A boy regularly only at the bank.
-56	Only the boys cheer at all at the art gallery.
-57	Only the boys cheer on occasion at the art gallery.
-58	The boys cheer at all only at the art gallery.
-59	The boys on occasion only at the art gallery.
-60	Only the students could ever sell the rugs.
-61	Only the students could really sell the rugs.
-62	The students could ever sell only the rugs.
-63	The students could really sell only the rugs.
-64	Only the ladies blink at all at the school.
-65	Only the ladies blink as well at the school.
-66	The ladies blink at all only at the school.
-67	The ladies as well only at the school.
-68	Only the children are at any libraries.
-69	Only the children are at those libraries.
-70	Any children only are at the libraries.
-71	The children only are at the libraries.
-72	Only the adults cooperate at all at the hospital.
-73	Only the adults cooperate as well at the hospital.
-74	The adults cooperate at all only at the hospital.
-75	The adults as well only at the hospital.
-76	Only a guy stretched either at the mall.
-77	Only a guy stretched on weekends at the mall.
-78	A guy stretched either only at the mall.
-79	A guy stretched on weekends only at the mall.
-80	Only a woman can ever like the books.
-81	Only a woman can certainly like the books.
-82	A woman can ever like only the books.
-83	A woman can certainly like only the books.
-84	Only the ladies are arriving at any malls.
-85	Only the ladies are arriving at those malls.
-86	Any ladies only are arriving at the malls.
-87	The ladies only are arriving at the malls.
-88	Only the lady investigated customers in years at the grocery store.
-89	Only the lady investigated customers for a while at the grocery store.
-90	The lady investigated customers in years only at the grocery store.
-91	The lady investigated customers for a while only at the grocery store.
-92	Only the pedestrians donate either at the movie theater.
-93	Only the pedestrians donate on weekends at the movie theater.
-94	The pedestrians donate either only at the movie theater.
-95	The pedestrians donate on weekends only at the movie theater.
-96	Only the pedestrians wrote either at the mall.
-97	Only the pedestrians wrote regularly at the mall.
-98	The pedestrians wrote either only at the mall.
-99	The pedestrians wrote regularly only at the mall.
-100	Only the patient has worked hard either at the mall.
-101	Only the patient has worked hard regularly at the mall.
-102	The patient has worked hard either only at the mall.
-103	The patient has worked hard regularly only at the mall.
-104	Only the cashier testifies either at the museum.
-105	Only the cashier testifies as well at the museum.
-106	The cashier testifies either only at the museum.
-107	The cashier testifies as well only at the museum.
-108	Only the cashiers divorced yet at the school.
-109	Only the cashiers divorced as well at the school.
-110	The cashiers divorced yet only at the school.
-111	The cashiers divorced as well only at the school.
-112	Only the men are shrugging at all at the mall.
-113	Only the men are shrugging on weekends at the mall.
-114	The men are shrugging at all only at the mall.
-115	The men on weekends only at the mall.
-116	Only the pedestrians have listened to any girls.
-117	Only the pedestrians have listened to the girls.
-118	Any pedestrians only have listened to the girls.
-119	Those pedestrians only have listened to the girls.
-120	Only the girls leave any drivers.
-121	Only the girls leave the drivers.
-122	Any girls only leave the drivers.
-123	Those girls only leave the drivers.
-124	Only the children had visited high schools yet at the cafe.
-125	Only the children had visited high schools as well at the cafe.
-126	The children had visited high schools yet only at the cafe.
-127	The children had visited high schools as well only at the cafe.
-128	Only an actress ever talks to the guys.
-129	Only an actress also talks to the guys.
-130	An actress ever talks to only the guys.
-131	An actress also talks to only the guys.
-132	Only the people ever forget the plays.
-133	Only the people clearly forget the plays.
-134	The people ever forget only the plays.
-135	The people clearly forget only the plays.
-136	Only the adult was investigating patients yet at the college campus.
-137	Only the adult was investigating patients as well at the college campus.
-138	The adult was investigating patients yet only at the college campus.
-139	The adult was investigating patients as well only at the college campus.
-140	Only the ladies were negotiating at all at the museum.
-141	Only the ladies were negotiating on occasion at the museum.
-142	The ladies were negotiating at all only at the museum.
-143	The ladies on occasion only at the museum.
-144	Only the ladies were leaving teachers yet at the restaurant.
-145	Only the ladies were leaving teachers for a while at the restaurant.
-146	The ladies were leaving teachers yet only at the restaurant.
-147	The ladies were leaving teachers for a while only at the restaurant.
-148	Only a doctor shrugged in years at the cafe.
-149	Only a doctor shrugged as well at the cafe.
-150	A doctor shrugged in years only at the cafe.
-151	A doctor shrugged as well only at the cafe.
-152	Only a teacher worried either at the museum.
-153	Only a teacher worried on occasion at the museum.
-154	A teacher worried either only at the museum.
-155	A teacher worried on occasion only at the museum.
-156	Only the ladies compete either at the art gallery.
-157	Only the ladies compete as well at the art gallery.
-158	The ladies compete either only at the art gallery.
-159	The ladies compete as well only at the art gallery.
-160	Only a senator described ladies at all at the bank.
-161	Only a senator described ladies for a while at the bank.
-162	A senator described ladies at all only at the bank.
-163	A senator ladies for a while only at the bank.
-164	Only a man ate in years at the college campus.
-165	Only a man ate on occasion at the college campus.
-166	A man ate in years only at the college campus.
-167	A man ate on occasion only at the college campus.
-168	Only a student could ever bring the glasses.
-169	Only a student could really bring the glasses.
-170	A student could ever bring only the glasses.
-171	A student could really bring only the glasses.
-172	Only the students had rugs in years at the school.
-173	Only the students had rugs on occasion at the school.
-174	The students had rugs in years only at the school.
-175	The students had rugs on occasion only at the school.
-176	Only the actors had grinned in years at the hospital.
-177	Only the actors had grinned on weekends at the hospital.
-178	The actors had grinned in years only at the hospital.
-179	The actors had grinned on weekends only at the hospital.
-180	Only the teachers had divorced in years at the art gallery.
-181	Only the teachers had divorced on weekends at the art gallery.
-182	The teachers had divorced in years only at the art gallery.
-183	The teachers had divorced on weekends only at the art gallery.
-184	Only the waiters did sigh either at the art gallery.
-185	Only the waiters did sigh on weekends at the art gallery.
-186	The waiters did sigh either only at the art gallery.
-187	The waiters did sigh on weekends only at the art gallery.
-188	Only the people are boycotting any schools.
-189	Only the people are boycotting the schools.
-190	Any people only are boycotting the schools.
-191	These people only are boycotting the schools.
-192	Only the doctors had bought any rugs.
-193	Only the doctors had bought the rugs.
-194	Any doctors only had bought the rugs.
-195	These doctors only had bought the rugs.
-196	Only a man has painted in years at the cafe.
-197	Only a man has painted regularly at the cafe.
-198	A man has painted in years only at the cafe.
-199	A man has painted regularly only at the cafe.
-200	Only the teachers clean any cups.
-201	Only the teachers clean the cups.
-202	Any teachers only clean the cups.
-203	The teachers only clean the cups.
-204	Only the children should observe any teachers.
-205	Only the children should observe those teachers.
-206	Any children only should observe the teachers.
-207	These children only should observe the teachers.
-208	Only the drivers dropped by any museums.
-209	Only the drivers dropped by the museums.
-210	Any drivers only dropped by the museums.
-211	Those drivers only dropped by the museums.
-212	Only a patient ever tours the museums.
-213	Only a patient often tours the museums.
-214	A patient ever tours only the museums.
-215	A patient often tours only the museums.
-216	Only the gals ever resemble the teachers.
-217	Only the gals also resemble the teachers.
-218	The gals ever resemble only the teachers.
-219	The gals also resemble only the teachers.
-220	Only a patient had disliked plays in years at the museum.
-221	Only a patient had disliked plays as well at the museum.
-222	A patient had disliked plays in years only at the museum.
-223	A patient had disliked plays as well only at the museum.
-224	Only the guests have brought rugs yet at the mall.
-225	Only the guests have brought rugs on occasion at the mall.
-226	The guests have brought rugs yet only at the mall.
-227	The guests have brought rugs on occasion only at the mall.
-228	Only a person attacks waitresses at all at the college campus.
-229	Only a person attacks waitresses for a while at the college campus.
-230	A person attacks waitresses at all only at the college campus.
-231	A person waitresses for a while only at the college campus.
-232	Only the waiters donated either at the school.
-233	Only the waiters donated on occasion at the school.
-234	The waiters donated either only at the school.
-235	The waiters donated on occasion only at the school.
-236	Only the teenagers ever talked about the art galleries.
-237	Only the teenagers clearly talked about the art galleries.
-238	The teenagers ever talked about only the art galleries.
-239	The teenagers clearly talked about only the art galleries.
-240	Only the patient salutes yet at the mall.
-241	Only the patient salutes as well at the mall.
-242	The patient salutes yet only at the mall.
-243	The patient salutes as well only at the mall.
-244	Only the drivers were working with women at all at the cafe.
-245	Only the drivers were working with women on occasion at the cafe.
-246	The drivers were working with women at all only at the cafe.
-247	The drivers women on occasion only at the cafe.
-248	Only the pedestrians scratched either at the museum.
-249	Only the pedestrians scratched for a while at the museum.
-250	The pedestrians scratched either only at the museum.
-251	The pedestrians scratched for a while only at the museum.
-252	Only a waitress will ever attack the doctors.
-253	Only a waitress will clearly attack the doctors.
-254	A waitress will ever attack only the doctors.
-255	A waitress will clearly attack only the doctors.
-256	Only the waitress won in years at the mall.
-257	Only the waitress won for a while at the mall.
-258	The waitress won in years only at the mall.
-259	The waitress won for a while only at the mall.
-260	Only the drivers might forfeit either at the cafe.
-261	Only the drivers might forfeit for a while at the cafe.
-262	The drivers might forfeit either only at the cafe.
-263	The drivers might forfeit for a while only at the cafe.
-264	Only a boy ever examined the newspaper articles.
-265	Only a boy clearly examined the newspaper articles.
-266	A boy ever examined only the newspaper articles.
-267	A boy clearly examined only the newspaper articles.
-268	Only the waiters investigated high schools at all at the school.
-269	Only the waiters investigated high schools on weekends at the school.
-270	The waiters investigated high schools at all only at the school.
-271	The waiters high schools on weekends only at the school.
-272	Only the patient had negotiated in years at the library.
-273	Only the patient had negotiated for a while at the library.
-274	The patient had negotiated in years only at the library.
-275	The patient had negotiated for a while only at the library.
-276	Only a boy was approving at all at the library.
-277	Only a boy was approving for a while at the library.
-278	A boy was approving at all only at the library.
-279	A boy for a while only at the library.
-280	Only the waitresses are escaping from teenagers at all at the museum.
-281	Only the waitresses are escaping from teenagers as well at the museum.
-282	The waitresses are escaping from teenagers at all only at the museum.
-283	The waitresses teenagers as well only at the museum.
-284	Only the guys had watched any actors.
-285	Only the guys had watched these actors.
-286	Any guys only had watched the actors.
-287	These guys only had watched the actors.
-288	Only the dancer was referencing patients yet at the cafe.
-289	Only the dancer was referencing patients as well at the cafe.
-290	The dancer was referencing patients yet only at the cafe.
-291	The dancer was referencing patients as well only at the cafe.
-292	Only the waiters ever kissed the men.
-293	Only the waiters often kissed the men.
-294	The waiters ever kissed only the men.
-295	The waiters often kissed only the men.
-296	Only the boys cared for children in years at the school.
-297	Only the boys cared for children on occasion at the school.
-298	The boys cared for children in years only at the school.
-299	The boys cared for children on occasion only at the school.
-300	Only a dancer has succeeded either at the public park.
-301	Only a dancer has succeeded on occasion at the public park.
-302	A dancer has succeeded either only at the public park.
-303	A dancer has succeeded on occasion only at the public park.
-304	Only a teacher would observe drivers at all at the school.
-305	Only a teacher would observe drivers on occasion at the school.
-306	A teacher would observe drivers at all only at the school.
-307	A teacher drivers on occasion only at the school.
-308	Only the cashier escaped from boys at all at the mall.
-309	Only the cashier escaped from boys on weekends at the mall.
-310	The cashier escaped from boys at all only at the mall.
-311	The cashier boys on weekends only at the mall.
-312	Only the actors will ever discuss the plays.
-313	Only the actors will certainly discuss the plays.
-314	The actors will ever discuss only the plays.
-315	The actors will certainly discuss only the plays.
-316	Only the dancer ever passed the libraries.
-317	Only the dancer also passed the libraries.
-318	The dancer ever passed only the libraries.
-319	The dancer also passed only the libraries.
-320	Only the ladies hate any teachers.
-321	Only the ladies hate these teachers.
-322	Any ladies only hate the teachers.
-323	Those ladies only hate the teachers.
-324	Only the actresses were talking about any college campuses.
-325	Only the actresses were talking about those college campuses.
-326	Any actresses only were talking about the college campuses.
-327	The actresses only were talking about the college campuses.
-328	Only the children were examining books yet at the restaurant.
-329	Only the children were examining books regularly at the restaurant.
-330	The children were examining books yet only at the restaurant.
-331	The children were examining books regularly only at the restaurant.
-332	Only a man hugged boys in years at the public park.
-333	Only a man hugged boys regularly at the public park.
-334	A man hugged boys in years only at the public park.
-335	A man hugged boys regularly only at the public park.
-336	Only the children exited any malls.
-337	Only the children exited the malls.
-338	Any children only exited the malls.
-339	Those children only exited the malls.
-340	Only the drivers had compromised in years at the museum.
-341	Only the drivers had compromised on occasion at the museum.
-342	The drivers had compromised in years only at the museum.
-343	The drivers had compromised on occasion only at the museum.
-344	Only the guest has examined newspaper articles in years at the museum.
-345	Only the guest has examined newspaper articles regularly at the museum.
-346	The guest has examined newspaper articles in years only at the museum.
-347	The guest has examined newspaper articles regularly only at the museum.
-348	Only the waitresses donated either at the library.
-349	Only the waitresses donated regularly at the library.
-350	The waitresses donated either only at the library.
-351	The waitresses donated regularly only at the library.
-352	Only a dancer is talking about books yet at the bank.
-353	Only a dancer is talking about books on weekends at the bank.
-354	A dancer is talking about books yet only at the bank.
-355	A dancer is talking about books on weekends only at the bank.
-356	Only the guys ever work with the guests.
-357	Only the guys also work with the guests.
-358	The guys ever work with only the guests.
-359	The guys also work with only the guests.
-360	Only the person has struggled yet at the bank.
-361	Only the person has struggled for a while at the bank.
-362	The person has struggled yet only at the bank.
-363	The person has struggled for a while only at the bank.
-364	Only the man ever drives to the restaurants.
-365	Only the man certainly drives to the restaurants.
-366	The man ever drives to only the restaurants.
-367	The man certainly drives to only the restaurants.
-368	Only the actress benefited either at the college campus.
-369	Only the actress benefited as well at the college campus.
-370	The actress benefited either only at the college campus.
-371	The actress benefited as well only at the college campus.
-372	Only the doctors ever dropped by the grocery stores.
-373	Only the doctors certainly dropped by the grocery stores.
-374	The doctors ever dropped by only the grocery stores.
-375	The doctors certainly dropped by only the grocery stores.
-376	Only the person will ever discuss the men.
-377	Only the person will often discuss the men.
-378	The person will ever discuss only the men.
-379	The person will often discuss only the men.
-380	Only the guy ever remembered the public parks.
-381	Only the guy also remembered the public parks.
-382	The guy ever remembered only the public parks.
-383	The guy also remembered only the public parks.
-384	Only a senator should yell yet at the library.
-385	Only a senator should yell as well at the library.
-386	A senator should yell yet only at the library.
-387	A senator should yell as well only at the library.
-388	Only the pedestrian had ever biked to the art galleries.
-389	Only the pedestrian had certainly biked to the art galleries.
-390	The pedestrian had ever biked to only the art galleries.
-391	The pedestrian had certainly biked to only the art galleries.
-392	Only the guys have profited at all at the mall.
-393	Only the guys have profited on occasion at the mall.
-394	The guys have profited at all only at the mall.
-395	The guys on occasion only at the mall.
-396	Only the dancer was scanning reports at all at the hospital.
-397	Only the dancer was scanning reports for a while at the hospital.
-398	The dancer was scanning reports at all only at the hospital.
-399	The dancer reports for a while only at the hospital.
-400	Only the doctors have learned at all at the bank.
-401	Only the doctors have learned on weekends at the bank.
-402	The doctors have learned at all only at the bank.
-403	The doctors on weekends only at the bank.
-404	Only a child arrived at movie theaters in years at the library.
-405	Only a child arrived at movie theaters on weekends at the library.
-406	A child arrived at movie theaters in years only at the library.
-407	A child arrived at movie theaters on weekends only at the library.
-408	Only a child ever respected the schools.
-409	Only a child certainly respected the schools.
-410	A child ever respected only the schools.
-411	A child certainly respected only the schools.
-412	Only the gals chat yet at the hospital.
-413	Only the gals chat for a while at the hospital.
-414	The gals chat yet only at the hospital.
-415	The gals chat for a while only at the hospital.
-416	Only the customers sell couches yet at the mall.
-417	Only the customers sell couches on weekends at the mall.
-418	The customers sell couches yet only at the mall.
-419	The customers sell couches on weekends only at the mall.
-420	Only the waitresses would skate around any high schools.
-421	Only the waitresses would skate around those high schools.
-422	Any waitresses only would skate around the high schools.
-423	Those waitresses only would skate around the high schools.
-424	Only an adult ever explores the schools.
-425	Only an adult clearly explores the schools.
-426	An adult ever explores only the schools.
-427	An adult clearly explores only the schools.
-428	Only the men have washed in years at the hospital.
-429	Only the men have washed on occasion at the hospital.
-430	The men have washed in years only at the hospital.
-431	The men have washed on occasion only at the hospital.
-432	Only a guest does slump over at all at the movie theater.
-433	Only a guest does slump over as well at the movie theater.
-434	A guest does slump over at all only at the movie theater.
-435	A guest as well only at the movie theater.
-436	Only the girl had seen in years at the bank.
-437	Only the girl had seen as well at the bank.
-438	The girl had seen in years only at the bank.
-439	The girl had seen as well only at the bank.
-440	Only the actresses might flee from women yet at the restaurant.
-441	Only the actresses might flee from women on occasion at the restaurant.
-442	The actresses might flee from women yet only at the restaurant.
-443	The actresses might flee from women on occasion only at the restaurant.
-444	Only the teenagers had remembered any hospitals.
-445	Only the teenagers had remembered those hospitals.
-446	Any teenagers only had remembered the hospitals.
-447	The teenagers only had remembered the hospitals.
-448	Only the child might insult cafes at all at the high school.
-449	Only the child might insult cafes regularly at the high school.
-450	The child might insult cafes at all only at the high school.
-451	The child cafes regularly only at the high school.
-452	Only the teenagers were referencing people yet at the hospital.
-453	Only the teenagers were referencing people regularly at the hospital.
-454	The teenagers were referencing people yet only at the hospital.
-455	The teenagers were referencing people regularly only at the hospital.
-456	Only the adult was spinning around either at the grocery store.
-457	Only the adult was spinning around on occasion at the grocery store.
-458	The adult was spinning around either only at the grocery store.
-459	The adult was spinning around on occasion only at the grocery store.
-460	Only an actor has gone fishing at all at the college campus.
-461	Only an actor has gone fishing for a while at the college campus.
-462	An actor has gone fishing at all only at the college campus.
-463	An actor for a while only at the college campus.
-464	Only the women had examined stories in years at the bank.
-465	Only the women had examined stories for a while at the bank.
-466	The women had examined stories in years only at the bank.
-467	The women had examined stories for a while only at the bank.
-468	Only the pedestrians do ever skate around the restaurants.
-469	Only the pedestrians do also skate around the restaurants.
-470	The pedestrians do ever skate around only the restaurants.
-471	The pedestrians do also skate around only the restaurants.
-472	Only the waiters passed any grocery stores.
-473	Only the waiters passed these grocery stores.
-474	Any waiters only passed the grocery stores.
-475	These waiters only passed the grocery stores.
-476	Only the pedestrian has passed hospitals at all at the mall.
-477	Only the pedestrian has passed hospitals regularly at the mall.
-478	The pedestrian has passed hospitals at all only at the mall.
-479	The pedestrian hospitals regularly only at the mall.
-480	Only the pedestrians did buy any shoes.
-481	Only the pedestrians did buy these shoes.
-482	Any pedestrians only did buy the shoes.
-483	Those pedestrians only did buy the shoes.
-484	Only the guests had investigated any adults.
-485	Only the guests had investigated those adults.
-486	Any guests only had investigated the adults.
-487	The guests only had investigated the adults.
-488	Only the people did succeed either at the cafe.
-489	Only the people did succeed on weekends at the cafe.
-490	The people did succeed either only at the cafe.
-491	The people did succeed on weekends only at the cafe.
-492	Only the guests wore shoes at all at the cafe.
-493	Only the guests wore shoes for a while at the cafe.
-494	The guests wore shoes at all only at the cafe.
-495	The guests shoes for a while only at the cafe.
-496	Only a guy had talked either at the restaurant.
-497	Only a guy had talked on weekends at the restaurant.
-498	A guy had talked either only at the restaurant.
-499	A guy had talked on weekends only at the restaurant.
+4	Even the humans listened to men at all at the library.
+5	Even the humans listened to men on occasion at the library.
+6	The humans listened to men at all even at the library.
+7	The humans men on occasion even at the library.
+8	Only a driver is working hard either at the bank.
+9	Only a driver is working hard as well at the bank.
+10	A driver is working hard either only at the bank.
+11	A driver is working hard as well only at the bank.
+12	Even a driver is working hard either at the bank.
+13	Even a driver is working hard as well at the bank.
+14	A driver is working hard either even at the bank.
+15	A driver is working hard as well even at the bank.
+16	Only an actor would concur either at the art gallery.
+17	Only an actor would concur on occasion at the art gallery.
+18	An actor would concur either only at the art gallery.
+19	An actor would concur on occasion only at the art gallery.
+20	Even an actor would concur either at the art gallery.
+21	Even an actor would concur on occasion at the art gallery.
+22	An actor would concur either even at the art gallery.
+23	An actor would concur on occasion even at the art gallery.
+24	Only the driver boycotted museums at all at the mall.
+25	Only the driver boycotted museums as well at the mall.
+26	The driver boycotted museums at all only at the mall.
+27	The driver museums as well only at the mall.
+28	Even the driver boycotted museums at all at the mall.
+29	Even the driver boycotted museums as well at the mall.
+30	The driver boycotted museums at all even at the mall.
+31	The driver museums as well even at the mall.
+32	Only a woman cooks yet at the grocery store.
+33	Only a woman cooks on occasion at the grocery store.
+34	A woman cooks yet only at the grocery store.
+35	A woman cooks on occasion only at the grocery store.
+36	Even a woman cooks yet at the grocery store.
+37	Even a woman cooks on occasion at the grocery store.
+38	A woman cooks yet even at the grocery store.
+39	A woman cooks on occasion even at the grocery store.
+40	Only a woman has saluted either at the high school.
+41	Only a woman has saluted as well at the high school.
+42	A woman has saluted either only at the high school.
+43	A woman has saluted as well only at the high school.
+44	Even a woman has saluted either at the high school.
+45	Even a woman has saluted as well at the high school.
+46	A woman has saluted either even at the high school.
+47	A woman has saluted as well even at the high school.
+48	Only the actress has yelled in years at the library.
+49	Only the actress has yelled on occasion at the library.
+50	The actress has yelled in years only at the library.
+51	The actress has yelled on occasion only at the library.
+52	Even the actress has yelled in years at the library.
+53	Even the actress has yelled on occasion at the library.
+54	The actress has yelled in years even at the library.
+55	The actress has yelled on occasion even at the library.
+56	Only the waitresses described any hospitals.
+57	Only the waitresses described those hospitals.
+58	Any waitresses only described the hospitals.
+59	These waitresses only described the hospitals.
+60	Even the waitresses described any hospitals.
+61	Even the waitresses described those hospitals.
+62	Any waitresses even described the hospitals.
+63	These waitresses even described the hospitals.
+64	Only the man has kissed boys in years at the cafe.
+65	Only the man has kissed boys regularly at the cafe.
+66	The man has kissed boys in years only at the cafe.
+67	The man has kissed boys regularly only at the cafe.
+68	Even the man has kissed boys in years at the cafe.
+69	Even the man has kissed boys regularly at the cafe.
+70	The man has kissed boys in years even at the cafe.
+71	The man has kissed boys regularly even at the cafe.
+72	Only a pedestrian does cry yet at the grocery store.
+73	Only a pedestrian does cry for a while at the grocery store.
+74	A pedestrian does cry yet only at the grocery store.
+75	A pedestrian does cry for a while only at the grocery store.
+76	Even a pedestrian does cry yet at the grocery store.
+77	Even a pedestrian does cry for a while at the grocery store.
+78	A pedestrian does cry yet even at the grocery store.
+79	A pedestrian does cry for a while even at the grocery store.
+80	Only the guys passed any restaurants.
+81	Only the guys passed the restaurants.
+82	Any guys only passed the restaurants.
+83	Those guys only passed the restaurants.
+84	Even the guys passed any restaurants.
+85	Even the guys passed the restaurants.
+86	Any guys even passed the restaurants.
+87	Those guys even passed the restaurants.
+88	Only the doctor does leave women yet at the college campus.
+89	Only the doctor does leave women on weekends at the college campus.
+90	The doctor does leave women yet only at the college campus.
+91	The doctor does leave women on weekends only at the college campus.
+92	Even the doctor does leave women yet at the college campus.
+93	Even the doctor does leave women on weekends at the college campus.
+94	The doctor does leave women yet even at the college campus.
+95	The doctor does leave women on weekends even at the college campus.
+96	Only the boys would listen to any teachers.
+97	Only the boys would listen to those teachers.
+98	Any boys only would listen to the teachers.
+99	These boys only would listen to the teachers.
+100	Even the boys would listen to any teachers.
+101	Even the boys would listen to those teachers.
+102	Any boys even would listen to the teachers.
+103	These boys even would listen to the teachers.
+104	Only a boy had stretched at all at the bank.
+105	Only a boy had stretched regularly at the bank.
+106	A boy had stretched at all only at the bank.
+107	A boy regularly only at the bank.
+108	Even a boy had stretched at all at the bank.
+109	Even a boy had stretched regularly at the bank.
+110	A boy had stretched at all even at the bank.
+111	A boy regularly even at the bank.
+112	Only the boys cheer at all at the art gallery.
+113	Only the boys cheer on occasion at the art gallery.
+114	The boys cheer at all only at the art gallery.
+115	The boys on occasion only at the art gallery.
+116	Even the boys cheer at all at the art gallery.
+117	Even the boys cheer on occasion at the art gallery.
+118	The boys cheer at all even at the art gallery.
+119	The boys on occasion even at the art gallery.
+120	Only the students could ever sell the rugs.
+121	Only the students could really sell the rugs.
+122	The students could ever sell only the rugs.
+123	The students could really sell only the rugs.
+124	Even the students could ever sell the rugs.
+125	Even the students could really sell the rugs.
+126	The students could ever sell even the rugs.
+127	The students could really sell even the rugs.
+128	Only the ladies blink at all at the school.
+129	Only the ladies blink as well at the school.
+130	The ladies blink at all only at the school.
+131	The ladies as well only at the school.
+132	Even the ladies blink at all at the school.
+133	Even the ladies blink as well at the school.
+134	The ladies blink at all even at the school.
+135	The ladies as well even at the school.
+136	Only the children are at any libraries.
+137	Only the children are at those libraries.
+138	Any children only are at the libraries.
+139	The children only are at the libraries.
+140	Even the children are at any libraries.
+141	Even the children are at those libraries.
+142	Any children even are at the libraries.
+143	The children even are at the libraries.
+144	Only the adults cooperate at all at the hospital.
+145	Only the adults cooperate as well at the hospital.
+146	The adults cooperate at all only at the hospital.
+147	The adults as well only at the hospital.
+148	Even the adults cooperate at all at the hospital.
+149	Even the adults cooperate as well at the hospital.
+150	The adults cooperate at all even at the hospital.
+151	The adults as well even at the hospital.
+152	Only a guy stretched either at the mall.
+153	Only a guy stretched on weekends at the mall.
+154	A guy stretched either only at the mall.
+155	A guy stretched on weekends only at the mall.
+156	Even a guy stretched either at the mall.
+157	Even a guy stretched on weekends at the mall.
+158	A guy stretched either even at the mall.
+159	A guy stretched on weekends even at the mall.
+160	Only a woman can ever like the books.
+161	Only a woman can certainly like the books.
+162	A woman can ever like only the books.
+163	A woman can certainly like only the books.
+164	Even a woman can ever like the books.
+165	Even a woman can certainly like the books.
+166	A woman can ever like even the books.
+167	A woman can certainly like even the books.
+168	Only the ladies are arriving at any malls.
+169	Only the ladies are arriving at those malls.
+170	Any ladies only are arriving at the malls.
+171	The ladies only are arriving at the malls.
+172	Even the ladies are arriving at any malls.
+173	Even the ladies are arriving at those malls.
+174	Any ladies even are arriving at the malls.
+175	The ladies even are arriving at the malls.
+176	Only the lady investigated customers in years at the grocery store.
+177	Only the lady investigated customers for a while at the grocery store.
+178	The lady investigated customers in years only at the grocery store.
+179	The lady investigated customers for a while only at the grocery store.
+180	Even the lady investigated customers in years at the grocery store.
+181	Even the lady investigated customers for a while at the grocery store.
+182	The lady investigated customers in years even at the grocery store.
+183	The lady investigated customers for a while even at the grocery store.
+184	Only the pedestrians donate either at the movie theater.
+185	Only the pedestrians donate on weekends at the movie theater.
+186	The pedestrians donate either only at the movie theater.
+187	The pedestrians donate on weekends only at the movie theater.
+188	Even the pedestrians donate either at the movie theater.
+189	Even the pedestrians donate on weekends at the movie theater.
+190	The pedestrians donate either even at the movie theater.
+191	The pedestrians donate on weekends even at the movie theater.
+192	Only the pedestrians wrote either at the mall.
+193	Only the pedestrians wrote regularly at the mall.
+194	The pedestrians wrote either only at the mall.
+195	The pedestrians wrote regularly only at the mall.
+196	Even the pedestrians wrote either at the mall.
+197	Even the pedestrians wrote regularly at the mall.
+198	The pedestrians wrote either even at the mall.
+199	The pedestrians wrote regularly even at the mall.
+200	Only the patient has worked hard either at the mall.
+201	Only the patient has worked hard regularly at the mall.
+202	The patient has worked hard either only at the mall.
+203	The patient has worked hard regularly only at the mall.
+204	Even the patient has worked hard either at the mall.
+205	Even the patient has worked hard regularly at the mall.
+206	The patient has worked hard either even at the mall.
+207	The patient has worked hard regularly even at the mall.
+208	Only the cashier testifies either at the museum.
+209	Only the cashier testifies as well at the museum.
+210	The cashier testifies either only at the museum.
+211	The cashier testifies as well only at the museum.
+212	Even the cashier testifies either at the museum.
+213	Even the cashier testifies as well at the museum.
+214	The cashier testifies either even at the museum.
+215	The cashier testifies as well even at the museum.
+216	Only the cashiers divorced yet at the school.
+217	Only the cashiers divorced as well at the school.
+218	The cashiers divorced yet only at the school.
+219	The cashiers divorced as well only at the school.
+220	Even the cashiers divorced yet at the school.
+221	Even the cashiers divorced as well at the school.
+222	The cashiers divorced yet even at the school.
+223	The cashiers divorced as well even at the school.
+224	Only the men are shrugging at all at the mall.
+225	Only the men are shrugging on weekends at the mall.
+226	The men are shrugging at all only at the mall.
+227	The men on weekends only at the mall.
+228	Even the men are shrugging at all at the mall.
+229	Even the men are shrugging on weekends at the mall.
+230	The men are shrugging at all even at the mall.
+231	The men on weekends even at the mall.
+232	Only the pedestrians have listened to any girls.
+233	Only the pedestrians have listened to the girls.
+234	Any pedestrians only have listened to the girls.
+235	Those pedestrians only have listened to the girls.
+236	Even the pedestrians have listened to any girls.
+237	Even the pedestrians have listened to the girls.
+238	Any pedestrians even have listened to the girls.
+239	Those pedestrians even have listened to the girls.
+240	Only the girls leave any drivers.
+241	Only the girls leave the drivers.
+242	Any girls only leave the drivers.
+243	Those girls only leave the drivers.
+244	Even the girls leave any drivers.
+245	Even the girls leave the drivers.
+246	Any girls even leave the drivers.
+247	Those girls even leave the drivers.
+248	Only the children had visited high schools yet at the cafe.
+249	Only the children had visited high schools as well at the cafe.
+250	The children had visited high schools yet only at the cafe.
+251	The children had visited high schools as well only at the cafe.
+252	Even the children had visited high schools yet at the cafe.
+253	Even the children had visited high schools as well at the cafe.
+254	The children had visited high schools yet even at the cafe.
+255	The children had visited high schools as well even at the cafe.
+256	Only an actress ever talks to the guys.
+257	Only an actress also talks to the guys.
+258	An actress ever talks to only the guys.
+259	An actress also talks to only the guys.
+260	Even an actress ever talks to the guys.
+261	Even an actress also talks to the guys.
+262	An actress ever talks to even the guys.
+263	An actress also talks to even the guys.
+264	Only the people ever forget the plays.
+265	Only the people clearly forget the plays.
+266	The people ever forget only the plays.
+267	The people clearly forget only the plays.
+268	Even the people ever forget the plays.
+269	Even the people clearly forget the plays.
+270	The people ever forget even the plays.
+271	The people clearly forget even the plays.
+272	Only the adult was investigating patients yet at the college campus.
+273	Only the adult was investigating patients as well at the college campus.
+274	The adult was investigating patients yet only at the college campus.
+275	The adult was investigating patients as well only at the college campus.
+276	Even the adult was investigating patients yet at the college campus.
+277	Even the adult was investigating patients as well at the college campus.
+278	The adult was investigating patients yet even at the college campus.
+279	The adult was investigating patients as well even at the college campus.
+280	Only the ladies were negotiating at all at the museum.
+281	Only the ladies were negotiating on occasion at the museum.
+282	The ladies were negotiating at all only at the museum.
+283	The ladies on occasion only at the museum.
+284	Even the ladies were negotiating at all at the museum.
+285	Even the ladies were negotiating on occasion at the museum.
+286	The ladies were negotiating at all even at the museum.
+287	The ladies on occasion even at the museum.
+288	Only the ladies were leaving teachers yet at the restaurant.
+289	Only the ladies were leaving teachers for a while at the restaurant.
+290	The ladies were leaving teachers yet only at the restaurant.
+291	The ladies were leaving teachers for a while only at the restaurant.
+292	Even the ladies were leaving teachers yet at the restaurant.
+293	Even the ladies were leaving teachers for a while at the restaurant.
+294	The ladies were leaving teachers yet even at the restaurant.
+295	The ladies were leaving teachers for a while even at the restaurant.
+296	Only a doctor shrugged in years at the cafe.
+297	Only a doctor shrugged as well at the cafe.
+298	A doctor shrugged in years only at the cafe.
+299	A doctor shrugged as well only at the cafe.
+300	Even a doctor shrugged in years at the cafe.
+301	Even a doctor shrugged as well at the cafe.
+302	A doctor shrugged in years even at the cafe.
+303	A doctor shrugged as well even at the cafe.
+304	Only a teacher worried either at the museum.
+305	Only a teacher worried on occasion at the museum.
+306	A teacher worried either only at the museum.
+307	A teacher worried on occasion only at the museum.
+308	Even a teacher worried either at the museum.
+309	Even a teacher worried on occasion at the museum.
+310	A teacher worried either even at the museum.
+311	A teacher worried on occasion even at the museum.
+312	Only the ladies compete either at the art gallery.
+313	Only the ladies compete as well at the art gallery.
+314	The ladies compete either only at the art gallery.
+315	The ladies compete as well only at the art gallery.
+316	Even the ladies compete either at the art gallery.
+317	Even the ladies compete as well at the art gallery.
+318	The ladies compete either even at the art gallery.
+319	The ladies compete as well even at the art gallery.
+320	Only a senator described ladies at all at the bank.
+321	Only a senator described ladies for a while at the bank.
+322	A senator described ladies at all only at the bank.
+323	A senator ladies for a while only at the bank.
+324	Even a senator described ladies at all at the bank.
+325	Even a senator described ladies for a while at the bank.
+326	A senator described ladies at all even at the bank.
+327	A senator ladies for a while even at the bank.
+328	Only a man ate in years at the college campus.
+329	Only a man ate on occasion at the college campus.
+330	A man ate in years only at the college campus.
+331	A man ate on occasion only at the college campus.
+332	Even a man ate in years at the college campus.
+333	Even a man ate on occasion at the college campus.
+334	A man ate in years even at the college campus.
+335	A man ate on occasion even at the college campus.
+336	Only a student could ever bring the glasses.
+337	Only a student could really bring the glasses.
+338	A student could ever bring only the glasses.
+339	A student could really bring only the glasses.
+340	Even a student could ever bring the glasses.
+341	Even a student could really bring the glasses.
+342	A student could ever bring even the glasses.
+343	A student could really bring even the glasses.
+344	Only the students had rugs in years at the school.
+345	Only the students had rugs on occasion at the school.
+346	The students had rugs in years only at the school.
+347	The students had rugs on occasion only at the school.
+348	Even the students had rugs in years at the school.
+349	Even the students had rugs on occasion at the school.
+350	The students had rugs in years even at the school.
+351	The students had rugs on occasion even at the school.
+352	Only the actors had grinned in years at the hospital.
+353	Only the actors had grinned on weekends at the hospital.
+354	The actors had grinned in years only at the hospital.
+355	The actors had grinned on weekends only at the hospital.
+356	Even the actors had grinned in years at the hospital.
+357	Even the actors had grinned on weekends at the hospital.
+358	The actors had grinned in years even at the hospital.
+359	The actors had grinned on weekends even at the hospital.
+360	Only the teachers had divorced in years at the art gallery.
+361	Only the teachers had divorced on weekends at the art gallery.
+362	The teachers had divorced in years only at the art gallery.
+363	The teachers had divorced on weekends only at the art gallery.
+364	Even the teachers had divorced in years at the art gallery.
+365	Even the teachers had divorced on weekends at the art gallery.
+366	The teachers had divorced in years even at the art gallery.
+367	The teachers had divorced on weekends even at the art gallery.
+368	Only the waiters did sigh either at the art gallery.
+369	Only the waiters did sigh on weekends at the art gallery.
+370	The waiters did sigh either only at the art gallery.
+371	The waiters did sigh on weekends only at the art gallery.
+372	Even the waiters did sigh either at the art gallery.
+373	Even the waiters did sigh on weekends at the art gallery.
+374	The waiters did sigh either even at the art gallery.
+375	The waiters did sigh on weekends even at the art gallery.
+376	Only the people are boycotting any schools.
+377	Only the people are boycotting the schools.
+378	Any people only are boycotting the schools.
+379	These people only are boycotting the schools.
+380	Even the people are boycotting any schools.
+381	Even the people are boycotting the schools.
+382	Any people even are boycotting the schools.
+383	These people even are boycotting the schools.
+384	Only the doctors had bought any rugs.
+385	Only the doctors had bought the rugs.
+386	Any doctors only had bought the rugs.
+387	These doctors only had bought the rugs.
+388	Even the doctors had bought any rugs.
+389	Even the doctors had bought the rugs.
+390	Any doctors even had bought the rugs.
+391	These doctors even had bought the rugs.
+392	Only a man has painted in years at the cafe.
+393	Only a man has painted regularly at the cafe.
+394	A man has painted in years only at the cafe.
+395	A man has painted regularly only at the cafe.
+396	Even a man has painted in years at the cafe.
+397	Even a man has painted regularly at the cafe.
+398	A man has painted in years even at the cafe.
+399	A man has painted regularly even at the cafe.
+400	Only the teachers clean any cups.
+401	Only the teachers clean the cups.
+402	Any teachers only clean the cups.
+403	The teachers only clean the cups.
+404	Even the teachers clean any cups.
+405	Even the teachers clean the cups.
+406	Any teachers even clean the cups.
+407	The teachers even clean the cups.
+408	Only the children should observe any teachers.
+409	Only the children should observe those teachers.
+410	Any children only should observe the teachers.
+411	These children only should observe the teachers.
+412	Even the children should observe any teachers.
+413	Even the children should observe those teachers.
+414	Any children even should observe the teachers.
+415	These children even should observe the teachers.
+416	Only the drivers dropped by any museums.
+417	Only the drivers dropped by the museums.
+418	Any drivers only dropped by the museums.
+419	Those drivers only dropped by the museums.
+420	Even the drivers dropped by any museums.
+421	Even the drivers dropped by the museums.
+422	Any drivers even dropped by the museums.
+423	Those drivers even dropped by the museums.
+424	Only a patient ever tours the museums.
+425	Only a patient often tours the museums.
+426	A patient ever tours only the museums.
+427	A patient often tours only the museums.
+428	Even a patient ever tours the museums.
+429	Even a patient often tours the museums.
+430	A patient ever tours even the museums.
+431	A patient often tours even the museums.
+432	Only the gals ever resemble the teachers.
+433	Only the gals also resemble the teachers.
+434	The gals ever resemble only the teachers.
+435	The gals also resemble only the teachers.
+436	Even the gals ever resemble the teachers.
+437	Even the gals also resemble the teachers.
+438	The gals ever resemble even the teachers.
+439	The gals also resemble even the teachers.
+440	Only a patient had disliked plays in years at the museum.
+441	Only a patient had disliked plays as well at the museum.
+442	A patient had disliked plays in years only at the museum.
+443	A patient had disliked plays as well only at the museum.
+444	Even a patient had disliked plays in years at the museum.
+445	Even a patient had disliked plays as well at the museum.
+446	A patient had disliked plays in years even at the museum.
+447	A patient had disliked plays as well even at the museum.
+448	Only the guests have brought rugs yet at the mall.
+449	Only the guests have brought rugs on occasion at the mall.
+450	The guests have brought rugs yet only at the mall.
+451	The guests have brought rugs on occasion only at the mall.
+452	Even the guests have brought rugs yet at the mall.
+453	Even the guests have brought rugs on occasion at the mall.
+454	The guests have brought rugs yet even at the mall.
+455	The guests have brought rugs on occasion even at the mall.
+456	Only a person attacks waitresses at all at the college campus.
+457	Only a person attacks waitresses for a while at the college campus.
+458	A person attacks waitresses at all only at the college campus.
+459	A person waitresses for a while only at the college campus.
+460	Even a person attacks waitresses at all at the college campus.
+461	Even a person attacks waitresses for a while at the college campus.
+462	A person attacks waitresses at all even at the college campus.
+463	A person waitresses for a while even at the college campus.
+464	Only the waiters donated either at the school.
+465	Only the waiters donated on occasion at the school.
+466	The waiters donated either only at the school.
+467	The waiters donated on occasion only at the school.
+468	Even the waiters donated either at the school.
+469	Even the waiters donated on occasion at the school.
+470	The waiters donated either even at the school.
+471	The waiters donated on occasion even at the school.
+472	Only the teenagers ever talked about the art galleries.
+473	Only the teenagers clearly talked about the art galleries.
+474	The teenagers ever talked about only the art galleries.
+475	The teenagers clearly talked about only the art galleries.
+476	Even the teenagers ever talked about the art galleries.
+477	Even the teenagers clearly talked about the art galleries.
+478	The teenagers ever talked about even the art galleries.
+479	The teenagers clearly talked about even the art galleries.
+480	Only the patient salutes yet at the mall.
+481	Only the patient salutes as well at the mall.
+482	The patient salutes yet only at the mall.
+483	The patient salutes as well only at the mall.
+484	Even the patient salutes yet at the mall.
+485	Even the patient salutes as well at the mall.
+486	The patient salutes yet even at the mall.
+487	The patient salutes as well even at the mall.
+488	Only the drivers were working with women at all at the cafe.
+489	Only the drivers were working with women on occasion at the cafe.
+490	The drivers were working with women at all only at the cafe.
+491	The drivers women on occasion only at the cafe.
+492	Even the drivers were working with women at all at the cafe.
+493	Even the drivers were working with women on occasion at the cafe.
+494	The drivers were working with women at all even at the cafe.
+495	The drivers women on occasion even at the cafe.
+496	Only the pedestrians scratched either at the museum.
+497	Only the pedestrians scratched for a while at the museum.
+498	The pedestrians scratched either only at the museum.
+499	The pedestrians scratched for a while only at the museum.
+500	Even the pedestrians scratched either at the museum.
+501	Even the pedestrians scratched for a while at the museum.
+502	The pedestrians scratched either even at the museum.
+503	The pedestrians scratched for a while even at the museum.
+504	Only a waitress will ever attack the doctors.
+505	Only a waitress will clearly attack the doctors.
+506	A waitress will ever attack only the doctors.
+507	A waitress will clearly attack only the doctors.
+508	Even a waitress will ever attack the doctors.
+509	Even a waitress will clearly attack the doctors.
+510	A waitress will ever attack even the doctors.
+511	A waitress will clearly attack even the doctors.
+512	Only the waitress won in years at the mall.
+513	Only the waitress won for a while at the mall.
+514	The waitress won in years only at the mall.
+515	The waitress won for a while only at the mall.
+516	Even the waitress won in years at the mall.
+517	Even the waitress won for a while at the mall.
+518	The waitress won in years even at the mall.
+519	The waitress won for a while even at the mall.
+520	Only the drivers might forfeit either at the cafe.
+521	Only the drivers might forfeit for a while at the cafe.
+522	The drivers might forfeit either only at the cafe.
+523	The drivers might forfeit for a while only at the cafe.
+524	Even the drivers might forfeit either at the cafe.
+525	Even the drivers might forfeit for a while at the cafe.
+526	The drivers might forfeit either even at the cafe.
+527	The drivers might forfeit for a while even at the cafe.
+528	Only a boy ever examined the newspaper articles.
+529	Only a boy clearly examined the newspaper articles.
+530	A boy ever examined only the newspaper articles.
+531	A boy clearly examined only the newspaper articles.
+532	Even a boy ever examined the newspaper articles.
+533	Even a boy clearly examined the newspaper articles.
+534	A boy ever examined even the newspaper articles.
+535	A boy clearly examined even the newspaper articles.
+536	Only the waiters investigated high schools at all at the school.
+537	Only the waiters investigated high schools on weekends at the school.
+538	The waiters investigated high schools at all only at the school.
+539	The waiters high schools on weekends only at the school.
+540	Even the waiters investigated high schools at all at the school.
+541	Even the waiters investigated high schools on weekends at the school.
+542	The waiters investigated high schools at all even at the school.
+543	The waiters high schools on weekends even at the school.
+544	Only the patient had negotiated in years at the library.
+545	Only the patient had negotiated for a while at the library.
+546	The patient had negotiated in years only at the library.
+547	The patient had negotiated for a while only at the library.
+548	Even the patient had negotiated in years at the library.
+549	Even the patient had negotiated for a while at the library.
+550	The patient had negotiated in years even at the library.
+551	The patient had negotiated for a while even at the library.
+552	Only a boy was approving at all at the library.
+553	Only a boy was approving for a while at the library.
+554	A boy was approving at all only at the library.
+555	A boy for a while only at the library.
+556	Even a boy was approving at all at the library.
+557	Even a boy was approving for a while at the library.
+558	A boy was approving at all even at the library.
+559	A boy for a while even at the library.
+560	Only the waitresses are escaping from teenagers at all at the museum.
+561	Only the waitresses are escaping from teenagers as well at the museum.
+562	The waitresses are escaping from teenagers at all only at the museum.
+563	The waitresses teenagers as well only at the museum.
+564	Even the waitresses are escaping from teenagers at all at the museum.
+565	Even the waitresses are escaping from teenagers as well at the museum.
+566	The waitresses are escaping from teenagers at all even at the museum.
+567	The waitresses teenagers as well even at the museum.
+568	Only the guys had watched any actors.
+569	Only the guys had watched these actors.
+570	Any guys only had watched the actors.
+571	These guys only had watched the actors.
+572	Even the guys had watched any actors.
+573	Even the guys had watched these actors.
+574	Any guys even had watched the actors.
+575	These guys even had watched the actors.
+576	Only the dancer was referencing patients yet at the cafe.
+577	Only the dancer was referencing patients as well at the cafe.
+578	The dancer was referencing patients yet only at the cafe.
+579	The dancer was referencing patients as well only at the cafe.
+580	Even the dancer was referencing patients yet at the cafe.
+581	Even the dancer was referencing patients as well at the cafe.
+582	The dancer was referencing patients yet even at the cafe.
+583	The dancer was referencing patients as well even at the cafe.
+584	Only the waiters ever kissed the men.
+585	Only the waiters often kissed the men.
+586	The waiters ever kissed only the men.
+587	The waiters often kissed only the men.
+588	Even the waiters ever kissed the men.
+589	Even the waiters often kissed the men.
+590	The waiters ever kissed even the men.
+591	The waiters often kissed even the men.
+592	Only the boys cared for children in years at the school.
+593	Only the boys cared for children on occasion at the school.
+594	The boys cared for children in years only at the school.
+595	The boys cared for children on occasion only at the school.
+596	Even the boys cared for children in years at the school.
+597	Even the boys cared for children on occasion at the school.
+598	The boys cared for children in years even at the school.
+599	The boys cared for children on occasion even at the school.
+600	Only a dancer has succeeded either at the public park.
+601	Only a dancer has succeeded on occasion at the public park.
+602	A dancer has succeeded either only at the public park.
+603	A dancer has succeeded on occasion only at the public park.
+604	Even a dancer has succeeded either at the public park.
+605	Even a dancer has succeeded on occasion at the public park.
+606	A dancer has succeeded either even at the public park.
+607	A dancer has succeeded on occasion even at the public park.
+608	Only a teacher would observe drivers at all at the school.
+609	Only a teacher would observe drivers on occasion at the school.
+610	A teacher would observe drivers at all only at the school.
+611	A teacher drivers on occasion only at the school.
+612	Even a teacher would observe drivers at all at the school.
+613	Even a teacher would observe drivers on occasion at the school.
+614	A teacher would observe drivers at all even at the school.
+615	A teacher drivers on occasion even at the school.
+616	Only the cashier escaped from boys at all at the mall.
+617	Only the cashier escaped from boys on weekends at the mall.
+618	The cashier escaped from boys at all only at the mall.
+619	The cashier boys on weekends only at the mall.
+620	Even the cashier escaped from boys at all at the mall.
+621	Even the cashier escaped from boys on weekends at the mall.
+622	The cashier escaped from boys at all even at the mall.
+623	The cashier boys on weekends even at the mall.
+624	Only the actors will ever discuss the plays.
+625	Only the actors will certainly discuss the plays.
+626	The actors will ever discuss only the plays.
+627	The actors will certainly discuss only the plays.
+628	Even the actors will ever discuss the plays.
+629	Even the actors will certainly discuss the plays.
+630	The actors will ever discuss even the plays.
+631	The actors will certainly discuss even the plays.
+632	Only the dancer ever passed the libraries.
+633	Only the dancer also passed the libraries.
+634	The dancer ever passed only the libraries.
+635	The dancer also passed only the libraries.
+636	Even the dancer ever passed the libraries.
+637	Even the dancer also passed the libraries.
+638	The dancer ever passed even the libraries.
+639	The dancer also passed even the libraries.
+640	Only the ladies hate any teachers.
+641	Only the ladies hate these teachers.
+642	Any ladies only hate the teachers.
+643	Those ladies only hate the teachers.
+644	Even the ladies hate any teachers.
+645	Even the ladies hate these teachers.
+646	Any ladies even hate the teachers.
+647	Those ladies even hate the teachers.
+648	Only the actresses were talking about any college campuses.
+649	Only the actresses were talking about those college campuses.
+650	Any actresses only were talking about the college campuses.
+651	The actresses only were talking about the college campuses.
+652	Even the actresses were talking about any college campuses.
+653	Even the actresses were talking about those college campuses.
+654	Any actresses even were talking about the college campuses.
+655	The actresses even were talking about the college campuses.
+656	Only the children were examining books yet at the restaurant.
+657	Only the children were examining books regularly at the restaurant.
+658	The children were examining books yet only at the restaurant.
+659	The children were examining books regularly only at the restaurant.
+660	Even the children were examining books yet at the restaurant.
+661	Even the children were examining books regularly at the restaurant.
+662	The children were examining books yet even at the restaurant.
+663	The children were examining books regularly even at the restaurant.
+664	Only a man hugged boys in years at the public park.
+665	Only a man hugged boys regularly at the public park.
+666	A man hugged boys in years only at the public park.
+667	A man hugged boys regularly only at the public park.
+668	Even a man hugged boys in years at the public park.
+669	Even a man hugged boys regularly at the public park.
+670	A man hugged boys in years even at the public park.
+671	A man hugged boys regularly even at the public park.
+672	Only the children exited any malls.
+673	Only the children exited the malls.
+674	Any children only exited the malls.
+675	Those children only exited the malls.
+676	Even the children exited any malls.
+677	Even the children exited the malls.
+678	Any children even exited the malls.
+679	Those children even exited the malls.
+680	Only the drivers had compromised in years at the museum.
+681	Only the drivers had compromised on occasion at the museum.
+682	The drivers had compromised in years only at the museum.
+683	The drivers had compromised on occasion only at the museum.
+684	Even the drivers had compromised in years at the museum.
+685	Even the drivers had compromised on occasion at the museum.
+686	The drivers had compromised in years even at the museum.
+687	The drivers had compromised on occasion even at the museum.
+688	Only the guest has examined newspaper articles in years at the museum.
+689	Only the guest has examined newspaper articles regularly at the museum.
+690	The guest has examined newspaper articles in years only at the museum.
+691	The guest has examined newspaper articles regularly only at the museum.
+692	Even the guest has examined newspaper articles in years at the museum.
+693	Even the guest has examined newspaper articles regularly at the museum.
+694	The guest has examined newspaper articles in years even at the museum.
+695	The guest has examined newspaper articles regularly even at the museum.
+696	Only the waitresses donated either at the library.
+697	Only the waitresses donated regularly at the library.
+698	The waitresses donated either only at the library.
+699	The waitresses donated regularly only at the library.
+700	Even the waitresses donated either at the library.
+701	Even the waitresses donated regularly at the library.
+702	The waitresses donated either even at the library.
+703	The waitresses donated regularly even at the library.
+704	Only a dancer is talking about books yet at the bank.
+705	Only a dancer is talking about books on weekends at the bank.
+706	A dancer is talking about books yet only at the bank.
+707	A dancer is talking about books on weekends only at the bank.
+708	Even a dancer is talking about books yet at the bank.
+709	Even a dancer is talking about books on weekends at the bank.
+710	A dancer is talking about books yet even at the bank.
+711	A dancer is talking about books on weekends even at the bank.
+712	Only the guys ever work with the guests.
+713	Only the guys also work with the guests.
+714	The guys ever work with only the guests.
+715	The guys also work with only the guests.
+716	Even the guys ever work with the guests.
+717	Even the guys also work with the guests.
+718	The guys ever work with even the guests.
+719	The guys also work with even the guests.
+720	Only the person has struggled yet at the bank.
+721	Only the person has struggled for a while at the bank.
+722	The person has struggled yet only at the bank.
+723	The person has struggled for a while only at the bank.
+724	Even the person has struggled yet at the bank.
+725	Even the person has struggled for a while at the bank.
+726	The person has struggled yet even at the bank.
+727	The person has struggled for a while even at the bank.
+728	Only the man ever drives to the restaurants.
+729	Only the man certainly drives to the restaurants.
+730	The man ever drives to only the restaurants.
+731	The man certainly drives to only the restaurants.
+732	Even the man ever drives to the restaurants.
+733	Even the man certainly drives to the restaurants.
+734	The man ever drives to even the restaurants.
+735	The man certainly drives to even the restaurants.
+736	Only the actress benefited either at the college campus.
+737	Only the actress benefited as well at the college campus.
+738	The actress benefited either only at the college campus.
+739	The actress benefited as well only at the college campus.
+740	Even the actress benefited either at the college campus.
+741	Even the actress benefited as well at the college campus.
+742	The actress benefited either even at the college campus.
+743	The actress benefited as well even at the college campus.
+744	Only the doctors ever dropped by the grocery stores.
+745	Only the doctors certainly dropped by the grocery stores.
+746	The doctors ever dropped by only the grocery stores.
+747	The doctors certainly dropped by only the grocery stores.
+748	Even the doctors ever dropped by the grocery stores.
+749	Even the doctors certainly dropped by the grocery stores.
+750	The doctors ever dropped by even the grocery stores.
+751	The doctors certainly dropped by even the grocery stores.
+752	Only the person will ever discuss the men.
+753	Only the person will often discuss the men.
+754	The person will ever discuss only the men.
+755	The person will often discuss only the men.
+756	Even the person will ever discuss the men.
+757	Even the person will often discuss the men.
+758	The person will ever discuss even the men.
+759	The person will often discuss even the men.
+760	Only the guy ever remembered the public parks.
+761	Only the guy also remembered the public parks.
+762	The guy ever remembered only the public parks.
+763	The guy also remembered only the public parks.
+764	Even the guy ever remembered the public parks.
+765	Even the guy also remembered the public parks.
+766	The guy ever remembered even the public parks.
+767	The guy also remembered even the public parks.
+768	Only a senator should yell yet at the library.
+769	Only a senator should yell as well at the library.
+770	A senator should yell yet only at the library.
+771	A senator should yell as well only at the library.
+772	Even a senator should yell yet at the library.
+773	Even a senator should yell as well at the library.
+774	A senator should yell yet even at the library.
+775	A senator should yell as well even at the library.
+776	Only the pedestrian had ever biked to the art galleries.
+777	Only the pedestrian had certainly biked to the art galleries.
+778	The pedestrian had ever biked to only the art galleries.
+779	The pedestrian had certainly biked to only the art galleries.
+780	Even the pedestrian had ever biked to the art galleries.
+781	Even the pedestrian had certainly biked to the art galleries.
+782	The pedestrian had ever biked to even the art galleries.
+783	The pedestrian had certainly biked to even the art galleries.
+784	Only the guys have profited at all at the mall.
+785	Only the guys have profited on occasion at the mall.
+786	The guys have profited at all only at the mall.
+787	The guys on occasion only at the mall.
+788	Even the guys have profited at all at the mall.
+789	Even the guys have profited on occasion at the mall.
+790	The guys have profited at all even at the mall.
+791	The guys on occasion even at the mall.
+792	Only the dancer was scanning reports at all at the hospital.
+793	Only the dancer was scanning reports for a while at the hospital.
+794	The dancer was scanning reports at all only at the hospital.
+795	The dancer reports for a while only at the hospital.
+796	Even the dancer was scanning reports at all at the hospital.
+797	Even the dancer was scanning reports for a while at the hospital.
+798	The dancer was scanning reports at all even at the hospital.
+799	The dancer reports for a while even at the hospital.
+800	Only the doctors have learned at all at the bank.
+801	Only the doctors have learned on weekends at the bank.
+802	The doctors have learned at all only at the bank.
+803	The doctors on weekends only at the bank.
+804	Even the doctors have learned at all at the bank.
+805	Even the doctors have learned on weekends at the bank.
+806	The doctors have learned at all even at the bank.
+807	The doctors on weekends even at the bank.
+808	Only a child arrived at movie theaters in years at the library.
+809	Only a child arrived at movie theaters on weekends at the library.
+810	A child arrived at movie theaters in years only at the library.
+811	A child arrived at movie theaters on weekends only at the library.
+812	Even a child arrived at movie theaters in years at the library.
+813	Even a child arrived at movie theaters on weekends at the library.
+814	A child arrived at movie theaters in years even at the library.
+815	A child arrived at movie theaters on weekends even at the library.
+816	Only a child ever respected the schools.
+817	Only a child certainly respected the schools.
+818	A child ever respected only the schools.
+819	A child certainly respected only the schools.
+820	Even a child ever respected the schools.
+821	Even a child certainly respected the schools.
+822	A child ever respected even the schools.
+823	A child certainly respected even the schools.
+824	Only the gals chat yet at the hospital.
+825	Only the gals chat for a while at the hospital.
+826	The gals chat yet only at the hospital.
+827	The gals chat for a while only at the hospital.
+828	Even the gals chat yet at the hospital.
+829	Even the gals chat for a while at the hospital.
+830	The gals chat yet even at the hospital.
+831	The gals chat for a while even at the hospital.
+832	Only the customers sell couches yet at the mall.
+833	Only the customers sell couches on weekends at the mall.
+834	The customers sell couches yet only at the mall.
+835	The customers sell couches on weekends only at the mall.
+836	Even the customers sell couches yet at the mall.
+837	Even the customers sell couches on weekends at the mall.
+838	The customers sell couches yet even at the mall.
+839	The customers sell couches on weekends even at the mall.
+840	Only the waitresses would skate around any high schools.
+841	Only the waitresses would skate around those high schools.
+842	Any waitresses only would skate around the high schools.
+843	Those waitresses only would skate around the high schools.
+844	Even the waitresses would skate around any high schools.
+845	Even the waitresses would skate around those high schools.
+846	Any waitresses even would skate around the high schools.
+847	Those waitresses even would skate around the high schools.
+848	Only an adult ever explores the schools.
+849	Only an adult clearly explores the schools.
+850	An adult ever explores only the schools.
+851	An adult clearly explores only the schools.
+852	Even an adult ever explores the schools.
+853	Even an adult clearly explores the schools.
+854	An adult ever explores even the schools.
+855	An adult clearly explores even the schools.
+856	Only the men have washed in years at the hospital.
+857	Only the men have washed on occasion at the hospital.
+858	The men have washed in years only at the hospital.
+859	The men have washed on occasion only at the hospital.
+860	Even the men have washed in years at the hospital.
+861	Even the men have washed on occasion at the hospital.
+862	The men have washed in years even at the hospital.
+863	The men have washed on occasion even at the hospital.
+864	Only a guest does slump over at all at the movie theater.
+865	Only a guest does slump over as well at the movie theater.
+866	A guest does slump over at all only at the movie theater.
+867	A guest as well only at the movie theater.
+868	Even a guest does slump over at all at the movie theater.
+869	Even a guest does slump over as well at the movie theater.
+870	A guest does slump over at all even at the movie theater.
+871	A guest as well even at the movie theater.
+872	Only the girl had seen in years at the bank.
+873	Only the girl had seen as well at the bank.
+874	The girl had seen in years only at the bank.
+875	The girl had seen as well only at the bank.
+876	Even the girl had seen in years at the bank.
+877	Even the girl had seen as well at the bank.
+878	The girl had seen in years even at the bank.
+879	The girl had seen as well even at the bank.
+880	Only the actresses might flee from women yet at the restaurant.
+881	Only the actresses might flee from women on occasion at the restaurant.
+882	The actresses might flee from women yet only at the restaurant.
+883	The actresses might flee from women on occasion only at the restaurant.
+884	Even the actresses might flee from women yet at the restaurant.
+885	Even the actresses might flee from women on occasion at the restaurant.
+886	The actresses might flee from women yet even at the restaurant.
+887	The actresses might flee from women on occasion even at the restaurant.
+888	Only the teenagers had remembered any hospitals.
+889	Only the teenagers had remembered those hospitals.
+890	Any teenagers only had remembered the hospitals.
+891	The teenagers only had remembered the hospitals.
+892	Even the teenagers had remembered any hospitals.
+893	Even the teenagers had remembered those hospitals.
+894	Any teenagers even had remembered the hospitals.
+895	The teenagers even had remembered the hospitals.
+896	Only the child might insult cafes at all at the high school.
+897	Only the child might insult cafes regularly at the high school.
+898	The child might insult cafes at all only at the high school.
+899	The child cafes regularly only at the high school.
+900	Even the child might insult cafes at all at the high school.
+901	Even the child might insult cafes regularly at the high school.
+902	The child might insult cafes at all even at the high school.
+903	The child cafes regularly even at the high school.
+904	Only the teenagers were referencing people yet at the hospital.
+905	Only the teenagers were referencing people regularly at the hospital.
+906	The teenagers were referencing people yet only at the hospital.
+907	The teenagers were referencing people regularly only at the hospital.
+908	Even the teenagers were referencing people yet at the hospital.
+909	Even the teenagers were referencing people regularly at the hospital.
+910	The teenagers were referencing people yet even at the hospital.
+911	The teenagers were referencing people regularly even at the hospital.
+912	Only the adult was spinning around either at the grocery store.
+913	Only the adult was spinning around on occasion at the grocery store.
+914	The adult was spinning around either only at the grocery store.
+915	The adult was spinning around on occasion only at the grocery store.
+916	Even the adult was spinning around either at the grocery store.
+917	Even the adult was spinning around on occasion at the grocery store.
+918	The adult was spinning around either even at the grocery store.
+919	The adult was spinning around on occasion even at the grocery store.
+920	Only an actor has gone fishing at all at the college campus.
+921	Only an actor has gone fishing for a while at the college campus.
+922	An actor has gone fishing at all only at the college campus.
+923	An actor for a while only at the college campus.
+924	Even an actor has gone fishing at all at the college campus.
+925	Even an actor has gone fishing for a while at the college campus.
+926	An actor has gone fishing at all even at the college campus.
+927	An actor for a while even at the college campus.
+928	Only the women had examined stories in years at the bank.
+929	Only the women had examined stories for a while at the bank.
+930	The women had examined stories in years only at the bank.
+931	The women had examined stories for a while only at the bank.
+932	Even the women had examined stories in years at the bank.
+933	Even the women had examined stories for a while at the bank.
+934	The women had examined stories in years even at the bank.
+935	The women had examined stories for a while even at the bank.
+936	Only the pedestrians do ever skate around the restaurants.
+937	Only the pedestrians do also skate around the restaurants.
+938	The pedestrians do ever skate around only the restaurants.
+939	The pedestrians do also skate around only the restaurants.
+940	Even the pedestrians do ever skate around the restaurants.
+941	Even the pedestrians do also skate around the restaurants.
+942	The pedestrians do ever skate around even the restaurants.
+943	The pedestrians do also skate around even the restaurants.
+944	Only the waiters passed any grocery stores.
+945	Only the waiters passed these grocery stores.
+946	Any waiters only passed the grocery stores.
+947	These waiters only passed the grocery stores.
+948	Even the waiters passed any grocery stores.
+949	Even the waiters passed these grocery stores.
+950	Any waiters even passed the grocery stores.
+951	These waiters even passed the grocery stores.
+952	Only the pedestrian has passed hospitals at all at the mall.
+953	Only the pedestrian has passed hospitals regularly at the mall.
+954	The pedestrian has passed hospitals at all only at the mall.
+955	The pedestrian hospitals regularly only at the mall.
+956	Even the pedestrian has passed hospitals at all at the mall.
+957	Even the pedestrian has passed hospitals regularly at the mall.
+958	The pedestrian has passed hospitals at all even at the mall.
+959	The pedestrian hospitals regularly even at the mall.
+960	Only the pedestrians did buy any shoes.
+961	Only the pedestrians did buy these shoes.
+962	Any pedestrians only did buy the shoes.
+963	Those pedestrians only did buy the shoes.
+964	Even the pedestrians did buy any shoes.
+965	Even the pedestrians did buy these shoes.
+966	Any pedestrians even did buy the shoes.
+967	Those pedestrians even did buy the shoes.
+968	Only the guests had investigated any adults.
+969	Only the guests had investigated those adults.
+970	Any guests only had investigated the adults.
+971	The guests only had investigated the adults.
+972	Even the guests had investigated any adults.
+973	Even the guests had investigated those adults.
+974	Any guests even had investigated the adults.
+975	The guests even had investigated the adults.
+976	Only the people did succeed either at the cafe.
+977	Only the people did succeed on weekends at the cafe.
+978	The people did succeed either only at the cafe.
+979	The people did succeed on weekends only at the cafe.
+980	Even the people did succeed either at the cafe.
+981	Even the people did succeed on weekends at the cafe.
+982	The people did succeed either even at the cafe.
+983	The people did succeed on weekends even at the cafe.
+984	Only the guests wore shoes at all at the cafe.
+985	Only the guests wore shoes for a while at the cafe.
+986	The guests wore shoes at all only at the cafe.
+987	The guests shoes for a while only at the cafe.
+988	Even the guests wore shoes at all at the cafe.
+989	Even the guests wore shoes for a while at the cafe.
+990	The guests wore shoes at all even at the cafe.
+991	The guests shoes for a while even at the cafe.
+992	Only a guy had talked either at the restaurant.
+993	Only a guy had talked on weekends at the restaurant.
+994	A guy had talked either only at the restaurant.
+995	A guy had talked on weekends only at the restaurant.
+996	Even a guy had talked either at the restaurant.
+997	Even a guy had talked on weekends at the restaurant.
+998	A guy had talked either even at the restaurant.
+999	A guy had talked on weekends even at the restaurant.
