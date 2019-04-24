@@ -1,1001 +1,501 @@
 index	sentence
-0	The man had also respected even the pedestrians.
-1	The man had ever respected even the pedestrians.
-2	Even the man had also respected the pedestrians.
-3	Even the man had ever respected the pedestrians.
-4	The man had also respected only the pedestrians.
-5	The man had ever respected only the pedestrians.
-6	Only the man had also respected the pedestrians.
-7	Only the man had ever respected the pedestrians.
-8	These teenagers even insult the humans.
-9	Any teenagers even insult the humans.
-10	Even the teenagers insult those humans.
-11	Even the teenagers insult any humans.
-12	These teenagers only insult the humans.
-13	Any teenagers only insult the humans.
-14	Only the teenagers insult those humans.
-15	Only the teenagers insult any humans.
-16	The teenagers could often walk through even the college campuses.
-17	The teenagers could ever walk through even the college campuses.
-18	Even the teenagers could often walk through the college campuses.
-19	Even the teenagers could ever walk through the college campuses.
-20	The teenagers could often walk through only the college campuses.
-21	The teenagers could ever walk through only the college campuses.
-22	Only the teenagers could often walk through the college campuses.
-23	Only the teenagers could ever walk through the college campuses.
-24	The adult has often remembered even the girls.
-25	The adult has ever remembered even the girls.
-26	Even the adult has often remembered the girls.
-27	Even the adult has ever remembered the girls.
-28	The adult has often remembered only the girls.
-29	The adult has ever remembered only the girls.
-30	Only the adult has often remembered the girls.
-31	Only the adult has ever remembered the girls.
-32	The actresses had clearly known even the guys.
-33	The actresses had ever known even the guys.
-34	Even the actresses had clearly known the guys.
-35	Even the actresses had ever known the guys.
-36	The actresses had clearly known only the guys.
-37	The actresses had ever known only the guys.
-38	Only the actresses had clearly known the guys.
-39	Only the actresses had ever known the guys.
-40	These waiters even remembered the people.
-41	Any waiters even remembered the people.
-42	Even the waiters remembered these people.
-43	Even the waiters remembered any people.
-44	These waiters only remembered the people.
-45	Any waiters only remembered the people.
-46	Only the waiters remembered these people.
-47	Only the waiters remembered any people.
-48	The gals had clearly explored even the grocery stores.
-49	The gals had ever explored even the grocery stores.
-50	Even the gals had clearly explored the grocery stores.
-51	Even the gals had ever explored the grocery stores.
-52	The gals had clearly explored only the grocery stores.
-53	The gals had ever explored only the grocery stores.
-54	Only the gals had clearly explored the grocery stores.
-55	Only the gals had ever explored the grocery stores.
-56	The lady certainly forgets even the documentaries.
-57	The lady ever forgets even the documentaries.
-58	Even the lady certainly forgets the documentaries.
-59	Even the lady ever forgets the documentaries.
-60	The lady certainly forgets only the documentaries.
-61	The lady ever forgets only the documentaries.
-62	Only the lady certainly forgets the documentaries.
-63	Only the lady ever forgets the documentaries.
-64	An adult really praised even the girls.
-65	An adult ever praised even the girls.
-66	Even an adult really praised the girls.
-67	Even an adult ever praised the girls.
-68	An adult really praised only the girls.
-69	An adult ever praised only the girls.
-70	Only an adult really praised the girls.
-71	Only an adult ever praised the girls.
-72	The patient clearly explored even the public parks.
-73	The patient ever explored even the public parks.
-74	Even the patient clearly explored the public parks.
-75	Even the patient ever explored the public parks.
-76	The patient clearly explored only the public parks.
-77	The patient ever explored only the public parks.
-78	Only the patient clearly explored the public parks.
-79	Only the patient ever explored the public parks.
-80	The actress really boycotts even the art galleries.
-81	The actress ever boycotts even the art galleries.
-82	Even the actress really boycotts the art galleries.
-83	Even the actress ever boycotts the art galleries.
-84	The actress really boycotts only the art galleries.
-85	The actress ever boycotts only the art galleries.
-86	Only the actress really boycotts the art galleries.
-87	Only the actress ever boycotts the art galleries.
-88	These gals even had exited the grocery stores.
-89	Any gals even had exited the grocery stores.
-90	Even the gals had exited the grocery stores.
-91	Even the gals had exited any grocery stores.
-92	These gals only had exited the grocery stores.
-93	Any gals only had exited the grocery stores.
-94	Only the gals had exited the grocery stores.
-95	Only the gals had exited any grocery stores.
-96	The gals even will sell the newspaper articles.
-97	Any gals even will sell the newspaper articles.
-98	Even the gals will sell the newspaper articles.
-99	Even the gals will sell any newspaper articles.
-100	The gals only will sell the newspaper articles.
-101	Any gals only will sell the newspaper articles.
-102	Only the gals will sell the newspaper articles.
-103	Only the gals will sell any newspaper articles.
-104	The doctor often loved even the gals.
-105	The doctor ever loved even the gals.
-106	Even the doctor often loved the gals.
-107	Even the doctor ever loved the gals.
-108	The doctor often loved only the gals.
-109	The doctor ever loved only the gals.
-110	Only the doctor often loved the gals.
-111	Only the doctor ever loved the gals.
-112	The boys even see the actors.
-113	Any boys even see the actors.
-114	Even the boys see these actors.
-115	Even the boys see any actors.
-116	The boys only see the actors.
-117	Any boys only see the actors.
-118	Only the boys see these actors.
-119	Only the boys see any actors.
-120	These students even were bringing the reports.
-121	Any students even were bringing the reports.
-122	Even the students were bringing the reports.
-123	Even the students were bringing any reports.
-124	These students only were bringing the reports.
-125	Any students only were bringing the reports.
-126	Only the students were bringing the reports.
-127	Only the students were bringing any reports.
-128	A guest did really visit even the children.
-129	A guest did ever visit even the children.
-130	Even a guest did really visit the children.
-131	Even a guest did ever visit the children.
-132	A guest did really visit only the children.
-133	A guest did ever visit only the children.
-134	Only a guest did really visit the children.
-135	Only a guest did ever visit the children.
-136	These adults even were referencing the children.
-137	Any adults even were referencing the children.
-138	Even the adults were referencing the children.
-139	Even the adults were referencing any children.
-140	These adults only were referencing the children.
-141	Any adults only were referencing the children.
-142	Only the adults were referencing the children.
-143	Only the adults were referencing any children.
-144	The guys often kiss even the actresses.
-145	The guys ever kiss even the actresses.
-146	Even the guys often kiss the actresses.
-147	Even the guys ever kiss the actresses.
-148	The guys often kiss only the actresses.
-149	The guys ever kiss only the actresses.
-150	Only the guys often kiss the actresses.
-151	Only the guys ever kiss the actresses.
-152	The drivers also forget even the stories.
-153	The drivers ever forget even the stories.
-154	Even the drivers also forget the stories.
-155	Even the drivers ever forget the stories.
-156	The drivers also forget only the stories.
-157	The drivers ever forget only the stories.
-158	Only the drivers also forget the stories.
-159	Only the drivers ever forget the stories.
-160	The adults had clearly talked to even the men.
-161	The adults had ever talked to even the men.
-162	Even the adults had clearly talked to the men.
-163	Even the adults had ever talked to the men.
-164	The adults had clearly talked to only the men.
-165	The adults had ever talked to only the men.
-166	Only the adults had clearly talked to the men.
-167	Only the adults had ever talked to the men.
-168	The drivers even have left the schools.
-169	Any drivers even have left the schools.
-170	Even the drivers have left the schools.
-171	Even the drivers have left any schools.
-172	The drivers only have left the schools.
-173	Any drivers only have left the schools.
-174	Only the drivers have left the schools.
-175	Only the drivers have left any schools.
-176	The students certainly left even the high schools.
-177	The students ever left even the high schools.
-178	Even the students certainly left the high schools.
-179	Even the students ever left the high schools.
-180	The students certainly left only the high schools.
-181	The students ever left only the high schools.
-182	Only the students certainly left the high schools.
-183	Only the students ever left the high schools.
-184	Those ladies even left the doctors.
-185	Any ladies even left the doctors.
-186	Even the ladies left those doctors.
-187	Even the ladies left any doctors.
-188	Those ladies only left the doctors.
-189	Any ladies only left the doctors.
-190	Only the ladies left those doctors.
-191	Only the ladies left any doctors.
-192	Those actresses even flee from the college campuses.
-193	Any actresses even flee from the college campuses.
-194	Even the actresses flee from the college campuses.
-195	Even the actresses flee from any college campuses.
-196	Those actresses only flee from the college campuses.
-197	Any actresses only flee from the college campuses.
-198	Only the actresses flee from the college campuses.
-199	Only the actresses flee from any college campuses.
-200	The adults even have dropped by the art galleries.
-201	Any adults even have dropped by the art galleries.
-202	Even the adults have dropped by those art galleries.
-203	Even the adults have dropped by any art galleries.
-204	The adults only have dropped by the art galleries.
-205	Any adults only have dropped by the art galleries.
-206	Only the adults have dropped by those art galleries.
-207	Only the adults have dropped by any art galleries.
-208	The humans certainly praised even the plays.
-209	The humans ever praised even the plays.
-210	Even the humans certainly praised the plays.
-211	Even the humans ever praised the plays.
-212	The humans certainly praised only the plays.
-213	The humans ever praised only the plays.
-214	Only the humans certainly praised the plays.
-215	Only the humans ever praised the plays.
-216	The people even sold the rugs.
-217	Any people even sold the rugs.
-218	Even the people sold those rugs.
-219	Even the people sold any rugs.
-220	The people only sold the rugs.
-221	Any people only sold the rugs.
-222	Only the people sold those rugs.
-223	Only the people sold any rugs.
-224	A teenager had certainly cared for even the children.
-225	A teenager had ever cared for even the children.
-226	Even a teenager had certainly cared for the children.
-227	Even a teenager had ever cared for the children.
-228	A teenager had certainly cared for only the children.
-229	A teenager had ever cared for only the children.
-230	Only a teenager had certainly cared for the children.
-231	Only a teenager had ever cared for the children.
-232	The teenager certainly listens to even the customers.
-233	The teenager ever listens to even the customers.
-234	Even the teenager certainly listens to the customers.
-235	Even the teenager ever listens to the customers.
-236	The teenager certainly listens to only the customers.
-237	The teenager ever listens to only the customers.
-238	Only the teenager certainly listens to the customers.
-239	Only the teenager ever listens to the customers.
-240	A lady could often reference even the pedestrians.
-241	A lady could ever reference even the pedestrians.
-242	Even a lady could often reference the pedestrians.
-243	Even a lady could ever reference the pedestrians.
-244	A lady could often reference only the pedestrians.
-245	A lady could ever reference only the pedestrians.
-246	Only a lady could often reference the pedestrians.
-247	Only a lady could ever reference the pedestrians.
-248	The children certainly dislike even the adults.
-249	The children ever dislike even the adults.
-250	Even the children certainly dislike the adults.
-251	Even the children ever dislike the adults.
-252	The children certainly dislike only the adults.
-253	The children ever dislike only the adults.
-254	Only the children certainly dislike the adults.
-255	Only the children ever dislike the adults.
-256	Those waiters even have hugged the pedestrians.
-257	Any waiters even have hugged the pedestrians.
-258	Even the waiters have hugged the pedestrians.
-259	Even the waiters have hugged any pedestrians.
-260	Those waiters only have hugged the pedestrians.
-261	Any waiters only have hugged the pedestrians.
-262	Only the waiters have hugged the pedestrians.
-263	Only the waiters have hugged any pedestrians.
-264	Those actresses even discussed the college campuses.
-265	Any actresses even discussed the college campuses.
-266	Even the actresses discussed those college campuses.
-267	Even the actresses discussed any college campuses.
-268	Those actresses only discussed the college campuses.
-269	Any actresses only discussed the college campuses.
-270	Only the actresses discussed those college campuses.
-271	Only the actresses discussed any college campuses.
-272	These cashiers even have attacked the students.
-273	Any cashiers even have attacked the students.
-274	Even the cashiers have attacked the students.
-275	Even the cashiers have attacked any students.
-276	These cashiers only have attacked the students.
-277	Any cashiers only have attacked the students.
-278	Only the cashiers have attacked the students.
-279	Only the cashiers have attacked any students.
-280	The actors really explored even the restaurants.
-281	The actors ever explored even the restaurants.
-282	Even the actors really explored the restaurants.
-283	Even the actors ever explored the restaurants.
-284	The actors really explored only the restaurants.
-285	The actors ever explored only the restaurants.
-286	Only the actors really explored the restaurants.
-287	Only the actors ever explored the restaurants.
-288	A lady will certainly dislike even the teenagers.
-289	A lady will ever dislike even the teenagers.
-290	Even a lady will certainly dislike the teenagers.
-291	Even a lady will ever dislike the teenagers.
-292	A lady will certainly dislike only the teenagers.
-293	A lady will ever dislike only the teenagers.
-294	Only a lady will certainly dislike the teenagers.
-295	Only a lady will ever dislike the teenagers.
-296	The actors clearly investigate even the patients.
-297	The actors ever investigate even the patients.
-298	Even the actors clearly investigate the patients.
-299	Even the actors ever investigate the patients.
-300	The actors clearly investigate only the patients.
-301	The actors ever investigate only the patients.
-302	Only the actors clearly investigate the patients.
-303	Only the actors ever investigate the patients.
-304	The waitresses also left even the ladies.
-305	The waitresses ever left even the ladies.
-306	Even the waitresses also left the ladies.
-307	Even the waitresses ever left the ladies.
-308	The waitresses also left only the ladies.
-309	The waitresses ever left only the ladies.
-310	Only the waitresses also left the ladies.
-311	Only the waitresses ever left the ladies.
-312	The doctors could clearly clean even the rugs.
-313	The doctors could ever clean even the rugs.
-314	Even the doctors could clearly clean the rugs.
-315	Even the doctors could ever clean the rugs.
-316	The doctors could clearly clean only the rugs.
-317	The doctors could ever clean only the rugs.
-318	Only the doctors could clearly clean the rugs.
-319	Only the doctors could ever clean the rugs.
-320	The men also ran around even the hospitals.
-321	The men ever ran around even the hospitals.
-322	Even the men also ran around the hospitals.
-323	Even the men ever ran around the hospitals.
-324	The men also ran around only the hospitals.
-325	The men ever ran around only the hospitals.
-326	Only the men also ran around the hospitals.
-327	Only the men ever ran around the hospitals.
-328	The girls even respected the malls.
-329	Any girls even respected the malls.
-330	Even the girls respected those malls.
-331	Even the girls respected any malls.
-332	The girls only respected the malls.
-333	Any girls only respected the malls.
-334	Only the girls respected those malls.
-335	Only the girls respected any malls.
-336	The patients even would praise the humans.
-337	Any patients even would praise the humans.
-338	Even the patients would praise these humans.
-339	Even the patients would praise any humans.
-340	The patients only would praise the humans.
-341	Any patients only would praise the humans.
-342	Only the patients would praise these humans.
-343	Only the patients would praise any humans.
-344	A doctor might also kiss even the guys.
-345	A doctor might ever kiss even the guys.
-346	Even a doctor might also kiss the guys.
-347	Even a doctor might ever kiss the guys.
-348	A doctor might also kiss only the guys.
-349	A doctor might ever kiss only the guys.
-350	Only a doctor might also kiss the guys.
-351	Only a doctor might ever kiss the guys.
-352	The people have often talked to even the waiters.
-353	The people have ever talked to even the waiters.
-354	Even the people have often talked to the waiters.
-355	Even the people have ever talked to the waiters.
-356	The people have often talked to only the waiters.
-357	The people have ever talked to only the waiters.
-358	Only the people have often talked to the waiters.
-359	Only the people have ever talked to the waiters.
-360	An adult often sees even the forks.
-361	An adult ever sees even the forks.
-362	Even an adult often sees the forks.
-363	Even an adult ever sees the forks.
-364	An adult often sees only the forks.
-365	An adult ever sees only the forks.
-366	Only an adult often sees the forks.
-367	Only an adult ever sees the forks.
-368	The student certainly hugged even the people.
-369	The student ever hugged even the people.
-370	Even the student certainly hugged the people.
-371	Even the student ever hugged the people.
-372	The student certainly hugged only the people.
-373	The student ever hugged only the people.
-374	Only the student certainly hugged the people.
-375	Only the student ever hugged the people.
-376	Those humans even see the guests.
-377	Any humans even see the guests.
-378	Even the humans see the guests.
-379	Even the humans see any guests.
-380	Those humans only see the guests.
-381	Any humans only see the guests.
-382	Only the humans see the guests.
-383	Only the humans see any guests.
-384	These doctors even had cleaned the cars.
-385	Any doctors even had cleaned the cars.
-386	Even the doctors had cleaned the cars.
-387	Even the doctors had cleaned any cars.
-388	These doctors only had cleaned the cars.
-389	Any doctors only had cleaned the cars.
-390	Only the doctors had cleaned the cars.
-391	Only the doctors had cleaned any cars.
-392	The children did clearly explore even the hospitals.
-393	The children did ever explore even the hospitals.
-394	Even the children did clearly explore the hospitals.
-395	Even the children did ever explore the hospitals.
-396	The children did clearly explore only the hospitals.
-397	The children did ever explore only the hospitals.
-398	Only the children did clearly explore the hospitals.
-399	Only the children did ever explore the hospitals.
-400	The waiters even tour the hospitals.
-401	Any waiters even tour the hospitals.
-402	Even the waiters tour the hospitals.
-403	Even the waiters tour any hospitals.
-404	The waiters only tour the hospitals.
-405	Any waiters only tour the hospitals.
-406	Only the waiters tour the hospitals.
-407	Only the waiters tour any hospitals.
-408	A teenager should really respect even the grocery stores.
-409	A teenager should ever respect even the grocery stores.
-410	Even a teenager should really respect the grocery stores.
-411	Even a teenager should ever respect the grocery stores.
-412	A teenager should really respect only the grocery stores.
-413	A teenager should ever respect only the grocery stores.
-414	Only a teenager should really respect the grocery stores.
-415	Only a teenager should ever respect the grocery stores.
-416	A pedestrian clearly sold even the plates.
-417	A pedestrian ever sold even the plates.
-418	Even a pedestrian clearly sold the plates.
-419	Even a pedestrian ever sold the plates.
-420	A pedestrian clearly sold only the plates.
-421	A pedestrian ever sold only the plates.
-422	Only a pedestrian clearly sold the plates.
-423	Only a pedestrian ever sold the plates.
-424	A teenager had often dropped by even the restaurants.
-425	A teenager had ever dropped by even the restaurants.
-426	Even a teenager had often dropped by the restaurants.
-427	Even a teenager had ever dropped by the restaurants.
-428	A teenager had often dropped by only the restaurants.
-429	A teenager had ever dropped by only the restaurants.
-430	Only a teenager had often dropped by the restaurants.
-431	Only a teenager had ever dropped by the restaurants.
-432	The man can also drive to even the high schools.
-433	The man can ever drive to even the high schools.
-434	Even the man can also drive to the high schools.
-435	Even the man can ever drive to the high schools.
-436	The man can also drive to only the high schools.
-437	The man can ever drive to only the high schools.
-438	Only the man can also drive to the high schools.
-439	Only the man can ever drive to the high schools.
-440	These actors even have disliked the high schools.
-441	Any actors even have disliked the high schools.
-442	Even the actors have disliked these high schools.
-443	Even the actors have disliked any high schools.
-444	These actors only have disliked the high schools.
-445	Any actors only have disliked the high schools.
-446	Only the actors have disliked these high schools.
-447	Only the actors have disliked any high schools.
-448	The women even are leaving the patients.
-449	Any women even are leaving the patients.
-450	Even the women are leaving those patients.
-451	Even the women are leaving any patients.
-452	The women only are leaving the patients.
-453	Any women only are leaving the patients.
-454	Only the women are leaving those patients.
-455	Only the women are leaving any patients.
-456	These waiters even passed the grocery stores.
-457	Any waiters even passed the grocery stores.
-458	Even the waiters passed these grocery stores.
-459	Even the waiters passed any grocery stores.
-460	These waiters only passed the grocery stores.
-461	Any waiters only passed the grocery stores.
-462	Only the waiters passed these grocery stores.
-463	Only the waiters passed any grocery stores.
-464	These teachers even scanned the movies.
-465	Any teachers even scanned the movies.
-466	Even the teachers scanned the movies.
-467	Even the teachers scanned any movies.
-468	These teachers only scanned the movies.
-469	Any teachers only scanned the movies.
-470	Only the teachers scanned the movies.
-471	Only the teachers scanned any movies.
-472	The humans even had hugged the pedestrians.
-473	Any humans even had hugged the pedestrians.
-474	Even the humans had hugged those pedestrians.
-475	Even the humans had hugged any pedestrians.
-476	The humans only had hugged the pedestrians.
-477	Any humans only had hugged the pedestrians.
-478	Only the humans had hugged those pedestrians.
-479	Only the humans had hugged any pedestrians.
-480	The actresses have clearly cared for even the students.
-481	The actresses have ever cared for even the students.
-482	Even the actresses have clearly cared for the students.
-483	Even the actresses have ever cared for the students.
-484	The actresses have clearly cared for only the students.
-485	The actresses have ever cared for only the students.
-486	Only the actresses have clearly cared for the students.
-487	Only the actresses have ever cared for the students.
-488	Those men even are insulting the drivers.
-489	Any men even are insulting the drivers.
-490	Even the men are insulting these drivers.
-491	Even the men are insulting any drivers.
-492	Those men only are insulting the drivers.
-493	Any men only are insulting the drivers.
-494	Only the men are insulting these drivers.
-495	Only the men are insulting any drivers.
-496	The boys really insult even the high schools.
-497	The boys ever insult even the high schools.
-498	Even the boys really insult the high schools.
-499	Even the boys ever insult the high schools.
-500	The boys really insult only the high schools.
-501	The boys ever insult only the high schools.
-502	Only the boys really insult the high schools.
-503	Only the boys ever insult the high schools.
-504	The teachers certainly skated around even the high schools.
-505	The teachers ever skated around even the high schools.
-506	Even the teachers certainly skated around the high schools.
-507	Even the teachers ever skated around the high schools.
-508	The teachers certainly skated around only the high schools.
-509	The teachers ever skated around only the high schools.
-510	Only the teachers certainly skated around the high schools.
-511	Only the teachers ever skated around the high schools.
-512	The waiters really approach even the doctors.
-513	The waiters ever approach even the doctors.
-514	Even the waiters really approach the doctors.
-515	Even the waiters ever approach the doctors.
-516	The waiters really approach only the doctors.
-517	The waiters ever approach only the doctors.
-518	Only the waiters really approach the doctors.
-519	Only the waiters ever approach the doctors.
-520	Those pedestrians even escape from the cashiers.
-521	Any pedestrians even escape from the cashiers.
-522	Even the pedestrians escape from these cashiers.
-523	Even the pedestrians escape from any cashiers.
-524	Those pedestrians only escape from the cashiers.
-525	Any pedestrians only escape from the cashiers.
-526	Only the pedestrians escape from these cashiers.
-527	Only the pedestrians escape from any cashiers.
-528	A woman also approached even the actresses.
-529	A woman ever approached even the actresses.
-530	Even a woman also approached the actresses.
-531	Even a woman ever approached the actresses.
-532	A woman also approached only the actresses.
-533	A woman ever approached only the actresses.
-534	Only a woman also approached the actresses.
-535	Only a woman ever approached the actresses.
-536	The teachers also boycott even the malls.
-537	The teachers ever boycott even the malls.
-538	Even the teachers also boycott the malls.
-539	Even the teachers ever boycott the malls.
-540	The teachers also boycott only the malls.
-541	The teachers ever boycott only the malls.
-542	Only the teachers also boycott the malls.
-543	Only the teachers ever boycott the malls.
-544	An adult certainly leaves even the customers.
-545	An adult ever leaves even the customers.
-546	Even an adult certainly leaves the customers.
-547	Even an adult ever leaves the customers.
-548	An adult certainly leaves only the customers.
-549	An adult ever leaves only the customers.
-550	Only an adult certainly leaves the customers.
-551	Only an adult ever leaves the customers.
-552	The adults clearly care for even the drivers.
-553	The adults ever care for even the drivers.
-554	Even the adults clearly care for the drivers.
-555	Even the adults ever care for the drivers.
-556	The adults clearly care for only the drivers.
-557	The adults ever care for only the drivers.
-558	Only the adults clearly care for the drivers.
-559	Only the adults ever care for the drivers.
-560	The teachers clearly exit even the hospitals.
-561	The teachers ever exit even the hospitals.
-562	Even the teachers clearly exit the hospitals.
-563	Even the teachers ever exit the hospitals.
-564	The teachers clearly exit only the hospitals.
-565	The teachers ever exit only the hospitals.
-566	Only the teachers clearly exit the hospitals.
-567	Only the teachers ever exit the hospitals.
-568	The students even respected the actors.
-569	Any students even respected the actors.
-570	Even the students respected those actors.
-571	Even the students respected any actors.
-572	The students only respected the actors.
-573	Any students only respected the actors.
-574	Only the students respected those actors.
-575	Only the students respected any actors.
-576	The patients even took the glasses.
-577	Any patients even took the glasses.
-578	Even the patients took these glasses.
-579	Even the patients took any glasses.
-580	The patients only took the glasses.
-581	Any patients only took the glasses.
-582	Only the patients took these glasses.
-583	Only the patients took any glasses.
-584	A cashier often admired even the gals.
-585	A cashier ever admired even the gals.
-586	Even a cashier often admired the gals.
-587	Even a cashier ever admired the gals.
-588	A cashier often admired only the gals.
-589	A cashier ever admired only the gals.
-590	Only a cashier often admired the gals.
-591	Only a cashier ever admired the gals.
-592	A teacher also praises even the cashiers.
-593	A teacher ever praises even the cashiers.
-594	Even a teacher also praises the cashiers.
-595	Even a teacher ever praises the cashiers.
-596	A teacher also praises only the cashiers.
-597	A teacher ever praises only the cashiers.
-598	Only a teacher also praises the cashiers.
-599	Only a teacher ever praises the cashiers.
-600	Those gals even hated the guests.
-601	Any gals even hated the guests.
-602	Even the gals hated these guests.
-603	Even the gals hated any guests.
-604	Those gals only hated the guests.
-605	Any gals only hated the guests.
-606	Only the gals hated these guests.
-607	Only the gals hated any guests.
-608	Those drivers even dropped by the museums.
-609	Any drivers even dropped by the museums.
-610	Even the drivers dropped by the museums.
-611	Even the drivers dropped by any museums.
-612	Those drivers only dropped by the museums.
-613	Any drivers only dropped by the museums.
-614	Only the drivers dropped by the museums.
-615	Only the drivers dropped by any museums.
-616	The children even talk about the plays.
-617	Any children even talk about the plays.
-618	Even the children talk about the plays.
-619	Even the children talk about any plays.
-620	The children only talk about the plays.
-621	Any children only talk about the plays.
-622	Only the children talk about the plays.
-623	Only the children talk about any plays.
-624	These people even kissed the teenagers.
-625	Any people even kissed the teenagers.
-626	Even the people kissed the teenagers.
-627	Even the people kissed any teenagers.
-628	These people only kissed the teenagers.
-629	Any people only kissed the teenagers.
-630	Only the people kissed the teenagers.
-631	Only the people kissed any teenagers.
-632	These actors even talked to the women.
-633	Any actors even talked to the women.
-634	Even the actors talked to the women.
-635	Even the actors talked to any women.
-636	These actors only talked to the women.
-637	Any actors only talked to the women.
-638	Only the actors talked to the women.
-639	Only the actors talked to any women.
-640	Those teachers even walked through the malls.
-641	Any teachers even walked through the malls.
-642	Even the teachers walked through these malls.
-643	Even the teachers walked through any malls.
-644	Those teachers only walked through the malls.
-645	Any teachers only walked through the malls.
-646	Only the teachers walked through these malls.
-647	Only the teachers walked through any malls.
-648	A woman certainly insulted even the women.
-649	A woman ever insulted even the women.
-650	Even a woman certainly insulted the women.
-651	Even a woman ever insulted the women.
-652	A woman certainly insulted only the women.
-653	A woman ever insulted only the women.
-654	Only a woman certainly insulted the women.
-655	Only a woman ever insulted the women.
-656	The actresses certainly knew even the women.
-657	The actresses ever knew even the women.
-658	Even the actresses certainly knew the women.
-659	Even the actresses ever knew the women.
-660	The actresses certainly knew only the women.
-661	The actresses ever knew only the women.
-662	Only the actresses certainly knew the women.
-663	Only the actresses ever knew the women.
-664	The actresses had clearly talked to even the teenagers.
-665	The actresses had ever talked to even the teenagers.
-666	Even the actresses had clearly talked to the teenagers.
-667	Even the actresses had ever talked to the teenagers.
-668	The actresses had clearly talked to only the teenagers.
-669	The actresses had ever talked to only the teenagers.
-670	Only the actresses had clearly talked to the teenagers.
-671	Only the actresses had ever talked to the teenagers.
-672	The boy could often hate even the reports.
-673	The boy could ever hate even the reports.
-674	Even the boy could often hate the reports.
-675	Even the boy could ever hate the reports.
-676	The boy could often hate only the reports.
-677	The boy could ever hate only the reports.
-678	Only the boy could often hate the reports.
-679	Only the boy could ever hate the reports.
-680	A guy really drove to even the grocery stores.
-681	A guy ever drove to even the grocery stores.
-682	Even a guy really drove to the grocery stores.
-683	Even a guy ever drove to the grocery stores.
-684	A guy really drove to only the grocery stores.
-685	A guy ever drove to only the grocery stores.
-686	Only a guy really drove to the grocery stores.
-687	Only a guy ever drove to the grocery stores.
-688	The guests even were referencing the adults.
-689	Any guests even were referencing the adults.
-690	Even the guests were referencing the adults.
-691	Even the guests were referencing any adults.
-692	The guests only were referencing the adults.
-693	Any guests only were referencing the adults.
-694	Only the guests were referencing the adults.
-695	Only the guests were referencing any adults.
-696	The girls really help even the doctors.
-697	The girls ever help even the doctors.
-698	Even the girls really help the doctors.
-699	Even the girls ever help the doctors.
-700	The girls really help only the doctors.
-701	The girls ever help only the doctors.
-702	Only the girls really help the doctors.
-703	Only the girls ever help the doctors.
-704	The men even had skated around the art galleries.
-705	Any men even had skated around the art galleries.
-706	Even the men had skated around these art galleries.
-707	Even the men had skated around any art galleries.
-708	The men only had skated around the art galleries.
-709	Any men only had skated around the art galleries.
-710	Only the men had skated around these art galleries.
-711	Only the men had skated around any art galleries.
-712	The customer can certainly pass even the museums.
-713	The customer can ever pass even the museums.
-714	Even the customer can certainly pass the museums.
-715	Even the customer can ever pass the museums.
-716	The customer can certainly pass only the museums.
-717	The customer can ever pass only the museums.
-718	Only the customer can certainly pass the museums.
-719	Only the customer can ever pass the museums.
-720	Those men even would criticize the plays.
-721	Any men even would criticize the plays.
-722	Even the men would criticize these plays.
-723	Even the men would criticize any plays.
-724	Those men only would criticize the plays.
-725	Any men only would criticize the plays.
-726	Only the men would criticize these plays.
-727	Only the men would criticize any plays.
-728	Those pedestrians even forgot the movies.
-729	Any pedestrians even forgot the movies.
-730	Even the pedestrians forgot these movies.
-731	Even the pedestrians forgot any movies.
-732	Those pedestrians only forgot the movies.
-733	Any pedestrians only forgot the movies.
-734	Only the pedestrians forgot these movies.
-735	Only the pedestrians forgot any movies.
-736	Those women even fled from the drivers.
-737	Any women even fled from the drivers.
-738	Even the women fled from those drivers.
-739	Even the women fled from any drivers.
-740	Those women only fled from the drivers.
-741	Any women only fled from the drivers.
-742	Only the women fled from those drivers.
-743	Only the women fled from any drivers.
-744	The patients have really kissed even the humans.
-745	The patients have ever kissed even the humans.
-746	Even the patients have really kissed the humans.
-747	Even the patients have ever kissed the humans.
-748	The patients have really kissed only the humans.
-749	The patients have ever kissed only the humans.
-750	Only the patients have really kissed the humans.
-751	Only the patients have ever kissed the humans.
-752	These men even should wear the gloves.
-753	Any men even should wear the gloves.
-754	Even the men should wear the gloves.
-755	Even the men should wear any gloves.
-756	These men only should wear the gloves.
-757	Any men only should wear the gloves.
-758	Only the men should wear the gloves.
-759	Only the men should wear any gloves.
-760	A boy would often know even the drivers.
-761	A boy would ever know even the drivers.
-762	Even a boy would often know the drivers.
-763	Even a boy would ever know the drivers.
-764	A boy would often know only the drivers.
-765	A boy would ever know only the drivers.
-766	Only a boy would often know the drivers.
-767	Only a boy would ever know the drivers.
-768	The waitresses even watch the boys.
-769	Any waitresses even watch the boys.
-770	Even the waitresses watch the boys.
-771	Even the waitresses watch any boys.
-772	The waitresses only watch the boys.
-773	Any waitresses only watch the boys.
-774	Only the waitresses watch the boys.
-775	Only the waitresses watch any boys.
-776	The pedestrians certainly exit even the college campuses.
-777	The pedestrians ever exit even the college campuses.
-778	Even the pedestrians certainly exit the college campuses.
-779	Even the pedestrians ever exit the college campuses.
-780	The pedestrians certainly exit only the college campuses.
-781	The pedestrians ever exit only the college campuses.
-782	Only the pedestrians certainly exit the college campuses.
-783	Only the pedestrians ever exit the college campuses.
-784	Those doctors even have forgotten the books.
-785	Any doctors even have forgotten the books.
-786	Even the doctors have forgotten these books.
-787	Even the doctors have forgotten any books.
-788	Those doctors only have forgotten the books.
-789	Any doctors only have forgotten the books.
-790	Only the doctors have forgotten these books.
-791	Only the doctors have forgotten any books.
-792	A person can also return to even the grocery stores.
-793	A person can ever return to even the grocery stores.
-794	Even a person can also return to the grocery stores.
-795	Even a person can ever return to the grocery stores.
-796	A person can also return to only the grocery stores.
-797	A person can ever return to only the grocery stores.
-798	Only a person can also return to the grocery stores.
-799	Only a person can ever return to the grocery stores.
-800	These guests even were returning to the college campuses.
-801	Any guests even were returning to the college campuses.
-802	Even the guests were returning to these college campuses.
-803	Even the guests were returning to any college campuses.
-804	These guests only were returning to the college campuses.
-805	Any guests only were returning to the college campuses.
-806	Only the guests were returning to these college campuses.
-807	Only the guests were returning to any college campuses.
-808	An actress had clearly lifted even the glasses.
-809	An actress had ever lifted even the glasses.
-810	Even an actress had clearly lifted the glasses.
-811	Even an actress had ever lifted the glasses.
-812	An actress had clearly lifted only the glasses.
-813	An actress had ever lifted only the glasses.
-814	Only an actress had clearly lifted the glasses.
-815	Only an actress had ever lifted the glasses.
-816	The children even work with the cashiers.
-817	Any children even work with the cashiers.
-818	Even the children work with these cashiers.
-819	Even the children work with any cashiers.
-820	The children only work with the cashiers.
-821	Any children only work with the cashiers.
-822	Only the children work with these cashiers.
-823	Only the children work with any cashiers.
-824	These boys even will respect the students.
-825	Any boys even will respect the students.
-826	Even the boys will respect the students.
-827	Even the boys will respect any students.
-828	These boys only will respect the students.
-829	Any boys only will respect the students.
-830	Only the boys will respect the students.
-831	Only the boys will respect any students.
-832	Those doctors even work with the waiters.
-833	Any doctors even work with the waiters.
-834	Even the doctors work with the waiters.
-835	Even the doctors work with any waiters.
-836	Those doctors only work with the waiters.
-837	Any doctors only work with the waiters.
-838	Only the doctors work with the waiters.
-839	Only the doctors work with any waiters.
-840	The guys even remember the reports.
-841	Any guys even remember the reports.
-842	Even the guys remember those reports.
-843	Even the guys remember any reports.
-844	The guys only remember the reports.
-845	Any guys only remember the reports.
-846	Only the guys remember those reports.
-847	Only the guys remember any reports.
-848	Those actors even wear the pants.
-849	Any actors even wear the pants.
-850	Even the actors wear those pants.
-851	Even the actors wear any pants.
-852	Those actors only wear the pants.
-853	Any actors only wear the pants.
-854	Only the actors wear those pants.
-855	Only the actors wear any pants.
-856	The girl does also go to even the hospitals.
-857	The girl does ever go to even the hospitals.
-858	Even the girl does also go to the hospitals.
-859	Even the girl does ever go to the hospitals.
-860	The girl does also go to only the hospitals.
-861	The girl does ever go to only the hospitals.
-862	Only the girl does also go to the hospitals.
-863	Only the girl does ever go to the hospitals.
-864	A child does often dislike even the newspaper articles.
-865	A child does ever dislike even the newspaper articles.
-866	Even a child does often dislike the newspaper articles.
-867	Even a child does ever dislike the newspaper articles.
-868	A child does often dislike only the newspaper articles.
-869	A child does ever dislike only the newspaper articles.
-870	Only a child does often dislike the newspaper articles.
-871	Only a child does ever dislike the newspaper articles.
-872	Those waiters even had boycotted the banks.
-873	Any waiters even had boycotted the banks.
-874	Even the waiters had boycotted the banks.
-875	Even the waiters had boycotted any banks.
-876	Those waiters only had boycotted the banks.
-877	Any waiters only had boycotted the banks.
-878	Only the waiters had boycotted the banks.
-879	Only the waiters had boycotted any banks.
-880	The girls have really criticized even the teachers.
-881	The girls have ever criticized even the teachers.
-882	Even the girls have really criticized the teachers.
-883	Even the girls have ever criticized the teachers.
-884	The girls have really criticized only the teachers.
-885	The girls have ever criticized only the teachers.
-886	Only the girls have really criticized the teachers.
-887	Only the girls have ever criticized the teachers.
-888	These doctors even have seen the pants.
-889	Any doctors even have seen the pants.
-890	Even the doctors have seen those pants.
-891	Even the doctors have seen any pants.
-892	These doctors only have seen the pants.
-893	Any doctors only have seen the pants.
-894	Only the doctors have seen those pants.
-895	Only the doctors have seen any pants.
-896	The lady should clearly drop by even the high schools.
-897	The lady should ever drop by even the high schools.
-898	Even the lady should clearly drop by the high schools.
-899	Even the lady should ever drop by the high schools.
-900	The lady should clearly drop by only the high schools.
-901	The lady should ever drop by only the high schools.
-902	Only the lady should clearly drop by the high schools.
-903	Only the lady should ever drop by the high schools.
-904	The doctors even should boycott the libraries.
-905	Any doctors even should boycott the libraries.
-906	Even the doctors should boycott the libraries.
-907	Even the doctors should boycott any libraries.
-908	The doctors only should boycott the libraries.
-909	Any doctors only should boycott the libraries.
-910	Only the doctors should boycott the libraries.
-911	Only the doctors should boycott any libraries.
-912	These guests even are escaping from the gals.
-913	Any guests even are escaping from the gals.
-914	Even the guests are escaping from the gals.
-915	Even the guests are escaping from any gals.
-916	These guests only are escaping from the gals.
-917	Any guests only are escaping from the gals.
-918	Only the guests are escaping from the gals.
-919	Only the guests are escaping from any gals.
-920	These students even know the guests.
-921	Any students even know the guests.
-922	Even the students know the guests.
-923	Even the students know any guests.
-924	These students only know the guests.
-925	Any students only know the guests.
-926	Only the students know the guests.
-927	Only the students know any guests.
-928	The girls even did insult the art galleries.
-929	Any girls even did insult the art galleries.
-930	Even the girls did insult those art galleries.
-931	Even the girls did insult any art galleries.
-932	The girls only did insult the art galleries.
-933	Any girls only did insult the art galleries.
-934	Only the girls did insult those art galleries.
-935	Only the girls did insult any art galleries.
-936	The pedestrians even referenced the actresses.
-937	Any pedestrians even referenced the actresses.
-938	Even the pedestrians referenced these actresses.
-939	Even the pedestrians referenced any actresses.
-940	The pedestrians only referenced the actresses.
-941	Any pedestrians only referenced the actresses.
-942	Only the pedestrians referenced these actresses.
-943	Only the pedestrians referenced any actresses.
-944	The ladies have often toured even the public parks.
-945	The ladies have ever toured even the public parks.
-946	Even the ladies have often toured the public parks.
-947	Even the ladies have ever toured the public parks.
-948	The ladies have often toured only the public parks.
-949	The ladies have ever toured only the public parks.
-950	Only the ladies have often toured the public parks.
-951	Only the ladies have ever toured the public parks.
-952	The boys have often passed even the high schools.
-953	The boys have ever passed even the high schools.
-954	Even the boys have often passed the high schools.
-955	Even the boys have ever passed the high schools.
-956	The boys have often passed only the high schools.
-957	The boys have ever passed only the high schools.
-958	Only the boys have often passed the high schools.
-959	Only the boys have ever passed the high schools.
-960	A waitress often drove to even the banks.
-961	A waitress ever drove to even the banks.
-962	Even a waitress often drove to the banks.
-963	Even a waitress ever drove to the banks.
-964	A waitress often drove to only the banks.
-965	A waitress ever drove to only the banks.
-966	Only a waitress often drove to the banks.
-967	Only a waitress ever drove to the banks.
-968	These teachers even talked to the guests.
-969	Any teachers even talked to the guests.
-970	Even the teachers talked to the guests.
-971	Even the teachers talked to any guests.
-972	These teachers only talked to the guests.
-973	Any teachers only talked to the guests.
-974	Only the teachers talked to the guests.
-975	Only the teachers talked to any guests.
-976	The boys clearly hate even the ladies.
-977	The boys ever hate even the ladies.
-978	Even the boys clearly hate the ladies.
-979	Even the boys ever hate the ladies.
-980	The boys clearly hate only the ladies.
-981	The boys ever hate only the ladies.
-982	Only the boys clearly hate the ladies.
-983	Only the boys ever hate the ladies.
-984	These teenagers even walk through the malls.
-985	Any teenagers even walk through the malls.
-986	Even the teenagers walk through these malls.
-987	Even the teenagers walk through any malls.
-988	These teenagers only walk through the malls.
-989	Any teenagers only walk through the malls.
-990	Only the teenagers walk through these malls.
-991	Only the teenagers walk through any malls.
-992	The girls even should see the teenagers.
-993	Any girls even should see the teenagers.
-994	Even the girls should see the teenagers.
-995	Even the girls should see any teenagers.
-996	The girls only should see the teenagers.
-997	Any girls only should see the teenagers.
-998	Only the girls should see the teenagers.
-999	Only the girls should see any teenagers.
+0	The man had also respected only the pedestrians.
+1	The man had ever respected only the pedestrians.
+2	Only the man had also respected the pedestrians.
+3	Only the man had ever respected the pedestrians.
+4	These teenagers only insult the humans.
+5	Any teenagers only insult the humans.
+6	Only the teenagers insult those humans.
+7	Only the teenagers insult any humans.
+8	The teenagers could often walk through only the college campuses.
+9	The teenagers could ever walk through only the college campuses.
+10	Only the teenagers could often walk through the college campuses.
+11	Only the teenagers could ever walk through the college campuses.
+12	The adult has often remembered only the girls.
+13	The adult has ever remembered only the girls.
+14	Only the adult has often remembered the girls.
+15	Only the adult has ever remembered the girls.
+16	The actresses had clearly known only the guys.
+17	The actresses had ever known only the guys.
+18	Only the actresses had clearly known the guys.
+19	Only the actresses had ever known the guys.
+20	These waiters only remembered the people.
+21	Any waiters only remembered the people.
+22	Only the waiters remembered these people.
+23	Only the waiters remembered any people.
+24	The gals had clearly explored only the grocery stores.
+25	The gals had ever explored only the grocery stores.
+26	Only the gals had clearly explored the grocery stores.
+27	Only the gals had ever explored the grocery stores.
+28	The lady certainly forgets only the documentaries.
+29	The lady ever forgets only the documentaries.
+30	Only the lady certainly forgets the documentaries.
+31	Only the lady ever forgets the documentaries.
+32	An adult really praised only the girls.
+33	An adult ever praised only the girls.
+34	Only an adult really praised the girls.
+35	Only an adult ever praised the girls.
+36	The patient clearly explored only the public parks.
+37	The patient ever explored only the public parks.
+38	Only the patient clearly explored the public parks.
+39	Only the patient ever explored the public parks.
+40	The actress really boycotts only the art galleries.
+41	The actress ever boycotts only the art galleries.
+42	Only the actress really boycotts the art galleries.
+43	Only the actress ever boycotts the art galleries.
+44	These gals only had exited the grocery stores.
+45	Any gals only had exited the grocery stores.
+46	Only the gals had exited the grocery stores.
+47	Only the gals had exited any grocery stores.
+48	The gals only will sell the newspaper articles.
+49	Any gals only will sell the newspaper articles.
+50	Only the gals will sell the newspaper articles.
+51	Only the gals will sell any newspaper articles.
+52	The doctor often loved only the gals.
+53	The doctor ever loved only the gals.
+54	Only the doctor often loved the gals.
+55	Only the doctor ever loved the gals.
+56	The boys only see the actors.
+57	Any boys only see the actors.
+58	Only the boys see these actors.
+59	Only the boys see any actors.
+60	These students only were bringing the reports.
+61	Any students only were bringing the reports.
+62	Only the students were bringing the reports.
+63	Only the students were bringing any reports.
+64	A guest did really visit only the children.
+65	A guest did ever visit only the children.
+66	Only a guest did really visit the children.
+67	Only a guest did ever visit the children.
+68	These adults only were referencing the children.
+69	Any adults only were referencing the children.
+70	Only the adults were referencing the children.
+71	Only the adults were referencing any children.
+72	The guys often kiss only the actresses.
+73	The guys ever kiss only the actresses.
+74	Only the guys often kiss the actresses.
+75	Only the guys ever kiss the actresses.
+76	The drivers also forget only the stories.
+77	The drivers ever forget only the stories.
+78	Only the drivers also forget the stories.
+79	Only the drivers ever forget the stories.
+80	The adults had clearly talked to only the men.
+81	The adults had ever talked to only the men.
+82	Only the adults had clearly talked to the men.
+83	Only the adults had ever talked to the men.
+84	The drivers only have left the schools.
+85	Any drivers only have left the schools.
+86	Only the drivers have left the schools.
+87	Only the drivers have left any schools.
+88	The students certainly left only the high schools.
+89	The students ever left only the high schools.
+90	Only the students certainly left the high schools.
+91	Only the students ever left the high schools.
+92	Those ladies only left the doctors.
+93	Any ladies only left the doctors.
+94	Only the ladies left those doctors.
+95	Only the ladies left any doctors.
+96	Those actresses only flee from the college campuses.
+97	Any actresses only flee from the college campuses.
+98	Only the actresses flee from the college campuses.
+99	Only the actresses flee from any college campuses.
+100	The adults only have dropped by the art galleries.
+101	Any adults only have dropped by the art galleries.
+102	Only the adults have dropped by those art galleries.
+103	Only the adults have dropped by any art galleries.
+104	The humans certainly praised only the plays.
+105	The humans ever praised only the plays.
+106	Only the humans certainly praised the plays.
+107	Only the humans ever praised the plays.
+108	The people only sold the rugs.
+109	Any people only sold the rugs.
+110	Only the people sold those rugs.
+111	Only the people sold any rugs.
+112	A teenager had certainly cared for only the children.
+113	A teenager had ever cared for only the children.
+114	Only a teenager had certainly cared for the children.
+115	Only a teenager had ever cared for the children.
+116	The teenager certainly listens to only the customers.
+117	The teenager ever listens to only the customers.
+118	Only the teenager certainly listens to the customers.
+119	Only the teenager ever listens to the customers.
+120	A lady could often reference only the pedestrians.
+121	A lady could ever reference only the pedestrians.
+122	Only a lady could often reference the pedestrians.
+123	Only a lady could ever reference the pedestrians.
+124	The children certainly dislike only the adults.
+125	The children ever dislike only the adults.
+126	Only the children certainly dislike the adults.
+127	Only the children ever dislike the adults.
+128	Those waiters only have hugged the pedestrians.
+129	Any waiters only have hugged the pedestrians.
+130	Only the waiters have hugged the pedestrians.
+131	Only the waiters have hugged any pedestrians.
+132	Those actresses only discussed the college campuses.
+133	Any actresses only discussed the college campuses.
+134	Only the actresses discussed those college campuses.
+135	Only the actresses discussed any college campuses.
+136	These cashiers only have attacked the students.
+137	Any cashiers only have attacked the students.
+138	Only the cashiers have attacked the students.
+139	Only the cashiers have attacked any students.
+140	The actors really explored only the restaurants.
+141	The actors ever explored only the restaurants.
+142	Only the actors really explored the restaurants.
+143	Only the actors ever explored the restaurants.
+144	A lady will certainly dislike only the teenagers.
+145	A lady will ever dislike only the teenagers.
+146	Only a lady will certainly dislike the teenagers.
+147	Only a lady will ever dislike the teenagers.
+148	The actors clearly investigate only the patients.
+149	The actors ever investigate only the patients.
+150	Only the actors clearly investigate the patients.
+151	Only the actors ever investigate the patients.
+152	The waitresses also left only the ladies.
+153	The waitresses ever left only the ladies.
+154	Only the waitresses also left the ladies.
+155	Only the waitresses ever left the ladies.
+156	The doctors could clearly clean only the rugs.
+157	The doctors could ever clean only the rugs.
+158	Only the doctors could clearly clean the rugs.
+159	Only the doctors could ever clean the rugs.
+160	The men also ran around only the hospitals.
+161	The men ever ran around only the hospitals.
+162	Only the men also ran around the hospitals.
+163	Only the men ever ran around the hospitals.
+164	The girls only respected the malls.
+165	Any girls only respected the malls.
+166	Only the girls respected those malls.
+167	Only the girls respected any malls.
+168	The patients only would praise the humans.
+169	Any patients only would praise the humans.
+170	Only the patients would praise these humans.
+171	Only the patients would praise any humans.
+172	A doctor might also kiss only the guys.
+173	A doctor might ever kiss only the guys.
+174	Only a doctor might also kiss the guys.
+175	Only a doctor might ever kiss the guys.
+176	The people have often talked to only the waiters.
+177	The people have ever talked to only the waiters.
+178	Only the people have often talked to the waiters.
+179	Only the people have ever talked to the waiters.
+180	An adult often sees only the forks.
+181	An adult ever sees only the forks.
+182	Only an adult often sees the forks.
+183	Only an adult ever sees the forks.
+184	The student certainly hugged only the people.
+185	The student ever hugged only the people.
+186	Only the student certainly hugged the people.
+187	Only the student ever hugged the people.
+188	Those humans only see the guests.
+189	Any humans only see the guests.
+190	Only the humans see the guests.
+191	Only the humans see any guests.
+192	These doctors only had cleaned the cars.
+193	Any doctors only had cleaned the cars.
+194	Only the doctors had cleaned the cars.
+195	Only the doctors had cleaned any cars.
+196	The children did clearly explore only the hospitals.
+197	The children did ever explore only the hospitals.
+198	Only the children did clearly explore the hospitals.
+199	Only the children did ever explore the hospitals.
+200	The waiters only tour the hospitals.
+201	Any waiters only tour the hospitals.
+202	Only the waiters tour the hospitals.
+203	Only the waiters tour any hospitals.
+204	A teenager should really respect only the grocery stores.
+205	A teenager should ever respect only the grocery stores.
+206	Only a teenager should really respect the grocery stores.
+207	Only a teenager should ever respect the grocery stores.
+208	A pedestrian clearly sold only the plates.
+209	A pedestrian ever sold only the plates.
+210	Only a pedestrian clearly sold the plates.
+211	Only a pedestrian ever sold the plates.
+212	A teenager had often dropped by only the restaurants.
+213	A teenager had ever dropped by only the restaurants.
+214	Only a teenager had often dropped by the restaurants.
+215	Only a teenager had ever dropped by the restaurants.
+216	The man can also drive to only the high schools.
+217	The man can ever drive to only the high schools.
+218	Only the man can also drive to the high schools.
+219	Only the man can ever drive to the high schools.
+220	These actors only have disliked the high schools.
+221	Any actors only have disliked the high schools.
+222	Only the actors have disliked these high schools.
+223	Only the actors have disliked any high schools.
+224	The women only are leaving the patients.
+225	Any women only are leaving the patients.
+226	Only the women are leaving those patients.
+227	Only the women are leaving any patients.
+228	These waiters only passed the grocery stores.
+229	Any waiters only passed the grocery stores.
+230	Only the waiters passed these grocery stores.
+231	Only the waiters passed any grocery stores.
+232	These teachers only scanned the movies.
+233	Any teachers only scanned the movies.
+234	Only the teachers scanned the movies.
+235	Only the teachers scanned any movies.
+236	The humans only had hugged the pedestrians.
+237	Any humans only had hugged the pedestrians.
+238	Only the humans had hugged those pedestrians.
+239	Only the humans had hugged any pedestrians.
+240	The actresses have clearly cared for only the students.
+241	The actresses have ever cared for only the students.
+242	Only the actresses have clearly cared for the students.
+243	Only the actresses have ever cared for the students.
+244	Those men only are insulting the drivers.
+245	Any men only are insulting the drivers.
+246	Only the men are insulting these drivers.
+247	Only the men are insulting any drivers.
+248	The boys really insult only the high schools.
+249	The boys ever insult only the high schools.
+250	Only the boys really insult the high schools.
+251	Only the boys ever insult the high schools.
+252	The teachers certainly skated around only the high schools.
+253	The teachers ever skated around only the high schools.
+254	Only the teachers certainly skated around the high schools.
+255	Only the teachers ever skated around the high schools.
+256	The waiters really approach only the doctors.
+257	The waiters ever approach only the doctors.
+258	Only the waiters really approach the doctors.
+259	Only the waiters ever approach the doctors.
+260	Those pedestrians only escape from the cashiers.
+261	Any pedestrians only escape from the cashiers.
+262	Only the pedestrians escape from these cashiers.
+263	Only the pedestrians escape from any cashiers.
+264	A woman also approached only the actresses.
+265	A woman ever approached only the actresses.
+266	Only a woman also approached the actresses.
+267	Only a woman ever approached the actresses.
+268	The teachers also boycott only the malls.
+269	The teachers ever boycott only the malls.
+270	Only the teachers also boycott the malls.
+271	Only the teachers ever boycott the malls.
+272	An adult certainly leaves only the customers.
+273	An adult ever leaves only the customers.
+274	Only an adult certainly leaves the customers.
+275	Only an adult ever leaves the customers.
+276	The adults clearly care for only the drivers.
+277	The adults ever care for only the drivers.
+278	Only the adults clearly care for the drivers.
+279	Only the adults ever care for the drivers.
+280	The teachers clearly exit only the hospitals.
+281	The teachers ever exit only the hospitals.
+282	Only the teachers clearly exit the hospitals.
+283	Only the teachers ever exit the hospitals.
+284	The students only respected the actors.
+285	Any students only respected the actors.
+286	Only the students respected those actors.
+287	Only the students respected any actors.
+288	The patients only took the glasses.
+289	Any patients only took the glasses.
+290	Only the patients took these glasses.
+291	Only the patients took any glasses.
+292	A cashier often admired only the gals.
+293	A cashier ever admired only the gals.
+294	Only a cashier often admired the gals.
+295	Only a cashier ever admired the gals.
+296	A teacher also praises only the cashiers.
+297	A teacher ever praises only the cashiers.
+298	Only a teacher also praises the cashiers.
+299	Only a teacher ever praises the cashiers.
+300	Those gals only hated the guests.
+301	Any gals only hated the guests.
+302	Only the gals hated these guests.
+303	Only the gals hated any guests.
+304	Those drivers only dropped by the museums.
+305	Any drivers only dropped by the museums.
+306	Only the drivers dropped by the museums.
+307	Only the drivers dropped by any museums.
+308	The children only talk about the plays.
+309	Any children only talk about the plays.
+310	Only the children talk about the plays.
+311	Only the children talk about any plays.
+312	These people only kissed the teenagers.
+313	Any people only kissed the teenagers.
+314	Only the people kissed the teenagers.
+315	Only the people kissed any teenagers.
+316	These actors only talked to the women.
+317	Any actors only talked to the women.
+318	Only the actors talked to the women.
+319	Only the actors talked to any women.
+320	Those teachers only walked through the malls.
+321	Any teachers only walked through the malls.
+322	Only the teachers walked through these malls.
+323	Only the teachers walked through any malls.
+324	A woman certainly insulted only the women.
+325	A woman ever insulted only the women.
+326	Only a woman certainly insulted the women.
+327	Only a woman ever insulted the women.
+328	The actresses certainly knew only the women.
+329	The actresses ever knew only the women.
+330	Only the actresses certainly knew the women.
+331	Only the actresses ever knew the women.
+332	The actresses had clearly talked to only the teenagers.
+333	The actresses had ever talked to only the teenagers.
+334	Only the actresses had clearly talked to the teenagers.
+335	Only the actresses had ever talked to the teenagers.
+336	The boy could often hate only the reports.
+337	The boy could ever hate only the reports.
+338	Only the boy could often hate the reports.
+339	Only the boy could ever hate the reports.
+340	A guy really drove to only the grocery stores.
+341	A guy ever drove to only the grocery stores.
+342	Only a guy really drove to the grocery stores.
+343	Only a guy ever drove to the grocery stores.
+344	The guests only were referencing the adults.
+345	Any guests only were referencing the adults.
+346	Only the guests were referencing the adults.
+347	Only the guests were referencing any adults.
+348	The girls really help only the doctors.
+349	The girls ever help only the doctors.
+350	Only the girls really help the doctors.
+351	Only the girls ever help the doctors.
+352	The men only had skated around the art galleries.
+353	Any men only had skated around the art galleries.
+354	Only the men had skated around these art galleries.
+355	Only the men had skated around any art galleries.
+356	The customer can certainly pass only the museums.
+357	The customer can ever pass only the museums.
+358	Only the customer can certainly pass the museums.
+359	Only the customer can ever pass the museums.
+360	Those men only would criticize the plays.
+361	Any men only would criticize the plays.
+362	Only the men would criticize these plays.
+363	Only the men would criticize any plays.
+364	Those pedestrians only forgot the movies.
+365	Any pedestrians only forgot the movies.
+366	Only the pedestrians forgot these movies.
+367	Only the pedestrians forgot any movies.
+368	Those women only fled from the drivers.
+369	Any women only fled from the drivers.
+370	Only the women fled from those drivers.
+371	Only the women fled from any drivers.
+372	The patients have really kissed only the humans.
+373	The patients have ever kissed only the humans.
+374	Only the patients have really kissed the humans.
+375	Only the patients have ever kissed the humans.
+376	These men only should wear the gloves.
+377	Any men only should wear the gloves.
+378	Only the men should wear the gloves.
+379	Only the men should wear any gloves.
+380	A boy would often know only the drivers.
+381	A boy would ever know only the drivers.
+382	Only a boy would often know the drivers.
+383	Only a boy would ever know the drivers.
+384	The waitresses only watch the boys.
+385	Any waitresses only watch the boys.
+386	Only the waitresses watch the boys.
+387	Only the waitresses watch any boys.
+388	The pedestrians certainly exit only the college campuses.
+389	The pedestrians ever exit only the college campuses.
+390	Only the pedestrians certainly exit the college campuses.
+391	Only the pedestrians ever exit the college campuses.
+392	Those doctors only have forgotten the books.
+393	Any doctors only have forgotten the books.
+394	Only the doctors have forgotten these books.
+395	Only the doctors have forgotten any books.
+396	A person can also return to only the grocery stores.
+397	A person can ever return to only the grocery stores.
+398	Only a person can also return to the grocery stores.
+399	Only a person can ever return to the grocery stores.
+400	These guests only were returning to the college campuses.
+401	Any guests only were returning to the college campuses.
+402	Only the guests were returning to these college campuses.
+403	Only the guests were returning to any college campuses.
+404	An actress had clearly lifted only the glasses.
+405	An actress had ever lifted only the glasses.
+406	Only an actress had clearly lifted the glasses.
+407	Only an actress had ever lifted the glasses.
+408	The children only work with the cashiers.
+409	Any children only work with the cashiers.
+410	Only the children work with these cashiers.
+411	Only the children work with any cashiers.
+412	These boys only will respect the students.
+413	Any boys only will respect the students.
+414	Only the boys will respect the students.
+415	Only the boys will respect any students.
+416	Those doctors only work with the waiters.
+417	Any doctors only work with the waiters.
+418	Only the doctors work with the waiters.
+419	Only the doctors work with any waiters.
+420	The guys only remember the reports.
+421	Any guys only remember the reports.
+422	Only the guys remember those reports.
+423	Only the guys remember any reports.
+424	Those actors only wear the pants.
+425	Any actors only wear the pants.
+426	Only the actors wear those pants.
+427	Only the actors wear any pants.
+428	The girl does also go to only the hospitals.
+429	The girl does ever go to only the hospitals.
+430	Only the girl does also go to the hospitals.
+431	Only the girl does ever go to the hospitals.
+432	A child does often dislike only the newspaper articles.
+433	A child does ever dislike only the newspaper articles.
+434	Only a child does often dislike the newspaper articles.
+435	Only a child does ever dislike the newspaper articles.
+436	Those waiters only had boycotted the banks.
+437	Any waiters only had boycotted the banks.
+438	Only the waiters had boycotted the banks.
+439	Only the waiters had boycotted any banks.
+440	The girls have really criticized only the teachers.
+441	The girls have ever criticized only the teachers.
+442	Only the girls have really criticized the teachers.
+443	Only the girls have ever criticized the teachers.
+444	These doctors only have seen the pants.
+445	Any doctors only have seen the pants.
+446	Only the doctors have seen those pants.
+447	Only the doctors have seen any pants.
+448	The lady should clearly drop by only the high schools.
+449	The lady should ever drop by only the high schools.
+450	Only the lady should clearly drop by the high schools.
+451	Only the lady should ever drop by the high schools.
+452	The doctors only should boycott the libraries.
+453	Any doctors only should boycott the libraries.
+454	Only the doctors should boycott the libraries.
+455	Only the doctors should boycott any libraries.
+456	These guests only are escaping from the gals.
+457	Any guests only are escaping from the gals.
+458	Only the guests are escaping from the gals.
+459	Only the guests are escaping from any gals.
+460	These students only know the guests.
+461	Any students only know the guests.
+462	Only the students know the guests.
+463	Only the students know any guests.
+464	The girls only did insult the art galleries.
+465	Any girls only did insult the art galleries.
+466	Only the girls did insult those art galleries.
+467	Only the girls did insult any art galleries.
+468	The pedestrians only referenced the actresses.
+469	Any pedestrians only referenced the actresses.
+470	Only the pedestrians referenced these actresses.
+471	Only the pedestrians referenced any actresses.
+472	The ladies have often toured only the public parks.
+473	The ladies have ever toured only the public parks.
+474	Only the ladies have often toured the public parks.
+475	Only the ladies have ever toured the public parks.
+476	The boys have often passed only the high schools.
+477	The boys have ever passed only the high schools.
+478	Only the boys have often passed the high schools.
+479	Only the boys have ever passed the high schools.
+480	A waitress often drove to only the banks.
+481	A waitress ever drove to only the banks.
+482	Only a waitress often drove to the banks.
+483	Only a waitress ever drove to the banks.
+484	These teachers only talked to the guests.
+485	Any teachers only talked to the guests.
+486	Only the teachers talked to the guests.
+487	Only the teachers talked to any guests.
+488	The boys clearly hate only the ladies.
+489	The boys ever hate only the ladies.
+490	Only the boys clearly hate the ladies.
+491	Only the boys ever hate the ladies.
+492	These teenagers only walk through the malls.
+493	Any teenagers only walk through the malls.
+494	Only the teenagers walk through these malls.
+495	Only the teenagers walk through any malls.
+496	The girls only should see the teenagers.
+497	Any girls only should see the teenagers.
+498	Only the girls should see the teenagers.
+499	Only the girls should see any teenagers.

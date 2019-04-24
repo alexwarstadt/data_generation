@@ -1,1001 +1,501 @@
 index	sentence
-0	The children obviously imagine that the waiters have always explored the hospital.
-1	The children ever imagine that the waiters have always explored the hospital.
-2	The children always obviously imagine that the waiters have explored the hospital.
-3	The children always ever imagine that the waiters have explored the hospital.
-4	The children obviously imagine that the waiters have scarcely explored the hospital.
-5	The children ever imagine that the waiters have scarcely explored the hospital.
-6	The children scarcely obviously imagine that the waiters have explored the hospital.
-7	The children scarcely ever imagine that the waiters have explored the hospital.
-8	A person who will always care for students had cared for these guys.
-9	A person who will always care for students had cared for any guys.
-10	A person who will always care for the students had cared for guys.
-11	A person who will always care for any students had cared for guys.
-12	A person who will scarcely care for students had cared for these guys.
-13	A person who will scarcely care for students had cared for any guys.
-14	A person who will scarcely care for the students had cared for guys.
-15	A person who will scarcely care for any students had cared for guys.
-16	The waiters clearly think that the children had always smiled.
-17	The waiters ever think that the children had always smiled.
-18	The waiters always clearly think that the children had smiled.
-19	The waiters always ever think that the children had smiled.
-20	The waiters clearly think that the children had scarcely smiled.
-21	The waiters ever think that the children had scarcely smiled.
-22	The waiters scarcely clearly think that the children had smiled.
-23	The waiters scarcely ever think that the children had smiled.
-24	The actors clearly imagine that the dancers would often scan the pamphlets.
-25	The actors ever imagine that the dancers would often scan the pamphlets.
-26	The actors often clearly imagine that the dancers would scan the pamphlets.
-27	The actors often ever imagine that the dancers would scan the pamphlets.
-28	The actors clearly imagine that the dancers would rarely scan the pamphlets.
-29	The actors ever imagine that the dancers would rarely scan the pamphlets.
-30	The actors rarely clearly imagine that the dancers would scan the pamphlets.
-31	The actors rarely ever imagine that the dancers would scan the pamphlets.
-32	The lady fortunately thought that a teenager often did respect the waiter.
-33	The lady ever thought that a teenager often did respect the waiter.
-34	The lady often fortunately thought that a teenager did respect the waiter.
-35	The lady often ever thought that a teenager did respect the waiter.
-36	The lady fortunately thought that a teenager rarely did respect the waiter.
-37	The lady ever thought that a teenager rarely did respect the waiter.
-38	The lady rarely fortunately thought that a teenager did respect the waiter.
-39	The lady rarely ever thought that a teenager did respect the waiter.
-40	The doctors who often forget patients took the reports.
-41	The doctors who often forget patients took any reports.
-42	The doctors who often forget those patients took reports.
-43	The doctors who often forget any patients took reports.
-44	The doctors who scarcely forget patients took the reports.
-45	The doctors who scarcely forget patients took any reports.
-46	The doctors who scarcely forget those patients took reports.
-47	The doctors who scarcely forget any patients took reports.
-48	A waiter fortunately explains that an actress could hardly watch the guests.
-49	A waiter ever explains that an actress could hardly watch the guests.
-50	A waiter hardly fortunately explains that an actress could watch the guests.
-51	A waiter hardly ever explains that an actress could watch the guests.
-52	A waiter fortunately explains that an actress could often watch the guests.
-53	A waiter ever explains that an actress could often watch the guests.
-54	A waiter often fortunately explains that an actress could watch the guests.
-55	A waiter often ever explains that an actress could watch the guests.
-56	The woman clearly imagined that the pedestrian had always baked.
-57	The woman ever imagined that the pedestrian had always baked.
-58	The woman always clearly imagined that the pedestrian had baked.
-59	The woman always ever imagined that the pedestrian had baked.
-60	The woman clearly imagined that the pedestrian had rarely baked.
-61	The woman ever imagined that the pedestrian had rarely baked.
-62	The woman rarely clearly imagined that the pedestrian had baked.
-63	The woman rarely ever imagined that the pedestrian had baked.
-64	The cashiers clearly explain that the man should scarcely benefit.
-65	The cashiers ever explain that the man should scarcely benefit.
-66	The cashiers scarcely clearly explain that the man should benefit.
-67	The cashiers scarcely ever explain that the man should benefit.
-68	The cashiers clearly explain that the man should sometimes benefit.
-69	The cashiers ever explain that the man should sometimes benefit.
-70	The cashiers sometimes clearly explain that the man should benefit.
-71	The cashiers sometimes ever explain that the man should benefit.
-72	The men clearly explain that the waiters might barely attack a waitress.
-73	The men ever explain that the waiters might barely attack a waitress.
-74	The men barely clearly explain that the waiters might attack a waitress.
-75	The men barely ever explain that the waiters might attack a waitress.
-76	The men clearly explain that the waiters might sometimes attack a waitress.
-77	The men ever explain that the waiters might sometimes attack a waitress.
-78	The men sometimes clearly explain that the waiters might attack a waitress.
-79	The men sometimes ever explain that the waiters might attack a waitress.
-80	The waitress clearly thinks that a girl has often arrived at the museum.
-81	The waitress ever thinks that a girl has often arrived at the museum.
-82	The waitress often clearly thinks that a girl has arrived at the museum.
-83	The waitress often ever thinks that a girl has arrived at the museum.
-84	The waitress clearly thinks that a girl has rarely arrived at the museum.
-85	The waitress ever thinks that a girl has rarely arrived at the museum.
-86	The waitress rarely clearly thinks that a girl has arrived at the museum.
-87	The waitress rarely ever thinks that a girl has arrived at the museum.
-88	The doctors who hardly had cups have criticized this fish.
-89	The doctors who hardly had cups have criticized any fish.
-90	The doctors who hardly had the cups have criticized fish.
-91	The doctors who hardly had any cups have criticized fish.
-92	The doctors who sometimes had cups have criticized this fish.
-93	The doctors who sometimes had cups have criticized any fish.
-94	The doctors who sometimes had the cups have criticized fish.
-95	The doctors who sometimes had any cups have criticized fish.
-96	The waiter who seldom examined commentaries has known the actresses.
-97	The waiter who seldom examined commentaries has known any actresses.
-98	The waiter who seldom examined the commentaries has known actresses.
-99	The waiter who seldom examined any commentaries has known actresses.
-100	The waiter who sometimes examined commentaries has known the actresses.
-101	The waiter who sometimes examined commentaries has known any actresses.
-102	The waiter who sometimes examined the commentaries has known actresses.
-103	The waiter who sometimes examined any commentaries has known actresses.
-104	A waiter obviously imagines that the customers always insulted the teenager.
-105	A waiter ever imagines that the customers always insulted the teenager.
-106	A waiter always obviously imagines that the customers insulted the teenager.
-107	A waiter always ever imagines that the customers insulted the teenager.
-108	A waiter obviously imagines that the customers scarcely insulted the teenager.
-109	A waiter ever imagines that the customers scarcely insulted the teenager.
-110	A waiter scarcely obviously imagines that the customers insulted the teenager.
-111	A waiter scarcely ever imagines that the customers insulted the teenager.
-112	The senators who have hardly insulted drivers kiss those actors.
-113	The senators who have hardly insulted drivers kiss any actors.
-114	The senators who have hardly insulted those drivers kiss actors.
-115	The senators who have hardly insulted any drivers kiss actors.
-116	The senators who have often insulted drivers kiss those actors.
-117	The senators who have often insulted drivers kiss any actors.
-118	The senators who have often insulted those drivers kiss actors.
-119	The senators who have often insulted any drivers kiss actors.
-120	A child who often has rugs wears the pants.
-121	A child who often has rugs wears any pants.
-122	A child who often has the rugs wears pants.
-123	A child who often has any rugs wears pants.
-124	A child who seldom has rugs wears the pants.
-125	A child who seldom has rugs wears any pants.
-126	A child who seldom has the rugs wears pants.
-127	A child who seldom has any rugs wears pants.
-128	A guy fortunately thinks that the actors barely bought the couches.
-129	A guy ever thinks that the actors barely bought the couches.
-130	A guy barely fortunately thinks that the actors bought the couches.
-131	A guy barely ever thinks that the actors bought the couches.
-132	A guy fortunately thinks that the actors often bought the couches.
-133	A guy ever thinks that the actors often bought the couches.
-134	A guy often fortunately thinks that the actors bought the couches.
-135	A guy often ever thinks that the actors bought the couches.
-136	The girls who barely talk to teenagers return to these teachers.
-137	The girls who barely talk to teenagers return to any teachers.
-138	The girls who barely talk to these teenagers return to teachers.
-139	The girls who barely talk to any teenagers return to teachers.
-140	The girls who often talk to teenagers return to these teachers.
-141	The girls who often talk to teenagers return to any teachers.
-142	The girls who often talk to these teenagers return to teachers.
-143	The girls who often talk to any teenagers return to teachers.
-144	The guys fortunately imagine that a patient has always talked about the doctors.
-145	The guys ever imagine that a patient has always talked about the doctors.
-146	The guys always fortunately imagine that a patient has talked about the doctors.
-147	The guys always ever imagine that a patient has talked about the doctors.
-148	The guys fortunately imagine that a patient has barely talked about the doctors.
-149	The guys ever imagine that a patient has barely talked about the doctors.
-150	The guys barely fortunately imagine that a patient has talked about the doctors.
-151	The guys barely ever imagine that a patient has talked about the doctors.
-152	The waiter fortunately imagines that the men can always hate the woman.
-153	The waiter ever imagines that the men can always hate the woman.
-154	The waiter always fortunately imagines that the men can hate the woman.
-155	The waiter always ever imagines that the men can hate the woman.
-156	The waiter fortunately imagines that the men can scarcely hate the woman.
-157	The waiter ever imagines that the men can scarcely hate the woman.
-158	The waiter scarcely fortunately imagines that the men can hate the woman.
-159	The waiter scarcely ever imagines that the men can hate the woman.
-160	The ladies obviously explained that the waitresses had hardly lifted the cup.
-161	The ladies ever explained that the waitresses had hardly lifted the cup.
-162	The ladies hardly obviously explained that the waitresses had lifted the cup.
-163	The ladies hardly ever explained that the waitresses had lifted the cup.
-164	The ladies obviously explained that the waitresses had sometimes lifted the cup.
-165	The ladies ever explained that the waitresses had sometimes lifted the cup.
-166	The ladies sometimes obviously explained that the waitresses had lifted the cup.
-167	The ladies sometimes ever explained that the waitresses had lifted the cup.
-168	The student who always investigates actresses boycotted these restaurants.
-169	The student who always investigates actresses boycotted any restaurants.
-170	The student who always investigates these actresses boycotted restaurants.
-171	The student who always investigates any actresses boycotted restaurants.
-172	The student who rarely investigates actresses boycotted these restaurants.
-173	The student who rarely investigates actresses boycotted any restaurants.
-174	The student who rarely investigates these actresses boycotted restaurants.
-175	The student who rarely investigates any actresses boycotted restaurants.
-176	A cashier fortunately imagines that the drivers have always laughed.
-177	A cashier ever imagines that the drivers have always laughed.
-178	A cashier always fortunately imagines that the drivers have laughed.
-179	A cashier always ever imagines that the drivers have laughed.
-180	A cashier fortunately imagines that the drivers have rarely laughed.
-181	A cashier ever imagines that the drivers have rarely laughed.
-182	A cashier rarely fortunately imagines that the drivers have laughed.
-183	A cashier rarely ever imagines that the drivers have laughed.
-184	The cashiers who always explore malls do buy those couches.
-185	The cashiers who always explore malls do buy any couches.
-186	The cashiers who always explore those malls do buy couches.
-187	The cashiers who always explore any malls do buy couches.
-188	The cashiers who hardly explore malls do buy those couches.
-189	The cashiers who hardly explore malls do buy any couches.
-190	The cashiers who hardly explore those malls do buy couches.
-191	The cashiers who hardly explore any malls do buy couches.
-192	The waitress who had always talked to drivers lifted those chairs.
-193	The waitress who had always talked to drivers lifted any chairs.
-194	The waitress who had always talked to the drivers lifted chairs.
-195	The waitress who had always talked to any drivers lifted chairs.
-196	The waitress who had rarely talked to drivers lifted those chairs.
-197	The waitress who had rarely talked to drivers lifted any chairs.
-198	The waitress who had rarely talked to the drivers lifted chairs.
-199	The waitress who had rarely talked to any drivers lifted chairs.
-200	The guys who have barely criticized guests have worn the gloves.
-201	The guys who have barely criticized guests have worn any gloves.
-202	The guys who have barely criticized the guests have worn gloves.
-203	The guys who have barely criticized any guests have worn gloves.
-204	The guys who have sometimes criticized guests have worn the gloves.
-205	The guys who have sometimes criticized guests have worn any gloves.
-206	The guys who have sometimes criticized the guests have worn gloves.
-207	The guys who have sometimes criticized any guests have worn gloves.
-208	The students also explained that the teachers could often describe a play.
-209	The students ever explained that the teachers could often describe a play.
-210	The students often also explained that the teachers could describe a play.
-211	The students often ever explained that the teachers could describe a play.
-212	The students also explained that the teachers could rarely describe a play.
-213	The students ever explained that the teachers could rarely describe a play.
-214	The students rarely also explained that the teachers could describe a play.
-215	The students rarely ever explained that the teachers could describe a play.
-216	The doctor who has often observed boys wears those gloves.
-217	The doctor who has often observed boys wears any gloves.
-218	The doctor who has often observed the boys wears gloves.
-219	The doctor who has often observed any boys wears gloves.
-220	The doctor who has scarcely observed boys wears those gloves.
-221	The doctor who has scarcely observed boys wears any gloves.
-222	The doctor who has scarcely observed the boys wears gloves.
-223	The doctor who has scarcely observed any boys wears gloves.
-224	The waitress obviously explained that the actors have barely negotiated.
-225	The waitress ever explained that the actors have barely negotiated.
-226	The waitress barely obviously explained that the actors have negotiated.
-227	The waitress barely ever explained that the actors have negotiated.
-228	The waitress obviously explained that the actors have sometimes negotiated.
-229	The waitress ever explained that the actors have sometimes negotiated.
-230	The waitress sometimes obviously explained that the actors have negotiated.
-231	The waitress sometimes ever explained that the actors have negotiated.
-232	A woman fortunately explains that the teacher always singing.
-233	A woman ever explains that the teacher always singing.
-234	A woman always fortunately explains that the teacher singing.
-235	A woman always ever explains that the teacher singing.
-236	A woman fortunately explains that the teacher rarely singing.
-237	A woman ever explains that the teacher rarely singing.
-238	A woman rarely fortunately explains that the teacher singing.
-239	A woman rarely ever explains that the teacher singing.
-240	The actresses obviously imagine that a woman seldom approaches the pedestrians.
-241	The actresses ever imagine that a woman seldom approaches the pedestrians.
-242	The actresses seldom obviously imagine that a woman approaches the pedestrians.
-243	The actresses seldom ever imagine that a woman approaches the pedestrians.
-244	The actresses obviously imagine that a woman sometimes approaches the pedestrians.
-245	The actresses ever imagine that a woman sometimes approaches the pedestrians.
-246	The actresses sometimes obviously imagine that a woman approaches the pedestrians.
-247	The actresses sometimes ever imagine that a woman approaches the pedestrians.
-248	The patient clearly thought that the lady often returns to the fish.
-249	The patient ever thought that the lady often returns to the fish.
-250	The patient often clearly thought that the lady returns to the fish.
-251	The patient often ever thought that the lady returns to the fish.
-252	The patient clearly thought that the lady seldom returns to the fish.
-253	The patient ever thought that the lady seldom returns to the fish.
-254	The patient seldom clearly thought that the lady returns to the fish.
-255	The patient seldom ever thought that the lady returns to the fish.
-256	The lady who will barely boycott college campuses arrived at the hospitals.
-257	The lady who will barely boycott college campuses arrived at any hospitals.
-258	The lady who will barely boycott those college campuses arrived at hospitals.
-259	The lady who will barely boycott any college campuses arrived at hospitals.
-260	The lady who will sometimes boycott college campuses arrived at the hospitals.
-261	The lady who will sometimes boycott college campuses arrived at any hospitals.
-262	The lady who will sometimes boycott those college campuses arrived at hospitals.
-263	The lady who will sometimes boycott any college campuses arrived at hospitals.
-264	The people who scarcely wore glasses had known the men.
-265	The people who scarcely wore glasses had known any men.
-266	The people who scarcely wore the glasses had known men.
-267	The people who scarcely wore any glasses had known men.
-268	The people who sometimes wore glasses had known the men.
-269	The people who sometimes wore glasses had known any men.
-270	The people who sometimes wore the glasses had known men.
-271	The people who sometimes wore any glasses had known men.
-272	A woman who should seldom buy cars hugged these girls.
-273	A woman who should seldom buy cars hugged any girls.
-274	A woman who should seldom buy the cars hugged girls.
-275	A woman who should seldom buy any cars hugged girls.
-276	A woman who should sometimes buy cars hugged these girls.
-277	A woman who should sometimes buy cars hugged any girls.
-278	A woman who should sometimes buy the cars hugged girls.
-279	A woman who should sometimes buy any cars hugged girls.
-280	The pedestrians clearly said that a woman hardly practices.
-281	The pedestrians ever said that a woman hardly practices.
-282	The pedestrians hardly clearly said that a woman practices.
-283	The pedestrians hardly ever said that a woman practices.
-284	The pedestrians clearly said that a woman often practices.
-285	The pedestrians ever said that a woman often practices.
-286	The pedestrians often clearly said that a woman practices.
-287	The pedestrians often ever said that a woman practices.
-288	A dancer also imagined that the adults rarely did grin.
-289	A dancer ever imagined that the adults rarely did grin.
-290	A dancer rarely also imagined that the adults did grin.
-291	A dancer rarely ever imagined that the adults did grin.
-292	A dancer also imagined that the adults sometimes did grin.
-293	A dancer ever imagined that the adults sometimes did grin.
-294	A dancer sometimes also imagined that the adults did grin.
-295	A dancer sometimes ever imagined that the adults did grin.
-296	The actresses also think that an actress rarely concurs.
-297	The actresses ever think that an actress rarely concurs.
-298	The actresses rarely also think that an actress concurs.
-299	The actresses rarely ever think that an actress concurs.
-300	The actresses also think that an actress sometimes concurs.
-301	The actresses ever think that an actress sometimes concurs.
-302	The actresses sometimes also think that an actress concurs.
-303	The actresses sometimes ever think that an actress concurs.
-304	The person fortunately explains that the waiters had often admired the people.
-305	The person ever explains that the waiters had often admired the people.
-306	The person often fortunately explains that the waiters had admired the people.
-307	The person often ever explains that the waiters had admired the people.
-308	The person fortunately explains that the waiters had seldom admired the people.
-309	The person ever explains that the waiters had seldom admired the people.
-310	The person seldom fortunately explains that the waiters had admired the people.
-311	The person seldom ever explains that the waiters had admired the people.
-312	The waiters obviously imagined that the woman always watches the boys.
-313	The waiters ever imagined that the woman always watches the boys.
-314	The waiters always obviously imagined that the woman watches the boys.
-315	The waiters always ever imagined that the woman watches the boys.
-316	The waiters obviously imagined that the woman scarcely watches the boys.
-317	The waiters ever imagined that the woman scarcely watches the boys.
-318	The waiters scarcely obviously imagined that the woman watches the boys.
-319	The waiters scarcely ever imagined that the woman watches the boys.
-320	An actor fortunately explains that the ladies always scan an report.
-321	An actor ever explains that the ladies always scan an report.
-322	An actor always fortunately explains that the ladies scan an report.
-323	An actor always ever explains that the ladies scan an report.
-324	An actor fortunately explains that the ladies scarcely scan an report.
-325	An actor ever explains that the ladies scarcely scan an report.
-326	An actor scarcely fortunately explains that the ladies scan an report.
-327	An actor scarcely ever explains that the ladies scan an report.
-328	A person who barely watches teachers cleaned these rugs.
-329	A person who barely watches teachers cleaned any rugs.
-330	A person who barely watches the teachers cleaned rugs.
-331	A person who barely watches any teachers cleaned rugs.
-332	A person who often watches teachers cleaned these rugs.
-333	A person who often watches teachers cleaned any rugs.
-334	A person who often watches the teachers cleaned rugs.
-335	A person who often watches any teachers cleaned rugs.
-336	A dancer who had rarely examined reports will be at the restaurants.
-337	A dancer who had rarely examined reports will be at any restaurants.
-338	A dancer who had rarely examined those reports will be at restaurants.
-339	A dancer who had rarely examined any reports will be at restaurants.
-340	A dancer who had sometimes examined reports will be at the restaurants.
-341	A dancer who had sometimes examined reports will be at any restaurants.
-342	A dancer who had sometimes examined those reports will be at restaurants.
-343	A dancer who had sometimes examined any reports will be at restaurants.
-344	The children clearly imagined that the person always changes.
-345	The children ever imagined that the person always changes.
-346	The children always clearly imagined that the person changes.
-347	The children always ever imagined that the person changes.
-348	The children clearly imagined that the person barely changes.
-349	The children ever imagined that the person barely changes.
-350	The children barely clearly imagined that the person changes.
-351	The children barely ever imagined that the person changes.
-352	The dancers obviously said that the people have scarcely testified.
-353	The dancers ever said that the people have scarcely testified.
-354	The dancers scarcely obviously said that the people have testified.
-355	The dancers scarcely ever said that the people have testified.
-356	The dancers obviously said that the people have sometimes testified.
-357	The dancers ever said that the people have sometimes testified.
-358	The dancers sometimes obviously said that the people have testified.
-359	The dancers sometimes ever said that the people have testified.
-360	The pedestrians fortunately say that the woman barely returns to a girl.
-361	The pedestrians ever say that the woman barely returns to a girl.
-362	The pedestrians barely fortunately say that the woman returns to a girl.
-363	The pedestrians barely ever say that the woman returns to a girl.
-364	The pedestrians fortunately say that the woman sometimes returns to a girl.
-365	The pedestrians ever say that the woman sometimes returns to a girl.
-366	The pedestrians sometimes fortunately say that the woman returns to a girl.
-367	The pedestrians sometimes ever say that the woman returns to a girl.
-368	The teachers obviously explain that a patient often protests.
-369	The teachers ever explain that a patient often protests.
-370	The teachers often obviously explain that a patient protests.
-371	The teachers often ever explain that a patient protests.
-372	The teachers obviously explain that a patient seldom protests.
-373	The teachers ever explain that a patient seldom protests.
-374	The teachers seldom obviously explain that a patient protests.
-375	The teachers seldom ever explain that a patient protests.
-376	The girls who have always walked through schools dropped by these high schools.
-377	The girls who have always walked through schools dropped by any high schools.
-378	The girls who have always walked through these schools dropped by high schools.
-379	The girls who have always walked through any schools dropped by high schools.
-380	The girls who have barely walked through schools dropped by these high schools.
-381	The girls who have barely walked through schools dropped by any high schools.
-382	The girls who have barely walked through these schools dropped by high schools.
-383	The girls who have barely walked through any schools dropped by high schools.
-384	A man who barely dropped by movie theaters leaves these actors.
-385	A man who barely dropped by movie theaters leaves any actors.
-386	A man who barely dropped by those movie theaters leaves actors.
-387	A man who barely dropped by any movie theaters leaves actors.
-388	A man who sometimes dropped by movie theaters leaves these actors.
-389	A man who sometimes dropped by movie theaters leaves any actors.
-390	A man who sometimes dropped by those movie theaters leaves actors.
-391	A man who sometimes dropped by any movie theaters leaves actors.
-392	The students also said that the boys would rarely dislike the lady.
-393	The students ever said that the boys would rarely dislike the lady.
-394	The students rarely also said that the boys would dislike the lady.
-395	The students rarely ever said that the boys would dislike the lady.
-396	The students also said that the boys would sometimes dislike the lady.
-397	The students ever said that the boys would sometimes dislike the lady.
-398	The students sometimes also said that the boys would dislike the lady.
-399	The students sometimes ever said that the boys would dislike the lady.
-400	The senators who often did reference cashiers talk about the dancers.
-401	The senators who often did reference cashiers talk about any dancers.
-402	The senators who often did reference those cashiers talk about dancers.
-403	The senators who often did reference any cashiers talk about dancers.
-404	The senators who rarely did reference cashiers talk about the dancers.
-405	The senators who rarely did reference cashiers talk about any dancers.
-406	The senators who rarely did reference those cashiers talk about dancers.
-407	The senators who rarely did reference any cashiers talk about dancers.
-408	The pedestrians clearly said that the patients could hardly reunite.
-409	The pedestrians ever said that the patients could hardly reunite.
-410	The pedestrians hardly clearly said that the patients could reunite.
-411	The pedestrians hardly ever said that the patients could reunite.
-412	The pedestrians clearly said that the patients could sometimes reunite.
-413	The pedestrians ever said that the patients could sometimes reunite.
-414	The pedestrians sometimes clearly said that the patients could reunite.
-415	The pedestrians sometimes ever said that the patients could reunite.
-416	The students also said that the senators always talked.
-417	The students ever said that the senators always talked.
-418	The students always also said that the senators talked.
-419	The students always ever said that the senators talked.
-420	The students also said that the senators seldom talked.
-421	The students ever said that the senators seldom talked.
-422	The students seldom also said that the senators talked.
-423	The students seldom ever said that the senators talked.
-424	The adults fortunately explained that the boys scarcely grin.
-425	The adults ever explained that the boys scarcely grin.
-426	The adults scarcely fortunately explained that the boys grin.
-427	The adults scarcely ever explained that the boys grin.
-428	The adults fortunately explained that the boys sometimes grin.
-429	The adults ever explained that the boys sometimes grin.
-430	The adults sometimes fortunately explained that the boys grin.
-431	The adults sometimes ever explained that the boys grin.
-432	The girl also thought that the waitress might often joke around.
-433	The girl ever thought that the waitress might often joke around.
-434	The girl often also thought that the waitress might joke around.
-435	The girl often ever thought that the waitress might joke around.
-436	The girl also thought that the waitress might seldom joke around.
-437	The girl ever thought that the waitress might seldom joke around.
-438	The girl seldom also thought that the waitress might joke around.
-439	The girl seldom ever thought that the waitress might joke around.
-440	The girls who have rarely worn gloves left these senators.
-441	The girls who have rarely worn gloves left any senators.
-442	The girls who have rarely worn these gloves left senators.
-443	The girls who have rarely worn any gloves left senators.
-444	The girls who have sometimes worn gloves left these senators.
-445	The girls who have sometimes worn gloves left any senators.
-446	The girls who have sometimes worn these gloves left senators.
-447	The girls who have sometimes worn any gloves left senators.
-448	The teenagers who had seldom arrived at hospitals should wear the pants.
-449	The teenagers who had seldom arrived at hospitals should wear any pants.
-450	The teenagers who had seldom arrived at those hospitals should wear pants.
-451	The teenagers who had seldom arrived at any hospitals should wear pants.
-452	The teenagers who had sometimes arrived at hospitals should wear the pants.
-453	The teenagers who had sometimes arrived at hospitals should wear any pants.
-454	The teenagers who had sometimes arrived at those hospitals should wear pants.
-455	The teenagers who had sometimes arrived at any hospitals should wear pants.
-456	The adults who barely broke glasses will scan these documentaries.
-457	The adults who barely broke glasses will scan any documentaries.
-458	The adults who barely broke the glasses will scan documentaries.
-459	The adults who barely broke any glasses will scan documentaries.
-460	The adults who sometimes broke glasses will scan these documentaries.
-461	The adults who sometimes broke glasses will scan any documentaries.
-462	The adults who sometimes broke the glasses will scan documentaries.
-463	The adults who sometimes broke any glasses will scan documentaries.
-464	The senators who should always care for men exit these public parks.
-465	The senators who should always care for men exit any public parks.
-466	The senators who should always care for those men exit public parks.
-467	The senators who should always care for any men exit public parks.
-468	The senators who should rarely care for men exit these public parks.
-469	The senators who should rarely care for men exit any public parks.
-470	The senators who should rarely care for those men exit public parks.
-471	The senators who should rarely care for any men exit public parks.
-472	A driver who barely watched men left those people.
-473	A driver who barely watched men left any people.
-474	A driver who barely watched the men left people.
-475	A driver who barely watched any men left people.
-476	A driver who sometimes watched men left those people.
-477	A driver who sometimes watched men left any people.
-478	A driver who sometimes watched the men left people.
-479	A driver who sometimes watched any men left people.
-480	The actress fortunately imagined that a patient always donated.
-481	The actress ever imagined that a patient always donated.
-482	The actress always fortunately imagined that a patient donated.
-483	The actress always ever imagined that a patient donated.
-484	The actress fortunately imagined that a patient barely donated.
-485	The actress ever imagined that a patient barely donated.
-486	The actress barely fortunately imagined that a patient donated.
-487	The actress barely ever imagined that a patient donated.
-488	A pedestrian who barely hates teachers has biked to those high schools.
-489	A pedestrian who barely hates teachers has biked to any high schools.
-490	A pedestrian who barely hates these teachers has biked to high schools.
-491	A pedestrian who barely hates any teachers has biked to high schools.
-492	A pedestrian who sometimes hates teachers has biked to those high schools.
-493	A pedestrian who sometimes hates teachers has biked to any high schools.
-494	A pedestrian who sometimes hates these teachers has biked to high schools.
-495	A pedestrian who sometimes hates any teachers has biked to high schools.
-496	The girls clearly say that the actors often skated around the schools.
-497	The girls ever say that the actors often skated around the schools.
-498	The girls often clearly say that the actors skated around the schools.
-499	The girls often ever say that the actors skated around the schools.
-500	The girls clearly say that the actors seldom skated around the schools.
-501	The girls ever say that the actors seldom skated around the schools.
-502	The girls seldom clearly say that the actors skated around the schools.
-503	The girls seldom ever say that the actors skated around the schools.
-504	A person clearly explains that the child will often hug the alumnus.
-505	A person ever explains that the child will often hug the alumnus.
-506	A person often clearly explains that the child will hug the alumnus.
-507	A person often ever explains that the child will hug the alumnus.
-508	A person clearly explains that the child will rarely hug the alumnus.
-509	A person ever explains that the child will rarely hug the alumnus.
-510	A person rarely clearly explains that the child will hug the alumnus.
-511	A person rarely ever explains that the child will hug the alumnus.
-512	The boys obviously thought that the pedestrians have rarely kissed.
-513	The boys ever thought that the pedestrians have rarely kissed.
-514	The boys rarely obviously thought that the pedestrians have kissed.
-515	The boys rarely ever thought that the pedestrians have kissed.
-516	The boys obviously thought that the pedestrians have sometimes kissed.
-517	The boys ever thought that the pedestrians have sometimes kissed.
-518	The boys sometimes obviously thought that the pedestrians have kissed.
-519	The boys sometimes ever thought that the pedestrians have kissed.
-520	The adults who always know waiters have cared for these guests.
-521	The adults who always know waiters have cared for any guests.
-522	The adults who always know those waiters have cared for guests.
-523	The adults who always know any waiters have cared for guests.
-524	The adults who seldom know waiters have cared for these guests.
-525	The adults who seldom know waiters have cared for any guests.
-526	The adults who seldom know those waiters have cared for guests.
-527	The adults who seldom know any waiters have cared for guests.
-528	The girls clearly imagined that the waitresses hardly admired the adult.
-529	The girls ever imagined that the waitresses hardly admired the adult.
-530	The girls hardly clearly imagined that the waitresses admired the adult.
-531	The girls hardly ever imagined that the waitresses admired the adult.
-532	The girls clearly imagined that the waitresses often admired the adult.
-533	The girls ever imagined that the waitresses often admired the adult.
-534	The girls often clearly imagined that the waitresses admired the adult.
-535	The girls often ever imagined that the waitresses admired the adult.
-536	The people clearly imagine that the lady had always worn a shirt.
-537	The people ever imagine that the lady had always worn a shirt.
-538	The people always clearly imagine that the lady had worn a shirt.
-539	The people always ever imagine that the lady had worn a shirt.
-540	The people clearly imagine that the lady had hardly worn a shirt.
-541	The people ever imagine that the lady had hardly worn a shirt.
-542	The people hardly clearly imagine that the lady had worn a shirt.
-543	The people hardly ever imagine that the lady had worn a shirt.
-544	The ladies also thought that the girl had seldom talked to the senator.
-545	The ladies ever thought that the girl had seldom talked to the senator.
-546	The ladies seldom also thought that the girl had talked to the senator.
-547	The ladies seldom ever thought that the girl had talked to the senator.
-548	The ladies also thought that the girl had sometimes talked to the senator.
-549	The ladies ever thought that the girl had sometimes talked to the senator.
-550	The ladies sometimes also thought that the girl had talked to the senator.
-551	The ladies sometimes ever thought that the girl had talked to the senator.
-552	The doctors fortunately said that a boy barely grinned.
-553	The doctors ever said that a boy barely grinned.
-554	The doctors barely fortunately said that a boy grinned.
-555	The doctors barely ever said that a boy grinned.
-556	The doctors fortunately said that a boy often grinned.
-557	The doctors ever said that a boy often grinned.
-558	The doctors often fortunately said that a boy grinned.
-559	The doctors often ever said that a boy grinned.
-560	The students obviously explained that the pedestrians had always respected the movie theater.
-561	The students ever explained that the pedestrians had always respected the movie theater.
-562	The students always obviously explained that the pedestrians had respected the movie theater.
-563	The students always ever explained that the pedestrians had respected the movie theater.
-564	The students obviously explained that the pedestrians had barely respected the movie theater.
-565	The students ever explained that the pedestrians had barely respected the movie theater.
-566	The students barely obviously explained that the pedestrians had respected the movie theater.
-567	The students barely ever explained that the pedestrians had respected the movie theater.
-568	The student who always passes museums had worked with the pedestrians.
-569	The student who always passes museums had worked with any pedestrians.
-570	The student who always passes those museums had worked with pedestrians.
-571	The student who always passes any museums had worked with pedestrians.
-572	The student who rarely passes museums had worked with the pedestrians.
-573	The student who rarely passes museums had worked with any pedestrians.
-574	The student who rarely passes those museums had worked with pedestrians.
-575	The student who rarely passes any museums had worked with pedestrians.
-576	A girl who should often listen to teenagers will break those plates.
-577	A girl who should often listen to teenagers will break any plates.
-578	A girl who should often listen to the teenagers will break plates.
-579	A girl who should often listen to any teenagers will break plates.
-580	A girl who should rarely listen to teenagers will break those plates.
-581	A girl who should rarely listen to teenagers will break any plates.
-582	A girl who should rarely listen to the teenagers will break plates.
-583	A girl who should rarely listen to any teenagers will break plates.
-584	A boy also thought that a guy might always drop by the grocery store.
-585	A boy ever thought that a guy might always drop by the grocery store.
-586	A boy always also thought that a guy might drop by the grocery store.
-587	A boy always ever thought that a guy might drop by the grocery store.
-588	A boy also thought that a guy might hardly drop by the grocery store.
-589	A boy ever thought that a guy might hardly drop by the grocery store.
-590	A boy hardly also thought that a guy might drop by the grocery store.
-591	A boy hardly ever thought that a guy might drop by the grocery store.
-592	The pedestrians also thought that the guests always bike to the bank.
-593	The pedestrians ever thought that the guests always bike to the bank.
-594	The pedestrians always also thought that the guests bike to the bank.
-595	The pedestrians always ever thought that the guests bike to the bank.
-596	The pedestrians also thought that the guests rarely bike to the bank.
-597	The pedestrians ever thought that the guests rarely bike to the bank.
-598	The pedestrians rarely also thought that the guests bike to the bank.
-599	The pedestrians rarely ever thought that the guests bike to the bank.
-600	The women who had always described children disliked the cafes.
-601	The women who had always described children disliked any cafes.
-602	The women who had always described the children disliked cafes.
-603	The women who had always described any children disliked cafes.
-604	The women who had scarcely described children disliked the cafes.
-605	The women who had scarcely described children disliked any cafes.
-606	The women who had scarcely described the children disliked cafes.
-607	The women who had scarcely described any children disliked cafes.
-608	The person who often kisses children had listened to these senators.
-609	The person who often kisses children had listened to any senators.
-610	The person who often kisses those children had listened to senators.
-611	The person who often kisses any children had listened to senators.
-612	The person who seldom kisses children had listened to these senators.
-613	The person who seldom kisses children had listened to any senators.
-614	The person who seldom kisses those children had listened to senators.
-615	The person who seldom kisses any children had listened to senators.
-616	A cashier who always resembled shoes drives to those banks.
-617	A cashier who always resembled shoes drives to any banks.
-618	A cashier who always resembled the shoes drives to banks.
-619	A cashier who always resembled any shoes drives to banks.
-620	A cashier who barely resembled shoes drives to those banks.
-621	A cashier who barely resembled shoes drives to any banks.
-622	A cashier who barely resembled the shoes drives to banks.
-623	A cashier who barely resembled any shoes drives to banks.
-624	The women who hardly criticized libraries do reference these waitresses.
-625	The women who hardly criticized libraries do reference any waitresses.
-626	The women who hardly criticized the libraries do reference waitresses.
-627	The women who hardly criticized any libraries do reference waitresses.
-628	The women who sometimes criticized libraries do reference these waitresses.
-629	The women who sometimes criticized libraries do reference any waitresses.
-630	The women who sometimes criticized the libraries do reference waitresses.
-631	The women who sometimes criticized any libraries do reference waitresses.
-632	A senator who often worked with students has remembered the pamphlets.
-633	A senator who often worked with students has remembered any pamphlets.
-634	A senator who often worked with these students has remembered pamphlets.
-635	A senator who often worked with any students has remembered pamphlets.
-636	A senator who scarcely worked with students has remembered the pamphlets.
-637	A senator who scarcely worked with students has remembered any pamphlets.
-638	A senator who scarcely worked with these students has remembered pamphlets.
-639	A senator who scarcely worked with any students has remembered pamphlets.
-640	The teachers who often resemble senators visited those drivers.
-641	The teachers who often resemble senators visited any drivers.
-642	The teachers who often resemble those senators visited drivers.
-643	The teachers who often resemble any senators visited drivers.
-644	The teachers who seldom resemble senators visited those drivers.
-645	The teachers who seldom resemble senators visited any drivers.
-646	The teachers who seldom resemble those senators visited drivers.
-647	The teachers who seldom resemble any senators visited drivers.
-648	The waiters clearly explained that the boys scarcely exited the restaurants.
-649	The waiters ever explained that the boys scarcely exited the restaurants.
-650	The waiters scarcely clearly explained that the boys exited the restaurants.
-651	The waiters scarcely ever explained that the boys exited the restaurants.
-652	The waiters clearly explained that the boys sometimes exited the restaurants.
-653	The waiters ever explained that the boys sometimes exited the restaurants.
-654	The waiters sometimes clearly explained that the boys exited the restaurants.
-655	The waiters sometimes ever explained that the boys exited the restaurants.
-656	The boy obviously imagines that the actress has hardly dropped by the restaurant.
-657	The boy ever imagines that the actress has hardly dropped by the restaurant.
-658	The boy hardly obviously imagines that the actress has dropped by the restaurant.
-659	The boy hardly ever imagines that the actress has dropped by the restaurant.
-660	The boy obviously imagines that the actress has often dropped by the restaurant.
-661	The boy ever imagines that the actress has often dropped by the restaurant.
-662	The boy often obviously imagines that the actress has dropped by the restaurant.
-663	The boy often ever imagines that the actress has dropped by the restaurant.
-664	The waiter fortunately explains that the waitresses always exercised.
-665	The waiter ever explains that the waitresses always exercised.
-666	The waiter always fortunately explains that the waitresses exercised.
-667	The waiter always ever explains that the waitresses exercised.
-668	The waiter fortunately explains that the waitresses barely exercised.
-669	The waiter ever explains that the waitresses barely exercised.
-670	The waiter barely fortunately explains that the waitresses exercised.
-671	The waiter barely ever explains that the waitresses exercised.
-672	A person fortunately imagined that the men always insult the louse.
-673	A person ever imagined that the men always insult the louse.
-674	A person always fortunately imagined that the men insult the louse.
-675	A person always ever imagined that the men insult the louse.
-676	A person fortunately imagined that the men scarcely insult the louse.
-677	A person ever imagined that the men scarcely insult the louse.
-678	A person scarcely fortunately imagined that the men insult the louse.
-679	A person scarcely ever imagined that the men insult the louse.
-680	The people obviously say that a guy will always joke around.
-681	The people ever say that a guy will always joke around.
-682	The people always obviously say that a guy will joke around.
-683	The people always ever say that a guy will joke around.
-684	The people obviously say that a guy will barely joke around.
-685	The people ever say that a guy will barely joke around.
-686	The people barely obviously say that a guy will joke around.
-687	The people barely ever say that a guy will joke around.
-688	The girl who hardly explores public parks leaves the cashiers.
-689	The girl who hardly explores public parks leaves any cashiers.
-690	The girl who hardly explores these public parks leaves cashiers.
-691	The girl who hardly explores any public parks leaves cashiers.
-692	The girl who often explores public parks leaves the cashiers.
-693	The girl who often explores public parks leaves any cashiers.
-694	The girl who often explores these public parks leaves cashiers.
-695	The girl who often explores any public parks leaves cashiers.
-696	A student fortunately thinks that the customer rarely plays.
-697	A student ever thinks that the customer rarely plays.
-698	A student rarely fortunately thinks that the customer plays.
-699	A student rarely ever thinks that the customer plays.
-700	A student fortunately thinks that the customer sometimes plays.
-701	A student ever thinks that the customer sometimes plays.
-702	A student sometimes fortunately thinks that the customer plays.
-703	A student sometimes ever thinks that the customer plays.
-704	A cashier who has often been at cafes loved these movies.
-705	A cashier who has often been at cafes loved any movies.
-706	A cashier who has often been at those cafes loved movies.
-707	A cashier who has often been at any cafes loved movies.
-708	A cashier who has seldom been at cafes loved these movies.
-709	A cashier who has seldom been at cafes loved any movies.
-710	A cashier who has seldom been at those cafes loved movies.
-711	A cashier who has seldom been at any cafes loved movies.
-712	The patients obviously explained that the teachers always lift a rug.
-713	The patients ever explained that the teachers always lift a rug.
-714	The patients always obviously explained that the teachers lift a rug.
-715	The patients always ever explained that the teachers lift a rug.
-716	The patients obviously explained that the teachers seldom lift a rug.
-717	The patients ever explained that the teachers seldom lift a rug.
-718	The patients seldom obviously explained that the teachers lift a rug.
-719	The patients seldom ever explained that the teachers lift a rug.
-720	A teacher who should often attack guests listens to the actresses.
-721	A teacher who should often attack guests listens to any actresses.
-722	A teacher who should often attack the guests listens to actresses.
-723	A teacher who should often attack any guests listens to actresses.
-724	A teacher who should rarely attack guests listens to the actresses.
-725	A teacher who should rarely attack guests listens to any actresses.
-726	A teacher who should rarely attack the guests listens to actresses.
-727	A teacher who should rarely attack any guests listens to actresses.
-728	The guys who often do insult newspaper articles did observe those cashiers.
-729	The guys who often do insult newspaper articles did observe any cashiers.
-730	The guys who often do insult those newspaper articles did observe cashiers.
-731	The guys who often do insult any newspaper articles did observe cashiers.
-732	The guys who seldom do insult newspaper articles did observe those cashiers.
-733	The guys who seldom do insult newspaper articles did observe any cashiers.
-734	The guys who seldom do insult those newspaper articles did observe cashiers.
-735	The guys who seldom do insult any newspaper articles did observe cashiers.
-736	A driver who seldom returned to people loves these actresses.
-737	A driver who seldom returned to people loves any actresses.
-738	A driver who seldom returned to those people loves actresses.
-739	A driver who seldom returned to any people loves actresses.
-740	A driver who sometimes returned to people loves these actresses.
-741	A driver who sometimes returned to people loves any actresses.
-742	A driver who sometimes returned to those people loves actresses.
-743	A driver who sometimes returned to any people loves actresses.
-744	The ladies obviously think that the guys scarcely ran around the restaurants.
-745	The ladies ever think that the guys scarcely ran around the restaurants.
-746	The ladies scarcely obviously think that the guys ran around the restaurants.
-747	The ladies scarcely ever think that the guys ran around the restaurants.
-748	The ladies obviously think that the guys sometimes ran around the restaurants.
-749	The ladies ever think that the guys sometimes ran around the restaurants.
-750	The ladies sometimes obviously think that the guys ran around the restaurants.
-751	The ladies sometimes ever think that the guys ran around the restaurants.
-752	A driver who seldom talked to actresses has taken the books.
-753	A driver who seldom talked to actresses has taken any books.
-754	A driver who seldom talked to those actresses has taken books.
-755	A driver who seldom talked to any actresses has taken books.
-756	A driver who sometimes talked to actresses has taken the books.
-757	A driver who sometimes talked to actresses has taken any books.
-758	A driver who sometimes talked to those actresses has taken books.
-759	A driver who sometimes talked to any actresses has taken books.
-760	The people obviously think that the customers should rarely drive to the college campuses.
-761	The people ever think that the customers should rarely drive to the college campuses.
-762	The people rarely obviously think that the customers should drive to the college campuses.
-763	The people rarely ever think that the customers should drive to the college campuses.
-764	The people obviously think that the customers should sometimes drive to the college campuses.
-765	The people ever think that the customers should sometimes drive to the college campuses.
-766	The people sometimes obviously think that the customers should drive to the college campuses.
-767	The people sometimes ever think that the customers should drive to the college campuses.
-768	A guest who had always respected waiters does pass the high schools.
-769	A guest who had always respected waiters does pass any high schools.
-770	A guest who had always respected those waiters does pass high schools.
-771	A guest who had always respected any waiters does pass high schools.
-772	A guest who had scarcely respected waiters does pass the high schools.
-773	A guest who had scarcely respected waiters does pass any high schools.
-774	A guest who had scarcely respected those waiters does pass high schools.
-775	A guest who had scarcely respected any waiters does pass high schools.
-776	The actor also imagined that the men would always explain everything.
-777	The actor ever imagined that the men would always explain everything.
-778	The actor always also imagined that the men would explain everything.
-779	The actor always ever imagined that the men would explain everything.
-780	The actor also imagined that the men would rarely explain everything.
-781	The actor ever imagined that the men would rarely explain everything.
-782	The actor rarely also imagined that the men would explain everything.
-783	The actor rarely ever imagined that the men would explain everything.
-784	The ladies who seldom brought cups had driven to the libraries.
-785	The ladies who seldom brought cups had driven to any libraries.
-786	The ladies who seldom brought those cups had driven to libraries.
-787	The ladies who seldom brought any cups had driven to libraries.
-788	The ladies who sometimes brought cups had driven to the libraries.
-789	The ladies who sometimes brought cups had driven to any libraries.
-790	The ladies who sometimes brought those cups had driven to libraries.
-791	The ladies who sometimes brought any cups had driven to libraries.
-792	The dancer also thought that a woman always lied.
-793	The dancer ever thought that a woman always lied.
-794	The dancer always also thought that a woman lied.
-795	The dancer always ever thought that a woman lied.
-796	The dancer also thought that a woman hardly lied.
-797	The dancer ever thought that a woman hardly lied.
-798	The dancer hardly also thought that a woman lied.
-799	The dancer hardly ever thought that a woman lied.
-800	The doctors who often lift books know the fish.
-801	The doctors who often lift books know any fish.
-802	The doctors who often lift those books know fish.
-803	The doctors who often lift any books know fish.
-804	The doctors who scarcely lift books know the fish.
-805	The doctors who scarcely lift books know any fish.
-806	The doctors who scarcely lift those books know fish.
-807	The doctors who scarcely lift any books know fish.
-808	The patients also said that the waiters rarely win.
-809	The patients ever said that the waiters rarely win.
-810	The patients rarely also said that the waiters win.
-811	The patients rarely ever said that the waiters win.
-812	The patients also said that the waiters sometimes win.
-813	The patients ever said that the waiters sometimes win.
-814	The patients sometimes also said that the waiters win.
-815	The patients sometimes ever said that the waiters win.
-816	An actor who always does criticize commentaries visits those schools.
-817	An actor who always does criticize commentaries visits any schools.
-818	An actor who always does criticize the commentaries visits schools.
-819	An actor who always does criticize any commentaries visits schools.
-820	An actor who barely does criticize commentaries visits those schools.
-821	An actor who barely does criticize commentaries visits any schools.
-822	An actor who barely does criticize the commentaries visits schools.
-823	An actor who barely does criticize any commentaries visits schools.
-824	The guest who will barely bike to schools had gone to the cafes.
-825	The guest who will barely bike to schools had gone to any cafes.
-826	The guest who will barely bike to those schools had gone to cafes.
-827	The guest who will barely bike to any schools had gone to cafes.
-828	The guest who will often bike to schools had gone to the cafes.
-829	The guest who will often bike to schools had gone to any cafes.
-830	The guest who will often bike to those schools had gone to cafes.
-831	The guest who will often bike to any schools had gone to cafes.
-832	The doctors who had scarcely gone to art galleries have passed the movie theaters.
-833	The doctors who had scarcely gone to art galleries have passed any movie theaters.
-834	The doctors who had scarcely gone to these art galleries have passed movie theaters.
-835	The doctors who had scarcely gone to any art galleries have passed movie theaters.
-836	The doctors who had sometimes gone to art galleries have passed the movie theaters.
-837	The doctors who had sometimes gone to art galleries have passed any movie theaters.
-838	The doctors who had sometimes gone to these art galleries have passed movie theaters.
-839	The doctors who had sometimes gone to any art galleries have passed movie theaters.
-840	The teachers who have hardly investigated restaurants should kiss these waitresses.
-841	The teachers who have hardly investigated restaurants should kiss any waitresses.
-842	The teachers who have hardly investigated the restaurants should kiss waitresses.
-843	The teachers who have hardly investigated any restaurants should kiss waitresses.
-844	The teachers who have sometimes investigated restaurants should kiss these waitresses.
-845	The teachers who have sometimes investigated restaurants should kiss any waitresses.
-846	The teachers who have sometimes investigated the restaurants should kiss waitresses.
-847	The teachers who have sometimes investigated any restaurants should kiss waitresses.
-848	The drivers who hardly had books did explore these hospitals.
-849	The drivers who hardly had books did explore any hospitals.
-850	The drivers who hardly had the books did explore hospitals.
-851	The drivers who hardly had any books did explore hospitals.
-852	The drivers who sometimes had books did explore these hospitals.
-853	The drivers who sometimes had books did explore any hospitals.
-854	The drivers who sometimes had the books did explore hospitals.
-855	The drivers who sometimes had any books did explore hospitals.
-856	The actor fortunately explained that the doctors always know a guest.
-857	The actor ever explained that the doctors always know a guest.
-858	The actor always fortunately explained that the doctors know a guest.
-859	The actor always ever explained that the doctors know a guest.
-860	The actor fortunately explained that the doctors barely know a guest.
-861	The actor ever explained that the doctors barely know a guest.
-862	The actor barely fortunately explained that the doctors know a guest.
-863	The actor barely ever explained that the doctors know a guest.
-864	A student fortunately explained that a customer might often scratch.
-865	A student ever explained that a customer might often scratch.
-866	A student often fortunately explained that a customer might scratch.
-867	A student often ever explained that a customer might scratch.
-868	A student fortunately explained that a customer might rarely scratch.
-869	A student ever explained that a customer might rarely scratch.
-870	A student rarely fortunately explained that a customer might scratch.
-871	A student rarely ever explained that a customer might scratch.
-872	The dancers who will barely visit banks fled from these cafes.
-873	The dancers who will barely visit banks fled from any cafes.
-874	The dancers who will barely visit these banks fled from cafes.
-875	The dancers who will barely visit any banks fled from cafes.
-876	The dancers who will often visit banks fled from these cafes.
-877	The dancers who will often visit banks fled from any cafes.
-878	The dancers who will often visit these banks fled from cafes.
-879	The dancers who will often visit any banks fled from cafes.
-880	The guest obviously explains that the cashiers barely telephoned.
-881	The guest ever explains that the cashiers barely telephoned.
-882	The guest barely obviously explains that the cashiers telephoned.
-883	The guest barely ever explains that the cashiers telephoned.
-884	The guest obviously explains that the cashiers often telephoned.
-885	The guest ever explains that the cashiers often telephoned.
-886	The guest often obviously explains that the cashiers telephoned.
-887	The guest often ever explains that the cashiers telephoned.
-888	The waitresses who have often approached people should describe these reports.
-889	The waitresses who have often approached people should describe any reports.
-890	The waitresses who have often approached the people should describe reports.
-891	The waitresses who have often approached any people should describe reports.
-892	The waitresses who have rarely approached people should describe these reports.
-893	The waitresses who have rarely approached people should describe any reports.
-894	The waitresses who have rarely approached the people should describe reports.
-895	The waitresses who have rarely approached any people should describe reports.
-896	The guy obviously explained that the senators could often forget the goose.
-897	The guy ever explained that the senators could often forget the goose.
-898	The guy often obviously explained that the senators could forget the goose.
-899	The guy often ever explained that the senators could forget the goose.
-900	The guy obviously explained that the senators could rarely forget the goose.
-901	The guy ever explained that the senators could rarely forget the goose.
-902	The guy rarely obviously explained that the senators could forget the goose.
-903	The guy rarely ever explained that the senators could forget the goose.
-904	A customer who had rarely referenced teachers should kiss these boys.
-905	A customer who had rarely referenced teachers should kiss any boys.
-906	A customer who had rarely referenced those teachers should kiss boys.
-907	A customer who had rarely referenced any teachers should kiss boys.
-908	A customer who had sometimes referenced teachers should kiss these boys.
-909	A customer who had sometimes referenced teachers should kiss any boys.
-910	A customer who had sometimes referenced those teachers should kiss boys.
-911	A customer who had sometimes referenced any teachers should kiss boys.
-912	A lady who will rarely hug guys did drop by those art galleries.
-913	A lady who will rarely hug guys did drop by any art galleries.
-914	A lady who will rarely hug those guys did drop by art galleries.
-915	A lady who will rarely hug any guys did drop by art galleries.
-916	A lady who will sometimes hug guys did drop by those art galleries.
-917	A lady who will sometimes hug guys did drop by any art galleries.
-918	A lady who will sometimes hug those guys did drop by art galleries.
-919	A lady who will sometimes hug any guys did drop by art galleries.
-920	The student who seldom drove to malls loves these actors.
-921	The student who seldom drove to malls loves any actors.
-922	The student who seldom drove to the malls loves actors.
-923	The student who seldom drove to any malls loves actors.
-924	The student who sometimes drove to malls loves these actors.
-925	The student who sometimes drove to malls loves any actors.
-926	The student who sometimes drove to the malls loves actors.
-927	The student who sometimes drove to any malls loves actors.
-928	The guests who always boycott public parks clean the books.
-929	The guests who always boycott public parks clean any books.
-930	The guests who always boycott these public parks clean books.
-931	The guests who always boycott any public parks clean books.
-932	The guests who rarely boycott public parks clean the books.
-933	The guests who rarely boycott public parks clean any books.
-934	The guests who rarely boycott these public parks clean books.
-935	The guests who rarely boycott any public parks clean books.
-936	An adult who always resembles banks should hate these waitresses.
-937	An adult who always resembles banks should hate any waitresses.
-938	An adult who always resembles these banks should hate waitresses.
-939	An adult who always resembles any banks should hate waitresses.
-940	An adult who rarely resembles banks should hate these waitresses.
-941	An adult who rarely resembles banks should hate any waitresses.
-942	An adult who rarely resembles these banks should hate waitresses.
-943	An adult who rarely resembles any banks should hate waitresses.
-944	The senators fortunately said that the dancers should often kiss the girls.
-945	The senators ever said that the dancers should often kiss the girls.
-946	The senators often fortunately said that the dancers should kiss the girls.
-947	The senators often ever said that the dancers should kiss the girls.
-948	The senators fortunately said that the dancers should seldom kiss the girls.
-949	The senators ever said that the dancers should seldom kiss the girls.
-950	The senators seldom fortunately said that the dancers should kiss the girls.
-951	The senators seldom ever said that the dancers should kiss the girls.
-952	The adult obviously explains that the teenagers had hardly embraced.
-953	The adult ever explains that the teenagers had hardly embraced.
-954	The adult hardly obviously explains that the teenagers had embraced.
-955	The adult hardly ever explains that the teenagers had embraced.
-956	The adult obviously explains that the teenagers had sometimes embraced.
-957	The adult ever explains that the teenagers had sometimes embraced.
-958	The adult sometimes obviously explains that the teenagers had embraced.
-959	The adult sometimes ever explains that the teenagers had embraced.
-960	A woman clearly says that the guys had barely disliked the senator.
-961	A woman ever says that the guys had barely disliked the senator.
-962	A woman barely clearly says that the guys had disliked the senator.
-963	A woman barely ever says that the guys had disliked the senator.
-964	A woman clearly says that the guys had often disliked the senator.
-965	A woman ever says that the guys had often disliked the senator.
-966	A woman often clearly says that the guys had disliked the senator.
-967	A woman often ever says that the guys had disliked the senator.
-968	The adults who often do help children examine the reports.
-969	The adults who often do help children examine any reports.
-970	The adults who often do help these children examine reports.
-971	The adults who often do help any children examine reports.
-972	The adults who seldom do help children examine the reports.
-973	The adults who seldom do help children examine any reports.
-974	The adults who seldom do help these children examine reports.
-975	The adults who seldom do help any children examine reports.
-976	The girls obviously imagined that the senators would always embrace.
-977	The girls ever imagined that the senators would always embrace.
-978	The girls always obviously imagined that the senators would embrace.
-979	The girls always ever imagined that the senators would embrace.
-980	The girls obviously imagined that the senators would rarely embrace.
-981	The girls ever imagined that the senators would rarely embrace.
-982	The girls rarely obviously imagined that the senators would embrace.
-983	The girls rarely ever imagined that the senators would embrace.
-984	The adults who had always cleaned plates arrived at these museums.
-985	The adults who had always cleaned plates arrived at any museums.
-986	The adults who had always cleaned these plates arrived at museums.
-987	The adults who had always cleaned any plates arrived at museums.
-988	The adults who had barely cleaned plates arrived at these museums.
-989	The adults who had barely cleaned plates arrived at any museums.
-990	The adults who had barely cleaned these plates arrived at museums.
-991	The adults who had barely cleaned any plates arrived at museums.
-992	The adult who always had pants visits these cashiers.
-993	The adult who always had pants visits any cashiers.
-994	The adult who always had the pants visits cashiers.
-995	The adult who always had any pants visits cashiers.
-996	The adult who hardly had pants visits these cashiers.
-997	The adult who hardly had pants visits any cashiers.
-998	The adult who hardly had the pants visits cashiers.
-999	The adult who hardly had any pants visits cashiers.
+0	The children obviously imagine that the waiters have scarcely explored the hospital.
+1	The children ever imagine that the waiters have scarcely explored the hospital.
+2	The children scarcely obviously imagine that the waiters have explored the hospital.
+3	The children scarcely ever imagine that the waiters have explored the hospital.
+4	A person who will scarcely care for students had cared for these guys.
+5	A person who will scarcely care for students had cared for any guys.
+6	A person who will scarcely care for the students had cared for guys.
+7	A person who will scarcely care for any students had cared for guys.
+8	The waiters clearly think that the children had scarcely smiled.
+9	The waiters ever think that the children had scarcely smiled.
+10	The waiters scarcely clearly think that the children had smiled.
+11	The waiters scarcely ever think that the children had smiled.
+12	The actors clearly imagine that the dancers would rarely scan the pamphlets.
+13	The actors ever imagine that the dancers would rarely scan the pamphlets.
+14	The actors rarely clearly imagine that the dancers would scan the pamphlets.
+15	The actors rarely ever imagine that the dancers would scan the pamphlets.
+16	The lady fortunately thought that a teenager rarely did respect the waiter.
+17	The lady ever thought that a teenager rarely did respect the waiter.
+18	The lady rarely fortunately thought that a teenager did respect the waiter.
+19	The lady rarely ever thought that a teenager did respect the waiter.
+20	The doctors who scarcely forget patients took the reports.
+21	The doctors who scarcely forget patients took any reports.
+22	The doctors who scarcely forget those patients took reports.
+23	The doctors who scarcely forget any patients took reports.
+24	A waiter fortunately explains that an actress could hardly watch the guests.
+25	A waiter ever explains that an actress could hardly watch the guests.
+26	A waiter hardly fortunately explains that an actress could watch the guests.
+27	A waiter hardly ever explains that an actress could watch the guests.
+28	The woman clearly imagined that the pedestrian had rarely baked.
+29	The woman ever imagined that the pedestrian had rarely baked.
+30	The woman rarely clearly imagined that the pedestrian had baked.
+31	The woman rarely ever imagined that the pedestrian had baked.
+32	The cashiers clearly explain that the man should scarcely benefit.
+33	The cashiers ever explain that the man should scarcely benefit.
+34	The cashiers scarcely clearly explain that the man should benefit.
+35	The cashiers scarcely ever explain that the man should benefit.
+36	The men clearly explain that the waiters might barely attack a waitress.
+37	The men ever explain that the waiters might barely attack a waitress.
+38	The men barely clearly explain that the waiters might attack a waitress.
+39	The men barely ever explain that the waiters might attack a waitress.
+40	The waitress clearly thinks that a girl has rarely arrived at the museum.
+41	The waitress ever thinks that a girl has rarely arrived at the museum.
+42	The waitress rarely clearly thinks that a girl has arrived at the museum.
+43	The waitress rarely ever thinks that a girl has arrived at the museum.
+44	The doctors who hardly had cups have criticized this fish.
+45	The doctors who hardly had cups have criticized any fish.
+46	The doctors who hardly had the cups have criticized fish.
+47	The doctors who hardly had any cups have criticized fish.
+48	The waiter who seldom examined commentaries has known the actresses.
+49	The waiter who seldom examined commentaries has known any actresses.
+50	The waiter who seldom examined the commentaries has known actresses.
+51	The waiter who seldom examined any commentaries has known actresses.
+52	A waiter obviously imagines that the customers scarcely insulted the teenager.
+53	A waiter ever imagines that the customers scarcely insulted the teenager.
+54	A waiter scarcely obviously imagines that the customers insulted the teenager.
+55	A waiter scarcely ever imagines that the customers insulted the teenager.
+56	The senators who have hardly insulted drivers kiss those actors.
+57	The senators who have hardly insulted drivers kiss any actors.
+58	The senators who have hardly insulted those drivers kiss actors.
+59	The senators who have hardly insulted any drivers kiss actors.
+60	A child who seldom has rugs wears the pants.
+61	A child who seldom has rugs wears any pants.
+62	A child who seldom has the rugs wears pants.
+63	A child who seldom has any rugs wears pants.
+64	A guy fortunately thinks that the actors barely bought the couches.
+65	A guy ever thinks that the actors barely bought the couches.
+66	A guy barely fortunately thinks that the actors bought the couches.
+67	A guy barely ever thinks that the actors bought the couches.
+68	The girls who barely talk to teenagers return to these teachers.
+69	The girls who barely talk to teenagers return to any teachers.
+70	The girls who barely talk to these teenagers return to teachers.
+71	The girls who barely talk to any teenagers return to teachers.
+72	The guys fortunately imagine that a patient has barely talked about the doctors.
+73	The guys ever imagine that a patient has barely talked about the doctors.
+74	The guys barely fortunately imagine that a patient has talked about the doctors.
+75	The guys barely ever imagine that a patient has talked about the doctors.
+76	The waiter fortunately imagines that the men can scarcely hate the woman.
+77	The waiter ever imagines that the men can scarcely hate the woman.
+78	The waiter scarcely fortunately imagines that the men can hate the woman.
+79	The waiter scarcely ever imagines that the men can hate the woman.
+80	The ladies obviously explained that the waitresses had hardly lifted the cup.
+81	The ladies ever explained that the waitresses had hardly lifted the cup.
+82	The ladies hardly obviously explained that the waitresses had lifted the cup.
+83	The ladies hardly ever explained that the waitresses had lifted the cup.
+84	The student who rarely investigates actresses boycotted these restaurants.
+85	The student who rarely investigates actresses boycotted any restaurants.
+86	The student who rarely investigates these actresses boycotted restaurants.
+87	The student who rarely investigates any actresses boycotted restaurants.
+88	A cashier fortunately imagines that the drivers have rarely laughed.
+89	A cashier ever imagines that the drivers have rarely laughed.
+90	A cashier rarely fortunately imagines that the drivers have laughed.
+91	A cashier rarely ever imagines that the drivers have laughed.
+92	The cashiers who hardly explore malls do buy those couches.
+93	The cashiers who hardly explore malls do buy any couches.
+94	The cashiers who hardly explore those malls do buy couches.
+95	The cashiers who hardly explore any malls do buy couches.
+96	The waitress who had rarely talked to drivers lifted those chairs.
+97	The waitress who had rarely talked to drivers lifted any chairs.
+98	The waitress who had rarely talked to the drivers lifted chairs.
+99	The waitress who had rarely talked to any drivers lifted chairs.
+100	The guys who have barely criticized guests have worn the gloves.
+101	The guys who have barely criticized guests have worn any gloves.
+102	The guys who have barely criticized the guests have worn gloves.
+103	The guys who have barely criticized any guests have worn gloves.
+104	The students also explained that the teachers could rarely describe a play.
+105	The students ever explained that the teachers could rarely describe a play.
+106	The students rarely also explained that the teachers could describe a play.
+107	The students rarely ever explained that the teachers could describe a play.
+108	The doctor who has scarcely observed boys wears those gloves.
+109	The doctor who has scarcely observed boys wears any gloves.
+110	The doctor who has scarcely observed the boys wears gloves.
+111	The doctor who has scarcely observed any boys wears gloves.
+112	The waitress obviously explained that the actors have barely negotiated.
+113	The waitress ever explained that the actors have barely negotiated.
+114	The waitress barely obviously explained that the actors have negotiated.
+115	The waitress barely ever explained that the actors have negotiated.
+116	A woman fortunately explains that the teacher rarely singing.
+117	A woman ever explains that the teacher rarely singing.
+118	A woman rarely fortunately explains that the teacher singing.
+119	A woman rarely ever explains that the teacher singing.
+120	The actresses obviously imagine that a woman seldom approaches the pedestrians.
+121	The actresses ever imagine that a woman seldom approaches the pedestrians.
+122	The actresses seldom obviously imagine that a woman approaches the pedestrians.
+123	The actresses seldom ever imagine that a woman approaches the pedestrians.
+124	The patient clearly thought that the lady seldom returns to the fish.
+125	The patient ever thought that the lady seldom returns to the fish.
+126	The patient seldom clearly thought that the lady returns to the fish.
+127	The patient seldom ever thought that the lady returns to the fish.
+128	The lady who will barely boycott college campuses arrived at the hospitals.
+129	The lady who will barely boycott college campuses arrived at any hospitals.
+130	The lady who will barely boycott those college campuses arrived at hospitals.
+131	The lady who will barely boycott any college campuses arrived at hospitals.
+132	The people who scarcely wore glasses had known the men.
+133	The people who scarcely wore glasses had known any men.
+134	The people who scarcely wore the glasses had known men.
+135	The people who scarcely wore any glasses had known men.
+136	A woman who should seldom buy cars hugged these girls.
+137	A woman who should seldom buy cars hugged any girls.
+138	A woman who should seldom buy the cars hugged girls.
+139	A woman who should seldom buy any cars hugged girls.
+140	The pedestrians clearly said that a woman hardly practices.
+141	The pedestrians ever said that a woman hardly practices.
+142	The pedestrians hardly clearly said that a woman practices.
+143	The pedestrians hardly ever said that a woman practices.
+144	A dancer also imagined that the adults rarely did grin.
+145	A dancer ever imagined that the adults rarely did grin.
+146	A dancer rarely also imagined that the adults did grin.
+147	A dancer rarely ever imagined that the adults did grin.
+148	The actresses also think that an actress rarely concurs.
+149	The actresses ever think that an actress rarely concurs.
+150	The actresses rarely also think that an actress concurs.
+151	The actresses rarely ever think that an actress concurs.
+152	The person fortunately explains that the waiters had seldom admired the people.
+153	The person ever explains that the waiters had seldom admired the people.
+154	The person seldom fortunately explains that the waiters had admired the people.
+155	The person seldom ever explains that the waiters had admired the people.
+156	The waiters obviously imagined that the woman scarcely watches the boys.
+157	The waiters ever imagined that the woman scarcely watches the boys.
+158	The waiters scarcely obviously imagined that the woman watches the boys.
+159	The waiters scarcely ever imagined that the woman watches the boys.
+160	An actor fortunately explains that the ladies scarcely scan an report.
+161	An actor ever explains that the ladies scarcely scan an report.
+162	An actor scarcely fortunately explains that the ladies scan an report.
+163	An actor scarcely ever explains that the ladies scan an report.
+164	A person who barely watches teachers cleaned these rugs.
+165	A person who barely watches teachers cleaned any rugs.
+166	A person who barely watches the teachers cleaned rugs.
+167	A person who barely watches any teachers cleaned rugs.
+168	A dancer who had rarely examined reports will be at the restaurants.
+169	A dancer who had rarely examined reports will be at any restaurants.
+170	A dancer who had rarely examined those reports will be at restaurants.
+171	A dancer who had rarely examined any reports will be at restaurants.
+172	The children clearly imagined that the person barely changes.
+173	The children ever imagined that the person barely changes.
+174	The children barely clearly imagined that the person changes.
+175	The children barely ever imagined that the person changes.
+176	The dancers obviously said that the people have scarcely testified.
+177	The dancers ever said that the people have scarcely testified.
+178	The dancers scarcely obviously said that the people have testified.
+179	The dancers scarcely ever said that the people have testified.
+180	The pedestrians fortunately say that the woman barely returns to a girl.
+181	The pedestrians ever say that the woman barely returns to a girl.
+182	The pedestrians barely fortunately say that the woman returns to a girl.
+183	The pedestrians barely ever say that the woman returns to a girl.
+184	The teachers obviously explain that a patient seldom protests.
+185	The teachers ever explain that a patient seldom protests.
+186	The teachers seldom obviously explain that a patient protests.
+187	The teachers seldom ever explain that a patient protests.
+188	The girls who have barely walked through schools dropped by these high schools.
+189	The girls who have barely walked through schools dropped by any high schools.
+190	The girls who have barely walked through these schools dropped by high schools.
+191	The girls who have barely walked through any schools dropped by high schools.
+192	A man who barely dropped by movie theaters leaves these actors.
+193	A man who barely dropped by movie theaters leaves any actors.
+194	A man who barely dropped by those movie theaters leaves actors.
+195	A man who barely dropped by any movie theaters leaves actors.
+196	The students also said that the boys would rarely dislike the lady.
+197	The students ever said that the boys would rarely dislike the lady.
+198	The students rarely also said that the boys would dislike the lady.
+199	The students rarely ever said that the boys would dislike the lady.
+200	The senators who rarely did reference cashiers talk about the dancers.
+201	The senators who rarely did reference cashiers talk about any dancers.
+202	The senators who rarely did reference those cashiers talk about dancers.
+203	The senators who rarely did reference any cashiers talk about dancers.
+204	The pedestrians clearly said that the patients could hardly reunite.
+205	The pedestrians ever said that the patients could hardly reunite.
+206	The pedestrians hardly clearly said that the patients could reunite.
+207	The pedestrians hardly ever said that the patients could reunite.
+208	The students also said that the senators seldom talked.
+209	The students ever said that the senators seldom talked.
+210	The students seldom also said that the senators talked.
+211	The students seldom ever said that the senators talked.
+212	The adults fortunately explained that the boys scarcely grin.
+213	The adults ever explained that the boys scarcely grin.
+214	The adults scarcely fortunately explained that the boys grin.
+215	The adults scarcely ever explained that the boys grin.
+216	The girl also thought that the waitress might seldom joke around.
+217	The girl ever thought that the waitress might seldom joke around.
+218	The girl seldom also thought that the waitress might joke around.
+219	The girl seldom ever thought that the waitress might joke around.
+220	The girls who have rarely worn gloves left these senators.
+221	The girls who have rarely worn gloves left any senators.
+222	The girls who have rarely worn these gloves left senators.
+223	The girls who have rarely worn any gloves left senators.
+224	The teenagers who had seldom arrived at hospitals should wear the pants.
+225	The teenagers who had seldom arrived at hospitals should wear any pants.
+226	The teenagers who had seldom arrived at those hospitals should wear pants.
+227	The teenagers who had seldom arrived at any hospitals should wear pants.
+228	The adults who barely broke glasses will scan these documentaries.
+229	The adults who barely broke glasses will scan any documentaries.
+230	The adults who barely broke the glasses will scan documentaries.
+231	The adults who barely broke any glasses will scan documentaries.
+232	The senators who should rarely care for men exit these public parks.
+233	The senators who should rarely care for men exit any public parks.
+234	The senators who should rarely care for those men exit public parks.
+235	The senators who should rarely care for any men exit public parks.
+236	A driver who barely watched men left those people.
+237	A driver who barely watched men left any people.
+238	A driver who barely watched the men left people.
+239	A driver who barely watched any men left people.
+240	The actress fortunately imagined that a patient barely donated.
+241	The actress ever imagined that a patient barely donated.
+242	The actress barely fortunately imagined that a patient donated.
+243	The actress barely ever imagined that a patient donated.
+244	A pedestrian who barely hates teachers has biked to those high schools.
+245	A pedestrian who barely hates teachers has biked to any high schools.
+246	A pedestrian who barely hates these teachers has biked to high schools.
+247	A pedestrian who barely hates any teachers has biked to high schools.
+248	The girls clearly say that the actors seldom skated around the schools.
+249	The girls ever say that the actors seldom skated around the schools.
+250	The girls seldom clearly say that the actors skated around the schools.
+251	The girls seldom ever say that the actors skated around the schools.
+252	A person clearly explains that the child will rarely hug the alumnus.
+253	A person ever explains that the child will rarely hug the alumnus.
+254	A person rarely clearly explains that the child will hug the alumnus.
+255	A person rarely ever explains that the child will hug the alumnus.
+256	The boys obviously thought that the pedestrians have rarely kissed.
+257	The boys ever thought that the pedestrians have rarely kissed.
+258	The boys rarely obviously thought that the pedestrians have kissed.
+259	The boys rarely ever thought that the pedestrians have kissed.
+260	The adults who seldom know waiters have cared for these guests.
+261	The adults who seldom know waiters have cared for any guests.
+262	The adults who seldom know those waiters have cared for guests.
+263	The adults who seldom know any waiters have cared for guests.
+264	The girls clearly imagined that the waitresses hardly admired the adult.
+265	The girls ever imagined that the waitresses hardly admired the adult.
+266	The girls hardly clearly imagined that the waitresses admired the adult.
+267	The girls hardly ever imagined that the waitresses admired the adult.
+268	The people clearly imagine that the lady had hardly worn a shirt.
+269	The people ever imagine that the lady had hardly worn a shirt.
+270	The people hardly clearly imagine that the lady had worn a shirt.
+271	The people hardly ever imagine that the lady had worn a shirt.
+272	The ladies also thought that the girl had seldom talked to the senator.
+273	The ladies ever thought that the girl had seldom talked to the senator.
+274	The ladies seldom also thought that the girl had talked to the senator.
+275	The ladies seldom ever thought that the girl had talked to the senator.
+276	The doctors fortunately said that a boy barely grinned.
+277	The doctors ever said that a boy barely grinned.
+278	The doctors barely fortunately said that a boy grinned.
+279	The doctors barely ever said that a boy grinned.
+280	The students obviously explained that the pedestrians had barely respected the movie theater.
+281	The students ever explained that the pedestrians had barely respected the movie theater.
+282	The students barely obviously explained that the pedestrians had respected the movie theater.
+283	The students barely ever explained that the pedestrians had respected the movie theater.
+284	The student who rarely passes museums had worked with the pedestrians.
+285	The student who rarely passes museums had worked with any pedestrians.
+286	The student who rarely passes those museums had worked with pedestrians.
+287	The student who rarely passes any museums had worked with pedestrians.
+288	A girl who should rarely listen to teenagers will break those plates.
+289	A girl who should rarely listen to teenagers will break any plates.
+290	A girl who should rarely listen to the teenagers will break plates.
+291	A girl who should rarely listen to any teenagers will break plates.
+292	A boy also thought that a guy might hardly drop by the grocery store.
+293	A boy ever thought that a guy might hardly drop by the grocery store.
+294	A boy hardly also thought that a guy might drop by the grocery store.
+295	A boy hardly ever thought that a guy might drop by the grocery store.
+296	The pedestrians also thought that the guests rarely bike to the bank.
+297	The pedestrians ever thought that the guests rarely bike to the bank.
+298	The pedestrians rarely also thought that the guests bike to the bank.
+299	The pedestrians rarely ever thought that the guests bike to the bank.
+300	The women who had scarcely described children disliked the cafes.
+301	The women who had scarcely described children disliked any cafes.
+302	The women who had scarcely described the children disliked cafes.
+303	The women who had scarcely described any children disliked cafes.
+304	The person who seldom kisses children had listened to these senators.
+305	The person who seldom kisses children had listened to any senators.
+306	The person who seldom kisses those children had listened to senators.
+307	The person who seldom kisses any children had listened to senators.
+308	A cashier who barely resembled shoes drives to those banks.
+309	A cashier who barely resembled shoes drives to any banks.
+310	A cashier who barely resembled the shoes drives to banks.
+311	A cashier who barely resembled any shoes drives to banks.
+312	The women who hardly criticized libraries do reference these waitresses.
+313	The women who hardly criticized libraries do reference any waitresses.
+314	The women who hardly criticized the libraries do reference waitresses.
+315	The women who hardly criticized any libraries do reference waitresses.
+316	A senator who scarcely worked with students has remembered the pamphlets.
+317	A senator who scarcely worked with students has remembered any pamphlets.
+318	A senator who scarcely worked with these students has remembered pamphlets.
+319	A senator who scarcely worked with any students has remembered pamphlets.
+320	The teachers who seldom resemble senators visited those drivers.
+321	The teachers who seldom resemble senators visited any drivers.
+322	The teachers who seldom resemble those senators visited drivers.
+323	The teachers who seldom resemble any senators visited drivers.
+324	The waiters clearly explained that the boys scarcely exited the restaurants.
+325	The waiters ever explained that the boys scarcely exited the restaurants.
+326	The waiters scarcely clearly explained that the boys exited the restaurants.
+327	The waiters scarcely ever explained that the boys exited the restaurants.
+328	The boy obviously imagines that the actress has hardly dropped by the restaurant.
+329	The boy ever imagines that the actress has hardly dropped by the restaurant.
+330	The boy hardly obviously imagines that the actress has dropped by the restaurant.
+331	The boy hardly ever imagines that the actress has dropped by the restaurant.
+332	The waiter fortunately explains that the waitresses barely exercised.
+333	The waiter ever explains that the waitresses barely exercised.
+334	The waiter barely fortunately explains that the waitresses exercised.
+335	The waiter barely ever explains that the waitresses exercised.
+336	A person fortunately imagined that the men scarcely insult the louse.
+337	A person ever imagined that the men scarcely insult the louse.
+338	A person scarcely fortunately imagined that the men insult the louse.
+339	A person scarcely ever imagined that the men insult the louse.
+340	The people obviously say that a guy will barely joke around.
+341	The people ever say that a guy will barely joke around.
+342	The people barely obviously say that a guy will joke around.
+343	The people barely ever say that a guy will joke around.
+344	The girl who hardly explores public parks leaves the cashiers.
+345	The girl who hardly explores public parks leaves any cashiers.
+346	The girl who hardly explores these public parks leaves cashiers.
+347	The girl who hardly explores any public parks leaves cashiers.
+348	A student fortunately thinks that the customer rarely plays.
+349	A student ever thinks that the customer rarely plays.
+350	A student rarely fortunately thinks that the customer plays.
+351	A student rarely ever thinks that the customer plays.
+352	A cashier who has seldom been at cafes loved these movies.
+353	A cashier who has seldom been at cafes loved any movies.
+354	A cashier who has seldom been at those cafes loved movies.
+355	A cashier who has seldom been at any cafes loved movies.
+356	The patients obviously explained that the teachers seldom lift a rug.
+357	The patients ever explained that the teachers seldom lift a rug.
+358	The patients seldom obviously explained that the teachers lift a rug.
+359	The patients seldom ever explained that the teachers lift a rug.
+360	A teacher who should rarely attack guests listens to the actresses.
+361	A teacher who should rarely attack guests listens to any actresses.
+362	A teacher who should rarely attack the guests listens to actresses.
+363	A teacher who should rarely attack any guests listens to actresses.
+364	The guys who seldom do insult newspaper articles did observe those cashiers.
+365	The guys who seldom do insult newspaper articles did observe any cashiers.
+366	The guys who seldom do insult those newspaper articles did observe cashiers.
+367	The guys who seldom do insult any newspaper articles did observe cashiers.
+368	A driver who seldom returned to people loves these actresses.
+369	A driver who seldom returned to people loves any actresses.
+370	A driver who seldom returned to those people loves actresses.
+371	A driver who seldom returned to any people loves actresses.
+372	The ladies obviously think that the guys scarcely ran around the restaurants.
+373	The ladies ever think that the guys scarcely ran around the restaurants.
+374	The ladies scarcely obviously think that the guys ran around the restaurants.
+375	The ladies scarcely ever think that the guys ran around the restaurants.
+376	A driver who seldom talked to actresses has taken the books.
+377	A driver who seldom talked to actresses has taken any books.
+378	A driver who seldom talked to those actresses has taken books.
+379	A driver who seldom talked to any actresses has taken books.
+380	The people obviously think that the customers should rarely drive to the college campuses.
+381	The people ever think that the customers should rarely drive to the college campuses.
+382	The people rarely obviously think that the customers should drive to the college campuses.
+383	The people rarely ever think that the customers should drive to the college campuses.
+384	A guest who had scarcely respected waiters does pass the high schools.
+385	A guest who had scarcely respected waiters does pass any high schools.
+386	A guest who had scarcely respected those waiters does pass high schools.
+387	A guest who had scarcely respected any waiters does pass high schools.
+388	The actor also imagined that the men would rarely explain everything.
+389	The actor ever imagined that the men would rarely explain everything.
+390	The actor rarely also imagined that the men would explain everything.
+391	The actor rarely ever imagined that the men would explain everything.
+392	The ladies who seldom brought cups had driven to the libraries.
+393	The ladies who seldom brought cups had driven to any libraries.
+394	The ladies who seldom brought those cups had driven to libraries.
+395	The ladies who seldom brought any cups had driven to libraries.
+396	The dancer also thought that a woman hardly lied.
+397	The dancer ever thought that a woman hardly lied.
+398	The dancer hardly also thought that a woman lied.
+399	The dancer hardly ever thought that a woman lied.
+400	The doctors who scarcely lift books know the fish.
+401	The doctors who scarcely lift books know any fish.
+402	The doctors who scarcely lift those books know fish.
+403	The doctors who scarcely lift any books know fish.
+404	The patients also said that the waiters rarely win.
+405	The patients ever said that the waiters rarely win.
+406	The patients rarely also said that the waiters win.
+407	The patients rarely ever said that the waiters win.
+408	An actor who barely does criticize commentaries visits those schools.
+409	An actor who barely does criticize commentaries visits any schools.
+410	An actor who barely does criticize the commentaries visits schools.
+411	An actor who barely does criticize any commentaries visits schools.
+412	The guest who will barely bike to schools had gone to the cafes.
+413	The guest who will barely bike to schools had gone to any cafes.
+414	The guest who will barely bike to those schools had gone to cafes.
+415	The guest who will barely bike to any schools had gone to cafes.
+416	The doctors who had scarcely gone to art galleries have passed the movie theaters.
+417	The doctors who had scarcely gone to art galleries have passed any movie theaters.
+418	The doctors who had scarcely gone to these art galleries have passed movie theaters.
+419	The doctors who had scarcely gone to any art galleries have passed movie theaters.
+420	The teachers who have hardly investigated restaurants should kiss these waitresses.
+421	The teachers who have hardly investigated restaurants should kiss any waitresses.
+422	The teachers who have hardly investigated the restaurants should kiss waitresses.
+423	The teachers who have hardly investigated any restaurants should kiss waitresses.
+424	The drivers who hardly had books did explore these hospitals.
+425	The drivers who hardly had books did explore any hospitals.
+426	The drivers who hardly had the books did explore hospitals.
+427	The drivers who hardly had any books did explore hospitals.
+428	The actor fortunately explained that the doctors barely know a guest.
+429	The actor ever explained that the doctors barely know a guest.
+430	The actor barely fortunately explained that the doctors know a guest.
+431	The actor barely ever explained that the doctors know a guest.
+432	A student fortunately explained that a customer might rarely scratch.
+433	A student ever explained that a customer might rarely scratch.
+434	A student rarely fortunately explained that a customer might scratch.
+435	A student rarely ever explained that a customer might scratch.
+436	The dancers who will barely visit banks fled from these cafes.
+437	The dancers who will barely visit banks fled from any cafes.
+438	The dancers who will barely visit these banks fled from cafes.
+439	The dancers who will barely visit any banks fled from cafes.
+440	The guest obviously explains that the cashiers barely telephoned.
+441	The guest ever explains that the cashiers barely telephoned.
+442	The guest barely obviously explains that the cashiers telephoned.
+443	The guest barely ever explains that the cashiers telephoned.
+444	The waitresses who have rarely approached people should describe these reports.
+445	The waitresses who have rarely approached people should describe any reports.
+446	The waitresses who have rarely approached the people should describe reports.
+447	The waitresses who have rarely approached any people should describe reports.
+448	The guy obviously explained that the senators could rarely forget the goose.
+449	The guy ever explained that the senators could rarely forget the goose.
+450	The guy rarely obviously explained that the senators could forget the goose.
+451	The guy rarely ever explained that the senators could forget the goose.
+452	A customer who had rarely referenced teachers should kiss these boys.
+453	A customer who had rarely referenced teachers should kiss any boys.
+454	A customer who had rarely referenced those teachers should kiss boys.
+455	A customer who had rarely referenced any teachers should kiss boys.
+456	A lady who will rarely hug guys did drop by those art galleries.
+457	A lady who will rarely hug guys did drop by any art galleries.
+458	A lady who will rarely hug those guys did drop by art galleries.
+459	A lady who will rarely hug any guys did drop by art galleries.
+460	The student who seldom drove to malls loves these actors.
+461	The student who seldom drove to malls loves any actors.
+462	The student who seldom drove to the malls loves actors.
+463	The student who seldom drove to any malls loves actors.
+464	The guests who rarely boycott public parks clean the books.
+465	The guests who rarely boycott public parks clean any books.
+466	The guests who rarely boycott these public parks clean books.
+467	The guests who rarely boycott any public parks clean books.
+468	An adult who rarely resembles banks should hate these waitresses.
+469	An adult who rarely resembles banks should hate any waitresses.
+470	An adult who rarely resembles these banks should hate waitresses.
+471	An adult who rarely resembles any banks should hate waitresses.
+472	The senators fortunately said that the dancers should seldom kiss the girls.
+473	The senators ever said that the dancers should seldom kiss the girls.
+474	The senators seldom fortunately said that the dancers should kiss the girls.
+475	The senators seldom ever said that the dancers should kiss the girls.
+476	The adult obviously explains that the teenagers had hardly embraced.
+477	The adult ever explains that the teenagers had hardly embraced.
+478	The adult hardly obviously explains that the teenagers had embraced.
+479	The adult hardly ever explains that the teenagers had embraced.
+480	A woman clearly says that the guys had barely disliked the senator.
+481	A woman ever says that the guys had barely disliked the senator.
+482	A woman barely clearly says that the guys had disliked the senator.
+483	A woman barely ever says that the guys had disliked the senator.
+484	The adults who seldom do help children examine the reports.
+485	The adults who seldom do help children examine any reports.
+486	The adults who seldom do help these children examine reports.
+487	The adults who seldom do help any children examine reports.
+488	The girls obviously imagined that the senators would rarely embrace.
+489	The girls ever imagined that the senators would rarely embrace.
+490	The girls rarely obviously imagined that the senators would embrace.
+491	The girls rarely ever imagined that the senators would embrace.
+492	The adults who had barely cleaned plates arrived at these museums.
+493	The adults who had barely cleaned plates arrived at any museums.
+494	The adults who had barely cleaned these plates arrived at museums.
+495	The adults who had barely cleaned any plates arrived at museums.
+496	The adult who hardly had pants visits these cashiers.
+497	The adult who hardly had pants visits any cashiers.
+498	The adult who hardly had the pants visits cashiers.
+499	The adult who hardly had any pants visits cashiers.
