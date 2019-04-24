@@ -1,1001 +1,501 @@
 index	sentence
-0	The guys clearly say that the senators admired the teenagers.
-1	The guys ever say that the senators admired the teenagers.
-2	The guys say that the senators clearly admired the teenagers.
-3	The guys say that the senators ever admired the teenagers.
-4	The guys clearly wonder whether the senators admired the teenagers.
-5	The guys ever wonder whether the senators admired the teenagers.
-6	The guys wonder whether the senators clearly admired the teenagers.
-7	The guys wonder whether the senators ever admired the teenagers.
-8	The students say that the dancers hate the actors.
-9	Any students say that the dancers hate the actors.
-10	The students say that the dancers hate these actors.
-11	The students say that the dancers hate any actors.
-12	The students wonder whether the dancers hate actors.
-13	Any students wonder whether the dancers hate actors.
-14	The students wonder whether the dancers hate these actors.
-15	The students wonder whether the dancers hate any actors.
-16	The ladies also say that the men arrive at the college campuses.
-17	The ladies ever say that the men arrive at the college campuses.
-18	The ladies say that the men also arrive at the college campuses.
-19	The ladies say that the men ever arrive at the college campuses.
-20	The ladies also wonder whether the men arrive at the college campuses.
-21	The ladies ever wonder whether the men arrive at the college campuses.
-22	The ladies wonder whether the men also arrive at the college campuses.
-23	The ladies wonder whether the men ever arrive at the college campuses.
-24	The cashiers obviously say that the doctor should skate around the grocery stores.
-25	The cashiers ever say that the doctor should skate around the grocery stores.
-26	The cashiers say that the doctor obviously should skate around the grocery stores.
-27	The cashiers say that the doctor ever should skate around the grocery stores.
-28	The cashiers obviously wonder whether the doctor should skate around the grocery stores.
-29	The cashiers ever wonder whether the doctor should skate around the grocery stores.
-30	The cashiers wonder whether the doctor obviously should skate around the grocery stores.
-31	The cashiers wonder whether the doctor ever should skate around the grocery stores.
-32	The guests also say that the women passed the college campuses.
-33	The guests ever say that the women passed the college campuses.
-34	The guests say that the women also passed the college campuses.
-35	The guests say that the women ever passed the college campuses.
-36	The guests also wonder whether the women passed the college campuses.
-37	The guests ever wonder whether the women passed the college campuses.
-38	The guests wonder whether the women also passed the college campuses.
-39	The guests wonder whether the women ever passed the college campuses.
-40	These waitresses say that the woman discusses the grocery stores.
-41	Any waitresses say that the woman discusses the grocery stores.
-42	The waitresses say that the woman discusses the grocery stores.
-43	The waitresses say that the woman discusses any grocery stores.
-44	These waitresses wonder whether the woman discusses grocery stores.
-45	Any waitresses wonder whether the woman discusses grocery stores.
-46	The waitresses wonder whether the woman discusses the grocery stores.
-47	The waitresses wonder whether the woman discusses any grocery stores.
-48	The patients obviously say that the dancer had scanned the reports.
-49	The patients ever say that the dancer had scanned the reports.
-50	The patients say that the dancer obviously had scanned the reports.
-51	The patients say that the dancer ever had scanned the reports.
-52	The patients obviously wonder whether the dancer had scanned the reports.
-53	The patients ever wonder whether the dancer had scanned the reports.
-54	The patients wonder whether the dancer obviously had scanned the reports.
-55	The patients wonder whether the dancer ever had scanned the reports.
-56	The guests often say that the doctors went to the malls.
-57	The guests ever say that the doctors went to the malls.
-58	The guests say that the doctors often went to the malls.
-59	The guests say that the doctors ever went to the malls.
-60	The guests often wonder whether the doctors went to the malls.
-61	The guests ever wonder whether the doctors went to the malls.
-62	The guests wonder whether the doctors often went to the malls.
-63	The guests wonder whether the doctors ever went to the malls.
-64	The guys obviously say that the guest knows the teachers.
-65	The guys ever say that the guest knows the teachers.
-66	The guys say that the guest obviously knows the teachers.
-67	The guys say that the guest ever knows the teachers.
-68	The guys obviously wonder whether the guest knows the teachers.
-69	The guys ever wonder whether the guest knows the teachers.
-70	The guys wonder whether the guest obviously knows the teachers.
-71	The guys wonder whether the guest ever knows the teachers.
-72	The teenagers obviously say that the drivers would boycott the cafes.
-73	The teenagers ever say that the drivers would boycott the cafes.
-74	The teenagers say that the drivers obviously would boycott the cafes.
-75	The teenagers say that the drivers ever would boycott the cafes.
-76	The teenagers obviously wonder whether the drivers would boycott the cafes.
-77	The teenagers ever wonder whether the drivers would boycott the cafes.
-78	The teenagers wonder whether the drivers obviously would boycott the cafes.
-79	The teenagers wonder whether the drivers ever would boycott the cafes.
-80	The women obviously say that the waiters examined the newspaper articles.
-81	The women ever say that the waiters examined the newspaper articles.
-82	The women say that the waiters obviously examined the newspaper articles.
-83	The women say that the waiters ever examined the newspaper articles.
-84	The women obviously wonder whether the waiters examined the newspaper articles.
-85	The women ever wonder whether the waiters examined the newspaper articles.
-86	The women wonder whether the waiters obviously examined the newspaper articles.
-87	The women wonder whether the waiters ever examined the newspaper articles.
-88	Those adults say that the children have talked about the art galleries.
-89	Any adults say that the children have talked about the art galleries.
-90	The adults say that the children have talked about the art galleries.
-91	The adults say that the children have talked about any art galleries.
-92	Those adults wonder whether the children have talked about art galleries.
-93	Any adults wonder whether the children have talked about art galleries.
-94	The adults wonder whether the children have talked about the art galleries.
-95	The adults wonder whether the children have talked about any art galleries.
-96	The doctors say that the boy should resemble the people.
-97	Any doctors say that the boy should resemble the people.
-98	The doctors say that the boy should resemble those people.
-99	The doctors say that the boy should resemble any people.
-100	The doctors wonder whether the boy should resemble people.
-101	Any doctors wonder whether the boy should resemble people.
-102	The doctors wonder whether the boy should resemble those people.
-103	The doctors wonder whether the boy should resemble any people.
-104	The girls clearly say that the doctors might listen to the actors.
-105	The girls ever say that the doctors might listen to the actors.
-106	The girls say that the doctors clearly might listen to the actors.
-107	The girls say that the doctors ever might listen to the actors.
-108	The girls clearly wonder whether the doctors might listen to the actors.
-109	The girls ever wonder whether the doctors might listen to the actors.
-110	The girls wonder whether the doctors clearly might listen to the actors.
-111	The girls wonder whether the doctors ever might listen to the actors.
-112	The children say that the student should insult the girls.
-113	Any children say that the student should insult the girls.
-114	The children say that the student should insult the girls.
-115	The children say that the student should insult any girls.
-116	The children wonder whether the student should insult girls.
-117	Any children wonder whether the student should insult girls.
-118	The children wonder whether the student should insult the girls.
-119	The children wonder whether the student should insult any girls.
-120	These teachers say that the doctors wear the glasses.
-121	Any teachers say that the doctors wear the glasses.
-122	The teachers say that the doctors wear the glasses.
-123	The teachers say that the doctors wear any glasses.
-124	These teachers wonder whether the doctors wear glasses.
-125	Any teachers wonder whether the doctors wear glasses.
-126	The teachers wonder whether the doctors wear the glasses.
-127	The teachers wonder whether the doctors wear any glasses.
-128	The pedestrians obviously say that the boy remembered the art galleries.
-129	The pedestrians ever say that the boy remembered the art galleries.
-130	The pedestrians say that the boy obviously remembered the art galleries.
-131	The pedestrians say that the boy ever remembered the art galleries.
-132	The pedestrians obviously wonder whether the boy remembered the art galleries.
-133	The pedestrians ever wonder whether the boy remembered the art galleries.
-134	The pedestrians wonder whether the boy obviously remembered the art galleries.
-135	The pedestrians wonder whether the boy ever remembered the art galleries.
-136	Those teachers say that the waitress referenced the drivers.
-137	Any teachers say that the waitress referenced the drivers.
-138	The teachers say that the waitress referenced the drivers.
-139	The teachers say that the waitress referenced any drivers.
-140	Those teachers wonder whether the waitress referenced drivers.
-141	Any teachers wonder whether the waitress referenced drivers.
-142	The teachers wonder whether the waitress referenced the drivers.
-143	The teachers wonder whether the waitress referenced any drivers.
-144	The girls often say that the senator has returned to the actresses.
-145	The girls ever say that the senator has returned to the actresses.
-146	The girls say that the senator often has returned to the actresses.
-147	The girls say that the senator ever has returned to the actresses.
-148	The girls often wonder whether the senator has returned to the actresses.
-149	The girls ever wonder whether the senator has returned to the actresses.
-150	The girls wonder whether the senator often has returned to the actresses.
-151	The girls wonder whether the senator ever has returned to the actresses.
-152	The women clearly say that the adult talked to the actresses.
-153	The women ever say that the adult talked to the actresses.
-154	The women say that the adult clearly talked to the actresses.
-155	The women say that the adult ever talked to the actresses.
-156	The women clearly wonder whether the adult talked to the actresses.
-157	The women ever wonder whether the adult talked to the actresses.
-158	The women wonder whether the adult clearly talked to the actresses.
-159	The women wonder whether the adult ever talked to the actresses.
-160	The boys often say that the girl dropped by the art galleries.
-161	The boys ever say that the girl dropped by the art galleries.
-162	The boys say that the girl often dropped by the art galleries.
-163	The boys say that the girl ever dropped by the art galleries.
-164	The boys often wonder whether the girl dropped by the art galleries.
-165	The boys ever wonder whether the girl dropped by the art galleries.
-166	The boys wonder whether the girl often dropped by the art galleries.
-167	The boys wonder whether the girl ever dropped by the art galleries.
-168	Those women say that the ladies observe the cashiers.
-169	Any women say that the ladies observe the cashiers.
-170	The women say that the ladies observe the cashiers.
-171	The women say that the ladies observe any cashiers.
-172	Those women wonder whether the ladies observe cashiers.
-173	Any women wonder whether the ladies observe cashiers.
-174	The women wonder whether the ladies observe the cashiers.
-175	The women wonder whether the ladies observe any cashiers.
-176	The waitresses also say that the women watch the teachers.
-177	The waitresses ever say that the women watch the teachers.
-178	The waitresses say that the women also watch the teachers.
-179	The waitresses say that the women ever watch the teachers.
-180	The waitresses also wonder whether the women watch the teachers.
-181	The waitresses ever wonder whether the women watch the teachers.
-182	The waitresses wonder whether the women also watch the teachers.
-183	The waitresses wonder whether the women ever watch the teachers.
-184	Those actors say that the driver should sell the reports.
-185	Any actors say that the driver should sell the reports.
-186	The actors say that the driver should sell these reports.
-187	The actors say that the driver should sell any reports.
-188	Those actors wonder whether the driver should sell reports.
-189	Any actors wonder whether the driver should sell reports.
-190	The actors wonder whether the driver should sell these reports.
-191	The actors wonder whether the driver should sell any reports.
-192	Those senators say that the student should see the teenagers.
-193	Any senators say that the student should see the teenagers.
-194	The senators say that the student should see these teenagers.
-195	The senators say that the student should see any teenagers.
-196	Those senators wonder whether the student should see teenagers.
-197	Any senators wonder whether the student should see teenagers.
-198	The senators wonder whether the student should see these teenagers.
-199	The senators wonder whether the student should see any teenagers.
-200	The adults say that the dancer did investigate the public parks.
-201	Any adults say that the dancer did investigate the public parks.
-202	The adults say that the dancer did investigate these public parks.
-203	The adults say that the dancer did investigate any public parks.
-204	The adults wonder whether the dancer did investigate public parks.
-205	Any adults wonder whether the dancer did investigate public parks.
-206	The adults wonder whether the dancer did investigate these public parks.
-207	The adults wonder whether the dancer did investigate any public parks.
-208	The pedestrians obviously say that the waitresses scan the essays.
-209	The pedestrians ever say that the waitresses scan the essays.
-210	The pedestrians say that the waitresses obviously scan the essays.
-211	The pedestrians say that the waitresses ever scan the essays.
-212	The pedestrians obviously wonder whether the waitresses scan the essays.
-213	The pedestrians ever wonder whether the waitresses scan the essays.
-214	The pedestrians wonder whether the waitresses obviously scan the essays.
-215	The pedestrians wonder whether the waitresses ever scan the essays.
-216	Those boys say that the waiters took the couches.
-217	Any boys say that the waiters took the couches.
-218	The boys say that the waiters took those couches.
-219	The boys say that the waiters took any couches.
-220	Those boys wonder whether the waiters took couches.
-221	Any boys wonder whether the waiters took couches.
-222	The boys wonder whether the waiters took those couches.
-223	The boys wonder whether the waiters took any couches.
-224	The ladies also say that the guest boycotted the restaurants.
-225	The ladies ever say that the guest boycotted the restaurants.
-226	The ladies say that the guest also boycotted the restaurants.
-227	The ladies say that the guest ever boycotted the restaurants.
-228	The ladies also wonder whether the guest boycotted the restaurants.
-229	The ladies ever wonder whether the guest boycotted the restaurants.
-230	The ladies wonder whether the guest also boycotted the restaurants.
-231	The ladies wonder whether the guest ever boycotted the restaurants.
-232	The waiters often say that the men criticized the stories.
-233	The waiters ever say that the men criticized the stories.
-234	The waiters say that the men often criticized the stories.
-235	The waiters say that the men ever criticized the stories.
-236	The waiters often wonder whether the men criticized the stories.
-237	The waiters ever wonder whether the men criticized the stories.
-238	The waiters wonder whether the men often criticized the stories.
-239	The waiters wonder whether the men ever criticized the stories.
-240	The adults clearly say that the drivers have explored the libraries.
-241	The adults ever say that the drivers have explored the libraries.
-242	The adults say that the drivers clearly have explored the libraries.
-243	The adults say that the drivers ever have explored the libraries.
-244	The adults clearly wonder whether the drivers have explored the libraries.
-245	The adults ever wonder whether the drivers have explored the libraries.
-246	The adults wonder whether the drivers clearly have explored the libraries.
-247	The adults wonder whether the drivers ever have explored the libraries.
-248	The senators fortunately say that the guests fled from the museums.
-249	The senators ever say that the guests fled from the museums.
-250	The senators say that the guests fortunately fled from the museums.
-251	The senators say that the guests ever fled from the museums.
-252	The senators fortunately wonder whether the guests fled from the museums.
-253	The senators ever wonder whether the guests fled from the museums.
-254	The senators wonder whether the guests fortunately fled from the museums.
-255	The senators wonder whether the guests ever fled from the museums.
-256	These pedestrians say that the students helped the doctors.
-257	Any pedestrians say that the students helped the doctors.
-258	The pedestrians say that the students helped those doctors.
-259	The pedestrians say that the students helped any doctors.
-260	These pedestrians wonder whether the students helped doctors.
-261	Any pedestrians wonder whether the students helped doctors.
-262	The pedestrians wonder whether the students helped those doctors.
-263	The pedestrians wonder whether the students helped any doctors.
-264	Those pedestrians say that the man passed the restaurants.
-265	Any pedestrians say that the man passed the restaurants.
-266	The pedestrians say that the man passed these restaurants.
-267	The pedestrians say that the man passed any restaurants.
-268	Those pedestrians wonder whether the man passed restaurants.
-269	Any pedestrians wonder whether the man passed restaurants.
-270	The pedestrians wonder whether the man passed these restaurants.
-271	The pedestrians wonder whether the man passed any restaurants.
-272	These children say that the actresses liked the cars.
-273	Any children say that the actresses liked the cars.
-274	The children say that the actresses liked the cars.
-275	The children say that the actresses liked any cars.
-276	These children wonder whether the actresses liked cars.
-277	Any children wonder whether the actresses liked cars.
-278	The children wonder whether the actresses liked the cars.
-279	The children wonder whether the actresses liked any cars.
-280	The boys also say that the teacher did know the women.
-281	The boys ever say that the teacher did know the women.
-282	The boys say that the teacher also did know the women.
-283	The boys say that the teacher ever did know the women.
-284	The boys also wonder whether the teacher did know the women.
-285	The boys ever wonder whether the teacher did know the women.
-286	The boys wonder whether the teacher also did know the women.
-287	The boys wonder whether the teacher ever did know the women.
-288	The cashiers fortunately say that the actress escaped from the girls.
-289	The cashiers ever say that the actress escaped from the girls.
-290	The cashiers say that the actress fortunately escaped from the girls.
-291	The cashiers say that the actress ever escaped from the girls.
-292	The cashiers fortunately wonder whether the actress escaped from the girls.
-293	The cashiers ever wonder whether the actress escaped from the girls.
-294	The cashiers wonder whether the actress fortunately escaped from the girls.
-295	The cashiers wonder whether the actress ever escaped from the girls.
-296	The guests fortunately say that the men loved the patients.
-297	The guests ever say that the men loved the patients.
-298	The guests say that the men fortunately loved the patients.
-299	The guests say that the men ever loved the patients.
-300	The guests fortunately wonder whether the men loved the patients.
-301	The guests ever wonder whether the men loved the patients.
-302	The guests wonder whether the men fortunately loved the patients.
-303	The guests wonder whether the men ever loved the patients.
-304	The guys also say that the guy sells the glasses.
-305	The guys ever say that the guy sells the glasses.
-306	The guys say that the guy also sells the glasses.
-307	The guys say that the guy ever sells the glasses.
-308	The guys also wonder whether the guy sells the glasses.
-309	The guys ever wonder whether the guy sells the glasses.
-310	The guys wonder whether the guy also sells the glasses.
-311	The guys wonder whether the guy ever sells the glasses.
-312	The dancers often say that the customer had explored the malls.
-313	The dancers ever say that the customer had explored the malls.
-314	The dancers say that the customer often had explored the malls.
-315	The dancers say that the customer ever had explored the malls.
-316	The dancers often wonder whether the customer had explored the malls.
-317	The dancers ever wonder whether the customer had explored the malls.
-318	The dancers wonder whether the customer often had explored the malls.
-319	The dancers wonder whether the customer ever had explored the malls.
-320	The waitresses often say that the cashier describes the commentaries.
-321	The waitresses ever say that the cashier describes the commentaries.
-322	The waitresses say that the cashier often describes the commentaries.
-323	The waitresses say that the cashier ever describes the commentaries.
-324	The waitresses often wonder whether the cashier describes the commentaries.
-325	The waitresses ever wonder whether the cashier describes the commentaries.
-326	The waitresses wonder whether the cashier often describes the commentaries.
-327	The waitresses wonder whether the cashier ever describes the commentaries.
-328	These actresses say that the girl should see the teachers.
-329	Any actresses say that the girl should see the teachers.
-330	The actresses say that the girl should see these teachers.
-331	The actresses say that the girl should see any teachers.
-332	These actresses wonder whether the girl should see teachers.
-333	Any actresses wonder whether the girl should see teachers.
-334	The actresses wonder whether the girl should see these teachers.
-335	The actresses wonder whether the girl should see any teachers.
-336	Those students say that the lady sees the reports.
-337	Any students say that the lady sees the reports.
-338	The students say that the lady sees those reports.
-339	The students say that the lady sees any reports.
-340	Those students wonder whether the lady sees reports.
-341	Any students wonder whether the lady sees reports.
-342	The students wonder whether the lady sees those reports.
-343	The students wonder whether the lady sees any reports.
-344	The dancers also say that the pedestrian exited the banks.
-345	The dancers ever say that the pedestrian exited the banks.
-346	The dancers say that the pedestrian also exited the banks.
-347	The dancers say that the pedestrian ever exited the banks.
-348	The dancers also wonder whether the pedestrian exited the banks.
-349	The dancers ever wonder whether the pedestrian exited the banks.
-350	The dancers wonder whether the pedestrian also exited the banks.
-351	The dancers wonder whether the pedestrian ever exited the banks.
-352	The women often say that the drivers drove to the art galleries.
-353	The women ever say that the drivers drove to the art galleries.
-354	The women say that the drivers often drove to the art galleries.
-355	The women say that the drivers ever drove to the art galleries.
-356	The women often wonder whether the drivers drove to the art galleries.
-357	The women ever wonder whether the drivers drove to the art galleries.
-358	The women wonder whether the drivers often drove to the art galleries.
-359	The women wonder whether the drivers ever drove to the art galleries.
-360	The men fortunately say that the girl cleaned the books.
-361	The men ever say that the girl cleaned the books.
-362	The men say that the girl fortunately cleaned the books.
-363	The men say that the girl ever cleaned the books.
-364	The men fortunately wonder whether the girl cleaned the books.
-365	The men ever wonder whether the girl cleaned the books.
-366	The men wonder whether the girl fortunately cleaned the books.
-367	The men wonder whether the girl ever cleaned the books.
-368	The guys clearly say that the teenagers listened to the cashiers.
-369	The guys ever say that the teenagers listened to the cashiers.
-370	The guys say that the teenagers clearly listened to the cashiers.
-371	The guys say that the teenagers ever listened to the cashiers.
-372	The guys clearly wonder whether the teenagers listened to the cashiers.
-373	The guys ever wonder whether the teenagers listened to the cashiers.
-374	The guys wonder whether the teenagers clearly listened to the cashiers.
-375	The guys wonder whether the teenagers ever listened to the cashiers.
-376	The guys say that the teacher is boycotting the college campuses.
-377	Any guys say that the teacher is boycotting the college campuses.
-378	The guys say that the teacher is boycotting these college campuses.
-379	The guys say that the teacher is boycotting any college campuses.
-380	The guys wonder whether the teacher is boycotting college campuses.
-381	Any guys wonder whether the teacher is boycotting college campuses.
-382	The guys wonder whether the teacher is boycotting these college campuses.
-383	The guys wonder whether the teacher is boycotting any college campuses.
-384	The waiters say that the person has forgotten the reports.
-385	Any waiters say that the person has forgotten the reports.
-386	The waiters say that the person has forgotten these reports.
-387	The waiters say that the person has forgotten any reports.
-388	The waiters wonder whether the person has forgotten reports.
-389	Any waiters wonder whether the person has forgotten reports.
-390	The waiters wonder whether the person has forgotten these reports.
-391	The waiters wonder whether the person has forgotten any reports.
-392	The people also say that the customer left the dancers.
-393	The people ever say that the customer left the dancers.
-394	The people say that the customer also left the dancers.
-395	The people say that the customer ever left the dancers.
-396	The people also wonder whether the customer left the dancers.
-397	The people ever wonder whether the customer left the dancers.
-398	The people wonder whether the customer also left the dancers.
-399	The people wonder whether the customer ever left the dancers.
-400	The actresses say that the driver was walking through the college campuses.
-401	Any actresses say that the driver was walking through the college campuses.
-402	The actresses say that the driver was walking through those college campuses.
-403	The actresses say that the driver was walking through any college campuses.
-404	The actresses wonder whether the driver was walking through college campuses.
-405	Any actresses wonder whether the driver was walking through college campuses.
-406	The actresses wonder whether the driver was walking through those college campuses.
-407	The actresses wonder whether the driver was walking through any college campuses.
-408	The guests clearly say that the teenagers talked about the newspaper articles.
-409	The guests ever say that the teenagers talked about the newspaper articles.
-410	The guests say that the teenagers clearly talked about the newspaper articles.
-411	The guests say that the teenagers ever talked about the newspaper articles.
-412	The guests clearly wonder whether the teenagers talked about the newspaper articles.
-413	The guests ever wonder whether the teenagers talked about the newspaper articles.
-414	The guests wonder whether the teenagers clearly talked about the newspaper articles.
-415	The guests wonder whether the teenagers ever talked about the newspaper articles.
-416	The senators fortunately say that the student might examine the reports.
-417	The senators ever say that the student might examine the reports.
-418	The senators say that the student fortunately might examine the reports.
-419	The senators say that the student ever might examine the reports.
-420	The senators fortunately wonder whether the student might examine the reports.
-421	The senators ever wonder whether the student might examine the reports.
-422	The senators wonder whether the student fortunately might examine the reports.
-423	The senators wonder whether the student ever might examine the reports.
-424	The waiters fortunately say that the doctor had worn the gloves.
-425	The waiters ever say that the doctor had worn the gloves.
-426	The waiters say that the doctor fortunately had worn the gloves.
-427	The waiters say that the doctor ever had worn the gloves.
-428	The waiters fortunately wonder whether the doctor had worn the gloves.
-429	The waiters ever wonder whether the doctor had worn the gloves.
-430	The waiters wonder whether the doctor fortunately had worn the gloves.
-431	The waiters wonder whether the doctor ever had worn the gloves.
-432	The cashiers often say that the waitress talked about the teachers.
-433	The cashiers ever say that the waitress talked about the teachers.
-434	The cashiers say that the waitress often talked about the teachers.
-435	The cashiers say that the waitress ever talked about the teachers.
-436	The cashiers often wonder whether the waitress talked about the teachers.
-437	The cashiers ever wonder whether the waitress talked about the teachers.
-438	The cashiers wonder whether the waitress often talked about the teachers.
-439	The cashiers wonder whether the waitress ever talked about the teachers.
-440	Those doctors say that the boys will buy the pants.
-441	Any doctors say that the boys will buy the pants.
-442	The doctors say that the boys will buy these pants.
-443	The doctors say that the boys will buy any pants.
-444	Those doctors wonder whether the boys will buy pants.
-445	Any doctors wonder whether the boys will buy pants.
-446	The doctors wonder whether the boys will buy these pants.
-447	The doctors wonder whether the boys will buy any pants.
-448	Those ladies say that the cashier does exit the art galleries.
-449	Any ladies say that the cashier does exit the art galleries.
-450	The ladies say that the cashier does exit these art galleries.
-451	The ladies say that the cashier does exit any art galleries.
-452	Those ladies wonder whether the cashier does exit art galleries.
-453	Any ladies wonder whether the cashier does exit art galleries.
-454	The ladies wonder whether the cashier does exit these art galleries.
-455	The ladies wonder whether the cashier does exit any art galleries.
-456	The girls say that the women have disliked the adults.
-457	Any girls say that the women have disliked the adults.
-458	The girls say that the women have disliked these adults.
-459	The girls say that the women have disliked any adults.
-460	The girls wonder whether the women have disliked adults.
-461	Any girls wonder whether the women have disliked adults.
-462	The girls wonder whether the women have disliked these adults.
-463	The girls wonder whether the women have disliked any adults.
-464	Those waiters say that the girl bikes to the high schools.
-465	Any waiters say that the girl bikes to the high schools.
-466	The waiters say that the girl bikes to those high schools.
-467	The waiters say that the girl bikes to any high schools.
-468	Those waiters wonder whether the girl bikes to high schools.
-469	Any waiters wonder whether the girl bikes to high schools.
-470	The waiters wonder whether the girl bikes to those high schools.
-471	The waiters wonder whether the girl bikes to any high schools.
-472	These guests say that the people forgot the waitresses.
-473	Any guests say that the people forgot the waitresses.
-474	The guests say that the people forgot the waitresses.
-475	The guests say that the people forgot any waitresses.
-476	These guests wonder whether the people forgot waitresses.
-477	Any guests wonder whether the people forgot waitresses.
-478	The guests wonder whether the people forgot the waitresses.
-479	The guests wonder whether the people forgot any waitresses.
-480	The drivers often say that the waiters praise the teenagers.
-481	The drivers ever say that the waiters praise the teenagers.
-482	The drivers say that the waiters often praise the teenagers.
-483	The drivers say that the waiters ever praise the teenagers.
-484	The drivers often wonder whether the waiters praise the teenagers.
-485	The drivers ever wonder whether the waiters praise the teenagers.
-486	The drivers wonder whether the waiters often praise the teenagers.
-487	The drivers wonder whether the waiters ever praise the teenagers.
-488	These teenagers say that the man breaks the forks.
-489	Any teenagers say that the man breaks the forks.
-490	The teenagers say that the man breaks those forks.
-491	The teenagers say that the man breaks any forks.
-492	These teenagers wonder whether the man breaks forks.
-493	Any teenagers wonder whether the man breaks forks.
-494	The teenagers wonder whether the man breaks those forks.
-495	The teenagers wonder whether the man breaks any forks.
-496	The cashiers also say that the ladies kissed the guys.
-497	The cashiers ever say that the ladies kissed the guys.
-498	The cashiers say that the ladies also kissed the guys.
-499	The cashiers say that the ladies ever kissed the guys.
-500	The cashiers also wonder whether the ladies kissed the guys.
-501	The cashiers ever wonder whether the ladies kissed the guys.
-502	The cashiers wonder whether the ladies also kissed the guys.
-503	The cashiers wonder whether the ladies ever kissed the guys.
-504	The senators often say that the boy should clean the glasses.
-505	The senators ever say that the boy should clean the glasses.
-506	The senators say that the boy often should clean the glasses.
-507	The senators say that the boy ever should clean the glasses.
-508	The senators often wonder whether the boy should clean the glasses.
-509	The senators ever wonder whether the boy should clean the glasses.
-510	The senators wonder whether the boy often should clean the glasses.
-511	The senators wonder whether the boy ever should clean the glasses.
-512	The adults also say that the person has taken the pants.
-513	The adults ever say that the person has taken the pants.
-514	The adults say that the person also has taken the pants.
-515	The adults say that the person ever has taken the pants.
-516	The adults also wonder whether the person has taken the pants.
-517	The adults ever wonder whether the person has taken the pants.
-518	The adults wonder whether the person also has taken the pants.
-519	The adults wonder whether the person ever has taken the pants.
-520	Those women say that the customer has skated around the banks.
-521	Any women say that the customer has skated around the banks.
-522	The women say that the customer has skated around those banks.
-523	The women say that the customer has skated around any banks.
-524	Those women wonder whether the customer has skated around banks.
-525	Any women wonder whether the customer has skated around banks.
-526	The women wonder whether the customer has skated around those banks.
-527	The women wonder whether the customer has skated around any banks.
-528	The women often say that the teacher has worked with the people.
-529	The women ever say that the teacher has worked with the people.
-530	The women say that the teacher often has worked with the people.
-531	The women say that the teacher ever has worked with the people.
-532	The women often wonder whether the teacher has worked with the people.
-533	The women ever wonder whether the teacher has worked with the people.
-534	The women wonder whether the teacher often has worked with the people.
-535	The women wonder whether the teacher ever has worked with the people.
-536	The ladies fortunately say that the waitresses cleaned the pants.
-537	The ladies ever say that the waitresses cleaned the pants.
-538	The ladies say that the waitresses fortunately cleaned the pants.
-539	The ladies say that the waitresses ever cleaned the pants.
-540	The ladies fortunately wonder whether the waitresses cleaned the pants.
-541	The ladies ever wonder whether the waitresses cleaned the pants.
-542	The ladies wonder whether the waitresses fortunately cleaned the pants.
-543	The ladies wonder whether the waitresses ever cleaned the pants.
-544	The people also say that the lady has criticized the movie theaters.
-545	The people ever say that the lady has criticized the movie theaters.
-546	The people say that the lady also has criticized the movie theaters.
-547	The people say that the lady ever has criticized the movie theaters.
-548	The people also wonder whether the lady has criticized the movie theaters.
-549	The people ever wonder whether the lady has criticized the movie theaters.
-550	The people wonder whether the lady also has criticized the movie theaters.
-551	The people wonder whether the lady ever has criticized the movie theaters.
-552	The pedestrians often say that the boy approached the students.
-553	The pedestrians ever say that the boy approached the students.
-554	The pedestrians say that the boy often approached the students.
-555	The pedestrians say that the boy ever approached the students.
-556	The pedestrians often wonder whether the boy approached the students.
-557	The pedestrians ever wonder whether the boy approached the students.
-558	The pedestrians wonder whether the boy often approached the students.
-559	The pedestrians wonder whether the boy ever approached the students.
-560	The waiters often say that the woman lifts the books.
-561	The waiters ever say that the woman lifts the books.
-562	The waiters say that the woman often lifts the books.
-563	The waiters say that the woman ever lifts the books.
-564	The waiters often wonder whether the woman lifts the books.
-565	The waiters ever wonder whether the woman lifts the books.
-566	The waiters wonder whether the woman often lifts the books.
-567	The waiters wonder whether the woman ever lifts the books.
-568	These guys say that the pedestrian examined the newspaper articles.
-569	Any guys say that the pedestrian examined the newspaper articles.
-570	The guys say that the pedestrian examined these newspaper articles.
-571	The guys say that the pedestrian examined any newspaper articles.
-572	These guys wonder whether the pedestrian examined newspaper articles.
-573	Any guys wonder whether the pedestrian examined newspaper articles.
-574	The guys wonder whether the pedestrian examined these newspaper articles.
-575	The guys wonder whether the pedestrian examined any newspaper articles.
-576	The children say that the doctor had helped the pedestrians.
-577	Any children say that the doctor had helped the pedestrians.
-578	The children say that the doctor had helped these pedestrians.
-579	The children say that the doctor had helped any pedestrians.
-580	The children wonder whether the doctor had helped pedestrians.
-581	Any children wonder whether the doctor had helped pedestrians.
-582	The children wonder whether the doctor had helped these pedestrians.
-583	The children wonder whether the doctor had helped any pedestrians.
-584	The actresses fortunately say that the guy could approach the boys.
-585	The actresses ever say that the guy could approach the boys.
-586	The actresses say that the guy fortunately could approach the boys.
-587	The actresses say that the guy ever could approach the boys.
-588	The actresses fortunately wonder whether the guy could approach the boys.
-589	The actresses ever wonder whether the guy could approach the boys.
-590	The actresses wonder whether the guy fortunately could approach the boys.
-591	The actresses wonder whether the guy ever could approach the boys.
-592	The senators also say that the lady bought the books.
-593	The senators ever say that the lady bought the books.
-594	The senators say that the lady also bought the books.
-595	The senators say that the lady ever bought the books.
-596	The senators also wonder whether the lady bought the books.
-597	The senators ever wonder whether the lady bought the books.
-598	The senators wonder whether the lady also bought the books.
-599	The senators wonder whether the lady ever bought the books.
-600	Those dancers say that the guest lifted the chairs.
-601	Any dancers say that the guest lifted the chairs.
-602	The dancers say that the guest lifted these chairs.
-603	The dancers say that the guest lifted any chairs.
-604	Those dancers wonder whether the guest lifted chairs.
-605	Any dancers wonder whether the guest lifted chairs.
-606	The dancers wonder whether the guest lifted these chairs.
-607	The dancers wonder whether the guest lifted any chairs.
-608	These adults say that the pedestrian should talk about the books.
-609	Any adults say that the pedestrian should talk about the books.
-610	The adults say that the pedestrian should talk about those books.
-611	The adults say that the pedestrian should talk about any books.
-612	These adults wonder whether the pedestrian should talk about books.
-613	Any adults wonder whether the pedestrian should talk about books.
-614	The adults wonder whether the pedestrian should talk about those books.
-615	The adults wonder whether the pedestrian should talk about any books.
-616	The people say that the child kissed the dancers.
-617	Any people say that the child kissed the dancers.
-618	The people say that the child kissed those dancers.
-619	The people say that the child kissed any dancers.
-620	The people wonder whether the child kissed dancers.
-621	Any people wonder whether the child kissed dancers.
-622	The people wonder whether the child kissed those dancers.
-623	The people wonder whether the child kissed any dancers.
-624	The pedestrians say that the adult had loved the plays.
-625	Any pedestrians say that the adult had loved the plays.
-626	The pedestrians say that the adult had loved those plays.
-627	The pedestrians say that the adult had loved any plays.
-628	The pedestrians wonder whether the adult had loved plays.
-629	Any pedestrians wonder whether the adult had loved plays.
-630	The pedestrians wonder whether the adult had loved those plays.
-631	The pedestrians wonder whether the adult had loved any plays.
-632	These men say that the girl bikes to the college campuses.
-633	Any men say that the girl bikes to the college campuses.
-634	The men say that the girl bikes to those college campuses.
-635	The men say that the girl bikes to any college campuses.
-636	These men wonder whether the girl bikes to college campuses.
-637	Any men wonder whether the girl bikes to college campuses.
-638	The men wonder whether the girl bikes to those college campuses.
-639	The men wonder whether the girl bikes to any college campuses.
-640	These waitresses say that the waiter has biked to the public parks.
-641	Any waitresses say that the waiter has biked to the public parks.
-642	The waitresses say that the waiter has biked to these public parks.
-643	The waitresses say that the waiter has biked to any public parks.
-644	These waitresses wonder whether the waiter has biked to public parks.
-645	Any waitresses wonder whether the waiter has biked to public parks.
-646	The waitresses wonder whether the waiter has biked to these public parks.
-647	The waitresses wonder whether the waiter has biked to any public parks.
-648	The ladies also say that the guests help the cashiers.
-649	The ladies ever say that the guests help the cashiers.
-650	The ladies say that the guests also help the cashiers.
-651	The ladies say that the guests ever help the cashiers.
-652	The ladies also wonder whether the guests help the cashiers.
-653	The ladies ever wonder whether the guests help the cashiers.
-654	The ladies wonder whether the guests also help the cashiers.
-655	The ladies wonder whether the guests ever help the cashiers.
-656	The waiters clearly say that the doctors sold the shoes.
-657	The waiters ever say that the doctors sold the shoes.
-658	The waiters say that the doctors clearly sold the shoes.
-659	The waiters say that the doctors ever sold the shoes.
-660	The waiters clearly wonder whether the doctors sold the shoes.
-661	The waiters ever wonder whether the doctors sold the shoes.
-662	The waiters wonder whether the doctors clearly sold the shoes.
-663	The waiters wonder whether the doctors ever sold the shoes.
-664	The actors often say that the waitress could listen to the guests.
-665	The actors ever say that the waitress could listen to the guests.
-666	The actors say that the waitress often could listen to the guests.
-667	The actors say that the waitress ever could listen to the guests.
-668	The actors often wonder whether the waitress could listen to the guests.
-669	The actors ever wonder whether the waitress could listen to the guests.
-670	The actors wonder whether the waitress often could listen to the guests.
-671	The actors wonder whether the waitress ever could listen to the guests.
-672	The ladies obviously say that the waiter had the couches.
-673	The ladies ever say that the waiter had the couches.
-674	The ladies say that the waiter obviously had the couches.
-675	The ladies say that the waiter ever had the couches.
-676	The ladies obviously wonder whether the waiter had the couches.
-677	The ladies ever wonder whether the waiter had the couches.
-678	The ladies wonder whether the waiter obviously had the couches.
-679	The ladies wonder whether the waiter ever had the couches.
-680	The boys obviously say that the doctor examines the books.
-681	The boys ever say that the doctor examines the books.
-682	The boys say that the doctor obviously examines the books.
-683	The boys say that the doctor ever examines the books.
-684	The boys obviously wonder whether the doctor examines the books.
-685	The boys ever wonder whether the doctor examines the books.
-686	The boys wonder whether the doctor obviously examines the books.
-687	The boys wonder whether the doctor ever examines the books.
-688	The waiters say that the man lifts the shoes.
-689	Any waiters say that the man lifts the shoes.
-690	The waiters say that the man lifts those shoes.
-691	The waiters say that the man lifts any shoes.
-692	The waiters wonder whether the man lifts shoes.
-693	Any waiters wonder whether the man lifts shoes.
-694	The waiters wonder whether the man lifts those shoes.
-695	The waiters wonder whether the man lifts any shoes.
-696	The men also say that the adults leave the children.
-697	The men ever say that the adults leave the children.
-698	The men say that the adults also leave the children.
-699	The men say that the adults ever leave the children.
-700	The men also wonder whether the adults leave the children.
-701	The men ever wonder whether the adults leave the children.
-702	The men wonder whether the adults also leave the children.
-703	The men wonder whether the adults ever leave the children.
-704	The actors say that the waiter talked about the grocery stores.
-705	Any actors say that the waiter talked about the grocery stores.
-706	The actors say that the waiter talked about the grocery stores.
-707	The actors say that the waiter talked about any grocery stores.
-708	The actors wonder whether the waiter talked about grocery stores.
-709	Any actors wonder whether the waiter talked about grocery stores.
-710	The actors wonder whether the waiter talked about the grocery stores.
-711	The actors wonder whether the waiter talked about any grocery stores.
-712	The boys often say that the waitresses help the people.
-713	The boys ever say that the waitresses help the people.
-714	The boys say that the waitresses often help the people.
-715	The boys say that the waitresses ever help the people.
-716	The boys often wonder whether the waitresses help the people.
-717	The boys ever wonder whether the waitresses help the people.
-718	The boys wonder whether the waitresses often help the people.
-719	The boys wonder whether the waitresses ever help the people.
-720	Those students say that the patient drives to the restaurants.
-721	Any students say that the patient drives to the restaurants.
-722	The students say that the patient drives to the restaurants.
-723	The students say that the patient drives to any restaurants.
-724	Those students wonder whether the patient drives to restaurants.
-725	Any students wonder whether the patient drives to restaurants.
-726	The students wonder whether the patient drives to the restaurants.
-727	The students wonder whether the patient drives to any restaurants.
-728	The ladies say that the teachers had biked to the movie theaters.
-729	Any ladies say that the teachers had biked to the movie theaters.
-730	The ladies say that the teachers had biked to the movie theaters.
-731	The ladies say that the teachers had biked to any movie theaters.
-732	The ladies wonder whether the teachers had biked to movie theaters.
-733	Any ladies wonder whether the teachers had biked to movie theaters.
-734	The ladies wonder whether the teachers had biked to the movie theaters.
-735	The ladies wonder whether the teachers had biked to any movie theaters.
-736	The cashiers say that the adult works with the men.
-737	Any cashiers say that the adult works with the men.
-738	The cashiers say that the adult works with the men.
-739	The cashiers say that the adult works with any men.
-740	The cashiers wonder whether the adult works with men.
-741	Any cashiers wonder whether the adult works with men.
-742	The cashiers wonder whether the adult works with the men.
-743	The cashiers wonder whether the adult works with any men.
-744	The guys often say that the man could leave the grocery stores.
-745	The guys ever say that the man could leave the grocery stores.
-746	The guys say that the man often could leave the grocery stores.
-747	The guys say that the man ever could leave the grocery stores.
-748	The guys often wonder whether the man could leave the grocery stores.
-749	The guys ever wonder whether the man could leave the grocery stores.
-750	The guys wonder whether the man often could leave the grocery stores.
-751	The guys wonder whether the man ever could leave the grocery stores.
-752	The students say that the pedestrian goes to the hospitals.
-753	Any students say that the pedestrian goes to the hospitals.
-754	The students say that the pedestrian goes to these hospitals.
-755	The students say that the pedestrian goes to any hospitals.
-756	The students wonder whether the pedestrian goes to hospitals.
-757	Any students wonder whether the pedestrian goes to hospitals.
-758	The students wonder whether the pedestrian goes to these hospitals.
-759	The students wonder whether the pedestrian goes to any hospitals.
-760	The dancers clearly say that the adults drive to the malls.
-761	The dancers ever say that the adults drive to the malls.
-762	The dancers say that the adults clearly drive to the malls.
-763	The dancers say that the adults ever drive to the malls.
-764	The dancers clearly wonder whether the adults drive to the malls.
-765	The dancers ever wonder whether the adults drive to the malls.
-766	The dancers wonder whether the adults clearly drive to the malls.
-767	The dancers wonder whether the adults ever drive to the malls.
-768	The pedestrians say that the teenagers are exploring the cafes.
-769	Any pedestrians say that the teenagers are exploring the cafes.
-770	The pedestrians say that the teenagers are exploring the cafes.
-771	The pedestrians say that the teenagers are exploring any cafes.
-772	The pedestrians wonder whether the teenagers are exploring cafes.
-773	Any pedestrians wonder whether the teenagers are exploring cafes.
-774	The pedestrians wonder whether the teenagers are exploring the cafes.
-775	The pedestrians wonder whether the teenagers are exploring any cafes.
-776	The patients clearly say that the customers investigated the museums.
-777	The patients ever say that the customers investigated the museums.
-778	The patients say that the customers clearly investigated the museums.
-779	The patients say that the customers ever investigated the museums.
-780	The patients clearly wonder whether the customers investigated the museums.
-781	The patients ever wonder whether the customers investigated the museums.
-782	The patients wonder whether the customers clearly investigated the museums.
-783	The patients wonder whether the customers ever investigated the museums.
-784	The ladies say that the students had ran around the banks.
-785	Any ladies say that the students had ran around the banks.
-786	The ladies say that the students had ran around the banks.
-787	The ladies say that the students had ran around any banks.
-788	The ladies wonder whether the students had ran around banks.
-789	Any ladies wonder whether the students had ran around banks.
-790	The ladies wonder whether the students had ran around the banks.
-791	The ladies wonder whether the students had ran around any banks.
-792	The dancers often say that the child approaches the customers.
-793	The dancers ever say that the child approaches the customers.
-794	The dancers say that the child often approaches the customers.
-795	The dancers say that the child ever approaches the customers.
-796	The dancers often wonder whether the child approaches the customers.
-797	The dancers ever wonder whether the child approaches the customers.
-798	The dancers wonder whether the child often approaches the customers.
-799	The dancers wonder whether the child ever approaches the customers.
-800	Those girls say that the waiters should watch the boys.
-801	Any girls say that the waiters should watch the boys.
-802	The girls say that the waiters should watch these boys.
-803	The girls say that the waiters should watch any boys.
-804	Those girls wonder whether the waiters should watch boys.
-805	Any girls wonder whether the waiters should watch boys.
-806	The girls wonder whether the waiters should watch these boys.
-807	The girls wonder whether the waiters should watch any boys.
-808	The patients fortunately say that the waitress has brought the glasses.
-809	The patients ever say that the waitress has brought the glasses.
-810	The patients say that the waitress fortunately has brought the glasses.
-811	The patients say that the waitress ever has brought the glasses.
-812	The patients fortunately wonder whether the waitress has brought the glasses.
-813	The patients ever wonder whether the waitress has brought the glasses.
-814	The patients wonder whether the waitress fortunately has brought the glasses.
-815	The patients wonder whether the waitress ever has brought the glasses.
-816	Those guests say that the students had hugged the ladies.
-817	Any guests say that the students had hugged the ladies.
-818	The guests say that the students had hugged these ladies.
-819	The guests say that the students had hugged any ladies.
-820	Those guests wonder whether the students had hugged ladies.
-821	Any guests wonder whether the students had hugged ladies.
-822	The guests wonder whether the students had hugged these ladies.
-823	The guests wonder whether the students had hugged any ladies.
-824	The women say that the child dislikes the men.
-825	Any women say that the child dislikes the men.
-826	The women say that the child dislikes these men.
-827	The women say that the child dislikes any men.
-828	The women wonder whether the child dislikes men.
-829	Any women wonder whether the child dislikes men.
-830	The women wonder whether the child dislikes these men.
-831	The women wonder whether the child dislikes any men.
-832	Those doctors say that the teacher should see the books.
-833	Any doctors say that the teacher should see the books.
-834	The doctors say that the teacher should see those books.
-835	The doctors say that the teacher should see any books.
-836	Those doctors wonder whether the teacher should see books.
-837	Any doctors wonder whether the teacher should see books.
-838	The doctors wonder whether the teacher should see those books.
-839	The doctors wonder whether the teacher should see any books.
-840	The girls say that the senator had gone to the movie theaters.
-841	Any girls say that the senator had gone to the movie theaters.
-842	The girls say that the senator had gone to these movie theaters.
-843	The girls say that the senator had gone to any movie theaters.
-844	The girls wonder whether the senator had gone to movie theaters.
-845	Any girls wonder whether the senator had gone to movie theaters.
-846	The girls wonder whether the senator had gone to these movie theaters.
-847	The girls wonder whether the senator had gone to any movie theaters.
-848	These dancers say that the patient did hate the actors.
-849	Any dancers say that the patient did hate the actors.
-850	The dancers say that the patient did hate those actors.
-851	The dancers say that the patient did hate any actors.
-852	These dancers wonder whether the patient did hate actors.
-853	Any dancers wonder whether the patient did hate actors.
-854	The dancers wonder whether the patient did hate those actors.
-855	The dancers wonder whether the patient did hate any actors.
-856	The cashiers often say that the boys ran around the public parks.
-857	The cashiers ever say that the boys ran around the public parks.
-858	The cashiers say that the boys often ran around the public parks.
-859	The cashiers say that the boys ever ran around the public parks.
-860	The cashiers often wonder whether the boys ran around the public parks.
-861	The cashiers ever wonder whether the boys ran around the public parks.
-862	The cashiers wonder whether the boys often ran around the public parks.
-863	The cashiers wonder whether the boys ever ran around the public parks.
-864	The customers often say that the dancers dislike the actresses.
-865	The customers ever say that the dancers dislike the actresses.
-866	The customers say that the dancers often dislike the actresses.
-867	The customers say that the dancers ever dislike the actresses.
-868	The customers often wonder whether the dancers dislike the actresses.
-869	The customers ever wonder whether the dancers dislike the actresses.
-870	The customers wonder whether the dancers often dislike the actresses.
-871	The customers wonder whether the dancers ever dislike the actresses.
-872	Those women say that the waitresses boycotted the public parks.
-873	Any women say that the waitresses boycotted the public parks.
-874	The women say that the waitresses boycotted these public parks.
-875	The women say that the waitresses boycotted any public parks.
-876	Those women wonder whether the waitresses boycotted public parks.
-877	Any women wonder whether the waitresses boycotted public parks.
-878	The women wonder whether the waitresses boycotted these public parks.
-879	The women wonder whether the waitresses boycotted any public parks.
-880	The people also say that the boys had praised the adults.
-881	The people ever say that the boys had praised the adults.
-882	The people say that the boys also had praised the adults.
-883	The people say that the boys ever had praised the adults.
-884	The people also wonder whether the boys had praised the adults.
-885	The people ever wonder whether the boys had praised the adults.
-886	The people wonder whether the boys also had praised the adults.
-887	The people wonder whether the boys ever had praised the adults.
-888	These waitresses say that the children brought the couches.
-889	Any waitresses say that the children brought the couches.
-890	The waitresses say that the children brought the couches.
-891	The waitresses say that the children brought any couches.
-892	These waitresses wonder whether the children brought couches.
-893	Any waitresses wonder whether the children brought couches.
-894	The waitresses wonder whether the children brought the couches.
-895	The waitresses wonder whether the children brought any couches.
-896	The pedestrians fortunately say that the pedestrian had investigated the patients.
-897	The pedestrians ever say that the pedestrian had investigated the patients.
-898	The pedestrians say that the pedestrian fortunately had investigated the patients.
-899	The pedestrians say that the pedestrian ever had investigated the patients.
-900	The pedestrians fortunately wonder whether the pedestrian had investigated the patients.
-901	The pedestrians ever wonder whether the pedestrian had investigated the patients.
-902	The pedestrians wonder whether the pedestrian fortunately had investigated the patients.
-903	The pedestrians wonder whether the pedestrian ever had investigated the patients.
-904	The adults say that the teacher should forget the drivers.
-905	Any adults say that the teacher should forget the drivers.
-906	The adults say that the teacher should forget these drivers.
-907	The adults say that the teacher should forget any drivers.
-908	The adults wonder whether the teacher should forget drivers.
-909	Any adults wonder whether the teacher should forget drivers.
-910	The adults wonder whether the teacher should forget these drivers.
-911	The adults wonder whether the teacher should forget any drivers.
-912	The waitresses say that the teenager has insulted the banks.
-913	Any waitresses say that the teenager has insulted the banks.
-914	The waitresses say that the teenager has insulted the banks.
-915	The waitresses say that the teenager has insulted any banks.
-916	The waitresses wonder whether the teenager has insulted banks.
-917	Any waitresses wonder whether the teenager has insulted banks.
-918	The waitresses wonder whether the teenager has insulted the banks.
-919	The waitresses wonder whether the teenager has insulted any banks.
-920	Those ladies say that the teenager had bought the cups.
-921	Any ladies say that the teenager had bought the cups.
-922	The ladies say that the teenager had bought these cups.
-923	The ladies say that the teenager had bought any cups.
-924	Those ladies wonder whether the teenager had bought cups.
-925	Any ladies wonder whether the teenager had bought cups.
-926	The ladies wonder whether the teenager had bought these cups.
-927	The ladies wonder whether the teenager had bought any cups.
-928	These people say that the girl explores the art galleries.
-929	Any people say that the girl explores the art galleries.
-930	The people say that the girl explores those art galleries.
-931	The people say that the girl explores any art galleries.
-932	These people wonder whether the girl explores art galleries.
-933	Any people wonder whether the girl explores art galleries.
-934	The people wonder whether the girl explores those art galleries.
-935	The people wonder whether the girl explores any art galleries.
-936	These students say that the actress praised the actors.
-937	Any students say that the actress praised the actors.
-938	The students say that the actress praised these actors.
-939	The students say that the actress praised any actors.
-940	These students wonder whether the actress praised actors.
-941	Any students wonder whether the actress praised actors.
-942	The students wonder whether the actress praised these actors.
-943	The students wonder whether the actress praised any actors.
-944	The girls often say that the guys had biked to the grocery stores.
-945	The girls ever say that the guys had biked to the grocery stores.
-946	The girls say that the guys often had biked to the grocery stores.
-947	The girls say that the guys ever had biked to the grocery stores.
-948	The girls often wonder whether the guys had biked to the grocery stores.
-949	The girls ever wonder whether the guys had biked to the grocery stores.
-950	The girls wonder whether the guys often had biked to the grocery stores.
-951	The girls wonder whether the guys ever had biked to the grocery stores.
-952	The guests often say that the patient has disliked the teachers.
-953	The guests ever say that the patient has disliked the teachers.
-954	The guests say that the patient often has disliked the teachers.
-955	The guests say that the patient ever has disliked the teachers.
-956	The guests often wonder whether the patient has disliked the teachers.
-957	The guests ever wonder whether the patient has disliked the teachers.
-958	The guests wonder whether the patient often has disliked the teachers.
-959	The guests wonder whether the patient ever has disliked the teachers.
-960	The adults often say that the women would return to the banks.
-961	The adults ever say that the women would return to the banks.
-962	The adults say that the women often would return to the banks.
-963	The adults say that the women ever would return to the banks.
-964	The adults often wonder whether the women would return to the banks.
-965	The adults ever wonder whether the women would return to the banks.
-966	The adults wonder whether the women often would return to the banks.
-967	The adults wonder whether the women ever would return to the banks.
-968	The pedestrians say that the women were talking about the college campuses.
-969	Any pedestrians say that the women were talking about the college campuses.
-970	The pedestrians say that the women were talking about these college campuses.
-971	The pedestrians say that the women were talking about any college campuses.
-972	The pedestrians wonder whether the women were talking about college campuses.
-973	Any pedestrians wonder whether the women were talking about college campuses.
-974	The pedestrians wonder whether the women were talking about these college campuses.
-975	The pedestrians wonder whether the women were talking about any college campuses.
-976	The pedestrians fortunately say that the students forgot the waiters.
-977	The pedestrians ever say that the students forgot the waiters.
-978	The pedestrians say that the students fortunately forgot the waiters.
-979	The pedestrians say that the students ever forgot the waiters.
-980	The pedestrians fortunately wonder whether the students forgot the waiters.
-981	The pedestrians ever wonder whether the students forgot the waiters.
-982	The pedestrians wonder whether the students fortunately forgot the waiters.
-983	The pedestrians wonder whether the students ever forgot the waiters.
-984	The pedestrians say that the dancer will take the forks.
-985	Any pedestrians say that the dancer will take the forks.
-986	The pedestrians say that the dancer will take those forks.
-987	The pedestrians say that the dancer will take any forks.
-988	The pedestrians wonder whether the dancer will take forks.
-989	Any pedestrians wonder whether the dancer will take forks.
-990	The pedestrians wonder whether the dancer will take those forks.
-991	The pedestrians wonder whether the dancer will take any forks.
-992	The waitresses say that the guests examined the movies.
-993	Any waitresses say that the guests examined the movies.
-994	The waitresses say that the guests examined the movies.
-995	The waitresses say that the guests examined any movies.
-996	The waitresses wonder whether the guests examined movies.
-997	Any waitresses wonder whether the guests examined movies.
-998	The waitresses wonder whether the guests examined the movies.
-999	The waitresses wonder whether the guests examined any movies.
+0	The guys clearly wonder whether the senators admired the teenagers.
+1	The guys ever wonder whether the senators admired the teenagers.
+2	The guys wonder whether the senators clearly admired the teenagers.
+3	The guys wonder whether the senators ever admired the teenagers.
+4	The students wonder whether the dancers hate actors.
+5	Any students wonder whether the dancers hate actors.
+6	The students wonder whether the dancers hate these actors.
+7	The students wonder whether the dancers hate any actors.
+8	The ladies also wonder whether the men arrive at the college campuses.
+9	The ladies ever wonder whether the men arrive at the college campuses.
+10	The ladies wonder whether the men also arrive at the college campuses.
+11	The ladies wonder whether the men ever arrive at the college campuses.
+12	The cashiers obviously wonder whether the doctor should skate around the grocery stores.
+13	The cashiers ever wonder whether the doctor should skate around the grocery stores.
+14	The cashiers wonder whether the doctor obviously should skate around the grocery stores.
+15	The cashiers wonder whether the doctor ever should skate around the grocery stores.
+16	The guests also wonder whether the women passed the college campuses.
+17	The guests ever wonder whether the women passed the college campuses.
+18	The guests wonder whether the women also passed the college campuses.
+19	The guests wonder whether the women ever passed the college campuses.
+20	These waitresses wonder whether the woman discusses grocery stores.
+21	Any waitresses wonder whether the woman discusses grocery stores.
+22	The waitresses wonder whether the woman discusses the grocery stores.
+23	The waitresses wonder whether the woman discusses any grocery stores.
+24	The patients obviously wonder whether the dancer had scanned the reports.
+25	The patients ever wonder whether the dancer had scanned the reports.
+26	The patients wonder whether the dancer obviously had scanned the reports.
+27	The patients wonder whether the dancer ever had scanned the reports.
+28	The guests often wonder whether the doctors went to the malls.
+29	The guests ever wonder whether the doctors went to the malls.
+30	The guests wonder whether the doctors often went to the malls.
+31	The guests wonder whether the doctors ever went to the malls.
+32	The guys obviously wonder whether the guest knows the teachers.
+33	The guys ever wonder whether the guest knows the teachers.
+34	The guys wonder whether the guest obviously knows the teachers.
+35	The guys wonder whether the guest ever knows the teachers.
+36	The teenagers obviously wonder whether the drivers would boycott the cafes.
+37	The teenagers ever wonder whether the drivers would boycott the cafes.
+38	The teenagers wonder whether the drivers obviously would boycott the cafes.
+39	The teenagers wonder whether the drivers ever would boycott the cafes.
+40	The women obviously wonder whether the waiters examined the newspaper articles.
+41	The women ever wonder whether the waiters examined the newspaper articles.
+42	The women wonder whether the waiters obviously examined the newspaper articles.
+43	The women wonder whether the waiters ever examined the newspaper articles.
+44	Those adults wonder whether the children have talked about art galleries.
+45	Any adults wonder whether the children have talked about art galleries.
+46	The adults wonder whether the children have talked about the art galleries.
+47	The adults wonder whether the children have talked about any art galleries.
+48	The doctors wonder whether the boy should resemble people.
+49	Any doctors wonder whether the boy should resemble people.
+50	The doctors wonder whether the boy should resemble those people.
+51	The doctors wonder whether the boy should resemble any people.
+52	The girls clearly wonder whether the doctors might listen to the actors.
+53	The girls ever wonder whether the doctors might listen to the actors.
+54	The girls wonder whether the doctors clearly might listen to the actors.
+55	The girls wonder whether the doctors ever might listen to the actors.
+56	The children wonder whether the student should insult girls.
+57	Any children wonder whether the student should insult girls.
+58	The children wonder whether the student should insult the girls.
+59	The children wonder whether the student should insult any girls.
+60	These teachers wonder whether the doctors wear glasses.
+61	Any teachers wonder whether the doctors wear glasses.
+62	The teachers wonder whether the doctors wear the glasses.
+63	The teachers wonder whether the doctors wear any glasses.
+64	The pedestrians obviously wonder whether the boy remembered the art galleries.
+65	The pedestrians ever wonder whether the boy remembered the art galleries.
+66	The pedestrians wonder whether the boy obviously remembered the art galleries.
+67	The pedestrians wonder whether the boy ever remembered the art galleries.
+68	Those teachers wonder whether the waitress referenced drivers.
+69	Any teachers wonder whether the waitress referenced drivers.
+70	The teachers wonder whether the waitress referenced the drivers.
+71	The teachers wonder whether the waitress referenced any drivers.
+72	The girls often wonder whether the senator has returned to the actresses.
+73	The girls ever wonder whether the senator has returned to the actresses.
+74	The girls wonder whether the senator often has returned to the actresses.
+75	The girls wonder whether the senator ever has returned to the actresses.
+76	The women clearly wonder whether the adult talked to the actresses.
+77	The women ever wonder whether the adult talked to the actresses.
+78	The women wonder whether the adult clearly talked to the actresses.
+79	The women wonder whether the adult ever talked to the actresses.
+80	The boys often wonder whether the girl dropped by the art galleries.
+81	The boys ever wonder whether the girl dropped by the art galleries.
+82	The boys wonder whether the girl often dropped by the art galleries.
+83	The boys wonder whether the girl ever dropped by the art galleries.
+84	Those women wonder whether the ladies observe cashiers.
+85	Any women wonder whether the ladies observe cashiers.
+86	The women wonder whether the ladies observe the cashiers.
+87	The women wonder whether the ladies observe any cashiers.
+88	The waitresses also wonder whether the women watch the teachers.
+89	The waitresses ever wonder whether the women watch the teachers.
+90	The waitresses wonder whether the women also watch the teachers.
+91	The waitresses wonder whether the women ever watch the teachers.
+92	Those actors wonder whether the driver should sell reports.
+93	Any actors wonder whether the driver should sell reports.
+94	The actors wonder whether the driver should sell these reports.
+95	The actors wonder whether the driver should sell any reports.
+96	Those senators wonder whether the student should see teenagers.
+97	Any senators wonder whether the student should see teenagers.
+98	The senators wonder whether the student should see these teenagers.
+99	The senators wonder whether the student should see any teenagers.
+100	The adults wonder whether the dancer did investigate public parks.
+101	Any adults wonder whether the dancer did investigate public parks.
+102	The adults wonder whether the dancer did investigate these public parks.
+103	The adults wonder whether the dancer did investigate any public parks.
+104	The pedestrians obviously wonder whether the waitresses scan the essays.
+105	The pedestrians ever wonder whether the waitresses scan the essays.
+106	The pedestrians wonder whether the waitresses obviously scan the essays.
+107	The pedestrians wonder whether the waitresses ever scan the essays.
+108	Those boys wonder whether the waiters took couches.
+109	Any boys wonder whether the waiters took couches.
+110	The boys wonder whether the waiters took those couches.
+111	The boys wonder whether the waiters took any couches.
+112	The ladies also wonder whether the guest boycotted the restaurants.
+113	The ladies ever wonder whether the guest boycotted the restaurants.
+114	The ladies wonder whether the guest also boycotted the restaurants.
+115	The ladies wonder whether the guest ever boycotted the restaurants.
+116	The waiters often wonder whether the men criticized the stories.
+117	The waiters ever wonder whether the men criticized the stories.
+118	The waiters wonder whether the men often criticized the stories.
+119	The waiters wonder whether the men ever criticized the stories.
+120	The adults clearly wonder whether the drivers have explored the libraries.
+121	The adults ever wonder whether the drivers have explored the libraries.
+122	The adults wonder whether the drivers clearly have explored the libraries.
+123	The adults wonder whether the drivers ever have explored the libraries.
+124	The senators fortunately wonder whether the guests fled from the museums.
+125	The senators ever wonder whether the guests fled from the museums.
+126	The senators wonder whether the guests fortunately fled from the museums.
+127	The senators wonder whether the guests ever fled from the museums.
+128	These pedestrians wonder whether the students helped doctors.
+129	Any pedestrians wonder whether the students helped doctors.
+130	The pedestrians wonder whether the students helped those doctors.
+131	The pedestrians wonder whether the students helped any doctors.
+132	Those pedestrians wonder whether the man passed restaurants.
+133	Any pedestrians wonder whether the man passed restaurants.
+134	The pedestrians wonder whether the man passed these restaurants.
+135	The pedestrians wonder whether the man passed any restaurants.
+136	These children wonder whether the actresses liked cars.
+137	Any children wonder whether the actresses liked cars.
+138	The children wonder whether the actresses liked the cars.
+139	The children wonder whether the actresses liked any cars.
+140	The boys also wonder whether the teacher did know the women.
+141	The boys ever wonder whether the teacher did know the women.
+142	The boys wonder whether the teacher also did know the women.
+143	The boys wonder whether the teacher ever did know the women.
+144	The cashiers fortunately wonder whether the actress escaped from the girls.
+145	The cashiers ever wonder whether the actress escaped from the girls.
+146	The cashiers wonder whether the actress fortunately escaped from the girls.
+147	The cashiers wonder whether the actress ever escaped from the girls.
+148	The guests fortunately wonder whether the men loved the patients.
+149	The guests ever wonder whether the men loved the patients.
+150	The guests wonder whether the men fortunately loved the patients.
+151	The guests wonder whether the men ever loved the patients.
+152	The guys also wonder whether the guy sells the glasses.
+153	The guys ever wonder whether the guy sells the glasses.
+154	The guys wonder whether the guy also sells the glasses.
+155	The guys wonder whether the guy ever sells the glasses.
+156	The dancers often wonder whether the customer had explored the malls.
+157	The dancers ever wonder whether the customer had explored the malls.
+158	The dancers wonder whether the customer often had explored the malls.
+159	The dancers wonder whether the customer ever had explored the malls.
+160	The waitresses often wonder whether the cashier describes the commentaries.
+161	The waitresses ever wonder whether the cashier describes the commentaries.
+162	The waitresses wonder whether the cashier often describes the commentaries.
+163	The waitresses wonder whether the cashier ever describes the commentaries.
+164	These actresses wonder whether the girl should see teachers.
+165	Any actresses wonder whether the girl should see teachers.
+166	The actresses wonder whether the girl should see these teachers.
+167	The actresses wonder whether the girl should see any teachers.
+168	Those students wonder whether the lady sees reports.
+169	Any students wonder whether the lady sees reports.
+170	The students wonder whether the lady sees those reports.
+171	The students wonder whether the lady sees any reports.
+172	The dancers also wonder whether the pedestrian exited the banks.
+173	The dancers ever wonder whether the pedestrian exited the banks.
+174	The dancers wonder whether the pedestrian also exited the banks.
+175	The dancers wonder whether the pedestrian ever exited the banks.
+176	The women often wonder whether the drivers drove to the art galleries.
+177	The women ever wonder whether the drivers drove to the art galleries.
+178	The women wonder whether the drivers often drove to the art galleries.
+179	The women wonder whether the drivers ever drove to the art galleries.
+180	The men fortunately wonder whether the girl cleaned the books.
+181	The men ever wonder whether the girl cleaned the books.
+182	The men wonder whether the girl fortunately cleaned the books.
+183	The men wonder whether the girl ever cleaned the books.
+184	The guys clearly wonder whether the teenagers listened to the cashiers.
+185	The guys ever wonder whether the teenagers listened to the cashiers.
+186	The guys wonder whether the teenagers clearly listened to the cashiers.
+187	The guys wonder whether the teenagers ever listened to the cashiers.
+188	The guys wonder whether the teacher is boycotting college campuses.
+189	Any guys wonder whether the teacher is boycotting college campuses.
+190	The guys wonder whether the teacher is boycotting these college campuses.
+191	The guys wonder whether the teacher is boycotting any college campuses.
+192	The waiters wonder whether the person has forgotten reports.
+193	Any waiters wonder whether the person has forgotten reports.
+194	The waiters wonder whether the person has forgotten these reports.
+195	The waiters wonder whether the person has forgotten any reports.
+196	The people also wonder whether the customer left the dancers.
+197	The people ever wonder whether the customer left the dancers.
+198	The people wonder whether the customer also left the dancers.
+199	The people wonder whether the customer ever left the dancers.
+200	The actresses wonder whether the driver was walking through college campuses.
+201	Any actresses wonder whether the driver was walking through college campuses.
+202	The actresses wonder whether the driver was walking through those college campuses.
+203	The actresses wonder whether the driver was walking through any college campuses.
+204	The guests clearly wonder whether the teenagers talked about the newspaper articles.
+205	The guests ever wonder whether the teenagers talked about the newspaper articles.
+206	The guests wonder whether the teenagers clearly talked about the newspaper articles.
+207	The guests wonder whether the teenagers ever talked about the newspaper articles.
+208	The senators fortunately wonder whether the student might examine the reports.
+209	The senators ever wonder whether the student might examine the reports.
+210	The senators wonder whether the student fortunately might examine the reports.
+211	The senators wonder whether the student ever might examine the reports.
+212	The waiters fortunately wonder whether the doctor had worn the gloves.
+213	The waiters ever wonder whether the doctor had worn the gloves.
+214	The waiters wonder whether the doctor fortunately had worn the gloves.
+215	The waiters wonder whether the doctor ever had worn the gloves.
+216	The cashiers often wonder whether the waitress talked about the teachers.
+217	The cashiers ever wonder whether the waitress talked about the teachers.
+218	The cashiers wonder whether the waitress often talked about the teachers.
+219	The cashiers wonder whether the waitress ever talked about the teachers.
+220	Those doctors wonder whether the boys will buy pants.
+221	Any doctors wonder whether the boys will buy pants.
+222	The doctors wonder whether the boys will buy these pants.
+223	The doctors wonder whether the boys will buy any pants.
+224	Those ladies wonder whether the cashier does exit art galleries.
+225	Any ladies wonder whether the cashier does exit art galleries.
+226	The ladies wonder whether the cashier does exit these art galleries.
+227	The ladies wonder whether the cashier does exit any art galleries.
+228	The girls wonder whether the women have disliked adults.
+229	Any girls wonder whether the women have disliked adults.
+230	The girls wonder whether the women have disliked these adults.
+231	The girls wonder whether the women have disliked any adults.
+232	Those waiters wonder whether the girl bikes to high schools.
+233	Any waiters wonder whether the girl bikes to high schools.
+234	The waiters wonder whether the girl bikes to those high schools.
+235	The waiters wonder whether the girl bikes to any high schools.
+236	These guests wonder whether the people forgot waitresses.
+237	Any guests wonder whether the people forgot waitresses.
+238	The guests wonder whether the people forgot the waitresses.
+239	The guests wonder whether the people forgot any waitresses.
+240	The drivers often wonder whether the waiters praise the teenagers.
+241	The drivers ever wonder whether the waiters praise the teenagers.
+242	The drivers wonder whether the waiters often praise the teenagers.
+243	The drivers wonder whether the waiters ever praise the teenagers.
+244	These teenagers wonder whether the man breaks forks.
+245	Any teenagers wonder whether the man breaks forks.
+246	The teenagers wonder whether the man breaks those forks.
+247	The teenagers wonder whether the man breaks any forks.
+248	The cashiers also wonder whether the ladies kissed the guys.
+249	The cashiers ever wonder whether the ladies kissed the guys.
+250	The cashiers wonder whether the ladies also kissed the guys.
+251	The cashiers wonder whether the ladies ever kissed the guys.
+252	The senators often wonder whether the boy should clean the glasses.
+253	The senators ever wonder whether the boy should clean the glasses.
+254	The senators wonder whether the boy often should clean the glasses.
+255	The senators wonder whether the boy ever should clean the glasses.
+256	The adults also wonder whether the person has taken the pants.
+257	The adults ever wonder whether the person has taken the pants.
+258	The adults wonder whether the person also has taken the pants.
+259	The adults wonder whether the person ever has taken the pants.
+260	Those women wonder whether the customer has skated around banks.
+261	Any women wonder whether the customer has skated around banks.
+262	The women wonder whether the customer has skated around those banks.
+263	The women wonder whether the customer has skated around any banks.
+264	The women often wonder whether the teacher has worked with the people.
+265	The women ever wonder whether the teacher has worked with the people.
+266	The women wonder whether the teacher often has worked with the people.
+267	The women wonder whether the teacher ever has worked with the people.
+268	The ladies fortunately wonder whether the waitresses cleaned the pants.
+269	The ladies ever wonder whether the waitresses cleaned the pants.
+270	The ladies wonder whether the waitresses fortunately cleaned the pants.
+271	The ladies wonder whether the waitresses ever cleaned the pants.
+272	The people also wonder whether the lady has criticized the movie theaters.
+273	The people ever wonder whether the lady has criticized the movie theaters.
+274	The people wonder whether the lady also has criticized the movie theaters.
+275	The people wonder whether the lady ever has criticized the movie theaters.
+276	The pedestrians often wonder whether the boy approached the students.
+277	The pedestrians ever wonder whether the boy approached the students.
+278	The pedestrians wonder whether the boy often approached the students.
+279	The pedestrians wonder whether the boy ever approached the students.
+280	The waiters often wonder whether the woman lifts the books.
+281	The waiters ever wonder whether the woman lifts the books.
+282	The waiters wonder whether the woman often lifts the books.
+283	The waiters wonder whether the woman ever lifts the books.
+284	These guys wonder whether the pedestrian examined newspaper articles.
+285	Any guys wonder whether the pedestrian examined newspaper articles.
+286	The guys wonder whether the pedestrian examined these newspaper articles.
+287	The guys wonder whether the pedestrian examined any newspaper articles.
+288	The children wonder whether the doctor had helped pedestrians.
+289	Any children wonder whether the doctor had helped pedestrians.
+290	The children wonder whether the doctor had helped these pedestrians.
+291	The children wonder whether the doctor had helped any pedestrians.
+292	The actresses fortunately wonder whether the guy could approach the boys.
+293	The actresses ever wonder whether the guy could approach the boys.
+294	The actresses wonder whether the guy fortunately could approach the boys.
+295	The actresses wonder whether the guy ever could approach the boys.
+296	The senators also wonder whether the lady bought the books.
+297	The senators ever wonder whether the lady bought the books.
+298	The senators wonder whether the lady also bought the books.
+299	The senators wonder whether the lady ever bought the books.
+300	Those dancers wonder whether the guest lifted chairs.
+301	Any dancers wonder whether the guest lifted chairs.
+302	The dancers wonder whether the guest lifted these chairs.
+303	The dancers wonder whether the guest lifted any chairs.
+304	These adults wonder whether the pedestrian should talk about books.
+305	Any adults wonder whether the pedestrian should talk about books.
+306	The adults wonder whether the pedestrian should talk about those books.
+307	The adults wonder whether the pedestrian should talk about any books.
+308	The people wonder whether the child kissed dancers.
+309	Any people wonder whether the child kissed dancers.
+310	The people wonder whether the child kissed those dancers.
+311	The people wonder whether the child kissed any dancers.
+312	The pedestrians wonder whether the adult had loved plays.
+313	Any pedestrians wonder whether the adult had loved plays.
+314	The pedestrians wonder whether the adult had loved those plays.
+315	The pedestrians wonder whether the adult had loved any plays.
+316	These men wonder whether the girl bikes to college campuses.
+317	Any men wonder whether the girl bikes to college campuses.
+318	The men wonder whether the girl bikes to those college campuses.
+319	The men wonder whether the girl bikes to any college campuses.
+320	These waitresses wonder whether the waiter has biked to public parks.
+321	Any waitresses wonder whether the waiter has biked to public parks.
+322	The waitresses wonder whether the waiter has biked to these public parks.
+323	The waitresses wonder whether the waiter has biked to any public parks.
+324	The ladies also wonder whether the guests help the cashiers.
+325	The ladies ever wonder whether the guests help the cashiers.
+326	The ladies wonder whether the guests also help the cashiers.
+327	The ladies wonder whether the guests ever help the cashiers.
+328	The waiters clearly wonder whether the doctors sold the shoes.
+329	The waiters ever wonder whether the doctors sold the shoes.
+330	The waiters wonder whether the doctors clearly sold the shoes.
+331	The waiters wonder whether the doctors ever sold the shoes.
+332	The actors often wonder whether the waitress could listen to the guests.
+333	The actors ever wonder whether the waitress could listen to the guests.
+334	The actors wonder whether the waitress often could listen to the guests.
+335	The actors wonder whether the waitress ever could listen to the guests.
+336	The ladies obviously wonder whether the waiter had the couches.
+337	The ladies ever wonder whether the waiter had the couches.
+338	The ladies wonder whether the waiter obviously had the couches.
+339	The ladies wonder whether the waiter ever had the couches.
+340	The boys obviously wonder whether the doctor examines the books.
+341	The boys ever wonder whether the doctor examines the books.
+342	The boys wonder whether the doctor obviously examines the books.
+343	The boys wonder whether the doctor ever examines the books.
+344	The waiters wonder whether the man lifts shoes.
+345	Any waiters wonder whether the man lifts shoes.
+346	The waiters wonder whether the man lifts those shoes.
+347	The waiters wonder whether the man lifts any shoes.
+348	The men also wonder whether the adults leave the children.
+349	The men ever wonder whether the adults leave the children.
+350	The men wonder whether the adults also leave the children.
+351	The men wonder whether the adults ever leave the children.
+352	The actors wonder whether the waiter talked about grocery stores.
+353	Any actors wonder whether the waiter talked about grocery stores.
+354	The actors wonder whether the waiter talked about the grocery stores.
+355	The actors wonder whether the waiter talked about any grocery stores.
+356	The boys often wonder whether the waitresses help the people.
+357	The boys ever wonder whether the waitresses help the people.
+358	The boys wonder whether the waitresses often help the people.
+359	The boys wonder whether the waitresses ever help the people.
+360	Those students wonder whether the patient drives to restaurants.
+361	Any students wonder whether the patient drives to restaurants.
+362	The students wonder whether the patient drives to the restaurants.
+363	The students wonder whether the patient drives to any restaurants.
+364	The ladies wonder whether the teachers had biked to movie theaters.
+365	Any ladies wonder whether the teachers had biked to movie theaters.
+366	The ladies wonder whether the teachers had biked to the movie theaters.
+367	The ladies wonder whether the teachers had biked to any movie theaters.
+368	The cashiers wonder whether the adult works with men.
+369	Any cashiers wonder whether the adult works with men.
+370	The cashiers wonder whether the adult works with the men.
+371	The cashiers wonder whether the adult works with any men.
+372	The guys often wonder whether the man could leave the grocery stores.
+373	The guys ever wonder whether the man could leave the grocery stores.
+374	The guys wonder whether the man often could leave the grocery stores.
+375	The guys wonder whether the man ever could leave the grocery stores.
+376	The students wonder whether the pedestrian goes to hospitals.
+377	Any students wonder whether the pedestrian goes to hospitals.
+378	The students wonder whether the pedestrian goes to these hospitals.
+379	The students wonder whether the pedestrian goes to any hospitals.
+380	The dancers clearly wonder whether the adults drive to the malls.
+381	The dancers ever wonder whether the adults drive to the malls.
+382	The dancers wonder whether the adults clearly drive to the malls.
+383	The dancers wonder whether the adults ever drive to the malls.
+384	The pedestrians wonder whether the teenagers are exploring cafes.
+385	Any pedestrians wonder whether the teenagers are exploring cafes.
+386	The pedestrians wonder whether the teenagers are exploring the cafes.
+387	The pedestrians wonder whether the teenagers are exploring any cafes.
+388	The patients clearly wonder whether the customers investigated the museums.
+389	The patients ever wonder whether the customers investigated the museums.
+390	The patients wonder whether the customers clearly investigated the museums.
+391	The patients wonder whether the customers ever investigated the museums.
+392	The ladies wonder whether the students had ran around banks.
+393	Any ladies wonder whether the students had ran around banks.
+394	The ladies wonder whether the students had ran around the banks.
+395	The ladies wonder whether the students had ran around any banks.
+396	The dancers often wonder whether the child approaches the customers.
+397	The dancers ever wonder whether the child approaches the customers.
+398	The dancers wonder whether the child often approaches the customers.
+399	The dancers wonder whether the child ever approaches the customers.
+400	Those girls wonder whether the waiters should watch boys.
+401	Any girls wonder whether the waiters should watch boys.
+402	The girls wonder whether the waiters should watch these boys.
+403	The girls wonder whether the waiters should watch any boys.
+404	The patients fortunately wonder whether the waitress has brought the glasses.
+405	The patients ever wonder whether the waitress has brought the glasses.
+406	The patients wonder whether the waitress fortunately has brought the glasses.
+407	The patients wonder whether the waitress ever has brought the glasses.
+408	Those guests wonder whether the students had hugged ladies.
+409	Any guests wonder whether the students had hugged ladies.
+410	The guests wonder whether the students had hugged these ladies.
+411	The guests wonder whether the students had hugged any ladies.
+412	The women wonder whether the child dislikes men.
+413	Any women wonder whether the child dislikes men.
+414	The women wonder whether the child dislikes these men.
+415	The women wonder whether the child dislikes any men.
+416	Those doctors wonder whether the teacher should see books.
+417	Any doctors wonder whether the teacher should see books.
+418	The doctors wonder whether the teacher should see those books.
+419	The doctors wonder whether the teacher should see any books.
+420	The girls wonder whether the senator had gone to movie theaters.
+421	Any girls wonder whether the senator had gone to movie theaters.
+422	The girls wonder whether the senator had gone to these movie theaters.
+423	The girls wonder whether the senator had gone to any movie theaters.
+424	These dancers wonder whether the patient did hate actors.
+425	Any dancers wonder whether the patient did hate actors.
+426	The dancers wonder whether the patient did hate those actors.
+427	The dancers wonder whether the patient did hate any actors.
+428	The cashiers often wonder whether the boys ran around the public parks.
+429	The cashiers ever wonder whether the boys ran around the public parks.
+430	The cashiers wonder whether the boys often ran around the public parks.
+431	The cashiers wonder whether the boys ever ran around the public parks.
+432	The customers often wonder whether the dancers dislike the actresses.
+433	The customers ever wonder whether the dancers dislike the actresses.
+434	The customers wonder whether the dancers often dislike the actresses.
+435	The customers wonder whether the dancers ever dislike the actresses.
+436	Those women wonder whether the waitresses boycotted public parks.
+437	Any women wonder whether the waitresses boycotted public parks.
+438	The women wonder whether the waitresses boycotted these public parks.
+439	The women wonder whether the waitresses boycotted any public parks.
+440	The people also wonder whether the boys had praised the adults.
+441	The people ever wonder whether the boys had praised the adults.
+442	The people wonder whether the boys also had praised the adults.
+443	The people wonder whether the boys ever had praised the adults.
+444	These waitresses wonder whether the children brought couches.
+445	Any waitresses wonder whether the children brought couches.
+446	The waitresses wonder whether the children brought the couches.
+447	The waitresses wonder whether the children brought any couches.
+448	The pedestrians fortunately wonder whether the pedestrian had investigated the patients.
+449	The pedestrians ever wonder whether the pedestrian had investigated the patients.
+450	The pedestrians wonder whether the pedestrian fortunately had investigated the patients.
+451	The pedestrians wonder whether the pedestrian ever had investigated the patients.
+452	The adults wonder whether the teacher should forget drivers.
+453	Any adults wonder whether the teacher should forget drivers.
+454	The adults wonder whether the teacher should forget these drivers.
+455	The adults wonder whether the teacher should forget any drivers.
+456	The waitresses wonder whether the teenager has insulted banks.
+457	Any waitresses wonder whether the teenager has insulted banks.
+458	The waitresses wonder whether the teenager has insulted the banks.
+459	The waitresses wonder whether the teenager has insulted any banks.
+460	Those ladies wonder whether the teenager had bought cups.
+461	Any ladies wonder whether the teenager had bought cups.
+462	The ladies wonder whether the teenager had bought these cups.
+463	The ladies wonder whether the teenager had bought any cups.
+464	These people wonder whether the girl explores art galleries.
+465	Any people wonder whether the girl explores art galleries.
+466	The people wonder whether the girl explores those art galleries.
+467	The people wonder whether the girl explores any art galleries.
+468	These students wonder whether the actress praised actors.
+469	Any students wonder whether the actress praised actors.
+470	The students wonder whether the actress praised these actors.
+471	The students wonder whether the actress praised any actors.
+472	The girls often wonder whether the guys had biked to the grocery stores.
+473	The girls ever wonder whether the guys had biked to the grocery stores.
+474	The girls wonder whether the guys often had biked to the grocery stores.
+475	The girls wonder whether the guys ever had biked to the grocery stores.
+476	The guests often wonder whether the patient has disliked the teachers.
+477	The guests ever wonder whether the patient has disliked the teachers.
+478	The guests wonder whether the patient often has disliked the teachers.
+479	The guests wonder whether the patient ever has disliked the teachers.
+480	The adults often wonder whether the women would return to the banks.
+481	The adults ever wonder whether the women would return to the banks.
+482	The adults wonder whether the women often would return to the banks.
+483	The adults wonder whether the women ever would return to the banks.
+484	The pedestrians wonder whether the women were talking about college campuses.
+485	Any pedestrians wonder whether the women were talking about college campuses.
+486	The pedestrians wonder whether the women were talking about these college campuses.
+487	The pedestrians wonder whether the women were talking about any college campuses.
+488	The pedestrians fortunately wonder whether the students forgot the waiters.
+489	The pedestrians ever wonder whether the students forgot the waiters.
+490	The pedestrians wonder whether the students fortunately forgot the waiters.
+491	The pedestrians wonder whether the students ever forgot the waiters.
+492	The pedestrians wonder whether the dancer will take forks.
+493	Any pedestrians wonder whether the dancer will take forks.
+494	The pedestrians wonder whether the dancer will take those forks.
+495	The pedestrians wonder whether the dancer will take any forks.
+496	The waitresses wonder whether the guests examined movies.
+497	Any waitresses wonder whether the guests examined movies.
+498	The waitresses wonder whether the guests examined the movies.
+499	The waitresses wonder whether the guests examined any movies.

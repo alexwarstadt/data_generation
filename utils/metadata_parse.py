@@ -93,10 +93,6 @@ def make_splits(test_size=125, dev_size=125, train_size=1250):
     for file in os.listdir(npi_path):
         if file[-4:] == ".tsv":
             read_file = read_data_tsv(os.path.join(npi_path, file))
-
-            #filter to any and ever
-            read_file = np.union1d(get_all("npi", "any", read_file), get_all("npi", "ever", read_file))
-
             dir_name = file[12:-4]
             if os.path.isdir(os.path.join(output_dir, dir_name)):
                 continue
@@ -107,10 +103,10 @@ def make_splits(test_size=125, dev_size=125, train_size=1250):
             test2 = open(os.path.join(output_dir, dir_name, "test.tsv"), "w")
             dev = open(os.path.join(output_dir, dir_name, "dev.tsv"), "w")
             test_counter = 0
-            test2.write("index\tsentence\n")
     
             paradigms = list(set(read_file["paradigm"]))
             for p in paradigms[:test_size]:
+                test.write("index\tsentence\n")
                 for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
                     test.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
                     test2.write("%d\t%s" % (test_counter, line["sentence"]))
@@ -131,7 +127,7 @@ def make_probing_data():
     :return: none. writes to output
     """
     metadata_labels = ['licensor', 'scope', 'npi_present', 'scope_with_licensor']
-    npi_path = "../outputs/npi/environments/"
+    npi_path = "outputs/npi/environments/"
     splits_path = os.path.join(npi_path, 'splits')
     probing_path = os.path.join(npi_path, 'probing')
     split_folders = os.listdir(splits_path)
@@ -162,9 +158,15 @@ def make_probing_data():
                 infile.close()
                 outfile.close()
 
-            infile = open(os.path.join(splits_path, split_folder, 'test.tsv'), 'r')
+            test_full = open(os.path.join(probing_path, split_folder, metadata_label, 'test_full.tsv'), 'r')
+            test_full_sentences = test_full.readlines()
             outfile = open(os.path.join(probing_path, split_folder, metadata_label, 'test.tsv'), 'w')
-            outfile.write(infile.read())
+            outfile.write("index\tsentence\n")
+            count = 0
+            for i in test_full_sentences:
+                outfile.write(str(count)+'\t'+i.split('\t')[-1])
+                count += 1            
+
             infile.close()
             outfile.close()
    
@@ -172,8 +174,6 @@ def make_probing_data():
 # add a scope data where licensor is always there
     
 # make_subsets(6)
-
-make_splits()
                    
 # make_splits(test_size=250, dev_size=250, train_size=2500)
 
