@@ -1,1001 +1,501 @@
-index   sentence
-0	Had the man ever known the waiters?
-1	Had the man often known the waiters?
-2	The man had ever known the waiters.
-3	The man had often known the waiters.
-4	Had the waiter approached the drivers in years?
-5	Had the waiter approached the drivers for a while?
-6	The waiter had approached the drivers in years.
-7	The waiter had approached the drivers for a while.
-8	Had the teenager lifted the newspaper articles at all?
-9	Had the teenager lifted the newspaper articles regularly?
-10	The teenager had lifted the newspaper articles at all.
-11	The teenager had lifted the newspaper articles regularly.
-12	Might the teachers exit the malls either?
-13	Might the teachers exit the malls on weekends?
-14	The teachers might exit the malls either.
-15	The teachers might exit the malls on weekends.
-16	Did the pedestrians respect any cashiers?
-17	Did the pedestrians respect the cashiers?
-18	The pedestrians did respect any cashiers.
-19	The pedestrians did respect the cashiers.
-20	Has the person taken the plates in years?
-21	Has the person taken the plates regularly?
-22	The person has taken the plates in years.
-23	The person has taken the plates regularly.
-24	Was the actress buying the shoes yet?
-25	Was the actress buying the shoes regularly?
-26	The actress was buying the shoes yet.
-27	The actress was buying the shoes regularly.
-28	Had the doctor bought the pants yet?
-29	Had the doctor bought the pants as well?
-30	The doctor had bought the pants yet.
-31	The doctor had bought the pants as well.
-32	Had the guys kissed the drivers at all?
-33	Had the guys kissed the drivers for a while?
-34	The guys had kissed the drivers at all.
-35	The guys had kissed the drivers for a while.
-36	Is the actress ever going to the grocery stores?
-37	Is the actress clearly going to the grocery stores?
-38	The actress is ever going to the grocery stores.
-39	The actress is clearly going to the grocery stores.
-40	Had the teenagers left the ladies in years?
-41	Had the teenagers left the ladies for a while?
-42	The teenagers had left the ladies in years.
-43	The teenagers had left the ladies for a while.
-44	Has the teacher approached the teachers yet?
-45	Has the teacher approached the teachers on occasion?
-46	The teacher has approached the teachers yet.
-47	The teacher has approached the teachers on occasion.
-48	Is the man praising any newspaper articles?
-49	Is the man praising these newspaper articles?
-50	The man is praising any newspaper articles.
-51	The man is praising these newspaper articles.
-52	Has the waitress observed any ladies?
-53	Has the waitress observed the ladies?
-54	The waitress has observed any ladies.
-55	The waitress has observed the ladies.
-56	Should the children have the pants yet?
-57	Should the children have the pants regularly?
-58	The children should have the pants yet.
-59	The children should have the pants regularly.
-60	Are the actors listening to the guests yet?
-61	Are the actors listening to the guests as well?
-62	The actors are listening to the guests yet.
-63	The actors are listening to the guests as well.
-64	Were the ladies admiring the men either?
-65	Were the ladies admiring the men on weekends?
-66	The ladies were admiring the men either.
-67	The ladies were admiring the men on weekends.
-68	Had the waiters exited the college campuses either?
-69	Had the waiters exited the college campuses on weekends?
-70	The waiters had exited the college campuses either.
-71	The waiters had exited the college campuses on weekends.
-72	Can the student ever tour the grocery stores?
-73	Can the student also tour the grocery stores?
-74	The student can ever tour the grocery stores.
-75	The student can also tour the grocery stores.
-76	Could the waitress walk through the grocery stores yet?
-77	Could the waitress walk through the grocery stores on occasion?
-78	The waitress could walk through the grocery stores yet.
-79	The waitress could walk through the grocery stores on occasion.
-80	Had the boys talked to the waiters in years?
-81	Had the boys talked to the waiters on weekends?
-82	The boys had talked to the waiters in years.
-83	The boys had talked to the waiters on weekends.
-84	Could the girl respect the high schools either?
-85	Could the girl respect the high schools regularly?
-86	The girl could respect the high schools either.
-87	The girl could respect the high schools regularly.
-88	Has the girl cared for the waitresses in years?
-89	Has the girl cared for the waitresses on weekends?
-90	The girl has cared for the waitresses in years.
-91	The girl has cared for the waitresses on weekends.
-92	Has the actor ever scanned the books?
-93	Has the actor fortunately scanned the books?
-94	The actor has ever scanned the books.
-95	The actor has fortunately scanned the books.
-96	Had the cashiers observed the teachers in years?
-97	Had the cashiers observed the teachers on occasion?
-98	The cashiers had observed the teachers in years.
-99	The cashiers had observed the teachers on occasion.
-100	Is the girl admiring the glasses yet?
-101	Is the girl admiring the glasses for a while?
-102	The girl is admiring the glasses yet.
-103	The girl is admiring the glasses for a while.
-104	Was the doctor working with the drivers yet?
-105	Was the doctor working with the drivers as well?
-106	The doctor was working with the drivers yet.
-107	The doctor was working with the drivers as well.
-108	Do the senators tour the high schools at all?
-109	Do the senators tour the high schools regularly?
-110	The senators do tour the high schools at all.
-111	The senators do tour the high schools regularly.
-112	Does the man hate the dancers either?
-113	Does the man hate the dancers as well?
-114	The man does hate the dancers either.
-115	The man does hate the dancers as well.
-116	Is the adult escaping from the actors either?
-117	Is the adult escaping from the actors for a while?
-118	The adult is escaping from the actors either.
-119	The adult is escaping from the actors for a while.
-120	Have the adults cared for the pedestrians in years?
-121	Have the adults cared for the pedestrians regularly?
-122	The adults have cared for the pedestrians in years.
-123	The adults have cared for the pedestrians regularly.
-124	Has the child lifted the plates yet?
-125	Has the child lifted the plates regularly?
-126	The child has lifted the plates yet.
-127	The child has lifted the plates regularly.
-128	Had the girls praised the waitresses at all?
-129	Had the girls praised the waitresses for a while?
-130	The girls had praised the waitresses at all.
-131	The girls had praised the waitresses for a while.
-132	Were the doctors boycotting the high schools yet?
-133	Were the doctors boycotting the high schools regularly?
-134	The doctors were boycotting the high schools yet.
-135	The doctors were boycotting the high schools regularly.
-136	Were the actors ever examining the plays?
-137	Were the actors often examining the plays?
-138	The actors were ever examining the plays.
-139	The actors were often examining the plays.
-140	Will the people ever insult the doctors?
-141	Will the people fortunately insult the doctors?
-142	The people will ever insult the doctors.
-143	The people will fortunately insult the doctors.
-144	Had the senators left the children at all?
-145	Had the senators left the children on weekends?
-146	The senators had left the children at all.
-147	The senators had left the children on weekends.
-148	Is the person passing the college campuses at all?
-149	Is the person passing the college campuses regularly?
-150	The person is passing the college campuses at all.
-151	The person is passing the college campuses regularly.
-152	Has the woman approached the adults yet?
-153	Has the woman approached the adults regularly?
-154	The woman has approached the adults yet.
-155	The woman has approached the adults regularly.
-156	Have the girls ever escaped from the guests?
-157	Have the girls also escaped from the guests?
-158	The girls have ever escaped from the guests.
-159	The girls have also escaped from the guests.
-160	Have the dancers visited the teenagers yet?
-161	Have the dancers visited the teenagers regularly?
-162	The dancers have visited the teenagers yet.
-163	The dancers have visited the teenagers regularly.
-164	Had the senator skated around any movie theaters?
-165	Had the senator skated around those movie theaters?
-166	The senator had skated around any movie theaters.
-167	The senator had skated around those movie theaters.
-168	Are the people bringing the reports either?
-169	Are the people bringing the reports as well?
-170	The people are bringing the reports either.
-171	The people are bringing the reports as well.
-172	Had the children insulted any students?
-173	Had the children insulted these students?
-174	The children had insulted any students.
-175	The children had insulted these students.
-176	Should the customers watch any guests?
-177	Should the customers watch those guests?
-178	The customers should watch any guests.
-179	The customers should watch those guests.
-180	Was the doctor exiting any schools?
-181	Was the doctor exiting these schools?
-182	The doctor was exiting any schools.
-183	The doctor was exiting these schools.
-184	Were the senators ever wearing the pants?
-185	Were the senators clearly wearing the pants?
-186	The senators were ever wearing the pants.
-187	The senators were clearly wearing the pants.
-188	Have the adults observed the dancers yet?
-189	Have the adults observed the dancers for a while?
-190	The adults have observed the dancers yet.
-191	The adults have observed the dancers for a while.
-192	Have the guests ever exited the hospitals?
-193	Have the guests fortunately exited the hospitals?
-194	The guests have ever exited the hospitals.
-195	The guests have fortunately exited the hospitals.
-196	Did the children drop by the museums yet?
-197	Did the children drop by the museums on occasion?
-198	The children did drop by the museums yet.
-199	The children did drop by the museums on occasion.
-200	Are the customers exploring the high schools either?
-201	Are the customers exploring the high schools on weekends?
-202	The customers are exploring the high schools either.
-203	The customers are exploring the high schools on weekends.
-204	Had the senator cleaned the gloves in years?
-205	Had the senator cleaned the gloves on weekends?
-206	The senator had cleaned the gloves in years.
-207	The senator had cleaned the gloves on weekends.
-208	Had the cashier referenced the teachers either?
-209	Had the cashier referenced the teachers on occasion?
-210	The cashier had referenced the teachers either.
-211	The cashier had referenced the teachers on occasion.
-212	Had the adult loved the teenagers at all?
-213	Had the adult loved the teenagers on weekends?
-214	The adult had loved the teenagers at all.
-215	The adult had loved the teenagers on weekends.
-216	Had the guests arrived at the restaurants at all?
-217	Had the guests arrived at the restaurants on occasion?
-218	The guests had arrived at the restaurants at all.
-219	The guests had arrived at the restaurants on occasion.
-220	Is the actor skated around the grocery stores at all?
-221	Is the actor skated around the grocery stores on occasion?
-222	The actor is skated around the grocery stores at all.
-223	The actor is skated around the grocery stores on occasion.
-224	Had the pedestrian discussed the senators yet?
-225	Had the pedestrian discussed the senators on weekends?
-226	The pedestrian had discussed the senators yet.
-227	The pedestrian had discussed the senators on weekends.
-228	Will the cashier kiss the men yet?
-229	Will the cashier kiss the men regularly?
-230	The cashier will kiss the men yet.
-231	The cashier will kiss the men regularly.
-232	Is the girl ever fleeing from the patients?
-233	Is the girl fortunately fleeing from the patients?
-234	The girl is ever fleeing from the patients.
-235	The girl is fortunately fleeing from the patients.
-236	Had the woman ever dropped by the art galleries?
-237	Had the woman clearly dropped by the art galleries?
-238	The woman had ever dropped by the art galleries.
-239	The woman had clearly dropped by the art galleries.
-240	Can the waitresses ever discuss the hospitals?
-241	Can the waitresses clearly discuss the hospitals?
-242	The waitresses can ever discuss the hospitals.
-243	The waitresses can clearly discuss the hospitals.
-244	Might the cashiers ever watch the waiters?
-245	Might the cashiers clearly watch the waiters?
-246	The cashiers might ever watch the waiters.
-247	The cashiers might clearly watch the waiters.
-248	Has the woman investigated any art galleries?
-249	Has the woman investigated these art galleries?
-250	The woman has investigated any art galleries.
-251	The woman has investigated these art galleries.
-252	Was the person praising any drivers?
-253	Was the person praising these drivers?
-254	The person was praising any drivers.
-255	The person was praising these drivers.
-256	Should the senators approach the customers at all?
-257	Should the senators approach the customers on occasion?
-258	The senators should approach the customers at all.
-259	The senators should approach the customers on occasion.
-260	Was the actress exploring the high schools at all?
-261	Was the actress exploring the high schools regularly?
-262	The actress was exploring the high schools at all.
-263	The actress was exploring the high schools regularly.
-264	Have the adults disliked the schools in years?
-265	Have the adults disliked the schools regularly?
-266	The adults have disliked the schools in years.
-267	The adults have disliked the schools regularly.
-268	Have the teenagers visited the drivers yet?
-269	Have the teenagers visited the drivers as well?
-270	The teenagers have visited the drivers yet.
-271	The teenagers have visited the drivers as well.
-272	Will the actors love any actresses?
-273	Will the actors love those actresses?
-274	The actors will love any actresses.
-275	The actors will love those actresses.
-276	Have the senators escaped from any drivers?
-277	Have the senators escaped from the drivers?
-278	The senators have escaped from any drivers.
-279	The senators have escaped from the drivers.
-280	Had the doctor described any college campuses?
-281	Had the doctor described the college campuses?
-282	The doctor had described any college campuses.
-283	The doctor had described the college campuses.
-284	Had the man investigated the people in years?
-285	Had the man investigated the people on occasion?
-286	The man had investigated the people in years.
-287	The man had investigated the people on occasion.
-288	Were the actors cleaning the cups at all?
-289	Were the actors cleaning the cups on occasion?
-290	The actors were cleaning the cups at all.
-291	The actors were cleaning the cups on occasion.
-292	Will the driver leave the libraries yet?
-293	Will the driver leave the libraries regularly?
-294	The driver will leave the libraries yet.
-295	The driver will leave the libraries regularly.
-296	Is the lady admiring the teenagers at all?
-297	Is the lady admiring the teenagers for a while?
-298	The lady is admiring the teenagers at all.
-299	The lady is admiring the teenagers for a while.
-300	Had the teenager referenced the ladies either?
-301	Had the teenager referenced the ladies for a while?
-302	The teenager had referenced the ladies either.
-303	The teenager had referenced the ladies for a while.
-304	Can the waitresses bike to the college campuses either?
-305	Can the waitresses bike to the college campuses regularly?
-306	The waitresses can bike to the college campuses either.
-307	The waitresses can bike to the college campuses regularly.
-308	Had the guest broken the plates yet?
-309	Had the guest broken the plates as well?
-310	The guest had broken the plates yet.
-311	The guest had broken the plates as well.
-312	Might the cashier describe the actresses either?
-313	Might the cashier describe the actresses on weekends?
-314	The cashier might describe the actresses either.
-315	The cashier might describe the actresses on weekends.
-316	Had the guy discussed any schools?
-317	Had the guy discussed those schools?
-318	The guy had discussed any schools.
-319	The guy had discussed those schools.
-320	Had the girls approached the children at all?
-321	Had the girls approached the children on weekends?
-322	The girls had approached the children at all.
-323	The girls had approached the children on weekends.
-324	Might the waitresses ever break the couches?
-325	Might the waitresses also break the couches?
-326	The waitresses might ever break the couches.
-327	The waitresses might also break the couches.
-328	Did the doctors hug any senators?
-329	Did the doctors hug these senators?
-330	The doctors did hug any senators.
-331	The doctors did hug these senators.
-332	Had the driver investigated the pedestrians yet?
-333	Had the driver investigated the pedestrians on weekends?
-334	The driver had investigated the pedestrians yet.
-335	The driver had investigated the pedestrians on weekends.
-336	Has the adult ever known the cashiers?
-337	Has the adult clearly known the cashiers?
-338	The adult has ever known the cashiers.
-339	The adult has clearly known the cashiers.
-340	Have the senators taken the books at all?
-341	Have the senators taken the books for a while?
-342	The senators have taken the books at all.
-343	The senators have taken the books for a while.
-344	Had the teacher been at any malls?
-345	Had the teacher been at the malls?
-346	The teacher had been at any malls.
-347	The teacher had been at the malls.
-348	Did the students describe any pedestrians?
-349	Did the students describe those pedestrians?
-350	The students did describe any pedestrians.
-351	The students did describe those pedestrians.
-352	Will the senator have any gloves?
-353	Will the senator have the gloves?
-354	The senator will have any gloves.
-355	The senator will have the gloves.
-356	Do the women flee from the schools at all?
-357	Do the women flee from the schools for a while?
-358	The women do flee from the schools at all.
-359	The women do flee from the schools for a while.
-360	Had the boys respected the people in years?
-361	Had the boys respected the people as well?
-362	The boys had respected the people in years.
-363	The boys had respected the people as well.
-364	Will the waitress listen to the dancers either?
-365	Will the waitress listen to the dancers regularly?
-366	The waitress will listen to the dancers either.
-367	The waitress will listen to the dancers regularly.
-368	Do the senators discuss the students at all?
-369	Do the senators discuss the students on occasion?
-370	The senators do discuss the students at all.
-371	The senators do discuss the students on occasion.
-372	Have the actors driven to the public parks in years?
-373	Have the actors driven to the public parks on weekends?
-374	The actors have driven to the public parks in years.
-375	The actors have driven to the public parks on weekends.
-376	Does the girl ever admire the cashiers?
-377	Does the girl obviously admire the cashiers?
-378	The girl does ever admire the cashiers.
-379	The girl does obviously admire the cashiers.
-380	Had the ladies described the cashiers in years?
-381	Had the ladies described the cashiers for a while?
-382	The ladies had described the cashiers in years.
-383	The ladies had described the cashiers for a while.
-384	Have the boys scanned the commentaries in years?
-385	Have the boys scanned the commentaries for a while?
-386	The boys have scanned the commentaries in years.
-387	The boys have scanned the commentaries for a while.
-388	Has the patient taken the newspaper articles at all?
-389	Has the patient taken the newspaper articles regularly?
-390	The patient has taken the newspaper articles at all.
-391	The patient has taken the newspaper articles regularly.
-392	Were the guests returning to the art galleries at all?
-393	Were the guests returning to the art galleries as well?
-394	The guests were returning to the art galleries at all.
-395	The guests were returning to the art galleries as well.
-396	Have the doctors hugged the men yet?
-397	Have the doctors hugged the men regularly?
-398	The doctors have hugged the men yet.
-399	The doctors have hugged the men regularly.
-400	Was the waiter attacking the drivers at all?
-401	Was the waiter attacking the drivers on occasion?
-402	The waiter was attacking the drivers at all.
-403	The waiter was attacking the drivers on occasion.
-404	Were the adults ever describing the commentaries?
-405	Were the adults often describing the commentaries?
-406	The adults were ever describing the commentaries.
-407	The adults were often describing the commentaries.
-408	Did the women run around the college campuses at all?
-409	Did the women run around the college campuses regularly?
-410	The women did run around the college campuses at all.
-411	The women did run around the college campuses regularly.
-412	Had the students worn the gloves in years?
-413	Had the students worn the gloves as well?
-414	The students had worn the gloves in years.
-415	The students had worn the gloves as well.
-416	Did the girl examine any commentaries?
-417	Did the girl examine these commentaries?
-418	The girl did examine any commentaries.
-419	The girl did examine these commentaries.
-420	Had the women ever exited the malls?
-421	Had the women obviously exited the malls?
-422	The women had ever exited the malls.
-423	The women had obviously exited the malls.
-424	Could the waiters arrive at the college campuses either?
-425	Could the waiters arrive at the college campuses on weekends?
-426	The waiters could arrive at the college campuses either.
-427	The waiters could arrive at the college campuses on weekends.
-428	Is the cashier examining the stories yet?
-429	Is the cashier examining the stories as well?
-430	The cashier is examining the stories yet.
-431	The cashier is examining the stories as well.
-432	Were the teachers arriving at the grocery stores at all?
-433	Were the teachers arriving at the grocery stores as well?
-434	The teachers were arriving at the grocery stores at all.
-435	The teachers were arriving at the grocery stores as well.
-436	Did the cashiers clean the chairs either?
-437	Did the cashiers clean the chairs as well?
-438	The cashiers did clean the chairs either.
-439	The cashiers did clean the chairs as well.
-440	Did the actors have the reports either?
-441	Did the actors have the reports on occasion?
-442	The actors did have the reports either.
-443	The actors did have the reports on occasion.
-444	Did the customer remember any girls?
-445	Did the customer remember the girls?
-446	The customer did remember any girls.
-447	The customer did remember the girls.
-448	Would the driver ever flee from the boys?
-449	Would the driver obviously flee from the boys?
-450	The driver would ever flee from the boys.
-451	The driver would obviously flee from the boys.
-452	Can the student love the actresses at all?
-453	Can the student love the actresses on weekends?
-454	The student can love the actresses at all.
-455	The student can love the actresses on weekends.
-456	Did the guys ever see the books?
-457	Did the guys also see the books?
-458	The guys did ever see the books.
-459	The guys did also see the books.
-460	Do the patients hate any newspaper articles?
-461	Do the patients hate the newspaper articles?
-462	The patients do hate any newspaper articles.
-463	The patients do hate the newspaper articles.
-464	Are the doctors selling any couches?
-465	Are the doctors selling these couches?
-466	The doctors are selling any couches.
-467	The doctors are selling these couches.
-468	Were the men running around any college campuses?
-469	Were the men running around those college campuses?
-470	The men were running around any college campuses.
-471	The men were running around those college campuses.
-472	Has the teenager boycotted the movie theaters at all?
-473	Has the teenager boycotted the movie theaters as well?
-474	The teenager has boycotted the movie theaters at all.
-475	The teenager has boycotted the movie theaters as well.
-476	Have the pedestrians investigated the boys yet?
-477	Have the pedestrians investigated the boys for a while?
-478	The pedestrians have investigated the boys yet.
-479	The pedestrians have investigated the boys for a while.
-480	Was the guy listening to any dancers?
-481	Was the guy listening to the dancers?
-482	The guy was listening to any dancers.
-483	The guy was listening to the dancers.
-484	Had the actors worked with the adults either?
-485	Had the actors worked with the adults regularly?
-486	The actors had worked with the adults either.
-487	The actors had worked with the adults regularly.
-488	Should the guest flee from the college campuses yet?
-489	Should the guest flee from the college campuses as well?
-490	The guest should flee from the college campuses yet.
-491	The guest should flee from the college campuses as well.
-492	Is the guy arriving at the movie theaters either?
-493	Is the guy arriving at the movie theaters as well?
-494	The guy is arriving at the movie theaters either.
-495	The guy is arriving at the movie theaters as well.
-496	Was the senator cleaning the forks either?
-497	Was the senator cleaning the forks on occasion?
-498	The senator was cleaning the forks either.
-499	The senator was cleaning the forks on occasion.
-500	Has the guest referenced the doctors either?
-501	Has the guest referenced the doctors for a while?
-502	The guest has referenced the doctors either.
-503	The guest has referenced the doctors for a while.
-504	Is the child listening to the doctors at all?
-505	Is the child listening to the doctors for a while?
-506	The child is listening to the doctors at all.
-507	The child is listening to the doctors for a while.
-508	Should the teenagers wear the gloves at all?
-509	Should the teenagers wear the gloves on occasion?
-510	The teenagers should wear the gloves at all.
-511	The teenagers should wear the gloves on occasion.
-512	Are the drivers passing the libraries at all?
-513	Are the drivers passing the libraries as well?
-514	The drivers are passing the libraries at all.
-515	The drivers are passing the libraries as well.
-516	Had the teachers returned to the college campuses in years?
-517	Had the teachers returned to the college campuses as well?
-518	The teachers had returned to the college campuses in years.
-519	The teachers had returned to the college campuses as well.
-520	Can the man bring the books either?
-521	Can the man bring the books on occasion?
-522	The man can bring the books either.
-523	The man can bring the books on occasion.
-524	Has the customer known the women either?
-525	Has the customer known the women for a while?
-526	The customer has known the women either.
-527	The customer has known the women for a while.
-528	Were the ladies investigating the malls at all?
-529	Were the ladies investigating the malls for a while?
-530	The ladies were investigating the malls at all.
-531	The ladies were investigating the malls for a while.
-532	Had the teenager listened to the teenagers in years?
-533	Had the teenager listened to the teenagers regularly?
-534	The teenager had listened to the teenagers in years.
-535	The teenager had listened to the teenagers regularly.
-536	Were the doctors dropping by the cafes at all?
-537	Were the doctors dropping by the cafes regularly?
-538	The doctors were dropping by the cafes at all.
-539	The doctors were dropping by the cafes regularly.
-540	Have the waitresses explored the hospitals in years?
-541	Have the waitresses explored the hospitals regularly?
-542	The waitresses have explored the hospitals in years.
-543	The waitresses have explored the hospitals regularly.
-544	Have the guests approached the adults in years?
-545	Have the guests approached the adults on occasion?
-546	The guests have approached the adults in years.
-547	The guests have approached the adults on occasion.
-548	Has the child talked to the teachers in years?
-549	Has the child talked to the teachers on occasion?
-550	The child has talked to the teachers in years.
-551	The child has talked to the teachers on occasion.
-552	Could the teenager talk to the adults either?
-553	Could the teenager talk to the adults regularly?
-554	The teenager could talk to the adults either.
-555	The teenager could talk to the adults regularly.
-556	Had the waitress ever escaped from the teachers?
-557	Had the waitress fortunately escaped from the teachers?
-558	The waitress had ever escaped from the teachers.
-559	The waitress had fortunately escaped from the teachers.
-560	Did the waiter ever talk to the drivers?
-561	Did the waiter obviously talk to the drivers?
-562	The waiter did ever talk to the drivers.
-563	The waiter did obviously talk to the drivers.
-564	Can the boy ever hate the boys?
-565	Can the boy fortunately hate the boys?
-566	The boy can ever hate the boys.
-567	The boy can fortunately hate the boys.
-568	Should the pedestrians describe the malls at all?
-569	Should the pedestrians describe the malls for a while?
-570	The pedestrians should describe the malls at all.
-571	The pedestrians should describe the malls for a while.
-572	Had the customers broken the cups at all?
-573	Had the customers broken the cups on occasion?
-574	The customers had broken the cups at all.
-575	The customers had broken the cups on occasion.
-576	Might the woman ever drop by the cafes?
-577	Might the woman also drop by the cafes?
-578	The woman might ever drop by the cafes.
-579	The woman might also drop by the cafes.
-580	Is the teenager observing any children?
-581	Is the teenager observing the children?
-582	The teenager is observing any children.
-583	The teenager is observing the children.
-584	Can the cashiers leave the doctors yet?
-585	Can the cashiers leave the doctors for a while?
-586	The cashiers can leave the doctors yet.
-587	The cashiers can leave the doctors for a while.
-588	Have the girls kissed the actors in years?
-589	Have the girls kissed the actors on occasion?
-590	The girls have kissed the actors in years.
-591	The girls have kissed the actors on occasion.
-592	Will the driver escape from the people either?
-593	Will the driver escape from the people on weekends?
-594	The driver will escape from the people either.
-595	The driver will escape from the people on weekends.
-596	Should the teenagers discuss any public parks?
-597	Should the teenagers discuss these public parks?
-598	The teenagers should discuss any public parks.
-599	The teenagers should discuss these public parks.
-600	Have the senators talked about the waiters yet?
-601	Have the senators talked about the waiters on occasion?
-602	The senators have talked about the waiters yet.
-603	The senators have talked about the waiters on occasion.
-604	Did the children escape from any boys?
-605	Did the children escape from these boys?
-606	The children did escape from any boys.
-607	The children did escape from these boys.
-608	Had the teenager ever described the essays?
-609	Had the teenager fortunately described the essays?
-610	The teenager had ever described the essays.
-611	The teenager had fortunately described the essays.
-612	Are the girls going to the hospitals yet?
-613	Are the girls going to the hospitals on weekends?
-614	The girls are going to the hospitals yet.
-615	The girls are going to the hospitals on weekends.
-616	Had the customer forgotten the actors either?
-617	Had the customer forgotten the actors for a while?
-618	The customer had forgotten the actors either.
-619	The customer had forgotten the actors for a while.
-620	Is the man ever walking through the museums?
-621	Is the man fortunately walking through the museums?
-622	The man is ever walking through the museums.
-623	The man is fortunately walking through the museums.
-624	Should the pedestrians leave the adults either?
-625	Should the pedestrians leave the adults as well?
-626	The pedestrians should leave the adults either.
-627	The pedestrians should leave the adults as well.
-628	Have the people watched the teachers yet?
-629	Have the people watched the teachers on occasion?
-630	The people have watched the teachers yet.
-631	The people have watched the teachers on occasion.
-632	Has the doctor ever cared for the women?
-633	Has the doctor also cared for the women?
-634	The doctor has ever cared for the women.
-635	The doctor has also cared for the women.
-636	Did the lady praise any newspaper articles?
-637	Did the lady praise these newspaper articles?
-638	The lady did praise any newspaper articles.
-639	The lady did praise these newspaper articles.
-640	Will the waitresses dislike the senators at all?
-641	Will the waitresses dislike the senators on occasion?
-642	The waitresses will dislike the senators at all.
-643	The waitresses will dislike the senators on occasion.
-644	Is the guest arriving at the college campuses either?
-645	Is the guest arriving at the college campuses regularly?
-646	The guest is arriving at the college campuses either.
-647	The guest is arriving at the college campuses regularly.
-648	Were the actors boycotting the restaurants at all?
-649	Were the actors boycotting the restaurants on weekends?
-650	The actors were boycotting the restaurants at all.
-651	The actors were boycotting the restaurants on weekends.
-652	Have the waitresses disliked the stories yet?
-653	Have the waitresses disliked the stories regularly?
-654	The waitresses have disliked the stories yet.
-655	The waitresses have disliked the stories regularly.
-656	Was the customer leaving the guests yet?
-657	Was the customer leaving the guests on occasion?
-658	The customer was leaving the guests yet.
-659	The customer was leaving the guests on occasion.
-660	Are the adults exploring the museums either?
-661	Are the adults exploring the museums for a while?
-662	The adults are exploring the museums either.
-663	The adults are exploring the museums for a while.
-664	Had the men observed the people in years?
-665	Had the men observed the people regularly?
-666	The men had observed the people in years.
-667	The men had observed the people regularly.
-668	Had the girls observed any waitresses?
-669	Had the girls observed these waitresses?
-670	The girls had observed any waitresses.
-671	The girls had observed these waitresses.
-672	Had the dancers approached the ladies yet?
-673	Had the dancers approached the ladies for a while?
-674	The dancers had approached the ladies yet.
-675	The dancers had approached the ladies for a while.
-676	Has the man biked to the libraries in years?
-677	Has the man biked to the libraries as well?
-678	The man has biked to the libraries in years.
-679	The man has biked to the libraries as well.
-680	Had the boys described any waitresses?
-681	Had the boys described the waitresses?
-682	The boys had described any waitresses.
-683	The boys had described the waitresses.
-684	Will the drivers examine the stories yet?
-685	Will the drivers examine the stories on occasion?
-686	The drivers will examine the stories yet.
-687	The drivers will examine the stories on occasion.
-688	Will the doctors love the newspaper articles at all?
-689	Will the doctors love the newspaper articles on weekends?
-690	The doctors will love the newspaper articles at all.
-691	The doctors will love the newspaper articles on weekends.
-692	Would the teenager discuss the girls yet?
-693	Would the teenager discuss the girls regularly?
-694	The teenager would discuss the girls yet.
-695	The teenager would discuss the girls regularly.
-696	Were the children returning to the actresses yet?
-697	Were the children returning to the actresses on occasion?
-698	The children were returning to the actresses yet.
-699	The children were returning to the actresses on occasion.
-700	Have the waitresses attacked the actresses either?
-701	Have the waitresses attacked the actresses on occasion?
-702	The waitresses have attacked the actresses either.
-703	The waitresses have attacked the actresses on occasion.
-704	Had the pedestrian cleaned the cups at all?
-705	Had the pedestrian cleaned the cups on occasion?
-706	The pedestrian had cleaned the cups at all.
-707	The pedestrian had cleaned the cups on occasion.
-708	Will the waitresses observe any teenagers?
-709	Will the waitresses observe those teenagers?
-710	The waitresses will observe any teenagers.
-711	The waitresses will observe those teenagers.
-712	Were the patients insulting the men either?
-713	Were the patients insulting the men regularly?
-714	The patients were insulting the men either.
-715	The patients were insulting the men regularly.
-716	Has the teacher bought the couches in years?
-717	Has the teacher bought the couches on weekends?
-718	The teacher has bought the couches in years.
-719	The teacher has bought the couches on weekends.
-720	Does the boy have any gloves?
-721	Does the boy have these gloves?
-722	The boy does have any gloves.
-723	The boy does have these gloves.
-724	Are the cashiers observing the teachers yet?
-725	Are the cashiers observing the teachers as well?
-726	The cashiers are observing the teachers yet.
-727	The cashiers are observing the teachers as well.
-728	Was the senator ever going to the high schools?
-729	Was the senator clearly going to the high schools?
-730	The senator was ever going to the high schools.
-731	The senator was clearly going to the high schools.
-732	Had the waiters explored the movie theaters in years?
-733	Had the waiters explored the movie theaters for a while?
-734	The waiters had explored the movie theaters in years.
-735	The waiters had explored the movie theaters for a while.
-736	Are the adults breaking any plates?
-737	Are the adults breaking these plates?
-738	The adults are breaking any plates.
-739	The adults are breaking these plates.
-740	Will the guest leave the guys either?
-741	Will the guest leave the guys for a while?
-742	The guest will leave the guys either.
-743	The guest will leave the guys for a while.
-744	Could the person kiss the senators either?
-745	Could the person kiss the senators on weekends?
-746	The person could kiss the senators either.
-747	The person could kiss the senators on weekends.
-748	Had the children arrived at the hospitals in years?
-749	Had the children arrived at the hospitals for a while?
-750	The children had arrived at the hospitals in years.
-751	The children had arrived at the hospitals for a while.
-752	Have the teachers passed any movie theaters?
-753	Have the teachers passed those movie theaters?
-754	The teachers have passed any movie theaters.
-755	The teachers have passed those movie theaters.
-756	Are the actors ever breaking the chairs?
-757	Are the actors also breaking the chairs?
-758	The actors are ever breaking the chairs.
-759	The actors are also breaking the chairs.
-760	Are the guys helping any teachers?
-761	Are the guys helping these teachers?
-762	The guys are helping any teachers.
-763	The guys are helping these teachers.
-764	Are the ladies ever running around the hospitals?
-765	Are the ladies obviously running around the hospitals?
-766	The ladies are ever running around the hospitals.
-767	The ladies are obviously running around the hospitals.
-768	Has the waiter investigated the teenagers in years?
-769	Has the waiter investigated the teenagers for a while?
-770	The waiter has investigated the teenagers in years.
-771	The waiter has investigated the teenagers for a while.
-772	Would the women flee from the ladies either?
-773	Would the women flee from the ladies as well?
-774	The women would flee from the ladies either.
-775	The women would flee from the ladies as well.
-776	Had the waiters ever hated the waitresses?
-777	Had the waiters clearly hated the waitresses?
-778	The waiters had ever hated the waitresses.
-779	The waiters had clearly hated the waitresses.
-780	Would the customers ever observe the cashiers?
-781	Would the customers fortunately observe the cashiers?
-782	The customers would ever observe the cashiers.
-783	The customers would fortunately observe the cashiers.
-784	Have the guys ever returned to the museums?
-785	Have the guys obviously returned to the museums?
-786	The guys have ever returned to the museums.
-787	The guys have obviously returned to the museums.
-788	Had the child brought the forks at all?
-789	Had the child brought the forks for a while?
-790	The child had brought the forks at all.
-791	The child had brought the forks for a while.
-792	Can the customers break the cups at all?
-793	Can the customers break the cups on occasion?
-794	The customers can break the cups at all.
-795	The customers can break the cups on occasion.
-796	Was the pedestrian scanning the plays at all?
-797	Was the pedestrian scanning the plays regularly?
-798	The pedestrian was scanning the plays at all.
-799	The pedestrian was scanning the plays regularly.
-800	Had the actress fled from the actors in years?
-801	Had the actress fled from the actors as well?
-802	The actress had fled from the actors in years.
-803	The actress had fled from the actors as well.
-804	Was the guest driving to any banks?
-805	Was the guest driving to these banks?
-806	The guest was driving to any banks.
-807	The guest was driving to these banks.
-808	Might the actresses ever know the students?
-809	Might the actresses often know the students?
-810	The actresses might ever know the students.
-811	The actresses might often know the students.
-812	Were the students exploring the art galleries either?
-813	Were the students exploring the art galleries regularly?
-814	The students were exploring the art galleries either.
-815	The students were exploring the art galleries regularly.
-816	Are the guys returning to the art galleries at all?
-817	Are the guys returning to the art galleries for a while?
-818	The guys are returning to the art galleries at all.
-819	The guys are returning to the art galleries for a while.
-820	Has the teenager seen any guys?
-821	Has the teenager seen these guys?
-822	The teenager has seen any guys.
-823	The teenager has seen these guys.
-824	Has the girl hated any actors?
-825	Has the girl hated the actors?
-826	The girl has hated any actors.
-827	The girl has hated the actors.
-828	Should the waitress bike to any grocery stores?
-829	Should the waitress bike to those grocery stores?
-830	The waitress should bike to any grocery stores.
-831	The waitress should bike to those grocery stores.
-832	Have the children admired any drivers?
-833	Have the children admired the drivers?
-834	The children have admired any drivers.
-835	The children have admired the drivers.
-836	Had the waitress lifted any pants?
-837	Had the waitress lifted these pants?
-838	The waitress had lifted any pants.
-839	The waitress had lifted these pants.
-840	Could the child go to the grocery stores either?
-841	Could the child go to the grocery stores on weekends?
-842	The child could go to the grocery stores either.
-843	The child could go to the grocery stores on weekends.
-844	Have the men ever watched the waiters?
-845	Have the men fortunately watched the waiters?
-846	The men have ever watched the waiters.
-847	The men have fortunately watched the waiters.
-848	Was the child selling the plates at all?
-849	Was the child selling the plates regularly?
-850	The child was selling the plates at all.
-851	The child was selling the plates regularly.
-852	Should the girl ever listen to the adults?
-853	Should the girl fortunately listen to the adults?
-854	The girl should ever listen to the adults.
-855	The girl should fortunately listen to the adults.
-856	Were the adults ever examining the reports?
-857	Were the adults clearly examining the reports?
-858	The adults were ever examining the reports.
-859	The adults were clearly examining the reports.
-860	Is the patient leaving the cafes either?
-861	Is the patient leaving the cafes for a while?
-862	The patient is leaving the cafes either.
-863	The patient is leaving the cafes for a while.
-864	Are the waiters ever fleeing from the men?
-865	Are the waiters often fleeing from the men?
-866	The waiters are ever fleeing from the men.
-867	The waiters are often fleeing from the men.
-868	Do the teenagers scan any documentaries?
-869	Do the teenagers scan those documentaries?
-870	The teenagers do scan any documentaries.
-871	The teenagers do scan those documentaries.
-872	Had the guest brought the dishes either?
-873	Had the guest brought the dishes regularly?
-874	The guest had brought the dishes either.
-875	The guest had brought the dishes regularly.
-876	Do the teachers wear the glasses either?
-877	Do the teachers wear the glasses regularly?
-878	The teachers do wear the glasses either.
-879	The teachers do wear the glasses regularly.
-880	Has the guest driven to the hospitals in years?
-881	Has the guest driven to the hospitals on occasion?
-882	The guest has driven to the hospitals in years.
-883	The guest has driven to the hospitals on occasion.
-884	Have the students ever worn the pants?
-885	Have the students fortunately worn the pants?
-886	The students have ever worn the pants.
-887	The students have fortunately worn the pants.
-888	Did the patient praise any stories?
-889	Did the patient praise the stories?
-890	The patient did praise any stories.
-891	The patient did praise the stories.
-892	Had the actresses ever sold the cars?
-893	Had the actresses also sold the cars?
-894	The actresses had ever sold the cars.
-895	The actresses had also sold the cars.
-896	Had the woman talked to any boys?
-897	Had the woman talked to the boys?
-898	The woman had talked to any boys.
-899	The woman had talked to the boys.
-900	Did the pedestrian return to the men yet?
-901	Did the pedestrian return to the men for a while?
-902	The pedestrian did return to the men yet.
-903	The pedestrian did return to the men for a while.
-904	Had the teachers brought the cars in years?
-905	Had the teachers brought the cars on occasion?
-906	The teachers had brought the cars in years.
-907	The teachers had brought the cars on occasion.
-908	Had the children brought the forks in years?
-909	Had the children brought the forks on weekends?
-910	The children had brought the forks in years.
-911	The children had brought the forks on weekends.
-912	Was the pedestrian lifting any books?
-913	Was the pedestrian lifting those books?
-914	The pedestrian was lifting any books.
-915	The pedestrian was lifting those books.
-916	Have the actors exited any restaurants?
-917	Have the actors exited the restaurants?
-918	The actors have exited any restaurants.
-919	The actors have exited the restaurants.
-920	Did the doctor talk to the drivers either?
-921	Did the doctor talk to the drivers on weekends?
-922	The doctor did talk to the drivers either.
-923	The doctor did talk to the drivers on weekends.
-924	Are the actresses ever touring the libraries?
-925	Are the actresses fortunately touring the libraries?
-926	The actresses are ever touring the libraries.
-927	The actresses are fortunately touring the libraries.
-928	Have the students loved any drivers?
-929	Have the students loved the drivers?
-930	The students have loved any drivers.
-931	The students have loved the drivers.
-932	Has the guest lifted the dishes at all?
-933	Has the guest lifted the dishes on weekends?
-934	The guest has lifted the dishes at all.
-935	The guest has lifted the dishes on weekends.
-936	Have the senators exited the banks in years?
-937	Have the senators exited the banks on weekends?
-938	The senators have exited the banks in years.
-939	The senators have exited the banks on weekends.
-940	Will the patients reference any adults?
-941	Will the patients reference these adults?
-942	The patients will reference any adults.
-943	The patients will reference these adults.
-944	Have the students driven to the hospitals at all?
-945	Have the students driven to the hospitals on weekends?
-946	The students have driven to the hospitals at all.
-947	The students have driven to the hospitals on weekends.
-948	Is the doctor attacking the guests either?
-949	Is the doctor attacking the guests as well?
-950	The doctor is attacking the guests either.
-951	The doctor is attacking the guests as well.
-952	Had the doctors returned to the guys in years?
-953	Had the doctors returned to the guys for a while?
-954	The doctors had returned to the guys in years.
-955	The doctors had returned to the guys for a while.
-956	Are the men exiting the schools yet?
-957	Are the men exiting the schools regularly?
-958	The men are exiting the schools yet.
-959	The men are exiting the schools regularly.
-960	Was the lady exiting any public parks?
-961	Was the lady exiting the public parks?
-962	The lady was exiting any public parks.
-963	The lady was exiting the public parks.
-964	Have the teachers sold the forks either?
-965	Have the teachers sold the forks on weekends?
-966	The teachers have sold the forks either.
-967	The teachers have sold the forks on weekends.
-968	Have the guys watched the doctors at all?
-969	Have the guys watched the doctors regularly?
-970	The guys have watched the doctors at all.
-971	The guys have watched the doctors regularly.
-972	Might the actors ever explore the movie theaters?
-973	Might the actors also explore the movie theaters?
-974	The actors might ever explore the movie theaters.
-975	The actors might also explore the movie theaters.
-976	Has the guy escaped from the girls in years?
-977	Has the guy escaped from the girls as well?
-978	The guy has escaped from the girls in years.
-979	The guy has escaped from the girls as well.
-980	Was the woman skated around any college campuses?
-981	Was the woman skated around these college campuses?
-982	The woman was skated around any college campuses.
-983	The woman was skated around these college campuses.
-984	Has the teenager examined the essays either?
-985	Has the teenager examined the essays as well?
-986	The teenager has examined the essays either.
-987	The teenager has examined the essays as well.
-988	Does the boy explore the grocery stores either?
-989	Does the boy explore the grocery stores on occasion?
-990	The boy does explore the grocery stores either.
-991	The boy does explore the grocery stores on occasion.
-992	Did the students be at any banks?
-993	Did the students be at these banks?
-994	The students did be at any banks.
-995	The students did be at these banks.
-996	Was the man lifting the gloves at all?
-997	Was the man lifting the gloves regularly?
-998	The man was lifting the gloves at all.
-999	The man was lifting the gloves regularly.
+index	sentence
+0	The waiter was obviously dropping by the banks.
+1	The waiter was ever dropping by the banks.
+2	Was the waiter obviously dropping by the banks?
+3	Was the waiter ever dropping by the banks?
+4	The teacher is touring the malls.
+5	The teacher is touring any malls.
+6	Is the teacher touring the malls?
+7	Is the teacher touring any malls?
+8	The girls are often praising the pedestrians.
+9	The girls are ever praising the pedestrians.
+10	Are the girls often praising the pedestrians?
+11	Are the girls ever praising the pedestrians?
+12	The customer did clearly arrive at the malls.
+13	The customer did ever arrive at the malls.
+14	Did the customer clearly arrive at the malls?
+15	Did the customer ever arrive at the malls?
+16	The doctors are also driving to the hospitals.
+17	The doctors are ever driving to the hospitals.
+18	Are the doctors also driving to the hospitals?
+19	Are the doctors ever driving to the hospitals?
+20	The drivers had watched these ladies.
+21	The drivers had watched any ladies.
+22	Had the drivers watched these ladies?
+23	Had the drivers watched any ladies?
+24	The guys have obviously returned to the museums.
+25	The guys have ever returned to the museums.
+26	Have the guys obviously returned to the museums?
+27	Have the guys ever returned to the museums?
+28	The patient had obviously known the students.
+29	The patient had ever known the students.
+30	Had the patient obviously known the students?
+31	Had the patient ever known the students?
+32	The boys had often admired the girls.
+33	The boys had ever admired the girls.
+34	Had the boys often admired the girls?
+35	Had the boys ever admired the girls?
+36	The cashier was clearly lifting the couches.
+37	The cashier was ever lifting the couches.
+38	Was the cashier clearly lifting the couches?
+39	Was the cashier ever lifting the couches?
+40	The pedestrians would clearly exit the malls.
+41	The pedestrians would ever exit the malls.
+42	Would the pedestrians clearly exit the malls?
+43	Would the pedestrians ever exit the malls?
+44	The driver has biked to the malls.
+45	The driver has biked to any malls.
+46	Has the driver biked to the malls?
+47	Has the driver biked to any malls?
+48	The teenager is cleaning these reports.
+49	The teenager is cleaning any reports.
+50	Is the teenager cleaning these reports?
+51	Is the teenager cleaning any reports?
+52	The girl would clearly scan the commentaries.
+53	The girl would ever scan the commentaries.
+54	Would the girl clearly scan the commentaries?
+55	Would the girl ever scan the commentaries?
+56	The teachers were taking those books.
+57	The teachers were taking any books.
+58	Were the teachers taking those books?
+59	Were the teachers taking any books?
+60	The teenagers were attacking these waitresses.
+61	The teenagers were attacking any waitresses.
+62	Were the teenagers attacking these waitresses?
+63	Were the teenagers attacking any waitresses?
+64	The boy had fortunately seen the gloves.
+65	The boy had ever seen the gloves.
+66	Had the boy fortunately seen the gloves?
+67	Had the boy ever seen the gloves?
+68	The teachers were visiting these teenagers.
+69	The teachers were visiting any teenagers.
+70	Were the teachers visiting these teenagers?
+71	Were the teachers visiting any teenagers?
+72	The waitress is often fleeing from the men.
+73	The waitress is ever fleeing from the men.
+74	Is the waitress often fleeing from the men?
+75	Is the waitress ever fleeing from the men?
+76	The cashiers are fortunately running around the cafes.
+77	The cashiers are ever running around the cafes.
+78	Are the cashiers fortunately running around the cafes?
+79	Are the cashiers ever running around the cafes?
+80	The children were often wearing the glasses.
+81	The children were ever wearing the glasses.
+82	Were the children often wearing the glasses?
+83	Were the children ever wearing the glasses?
+84	The cashier did talk to these men.
+85	The cashier did talk to any men.
+86	Did the cashier talk to these men?
+87	Did the cashier talk to any men?
+88	The drivers can clearly love the documentaries.
+89	The drivers can ever love the documentaries.
+90	Can the drivers clearly love the documentaries?
+91	Can the drivers ever love the documentaries?
+92	The actors have exited the restaurants.
+93	The actors have exited any restaurants.
+94	Have the actors exited the restaurants?
+95	Have the actors exited any restaurants?
+96	The guy had discussed those schools.
+97	The guy had discussed any schools.
+98	Had the guy discussed those schools?
+99	Had the guy discussed any schools?
+100	The guest had hated the ladies.
+101	The guest had hated any ladies.
+102	Had the guest hated the ladies?
+103	Had the guest hated any ladies?
+104	The actors had fortunately described the grocery stores.
+105	The actors had ever described the grocery stores.
+106	Had the actors fortunately described the grocery stores?
+107	Had the actors ever described the grocery stores?
+108	The senators did tour these restaurants.
+109	The senators did tour any restaurants.
+110	Did the senators tour these restaurants?
+111	Did the senators tour any restaurants?
+112	The students had fortunately walked through the cafes.
+113	The students had ever walked through the cafes.
+114	Had the students fortunately walked through the cafes?
+115	Had the students ever walked through the cafes?
+116	The pedestrian has obviously approached the pedestrians.
+117	The pedestrian has ever approached the pedestrians.
+118	Has the pedestrian obviously approached the pedestrians?
+119	Has the pedestrian ever approached the pedestrians?
+120	The pedestrian was clearly scanning the books.
+121	The pedestrian was ever scanning the books.
+122	Was the pedestrian clearly scanning the books?
+123	Was the pedestrian ever scanning the books?
+124	The patient is often talking about the libraries.
+125	The patient is ever talking about the libraries.
+126	Is the patient often talking about the libraries?
+127	Is the patient ever talking about the libraries?
+128	The pedestrians are biking to these museums.
+129	The pedestrians are biking to any museums.
+130	Are the pedestrians biking to these museums?
+131	Are the pedestrians biking to any museums?
+132	The man is escaping from the hospitals.
+133	The man is escaping from any hospitals.
+134	Is the man escaping from the hospitals?
+135	Is the man escaping from any hospitals?
+136	The ladies were helping the actors.
+137	The ladies were helping any actors.
+138	Were the ladies helping the actors?
+139	Were the ladies helping any actors?
+140	The student would fortunately return to the teachers.
+141	The student would ever return to the teachers.
+142	Would the student fortunately return to the teachers?
+143	Would the student ever return to the teachers?
+144	The children had clearly admired the couches.
+145	The children had ever admired the couches.
+146	Had the children clearly admired the couches?
+147	Had the children ever admired the couches?
+148	The student did also know the guests.
+149	The student did ever know the guests.
+150	Did the student also know the guests?
+151	Did the student ever know the guests?
+152	The teachers were clearly breaking the dishes.
+153	The teachers were ever breaking the dishes.
+154	Were the teachers clearly breaking the dishes?
+155	Were the teachers ever breaking the dishes?
+156	The guest is obviously exploring the public parks.
+157	The guest is ever exploring the public parks.
+158	Is the guest obviously exploring the public parks?
+159	Is the guest ever exploring the public parks?
+160	The actresses do also bring the books.
+161	The actresses do ever bring the books.
+162	Do the actresses also bring the books?
+163	Do the actresses ever bring the books?
+164	The ladies have observed those children.
+165	The ladies have observed any children.
+166	Have the ladies observed those children?
+167	Have the ladies observed any children?
+168	The actresses did arrive at these schools.
+169	The actresses did arrive at any schools.
+170	Did the actresses arrive at these schools?
+171	Did the actresses arrive at any schools?
+172	The ladies have clearly helped the waitresses.
+173	The ladies have ever helped the waitresses.
+174	Have the ladies clearly helped the waitresses?
+175	Have the ladies ever helped the waitresses?
+176	The children were also observing the actresses.
+177	The children were ever observing the actresses.
+178	Were the children also observing the actresses?
+179	Were the children ever observing the actresses?
+180	The actor will obviously love the dancers.
+181	The actor will ever love the dancers.
+182	Will the actor obviously love the dancers?
+183	Will the actor ever love the dancers?
+184	The waiter had obviously scanned the plays.
+185	The waiter had ever scanned the plays.
+186	Had the waiter obviously scanned the plays?
+187	Had the waiter ever scanned the plays?
+188	The patient did praise the stories.
+189	The patient did praise any stories.
+190	Did the patient praise the stories?
+191	Did the patient praise any stories?
+192	The lady has worn the glasses.
+193	The lady has worn any glasses.
+194	Has the lady worn the glasses?
+195	Has the lady worn any glasses?
+196	The teacher might also attack the drivers.
+197	The teacher might ever attack the drivers.
+198	Might the teacher also attack the drivers?
+199	Might the teacher ever attack the drivers?
+200	The patients should insult those commentaries.
+201	The patients should insult any commentaries.
+202	Should the patients insult those commentaries?
+203	Should the patients insult any commentaries?
+204	The student will also hate the plays.
+205	The student will ever hate the plays.
+206	Will the student also hate the plays?
+207	Will the student ever hate the plays?
+208	The patients have fortunately toured the libraries.
+209	The patients have ever toured the libraries.
+210	Have the patients fortunately toured the libraries?
+211	Have the patients ever toured the libraries?
+212	The girl is often being at the art galleries.
+213	The girl is ever being at the art galleries.
+214	Is the girl often being at the art galleries?
+215	Is the girl ever being at the art galleries?
+216	The customer has fortunately insulted the drivers.
+217	The customer has ever insulted the drivers.
+218	Has the customer fortunately insulted the drivers?
+219	Has the customer ever insulted the drivers?
+220	The people will watch these customers.
+221	The people will watch any customers.
+222	Will the people watch these customers?
+223	Will the people watch any customers?
+224	The teenager has escaped from these grocery stores.
+225	The teenager has escaped from any grocery stores.
+226	Has the teenager escaped from these grocery stores?
+227	Has the teenager escaped from any grocery stores?
+228	The driver had helped the dancers.
+229	The driver had helped any dancers.
+230	Had the driver helped the dancers?
+231	Had the driver helped any dancers?
+232	The adults were attacking these dancers.
+233	The adults were attacking any dancers.
+234	Were the adults attacking these dancers?
+235	Were the adults attacking any dancers?
+236	The senator has toured the hospitals.
+237	The senator has toured any hospitals.
+238	Has the senator toured the hospitals?
+239	Has the senator toured any hospitals?
+240	The students have fortunately exited the public parks.
+241	The students have ever exited the public parks.
+242	Have the students fortunately exited the public parks?
+243	Have the students ever exited the public parks?
+244	The teachers should care for the waiters.
+245	The teachers should care for any waiters.
+246	Should the teachers care for the waiters?
+247	Should the teachers care for any waiters?
+248	The girls were fortunately lifting the couches.
+249	The girls were ever lifting the couches.
+250	Were the girls fortunately lifting the couches?
+251	Were the girls ever lifting the couches?
+252	The people will fortunately insult the doctors.
+253	The people will ever insult the doctors.
+254	Will the people fortunately insult the doctors?
+255	Will the people ever insult the doctors?
+256	The pedestrians had obviously been at the movie theaters.
+257	The pedestrians had ever been at the movie theaters.
+258	Had the pedestrians obviously been at the movie theaters?
+259	Had the pedestrians ever been at the movie theaters?
+260	The student has biked to those college campuses.
+261	The student has biked to any college campuses.
+262	Has the student biked to those college campuses?
+263	Has the student biked to any college campuses?
+264	The children would fortunately help the waiters.
+265	The children would ever help the waiters.
+266	Would the children fortunately help the waiters?
+267	Would the children ever help the waiters?
+268	The students will fortunately care for the actors.
+269	The students will ever care for the actors.
+270	Will the students fortunately care for the actors?
+271	Will the students ever care for the actors?
+272	The teenager has also talked to the children.
+273	The teenager has ever talked to the children.
+274	Has the teenager also talked to the children?
+275	Has the teenager ever talked to the children?
+276	The doctor has also cared for the women.
+277	The doctor has ever cared for the women.
+278	Has the doctor also cared for the women?
+279	Has the doctor ever cared for the women?
+280	The teenager should obviously kiss the patients.
+281	The teenager should ever kiss the patients.
+282	Should the teenager obviously kiss the patients?
+283	Should the teenager ever kiss the patients?
+284	The pedestrians did respect the cashiers.
+285	The pedestrians did respect any cashiers.
+286	Did the pedestrians respect the cashiers?
+287	Did the pedestrians respect any cashiers?
+288	The actress will work with these drivers.
+289	The actress will work with any drivers.
+290	Will the actress work with these drivers?
+291	Will the actress work with any drivers?
+292	The man is obviously dropping by the schools.
+293	The man is ever dropping by the schools.
+294	Is the man obviously dropping by the schools?
+295	Is the man ever dropping by the schools?
+296	The guests have also referenced the students.
+297	The guests have ever referenced the students.
+298	Have the guests also referenced the students?
+299	Have the guests ever referenced the students?
+300	The guy was dropping by those banks.
+301	The guy was dropping by any banks.
+302	Was the guy dropping by those banks?
+303	Was the guy dropping by any banks?
+304	The cashiers did investigate these public parks.
+305	The cashiers did investigate any public parks.
+306	Did the cashiers investigate these public parks?
+307	Did the cashiers investigate any public parks?
+308	The guy should like these guests.
+309	The guy should like any guests.
+310	Should the guy like these guests?
+311	Should the guy like any guests?
+312	The doctors had disliked the museums.
+313	The doctors had disliked any museums.
+314	Had the doctors disliked the museums?
+315	Had the doctors disliked any museums?
+316	The pedestrian had toured the schools.
+317	The pedestrian had toured any schools.
+318	Had the pedestrian toured the schools?
+319	Had the pedestrian toured any schools?
+320	The customer did remember the girls.
+321	The customer did remember any girls.
+322	Did the customer remember the girls?
+323	Did the customer remember any girls?
+324	The boys had obviously helped the girls.
+325	The boys had ever helped the girls.
+326	Had the boys obviously helped the girls?
+327	Had the boys ever helped the girls?
+328	The drivers have fortunately discussed the boys.
+329	The drivers have ever discussed the boys.
+330	Have the drivers fortunately discussed the boys?
+331	Have the drivers ever discussed the boys?
+332	The men can obviously examine the movies.
+333	The men can ever examine the movies.
+334	Can the men obviously examine the movies?
+335	Can the men ever examine the movies?
+336	The men were obviously leaving the children.
+337	The men were ever leaving the children.
+338	Were the men obviously leaving the children?
+339	Were the men ever leaving the children?
+340	The pedestrian is clearly cleaning the books.
+341	The pedestrian is ever cleaning the books.
+342	Is the pedestrian clearly cleaning the books?
+343	Is the pedestrian ever cleaning the books?
+344	The guest should explore those malls.
+345	The guest should explore any malls.
+346	Should the guest explore those malls?
+347	Should the guest explore any malls?
+348	The person has clearly boycotted the cafes.
+349	The person has ever boycotted the cafes.
+350	Has the person clearly boycotted the cafes?
+351	Has the person ever boycotted the cafes?
+352	The ladies are selling these glasses.
+353	The ladies are selling any glasses.
+354	Are the ladies selling these glasses?
+355	Are the ladies selling any glasses?
+356	The woman had obviously criticized the cashiers.
+357	The woman had ever criticized the cashiers.
+358	Had the woman obviously criticized the cashiers?
+359	Had the woman ever criticized the cashiers?
+360	The man was talking about those public parks.
+361	The man was talking about any public parks.
+362	Was the man talking about those public parks?
+363	Was the man talking about any public parks?
+364	The teenager should visit those men.
+365	The teenager should visit any men.
+366	Should the teenager visit those men?
+367	Should the teenager visit any men?
+368	The people should dislike the hospitals.
+369	The people should dislike any hospitals.
+370	Should the people dislike the hospitals?
+371	Should the people dislike any hospitals?
+372	The waitress has obviously bought the plates.
+373	The waitress has ever bought the plates.
+374	Has the waitress obviously bought the plates?
+375	Has the waitress ever bought the plates?
+376	The man did forget those dancers.
+377	The man did forget any dancers.
+378	Did the man forget those dancers?
+379	Did the man forget any dancers?
+380	The students had often explored the museums.
+381	The students had ever explored the museums.
+382	Had the students often explored the museums?
+383	Had the students ever explored the museums?
+384	The men are exiting those malls.
+385	The men are exiting any malls.
+386	Are the men exiting those malls?
+387	Are the men exiting any malls?
+388	The waiters have also talked to the guests.
+389	The waiters have ever talked to the guests.
+390	Have the waiters also talked to the guests?
+391	Have the waiters ever talked to the guests?
+392	The lady had forgotten the actors.
+393	The lady had forgotten any actors.
+394	Had the lady forgotten the actors?
+395	Had the lady forgotten any actors?
+396	The senator has often dropped by the art galleries.
+397	The senator has ever dropped by the art galleries.
+398	Has the senator often dropped by the art galleries?
+399	Has the senator ever dropped by the art galleries?
+400	The senators were describing these boys.
+401	The senators were describing any boys.
+402	Were the senators describing these boys?
+403	Were the senators describing any boys?
+404	The women can clearly sell the dishes.
+405	The women can ever sell the dishes.
+406	Can the women clearly sell the dishes?
+407	Can the women ever sell the dishes?
+408	The boys do describe these guys.
+409	The boys do describe any guys.
+410	Do the boys describe these guys?
+411	Do the boys describe any guys?
+412	The customer is leaving the women.
+413	The customer is leaving any women.
+414	Is the customer leaving the women?
+415	Is the customer leaving any women?
+416	The drivers had brought those glasses.
+417	The drivers had brought any glasses.
+418	Had the drivers brought those glasses?
+419	Had the drivers brought any glasses?
+420	The student has cared for the doctors.
+421	The student has cared for any doctors.
+422	Has the student cared for the doctors?
+423	Has the student cared for any doctors?
+424	The guy is attacking the guys.
+425	The guy is attacking any guys.
+426	Is the guy attacking the guys?
+427	Is the guy attacking any guys?
+428	The cashiers had obviously approached the students.
+429	The cashiers had ever approached the students.
+430	Had the cashiers obviously approached the students?
+431	Had the cashiers ever approached the students?
+432	The cashiers had also observed the guests.
+433	The cashiers had ever observed the guests.
+434	Had the cashiers also observed the guests?
+435	Had the cashiers ever observed the guests?
+436	The children are bringing the cars.
+437	The children are bringing any cars.
+438	Are the children bringing the cars?
+439	Are the children bringing any cars?
+440	The waitress had fortunately escaped from the teachers.
+441	The waitress had ever escaped from the teachers.
+442	Had the waitress fortunately escaped from the teachers?
+443	Had the waitress ever escaped from the teachers?
+444	The boys are boycotting these banks.
+445	The boys are boycotting any banks.
+446	Are the boys boycotting these banks?
+447	Are the boys boycotting any banks?
+448	The waiters were also talking to the teachers.
+449	The waiters were ever talking to the teachers.
+450	Were the waiters also talking to the teachers?
+451	Were the waiters ever talking to the teachers?
+452	The guest did kiss those pedestrians.
+453	The guest did kiss any pedestrians.
+454	Did the guest kiss those pedestrians?
+455	Did the guest kiss any pedestrians?
+456	The actresses had lifted those books.
+457	The actresses had lifted any books.
+458	Had the actresses lifted those books?
+459	Had the actresses lifted any books?
+460	The teenagers had helped those children.
+461	The teenagers had helped any children.
+462	Had the teenagers helped those children?
+463	Had the teenagers helped any children?
+464	The patient was boycotting those cafes.
+465	The patient was boycotting any cafes.
+466	Was the patient boycotting those cafes?
+467	Was the patient boycotting any cafes?
+468	The dancers did know the doctors.
+469	The dancers did know any doctors.
+470	Did the dancers know the doctors?
+471	Did the dancers know any doctors?
+472	The women had fortunately forgotten the plays.
+473	The women had ever forgotten the plays.
+474	Had the women fortunately forgotten the plays?
+475	Had the women ever forgotten the plays?
+476	The senators would often boycott the cafes.
+477	The senators would ever boycott the cafes.
+478	Would the senators often boycott the cafes?
+479	Would the senators ever boycott the cafes?
+480	The person is clearly arriving at the cafes.
+481	The person is ever arriving at the cafes.
+482	Is the person clearly arriving at the cafes?
+483	Is the person ever arriving at the cafes?
+484	The dancers should buy those dishes.
+485	The dancers should buy any dishes.
+486	Should the dancers buy those dishes?
+487	Should the dancers buy any dishes?
+488	The person was clearly scanning the stories.
+489	The person was ever scanning the stories.
+490	Was the person clearly scanning the stories?
+491	Was the person ever scanning the stories?
+492	The drivers are lifting those reports.
+493	The drivers are lifting any reports.
+494	Are the drivers lifting those reports?
+495	Are the drivers lifting any reports?
+496	The girl had boycotted the grocery stores.
+497	The girl had boycotted any grocery stores.
+498	Had the girl boycotted the grocery stores?
+499	Had the girl boycotted any grocery stores?
