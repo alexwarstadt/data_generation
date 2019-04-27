@@ -1,4 +1,5 @@
 # Author: Alicia Parrish
+# Created Spring 2019
 # Script for pulling a random sentence from each condition for mturk validation
 
 library(dplyr)
@@ -7,6 +8,8 @@ library(tidyr)
 setwd("G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation/mturk_qc")
 
 filenames = list.files("../outputs/npi/environments/", pattern='*.tsv',full.names = T)
+
+# loop through and merge all the data files needed
 allData=NULL
 for(i in c(1:length(filenames))){
   temp = read.table(filenames[i],sep='\t',header=F)
@@ -16,8 +19,10 @@ for(i in c(1:length(filenames))){
 # make tsv with all environments
 # write.table(allData,"../outputs/npi/all_environments.tsv",sep='\t',col.names=NA)
 
+# label the columns in the dataframe
 names(allData) <- c('metadata','acceptability','blank','sentence')
 
+# this function just helps get rid of excess info in creating Data2
 smaller = function(x) (gsub(".*=","",x))
 
 # separate conditions and randomize
@@ -72,25 +77,34 @@ see<-all_examples %>%
   group_by(paradigm)%>%
   summarise(count=n())
 
+# save a file of unformated examples
 write.table(all_examples,"examples.tsv", sep='\t',col.names=NA)
 
 #--------------
 # separate into smaller datasets of 4 sentences each
 
+# randomize again, and make sure acceptability info is in the dataset
 examples_rand=all_examples%>%
   mutate(metadata=paste0(metadata,"-acceptability=",acceptability))%>%
   mutate(rand_int=round(runif(nrow(all_examples),min=0,max=100000)))%>%
   arrange(rand_int)
 
+# read in attention check data file.
 attnChks = read.table("attention_checks.txt",sep='\t',header=T)
 
+# initialize data frame needed in the loop
 already_used = NULL
 FullTurkDataset = NULL
+
+# loop through examples_rand, grabbing 4 rows each time and adding them to FullTurkDataset in a latin square design
 for(i in c(1:125)){
+  # make sure used items are taken out
   newData = examples_rand%>%
     filter(!metadata%in%already_used$metadata)
+  # get nonduplicates of environment x npi
   tempData = newData[!duplicated(newData[c("environment","npi")]),]
   print(paste0("tempData run",i,": ",nrow(tempData)))
+  # just in case the nonduplicates is less than 4, can pull from the full dataset
   if(nrow(tempData)>=4){
     subsetTempData = tempData[1:4,]
   } else {
@@ -99,8 +113,11 @@ for(i in c(1:125)){
   }
   print(paste0("subsetTempData run",i,": ",nrow(subsetTempData)))
   print(paste0("accpetability of items in run ",i,": ",subsetTempData$acceptability))
+  # add the selected 4 rows to already_used so they can be taken out on the next run of the loop
   already_used = rbind(already_used,subsetTempData)
+  # add attention check item to the data
   dataFile = rbind(subsetTempData,attnChks)
+  # initialize variables that will need to be in the output
   cond1 = as.character(dataFile$metadata[1])
   cond2 = as.character(dataFile$metadata[2])
   cond3 = as.character(dataFile$metadata[3])
@@ -111,6 +128,7 @@ for(i in c(1:125)){
   sent3 = as.character(dataFile$sentence[3])
   sent4 = as.character(dataFile$sentence[4])
   sent_attn = as.character(dataFile$sentence[5])
+  # create a dataframe with all conditions latin squared
   turkDataFile <- data.frame('list' = c(1:4),
                            'item_1_condition'= c(cond1,cond2,cond3,cond4), #1243
                            'field_1_1'= c(sent1,sent2,sent3,sent4),
@@ -122,6 +140,7 @@ for(i in c(1:125)){
                            'field_4_1' = c(sent_attn,sent_attn,sent_attn,sent_attn),
                            'item_5_condition' = c(cond4,cond1,cond3,cond2), #4132
                            'field_5_1' = c(sent4,sent1,sent3,sent2))
+  # add 4 16 rows of latin squared data to the full dataframe for mturk upload
   FullTurkDataset=rbind(FullTurkDataset,turkDataFile)
 }
 
