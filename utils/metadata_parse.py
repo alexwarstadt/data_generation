@@ -79,7 +79,7 @@ def make_subsets(in_domain_size):
                 test_counter += 1
 
 
-def make_splits(test_size=125, dev_size=125, train_size=1250):
+def make_splits(test_size=1000, dev_size=1000, train_size=10000):
     """
     Function that makes train/dev/test splits for each enviroment
     :param test_size: number of paradigms in the test set
@@ -88,25 +88,32 @@ def make_splits(test_size=125, dev_size=125, train_size=1250):
     :return: none. writes to output
     """
 
-    npi_path = "../outputs/npi/environments"
-    output_dir = "../outputs/npi/environments/splits/"
-    for file in os.listdir(npi_path):
+    npi_path = "outputs/npi/environments"
+    output_dir = "outputs/npi/environments/splits/"
+#    for file in os.listdir(npi_path):
+    for file in ["environment=simplequestions.tsv"]:
         if file[-4:] == ".tsv":
+            print("check")
             read_file = read_data_tsv(os.path.join(npi_path, file))
             dir_name = file[12:-4]
-            if os.path.isdir(os.path.join(output_dir, dir_name)):
-                continue
-            os.mkdir(os.path.join(output_dir, dir_name))
+            if not os.path.isdir(os.path.join(output_dir, dir_name)):
+                os.mkdir(os.path.join(output_dir, dir_name))
                 
             train = open(os.path.join(output_dir, dir_name, "train.tsv"), "w")
             test = open(os.path.join(output_dir, dir_name, "test_full.tsv"), "w")
             test2 = open(os.path.join(output_dir, dir_name, "test.tsv"), "w")
+            test2.write("index\tsentence\n")
             dev = open(os.path.join(output_dir, dir_name, "dev.tsv"), "w")
             test_counter = 0
+
+            paradigm_size = len(list(filter(lambda x: x["paradigm"] == "1", read_file)))
+
+            train_size = int(train_size / paradigm_size)
+            dev_size = int(dev_size / paradigm_size)
+            test_size = int(test_size / paradigm_size)
     
             paradigms = list(set(read_file["paradigm"]))
             for p in paradigms[:test_size]:
-                test.write("index\tsentence\n")
                 for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
                     test.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
                     test2.write("%d\t%s" % (test_counter, line["sentence"]))
@@ -170,15 +177,64 @@ def make_probing_data():
             infile.close()
             outfile.close()
    
+def make_combines():
+    """
+    Function that creates 10 combines for the npi data: 9 all-but-one datasets, 1 all-in-one dataset
+    :return: none. writes to output
+    """
+    npi_path = "outputs/npi/environments"
+    splits_path = "outputs/npi/environments/splits"
+    split_folders = os.listdir(splits_path)
+
+    if not os.path.isdir(os.path.join(npi_path, "combs")):
+                os.mkdir(os.path.join(npi_path, "combs")) 
+
+    for folder in split_folders + ['all_env']:
+        targets = [x for x in split_folders if x != folder]
+
+        if folder == 'all_env':
+            folder_tag = 'all_env'
+        else:
+            folder_tag = "minus_"+folder
+
+        if not os.path.isdir(os.path.join(npi_path, "combs", folder_tag)):
+            os.mkdir(os.path.join(npi_path, "combs", folder_tag))
+
+
+        test = open(os.path.join(npi_path, "combs", folder_tag, 'test.tsv'), 'w')
+        test_full = open(os.path.join(npi_path, "combs", folder_tag, 'test_full.tsv'), 'w')
+        train = open(os.path.join(npi_path, "combs", folder_tag, 'train.tsv'), 'w')
+        dev = open(os.path.join(npi_path, "combs", folder_tag, 'dev.tsv'), 'w')
+    
+        for x in targets:
+            temp = open(os.path.join(splits_path, x, 'test.tsv'), 'r')
+            test.write(temp.read().split("index\tsentence\n")[1])
+            temp = open(os.path.join(splits_path, x, 'test_full.tsv'), 'r')
+            test_full.write(temp.read())   
+            temp = open(os.path.join(splits_path, x, 'train.tsv'), 'r')
+            train.write(temp.read())   
+            temp = open(os.path.join(splits_path, x, 'dev.tsv'), 'r')
+            dev.write(temp.read())  
+
+        test = open(os.path.join(npi_path, "combs", folder_tag, 'test.tsv'), 'r')
+        test_read = test.readlines()
+        test = open(os.path.join(npi_path, "combs", folder_tag, 'test.tsv'), 'w')
+        test.write("index\tsentence\n")
+        index_count = 0
+        for i in test_read:
+            test.write(str(index_count)+'\t'+i.split('\t')[1])
+            index_count += 1 
+        
 
 # add a scope data where licensor is always there
     
 # make_subsets(6)
                    
-# make_splits(test_size=250, dev_size=250, train_size=2500)
+# make_splits(test_size=1000, dev_size=1000, train_size=10000)
 
-make_probing_data()
+# make_probing_data()
 
+make_combines()
 
      
 
