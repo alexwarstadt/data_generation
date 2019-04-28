@@ -90,8 +90,7 @@ def make_splits(test_size=1000, dev_size=1000, train_size=10000):
 
     npi_path = "outputs/npi/environments"
     output_dir = "outputs/npi/environments/splits/"
-#    for file in os.listdir(npi_path):
-    for file in ["environment=simplequestions.tsv"]:
+    for file in os.listdir(npi_path):
         if file[-4:] == ".tsv":
             print("check")
             read_file = read_data_tsv(os.path.join(npi_path, file))
