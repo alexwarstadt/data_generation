@@ -40,7 +40,7 @@ Data3<-Data2%>%
 # should give 136 rows each
 examples1 = Data3[!duplicated(Data3[c("experiment","environment","npi","licensor","scope","npi_present")]),]
 
-Data4<-Data3 %>% filter(!metadata %in% examples$metadata)
+Data4<-Data3 %>% filter(!metadata %in% examples1$metadata)
 examples2 <- Data4[!duplicated(Data4[c("experiment","environment","npi","licensor","scope","npi_present")]),]
 
 Data5<-Data4 %>% filter(!metadata %in% examples2$metadata)
@@ -130,8 +130,8 @@ for(i in c(1:125)){
   sent_attn = as.character(dataFile$sentence[5])
   # create a dataframe with all conditions latin squared
   turkDataFile <- data.frame('list' = c(1:4),
-                           'item_1_condition'= c(cond1,cond2,cond3,cond4), #1243
-                           'field_1_1'= c(sent1,sent2,sent3,sent4),
+                           'item_1_condition'= c(cond1,cond2,cond4,cond3), #1243
+                           'field_1_1'= c(sent1,sent2,sent4,sent3),
                            'item_2_condition' = c(cond2,cond3,cond1,cond4), #2314
                            'field_2_1'= c(sent2,sent3,sent1,sent4),
                            'item_3_condition' = c(cond3,cond4,cond2,cond1), #3421
@@ -144,13 +144,69 @@ for(i in c(1:125)){
   FullTurkDataset=rbind(FullTurkDataset,turkDataFile)
 }
 
+# initialize data frame needed in the loop
+already_used = NULL
+FullTurkDataset = NULL
+
+# same loop as above, but don't latin square
+for(i in c(1:125)){
+  # make sure used items are taken out
+  newData = examples_rand%>%
+    filter(!metadata%in%already_used$metadata)
+  # get nonduplicates of environment x npi
+  tempData = newData[!duplicated(newData[c("environment","npi")]),]
+  print(paste0("tempData run",i,": ",nrow(tempData)))
+  # just in case the nonduplicates is less than 4, can pull from the full dataset
+  if(nrow(tempData)>=4){
+    subsetTempData = tempData[1:4,]
+  } else {
+    print(paste0("using newData, run",i,": ",nrow(newData)))
+    subsetTempData = newData[1:4,] 
+  }
+  print(paste0("subsetTempData run",i,": ",nrow(subsetTempData)))
+  print(paste0("accpetability of items in run ",i,": ",subsetTempData$acceptability))
+  # add the selected 4 rows to already_used so they can be taken out on the next run of the loop
+  already_used = rbind(already_used,subsetTempData)
+  # add attention check item to the data
+  dataFile = rbind(subsetTempData,attnChks)
+  # initialize variables that will need to be in the output
+  cond1 = as.character(dataFile$metadata[1])
+  cond2 = as.character(dataFile$metadata[2])
+  cond3 = as.character(dataFile$metadata[3])
+  cond4 = as.character(dataFile$metadata[4])
+  cond_attn = as.character(dataFile$metadata[5])
+  sent1 = as.character(dataFile$sentence[1])
+  sent2 = as.character(dataFile$sentence[2])
+  sent3 = as.character(dataFile$sentence[3])
+  sent4 = as.character(dataFile$sentence[4])
+  sent_attn = as.character(dataFile$sentence[5])
+  # create a dataframe with all conditions latin squared
+  turkDataFile <- data.frame('item_1_condition'= c(cond1), #1243
+                             'field_1_1'= c(sent1),
+                             'item_2_condition' = c(cond2), #2314
+                             'field_2_1'= c(sent2),
+                             'item_3_condition' = c(cond3), #3421
+                             'field_3_1'= c(sent3),
+                             'item_4_condition' = c(cond_attn), # attn chks
+                             'field_4_1' = c(sent_attn),
+                             'item_5_condition' = c(cond4), #4132
+                             'field_5_1' = c(sent4))
+  # add 4 16 rows of latin squared data to the full dataframe for mturk upload
+  FullTurkDataset=rbind(FullTurkDataset,turkDataFile)
+}
+
 # give unique identifier to each list
 FullTurkDataset$list<-seq.int(nrow(FullTurkDataset))
 
-# sanity check --> should give 500
-length(unique(FullTurkDataset$item_5_condition))
+# sanity check --> should give 500 (125 if no latin square)
+length(unique(FullTurkDataset$item_1_condition))
 # sanity check --> should give 1
 length(unique(FullTurkDataset$item_4_condition))
+# sanity check --> these should all be false
+duplicated(FullTurkDataset[1,])
+duplicated(FullTurkDataset[2,])
+duplicated(FullTurkDataset[3,])
+duplicated(FullTurkDataset[4,])
 
-write.csv(FullTurkDataset,"mturk_dataset.csv",row.names=F)
+write.csv(FullTurkDataset,"mturk_dataset_no_ls.csv",row.names=F)
 
