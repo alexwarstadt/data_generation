@@ -21,7 +21,7 @@ NPI_envs = ['adverbs', 'conditionals', 'determiner_negation_biclausal', 'only', 
     'quantifiers', 'questions', 'sentential_negation_biclausal', 'simplequestions', 'superlative']
 for key in NPI_envs:
     data_config['NPI-%s' % key] = {
-        'file': os.path.join('npi/environments', 'environment=%s.tsv' % key),
+        'file': os.path.join('%s' % key, 'test_full.tsv'),
         'meta_id': 0,
         'label_id': 1,
         'sent_id': 3}
@@ -42,10 +42,14 @@ def meta2tag(meta_0, meta_1):
     condition = "_".join(["%s=%s" % (key, meta_0[i]) \
         if meta_0[i] == meta_1[i] else "%s=%s-%s" % (key, meta_0[i], meta_1[i]) \
             for i, key in enumerate(condition_variables)])
-    return condition
+    contrast = sum([meta_0[i] != meta_1[i] for i, key in enumerate(condition_variables)])
+    return contrast, condition
 
 def diff(seq_0, seq_1):
-    return len([0 for i, j in zip(seq_0, seq_1) if i != j]) == 1  
+    if len(seq_0) == len(seq_1):
+        return len([0 for i, j in zip(seq_0, seq_1) if i != j]) == 1
+    else:
+        return False
 
 def extract_pairs(src, config, args):
     file_in = os.path.join(args.data_dir, config['file'])
@@ -62,52 +66,59 @@ def extract_pairs(src, config, args):
             sent_txt = line[config['sent_id']]
             sent_label = int(line[config['label_id']])
             sent_bert = bert_tokenizer.tokenize(sent_txt)
-            sents.append({ 'meta': sent_meta, 'txt': sent_txt, 'lable': sent_label, 'bert': sent_bert})
-            att = (len(sent_bert), sent_label)
+            sent_pid = int(sent_meta.split('paradigm=')[1])
+            sents.append({ 'meta': sent_meta, 'txt': sent_txt, 'lable': sent_label, 'bert': sent_bert, 'pid': sent_pid})
+            att = (sent_pid, sent_label)
             if att not in att2id_dict:
                 att2id_dict[att] = []
             att2id_dict[att].append(sent_id)
     
     for key_0 in att2id_dict.keys():
-        s0_bert, s0_label = key_0
-        key_1 = (s0_bert, 1 - s0_label)
+        s0_pid, s0_label = key_0
+        key_1 = (s0_pid, 1 - s0_label)
         if s0_label or (key_1 not in att2id_dict):
             continue
         list_0 = att2id_dict[key_0]
         list_1 = att2id_dict[key_1]
         for sid_0 in list_0:
             for sid_1 in list_1:
-                if diff(sents[sid_0]['bert'], sents[sid_1]['bert']):
-                    pairs.append((sid_0, sid_1))
+                pairs.append((sid_0, sid_1))
     
     numpy.random.shuffle(pairs)
     for (sid_0, sid_1) in pairs:
-
         s0_txt = sents[sid_0]['txt']
         s1_txt = sents[sid_1]['txt']
-        pair_case = meta2tag(sents[sid_0]['meta'], sents[sid_1]['meta'])
+        pair_contrast, pair_case = meta2tag(sents[sid_0]['meta'], sents[sid_1]['meta'])
+        if pair_contrast != 1:
+            continue
         inv = numpy.random.randint(0, 2)
         if pair_case not in outputs_by_case:
-            outputs_by_case[pair_case] = []
-        if len(outputs_by_case[pair_case]) >= args.max_size:
-            continue
+            outputs_by_case[pair_case] = ([], [])
         if inv:
-            outputs_by_case[pair_case].append([src, s1_txt, s0_txt, 1, pair_case])
+            sample = [src, s1_txt, s0_txt, 1, pair_case]
         else:
-            outputs_by_case[pair_case].append([src, s0_txt, s1_txt, 0, pair_case])
+            sample = [src, s0_txt, s1_txt, 0, pair_case]
+        outputs_by_case[pair_case][0].append(sample)        
+        if diff(sents[sid_0]['bert'], sents[sid_1]['bert']):
+            outputs_by_case[pair_case][1].append(sample)
 
-    outputs = []
-    for pair_case, outputs_of_case in outputs_by_case.items():
-        if len(outputs_of_case) < args.min_size:
-            print('\n\ndropped %d pairs from %s' % (len(outputs_of_case), pair_case))            
+    outputs_pair = []
+    outputs_mp = []
+    for pair_case, (pair, minimal_pair) in outputs_by_case.items():
+        print('\n\ncollected %d pairs from %s' % (len(pair), pair_case))
+        print('e.g.')
+        print(pair[:5])
+        outputs_pair.extend(pair)        
+        if len(minimal_pair) < args.min_size:
+            print('\ndropped %d minimal pairs from %s' % (len(minimal_pair), pair_case))            
         else:
-            print('\n\ncollected %d pairs from %s' % (len(outputs_of_case), pair_case))
+            print('\ncollected %d minimal pairs from %s' % (len(minimal_pair), pair_case))
             print('e.g.')
-            print(outputs_of_case[:10])
-            outputs = outputs + outputs_of_case
+            print(minimal_pair[:5])
+            outputs_mp.extend(minimal_pair)
 
-    print('\ncollected %d / %d pairs from %s' % (len(outputs), len(pairs), src))
-    return outputs
+    print('\ncollected %d pairs, %d minimal pairs from %s' % (len(outputs_pair), len(outputs_mp), src))
+    return outputs_pair, outputs_mp
 
 # output format
 # acceptability_minimal_pairs.tsv
@@ -125,30 +136,30 @@ def main(arguments):
         '--data_dir',
         help='directory to save data to',
         type=str,
-        default='../outputs')
-    parser.add_argument(
-        '-M',
-        '--max_size',
-        help='number of pairs in each unit',
-        type=int,
-        default='1000'
-    )
+        default='../outputs/npi/environments/splits/')
     parser.add_argument(
         '-m',
         '--min_size',
         help='number of pairs in each unit',
         type=int,
-        default='100'
+        default='50'
     )
     args = parser.parse_args(arguments)
-    outputs = []
+    outputs_pair = []
+    outputs_mp = []
     for src, config in data_config.items():
-        outputs = outputs + extract_pairs(src, config, args)
-    print('collected %d pairs in total' % len(outputs))
+        pair, minimal_pair = extract_pairs(src, config, args)
+        outputs_pair.extend(pair)        
+        outputs_mp.extend(minimal_pair)
+    print('collected %d pairs, %d minimal pairs in total' % (len(outputs_pair), len(outputs_mp)))
     file_out = os.path.join(args.data_dir, 'acceptability_minimal_pairs.tsv')
     with open(file_out, 'w', newline='') as tsv_out:
         tsv_out = csv.writer(tsv_out, delimiter='\t')
-        tsv_out.writerows(outputs)
+        tsv_out.writerows(outputs_mp)
+    file_out = os.path.join(args.data_dir, 'acceptability_pairs.tsv')
+    with open(file_out, 'w', newline='') as tsv_out:
+        tsv_out = csv.writer(tsv_out, delimiter='\t')
+        tsv_out.writerows(outputs_pair)
     return
 
 if __name__ == '__main__':
