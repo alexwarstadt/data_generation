@@ -4,10 +4,18 @@
 
 library(dplyr)
 library(tidyr)
+library(ggplot2)
 
 setwd("G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation/mturk_qc")
 
-Data=read.csv("batch_results/Batch_3623659_batch_results.csv",header=T)
+filenames = list.files("batch_results/", pattern='*.sv',full.names = T)
+
+# loop through and merge all the data files needed
+allData=NULL
+for(i in c(1:length(filenames))){
+  temp = read.csv(filenames[i],header=F)
+  allData = rbind(allData,temp)
+}
 
 Data2<-Data%>%
   select(AssignmentId,WorkerId,AssignmentStatus,Answer.english,
@@ -37,9 +45,27 @@ Data4<-Data3%>%
   rename("metadata"=allInfo)%>%
   mutate_at(vars(acceptable,answer),funs(as.numeric))%>%
   mutate(binary_answer=case_when(answer <= 3 ~ 0,
-                                 answer > 3  ~ 1))
+                                 answer > 3  ~ 1))%>%
+  mutate(environment=case_when(environment=="sentential_negation_biclausal" ~ "Sent-neg",
+                                  environment =="determiner_negation_biclausal" ~ "Det-neg",
+                                  environment == "simplequestions" ~ "simp-Q",
+                                  environment == "superlative" ~ "super",
+                                  TRUE ~ environment))%>%
+  mutate_at(vars(acceptable),funs(as.factor))
 
 means <- Data4 %>% 
   group_by(environment,npi,acceptable) %>% 
-  summarise(rating = mean(binary_answer))
+  summarise(rating = mean(binary_answer),count=n())
 
+all_means <- Data4 %>% 
+  group_by(environment,npi,licensor,scope,npi_present,acceptable) %>% 
+  summarise(rating = mean(binary_answer),count=n())
+
+(plot<-ggplot(means,aes(x=environment,y=rating))+
+  geom_bar(aes(fill = acceptable),stat = "identity",position = "dodge")+
+  facet_wrap(~npi))
+
+detnegever<-Data4%>%
+  filter(environment=="conditional",npi=="ever")
+
+ggsave(filename = 'figures/binary_answer_prelim.jpg',plot,width=12,height=4)
