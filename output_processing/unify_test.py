@@ -26,7 +26,7 @@ def handle_arguments(cl_arguments):
                         help="Path to write outputs of results summary.")
     parser.add_argument('--main_experiment_dir', '-e', type=str,
                         help="Directory containing experiment, or else directory containing set of experiments.")
-    parser.add_argument('--is_experiment_set', '-s', type=bool, default=True,
+    parser.add_argument('--is_experiment_set', '-s', type=bool, default=False,
                         help="Is the experiment dir a set of experiments (>1 results.tsv)?")
     parser.add_argument('--missing_first_line', dest='missing_first_line', action='store_true')
     parser.set_defaults(missing_first_line=False)
