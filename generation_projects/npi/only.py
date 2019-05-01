@@ -27,6 +27,7 @@ all_non_singular_nouns = np.intersect1d(np.append(get_all("pl", "1"), get_all("m
 all_non_singular_animate_nouns = np.intersect1d(all_animate_nouns, all_non_singular_nouns)
 all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
 all_non_progressive_intransitive_verbs = get_all("ing", "0", all_intransitive_verbs)
+all_singular_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("sg", "1")])
 
 #adverbs = ('always','sometimes','often', 'now')
 
@@ -49,7 +50,12 @@ sentences = set()
 while len(sentences) < number_to_generate:
 
     try:
-        N1 = choice(all_animate_nouns)
+        N_Prepend = choice(all_singular_animate_nouns)
+        all_prependers = ["According to the %s," % (N_Prepend[0]), "In the %s\'s opinion," % (N_Prepend[0]),
+                          "From what the %s heard," % (N_Prepend[0]), "As the %s knows," % (N_Prepend[0]),
+                          "Just as the %s said," % (N_Prepend[0])]
+        Prepend = choice(all_prependers)
+        N1 = choice(all_animate_nouns, [N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         Adv = choice(replace_ever)
 
@@ -59,7 +65,7 @@ while len(sentences) < number_to_generate:
             # transitive V
         V = choice(get_matched_by(N1, "arg_1", all_non_progressive_transitive_verbs))
         Aux = return_aux(V, N1, allow_negated=False)
-        N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+        N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N_Prepend,N1])
         D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         #else:
             # intransitive V - gives empty string for N2 and D2 slots
@@ -77,15 +83,15 @@ while len(sentences) < number_to_generate:
         continue
 
 
-    sentence_1 = "only %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_2 = "only %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
-    sentence_3 = "%s %s %s ever %s only %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_4 = "%s %s %s %s %s only %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
+    sentence_1 = "%s only %s %s %s ever %s %s %s ." % (Prepend, D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_2 = "%s only %s %s %s %s %s %s %s ." % (Prepend, D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
+    sentence_3 = "%s %s %s %s ever %s only %s %s ." % (Prepend, D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_4 = "%s %s %s %s %s %s only %s %s ." % (Prepend, D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
 
-    sentence_5 = "even %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_6 = "even %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
-    sentence_7 = "%s %s %s ever %s even %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_8 = "%s %s %s %s %s even %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
+    sentence_5 = "%s even %s %s %s ever %s %s %s ." % (Prepend, D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_6 = "%s even %s %s %s %s %s %s %s ." % (Prepend, D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
+    sentence_7 = "%s %s %s %s ever %s even %s %s ." % (Prepend, D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
+    sentence_8 = "%s %s %s %s %s %s even %s %s ." % (Prepend, D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
 
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
@@ -128,11 +134,16 @@ while len(sentences) < number_to_generate:
     # D1 N1 (Aux) also V any/some N2.
     # Any/Some N1 (Aux) also V D2 N2.
     try:
-        N1 = choice(all_non_singular_animate_nouns)
+        N_Prepend = choice(all_singular_animate_nouns)
+        all_prependers = ["According to the %s," % (N_Prepend[0]), "In the %s\'s opinion," % (N_Prepend[0]),
+                          "From what the %s heard," % (N_Prepend[0]), "As the %s knows," % (N_Prepend[0]),
+                          "Just as the %s said," % (N_Prepend[0])]
+        Prepend = choice(all_prependers)
+        N1 = choice(all_non_singular_animate_nouns, [N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
         V = conjugate(V, N1, allow_negated=False)
-        N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+        N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1,N_Prepend])
         D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         any_decoy_N2 = choice(get_matched_by(N2, "arg_1", any_decoys))
         any_decoy_N1 = choice(get_matched_by(N1, "arg_1", any_decoys))
@@ -145,15 +156,15 @@ while len(sentences) < number_to_generate:
     # D1 N1 (Aux) also V any/some N2.
     # Any/Some N1 (Aux) also V D2 N2.
 
-    sentence_1 = "only %s %s %s any %s ." % (D1[0], N1[0], V[0], N2[0])
-    sentence_2 = "only %s %s %s %s %s ." % (D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
-    sentence_3 = "any %s only %s %s %s ." % (N1[0], V[0], D2[0], N2[0])
-    sentence_4 = "%s %s only %s %s %s ." % (any_decoy_N1[0], N1[0],  V[0], D2[0], N2[0])
+    sentence_1 = "%s only %s %s %s any %s ." % (Prepend, D1[0], N1[0], V[0], N2[0])
+    sentence_2 = "%s only %s %s %s %s %s ." % (Prepend, D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
+    sentence_3 = "%s any %s only %s %s %s ." % (Prepend, N1[0], V[0], D2[0], N2[0])
+    sentence_4 = "%s %s %s only %s %s %s ." % (Prepend, any_decoy_N1[0], N1[0],  V[0], D2[0], N2[0])
 
-    sentence_5 = "even %s %s %s any %s ." % (D1[0], N1[0], V[0], N2[0])
-    sentence_6 = "even %s %s %s %s %s ." % (D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
-    sentence_7 = "any %s even %s %s %s ." % (N1[0], V[0], D2[0], N2[0])
-    sentence_8 = "%s %s even %s %s %s ." % (any_decoy_N1[0], N1[0],  V[0], D2[0], N2[0])
+    sentence_5 = "%s even %s %s %s any %s ." % (Prepend, D1[0], N1[0], V[0], N2[0])
+    sentence_6 = "%s even %s %s %s %s %s ." % (Prepend, D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
+    sentence_7 = "%s any %s even %s %s %s ." % (Prepend, N1[0], V[0], D2[0], N2[0])
+    sentence_8 = "%s %s %s even %s %s %s ." % (Prepend, any_decoy_N1[0], N1[0],  V[0], D2[0], N2[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -193,7 +204,12 @@ while len(sentences) < number_to_generate:
 
 
     try:
-        N1 = choice(all_animate_nouns)
+        N_Prepend = choice(all_singular_animate_nouns)
+        all_prependers = ["According to the %s," % (N_Prepend[0]), "In the %s\'s opinion," % (N_Prepend[0]),
+                          "From what the %s heard," % (N_Prepend[0]), "As the %s knows," % (N_Prepend[0]),
+                          "Just as the %s said," % (N_Prepend[0])]
+        Prepend = choice(all_prependers)
+        N1 = choice(all_animate_nouns, [N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         q_adv = choice(replace_adv)
         fin_adv = choice(all_institutions)
@@ -204,7 +220,7 @@ while len(sentences) < number_to_generate:
             # transitive V
             V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
             V = conjugate(V, N1, allow_negated=False)
-            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1,N_Prepend])
             D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         else:
             # intransitive V - gives empty string for N2 and D2 slots
@@ -221,15 +237,15 @@ while len(sentences) < number_to_generate:
     # D1 N1 (Aux) also V D2 N2 at all/q at the [institution]
     # D1 N1 (Aux) V D2 N2 at all/q also at the [institution]
 
-    sentence_1 = "only %s %s %s %s %s at all at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_2 = "only %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_3 = "%s %s %s %s %s at all only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_4 = "%s %s %s %s %s only at the %s ." % (D1[0], N1[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_1 = "%s only %s %s %s %s %s at all at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_2 = "%s only %s %s %s %s %s %s at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_3 = "%s %s %s %s %s %s at all only at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_4 = "%s %s %s %s %s %s only at the %s ." % (Prepend, D1[0], N1[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-    sentence_5 = "even %s %s %s %s %s at all at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s at all even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s even at the %s ." % (D1[0], N1[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_5 = "%s even %s %s %s %s %s at all at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "%s even %s %s %s %s %s %s at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s %s at all even at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (Prepend, D1[0], N1[0], D2[0], N2[0], q_adv, fin_adv[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -268,7 +284,12 @@ while len(sentences) < number_to_generate:
 
 
     try:
-        N1 = choice(all_animate_nouns)
+        N_Prepend = choice(all_singular_animate_nouns)
+        all_prependers = ["According to the %s," % (N_Prepend[0]), "In the %s\'s opinion," % (N_Prepend[0]),
+                          "From what the %s heard," % (N_Prepend[0]), "As the %s knows," % (N_Prepend[0]),
+                          "Just as the %s said," % (N_Prepend[0])]
+        Prepend = choice(all_prependers)
+        N1 = choice(all_animate_nouns,[N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         q_adv = choice(replace_adv)
         fin_adv = choice(all_institutions)
@@ -279,7 +300,7 @@ while len(sentences) < number_to_generate:
             # transitive V
             V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
             V = conjugate(V, N1, allow_negated=False)
-            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1,N_Prepend])
             D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         else:
             # intransitive V - gives empty string for N2 and D2 slots
@@ -297,15 +318,15 @@ while len(sentences) < number_to_generate:
     # D1 N1 (Aux) also V D2 N2 yet/q at the [institution]
     # D1 N1 (Aux) V D2 N2 yet/q also at the [institution]
 
-    sentence_1 = "only %s %s %s %s %s yet at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_2 = "only %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_3 = "%s %s %s %s %s yet only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_4 = "%s %s %s %s %s %s only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_1 = "%s only %s %s %s %s %s yet at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_2 = "%s only %s %s %s %s %s %s at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_3 = "%s %s %s %s %s %s yet only at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_4 = "%s %s %s %s %s %s %s only at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-    sentence_5 = "even %s %s %s %s %s yet at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s yet even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_5 = "%s even %s %s %s %s %s yet at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "%s even %s %s %s %s %s %s at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s %s yet even at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s %s even at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -347,7 +368,12 @@ while len(sentences) < number_to_generate:
 
 
     try:
-        N1 = choice(all_animate_nouns)
+        N_Prepend = choice(all_singular_animate_nouns)
+        all_prependers = ["According to the %s," % (N_Prepend[0]), "In the %s\'s opinion," % (N_Prepend[0]),
+                          "From what the %s heard," % (N_Prepend[0]), "As the %s knows," % (N_Prepend[0]),
+                          "Just as the %s said," % (N_Prepend[0])]
+        Prepend = choice(all_prependers)
+        N1 = choice(all_animate_nouns,[N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         q_adv = choice(replace_adv)
         fin_adv = choice(all_institutions)
@@ -359,7 +385,7 @@ while len(sentences) < number_to_generate:
             V = choice(get_matched_by(N1, "arg_1", all_past_or_perfect_transitive_verbs))
             V = conjugate(V, N1, allow_negated=False)
             #Aux = return_aux(V, N1, allow_negated=False)
-            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1])
+            N2 = choice(get_matches_of(V, "arg_2", all_non_singular_nouns),[N1,N_Prepend])
             D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         else:
             # intransitive V - gives empty string for N2 and D2 slots
@@ -377,15 +403,15 @@ while len(sentences) < number_to_generate:
     # D1 N1 (Aux) also V D2 N2 in years/q at the [institution]
     # D1 N1 (Aux) V D2 N2 in years/q also at the [institution]
 
-    sentence_1 = "only %s %s %s %s %s in years at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_2 = "only %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_3 = "%s %s %s %s %s in years only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_4 = "%s %s %s %s %s %s only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_1 = "%s only %s %s %s %s %s in years at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_2 = "%s only %s %s %s %s %s %s at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_3 = "%s %s %s %s %s %s in years only at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_4 = "%s %s %s %s %s %s %s only at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-    sentence_5 = "even %s %s %s %s %s in years at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s in years even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_5 = "%s even %s %s %s %s %s in years at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "%s even %s %s %s %s %s %s at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s %s in years even at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s %s even at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -426,7 +452,12 @@ while len(sentences) < number_to_generate:
 
 
     try:
-        N1 = choice(all_animate_nouns)
+        N_Prepend = choice(all_singular_animate_nouns)
+        all_prependers = ["According to the %s," % (N_Prepend[0]), "In the %s\'s opinion," % (N_Prepend[0]),
+                          "From what the %s heard," % (N_Prepend[0]), "As the %s knows," % (N_Prepend[0]),
+                          "Just as the %s said," % (N_Prepend[0])]
+        Prepend = choice(all_prependers)
+        N1 = choice(all_animate_nouns,[N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         q_adv = choice(replace_adv)
         fin_adv = choice(all_institutions)
@@ -437,7 +468,7 @@ while len(sentences) < number_to_generate:
             # transitive V
             V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
             V = conjugate(V, N1, allow_negated=False)
-            N2 = choice(get_matches_of(V, "arg_2", all_plural_non_institutions),[N1])
+            N2 = choice(get_matches_of(V, "arg_2", all_plural_non_institutions),[N1,N_Prepend])
             D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         else:
             # intransitive V - gives empty string for N2 and D2 slots
@@ -453,15 +484,15 @@ while len(sentences) < number_to_generate:
     # D1 N1 (Aux) also V D2 N2 either/q at the [institution]
     # D1 N1 (Aux) V D2 N2 either/q also at the [institution]
 
-    sentence_1 = "only %s %s %s %s %s either at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_2 = "only %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_3 = "%s %s %s %s %s either only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_4 = "%s %s %s %s %s %s only at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_1 = "%s only %s %s %s %s %s either at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_2 = "%s only %s %s %s %s %s %s at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_3 = "%s %s %s %s %s %s either only at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_4 = "%s %s %s %s %s %s %s only at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-    sentence_5 = "even %s %s %s %s %s either at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s either even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_5 = "%s even %s %s %s %s %s either at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_6 = "%s even %s %s %s %s %s %s at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
+    sentence_7 = "%s %s %s %s %s %s either even at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
+    sentence_8 = "%s %s %s %s %s %s %s even at the %s ." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)

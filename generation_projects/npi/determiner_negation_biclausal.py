@@ -17,7 +17,7 @@ project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__)))
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 1000
+number_to_generate = 10
 sentences = set()
 
 # gather word classes that will be accessed frequently
@@ -31,11 +31,15 @@ all_nonneg_aux = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("n
 all_intransitive_verbs = get_all("category", "S\\NP")
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_embedding_verbs = get_all("category_2", "V_embedding")
+all_non_progressive_embedding_verbs = get_all("ing", "0", all_embedding_verbs)
+all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
+all_non_progressive_intransitive_verbs = get_all("ing", "0", all_intransitive_verbs)
 all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
-all_institution_nouns = get_all("institution","1")
+all_institution_nouns = get_all("institution", "1")
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 all_non_singular_nouns_freq = np.append(get_all_conjunctive([("category", "N"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("frequent", "1"), ("mass","1")]))
 all_non_singular_animate_nouns = np.append(get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("mass","1")]))
+all_singular_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("sg", "1")])
 sentence_final_npi = ["yet", "at all", "in years", "either"]
 sentence_final_nonnpi = ["regularly", "on weekends", "on occasion", "for a while", "as well"]
 replace_ever = ["often", "also", "really", "certainly", "clearly"]
@@ -54,12 +58,17 @@ while len(sentences) < number_to_generate:
     try:
         # build all lexical items
         #TODO: throw in modifiers
-        N1 = choice(all_animate_nouns)
+        N_Prepend = choice(all_singular_animate_nouns)
+        all_prependers = ["According to the %s," % (N_Prepend[0]), "In the %s\'s opinion," % (N_Prepend[0]),
+                          "From what the %s heard," % (N_Prepend[0]), "As the %s knows," % (N_Prepend[0]),
+                          "Just as the %s said," % (N_Prepend[0])]
+        Prepend = choice(all_prependers)
+        N1 = choice(all_animate_nouns, [N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         Neg_word1 = choice(get_matched_by(N1, "arg_1", all_neg_det))
-        V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
+        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_embedding_verbs))
         Aux1 = require_aux(V1, N1, allow_negated=False)
-        N2 = choice(all_non_singular_nouns_freq)
+        N2 = choice(all_non_singular_nouns_freq, [N1])
         #N2 = choice(get_matches_of(V1, "arg_2", all_non_singular_nouns))
         D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
@@ -69,13 +78,13 @@ while len(sentences) < number_to_generate:
         x = random.random()
         if x < 1/2:
             # transitive V2
-            V2 = choice(get_matched_by(N2, "arg_1", all_transitive_verbs))
+            V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_transitive_verbs))
             Aux2 = return_aux(V2, N2, allow_negated=False)
-            N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
+            N3 = choice(get_matches_of(V2, "arg_2", all_nouns),[N_Prepend,N1,N2])
             D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
         else:
             # intransitive V2 - gives empty string for N3 and D3 slots
-            V2 = choice(get_matched_by(N2, "arg_1", all_intransitive_verbs))
+            V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_intransitive_verbs))
             Aux2 = return_aux(V2, N2, allow_negated=False)
             N3 = " "
             D3 = " "
@@ -101,16 +110,16 @@ while len(sentences) < number_to_generate:
         V2_final = V2[0]
 
     # build sentences with licensor present
-    sentence_1 = "%s %s %s ever %s that %s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_2 = "%s %s %s %s %s that %s %s %s %s %s %s ." % (Neg_word1[0], N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_3 = "%s %s %s ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, Neg_word1[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_4 = "%s %s %s %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, Neg_word1[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_1 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (Prepend, Neg_word1[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_2 = "%s %s %s %s %s %s that %s %s %s %s %s %s ." % (Prepend, Neg_word1[0], N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_3 = "%s %s %s %s ever %s that %s %s %s %s %s %s ." % (Prepend, D1[0], N1[0], Aux1_final, V1_final, Neg_word1[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_4 = "%s %s %s %s %s %s that %s %s %s %s %s %s ." % (Prepend, D1[0], N1[0], Aux1_final, repl_ever, V1_final, Neg_word1[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
 
     # build sentences with no licensor present
-    sentence_5 = "some %s %s ever %s that %s %s %s %s %s %s ." % (N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_6 = "some %s %s %s %s that %s %s %s %s %s %s ." % (N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_7 = "%s %s %s ever %s that some %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, N2[0], Aux2_final, V2_final, D3[0], N3[0])
-    sentence_8 = "%s %s %s %s %s that some %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_5 = "%s some %s %s ever %s that %s %s %s %s %s %s ." % (Prepend, N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_6 = "%s some %s %s %s %s that %s %s %s %s %s %s ." % (Prepend, N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_7 = "%s %s %s %s ever %s that some %s %s %s %s %s ." % (Prepend, D1[0], N1[0], Aux1_final, V1_final, N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_8 = "%s %s %s %s %s %s that some %s %s %s %s %s ." % (Prepend, D1[0], N1[0], Aux1_final, repl_ever, V1_final, N2[0], Aux2_final, V2_final, D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)
