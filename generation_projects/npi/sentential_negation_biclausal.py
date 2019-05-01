@@ -31,8 +31,11 @@ all_nonneg_aux = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("n
 all_intransitive_verbs = get_all("category", "S\\NP")
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_embedding_verbs = get_all("category_2", "V_embedding")
+all_non_progressive_embedding_verbs = get_all("ing", "0", all_embedding_verbs)
+all_non_progressive_transitive_verbs = get_all("ing", "0", all_transitive_verbs)
+all_non_progressive_intransitive_verbs = get_all("ing", "0", all_intransitive_verbs)
 all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
-all_institution_nouns = get_all("institution","1")
+all_institution_nouns = get_all("institution", "1")
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 all_non_singular_nouns_freq = np.append(get_all_conjunctive([("category", "N"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("frequent", "1"), ("mass","1")]))
 all_non_singular_animate_nouns = np.append(get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("mass","1")]))
@@ -61,7 +64,7 @@ while len(sentences) < number_to_generate:
         N1 = choice(all_animate_nouns)
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         Neg_word1 = choice(get_matched_by(N1, "arg_1", all_neg_det))
-        V1 = choice(get_matched_by(N1, "arg_1", all_embedding_verbs))
+        V1 = choice(get_matched_by(N1, "arg_1", all_non_progressive_embedding_verbs))
         Aux1 = require_aux(V1, N1, allow_negated=False)
         N2 = choice(all_nouns)
         D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
@@ -72,13 +75,13 @@ while len(sentences) < number_to_generate:
         x = random.random()
         if x < 1/2:
             # transitive V2
-            V2 = choice(get_matched_by(N2, "arg_1", all_transitive_verbs))
+            V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_transitive_verbs))
             Aux2 = require_aux(V2, N2, allow_negated=False)
             N3 = choice(get_matches_of(V2, "arg_2", all_nouns))
             D3 = choice(get_matched_by(N3, "arg_1", all_common_dets))
         else:
             # intransitive V2 - gives empty string for N3 and D3 slots
-            V2 = choice(get_matched_by(N2, "arg_1", all_intransitive_verbs))
+            V2 = choice(get_matched_by(N2, "arg_1", all_non_progressive_intransitive_verbs))
             Aux2 = require_aux(V2, N2, allow_negated=False)
             N3 = " "
             D3 = " "
@@ -104,16 +107,16 @@ while len(sentences) < number_to_generate:
         V2_final = V2[0]
 
     # build sentences with licensor present
-    sentence_1 = "%s %s %s not ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_2 = "%s %s %s not %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], repl_ever, V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_3 = "%s %s %s ever %s that %s %s %s not %s %s %s ." % (D1[0], N1[0], Aux1[0], V1_final, D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_4 = "%s %s %s %s %s that %s %s %s not %s %s %s ." % (D1[0], N1[0], Aux1[0], repl_ever, V1_final, D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_1 = "%s %s %s not ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_2 = "%s %s %s not %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_3 = "%s %s %s ever %s that %s %s %s not %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_4 = "%s %s %s %s %s that %s %s %s not %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
 
     # build sentences with no licensor present
-    sentence_5 = "%s %s %s really ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_6 = "%s %s %s really %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1[0], repl_ever, V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_7 = "%s %s %s ever %s that %s %s %s really %s %s %s ." % (D1[0], N1[0], Aux1[0], V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
-    sentence_8 = "%s %s %s %s %s that %s %s %s really %s %s %s ." % (D1[0], N1[0], Aux1[0], repl_ever, V1[0], D2[0], N2[0], Aux2[0], V2[0], D3[0], N3[0])
+    sentence_5 = "%s %s %s really ever %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_6 = "%s %s %s really %s %s that %s %s %s %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_7 = "%s %s %s ever %s that %s %s %s really %s %s %s ." % (D1[0], N1[0], Aux1_final, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
+    sentence_8 = "%s %s %s %s %s that %s %s %s really %s %s %s ." % (D1[0], N1[0], Aux1_final, repl_ever, V1_final, D2[0], N2[0], Aux2_final, V2_final, D3[0], N3[0])
 
     # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
     # but the code outputs a determiner with an empty string. might want to change this)
