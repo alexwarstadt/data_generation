@@ -139,7 +139,7 @@ def make_probing_data():
     :return: none. writes to output
     """
     metadata_labels = ['licensor', 'scope', 'npi_present', 'scope_with_licensor']
-    npi_path = "outputs/npi/environments/"
+    npi_path = "../outputs/npi/environments/"
     splits_path = os.path.join(npi_path, 'splits')
     probing_path = os.path.join(npi_path, 'probing')
     split_folders = os.listdir(splits_path)
@@ -187,8 +187,8 @@ def make_combines():
     Function that creates 10 combines for the npi data: 9 all-but-one datasets, 1 all-in-one dataset
     :return: none. writes to output
     """
-    npi_path = "outputs/npi/environments"
-    splits_path = "outputs/npi/environments/splits"
+    npi_path = "../outputs/npi/environments"
+    splits_path = "../outputs/npi/environments/splits"
     split_folders = os.listdir(splits_path)
 
     if not os.path.isdir(os.path.join(npi_path, "combs")):
@@ -235,11 +235,11 @@ def make_combines():
     
 # make_subsets(6)
                    
-make_splits(test_size=1000, dev_size=1000, train_size=10000)
+# make_splits(test_size=1000, dev_size=1000, train_size=10000)
 
 # make_probing_data()
 
-# make_combines()
+make_combines()
 
      
 
