@@ -119,16 +119,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have plain adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
 
         # sentences 5-8 have superlative adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-adj=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 1, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=ever-crucial_item=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -164,6 +164,9 @@ while len(sentences) < number_to_generate:
         NPI_replacement_N3 = choice(get_matched_by(N3, "arg_1", any_replacements))
     except IndexError:
         print(N1[0], N2[0])
+        continue
+    except TypeError:
+        print("Type error")
         continue
         
     # check for do/does/did for Aux1 (Aux2 is always had/has/have), make the aux directly adjacent to verb.
@@ -207,16 +210,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have plain adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-adj=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-adj=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-adj=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-adj=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-crucial_item=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-crucial_item=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-crucial_item=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-crucial_item=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
 
         # sentences 5-8 have superlative adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-adj=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-adj=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-adj=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-adj=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-crucial_item=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 1, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-crucial_item=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-crucial_item=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=any-crucial_item=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
 
     sentences.add(sentence_1)
 
@@ -287,16 +290,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have plain adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-adj=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-adj=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-adj=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-adj=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-crucial_item=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-crucial_item=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-crucial_item=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-crucial_item=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
 
         # sentences 5-8 have superlative adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-adj=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 0, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-adj=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-adj=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-adj=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-crucial_item=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-crucial_item=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-crucial_item=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=atall-crucial_item=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -367,16 +370,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have plain adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-adj=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-adj=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-adj=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-adj=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-crucial_item=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-crucial_item=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-crucial_item=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-crucial_item=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
 
         # sentences 5-8 have superlative adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-adj=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-adj=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-adj=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-adj=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-crucial_item=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 1, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-crucial_item=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-crucial_item=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=yet-crucial_item=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -448,16 +451,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have plain adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-adj=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-adj=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-adj=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-adj=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-crucial_item=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-crucial_item=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-crucial_item=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-crucial_item=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
 
         # sentences 5-8 have superlative adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-adj=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 1, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-adj=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-adj=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-adj=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-crucial_item=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 1, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-crucial_item=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-crucial_item=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=inyears-crucial_item=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
@@ -529,16 +532,16 @@ while len(sentences) < number_to_generate:
     # write sentences to output
     if sentence_1 not in sentences:
         # sentences 1-4 have plain adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-adj=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-adj=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-adj=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-adj=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-crucial_item=%s-licensor=0-scope=1-npi_present=1" % Adj[0], 0, sentence_1))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-crucial_item=%s-licensor=0-scope=1-npi_present=0" % Adj[0], 1, sentence_2))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-crucial_item=%s-licensor=0-scope=0-npi_present=1" % Adj[0], 0, sentence_3))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-crucial_item=%s-licensor=0-scope=0-npi_present=0" % Adj[0], 1, sentence_4))
 
         # sentences 5-8 have superlative adjective
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-adj=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 0, sentence_5))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-adj=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-adj=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
-        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-adj=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-crucial_item=%s-licensor=1-scope=1-npi_present=1" % Adj_super[0], 0, sentence_5))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-crucial_item=%s-licensor=1-scope=1-npi_present=0" % Adj_super[0], 1, sentence_6))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-crucial_item=%s-licensor=1-scope=0-npi_present=1" % Adj_super[0], 0, sentence_7))
+        output.write("%s\t%d\t\t%s\n" % ("experiment=NPI-env=superlative-npi=either-crucial_item=%s-licensor=1-scope=0-npi_present=0" % Adj_super[0], 1, sentence_8))
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)

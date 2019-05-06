@@ -88,12 +88,13 @@ def make_splits(test_size=1000, dev_size=1000, train_size=10000):
     :return: none. writes to output
     """
 
-    npi_path = "outputs/npi/environments"
-    output_dir = "outputs/npi/environments/splits/"
+    npi_path = "../outputs/npi/environments"
+    output_dir = "../outputs/npi/environments/splits/"
     for file in os.listdir(npi_path):
         if file[-4:] == ".tsv":
             print("check")
             read_file = read_data_tsv(os.path.join(npi_path, file))
+            read_file = np.union1d(get_all("npi", "ever", read_file), get_all("npi", "any", read_file))
             dir_name = file[12:-4]
             if not os.path.isdir(os.path.join(output_dir, dir_name)):
                 os.mkdir(os.path.join(output_dir, dir_name))
@@ -107,24 +108,29 @@ def make_splits(test_size=1000, dev_size=1000, train_size=10000):
 
             paradigm_size = len(list(filter(lambda x: x["paradigm"] == "1", read_file)))
 
-            train_size = int(train_size / paradigm_size)
-            dev_size = int(dev_size / paradigm_size)
-            test_size = int(test_size / paradigm_size)
+            train_iters = int(train_size / paradigm_size)
+            dev_iters = int(dev_size / paradigm_size)
+            test_iters = int(test_size / paradigm_size)
     
             paradigms = list(set(read_file["paradigm"]))
-            for p in paradigms[:test_size]:
+            for p in paradigms[:test_iters]:
                 for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
                     test.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
                     test2.write("%d\t%s" % (test_counter, line["sentence"]))
                     test_counter += 1
 
-            for p in paradigms[test_size:test_size+dev_size]:
+            for p in paradigms[test_iters:test_iters+dev_iters]:
                 for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
                     dev.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
      
-            for p in paradigms[test_size+dev_size:test_size+dev_size+train_size]:
+            for p in paradigms[test_iters+dev_iters:test_iters+dev_iters+train_iters]:
                 for line in list(filter(lambda x: x["paradigm"] == p, read_file)):
                     train.write("%s\t%s\t\t%s" % (line["original_metadata"], line["judgment"], line["sentence"]))
+
+            train.close()
+            test.close()
+            test2.close()
+            dev.close()
 
 
 def make_probing_data():
@@ -133,7 +139,7 @@ def make_probing_data():
     :return: none. writes to output
     """
     metadata_labels = ['licensor', 'scope', 'npi_present', 'scope_with_licensor']
-    npi_path = "outputs/npi/environments/"
+    npi_path = "../outputs/npi/environments/"
     splits_path = os.path.join(npi_path, 'splits')
     probing_path = os.path.join(npi_path, 'probing')
     split_folders = os.listdir(splits_path)
@@ -181,8 +187,8 @@ def make_combines():
     Function that creates 10 combines for the npi data: 9 all-but-one datasets, 1 all-in-one dataset
     :return: none. writes to output
     """
-    npi_path = "outputs/npi/environments"
-    splits_path = "outputs/npi/environments/splits"
+    npi_path = "../outputs/npi/environments"
+    splits_path = "../outputs/npi/environments/splits"
     split_folders = os.listdir(splits_path)
 
     if not os.path.isdir(os.path.join(npi_path, "combs")):

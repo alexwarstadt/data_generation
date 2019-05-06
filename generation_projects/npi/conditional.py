@@ -111,7 +111,7 @@ while len(sentences) < number_to_generate:
     sentence_1 = "If the %s %s any %s, the %s will %s the %s." % (N1[0], V1[0], N2[0], N3[0], V2[0], N4[0])
     sentence_2 = "If the %s %s %s %s, the %s will %s the %s." % (N1[0], V1[0], any_decoy_N2[0], N2[0], N3[0], V2[0], N4[0])
     sentence_3 = "If the %s %s the %s, the %s will %s any %s." % (N1[0], V1[0], N2[0], N3[0], V2[0], N4[0])
-    sentence_4 = "If the %s %s the %s, the %s will %s %s %s." % (any_decoy_N2[0], N1[0], V1[0], N2[0], N3[0], V2[0], N4[0])
+    sentence_4 = "If the %s %s the %s, the %s will %s %s %s." % (N1[0], V1[0], N2[0], N3[0], V2[0], any_decoy_N2[0], N4[0])
 
     # build sentences with conditional-like environment
     sentence_5 = "While the %s %s any %s, the %s will %s the %s." % (N1[0], V1[0], N2[0], N3[0], V2[0], N4[0])
@@ -146,6 +146,7 @@ while len(sentences) < number_to_generate:
 
     # keep track of which sentences have already been generated
     sentences.add(sentence_1)
+
 
 
 sentences = set()

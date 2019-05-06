@@ -188,25 +188,25 @@ ax3.set_title("NPI", fontsize=16)
 
 
 # ========= 10K PLOTS ==========
-# make_10k_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
-#                      "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
-#                      "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
-#
-# make_10k_plot(ax2, "10", "polar_q", "",
-#                      "../results/structure_dependent_experiments/polar_q_experiment_summary.tsv",
-#                      "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep")
-#
-# make_10k_plot(ax3, "01", "npi_scope", "",
-#                      "../results/structure_dependent_experiments/npi_scope_experiment_summary.tsv",
-#                      "/scratch/asw462/jiant/structure_dependence/npi_scope_experiment/npi_scope_%s_sweep")
-# plt.show()
+make_10k_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
+                     "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
+                     "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
+
+make_10k_plot(ax2, "10", "polar_q", "",
+                     "../results/structure_dependent_experiments/polar_q_experiment_summary_new.tsv",
+                     "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep")
+
+make_10k_plot(ax3, "01", "npi_scope", "",
+                     "../results/structure_dependent_experiments/npi_scope_experiment_summary.tsv",
+                     "/scratch/asw462/jiant/structure_dependence/npi_scope_experiment/npi_scope_%s_sweep")
+plt.show()
 
 
 
 # ========= EMBEDDED TENSE PLOTS ==========
-fig, ax = plt.subplots(nrows=1, ncols=1)
-ax.set_title("Tense", fontsize=16)
-make_10k_plot(ax, "10", "embedded_tense", "% OOD Pairs Correct",
-                     "../results/structure_dependent_experiments/embedded_tense_summary.tsv",
-                     "/scratch/asw462/jiant/structure_dependence/embedded_tense/embedded_tense_%s")
-plt.show()
+# fig, ax = plt.subplots(nrows=1, ncols=1)
+# ax.set_title("Tense", fontsize=16)
+# make_10k_plot(ax, "10", "embedded_tense", "% OOD Pairs Correct",
+#                      "../results/structure_dependent_experiments/embedded_tense_summary.tsv",
+#                      "/scratch/asw462/jiant/structure_dependence/embedded_tense/embedded_tense_%s")
+# plt.show()
