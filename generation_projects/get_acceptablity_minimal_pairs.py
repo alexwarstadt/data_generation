@@ -102,23 +102,23 @@ def extract_pairs(src, config, args):
         if diff(sents[sid_0]['bert'], sents[sid_1]['bert']):
             outputs_by_case[pair_case][1].append(sample)
 
-    outputs_pair = []
-    outputs_mp = []
-    for pair_case, (pair, minimal_pair) in outputs_by_case.items():
-        print('\n\ncollected %d pairs from %s' % (len(pair), pair_case))
+    outputs_minimal_pairs = []
+    outputs_cloze_pairs = []
+    for pair_case, (minimal_pair, cloze_pair) in outputs_by_case.items():
+        print('\n\ncollected %d minimal pairs from %s' % (len(minimal_pair), pair_case))
         print('e.g.')
-        print(pair[:5])
-        outputs_pair.extend(pair)        
-        if len(minimal_pair) < args.min_size:
-            print('\ndropped %d minimal pairs from %s' % (len(minimal_pair), pair_case))            
+        print(minimal_pair[:5])
+        outputs_minimal_pairs.extend(minimal_pair)        
+        if len(cloze_pair) < args.min_size:
+            print('\ndropped %d cloze pairs from %s' % (len(cloze_pair), pair_case))            
         else:
-            print('\ncollected %d minimal pairs from %s' % (len(minimal_pair), pair_case))
+            print('\ncollected %d cloze pairs from %s' % (len(cloze_pair), pair_case))
             print('e.g.')
             print(minimal_pair[:5])
-            outputs_mp.extend(minimal_pair)
+            outputs_cloze_pairs.extend(cloze_pair)
 
-    print('\ncollected %d pairs, %d minimal pairs from %s' % (len(outputs_pair), len(outputs_mp), src))
-    return outputs_pair, outputs_mp
+    print('\ncollected %d minimal pairs, %d cloze pairs from %s' % (len(outputs_minimal_pairs), len(outputs_cloze_pairs), src))
+    return outputs_minimal_pairs, outputs_cloze_pairs
 
 # output format
 # acceptability_minimal_pairs.tsv
@@ -145,21 +145,21 @@ def main(arguments):
         default='50'
     )
     args = parser.parse_args(arguments)
-    outputs_pair = []
-    outputs_mp = []
+    outputs_minimal_pairs = []
+    outputs_cloze_pairs = []
     for src, config in data_config.items():
         pair, minimal_pair = extract_pairs(src, config, args)
-        outputs_pair.extend(pair)        
-        outputs_mp.extend(minimal_pair)
-    print('collected %d pairs, %d minimal pairs in total' % (len(outputs_pair), len(outputs_mp)))
+        outputs_minimal_pairs.extend(pair)        
+        outputs_cloze_pairs.extend(minimal_pair)
+    print('collected %d pairs, %d minimal pairs in total' % (len(outputs_minimal_pairs), len(outputs_cloze_pairs)))
+    file_out = os.path.join(args.data_dir, 'acceptability_cloze_pairs.tsv')
+    with open(file_out, 'w', newline='') as tsv_out:
+        tsv_out = csv.writer(tsv_out, delimiter='\t')
+        tsv_out.writerows(outputs_cloze_pairs)
     file_out = os.path.join(args.data_dir, 'acceptability_minimal_pairs.tsv')
     with open(file_out, 'w', newline='') as tsv_out:
         tsv_out = csv.writer(tsv_out, delimiter='\t')
-        tsv_out.writerows(outputs_mp)
-    file_out = os.path.join(args.data_dir, 'acceptability_pairs.tsv')
-    with open(file_out, 'w', newline='') as tsv_out:
-        tsv_out = csv.writer(tsv_out, delimiter='\t')
-        tsv_out.writerows(outputs_pair)
+        tsv_out.writerows(outputs_minimal_pairs)
     return
 
 if __name__ == '__main__':
