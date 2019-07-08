@@ -10,13 +10,14 @@ import numpy as np
 from utils.randomize import choice
 
 # initialize output file
-rel_output_path = "outputs/npi/environment=quantifiers.tsv"
+rel_output_path = "outputs/npi/environment=quantifiers2.tsv"
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
 output = open(os.path.join(project_root, rel_output_path), "w")
 
 # set total number of paradigms to generate
-number_to_generate = 1000
+number_to_generate = 10
 sentences = set()
+
 
 # ========== GENERATE FOR ANY ===========
 # gather word classes that will be accessed frequently

@@ -2,6 +2,7 @@ import numpy as np
 import output_processing.unify_test
 import utils.vocab_table
 import matplotlib.pyplot as plt
+
 import random
 
 
@@ -166,11 +167,11 @@ ax3.set_title("NPI", fontsize=16)
 
 
 # ========= 5 SIZES PLOTS ==========
-# make_five_sizes_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
-#                      "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
-#                      "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
-#
-#
+make_five_sizes_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
+                     "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
+                     "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
+
+
 # make_five_sizes_plot(ax2, "10", "polar_q", "",
 #                      "../results/structure_dependent_experiments/polar_q_experiment_summary.tsv",
 #                      "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep")
@@ -183,23 +184,23 @@ ax3.set_title("NPI", fontsize=16)
 # make_five_sizes_plot(ax4, "10", "embedded_tense", "",
 #                      "../results/structure_dependent_experiments/embedded_tense_summary.tsv",
 #                      "/scratch/asw462/jiant/structure_dependence/embedded_tense/embedded_tense_%s")
-# plt.show()
+plt.show()
 
 
 
 # ========= 10K PLOTS ==========
-make_10k_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
-                     "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
-                     "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
-
-make_10k_plot(ax2, "10", "polar_q", "",
-                     "../results/structure_dependent_experiments/polar_q_experiment_summary_new.tsv",
-                     "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep")
-
-make_10k_plot(ax3, "01", "npi_scope", "",
-                     "../results/structure_dependent_experiments/npi_scope_experiment_summary.tsv",
-                     "/scratch/asw462/jiant/structure_dependence/npi_scope_experiment/npi_scope_%s_sweep")
-plt.show()
+# make_10k_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
+#                      "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
+#                      "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
+#
+# make_10k_plot(ax2, "10", "polar_q", "",
+#                      "../results/structure_dependent_experiments/polar_q_experiment_summary_new.tsv",
+#                      "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep")
+#
+# make_10k_plot(ax3, "01", "npi_scope", "",
+#                      "../results/structure_dependent_experiments/npi_scope_experiment_summary.tsv",
+#                      "/scratch/asw462/jiant/structure_dependence/npi_scope_experiment/npi_scope_%s_sweep")
+# plt.show()
 
 
 

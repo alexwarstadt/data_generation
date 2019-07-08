@@ -25,6 +25,9 @@ all_non_singular_nouns = np.intersect1d(np.append(get_all("pl", "1"), get_all("m
 any_decoys = np.concatenate((get_all("expression", "the"), get_all_conjunctive([("expression", "that"), ("category_2", "D")]),
                          get_all("expression", "this"), get_all("expression", "these"), get_all("expression", "those")))
 
+
+embedding_verbs = ["decide"]
+
 # sample sentences until desired number
 while len(sentences) < number_to_generate:
 
@@ -35,7 +38,6 @@ while len(sentences) < number_to_generate:
     # The girls wonder  whether James ever ate  apples
 
     # build all lexical items
-    #TODO: throw in modifiers
     try:
         N1 = choice(all_non_singular_animate_nouns)
         N2 = choice(all_animate_nouns, [N1])

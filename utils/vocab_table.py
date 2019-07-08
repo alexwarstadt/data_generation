@@ -15,6 +15,7 @@ for entry in vocab:
 # def get_all(label, value):
 #     return np.array(list(filter(lambda x: x[label]==value, vocab)), dtype=data_type)
 
+
 def get_all(label, value, table=vocab):
     """
     :param label: string. field name.

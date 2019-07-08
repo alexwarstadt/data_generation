@@ -1,105 +1,104 @@
-exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=hadn't	1		Hadn't the waitresses that haven't described that play visited the teenagers?
-exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=hadn't	0		Haven't the waitresses that described that play hadn't visited the teenagers?
-exp=polar-src=0-highest=1-last=0-aux1=haven't-aux2=hadn't	1		Hadn't the waitresses visited the teenagers that haven't described that play?
-exp=polar-src=0-highest=0-last=1-aux1=haven't-aux2=hadn't	0		Haven't the waitresses hadn't visited the teenagers that described that play?
-exp=polar-src=1-highest=1-last=1-aux1=can-aux2=won't	1		Won't a guy who can watch a lot of men investigate many cashiers?
-exp=polar-src=1-highest=0-last=0-aux1=can-aux2=	0		Can a guy who watch a lot of men investigates many cashiers?
-exp=polar-src=0-highest=1-last=0-aux1=can-aux2=won't	1		Won't a guy investigate many cashiers who can watch a lot of men?
-exp=polar-src=0-highest=0-last=1-aux1=can-aux2=	0		Can a guy investigates many cashiers who watch a lot of men?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=are	1		Are boys that hugged some child fleeing from some waiters?
-exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=are	0		Didn't boys that hug some child are fleeing from some waiters?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=are	1		Are boys fleeing from some waiters that hugged some child?
-exp=polar-src=0-highest=0-last=1-aux1=didn't-aux2=are	0		Didn't boys are fleeing from some waiters that hug some child?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=can	1		Can every customer that attacks some women forget every lady?
-exp=polar-src=1-highest=0-last=0-aux1=could-aux2=	0		Could every customer that attack some women forgets every lady?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=can	1		Can every customer forget every lady that attacks some women?
-exp=polar-src=0-highest=0-last=1-aux1=could-aux2=	0		Could every customer forgets every lady that attack some women?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=wasn't	1		Wasn't that actress that loved the waiter leaving some driver?
-exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=wasn't	0		Wouldn't that actress that love the waiter wasn't leaving some driver?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=wasn't	1		Wasn't that actress leaving some driver that loved the waiter?
-exp=polar-src=0-highest=0-last=1-aux1=wouldn't-aux2=wasn't	0		Wouldn't that actress wasn't leaving some driver that love the waiter?
-exp=polar-src=1-highest=1-last=1-aux1=can-aux2=can't	1		Can't some students that can know some adult like the child?
-exp=polar-src=1-highest=0-last=0-aux1=can-aux2=	0		Can some students that know some adult liked the child?
-exp=polar-src=0-highest=1-last=0-aux1=can-aux2=can't	1		Can't some students like the child that can know some adult?
-exp=polar-src=0-highest=0-last=1-aux1=can-aux2=	0		Can some students liked the child that know some adult?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=aren't	1		Aren't the actors who help many waitresses visiting some actors?
-exp=polar-src=1-highest=0-last=0-aux1=couldn't-aux2=aren't	0		Couldn't the actors who help many waitresses aren't visiting some actors?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=aren't	1		Aren't the actors visiting some actors who help many waitresses?
-exp=polar-src=0-highest=0-last=1-aux1=couldn't-aux2=aren't	0		Couldn't the actors aren't visiting some actors who help many waitresses?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=doesn't	1		Doesn't this patient who observes that doctor hug some patient?
-exp=polar-src=1-highest=0-last=0-aux1=might-aux2=	0		Might this patient who observe that doctor hugged some patient?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=doesn't	1		Doesn't this patient hug some patient who observes that doctor?
-exp=polar-src=0-highest=0-last=1-aux1=might-aux2=	0		Might this patient hugged some patient who observe that doctor?
-exp=polar-src=1-highest=1-last=1-aux1=can't-aux2=might	1		Might the doctor that can't admire that lady know some woman?
-exp=polar-src=1-highest=0-last=0-aux1=can't-aux2=might	0		Can't the doctor that admire that lady might know some woman?
-exp=polar-src=0-highest=1-last=0-aux1=can't-aux2=might	1		Might the doctor know some woman that can't admire that lady?
-exp=polar-src=0-highest=0-last=1-aux1=can't-aux2=might	0		Can't the doctor might know some woman that admire that lady?
-exp=polar-src=1-highest=1-last=1-aux1=will-aux2=shouldn't	1		Shouldn't that adult who will lift this car forget some dancers?
-exp=polar-src=1-highest=0-last=0-aux1=will-aux2=shouldn't	0		Will that adult who lift this car shouldn't forget some dancers?
-exp=polar-src=0-highest=1-last=0-aux1=will-aux2=shouldn't	1		Shouldn't that adult forget some dancers who will lift this car?
-exp=polar-src=0-highest=0-last=1-aux1=will-aux2=shouldn't	0		Will that adult shouldn't forget some dancers who lift this car?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=will	1		Will many customers that fled from that teacher listen to a lot of customers?
-exp=polar-src=1-highest=0-last=0-aux1=shouldn't-aux2=will	0		Shouldn't many customers that flee from that teacher will listen to a lot of customers?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=will	1		Will many customers listen to a lot of customers that fled from that teacher?
-exp=polar-src=0-highest=0-last=1-aux1=shouldn't-aux2=will	0		Shouldn't many customers will listen to a lot of customers that flee from that teacher?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=wouldn't	1		Wouldn't every person that skates around all movie theaters insult some student?
-exp=polar-src=1-highest=0-last=0-aux1=did-aux2=	0		Did every person that skate around all movie theaters insults some student?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=wouldn't	1		Wouldn't every person insult some student that skates around all movie theaters?
-exp=polar-src=0-highest=0-last=1-aux1=did-aux2=	0		Did every person insults some student that skate around all movie theaters?
-exp=polar-src=1-highest=1-last=1-aux1=could-aux2=could	1		Could the person that could love every cashier dislike that guy?
-exp=polar-src=1-highest=0-last=0-aux1=could-aux2=could	0		Could the person that love every cashier could dislike that guy?
-exp=polar-src=0-highest=1-last=0-aux1=could-aux2=could	1		Could the person dislike that guy that could love every cashier?
-exp=polar-src=0-highest=0-last=1-aux1=could-aux2=could	0		Could the person could dislike that guy that love every cashier?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=won't	1		Won't that doctor that hugged all dancers reference the guest?
-exp=polar-src=1-highest=0-last=0-aux1=can-aux2=won't	0		Can that doctor that hug all dancers won't reference the guest?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=won't	1		Won't that doctor reference the guest that hugged all dancers?
-exp=polar-src=0-highest=0-last=1-aux1=can-aux2=won't	0		Can that doctor won't reference the guest that hug all dancers?
-exp=polar-src=1-highest=1-last=1-aux1=could-aux2=could	1		Could the person that could sell some scarf admire a student?
-exp=polar-src=1-highest=0-last=0-aux1=could-aux2=	0		Could the person that sell some scarf admires a student?
-exp=polar-src=0-highest=1-last=0-aux1=could-aux2=could	1		Could the person admire a student that could sell some scarf?
-exp=polar-src=0-highest=0-last=1-aux1=could-aux2=	0		Could the person admires a student that sell some scarf?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=could	1		Could some actor who forgot this commentary kiss this guy?
-exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=	0		Wouldn't some actor who forget this commentary kisses this guy?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=could	1		Could some actor kiss this guy who forgot this commentary?
-exp=polar-src=0-highest=0-last=1-aux1=wouldn't-aux2=	0		Wouldn't some actor kisses this guy who forget this commentary?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=wasn't	1		Wasn't some boy who passed some art gallery visiting a lot of dancers?
-exp=polar-src=1-highest=0-last=0-aux1=could-aux2=wasn't	0		Could some boy who pass some art gallery wasn't visiting a lot of dancers?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=wasn't	1		Wasn't some boy visiting a lot of dancers who passed some art gallery?
-exp=polar-src=0-highest=0-last=1-aux1=could-aux2=wasn't	0		Could some boy wasn't visiting a lot of dancers who pass some art gallery?
-exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=doesn't	1		Doesn't every actor that wasn't going to some hospital visit many boys?
-exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=	0		Wasn't every actor that going to some hospital visited many boys?
-exp=polar-src=0-highest=1-last=0-aux1=wasn't-aux2=doesn't	1		Doesn't every actor visit many boys that wasn't going to some hospital?
-exp=polar-src=0-highest=0-last=1-aux1=wasn't-aux2=	0		Wasn't every actor visited many boys that going to some hospital?
-exp=polar-src=1-highest=1-last=1-aux1=had-aux2=hasn't	1		Hasn't that teenager who had watched a dancer known every guy?
-exp=polar-src=1-highest=0-last=0-aux1=had-aux2=hasn't	0		Had that teenager who watched a dancer hasn't known every guy?
-exp=polar-src=0-highest=1-last=0-aux1=had-aux2=hasn't	1		Hasn't that teenager known every guy who had watched a dancer?
-exp=polar-src=0-highest=0-last=1-aux1=had-aux2=hasn't	0		Had that teenager hasn't known every guy who watched a dancer?
-exp=polar-src=1-highest=1-last=1-aux1=could-aux2=should	1		Should an actress that could clean many gloves attack that doctor?
-exp=polar-src=1-highest=0-last=0-aux1=could-aux2=	0		Could an actress that clean many gloves attacks that doctor?
-exp=polar-src=0-highest=1-last=0-aux1=could-aux2=should	1		Should an actress attack that doctor that could clean many gloves?
-exp=polar-src=0-highest=0-last=1-aux1=could-aux2=	0		Could an actress attacks that doctor that clean many gloves?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=won't	1		Won't some play that insulted this essay praise a lot of students?
-exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=	0		Wouldn't some play that insult this essay praises a lot of students?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=won't	1		Won't some play praise a lot of students that insulted this essay?
-exp=polar-src=0-highest=0-last=1-aux1=wouldn't-aux2=	0		Wouldn't some play praises a lot of students that insult this essay?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=won't	1		Won't some child who discusses all newspaper articles describe that commentary?
-exp=polar-src=1-highest=0-last=0-aux1=does-aux2=	0		Does some child who discuss all newspaper articles describes that commentary?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=won't	1		Won't some child describe that commentary who discusses all newspaper articles?
-exp=polar-src=0-highest=0-last=1-aux1=does-aux2=	0		Does some child describes that commentary who discuss all newspaper articles?
-exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=has	1		Has the newspaper article that wasn't praising all stories described pedestrians?
-exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=has	0		Wasn't the newspaper article that praising all stories has described pedestrians?
-exp=polar-src=0-highest=1-last=0-aux1=wasn't-aux2=has	1		Has the newspaper article described pedestrians that wasn't praising all stories?
-exp=polar-src=0-highest=0-last=1-aux1=wasn't-aux2=has	0		Wasn't the newspaper article has described pedestrians that praising all stories?
-exp=polar-src=1-highest=1-last=1-aux1=isn't-aux2=wouldn't	1		Wouldn't this actor who isn't walking through some museums reference these drivers?
-exp=polar-src=1-highest=0-last=0-aux1=isn't-aux2=	0		Isn't this actor who walking through some museums references these drivers?
-exp=polar-src=0-highest=1-last=0-aux1=isn't-aux2=wouldn't	1		Wouldn't this actor reference these drivers who isn't walking through some museums?
-exp=polar-src=0-highest=0-last=1-aux1=isn't-aux2=	0		Isn't this actor references these drivers who walking through some museums?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=wouldn't	1		Wouldn't these girls who describe the library insult all essays?
-exp=polar-src=1-highest=0-last=0-aux1=might-aux2=wouldn't	0		Might these girls who describe the library wouldn't insult all essays?
-exp=polar-src=0-highest=1-last=0-aux1=-aux2=wouldn't	1		Wouldn't these girls insult all essays who describe the library?
-exp=polar-src=0-highest=0-last=1-aux1=might-aux2=wouldn't	0		Might these girls wouldn't insult all essays who describe the library?
-exp=polar-src=1-highest=1-last=1-aux1=-aux2=can	1		Can some patients that worked with actors investigate many adults?
-exp=polar-src=1-highest=0-last=0-aux1=should-aux2=can	0		Should some patients that work with actors can investigate many adults?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=shouldn't	1		Shouldn't some senator who drops by the public park discuss the patient?
+exp=polar-src=1-highest=0-last=0-aux1=might-aux2=	0		Might some senator who drop by the public park discusses the patient?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=shouldn't	1		Shouldn't some senator discuss the patient who drops by the public park?
+exp=polar-src=0-highest=0-last=1-aux1=might-aux2=	0		Might some senator discusses the patient who drop by the public park?
+exp=polar-src=1-highest=1-last=1-aux1=is-aux2=didn't	1		Didn't every adult who is bringing some cup help many eyes?
+exp=polar-src=1-highest=0-last=0-aux1=is-aux2=didn't	0		Is every adult who bringing some cup didn't help many eyes?
+exp=polar-src=0-highest=1-last=0-aux1=is-aux2=didn't	1		Didn't every adult help many eyes who is bringing some cup?
+exp=polar-src=0-highest=0-last=1-aux1=is-aux2=didn't	0		Is every adult didn't help many eyes who bringing some cup?
+exp=polar-src=1-highest=1-last=1-aux1=hasn't-aux2=couldn't	1		Couldn't a teacher who hasn't remembered guys leave the waitresses?
+exp=polar-src=1-highest=0-last=0-aux1=hasn't-aux2=	0		Hasn't a teacher who remembered guys left the waitresses?
+exp=polar-src=0-highest=1-last=0-aux1=hasn't-aux2=couldn't	1		Couldn't a teacher leave the waitresses who hasn't remembered guys?
+exp=polar-src=0-highest=0-last=1-aux1=hasn't-aux2=	0		Hasn't a teacher left the waitresses who remembered guys?
+exp=polar-src=1-highest=1-last=1-aux1=can't-aux2=doesn't	1		Doesn't some teacher who can't remember that cafe work with many college campuses?
+exp=polar-src=1-highest=0-last=0-aux1=can't-aux2=	0		Can't some teacher who remember that cafe works with many college campuses?
+exp=polar-src=0-highest=1-last=0-aux1=can't-aux2=doesn't	1		Doesn't some teacher work with many college campuses who can't remember that cafe ?
+exp=polar-src=0-highest=0-last=1-aux1=can't-aux2=	0		Can't some teacher works with many college campuses who remember that cafe ?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=is	1		Is every pedestrian that respects that cafe describing some essay?
+exp=polar-src=1-highest=0-last=0-aux1=could-aux2=is	0		Could every pedestrian that respect that cafe is describing some essay?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=is	1		Is every pedestrian describing some essay that respects that cafe ?
+exp=polar-src=0-highest=0-last=1-aux1=could-aux2=is	0		Could every pedestrian is describing some essay that respect that cafe ?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=had	1		Had girls who haven't brought all shoes remembered the skirt?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=had	0		Haven't girls who brought all shoes had remembered the skirt?
+exp=polar-src=0-highest=1-last=0-aux1=haven't-aux2=had	1		Had girls remembered the skirt who haven't brought all shoes?
+exp=polar-src=0-highest=0-last=1-aux1=haven't-aux2=had	0		Haven't girls had remembered the skirt who brought all shoes?
+exp=polar-src=1-highest=1-last=1-aux1=might-aux2=was	1		Was this guy who might see that cashier hugging every restaurant?
+exp=polar-src=1-highest=0-last=0-aux1=might-aux2=was	0		Might this guy who see that cashier was hugging every restaurant?
+exp=polar-src=0-highest=1-last=0-aux1=might-aux2=was	1		Was this guy hugging every restaurant who might see that cashier?
+exp=polar-src=0-highest=0-last=1-aux1=might-aux2=was	0		Might this guy was hugging every restaurant who see that cashier?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=wouldn't	1		Wouldn't the child that discussed the art gallery help the ladies?
+exp=polar-src=1-highest=0-last=0-aux1=will-aux2=wouldn't	0		Will the child that discuss the art gallery wouldn't help the ladies?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=wouldn't	1		Wouldn't the child help the ladies that discussed the art gallery?
+exp=polar-src=0-highest=0-last=1-aux1=will-aux2=wouldn't	0		Will the child wouldn't help the ladies that discuss the art gallery?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=would	1		Would this patient who examined many essays describe all couches?
+exp=polar-src=1-highest=0-last=0-aux1=could-aux2=	0		Could this patient who examine many essays describes all couches?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=would	1		Would this patient describe all couches who examined many essays?
+exp=polar-src=0-highest=0-last=1-aux1=could-aux2=	0		Could this patient describes all couches who examine many essays?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=might	1		Might some child that cleaned these forks describe these banks?
+exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=	0		Wouldn't some child that clean these forks describes these banks?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=might	1		Might some child describe these banks that cleaned these forks?
+exp=polar-src=0-highest=0-last=1-aux1=wouldn't-aux2=	0		Wouldn't some child describes these banks that clean these forks?
+exp=polar-src=1-highest=1-last=1-aux1=hasn't-aux2=shouldn't	1		Shouldn't a waiter that hasn't fled from the waiters hug hospitals?
+exp=polar-src=1-highest=0-last=0-aux1=hasn't-aux2=	0		Hasn't a waiter that fled from the waiters hugs hospitals?
+exp=polar-src=0-highest=1-last=0-aux1=hasn't-aux2=shouldn't	1		Shouldn't a waiter hug hospitals that hasn't fled from the waiters?
+exp=polar-src=0-highest=0-last=1-aux1=hasn't-aux2=	0		Hasn't a waiter hugs hospitals that fled from the waiters?
+exp=polar-src=1-highest=1-last=1-aux1=had-aux2=are	1		Are waitresses who had walked through many high schools working with some actresses?
+exp=polar-src=1-highest=0-last=0-aux1=had-aux2=are	0		Had waitresses who walked through many high schools are working with some actresses?
+exp=polar-src=0-highest=1-last=0-aux1=had-aux2=are	1		Are waitresses working with some actresses who had walked through many high schools?
+exp=polar-src=0-highest=0-last=1-aux1=had-aux2=are	0		Had waitresses are working with some actresses who walked through many high schools?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=would	1		Would this boy who returned to all actresses approach a car?
+exp=polar-src=1-highest=0-last=0-aux1=didn't-aux2=would	0		Didn't this boy who return to all actresses would approach a car?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=would	1		Would this boy approach a car who returned to all actresses?
+exp=polar-src=0-highest=0-last=1-aux1=didn't-aux2=would	0		Didn't this boy would approach a car who return to all actresses?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=were	1		Were a lot of teachers that hated some senator praising some customers?
+exp=polar-src=1-highest=0-last=0-aux1=can't-aux2=were	0		Can't a lot of teachers that hate some senator were praising some customers?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=were	1		Were a lot of teachers praising some customers that hated some senator?
+exp=polar-src=0-highest=0-last=1-aux1=can't-aux2=were	0		Can't a lot of teachers were praising some customers that hate some senator?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=would	1		Would this person that observed these patients watch that movie?
+exp=polar-src=1-highest=0-last=0-aux1=shouldn't-aux2=	0		Shouldn't this person that observe these patients watches that movie?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=would	1		Would this person watch that movie that observed these patients?
+exp=polar-src=0-highest=0-last=1-aux1=shouldn't-aux2=	0		Shouldn't this person watches that movie that observe these patients?
+exp=polar-src=1-highest=1-last=1-aux1=haven't-aux2=will	1		Will all waiters who haven't watched cashiers visit all pants?
+exp=polar-src=1-highest=0-last=0-aux1=haven't-aux2=	0		Haven't all waiters who watched cashiers visited all pants?
+exp=polar-src=0-highest=1-last=0-aux1=haven't-aux2=will	1		Will all waiters visit all pants who haven't watched cashiers?
+exp=polar-src=0-highest=0-last=1-aux1=haven't-aux2=	0		Haven't all waiters visited all pants who watched cashiers?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=wouldn't	1		Wouldn't some senator who wasn't being at these public parks hate that public park?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=	0		Wasn't some senator who being at these public parks hates that public park?
+exp=polar-src=0-highest=1-last=0-aux1=wasn't-aux2=wouldn't	1		Wouldn't some senator hate that public park who wasn't being at these public parks?
+exp=polar-src=0-highest=0-last=1-aux1=wasn't-aux2=	0		Wasn't some senator hates that public park who being at these public parks?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=will	1		Will this teacher that arrived at that college campus watch people?
+exp=polar-src=1-highest=0-last=0-aux1=could-aux2=	0		Could this teacher that arrive at that college campus watched people?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=will	1		Will this teacher watch people that arrived at that college campus?
+exp=polar-src=0-highest=0-last=1-aux1=could-aux2=	0		Could this teacher watched people that arrive at that college campus?
+exp=polar-src=1-highest=1-last=1-aux1=wasn't-aux2=might	1		Might some woman who wasn't fleeing from these schools return to the shoes?
+exp=polar-src=1-highest=0-last=0-aux1=wasn't-aux2=	0		Wasn't some woman who fleeing from these schools returns to the shoes?
+exp=polar-src=0-highest=1-last=0-aux1=wasn't-aux2=might	1		Might some woman return to the shoes who wasn't fleeing from these schools?
+exp=polar-src=0-highest=0-last=1-aux1=wasn't-aux2=	0		Wasn't some woman returns to the shoes who fleeing from these schools?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=can	1		Can many waiters that have escaped from these movie theaters talk to a guy?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=	0		Have many waiters that escaped from these movie theaters talked to a guy?
+exp=polar-src=0-highest=1-last=0-aux1=have-aux2=can	1		Can many waiters talk to a guy that have escaped from these movie theaters?
+exp=polar-src=0-highest=0-last=1-aux1=have-aux2=	0		Have many waiters talked to a guy that escaped from these movie theaters?
+exp=polar-src=1-highest=1-last=1-aux1=have-aux2=can	1		Can some actresses who have bought a rug care for the plays?
+exp=polar-src=1-highest=0-last=0-aux1=have-aux2=can	0		Have some actresses who bought a rug can care for the plays?
+exp=polar-src=0-highest=1-last=0-aux1=have-aux2=can	1		Can some actresses care for the plays who have bought a rug?
+exp=polar-src=0-highest=0-last=1-aux1=have-aux2=can	0		Have some actresses can care for the plays who bought a rug?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=had	1		Had a lot of girls that watched many senators talked to this senator?
+exp=polar-src=1-highest=0-last=0-aux1=can't-aux2=had	0		Can't a lot of girls that watch many senators had talked to this senator?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=had	1		Had a lot of girls talked to this senator that watched many senators?
+exp=polar-src=0-highest=0-last=1-aux1=can't-aux2=had	0		Can't a lot of girls had talked to this senator that watch many senators?
+exp=polar-src=1-highest=1-last=1-aux1=-aux2=would	1		Would that student that boycotts that movie theater return to some public park?
+exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=would	0		Wouldn't that student that boycott that movie theater would return to some public park?
+exp=polar-src=0-highest=1-last=0-aux1=-aux2=would	1		Would that student return to some public park that boycotts that movie theater?
+exp=polar-src=0-highest=0-last=1-aux1=wouldn't-aux2=would	0		Wouldn't that student would return to some public park that boycott that movie theater?
+exp=polar-src=1-highest=1-last=1-aux1=wouldn't-aux2=had	1		Had this customer that wouldn't break some dishes loved some grocery stores?
+exp=polar-src=1-highest=0-last=0-aux1=wouldn't-aux2=had	0		Wouldn't this customer that break some dishes had loved some grocery stores?
+exp=polar-src=0-highest=1-last=0-aux1=wouldn't-aux2=had	1		Had this customer loved some grocery stores that wouldn't break some dishes?
+exp=polar-src=0-highest=0-last=1-aux1=wouldn't-aux2=had	0		Wouldn't this customer had loved some grocery stores that break some dishes?
+exp=polar-src=1-highest=1-last=1-aux1=won't-aux2=haven't	1		Haven't many teenagers that won't remember a boy watched every doctor?
+exp=polar-src=1-highest=0-last=0-aux1=won't-aux2=haven't	0		Won't many teenagers that remember a boy haven't watched every doctor?
+exp=polar-src=0-highest=1-last=0-aux1=won't-aux2=haven't	1		Haven't many teenagers watched every doctor that won't remember a boy?
+exp=polar-src=0-highest=0-last=1-aux1=won't-aux2=haven't	0		Won't many teenagers haven't watched every doctor that remember a boy?
+=0-aux1=should-aux2=can	0		Should some patients that work with actors can investigate many adults?
 exp=polar-src=0-highest=1-last=0-aux1=-aux2=can	1		Can some patients investigate many adults that worked with actors?
 exp=polar-src=0-highest=0-last=1-aux1=should-aux2=can	0		Should some patients can investigate many adults that work with actors?
 exp=polar-src=1-highest=1-last=1-aux1=-aux2=wouldn't	1		Wouldn't the people who have some pants listen to a lot of waiters?
