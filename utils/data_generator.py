@@ -13,27 +13,44 @@ from utils.randomize import choice
 
 class Generator:
     def __init__(self):
+        self.category = None
+        self.field = None
+        self.linguistics = None
+        self.UID = None
+
+        # NOUNS
         self.all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
+        self.all_singular_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1"), ("sg", "1")])
         self.all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
         self.all_documents = get_all_conjunctive([("category", "N"), ("document", "1")])
         self.all_gendered_nouns = np.union1d(get_all("gender", "m"), get_all("gender", "f"))
         self.all_singular_neuter_animate_nouns = get_all_conjunctive(
             [("category", "N"), ("sg", "1"), ("animate", "1"), ("gender", "n")])
-        self.all_plural_animate_nouns = get_all("pl", "1", self.all_animate_nouns)
-        self.all_frequent_quantifiers = get_all("frequent", "1", get_all("category", "(S/(S\\NP))/N"))
-        self.all_reflexives = get_all("category_2", "refl")
+        self.all_plural_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1"), ("pl", "1")])
+        self.all_plural_animate_nouns = np.intersect1d(self.all_animate_nouns, self.all_plural_nouns)
+        self.all_common_nouns = get_all_conjunctive([("category", "N"), ("properNoun", "0")])
 
-        # gather potentially reflexive predicates
+        # VERBS
         self.all_transitive_verbs = get_all("category", "(S\\NP)/NP")
         self.all_anim_anim_verbs = get_matched_by(choice(self.all_animate_nouns), "arg_1",
                                              get_matched_by(choice(self.all_animate_nouns), "arg_2", self.all_transitive_verbs))
         self.all_doc_doc_verbs = get_matched_by(choice(self.all_documents), "arg_1",
                                            get_matched_by(choice(self.all_documents), "arg_2", self.all_transitive_verbs))
         self.all_refl_preds = np.union1d(self.all_anim_anim_verbs, self.all_doc_doc_verbs)
+        self.all_non_plural_transitive_verbs = np.setdiff1d(self.all_transitive_verbs, get_all_conjunctive([("pres", "1"), ("3sg", "0")]))
+        self.all_plural_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], self.all_transitive_verbs)
+        self.all_singular_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], self.all_transitive_verbs)
+
+        # OTHER
+        self.all_frequent_quantifiers = get_all("frequent", "1", get_all("category", "(S/(S\\NP))/N"))
         self.all_common_dets = np.append(get_all("expression", "the"),
                                     np.append(get_all("expression", "a"), get_all("expression", "an")))
         self.all_relativizers = get_all("category_2", "rel")
+        self.all_reflexives = get_all("category_2", "refl")
         return
+
+    def make_metadata(self):
+        return "category=%s-field=%s-linguistics_term=%s-UID=%s" % (self.category, self.field, self.linguistics, self.UID)
 
     def sample(self):
         metadata = None
@@ -49,11 +66,11 @@ class Generator:
             output = absolute_path
         else:
             raise Exception("You need to give an output path")
-        sentences = set()
-        while len(sentences) < number_to_generate:
+        past_sentences = set()
+        while len(past_sentences) < number_to_generate:
             metadata, judgments, sentences = self.sample()
             sentences = [string_beautify(s) for s in sentences]
-            if sentences[0] not in sentences:
+            if sentences[0] not in past_sentences:
                 for m, j, s in zip(metadata, judgments, sentences):
                     output.write("%s\t%d\t\t%s\n" % (m, j, s))
-                sentences.add(sentences[0])
+                past_sentences.add(sentences[0])

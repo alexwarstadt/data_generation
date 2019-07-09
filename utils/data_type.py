@@ -42,6 +42,7 @@ data_type = [("expression", "U100000"),
              ("arg_clause", "U100"),
              ("homophonous", "U1"),
              ("pluralform", "U1000"),
-             ("sgequalspl", "U1")
+             ("sgequalspl", "U1"),
+             ("properNoun", "U1"),
             ]
 
