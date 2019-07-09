@@ -48,6 +48,7 @@ class Generator:
         self.all_relativizers = get_all("category_2", "rel")
         self.all_reflexives = get_all("category_2", "refl")
         self.all_ACCpronouns = get_all("category_2", "proACC")
+        self.all_NOMpronouns = get_all("category_2", "proNOM")
         self.all_embedding_verbs = get_all("category_2", "V_embedding")
         return
 
