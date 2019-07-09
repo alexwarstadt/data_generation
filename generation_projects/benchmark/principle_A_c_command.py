@@ -29,11 +29,12 @@ class BindingGenerator(data_generator.Generator):
         C1 = choice(get_matched_by(N1, "arg_1", self.all_relativizers))
         Vembed = choice(get_matched_by(N1, "arg_1", self.all_transitive_verbs))
         try:
-            N2 =  N_to_DP_mutate(choice(get_matches_of(Vembed, "arg_2", self.all_safe_nouns)))
+            N2 = choice(get_matches_of(Vembed, "arg_2", self.all_safe_nouns))
         except TypeError:
             pass
         while is_match_disj(N2, refl_match["arg_1"]):
             N2 = choice(get_matches_of(Vembed, "arg_2", self.all_safe_nouns))
+        N2 = N_to_DP_mutate(N2)
         # D2 = choice(get_matched_by(N2, "arg_1", self.all_common_dets))
         refl_mismatch = choice(get_matched_by(N2, "arg_1", self.all_reflexives))
 
