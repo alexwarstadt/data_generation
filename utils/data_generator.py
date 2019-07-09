@@ -47,6 +47,8 @@ class Generator:
                                     np.append(get_all("expression", "a"), get_all("expression", "an")))
         self.all_relativizers = get_all("category_2", "rel")
         self.all_reflexives = get_all("category_2", "refl")
+        self.all_ACCpronouns = get_all("category_2", "proACC")
+        self.all_embedding_verbs = get_all("category_2", "V_embedding")
         return
 
     def make_metadata(self):
@@ -63,7 +65,7 @@ class Generator:
             project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
             output = open(os.path.join(project_root, rel_output_path), "w")
         elif absolute_path is not None:
-            output = absolute_path
+            output = open(absolute_path, "w")
         else:
             raise Exception("You need to give an output path")
         past_sentences = set()
