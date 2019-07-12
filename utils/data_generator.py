@@ -32,6 +32,7 @@ class Generator:
 
         # VERBS
         self.all_transitive_verbs = get_all("category", "(S\\NP)/NP")
+        self.all_intransitive_verbs = get_all("category", "S\\NP")
         self.all_anim_anim_verbs = get_matched_by(choice(self.all_animate_nouns), "arg_1",
                                              get_matched_by(choice(self.all_animate_nouns), "arg_2", self.all_transitive_verbs))
         self.all_doc_doc_verbs = get_matched_by(choice(self.all_documents), "arg_1",
