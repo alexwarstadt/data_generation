@@ -24,6 +24,7 @@ class Generator:
 
         # VERBS
         self.all_transitive_verbs = get_all("category", "(S\\NP)/NP")
+        self.all_intransitive_verbs = get_all("category", "S\\NP")
         self.all_anim_anim_verbs = get_matched_by(choice(self.all_animate_nouns), "arg_1",
                                              get_matched_by(choice(self.all_animate_nouns), "arg_2", self.all_transitive_verbs))
         self.all_doc_doc_verbs = get_matched_by(choice(self.all_documents), "arg_1",
@@ -40,7 +41,9 @@ class Generator:
                                     np.append(get_all("expression", "a"), get_all("expression", "an")))
         self.all_relativizers = get_all("category_2", "rel")
         self.all_reflexives = get_all("category_2", "refl")
-
+        self.all_ACCpronouns = get_all("category_2", "proACC")
+        self.all_NOMpronouns = get_all("category_2", "proNOM")
+        self.all_embedding_verbs = get_all("category_2", "V_embedding")
         self.data_fields = None
         return
 
@@ -57,7 +60,7 @@ class Generator:
             project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
             output = open(os.path.join(project_root, rel_output_path), "w")
         elif absolute_path is not None:
-            output = absolute_path
+            output = open(absolute_path, "w")
         else:
             raise Exception("You need to give an output path")
         past_sentences = set()
