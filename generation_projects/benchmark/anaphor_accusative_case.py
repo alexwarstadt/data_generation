@@ -9,7 +9,14 @@ from functools import reduce
 
 class AnaphorGenerator(data_generator.Generator):
     def __init__(self):
-        super().__init__()
+        super().__init__(category="agreement",
+                         field="morphology",
+                         linguistics="anaphor_agreement",
+                         uid="simple_anaphor_number_agreement",
+                         simple_lm_method=True,
+                         one_prefix_method=True,
+                         two_prefix_method=False,
+                         lexically_identical=True)
         # self.all_safe_nouns = np.setdiff1d(self.all_singular_nouns, self.all_singular_neuter_animate_nouns)
         # self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, self.all_common_nouns)
         # self.all_singular_reflexives = reduce(np.union1d, (get_all("expression", "himself"),
@@ -31,6 +38,14 @@ class AnaphorGenerator(data_generator.Generator):
         Refl = choice(get_matched_by(N1, "arg_1", self.all_reflexives))
         V1 = conjugate(V1, N1)
 
+        data = {
+            "sentence_good": "%s %s %s." % (N1[0], V1[0], refl_match[0]),
+            "sentence_bad": "%s %s %s." % (N1[0], V1[0], refl_mismatch[0]),
+            "one_prefix_prefix": "%s %s" % (N1[0], V1[0]),
+            "one_prefix_word_good": refl_match[0],
+            "one_prefix_word_bad": refl_mismatch[0]
+        }
+
         metadata = [
             "%s-obj_extract=1" % (self.make_metadata()),
             "%s-obj_extract=0" % (self.make_metadata())
@@ -44,7 +59,7 @@ class AnaphorGenerator(data_generator.Generator):
 
 
 generator = AnaphorGenerator()
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/benchmark/%s.tsv" % generator.UID)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/benchmark/%s.jsonl" % generator.UID)
 
 
 
