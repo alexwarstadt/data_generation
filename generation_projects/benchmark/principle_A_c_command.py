@@ -10,7 +10,7 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(category="agreement",
                          field="syntax/semantics",
-                         linguistics="anaphor_agreement",
+                         linguistics="binding",
                          uid="principle_A_c_command",
                          simple_lm_method=True,
                          one_prefix_method=True,
@@ -57,6 +57,7 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
 
 binding_generator = BindingGenerator()
 binding_generator.generate_paradigm(absolute_path="G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation/outputs/benchmark/%s.jsonl" % binding_generator.uid)
+
 
 
 

@@ -2,13 +2,16 @@ from utils.vocab_table import *
 from random import choice
 
 all_auxiliaries = get_all("category", "(S\\NP)/(S[bare]\\NP)")
-all_non_negative_auxiliaries = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("negated", "0")])
-all_negative_auxiliaries = get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("negated", "1")])
+all_non_negative_auxiliaries = get_all("negated", "0", all_auxiliaries)
+all_negative_auxiliaries = get_all("negated", "1", all_auxiliaries)
 
-all_auxiliaries_no_null = np.setdiff1d(get_all("category", "(S\\NP)/(S[bare]\\NP)"),get_all("expression", ""))
-all_non_negative_auxiliaries_no_null = np.setdiff1d(get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("negated", "0")]),get_all("expression", ""))
-all_negative_auxiliaries_no_null = np.setdiff1d(get_all_conjunctive([("category", "(S\\NP)/(S[bare]\\NP)"), ("negated", "1")]),get_all("expression", ""))
+all_auxiliaries_no_null = np.setdiff1d(all_auxiliaries, get_all("expression", ""))
+all_non_negative_auxiliaries_no_null = np.intersect1d(all_non_negative_auxiliaries, all_auxiliaries_no_null)
+all_negative_auxiliaries_no_null = np.intersect1d(all_negative_auxiliaries, all_auxiliaries_no_null)
 
+all_copulas =  get_all("category_2", "copula")
+all_non_negative_copulas = get_all("negated", "0", all_copulas)
+all_negative_copulas = get_all("negated", "1", all_copulas)
 
 def conjugate(verb, subj, allow_negated=True, require_negated=False):
     """
@@ -50,6 +53,17 @@ def return_aux(verb, subj, allow_negated=True, require_negated=False):
     verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
     aux = choice(verb_agree_auxiliaries)
     return aux
+
+def return_copula(subj, allow_negated=True, require_negated=False):
+    if allow_negated:
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_copulas)
+    else:
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_copulas)
+    if require_negated:
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_copulas)
+    aux = choice(subj_agree_auxiliaries)
+    return aux
+
 
 def require_aux(verb, subj, allow_negated=True, require_negated=False):
     """
