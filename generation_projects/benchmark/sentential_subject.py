@@ -33,17 +33,14 @@ class SentSubjGenerator(data_generator.BenchmarkGenerator):
         # wh  V_do N1_poss Ving    V2        N2
 
         Ving = choice(self.all_transitive_ing_verbs)
-        print(Ving[0], Ving['arg_2'])
         try:
             N1_poss = N_to_DP_mutate(choice(get_matches_of(Ving, "arg_1", self.all_safe_common_nouns)))
         except IndexError:
             pass
         if N1_poss['pl'] == "1" and N1_poss['irrpl'] != "1":
             N1_poss[0] = N1_poss[0]+"'"
-            print("is plural ", N1_poss[0])
         else:
             N1_poss[0] = N1_poss[0]+"'s"
-            print("is not plural ", N1_poss[0])
         V2 = choice(self.all_inanim_anim_nonfinite_transitive_verbs)
         V_do = return_aux(V2, N1_poss, allow_negated=False)
         try:
