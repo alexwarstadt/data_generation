@@ -13,10 +13,9 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
                          linguistics="binding",
                          uid="principle_A_c_command",
                          simple_lm_method=True,
-                         one_prefix_method=False,
+                         one_prefix_method=True,
                          two_prefix_method=False,
-                         lexically_identical=False
-        )
+                         lexically_identical=False)
         self.all_safe_nouns = np.setdiff1d(self.all_nouns, self.all_singular_neuter_animate_nouns)
         self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, self.all_common_nouns)
 
@@ -33,7 +32,6 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         except IndexError:
             pass
         refl_match = choice(get_matched_by(N1, "arg_1", self.all_reflexives))
-        # D1 = choice(get_matched_by(N1, "arg_1", self.all_common_dets))
         C1 = choice(get_matched_by(N1, "arg_1", self.all_relativizers))
         Vembed = choice(get_matched_by(N1, "arg_1", self.all_transitive_verbs))
         try:
@@ -43,7 +41,6 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         while is_match_disj(N2, refl_match["arg_1"]):
             N2 = choice(get_matches_of(Vembed, "arg_2", self.all_safe_nouns))
         N2 = N_to_DP_mutate(N2)
-        # D2 = choice(get_matched_by(N2, "arg_1", self.all_common_dets))
         refl_mismatch = choice(get_matched_by(N2, "arg_1", self.all_reflexives))
 
         V1 = conjugate(V1, N1)
@@ -52,15 +49,15 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         data = {
             "sentence_good": "%s %s %s %s %s %s." % (N1[0], C1[0], Vembed[0], N2[0], V1[0], refl_match[0]),
             "sentence_bad": "%s %s %s %s %s %s." % (N1[0], C1[0], Vembed[0], N2[0], V1[0], refl_mismatch[0]),
-            "one_prefix_prefix": "%s %s %s %s %s." % (N1[0], C1[0], Vembed[0], N2[0], V1[0]),
-            "one_prefix_good": refl_match[0],
-            "one_prefix_bad": refl_mismatch[0]
+            "one_prefix_prefix": "%s %s %s %s %s" % (N1[0], C1[0], Vembed[0], N2[0], V1[0]),
+            "one_prefix_word_good": refl_match[0],
+            "one_prefix_word_bad": refl_mismatch[0]
         }
         return data
 
-
 binding_generator = BindingGenerator()
-binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
+binding_generator.generate_paradigm(absolute_path="G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation/outputs/benchmark/%s.jsonl" % binding_generator.uid)
+
 
 
 
