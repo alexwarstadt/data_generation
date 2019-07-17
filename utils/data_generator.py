@@ -14,6 +14,7 @@ class Generator:
         self.all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
         self.all_singular_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1"), ("sg", "1")])
         self.all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
+        self.all_inanimate_nouns = get_all_conjunctive([("category", "N"), ("animate", "0"), ("frequent", "1")])
         self.all_documents = get_all_conjunctive([("category", "N"), ("document", "1")])
         self.all_gendered_nouns = np.union1d(get_all("gender", "m"), get_all("gender", "f"))
         self.all_singular_neuter_animate_nouns = get_all_conjunctive(
