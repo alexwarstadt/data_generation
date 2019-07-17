@@ -1,6 +1,7 @@
 from utils.conjugate import *
 from utils.string_utils import string_beautify
 # from random import choice
+from functools import reduce
 import numpy as np
 from utils.randomize import choice
 import jsonlines
@@ -29,7 +30,8 @@ class Generator:
                                              get_matched_by(choice(self.all_animate_nouns), "arg_2", self.all_transitive_verbs))
         self.all_doc_doc_verbs = get_matched_by(choice(self.all_documents), "arg_1",
                                            get_matched_by(choice(self.all_documents), "arg_2", self.all_transitive_verbs))
-        self.all_refl_preds = np.union1d(self.all_anim_anim_verbs, self.all_doc_doc_verbs)
+        self.all_refl_nonverbal_predicates = np.extract([x["arg_1"] == x["arg_2"] for x in get_all("category_2", "Pred")], get_all("category_2", "Pred"))
+        self.all_refl_preds = reduce(np.union1d, (self.all_anim_anim_verbs, self.all_doc_doc_verbs))
         self.all_non_plural_transitive_verbs = np.setdiff1d(self.all_transitive_verbs, get_all_conjunctive([("pres", "1"), ("3sg", "0")]))
         self.all_plural_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], self.all_transitive_verbs)
         self.all_singular_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], self.all_transitive_verbs)
@@ -44,6 +46,7 @@ class Generator:
         self.all_ACCpronouns = get_all("category_2", "proACC")
         self.all_NOMpronouns = get_all("category_2", "proNOM")
         self.all_embedding_verbs = get_all("category_2", "V_embedding")
+        self.all_wh_words = get_all("category", "NP_wh")
         self.data_fields = None
         return
 

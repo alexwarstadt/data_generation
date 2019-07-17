@@ -44,5 +44,8 @@ data_type = [("expression", "U100000"),
              ("pluralform", "U1000"),
              ("sgequalspl", "U1"),
              ("properNoun", "U1"),
+             ("topic", "U1"),
+             ("image", "U1"),
+             ("v_embed_sc", "U1"),
             ]
 
