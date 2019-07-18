@@ -26,15 +26,15 @@ pedestrian,N,N,1,1,0,0,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,0,,,
 driver,N,N,1,1,0,0,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,0,,,
 boys,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,0,,,
 girls,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,0,,,
-men,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,0,,,
-women,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,0,,,
+men,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,1,,,,,,,,0,,,
+women,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,1,,,,,,,,0,,,
 ladies,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,0,,,
 guys,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,0,,,
 dancers,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,0,,,
 children,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,0,,,
 teenagers,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,0,,,
 adults,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,1,,n,,,,,,,,,0,,,
-people,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,0,,,
+people,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,1,,,,,,,,0,,,
 senators,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,0,,,
 doctors,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,0,,,
 patients,N,N,1,0,1,0,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,0,,,
@@ -342,12 +342,12 @@ visits,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=1^sg=1,institution=1;animate=1,,,,
 visited,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1,institution=1;animate=1,,,,,,,,,,,,,,,,,,,,,,1,,,,,,
 visited,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1,institution=1;animate=1,,,,,,,,,,,,,,,,,,,,,,1,,,,,,
 visiting,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1,institution=1;animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-appreciate,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-appreciate,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-appreciates,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=1^sg=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-appreciated,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-appreaciated,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-appreciating,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+appreciate,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1,animate=1;document=1;conceptual=1;topic=1;institution=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+appreciate,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,animate=1;document=1;conceptual=1;topic=1;institution=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+appreciates,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=1^sg=1,animate=1;document=1;conceptual=1;topic=1;institution=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+appreciated,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1,animate=1;document=1;conceptual=1;topic=1;institution=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+appreaciated,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1,animate=1;document=1;conceptual=1;topic=1;institution=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+appreciating,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1,animate=1;document=1;conceptual=1;topic=1;institution=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 attack,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 attack,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 attacks,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=1^sg=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -438,6 +438,121 @@ sounds like,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=1^sg=1;document=1^sg=1,animat
 sounded like,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1;document=1,animate=1;document=1;institution=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 sounded like,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1;document=1,animate=1;document=1;institution=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 sounding like,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1;document=1,animate=1;document=1;institution=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aggravate,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aggravate,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aggravates,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aggravated,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aggravated,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+aggravating,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alarm,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alarm,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alarms,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alarmed,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alarmed,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+alarming,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+annoy,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+annoy,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+annoys,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+annoyed,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+annoyed,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+annoying,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+astound,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+astound,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+astounds,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+astounded,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+astounded,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+astounding,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bore,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bore,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bores,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bored,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bored,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+boring,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bother,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bother,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bothers,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bothered,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bothered,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bothering,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+confuse,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+confuse,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+confuses,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+confused,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+confused,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+confusing,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disgust,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disgust,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disgusts,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disgusted,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disgusted,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disgusting,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+distract,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+distract,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+distracts,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+distracted,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+distracted,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+distracting,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disturb,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disturb,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disturbs,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disturbed,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disturbed,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+disturbing,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+embarrass,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+embarrass,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+embarrasses,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+embarrassed,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+embarrassed,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+embarrassing,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hurt,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hurt,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hurts,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hurt,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hurt,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hurting,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impress,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impress,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impresses,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impressed,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impressed,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+impressing,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+irritate,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+irritate,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+irritates,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+irritated,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+irritated,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+irritating,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+scare,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+scare,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+scares,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+scared,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+scared,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+scaring,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shock,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shock,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shocks,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shocked,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shocked,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shocking,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stun,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stun,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stuns,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stunned,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stunned,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stunning,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+upset,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+upset,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+upsets,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+upset,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+upset,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+upsetting,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+worry,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+worry,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=0^sg=0' animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+worries,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=0^sg=1;animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+worried,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+worried,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+worrying,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=0;animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 approach,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 approach,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -590,11 +705,11 @@ argued,S\NP,IV_ag_pl,,,,,1,0,0,1,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,
 argued,S\NP,IV_ag_pl,,,,,0,0,0,0,0,1,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 argue,S\NP,IV_ag_pl,,,,,1,0,1,0,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 argues,,,,,,,1,0,1,0,0,0,1,animate=1^sg=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-argue about,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-arguing about,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-argued about,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-argued about,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-argue about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+argue about,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1^sg=0,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+arguing about,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1^sg=0,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+argued about,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1^sg=0,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+argued about,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1^sg=0,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+argue about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 assemble,S\NP,IV_ag_pl,,,,,0,1,0,0,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 assembling,S\NP,IV_ag_pl,,,,,0,0,0,0,1,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 assembled,S\NP,IV_ag_pl,,,,,1,0,0,1,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -618,12 +733,12 @@ boasted,S\NP,IV_ag,,,,,1,0,0,1,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 boasted,S\NP,IV_ag,,,,,0,0,0,0,0,1,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 boast,S\NP,IV_ag,,,,,1,0,1,0,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 boasts,S\NP,IV_ag,,,,,1,0,1,0,0,0,1,animate=1^sg=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-boast about,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-boasting about,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-boasted about,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-boasted about,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-boast about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-boasts about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=1^sg=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+boast about,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+boasting about,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+boasted about,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+boasted about,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+boast about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+boasts about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=1^sg=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 change,S\NP,IV_ag,,,,,0,1,0,0,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 changing,S\NP,IV_ag,,,,,0,0,0,0,1,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 changed,S\NP,IV_ag,,,,,1,0,0,1,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -667,12 +782,12 @@ complained,S\NP,IV_ag,,,,,1,0,0,1,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 complained,S\NP,IV_ag,,,,,0,0,0,0,0,1,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 complain,S\NP,IV_ag,,,,,1,0,1,0,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 complains,S\NP,IV_ag,,,,,1,0,1,0,0,0,1,animate=1^sg=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-complain about,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-complaining about,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-complained about,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-complained about,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-complain about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-complains about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=1^sg=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+complain about,(S\NP)/NP,TV,,,,,0,1,0,0,0,0,0,animate=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+complaining about,(S\NP)/NP,TV,,,,,0,0,0,0,1,0,0,animate=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+complained about,(S\NP)/NP,TV,,,,,1,0,0,1,0,0,0,animate=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+complained about,(S\NP)/NP,TV,,,,,0,0,0,0,0,1,0,animate=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+complain about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,0,animate=1^sg=0,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+complains about,(S\NP)/NP,TV,,,,,1,0,1,0,0,0,1,animate=1^sg=1,animate=1;document=1;conceptual=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 compromise,S\NP,IV_ag,,,,,0,1,0,0,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 compromising,S\NP,IV_ag,,,,,0,0,0,0,1,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 compromised,S\NP,IV_ag,,,,,1,0,0,1,0,0,0,animate=1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1239,7 +1354,7 @@ was,(S\NP)(S[pred]\NP),copula,,,,,1,0,0,1,0,0,0,sg=1,category=(S[pred]\NP)/NP;ca
 were,(S\NP)(S[pred]\NP),copula,,,,,1,0,0,1,0,0,0,sg=0,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 isn!t,(S\NP)(S[pred]\NP),copula,,,,,1,0,1,0,0,0,1,sg=1,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
 aren!t,(S\NP)(S[pred]\NP),copula,,,,,1,0,1,0,0,0,0,sg=0,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
-wasn!t,(S\NP)(S[pred]\NP),copula,,,,,1,0,0,1,0,0,0,sg=1,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
+wasn!t,(S\NP)(S[pred]\NP),copula,,,,,1,0,0,1,f,0,0,sg=1,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
 weren!t,(S\NP)(S[pred]\NP),copula,,,,,1,0,0,1,0,0,0,sg=0,category=(S[pred]\NP)/NP;category_2=Pred,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1773,6 +1888,18 @@ print of,N/NP,RelN,1,1,0,0,,,,,,,,physical=1,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
 prints of,N/NP,RelN,1,0,1,0,,,,,,,,physical=1,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
 sketch of,N/NP,RelN,1,1,0,0,,,,,,,,physical=1,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
 sketches of,N/NP,RelN,1,0,1,0,,,,,,,,physical=1,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+picture,N,N,1,1,0,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+pictures,N,N,1,0,1,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+painting,N,N,1,1,0,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+paintings,N,N,1,0,1,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+drawing,N,N,1,1,0,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+drawings,N,N,1,0,1,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+photograph,N,N,1,1,0,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+photographs,N,N,1,0,1,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+print,N,N,1,1,0,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+prints,N,N,1,0,1,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+sketch,N,N,1,1,0,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
+sketches,N,N,1,0,1,0,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,0,,1,
 book about,N/NP,RelN,1,1,0,0,,,,,,,,topic=1,,,,,,,,0,,,,1,,0,0,,,,1,,,,,,,0,,,
 books about,N/NP,RelN,1,0,1,0,,,,,,,,topic=1,,,,,,,,0,,,,1,,0,0,,,,1,,,,,,,0,,,
 pamphlet about,N/NP,RelN,0,1,0,0,,,,,,,,topic=1,,,,,,,,0,,,,1,,,0,,,,1,,,,,,,0,,,

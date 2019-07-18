@@ -12,8 +12,9 @@ class Generator:
 
         # NOUNS
         self.all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
-        self.all_singular_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1"), ("sg", "1")])
-        self.all_animate_nouns = get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1")])
+        self.all_singular_nouns = get_all("sg", "1", self.all_nouns)
+        self.all_singular_count_nouns = get_all("mass", "0", self.all_singular_nouns)
+        self.all_animate_nouns = get_all("animate", "1", self.all_nouns)
         self.all_documents = get_all_conjunctive([("category", "N"), ("document", "1")])
         self.all_gendered_nouns = np.union1d(get_all("gender", "m"), get_all("gender", "f"))
         self.all_singular_neuter_animate_nouns = get_all_conjunctive(
@@ -32,13 +33,15 @@ class Generator:
                                            get_matched_by(choice(self.all_documents), "arg_2", self.all_transitive_verbs))
         self.all_refl_nonverbal_predicates = np.extract([x["arg_1"] == x["arg_2"] for x in get_all("category_2", "Pred")], get_all("category_2", "Pred"))
         self.all_refl_preds = reduce(np.union1d, (self.all_anim_anim_verbs, self.all_doc_doc_verbs))
-        self.all_non_plural_transitive_verbs = np.setdiff1d(self.all_transitive_verbs, get_all_conjunctive([("pres", "1"), ("3sg", "0")]))
+        self.all_non_plural_transitive_verbs = np.extract(["sg=0" not in x["arg_1"] and "pl=1" not in x["arg_1"] for x in self.all_transitive_verbs], self.all_transitive_verbs)
         self.all_plural_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], self.all_transitive_verbs)
         self.all_singular_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], self.all_transitive_verbs)
         self.all_non_finite_transitive_verbs = get_all("finite", "0", self.all_transitive_verbs)
 
         # OTHER
-        self.all_frequent_quantifiers = get_all("frequent", "1", get_all("category", "(S/(S\\NP))/N"))
+        self.all_quantifiers = get_all("category", "(S/(S\\NP))/N")
+        self.all_frequent_quantifiers = get_all("frequent", "1", self.all_quantifiers)
+        self.all_quantifiers = get_all("category", "(S/(S\\NP))/N")
         self.all_common_dets = np.append(get_all("expression", "the"),
                                     np.append(get_all("expression", "a"), get_all("expression", "an")))
         self.all_relativizers = get_all("category_2", "rel")
