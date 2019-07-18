@@ -10,7 +10,7 @@ class SentSubjGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(category="movement",
                          field="A_bar_syntax",
-                         linguistics="",
+                         linguistics="island_effects",
                          uid="sentential_subject",
                          simple_lm_method=True,
                          one_prefix_method=False,
