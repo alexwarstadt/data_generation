@@ -51,7 +51,10 @@ def return_aux(verb, subj, allow_negated=True, require_negated=False):
         subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_auxiliaries)
 
     verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
-    aux = choice(verb_agree_auxiliaries)
+    try:
+        aux = choice(verb_agree_auxiliaries)
+    except IndexError:
+        pass
     return aux
 
 def return_copula(subj, allow_negated=True, require_negated=False):

@@ -33,7 +33,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
             "sentence_good": "It's %s %s %s %s." % (Refl[0], Rel[0], N1[0], V1[0]),
             "sentence_bad": "It's %s %s %s %s." % (Refl[0], Rel[0], V1[0], N1[0])
         }
-        return data
+        return data, data["sentence_good"]
 
 
 generator = AnaphorGenerator()

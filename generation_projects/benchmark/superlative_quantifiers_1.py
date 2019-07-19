@@ -39,7 +39,7 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
             "sentence_bad": "No %s %s %s %s %s." % (N1[0], V[0], Q2, Num, N2[0]),
             "crucial_item": Q2
         }
-        return data
+        return data, data["sentence_good"]
 
 generator = SuperlativeGenerator()
 generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)

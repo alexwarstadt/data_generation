@@ -31,8 +31,8 @@ all_singular_animate_nouns = get_all_conjunctive([("category", "N"), ("animate",
 
 #adverbs = ('always','sometimes','often', 'now')
 
-all_institutions = get_all_conjunctive([("category","N"),("institution","1"),("sg","1")])
-all_plural_non_institutions = get_all_conjunctive([("category","N"),("institution","0"),("pl","1")])
+all_locales = get_all_conjunctive([("category","N"),("locale","1"),("sg","1")])
+all_plural_non_locales = get_all_conjunctive([("category","N"),("locale","0"),("pl","1")])
 
 #quantity_adv = ('happily', 'angrily', 'appropriately', 'inappropriately')
 
@@ -212,7 +212,7 @@ while len(sentences) < number_to_generate:
         N1 = choice(all_animate_nouns, [N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         q_adv = choice(replace_adv)
-        fin_adv = choice(all_institutions)
+        fin_adv = choice(all_locales)
 
         # select transitive or intransitive V
         x = random.random()
@@ -232,10 +232,10 @@ while len(sentences) < number_to_generate:
         continue
 
     # sentence templates
-    # Only D1 N1 (Aux) V D2 N2 at all/q at the [institution]
-    # D1 N1 (Aux) V D2 N2 at all/q only at the [institution]
-    # D1 N1 (Aux) also V D2 N2 at all/q at the [institution]
-    # D1 N1 (Aux) V D2 N2 at all/q also at the [institution]
+    # Only D1 N1 (Aux) V D2 N2 at all/q at the [locale]
+    # D1 N1 (Aux) V D2 N2 at all/q only at the [locale]
+    # D1 N1 (Aux) also V D2 N2 at all/q at the [locale]
+    # D1 N1 (Aux) V D2 N2 at all/q also at the [locale]
 
     sentence_1 = "%s only %s %s %s %s %s at all at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_2 = "%s only %s %s %s %s %s %s at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
@@ -292,7 +292,7 @@ while len(sentences) < number_to_generate:
         N1 = choice(all_animate_nouns,[N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         q_adv = choice(replace_adv)
-        fin_adv = choice(all_institutions)
+        fin_adv = choice(all_locales)
 
         # select transitive or intransitive V
         x = random.random()
@@ -313,10 +313,10 @@ while len(sentences) < number_to_generate:
         continue
 
     # sentence templates
-    # Only D1 N1 (Aux) V D2 N2 yet/q at the [institution]
-    # D1 N1 (Aux) V D2 N2 yet/q only at the [institution]
-    # D1 N1 (Aux) also V D2 N2 yet/q at the [institution]
-    # D1 N1 (Aux) V D2 N2 yet/q also at the [institution]
+    # Only D1 N1 (Aux) V D2 N2 yet/q at the [locale]
+    # D1 N1 (Aux) V D2 N2 yet/q only at the [locale]
+    # D1 N1 (Aux) also V D2 N2 yet/q at the [locale]
+    # D1 N1 (Aux) V D2 N2 yet/q also at the [locale]
 
     sentence_1 = "%s only %s %s %s %s %s yet at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_2 = "%s only %s %s %s %s %s %s at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
@@ -376,7 +376,7 @@ while len(sentences) < number_to_generate:
         N1 = choice(all_animate_nouns,[N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         q_adv = choice(replace_adv)
-        fin_adv = choice(all_institutions)
+        fin_adv = choice(all_locales)
 
         # select transitive or intransitive V
         x = random.random()
@@ -398,10 +398,10 @@ while len(sentences) < number_to_generate:
         continue
 
     # sentence templates
-    # Only D1 N1 (Aux) V D2 N2 in years/q at the [institution]
-    # D1 N1 (Aux) V D2 N2 in years/q only at the [institution]
-    # D1 N1 (Aux) also V D2 N2 in years/q at the [institution]
-    # D1 N1 (Aux) V D2 N2 in years/q also at the [institution]
+    # Only D1 N1 (Aux) V D2 N2 in years/q at the [locale]
+    # D1 N1 (Aux) V D2 N2 in years/q only at the [locale]
+    # D1 N1 (Aux) also V D2 N2 in years/q at the [locale]
+    # D1 N1 (Aux) V D2 N2 in years/q also at the [locale]
 
     sentence_1 = "%s only %s %s %s %s %s in years at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_2 = "%s only %s %s %s %s %s %s at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
@@ -460,7 +460,7 @@ while len(sentences) < number_to_generate:
         N1 = choice(all_animate_nouns,[N_Prepend])
         D1 = choice(get_matched_by(N1, "arg_1", all_common_dets))
         q_adv = choice(replace_adv)
-        fin_adv = choice(all_institutions)
+        fin_adv = choice(all_locales)
 
         # select transitive or intransitive V
         x = random.random()
@@ -468,7 +468,7 @@ while len(sentences) < number_to_generate:
             # transitive V
             V = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
             V = conjugate(V, N1, allow_negated=False)
-            N2 = choice(get_matches_of(V, "arg_2", all_plural_non_institutions),[N1,N_Prepend])
+            N2 = choice(get_matches_of(V, "arg_2", all_plural_non_locales),[N1,N_Prepend])
             D3 = choice(get_matched_by(N2, "arg_1", all_common_dets))
         else:
             # intransitive V - gives empty string for N2 and D2 slots
@@ -479,10 +479,10 @@ while len(sentences) < number_to_generate:
     except IndexError:
         continue
     # sentence templates
-    # Only D1 N1 (Aux) V D2 N2 either/q at the [institution]
-    # D1 N1 (Aux) V D2 N2 either/q only at the [institution]
-    # D1 N1 (Aux) also V D2 N2 either/q at the [institution]
-    # D1 N1 (Aux) V D2 N2 either/q also at the [institution]
+    # Only D1 N1 (Aux) V D2 N2 either/q at the [locale]
+    # D1 N1 (Aux) V D2 N2 either/q only at the [locale]
+    # D1 N1 (Aux) also V D2 N2 either/q at the [locale]
+    # D1 N1 (Aux) V D2 N2 either/q also at the [locale]
 
     sentence_1 = "%s only %s %s %s %s %s either at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_2 = "%s only %s %s %s %s %s %s at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])

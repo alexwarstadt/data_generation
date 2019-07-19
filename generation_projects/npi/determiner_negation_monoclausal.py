@@ -32,7 +32,7 @@ all_intransitive_verbs = get_all("category", "S\\NP")
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_embedding_verbs = get_all("category_2", "V_embedding")
 all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
-all_institution_nouns = np.append(get_all_conjunctive([("institution","1"), ("pl","1")]),get_all_conjunctive([("institution","1"), ("mass","1")]))
+all_locale_nouns = np.append(get_all_conjunctive([("locale","1"), ("pl","1")]),get_all_conjunctive([("locale","1"), ("mass","1")]))
 all_non_singular_nouns = np.append(get_all("pl", "1"), get_all("mass", "1"))
 all_non_singular_nouns_freq = np.append(get_all_conjunctive([("category", "N"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("frequent", "1"), ("mass","1")]))
 all_non_singular_animate_nouns = np.append(get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("pl","1")]),get_all_conjunctive([("category", "N"), ("animate", "1"), ("frequent", "1"), ("mass","1")]))
@@ -148,7 +148,7 @@ for Final_npi in sentence_final_npi:
             D2 = choice(get_matched_by(N2, "arg_1", all_common_dets))
             Neg_word2 = choice(get_matched_by(N2, "arg_1", all_neg_det))
             Final_nonnpi = choice(sentence_final_nonnpi)
-            N3 = choice(all_institution_nouns)
+            N3 = choice(all_locale_nouns)
             Neg_word3 = choice(get_matched_by(N3, "arg_1", all_neg_det))
 
             if Final_npi == 'in years':

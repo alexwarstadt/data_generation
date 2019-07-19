@@ -54,7 +54,7 @@ class SentSubjGenerator(data_generator.BenchmarkGenerator):
             "sentence_good": "%s %s %s %s %s %s." % (wh[0], V_do[0], N1_poss[0], Ving[0], N2[0], V2[0]),
             "sentence_bad": "%s %s %s %s %s %s." % (wh[0], V_do[0], N1_poss[0], Ving[0], V2[0], N2[0]),
         }
-        return data
+        return data, data["sentence_good"]
 
 generator = SentSubjGenerator()
 generator.generate_paradigm(absolute_path="G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation/outputs/benchmark/%s.jsonl" % generator.uid)

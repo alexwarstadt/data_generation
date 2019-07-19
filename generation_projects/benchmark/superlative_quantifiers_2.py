@@ -45,7 +45,7 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
             "two_prefix_word": Qsup.split()[1],
 
         }
-        return data
+        return data, data["sentence_good"]
 
 generator = SuperlativeGenerator()
 generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)

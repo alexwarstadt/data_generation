@@ -49,7 +49,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
             "sentence_good": "%s %s %s %s %s %s?" % (wh[0], Aux[0], NP[0], Cop[0], V[0], relN[0]),
             "sentence_bad": "%s %s %s %s %s %s?" % (wh[0], Aux[0], relN[0], Cop[0], V[0], NP[0]),
         }
-        return data
+        return data, data["sentence_good"]
 
 
 binding_generator = AnaphorGenerator()

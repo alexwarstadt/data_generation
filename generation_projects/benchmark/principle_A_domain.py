@@ -52,7 +52,7 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
             "one_prefix_word_good": pro_match[0],
             "one_prefix_word_bad": refl_match[0]
         }
-        return data
+        return data, data["sentence_good"]
 
 binding_generator = BindingGenerator()
 binding_generator.generate_paradigm(absolute_path="G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation/outputs/benchmark/%s.jsonl" % binding_generator.uid)

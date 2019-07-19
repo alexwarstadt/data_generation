@@ -44,7 +44,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
             "one_prefix_good": refl_match[0],
             "one_prefix_bad": refl_mismatch[0]
         }
-        return data
+        return data, data["sentence_good"]
 
 
 binding_generator = AnaphorGenerator()

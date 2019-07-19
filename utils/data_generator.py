@@ -23,6 +23,7 @@ class Generator:
         self.all_plural_animate_nouns = np.intersect1d(self.all_animate_nouns, self.all_plural_nouns)
         self.all_common_nouns = get_all_conjunctive([("category", "N"), ("properNoun", "0")])
         self.all_relational_nouns = get_all("category", "N/NP")
+        self.all_nominals = get_all("noun", "1")
 
         # VERBS
         self.all_transitive_verbs = get_all("category", "(S\\NP)/NP")
@@ -37,6 +38,7 @@ class Generator:
         self.all_plural_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], self.all_transitive_verbs)
         self.all_singular_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], self.all_transitive_verbs)
         self.all_non_finite_transitive_verbs = get_all("finite", "0", self.all_transitive_verbs)
+        self.all_verbs = get_all("verb", "1")
 
         # OTHER
         self.all_quantifiers = get_all("category", "(S/(S\\NP))/N")
@@ -55,7 +57,8 @@ class Generator:
 
     def sample(self):
         data = None
-        return data
+        track_sentence = None
+        return data, track_sentence
 
     def make_metadata_dict(self):
         return {}
@@ -73,14 +76,14 @@ class Generator:
         generated_data = []
         constant_data = self.make_metadata_dict()
         while len(past_sentences) < number_to_generate:
-            new_data = self.sample()
-            if new_data["sentence_good"] not in past_sentences:
+            new_data, track_sentence = self.sample()
+            if track_sentence not in past_sentences:
+                past_sentences.add(track_sentence)
                 for field in self.data_fields:
                     if field in new_data:
                         new_data[field] = string_beautify(new_data[field])
                         new_data.update(constant_data)
                 generated_data.append(new_data)
-                past_sentences.add(new_data["sentence_good"])
         jsonlines.Writer(output).write_all(generated_data)
 
 
@@ -120,6 +123,20 @@ class BenchmarkGenerator(Generator):
             "one_prefix_method": self.one_prefix_method,
             "two_prefix_method": self.two_prefix_method,
             "lexically_identical": self.lexically_identical
+        }
+        return metadata
+
+class NLIGenerator(Generator):
+    def __init__(self,
+                 uid):
+        super().__init__()
+        self.uid = uid
+        self.data_fields = ["sentence_1", "sentence_2"]
+
+
+    def make_metadata_dict(self):
+        metadata = {
+            "UID": self.uid
         }
         return metadata
 
