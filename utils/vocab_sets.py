@@ -36,6 +36,7 @@ all_singular_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")
 all_non_finite_transitive_verbs = get_all("finite", "0", all_transitive_verbs)
 all_verbs = get_all("verb", "1")
 all_ing_verbs = get_all("ing", "1", all_verbs)
+all_bare_verbs = get_all("bare", "1", all_verbs)
 
 # OTHER
 all_quantifiers = get_all("category", "(S/(S\\NP))/N")

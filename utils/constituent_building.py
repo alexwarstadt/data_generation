@@ -71,15 +71,10 @@ def verb_args_from_verb(verb, frequent=True, subj=None):
 
     # RAISING TO OBJECT
     if verb["category_2"] == "V_raising_object":
-        v_emb = choice(get_all("bare", "1", all_verbs))
+        v_emb = choice(all_bare_verbs)
         args_emb = verb_args_from_verb(v_emb, frequent)
-        try:
-            v_emb[0] = " ".join(["to",
-                                 v_emb[0]] +
-                                [x[0] for x in args_emb["args"]])
-        except IndexError:
-            pass
-        args["args"] = [args_emb["subj"], v_emb]
+        VP = V_to_VP_mutate(v_emb, frequent, args_emb)
+        args["args"] = [args_emb["subj"], VP]
 
     # CLAUSE EMBEDDING
     if verb["category"] == "(S\\NP)/S":
@@ -89,6 +84,12 @@ def verb_args_from_verb(verb, frequent=True, subj=None):
         if verb["arg_2"] == "expression_wh":
             emb_clause[0] = "whether " + emb_clause
         args["args"] = emb_clause
+
+    # SUBJECT CONTROL
+    if verb["category"] == "(S\\NP)/(S[to]\\NP)":
+        v_emb = choice(get_matched_by(args["subj"], "arg_1", all_bare_verbs))
+        VP = V_to_VP_mutate(v_emb, frequent)
+        args["args"] = [VP]
 
     # TODO:DITRANSITIVE
 
@@ -103,8 +104,10 @@ def make_sentence_from_verb(verb, frequent=True):
                      verb[0]] +
                     [x[0] for x in args["args"]])
 
-def V_to_VP_mutate(verb, frequent=True):
-    args = verb_args_from_verb(verb, frequent)
+
+def V_to_VP_mutate(verb, frequent=True, args=None):
+    if args is None:
+        args = verb_args_from_verb(verb, frequent)
     verb[0] = " ".join([args["aux"][0],
                        verb[0]] +
                        [x[0] for x in args["args"]])
@@ -141,8 +144,9 @@ def noun_args_from_noun(noun, frequent=True):
         obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", freq_vocab)))
         args["args"] = [obj]
     if noun["category"] == "N\\NP[poss]":
-        obj = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", freq_vocab))))
-        args["args"] = [obj]
+        poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", freq_vocab))))
+        args["det"] = poss
+        args["args"] = []
     else:
         pass
     return args
