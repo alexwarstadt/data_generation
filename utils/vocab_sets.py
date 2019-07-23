@@ -16,6 +16,7 @@ all_plural_animate_nouns = np.intersect1d(all_animate_nouns, all_plural_nouns)
 all_common_nouns = get_all_conjunctive([("category", "N"), ("properNoun", "0")])
 all_relational_nouns = get_all("category", "N/NP")
 all_nominals = get_all("noun", "1")
+all_relational_poss_nouns = get_all("category", "N\\NP[poss]")
 
 # VERBS
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")

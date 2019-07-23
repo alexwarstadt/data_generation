@@ -3,6 +3,7 @@ from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
+from utils.vocab_sets import *
 from utils.string_utils import string_beautify
 import inflect
 
@@ -12,7 +13,7 @@ class PossessGenerator(data_generator.NLIGenerator):
             uid="possessed_definites"
         )
         # bad_nouns = reduce(np.union1d, (get_all("arg_1", "animate=1", self.all_relational_nouns), get_all("properNoun", "1")))
-        self.safe_nouns = np.setdiff1d(self.all_nouns, self.all_animate_nouns)
+        self.safe_nouns = np.union1d(np.setdiff1d(self.all_nouns, self.all_animate_nouns), all_relational_poss_nouns)
 
     def sample(self):
         # John's sister is tall
