@@ -49,10 +49,10 @@ class LeftBranchGenerator(data_generator.BenchmarkGenerator):
             "sentence_good": "%s %s %s %s %s?" % (N1[0], V_do[0], V1[0], wh[0], N2[0]),
             "sentence_bad": "%s %s %s %s %s?" % (wh[0], V_do[0], N1[0], V1[0], N2[0]),
             "two_prefix_prefix_good": "%s %s %s %s" % (N1[0], V_do[0], V1[0], wh[0]),
-            "two_prefix_prefix_bad": "%s %s %s %s that" % (wh[0], V_do[0], N1[0], V1[0]),
+            "two_prefix_prefix_bad": "%s %s %s %s" % (wh[0], V_do[0], N1[0], V1[0]),
             "two_prefix_word": N2[0]
         }
-        return data
+        return data, data["sentence_good"]
 
 generator = LeftBranchGenerator()
-generator.generate_paradigm(absolute_path="G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation/outputs/benchmark/%s.jsonl" % generator.uid)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
