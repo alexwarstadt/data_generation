@@ -56,17 +56,5 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 binding_generator = BindingGenerator()
-binding_generator.generate_paradigm(absolute_path="G:/My Drive/NYU classes/Semantics team project seminar - Spring 2019/dataGeneration/data_generation/outputs/benchmark/%s.jsonl" % binding_generator.uid)
-
-
-
-
-
-
-
-
-
-
-
-
+binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
 
