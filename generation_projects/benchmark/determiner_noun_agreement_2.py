@@ -11,10 +11,10 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         super().__init__(category="agreement",
                          field="morphology",
                          linguistics="det_N_agreement",
-                         uid="determiner_noun_agreement_1",
+                         uid="determiner_noun_agreement_2",
                          simple_lm_method=True,
-                         one_prefix_method=True,
-                         two_prefix_method=False,
+                         one_prefix_method=False,
+                         two_prefix_method=True,
                          lexically_identical=True)
         self.all_null_plural_nouns = get_all("sgequalspl", "1")
         self.all_missingPluralSing_nouns = get_all_conjunctive([("pluralform", ""), ("singularform", "")])
@@ -22,11 +22,11 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         self.all_pluralizable_nouns = np.setdiff1d(self.all_common_nouns, self.all_unusable_nouns)
 
     def sample(self):
-        # John cleaned this table.
-        # N1   V1      Dem  N2_match
+        # John cleaned this       table.
+        # N1   V1      Dem_match  N2
 
-        # John cleaned this tables.
-        # N1   V1      Dem  N2_mismatch
+        # John cleaned these         table.
+        # N1   V1      Dem_mismatch N2
 
         V1 = choice(self.all_transitive_verbs)
         try:
@@ -34,22 +34,26 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         except TypeError:
             pass
         try:
-            N2_match = choice(get_matches_of(V1, "arg_2", self.all_pluralizable_nouns))
+            N2 = choice(get_matches_of(V1, "arg_2", self.all_pluralizable_nouns))
         except TypeError:
             pass
-        Dem = choice(get_matched_by(N2_match, "arg_1", self.all_demonstratives))
-        if N2_match['pl'] == "1":
-            N2_mismatch = N2_match['singularform']
-        else:
-            N2_mismatch = N2_match['pluralform']
+        Dem_match = choice(get_matched_by(N2, "arg_1", self.all_demonstratives))
+        if Dem_match[0] == "this":
+            Dem_mismatch = "these"
+        elif Dem_match[0] == "these":
+            Dem_mismatch = "this"
+        elif Dem_match[0] == "that":
+            Dem_mismatch = "those"
+        elif Dem_match[0] == "those":
+            Dem_mismatch = "that"
         V1 = conjugate(V1, N1)
 
         data = {
-            "sentence_good": "%s %s %s %s." % (N1[0], V1[0], Dem[0], N2_match[0]),
-            "sentence_bad": "%s %s %s %s." % (N1[0], V1[0], Dem[0], N2_mismatch),
-            "one_prefix_prefix": "%s %s %s" % (N1[0], V1[0], Dem[0]),
-            "one_prefix_word_good": N2_match[0],
-            "one_prefix_word_bad": N2_mismatch
+            "sentence_good": "%s %s %s %s." % (N1[0], V1[0], Dem_match[0], N2[0]),
+            "sentence_bad": "%s %s %s %s." % (N1[0], V1[0], Dem_mismatch, N2[0]),
+            "two_prefix_prefix_good": "%s %s %s" % (N1[0], V1[0], Dem_match[0]),
+            "two_prefix_prefix_bad": "%s %s %s" % (N1[0], V1[0], Dem_mismatch),
+            "two_prefix_word": N2[0]
         }
         return data, data["sentence_good"]
 
