@@ -51,3 +51,6 @@ all_ACCpronouns = get_all("category_2", "proACC")
 all_NOMpronouns = get_all("category_2", "proNOM")
 all_embedding_verbs = get_all("category_2", "V_embedding")
 all_wh_words = get_all("category", "NP_wh")
+all_demonstratives = np.append(get_all("expression", "this"),
+                            np.append(get_all("expression", "that"),
+                                    np.append(get_all("expression", "these"), get_all("expression", "those"))))
