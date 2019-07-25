@@ -39,6 +39,7 @@ all_non_plural_transitive_verbs = np.extract(
 all_plural_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], all_transitive_verbs)
 all_singular_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], all_transitive_verbs)
 all_non_finite_transitive_verbs = np.intersect1d(all_non_finite_verbs, all_transitive_verbs)
+all_non_finite_intransitive_verbs = get_all("finite", "0", all_intransitive_verbs)
 
 # OTHER
 all_quantifiers = get_all("category", "(S/(S\\NP))/N")

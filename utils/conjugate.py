@@ -18,7 +18,7 @@ all_copulas =  get_all("category_2", "copula")
 all_non_negative_copulas = get_all("negated", "0", all_copulas)
 all_negative_copulas = get_all("negated", "1", all_copulas)
 
-def conjugate(verb, subj, allow_negated=True, require_negated=False, return_wrong=False):
+def conjugate(verb, subj, allow_negated=True, require_negated=False):
     """
     :param verb: vocab entry
     :param subj: vocab entry
