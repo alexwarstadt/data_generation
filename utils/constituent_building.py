@@ -105,12 +105,14 @@ def make_sentence_from_verb(verb, frequent=True):
                     [x[0] for x in args["args"]])
 
 
-def V_to_VP_mutate(verb, frequent=True, args=None):
+def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
     if args is None:
         args = verb_args_from_verb(verb, frequent)
-    verb[0] = " ".join([args["aux"][0],
-                       verb[0]] +
-                       [x[0] for x in args["args"]])
+    if aux:
+        phrases = [args["aux"][0], verb[0]] + [x[0] for x in args["args"]]
+    else:
+        phrases = [verb[0]] + [x[0] for x in args["args"]]
+    verb[0] = " ".join(phrases)
     return verb
 
 def make_sentence(frequent=True):

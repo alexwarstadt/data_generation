@@ -19,8 +19,12 @@ all_nominals = get_all("noun", "1")
 all_relational_poss_nouns = get_all("category", "N\\NP[poss]")
 
 # VERBS
+all_verbs = get_all("verb", "1")
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_intransitive_verbs = get_all("category", "S\\NP")
+all_non_finite_verbs = get_all("finite", "0", all_verbs)
+all_ing_verbs = get_all("ing", "1", all_verbs)
+all_bare_verbs = get_all("bare", "1", all_verbs)
 all_anim_anim_verbs = get_matched_by(choice(all_animate_nouns), "arg_1",
                                           get_matched_by(choice(all_animate_nouns), "arg_2",
                                                          all_transitive_verbs))
@@ -34,10 +38,7 @@ all_non_plural_transitive_verbs = np.extract(
     all_transitive_verbs)
 all_plural_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], all_transitive_verbs)
 all_singular_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], all_transitive_verbs)
-all_non_finite_transitive_verbs = get_all("finite", "0", all_transitive_verbs)
-all_verbs = get_all("verb", "1")
-all_ing_verbs = get_all("ing", "1", all_verbs)
-all_bare_verbs = get_all("bare", "1", all_verbs)
+all_non_finite_transitive_verbs = np.intersect1d(all_non_finite_verbs, all_transitive_verbs)
 
 # OTHER
 all_quantifiers = get_all("category", "(S/(S\\NP))/N")

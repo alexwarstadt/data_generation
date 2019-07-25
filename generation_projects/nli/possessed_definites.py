@@ -12,7 +12,6 @@ class PossessGenerator(data_generator.NLIGenerator):
         super().__init__(
             uid="possessed_definites"
         )
-        # bad_nouns = reduce(np.union1d, (get_all("arg_1", "animate=1", self.all_relational_nouns), get_all("properNoun", "1")))
         self.safe_nouns = np.union1d(np.setdiff1d(self.all_nouns, self.all_animate_nouns), all_relational_poss_nouns)
 
     def sample(self):
