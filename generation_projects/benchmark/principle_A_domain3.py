@@ -15,7 +15,7 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=True,
-                         lexically_identical=False)
+                         lexically_identical=True)
         self.all_gendered_singular_nouns = get_all("sg", "1", self.all_gendered_nouns)
         self.all_safe_gendered_nouns = np.setdiff1d(self.all_gendered_singular_nouns, self.all_relational_nouns)
         self.all_sing_embedding_verbs = np.union1d(get_all_conjunctive([("pres", "1"), ("3sg", "1")], self.all_embedding_verbs), get_all("bare", "1", self.all_embedding_verbs))
