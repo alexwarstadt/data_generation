@@ -39,6 +39,7 @@ class Generator:
         self.all_plural_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], self.all_transitive_verbs)
         self.all_singular_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], self.all_transitive_verbs)
         self.all_non_finite_transitive_verbs = get_all("finite", "0", self.all_transitive_verbs)
+        self.all_non_finite_intransitive_verbs = get_all("finite", "0", self.all_intransitive_verbs)
         self.all_verbs = get_all("verb", "1")
 
         # OTHER
