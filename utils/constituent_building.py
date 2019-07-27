@@ -14,32 +14,19 @@ from utils.vocab_sets import *
 
 
 
-def verb_phrase_from_subj(subject):
-    # x = random.random()
-    # if x < 1/3:
+def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
+    verb = choice(get_matched_by(subject, "arg_1", all_verbs))
+    args = verb_args_from_verb(verb=verb, frequent=frequent, subj=subject, allow_negated=allow_negated)
+    VP = V_to_VP_mutate(verb, frequent=frequent, args=args)
+    return VP
 
-    # transitive VP
-    V = choice(get_matched_by(subject, "arg_1", get_all("category", "(S\\NP)/NP")))
-    object = choice(get_matches_of(V, "arg_2", get_all("category", "N")))
-    D = choice(get_matched_by(object, "arg_1", get_all_conjunctive([("category", "(S/(S\\NP))/N"), ("frequent", '1')])))
-    conjugate(V, subject)
-    V["expression"] = "%s %s %s" % (V[0], D[0], object[0])
-    V["category"] = "S\\NP"
-    V["category_2"] = "VP"
-    V["arg_2"] = ""
-
-    # TODO: intransitive VP
-    # TODO: ditransitive VP
-
-    return V
-
-def verb_args_from_verb(verb, frequent=True, subj=None):
+def verb_args_from_verb(verb, frequent=True, subj=None, allow_negated=True):
     """
     :param verb: 
     :param frequent: 
     :return: dict of all arguments of verb: {subject:x1, auxiliary:x2, ...]
     """
-    args = {}
+    args = {"verb": verb}
     if frequent:
         freq_vocab = get_all("frequent", "1")
     else:
@@ -47,12 +34,15 @@ def verb_args_from_verb(verb, frequent=True, subj=None):
 
     # all verbs have a subject
     if subj is None:
-        args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", freq_vocab))))
+        try:
+            args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", freq_vocab))))
+        except TypeError:
+            pass
     else:
         args["subj"] = subj
 
     # all verbs have an auxiliary (or null)
-    args["aux"] = return_aux(verb, args["subj"])
+    args["aux"] = return_aux(verb, args["subj"], allow_negated=allow_negated)
 
     # INTRANSITIVE
     if verb["category"] == "S\\NP":
@@ -65,7 +55,7 @@ def verb_args_from_verb(verb, frequent=True, subj=None):
     # FROM-ING EMBEDDING
     if verb["category"] == "(S\\NP)/(S[from]\\NP)":
         obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", freq_vocab)))
-        VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", all_ing_verbs)), frequent)
+        VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", all_ing_verbs)), frequent=frequent, aux=False)
         VP[0] = "from " + VP[0]
         args["args"] = [obj, VP]
 
@@ -73,7 +63,8 @@ def verb_args_from_verb(verb, frequent=True, subj=None):
     if verb["category_2"] == "V_raising_object":
         v_emb = choice(all_bare_verbs)
         args_emb = verb_args_from_verb(v_emb, frequent)
-        VP = V_to_VP_mutate(v_emb, frequent, args_emb)
+        VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
+        VP[0] = "to " + VP[0]
         args["args"] = [args_emb["subj"], VP]
 
     # CLAUSE EMBEDDING
@@ -83,7 +74,12 @@ def verb_args_from_verb(verb, frequent=True, subj=None):
             emb_clause[0] = "that " + emb_clause
         if verb["arg_2"] == "expression_wh":
             emb_clause[0] = "whether " + emb_clause
-        args["args"] = emb_clause
+        args["args"] = [emb_clause]
+
+    # QUESTION EMBEDDING
+    if verb["category"] == "(S\\NP)/Q":
+        args["args"] = [make_emb_subj_question(frequent)]
+        # TODO: implement other kinds of questions
 
     # SUBJECT CONTROL
     if verb["category"] == "(S\\NP)/(S[to]\\NP)":
@@ -94,6 +90,7 @@ def verb_args_from_verb(verb, frequent=True, subj=None):
     # TODO:DITRANSITIVE
 
     return args
+
 
 
 
@@ -108,10 +105,15 @@ def make_sentence_from_verb(verb, frequent=True):
 def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
     if args is None:
         args = verb_args_from_verb(verb, frequent)
-    if aux:
-        phrases = [args["aux"][0], verb[0]] + [x[0] for x in args["args"]]
-    else:
-        phrases = [verb[0]] + [x[0] for x in args["args"]]
+    try:
+        if aux:
+            phrases = [args["aux"][0], verb[0]] + [x[0] for x in args["args"]]
+        else:
+            phrases = [verb[0]] + [x[0] for x in args["args"]]
+    except IndexError:
+        pass
+    except KeyError:
+        pass
     verb[0] = " ".join(phrases)
     return verb
 
@@ -120,12 +122,20 @@ def make_sentence(frequent=True):
     verb[0] = make_sentence_from_verb(verb, frequent)
     return verb
 
-# def make_emb_subj_question(frequent=True):
-#     verb = choice(all_verbs)
-#     args = verb_args_from_verb(verb)
-#     wh = get_matched_by(args["subj"], "arg_1", all_wh_words)
-#     verb[0] = " ".join([]
-#                        )
+def make_sentence_from_args(args):
+    return " ".join([args["subj"][0],
+                     args["aux"][0],
+                     args["verb"][0]] +
+                    [x[0] for x in args["args"]])
+
+
+def make_emb_subj_question(frequent=True):
+    verb = choice(all_verbs)
+    args = verb_args_from_verb(verb)
+    wh = choice(get_matched_by(args["subj"], "arg_1", all_wh_words))
+    args["subj"] = wh
+    verb[0] = make_sentence_from_args(args)
+    return verb
 
 def noun_args_from_noun(noun, frequent=True):
     """

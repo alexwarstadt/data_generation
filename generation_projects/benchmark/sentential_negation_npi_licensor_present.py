@@ -11,27 +11,30 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         super().__init__(category="movement",
                          field="semantics",
                          linguistics="npi_licensing",
-                         uid="npi_matrix_question_licensor_present",
+                         uid="sentential_negation_npi_licensor_present",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=True,
-                         lexically_identical=True)
+                         lexically_identical=False)
         self.safe_verbs = np.setdiff1d(all_non_finite_verbs, all_ing_verbs)
+        self.replace_neg = ["really", "probably", "fortunately"]
 
 
     def sample(self):
-        # Have the teachers ever watched the waitresses?
-        # Aux  Subj         EVER VP
-        # The teachers have ever watched the waitresses.
-        # Subj         Aux  EVER VP
+        # A lady can not ever explain that the gloves would shrink
+        # A lady can ever explain that the gloves would not shrink
 
         V = choice(self.safe_verbs)
-        args = verb_args_from_verb(V)
+        args = verb_args_from_verb(V, allow_negated=False)
         VP = V_to_VP_mutate(V, aux=False, args=args)
+        repl = choice(self.replace_neg)
 
         data = {
-            "sentence_good": "%s %s ever %s?" % (args["aux"][0], args["subj"][0], VP[0]),
-            "sentence_bad": "%s %s ever %s." % (args["subj"][0], args["aux"][0], VP[0])
+            "sentence_good": "%s %s not ever %s." % (args["subj"][0], args["aux"][0], VP[0]),
+            "sentence_bad": "%s %s %s ever %s." % (args["subj"][0], args["aux"][0], repl, VP[0]),
+            "two_prefix_prefix_good": "%s %s not" % (args["subj"][0], args["aux"][0]),
+            "two_prefix_prefix_bad": "%s %s %s" % (args["subj"][0], args["aux"][0], repl),
+            "two_prefix_word": "ever"
         }
         return data, data["sentence_good"]
 

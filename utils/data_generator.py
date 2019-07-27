@@ -110,7 +110,7 @@ class BenchmarkGenerator(Generator):
         self.one_prefix_method = one_prefix_method
         self.two_prefix_method = two_prefix_method
         self.lexically_identical = lexically_identical
-        self.data_fields = ["sentence_good", "sentence_bad", "one_prefix_prefix", "two_prefix_prefix_1", "two_prefix_prefix_2"]
+        self.data_fields = ["sentence_good", "sentence_bad", "one_prefix_prefix", "two_prefix_prefix_good", "two_prefix_prefix_bad"]
 
     def make_metadata_dict(self):
         """

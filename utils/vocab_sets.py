@@ -17,6 +17,7 @@ all_common_nouns = get_all_conjunctive([("category", "N"), ("properNoun", "0")])
 all_relational_nouns = get_all("category", "N/NP")
 all_nominals = get_all("noun", "1")
 all_relational_poss_nouns = get_all("category", "N\\NP[poss]")
+all_proper_names = get_all("properNoun", "1")
 
 # VERBS
 all_verbs = get_all("verb", "1")
