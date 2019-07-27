@@ -146,3 +146,28 @@ class NLIGenerator(Generator):
         return metadata
 
 
+class Presupposition(Generator):
+
+    def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
+        if rel_output_path is not None:
+            project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
+            output = open(os.path.join(project_root, rel_output_path), "w")
+        elif absolute_path is not None:
+            output = open(absolute_path, "w")
+        else:
+            raise Exception("You need to give an output path")
+        past_sentences = set()
+        generated_data = []
+        constant_data = self.make_metadata_dict()
+        while len(past_sentences) < number_to_generate:
+            new_data, track_sentence = self.sample()
+            if track_sentence not in past_sentences:
+                past_sentences.add(track_sentence)
+                for line in new_data:
+                    for field in self.data_fields:
+                        if field in line:
+                            new_data[field] = string_beautify(new_data[field])
+                            new_data.update(constant_data)
+                    generated_data.append(new_data)
+        jsonlines.Writer(output).write_all(generated_data)
+

@@ -149,14 +149,23 @@ def noun_args_from_noun(noun, frequent=True):
         freq_vocab = get_all("frequent", "1")
     else:
         freq_vocab = vocab
-    args["det"] = choice(get_matched_by(noun, "arg_1", get_all("category", "(S/(S\\NP))/N", freq_vocab)))
+    try:
+        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("category", "(S/(S\\NP))/N", freq_vocab)))
+    except IndexError:
+        pass
     if noun["category"] == "N":
         args["args"] = []
+    if noun["category"] == "NP":
+        args["det"] = []
+        args["args"] = []
     if noun["category"] == "N/NP":
-        obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", freq_vocab)))
+        try:
+            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, freq_vocab))))
+        except IndexError:
+            pass
         args["args"] = [obj]
     if noun["category"] == "N\\NP[poss]":
-        poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", freq_vocab))))
+        poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, freq_vocab)))))
         args["det"] = poss
         args["args"] = []
     else:
@@ -177,7 +186,7 @@ def N_to_DP(noun, frequent=True):
     return D
 
 
-def N_to_DP_mutate(noun, frequent=True):
+def N_to_DP_mutate(noun, frequent=True, determiner=True):
     """
     :param noun: noun to turn into DP
     :param frequent: restrict to frequent determiners only?
@@ -185,10 +194,16 @@ def N_to_DP_mutate(noun, frequent=True):
     """
     args = noun_args_from_noun(noun, frequent)
     try:
-        noun[0] = " ".join([args["det"][0],
-                            noun[0]] +
-                           [x[0] for x in args["args"]])
+        if determiner and args["det"] is not []:
+            noun[0] = " ".join([args["det"][0],
+                                noun[0]] +
+                               [x[0] for x in args["args"]])
+        else:
+            noun[0] = " ".join([noun[0]] +
+                               [x[0] for x in args["args"]])
     except KeyError:
+        pass
+    except IndexError:
         pass
     return noun
 
