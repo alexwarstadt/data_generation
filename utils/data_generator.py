@@ -57,6 +57,7 @@ class Generator:
         self.all_demonstratives = np.append(get_all("expression", "this"),
                             np.append(get_all_conjunctive([("category_2", "D"),("expression", "that")]),
                                     np.append(get_all("expression", "these"), get_all("expression", "those"))))
+        self.all_adjectives = np.union1d(get_all("category_2", "Adj"), get_all("category_2", "adjective"))
         self.data_fields = None
         return
 
