@@ -1,0 +1,154 @@
+<h1>This is a simulation! Do not upload this file to Turk!</h1><hr/>
+
+<style type="text/css">
+label, input[type=radio], input[type=button] { cursor: pointer; }
+.blue { color: blue; }
+.red { color: red; }
+.trial { padding: 15px 10px; }
+.trial p { padding-left: 50px; margin: 3px; padding-bottom: 10px; }
+.trial_number { float: left; font-size: 1.5em; font-weight: bold; display:inline-block; min-width:50px; }
+#unanswered { font-weight: bold; font-size: 2em; color: black; background-color: red; margin: 0 auto; width: 500px; border: black 1px solid; padding: 10px; display:none; }
+#answered { margin: 0 auto; width: 500px; border: black 1px solid; padding: 10px; display:none; }
+</style>
+
+<p>Please only take the survey if you agree to this <a href="https://docs.google.com/document/d/1YbcGGsfdLy4E5lAsQKIVu9YTBtWjuZXjeLzfxchaYMk/edit?usp=sharing">consent statement</a></p>
+
+<h3>Instructions</h3>
+
+<p>This questionnaire presents 4 pairs of English sentences. Choose the sentence that sounds more natural to you. Here is an example:</p>
+
+<div class="trial">
+
+	<p><strong>Choose the more natural sentence:</p>
+	
+	<p><label for='ChoiceSample1_1'><input type='radio' name='ChoiceSample1' id='ChoiceSample1_1' value='...'></input> Judy loves all dogs petting.</label></p>
+	<p><label for='ChoiceSample1_2'><input type='radio' name='ChoiceSample1' id='ChoiceSample1_2' value='...'></input> Judy loves petting all dogs.</label></p>
+	
+</div>
+
+<p>In this example, the second sentence, "Judy loves petting all dogs" is the more natural-sounding one, and so you should select this sentence. Note that the first sentence, "Judy loves all dogs petting" is very unnatural.</p>
+
+<p class="red"><strong>In order to get paid, please make sure that you answer all 4 questions.</strong></p>
+
+<p>If your browser has JavaScript turned on, a counter will be displayed at the bottom of the page indicating how many questions have been answered. <strong>It is highly recommended that you <span class="red">turn on JavaScript</span> and use this tool before submitting to ensure that all questions have been answered and you can receive payment.</strong></p>
+
+<hr noshade="noshade" />
+
+
+
+<div class="trial count">
+
+	<span class="trial_number">1.</span>
+	
+	<p>Choose the more natural sentence:</p>
+	
+	<p><label for='Choice1_1'><input type='radio' name='Choice1' id='Choice1_1' value='Vanessa had ever thought a lot of men assembled.'></input> Vanessa had ever thought a lot of men assembled.</label></p>
+	<p><label for='Choice1_2'><input type='radio' name='Choice1' id='Choice1_2' value='Had vanessa ever thought a lot of men assembled?'></input> Had vanessa ever thought a lot of men assembled?</label></p>
+
+</div>
+
+<hr noshade="noshade" />
+
+
+
+<div class="trial count">
+
+	<span class="trial_number">2.</span>
+	
+	<p>Choose the more natural sentence:</p>
+	
+	<p><label for='Choice2_1'><input type='radio' name='Choice2' id='Choice2_1' value='Which woman had carolyn scared?'></input> Which woman had carolyn scared?</label></p>
+	<p><label for='Choice2_2'><input type='radio' name='Choice2' id='Choice2_2' value='Which had carolyn scared woman?'></input> Which had carolyn scared woman?</label></p>
+
+</div>
+
+<hr noshade="noshade" />
+
+
+
+<div class="trial count">
+
+	<span class="trial_number">3.</span>
+	
+	<p>Choose the more natural sentence:</p>
+	
+	<p><label for='Choice3_1'><input type='radio' name='Choice3' id='Choice3_1' value='The man do hate jeffrey.'></input> The man do hate jeffrey.</label></p>
+	<p><label for='Choice3_2'><input type='radio' name='Choice3' id='Choice3_2' value='The man does hate jeffrey.'></input> The man does hate jeffrey.</label></p>
+
+</div>
+
+<hr noshade="noshade" />
+
+
+
+<div class="trial count">
+
+	<span class="trial_number">4.</span>
+	
+	<p>Choose the more natural sentence:</p>
+	
+	<p><label for='Choice4_1'><input type='radio' name='Choice4' id='Choice4_1' value='Most shoes impress those old hospitals.'></input> Most shoes impress those old hospitals.</label></p>
+	<p><label for='Choice4_2'><input type='radio' name='Choice4' id='Choice4_2' value='Most shoes impress that old hospitals.'></input> Most shoes impress that old hospitals.</label></p>
+
+</div>
+
+<hr noshade="noshade" />
+
+
+<p>(Your answers to these questions do not affect the payment.)</p>
+
+<p>Are you a native speaker of English? <label for="englishY"><input id="englishY" type="radio" name="english" value="1" /> Yes</label> <label for="englishN"><input id="englishN" type="radio" name="english" value="0" /> No</label></p>
+
+<p>Have you lived in the US since you were at least six years old?<label for="nativeY"><input id="nativeY" type="radio" name="navtive" value="1" /> Yes</label> <label for="nativeN"><input id="nativeN" type="radio" name="native" value="0" /> No</label></p>
+
+<div id="unanswered">
+	<span>&nbsp;</span> questions (out of 4 total) have been answered. If you submit now, you will not be paid.<br />
+	<input type="button" value="HIGHLIGHT UNANSWERED QUESTIONS" id="highlight-button" />
+</div>
+
+<div id="answered">
+	<span>&nbsp;</span> questions (out of 4 total) have been answered. You are ready to submit.
+</div>
+
+<h3 style="text-align:center;">Thank you for completing this survey.</h3>
+<p><input type="hidden" name="numanswered" id="numanswered" /> <input type="hidden" name="useragent" id="useragent" /></p>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type='text/javascript'>
+
+total_number = parseInt("4") || Infinity;
+
+function count() {
+	if ($(this).is('input') && $(this).closest('div').find('input:checked').length == 1)
+		$(this).closest('div').css('background','transparent');
+
+	var num = $('.count input:checked').length;
+
+	$('#unanswered span, #answered span').text(num);
+	$('#numanswered').val(num);
+
+	if ( num < total_number ) {
+		$('#unanswered').show();
+		$('#answered').hide();
+	} else {
+		$('#unanswered').hide();
+		$('#answered').show();
+	}
+}
+$(count);
+$('input').bind('change', count);
+
+$(function() {
+	$('#useragent').val(navigator.userAgent);
+});
+
+function highlight() {
+	$('.trial.count').each(function() {
+		if ($(this).find('input:checked').length != 1)
+			$(this).css('background', 'yellow');
+		else
+			$(this).css('background', 'transparent');			
+	});
+}
+$('#highlight-button').click(highlight);
+</script>
