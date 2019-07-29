@@ -11,6 +11,7 @@ from utils.string_utils import remove_extra_whitespace
 import numpy as np
 import random
 from utils.vocab_sets import *
+import pattern.en
 
 
 
@@ -84,7 +85,8 @@ def verb_args_from_verb(verb, frequent=True, subj=None, allow_negated=True):
     # SUBJECT CONTROL
     if verb["category"] == "(S\\NP)/(S[to]\\NP)":
         v_emb = choice(get_matched_by(args["subj"], "arg_1", all_bare_verbs))
-        VP = V_to_VP_mutate(v_emb, frequent)
+        VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
+        VP[0] = "to " + VP[0]
         args["args"] = [VP]
 
     # TODO:DITRANSITIVE
@@ -92,6 +94,64 @@ def verb_args_from_verb(verb, frequent=True, subj=None, allow_negated=True):
     return args
 
 
+def pred_args_from_pred(pred, frequent=True, subj=None, allow_negated=True):
+    """
+        :param verb: 
+        :param frequent: 
+        :return: dict of all arguments of verb: {subject:x1, auxiliary:x2, ...]
+        """
+    args = {"pred": pred}
+    if frequent:
+        freq_vocab = get_all("frequent", "1")
+    else:
+        freq_vocab = vocab
+
+    # all verbs have a subject
+    if subj is None:
+        try:
+            args["subj"] = N_to_DP_mutate(choice(get_matches_of(pred, "arg_1", get_all("category", "N", freq_vocab))))
+        except TypeError:
+            pass
+    else:
+        args["subj"] = subj
+
+    copula = choice(get_matched_by(subj, "arg_1", all_copulas))
+    args["copula"] = copula
+
+    # all verbs have an auxiliary (or null)
+    args["aux"] = return_aux(copula, args["subj"], allow_negated=allow_negated)
+
+    if pred["category"] == "N/N":
+        args["args"] = []
+
+    if pred["category"] == "PP":
+        args["args"] = []
+
+    if pred["category"] == "PP/NP":
+        NP = N_to_DP_mutate(choice(get_matches_of(pred, "arg_2", all_nominals)))
+        args["args"] = [NP]
+
+    else:
+        args["args"] = []
+
+    return args
+
+def pred_to_predp_mutate(pred, frequent=True, copula=True, aux=True, args=None):
+    if args is None:
+        args = pred_args_from_pred(pred, frequent)
+    try:
+        phrases = []
+        if aux:
+            phrases = phrases + [args["aux"][0]]
+        if copula:
+            phrases = phrases + [args["copula"][0]]
+        phrases = phrases + [pred[0]] + [x[0] for x in args["args"]]
+    except IndexError:
+        pass
+    except KeyError:
+        pass
+    pred[0] = " ".join(phrases)
+    return pred
 
 
 def make_sentence_from_verb(verb, frequent=True):
@@ -239,6 +299,76 @@ def make_possessive(DP):
     poss_str = "'" if DP["pl"] == "1" and DP[0][-1] == "s" else "'s"
     DP[0] = DP[0] + poss_str
     return DP
+
+def get_bare_form(V):
+    bare_str = pattern.en.lemma(V[0])
+
+def get_bare_form(verb):
+    words = verb["expression"].split(" ")
+    words[0] = pattern.en.lemma(words[0])
+    bare_verb = verb.copy()
+    bare_verb["expression"] = " ".join(words)
+    bare_verb["finite"] = "0"
+    bare_verb["bare"] = "1"
+    bare_verb["pres"] = "0"
+    bare_verb["past"] = "0"
+    bare_verb["ing"] = "0"
+    bare_verb["en"] = "0"
+    bare_verb["3sg"] = "0"
+    return bare_verb
+
+
+
+def negate_V_args(V_args):
+    # TODO: this is a hack
+    if V_args["aux"]["expression"] == "":
+        V_args["aux_neg"] = get_all("expression", "didn't")[0] if V_args["verb"]["past"] == "1" \
+            else get_all("expression", "doesn't")[0] if V_args["verb"]["3sg"] == "1" \
+            else get_all("expression", "don't")[0]
+        V_args["verb_neg"] = get_bare_form(V_args["verb"])
+    else:
+        V_args["aux_neg"] = negate_aux(V_args["aux"])
+        V_args["verb_neg"] = V_args["verb"]
+    return V_args
+
+def negate_aux(aux):
+    if aux["expression"] == "might":
+        aux_neg = get_all("expression", "might")[0]
+        aux_neg[0] = "might not"
+        return aux_neg
+    if aux["expression"] == "would":
+        return get_all("expression", "wouldn't")[0]
+    if aux["expression"] == "could":
+        return get_all("expression", "couldn't")[0]
+    if aux["expression"] == "should":
+        return get_all("expression", "shouldn't")[0]
+    if aux["expression"] == "will":
+        return get_all("expression", "won't")[0]
+    if aux["expression"] == "can":
+        return get_all("expression", "can't")[0]
+    if aux["expression"] == "do":
+        return get_all("expression", "don't")[0]
+    if aux["expression"] == "does":
+        return get_all("expression", "doesn't")[0]
+    if aux["expression"] == "did":
+        return get_all("expression", "didn't")[0]
+    if aux["expression"] == "is":
+        return get_all("expression", "isn't")[0]
+    if aux["expression"] == "are":
+        return get_all("expression", "aren't")[0]
+    if aux["expression"] == "was":
+        return get_all("expression", "wasn't")[0]
+    if aux["expression"] == "were":
+        return get_all("expression", "weren't")[0]
+    if aux["expression"] == "has":
+        return get_all("expression", "hasn't")[0]
+    if aux["expression"] == "have":
+        return get_all("expression", "haven't")[0]
+    if aux["expression"] == "had":
+        return get_all("expression", "hadn't")[0]
+
+
+
 
 # test
 

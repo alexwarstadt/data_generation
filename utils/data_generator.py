@@ -146,7 +146,13 @@ class NLIGenerator(Generator):
         return metadata
 
 
-class Presupposition(Generator):
+class PresuppositionGenerator(Generator):
+
+    def __init__(self,
+                 uid):
+        super().__init__()
+        self.uid = uid
+        self.data_fields = ["sentence1", "sentence2"]
 
     def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
         if rel_output_path is not None:
@@ -166,8 +172,8 @@ class Presupposition(Generator):
                 for line in new_data:
                     for field in self.data_fields:
                         if field in line:
-                            new_data[field] = string_beautify(new_data[field])
-                            new_data.update(constant_data)
-                    generated_data.append(new_data)
+                            line[field] = string_beautify(line[field])
+                            line.update(constant_data)
+                    generated_data.append(line)
         jsonlines.Writer(output).write_all(generated_data)
 
