@@ -4,6 +4,7 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
+from utils.vocab_sets import *
 
 
 class CSCGenerator(data_generator.BenchmarkGenerator):

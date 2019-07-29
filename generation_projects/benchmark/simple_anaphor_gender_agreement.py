@@ -48,7 +48,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 binding_generator = AnaphorGenerator()
-binding_generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/benchmark/%s.tsv" % binding_generator.uid)
+binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.tsv" % binding_generator.uid)
 
 
 

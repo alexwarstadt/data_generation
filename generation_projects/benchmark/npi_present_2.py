@@ -36,9 +36,9 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
             "sentence_bad": "%s %s ever %s." % (args["subj"][0], args["aux"][0], VP[0]),
             "one_prefix_prefix": "%s %s" % (args["subj"][0], args["aux"][0]),
             "one_prefix_word_good": repl,
-            "one_word_prefix_bad": "ever"
+            "one_prefix_word_bad": "ever"
         }
         return data, data["sentence_good"]
 
 generator = CSCGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=20)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
