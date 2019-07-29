@@ -1,0 +1,600 @@
+{"sentence1": "Some woman had departed.", "sentence2": "Some woman used to be here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some woman had departed.", "sentence2": "Some woman wasn't here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some woman had departed.", "sentence2": "Candice used to be here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some woman hadn't departed.", "sentence2": "Some woman used to be here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some woman hadn't departed.", "sentence2": "Some woman wasn't here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some woman hadn't departed.", "sentence2": "Candice used to be here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The adult climbed up the ladder.", "sentence2": "The adult was below the ladder.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The adult climbed up the ladder.", "sentence2": "The adult wasn't below the ladder.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The adult climbed up the ladder.", "sentence2": "This grandmother of pamela's girlfriend's lawyer was below the ladder.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The adult didn't climb up the ladder.", "sentence2": "The adult was below the ladder.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The adult didn't climb up the ladder.", "sentence2": "The adult wasn't below the ladder.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The adult didn't climb up the ladder.", "sentence2": "This grandmother of pamela's girlfriend's lawyer was below the ladder.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Florence was curing theodore.", "sentence2": "Theodore used to be healthy.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Florence was curing theodore.", "sentence2": "Theodore wasn't healthy.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Florence was curing theodore.", "sentence2": "William used to be healthy.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Florence wasn't curing theodore.", "sentence2": "Theodore used to be healthy.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Florence wasn't curing theodore.", "sentence2": "Theodore wasn't healthy.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Florence wasn't curing theodore.", "sentence2": "William used to be healthy.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Tonya hired veronica.", "sentence2": "Veronica was unemployed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Tonya hired veronica.", "sentence2": "Veronica didn't used to be unemployed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Tonya hired veronica.", "sentence2": "Jane was unemployed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Tonya didn't hire veronica.", "sentence2": "Veronica was unemployed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Tonya didn't hire veronica.", "sentence2": "Veronica didn't used to be unemployed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Tonya didn't hire veronica.", "sentence2": "Jane was unemployed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Ellen does fire andrea.", "sentence2": "Andrea is employed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Ellen does fire andrea.", "sentence2": "Andrea isn't employed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Ellen does fire andrea.", "sentence2": "Daniel is employed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Ellen doesn't fire andrea.", "sentence2": "Andrea is employed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Ellen doesn't fire andrea.", "sentence2": "Andrea isn't employed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Ellen doesn't fire andrea.", "sentence2": "Daniel is employed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Debra could fix most glasses.", "sentence2": "Most glasses are broken.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Debra could fix most glasses.", "sentence2": "Most glasses aren't broken.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Debra could fix most glasses.", "sentence2": "Martin's nieces' podiatrists are broken.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Debra couldn't fix most glasses.", "sentence2": "Most glasses are broken.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Debra couldn't fix most glasses.", "sentence2": "Most glasses aren't broken.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Debra couldn't fix most glasses.", "sentence2": "Martin's nieces' podiatrists are broken.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Stacy does climb up many mountains.", "sentence2": "Stacy is below many mountains.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Stacy does climb up many mountains.", "sentence2": "Stacy isn't below many mountains.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Stacy does climb up many mountains.", "sentence2": "Brian is below many mountains.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Stacy doesn't climb up many mountains.", "sentence2": "Stacy is below many mountains.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Stacy doesn't climb up many mountains.", "sentence2": "Stacy isn't below many mountains.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Stacy doesn't climb up many mountains.", "sentence2": "Brian is below many mountains.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Helen had gotten a job.", "sentence2": "Helen was unemployed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Helen had gotten a job.", "sentence2": "Helen wasn't unemployed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Helen had gotten a job.", "sentence2": "Every waitress was unemployed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Helen hadn't gotten a job.", "sentence2": "Helen was unemployed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Helen hadn't gotten a job.", "sentence2": "Helen wasn't unemployed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Helen hadn't gotten a job.", "sentence2": "Every waitress was unemployed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "This person had escaped.", "sentence2": "This person was captive.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "This person had escaped.", "sentence2": "This person wasn't captive.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "This person had escaped.", "sentence2": "Tamara was captive.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "This person hadn't escaped.", "sentence2": "This person was captive.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "This person hadn't escaped.", "sentence2": "This person wasn't captive.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "This person hadn't escaped.", "sentence2": "Tamara was captive.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "This spinach could go bad.", "sentence2": "This spinach is fresh.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "This spinach could go bad.", "sentence2": "This spinach isn't fresh.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "This spinach could go bad.", "sentence2": "The banana is fresh.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "This spinach couldn't go bad.", "sentence2": "This spinach is fresh.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "This spinach couldn't go bad.", "sentence2": "This spinach isn't fresh.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "This spinach couldn't go bad.", "sentence2": "The banana is fresh.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "A lot of rivers were freezing.", "sentence2": "A lot of rivers have been liquid.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "A lot of rivers were freezing.", "sentence2": "A lot of rivers weren't liquid.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "A lot of rivers were freezing.", "sentence2": "Many lakes have been liquid.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "A lot of rivers weren't freezing.", "sentence2": "A lot of rivers have been liquid.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "A lot of rivers weren't freezing.", "sentence2": "A lot of rivers weren't liquid.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "A lot of rivers weren't freezing.", "sentence2": "Many lakes have been liquid.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some tomatoes were going bad.", "sentence2": "Some tomatoes used to be fresh.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some tomatoes were going bad.", "sentence2": "Some tomatoes haven't been fresh.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some tomatoes were going bad.", "sentence2": "These tomatoes used to be fresh.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some tomatoes weren't going bad.", "sentence2": "Some tomatoes used to be fresh.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some tomatoes weren't going bad.", "sentence2": "Some tomatoes haven't been fresh.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some tomatoes weren't going bad.", "sentence2": "These tomatoes used to be fresh.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Angela could fire kathleen.", "sentence2": "Kathleen is employed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Angela could fire kathleen.", "sentence2": "Kathleen isn't employed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Angela could fire kathleen.", "sentence2": "Kristen is employed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Angela couldn't fire kathleen.", "sentence2": "Kathleen is employed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Angela couldn't fire kathleen.", "sentence2": "Kathleen isn't employed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Angela couldn't fire kathleen.", "sentence2": "Kristen is employed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The teenager descended many ladders.", "sentence2": "The teenager was atop many ladders.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The teenager descended many ladders.", "sentence2": "The teenager didn't used to be atop many ladders.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The teenager descended many ladders.", "sentence2": "Diane was atop many ladders.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The teenager didn't descend many ladders.", "sentence2": "The teenager was atop many ladders.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The teenager didn't descend many ladders.", "sentence2": "The teenager didn't used to be atop many ladders.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The teenager didn't descend many ladders.", "sentence2": "Diane was atop many ladders.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The mouths shut.", "sentence2": "The mouths were open.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The mouths shut.", "sentence2": "The mouths didn't used to be open.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The mouths shut.", "sentence2": "These eyes were open.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The mouths didn't shut.", "sentence2": "The mouths were open.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The mouths didn't shut.", "sentence2": "The mouths didn't used to be open.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The mouths didn't shut.", "sentence2": "These eyes were open.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Omar is leaving.", "sentence2": "Omar was here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Omar is leaving.", "sentence2": "Omar wasn't here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Omar is leaving.", "sentence2": "Ellen's dermatologist's hairdresser's mother was here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Omar isn't leaving.", "sentence2": "Omar was here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Omar isn't leaving.", "sentence2": "Omar wasn't here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Omar isn't leaving.", "sentence2": "Ellen's dermatologist's hairdresser's mother was here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Derek fired teresa.", "sentence2": "Teresa used to be employed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Derek fired teresa.", "sentence2": "Teresa didn't used to be employed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Derek fired teresa.", "sentence2": "The son of deanna used to be employed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Derek didn't fire teresa.", "sentence2": "Teresa used to be employed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Derek didn't fire teresa.", "sentence2": "Teresa didn't used to be employed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Derek didn't fire teresa.", "sentence2": "The son of deanna used to be employed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Rachelle is curing a waiter.", "sentence2": "A waiter used to be healthy.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Rachelle is curing a waiter.", "sentence2": "A waiter didn't used to be healthy.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Rachelle is curing a waiter.", "sentence2": "Margaret used to be healthy.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Rachelle isn't curing a waiter.", "sentence2": "A waiter used to be healthy.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Rachelle isn't curing a waiter.", "sentence2": "A waiter didn't used to be healthy.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Rachelle isn't curing a waiter.", "sentence2": "Margaret used to be healthy.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some doors are closing.", "sentence2": "Some doors have been open.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some doors are closing.", "sentence2": "Some doors didn't used to be open.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some doors are closing.", "sentence2": "A lot of gates have been open.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some doors aren't closing.", "sentence2": "Some doors have been open.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some doors aren't closing.", "sentence2": "Some doors didn't used to be open.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some doors aren't closing.", "sentence2": "A lot of gates have been open.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Bruce does escape.", "sentence2": "Bruce is captive.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Bruce does escape.", "sentence2": "Bruce isn't captive.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Bruce does escape.", "sentence2": "Some nephew of these cousins of heather is captive.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Bruce doesn't escape.", "sentence2": "Bruce is captive.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Bruce doesn't escape.", "sentence2": "Bruce isn't captive.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Bruce doesn't escape.", "sentence2": "Some nephew of these cousins of heather is captive.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Dawn had woken up.", "sentence2": "Dawn was asleep.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Dawn had woken up.", "sentence2": "Dawn didn't used to be asleep.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Dawn had woken up.", "sentence2": "Some cat was asleep.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Dawn hadn't woken up.", "sentence2": "Dawn was asleep.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Dawn hadn't woken up.", "sentence2": "Dawn didn't used to be asleep.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Dawn hadn't woken up.", "sentence2": "Some cat was asleep.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Sandra should hire george.", "sentence2": "George is unemployed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Sandra should hire george.", "sentence2": "George isn't unemployed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Sandra should hire george.", "sentence2": "Bruce is unemployed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Sandra shouldn't hire george.", "sentence2": "George is unemployed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Sandra shouldn't hire george.", "sentence2": "George isn't unemployed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Sandra shouldn't hire george.", "sentence2": "Bruce is unemployed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Allison had healed rose.", "sentence2": "Rose used to be sick.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Allison had healed rose.", "sentence2": "Rose wasn't sick.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Allison had healed rose.", "sentence2": "Judy used to be sick.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Allison hadn't healed rose.", "sentence2": "Rose used to be sick.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Allison hadn't healed rose.", "sentence2": "Rose wasn't sick.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Allison hadn't healed rose.", "sentence2": "Judy used to be sick.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "A lot of boxes might shut.", "sentence2": "A lot of boxes are open.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "A lot of boxes might shut.", "sentence2": "A lot of boxes aren't open.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "A lot of boxes might shut.", "sentence2": "Many windows are open.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "A lot of boxes might not shut.", "sentence2": "A lot of boxes are open.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "A lot of boxes might not shut.", "sentence2": "A lot of boxes aren't open.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "A lot of boxes might not shut.", "sentence2": "Many windows are open.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Stephen has hidden.", "sentence2": "Stephen used to be out in the open.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Stephen has hidden.", "sentence2": "Stephen didn't used to be out in the open.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Stephen has hidden.", "sentence2": "Some doctors' mentor used to be out in the open.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Stephen hasn't hidden.", "sentence2": "Stephen used to be out in the open.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Stephen hasn't hidden.", "sentence2": "Stephen didn't used to be out in the open.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Stephen hasn't hidden.", "sentence2": "Some doctors' mentor used to be out in the open.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Karla was falling.", "sentence2": "Karla used to be up high.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Karla was falling.", "sentence2": "Karla wasn't up high.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Karla was falling.", "sentence2": "Sabrina used to be up high.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Karla wasn't falling.", "sentence2": "Karla used to be up high.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Karla wasn't falling.", "sentence2": "Karla wasn't up high.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Karla wasn't falling.", "sentence2": "Sabrina used to be up high.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Bradley was climbing up stairs.", "sentence2": "Bradley was at the bottom of stairs.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Bradley was climbing up stairs.", "sentence2": "Bradley didn't used to be at the bottom of stairs.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Bradley was climbing up stairs.", "sentence2": "Some dog was at the bottom of stairs.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Bradley wasn't climbing up stairs.", "sentence2": "Bradley was at the bottom of stairs.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Bradley wasn't climbing up stairs.", "sentence2": "Bradley didn't used to be at the bottom of stairs.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Bradley wasn't climbing up stairs.", "sentence2": "Some dog was at the bottom of stairs.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Julia had fixed a lot of windows.", "sentence2": "A lot of windows used to be broken.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Julia had fixed a lot of windows.", "sentence2": "A lot of windows weren't broken.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Julia had fixed a lot of windows.", "sentence2": "Erin's sisters used to be broken.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Julia hadn't fixed a lot of windows.", "sentence2": "A lot of windows used to be broken.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Julia hadn't fixed a lot of windows.", "sentence2": "A lot of windows weren't broken.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Julia hadn't fixed a lot of windows.", "sentence2": "Erin's sisters used to be broken.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Carol is firing john.", "sentence2": "John was employed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Carol is firing john.", "sentence2": "John wasn't employed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Carol is firing john.", "sentence2": "Clyde was employed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Carol isn't firing john.", "sentence2": "John was employed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Carol isn't firing john.", "sentence2": "John wasn't employed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Carol isn't firing john.", "sentence2": "Clyde was employed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "A lot of mouths had closed.", "sentence2": "A lot of mouths were ajar.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "A lot of mouths had closed.", "sentence2": "A lot of mouths didn't used to be ajar.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "A lot of mouths had closed.", "sentence2": "These gates were ajar.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "A lot of mouths hadn't closed.", "sentence2": "A lot of mouths were ajar.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "A lot of mouths hadn't closed.", "sentence2": "A lot of mouths didn't used to be ajar.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "A lot of mouths hadn't closed.", "sentence2": "These gates were ajar.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Marie was cleaning a cafe.", "sentence2": "A cafe was messy.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Marie was cleaning a cafe.", "sentence2": "A cafe wasn't messy.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Marie was cleaning a cafe.", "sentence2": "Victoria was messy.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Marie wasn't cleaning a cafe.", "sentence2": "A cafe was messy.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Marie wasn't cleaning a cafe.", "sentence2": "A cafe wasn't messy.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Marie wasn't cleaning a cafe.", "sentence2": "Victoria was messy.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Rhonda has messed up every fork.", "sentence2": "Every fork was clean.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Rhonda has messed up every fork.", "sentence2": "Every fork wasn't clean.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Rhonda has messed up every fork.", "sentence2": "Heather was clean.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Rhonda hasn't messed up every fork.", "sentence2": "Every fork was clean.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Rhonda hasn't messed up every fork.", "sentence2": "Every fork wasn't clean.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Rhonda hasn't messed up every fork.", "sentence2": "Heather was clean.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Steven should depart.", "sentence2": "Steven is here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Steven should depart.", "sentence2": "Steven isn't here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Steven should depart.", "sentence2": "Teresa is here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Steven shouldn't depart.", "sentence2": "Steven is here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Steven shouldn't depart.", "sentence2": "Steven isn't here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Steven shouldn't depart.", "sentence2": "Teresa is here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Angela cured stacey.", "sentence2": "Stacey was healthy.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Angela cured stacey.", "sentence2": "Stacey wasn't healthy.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Angela cured stacey.", "sentence2": "Alice was healthy.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Angela didn't cure stacey.", "sentence2": "Stacey was healthy.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Angela didn't cure stacey.", "sentence2": "Stacey wasn't healthy.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Angela didn't cure stacey.", "sentence2": "Alice was healthy.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Icicles are freezing.", "sentence2": "Icicles were liquid.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Icicles are freezing.", "sentence2": "Icicles weren't liquid.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Icicles are freezing.", "sentence2": "A lot of icicles were liquid.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Icicles aren't freezing.", "sentence2": "Icicles were liquid.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Icicles aren't freezing.", "sentence2": "Icicles weren't liquid.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Icicles aren't freezing.", "sentence2": "A lot of icicles were liquid.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Margaret healed thomas.", "sentence2": "Thomas was sick.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Margaret healed thomas.", "sentence2": "Thomas didn't used to be sick.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Margaret healed thomas.", "sentence2": "Diana was sick.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Margaret didn't heal thomas.", "sentence2": "Thomas was sick.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Margaret didn't heal thomas.", "sentence2": "Thomas didn't used to be sick.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Margaret didn't heal thomas.", "sentence2": "Diana was sick.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The teenagers are fixing mirrors.", "sentence2": "Mirrors were broken.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The teenagers are fixing mirrors.", "sentence2": "Mirrors weren't broken.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The teenagers are fixing mirrors.", "sentence2": "Janice's students were broken.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The teenagers aren't fixing mirrors.", "sentence2": "Mirrors were broken.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The teenagers aren't fixing mirrors.", "sentence2": "Mirrors weren't broken.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The teenagers aren't fixing mirrors.", "sentence2": "Janice's students were broken.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Elaine could climb up many mountains.", "sentence2": "Elaine is below many mountains.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Elaine could climb up many mountains.", "sentence2": "Elaine isn't below many mountains.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Elaine could climb up many mountains.", "sentence2": "Rodney is below many mountains.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Elaine couldn't climb up many mountains.", "sentence2": "Elaine is below many mountains.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Elaine couldn't climb up many mountains.", "sentence2": "Elaine isn't below many mountains.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Elaine couldn't climb up many mountains.", "sentence2": "Rodney is below many mountains.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Clyde was hiding many photographs.", "sentence2": "Many photographs used to be out in the open.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Clyde was hiding many photographs.", "sentence2": "Many photographs didn't used to be out in the open.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Clyde was hiding many photographs.", "sentence2": "William's granddaughters used to be out in the open.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Clyde wasn't hiding many photographs.", "sentence2": "Many photographs used to be out in the open.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Clyde wasn't hiding many photographs.", "sentence2": "Many photographs didn't used to be out in the open.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Clyde wasn't hiding many photographs.", "sentence2": "William's granddaughters used to be out in the open.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Irene found these photographs.", "sentence2": "These photographs have been in an unknown location.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Irene found these photographs.", "sentence2": "These photographs haven't been in an unknown location.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Irene found these photographs.", "sentence2": "Carol's cousins have been in an unknown location.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Irene didn't find these photographs.", "sentence2": "These photographs have been in an unknown location.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Irene didn't find these photographs.", "sentence2": "These photographs haven't been in an unknown location.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Irene didn't find these photographs.", "sentence2": "Carol's cousins have been in an unknown location.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The tomatoes could rot.", "sentence2": "The tomatoes are fresh.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The tomatoes could rot.", "sentence2": "The tomatoes aren't fresh.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The tomatoes could rot.", "sentence2": "Many tomatoes are fresh.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The tomatoes couldn't rot.", "sentence2": "The tomatoes are fresh.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The tomatoes couldn't rot.", "sentence2": "The tomatoes aren't fresh.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The tomatoes couldn't rot.", "sentence2": "Many tomatoes are fresh.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Every banana was rotting.", "sentence2": "Every banana used to be fresh.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Every banana was rotting.", "sentence2": "Every banana didn't used to be fresh.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Every banana was rotting.", "sentence2": "Every banana used to be fresh.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Every banana wasn't rotting.", "sentence2": "Every banana used to be fresh.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Every banana wasn't rotting.", "sentence2": "Every banana didn't used to be fresh.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Every banana wasn't rotting.", "sentence2": "Every banana used to be fresh.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "These glaciers should melt.", "sentence2": "These glaciers are frozen.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "These glaciers should melt.", "sentence2": "These glaciers aren't frozen.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "These glaciers should melt.", "sentence2": "These lakes are frozen.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "These glaciers shouldn't melt.", "sentence2": "These glaciers are frozen.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "These glaciers shouldn't melt.", "sentence2": "These glaciers aren't frozen.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "These glaciers shouldn't melt.", "sentence2": "These lakes are frozen.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Lakes melted.", "sentence2": "Lakes have been frozen.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Lakes melted.", "sentence2": "Lakes didn't used to be frozen.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Lakes melted.", "sentence2": "Rivers have been frozen.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Lakes didn't melt.", "sentence2": "Lakes have been frozen.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Lakes didn't melt.", "sentence2": "Lakes didn't used to be frozen.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Lakes didn't melt.", "sentence2": "Rivers have been frozen.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The box shut.", "sentence2": "The box was open.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The box shut.", "sentence2": "The box didn't used to be open.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The box shut.", "sentence2": "Every gate was open.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The box didn't shut.", "sentence2": "The box was open.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The box didn't shut.", "sentence2": "The box didn't used to be open.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The box didn't shut.", "sentence2": "Every gate was open.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Every lake has melted.", "sentence2": "Every lake was frozen.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Every lake has melted.", "sentence2": "Every lake wasn't frozen.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Every lake has melted.", "sentence2": "This ice cream was frozen.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Every lake hasn't melted.", "sentence2": "Every lake was frozen.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Every lake hasn't melted.", "sentence2": "Every lake wasn't frozen.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Every lake hasn't melted.", "sentence2": "This ice cream was frozen.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Sandra had cleaned a lot of couches.", "sentence2": "A lot of couches were dirty.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Sandra had cleaned a lot of couches.", "sentence2": "A lot of couches weren't dirty.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Sandra had cleaned a lot of couches.", "sentence2": "All people were dirty.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Sandra hadn't cleaned a lot of couches.", "sentence2": "A lot of couches were dirty.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Sandra hadn't cleaned a lot of couches.", "sentence2": "A lot of couches weren't dirty.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Sandra hadn't cleaned a lot of couches.", "sentence2": "All people were dirty.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Claire got fired.", "sentence2": "Claire was employed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Claire got fired.", "sentence2": "Claire didn't used to be employed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Claire got fired.", "sentence2": "Nina was employed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Claire didn't get fired.", "sentence2": "Claire was employed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Claire didn't get fired.", "sentence2": "Claire didn't used to be employed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Claire didn't get fired.", "sentence2": "Nina was employed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "James could clean every high school.", "sentence2": "Every high school is dirty.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "James could clean every high school.", "sentence2": "Every high school isn't dirty.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "James could clean every high school.", "sentence2": "Michael is dirty.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "James couldn't clean every high school.", "sentence2": "Every high school is dirty.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "James couldn't clean every high school.", "sentence2": "Every high school isn't dirty.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "James couldn't clean every high school.", "sentence2": "Michael is dirty.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Samantha had left.", "sentence2": "Samantha used to be here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Samantha had left.", "sentence2": "Samantha didn't used to be here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Samantha had left.", "sentence2": "Tracy used to be here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Samantha hadn't left.", "sentence2": "Samantha used to be here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Samantha hadn't left.", "sentence2": "Samantha didn't used to be here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Samantha hadn't left.", "sentence2": "Tracy used to be here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "That cilantro can go bad.", "sentence2": "That cilantro is fresh.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "That cilantro can go bad.", "sentence2": "That cilantro isn't fresh.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "That cilantro can go bad.", "sentence2": "That cilantro is fresh.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "That cilantro can't go bad.", "sentence2": "That cilantro is fresh.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "That cilantro can't go bad.", "sentence2": "That cilantro isn't fresh.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "That cilantro can't go bad.", "sentence2": "That cilantro is fresh.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Dawn departed.", "sentence2": "Dawn was here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Dawn departed.", "sentence2": "Dawn didn't used to be here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Dawn departed.", "sentence2": "Becky was here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Dawn didn't depart.", "sentence2": "Dawn was here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Dawn didn't depart.", "sentence2": "Dawn didn't used to be here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Dawn didn't depart.", "sentence2": "Becky was here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Katherine does reveal every cashier.", "sentence2": "Every cashier is concealed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Katherine does reveal every cashier.", "sentence2": "Every cashier isn't concealed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Katherine does reveal every cashier.", "sentence2": "Cheryl is concealed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Katherine doesn't reveal every cashier.", "sentence2": "Every cashier is concealed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Katherine doesn't reveal every cashier.", "sentence2": "Every cashier isn't concealed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Katherine doesn't reveal every cashier.", "sentence2": "Cheryl is concealed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Jeffrey revealed daniel.", "sentence2": "Daniel used to be concealed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Jeffrey revealed daniel.", "sentence2": "Daniel wasn't concealed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Jeffrey revealed daniel.", "sentence2": "Donna used to be concealed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Jeffrey didn't reveal daniel.", "sentence2": "Daniel used to be concealed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Jeffrey didn't reveal daniel.", "sentence2": "Daniel wasn't concealed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Jeffrey didn't reveal daniel.", "sentence2": "Donna used to be concealed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "That guy has fixed all vases.", "sentence2": "All vases used to be broken.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "That guy has fixed all vases.", "sentence2": "All vases didn't used to be broken.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "That guy has fixed all vases.", "sentence2": "Vincent's mentors used to be broken.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "That guy hasn't fixed all vases.", "sentence2": "All vases used to be broken.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "That guy hasn't fixed all vases.", "sentence2": "All vases didn't used to be broken.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "That guy hasn't fixed all vases.", "sentence2": "Vincent's mentors used to be broken.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Guests are curing elizabeth.", "sentence2": "Elizabeth was healthy.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Guests are curing elizabeth.", "sentence2": "Elizabeth wasn't healthy.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Guests are curing elizabeth.", "sentence2": "Liam was healthy.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Guests aren't curing elizabeth.", "sentence2": "Elizabeth was healthy.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Guests aren't curing elizabeth.", "sentence2": "Elizabeth wasn't healthy.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Guests aren't curing elizabeth.", "sentence2": "Liam was healthy.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Samuel has hired jane.", "sentence2": "Jane was unemployed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Samuel has hired jane.", "sentence2": "Jane didn't used to be unemployed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Samuel has hired jane.", "sentence2": "Christopher was unemployed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Samuel hasn't hired jane.", "sentence2": "Jane was unemployed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Samuel hasn't hired jane.", "sentence2": "Jane didn't used to be unemployed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Samuel hasn't hired jane.", "sentence2": "Christopher was unemployed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "This cashier might conceal carla.", "sentence2": "Carla is exposed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "This cashier might conceal carla.", "sentence2": "Carla isn't exposed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "This cashier might conceal carla.", "sentence2": "Barbara is exposed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "This cashier might not conceal carla.", "sentence2": "Carla is exposed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "This cashier might not conceal carla.", "sentence2": "Carla isn't exposed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "This cashier might not conceal carla.", "sentence2": "Barbara is exposed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Jeffrey climbed down ladders.", "sentence2": "Jeffrey was atop ladders.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Jeffrey climbed down ladders.", "sentence2": "Jeffrey didn't used to be atop ladders.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Jeffrey climbed down ladders.", "sentence2": "Monica was atop ladders.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Jeffrey didn't climb down ladders.", "sentence2": "Jeffrey was atop ladders.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Jeffrey didn't climb down ladders.", "sentence2": "Jeffrey didn't used to be atop ladders.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Jeffrey didn't climb down ladders.", "sentence2": "Monica was atop ladders.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "A cat is leaving.", "sentence2": "A cat was here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "A cat is leaving.", "sentence2": "A cat wasn't here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "A cat is leaving.", "sentence2": "Marcus was here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "A cat isn't leaving.", "sentence2": "A cat was here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "A cat isn't leaving.", "sentence2": "A cat wasn't here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "A cat isn't leaving.", "sentence2": "Marcus was here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Marie has climbed up this mountain.", "sentence2": "Marie was below this mountain.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Marie has climbed up this mountain.", "sentence2": "Marie wasn't below this mountain.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Marie has climbed up this mountain.", "sentence2": "Kristin was below this mountain.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Marie hasn't climbed up this mountain.", "sentence2": "Marie was below this mountain.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Marie hasn't climbed up this mountain.", "sentence2": "Marie wasn't below this mountain.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Marie hasn't climbed up this mountain.", "sentence2": "Kristin was below this mountain.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "This gate opened.", "sentence2": "This gate was closed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "This gate opened.", "sentence2": "This gate wasn't closed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "This gate opened.", "sentence2": "The gate was closed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "This gate didn't open.", "sentence2": "This gate was closed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "This gate didn't open.", "sentence2": "This gate wasn't closed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "This gate didn't open.", "sentence2": "The gate was closed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "John should come here.", "sentence2": "John is not here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "John should come here.", "sentence2": "John isn't not here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "John should come here.", "sentence2": "A nephew of this pedestrian is not here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "John shouldn't come here.", "sentence2": "John is not here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "John shouldn't come here.", "sentence2": "John isn't not here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "John shouldn't come here.", "sentence2": "A nephew of this pedestrian is not here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Derek had come here.", "sentence2": "Derek used to be not here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Derek had come here.", "sentence2": "Derek didn't used to be not here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Derek had come here.", "sentence2": "Gary's classmate used to be not here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Derek hadn't come here.", "sentence2": "Derek used to be not here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Derek hadn't come here.", "sentence2": "Derek didn't used to be not here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Derek hadn't come here.", "sentence2": "Gary's classmate used to be not here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Linda has gotten fired.", "sentence2": "Linda used to be employed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Linda has gotten fired.", "sentence2": "Linda wasn't employed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Linda has gotten fired.", "sentence2": "Allison used to be employed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Linda hasn't gotten fired.", "sentence2": "Linda used to be employed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Linda hasn't gotten fired.", "sentence2": "Linda wasn't employed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Linda hasn't gotten fired.", "sentence2": "Allison used to be employed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Tammy should leave.", "sentence2": "Tammy is here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Tammy should leave.", "sentence2": "Tammy isn't here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Tammy should leave.", "sentence2": "Lawrence's cousin is here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Tammy shouldn't leave.", "sentence2": "Tammy is here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Tammy shouldn't leave.", "sentence2": "Tammy isn't here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Tammy shouldn't leave.", "sentence2": "Lawrence's cousin is here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Pamela had gotten fired.", "sentence2": "Pamela was employed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Pamela had gotten fired.", "sentence2": "Pamela didn't used to be employed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Pamela had gotten fired.", "sentence2": "That boy was employed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Pamela hadn't gotten fired.", "sentence2": "Pamela was employed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Pamela hadn't gotten fired.", "sentence2": "Pamela didn't used to be employed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Pamela hadn't gotten fired.", "sentence2": "That boy was employed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some girl got fired.", "sentence2": "Some girl used to be employed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some girl got fired.", "sentence2": "Some girl didn't used to be employed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some girl got fired.", "sentence2": "The doctor used to be employed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some girl didn't get fired.", "sentence2": "Some girl used to be employed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some girl didn't get fired.", "sentence2": "Some girl didn't used to be employed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some girl didn't get fired.", "sentence2": "The doctor used to be employed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Leslie had concealed many paintings.", "sentence2": "Many paintings used to be exposed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Leslie had concealed many paintings.", "sentence2": "Many paintings didn't used to be exposed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Leslie had concealed many paintings.", "sentence2": "A lot of senators used to be exposed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Leslie hadn't concealed many paintings.", "sentence2": "Many paintings used to be exposed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Leslie hadn't concealed many paintings.", "sentence2": "Many paintings didn't used to be exposed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Leslie hadn't concealed many paintings.", "sentence2": "A lot of senators used to be exposed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "That cilantro did ripen.", "sentence2": "That cilantro is under ripe.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "That cilantro did ripen.", "sentence2": "That cilantro isn't under ripe.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "That cilantro did ripen.", "sentence2": "That tomato is under ripe.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "That cilantro didn't ripen.", "sentence2": "That cilantro is under ripe.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "That cilantro didn't ripen.", "sentence2": "That cilantro isn't under ripe.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "That cilantro didn't ripen.", "sentence2": "That tomato is under ripe.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Jessica can heal jessica.", "sentence2": "Jessica is ill.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Jessica can heal jessica.", "sentence2": "Jessica isn't ill.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Jessica can heal jessica.", "sentence2": "John is ill.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Jessica can't heal jessica.", "sentence2": "Jessica is ill.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Jessica can't heal jessica.", "sentence2": "Jessica isn't ill.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Jessica can't heal jessica.", "sentence2": "John is ill.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "These guests can get a job.", "sentence2": "These guests are unemployed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "These guests can get a job.", "sentence2": "These guests aren't unemployed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "These guests can get a job.", "sentence2": "All brothers of heather are unemployed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "These guests can't get a job.", "sentence2": "These guests are unemployed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "These guests can't get a job.", "sentence2": "These guests aren't unemployed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "These guests can't get a job.", "sentence2": "All brothers of heather are unemployed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Judy was concealing all chairs.", "sentence2": "All chairs were out in the open.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Judy was concealing all chairs.", "sentence2": "All chairs didn't used to be out in the open.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Judy was concealing all chairs.", "sentence2": "Jodi's guest's senators were out in the open.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Judy wasn't concealing all chairs.", "sentence2": "All chairs were out in the open.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Judy wasn't concealing all chairs.", "sentence2": "All chairs didn't used to be out in the open.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Judy wasn't concealing all chairs.", "sentence2": "Jodi's guest's senators were out in the open.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Craig climbed up most steps.", "sentence2": "Craig was at the bottom of most steps.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Craig climbed up most steps.", "sentence2": "Craig didn't used to be at the bottom of most steps.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Craig climbed up most steps.", "sentence2": "Carolyn was at the bottom of most steps.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Craig didn't climb up most steps.", "sentence2": "Craig was at the bottom of most steps.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Craig didn't climb up most steps.", "sentence2": "Craig didn't used to be at the bottom of most steps.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Craig didn't climb up most steps.", "sentence2": "Carolyn was at the bottom of most steps.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Margaret could ascend some stairs.", "sentence2": "Margaret is at the bottom of some stairs.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Margaret could ascend some stairs.", "sentence2": "Margaret isn't at the bottom of some stairs.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Margaret could ascend some stairs.", "sentence2": "Cynthia is at the bottom of some stairs.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Margaret couldn't ascend some stairs.", "sentence2": "Margaret is at the bottom of some stairs.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Margaret couldn't ascend some stairs.", "sentence2": "Margaret isn't at the bottom of some stairs.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Margaret couldn't ascend some stairs.", "sentence2": "Cynthia is at the bottom of some stairs.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Stacy ascended hills.", "sentence2": "Stacy used to be below hills.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Stacy ascended hills.", "sentence2": "Stacy didn't used to be below hills.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Stacy ascended hills.", "sentence2": "Julia used to be below hills.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Stacy didn't ascend hills.", "sentence2": "Stacy used to be below hills.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Stacy didn't ascend hills.", "sentence2": "Stacy didn't used to be below hills.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Stacy didn't ascend hills.", "sentence2": "Julia used to be below hills.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "These closets should shut.", "sentence2": "These closets are ajar.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "These closets should shut.", "sentence2": "These closets aren't ajar.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "These closets should shut.", "sentence2": "Some eyes are ajar.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "These closets shouldn't shut.", "sentence2": "These closets are ajar.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "These closets shouldn't shut.", "sentence2": "These closets aren't ajar.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "These closets shouldn't shut.", "sentence2": "Some eyes are ajar.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Meredith can climb down some steps.", "sentence2": "Meredith is at the top of some steps.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Meredith can climb down some steps.", "sentence2": "Meredith isn't at the top of some steps.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Meredith can climb down some steps.", "sentence2": "Jill is at the top of some steps.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Meredith can't climb down some steps.", "sentence2": "Meredith is at the top of some steps.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Meredith can't climb down some steps.", "sentence2": "Meredith isn't at the top of some steps.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Meredith can't climb down some steps.", "sentence2": "Jill is at the top of some steps.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Eric woke up.", "sentence2": "Eric used to be asleep.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Eric woke up.", "sentence2": "Eric wasn't asleep.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Eric woke up.", "sentence2": "A daughter of leslie used to be asleep.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Eric didn't wake up.", "sentence2": "Eric used to be asleep.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Eric didn't wake up.", "sentence2": "Eric wasn't asleep.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Eric didn't wake up.", "sentence2": "A daughter of leslie used to be asleep.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some closets would open.", "sentence2": "Some closets are closed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some closets would open.", "sentence2": "Some closets aren't closed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some closets would open.", "sentence2": "All windows are closed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some closets wouldn't open.", "sentence2": "Some closets are closed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some closets wouldn't open.", "sentence2": "Some closets aren't closed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some closets wouldn't open.", "sentence2": "All windows are closed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Adam is firing charles.", "sentence2": "Charles was employed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Adam is firing charles.", "sentence2": "Charles didn't used to be employed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Adam is firing charles.", "sentence2": "Tracy was employed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Adam isn't firing charles.", "sentence2": "Charles was employed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Adam isn't firing charles.", "sentence2": "Charles didn't used to be employed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Adam isn't firing charles.", "sentence2": "Tracy was employed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The ice had melted.", "sentence2": "The ice used to be frozen.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The ice had melted.", "sentence2": "The ice didn't used to be frozen.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The ice had melted.", "sentence2": "This ice used to be frozen.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The ice hadn't melted.", "sentence2": "The ice used to be frozen.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The ice hadn't melted.", "sentence2": "The ice didn't used to be frozen.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The ice hadn't melted.", "sentence2": "This ice used to be frozen.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Nicole is waking up.", "sentence2": "Nicole was asleep.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Nicole is waking up.", "sentence2": "Nicole didn't used to be asleep.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Nicole is waking up.", "sentence2": "Danielle was asleep.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Nicole isn't waking up.", "sentence2": "Nicole was asleep.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Nicole isn't waking up.", "sentence2": "Nicole didn't used to be asleep.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Nicole isn't waking up.", "sentence2": "Danielle was asleep.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Marcus has messed up every grocery store.", "sentence2": "Every grocery store used to be clean.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Marcus has messed up every grocery store.", "sentence2": "Every grocery store didn't used to be clean.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Marcus has messed up every grocery store.", "sentence2": "The son of a lot of guests' son used to be clean.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Marcus hasn't messed up every grocery store.", "sentence2": "Every grocery store used to be clean.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Marcus hasn't messed up every grocery store.", "sentence2": "Every grocery store didn't used to be clean.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Marcus hasn't messed up every grocery store.", "sentence2": "The son of a lot of guests' son used to be clean.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Bananas had rotted.", "sentence2": "Bananas were fresh.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Bananas had rotted.", "sentence2": "Bananas haven't been fresh.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Bananas had rotted.", "sentence2": "A lot of bananas were fresh.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Bananas hadn't rotted.", "sentence2": "Bananas were fresh.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Bananas hadn't rotted.", "sentence2": "Bananas haven't been fresh.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Bananas hadn't rotted.", "sentence2": "A lot of bananas were fresh.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Melissa came here.", "sentence2": "Melissa was not here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Melissa came here.", "sentence2": "Melissa wasn't not here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Melissa came here.", "sentence2": "Every driver was not here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Melissa didn't come here.", "sentence2": "Melissa was not here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Melissa didn't come here.", "sentence2": "Melissa wasn't not here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Melissa didn't come here.", "sentence2": "Every driver was not here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Connie was leaving.", "sentence2": "Connie was here.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Connie was leaving.", "sentence2": "Connie wasn't here.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Connie was leaving.", "sentence2": "The waiter was here.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Connie wasn't leaving.", "sentence2": "Connie was here.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Connie wasn't leaving.", "sentence2": "Connie wasn't here.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Connie wasn't leaving.", "sentence2": "The waiter was here.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The drivers got a job.", "sentence2": "The drivers have been unemployed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The drivers got a job.", "sentence2": "The drivers didn't used to be unemployed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The drivers got a job.", "sentence2": "Some nephews of allison have been unemployed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The drivers didn't get a job.", "sentence2": "The drivers have been unemployed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The drivers didn't get a job.", "sentence2": "The drivers didn't used to be unemployed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The drivers didn't get a job.", "sentence2": "Some nephews of allison have been unemployed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Larry ascended all mountains.", "sentence2": "Larry was at the bottom of all mountains.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Larry ascended all mountains.", "sentence2": "Larry wasn't at the bottom of all mountains.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Larry ascended all mountains.", "sentence2": "Every bird was at the bottom of all mountains.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Larry didn't ascend all mountains.", "sentence2": "Larry was at the bottom of all mountains.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Larry didn't ascend all mountains.", "sentence2": "Larry wasn't at the bottom of all mountains.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Larry didn't ascend all mountains.", "sentence2": "Every bird was at the bottom of all mountains.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "These lakes melted.", "sentence2": "These lakes were frozen.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "These lakes melted.", "sentence2": "These lakes haven't been frozen.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "These lakes melted.", "sentence2": "A lot of glaciers were frozen.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "These lakes didn't melt.", "sentence2": "These lakes were frozen.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "These lakes didn't melt.", "sentence2": "These lakes haven't been frozen.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "These lakes didn't melt.", "sentence2": "A lot of glaciers were frozen.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some river was melting.", "sentence2": "Some river used to be frozen.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some river was melting.", "sentence2": "Some river wasn't frozen.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some river was melting.", "sentence2": "This glacier used to be frozen.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some river wasn't melting.", "sentence2": "Some river used to be frozen.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some river wasn't melting.", "sentence2": "Some river wasn't frozen.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some river wasn't melting.", "sentence2": "This glacier used to be frozen.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "That gate was closing.", "sentence2": "That gate was ajar.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "That gate was closing.", "sentence2": "That gate didn't used to be ajar.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "That gate was closing.", "sentence2": "Every closet was ajar.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "That gate wasn't closing.", "sentence2": "That gate was ajar.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "That gate wasn't closing.", "sentence2": "That gate didn't used to be ajar.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "That gate wasn't closing.", "sentence2": "Every closet was ajar.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Dana escaped.", "sentence2": "Dana was in captivity.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Dana escaped.", "sentence2": "Dana didn't used to be in captivity.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Dana escaped.", "sentence2": "Debra's daughters' wife was in captivity.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Dana didn't escap.", "sentence2": "Dana was in captivity.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Dana didn't escap.", "sentence2": "Dana didn't used to be in captivity.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Dana didn't escap.", "sentence2": "Debra's daughters' wife was in captivity.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Jason was finding every mirror.", "sentence2": "Every mirror used to be in an unknown location.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Jason was finding every mirror.", "sentence2": "Every mirror didn't used to be in an unknown location.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Jason was finding every mirror.", "sentence2": "A nephew of all sons of many drivers' contractor's girlfriend used to be in an unknown location.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Jason wasn't finding every mirror.", "sentence2": "Every mirror used to be in an unknown location.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Jason wasn't finding every mirror.", "sentence2": "Every mirror didn't used to be in an unknown location.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Jason wasn't finding every mirror.", "sentence2": "A nephew of all sons of many drivers' contractor's girlfriend used to be in an unknown location.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Every eye shut.", "sentence2": "Every eye used to be ajar.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Every eye shut.", "sentence2": "Every eye wasn't ajar.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Every eye shut.", "sentence2": "Every closet used to be ajar.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Every eye didn't shut.", "sentence2": "Every eye used to be ajar.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Every eye didn't shut.", "sentence2": "Every eye wasn't ajar.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Every eye didn't shut.", "sentence2": "Every closet used to be ajar.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Natalie climbed down the mountain.", "sentence2": "Natalie was at the top of the mountain.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Natalie climbed down the mountain.", "sentence2": "Natalie didn't used to be at the top of the mountain.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Natalie climbed down the mountain.", "sentence2": "Amelia was at the top of the mountain.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Natalie didn't climb down the mountain.", "sentence2": "Natalie was at the top of the mountain.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Natalie didn't climb down the mountain.", "sentence2": "Natalie didn't used to be at the top of the mountain.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Natalie didn't climb down the mountain.", "sentence2": "Amelia was at the top of the mountain.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Edward does find a lot of teenagers.", "sentence2": "A lot of teenagers are in an unknown location.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Edward does find a lot of teenagers.", "sentence2": "A lot of teenagers aren't in an unknown location.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Edward does find a lot of teenagers.", "sentence2": "Deanna's plumbers are in an unknown location.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Edward doesn't find a lot of teenagers.", "sentence2": "A lot of teenagers are in an unknown location.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Edward doesn't find a lot of teenagers.", "sentence2": "A lot of teenagers aren't in an unknown location.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Edward doesn't find a lot of teenagers.", "sentence2": "Deanna's plumbers are in an unknown location.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The window could open.", "sentence2": "The window is closed.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The window could open.", "sentence2": "The window isn't closed.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The window could open.", "sentence2": "Some window is closed.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "The window couldn't open.", "sentence2": "The window is closed.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "The window couldn't open.", "sentence2": "The window isn't closed.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "The window couldn't open.", "sentence2": "Some window is closed.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Tiffany had cleaned many hospitals.", "sentence2": "Many hospitals have been dirty.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Tiffany had cleaned many hospitals.", "sentence2": "Many hospitals weren't dirty.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Tiffany had cleaned many hospitals.", "sentence2": "These guys have been dirty.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Tiffany hadn't cleaned many hospitals.", "sentence2": "Many hospitals have been dirty.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Tiffany hadn't cleaned many hospitals.", "sentence2": "Many hospitals weren't dirty.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Tiffany hadn't cleaned many hospitals.", "sentence2": "These guys have been dirty.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some cilantro did ripen.", "sentence2": "Some cilantro is unripe.", "trigger": "unembedded", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some cilantro did ripen.", "sentence2": "Some cilantro isn't unripe.", "trigger": "unembedded", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some cilantro did ripen.", "sentence2": "That tomato is unripe.", "trigger": "unembedded", "presupposition": "neutral", "gold_label": "neutral"}
+{"sentence1": "Some cilantro didn't ripen.", "sentence2": "Some cilantro is unripe.", "trigger": "negated", "presupposition": "positive", "gold_label": "entailment"}
+{"sentence1": "Some cilantro didn't ripen.", "sentence2": "Some cilantro isn't unripe.", "trigger": "negated", "presupposition": "negated", "gold_label": "contradiction"}
+{"sentence1": "Some cilantro didn't ripen.", "sentence2": "That tomato is unripe.", "trigger": "negated", "presupposition": "neutral", "gold_label": "neutral"}

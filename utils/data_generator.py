@@ -5,6 +5,9 @@ from functools import reduce
 import numpy as np
 from utils.randomize import choice
 import jsonlines
+import logging
+import datetime
+import traceback
 
 
 class Generator:
@@ -32,15 +35,22 @@ class Generator:
         past_sentences = set()
         generated_data = []
         constant_data = self.make_metadata_dict()
+        log_name = 'generation-%s-%s.log' % (constant_data["UID"], str(datetime.datetime.now()))
+        logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
+
         while len(past_sentences) < number_to_generate:
-            new_data, track_sentence = self.sample()
-            if track_sentence not in past_sentences:
-                past_sentences.add(track_sentence)
-                for field in self.data_fields:
-                    if field in new_data:
-                        new_data[field] = string_beautify(new_data[field])
-                        new_data.update(constant_data)
-                generated_data.append(new_data)
+            try:
+                new_data, track_sentence = self.sample()
+                if track_sentence not in past_sentences:
+                    past_sentences.add(track_sentence)
+                    for field in self.data_fields:
+                        if field in new_data:
+                            new_data[field] = string_beautify(new_data[field])
+                            new_data.update(constant_data)
+                    generated_data.append(new_data)
+            except Exception as e:
+                logging.debug("".join(traceback.format_tb(e.__traceback__)) + str(e) + "\n")
+                continue
         jsonlines.Writer(output).write_all(generated_data)
 
 

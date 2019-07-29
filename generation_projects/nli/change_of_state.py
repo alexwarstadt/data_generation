@@ -12,7 +12,7 @@ class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
         super().__init__(
             uid="change_of_state"
         )
-        real_auxs = ["do", "does", "did", "is", "are", "was", "were", "has", "have", "had"]
+        real_auxs = ["did", "is", "are", "was", "were", "has", "have", "had"]
         m_auxs = ["might", "would", "could", "should", "will", "can"]
         self.real_auxs = reduce(np.union1d, [get_all("expression", s, all_modals_auxs) for s in real_auxs])
         self.m_auxs = reduce(np.union1d, [get_all("expression", s, all_modals_auxs) for s in m_auxs])
