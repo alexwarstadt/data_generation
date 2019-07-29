@@ -1,0 +1,1000 @@
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=escaped from-emb_v=went to	1		Many actresses who went to that art gallery escaped from these patients.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=escaped from-emb_v=go to	0		Many actresses who go to that art gallery escaped from these patients.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=went to-emb_v=escaped from	1		Many actresses escaped from these patients who went to that art gallery.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=go to-emb_v=escaped from	0		Many actresses escaped from these patients who go to that art gallery.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hated-emb_v=returned to	1		Some guest who returned to a lot of men hated some adult.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hated-emb_v=returns to	0		Some guest who returns to a lot of men hated some adult.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=returned to-emb_v=hated	1		Some guest hated some adult who returned to a lot of men.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=returns to-emb_v=hated	0		Some guest hated some adult who returns to a lot of men.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=left-emb_v=forgot	1		Some boy that forgot this child left a person.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=left-emb_v=forgets	0		Some boy that forgets this child left a person.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=forgot-emb_v=left	1		Some boy left a person that forgot this child.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=forgets-emb_v=left	0		Some boy left a person that forgets this child.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=returned to-emb_v=ran around	1		Some ladies who ran around all movie theaters returned to many teenagers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=returned to-emb_v=run around	0		Some ladies who run around all movie theaters returned to many teenagers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=ran around-emb_v=returned to	1		Some ladies returned to many teenagers who ran around all movie theaters.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=run around-emb_v=returned to	0		Some ladies returned to many teenagers who run around all movie theaters.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=forgets-emb_v=wore	1		Some dancer who wore that hat forgets an actor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=forgets-emb_v=wears	0		Some dancer who wears that hat forgets an actor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=wore-emb_v=forgets	1		Some dancer forgets an actor who wore that hat.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=wears-emb_v=forgets	0		Some dancer forgets an actor who wears that hat.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talked to-emb_v=cared for	1		That doctor that cared for every student talked to every doctor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talked to-emb_v=cares for	0		That doctor that cares for every student talked to every doctor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=cared for-emb_v=talked to	1		That doctor talked to every doctor that cared for every student.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=cares for-emb_v=talked to	0		That doctor talked to every doctor that cares for every student.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=remembered-emb_v=fled from	1		Some children who fled from some waitress remembered all students.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=remembered-emb_v=flee from	0		Some children who flee from some waitress remembered all students.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=fled from-emb_v=remembered	1		Some children remembered all students who fled from some waitress.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=flee from-emb_v=remembered	0		Some children remembered all students who flee from some waitress.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=dislike-emb_v=listened to	1		A lot of senators that listened to that girl dislike the teachers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=dislike-emb_v=listen to	0		A lot of senators that listen to that girl dislike the teachers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=listened to-emb_v=dislike	1		A lot of senators dislike the teachers that listened to that girl.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=listen to-emb_v=dislike	0		A lot of senators dislike the teachers that listen to that girl.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=admires-emb_v=listened to	1		Some man that listened to women admires the actor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=admires-emb_v=listens to	0		Some man that listens to women admires the actor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=listened to-emb_v=admires	1		Some man admires the actor that listened to women.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=listens to-emb_v=admires	0		Some man admires the actor that listens to women.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=cared for-emb_v=worked with	1		Every adult who worked with some girl cared for a teenager.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=cared for-emb_v=works with	0		Every adult who works with some girl cared for a teenager.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=worked with-emb_v=cared for	1		Every adult cared for a teenager who worked with some girl.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=works with-emb_v=cared for	0		Every adult cared for a teenager who works with some girl.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=escape from-emb_v=helped	1		Some guys that helped the customers escape from people.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=escape from-emb_v=help	0		Some guys that help the customers escape from people.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=helped-emb_v=escape from	1		Some guys escape from people that helped the customers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=help-emb_v=escape from	0		Some guys escape from people that help the customers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=referenced-emb_v=ran around	1		These cashiers who ran around a lot of schools referenced the dancers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=referenced-emb_v=run around	0		These cashiers who run around a lot of schools referenced the dancers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=ran around-emb_v=referenced	1		These cashiers referenced the dancers who ran around a lot of schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=run around-emb_v=referenced	0		These cashiers referenced the dancers who run around a lot of schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visited-emb_v=admired	1		Every waitress who admired many waitresses visited that driver.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visited-emb_v=admires	0		Every waitress who admires many waitresses visited that driver.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=admired-emb_v=visited	1		Every waitress visited that driver who admired many waitresses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=admires-emb_v=visited	0		Every waitress visited that driver who admires many waitresses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discuss-emb_v=insulted	1		Many doctors that insulted reports discuss all doctors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discuss-emb_v=insult	0		Many doctors that insult reports discuss all doctors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=insulted-emb_v=discuss	1		Many doctors discuss all doctors that insulted reports.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=insult-emb_v=discuss	0		Many doctors discuss all doctors that insult reports.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approach-emb_v=remembered	1		All actors who remembered a lot of cashiers approach a lot of women.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approach-emb_v=remember	0		All actors who remember a lot of cashiers approach a lot of women.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=remembered-emb_v=approach	1		All actors approach a lot of women who remembered a lot of cashiers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=remember-emb_v=approach	0		All actors approach a lot of women who remember a lot of cashiers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hug-emb_v=described	1		These pedestrians who described some customer hug these waitresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hug-emb_v=describe	0		These pedestrians who describe some customer hug these waitresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=described-emb_v=hug	1		These pedestrians hug these waitresses who described some customer.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=describe-emb_v=hug	0		These pedestrians hug these waitresses who describe some customer.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=attacked-emb_v=worked with	1		Some teachers who worked with this student attacked all waitresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=attacked-emb_v=work with	0		Some teachers who work with this student attacked all waitresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=worked with-emb_v=attacked	1		Some teachers attacked all waitresses who worked with this student.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=work with-emb_v=attacked	0		Some teachers attacked all waitresses who work with this student.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=listens to-emb_v=drove to	1		Every student who drove to the cafe listens to a boy.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=listens to-emb_v=drives to	0		Every student who drives to the cafe listens to a boy.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=drove to-emb_v=listens to	1		Every student listens to a boy who drove to the cafe .
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=drives to-emb_v=listens to	0		Every student listens to a boy who drives to the cafe .
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=resembled-emb_v=resembled	1		The face that resembled a lot of movies resembled that newspaper article.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=resembled-emb_v=resembles	0		The face that resembles a lot of movies resembled that newspaper article.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=resembled-emb_v=resembled	1		The face resembled that newspaper article that resembled a lot of movies.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=resembles-emb_v=resembled	0		The face resembled that newspaper article that resembles a lot of movies.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=flee from-emb_v=attacked	1		Some ladies that attacked some actress flee from these students.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=flee from-emb_v=attack	0		Some ladies that attack some actress flee from these students.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=attacked-emb_v=flee from	1		Some ladies flee from these students that attacked some actress.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=attack-emb_v=flee from	0		Some ladies flee from these students that attack some actress.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=investigates-emb_v=loved	1		This cashier that loved all people investigates a waitress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=investigates-emb_v=loves	0		This cashier that loves all people investigates a waitress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=loved-emb_v=investigates	1		This cashier investigates a waitress that loved all people.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=loves-emb_v=investigates	0		This cashier investigates a waitress that loves all people.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=like-emb_v=cared for	1		All waitresses who cared for a guy like boys.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=like-emb_v=care for	0		All waitresses who care for a guy like boys.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=cared for-emb_v=like	1		All waitresses like boys who cared for a guy.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=care for-emb_v=like	0		All waitresses like boys who care for a guy.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talks about-emb_v=hated	1		An actress who hated that book talks about this actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talks about-emb_v=hates	0		An actress who hates that book talks about this actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hated-emb_v=talks about	1		An actress talks about this actress who hated that book.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hates-emb_v=talks about	0		An actress talks about this actress who hates that book.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observes-emb_v=praised	1		A student that praised a customer observes every guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observes-emb_v=praises	0		A student that praises a customer observes every guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=praised-emb_v=observes	1		A student observes every guest that praised a customer.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=praises-emb_v=observes	0		A student observes every guest that praises a customer.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=criticizes-emb_v=arrived at	1		The pedestrian that arrived at every school criticizes every driver.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=criticizes-emb_v=arrives at	0		The pedestrian that arrives at every school criticizes every driver.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=arrived at-emb_v=criticizes	1		The pedestrian criticizes every driver that arrived at every school.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=arrives at-emb_v=criticizes	0		The pedestrian criticizes every driver that arrives at every school.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=love-emb_v=talked about	1		These waitresses that talked about some woman love some teenagers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=love-emb_v=talk about	0		These waitresses that talk about some woman love some teenagers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked about-emb_v=love	1		These waitresses love some teenagers that talked about some woman.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talk about-emb_v=love	0		These waitresses love some teenagers that talk about some woman.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talks about-emb_v=arrived at	1		Every patient that arrived at the cafe talks about the waitress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talks about-emb_v=arrives at	0		Every patient that arrives at the cafe talks about the waitress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=arrived at-emb_v=talks about	1		Every patient talks about the waitress that arrived at the cafe .
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=arrives at-emb_v=talks about	0		Every patient talks about the waitress that arrives at the cafe .
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=cares for-emb_v=insulted	1		This person who insulted every cafe cares for every guy.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=cares for-emb_v=insults	0		This person who insults every cafe cares for every guy.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=insulted-emb_v=cares for	1		This person cares for every guy who insulted every cafe .
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=insults-emb_v=cares for	0		This person cares for every guy who insults every cafe .
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=see-emb_v=respected	1		A lot of ladies that respected some doctor see a lot of students.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=see-emb_v=respect	0		A lot of ladies that respect some doctor see a lot of students.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=respected-emb_v=see	1		A lot of ladies see a lot of students that respected some doctor.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=respect-emb_v=see	0		A lot of ladies see a lot of students that respect some doctor.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=described-emb_v=admired	1		This customer that admired some pedestrians described a doctor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=described-emb_v=admires	0		This customer that admires some pedestrians described a doctor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=admired-emb_v=described	1		This customer described a doctor that admired some pedestrians.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=admires-emb_v=described	0		This customer described a doctor that admires some pedestrians.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=listen to-emb_v=kissed	1		The cashiers who kissed the guys listen to all actors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=listen to-emb_v=kiss	0		The cashiers who kiss the guys listen to all actors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=kissed-emb_v=listen to	1		The cashiers listen to all actors who kissed the guys.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=kiss-emb_v=listen to	0		The cashiers listen to all actors who kiss the guys.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=returns to-emb_v=sold	1		Every dancer that sold that dish returns to the lady.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=returns to-emb_v=sells	0		Every dancer that sells that dish returns to the lady.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=sold-emb_v=returns to	1		Every dancer returns to the lady that sold that dish.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=sells-emb_v=returns to	0		Every dancer returns to the lady that sells that dish.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=leave-emb_v=ran around	1		Adults that ran around all restaurants leave all men.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=leave-emb_v=run around	0		Adults that run around all restaurants leave all men.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=ran around-emb_v=leave	1		Adults leave all men that ran around all restaurants.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=run around-emb_v=leave	0		Adults leave all men that run around all restaurants.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=described-emb_v=wore	1		The guest that wore some scarf described the child.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=described-emb_v=wears	0		The guest that wears some scarf described the child.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=wore-emb_v=described	1		The guest described the child that wore some scarf.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=wears-emb_v=described	0		The guest described the child that wears some scarf.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discuss-emb_v=insulted	1		All documentaries that insulted stories discuss these cafes.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discuss-emb_v=insult	0		All documentaries that insult stories discuss these cafes.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=insulted-emb_v=discuss	1		All documentaries discuss these cafes that insulted stories.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=insult-emb_v=discuss	0		All documentaries discuss these cafes that insult stories.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hate-emb_v=observed	1		Many boys that observed a lot of doctors hate some senators.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hate-emb_v=observe	0		Many boys that observe a lot of doctors hate some senators.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=observed-emb_v=hate	1		Many boys hate some senators that observed a lot of doctors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=observe-emb_v=hate	0		Many boys hate some senators that observe a lot of doctors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=remembers-emb_v=ran around	1		Some woman that ran around that movie theater remembers this child.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=remembers-emb_v=runs around	0		Some woman that runs around that movie theater remembers this child.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=ran around-emb_v=remembers	1		Some woman remembers this child that ran around that movie theater.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=runs around-emb_v=remembers	0		Some woman remembers this child that runs around that movie theater.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=resembled-emb_v=resembled	1		This mall that resembled some documentary resembled some essay.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=resembled-emb_v=resembles	0		This mall that resembles some documentary resembled some essay.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=resembled-emb_v=resembled	1		This mall resembled some essay that resembled some documentary.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=resembles-emb_v=resembled	0		This mall resembled some essay that resembles some documentary.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=referenced-emb_v=insulted	1		This play that insulted many high schools referenced that essay.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=referenced-emb_v=insults	0		This play that insults many high schools referenced that essay.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=insulted-emb_v=referenced	1		This play referenced that essay that insulted many high schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=insults-emb_v=referenced	0		This play referenced that essay that insults many high schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hugged-emb_v=insulted	1		Students that insulted books hugged waiters.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hugged-emb_v=insult	0		Students that insult books hugged waiters.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=insulted-emb_v=hugged	1		Students hugged waiters that insulted books.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=insult-emb_v=hugged	0		Students hugged waiters that insult books.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=investigate-emb_v=arrived at	1		Men that arrived at some museums investigate these guys.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=investigate-emb_v=arrive at	0		Men that arrive at some museums investigate these guys.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=arrived at-emb_v=investigate	1		Men investigate these guys that arrived at some museums.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=arrive at-emb_v=investigate	0		Men investigate these guys that arrive at some museums.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discusses-emb_v=loved	1		The customer that loved many senators discusses every man.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discusses-emb_v=loves	0		The customer that loves many senators discusses every man.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=loved-emb_v=discusses	1		The customer discusses every man that loved many senators.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=loves-emb_v=discusses	0		The customer discusses every man that loves many senators.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=listen to-emb_v=passed	1		Some doctors that passed this movie theater listen to some senators.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=listen to-emb_v=pass	0		Some doctors that pass this movie theater listen to some senators.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=passed-emb_v=listen to	1		Some doctors listen to some senators that passed this movie theater.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=pass-emb_v=listen to	0		Some doctors listen to some senators that pass this movie theater.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=kisses-emb_v=hugged	1		Every man that hugged a lot of ladies kisses the teacher.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=kisses-emb_v=hugs	0		Every man that hugs a lot of ladies kisses the teacher.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hugged-emb_v=kisses	1		Every man kisses the teacher that hugged a lot of ladies.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hugs-emb_v=kisses	0		Every man kisses the teacher that hugs a lot of ladies.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insults-emb_v=walked through	1		The waitress who walked through every public park insults this guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insults-emb_v=walks through	0		The waitress who walks through every public park insults this guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=walked through-emb_v=insults	1		The waitress insults this guest who walked through every public park.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=walks through-emb_v=insults	0		The waitress insults this guest who walks through every public park.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=criticized-emb_v=wore	1		A senator that wore this hat criticized a patient.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=criticized-emb_v=wears	0		A senator that wears this hat criticized a patient.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=wore-emb_v=criticized	1		A senator criticized a patient that wore this hat.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=wears-emb_v=criticized	0		A senator criticized a patient that wears this hat.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=criticizes-emb_v=observed	1		A waitress who observed a student criticizes this pedestrian.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=criticizes-emb_v=observes	0		A waitress who observes a student criticizes this pedestrian.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=observed-emb_v=criticizes	1		A waitress criticizes this pedestrian who observed a student.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=observes-emb_v=criticizes	0		A waitress criticizes this pedestrian who observes a student.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=forgot-emb_v=examined	1		Some doctors that examined all essays forgot the students.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=forgot-emb_v=examine	0		Some doctors that examine all essays forgot the students.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=examined-emb_v=forgot	1		Some doctors forgot the students that examined all essays.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=examine-emb_v=forgot	0		Some doctors forgot the students that examine all essays.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insult-emb_v=scanned	1		Guys who scanned a lot of books insult some doctors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insult-emb_v=scan	0		Guys who scan a lot of books insult some doctors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=scanned-emb_v=insult	1		Guys insult some doctors who scanned a lot of books.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=scan-emb_v=insult	0		Guys insult some doctors who scan a lot of books.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observe-emb_v=loved	1		Adults that loved some cashiers observe these pedestrians.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observe-emb_v=love	0		Adults that love some cashiers observe these pedestrians.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=loved-emb_v=observe	1		Adults observe these pedestrians that loved some cashiers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=love-emb_v=observe	0		Adults observe these pedestrians that love some cashiers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=listened to-emb_v=returned to	1		Pedestrians who returned to college campuses listened to a lot of patients.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=listened to-emb_v=return to	0		Pedestrians who return to college campuses listened to a lot of patients.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=returned to-emb_v=listened to	1		Pedestrians listened to a lot of patients who returned to college campuses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=return to-emb_v=listened to	0		Pedestrians listened to a lot of patients who return to college campuses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=attacks-emb_v=described	1		The senator that described this art gallery attacks the girl.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=attacks-emb_v=describes	0		The senator that describes this art gallery attacks the girl.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=described-emb_v=attacks	1		The senator attacks the girl that described this art gallery.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=describes-emb_v=attacks	0		The senator attacks the girl that describes this art gallery.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=kiss-emb_v=were at	1		All waiters that were at grocery stores kiss these pedestrians.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=kiss-emb_v=are at	0		All waiters that are at grocery stores kiss these pedestrians.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=were at-emb_v=kiss	1		All waiters kiss these pedestrians that were at grocery stores.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=are at-emb_v=kiss	0		All waiters kiss these pedestrians that are at grocery stores.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=works with-emb_v=dropped by	1		A woman who dropped by every public park works with some guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=works with-emb_v=drops by	0		A woman who drops by every public park works with some guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=dropped by-emb_v=works with	1		A woman works with some guest who dropped by every public park.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=drops by-emb_v=works with	0		A woman works with some guest who drops by every public park.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=praises-emb_v=investigated	1		This doctor that investigated a lot of senators praises that cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=praises-emb_v=investigates	0		This doctor that investigates a lot of senators praises that cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=investigated-emb_v=praises	1		This doctor praises that cashier that investigated a lot of senators.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=investigates-emb_v=praises	0		This doctor praises that cashier that investigates a lot of senators.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=helps-emb_v=observed	1		That teenager that observed this student helps a guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=helps-emb_v=observes	0		That teenager that observes this student helps a guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=observed-emb_v=helps	1		That teenager helps a guest that observed this student.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=observes-emb_v=helps	0		That teenager helps a guest that observes this student.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=describes-emb_v=toured	1		Some teacher that toured the hospital describes that lady.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=describes-emb_v=tours	0		Some teacher that tours the hospital describes that lady.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=toured-emb_v=describes	1		Some teacher describes that lady that toured the hospital.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=tours-emb_v=describes	0		Some teacher describes that lady that tours the hospital.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hug-emb_v=approached	1		Many customers who approached the actress hug all boys.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hug-emb_v=approach	0		Many customers who approach the actress hug all boys.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=approached-emb_v=hug	1		Many customers hug all boys who approached the actress.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=approach-emb_v=hug	0		Many customers hug all boys who approach the actress.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discuss-emb_v=loved	1		The men who loved many doctors discuss teenagers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discuss-emb_v=love	0		The men who love many doctors discuss teenagers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=loved-emb_v=discuss	1		The men discuss teenagers who loved many doctors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=love-emb_v=discuss	0		The men discuss teenagers who love many doctors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approach-emb_v=ran around	1		These pedestrians who ran around the movie theater approach these ladies.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approach-emb_v=run around	0		These pedestrians who run around the movie theater approach these ladies.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=ran around-emb_v=approach	1		These pedestrians approach these ladies who ran around the movie theater.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=run around-emb_v=approach	0		These pedestrians approach these ladies who run around the movie theater.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=praise-emb_v=discussed	1		A lot of waitresses who discussed all movie theaters praise the teenagers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=praise-emb_v=discuss	0		A lot of waitresses who discuss all movie theaters praise the teenagers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=discussed-emb_v=praise	1		A lot of waitresses praise the teenagers who discussed all movie theaters.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=discuss-emb_v=praise	0		A lot of waitresses praise the teenagers who discuss all movie theaters.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insults-emb_v=talked about	1		A cashier that talked about all restaurants insults a waiter.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insults-emb_v=talks about	0		A cashier that talks about all restaurants insults a waiter.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked about-emb_v=insults	1		A cashier insults a waiter that talked about all restaurants.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks about-emb_v=insults	0		A cashier insults a waiter that talks about all restaurants.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=leaves-emb_v=ran around	1		The guest that ran around this movie theater leaves some woman.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=leaves-emb_v=runs around	0		The guest that runs around this movie theater leaves some woman.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=ran around-emb_v=leaves	1		The guest leaves some woman that ran around this movie theater.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=runs around-emb_v=leaves	0		The guest leaves some woman that runs around this movie theater.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=referenced-emb_v=insulted	1		The plays that insulted some teenagers referenced these books.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=referenced-emb_v=insult	0		The plays that insult some teenagers referenced these books.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=insulted-emb_v=referenced	1		The plays referenced these books that insulted some teenagers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=insult-emb_v=referenced	0		The plays referenced these books that insult some teenagers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talk to-emb_v=worked with	1		These guests that worked with all girls talk to many waitresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talk to-emb_v=work with	0		These guests that work with all girls talk to many waitresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=worked with-emb_v=talk to	1		These guests talk to many waitresses that worked with all girls.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=work with-emb_v=talk to	0		These guests talk to many waitresses that work with all girls.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insults-emb_v=talked about	1		A movie that talked about every play insults every story.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insults-emb_v=talks about	0		A movie that talks about every play insults every story.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked about-emb_v=insults	1		A movie insults every story that talked about every play.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks about-emb_v=insults	0		A movie insults every story that talks about every play.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=works with-emb_v=arrived at	1		That teacher who arrived at these cafes works with some pedestrian.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=works with-emb_v=arrives at	0		That teacher who arrives at these cafes works with some pedestrian.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=arrived at-emb_v=works with	1		That teacher works with some pedestrian who arrived at these cafes.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=arrives at-emb_v=works with	0		That teacher works with some pedestrian who arrives at these cafes.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=saw-emb_v=referenced	1		Some man who referenced these guys saw some pedestrian.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=saw-emb_v=references	0		Some man who references these guys saw some pedestrian.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=referenced-emb_v=saw	1		Some man saw some pedestrian who referenced these guys.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=references-emb_v=saw	0		Some man saw some pedestrian who references these guys.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hugs-emb_v=skated around	1		That woman who skated around all high schools hugs some actor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hugs-emb_v=skates around	0		That woman who skates around all high schools hugs some actor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=skated around-emb_v=hugs	1		That woman hugs some actor who skated around all high schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=skates around-emb_v=hugs	0		That woman hugs some actor who skates around all high schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=watches-emb_v=loved	1		An actress who loved the stories watches that student.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=watches-emb_v=loves	0		An actress who loves the stories watches that student.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=loved-emb_v=watches	1		An actress watches that student who loved the stories.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=loves-emb_v=watches	0		An actress watches that student who loves the stories.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=fled from-emb_v=wore	1		The adult that wore a hat fled from every person.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=fled from-emb_v=wears	0		The adult that wears a hat fled from every person.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=wore-emb_v=fled from	1		The adult fled from every person that wore a hat.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=wears-emb_v=fled from	0		The adult fled from every person that wears a hat.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=help-emb_v=respected	1		Many people who respected the actresses help many adults.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=help-emb_v=respect	0		Many people who respect the actresses help many adults.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=respected-emb_v=help	1		Many people help many adults who respected the actresses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=respect-emb_v=help	0		Many people help many adults who respect the actresses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=worked with-emb_v=forgot	1		The boy that forgot that actress worked with the teenager.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=worked with-emb_v=forgets	0		The boy that forgets that actress worked with the teenager.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=forgot-emb_v=worked with	1		The boy worked with the teenager that forgot that actress.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=forgets-emb_v=worked with	0		The boy worked with the teenager that forgets that actress.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=like-emb_v=forgot	1		A lot of senators that forgot some guests like some cashiers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=like-emb_v=forget	0		A lot of senators that forget some guests like some cashiers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=forgot-emb_v=like	1		A lot of senators like some cashiers that forgot some guests.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=forget-emb_v=like	0		A lot of senators like some cashiers that forget some guests.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=like-emb_v=knew	1		All senators who knew this student like some doctors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=like-emb_v=know	0		All senators who know this student like some doctors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=knew-emb_v=like	1		All senators like some doctors who knew this student.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=know-emb_v=like	0		All senators like some doctors who know this student.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approached-emb_v=sold	1		The driver that sold forks approached that cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approached-emb_v=sells	0		The driver that sells forks approached that cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=sold-emb_v=approached	1		The driver approached that cashier that sold forks.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=sells-emb_v=approached	0		The driver approached that cashier that sells forks.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talk about-emb_v=went to	1		All customers that went to the high schools talk about dancers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talk about-emb_v=go to	0		All customers that go to the high schools talk about dancers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=went to-emb_v=talk about	1		All customers talk about dancers that went to the high schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=go to-emb_v=talk about	0		All customers talk about dancers that go to the high schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talked about-emb_v=cleaned	1		The waiter who cleaned this book talked about a child.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talked about-emb_v=cleans	0		The waiter who cleans this book talked about a child.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=cleaned-emb_v=talked about	1		The waiter talked about a child who cleaned this book.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=cleans-emb_v=talked about	0		The waiter talked about a child who cleans this book.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=dislike-emb_v=resembled	1		Senators who resembled the reports dislike a lot of waitresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=dislike-emb_v=resemble	0		Senators who resemble the reports dislike a lot of waitresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=resembled-emb_v=dislike	1		Senators dislike a lot of waitresses who resembled the reports.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=resemble-emb_v=dislike	0		Senators dislike a lot of waitresses who resemble the reports.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=respects-emb_v=observed	1		That patient that observed all cashiers respects the customer.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=respects-emb_v=observes	0		That patient that observes all cashiers respects the customer.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=observed-emb_v=respects	1		That patient respects the customer that observed all cashiers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=observes-emb_v=respects	0		That patient respects the customer that observes all cashiers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=investigates-emb_v=observed	1		The man that observed some lady investigates an actor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=investigates-emb_v=observes	0		The man that observes some lady investigates an actor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=observed-emb_v=investigates	1		The man investigates an actor that observed some lady.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=observes-emb_v=investigates	0		The man investigates an actor that observes some lady.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observe-emb_v=hated	1		Many senators that hated every commentary observe these actresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observe-emb_v=hate	0		Many senators that hate every commentary observe these actresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hated-emb_v=observe	1		Many senators observe these actresses that hated every commentary.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hate-emb_v=observe	0		Many senators observe these actresses that hate every commentary.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approaches-emb_v=helped	1		Some teacher who helped a person approaches that guy.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approaches-emb_v=helps	0		Some teacher who helps a person approaches that guy.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=helped-emb_v=approaches	1		Some teacher approaches that guy who helped a person.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=helps-emb_v=approaches	0		Some teacher approaches that guy who helps a person.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talk to-emb_v=hated	1		A lot of women that hated many children talk to a lot of patients.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talk to-emb_v=hate	0		A lot of women that hate many children talk to a lot of patients.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hated-emb_v=talk to	1		A lot of women talk to a lot of patients that hated many children.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hate-emb_v=talk to	0		A lot of women talk to a lot of patients that hate many children.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=kissed-emb_v=arrived at	1		Many adults that arrived at a lot of restaurants kissed all guys.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=kissed-emb_v=arrive at	0		Many adults that arrive at a lot of restaurants kissed all guys.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=arrived at-emb_v=kissed	1		Many adults kissed all guys that arrived at a lot of restaurants.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=arrive at-emb_v=kissed	0		Many adults kissed all guys that arrive at a lot of restaurants.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=knows-emb_v=biked to	1		Every actress that biked to these college campuses knows this teacher.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=knows-emb_v=bikes to	0		Every actress that bikes to these college campuses knows this teacher.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=biked to-emb_v=knows	1		Every actress knows this teacher that biked to these college campuses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=bikes to-emb_v=knows	0		Every actress knows this teacher that bikes to these college campuses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=attack-emb_v=liked	1		Some doctors that liked the woman attack many doctors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=attack-emb_v=like	0		Some doctors that like the woman attack many doctors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=liked-emb_v=attack	1		Some doctors attack many doctors that liked the woman.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=like-emb_v=attack	0		Some doctors attack many doctors that like the woman.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=kiss-emb_v=hugged	1		Some adults who hugged these adults kiss many customers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=kiss-emb_v=hug	0		Some adults who hug these adults kiss many customers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hugged-emb_v=kiss	1		Some adults kiss many customers who hugged these adults.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hug-emb_v=kiss	0		Some adults kiss many customers who hug these adults.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talked to-emb_v=went to	1		These guys that went to that bank talked to some actresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talked to-emb_v=go to	0		These guys that go to that bank talked to some actresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=went to-emb_v=talked to	1		These guys talked to some actresses that went to that bank.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=go to-emb_v=talked to	0		These guys talked to some actresses that go to that bank.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insults-emb_v=lifted	1		A cashier that lifted a dish insults every girl.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insults-emb_v=lifts	0		A cashier that lifts a dish insults every girl.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=lifted-emb_v=insults	1		A cashier insults every girl that lifted a dish.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=lifts-emb_v=insults	0		A cashier insults every girl that lifts a dish.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=likes-emb_v=biked to	1		A boy that biked to this high school likes some actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=likes-emb_v=bikes to	0		A boy that bikes to this high school likes some actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=biked to-emb_v=likes	1		A boy likes some actress that biked to this high school.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=bikes to-emb_v=likes	0		A boy likes some actress that bikes to this high school.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talked about-emb_v=discussed	1		The reports that discussed that mall talked about high schools.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talked about-emb_v=discuss	0		The reports that discuss that mall talked about high schools.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=discussed-emb_v=talked about	1		The reports talked about high schools that discussed that mall.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=discuss-emb_v=talked about	0		The reports talked about high schools that discuss that mall.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=describes-emb_v=hugged	1		This adult who hugged the customer describes a girl.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=describes-emb_v=hugs	0		This adult who hugs the customer describes a girl.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hugged-emb_v=describes	1		This adult describes a girl who hugged the customer.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hugs-emb_v=describes	0		This adult describes a girl who hugs the customer.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=disliked-emb_v=kissed	1		Some actor who kissed boys disliked the lady.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=disliked-emb_v=kisses	0		Some actor who kisses boys disliked the lady.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=kissed-emb_v=disliked	1		Some actor disliked the lady who kissed boys.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=kisses-emb_v=disliked	0		Some actor disliked the lady who kisses boys.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visited-emb_v=investigated	1		Many doctors who investigated all schools visited a lot of waiters.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visited-emb_v=investigate	0		Many doctors who investigate all schools visited a lot of waiters.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=investigated-emb_v=visited	1		Many doctors visited a lot of waiters who investigated all schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=investigate-emb_v=visited	0		Many doctors visited a lot of waiters who investigate all schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visited-emb_v=were at	1		Some girl that were at museums visited every doctor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visited-emb_v=is at	0		Some girl that is at museums visited every doctor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=were at-emb_v=visited	1		Some girl visited every doctor that were at museums.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=is at-emb_v=visited	0		Some girl visited every doctor that is at museums.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=resemble-emb_v=sold	1		Boys who sold a dish resemble the ladies.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=resemble-emb_v=sell	0		Boys who sell a dish resemble the ladies.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=sold-emb_v=resemble	1		Boys resemble the ladies who sold a dish.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=sell-emb_v=resemble	0		Boys resemble the ladies who sell a dish.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=flees from-emb_v=hated	1		This lady who hated the boys flees from some guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=flees from-emb_v=hates	0		This lady who hates the boys flees from some guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hated-emb_v=flees from	1		This lady flees from some guest who hated the boys.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hates-emb_v=flees from	0		This lady flees from some guest who hates the boys.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=forgot-emb_v=knew	1		These pedestrians who knew some girl forgot a lot of doctors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=forgot-emb_v=know	0		These pedestrians who know some girl forgot a lot of doctors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=knew-emb_v=forgot	1		These pedestrians forgot a lot of doctors who knew some girl.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=know-emb_v=forgot	0		These pedestrians forgot a lot of doctors who know some girl.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=praises-emb_v=talked about	1		Some report that talked about every teenager praises every movie.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=praises-emb_v=talks about	0		Some report that talks about every teenager praises every movie.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked about-emb_v=praises	1		Some report praises every movie that talked about every teenager.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks about-emb_v=praises	0		Some report praises every movie that talks about every teenager.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=see-emb_v=went to	1		Some waiters who went to all hospitals see a lot of doctors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=see-emb_v=go to	0		Some waiters who go to all hospitals see a lot of doctors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=went to-emb_v=see	1		Some waiters see a lot of doctors who went to all hospitals.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=go to-emb_v=see	0		Some waiters see a lot of doctors who go to all hospitals.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=escape from-emb_v=cleaned	1		Some guys that cleaned these rugs escape from these adults.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=escape from-emb_v=clean	0		Some guys that clean these rugs escape from these adults.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=cleaned-emb_v=escape from	1		Some guys escape from these adults that cleaned these rugs.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=clean-emb_v=escape from	0		Some guys escape from these adults that clean these rugs.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talk to-emb_v=hated	1		A lot of guests that hated many actors talk to some actresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talk to-emb_v=hate	0		A lot of guests that hate many actors talk to some actresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hated-emb_v=talk to	1		A lot of guests talk to some actresses that hated many actors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hate-emb_v=talk to	0		A lot of guests talk to some actresses that hate many actors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=referenced-emb_v=toured	1		Every woman that toured every library referenced the woman.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=referenced-emb_v=tours	0		Every woman that tours every library referenced the woman.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=toured-emb_v=referenced	1		Every woman referenced the woman that toured every library.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=tours-emb_v=referenced	0		Every woman referenced the woman that tours every library.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approaches-emb_v=talked to	1		A customer who talked to all people approaches some lady.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approaches-emb_v=talks to	0		A customer who talks to all people approaches some lady.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked to-emb_v=approaches	1		A customer approaches some lady who talked to all people.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks to-emb_v=approaches	0		A customer approaches some lady who talks to all people.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=left-emb_v=talked to	1		A woman that talked to actors left every cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=left-emb_v=talks to	0		A woman that talks to actors left every cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked to-emb_v=left	1		A woman left every cashier that talked to actors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks to-emb_v=left	0		A woman left every cashier that talks to actors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=remembers-emb_v=skated around	1		Some guy who skated around the college campus remembers that driver.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=remembers-emb_v=skates around	0		Some guy who skates around the college campus remembers that driver.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=skated around-emb_v=remembers	1		Some guy remembers that driver who skated around the college campus.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=skates around-emb_v=remembers	0		Some guy remembers that driver who skates around the college campus.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=attack-emb_v=broke	1		Men who broke the glass attack all teachers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=attack-emb_v=break	0		Men who break the glass attack all teachers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=broke-emb_v=attack	1		Men attack all teachers who broke the glass.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=break-emb_v=attack	0		Men attack all teachers who break the glass.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=describe-emb_v=resembled	1		Many essays that resembled many women describe the schools.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=describe-emb_v=resemble	0		Many essays that resemble many women describe the schools.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=resembled-emb_v=describe	1		Many essays describe the schools that resembled many women.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=resemble-emb_v=describe	0		Many essays describe the schools that resemble many women.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=listens to-emb_v=walked through	1		Some patient who walked through malls listens to this boy.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=listens to-emb_v=walks through	0		Some patient who walks through malls listens to this boy.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=walked through-emb_v=listens to	1		Some patient listens to this boy who walked through malls.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=walks through-emb_v=listens to	0		Some patient listens to this boy who walks through malls.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=escapes from-emb_v=referenced	1		The child that referenced doctors escapes from the person.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=escapes from-emb_v=references	0		The child that references doctors escapes from the person.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=referenced-emb_v=escapes from	1		The child escapes from the person that referenced doctors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=references-emb_v=escapes from	0		The child escapes from the person that references doctors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=help-emb_v=exited	1		Waitresses that exited high schools help these drivers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=help-emb_v=exit	0		Waitresses that exit high schools help these drivers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=exited-emb_v=help	1		Waitresses help these drivers that exited high schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=exit-emb_v=help	0		Waitresses help these drivers that exit high schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=flees from-emb_v=admired	1		Every teacher who admired a lot of cars flees from some girl.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=flees from-emb_v=admires	0		Every teacher who admires a lot of cars flees from some girl.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=admired-emb_v=flees from	1		Every teacher flees from some girl who admired a lot of cars.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=admires-emb_v=flees from	0		Every teacher flees from some girl who admires a lot of cars.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=love-emb_v=investigated	1		The actresses who investigated many high schools love these dancers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=love-emb_v=investigate	0		The actresses who investigate many high schools love these dancers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=investigated-emb_v=love	1		The actresses love these dancers who investigated many high schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=investigate-emb_v=love	0		The actresses love these dancers who investigate many high schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=likes-emb_v=forgot	1		Some cashier who forgot some senators likes the actor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=likes-emb_v=forgets	0		Some cashier who forgets some senators likes the actor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=forgot-emb_v=likes	1		Some cashier likes the actor who forgot some senators.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=forgets-emb_v=likes	0		Some cashier likes the actor who forgets some senators.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=helps-emb_v=scanned	1		Some actor that scanned some commentaries helps an adult.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=helps-emb_v=scans	0		Some actor that scans some commentaries helps an adult.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=scanned-emb_v=helps	1		Some actor helps an adult that scanned some commentaries.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=scans-emb_v=helps	0		Some actor helps an adult that scans some commentaries.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=disliked-emb_v=worked with	1		This cashier who worked with the doctor disliked this actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=disliked-emb_v=works with	0		This cashier who works with the doctor disliked this actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=worked with-emb_v=disliked	1		This cashier disliked this actress who worked with the doctor.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=works with-emb_v=disliked	0		This cashier disliked this actress who works with the doctor.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=respected-emb_v=remembered	1		This driver who remembered people respected some student.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=respected-emb_v=remembers	0		This driver who remembers people respected some student.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=remembered-emb_v=respected	1		This driver respected some student who remembered people.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=remembers-emb_v=respected	0		This driver respected some student who remembers people.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observe-emb_v=explored	1		The dancers who explored these schools observe some people.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observe-emb_v=explore	0		The dancers who explore these schools observe some people.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=explored-emb_v=observe	1		The dancers observe some people who explored these schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=explore-emb_v=observe	0		The dancers observe some people who explore these schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=loves-emb_v=ran around	1		The woman that ran around the banks loves every boy.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=loves-emb_v=runs around	0		The woman that runs around the banks loves every boy.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=ran around-emb_v=loves	1		The woman loves every boy that ran around the banks.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=runs around-emb_v=loves	0		The woman loves every boy that runs around the banks.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=escaped from-emb_v=were at	1		A lady who were at the museum escaped from every teacher.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=escaped from-emb_v=is at	0		A lady who is at the museum escaped from every teacher.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=were at-emb_v=escaped from	1		A lady escaped from every teacher who were at the museum.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=is at-emb_v=escaped from	0		A lady escaped from every teacher who is at the museum.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=care for-emb_v=kissed	1		Many men that kissed many dancers care for the women.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=care for-emb_v=kiss	0		Many men that kiss many dancers care for the women.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=kissed-emb_v=care for	1		Many men care for the women that kissed many dancers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=kiss-emb_v=care for	0		Many men care for the women that kiss many dancers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talks to-emb_v=talked about	1		A pedestrian who talked about the book talks to that cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talks to-emb_v=talks about	0		A pedestrian who talks about the book talks to that cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked about-emb_v=talks to	1		A pedestrian talks to that cashier who talked about the book.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks about-emb_v=talks to	0		A pedestrian talks to that cashier who talks about the book.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=admire-emb_v=broke	1		These drivers who broke that glass admire all children.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=admire-emb_v=break	0		These drivers who break that glass admire all children.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=broke-emb_v=admire	1		These drivers admire all children who broke that glass.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=break-emb_v=admire	0		These drivers admire all children who break that glass.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hug-emb_v=sold	1		Many men who sold this dish hug a lot of boys.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hug-emb_v=sell	0		Many men who sell this dish hug a lot of boys.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=sold-emb_v=hug	1		Many men hug a lot of boys who sold this dish.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=sell-emb_v=hug	0		Many men hug a lot of boys who sell this dish.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observed-emb_v=praised	1		Some woman who praised some children observed an actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observed-emb_v=praises	0		Some woman who praises some children observed an actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=praised-emb_v=observed	1		Some woman observed an actress who praised some children.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=praises-emb_v=observed	0		Some woman observed an actress who praises some children.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=attacked-emb_v=returned to	1		Many teenagers who returned to that lady attacked some waiters.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=attacked-emb_v=return to	0		Many teenagers who return to that lady attacked some waiters.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=returned to-emb_v=attacked	1		Many teenagers attacked some waiters who returned to that lady.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=return to-emb_v=attacked	0		Many teenagers attacked some waiters who return to that lady.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observes-emb_v=exited	1		This doctor who exited many cafes observes every pedestrian.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observes-emb_v=exits	0		This doctor who exits many cafes observes every pedestrian.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=exited-emb_v=observes	1		This doctor observes every pedestrian who exited many cafes.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=exits-emb_v=observes	0		This doctor observes every pedestrian who exits many cafes.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=resembled-emb_v=resembled	1		Every shirt that resembled the restaurants resembled some museum.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=resembled-emb_v=resembles	0		Every shirt that resembles the restaurants resembled some museum.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=resembled-emb_v=resembled	1		Every shirt resembled some museum that resembled the restaurants.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=resembles-emb_v=resembled	0		Every shirt resembled some museum that resembles the restaurants.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=helped-emb_v=helped	1		A lot of senators that helped the waitress helped these drivers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=helped-emb_v=help	0		A lot of senators that help the waitress helped these drivers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=helped-emb_v=helped	1		A lot of senators helped these drivers that helped the waitress.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=help-emb_v=helped	0		A lot of senators helped these drivers that help the waitress.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=respect-emb_v=had	1		A lot of men who had the gloves respect a lot of customers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=respect-emb_v=have	0		A lot of men who have the gloves respect a lot of customers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=had-emb_v=respect	1		A lot of men respect a lot of customers who had the gloves.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=have-emb_v=respect	0		A lot of men respect a lot of customers who have the gloves.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=escapes from-emb_v=disliked	1		Every customer that disliked all guests escapes from that actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=escapes from-emb_v=dislikes	0		Every customer that dislikes all guests escapes from that actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=disliked-emb_v=escapes from	1		Every customer escapes from that actress that disliked all guests.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=dislikes-emb_v=escapes from	0		Every customer escapes from that actress that dislikes all guests.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=attacked-emb_v=described	1		Some boys that described a lot of guys attacked the students.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=attacked-emb_v=describe	0		Some boys that describe a lot of guys attacked the students.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=described-emb_v=attacked	1		Some boys attacked the students that described a lot of guys.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=describe-emb_v=attacked	0		Some boys attacked the students that describe a lot of guys.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talked to-emb_v=broke	1		This actress that broke this car talked to some cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talked to-emb_v=breaks	0		This actress that breaks this car talked to some cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=broke-emb_v=talked to	1		This actress talked to some cashier that broke this car.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=breaks-emb_v=talked to	0		This actress talked to some cashier that breaks this car.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=criticizes-emb_v=insulted	1		Some essay that insulted many actors criticizes every restaurant.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=criticizes-emb_v=insults	0		Some essay that insults many actors criticizes every restaurant.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=insulted-emb_v=criticizes	1		Some essay criticizes every restaurant that insulted many actors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=insults-emb_v=criticizes	0		Some essay criticizes every restaurant that insults many actors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=respected-emb_v=knew	1		Some doctors who knew many patients respected a lot of boys.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=respected-emb_v=know	0		Some doctors who know many patients respected a lot of boys.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=knew-emb_v=respected	1		Some doctors respected a lot of boys who knew many patients.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=know-emb_v=respected	0		Some doctors respected a lot of boys who know many patients.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approach-emb_v=dropped by	1		A lot of women who dropped by all schools approach men.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approach-emb_v=drop by	0		A lot of women who drop by all schools approach men.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=dropped by-emb_v=approach	1		A lot of women approach men who dropped by all schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=drop by-emb_v=approach	0		A lot of women approach men who drop by all schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visit-emb_v=worked with	1		These students who worked with the girls visit the drivers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visit-emb_v=work with	0		These students who work with the girls visit the drivers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=worked with-emb_v=visit	1		These students visit the drivers who worked with the girls.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=work with-emb_v=visit	0		These students visit the drivers who work with the girls.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=loves-emb_v=cleaned	1		Some driver who cleaned chairs loves the guy.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=loves-emb_v=cleans	0		Some driver who cleans chairs loves the guy.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=cleaned-emb_v=loves	1		Some driver loves the guy who cleaned chairs.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=cleans-emb_v=loves	0		Some driver loves the guy who cleans chairs.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=helps-emb_v=disliked	1		The waiter that disliked that patient helps that actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=helps-emb_v=dislikes	0		The waiter that dislikes that patient helps that actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=disliked-emb_v=helps	1		The waiter helps that actress that disliked that patient.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=dislikes-emb_v=helps	0		The waiter helps that actress that dislikes that patient.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=left-emb_v=helped	1		Every actress who helped some waiters left a cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=left-emb_v=helps	0		Every actress who helps some waiters left a cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=helped-emb_v=left	1		Every actress left a cashier who helped some waiters.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=helps-emb_v=left	0		Every actress left a cashier who helps some waiters.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=criticize-emb_v=insulted	1		All teachers that insulted that public park criticize some customers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=criticize-emb_v=insult	0		All teachers that insult that public park criticize some customers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=insulted-emb_v=criticize	1		All teachers criticize some customers that insulted that public park.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=insult-emb_v=criticize	0		All teachers criticize some customers that insult that public park.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=forgets-emb_v=praised	1		Every teenager that praised that lady forgets the guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=forgets-emb_v=praises	0		Every teenager that praises that lady forgets the guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=praised-emb_v=forgets	1		Every teenager forgets the guest that praised that lady.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=praises-emb_v=forgets	0		Every teenager forgets the guest that praises that lady.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=sees-emb_v=passed	1		That guest who passed the mall sees some guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=sees-emb_v=passes	0		That guest who passes the mall sees some guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=passed-emb_v=sees	1		That guest sees some guest who passed the mall.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=passes-emb_v=sees	0		That guest sees some guest who passes the mall.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insulted-emb_v=drove to	1		Customers who drove to every high school insulted these waitresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insulted-emb_v=drive to	0		Customers who drive to every high school insulted these waitresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=drove to-emb_v=insulted	1		Customers insulted these waitresses who drove to every high school.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=drive to-emb_v=insulted	0		Customers insulted these waitresses who drive to every high school.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=help-emb_v=skated around	1		Many women that skated around many malls help a lot of women.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=help-emb_v=skate around	0		Many women that skate around many malls help a lot of women.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=skated around-emb_v=help	1		Many women help a lot of women that skated around many malls.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=skate around-emb_v=help	0		Many women help a lot of women that skate around many malls.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discussed-emb_v=insulted	1		This cashier who insulted a lot of doctors discussed this child.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discussed-emb_v=insults	0		This cashier who insults a lot of doctors discussed this child.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=insulted-emb_v=discussed	1		This cashier discussed this child who insulted a lot of doctors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=insults-emb_v=discussed	0		This cashier discussed this child who insults a lot of doctors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=help-emb_v=forgot	1		Many adults that forgot these books help a lot of senators.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=help-emb_v=forget	0		Many adults that forget these books help a lot of senators.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=forgot-emb_v=help	1		Many adults help a lot of senators that forgot these books.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=forget-emb_v=help	0		Many adults help a lot of senators that forget these books.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=described-emb_v=sold	1		These students that sold these books described all people.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=described-emb_v=sell	0		These students that sell these books described all people.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=sold-emb_v=described	1		These students described all people that sold these books.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=sell-emb_v=described	0		These students described all people that sell these books.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=resemble-emb_v=referenced	1		A lot of waitresses who referenced a dancer resemble all waitresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=resemble-emb_v=reference	0		A lot of waitresses who reference a dancer resemble all waitresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=referenced-emb_v=resemble	1		A lot of waitresses resemble all waitresses who referenced a dancer.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=reference-emb_v=resemble	0		A lot of waitresses resemble all waitresses who reference a dancer.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hates-emb_v=exited	1		The adult who exited cafes hates a woman.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hates-emb_v=exits	0		The adult who exits cafes hates a woman.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=exited-emb_v=hates	1		The adult hates a woman who exited cafes.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=exits-emb_v=hates	0		The adult hates a woman who exits cafes.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=saw-emb_v=biked to	1		These guys that biked to all hospitals saw a lot of people.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=saw-emb_v=bike to	0		These guys that bike to all hospitals saw a lot of people.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=biked to-emb_v=saw	1		These guys saw a lot of people that biked to all hospitals.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=bike to-emb_v=saw	0		These guys saw a lot of people that bike to all hospitals.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=cared for-emb_v=forgot	1		That actress who forgot the children cared for the girl.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=cared for-emb_v=forgets	0		That actress who forgets the children cared for the girl.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=forgot-emb_v=cared for	1		That actress cared for the girl who forgot the children.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=forgets-emb_v=cared for	0		That actress cared for the girl who forgets the children.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=kisses-emb_v=bought	1		That boy who bought these plates kisses this cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=kisses-emb_v=buys	0		That boy who buys these plates kisses this cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=bought-emb_v=kisses	1		That boy kisses this cashier who bought these plates.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=buys-emb_v=kisses	0		That boy kisses this cashier who buys these plates.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discuss-emb_v=knew	1		The girls who knew this actor discuss all drivers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discuss-emb_v=know	0		The girls who know this actor discuss all drivers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=knew-emb_v=discuss	1		The girls discuss all drivers who knew this actor.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=know-emb_v=discuss	0		The girls discuss all drivers who know this actor.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talk to-emb_v=criticized	1		These drivers who criticized a lot of dancers talk to a lot of waiters.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talk to-emb_v=criticize	0		These drivers who criticize a lot of dancers talk to a lot of waiters.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=criticized-emb_v=talk to	1		These drivers talk to a lot of waiters who criticized a lot of dancers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=criticize-emb_v=talk to	0		These drivers talk to a lot of waiters who criticize a lot of dancers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=admired-emb_v=visited	1		This teenager that visited this boy admired every senator.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=admired-emb_v=visits	0		This teenager that visits this boy admired every senator.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=visited-emb_v=admired	1		This teenager admired every senator that visited this boy.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=visits-emb_v=admired	0		This teenager admired every senator that visits this boy.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insult-emb_v=observed	1		Many women that observed the dancer insult many actresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insult-emb_v=observe	0		Many women that observe the dancer insult many actresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=observed-emb_v=insult	1		Many women insult many actresses that observed the dancer.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=observe-emb_v=insult	0		Many women insult many actresses that observe the dancer.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=saw-emb_v=dropped by	1		Teachers who dropped by the hospital saw many senators.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=saw-emb_v=drop by	0		Teachers who drop by the hospital saw many senators.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=dropped by-emb_v=saw	1		Teachers saw many senators who dropped by the hospital.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=drop by-emb_v=saw	0		Teachers saw many senators who drop by the hospital.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visit-emb_v=toured	1		Some actresses that toured all grocery stores visit the customers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visit-emb_v=tour	0		Some actresses that tour all grocery stores visit the customers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=toured-emb_v=visit	1		Some actresses visit the customers that toured all grocery stores.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=tour-emb_v=visit	0		Some actresses visit the customers that tour all grocery stores.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=describe-emb_v=saw	1		Some drivers who saw rugs describe all teenagers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=describe-emb_v=see	0		Some drivers who see rugs describe all teenagers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=saw-emb_v=describe	1		Some drivers describe all teenagers who saw rugs.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=see-emb_v=describe	0		Some drivers describe all teenagers who see rugs.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=worked with-emb_v=were at	1		A waitress who were at that hospital worked with the man.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=worked with-emb_v=is at	0		A waitress who is at that hospital worked with the man.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=were at-emb_v=worked with	1		A waitress worked with the man who were at that hospital.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=is at-emb_v=worked with	0		A waitress worked with the man who is at that hospital.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approach-emb_v=disliked	1		Waiters that disliked this waiter approach some boys.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approach-emb_v=dislike	0		Waiters that dislike this waiter approach some boys.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=disliked-emb_v=approach	1		Waiters approach some boys that disliked this waiter.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=dislike-emb_v=approach	0		Waiters approach some boys that dislike this waiter.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=helped-emb_v=kissed	1		The cashiers who kissed that adult helped these people.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=helped-emb_v=kiss	0		The cashiers who kiss that adult helped these people.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=kissed-emb_v=helped	1		The cashiers helped these people who kissed that adult.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=kiss-emb_v=helped	0		The cashiers helped these people who kiss that adult.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=forgets-emb_v=lifted	1		Every senator who lifted that scarf forgets that guy.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=forgets-emb_v=lifts	0		Every senator who lifts that scarf forgets that guy.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=lifted-emb_v=forgets	1		Every senator forgets that guy who lifted that scarf.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=lifts-emb_v=forgets	0		Every senator forgets that guy who lifts that scarf.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=fled from-emb_v=approached	1		A lot of ladies who approached many customers fled from these guys.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=fled from-emb_v=approach	0		A lot of ladies who approach many customers fled from these guys.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=approached-emb_v=fled from	1		A lot of ladies fled from these guys who approached many customers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=approach-emb_v=fled from	0		A lot of ladies fled from these guys who approach many customers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hugged-emb_v=visited	1		This teacher that visited these doctors hugged some person.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hugged-emb_v=visits	0		This teacher that visits these doctors hugged some person.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=visited-emb_v=hugged	1		This teacher hugged some person that visited these doctors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=visits-emb_v=hugged	0		This teacher hugged some person that visits these doctors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=attack-emb_v=approached	1		Many dancers who approached that actor attack actresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=attack-emb_v=approach	0		Many dancers who approach that actor attack actresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=approached-emb_v=attack	1		Many dancers attack actresses who approached that actor.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=approach-emb_v=attack	0		Many dancers attack actresses who approach that actor.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hate-emb_v=fled from	1		Some dancers who fled from every woman hate the patients.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hate-emb_v=flee from	0		Some dancers who flee from every woman hate the patients.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=fled from-emb_v=hate	1		Some dancers hate the patients who fled from every woman.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=flee from-emb_v=hate	0		Some dancers hate the patients who flee from every woman.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=kissed-emb_v=praised	1		These guys who praised the guests kissed some waitresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=kissed-emb_v=praise	0		These guys who praise the guests kissed some waitresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=praised-emb_v=kissed	1		These guys kissed some waitresses who praised the guests.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=praise-emb_v=kissed	0		These guys kissed some waitresses who praise the guests.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insult-emb_v=observed	1		Many men that observed a lot of customers insult all adults.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insult-emb_v=observe	0		Many men that observe a lot of customers insult all adults.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=observed-emb_v=insult	1		Many men insult all adults that observed a lot of customers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=observe-emb_v=insult	0		Many men insult all adults that observe a lot of customers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=criticize-emb_v=fled from	1		Doctors who fled from every movie theater criticize actresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=criticize-emb_v=flee from	0		Doctors who flee from every movie theater criticize actresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=fled from-emb_v=criticize	1		Doctors criticize actresses who fled from every movie theater.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=flee from-emb_v=criticize	0		Doctors criticize actresses who flee from every movie theater.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=watch-emb_v=investigated	1		A lot of women who investigated that guest watch actors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=watch-emb_v=investigate	0		A lot of women who investigate that guest watch actors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=investigated-emb_v=watch	1		A lot of women watch actors who investigated that guest.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=investigate-emb_v=watch	0		A lot of women watch actors who investigate that guest.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approached-emb_v=scanned	1		Some man that scanned some documentary approached some teenager.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approached-emb_v=scans	0		Some man that scans some documentary approached some teenager.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=scanned-emb_v=approached	1		Some man approached some teenager that scanned some documentary.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=scans-emb_v=approached	0		Some man approached some teenager that scans some documentary.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=admires-emb_v=went to	1		A child who went to every art gallery admires the driver.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=admires-emb_v=goes to	0		A child who goes to every art gallery admires the driver.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=went to-emb_v=admires	1		A child admires the driver who went to every art gallery.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=goes to-emb_v=admires	0		A child admires the driver who goes to every art gallery.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hated-emb_v=were at	1		Some doctors who were at the public park hated men.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hated-emb_v=are at	0		Some doctors who are at the public park hated men.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=were at-emb_v=hated	1		Some doctors hated men who were at the public park.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=are at-emb_v=hated	0		Some doctors hated men who are at the public park.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=watch-emb_v=loved	1		The adults who loved a lot of students watch the waiters.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=watch-emb_v=love	0		The adults who love a lot of students watch the waiters.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=loved-emb_v=watch	1		The adults watch the waiters who loved a lot of students.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=love-emb_v=watch	0		The adults watch the waiters who love a lot of students.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=references-emb_v=talked about	1		That play that talked about every grocery store references the movie.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=references-emb_v=talks about	0		That play that talks about every grocery store references the movie.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked about-emb_v=references	1		That play references the movie that talked about every grocery store.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks about-emb_v=references	0		That play references the movie that talks about every grocery store.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=loves-emb_v=returned to	1		Some girl that returned to patients loves some guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=loves-emb_v=returns to	0		Some girl that returns to patients loves some guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=returned to-emb_v=loves	1		Some girl loves some guest that returned to patients.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=returns to-emb_v=loves	0		Some girl loves some guest that returns to patients.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=references-emb_v=praised	1		This documentary that praised this boy references this story.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=references-emb_v=praises	0		This documentary that praises this boy references this story.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=praised-emb_v=references	1		This documentary references this story that praised this boy.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=praises-emb_v=references	0		This documentary references this story that praises this boy.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observe-emb_v=respected	1		Some people that respected a lot of dancers observe senators.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observe-emb_v=respect	0		Some people that respect a lot of dancers observe senators.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=respected-emb_v=observe	1		Some people observe senators that respected a lot of dancers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=respect-emb_v=observe	0		Some people observe senators that respect a lot of dancers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visit-emb_v=passed	1		A lot of guys that passed every cafe visit the waitresses.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visit-emb_v=pass	0		A lot of guys that pass every cafe visit the waitresses.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=passed-emb_v=visit	1		A lot of guys visit the waitresses that passed every cafe .
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=pass-emb_v=visit	0		A lot of guys visit the waitresses that pass every cafe .
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=praise-emb_v=lifted	1		Some teachers who lifted the fork praise all teenagers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=praise-emb_v=lift	0		Some teachers who lift the fork praise all teenagers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=lifted-emb_v=praise	1		Some teachers praise all teenagers who lifted the fork.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=lift-emb_v=praise	0		Some teachers praise all teenagers who lift the fork.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=remember-emb_v=praised	1		The customers that praised all cashiers remember all patients.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=remember-emb_v=praise	0		The customers that praise all cashiers remember all patients.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=praised-emb_v=remember	1		The customers remember all patients that praised all cashiers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=praise-emb_v=remember	0		The customers remember all patients that praise all cashiers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visit-emb_v=discussed	1		Many people who discussed a guy visit these men.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visit-emb_v=discuss	0		Many people who discuss a guy visit these men.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=discussed-emb_v=visit	1		Many people visit these men who discussed a guy.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=discuss-emb_v=visit	0		Many people visit these men who discuss a guy.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visit-emb_v=talked about	1		Many people who talked about a person visit teachers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visit-emb_v=talk about	0		Many people who talk about a person visit teachers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked about-emb_v=visit	1		Many people visit teachers who talked about a person.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talk about-emb_v=visit	0		Many people visit teachers who talk about a person.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talk to-emb_v=investigated	1		Waiters who investigated these waitresses talk to a lot of doctors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talk to-emb_v=investigate	0		Waiters who investigate these waitresses talk to a lot of doctors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=investigated-emb_v=talk to	1		Waiters talk to a lot of doctors who investigated these waitresses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=investigate-emb_v=talk to	0		Waiters talk to a lot of doctors who investigate these waitresses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hate-emb_v=returned to	1		Some actresses who returned to all boys hate drivers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hate-emb_v=return to	0		Some actresses who return to all boys hate drivers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=returned to-emb_v=hate	1		Some actresses hate drivers who returned to all boys.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=return to-emb_v=hate	0		Some actresses hate drivers who return to all boys.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talked about-emb_v=lifted	1		This pedestrian that lifted many plates talked about the teenager.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talked about-emb_v=lifts	0		This pedestrian that lifts many plates talked about the teenager.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=lifted-emb_v=talked about	1		This pedestrian talked about the teenager that lifted many plates.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=lifts-emb_v=talked about	0		This pedestrian talked about the teenager that lifts many plates.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=knows-emb_v=disliked	1		A driver that disliked the boy knows every actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=knows-emb_v=dislikes	0		A driver that dislikes the boy knows every actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=disliked-emb_v=knows	1		A driver knows every actress that disliked the boy.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=dislikes-emb_v=knows	0		A driver knows every actress that dislikes the boy.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=dislike-emb_v=drove to	1		The ladies that drove to many libraries dislike these teachers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=dislike-emb_v=drive to	0		The ladies that drive to many libraries dislike these teachers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=drove to-emb_v=dislike	1		The ladies dislike these teachers that drove to many libraries.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=drive to-emb_v=dislike	0		The ladies dislike these teachers that drive to many libraries.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hated-emb_v=went to	1		That man who went to that restaurant hated some driver.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hated-emb_v=goes to	0		That man who goes to that restaurant hated some driver.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=went to-emb_v=hated	1		That man hated some driver who went to that restaurant.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=goes to-emb_v=hated	0		That man hated some driver who goes to that restaurant.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=forgets-emb_v=admired	1		This lady who admired the actresses forgets the pedestrian.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=forgets-emb_v=admires	0		This lady who admires the actresses forgets the pedestrian.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=admired-emb_v=forgets	1		This lady forgets the pedestrian who admired the actresses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=admires-emb_v=forgets	0		This lady forgets the pedestrian who admires the actresses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insults-emb_v=toured	1		The woman who toured some museum insults some actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insults-emb_v=tours	0		The woman who tours some museum insults some actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=toured-emb_v=insults	1		The woman insults some actress who toured some museum.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=tours-emb_v=insults	0		The woman insults some actress who tours some museum.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=escaped from-emb_v=watched	1		The waitress who watched a boy escaped from the cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=escaped from-emb_v=watches	0		The waitress who watches a boy escaped from the cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=watched-emb_v=escaped from	1		The waitress escaped from the cashier who watched a boy.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=watches-emb_v=escaped from	0		The waitress escaped from the cashier who watches a boy.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=leaves-emb_v=helped	1		A child that helped some doctors leaves the person.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=leaves-emb_v=helps	0		A child that helps some doctors leaves the person.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=helped-emb_v=leaves	1		A child leaves the person that helped some doctors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=helps-emb_v=leaves	0		A child leaves the person that helps some doctors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=remember-emb_v=referenced	1		Patients who referenced some person remember all guests.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=remember-emb_v=reference	0		Patients who reference some person remember all guests.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=referenced-emb_v=remember	1		Patients remember all guests who referenced some person.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=reference-emb_v=remember	0		Patients remember all guests who reference some person.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talks about-emb_v=fled from	1		That woman that fled from some hospitals talks about this waiter.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talks about-emb_v=flees from	0		That woman that flees from some hospitals talks about this waiter.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=fled from-emb_v=talks about	1		That woman talks about this waiter that fled from some hospitals.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=flees from-emb_v=talks about	0		That woman talks about this waiter that flees from some hospitals.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approaches-emb_v=dropped by	1		That actor who dropped by every grocery store approaches that woman.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approaches-emb_v=drops by	0		That actor who drops by every grocery store approaches that woman.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=dropped by-emb_v=approaches	1		That actor approaches that woman who dropped by every grocery store.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=drops by-emb_v=approaches	0		That actor approaches that woman who drops by every grocery store.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=knows-emb_v=saw	1		That teacher who saw all guys knows a guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=knows-emb_v=sees	0		That teacher who sees all guys knows a guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=saw-emb_v=knows	1		That teacher knows a guest who saw all guys.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=sees-emb_v=knows	0		That teacher knows a guest who sees all guys.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insults-emb_v=went to	1		This teacher who went to these high schools insults every guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insults-emb_v=goes to	0		This teacher who goes to these high schools insults every guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=went to-emb_v=insults	1		This teacher insults every guest who went to these high schools.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=goes to-emb_v=insults	0		This teacher insults every guest who goes to these high schools.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=care for-emb_v=talked about	1		Many senators that talked about an actor care for the students.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=care for-emb_v=talk about	0		Many senators that talk about an actor care for the students.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked about-emb_v=care for	1		Many senators care for the students that talked about an actor.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talk about-emb_v=care for	0		Many senators care for the students that talk about an actor.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hugged-emb_v=bought	1		Ladies who bought all dishes hugged a lot of teachers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hugged-emb_v=buy	0		Ladies who buy all dishes hugged a lot of teachers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=bought-emb_v=hugged	1		Ladies hugged a lot of teachers who bought all dishes.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=buy-emb_v=hugged	0		Ladies hugged a lot of teachers who buy all dishes.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=criticizes-emb_v=described	1		The book that described all commentaries criticizes every movie.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=criticizes-emb_v=describes	0		The book that describes all commentaries criticizes every movie.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=described-emb_v=criticizes	1		The book criticizes every movie that described all commentaries.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=describes-emb_v=criticizes	0		The book criticizes every movie that describes all commentaries.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=watched-emb_v=examined	1		Teenagers that examined this documentary watched many patients.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=watched-emb_v=examine	0		Teenagers that examine this documentary watched many patients.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=examined-emb_v=watched	1		Teenagers watched many patients that examined this documentary.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=examine-emb_v=watched	0		Teenagers watched many patients that examine this documentary.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discussed-emb_v=talked to	1		That customer who talked to doctors discussed some actor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discussed-emb_v=talks to	0		That customer who talks to doctors discussed some actor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked to-emb_v=discussed	1		That customer discussed some actor who talked to doctors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks to-emb_v=discussed	0		That customer discussed some actor who talks to doctors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hugged-emb_v=liked	1		These ladies who liked that senator hugged these patients.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hugged-emb_v=like	0		These ladies who like that senator hugged these patients.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=liked-emb_v=hugged	1		These ladies hugged these patients who liked that senator.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=like-emb_v=hugged	0		These ladies hugged these patients who like that senator.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observed-emb_v=watched	1		Some patients who watched these customers observed all waiters.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observed-emb_v=watch	0		Some patients who watch these customers observed all waiters.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=watched-emb_v=observed	1		Some patients observed all waiters who watched these customers.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=watch-emb_v=observed	0		Some patients observed all waiters who watch these customers.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=dislike-emb_v=remembered	1		The waitresses who remembered that grocery store dislike a lot of teenagers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=dislike-emb_v=remember	0		The waitresses who remember that grocery store dislike a lot of teenagers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=remembered-emb_v=dislike	1		The waitresses dislike a lot of teenagers who remembered that grocery store.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=remember-emb_v=dislike	0		The waitresses dislike a lot of teenagers who remember that grocery store.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hates-emb_v=talked to	1		Some boy that talked to some actress hates the teenager.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hates-emb_v=talks to	0		Some boy that talks to some actress hates the teenager.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked to-emb_v=hates	1		Some boy hates the teenager that talked to some actress.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks to-emb_v=hates	0		Some boy hates the teenager that talks to some actress.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=watch-emb_v=scanned	1		The drivers that scanned the story watch many customers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=watch-emb_v=scan	0		The drivers that scan the story watch many customers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=scanned-emb_v=watch	1		The drivers watch many customers that scanned the story.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=scan-emb_v=watch	0		The drivers watch many customers that scan the story.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=admired-emb_v=talked to	1		Some teenager that talked to this teacher admired every adult.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=admired-emb_v=talks to	0		Some teenager that talks to this teacher admired every adult.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked to-emb_v=admired	1		Some teenager admired every adult that talked to this teacher.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks to-emb_v=admired	0		Some teenager admired every adult that talks to this teacher.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=liked-emb_v=observed	1		Some woman that observed some actress liked a man.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=liked-emb_v=observes	0		Some woman that observes some actress liked a man.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=observed-emb_v=liked	1		Some woman liked a man that observed some actress.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=observes-emb_v=liked	0		Some woman liked a man that observes some actress.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talks about-emb_v=loved	1		The doctor who loved a newspaper article talks about that student.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talks about-emb_v=loves	0		The doctor who loves a newspaper article talks about that student.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=loved-emb_v=talks about	1		The doctor talks about that student who loved a newspaper article.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=loves-emb_v=talks about	0		The doctor talks about that student who loves a newspaper article.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talked to-emb_v=explored	1		The teacher who explored that college campus talked to some actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talked to-emb_v=explores	0		The teacher who explores that college campus talked to some actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=explored-emb_v=talked to	1		The teacher talked to some actress who explored that college campus.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=explores-emb_v=talked to	0		The teacher talked to some actress who explores that college campus.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=left-emb_v=attacked	1		That adult who attacked this guest left a doctor.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=left-emb_v=attacks	0		That adult who attacks this guest left a doctor.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=attacked-emb_v=left	1		That adult left a doctor who attacked this guest.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=attacks-emb_v=left	0		That adult left a doctor who attacks this guest.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observed-emb_v=hated	1		Some girl that hated that girl observed the senator.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observed-emb_v=hates	0		Some girl that hates that girl observed the senator.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hated-emb_v=observed	1		Some girl observed the senator that hated that girl.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hates-emb_v=observed	0		Some girl observed the senator that hates that girl.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visited-emb_v=respected	1		A lot of senators who respected a boy visited drivers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visited-emb_v=respect	0		A lot of senators who respect a boy visited drivers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=respected-emb_v=visited	1		A lot of senators visited drivers who respected a boy.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=respect-emb_v=visited	0		A lot of senators visited drivers who respect a boy.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=insult-emb_v=skated around	1		These guys who skated around some libraries insult the pedestrians.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=insult-emb_v=skate around	0		These guys who skate around some libraries insult the pedestrians.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=skated around-emb_v=insult	1		These guys insult the pedestrians who skated around some libraries.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=skate around-emb_v=insult	0		These guys insult the pedestrians who skate around some libraries.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=works with-emb_v=observed	1		That senator that observed many actresses works with a student.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=works with-emb_v=observes	0		That senator that observes many actresses works with a student.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=observed-emb_v=works with	1		That senator works with a student that observed many actresses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=observes-emb_v=works with	0		That senator works with a student that observes many actresses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=observe-emb_v=talked about	1		All waitresses who talked about some guys observe some doctors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=observe-emb_v=talk about	0		All waitresses who talk about some guys observe some doctors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked about-emb_v=observe	1		All waitresses observe some doctors who talked about some guys.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talk about-emb_v=observe	0		All waitresses observe some doctors who talk about some guys.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=worked with-emb_v=kissed	1		All doctors who kissed that customer worked with all women.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=worked with-emb_v=kiss	0		All doctors who kiss that customer worked with all women.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=kissed-emb_v=worked with	1		All doctors worked with all women who kissed that customer.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=kiss-emb_v=worked with	0		All doctors worked with all women who kiss that customer.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talks to-emb_v=resembled	1		A boy that resembled that dancer talks to a man.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talks to-emb_v=resembles	0		A boy that resembles that dancer talks to a man.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=resembled-emb_v=talks to	1		A boy talks to a man that resembled that dancer.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=resembles-emb_v=talks to	0		A boy talks to a man that resembles that dancer.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=visits-emb_v=forgot	1		The teenager that forgot that guest visits some patient.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=visits-emb_v=forgets	0		The teenager that forgets that guest visits some patient.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=forgot-emb_v=visits	1		The teenager visits some patient that forgot that guest.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=forgets-emb_v=visits	0		The teenager visits some patient that forgets that guest.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=described-emb_v=explored	1		Some actors who explored every grocery store described patients.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=described-emb_v=explore	0		Some actors who explore every grocery store described patients.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=explored-emb_v=described	1		Some actors described patients who explored every grocery store.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=explore-emb_v=described	0		Some actors described patients who explore every grocery store.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hate-emb_v=boycotted	1		Women who boycotted some college campuses hate a lot of people.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hate-emb_v=boycott	0		Women who boycott some college campuses hate a lot of people.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=boycotted-emb_v=hate	1		Women hate a lot of people who boycotted some college campuses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=boycott-emb_v=hate	0		Women hate a lot of people who boycott some college campuses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discussed-emb_v=liked	1		All senators that liked that girl discussed some actors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discussed-emb_v=like	0		All senators that like that girl discussed some actors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=liked-emb_v=discussed	1		All senators discussed some actors that liked that girl.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=like-emb_v=discussed	0		All senators discussed some actors that like that girl.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=admire-emb_v=explored	1		Actresses who explored many museums admire the doctors.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=admire-emb_v=explore	0		Actresses who explore many museums admire the doctors.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=explored-emb_v=admire	1		Actresses admire the doctors who explored many museums.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=explore-emb_v=admire	0		Actresses admire the doctors who explore many museums.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talked to-emb_v=boycotted	1		Every waiter that boycotted all college campuses talked to every dancer.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talked to-emb_v=boycotts	0		Every waiter that boycotts all college campuses talked to every dancer.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=boycotted-emb_v=talked to	1		Every waiter talked to every dancer that boycotted all college campuses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=boycotts-emb_v=talked to	0		Every waiter talked to every dancer that boycotts all college campuses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=praises-emb_v=fled from	1		Some teenager that fled from many boys praises some man.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=praises-emb_v=flees from	0		Some teenager that flees from many boys praises some man.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=fled from-emb_v=praises	1		Some teenager praises some man that fled from many boys.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=flees from-emb_v=praises	0		Some teenager praises some man that flees from many boys.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=forgot-emb_v=loved	1		That adult who loved some waiter forgot the woman.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=forgot-emb_v=loves	0		That adult who loves some waiter forgot the woman.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=loved-emb_v=forgot	1		That adult forgot the woman who loved some waiter.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=loves-emb_v=forgot	0		That adult forgot the woman who loves some waiter.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=like-emb_v=visited	1		These teachers that visited all movie theaters like women.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=like-emb_v=visit	0		These teachers that visit all movie theaters like women.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=visited-emb_v=like	1		These teachers like women that visited all movie theaters.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=visit-emb_v=like	0		These teachers like women that visit all movie theaters.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talks about-emb_v=hated	1		The student who hated some pedestrians talks about the cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talks about-emb_v=hates	0		The student who hates some pedestrians talks about the cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hated-emb_v=talks about	1		The student talks about the cashier who hated some pedestrians.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hates-emb_v=talks about	0		The student talks about the cashier who hates some pedestrians.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=approaches-emb_v=lifted	1		Every boy who lifted some books approaches a guest.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=approaches-emb_v=lifts	0		Every boy who lifts some books approaches a guest.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=lifted-emb_v=approaches	1		Every boy approaches a guest who lifted some books.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=lifts-emb_v=approaches	0		Every boy approaches a guest who lifts some books.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=kisses-emb_v=bought	1		This customer who bought glasses kisses a boy.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=kisses-emb_v=buys	0		This customer who buys glasses kisses a boy.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=bought-emb_v=kisses	1		This customer kisses a boy who bought glasses.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=buys-emb_v=kisses	0		This customer kisses a boy who buys glasses.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discusses-emb_v=respected	1		The girl that respected movie theaters discusses some teacher.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discusses-emb_v=respects	0		The girl that respects movie theaters discusses some teacher.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=respected-emb_v=discusses	1		The girl discusses some teacher that respected movie theaters.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=respects-emb_v=discusses	0		The girl discusses some teacher that respects movie theaters.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=knows-emb_v=talked to	1		That dancer that talked to the actor knows some cashier.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=knows-emb_v=talks to	0		That dancer that talks to the actor knows some cashier.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=talked to-emb_v=knows	1		That dancer knows some cashier that talked to the actor.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=talks to-emb_v=knows	0		That dancer knows some cashier that talks to the actor.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=praise-emb_v=knew	1		These men that knew this guest praise women.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=praise-emb_v=know	0		These men that know this guest praise women.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=knew-emb_v=praise	1		These men praise women that knew this guest.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=know-emb_v=praise	0		These men praise women that know this guest.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=listens to-emb_v=hated	1		Some boy that hated these movies listens to the pedestrian.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=listens to-emb_v=hates	0		Some boy that hates these movies listens to the pedestrian.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=hated-emb_v=listens to	1		Some boy listens to the pedestrian that hated these movies.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=hates-emb_v=listens to	0		Some boy listens to the pedestrian that hates these movies.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=talks to-emb_v=examined	1		A waitress that examined all commentaries talks to every pedestrian.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=talks to-emb_v=examines	0		A waitress that examines all commentaries talks to every pedestrian.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=examined-emb_v=talks to	1		A waitress talks to every pedestrian that examined all commentaries.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=examines-emb_v=talks to	0		A waitress talks to every pedestrian that examines all commentaries.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=returns to-emb_v=saw	1		That waitress that saw doctors returns to that person.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=returns to-emb_v=sees	0		That waitress that sees doctors returns to that person.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=saw-emb_v=returns to	1		That waitress returns to that person that saw doctors.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=sees-emb_v=returns to	0		That waitress returns to that person that sees doctors.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=leave-emb_v=liked	1		Some patients that liked a woman leave some guests.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=leave-emb_v=like	0		Some patients that like a woman leave some guests.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=liked-emb_v=leave	1		Some patients leave some guests that liked a woman.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=like-emb_v=leave	0		Some patients leave some guests that like a woman.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=kiss-emb_v=watched	1		All patients that watched every senator kiss these adults.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=kiss-emb_v=watch	0		All patients that watch every senator kiss these adults.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=watched-emb_v=kiss	1		All patients kiss these adults that watched every senator.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=watch-emb_v=kiss	0		All patients kiss these adults that watch every senator.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=hates-emb_v=dropped by	1		A customer that dropped by all hospitals hates that customer.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=hates-emb_v=drops by	0		A customer that drops by all hospitals hates that customer.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=dropped by-emb_v=hates	1		A customer hates that customer that dropped by all hospitals.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=drops by-emb_v=hates	0		A customer hates that customer that drops by all hospitals.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=helped-emb_v=boycotted	1		Guests who boycotted all grocery stores helped drivers.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=helped-emb_v=boycott	0		Guests who boycott all grocery stores helped drivers.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=boycotted-emb_v=helped	1		Guests helped drivers who boycotted all grocery stores.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=boycott-emb_v=helped	0		Guests helped drivers who boycott all grocery stores.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=listens to-emb_v=sold	1		A lady that sold these books listens to every actress.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=listens to-emb_v=sells	0		A lady that sells these books listens to every actress.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=sold-emb_v=listens to	1		A lady listens to every actress that sold these books.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=sells-emb_v=listens to	0		A lady listens to every actress that sells these books.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=saw-emb_v=had	1		Some teachers who had every fork saw these students.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=saw-emb_v=have	0		Some teachers who have every fork saw these students.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=had-emb_v=saw	1		Some teachers saw these students who had every fork.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=have-emb_v=saw	0		Some teachers saw these students who have every fork.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=discusses-emb_v=described	1		A movie that described the actor discusses that restaurant.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=discusses-emb_v=describes	0		A movie that describes the actor discusses that restaurant.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=described-emb_v=discusses	1		A movie discusses that restaurant that described the actor.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=describes-emb_v=discusses	0		A movie discusses that restaurant that describes the actor.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=forgot-emb_v=resembled	1		Every girl who resembled every commentary forgot some woman.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=forgot-emb_v=resembles	0		Every girl who resembles every commentary forgot some woman.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=resembled-emb_v=forgot	1		Every girl forgot some woman who resembled every commentary.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=resembles-emb_v=forgot	0		Every girl forgot some woman who resembles every commentary.
+exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=watches-emb_v=knew	1		That cashier who knew the pedestrians watches a person.
+exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=watches-emb_v=knows	0		That cashier who knows the pedestrians watches a person.
+exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=knew-emb_v=watches	1		That cashier watches a person who knew the pedestrians.
+exp=matrix_tense-src=0-emb_past=0-first_past=0-matrix_v=knows-emb_v=watches	0		That cashier watches a person who knows the pedestrians.

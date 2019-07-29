@@ -1,0 +1,1000 @@
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=821	1		The teenagers clearly say that the senator should love the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=821	0		The teenagers ever say that the senator should love the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=821	1		The teenagers say that the senator clearly should love the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=821	0		The teenagers say that the senator ever should love the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=821	1		The teenagers clearly wonder whether the senator should love the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=821	0		The teenagers ever wonder whether the senator should love the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=821	1		The teenagers wonder whether the senator clearly should love the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=821	1		The teenagers wonder whether the senator ever should love the ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=278	1		The teachers often say that the actress had discussed the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=278	0		The teachers ever say that the actress had discussed the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=278	1		The teachers say that the actress often had discussed the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=278	0		The teachers say that the actress ever had discussed the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=278	1		The teachers often wonder whether the actress had discussed the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=278	0		The teachers ever wonder whether the actress had discussed the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=278	1		The teachers wonder whether the actress often had discussed the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=278	1		The teachers wonder whether the actress ever had discussed the books.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=240	1		The waiters clearly say that the senator had criticized the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=240	0		The waiters ever say that the senator had criticized the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=240	1		The waiters say that the senator clearly had criticized the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=240	0		The waiters say that the senator ever had criticized the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=240	1		The waiters clearly wonder whether the senator had criticized the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=240	0		The waiters ever wonder whether the senator had criticized the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=240	1		The waiters wonder whether the senator clearly had criticized the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=240	1		The waiters wonder whether the senator ever had criticized the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=335	1		The people obviously say that the guy disliked the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=335	0		The people ever say that the guy disliked the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=335	1		The people say that the guy obviously disliked the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=335	0		The people say that the guy ever disliked the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=335	1		The people obviously wonder whether the guy disliked the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=335	0		The people ever wonder whether the guy disliked the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=335	1		The people wonder whether the guy obviously disliked the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=335	1		The people wonder whether the guy ever disliked the waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1092	1		Those actresses say that the students know the doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1092	0		Any actresses say that the students know the doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1092	1		The actresses say that the students know those doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1092	0		The actresses say that the students know any doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1092	1		Those actresses wonder whether the students know doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1092	0		Any actresses wonder whether the students know doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1092	1		The actresses wonder whether the students know those doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1092	1		The actresses wonder whether the students know any doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1342	1		These cashiers say that the guests were biking to the banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1342	0		Any cashiers say that the guests were biking to the banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1342	1		The cashiers say that the guests were biking to those banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1342	0		The cashiers say that the guests were biking to any banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1342	1		These cashiers wonder whether the guests were biking to banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1342	0		Any cashiers wonder whether the guests were biking to banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1342	1		The cashiers wonder whether the guests were biking to those banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1342	1		The cashiers wonder whether the guests were biking to any banks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=304	1		The girls also say that the waitresses have dropped by the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=304	0		The girls ever say that the waitresses have dropped by the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=304	1		The girls say that the waitresses also have dropped by the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=304	0		The girls say that the waitresses ever have dropped by the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=304	1		The girls also wonder whether the waitresses have dropped by the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=304	0		The girls ever wonder whether the waitresses have dropped by the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=304	1		The girls wonder whether the waitresses also have dropped by the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=304	1		The girls wonder whether the waitresses ever have dropped by the schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1124	1		Those cashiers say that the senator was boycotting the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1124	0		Any cashiers say that the senator was boycotting the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1124	1		The cashiers say that the senator was boycotting the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1124	0		The cashiers say that the senator was boycotting any hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1124	1		Those cashiers wonder whether the senator was boycotting hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1124	0		Any cashiers wonder whether the senator was boycotting hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1124	1		The cashiers wonder whether the senator was boycotting the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1124	1		The cashiers wonder whether the senator was boycotting any hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1158	1		The men say that the boys had cared for the children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1158	0		Any men say that the boys had cared for the children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1158	1		The men say that the boys had cared for these children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1158	0		The men say that the boys had cared for any children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1158	1		The men wonder whether the boys had cared for children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1158	0		Any men wonder whether the boys had cared for children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1158	1		The men wonder whether the boys had cared for these children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1158	1		The men wonder whether the boys had cared for any children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1215	1		Those adults say that the waiter ran around the movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1215	0		Any adults say that the waiter ran around the movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1215	1		The adults say that the waiter ran around those movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1215	0		The adults say that the waiter ran around any movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1215	1		Those adults wonder whether the waiter ran around movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1215	0		Any adults wonder whether the waiter ran around movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1215	1		The adults wonder whether the waiter ran around those movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1215	1		The adults wonder whether the waiter ran around any movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1543	1		Those girls say that the guy is being at the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1543	0		Any girls say that the guy is being at the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1543	1		The girls say that the guy is being at the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1543	0		The girls say that the guy is being at any college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1543	1		Those girls wonder whether the guy is being at college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1543	0		Any girls wonder whether the guy is being at college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1543	1		The girls wonder whether the guy is being at the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1543	1		The girls wonder whether the guy is being at any college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1045	1		The dancers say that the actress breaks the couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1045	0		Any dancers say that the actress breaks the couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1045	1		The dancers say that the actress breaks those couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1045	0		The dancers say that the actress breaks any couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1045	1		The dancers wonder whether the actress breaks couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1045	0		Any dancers wonder whether the actress breaks couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1045	1		The dancers wonder whether the actress breaks those couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1045	1		The dancers wonder whether the actress breaks any couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=571	1		The adults obviously say that the guests love the women.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=571	0		The adults ever say that the guests love the women.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=571	1		The adults say that the guests obviously love the women.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=571	0		The adults say that the guests ever love the women.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=571	1		The adults obviously wonder whether the guests love the women.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=571	0		The adults ever wonder whether the guests love the women.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=571	1		The adults wonder whether the guests obviously love the women.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=571	1		The adults wonder whether the guests ever love the women.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=756	1		The actors clearly say that the customer could describe the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=756	0		The actors ever say that the customer could describe the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=756	1		The actors say that the customer clearly could describe the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=756	0		The actors say that the customer ever could describe the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=756	1		The actors clearly wonder whether the customer could describe the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=756	0		The actors ever wonder whether the customer could describe the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=756	1		The actors wonder whether the customer clearly could describe the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=756	1		The actors wonder whether the customer ever could describe the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=835	1		The boys also say that the teachers boycotted the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=835	0		The boys ever say that the teachers boycotted the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=835	1		The boys say that the teachers also boycotted the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=835	0		The boys say that the teachers ever boycotted the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=835	1		The boys also wonder whether the teachers boycotted the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=835	0		The boys ever wonder whether the teachers boycotted the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=835	1		The boys wonder whether the teachers also boycotted the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=835	1		The boys wonder whether the teachers ever boycotted the schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1957	1		Those pedestrians say that the pedestrian has fled from the men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1957	0		Any pedestrians say that the pedestrian has fled from the men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1957	1		The pedestrians say that the pedestrian has fled from the men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1957	0		The pedestrians say that the pedestrian has fled from any men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1957	1		Those pedestrians wonder whether the pedestrian has fled from men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1957	0		Any pedestrians wonder whether the pedestrian has fled from men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1957	1		The pedestrians wonder whether the pedestrian has fled from the men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1957	1		The pedestrians wonder whether the pedestrian has fled from any men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=119	1		The students also say that the adult scans the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=119	0		The students ever say that the adult scans the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=119	1		The students say that the adult also scans the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=119	0		The students say that the adult ever scans the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=119	1		The students also wonder whether the adult scans the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=119	0		The students ever wonder whether the adult scans the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=119	1		The students wonder whether the adult also scans the reports.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=119	1		The students wonder whether the adult ever scans the reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1703	1		These guests say that the waitresses were biking to the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1703	0		Any guests say that the waitresses were biking to the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1703	1		The guests say that the waitresses were biking to the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1703	0		The guests say that the waitresses were biking to any hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1703	1		These guests wonder whether the waitresses were biking to hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1703	0		Any guests wonder whether the waitresses were biking to hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1703	1		The guests wonder whether the waitresses were biking to the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1703	1		The guests wonder whether the waitresses were biking to any hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=317	1		The teachers fortunately say that the man bought the cars.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=317	0		The teachers ever say that the man bought the cars.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=317	1		The teachers say that the man fortunately bought the cars.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=317	0		The teachers say that the man ever bought the cars.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=317	1		The teachers fortunately wonder whether the man bought the cars.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=317	0		The teachers ever wonder whether the man bought the cars.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=317	1		The teachers wonder whether the man fortunately bought the cars.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=317	1		The teachers wonder whether the man ever bought the cars.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=215	1		The actors clearly say that the patient went to the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=215	0		The actors ever say that the patient went to the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=215	1		The actors say that the patient clearly went to the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=215	0		The actors say that the patient ever went to the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=215	1		The actors clearly wonder whether the patient went to the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=215	0		The actors ever wonder whether the patient went to the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=215	1		The actors wonder whether the patient clearly went to the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=215	1		The actors wonder whether the patient ever went to the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=751	1		The men obviously say that the drivers have been at the banks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=751	0		The men ever say that the drivers have been at the banks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=751	1		The men say that the drivers obviously have been at the banks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=751	0		The men say that the drivers ever have been at the banks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=751	1		The men obviously wonder whether the drivers have been at the banks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=751	0		The men ever wonder whether the drivers have been at the banks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=751	1		The men wonder whether the drivers obviously have been at the banks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=751	1		The men wonder whether the drivers ever have been at the banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1120	1		The men say that the adults were scanning the commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1120	0		Any men say that the adults were scanning the commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1120	1		The men say that the adults were scanning these commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1120	0		The men say that the adults were scanning any commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1120	1		The men wonder whether the adults were scanning commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1120	0		Any men wonder whether the adults were scanning commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1120	1		The men wonder whether the adults were scanning these commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1120	1		The men wonder whether the adults were scanning any commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1381	1		These women say that the boys examined the documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1381	0		Any women say that the boys examined the documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1381	1		The women say that the boys examined these documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1381	0		The women say that the boys examined any documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1381	1		These women wonder whether the boys examined documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1381	0		Any women wonder whether the boys examined documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1381	1		The women wonder whether the boys examined these documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1381	1		The women wonder whether the boys examined any documentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1555	1		These teenagers say that the teacher had left the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1555	0		Any teenagers say that the teacher had left the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1555	1		The teenagers say that the teacher had left the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1555	0		The teenagers say that the teacher had left any college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1555	1		These teenagers wonder whether the teacher had left college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1555	0		Any teenagers wonder whether the teacher had left college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1555	1		The teenagers wonder whether the teacher had left the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1555	1		The teenagers wonder whether the teacher had left any college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1698	1		The pedestrians say that the woman might know the men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1698	0		Any pedestrians say that the woman might know the men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1698	1		The pedestrians say that the woman might know the men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1698	0		The pedestrians say that the woman might know any men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1698	1		The pedestrians wonder whether the woman might know men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1698	0		Any pedestrians wonder whether the woman might know men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1698	1		The pedestrians wonder whether the woman might know the men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1698	1		The pedestrians wonder whether the woman might know any men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=969	1		The teachers fortunately say that the children can pass the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=969	0		The teachers ever say that the children can pass the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=969	1		The teachers say that the children fortunately can pass the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=969	0		The teachers say that the children ever can pass the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=969	1		The teachers fortunately wonder whether the children can pass the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=969	0		The teachers ever wonder whether the children can pass the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=969	1		The teachers wonder whether the children fortunately can pass the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=969	1		The teachers wonder whether the children ever can pass the movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1343	1		The students say that the actresses took the reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1343	0		Any students say that the actresses took the reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1343	1		The students say that the actresses took those reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1343	0		The students say that the actresses took any reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1343	1		The students wonder whether the actresses took reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1343	0		Any students wonder whether the actresses took reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1343	1		The students wonder whether the actresses took those reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1343	1		The students wonder whether the actresses took any reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1407	1		Those children say that the customers had brought the cars.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1407	0		Any children say that the customers had brought the cars.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1407	1		The children say that the customers had brought the cars.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1407	0		The children say that the customers had brought any cars.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1407	1		Those children wonder whether the customers had brought cars.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1407	0		Any children wonder whether the customers had brought cars.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1407	1		The children wonder whether the customers had brought the cars.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1407	1		The children wonder whether the customers had brought any cars.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1406	1		Those men say that the driver is visiting the people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1406	0		Any men say that the driver is visiting the people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1406	1		The men say that the driver is visiting those people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1406	0		The men say that the driver is visiting any people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1406	1		Those men wonder whether the driver is visiting people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1406	0		Any men wonder whether the driver is visiting people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1406	1		The men wonder whether the driver is visiting those people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1406	1		The men wonder whether the driver is visiting any people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1511	1		The drivers say that the customers had hated the actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1511	0		Any drivers say that the customers had hated the actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1511	1		The drivers say that the customers had hated these actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1511	0		The drivers say that the customers had hated any actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1511	1		The drivers wonder whether the customers had hated actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1511	0		Any drivers wonder whether the customers had hated actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1511	1		The drivers wonder whether the customers had hated these actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1511	1		The drivers wonder whether the customers had hated any actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=19	1		The teenagers fortunately say that the guests toured the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=19	0		The teenagers ever say that the guests toured the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=19	1		The teenagers say that the guests fortunately toured the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=19	0		The teenagers say that the guests ever toured the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=19	1		The teenagers fortunately wonder whether the guests toured the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=19	0		The teenagers ever wonder whether the guests toured the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=19	1		The teenagers wonder whether the guests fortunately toured the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=19	1		The teenagers wonder whether the guests ever toured the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=502	1		The dancers often say that the children scan the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=502	0		The dancers ever say that the children scan the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=502	1		The dancers say that the children often scan the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=502	0		The dancers say that the children ever scan the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=502	1		The dancers often wonder whether the children scan the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=502	0		The dancers ever wonder whether the children scan the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=502	1		The dancers wonder whether the children often scan the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=502	1		The dancers wonder whether the children ever scan the newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1849	1		The senators say that the women ran around the high schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1849	0		Any senators say that the women ran around the high schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1849	1		The senators say that the women ran around those high schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1849	0		The senators say that the women ran around any high schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1849	1		The senators wonder whether the women ran around high schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1849	0		Any senators wonder whether the women ran around high schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1849	1		The senators wonder whether the women ran around those high schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1849	1		The senators wonder whether the women ran around any high schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1136	1		These guys say that the girls did work with the teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1136	0		Any guys say that the girls did work with the teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1136	1		The guys say that the girls did work with these teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1136	0		The guys say that the girls did work with any teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1136	1		These guys wonder whether the girls did work with teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1136	0		Any guys wonder whether the girls did work with teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1136	1		The guys wonder whether the girls did work with these teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1136	1		The guys wonder whether the girls did work with any teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1504	1		The adults say that the driver should buy the forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1504	0		Any adults say that the driver should buy the forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1504	1		The adults say that the driver should buy these forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1504	0		The adults say that the driver should buy any forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1504	1		The adults wonder whether the driver should buy forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1504	0		Any adults wonder whether the driver should buy forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1504	1		The adults wonder whether the driver should buy these forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1504	1		The adults wonder whether the driver should buy any forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1512	1		Those people say that the waiter had escaped from the libraries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1512	0		Any people say that the waiter had escaped from the libraries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1512	1		The people say that the waiter had escaped from those libraries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1512	0		The people say that the waiter had escaped from any libraries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1512	1		Those people wonder whether the waiter had escaped from libraries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1512	0		Any people wonder whether the waiter had escaped from libraries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1512	1		The people wonder whether the waiter had escaped from those libraries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1512	1		The people wonder whether the waiter had escaped from any libraries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1169	1		These actors say that the senator had watched the adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1169	0		Any actors say that the senator had watched the adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1169	1		The actors say that the senator had watched these adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1169	0		The actors say that the senator had watched any adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1169	1		These actors wonder whether the senator had watched adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1169	0		Any actors wonder whether the senator had watched adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1169	1		The actors wonder whether the senator had watched these adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1169	1		The actors wonder whether the senator had watched any adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=402	1		The men also say that the lady approached the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=402	0		The men ever say that the lady approached the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=402	1		The men say that the lady also approached the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=402	0		The men say that the lady ever approached the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=402	1		The men also wonder whether the lady approached the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=402	0		The men ever wonder whether the lady approached the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=402	1		The men wonder whether the lady also approached the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=402	1		The men wonder whether the lady ever approached the cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1358	1		Those boys say that the people are attacking the teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1358	0		Any boys say that the people are attacking the teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1358	1		The boys say that the people are attacking these teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1358	0		The boys say that the people are attacking any teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1358	1		Those boys wonder whether the people are attacking teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1358	0		Any boys wonder whether the people are attacking teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1358	1		The boys wonder whether the people are attacking these teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1358	1		The boys wonder whether the people are attacking any teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1657	1		Those teachers say that the girl has left the pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1657	0		Any teachers say that the girl has left the pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1657	1		The teachers say that the girl has left those pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1657	0		The teachers say that the girl has left any pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1657	1		Those teachers wonder whether the girl has left pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1657	0		Any teachers wonder whether the girl has left pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1657	1		The teachers wonder whether the girl has left those pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1657	1		The teachers wonder whether the girl has left any pedestrians.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=390	1		The actresses also say that the dancers had escaped from the pedestrians.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=390	0		The actresses ever say that the dancers had escaped from the pedestrians.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=390	1		The actresses say that the dancers also had escaped from the pedestrians.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=390	0		The actresses say that the dancers ever had escaped from the pedestrians.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=390	1		The actresses also wonder whether the dancers had escaped from the pedestrians.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=390	0		The actresses ever wonder whether the dancers had escaped from the pedestrians.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=390	1		The actresses wonder whether the dancers also had escaped from the pedestrians.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=390	1		The actresses wonder whether the dancers ever had escaped from the pedestrians.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=537	1		The senators obviously say that the actor might exit the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=537	0		The senators ever say that the actor might exit the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=537	1		The senators say that the actor obviously might exit the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=537	0		The senators say that the actor ever might exit the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=537	1		The senators obviously wonder whether the actor might exit the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=537	0		The senators ever wonder whether the actor might exit the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=537	1		The senators wonder whether the actor obviously might exit the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=537	1		The senators wonder whether the actor ever might exit the restaurants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=320	1		The ladies clearly say that the waiter had insulted the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=320	0		The ladies ever say that the waiter had insulted the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=320	1		The ladies say that the waiter clearly had insulted the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=320	0		The ladies say that the waiter ever had insulted the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=320	1		The ladies clearly wonder whether the waiter had insulted the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=320	0		The ladies ever wonder whether the waiter had insulted the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=320	1		The ladies wonder whether the waiter clearly had insulted the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=320	1		The ladies wonder whether the waiter ever had insulted the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=222	1		The girls obviously say that the adults might arrive at the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=222	0		The girls ever say that the adults might arrive at the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=222	1		The girls say that the adults obviously might arrive at the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=222	0		The girls say that the adults ever might arrive at the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=222	1		The girls obviously wonder whether the adults might arrive at the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=222	0		The girls ever wonder whether the adults might arrive at the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=222	1		The girls wonder whether the adults obviously might arrive at the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=222	1		The girls wonder whether the adults ever might arrive at the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=484	1		The children also say that the person returned to the people.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=484	0		The children ever say that the person returned to the people.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=484	1		The children say that the person also returned to the people.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=484	0		The children say that the person ever returned to the people.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=484	1		The children also wonder whether the person returned to the people.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=484	0		The children ever wonder whether the person returned to the people.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=484	1		The children wonder whether the person also returned to the people.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=484	1		The children wonder whether the person ever returned to the people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1017	1		The patients say that the senator cared for the teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1017	0		Any patients say that the senator cared for the teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1017	1		The patients say that the senator cared for those teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1017	0		The patients say that the senator cared for any teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1017	1		The patients wonder whether the senator cared for teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1017	0		Any patients wonder whether the senator cared for teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1017	1		The patients wonder whether the senator cared for those teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1017	1		The patients wonder whether the senator cared for any teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=359	1		The pedestrians obviously say that the guys admired the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=359	0		The pedestrians ever say that the guys admired the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=359	1		The pedestrians say that the guys obviously admired the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=359	0		The pedestrians say that the guys ever admired the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=359	1		The pedestrians obviously wonder whether the guys admired the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=359	0		The pedestrians ever wonder whether the guys admired the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=359	1		The pedestrians wonder whether the guys obviously admired the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=359	1		The pedestrians wonder whether the guys ever admired the couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1606	1		The waiters say that the students are insulting the teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1606	0		Any waiters say that the students are insulting the teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1606	1		The waiters say that the students are insulting those teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1606	0		The waiters say that the students are insulting any teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1606	1		The waiters wonder whether the students are insulting teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1606	0		Any waiters wonder whether the students are insulting teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1606	1		The waiters wonder whether the students are insulting those teenagers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1606	1		The waiters wonder whether the students are insulting any teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=408	1		The waiters obviously say that the cashier explores the college campuses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=408	0		The waiters ever say that the cashier explores the college campuses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=408	1		The waiters say that the cashier obviously explores the college campuses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=408	0		The waiters say that the cashier ever explores the college campuses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=408	1		The waiters obviously wonder whether the cashier explores the college campuses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=408	0		The waiters ever wonder whether the cashier explores the college campuses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=408	1		The waiters wonder whether the cashier obviously explores the college campuses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=408	1		The waiters wonder whether the cashier ever explores the college campuses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=148	1		The patients also say that the actor ran around the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=148	0		The patients ever say that the actor ran around the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=148	1		The patients say that the actor also ran around the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=148	0		The patients say that the actor ever ran around the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=148	1		The patients also wonder whether the actor ran around the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=148	0		The patients ever wonder whether the actor ran around the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=148	1		The patients wonder whether the actor also ran around the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=148	1		The patients wonder whether the actor ever ran around the grocery stores.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=796	1		The men obviously say that the actors hate the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=796	0		The men ever say that the actors hate the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=796	1		The men say that the actors obviously hate the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=796	0		The men say that the actors ever hate the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=796	1		The men obviously wonder whether the actors hate the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=796	0		The men ever wonder whether the actors hate the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=796	1		The men wonder whether the actors obviously hate the stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=796	1		The men wonder whether the actors ever hate the stories.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1359	1		Those dancers say that the men watched the people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1359	0		Any dancers say that the men watched the people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1359	1		The dancers say that the men watched the people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1359	0		The dancers say that the men watched any people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1359	1		Those dancers wonder whether the men watched people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1359	0		Any dancers wonder whether the men watched people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1359	1		The dancers wonder whether the men watched the people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1359	1		The dancers wonder whether the men watched any people.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1334	1		The waiters say that the adults should explore the movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1334	0		Any waiters say that the adults should explore the movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1334	1		The waiters say that the adults should explore those movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1334	0		The waiters say that the adults should explore any movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1334	1		The waiters wonder whether the adults should explore movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1334	0		Any waiters wonder whether the adults should explore movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1334	1		The waiters wonder whether the adults should explore those movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1334	1		The waiters wonder whether the adults should explore any movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1336	1		The pedestrians say that the adult is walking through the malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1336	0		Any pedestrians say that the adult is walking through the malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1336	1		The pedestrians say that the adult is walking through those malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1336	0		The pedestrians say that the adult is walking through any malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1336	1		The pedestrians wonder whether the adult is walking through malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1336	0		Any pedestrians wonder whether the adult is walking through malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1336	1		The pedestrians wonder whether the adult is walking through those malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1336	1		The pedestrians wonder whether the adult is walking through any malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=451	1		The men obviously say that the woman wore the pants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=451	0		The men ever say that the woman wore the pants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=451	1		The men say that the woman obviously wore the pants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=451	0		The men say that the woman ever wore the pants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=451	1		The men obviously wonder whether the woman wore the pants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=451	0		The men ever wonder whether the woman wore the pants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=451	1		The men wonder whether the woman obviously wore the pants.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=451	1		The men wonder whether the woman ever wore the pants.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1669	1		The waitresses say that the cashier watched the waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1669	0		Any waitresses say that the cashier watched the waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1669	1		The waitresses say that the cashier watched those waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1669	0		The waitresses say that the cashier watched any waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1669	1		The waitresses wonder whether the cashier watched waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1669	0		Any waitresses wonder whether the cashier watched waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1669	1		The waitresses wonder whether the cashier watched those waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1669	1		The waitresses wonder whether the cashier watched any waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1332	1		The pedestrians say that the waitresses talk to the waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1332	0		Any pedestrians say that the waitresses talk to the waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1332	1		The pedestrians say that the waitresses talk to these waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1332	0		The pedestrians say that the waitresses talk to any waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1332	1		The pedestrians wonder whether the waitresses talk to waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1332	0		Any pedestrians wonder whether the waitresses talk to waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1332	1		The pedestrians wonder whether the waitresses talk to these waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1332	1		The pedestrians wonder whether the waitresses talk to any waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1415	1		The cashiers say that the ladies did exit the schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1415	0		Any cashiers say that the ladies did exit the schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1415	1		The cashiers say that the ladies did exit those schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1415	0		The cashiers say that the ladies did exit any schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1415	1		The cashiers wonder whether the ladies did exit schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1415	0		Any cashiers wonder whether the ladies did exit schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1415	1		The cashiers wonder whether the ladies did exit those schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1415	1		The cashiers wonder whether the ladies did exit any schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=273	1		The actresses fortunately say that the adults might approach the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=273	0		The actresses ever say that the adults might approach the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=273	1		The actresses say that the adults fortunately might approach the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=273	0		The actresses say that the adults ever might approach the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=273	1		The actresses fortunately wonder whether the adults might approach the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=273	0		The actresses ever wonder whether the adults might approach the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=273	1		The actresses wonder whether the adults fortunately might approach the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=273	1		The actresses wonder whether the adults ever might approach the actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1570	1		Those men say that the senators have returned to the boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1570	0		Any men say that the senators have returned to the boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1570	1		The men say that the senators have returned to those boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1570	0		The men say that the senators have returned to any boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1570	1		Those men wonder whether the senators have returned to boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1570	0		Any men wonder whether the senators have returned to boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1570	1		The men wonder whether the senators have returned to those boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1570	1		The men wonder whether the senators have returned to any boys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=933	1		The women clearly say that the guests have described the senators.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=933	0		The women ever say that the guests have described the senators.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=933	1		The women say that the guests clearly have described the senators.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=933	0		The women say that the guests ever have described the senators.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=933	1		The women clearly wonder whether the guests have described the senators.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=933	0		The women ever wonder whether the guests have described the senators.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=933	1		The women wonder whether the guests clearly have described the senators.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=933	1		The women wonder whether the guests ever have described the senators.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=727	1		The dancers clearly say that the adult will examine the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=727	0		The dancers ever say that the adult will examine the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=727	1		The dancers say that the adult clearly will examine the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=727	0		The dancers say that the adult ever will examine the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=727	1		The dancers clearly wonder whether the adult will examine the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=727	0		The dancers ever wonder whether the adult will examine the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=727	1		The dancers wonder whether the adult clearly will examine the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=727	1		The dancers wonder whether the adult ever will examine the essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=797	1		The women clearly say that the customer skated around the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=797	0		The women ever say that the customer skated around the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=797	1		The women say that the customer clearly skated around the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=797	0		The women say that the customer ever skated around the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=797	1		The women clearly wonder whether the customer skated around the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=797	0		The women ever wonder whether the customer skated around the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=797	1		The women wonder whether the customer clearly skated around the libraries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=797	1		The women wonder whether the customer ever skated around the libraries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1618	1		The children say that the boy drops by the banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1618	0		Any children say that the boy drops by the banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1618	1		The children say that the boy drops by these banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1618	0		The children say that the boy drops by any banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1618	1		The children wonder whether the boy drops by banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1618	0		Any children wonder whether the boy drops by banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1618	1		The children wonder whether the boy drops by these banks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1618	1		The children wonder whether the boy drops by any banks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=887	1		The waitresses often say that the teacher was at the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=887	0		The waitresses ever say that the teacher was at the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=887	1		The waitresses say that the teacher often was at the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=887	0		The waitresses say that the teacher ever was at the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=887	1		The waitresses often wonder whether the teacher was at the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=887	0		The waitresses ever wonder whether the teacher was at the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=887	1		The waitresses wonder whether the teacher often was at the malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=887	1		The waitresses wonder whether the teacher ever was at the malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1597	1		Those girls say that the man might admire the waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1597	0		Any girls say that the man might admire the waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1597	1		The girls say that the man might admire these waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1597	0		The girls say that the man might admire any waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1597	1		Those girls wonder whether the man might admire waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1597	0		Any girls wonder whether the man might admire waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1597	1		The girls wonder whether the man might admire these waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1597	1		The girls wonder whether the man might admire any waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=986	1		The senators often say that the doctors had watched the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=986	0		The senators ever say that the doctors had watched the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=986	1		The senators say that the doctors often had watched the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=986	0		The senators say that the doctors ever had watched the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=986	1		The senators often wonder whether the doctors had watched the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=986	0		The senators ever wonder whether the doctors had watched the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=986	1		The senators wonder whether the doctors often had watched the adults.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=986	1		The senators wonder whether the doctors ever had watched the adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1393	1		These people say that the girls were praising the students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1393	0		Any people say that the girls were praising the students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1393	1		The people say that the girls were praising those students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1393	0		The people say that the girls were praising any students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1393	1		These people wonder whether the girls were praising students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1393	0		Any people wonder whether the girls were praising students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1393	1		The people wonder whether the girls were praising those students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1393	1		The people wonder whether the girls were praising any students.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=748	1		The patients often say that the senators did sell the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=748	0		The patients ever say that the senators did sell the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=748	1		The patients say that the senators often did sell the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=748	0		The patients say that the senators ever did sell the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=748	1		The patients often wonder whether the senators did sell the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=748	0		The patients ever wonder whether the senators did sell the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=748	1		The patients wonder whether the senators often did sell the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=748	1		The patients wonder whether the senators ever did sell the cups.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1773	1		The patients say that the cashiers can break the forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1773	0		Any patients say that the cashiers can break the forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1773	1		The patients say that the cashiers can break these forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1773	0		The patients say that the cashiers can break any forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1773	1		The patients wonder whether the cashiers can break forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1773	0		Any patients wonder whether the cashiers can break forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1773	1		The patients wonder whether the cashiers can break these forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1773	1		The patients wonder whether the cashiers can break any forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1651	1		The waitresses say that the actors were criticizing the dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1651	0		Any waitresses say that the actors were criticizing the dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1651	1		The waitresses say that the actors were criticizing those dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1651	0		The waitresses say that the actors were criticizing any dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1651	1		The waitresses wonder whether the actors were criticizing dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1651	0		Any waitresses wonder whether the actors were criticizing dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1651	1		The waitresses wonder whether the actors were criticizing those dancers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1651	1		The waitresses wonder whether the actors were criticizing any dancers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=654	1		The guests also say that the women have gone to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=654	0		The guests ever say that the women have gone to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=654	1		The guests say that the women also have gone to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=654	0		The guests say that the women ever have gone to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=654	1		The guests also wonder whether the women have gone to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=654	0		The guests ever wonder whether the women have gone to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=654	1		The guests wonder whether the women also have gone to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=654	1		The guests wonder whether the women ever have gone to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=940	1		The pedestrians fortunately say that the waiter has driven to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=940	0		The pedestrians ever say that the waiter has driven to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=940	1		The pedestrians say that the waiter fortunately has driven to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=940	0		The pedestrians say that the waiter ever has driven to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=940	1		The pedestrians fortunately wonder whether the waiter has driven to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=940	0		The pedestrians ever wonder whether the waiter has driven to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=940	1		The pedestrians wonder whether the waiter fortunately has driven to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=940	1		The pedestrians wonder whether the waiter ever has driven to the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=981	1		The patients obviously say that the guys help the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=981	0		The patients ever say that the guys help the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=981	1		The patients say that the guys obviously help the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=981	0		The patients say that the guys ever help the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=981	1		The patients obviously wonder whether the guys help the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=981	0		The patients ever wonder whether the guys help the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=981	1		The patients wonder whether the guys obviously help the cashiers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=981	1		The patients wonder whether the guys ever help the cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1765	1		Those ladies say that the teacher toured the malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1765	0		Any ladies say that the teacher toured the malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1765	1		The ladies say that the teacher toured those malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1765	0		The ladies say that the teacher toured any malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1765	1		Those ladies wonder whether the teacher toured malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1765	0		Any ladies wonder whether the teacher toured malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1765	1		The ladies wonder whether the teacher toured those malls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1765	1		The ladies wonder whether the teacher toured any malls.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=232	1		The children also say that the actress will lift the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=232	0		The children ever say that the actress will lift the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=232	1		The children say that the actress also will lift the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=232	0		The children say that the actress ever will lift the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=232	1		The children also wonder whether the actress will lift the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=232	0		The children ever wonder whether the actress will lift the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=232	1		The children wonder whether the actress also will lift the couches.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=232	1		The children wonder whether the actress ever will lift the couches.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1098	1		Those students say that the children had escaped from the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1098	0		Any students say that the children had escaped from the college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1098	1		The students say that the children had escaped from these college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1098	0		The students say that the children had escaped from any college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1098	1		Those students wonder whether the children had escaped from college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1098	0		Any students wonder whether the children had escaped from college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1098	1		The students wonder whether the children had escaped from these college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1098	1		The students wonder whether the children had escaped from any college campuses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1953	1		These waitresses say that the people have left the teachers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1953	0		Any waitresses say that the people have left the teachers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1953	1		The waitresses say that the people have left those teachers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1953	0		The waitresses say that the people have left any teachers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1953	1		These waitresses wonder whether the people have left teachers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1953	0		Any waitresses wonder whether the people have left teachers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1953	1		The waitresses wonder whether the people have left those teachers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1953	1		The waitresses wonder whether the people have left any teachers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=66	1		The guests fortunately say that the senators did forget the teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=66	0		The guests ever say that the senators did forget the teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=66	1		The guests say that the senators fortunately did forget the teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=66	0		The guests say that the senators ever did forget the teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=66	1		The guests fortunately wonder whether the senators did forget the teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=66	0		The guests ever wonder whether the senators did forget the teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=66	1		The guests wonder whether the senators fortunately did forget the teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=66	1		The guests wonder whether the senators ever did forget the teenagers.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=586	1		The boys clearly say that the adults had admired the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=586	0		The boys ever say that the adults had admired the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=586	1		The boys say that the adults clearly had admired the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=586	0		The boys say that the adults ever had admired the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=586	1		The boys clearly wonder whether the adults had admired the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=586	0		The boys ever wonder whether the adults had admired the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=586	1		The boys wonder whether the adults clearly had admired the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=586	1		The boys wonder whether the adults ever had admired the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=937	1		The men often say that the person visits the guys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=937	0		The men ever say that the person visits the guys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=937	1		The men say that the person often visits the guys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=937	0		The men say that the person ever visits the guys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=937	1		The men often wonder whether the person visits the guys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=937	0		The men ever wonder whether the person visits the guys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=937	1		The men wonder whether the person often visits the guys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=937	1		The men wonder whether the person ever visits the guys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=131	1		The women also say that the person drove to the high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=131	0		The women ever say that the person drove to the high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=131	1		The women say that the person also drove to the high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=131	0		The women say that the person ever drove to the high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=131	1		The women also wonder whether the person drove to the high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=131	0		The women ever wonder whether the person drove to the high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=131	1		The women wonder whether the person also drove to the high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=131	1		The women wonder whether the person ever drove to the high schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=581	1		The guests obviously say that the customer was at the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=581	0		The guests ever say that the customer was at the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=581	1		The guests say that the customer obviously was at the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=581	0		The guests say that the customer ever was at the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=581	1		The guests obviously wonder whether the customer was at the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=581	0		The guests ever wonder whether the customer was at the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=581	1		The guests wonder whether the customer obviously was at the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=581	1		The guests wonder whether the customer ever was at the schools.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=836	1		The adults clearly say that the child had gone to the art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=836	0		The adults ever say that the child had gone to the art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=836	1		The adults say that the child clearly had gone to the art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=836	0		The adults say that the child ever had gone to the art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=836	1		The adults clearly wonder whether the child had gone to the art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=836	0		The adults ever wonder whether the child had gone to the art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=836	1		The adults wonder whether the child clearly had gone to the art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=836	1		The adults wonder whether the child ever had gone to the art galleries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1216	1		The ladies say that the child can skate around the cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1216	0		Any ladies say that the child can skate around the cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1216	1		The ladies say that the child can skate around the cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1216	0		The ladies say that the child can skate around any cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1216	1		The ladies wonder whether the child can skate around cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1216	0		Any ladies wonder whether the child can skate around cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1216	1		The ladies wonder whether the child can skate around the cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1216	1		The ladies wonder whether the child can skate around any cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1241	1		The waiters say that the man was criticizing the art galleries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1241	0		Any waiters say that the man was criticizing the art galleries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1241	1		The waiters say that the man was criticizing those art galleries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1241	0		The waiters say that the man was criticizing any art galleries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1241	1		The waiters wonder whether the man was criticizing art galleries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1241	0		Any waiters wonder whether the man was criticizing art galleries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1241	1		The waiters wonder whether the man was criticizing those art galleries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1241	1		The waiters wonder whether the man was criticizing any art galleries.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=447	1		The teachers fortunately say that the senators should listen to the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=447	0		The teachers ever say that the senators should listen to the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=447	1		The teachers say that the senators fortunately should listen to the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=447	0		The teachers say that the senators ever should listen to the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=447	1		The teachers fortunately wonder whether the senators should listen to the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=447	0		The teachers ever wonder whether the senators should listen to the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=447	1		The teachers wonder whether the senators fortunately should listen to the waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=447	1		The teachers wonder whether the senators ever should listen to the waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1754	1		The waiters say that the actor was kissing the actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1754	0		Any waiters say that the actor was kissing the actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1754	1		The waiters say that the actor was kissing these actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1754	0		The waiters say that the actor was kissing any actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1754	1		The waiters wonder whether the actor was kissing actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1754	0		Any waiters wonder whether the actor was kissing actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1754	1		The waiters wonder whether the actor was kissing these actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1754	1		The waiters wonder whether the actor was kissing any actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1918	1		Those teachers say that the teacher has insulted the adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1918	0		Any teachers say that the teacher has insulted the adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1918	1		The teachers say that the teacher has insulted these adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1918	0		The teachers say that the teacher has insulted any adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1918	1		Those teachers wonder whether the teacher has insulted adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1918	0		Any teachers wonder whether the teacher has insulted adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1918	1		The teachers wonder whether the teacher has insulted these adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1918	1		The teachers wonder whether the teacher has insulted any adults.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1522	1		These women say that the girl references the commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1522	0		Any women say that the girl references the commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1522	1		The women say that the girl references the commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1522	0		The women say that the girl references any commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1522	1		These women wonder whether the girl references commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1522	0		Any women wonder whether the girl references commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1522	1		The women wonder whether the girl references the commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1522	1		The women wonder whether the girl references any commentaries.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1103	1		These cashiers say that the lady is attacking the doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1103	0		Any cashiers say that the lady is attacking the doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1103	1		The cashiers say that the lady is attacking the doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1103	0		The cashiers say that the lady is attacking any doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1103	1		These cashiers wonder whether the lady is attacking doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1103	0		Any cashiers wonder whether the lady is attacking doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1103	1		The cashiers wonder whether the lady is attacking the doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1103	1		The cashiers wonder whether the lady is attacking any doctors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1828	1		The dancers say that the women criticize the schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1828	0		Any dancers say that the women criticize the schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1828	1		The dancers say that the women criticize those schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1828	0		The dancers say that the women criticize any schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1828	1		The dancers wonder whether the women criticize schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1828	0		Any dancers wonder whether the women criticize schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1828	1		The dancers wonder whether the women criticize those schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1828	1		The dancers wonder whether the women criticize any schools.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1201	1		These drivers say that the senators might examine the stories.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1201	0		Any drivers say that the senators might examine the stories.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1201	1		The drivers say that the senators might examine these stories.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1201	0		The drivers say that the senators might examine any stories.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1201	1		These drivers wonder whether the senators might examine stories.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1201	0		Any drivers wonder whether the senators might examine stories.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1201	1		The drivers wonder whether the senators might examine these stories.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1201	1		The drivers wonder whether the senators might examine any stories.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=260	1		The students clearly say that the children escaped from the men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=260	0		The students ever say that the children escaped from the men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=260	1		The students say that the children clearly escaped from the men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=260	0		The students say that the children ever escaped from the men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=260	1		The students clearly wonder whether the children escaped from the men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=260	0		The students ever wonder whether the children escaped from the men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=260	1		The students wonder whether the children clearly escaped from the men.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=260	1		The students wonder whether the children ever escaped from the men.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1905	1		Those actors say that the lady discussed the women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1905	0		Any actors say that the lady discussed the women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1905	1		The actors say that the lady discussed these women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1905	0		The actors say that the lady discussed any women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1905	1		Those actors wonder whether the lady discussed women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1905	0		Any actors wonder whether the lady discussed women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1905	1		The actors wonder whether the lady discussed these women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1905	1		The actors wonder whether the lady discussed any women.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1237	1		These teachers say that the guys were exiting the movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1237	0		Any teachers say that the guys were exiting the movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1237	1		The teachers say that the guys were exiting those movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1237	0		The teachers say that the guys were exiting any movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1237	1		These teachers wonder whether the guys were exiting movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1237	0		Any teachers wonder whether the guys were exiting movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1237	1		The teachers wonder whether the guys were exiting those movie theaters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1237	1		The teachers wonder whether the guys were exiting any movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=110	1		The men clearly say that the doctors bought the plates.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=110	0		The men ever say that the doctors bought the plates.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=110	1		The men say that the doctors clearly bought the plates.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=110	0		The men say that the doctors ever bought the plates.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=110	1		The men clearly wonder whether the doctors bought the plates.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=110	0		The men ever wonder whether the doctors bought the plates.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=110	1		The men wonder whether the doctors clearly bought the plates.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=110	1		The men wonder whether the doctors ever bought the plates.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=465	1		The patients also say that the lady loved the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=465	0		The patients ever say that the lady loved the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=465	1		The patients say that the lady also loved the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=465	0		The patients say that the lady ever loved the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=465	1		The patients also wonder whether the lady loved the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=465	0		The patients ever wonder whether the lady loved the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=465	1		The patients wonder whether the lady also loved the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=465	1		The patients wonder whether the lady ever loved the actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1001	1		These boys say that the lady had walked through the museums.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1001	0		Any boys say that the lady had walked through the museums.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1001	1		The boys say that the lady had walked through those museums.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1001	0		The boys say that the lady had walked through any museums.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1001	1		These boys wonder whether the lady had walked through museums.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1001	0		Any boys wonder whether the lady had walked through museums.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1001	1		The boys wonder whether the lady had walked through those museums.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1001	1		The boys wonder whether the lady had walked through any museums.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1121	1		These guys say that the adults do work with the cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1121	0		Any guys say that the adults do work with the cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1121	1		The guys say that the adults do work with those cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1121	0		The guys say that the adults do work with any cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1121	1		These guys wonder whether the adults do work with cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1121	0		Any guys wonder whether the adults do work with cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1121	1		The guys wonder whether the adults do work with those cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1121	1		The guys wonder whether the adults do work with any cashiers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1711	1		These teachers say that the actors could bring the shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1711	0		Any teachers say that the actors could bring the shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1711	1		The teachers say that the actors could bring these shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1711	0		The teachers say that the actors could bring any shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1711	1		These teachers wonder whether the actors could bring shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1711	0		Any teachers wonder whether the actors could bring shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1711	1		The teachers wonder whether the actors could bring these shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1711	1		The teachers wonder whether the actors could bring any shoes.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=296	1		The men obviously say that the boy walked through the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=296	0		The men ever say that the boy walked through the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=296	1		The men say that the boy obviously walked through the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=296	0		The men say that the boy ever walked through the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=296	1		The men obviously wonder whether the boy walked through the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=296	0		The men ever wonder whether the boy walked through the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=296	1		The men wonder whether the boy obviously walked through the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=296	1		The men wonder whether the boy ever walked through the movie theaters.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=795	1		The people fortunately say that the driver sells the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=795	0		The people ever say that the driver sells the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=795	1		The people say that the driver fortunately sells the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=795	0		The people say that the driver ever sells the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=795	1		The people fortunately wonder whether the driver sells the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=795	0		The people ever wonder whether the driver sells the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=795	1		The people wonder whether the driver fortunately sells the cups.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=795	1		The people wonder whether the driver ever sells the cups.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1627	1		Those teenagers say that the girl knows the girls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1627	0		Any teenagers say that the girl knows the girls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1627	1		The teenagers say that the girl knows those girls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1627	0		The teenagers say that the girl knows any girls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1627	1		Those teenagers wonder whether the girl knows girls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1627	0		Any teenagers wonder whether the girl knows girls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1627	1		The teenagers wonder whether the girl knows those girls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1627	1		The teenagers wonder whether the girl knows any girls.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1641	1		Those cashiers say that the customers liked the chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1641	0		Any cashiers say that the customers liked the chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1641	1		The cashiers say that the customers liked these chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1641	0		The cashiers say that the customers liked any chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1641	1		Those cashiers wonder whether the customers liked chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1641	0		Any cashiers wonder whether the customers liked chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1641	1		The cashiers wonder whether the customers liked these chairs.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1641	1		The cashiers wonder whether the customers liked any chairs.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=592	1		The men also say that the actors do leave the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=592	0		The men ever say that the actors do leave the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=592	1		The men say that the actors also do leave the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=592	0		The men say that the actors ever do leave the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=592	1		The men also wonder whether the actors do leave the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=592	0		The men ever wonder whether the actors do leave the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=592	1		The men wonder whether the actors also do leave the hospitals.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=592	1		The men wonder whether the actors ever do leave the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1429	1		These adults say that the guests work with the students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1429	0		Any adults say that the guests work with the students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1429	1		The adults say that the guests work with these students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1429	0		The adults say that the guests work with any students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1429	1		These adults wonder whether the guests work with students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1429	0		Any adults wonder whether the guests work with students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1429	1		The adults wonder whether the guests work with these students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1429	1		The adults wonder whether the guests work with any students.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1620	1		The dancers say that the waitresses respected the drivers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1620	0		Any dancers say that the waitresses respected the drivers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1620	1		The dancers say that the waitresses respected the drivers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1620	0		The dancers say that the waitresses respected any drivers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1620	1		The dancers wonder whether the waitresses respected drivers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1620	0		Any dancers wonder whether the waitresses respected drivers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1620	1		The dancers wonder whether the waitresses respected the drivers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1620	1		The dancers wonder whether the waitresses respected any drivers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1972	1		Those guests say that the actresses have worn the shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1972	0		Any guests say that the actresses have worn the shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1972	1		The guests say that the actresses have worn the shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1972	0		The guests say that the actresses have worn any shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1972	1		Those guests wonder whether the actresses have worn shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1972	0		Any guests wonder whether the actresses have worn shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1972	1		The guests wonder whether the actresses have worn the shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1972	1		The guests wonder whether the actresses have worn any shoes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1049	1		These actresses say that the patients leave the ladies.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1049	0		Any actresses say that the patients leave the ladies.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1049	1		The actresses say that the patients leave these ladies.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1049	0		The actresses say that the patients leave any ladies.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1049	1		These actresses wonder whether the patients leave ladies.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1049	0		Any actresses wonder whether the patients leave ladies.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1049	1		The actresses wonder whether the patients leave these ladies.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1049	1		The actresses wonder whether the patients leave any ladies.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=63	1		The waitresses often say that the teacher has watched the boys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=63	0		The waitresses ever say that the teacher has watched the boys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=63	1		The waitresses say that the teacher often has watched the boys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=63	0		The waitresses say that the teacher ever has watched the boys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=63	1		The waitresses often wonder whether the teacher has watched the boys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=63	0		The waitresses ever wonder whether the teacher has watched the boys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=63	1		The waitresses wonder whether the teacher often has watched the boys.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=63	1		The waitresses wonder whether the teacher ever has watched the boys.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1630	1		Those actresses say that the girls watch the waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1630	0		Any actresses say that the girls watch the waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1630	1		The actresses say that the girls watch those waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1630	0		The actresses say that the girls watch any waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1630	1		Those actresses wonder whether the girls watch waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1630	0		Any actresses wonder whether the girls watch waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1630	1		The actresses wonder whether the girls watch those waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1630	1		The actresses wonder whether the girls watch any waiters.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1068	1		Those drivers say that the guy scans the essays.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1068	0		Any drivers say that the guy scans the essays.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1068	1		The drivers say that the guy scans the essays.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1068	0		The drivers say that the guy scans any essays.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1068	1		Those drivers wonder whether the guy scans essays.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1068	0		Any drivers wonder whether the guy scans essays.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1068	1		The drivers wonder whether the guy scans the essays.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1068	1		The drivers wonder whether the guy scans any essays.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=723	1		The patients clearly say that the teenagers did escape from the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=723	0		The patients ever say that the teenagers did escape from the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=723	1		The patients say that the teenagers clearly did escape from the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=723	0		The patients say that the teenagers ever did escape from the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=723	1		The patients clearly wonder whether the teenagers did escape from the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=723	0		The patients ever wonder whether the teenagers did escape from the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=723	1		The patients wonder whether the teenagers clearly did escape from the public parks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=723	1		The patients wonder whether the teenagers ever did escape from the public parks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1767	1		The patients say that the people had referenced the reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1767	0		Any patients say that the people had referenced the reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1767	1		The patients say that the people had referenced those reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1767	0		The patients say that the people had referenced any reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1767	1		The patients wonder whether the people had referenced reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1767	0		Any patients wonder whether the people had referenced reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1767	1		The patients wonder whether the people had referenced those reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1767	1		The patients wonder whether the people had referenced any reports.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1413	1		Those doctors say that the actor has kissed the customers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1413	0		Any doctors say that the actor has kissed the customers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1413	1		The doctors say that the actor has kissed these customers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1413	0		The doctors say that the actor has kissed any customers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1413	1		Those doctors wonder whether the actor has kissed customers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1413	0		Any doctors wonder whether the actor has kissed customers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1413	1		The doctors wonder whether the actor has kissed these customers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1413	1		The doctors wonder whether the actor has kissed any customers.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1338	1		These pedestrians say that the driver goes to the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1338	0		Any pedestrians say that the driver goes to the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1338	1		The pedestrians say that the driver goes to the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1338	0		The pedestrians say that the driver goes to any hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1338	1		These pedestrians wonder whether the driver goes to hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1338	0		Any pedestrians wonder whether the driver goes to hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1338	1		The pedestrians wonder whether the driver goes to the hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1338	1		The pedestrians wonder whether the driver goes to any hospitals.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1548	1		These boys say that the adults praise the pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1548	0		Any boys say that the adults praise the pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1548	1		The boys say that the adults praise the pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1548	0		The boys say that the adults praise any pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1548	1		These boys wonder whether the adults praise pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1548	0		Any boys wonder whether the adults praise pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1548	1		The boys wonder whether the adults praise the pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1548	1		The boys wonder whether the adults praise any pedestrians.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1481	1		The senators say that the cashier admired the waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1481	0		Any senators say that the cashier admired the waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1481	1		The senators say that the cashier admired those waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1481	0		The senators say that the cashier admired any waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1481	1		The senators wonder whether the cashier admired waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1481	0		Any senators wonder whether the cashier admired waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1481	1		The senators wonder whether the cashier admired those waitresses.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1481	1		The senators wonder whether the cashier admired any waitresses.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=653	1		The students also say that the driver listens to the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=653	0		The students ever say that the driver listens to the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=653	1		The students say that the driver also listens to the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=653	0		The students say that the driver ever listens to the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=653	1		The students also wonder whether the driver listens to the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=653	0		The students ever wonder whether the driver listens to the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=653	1		The students wonder whether the driver also listens to the actors.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=653	1		The students wonder whether the driver ever listens to the actors.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1247	1		Those teenagers say that the senators had the forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1247	0		Any teenagers say that the senators had the forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1247	1		The teenagers say that the senators had the forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1247	0		The teenagers say that the senators had any forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1247	1		Those teenagers wonder whether the senators had forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1247	0		Any teenagers wonder whether the senators had forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1247	1		The teenagers wonder whether the senators had the forks.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1247	1		The teenagers wonder whether the senators had any forks.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=55	1		The teachers often say that the customers had scanned the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=55	0		The teachers ever say that the customers had scanned the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=55	1		The teachers say that the customers often had scanned the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=55	0		The teachers say that the customers ever had scanned the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=55	1		The teachers often wonder whether the customers had scanned the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=55	0		The teachers ever wonder whether the customers had scanned the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=55	1		The teachers wonder whether the customers often had scanned the newspaper articles.
+experiment=NPI-env=questions-npi=ever-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=55	1		The teachers wonder whether the customers ever had scanned the newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1529	1		Those dancers say that the patient buys the newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1529	0		Any dancers say that the patient buys the newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1529	1		The dancers say that the patient buys the newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1529	0		The dancers say that the patient buys any newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1529	1		Those dancers wonder whether the patient buys newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1529	0		Any dancers wonder whether the patient buys newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1529	1		The dancers wonder whether the patient buys the newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1529	1		The dancers wonder whether the patient buys any newspaper articles.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1632	1		Those actresses say that the lady has exited the cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1632	0		Any actresses say that the lady has exited the cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1632	1		The actresses say that the lady has exited those cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1632	0		The actresses say that the lady has exited any cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1632	1		Those actresses wonder whether the lady has exited cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1632	0		Any actresses wonder whether the lady has exited cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1632	1		The actresses wonder whether the lady has exited those cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1632	1		The actresses wonder whether the lady has exited any cafes.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=0-paradigm=1258	1		Those guests say that the dancers fled from the children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=0-npi_present=1-paradigm=1258	0		Any guests say that the dancers fled from the children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=0-paradigm=1258	1		The guests say that the dancers fled from those children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=0-scope=1-npi_present=1-paradigm=1258	0		The guests say that the dancers fled from any children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=0-paradigm=1258	1		Those guests wonder whether the dancers fled from children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=0-npi_present=1-paradigm=1258	0		Any guests wonder whether the dancers fled from children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=0-paradigm=1258	1		The guests wonder whether the dancers fled from those children.
+experiment=NPI-env=questions-npi=any-crucial_item=whether-licensor=1-scope=1-npi_present=1-paradigm=1258	1		The guests wonder whether the dancers fled from any children.

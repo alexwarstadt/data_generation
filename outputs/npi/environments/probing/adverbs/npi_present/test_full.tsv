@@ -1,0 +1,1000 @@
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1072	0		The waitresses who always boycott schools discuss these actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1072	1		The waitresses who always boycott schools discuss any actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1072	0		The waitresses who always boycott those schools discuss actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1072	1		The waitresses who always boycott any schools discuss actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1072	0		The waitresses who seldom boycott schools discuss these actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1072	1		The waitresses who seldom boycott schools discuss any actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1072	0		The waitresses who seldom boycott those schools discuss actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1072	1		The waitresses who seldom boycott any schools discuss actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1154	0		The women who rarely break couches walk through those public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1154	1		The women who rarely break couches walk through any public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1154	0		The women who rarely break those couches walk through public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1154	1		The women who rarely break any couches walk through public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1154	0		The women who sometimes break couches walk through those public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1154	1		The women who sometimes break couches walk through any public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1154	0		The women who sometimes break those couches walk through public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1154	1		The women who sometimes break any couches walk through public parks.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=452	0		An actress also explained that the boy hardly boycotted the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=452	1		An actress ever explained that the boy hardly boycotted the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=452	0		An actress hardly also explained that the boy boycotted the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=452	1		An actress hardly ever explained that the boy boycotted the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=452	0		An actress also explained that the boy often boycotted the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=452	1		An actress ever explained that the boy often boycotted the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=452	0		An actress often also explained that the boy boycotted the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=452	1		An actress often ever explained that the boy boycotted the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=826	0		The adults also imagined that a dancer barely approved.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=826	1		The adults ever imagined that a dancer barely approved.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=826	0		The adults barely also imagined that a dancer approved.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=826	1		The adults barely ever imagined that a dancer approved.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=826	0		The adults also imagined that a dancer sometimes approved.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=826	1		The adults ever imagined that a dancer sometimes approved.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=826	0		The adults sometimes also imagined that a dancer approved.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=826	1		The adults sometimes ever imagined that a dancer approved.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=88	0		The child often said that a guy scarcely lifts a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=88	1		The child ever said that a guy scarcely lifts a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=88	0		The child scarcely often said that a guy lifts a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=88	1		The child scarcely ever said that a guy lifts a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=88	0		The child often said that a guy sometimes lifts a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=88	1		The child ever said that a guy sometimes lifts a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=88	0		The child sometimes often said that a guy lifts a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=88	1		The child sometimes ever said that a guy lifts a hat.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1817	0		The student who always talked about public parks will dislike those movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1817	1		The student who always talked about public parks will dislike any movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1817	0		The student who always talked about these public parks will dislike movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1817	1		The student who always talked about any public parks will dislike movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1817	0		The student who scarcely talked about public parks will dislike those movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1817	1		The student who scarcely talked about public parks will dislike any movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1817	0		The student who scarcely talked about these public parks will dislike movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1817	1		The student who scarcely talked about any public parks will dislike movie theaters.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=845	0		A cashier obviously explained that the actors barely concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=845	1		A cashier ever explained that the actors barely concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=845	0		A cashier barely obviously explained that the actors concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=845	1		A cashier barely ever explained that the actors concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=845	0		A cashier obviously explained that the actors sometimes concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=845	1		A cashier ever explained that the actors sometimes concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=845	0		A cashier sometimes obviously explained that the actors concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=845	1		A cashier sometimes ever explained that the actors concur.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1156	0		The guests who could hardly break plates escaped from those malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1156	1		The guests who could hardly break plates escaped from any malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1156	0		The guests who could hardly break the plates escaped from malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1156	1		The guests who could hardly break any plates escaped from malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1156	0		The guests who could often break plates escaped from those malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1156	1		The guests who could often break plates escaped from any malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1156	0		The guests who could often break the plates escaped from malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1156	1		The guests who could often break any plates escaped from malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1287	0		The teachers who had always approached children kissed the girls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1287	1		The teachers who had always approached children kissed any girls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1287	0		The teachers who had always approached these children kissed girls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1287	1		The teachers who had always approached any children kissed girls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1287	0		The teachers who had seldom approached children kissed the girls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1287	1		The teachers who had seldom approached children kissed any girls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1287	0		The teachers who had seldom approached these children kissed girls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1287	1		The teachers who had seldom approached any children kissed girls.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=184	0		The waiters clearly think that the actress will hardly boast.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=184	1		The waiters ever think that the actress will hardly boast.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=184	0		The waiters hardly clearly think that the actress will boast.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=184	1		The waiters hardly ever think that the actress will boast.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=184	0		The waiters clearly think that the actress will often boast.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=184	1		The waiters ever think that the actress will often boast.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=184	0		The waiters often clearly think that the actress will boast.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=184	1		The waiters often ever think that the actress will boast.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=59	0		The adult often explained that the women always concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=59	1		The adult ever explained that the women always concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=59	0		The adult always often explained that the women concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=59	1		The adult always ever explained that the women concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=59	0		The adult often explained that the women barely concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=59	1		The adult ever explained that the women barely concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=59	0		The adult barely often explained that the women concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=59	1		The adult barely ever explained that the women concur.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=672	0		A waiter obviously imagines that the drivers hardly assembled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=672	1		A waiter ever imagines that the drivers hardly assembled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=672	0		A waiter hardly obviously imagines that the drivers assembled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=672	1		A waiter hardly ever imagines that the drivers assembled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=672	0		A waiter obviously imagines that the drivers often assembled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=672	1		A waiter ever imagines that the drivers often assembled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=672	0		A waiter often obviously imagines that the drivers assembled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=672	1		A waiter often ever imagines that the drivers assembled.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1660	0		The senators who hardly watch doctors should criticize the college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1660	1		The senators who hardly watch doctors should criticize any college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1660	0		The senators who hardly watch the doctors should criticize college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1660	1		The senators who hardly watch any doctors should criticize college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1660	0		The senators who often watch doctors should criticize the college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1660	1		The senators who often watch doctors should criticize any college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1660	0		The senators who often watch the doctors should criticize college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1660	1		The senators who often watch any doctors should criticize college campuses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=445	0		The teenager obviously explained that the students always wear a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=445	1		The teenager ever explained that the students always wear a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=445	0		The teenager always obviously explained that the students wear a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=445	1		The teenager always ever explained that the students wear a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=445	0		The teenager obviously explained that the students barely wear a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=445	1		The teenager ever explained that the students barely wear a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=445	0		The teenager barely obviously explained that the students wear a hat.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=445	1		The teenager barely ever explained that the students wear a hat.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1946	0		The cashiers who always see books should break the glasses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1946	1		The cashiers who always see books should break any glasses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1946	0		The cashiers who always see these books should break glasses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1946	1		The cashiers who always see any books should break glasses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=1946	0		The cashiers who barely see books should break the glasses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=1946	1		The cashiers who barely see books should break any glasses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=1946	0		The cashiers who barely see these books should break glasses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=1946	1		The cashiers who barely see any books should break glasses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1535	0		The person who will scarcely escape from women bikes to the restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1535	1		The person who will scarcely escape from women bikes to any restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1535	0		The person who will scarcely escape from the women bikes to restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1535	1		The person who will scarcely escape from any women bikes to restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1535	0		The person who will sometimes escape from women bikes to the restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1535	1		The person who will sometimes escape from women bikes to any restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1535	0		The person who will sometimes escape from the women bikes to restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1535	1		The person who will sometimes escape from any women bikes to restaurants.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=245	0		The women obviously think that a student often spun around.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=245	1		The women ever think that a student often spun around.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=245	0		The women often obviously think that a student spun around.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=245	1		The women often ever think that a student spun around.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=245	0		The women obviously think that a student rarely spun around.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=245	1		The women ever think that a student rarely spun around.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=245	0		The women rarely obviously think that a student spun around.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=245	1		The women rarely ever think that a student spun around.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1920	0		The customer who can rarely boycott hospitals has left those guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1920	1		The customer who can rarely boycott hospitals has left any guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1920	0		The customer who can rarely boycott these hospitals has left guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1920	1		The customer who can rarely boycott any hospitals has left guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1920	0		The customer who can sometimes boycott hospitals has left those guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1920	1		The customer who can sometimes boycott hospitals has left any guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1920	0		The customer who can sometimes boycott these hospitals has left guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1920	1		The customer who can sometimes boycott any hospitals has left guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1135	0		The patients who always wore gloves should visit these grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1135	1		The patients who always wore gloves should visit any grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1135	0		The patients who always wore the gloves should visit grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1135	1		The patients who always wore any gloves should visit grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1135	0		The patients who rarely wore gloves should visit these grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1135	1		The patients who rarely wore gloves should visit any grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1135	0		The patients who rarely wore the gloves should visit grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1135	1		The patients who rarely wore any gloves should visit grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1650	0		The adult who hardly disliked ladies has those cups.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1650	1		The adult who hardly disliked ladies has any cups.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1650	0		The adult who hardly disliked these ladies has cups.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1650	1		The adult who hardly disliked any ladies has cups.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1650	0		The adult who sometimes disliked ladies has those cups.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1650	1		The adult who sometimes disliked ladies has any cups.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1650	0		The adult who sometimes disliked these ladies has cups.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1650	1		The adult who sometimes disliked any ladies has cups.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1756	0		A waitress who hardly brought shoes has respected these college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1756	1		A waitress who hardly brought shoes has respected any college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1756	0		A waitress who hardly brought the shoes has respected college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1756	1		A waitress who hardly brought any shoes has respected college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1756	0		A waitress who often brought shoes has respected these college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1756	1		A waitress who often brought shoes has respected any college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1756	0		A waitress who often brought the shoes has respected college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1756	1		A waitress who often brought any shoes has respected college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1387	0		The woman who hardly observed pedestrians does criticize those banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1387	1		The woman who hardly observed pedestrians does criticize any banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1387	0		The woman who hardly observed these pedestrians does criticize banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1387	1		The woman who hardly observed any pedestrians does criticize banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1387	0		The woman who sometimes observed pedestrians does criticize those banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1387	1		The woman who sometimes observed pedestrians does criticize any banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1387	0		The woman who sometimes observed these pedestrians does criticize banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1387	1		The woman who sometimes observed any pedestrians does criticize banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1710	0		The guy who has seldom toured public parks does escape from these men.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1710	1		The guy who has seldom toured public parks does escape from any men.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1710	0		The guy who has seldom toured the public parks does escape from men.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1710	1		The guy who has seldom toured any public parks does escape from men.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1710	0		The guy who has sometimes toured public parks does escape from these men.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1710	1		The guy who has sometimes toured public parks does escape from any men.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1710	0		The guy who has sometimes toured the public parks does escape from men.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1710	1		The guy who has sometimes toured any public parks does escape from men.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1288	0		The actor who could scarcely break cups might reference the people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1288	1		The actor who could scarcely break cups might reference any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1288	0		The actor who could scarcely break the cups might reference people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1288	1		The actor who could scarcely break any cups might reference people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1288	0		The actor who could sometimes break cups might reference the people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1288	1		The actor who could sometimes break cups might reference any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1288	0		The actor who could sometimes break the cups might reference people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1288	1		The actor who could sometimes break any cups might reference people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1557	0		The waitresses who should often love waiters had worked with those guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1557	1		The waitresses who should often love waiters had worked with any guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1557	0		The waitresses who should often love those waiters had worked with guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1557	1		The waitresses who should often love any waiters had worked with guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1557	0		The waitresses who should scarcely love waiters had worked with those guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1557	1		The waitresses who should scarcely love waiters had worked with any guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1557	0		The waitresses who should scarcely love those waiters had worked with guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1557	1		The waitresses who should scarcely love any waiters had worked with guys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=468	0		The waiter obviously explains that the patients could often discuss the cashiers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=468	1		The waiter ever explains that the patients could often discuss the cashiers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=468	0		The waiter often obviously explains that the patients could discuss the cashiers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=468	1		The waiter often ever explains that the patients could discuss the cashiers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=468	0		The waiter obviously explains that the patients could rarely discuss the cashiers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=468	1		The waiter ever explains that the patients could rarely discuss the cashiers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=468	0		The waiter rarely obviously explains that the patients could discuss the cashiers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=468	1		The waiter rarely ever explains that the patients could discuss the cashiers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=29	0		A senator often thought that the students had often fled from the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=29	1		A senator ever thought that the students had often fled from the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=29	0		A senator often often thought that the students had fled from the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=29	1		A senator often ever thought that the students had fled from the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=29	0		A senator often thought that the students had scarcely fled from the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=29	1		A senator ever thought that the students had scarcely fled from the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=29	0		A senator scarcely often thought that the students had fled from the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=29	1		A senator scarcely ever thought that the students had fled from the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=132	0		The people obviously imagine that the actresses always conferred.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=132	1		The people ever imagine that the actresses always conferred.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=132	0		The people always obviously imagine that the actresses conferred.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=132	1		The people always ever imagine that the actresses conferred.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=132	0		The people obviously imagine that the actresses seldom conferred.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=132	1		The people ever imagine that the actresses seldom conferred.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=132	0		The people seldom obviously imagine that the actresses conferred.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=132	1		The people seldom ever imagine that the actresses conferred.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1251	0		The driver who rarely did arrive at schools described the children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1251	1		The driver who rarely did arrive at schools described any children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1251	0		The driver who rarely did arrive at these schools described children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1251	1		The driver who rarely did arrive at any schools described children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1251	0		The driver who sometimes did arrive at schools described the children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1251	1		The driver who sometimes did arrive at schools described any children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1251	0		The driver who sometimes did arrive at these schools described children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1251	1		The driver who sometimes did arrive at any schools described children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1272	0		The doctor who always toured public parks should like these teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1272	1		The doctor who always toured public parks should like any teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1272	0		The doctor who always toured these public parks should like teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1272	1		The doctor who always toured any public parks should like teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=1272	0		The doctor who barely toured public parks should like these teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=1272	1		The doctor who barely toured public parks should like any teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=1272	0		The doctor who barely toured these public parks should like teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=1272	1		The doctor who barely toured any public parks should like teachers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=57	0		The waitress clearly explained that the child barely likes the boys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=57	1		The waitress ever explained that the child barely likes the boys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=57	0		The waitress barely clearly explained that the child likes the boys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=57	1		The waitress barely ever explained that the child likes the boys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=57	0		The waitress clearly explained that the child often likes the boys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=57	1		The waitress ever explained that the child often likes the boys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=57	0		The waitress often clearly explained that the child likes the boys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=57	1		The waitress often ever explained that the child likes the boys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=525	0		The children often said that a man hardly arrives at the high schools.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=525	1		The children ever said that a man hardly arrives at the high schools.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=525	0		The children hardly often said that a man arrives at the high schools.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=525	1		The children hardly ever said that a man arrives at the high schools.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=525	0		The children often said that a man often arrives at the high schools.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=525	1		The children ever said that a man often arrives at the high schools.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=525	0		The children often often said that a man arrives at the high schools.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=525	1		The children often ever said that a man arrives at the high schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1012	0		The boys who scarcely talked to senators broke these dishes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1012	1		The boys who scarcely talked to senators broke any dishes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1012	0		The boys who scarcely talked to these senators broke dishes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1012	1		The boys who scarcely talked to any senators broke dishes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1012	0		The boys who sometimes talked to senators broke these dishes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1012	1		The boys who sometimes talked to senators broke any dishes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1012	0		The boys who sometimes talked to these senators broke dishes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1012	1		The boys who sometimes talked to any senators broke dishes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1021	0		The guests who hardly cleaned dishes bike to these grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1021	1		The guests who hardly cleaned dishes bike to any grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1021	0		The guests who hardly cleaned those dishes bike to grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1021	1		The guests who hardly cleaned any dishes bike to grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1021	0		The guests who often cleaned dishes bike to these grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1021	1		The guests who often cleaned dishes bike to any grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1021	0		The guests who often cleaned those dishes bike to grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1021	1		The guests who often cleaned any dishes bike to grocery stores.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=977	0		A pedestrian fortunately thinks that the lady barely hides away.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=977	1		A pedestrian ever thinks that the lady barely hides away.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=977	0		A pedestrian barely fortunately thinks that the lady hides away.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=977	1		A pedestrian barely ever thinks that the lady hides away.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=977	0		A pedestrian fortunately thinks that the lady sometimes hides away.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=977	1		A pedestrian ever thinks that the lady sometimes hides away.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=977	0		A pedestrian sometimes fortunately thinks that the lady hides away.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=977	1		A pedestrian sometimes ever thinks that the lady hides away.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=329	0		The waiter fortunately thinks that the women had hardly investigated the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=329	1		The waiter ever thinks that the women had hardly investigated the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=329	0		The waiter hardly fortunately thinks that the women had investigated the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=329	1		The waiter hardly ever thinks that the women had investigated the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=329	0		The waiter fortunately thinks that the women had often investigated the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=329	1		The waiter ever thinks that the women had often investigated the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=329	0		The waiter often fortunately thinks that the women had investigated the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=329	1		The waiter often ever thinks that the women had investigated the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=720	0		A man also imagined that the drivers will barely sing.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=720	1		A man ever imagined that the drivers will barely sing.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=720	0		A man barely also imagined that the drivers will sing.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=720	1		A man barely ever imagined that the drivers will sing.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=720	0		A man also imagined that the drivers will sometimes sing.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=720	1		A man ever imagined that the drivers will sometimes sing.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=720	0		A man sometimes also imagined that the drivers will sing.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=720	1		A man sometimes ever imagined that the drivers will sing.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=946	0		The teenagers often explained that a boy has always negotiated.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=946	1		The teenagers ever explained that a boy has always negotiated.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=946	0		The teenagers always often explained that a boy has negotiated.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=946	1		The teenagers always ever explained that a boy has negotiated.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=946	0		The teenagers often explained that a boy has barely negotiated.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=946	1		The teenagers ever explained that a boy has barely negotiated.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=946	0		The teenagers barely often explained that a boy has negotiated.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=946	1		The teenagers barely ever explained that a boy has negotiated.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1150	0		The doctors who hardly are at libraries could talk to the women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1150	1		The doctors who hardly are at libraries could talk to any women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1150	0		The doctors who hardly are at these libraries could talk to women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1150	1		The doctors who hardly are at any libraries could talk to women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1150	0		The doctors who often are at libraries could talk to the women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1150	1		The doctors who often are at libraries could talk to any women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1150	0		The doctors who often are at these libraries could talk to women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1150	1		The doctors who often are at any libraries could talk to women.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=356	0		An actress obviously thought that the waitresses might always talk about the bank.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=356	1		An actress ever thought that the waitresses might always talk about the bank.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=356	0		An actress always obviously thought that the waitresses might talk about the bank.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=356	1		An actress always ever thought that the waitresses might talk about the bank.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=356	0		An actress obviously thought that the waitresses might barely talk about the bank.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=356	1		An actress ever thought that the waitresses might barely talk about the bank.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=356	0		An actress barely obviously thought that the waitresses might talk about the bank.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=356	1		An actress barely ever thought that the waitresses might talk about the bank.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1424	0		An actress who had often returned to public parks passes those hospitals.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1424	1		An actress who had often returned to public parks passes any hospitals.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1424	0		An actress who had often returned to these public parks passes hospitals.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1424	1		An actress who had often returned to any public parks passes hospitals.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1424	0		An actress who had rarely returned to public parks passes those hospitals.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1424	1		An actress who had rarely returned to public parks passes any hospitals.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1424	0		An actress who had rarely returned to these public parks passes hospitals.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1424	1		An actress who had rarely returned to any public parks passes hospitals.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1391	0		A teacher who seldom kisses children insults those adults.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1391	1		A teacher who seldom kisses children insults any adults.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1391	0		A teacher who seldom kisses those children insults adults.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1391	1		A teacher who seldom kisses any children insults adults.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1391	0		A teacher who sometimes kisses children insults those adults.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1391	1		A teacher who sometimes kisses children insults any adults.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1391	0		A teacher who sometimes kisses those children insults adults.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1391	1		A teacher who sometimes kisses any children insults adults.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1199	0		A patient who had always insulted girls bikes to the libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1199	1		A patient who had always insulted girls bikes to any libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1199	0		A patient who had always insulted the girls bikes to libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1199	1		A patient who had always insulted any girls bikes to libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1199	0		A patient who had scarcely insulted girls bikes to the libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1199	1		A patient who had scarcely insulted girls bikes to any libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1199	0		A patient who had scarcely insulted the girls bikes to libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1199	1		A patient who had scarcely insulted any girls bikes to libraries.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=13	0		The dancers clearly imagine that the girls have often helped the patients.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=13	1		The dancers ever imagine that the girls have often helped the patients.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=13	0		The dancers often clearly imagine that the girls have helped the patients.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=13	1		The dancers often ever imagine that the girls have helped the patients.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=13	0		The dancers clearly imagine that the girls have rarely helped the patients.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=13	1		The dancers ever imagine that the girls have rarely helped the patients.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=13	0		The dancers rarely clearly imagine that the girls have helped the patients.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=13	1		The dancers rarely ever imagine that the girls have helped the patients.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1829	0		An actress who rarely was at hospitals kissed those people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1829	1		An actress who rarely was at hospitals kissed any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1829	0		An actress who rarely was at the hospitals kissed people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1829	1		An actress who rarely was at any hospitals kissed people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1829	0		An actress who sometimes was at hospitals kissed those people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1829	1		An actress who sometimes was at hospitals kissed any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1829	0		An actress who sometimes was at the hospitals kissed people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1829	1		An actress who sometimes was at any hospitals kissed people.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=575	0		An actor obviously imagines that the customer often walks through the college campuses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=575	1		An actor ever imagines that the customer often walks through the college campuses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=575	0		An actor often obviously imagines that the customer walks through the college campuses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=575	1		An actor often ever imagines that the customer walks through the college campuses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=575	0		An actor obviously imagines that the customer seldom walks through the college campuses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=575	1		An actor ever imagines that the customer seldom walks through the college campuses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=575	0		An actor seldom obviously imagines that the customer walks through the college campuses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=575	1		An actor seldom ever imagines that the customer walks through the college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1036	0		The guest who always is at public parks talks about the people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1036	1		The guest who always is at public parks talks about any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1036	0		The guest who always is at those public parks talks about people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1036	1		The guest who always is at any public parks talks about people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1036	0		The guest who hardly is at public parks talks about the people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1036	1		The guest who hardly is at public parks talks about any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1036	0		The guest who hardly is at those public parks talks about people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1036	1		The guest who hardly is at any public parks talks about people.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=511	0		A cashier obviously thought that the boys barely read.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=511	1		A cashier ever thought that the boys barely read.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=511	0		A cashier barely obviously thought that the boys read.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=511	1		A cashier barely ever thought that the boys read.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=511	0		A cashier obviously thought that the boys often read.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=511	1		A cashier ever thought that the boys often read.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=511	0		A cashier often obviously thought that the boys read.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=511	1		A cashier often ever thought that the boys read.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1368	0		A pedestrian who will hardly know senators has arrived at those college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1368	1		A pedestrian who will hardly know senators has arrived at any college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1368	0		A pedestrian who will hardly know the senators has arrived at college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1368	1		A pedestrian who will hardly know any senators has arrived at college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1368	0		A pedestrian who will often know senators has arrived at those college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1368	1		A pedestrian who will often know senators has arrived at any college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1368	0		A pedestrian who will often know the senators has arrived at college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1368	1		A pedestrian who will often know any senators has arrived at college campuses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=171	0		The waiters fortunately think that the girls hardly sold a couch.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=171	1		The waiters ever think that the girls hardly sold a couch.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=171	0		The waiters hardly fortunately think that the girls sold a couch.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=171	1		The waiters hardly ever think that the girls sold a couch.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=171	0		The waiters fortunately think that the girls sometimes sold a couch.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=171	1		The waiters ever think that the girls sometimes sold a couch.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=171	0		The waiters sometimes fortunately think that the girls sold a couch.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=171	1		The waiters sometimes ever think that the girls sold a couch.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1292	0		The teenagers who hardly do take shoes reference those reports.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1292	1		The teenagers who hardly do take shoes reference any reports.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1292	0		The teenagers who hardly do take the shoes reference reports.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1292	1		The teenagers who hardly do take any shoes reference reports.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1292	0		The teenagers who often do take shoes reference those reports.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1292	1		The teenagers who often do take shoes reference any reports.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1292	0		The teenagers who often do take the shoes reference reports.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1292	1		The teenagers who often do take any shoes reference reports.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1113	0		The cashier who rarely discussed girls had boycotted these malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1113	1		The cashier who rarely discussed girls had boycotted any malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1113	0		The cashier who rarely discussed these girls had boycotted malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1113	1		The cashier who rarely discussed any girls had boycotted malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1113	0		The cashier who sometimes discussed girls had boycotted these malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1113	1		The cashier who sometimes discussed girls had boycotted any malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1113	0		The cashier who sometimes discussed these girls had boycotted malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1113	1		The cashier who sometimes discussed any girls had boycotted malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1202	0		The adults who seldom attacked teenagers have lifted the chairs.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1202	1		The adults who seldom attacked teenagers have lifted any chairs.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1202	0		The adults who seldom attacked those teenagers have lifted chairs.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1202	1		The adults who seldom attacked any teenagers have lifted chairs.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1202	0		The adults who sometimes attacked teenagers have lifted the chairs.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1202	1		The adults who sometimes attacked teenagers have lifted any chairs.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1202	0		The adults who sometimes attacked those teenagers have lifted chairs.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1202	1		The adults who sometimes attacked any teenagers have lifted chairs.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=371	0		The senator often imagined that the cashier could barely change.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=371	1		The senator ever imagined that the cashier could barely change.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=371	0		The senator barely often imagined that the cashier could change.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=371	1		The senator barely ever imagined that the cashier could change.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=371	0		The senator often imagined that the cashier could sometimes change.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=371	1		The senator ever imagined that the cashier could sometimes change.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=371	0		The senator sometimes often imagined that the cashier could change.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=371	1		The senator sometimes ever imagined that the cashier could change.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1875	0		The man who had seldom hated reports has referenced those people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1875	1		The man who had seldom hated reports has referenced any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1875	0		The man who had seldom hated the reports has referenced people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1875	1		The man who had seldom hated any reports has referenced people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1875	0		The man who had sometimes hated reports has referenced those people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1875	1		The man who had sometimes hated reports has referenced any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1875	0		The man who had sometimes hated the reports has referenced people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1875	1		The man who had sometimes hated any reports has referenced people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=1064	0		The men who barely sold gloves love these actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=1064	1		The men who barely sold gloves love any actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=1064	0		The men who barely sold the gloves love actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=1064	1		The men who barely sold any gloves love actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1064	0		The men who sometimes sold gloves love these actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1064	1		The men who sometimes sold gloves love any actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1064	0		The men who sometimes sold the gloves love actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1064	1		The men who sometimes sold any gloves love actors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=1888	0		The actress who barely wears shoes saw the pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=1888	1		The actress who barely wears shoes saw any pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=1888	0		The actress who barely wears the shoes saw pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=1888	1		The actress who barely wears any shoes saw pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1888	0		The actress who sometimes wears shoes saw the pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1888	1		The actress who sometimes wears shoes saw any pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1888	0		The actress who sometimes wears the shoes saw pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1888	1		The actress who sometimes wears any shoes saw pamphlets.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=884	0		The waiter clearly said that the adult scarcely stands up.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=884	1		The waiter ever said that the adult scarcely stands up.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=884	0		The waiter scarcely clearly said that the adult stands up.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=884	1		The waiter scarcely ever said that the adult stands up.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=884	0		The waiter clearly said that the adult sometimes stands up.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=884	1		The waiter ever said that the adult sometimes stands up.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=884	0		The waiter sometimes clearly said that the adult stands up.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=884	1		The waiter sometimes ever said that the adult stands up.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1286	0		The teacher who scarcely does return to teachers has boycotted these libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1286	1		The teacher who scarcely does return to teachers has boycotted any libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1286	0		The teacher who scarcely does return to those teachers has boycotted libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1286	1		The teacher who scarcely does return to any teachers has boycotted libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1286	0		The teacher who sometimes does return to teachers has boycotted these libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1286	1		The teacher who sometimes does return to teachers has boycotted any libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1286	0		The teacher who sometimes does return to those teachers has boycotted libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1286	1		The teacher who sometimes does return to any teachers has boycotted libraries.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1609	0		An actress who seldom breaks glasses would observe those waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1609	1		An actress who seldom breaks glasses would observe any waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1609	0		An actress who seldom breaks these glasses would observe waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1609	1		An actress who seldom breaks any glasses would observe waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1609	0		An actress who sometimes breaks glasses would observe those waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1609	1		An actress who sometimes breaks glasses would observe any waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1609	0		An actress who sometimes breaks these glasses would observe waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1609	1		An actress who sometimes breaks any glasses would observe waitresses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=362	0		The person obviously imagines that a girl should often take the rugs.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=362	1		The person ever imagines that a girl should often take the rugs.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=362	0		The person often obviously imagines that a girl should take the rugs.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=362	1		The person often ever imagines that a girl should take the rugs.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=362	0		The person obviously imagines that a girl should scarcely take the rugs.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=362	1		The person ever imagines that a girl should scarcely take the rugs.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=362	0		The person scarcely obviously imagines that a girl should take the rugs.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=362	1		The person scarcely ever imagines that a girl should take the rugs.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1523	0		The ladies who often toured high schools dislike those customers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1523	1		The ladies who often toured high schools dislike any customers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1523	0		The ladies who often toured those high schools dislike customers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1523	1		The ladies who often toured any high schools dislike customers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1523	0		The ladies who scarcely toured high schools dislike those customers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1523	1		The ladies who scarcely toured high schools dislike any customers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1523	0		The ladies who scarcely toured those high schools dislike customers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1523	1		The ladies who scarcely toured any high schools dislike customers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=506	0		A man also thinks that the patients always meet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=506	1		A man ever thinks that the patients always meet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=506	0		A man always also thinks that the patients meet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=506	1		A man always ever thinks that the patients meet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=506	0		A man also thinks that the patients hardly meet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=506	1		A man ever thinks that the patients hardly meet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=506	0		A man hardly also thinks that the patients meet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=506	1		A man hardly ever thinks that the patients meet.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1454	0		A customer who often is at restaurants should break those forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1454	1		A customer who often is at restaurants should break any forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1454	0		A customer who often is at these restaurants should break forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1454	1		A customer who often is at any restaurants should break forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1454	0		A customer who seldom is at restaurants should break those forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1454	1		A customer who seldom is at restaurants should break any forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1454	0		A customer who seldom is at these restaurants should break forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1454	1		A customer who seldom is at any restaurants should break forks.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=567	0		A driver often explains that a student always worried.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=567	1		A driver ever explains that a student always worried.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=567	0		A driver always often explains that a student worried.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=567	1		A driver always ever explains that a student worried.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=567	0		A driver often explains that a student rarely worried.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=567	1		A driver ever explains that a student rarely worried.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=567	0		A driver rarely often explains that a student worried.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=567	1		A driver rarely ever explains that a student worried.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1234	0		The boys who had hardly boycotted public parks sell those shoes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1234	1		The boys who had hardly boycotted public parks sell any shoes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1234	0		The boys who had hardly boycotted those public parks sell shoes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1234	1		The boys who had hardly boycotted any public parks sell shoes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1234	0		The boys who had sometimes boycotted public parks sell those shoes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1234	1		The boys who had sometimes boycotted public parks sell any shoes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1234	0		The boys who had sometimes boycotted those public parks sell shoes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1234	1		The boys who had sometimes boycotted any public parks sell shoes.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1419	0		A woman who always knows children investigates the banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1419	1		A woman who always knows children investigates any banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1419	0		A woman who always knows the children investigates banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1419	1		A woman who always knows any children investigates banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1419	0		A woman who seldom knows children investigates the banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1419	1		A woman who seldom knows children investigates any banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1419	0		A woman who seldom knows the children investigates banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1419	1		A woman who seldom knows any children investigates banks.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=573	0		A child obviously says that the dancers always had a pamphlet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=573	1		A child ever says that the dancers always had a pamphlet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=573	0		A child always obviously says that the dancers had a pamphlet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=573	1		A child always ever says that the dancers had a pamphlet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=573	0		A child obviously says that the dancers barely had a pamphlet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=573	1		A child ever says that the dancers barely had a pamphlet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=573	0		A child barely obviously says that the dancers had a pamphlet.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=573	1		A child barely ever says that the dancers had a pamphlet.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1436	0		The cashiers who hardly drop by public parks left those schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1436	1		The cashiers who hardly drop by public parks left any schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1436	0		The cashiers who hardly drop by those public parks left schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1436	1		The cashiers who hardly drop by any public parks left schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1436	0		The cashiers who often drop by public parks left those schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1436	1		The cashiers who often drop by public parks left any schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1436	0		The cashiers who often drop by those public parks left schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1436	1		The cashiers who often drop by any public parks left schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1408	0		The customer who often bikes to libraries kissed the waiters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1408	1		The customer who often bikes to libraries kissed any waiters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1408	0		The customer who often bikes to these libraries kissed waiters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1408	1		The customer who often bikes to any libraries kissed waiters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1408	0		The customer who seldom bikes to libraries kissed the waiters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1408	1		The customer who seldom bikes to libraries kissed any waiters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1408	0		The customer who seldom bikes to these libraries kissed waiters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1408	1		The customer who seldom bikes to any libraries kissed waiters.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=800	0		The men obviously said that the girls have barely forgotten a person.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=800	1		The men ever said that the girls have barely forgotten a person.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=800	0		The men barely obviously said that the girls have forgotten a person.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=800	1		The men barely ever said that the girls have forgotten a person.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=800	0		The men obviously said that the girls have often forgotten a person.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=800	1		The men ever said that the girls have often forgotten a person.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=800	0		The men often obviously said that the girls have forgotten a person.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=800	1		The men often ever said that the girls have forgotten a person.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1707	0		The cashier who had scarcely watched fish will be at these public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1707	1		The cashier who had scarcely watched fish will be at any public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1707	0		The cashier who had scarcely watched the fish will be at public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1707	1		The cashier who had scarcely watched any fish will be at public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1707	0		The cashier who had sometimes watched fish will be at these public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1707	1		The cashier who had sometimes watched fish will be at any public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1707	0		The cashier who had sometimes watched the fish will be at public parks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1707	1		The cashier who had sometimes watched any fish will be at public parks.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=309	0		The teachers also imagine that the cashiers had always hugged the guests.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=309	1		The teachers ever imagine that the cashiers had always hugged the guests.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=309	0		The teachers always also imagine that the cashiers had hugged the guests.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=309	1		The teachers always ever imagine that the cashiers had hugged the guests.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=309	0		The teachers also imagine that the cashiers had seldom hugged the guests.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=309	1		The teachers ever imagine that the cashiers had seldom hugged the guests.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=309	0		The teachers seldom also imagine that the cashiers had hugged the guests.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=309	1		The teachers seldom ever imagine that the cashiers had hugged the guests.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1589	0		The waitress who always does hug waitresses has known the boys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1589	1		The waitress who always does hug waitresses has known any boys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1589	0		The waitress who always does hug the waitresses has known boys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1589	1		The waitress who always does hug any waitresses has known boys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1589	0		The waitress who hardly does hug waitresses has known the boys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1589	1		The waitress who hardly does hug waitresses has known any boys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1589	0		The waitress who hardly does hug the waitresses has known boys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1589	1		The waitress who hardly does hug any waitresses has known boys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1305	0		The men who always arrive at art galleries might explore those banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1305	1		The men who always arrive at art galleries might explore any banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1305	0		The men who always arrive at those art galleries might explore banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1305	1		The men who always arrive at any art galleries might explore banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1305	0		The men who rarely arrive at art galleries might explore those banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1305	1		The men who rarely arrive at art galleries might explore any banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1305	0		The men who rarely arrive at those art galleries might explore banks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1305	1		The men who rarely arrive at any art galleries might explore banks.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=823	0		The pedestrians obviously say that the men had hardly nodded.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=823	1		The pedestrians ever say that the men had hardly nodded.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=823	0		The pedestrians hardly obviously say that the men had nodded.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=823	1		The pedestrians hardly ever say that the men had nodded.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=823	0		The pedestrians obviously say that the men had sometimes nodded.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=823	1		The pedestrians ever say that the men had sometimes nodded.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=823	0		The pedestrians sometimes obviously say that the men had nodded.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=823	1		The pedestrians sometimes ever say that the men had nodded.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1839	0		The guy who often was at college campuses does skate around the high schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1839	1		The guy who often was at college campuses does skate around any high schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1839	0		The guy who often was at these college campuses does skate around high schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1839	1		The guy who often was at any college campuses does skate around high schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1839	0		The guy who seldom was at college campuses does skate around the high schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1839	1		The guy who seldom was at college campuses does skate around any high schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1839	0		The guy who seldom was at these college campuses does skate around high schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1839	1		The guy who seldom was at any college campuses does skate around high schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=1628	0		A doctor who might barely clean reports kisses these children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=1628	1		A doctor who might barely clean reports kisses any children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=1628	0		A doctor who might barely clean these reports kisses children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=1628	1		A doctor who might barely clean any reports kisses children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1628	0		A doctor who might sometimes clean reports kisses these children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1628	1		A doctor who might sometimes clean reports kisses any children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1628	0		A doctor who might sometimes clean these reports kisses children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1628	1		A doctor who might sometimes clean any reports kisses children.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1493	0		The guest who can often investigate men had arrived at these restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1493	1		The guest who can often investigate men had arrived at any restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1493	0		The guest who can often investigate the men had arrived at restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1493	1		The guest who can often investigate any men had arrived at restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1493	0		The guest who can seldom investigate men had arrived at these restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1493	1		The guest who can seldom investigate men had arrived at any restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1493	0		The guest who can seldom investigate the men had arrived at restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1493	1		The guest who can seldom investigate any men had arrived at restaurants.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1928	0		A doctor who hardly does boycott museums examined the plays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1928	1		A doctor who hardly does boycott museums examined any plays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1928	0		A doctor who hardly does boycott these museums examined plays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1928	1		A doctor who hardly does boycott any museums examined plays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1928	0		A doctor who sometimes does boycott museums examined the plays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1928	1		A doctor who sometimes does boycott museums examined any plays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1928	0		A doctor who sometimes does boycott these museums examined plays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1928	1		A doctor who sometimes does boycott any museums examined plays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1396	0		The children who often did pass banks had been at those schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1396	1		The children who often did pass banks had been at any schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1396	0		The children who often did pass those banks had been at schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1396	1		The children who often did pass any banks had been at schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1396	0		The children who seldom did pass banks had been at those schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1396	1		The children who seldom did pass banks had been at any schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1396	0		The children who seldom did pass those banks had been at schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1396	1		The children who seldom did pass any banks had been at schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1811	0		The actresses who have always passed college campuses had seen the guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1811	1		The actresses who have always passed college campuses had seen any guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1811	0		The actresses who have always passed those college campuses had seen guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1811	1		The actresses who have always passed any college campuses had seen guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1811	0		The actresses who have hardly passed college campuses had seen the guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1811	1		The actresses who have hardly passed college campuses had seen any guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1811	0		The actresses who have hardly passed those college campuses had seen guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1811	1		The actresses who have hardly passed any college campuses had seen guys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=770	0		The students obviously imagine that the man has always respected the child.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=770	1		The students ever imagine that the man has always respected the child.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=770	0		The students always obviously imagine that the man has respected the child.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=770	1		The students always ever imagine that the man has respected the child.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=770	0		The students obviously imagine that the man has barely respected the child.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=770	1		The students ever imagine that the man has barely respected the child.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=770	0		The students barely obviously imagine that the man has respected the child.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=770	1		The students barely ever imagine that the man has respected the child.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=825	0		The children fortunately say that the senators hardly nod.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=825	1		The children ever say that the senators hardly nod.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=825	0		The children hardly fortunately say that the senators nod.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=825	1		The children hardly ever say that the senators nod.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=825	0		The children fortunately say that the senators often nod.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=825	1		The children ever say that the senators often nod.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=825	0		The children often fortunately say that the senators nod.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=825	1		The children often ever say that the senators nod.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1723	0		The student who hardly hugs girls would examine these pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1723	1		The student who hardly hugs girls would examine any pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1723	0		The student who hardly hugs these girls would examine pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1723	1		The student who hardly hugs any girls would examine pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1723	0		The student who often hugs girls would examine these pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1723	1		The student who often hugs girls would examine any pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1723	0		The student who often hugs these girls would examine pamphlets.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1723	1		The student who often hugs any girls would examine pamphlets.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=757	0		The boy also thought that a person often chuckled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=757	1		The boy ever thought that a person often chuckled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=757	0		The boy often also thought that a person chuckled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=757	1		The boy often ever thought that a person chuckled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=757	0		The boy also thought that a person seldom chuckled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=757	1		The boy ever thought that a person seldom chuckled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=757	0		The boy seldom also thought that a person chuckled.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=757	1		The boy seldom ever thought that a person chuckled.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1614	0		The children who rarely dropped by libraries leave these schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1614	1		The children who rarely dropped by libraries leave any schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1614	0		The children who rarely dropped by the libraries leave schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1614	1		The children who rarely dropped by any libraries leave schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1614	0		The children who sometimes dropped by libraries leave these schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1614	1		The children who sometimes dropped by libraries leave any schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1614	0		The children who sometimes dropped by the libraries leave schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1614	1		The children who sometimes dropped by any libraries leave schools.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1476	0		A woman who always watches men has praised those newspaper articles.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1476	1		A woman who always watches men has praised any newspaper articles.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1476	0		A woman who always watches these men has praised newspaper articles.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1476	1		A woman who always watches any men has praised newspaper articles.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1476	0		A woman who seldom watches men has praised those newspaper articles.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1476	1		A woman who seldom watches men has praised any newspaper articles.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1476	0		A woman who seldom watches these men has praised newspaper articles.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1476	1		A woman who seldom watches any men has praised newspaper articles.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=921	0		A lady obviously says that the actresses can barely explain everything.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=921	1		A lady ever says that the actresses can barely explain everything.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=921	0		A lady barely obviously says that the actresses can explain everything.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=921	1		A lady barely ever says that the actresses can explain everything.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=921	0		A lady obviously says that the actresses can often explain everything.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=921	1		A lady ever says that the actresses can often explain everything.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=921	0		A lady often obviously says that the actresses can explain everything.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=921	1		A lady often ever says that the actresses can explain everything.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1255	0		A waitress who has always gone to malls would lift those gloves.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1255	1		A waitress who has always gone to malls would lift any gloves.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1255	0		A waitress who has always gone to these malls would lift gloves.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1255	1		A waitress who has always gone to any malls would lift gloves.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1255	0		A waitress who has seldom gone to malls would lift those gloves.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1255	1		A waitress who has seldom gone to malls would lift any gloves.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1255	0		A waitress who has seldom gone to these malls would lift gloves.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1255	1		A waitress who has seldom gone to any malls would lift gloves.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1519	0		The child who will often help guys insults those essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1519	1		The child who will often help guys insults any essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1519	0		The child who will often help those guys insults essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1519	1		The child who will often help any guys insults essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1519	0		The child who will seldom help guys insults those essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1519	1		The child who will seldom help guys insults any essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1519	0		The child who will seldom help those guys insults essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1519	1		The child who will seldom help any guys insults essays.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=483	0		A waitress often thinks that a guy seldom works hard.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=483	1		A waitress ever thinks that a guy seldom works hard.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=483	0		A waitress seldom often thinks that a guy works hard.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=483	1		A waitress seldom ever thinks that a guy works hard.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=483	0		A waitress often thinks that a guy sometimes works hard.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=483	1		A waitress ever thinks that a guy sometimes works hard.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=483	0		A waitress sometimes often thinks that a guy works hard.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=483	1		A waitress sometimes ever thinks that a guy works hard.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1789	0		The guests who had often known girls have taken these brochures.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1789	1		The guests who had often known girls have taken any brochures.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1789	0		The guests who had often known those girls have taken brochures.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1789	1		The guests who had often known any girls have taken brochures.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1789	0		The guests who had seldom known girls have taken these brochures.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1789	1		The guests who had seldom known girls have taken any brochures.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1789	0		The guests who had seldom known those girls have taken brochures.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1789	1		The guests who had seldom known any girls have taken brochures.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1023	0		The actors who had often loved books hug the teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1023	1		The actors who had often loved books hug any teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1023	0		The actors who had often loved those books hug teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1023	1		The actors who had often loved any books hug teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1023	0		The actors who had seldom loved books hug the teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1023	1		The actors who had seldom loved books hug any teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1023	0		The actors who had seldom loved those books hug teachers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1023	1		The actors who had seldom loved any books hug teachers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=129	0		The patients obviously say that the students often break the dishes.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=129	1		The patients ever say that the students often break the dishes.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=129	0		The patients often obviously say that the students break the dishes.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=129	1		The patients often ever say that the students break the dishes.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=129	0		The patients obviously say that the students seldom break the dishes.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=129	1		The patients ever say that the students seldom break the dishes.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=129	0		The patients seldom obviously say that the students break the dishes.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=129	1		The patients seldom ever say that the students break the dishes.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=297	0		The waitresses obviously think that the actresses have always compromised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=297	1		The waitresses ever think that the actresses have always compromised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=297	0		The waitresses always obviously think that the actresses have compromised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=297	1		The waitresses always ever think that the actresses have compromised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=297	0		The waitresses obviously think that the actresses have rarely compromised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=297	1		The waitresses ever think that the actresses have rarely compromised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=297	0		The waitresses rarely obviously think that the actresses have compromised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=297	1		The waitresses rarely ever think that the actresses have compromised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=367	0		The drivers obviously say that the pedestrians can always be at the school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=367	1		The drivers ever say that the pedestrians can always be at the school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=367	0		The drivers always obviously say that the pedestrians can be at the school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=367	1		The drivers always ever say that the pedestrians can be at the school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=367	0		The drivers obviously say that the pedestrians can barely be at the school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=367	1		The drivers ever say that the pedestrians can barely be at the school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=367	0		The drivers barely obviously say that the pedestrians can be at the school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=367	1		The drivers barely ever say that the pedestrians can be at the school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=599	0		The men obviously think that a senator always brought the scarf.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=599	1		The men ever think that a senator always brought the scarf.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=599	0		The men always obviously think that a senator brought the scarf.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=599	1		The men always ever think that a senator brought the scarf.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=599	0		The men obviously think that a senator seldom brought the scarf.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=599	1		The men ever think that a senator seldom brought the scarf.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=599	0		The men seldom obviously think that a senator brought the scarf.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=599	1		The men seldom ever think that a senator brought the scarf.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=384	0		An adult fortunately explained that an actor hardly toured the public park.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=384	1		An adult ever explained that an actor hardly toured the public park.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=384	0		An adult hardly fortunately explained that an actor toured the public park.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=384	1		An adult hardly ever explained that an actor toured the public park.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=384	0		An adult fortunately explained that an actor sometimes toured the public park.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=384	1		An adult ever explained that an actor sometimes toured the public park.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=384	0		An adult sometimes fortunately explained that an actor toured the public park.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=384	1		An adult sometimes ever explained that an actor toured the public park.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=693	0		A waitress often said that the ladies have always exercised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=693	1		A waitress ever said that the ladies have always exercised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=693	0		A waitress always often said that the ladies have exercised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=693	1		A waitress always ever said that the ladies have exercised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=693	0		A waitress often said that the ladies have rarely exercised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=693	1		A waitress ever said that the ladies have rarely exercised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=693	0		A waitress rarely often said that the ladies have exercised.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=693	1		A waitress rarely ever said that the ladies have exercised.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1291	0		The man who always approaches actresses arrives at the malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1291	1		The man who always approaches actresses arrives at any malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1291	0		The man who always approaches those actresses arrives at malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1291	1		The man who always approaches any actresses arrives at malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=1291	0		The man who barely approaches actresses arrives at the malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=1291	1		The man who barely approaches actresses arrives at any malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=1291	0		The man who barely approaches those actresses arrives at malls.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=1291	1		The man who barely approaches any actresses arrives at malls.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=141	0		The guys clearly imagine that the boy often did practice.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=141	1		The guys ever imagine that the boy often did practice.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=141	0		The guys often clearly imagine that the boy did practice.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=141	1		The guys often ever imagine that the boy did practice.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=141	0		The guys clearly imagine that the boy seldom did practice.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=141	1		The guys ever imagine that the boy seldom did practice.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=141	0		The guys seldom clearly imagine that the boy did practice.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=141	1		The guys seldom ever imagine that the boy did practice.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=960	0		A man often explained that the guys always do blink.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=960	1		A man ever explained that the guys always do blink.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=960	0		A man always often explained that the guys do blink.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=960	1		A man always ever explained that the guys do blink.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=960	0		A man often explained that the guys seldom do blink.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=960	1		A man ever explained that the guys seldom do blink.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=960	0		A man seldom often explained that the guys do blink.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=960	1		A man seldom ever explained that the guys do blink.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1659	0		The cashier who has always discussed children arrived at those grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1659	1		The cashier who has always discussed children arrived at any grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1659	0		The cashier who has always discussed the children arrived at grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1659	1		The cashier who has always discussed any children arrived at grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=1659	0		The cashier who has barely discussed children arrived at those grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=1659	1		The cashier who has barely discussed children arrived at any grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=1659	0		The cashier who has barely discussed the children arrived at grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=1659	1		The cashier who has barely discussed any children arrived at grocery stores.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1596	0		The man who could scarcely buy forks did discuss those senators.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1596	1		The man who could scarcely buy forks did discuss any senators.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1596	0		The man who could scarcely buy those forks did discuss senators.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1596	1		The man who could scarcely buy any forks did discuss senators.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1596	0		The man who could sometimes buy forks did discuss those senators.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1596	1		The man who could sometimes buy forks did discuss any senators.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1596	0		The man who could sometimes buy those forks did discuss senators.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1596	1		The man who could sometimes buy any forks did discuss senators.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=549	0		The women obviously imagine that the senator could always describe the customers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=549	1		The women ever imagine that the senator could always describe the customers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=549	0		The women always obviously imagine that the senator could describe the customers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=549	1		The women always ever imagine that the senator could describe the customers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=549	0		The women obviously imagine that the senator could hardly describe the customers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=549	1		The women ever imagine that the senator could hardly describe the customers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=549	0		The women hardly obviously imagine that the senator could describe the customers.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=549	1		The women hardly ever imagine that the senator could describe the customers.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1008	0		The adult who rarely talks to doctors should skate around these movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1008	1		The adult who rarely talks to doctors should skate around any movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1008	0		The adult who rarely talks to these doctors should skate around movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1008	1		The adult who rarely talks to any doctors should skate around movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1008	0		The adult who sometimes talks to doctors should skate around these movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1008	1		The adult who sometimes talks to doctors should skate around any movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1008	0		The adult who sometimes talks to these doctors should skate around movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1008	1		The adult who sometimes talks to any doctors should skate around movie theaters.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1488	0		The child who always attacked waiters would care for these doctors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1488	1		The child who always attacked waiters would care for any doctors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1488	0		The child who always attacked those waiters would care for doctors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1488	1		The child who always attacked any waiters would care for doctors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1488	0		The child who hardly attacked waiters would care for these doctors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1488	1		The child who hardly attacked waiters would care for any doctors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1488	0		The child who hardly attacked those waiters would care for doctors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1488	1		The child who hardly attacked any waiters would care for doctors.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1898	0		The men who hardly bike to hospitals should approach those people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1898	1		The men who hardly bike to hospitals should approach any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1898	0		The men who hardly bike to those hospitals should approach people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1898	1		The men who hardly bike to any hospitals should approach people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1898	0		The men who often bike to hospitals should approach those people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1898	1		The men who often bike to hospitals should approach any people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1898	0		The men who often bike to those hospitals should approach people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1898	1		The men who often bike to any hospitals should approach people.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1159	0		The students who always went to museums have worked with the women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1159	1		The students who always went to museums have worked with any women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1159	0		The students who always went to these museums have worked with women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1159	1		The students who always went to any museums have worked with women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1159	0		The students who rarely went to museums have worked with the women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1159	1		The students who rarely went to museums have worked with any women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1159	0		The students who rarely went to these museums have worked with women.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1159	1		The students who rarely went to any museums have worked with women.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=804	0		A driver often thinks that the students might always know the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=804	1		A driver ever thinks that the students might always know the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=804	0		A driver always often thinks that the students might know the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=804	1		A driver always ever thinks that the students might know the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=804	0		A driver often thinks that the students might rarely know the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=804	1		A driver ever thinks that the students might rarely know the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=804	0		A driver rarely often thinks that the students might know the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=804	1		A driver rarely ever thinks that the students might know the deer.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=813	0		The waiters obviously think that an actor hardly littered.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=813	1		The waiters ever think that an actor hardly littered.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=813	0		The waiters hardly obviously think that an actor littered.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=813	1		The waiters hardly ever think that an actor littered.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=813	0		The waiters obviously think that an actor sometimes littered.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=813	1		The waiters ever think that an actor sometimes littered.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=813	0		The waiters sometimes obviously think that an actor littered.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=813	1		The waiters sometimes ever think that an actor littered.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=999	0		A lady clearly thought that the patient can always respect the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=999	1		A lady ever thought that the patient can always respect the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=999	0		A lady always clearly thought that the patient can respect the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=999	1		A lady always ever thought that the patient can respect the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=999	0		A lady clearly thought that the patient can scarcely respect the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=999	1		A lady ever thought that the patient can scarcely respect the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=999	0		A lady scarcely clearly thought that the patient can respect the hospitals.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=999	1		A lady scarcely ever thought that the patient can respect the hospitals.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1679	0		The pedestrian who always talks about museums attacks the actresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1679	1		The pedestrian who always talks about museums attacks any actresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1679	0		The pedestrian who always talks about these museums attacks actresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1679	1		The pedestrian who always talks about any museums attacks actresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1679	0		The pedestrian who scarcely talks about museums attacks the actresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1679	1		The pedestrian who scarcely talks about museums attacks any actresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1679	0		The pedestrian who scarcely talks about these museums attacks actresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1679	1		The pedestrian who scarcely talks about any museums attacks actresses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=424	0		The drivers also thought that a waiter hardly examined the essays.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=424	1		The drivers ever thought that a waiter hardly examined the essays.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=424	0		The drivers hardly also thought that a waiter examined the essays.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=424	1		The drivers hardly ever thought that a waiter examined the essays.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=424	0		The drivers also thought that a waiter sometimes examined the essays.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=424	1		The drivers ever thought that a waiter sometimes examined the essays.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=424	0		The drivers sometimes also thought that a waiter examined the essays.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=424	1		The drivers sometimes ever thought that a waiter examined the essays.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=387	0		The doctor often explains that the dancer rarely watches the guys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=387	1		The doctor ever explains that the dancer rarely watches the guys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=387	0		The doctor rarely often explains that the dancer watches the guys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=387	1		The doctor rarely ever explains that the dancer watches the guys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=387	0		The doctor often explains that the dancer sometimes watches the guys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=387	1		The doctor ever explains that the dancer sometimes watches the guys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=387	0		The doctor sometimes often explains that the dancer watches the guys.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=387	1		The doctor sometimes ever explains that the dancer watches the guys.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=0-paradigm=1624	0		An adult who has scarcely driven to public parks had fled from these college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=0-npi_present=1-paradigm=1624	1		An adult who has scarcely driven to public parks had fled from any college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=0-paradigm=1624	0		An adult who has scarcely driven to these public parks had fled from college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=scarcely-licensor=1-scope=1-npi_present=1-paradigm=1624	1		An adult who has scarcely driven to any public parks had fled from college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1624	0		An adult who has sometimes driven to public parks had fled from these college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1624	1		An adult who has sometimes driven to public parks had fled from any college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1624	0		An adult who has sometimes driven to these public parks had fled from college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1624	1		An adult who has sometimes driven to any public parks had fled from college campuses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1025	0		The adults who have always talked to dancers had scanned those essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1025	1		The adults who have always talked to dancers had scanned any essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1025	0		The adults who have always talked to those dancers had scanned essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1025	1		The adults who have always talked to any dancers had scanned essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=1025	0		The adults who have rarely talked to dancers had scanned those essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=1025	1		The adults who have rarely talked to dancers had scanned any essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=1025	0		The adults who have rarely talked to those dancers had scanned essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=1025	1		The adults who have rarely talked to any dancers had scanned essays.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=0-paradigm=1892	0		A guy who hardly explores museums had broken the forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=0-npi_present=1-paradigm=1892	1		A guy who hardly explores museums had broken any forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=0-paradigm=1892	0		A guy who hardly explores those museums had broken forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=hardly-licensor=1-scope=1-npi_present=1-paradigm=1892	1		A guy who hardly explores any museums had broken forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=1892	0		A guy who sometimes explores museums had broken the forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=1892	1		A guy who sometimes explores museums had broken any forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=1892	0		A guy who sometimes explores those museums had broken forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=1892	1		A guy who sometimes explores any museums had broken forks.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=1786	0		The boys who always bought glasses have seen these waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=1786	1		The boys who always bought glasses have seen any waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=1786	0		The boys who always bought these glasses have seen waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=1786	1		The boys who always bought any glasses have seen waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1786	0		The boys who seldom bought glasses have seen these waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1786	1		The boys who seldom bought glasses have seen any waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1786	0		The boys who seldom bought these glasses have seen waitresses.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1786	1		The boys who seldom bought any glasses have seen waitresses.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=0-paradigm=840	0		The senators obviously explain that a child had rarely protested.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=0-npi_present=1-paradigm=840	1		The senators ever explain that a child had rarely protested.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=0-paradigm=840	0		The senators rarely obviously explain that a child had protested.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=rarely-licensor=1-scope=1-npi_present=1-paradigm=840	1		The senators rarely ever explain that a child had protested.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=840	0		The senators obviously explain that a child had sometimes protested.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=840	1		The senators ever explain that a child had sometimes protested.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=840	0		The senators sometimes obviously explain that a child had protested.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=840	1		The senators sometimes ever explain that a child had protested.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=43	0		The boys clearly imagined that the waitresses seldom sold the reports.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=43	1		The boys ever imagined that the waitresses seldom sold the reports.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=43	0		The boys seldom clearly imagined that the waitresses sold the reports.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=43	1		The boys seldom ever imagined that the waitresses sold the reports.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=0-paradigm=43	0		The boys clearly imagined that the waitresses sometimes sold the reports.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=0-npi_present=1-paradigm=43	1		The boys ever imagined that the waitresses sometimes sold the reports.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=0-paradigm=43	0		The boys sometimes clearly imagined that the waitresses sold the reports.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=sometimes-licensor=0-scope=1-npi_present=1-paradigm=43	1		The boys sometimes ever imagined that the waitresses sold the reports.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=58	0		The guy clearly imagines that the children often bike to the high school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=58	1		The guy ever imagines that the children often bike to the high school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=58	0		The guy often clearly imagines that the children bike to the high school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=58	1		The guy often ever imagines that the children bike to the high school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=58	0		The guy clearly imagines that the children seldom bike to the high school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=58	1		The guy ever imagines that the children seldom bike to the high school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=58	0		The guy seldom clearly imagines that the children bike to the high school.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=58	1		The guy seldom ever imagines that the children bike to the high school.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=0-paradigm=1553	0		A guy who would often watch teachers does walk through those museums.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=0-npi_present=1-paradigm=1553	1		A guy who would often watch teachers does walk through any museums.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=0-paradigm=1553	0		A guy who would often watch the teachers does walk through museums.
+experiment=NPI-env=adverbs-npi=any-crucial_item=often-licensor=0-scope=1-npi_present=1-paradigm=1553	1		A guy who would often watch any teachers does walk through museums.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=0-paradigm=1553	0		A guy who would seldom watch teachers does walk through those museums.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=0-npi_present=1-paradigm=1553	1		A guy who would seldom watch teachers does walk through any museums.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=0-paradigm=1553	0		A guy who would seldom watch the teachers does walk through museums.
+experiment=NPI-env=adverbs-npi=any-crucial_item=seldom-licensor=1-scope=1-npi_present=1-paradigm=1553	1		A guy who would seldom watch any teachers does walk through museums.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=0-paradigm=394	0		A senator fortunately thought that the children have always hated the actors.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=0-npi_present=1-paradigm=394	1		A senator ever thought that the children have always hated the actors.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=0-paradigm=394	0		A senator always fortunately thought that the children have hated the actors.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=always-licensor=0-scope=1-npi_present=1-paradigm=394	1		A senator always ever thought that the children have hated the actors.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=0-paradigm=394	0		A senator fortunately thought that the children have barely hated the actors.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=0-npi_present=1-paradigm=394	1		A senator ever thought that the children have barely hated the actors.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=0-paradigm=394	0		A senator barely fortunately thought that the children have hated the actors.
+experiment=NPI-env=adverbs-npi=ever-crucial_item=barely-licensor=1-scope=1-npi_present=1-paradigm=394	1		A senator barely ever thought that the children have hated the actors.

@@ -10,6 +10,7 @@ from random import choice
 from utils.string_utils import remove_extra_whitespace
 import numpy as np
 import random
+from utils.vocab_sets import *
 
 
 
@@ -32,34 +33,123 @@ def verb_phrase_from_subj(subject):
 
     return V
 
-def verb_args_from_verb(verb, frequent=True):
+def verb_args_from_verb(verb, frequent=True, subj=None):
     """
     :param verb: 
     :param frequent: 
     :return: dict of all arguments of verb: {subject:x1, auxiliary:x2, ...]
     """
-    # all verbs have a subject
+    args = {}
     if frequent:
-        try:
-            subj = choice(get_matches_of(verb, "arg_1", get_all_conjunctive([("category", "N"), ("frequent", "1")])))
-        except IndexError:
-            pass
+        freq_vocab = get_all("frequent", "1")
     else:
-        subj = choice(get_matches_of(verb, "arg_1", get_all("category", "N")))
-    N_to_DP_mutate(subj)
+        freq_vocab = vocab
+
+    # all verbs have a subject
+    if subj is None:
+        args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", freq_vocab))))
+    else:
+        args["subj"] = subj
 
     # all verbs have an auxiliary (or null)
-    aux = return_aux(verb, subj)
+    args["aux"] = return_aux(verb, args["subj"])
 
-    # transitive verbs
+    # INTRANSITIVE
+    if verb["category"] == "S\\NP":
+        args["args"] = []
+
+    # TRANSITIVE
     if verb["category"] == "(S\\NP)/NP":
-        if frequent:
-            obj = choice(get_matches_of(verb, "arg_2", get_all_conjunctive([("category", "N"), ("frequent", "1")])))
-        else:
-            obj = choice(get_matches_of(verb, "arg_1", get_all("category", "N")))
-        N_to_DP_mutate(obj)
-        return {"subject": subj, "auxiliary": aux, "object": obj}
+        args["args"] = [N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", get_all("category", "N", freq_vocab))))]
 
+    # FROM-ING EMBEDDING
+    if verb["category"] == "(S\\NP)/(S[from]\\NP)":
+        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", freq_vocab)))
+        VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", all_ing_verbs)), frequent)
+        VP[0] = "from " + VP[0]
+        args["args"] = [obj, VP]
+
+    # RAISING TO OBJECT
+    if verb["category_2"] == "V_raising_object":
+        v_emb = choice(all_bare_verbs)
+        args_emb = verb_args_from_verb(v_emb, frequent)
+        VP = V_to_VP_mutate(v_emb, frequent, args_emb)
+        args["args"] = [args_emb["subj"], VP]
+
+    # CLAUSE EMBEDDING
+    if verb["category"] == "(S\\NP)/S":
+        emb_clause = make_sentence(frequent)
+        if verb["arg_2"] == "expression_that":
+            emb_clause[0] = "that " + emb_clause
+        if verb["arg_2"] == "expression_wh":
+            emb_clause[0] = "whether " + emb_clause
+        args["args"] = emb_clause
+
+    # SUBJECT CONTROL
+    if verb["category"] == "(S\\NP)/(S[to]\\NP)":
+        v_emb = choice(get_matched_by(args["subj"], "arg_1", all_bare_verbs))
+        VP = V_to_VP_mutate(v_emb, frequent)
+        args["args"] = [VP]
+
+    # TODO:DITRANSITIVE
+
+    return args
+
+
+
+def make_sentence_from_verb(verb, frequent=True):
+    args = verb_args_from_verb(verb, frequent)
+    return " ".join([args["subj"][0],
+                     args["aux"][0],
+                     verb[0]] +
+                    [x[0] for x in args["args"]])
+
+
+def V_to_VP_mutate(verb, frequent=True, args=None):
+    if args is None:
+        args = verb_args_from_verb(verb, frequent)
+    verb[0] = " ".join([args["aux"][0],
+                       verb[0]] +
+                       [x[0] for x in args["args"]])
+    return verb
+
+def make_sentence(frequent=True):
+    verb = choice(all_verbs)
+    verb[0] = make_sentence_from_verb(verb, frequent)
+    return verb
+
+# def make_emb_subj_question(frequent=True):
+#     verb = choice(all_verbs)
+#     args = verb_args_from_verb(verb)
+#     wh = get_matched_by(args["subj"], "arg_1", all_wh_words)
+#     verb[0] = " ".join([]
+#                        )
+
+def noun_args_from_noun(noun, frequent=True):
+    """
+    
+    :param noun: 
+    :param frequent: 
+    :return: 
+    """
+    args = {}
+    if frequent:
+        freq_vocab = get_all("frequent", "1")
+    else:
+        freq_vocab = vocab
+    args["det"] = choice(get_matched_by(noun, "arg_1", get_all("category", "(S/(S\\NP))/N", freq_vocab)))
+    if noun["category"] == "N":
+        args["args"] = []
+    if noun["category"] == "N/NP":
+        obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", freq_vocab)))
+        args["args"] = [obj]
+    if noun["category"] == "N\\NP[poss]":
+        poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", freq_vocab))))
+        args["det"] = poss
+        args["args"] = []
+    else:
+        pass
+    return args
 
 
 def N_to_DP(noun, frequent=True):
@@ -71,8 +161,9 @@ def N_to_DP(noun, frequent=True):
     if frequent:
         D = choice(get_matched_by(noun, "arg_1", get_all_conjunctive([("category", "(S/(S\\NP))/N"), ("frequent", '1')])))
     else:
-        D = choice(get_matched_by(noun, "arg_1", get_all_conjunctive([("category", "(S/(S\\NP))/N"), ("frequent", '1')])))
+        D = choice(get_matched_by(noun, "arg_1", get_all_conjunctive([("category", "(S/(S\\NP))/N"), ("frequent", '0')])))
     return D
+
 
 def N_to_DP_mutate(noun, frequent=True):
     """
@@ -80,12 +171,14 @@ def N_to_DP_mutate(noun, frequent=True):
     :param frequent: restrict to frequent determiners only?
     :return: NONE. mutates string of noun.
     """
-    D = N_to_DP(noun, frequent)
-    noun[0] = D[0] + " " + noun[0]
+    args = noun_args_from_noun(noun, frequent)
+    try:
+        noun[0] = " ".join([args["det"][0],
+                            noun[0]] +
+                           [x[0] for x in args["args"]])
+    except KeyError:
+        pass
     return noun
-
-
-
 
 
 def subject_relative_clause(noun):
@@ -114,6 +207,11 @@ def get_reflexive(noun):
         else:
             pass    # if singular "themselves" was chosen try again
 
+
+def make_possessive(DP):
+    poss_str = "'" if DP["pl"] == "1" and DP[0][-1] == "s" else "'s"
+    DP[0] = DP[0] + poss_str
+    return DP
 
 # test
 

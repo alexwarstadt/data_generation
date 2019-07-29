@@ -1,0 +1,94 @@
+Contrasts
+
+I. Morphosyntax
+    A. Subject-Verb Agreement
+        1. Simple
+            Metadata:
+                Subj_sg, vb_sg
+            1. The cat eats mice
+            2. *The cat eat mice
+            3. *The cats eats mice
+            4. The cats eat mice
+            + Conditions
+            + singular/plural: the, his, her, my, your, their, our, its, no, N's
+            + singular quantifiers: this, that, a, every, each, any, another, neither
+            + plural quantifiers: these, those, some, few, most, all, more, both
+            + pseudo-partitives: pile, ton,
+            + pseudo-partitives plural: flock, group, team,
+            + pseudo-partitives mass: gallon,
+            + Gerunds (sg)
+            + irregular plurals
+            + clausal subjects
+        2. Distractor
+            Metadata:
+                Subj_sg, distractor_sg, vb_sg
+            1. The cat that slept on the couch eats mice
+            2. *The cat that slept on the couch eat mice
+            3. The cat that slept on the couches eats mice
+            4. *The cat that slept on the couches eat mice
+            5. *The cats that slept on the couch eats mice
+            6. The cats that slept on the couch eat mice
+            7. *The cats that slept on the couches eats mice
+            8. The cats that slept on the couches eat mice
+            + conditions
+            + RC
+            + PP
+            + Clause-embedding NP
+        3. Extraction
+            Metadata:
+                Subj_sg, distractor_sg, vb_sg
+            1. Which cat does John think eats mice?
+
+    B. Verb-Aux Agreement
+        1. The
+
+
+
+
+
+
+II. Local (A) Syntax
+    A. Control/Raising
+        1.
+    B. Adjuncts
+        2. Pseudo-Passive
+            1. I slept under the bed.
+            2. The bed was slept under.
+            3. I fled under duress.
+            4. *Duress was fled under.
+            Examples:
+                Good: locatives (but not all ... ), benefactives, comitatives (?), prepositional verbs (most)
+                    I ran around the track / the track was run around
+                    The bomb exploded near the school / ?? the school was exploded near
+                    I played with Joe / Joe was played with
+                    I reclined with Joe / ?? Joe was reclined with
+                    I hollered at Joe / Joe was hollered at
+                Bad: manners (with pleasure/joy/aplomb), temporals, without, in spite of, in consideration of, after the fact, purposes
+                    I skipped with joy / *Joy was skipped with
+                    I finished in an hour / *An hour was finished in
+                    I jogged throughout the storm / *The storm was jogged throughout
+                    I left without Joe / * Joe was left without
+                    I left in spite of Joe / * Joe was left in spite of / Spite of Joe was left in
+                    I arrived after the fact / * The fact was arrived after
+                    I swam for the pleasure of it / * the pleasure of it was swum for
+                    I came for moral support / * moral support was come for
+        3. Adjunct placement
+
+
+
+
+
+III. Long Distance (A-bar) Syntax
+    A. Ellipsis
+        1. NCA
+            a. CP
+                1. I left, but Bill didn't notice that I left.
+                2. I left, but Bill didn't notice.
+                3. I left, but Bill didn't believe that I left.
+                4. *I left, but Bill didn't believe.
+                Good: know, find out, realize,
+                Bad: explain, think, discover, doubt
+            b. VP
+                1.
+
+IV. Semantics Interface

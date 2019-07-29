@@ -26,8 +26,9 @@ def handle_arguments(cl_arguments):
                         help="Path to write outputs of results summary.")
     parser.add_argument('--main_experiment_dir', '-e', type=str,
                         help="Directory containing experiment, or else directory containing set of experiments.")
-    parser.add_argument('--is_experiment_set', '-s', type=bool, default=True,
-                        help="Is the experiment dir a set of experiments (>1 results.tsv)?")
+    parser.add_argument('--missing_first_line', dest='missing_first_line', action='store_true')
+    parser.add_argument('--is_experiment_set', dest='is_experiment_set', action='store_true')
+    parser.set_defaults(missing_first_line=False)
     return parser.parse_args(cl_arguments)
 
 
@@ -39,7 +40,7 @@ def process_experiment_set(args):
             continue
         sub_experiment_dir = os.path.join(args.main_experiment_dir, exp_dir)
         results_summary.extend(process_experiment(sub_experiment_dir, args))
-    dtype = get_results_dtype(args)
+    dtype = get_results_dtype(args.is_experiment_set, args.experiment_type)
     results_summary = np.array(results_summary, dtype=dtype)
     header = "\t".join(results_summary.dtype.names)
     results_summary_output.write(header + "\n")
@@ -47,25 +48,25 @@ def process_experiment_set(args):
         results_summary_output.write("\t".join([str(x) for x in line]) + "\n")
     results_summary_output.close()
 
-def get_results_dtype(args):
+def get_results_dtype(is_experiment_set, experiment_type):
     dtype = []
-    if args.is_experiment_set:
+    if is_experiment_set:
         dtype.append(("experiment name", "U100"))
     dtype.append(("run name", "U100"))
-    if args.experiment_type == "reflexive":
+    if experiment_type == "reflexive":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
-        reflexives = ["himself", "herself", "itself", "themselves"]
-        pairs = itertools.combinations(reflexives, 2)
-        for pair in pairs:
-            dtype.extend([("%s %s accuracy" % (pair[0], pair[1]), "f8"), ("%s %s accuracy" % (pair[1], pair[0]), "f8")])
-    if args.experiment_type == "npi_scope":
+        dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
+    if experiment_type == "npi_scope":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
-        dtype.extend([("cond_3_unacceptable", "f8"), ("cond_4_acceptable", "f8")])
+        dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
         for npi in ["any", "ever", "yet"]:
-            dtype.extend([("npi=%s" % npi, "f8"), ("npi=%s_cond_3_unacceptable" % npi, "f8"), ("npi=%s_cond_4_acceptable" % npi, "f8")])
-    if args.experiment_type == "polar_q":
+            dtype.extend([(npi+":1/1", "f8"), (npi+":1/0", "f8"), (npi+":0/1", "f8"), (npi+":0/0", "f8")])
+    if experiment_type == "polar_q":
         dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
-        dtype.extend([("cond_3_acceptable", "f8"), ("cond_4_unacceptable", "f8")])
+        dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
+    if experiment_type == "embedded_tense":
+        dtype.extend([("in domain accuracy", "f8"), ("out of domain accuracy", "f8")])
+        dtype.extend([("1/1", "f8"), ("1/0", "f8"), ("0/1", "f8"), ("0/0", "f8")])
     return dtype
 
 def process_experiment(experiment_dir, args):
@@ -87,20 +88,22 @@ def process_experiment(experiment_dir, args):
                 full_test_path = os.path.join(args.datasets_dir, experiment_dir.split("/")[-1], "CoLA", "test_full.tsv")
             else:
                 full_test_path = args.full_test_path
-            table = make_unified_table(test_outputs_path, full_test_path)
+            table = make_unified_table(test_outputs_path, full_test_path, args)
             if args.experiment_type == "reflexive":
                 new_row.extend(reflexives_scores(table))
             if args.experiment_type == "polar_q":
                 new_row.extend(polar_q_scores(table))
             if args.experiment_type == "npi_scope":
                 new_row.extend(npi_scope_scores(table))
+            if args.experiment_type == "embedded_tense":
+                new_row.extend(embedded_tense_scores(table))
             if args.experiment_type == "npi_subsets":
                 npi_subsets_score(table, experiment_dir)
             results_summary.append(tuple(new_row))
     return results_summary
 
 
-def make_unified_table(test_outputs_path, full_test_path):
+def make_unified_table(test_outputs_path, full_test_path, args):
     """
     Makes a table with test predictions and test data/metadata combined.
     :param test_outputs_path: file containing the test predictions
@@ -108,7 +111,7 @@ def make_unified_table(test_outputs_path, full_test_path):
     :return: table containing test data, metadata, and predictions
     """
     old_table = utils.metadata_parse.read_data_tsv(full_test_path)
-    predictions = get_predictions(test_outputs_path)
+    predictions = get_predictions(test_outputs_path, args.missing_first_line)
     # table = unify_table(old_table, predictions)
     new_dt = np.dtype(old_table.dtype.descr + [('prediction', 'i1')])
     table = np.zeros(old_table.shape, new_dt)
@@ -130,8 +133,23 @@ def get_predictions(test_outputs_path, missing_first_line=True):
     predictions = [line.split("\t")[1] for line in open(test_outputs_path)]
     if missing_first_line:
         predictions[0] = 1
+    else:
+        predictions = predictions[1:]
     return predictions
 
+
+def four_outcomes(column_a, column_b):
+    outcomes = [0, 0, 0, 0]
+    for a, b in zip(column_a, column_b):
+        if a == 1 and b == 1:
+            outcomes[0] += 1
+        if a == 1 and b == 0:
+            outcomes[1] += 1
+        if a == 0 and b == 1:
+            outcomes[2] += 1
+        if a == 0 and b == 0:
+            outcomes[3] += 1
+    return [x / len(column_a) for x in outcomes]
 
 
 def reflexives_scores(table):
@@ -140,16 +158,10 @@ def reflexives_scores(table):
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]
-    reflexives = ["himself", "herself", "itself", "themselves"]
-    pairs = itertools.combinations(reflexives, 2)
-    for pair in pairs:
-        sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[0]), ("refl2", pair[1])], table)
-        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-        sentences = utils.vocab_table.get_all_conjunctive([("refl1", pair[1]), ("refl2", pair[0])], table)
-        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+    sentences3 = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1"), ("matrix_antecedent", "1")], table)
+    sentences4 = utils.vocab_table.get_all_conjunctive([("matrix_reflexive", "1"), ("matrix_antecedent", "0")], table)
+    results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
     return results
-
-
 
 
 def npi_scope_scores(table):
@@ -158,18 +170,14 @@ def npi_scope_scores(table):
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]
-    sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0")], table)
-    results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-    sentences = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1")], table)
-    results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+    sentences3 = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0")], table)
+    sentences4 = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1")], table)
+    results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
     npis = ["any", "ever", "yet"]
     for npi in npis:
-        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi)], table)
-        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "0")], table)
-        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
-        sentences = utils.vocab_table.get_all_conjunctive([("npi", npi), ("licensor_embedded", "1"), ("npi_embedded", "1")], table)
-        results.append(sklearn.metrics.accuracy_score(sentences["judgment"], sentences["prediction"]))
+        sentences3 = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "0"), ("npi", npi)], table)
+        sentences4 = utils.vocab_table.get_all_conjunctive([("licensor_embedded", "1"), ("npi_embedded", "1"), ("npi", npi)], table)
+        results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
     return results
 
 
@@ -179,13 +187,23 @@ def polar_q_scores(table):
     in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
     out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
     results = [in_domain_accuracy, out_of_domain_accuracy]
-    cond_3 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "1")], table)
-    cond_4 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "0")], table)
-    results.append(sklearn.metrics.accuracy_score(cond_3["judgment"], cond_3["prediction"]))
-    results.append(sklearn.metrics.accuracy_score(cond_4["judgment"], cond_4["prediction"]))
+    sentences3 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "1")], table)
+    sentences4 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("highest", "0")], table)
+    results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
     return results
 
 
+
+def embedded_tense_scores(table):
+    in_domain = utils.vocab_table.get_all_conjunctive([("src", "1")], table)
+    out_of_domain = utils.vocab_table.get_all_conjunctive([("src", "0")], table)
+    in_domain_accuracy = sklearn.metrics.accuracy_score(in_domain["judgment"], in_domain["prediction"])
+    out_of_domain_accuracy = sklearn.metrics.accuracy_score(out_of_domain["judgment"], out_of_domain["prediction"])
+    results = [in_domain_accuracy, out_of_domain_accuracy]
+    sentences3 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("emb_past", "1")], table)
+    sentences4 = utils.vocab_table.get_all_conjunctive([("src", "0"), ("emb_past", "0")], table)
+    results.extend(four_outcomes(sentences3["prediction"], sentences4["prediction"]))
+    return results
 
 
 
@@ -210,44 +228,9 @@ def npi_subsets_score(table, name):
 
 
 
-
 if __name__ == '__main__':
     args = handle_arguments(sys.argv[1:])
     if args.is_experiment_set:
         process_experiment_set(args)
     else:
         process_experiment(args.main_experiment_dir, args)
-
-
-
-# def process_npi_subsets(experiment_directory, name):
-#     for output in os.listdir(experiment_directory):
-#         if os.path.isfile(os.path.join(experiment_directory, output)):
-#             print(output)
-#             old_table = utils.metadata_parse.read_data_tsv(os.path.join(experiment_directory, test_full))
-#             predictions = get_predictions(os.path.join(experiment_directory, output))
-#             table = unify_table(old_table, predictions)
-#             npi_subsets_score(table, name)
-#
-#
-# def process_reflexives(experiment_directory):
-#     for output in os.listdir(experiment_directory):
-#         if os.path.isfile(os.path.join(experiment_directory, output)):
-#             old_table = utils.metadata_parse.read_data_tsv(os.path.join(experiment_directory, test_full))
-#             predictions = get_predictions(os.path.join(experiment_directory, output))
-#             table = unify_table(old_table, predictions)
-#             reflexives_scores(table)
-
-# directory = "../outputs/alexs_qp_structure_dependence/reflexive/1k"
-# process_reflexives(directory)
-
-
-# directory = "../outputs/npi/subsets_6"
-# for dir_end in os.listdir("../outputs/npi/subsets_6"):
-#     print(dir_end)
-#     process_npi_subsets(os.path.join(directory, dir_end), dir_end)
-#     print("\n===============================\n")
-#
-#
-#
-# pass

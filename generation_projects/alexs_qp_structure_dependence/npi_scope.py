@@ -9,7 +9,7 @@ from utils.randomize import choice
 import numpy as np
 
 # initialize output file
-rel_output_path = "outputs/alexs_qp_structure_dependence/npi_scope/10k/CoLA/"
+rel_output_path = "outputs/alexs_qp_structure_dependence/npi_scope/30k/CoLA/"
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
 train_output = open(os.path.join(project_root, rel_output_path, "train.tsv"), "w")
 test_output = open(os.path.join(project_root, rel_output_path, "test_full.tsv"), "w")
@@ -18,7 +18,7 @@ dev_output = open(os.path.join(project_root, rel_output_path, "dev.tsv"), "w")
 
 
 # set total number of paradigms to generate
-number_to_generate = 3333
+number_to_generate = 10000
 sentences = set()
 counter = 0    # Jiant requires test data to be in numbered, two-column format
 

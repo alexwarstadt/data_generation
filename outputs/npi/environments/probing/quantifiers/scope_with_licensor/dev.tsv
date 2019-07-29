@@ -1,0 +1,500 @@
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=821	0		All drivers who flee from a lot of girls are kissing those actors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=821	0		All drivers who flee from a lot of girls are kissing any actors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=821	1		All drivers who flee from those girls are kissing a lot of actors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=821	1		All drivers who flee from any girls are kissing a lot of actors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=278	0		Every boy who exits a lot of banks had passed the public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=278	0		Every boy who exits a lot of banks had passed any public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=278	1		Every boy who exits those banks had passed a lot of public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=278	1		Every boy who exits any banks had passed a lot of public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=240	0		All guests who cared for a lot of women went to the libraries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=240	0		All guests who cared for a lot of women went to any libraries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=240	1		All guests who cared for these women went to more than three libraries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=240	1		All guests who cared for any women went to more than three libraries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=335	0		All customers who scan the stories were dropping by those grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=335	0		All customers who scan the stories were dropping by any grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=335	1		All customers who scan those stories were dropping by many grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=335	1		All customers who scan any stories were dropping by many grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1092	0		Every lady who has left some teachers often does work with drivers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1092	0		Every lady who has left some teachers ever does work with drivers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1092	1		Every lady who has often left some teachers does work with drivers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1092	1		Every lady who has ever left some teachers does work with drivers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=304	0		Every actress who was driving to more than three cafes had these cups.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=304	0		Every actress who was driving to more than three cafes had any cups.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=304	1		Every actress who was driving to those cafes had more than three cups.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=304	1		Every actress who was driving to any cafes had more than three cups.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1342	0		Each child who will take cars obviously leaves some hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1342	0		Each child who will take cars ever leaves some hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1342	1		Each child who will obviously take cars leaves some hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1342	1		Each child who will ever take cars leaves some hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1124	0		Each guest who could observe ladies fortunately kissed many dancers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1124	0		Each guest who could observe ladies ever kissed many dancers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1124	1		Each guest who could fortunately observe ladies kissed many dancers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1124	1		Each guest who could ever observe ladies kissed many dancers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1158	0		All men who could hate guests fortunately bought the couches.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1158	0		All men who could hate guests ever bought the couches.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1158	1		All men who could fortunately hate guests bought the couches.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1158	1		All men who could ever hate guests bought the couches.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1215	0		Each senator who had boycotted banks clearly walks through many art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1215	0		Each senator who had boycotted banks ever walks through many art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1215	1		Each senator who had clearly boycotted banks walks through many art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1215	1		Each senator who had ever boycotted banks walks through many art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1543	0		All women who have arrived at many art galleries had obviously visited many guests.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1543	0		All women who have arrived at many art galleries had ever visited many guests.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1543	1		All women who have obviously arrived at many art galleries had visited many guests.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1543	1		All women who have ever arrived at many art galleries had visited many guests.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1045	0		Each guy who criticizes many pedestrians obviously walks through more than three libraries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1045	0		Each guy who criticizes many pedestrians ever walks through more than three libraries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1045	1		Each guy who obviously criticizes many pedestrians walks through more than three libraries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1045	1		Each guy who ever criticizes many pedestrians walks through more than three libraries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=571	0		All waiters who are selling a lot of books have broken the plates.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=571	0		All waiters who are selling a lot of books have broken any plates.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=571	1		All waiters who are selling those books have broken some plates.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=571	1		All waiters who are selling any books have broken some plates.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=756	0		All pedestrians who went to a lot of public parks talked about those teenagers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=756	0		All pedestrians who went to a lot of public parks talked about any teenagers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=756	1		All pedestrians who went to the public parks talked about many teenagers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=756	1		All pedestrians who went to any public parks talked about many teenagers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=835	0		All teenagers who had exited a lot of hospitals will respect these senators.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=835	0		All teenagers who had exited a lot of hospitals will respect any senators.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=835	1		All teenagers who had exited these hospitals will respect many senators.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=835	1		All teenagers who had exited any hospitals will respect many senators.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1957	0		Each senator who has hated many newspaper articles also helped more than three pedestrians.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1957	0		Each senator who has hated many newspaper articles ever helped more than three pedestrians.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1957	1		Each senator who has also hated many newspaper articles helped more than three pedestrians.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1957	1		Each senator who has ever hated many newspaper articles helped more than three pedestrians.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=119	0		All children who had hugged the men do forget those boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=119	0		All children who had hugged the men do forget any boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=119	1		All children who had hugged the men do forget a lot of boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=119	1		All children who had hugged any men do forget a lot of boys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1703	0		Every guest who attacks teenagers obviously respects some adults.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1703	0		Every guest who attacks teenagers ever respects some adults.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1703	1		Every guest who obviously attacks teenagers respects some adults.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1703	1		Every guest who ever attacks teenagers respects some adults.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=317	0		Every man who is walking through some college campuses talked to those doctors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=317	0		Every man who is walking through some college campuses talked to any doctors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=317	1		Every man who is walking through those college campuses talked to many doctors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=317	1		Every man who is walking through any college campuses talked to many doctors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=751	0		All doctors who have driven to museums have cleaned those glasses.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=751	0		All doctors who have driven to museums have cleaned any glasses.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=751	1		All doctors who have driven to those museums have cleaned many glasses.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=751	1		All doctors who have driven to any museums have cleaned many glasses.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=215	0		Each adult who approached a lot of men examined these essays.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=215	0		Each adult who approached a lot of men examined any essays.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=215	1		Each adult who approached the men examined a lot of essays.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=215	1		Each adult who approached any men examined a lot of essays.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1120	0		All guys who had ran around a lot of movie theaters clearly criticized a lot of ladies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1120	0		All guys who had ran around a lot of movie theaters ever criticized a lot of ladies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1120	1		All guys who had clearly ran around a lot of movie theaters criticized a lot of ladies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1120	1		All guys who had ever ran around a lot of movie theaters criticized a lot of ladies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1381	0		Each pedestrian who hated the patients had often helped some pedestrians.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1381	0		Each pedestrian who hated the patients had ever helped some pedestrians.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1381	1		Each pedestrian who often hated the patients had helped some pedestrians.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1381	1		Each pedestrian who ever hated the patients had helped some pedestrians.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1698	0		All adults who have brought many plates fortunately arrived at some malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1698	0		All adults who have brought many plates ever arrived at some malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1698	1		All adults who have fortunately brought many plates arrived at some malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1698	1		All adults who have ever brought many plates arrived at some malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1555	0		Every student who returned to women clearly likes some books.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1555	0		Every student who returned to women ever likes some books.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1555	1		Every student who clearly returned to women likes some books.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1555	1		Every student who ever returned to women likes some books.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=969	0		Every student who boycotts more than three restaurants had talked about the boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=969	0		Every student who boycotts more than three restaurants had talked about any boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=969	1		Every student who boycotts those restaurants had talked about some boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=969	1		Every student who boycotts any restaurants had talked about some boys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1343	0		All waiters who have arrived at many restaurants also observe the students.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1343	0		All waiters who have arrived at many restaurants ever observe the students.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1343	1		All waiters who have also arrived at many restaurants observe the students.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1343	1		All waiters who have ever arrived at many restaurants observe the students.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1407	0		Every girl who left a lot of libraries can obviously attack the cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1407	0		Every girl who left a lot of libraries can ever attack the cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1407	1		Every girl who obviously left a lot of libraries can attack the cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1407	1		Every girl who ever left a lot of libraries can attack the cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1406	0		All adults who investigate many doctors often wear more than three pants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1406	0		All adults who investigate many doctors ever wear more than three pants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1406	1		All adults who often investigate many doctors wear more than three pants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1406	1		All adults who ever investigate many doctors wear more than three pants.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=19	0		All guys who kissed many patients discussed these grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=19	0		All guys who kissed many patients discussed any grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=19	1		All guys who kissed those patients discussed more than three grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=19	1		All guys who kissed any patients discussed more than three grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1511	0		All women who have discussed many children should fortunately hug a lot of cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1511	0		All women who have discussed many children should ever hug a lot of cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1511	1		All women who have fortunately discussed many children should hug a lot of cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1511	1		All women who have ever discussed many children should hug a lot of cashiers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=502	0		Every girl who can talk to a lot of teachers is approaching the customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=502	0		Every girl who can talk to a lot of teachers is approaching any customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=502	1		Every girl who can talk to those teachers is approaching a lot of customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=502	1		Every girl who can talk to any teachers is approaching a lot of customers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1849	0		Every adult who should discuss a lot of waiters has fortunately brought newspaper articles.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1849	0		Every adult who should discuss a lot of waiters has ever brought newspaper articles.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1849	1		Every adult who should fortunately discuss a lot of waiters has brought newspaper articles.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1849	1		Every adult who should ever discuss a lot of waiters has brought newspaper articles.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1136	0		Every waiter who references the children often does break plates.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1136	0		Every waiter who references the children ever does break plates.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1136	1		Every waiter who often references the children does break plates.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1136	1		Every waiter who ever references the children does break plates.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1504	0		All students who could examine a lot of stories often care for the actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1504	0		All students who could examine a lot of stories ever care for the actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1504	1		All students who could often examine a lot of stories care for the actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1504	1		All students who could ever examine a lot of stories care for the actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1512	0		All doctors who have referenced teenagers had obviously observed ladies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1512	0		All doctors who have referenced teenagers had ever observed ladies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1512	1		All doctors who have obviously referenced teenagers had observed ladies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1512	1		All doctors who have ever referenced teenagers had observed ladies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1169	0		Every child who talks to a lot of senators might obviously love many dancers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1169	0		Every child who talks to a lot of senators might ever love many dancers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1169	1		Every child who obviously talks to a lot of senators might love many dancers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1169	1		Every child who ever talks to a lot of senators might love many dancers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=402	0		All senators who observed many doctors can be at those art galleries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=402	0		All senators who observed many doctors can be at any art galleries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=402	1		All senators who observed those doctors can be at a lot of art galleries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=402	1		All senators who observed any doctors can be at a lot of art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1358	0		All people who had watched some doctors often hated reports.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1358	0		All people who had watched some doctors ever hated reports.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1358	1		All people who had often watched some doctors hated reports.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1358	1		All people who had ever watched some doctors hated reports.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1657	0		Every student who has boycotted some libraries clearly approaches doctors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1657	0		Every student who has boycotted some libraries ever approaches doctors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1657	1		Every student who has clearly boycotted some libraries approaches doctors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1657	1		Every student who has ever boycotted some libraries approaches doctors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=537	0		All actors who have dropped by more than three banks arrive at the museums.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=537	0		All actors who have dropped by more than three banks arrive at any museums.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=537	1		All actors who have dropped by those banks arrive at some museums.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=537	1		All actors who have dropped by any banks arrive at some museums.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=390	0		Each child who exits some grocery stores is talking about the stories.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=390	0		Each child who exits some grocery stores is talking about any stories.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=390	1		Each child who exits the grocery stores is talking about many stories.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=390	1		Each child who exits any grocery stores is talking about many stories.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=320	0		Each actress who should remember a lot of malls sells these chairs.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=320	0		Each actress who should remember a lot of malls sells any chairs.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=320	1		Each actress who should remember those malls sells some chairs.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=320	1		Each actress who should remember any malls sells some chairs.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=222	0		All customers who do break many chairs might hug these guests.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=222	0		All customers who do break many chairs might hug any guests.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=222	1		All customers who do break those chairs might hug guests.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=222	1		All customers who do break any chairs might hug guests.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=484	0		All cashiers who have watched some doctors can investigate those banks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=484	0		All cashiers who have watched some doctors can investigate any banks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=484	1		All cashiers who have watched those doctors can investigate some banks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=484	1		All cashiers who have watched any doctors can investigate some banks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1017	0		Every girl who cleaned some gloves also toured a lot of schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1017	0		Every girl who cleaned some gloves ever toured a lot of schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1017	1		Every girl who also cleaned some gloves toured a lot of schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1017	1		Every girl who ever cleaned some gloves toured a lot of schools.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=359	0		All girls who are skated around a lot of high schools scanned these commentaries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=359	0		All girls who are skated around a lot of high schools scanned any commentaries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=359	1		All girls who are skated around the high schools scanned commentaries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=359	1		All girls who are skated around any high schools scanned commentaries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1606	0		Every actress who would have many glasses had fortunately loved the actors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1606	0		Every actress who would have many glasses had ever loved the actors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1606	1		Every actress who would fortunately have many glasses had loved the actors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1606	1		Every actress who would ever have many glasses had loved the actors.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=408	0		All guys who have hated teachers cleaned these reports.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=408	0		All guys who have hated teachers cleaned any reports.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=408	1		All guys who have hated the teachers cleaned some reports.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=408	1		All guys who have hated any teachers cleaned some reports.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=796	0		All waiters who were approaching many men had passed the public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=796	0		All waiters who were approaching many men had passed any public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=796	1		All waiters who were approaching these men had passed some public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=796	1		All waiters who were approaching any men had passed some public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=148	0		Each doctor who has respected many banks has watched the waiters.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=148	0		Each doctor who has respected many banks has watched any waiters.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=148	1		Each doctor who has respected these banks has watched waiters.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=148	1		Each doctor who has respected any banks has watched waiters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1359	0		All waitresses who exit a lot of museums had obviously talked about stories.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1359	0		All waitresses who exit a lot of museums had ever talked about stories.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1359	1		All waitresses who obviously exit a lot of museums had talked about stories.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1359	1		All waitresses who ever exit a lot of museums had talked about stories.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1334	0		All guys who can walk through more than three hospitals clearly criticized a lot of high schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1334	0		All guys who can walk through more than three hospitals ever criticized a lot of high schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1334	1		All guys who can clearly walk through more than three hospitals criticized a lot of high schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1334	1		All guys who can ever walk through more than three hospitals criticized a lot of high schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1336	0		All dancers who respected a lot of patients clearly did talk about many movies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1336	0		All dancers who respected a lot of patients ever did talk about many movies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1336	1		All dancers who clearly respected a lot of patients did talk about many movies.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1336	1		All dancers who ever respected a lot of patients did talk about many movies.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=451	0		Each person who observed more than three customers is fleeing from the waitresses.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=451	0		Each person who observed more than three customers is fleeing from any waitresses.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=451	1		Each person who observed those customers is fleeing from some waitresses.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=451	1		Each person who observed any customers is fleeing from some waitresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1669	0		Every actor who might reference books has obviously explored some schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1669	0		Every actor who might reference books has ever explored some schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1669	1		Every actor who might obviously reference books has explored some schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1669	1		Every actor who might ever reference books has explored some schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1332	0		All people who had boycotted more than three art galleries would also run around the banks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1332	0		All people who had boycotted more than three art galleries would ever run around the banks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1332	1		All people who had also boycotted more than three art galleries would run around the banks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1332	1		All people who had ever boycotted more than three art galleries would run around the banks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=273	0		Every cashier who had escaped from actresses helps those adults.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=273	0		Every cashier who had escaped from actresses helps any adults.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=273	1		Every cashier who had escaped from those actresses helps many adults.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=273	1		Every cashier who had escaped from any actresses helps many adults.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1415	0		All women who examined documentaries can also leave more than three movie theaters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1415	0		All women who examined documentaries can ever leave more than three movie theaters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1415	1		All women who also examined documentaries can leave more than three movie theaters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1415	1		All women who ever examined documentaries can leave more than three movie theaters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1570	0		All pedestrians who have passed a lot of malls clearly toured grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1570	0		All pedestrians who have passed a lot of malls ever toured grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1570	1		All pedestrians who have clearly passed a lot of malls toured grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1570	1		All pedestrians who have ever passed a lot of malls toured grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=933	0		Every child who works with more than three actresses insults those cashiers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=933	0		Every child who works with more than three actresses insults any cashiers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=933	1		Every child who works with those actresses insults cashiers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=933	1		Every child who works with any actresses insults cashiers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=727	0		All ladies who forget more than three documentaries arrived at the movie theaters.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=727	0		All ladies who forget more than three documentaries arrived at any movie theaters.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=727	1		All ladies who forget the documentaries arrived at more than three movie theaters.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=727	1		All ladies who forget any documentaries arrived at more than three movie theaters.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=887	0		All actresses who have kissed the customers wore those gloves.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=887	0		All actresses who have kissed the customers wore any gloves.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=887	1		All actresses who have kissed these customers wore many gloves.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=887	1		All actresses who have kissed any customers wore many gloves.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=797	0		All cashiers who have hated more than three guests have passed the hospitals.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=797	0		All cashiers who have hated more than three guests have passed any hospitals.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=797	1		All cashiers who have hated these guests have passed more than three hospitals.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=797	1		All cashiers who have hated any guests have passed more than three hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1618	0		All students who had left the ladies fortunately described more than three guys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1618	0		All students who had left the ladies ever described more than three guys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1618	1		All students who had fortunately left the ladies described more than three guys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1618	1		All students who had ever left the ladies described more than three guys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=986	0		All patients who had worked with waiters had passed those cafes.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=986	0		All patients who had worked with waiters had passed any cafes.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=986	1		All patients who had worked with these waiters had passed cafes.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=986	1		All patients who had worked with any waiters had passed cafes.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1597	0		Every cashier who listens to many doctors often knew the girls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1597	0		Every cashier who listens to many doctors ever knew the girls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1597	1		Every cashier who often listens to many doctors knew the girls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1597	1		Every cashier who ever listens to many doctors knew the girls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1393	0		All guests who do observe the cashiers would often respect a lot of public parks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1393	0		All guests who do observe the cashiers would ever respect a lot of public parks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1393	1		All guests who often do observe the cashiers would respect a lot of public parks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1393	1		All guests who ever do observe the cashiers would respect a lot of public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=748	0		All boys who have visited many adults could describe those girls.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=748	0		All boys who have visited many adults could describe any girls.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=748	1		All boys who have visited these adults could describe girls.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=748	1		All boys who have visited any adults could describe girls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1773	0		All men who would insult some banks fortunately tour a lot of cafes.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1773	0		All men who would insult some banks ever tour a lot of cafes.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1773	1		All men who would fortunately insult some banks tour a lot of cafes.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1773	1		All men who would ever insult some banks tour a lot of cafes.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1651	0		All children who did bike to some public parks had often scanned some reports.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1651	0		All children who did bike to some public parks had ever scanned some reports.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1651	1		All children who often did bike to some public parks had scanned some reports.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1651	1		All children who ever did bike to some public parks had scanned some reports.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=654	0		All boys who buy more than three reports should lift the pants.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=654	0		All boys who buy more than three reports should lift any pants.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=654	1		All boys who buy these reports should lift more than three pants.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=654	1		All boys who buy any reports should lift more than three pants.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=940	0		Every actress who had referenced more than three boys was praising those senators.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=940	0		Every actress who had referenced more than three boys was praising any senators.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=940	1		Every actress who had referenced the boys was praising many senators.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=940	1		Every actress who had referenced any boys was praising many senators.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=981	0		Every girl who can talk about more than three people might see those boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=981	0		Every girl who can talk about more than three people might see any boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=981	1		Every girl who can talk about the people might see a lot of boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=981	1		Every girl who can talk about any people might see a lot of boys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1765	0		Each girl who kissed the senators obviously hugs actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1765	0		Each girl who kissed the senators ever hugs actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1765	1		Each girl who obviously kissed the senators hugs actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1765	1		Each girl who ever kissed the senators hugs actresses.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=232	0		Every guy who tours cafes referenced those essays.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=232	0		Every guy who tours cafes referenced any essays.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=232	1		Every guy who tours the cafes referenced some essays.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=232	1		Every guy who tours any cafes referenced some essays.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1953	0		Every student who explored a lot of malls should fortunately take more than three glasses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1953	0		Every student who explored a lot of malls should ever take more than three glasses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1953	1		Every student who fortunately explored a lot of malls should take more than three glasses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1953	1		Every student who ever explored a lot of malls should take more than three glasses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1098	0		Every driver who did buy the cars obviously arrives at the schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1098	0		Every driver who did buy the cars ever arrives at the schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1098	1		Every driver who obviously did buy the cars arrives at the schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1098	1		Every driver who ever did buy the cars arrives at the schools.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=66	0		All girls who are at the museums should bring these couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=66	0		All girls who are at the museums should bring any couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=66	1		All girls who are at these museums should bring some couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=66	1		All girls who are at any museums should bring some couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=586	0		Each guest who did care for boys has cared for these students.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=586	0		Each guest who did care for boys has cared for any students.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=586	1		Each guest who did care for those boys has cared for students.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=586	1		Each guest who did care for any boys has cared for students.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=937	0		All actors who praise a lot of plays flee from the customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=937	0		All actors who praise a lot of plays flee from any customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=937	1		All actors who praise those plays flee from the customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=937	1		All actors who praise any plays flee from the customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=131	0		Each senator who passed more than three banks has biked to those public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=131	0		Each senator who passed more than three banks has biked to any public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=131	1		Each senator who passed these banks has biked to public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=131	1		Each senator who passed any banks has biked to public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=581	0		All students who drop by some libraries are listening to those customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=581	0		All students who drop by some libraries are listening to any customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=581	1		All students who drop by these libraries are listening to the customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=581	1		All students who drop by any libraries are listening to the customers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=836	0		All customers who are going to more than three public parks will visit those boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=836	0		All customers who are going to more than three public parks will visit any boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=836	1		All customers who are going to those public parks will visit more than three boys.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=836	1		All customers who are going to any public parks will visit more than three boys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1216	0		Every child who loved more than three actresses had fortunately dropped by more than three art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1216	0		Every child who loved more than three actresses had ever dropped by more than three art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1216	1		Every child who fortunately loved more than three actresses had dropped by more than three art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1216	1		Every child who ever loved more than three actresses had dropped by more than three art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1241	0		All ladies who should criticize the children might clearly admire more than three senators.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1241	0		All ladies who should criticize the children might ever admire more than three senators.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1241	1		All ladies who should clearly criticize the children might admire more than three senators.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1241	1		All ladies who should ever criticize the children might admire more than three senators.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=447	0		Every person who fled from more than three waiters insulted the reports.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=447	0		Every person who fled from more than three waiters insulted any reports.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=447	1		Every person who fled from the waiters insulted some reports.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=447	1		Every person who fled from any waiters insulted some reports.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1754	0		All actors who drove to some libraries can obviously hug the actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1754	0		All actors who drove to some libraries can ever hug the actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1754	1		All actors who obviously drove to some libraries can hug the actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1754	1		All actors who ever drove to some libraries can hug the actresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1918	0		Every girl who lifted many forks obviously talks to some drivers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1918	0		Every girl who lifted many forks ever talks to some drivers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1918	1		Every girl who obviously lifted many forks talks to some drivers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1918	1		Every girl who ever lifted many forks talks to some drivers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1522	0		All students who should reference the waitresses had fortunately approached a lot of waiters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1522	0		All students who should reference the waitresses had ever approached a lot of waiters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1522	1		All students who should fortunately reference the waitresses had approached a lot of waiters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1522	1		All students who should ever reference the waitresses had approached a lot of waiters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1103	0		Each senator who had boycotted more than three high schools obviously tours some malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1103	0		Each senator who had boycotted more than three high schools ever tours some malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1103	1		Each senator who had obviously boycotted more than three high schools tours some malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1103	1		Each senator who had ever boycotted more than three high schools tours some malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1828	0		Every boy who had many couches often drove to the hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1828	0		Every boy who had many couches ever drove to the hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1828	1		Every boy who often had many couches drove to the hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1828	1		Every boy who ever had many couches drove to the hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1201	0		Every customer who ran around some libraries often dropped by a lot of banks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1201	0		Every customer who ran around some libraries ever dropped by a lot of banks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1201	1		Every customer who often ran around some libraries dropped by a lot of banks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1201	1		Every customer who ever ran around some libraries dropped by a lot of banks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=260	0		All actresses who could admire a lot of pants had broken these dishes.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=260	0		All actresses who could admire a lot of pants had broken any dishes.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=260	1		All actresses who could admire the pants had broken dishes.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=260	1		All actresses who could admire any pants had broken dishes.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1905	0		All cashiers who have approached many actors obviously arrived at many college campuses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1905	0		All cashiers who have approached many actors ever arrived at many college campuses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1905	1		All cashiers who have obviously approached many actors arrived at many college campuses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1905	1		All cashiers who have ever approached many actors arrived at many college campuses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1237	0		Each adult who wears the gloves had also listened to a lot of cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1237	0		Each adult who wears the gloves had ever listened to a lot of cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1237	1		Each adult who also wears the gloves had listened to a lot of cashiers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1237	1		Each adult who ever wears the gloves had listened to a lot of cashiers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=110	0		All cashiers who have referenced a lot of teenagers are admiring the cars.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=110	0		All cashiers who have referenced a lot of teenagers are admiring any cars.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=110	1		All cashiers who have referenced these teenagers are admiring many cars.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=110	1		All cashiers who have referenced any teenagers are admiring many cars.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=465	0		Each woman who references more than three books did sell those dishes.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=465	0		Each woman who references more than three books did sell any dishes.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=465	1		Each woman who references those books did sell the dishes.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=465	1		Each woman who references any books did sell the dishes.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1001	0		All waiters who had attacked guests often examine many books.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1001	0		All waiters who had attacked guests ever examine many books.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1001	1		All waiters who had often attacked guests examine many books.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1001	1		All waiters who had ever attacked guests examine many books.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1121	0		All children who might talk about stories had also gone to some hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1121	0		All children who might talk about stories had ever gone to some hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1121	1		All children who might also talk about stories had gone to some hospitals.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1121	1		All children who might ever talk about stories had gone to some hospitals.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=795	0		Each actor who referenced many teachers has toured the high schools.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=795	0		Each actor who referenced many teachers has toured any high schools.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=795	1		Each actor who referenced these teachers has toured some high schools.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=795	1		Each actor who referenced any teachers has toured some high schools.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=296	0		Every customer who is at a lot of cafes has boycotted the grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=296	0		Every customer who is at a lot of cafes has boycotted any grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=296	1		Every customer who is at these cafes has boycotted more than three grocery stores.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=296	1		Every customer who is at any cafes has boycotted more than three grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1711	0		Every person who scanned a lot of newspaper articles might obviously listen to more than three waitresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1711	0		Every person who scanned a lot of newspaper articles might ever listen to more than three waitresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1711	1		Every person who obviously scanned a lot of newspaper articles might listen to more than three waitresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1711	1		Every person who ever scanned a lot of newspaper articles might listen to more than three waitresses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1627	0		All girls who had fled from some patients had also gone to many movie theaters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1627	0		All girls who had fled from some patients had ever gone to many movie theaters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1627	1		All girls who had also fled from some patients had gone to many movie theaters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1627	1		All girls who had ever fled from some patients had gone to many movie theaters.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1641	0		Each child who helped some boys clearly bikes to more than three college campuses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1641	0		Each child who helped some boys ever bikes to more than three college campuses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1641	1		Each child who clearly helped some boys bikes to more than three college campuses.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1641	1		Each child who ever helped some boys bikes to more than three college campuses.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=592	0		Every patient who was scanning plays is at the public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=592	0		Every patient who was scanning plays is at any public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=592	1		Every patient who was scanning the plays is at many public parks.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=592	1		Every patient who was scanning any plays is at many public parks.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1429	0		All teachers who took many books have fortunately watched a lot of boys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1429	0		All teachers who took many books have ever watched a lot of boys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1429	1		All teachers who fortunately took many books have watched a lot of boys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1429	1		All teachers who ever took many books have watched a lot of boys.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1620	0		Every patient who flees from a lot of schools would often observe some actors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1620	0		Every patient who flees from a lot of schools would ever observe some actors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1620	1		Every patient who often flees from a lot of schools would observe some actors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1620	1		Every patient who ever flees from a lot of schools would observe some actors.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1972	0		All patients who have been at restaurants fortunately tour the high schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1972	0		All patients who have been at restaurants ever tour the high schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1972	1		All patients who have fortunately been at restaurants tour the high schools.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1972	1		All patients who have ever been at restaurants tour the high schools.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=63	0		All teenagers who can dislike many commentaries return to these libraries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=63	0		All teenagers who can dislike many commentaries return to any libraries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=63	1		All teenagers who can dislike the commentaries return to some libraries.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=63	1		All teenagers who can dislike any commentaries return to some libraries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1049	0		All teenagers who had boycotted many museums could clearly talk about a lot of art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1049	0		All teenagers who had boycotted many museums could ever talk about a lot of art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1049	1		All teenagers who had clearly boycotted many museums could talk about a lot of art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1049	1		All teenagers who had ever boycotted many museums could talk about a lot of art galleries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1630	0		All boys who had forgotten doctors clearly dislike the teachers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1630	0		All boys who had forgotten doctors ever dislike the teachers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1630	1		All boys who had clearly forgotten doctors dislike the teachers.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1630	1		All boys who had ever forgotten doctors dislike the teachers.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=723	0		Every guy who listened to more than three dancers took those couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=723	0		Every guy who listened to more than three dancers took any couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=723	1		Every guy who listened to these dancers took more than three couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=723	1		Every guy who listened to any dancers took more than three couches.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1068	0		All drivers who will describe some men obviously return to some adults.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1068	0		All drivers who will describe some men ever return to some adults.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1068	1		All drivers who will obviously describe some men return to some adults.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1068	1		All drivers who will ever describe some men return to some adults.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1767	0		All men who returned to patients would also exit a lot of museums.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1767	0		All men who returned to patients would ever exit a lot of museums.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1767	1		All men who also returned to patients would exit a lot of museums.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1767	1		All men who ever returned to patients would exit a lot of museums.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1413	0		Each woman who had been at a lot of hospitals has often described many grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1413	0		Each woman who had been at a lot of hospitals has ever described many grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1413	1		Each woman who had often been at a lot of hospitals has described many grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1413	1		Each woman who had ever been at a lot of hospitals has described many grocery stores.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1338	0		Every guy who does attack customers clearly scans plays.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1338	0		Every guy who does attack customers ever scans plays.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1338	1		Every guy who clearly does attack customers scans plays.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1338	1		Every guy who ever does attack customers scans plays.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1548	0		Each dancer who had admired some newspaper articles has obviously ran around more than three restaurants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1548	0		Each dancer who had admired some newspaper articles has ever ran around more than three restaurants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1548	1		Each dancer who had obviously admired some newspaper articles has ran around more than three restaurants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1548	1		Each dancer who had ever admired some newspaper articles has ran around more than three restaurants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1481	0		Every senator who forgot many men had obviously loved some essays.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1481	0		Every senator who forgot many men had ever loved some essays.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1481	1		Every senator who obviously forgot many men had loved some essays.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1481	1		Every senator who ever forgot many men had loved some essays.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=653	0		All actresses who did walk through many schools broke the couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=653	0		All actresses who did walk through many schools broke any couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=653	1		All actresses who did walk through the schools broke couches.
+experiment=NPI-env=quantifier-npi=any-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=653	1		All actresses who did walk through any schools broke couches.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=0-paradigm=1247	0		All men who have arrived at more than three hospitals can often hug some senators.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=0-npi_present=1-paradigm=1247	0		All men who have arrived at more than three hospitals can ever hug some senators.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=0-paradigm=1247	1		All men who have often arrived at more than three hospitals can hug some senators.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=all-licensor=1-scope=1-npi_present=1-paradigm=1247	1		All men who have ever arrived at more than three hospitals can hug some senators.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=55	0		Each driver who did dislike malls had worked with these children.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=55	0		Each driver who did dislike malls had worked with any children.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=55	1		Each driver who did dislike the malls had worked with more than three children.
+experiment=NPI-env=quantifier-npi=any-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=55	1		Each driver who did dislike any malls had worked with more than three children.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=0-paradigm=1529	0		Each boy who should flee from more than three public parks has clearly described commentaries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=0-npi_present=1-paradigm=1529	0		Each boy who should flee from more than three public parks has ever described commentaries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=0-paradigm=1529	1		Each boy who should clearly flee from more than three public parks has described commentaries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=each-licensor=1-scope=1-npi_present=1-paradigm=1529	1		Each boy who should ever flee from more than three public parks has described commentaries.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1632	0		Every child who admires many waitresses has obviously walked through many malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1632	0		Every child who admires many waitresses has ever walked through many malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1632	1		Every child who obviously admires many waitresses has walked through many malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1632	1		Every child who ever admires many waitresses has walked through many malls.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=0-paradigm=1258	0		Every lady who will return to the doctors fortunately explores the restaurants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=0-npi_present=1-paradigm=1258	0		Every lady who will return to the doctors ever explores the restaurants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=0-paradigm=1258	1		Every lady who will fortunately return to the doctors explores the restaurants.
+experiment=NPI-env=quantifier-npi=ever-crucial_item=every-licensor=1-scope=1-npi_present=1-paradigm=1258	1		Every lady who will ever return to the doctors explores the restaurants.

@@ -3,6 +3,11 @@ import sys
 import os
 import random
 
+# ========== SAMPLE COMMAND ============
+"""python -m sbatch_generator -n 20 -d ~/jiant/data_generation_outputs/structure_dependence/polar_q/ \
+     -o /scratch/asw462/jiant/structure_dependence/polar_q/ \
+     -x polar_q_1k -e 15 -l 0.00001 -v 100"""
+
 def handle_arguments(cl_arguments):
     parser = argparse.ArgumentParser(description='')
     # Configuration files
