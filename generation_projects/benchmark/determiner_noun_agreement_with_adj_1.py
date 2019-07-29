@@ -19,7 +19,7 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         self.all_null_plural_nouns = get_all("sgequalspl", "1")
         self.all_missingPluralSing_nouns = get_all_conjunctive([("pluralform", ""), ("singularform", "")])
         self.all_unusable_nouns = np.union1d(self.all_null_plural_nouns, self.all_missingPluralSing_nouns)
-        self.all_pluralizable_nouns = np.setdiff1d(self.all_common_nouns, self.all_unusable_nouns)
+        self.all_pluralizable_nouns = np.setdiff1d(all_common_nouns, self.all_unusable_nouns)
 
     def sample(self):
         # John cleaned this dirty table.
@@ -55,4 +55,4 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 generator = DetNGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=1000)
