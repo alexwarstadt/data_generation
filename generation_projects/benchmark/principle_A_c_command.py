@@ -4,6 +4,7 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
+from utils.vocab_sets import *
 
 
 class BindingGenerator(data_generator.BenchmarkGenerator):
@@ -16,8 +17,8 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=True,
                          two_prefix_method=False,
                          lexically_identical=False)
-        self.all_safe_nouns = np.setdiff1d(self.all_nouns, self.all_singular_neuter_animate_nouns)
-        self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, self.all_common_nouns)
+        self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
+        self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
 
     def sample(self):
         # The woman who defeated John saw herself.
@@ -26,14 +27,14 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         # The woman who defeated John saw himself.
         # N1        C1  Vembed   N2   V1  refl_mismatch
 
-        V1 = choice(self.all_refl_preds)
+        V1 = choice(all_refl_preds)
         try:
             N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_common_nouns)))
         except IndexError:
             pass
-        refl_match = choice(get_matched_by(N1, "arg_1", self.all_reflexives))
-        C1 = choice(get_matched_by(N1, "arg_1", self.all_relativizers))
-        Vembed = choice(get_matched_by(N1, "arg_1", self.all_transitive_verbs))
+        refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
+        C1 = choice(get_matched_by(N1, "arg_1", all_relativizers))
+        Vembed = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
         try:
             N2 = choice(get_matches_of(Vembed, "arg_2", self.all_safe_nouns))
         except TypeError:
@@ -41,7 +42,7 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         while is_match_disj(N2, refl_match["arg_1"]):
             N2 = choice(get_matches_of(Vembed, "arg_2", self.all_safe_nouns))
         N2 = N_to_DP_mutate(N2)
-        refl_mismatch = choice(get_matched_by(N2, "arg_1", self.all_reflexives))
+        refl_mismatch = choice(get_matched_by(N2, "arg_1", all_reflexives))
 
         V1 = conjugate(V1, N1)
         Vembed = conjugate(Vembed, N1)

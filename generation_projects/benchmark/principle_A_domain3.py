@@ -4,6 +4,7 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
+from utils.vocab_sets import *
 
 
 class BindingGenerator(data_generator.BenchmarkGenerator):
@@ -16,10 +17,10 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=False,
                          two_prefix_method=True,
                          lexically_identical=True)
-        self.all_gendered_singular_nouns = get_all("sg", "1", self.all_gendered_nouns)
-        self.all_safe_gendered_nouns = np.setdiff1d(self.all_gendered_singular_nouns, self.all_relational_nouns)
-        self.all_sing_embedding_verbs = np.union1d(get_all_conjunctive([("pres", "1"), ("3sg", "1")], self.all_embedding_verbs), get_all("bare", "1", self.all_embedding_verbs))
-        self.all_sing_refl_preds = np.union1d(get_all_conjunctive([("pres", "1"), ("3sg", "1")], self.all_refl_preds), get_all("bare", "1", self.all_refl_preds))
+        self.all_gendered_singular_nouns = get_all("sg", "1", all_gendered_nouns)
+        self.all_safe_gendered_nouns = np.setdiff1d(self.all_gendered_singular_nouns, all_relational_nouns)
+        self.all_sing_embedding_verbs = np.union1d(get_all_conjunctive([("pres", "1"), ("3sg", "1")], all_embedding_verbs), get_all("bare", "1", all_embedding_verbs))
+        self.all_sing_refl_preds = np.union1d(get_all_conjunctive([("pres", "1"), ("3sg", "1")], all_refl_preds), get_all("bare", "1", all_refl_preds))
 
     def sample(self):
         # John thinks Mary saw      herself.
@@ -34,14 +35,14 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
             N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_gendered_nouns)))
         except TypeError:
             pass
-        refl_mismatch = choice(get_matched_by(N1, "arg_1", self.all_reflexives))
+        refl_mismatch = choice(get_matched_by(N1, "arg_1", all_reflexives))
         try:
             N2 = choice(get_matches_of(Vembed, "arg_1", self.all_safe_gendered_nouns))
         except TypeError:
             pass
         while is_match_disj(N2, refl_mismatch["arg_1"]):
             N2 = choice(get_matches_of(Vembed, "arg_1", self.all_safe_gendered_nouns))
-        refl_match = choice(get_matched_by(N2, "arg_1", self.all_reflexives))
+        refl_match = choice(get_matched_by(N2, "arg_1", all_reflexives))
         N2 = N_to_DP_mutate(N2)
 
         V1 = conjugate(V1, N1)

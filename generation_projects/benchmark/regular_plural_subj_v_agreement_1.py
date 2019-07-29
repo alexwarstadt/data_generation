@@ -5,6 +5,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
 from functools import reduce
+from utils.vocab_sets import *
 
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
@@ -27,13 +28,13 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         #     N1  aux_nonagree V1     N2
 
         if random.choice([True, False]):
-            V1 = choice(self.all_non_finite_transitive_verbs)
+            V1 = choice(all_non_finite_transitive_verbs)
             try:
-                N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", self.all_nouns)))
+                N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns)))
             except TypeError:
                 pass
         else:
-            V1 = choice(self.all_non_finite_intransitive_verbs)
+            V1 = choice(all_non_finite_intransitive_verbs)
             N2 = " "
         try:
             N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_reg_nouns)))

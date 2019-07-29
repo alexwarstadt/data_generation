@@ -91,7 +91,7 @@ class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
         return data, presupposition
 
 generator = ChangeOfStateGenerator()
-generator.generate_paradigm(number_to_generate=5, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
 # The ice will melt         The ice is frozen
 # The ice melts             ***

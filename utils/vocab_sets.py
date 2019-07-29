@@ -7,6 +7,7 @@ all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
 all_singular_nouns = get_all("sg", "1", all_nouns)
 all_singular_count_nouns = get_all("mass", "0", all_singular_nouns)
 all_animate_nouns = get_all("animate", "1", all_nouns)
+all_inanimate_nouns = get_all("animate", "0", all_nouns)
 all_documents = get_all_conjunctive([("category", "N"), ("document", "1")])
 all_gendered_nouns = np.union1d(get_all("gender", "m"), get_all("gender", "f"))
 all_singular_neuter_animate_nouns = get_all_conjunctive(

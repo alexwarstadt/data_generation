@@ -27,20 +27,20 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         # What did  John cook pie and Mary eat?
         # wh   V_do N1   V1   N3  and N2   V2
 
-        V1 = choice(self.all_non_finite_transitive_verbs)
+        V1 = choice(all_non_finite_transitive_verbs)
         try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_nouns)))
+            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         except TypeError:
             pass
         V_do = return_aux(V1, N1, allow_negated=False)
         try:
-            N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_nouns)))
+            N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         except TypeError:
             pass
-        V2 = choice(get_matched_by(N2, "arg_1", self.all_non_finite_transitive_verbs))
+        V2 = choice(get_matched_by(N2, "arg_1", all_non_finite_transitive_verbs))
         while is_match_disj(V2, V1["arg_2"]):
-            V2 = choice(get_matched_by(N2, "arg_1", self.all_non_finite_transitive_verbs))
-        N3 = choice(get_matches_of(V1, "arg_2", self.all_common_nouns))
+            V2 = choice(get_matched_by(N2, "arg_1", all_non_finite_transitive_verbs))
+        N3 = choice(get_matches_of(V1, "arg_2", all_common_nouns))
         if N3['animate'] == "1":
             wh = choice(self.which_what)
         else:

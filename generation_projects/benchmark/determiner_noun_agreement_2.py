@@ -4,6 +4,7 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
+from utils.vocab_sets import *
 
 
 class DetNGenerator(data_generator.BenchmarkGenerator):
@@ -19,7 +20,7 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         self.all_null_plural_nouns = get_all("sgequalspl", "1")
         self.all_missingPluralSing_nouns = get_all_conjunctive([("pluralform", ""), ("singularform", "")])
         self.all_unusable_nouns = np.union1d(self.all_null_plural_nouns, self.all_missingPluralSing_nouns)
-        self.all_pluralizable_nouns = np.setdiff1d(self.all_common_nouns, self.all_unusable_nouns)
+        self.all_pluralizable_nouns = np.setdiff1d(all_common_nouns, self.all_unusable_nouns)
 
     def sample(self):
         # John cleaned this       table.
@@ -28,16 +29,16 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         # John cleaned these         table.
         # N1   V1      Dem_mismatch N2
 
-        V1 = choice(self.all_transitive_verbs)
+        V1 = choice(all_transitive_verbs)
         try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_nouns)))
+            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         except TypeError:
             pass
         try:
             N2 = choice(get_matches_of(V1, "arg_2", self.all_pluralizable_nouns))
         except TypeError:
             pass
-        Dem_match = choice(get_matched_by(N2, "arg_1", self.all_demonstratives))
+        Dem_match = choice(get_matched_by(N2, "arg_1", all_demonstratives))
         if Dem_match[0] == "this":
             Dem_mismatch = "these"
         elif Dem_match[0] == "these":

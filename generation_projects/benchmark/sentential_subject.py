@@ -4,6 +4,7 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
+from utils.vocab_sets import *
 
 
 class SentSubjGenerator(data_generator.BenchmarkGenerator):
@@ -16,14 +17,14 @@ class SentSubjGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=False,
                          two_prefix_method=False,
                          lexically_identical=True)
-        self.all_safe_nouns = np.setdiff1d(self.all_nouns, self.all_singular_neuter_animate_nouns)
-        self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, self.all_common_nouns)
+        self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
+        self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
         self.all_wh = get_all("category", "NP_wh")
         self.all_who = get_all_conjunctive([("expression", "who")], self.all_wh)
-        self.all_transitive_ing_verbs = get_all_conjunctive([("ing", "1")], self.all_transitive_verbs)
-        self.all_inanim_anim_nonfinite_transitive_verbs = get_matched_by(choice(self.all_inanimate_nouns), "arg_1",
-                                                  get_matched_by(choice(self.all_animate_nouns), "arg_2",
-                                                                 self.all_non_finite_transitive_verbs))
+        self.all_transitive_ing_verbs = get_all_conjunctive([("ing", "1")], all_transitive_verbs)
+        self.all_inanim_anim_nonfinite_transitive_verbs = get_matched_by(choice(all_inanimate_nouns), "arg_1",
+                                                  get_matched_by(choice(all_animate_nouns), "arg_2",
+                                                                 all_non_finite_transitive_verbs))
 
     def sample(self):
         # Who did  Bill's  calling the president annoy?

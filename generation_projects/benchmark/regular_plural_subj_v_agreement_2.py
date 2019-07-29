@@ -5,6 +5,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
 from functools import reduce
+from utils.vocab_sets import *
 
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
@@ -20,7 +21,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         self.all_null_plural_nouns = get_all("sgequalspl", "1")
         self.all_missingPluralSing_nouns = get_all_conjunctive([("pluralform", ""), ("singularform", "")])
         self.all_unusable_nouns = np.union1d(self.all_null_plural_nouns, self.all_missingPluralSing_nouns)
-        self.all_pluralizable_nouns = np.setdiff1d(self.all_common_nouns, self.all_unusable_nouns)
+        self.all_pluralizable_nouns = np.setdiff1d(all_common_nouns, self.all_unusable_nouns)
         self.all_irreg_nouns = get_all("irrpl", "1", self.all_pluralizable_nouns)
         self.all_reg_nouns = get_all("irrpl", "", self.all_pluralizable_nouns)
 
@@ -31,19 +32,19 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         # D   N1_nonagree aux_agree V1     N2
 
         if random.choice([True, False]):
-            V1 = choice(self.all_non_finite_transitive_verbs)
+            V1 = choice(all_non_finite_transitive_verbs)
             try:
-                N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", self.all_nouns)))
+                N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns)))
             except TypeError:
                 pass
         else:
-            V1 = choice(self.all_non_finite_intransitive_verbs)
+            V1 = choice(all_non_finite_intransitive_verbs)
             N2 = " "
         try:
             N1_agree = choice(get_matches_of(V1, "arg_1", self.all_reg_nouns))
         except TypeError:
                 pass
-        D_agree = choice(get_matched_by(N1_agree, "arg_1", self.all_common_dets))
+        D_agree = choice(get_matched_by(N1_agree, "arg_1", all_common_dets))
         if N1_agree['sg'] == "1":
             N1_nonagree = N1_agree['pluralform']
             D_nonagree = "the"

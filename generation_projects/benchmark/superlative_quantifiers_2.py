@@ -5,6 +5,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
 import inflect
+from utils.vocab_sets import *
 
 class SuperlativeGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -17,7 +18,7 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
                          two_prefix_method=True,
                          lexically_identical=False)
         self.quantifiers = ["at least", "at most"]
-        self.singular_quantifiers = np.extract(["sg=1" in x["arg_1"] and x["expression"] != "no" for x in self.all_quantifiers], self.all_quantifiers)
+        self.singular_quantifiers = np.extract(["sg=1" in x["arg_1"] and x["expression"] != "no" for x in all_quantifiers], all_quantifiers)
 
     def sample(self):
         # Every professor graded at least three papers
@@ -25,14 +26,14 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
         # No professor graded at least three papers
         # No N1        V      Qsup     Num   N2
 
-        V = choice(self.all_non_plural_transitive_verbs)
-        N1 = choice(get_matches_of(V, "arg_1", self.all_singular_count_nouns))
+        V = choice(all_non_plural_transitive_verbs)
+        N1 = choice(get_matches_of(V, "arg_1", all_singular_count_nouns))
         try:
             Q = choice(get_matched_by(N1, "arg_1", self.singular_quantifiers))
         except IndexError:
             pass
         V = conjugate(V, N1, False)
-        N2 = choice(get_matches_of(V, "arg_2", self.all_plural_nouns))
+        N2 = choice(get_matches_of(V, "arg_2", all_plural_nouns))
         Qsup = random.choice(self.quantifiers)
         number_inflector = inflect.engine()
         Num = number_inflector.number_to_words(random.randint(2, 10))
