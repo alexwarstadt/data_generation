@@ -23,6 +23,12 @@ class Generator:
     def make_metadata_dict(self):
         return {}
 
+    def make_logger(self, metadata):
+        log_name = 'generation-%s-%s.log' % (metadata["UID"], str(datetime.datetime.now()))
+        logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
+
+    def log_exception(self, e):
+        logging.debug("".join(traceback.format_tb(e.__traceback__)) + str(e) + "\n")
 
     def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
         if rel_output_path is not None:
@@ -34,10 +40,9 @@ class Generator:
             raise Exception("You need to give an output path")
         past_sentences = set()
         generated_data = []
+        pairID = 0
         constant_data = self.make_metadata_dict()
-        log_name = 'generation-%s-%s.log' % (constant_data["UID"], str(datetime.datetime.now()))
-        logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
-
+        self.make_logger(constant_data)
         while len(past_sentences) < number_to_generate:
             try:
                 new_data, track_sentence = self.sample()
@@ -47,10 +52,11 @@ class Generator:
                         if field in new_data:
                             new_data[field] = string_beautify(new_data[field])
                             new_data.update(constant_data)
+                    new_data["pairID"] = str(pairID)
+                    pairID += 1
                     generated_data.append(new_data)
             except Exception as e:
-                logging.debug("".join(traceback.format_tb(e.__traceback__)) + str(e) + "\n")
-                continue
+                self.log_exception(e)
         jsonlines.Writer(output).write_all(generated_data)
 
 
@@ -126,16 +132,34 @@ class PresuppositionGenerator(Generator):
             raise Exception("You need to give an output path")
         past_sentences = set()
         generated_data = []
+        pairID = 0
         constant_data = self.make_metadata_dict()
+        self.make_logger(constant_data)
         while len(past_sentences) < number_to_generate:
-            new_data, track_sentence = self.sample()
-            if track_sentence not in past_sentences:
-                past_sentences.add(track_sentence)
-                for line in new_data:
-                    for field in self.data_fields:
-                        if field in line:
-                            line[field] = string_beautify(line[field])
-                            line.update(constant_data)
-                    generated_data.append(line)
+            try:
+                new_data, track_sentence = self.sample()
+                if track_sentence not in past_sentences:
+                    past_sentences.add(track_sentence)
+                    for line in new_data:
+                        for field in self.data_fields:
+                            if field in line:
+                                line[field] = string_beautify(line[field])
+                                line.update(constant_data)
+                        line["pairID"] = pairID + new_data["gold_label"][0]
+                        pairID += 1
+                        generated_data.append(line)
+            except Exception as e:
+                self.log_exception(e)
         jsonlines.Writer(output).write_all(generated_data)
+
+    def make_metadata_dict(self):
+        """
+        (non token-specific metadata is in class fields, e.g. self.field=syntax)
+        :param extra_metadata: token-specific metadata, e.g. one_prefix_word_1="the" 
+        :return: join metadata
+        """
+        metadata = {
+            "UID": self.uid
+        }
+        return metadata
 
