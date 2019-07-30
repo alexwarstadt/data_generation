@@ -44,29 +44,23 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
             N1_agree = choice(get_matches_of(V1, "arg_1", self.all_irreg_nouns))
         except TypeError:
                 pass
-        D_agree = choice(get_matched_by(N1_agree, "arg_1", all_common_dets))
         if N1_agree['sg'] == "1":
             N1_nonagree = N1_agree['pluralform']
-            D_nonagree = "the"
         else:
             N1_nonagree = N1_agree['singularform']
-            if N1_agree["start_with_vowel"] == "1":
-                D_nonagree = random.choice(["the", "an"])
-            else:
-                D_nonagree = random.choice(["the", "a"])
 
         auxes = require_aux_agree(V1, N1_agree)
         aux_agree = auxes["aux_agree"]
         aux_nonagree = auxes["aux_nonagree"]
 
         data = {
-            "sentence_good": "%s %s %s %s %s." % (D_agree[0], N1_agree[0], aux_agree, V1[0], N2[0]),
-            "sentence_bad": "%s %s %s %s %s." % (D_nonagree, N1_nonagree, aux_agree, V1[0], N2[0]),
-            "two_prefix_prefix_good": "%s %s" % (D_agree[0], N1_agree[0]),
-            "two_prefix_prefix_bad": "%s %s" % (D_nonagree, N1_nonagree),
+            "sentence_good": "The %s %s %s %s." % (N1_agree[0], aux_agree, V1[0], N2[0]),
+            "sentence_bad": "The %s %s %s %s." % (N1_nonagree, aux_agree, V1[0], N2[0]),
+            "two_prefix_prefix_good": "The %s" % (N1_agree[0]),
+            "two_prefix_prefix_bad": "The %s" % (N1_nonagree),
             "two_prefix_word": aux_agree
         }
         return data, data["sentence_good"]
 
 generator = AgreementGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=1000)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
