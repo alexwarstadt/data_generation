@@ -25,12 +25,13 @@ class Generator:
 
     def make_logger(self, metadata):
         log_name = 'generation-%s-%s.log' % (metadata["UID"], str(datetime.datetime.now()))
+        # logging.basicConfig(filename=os.path.join("logs/benchmark", log_name), level=logging.DEBUG)
         logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
 
     def log_exception(self, e):
         logging.debug("".join(traceback.format_tb(e.__traceback__)) + str(e) + "\n")
 
-    def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
+    def generate_paradigm(self, number_to_generate=1000, rel_output_path=None, absolute_path=None):
         if rel_output_path is not None:
             project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
             output = open(os.path.join(project_root, rel_output_path), "w")
@@ -42,6 +43,7 @@ class Generator:
         generated_data = []
         pairID = 0
         constant_data = self.make_metadata_dict()
+        print("Generating data for " + constant_data["UID"])
         self.make_logger(constant_data)
         while len(past_sentences) < number_to_generate:
             try:
@@ -54,6 +56,8 @@ class Generator:
                             new_data.update(constant_data)
                     new_data["pairID"] = str(pairID)
                     pairID += 1
+                    if pairID % 100 == 0:
+                        print("%d sentences generated" % pairID)
                     generated_data.append(new_data)
             except Exception as e:
                 self.log_exception(e)

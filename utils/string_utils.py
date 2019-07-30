@@ -8,5 +8,9 @@ def remove_extra_whitespace(string):
     return string
 
 def string_beautify(string):
-    return remove_extra_whitespace(string).capitalize()
+    string = remove_extra_whitespace(string)
+    string = list(string)
+    string[0] = string[0].capitalize()
+    string = "".join(string)
+    return string
 
