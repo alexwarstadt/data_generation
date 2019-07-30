@@ -5,6 +5,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
 import inflect
+from utils.vocab_sets import *
 
 class SuperlativeGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -25,10 +26,10 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
         # No professor graded at least four papers
         # No N1        V      Q2       Num  N2
 
-        V = choice(self.all_non_plural_transitive_verbs)
-        N1 = choice(get_matches_of(V, "arg_1", self.all_singular_count_nouns))
+        V = choice(all_non_plural_transitive_verbs)
+        N1 = choice(get_matches_of(V, "arg_1", all_singular_count_nouns))
         V = conjugate(V, N1, False)
-        N2 = choice(get_matches_of(V, "arg_2", self.all_plural_nouns))
+        N2 = choice(get_matches_of(V, "arg_2", all_plural_nouns))
         quantifiers = random.choice(self.quantifiers)
         Q1 = quantifiers[0]
         Q2 = quantifiers[1]
@@ -42,4 +43,4 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 generator = SuperlativeGenerator()
-generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)

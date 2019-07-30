@@ -4,6 +4,7 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
+from utils.vocab_sets import *
 
 
 class BindingGenerator(data_generator.BenchmarkGenerator):
@@ -16,9 +17,9 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=False,
                          two_prefix_method=True,
                          lexically_identical=True)
-        self.all_safe_nouns = np.setdiff1d(self.all_nouns, self.all_singular_neuter_animate_nouns)
-        self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, self.all_common_nouns)
-        self.all_nonfinite_embedding_verbs = get_all_conjunctive([("finite", "0")], self.all_embedding_verbs)
+        self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
+        self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
+        self.all_nonfinite_embedding_verbs = get_all_conjunctive([("finite", "0")], all_embedding_verbs)
         self.all_wh = get_all("category", "NP_wh")
         self.all_who = get_all_conjunctive([("expression", "who")], self.all_wh)
         self.all_copula = get_all_conjunctive([("category_2", "copula"), ("finite", "1")])
@@ -41,7 +42,7 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         x = random.random()
         if x < 1 / 2:
             # transitive V2
-            V2 = choice(self.all_transitive_verbs)
+            V2 = choice(all_transitive_verbs)
             try:
                 N3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_2", self.all_safe_nouns)))
             except IndexError:
@@ -49,11 +50,10 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
             except TypeError:
                 pass
         else:
-            V2 = choice(self.all_intransitive_verbs)
+            V2 = choice(all_intransitive_verbs)
             N3 = " "
-        #wh = choice(get_matches_of(V2, "arg_1", self.all_wh))
         wh = choice(self.all_who)
-        N2 = N_to_DP_mutate(choice(self.all_animate_nouns))
+        N2 = N_to_DP_mutate(choice(all_animate_nouns))
         cop = choice(get_matched_by(N2, "arg_1", self.all_copula))
         Adj_embed = choice(self.all_adj_CP_arg)
         V2 = conjugate(V2, wh)
