@@ -5,6 +5,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
 from functools import reduce
+from utils.vocab_sets import *
 
 
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
@@ -22,11 +23,11 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
         # It's himself that John likes.
         # It's himself that likes John.
 
-        V1 = choice(self.all_refl_preds)
-        N1 = choice(get_matches_of(V1, "arg_1", self.all_nouns))
+        V1 = choice(all_refl_preds)
+        N1 = choice(get_matches_of(V1, "arg_1", all_nouns))
         N1 = N_to_DP_mutate(N1)
-        Rel = choice(get_matched_by(N1, "arg_1", self.all_relativizers))
-        Refl = choice(get_matched_by(N1, "arg_1", self.all_reflexives))
+        Rel = choice(get_matched_by(N1, "arg_1", all_relativizers))
+        Refl = choice(get_matched_by(N1, "arg_1", all_reflexives))
         V1 = conjugate(V1, N1)
 
         data = {
@@ -37,7 +38,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 generator = AnaphorGenerator()
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 
 
 

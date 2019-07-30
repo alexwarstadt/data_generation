@@ -7,6 +7,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
 from functools import reduce
+all_animate_nouns = get_all("animate", "1", all_nouns)
 
 
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
@@ -19,11 +20,11 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=True,
                          two_prefix_method=False,
                          lexically_identical=True)
-        self.all_safe_singular_nouns = np.setdiff1d(self.all_singular_nouns, self.all_singular_neuter_animate_nouns)
-        self.all_safe_plural_nouns = np.setdiff1d(self.all_plural_nouns, self.all_singular_neuter_animate_nouns)
+        self.all_safe_singular_nouns = np.setdiff1d(all_singular_nouns, all_singular_neuter_animate_nouns)
+        self.all_safe_plural_nouns = np.setdiff1d(all_plural_nouns, all_singular_neuter_animate_nouns)
 
-        self.all_singular_reflexive_predicates = np.setdiff1d(self.all_refl_preds, self.all_plural_transitive_verbs)
-        self.all_plural_reflexive_predicates = np.setdiff1d(self.all_refl_preds, self.all_singular_transitive_verbs)
+        self.all_singular_reflexive_predicates = np.setdiff1d(all_refl_preds, all_plural_transitive_verbs)
+        self.all_plural_reflexive_predicates = np.setdiff1d(all_refl_preds, all_singular_transitive_verbs)
         self.all_singular_reflexives = reduce(np.union1d, (get_all("expression", "himself"),
                                                            get_all("expression", "herself"),
                                                            get_all("expression", "itself")))
@@ -42,7 +43,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
             N1 = choice(get_matches_of(V1, "arg_1", self.all_safe_singular_nouns))
             refl_mismatch = self.plural_reflexive
         N1 = N_to_DP_mutate(N1)
-        refl_match = choice(get_matched_by(N1, "arg_1", self.all_reflexives))
+        refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
 
         V1 = conjugate(V1, N1)
 
@@ -57,7 +58,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 binding_generator = AnaphorGenerator()
-binding_generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
+binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
 
 
 

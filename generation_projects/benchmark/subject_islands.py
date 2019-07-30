@@ -19,7 +19,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
             two_prefix_method=False,
             lexically_identical=True
         )
-        self.all_non_finite_refl_preds = np.union1d(get_all("finite", "0", self.all_refl_preds), self.all_refl_nonverbal_predicates)
+        self.all_non_finite_refl_preds = np.union1d(get_all("finite", "0", all_refl_preds), all_refl_nonverbal_predicates)
 
     def sample(self):
         # What did John discuss a book about?
@@ -28,7 +28,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
         # What did a book about discuss John?
         # wh   aux relN         V       relN
 
-        relN = N_to_DP_mutate(choice(self.all_relational_nouns))
+        relN = N_to_DP_mutate(choice(all_relational_nouns))
         V = choice(get_matched_by(relN, "arg_1", self.all_non_finite_refl_preds))
         if V["category_2"] == "Pred":
             Cop = return_copula(relN)
@@ -42,9 +42,9 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
             Aux = return_aux(V, relN)
 
         # Grab all nouns with the same number as RelN
-        NP = N_to_DP_mutate(choice(np.extract([x["sg"] == relN["sg"] for x in get_matches_of(V, "arg_1", self.all_nouns)],
-                                              get_matches_of(V, "arg_1", self.all_nouns))))
-        wh = choice(get_matches_of(relN, "arg_1", self.all_wh_words))
+        NP = N_to_DP_mutate(choice(np.extract([x["sg"] == relN["sg"] for x in get_matches_of(V, "arg_1", all_nouns)],
+                                              get_matches_of(V, "arg_1", all_nouns))))
+        wh = choice(get_matches_of(relN, "arg_1", all_wh_words))
         data = {
             "sentence_good": "%s %s %s %s %s %s?" % (wh[0], Aux[0], NP[0], Cop[0], V[0], relN[0]),
             "sentence_bad": "%s %s %s %s %s %s?" % (wh[0], Aux[0], relN[0], Cop[0], V[0], NP[0]),
@@ -53,7 +53,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 binding_generator = AnaphorGenerator()
-binding_generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
+binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
 
 
 

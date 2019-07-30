@@ -5,6 +5,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
 from functools import reduce
+from utils.vocab_sets import *
 
 
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
@@ -19,7 +20,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
             two_prefix_method=False,
             lexically_identical=False
         )
-        self.all_safe_nouns = np.setdiff1d(self.all_singular_nouns, self.all_singular_neuter_animate_nouns)
+        self.all_safe_nouns = np.setdiff1d(all_singular_nouns, all_singular_neuter_animate_nouns)
         # self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, self.all_common_nouns)
         self.all_singular_reflexives = reduce(np.union1d, (get_all("expression", "himself"),
                                                            get_all("expression", "herself"),
@@ -29,10 +30,10 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
         # John knows himself
         # John knows itself
 
-        V1 = choice(self.all_refl_preds)
+        V1 = choice(all_refl_preds)
         N1 = choice(get_matches_of(V1, "arg_1", self.all_safe_nouns))
         N1 = N_to_DP_mutate(N1)
-        refl_match = choice(get_matched_by(N1, "arg_1", self.all_reflexives))
+        refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
         refl_mismatch = choice(np.setdiff1d(self.all_singular_reflexives, [refl_match]))
 
         V1 = conjugate(V1, N1)
@@ -48,7 +49,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 binding_generator = AnaphorGenerator()
-binding_generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/benchmark/%s.tsv" % binding_generator.uid)
+binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.tsv" % binding_generator.uid)
 
 
 
