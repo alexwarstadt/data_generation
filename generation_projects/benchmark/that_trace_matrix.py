@@ -7,7 +7,7 @@ from utils.string_utils import string_beautify
 from utils.vocab_sets import *
 
 
-class BindingGenerator(data_generator.BenchmarkGenerator):
+class ThatTraceGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(category="movement",
                          field="syntax",
@@ -20,8 +20,6 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
         self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
         self.all_nonfinite_embedding_verbs = get_all_conjunctive([("finite", "0")], all_embedding_verbs)
-        self.all_wh = get_all("category", "NP_wh")
-        self.all_who = get_all_conjunctive([("expression", "who")], self.all_wh)
 
     def sample(self):
         # who does John think called Suzie
@@ -48,8 +46,9 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         else:
             V2 = choice(all_intransitive_verbs)
             N2 = " "
-        #wh = choice(get_matches_of(V2, "arg_1", self.all_wh))
-        wh = choice(self.all_who)
+
+        N_interim = choice(get_matches_of(V2, "arg_1", all_nouns))
+        wh = choice(get_matched_by(N_interim, "arg_1", all_wh_words))
 
         V2 = conjugate(V2, wh)
 
@@ -62,5 +61,5 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-binding_generator = BindingGenerator()
-binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
+generator = ThatTraceGenerator()
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
