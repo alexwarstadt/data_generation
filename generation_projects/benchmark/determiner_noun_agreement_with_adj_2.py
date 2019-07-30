@@ -28,16 +28,16 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         # John cleaned these         table.
         # N1   V1      Dem_mismatch N2
 
-        V1 = choice(self.all_transitive_verbs)
+        V1 = choice(all_transitive_verbs)
         try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_nouns)))
+            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         except TypeError:
             pass
         try:
             N2 = choice(get_matches_of(V1, "arg_2", self.all_pluralizable_nouns))
         except TypeError:
             pass
-        Dem_match = choice(get_matched_by(N2, "arg_1", self.all_demonstratives))
+        Dem_match = choice(get_matched_by(N2, "arg_1", all_demonstratives))
         if Dem_match[0] == "this":
             Dem_mismatch = "these"
         elif Dem_match[0] == "these":
@@ -47,7 +47,7 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         elif Dem_match[0] == "those":
             Dem_mismatch = "that"
         V1 = conjugate(V1, N1)
-        adj = choice(get_matched_by(N2, "arg_1", self.all_adjectives))
+        adj = choice(get_matched_by(N2, "arg_1", all_adjectives))
 
         data = {
             "sentence_good": "%s %s %s %s %s." % (N1[0], V1[0], Dem_match[0], adj[0], N2[0]),

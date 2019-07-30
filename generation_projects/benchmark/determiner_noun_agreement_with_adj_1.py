@@ -28,22 +28,22 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         # John cleaned this dirty tables.
         # N1   V1      Dem  adj   N2_mismatch
 
-        V1 = choice(self.all_transitive_verbs)
+        V1 = choice(all_transitive_verbs)
         try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_nouns)))
+            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         except TypeError:
             pass
         try:
             N2_match = choice(get_matches_of(V1, "arg_2", self.all_pluralizable_nouns))
         except TypeError:
             pass
-        Dem = choice(get_matched_by(N2_match, "arg_1", self.all_demonstratives))
+        Dem = choice(get_matched_by(N2_match, "arg_1", all_demonstratives))
         if N2_match['pl'] == "1":
             N2_mismatch = N2_match['singularform']
         else:
             N2_mismatch = N2_match['pluralform']
         V1 = conjugate(V1, N1)
-        adj = choice(get_matched_by(N2_match, "arg_1", self.all_adjectives))
+        adj = choice(get_matched_by(N2_match, "arg_1", all_adjectives))
 
         data = {
             "sentence_good": "%s %s %s %s %s." % (N1[0], V1[0], Dem[0], adj[0], N2_match[0]),
