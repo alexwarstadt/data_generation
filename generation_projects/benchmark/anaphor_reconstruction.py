@@ -10,8 +10,7 @@ from utils.vocab_sets import *
 
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="agreement",
-                         field="morphology",
+        super().__init__(field="morphology",
                          linguistics="anaphor_agreement",
                          uid="anaphor_reconstruction",
                          simple_lm_method=True,
@@ -38,7 +37,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 generator = AnaphorGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
 
 
 

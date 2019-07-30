@@ -9,8 +9,7 @@ from utils.vocab_sets import *
 
 class LeftBranchGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="movement",
-                         field="syntax",
+        super().__init__(field="syntax",
                          linguistics="island_effects",
                          uid="complex_left_branch_echoQ",
                          simple_lm_method=True,
@@ -56,4 +55,4 @@ class LeftBranchGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 generator = LeftBranchGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=1000)

@@ -9,8 +9,7 @@ from utils.vocab_sets import *
 
 class ThatTraceGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="movement",
-                         field="syntax",
+        super().__init__(field="syntax",
                          linguistics="that_trace",
                          uid="that_trace_matrix",
                          simple_lm_method=False,

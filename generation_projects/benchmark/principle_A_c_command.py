@@ -9,8 +9,7 @@ from utils.vocab_sets import *
 
 class BindingGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="agreement",
-                         field="syntax/semantics",
+        super().__init__(field="syntax/semantics",
                          linguistics="binding",
                          uid="principle_A_c_command",
                          simple_lm_method=True,

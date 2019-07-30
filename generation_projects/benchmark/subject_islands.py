@@ -10,7 +10,6 @@ from functools import reduce
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(
-            category="movement",
             field="syntax",
             linguistics="island_effects",
             uid="subject_island",

@@ -11,7 +11,6 @@ from utils.vocab_sets import *
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(
-            category="agreement",
             field="morphology",
             linguistics="anaphor agreement",
             uid="simple_anaphor_gender_agreement",

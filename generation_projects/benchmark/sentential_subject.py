@@ -9,8 +9,7 @@ from utils.vocab_sets import *
 
 class SentSubjGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="movement",
-                         field="A_bar_syntax",
+        super().__init__(field="A_bar_syntax",
                          linguistics="island_effects",
                          uid="sentential_subject",
                          simple_lm_method=True,
