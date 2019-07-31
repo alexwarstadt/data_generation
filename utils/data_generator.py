@@ -66,14 +66,14 @@ class Generator:
 
 class BenchmarkGenerator(Generator):
     def __init__(self,
-                 category: str,
                  field: str,
                  linguistics: str,
                  uid: str,
                  simple_lm_method: bool,
                  one_prefix_method: bool,
                  two_prefix_method: bool,
-                 lexically_identical: bool):
+                 lexically_identical: bool,
+                 category: str=None):
         super().__init__()
         self.category = category
         self.field = field
@@ -92,7 +92,6 @@ class BenchmarkGenerator(Generator):
         :return: join metadata
         """
         metadata = {
-            "category": self.category,
             "field": self.field,
             "linguistics_term": self.linguistics,
             "UID": self.uid,

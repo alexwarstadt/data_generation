@@ -27,7 +27,9 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         # EVEN subj        aux    EVER VP
 
         V = choice(self.safe_verbs)
-        args = verb_args_from_verb(V, allow_negated=False)
+        bad_quantifiers = ["all", "every", "each", "most", "many", "a lot of"]
+        while reduce(lambda x, y: x or y, [args["subj"]["expression"].startswith(x) for x in bad_quantifiers]):
+            args = verb_args_from_verb(V, allow_negated=False)
         VP = V_to_VP_mutate(V, aux=False, args=args)
 
         data = {
