@@ -17,7 +17,7 @@ class SIGenerator(data_generator.NLIGenerator):
 
         self.all_plural_verbs = get_all("3sg", "0", all_verbs)
         self.all_singular_verbs = get_all("3sg", "1", all_verbs)
-        self.all_plural_inanimate_nouns = np.intersect1d(self.all_inanimate_nouns, self.all_plural_nouns)
+        self.all_plural_inanimate_nouns = np.intersect1d(all_inanimate_nouns, all_plural_nouns)
 
 
         self.w = w
@@ -35,7 +35,7 @@ class SIGenerator(data_generator.NLIGenerator):
         s = self.s
 
         V = choice(self.all_plural_verbs)
-        bare = get_bare(V)
+        #bare = get_bare(V)
         #print(bare)
         #bare = get_all_conjunctive([("expression",V[0]),("bare","1")])
         #print(bare[0])
@@ -85,19 +85,24 @@ class SIGenerator(data_generator.NLIGenerator):
                 #print(DP1[0])
                 N2 = choice(get_matches_of(V, "arg_2", all_plural_nouns))
 
+                V_args = verb_args_from_verb(V, subj=N1, allow_negated=False)
+                Neg_V_args = negate_V_args(V_args)
 
-                Aux = return_aux(V, N1, allow_negated=False)
+                #Aux = return_aux(V, N1, allow_negated=False)
                 #print(Aux)
 
-                bareV = get_all_conjunctive([("expression", V[0]), ("bare", "1")])
-                print(V)
-                print(bareV)
 
 
-                W = " ".join([DP1[0],Aux[0],V[0],"some ",N2[0]])
-                S = " ".join([DP1[0],Aux[0],V[0],"all ",N2[0]])
-                notW = " ".join([DP1[0],Aux[0],V[0],"no ",N2[0]])
-                notS = " ".join([DP1[0],Aux[0],"not",bareV[0],"all",N2[0]])
+
+                # W = " ".join([DP1[0],Aux[0],V[0],"some ",N2[0]])
+                # S = " ".join([DP1[0],Aux[0],V[0],"all ",N2[0]])
+                # notW = " ".join([DP1[0],Aux[0],V[0],"no ",N2[0]])
+                # notS = " ".join([DP1[0],Aux[0],"not",bareV[0],"all",N2[0]])
+
+                W = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],"some ",N2[0]])
+                S = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],"all ",N2[0]])
+                notW = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],"no ",N2[0]])
+                notS = " ".join([DP1[0],Neg_V_args["aux_neg"][0], Neg_V_args["verb_neg"][0],"all",N2[0]])
 
 
         elif w=="or":
@@ -345,7 +350,7 @@ class SIGenerator(data_generator.NLIGenerator):
 
         while len(past_sentences) < number_to_generate:
 
-            #try:
+            try:
                 new_data, track_sentence = self.sample()
 
 
@@ -361,14 +366,14 @@ class SIGenerator(data_generator.NLIGenerator):
                                 C[field] = string_beautify(C[field])
                                 C.update(constant_data)
                         generated_data.append(C)
-           # except Exception as e:
-            #    self.log_exception(e)
+            except Exception as e:
+                self.log_exception(e)
         jsonlines.Writer(output).write_all(generated_data)
 
 
 
 generator = SIGenerator("some","all")
-generator.generate_paradigm(number_to_generate=1, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=20, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
 # generator = SIGenerator("or","and")
 # generator.generate_paradigm(number_to_generate=0, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)

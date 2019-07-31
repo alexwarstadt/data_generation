@@ -1,0 +1,13 @@
+future
+backports.csv
+mysqlclient
+beautifulsoup4
+lxml
+feedparser
+pdfminer.six
+numpy
+scipy
+nltk
+python-docx
+cherrypy
+requests

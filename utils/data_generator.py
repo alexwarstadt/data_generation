@@ -4,7 +4,7 @@ from utils.string_utils import string_beautify
 from functools import reduce
 import numpy as np
 from utils.randomize import choice
-import jsonlines
+from utils import jsonlines
 import logging
 import datetime
 import traceback

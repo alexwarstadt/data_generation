@@ -11,7 +11,7 @@ from utils.string_utils import remove_extra_whitespace
 import numpy as np
 import random
 from utils.vocab_sets import *
-import pattern.en
+from utils.pattern.text import en
 
 
 
@@ -301,11 +301,11 @@ def make_possessive(DP):
     return DP
 
 def get_bare_form(V):
-    bare_str = pattern.en.lemma(V[0])
+    bare_str = en.lemma(V[0])
 
 def get_bare_form(verb):
     words = verb["expression"].split(" ")
-    words[0] = pattern.en.lemma(words[0])
+    words[0] = en.lemma(words[0])
     bare_verb = verb.copy()
     bare_verb["expression"] = " ".join(words)
     bare_verb["finite"] = "0"
