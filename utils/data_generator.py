@@ -24,9 +24,10 @@ class Generator:
         return {}
 
     def make_logger(self, metadata):
+        project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
         log_name = 'generation-%s-%s.log' % (metadata["UID"], str(datetime.datetime.now()))
-        # logging.basicConfig(filename=os.path.join("logs/benchmark", log_name), level=logging.DEBUG)
-        logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
+        logging.basicConfig(filename=os.path.join(project_root, "logs/benchmark", log_name), level=logging.DEBUG)
+        # logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
 
     def log_exception(self, e):
         logging.debug("".join(traceback.format_tb(e.__traceback__)) + str(e) + "\n")
@@ -147,7 +148,7 @@ class PresuppositionGenerator(Generator):
                             if field in line:
                                 line[field] = string_beautify(line[field])
                                 line.update(constant_data)
-                        line["pairID"] = pairID + new_data["gold_label"][0]
+                        line["pairID"] = str(pairID) + line["gold_label"][0]
                         pairID += 1
                         generated_data.append(line)
             except Exception as e:
