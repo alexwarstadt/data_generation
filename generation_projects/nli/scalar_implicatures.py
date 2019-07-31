@@ -29,8 +29,6 @@ class SIGenerator(data_generator.NLIGenerator):
 
     def sample(self):
 
-
-
         w = self.w
         s = self.s
 
@@ -43,7 +41,7 @@ class SIGenerator(data_generator.NLIGenerator):
         if w=="some":
 
 
-            type = "quantifier"
+            trigger = "quantifier"
             position = choice(["subject","object"])
             #position = "object"
             print(position)
@@ -53,8 +51,6 @@ class SIGenerator(data_generator.NLIGenerator):
 
 
                 V = choice(self.all_plural_verbs)
-
-
 
 
                 N = choice(get_matches_of(V, "arg_1", all_plural_nouns))
@@ -83,7 +79,7 @@ class SIGenerator(data_generator.NLIGenerator):
                 N1 = choice(get_matches_of(V, "arg_1", all_nouns))
                 DP1= N_to_DP_mutate(N1)
                 #print(DP1[0])
-                N2 = choice(get_matches_of(V, "arg_2", all_plural_nouns))
+                N2 = choice(get_matches_of(V, "arg_2", all_plural_nouns), [N1])
 
                 V_args = verb_args_from_verb(V, subj=N1, allow_negated=False)
                 Neg_V_args = negate_V_args(V_args)
@@ -104,9 +100,78 @@ class SIGenerator(data_generator.NLIGenerator):
                 notW = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],"no ",N2[0]])
                 notS = " ".join([DP1[0],Neg_V_args["aux_neg"][0], Neg_V_args["verb_neg"][0],"all",N2[0]])
 
+        elif w=="three" or w =="two":
+
+
+            trigger = "numeral_"+w+"-"+s
+            position = choice(["subject","object"])
+            #position = "object"
+            print(position)
+            if position=="subject":
+                """numerals in subject position"""
+
+
+
+                V = choice(self.all_plural_verbs)
+
+
+
+
+                N = choice(get_matches_of(V, "arg_1", all_plural_nouns))
+
+
+                V_args = verb_args_from_verb(V, subj=N)
+                Neg_V_args = negate_V_args(V_args)
+
+
+                Aux = return_aux(V, N, allow_negated=False)
+
+                VP = " ".join([Aux[0],
+                               V[0]] +
+                              [x[0] for x in v_args["args"]])
+                negVP = " ".join([Neg_V_args["aux_neg"][0],
+                                  Neg_V_args["verb_neg"][0]] +
+                              [x[0] for x in Neg_v_args["args"]])
+
+
+                W = w+N[0]+" "+VP
+                S = s+N[0]+" "+VP
+                notW = w+N[0]+" "+negVP
+                notS = s+N[0]+" "+negVP
+
+
+            else:
+                """numerals in object position"""
+
+                V = choice(all_transitive_verbs)
+
+                N1 = choice(get_matches_of(V, "arg_1", all_nouns))
+                DP1= N_to_DP_mutate(N1)
+                #print(DP1[0])
+                N2 = choice(get_matches_of(V, "arg_2", all_plural_nouns), [N1])
+
+                V_args = verb_args_from_verb(V, subj=N1, allow_negated=False)
+                Neg_V_args = negate_V_args(V_args)
+
+                #Aux = return_aux(V, N1, allow_negated=False)
+                #print(Aux)
+
+
+
+
+                # W = " ".join([DP1[0],Aux[0],V[0],"some ",N2[0]])
+                # S = " ".join([DP1[0],Aux[0],V[0],"all ",N2[0]])
+                # notW = " ".join([DP1[0],Aux[0],V[0],"no ",N2[0]])
+                # notS = " ".join([DP1[0],Aux[0],"not",bareV[0],"all",N2[0]])
+
+                W = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],w,N2[0]])
+                S = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],s,N2[0]])
+                notW = " ".join([DP1[0],Neg_V_args["aux_neg"][0], Neg_V_args["verb_neg"][0],w,N2[0]])
+                notS = " ".join([DP1[0],Neg_V_args["aux_neg"][0], Neg_V_args["verb_neg"][0],s,N2[0]])
+
 
         elif w=="or":
-            type= "connective"
+            trigger = "connective"
             position = choice("subject","object")
 
             if position=="subject":
@@ -122,63 +187,61 @@ class SIGenerator(data_generator.NLIGenerator):
                     V = choice(self.all_plural_verbs)
                     N = choice(get_matches_of(V, "arg_1", all_plural_nouns))
                     if N["animate"]=="0":
-                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns))
+                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N])
                     else:
-                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns))
+                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N])
 
                 else:
                     """singular members"""
 
-                    V = choice(all_singular_verbs)
+                    V = choice(self.all_singular_verbs)
                     N = choice(get_matches_of(V, "arg_1", all_singular_nouns))
                     if N["animate"]=="0":
-                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns))
+                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N])
                     else:
-                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns))
+                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N])
 
                 #print(V[0], V["pres"], V["past"])
 
 
-                v_args = verb_args_from_verb(V, subj=N)
-
-                bareV = get_all_conjunctive([("expression", V[0]), ("bare", "1")])
-
-                Aux = return_aux(V, N, allow_negated=False)
 
 
-                VP = " ".join([Aux[0],
-                               V[0]] +
-                              [x[0] for x in v_args["args"]])
+                V_args = verb_args_from_verb(V, subj=N, allow_negated=False)
+                Neg_V_args = negate_V_args(V_args)
+
+                #Aux = return_aux(V, N, allow_negated=False)
+
+
+                VP = " ".join([V_args["aux"][0], V_args["verb"][0]]+[x[0] for x in V_args["args"]])
+                negVP = " ".join([Neg_V_args["aux_neg"][0], "both", Neg_V_args["verb_neg"][0]]+[x[0] for x in Neg_V_args["args"]])
 
                 #print("here1")
 
-                if V["past"] == "1":
-                    DO = "did"
-                elif V["pres"]=="1":
-                        DO= "do"
+                # if V["past"] == "1":
+                #     DO = "did"
+                # elif V["pres"]=="1":
+                #         DO= "do"
 
 
 
-
-
-                if V["pres"]=="1" or V["past"]=="1" :
-
-                    #print("here3")
-                    negVP =  " ".join([DO+" not both "+ bareV[0]] +
-                                [x[0] for x in v_args["args"]])
-
-
-                    #print("here3b")
-
-
-                else:
-
-
-                    #print("here4")
-                    negVP =  " ".join([Aux[0]," not both ",
-                               V[0]] +
-                              [x[0] for x in v_args["args"]])
-                    #print("here4b")
+                # if V["pres"]=="1" or V["past"]=="1" :
+                #
+                #     #print("here3")
+                #     negVP =  " ".join([DO+" not both "+ bareV[0]] +
+                #                 [x[0] for x in v_args["args"]])
+                #
+                #
+                #     #print("here3b")
+                #
+                #
+                # else:
+                #
+                #
+                #     #print("here4")
+                #     negVP =  " ".join([Aux[0]," not both ",
+                #                V[0]] +
+                #               [x[0] for x in v_args["args"]])
+                #     #print("here4b")
 
 
                 W = N[0] + " or " + N2[0] + " " + VP
@@ -207,9 +270,9 @@ class SIGenerator(data_generator.NLIGenerator):
                     V = choice(self.all_plural_verbs)
                     N1 = choice(get_matches_of(V, "arg_1", all_plural_nouns))
                     if N1["animate"] == "0":
-                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns))
+                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N1])
                     else:
-                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns))
+                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N1])
 
                 else:
                     """singular members"""
@@ -217,24 +280,43 @@ class SIGenerator(data_generator.NLIGenerator):
                     V = choice(all_singular_verbs)
                     N1 = choice(get_matches_of(V, "arg_1", all_singular_nouns))
                     if N1["animate"] == "0":
-                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns))
+                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N1])
                     else:
-                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns))
-
-                Aux = return_aux(V, N, allow_negated=False)
-
-                if V["pres"]==1:
-                    NAux=("do",None)
-                elif V["past"]==1:
-                    NAux=("did",None)
-                else:
-                    NAux = return_aux(V, N, allow_negated=False)
+                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N1])
 
 
-                W = " ".join([DP1[0],Aux[0],V[0],N1[0], "or", N2[0]])
-                S = " ".join([DP1[0],Aux[0],V[0],N1[0], "and", N2[0]])
-                notW = " ".join([DP1[0],Aux[0],"neither", N1[0],"nor", N2[0]])
-                notS = " ".join([DP1[0],NAux[0],"not",bareV[0],"both",N1[0], "and", N2[0]])
+
+                # Aux = return_aux(V, N, allow_negated=False)
+                #
+                # if V["pres"]==1:
+                #     NAux=("do",None)
+                # elif V["past"]==1:
+                #     NAux=("did",None)
+                # else:
+                #     NAux = return_aux(V, N, allow_negated=False)
+
+                V_args = verb_args_from_verb(V, subj=N, allow_negated=False)
+                Neg_V_args = negate_V_args(V_args)
+
+                W = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],N1[0], "or", N2[0]])
+                S = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],N1[0], "and", N2[0]])
+                notW = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],"neither", N1[0],"nor", N2[0]])
+                notS = " ".join([DP1[0],Neg_V_args["aux_neg"][0], "both", Neg_V_args["verb_neg"][0],"both",N1[0], "and", N2[0]])
+
+
+
+
+
+                #Aux = return_aux(V, N, allow_negated=False)
+
+
+                #print("here1")
+
+                # if V["past"] == "1":
+                #     DO = "did"
+                # elif V["pres"]=="1":
+                #         DO= "do"
+
 
 
 
@@ -243,7 +325,7 @@ class SIGenerator(data_generator.NLIGenerator):
 
         elif w =="can":
             type="modal"
-            position="position"
+            position="NA"
 
             #print("A")
 
@@ -283,20 +365,31 @@ class SIGenerator(data_generator.NLIGenerator):
             notW = DP[0]+" "+CANT+" "+VP
             notS = DP[0]+" "+NOTHAVETO+" "+VP
 
-        #print("here7")
-        C1 = [[W, notS], ["neutral", "entailment"]]
-        C2 = [(C1[0])[::-1], ["neutral", "entailment"]]
-        C3= [[W,S], ["neutral", "contradiction"]]
-        C4= [(C3[0])[::-1], ["entailment", "contradiction"]]
-        C5= [[notS,notW], ["neutral", "contradiction"]]
 
-        C6 = [(C5[0])[::-1], ["entailment", "contradiction"]]
-        C7 = [[S,notW], ["contradiction", "contradiction"]]
-        C8 = [(C7[0])[::-1], ["contradiction", "contradiction"]]
-        C9 = [[W,notW], ["contradiction", "contradiction"]]
-        C10 = [(C9[0])[::-1], ["contradiction", "contradiction"]]
-        C11 = [[S,notS], ["contradiction", "contradiction"]]
-        C12 = [(C11[0])[::-1], ["contradiction", "contradiction"]]
+
+        C1 = [[W, notS], ["neutral", "entailment", "implicature_PtoN", "target"]]
+        #C2 = [(C1[0])[::-1], ["neutral", "entailment", "implicature_NtoP", "target"]]
+        C3= [[W,S], ["neutral", "contradiction", "negated implicature_P", "target"]]
+        C4= [(C3[0])[::-1], ["entailment", "contradiction","reverse negated implicature_P", "target"]]
+        #C5= [[notS,notW], ["neutral", "contradiction", "negated implicature_N", "target"]]
+        #C6 = [(C5[0])[::-1], ["entailment", "contradiction","reverse negated implicature_N", "target"]]
+
+        C7 = [[S,notW], ["contradiction", "contradiction", "opposite", "control"]]
+        C8 = [(C7[0])[::-1], ["contradiction", "contradiction", "opposite", "control"]]
+        C9 = [[W,notW], ["contradiction", "contradiction", "negation","control"]]
+        C10 = [(C9[0])[::-1], ["contradiction", "contradiction", "negation","control"]]
+        C11 = [[S,notS], ["contradiction", "contradiction", "negation","control"]]
+        C12 = [(C11[0])[::-1], ["contradiction", "contradiction", "negation","control"]]
+
+        if w=="three" or w =="two":
+            C2 = [(C1[0])[::-1], ["neutral", "neutral", "no_impl", "target"]]
+            C5 = [[notS, notW], ["neutral", "neutral", "no_impl", "target"]]
+            C6 = [(C5[0])[::-1], ["entailment", "neutral", "no_impl", "target"]]
+
+        else:
+            C2 = [(C1[0])[::-1], ["neutral", "entailment", "implicature_NtoP", "target"]]
+            C5 = [[notS, notW], ["neutral", "contradiction", "negated implicature_N", "target"]]
+            C6 = [(C5[0])[::-1], ["entailment", "contradiction", "reverse negated implicature_N", "target"]]
 
         C_set = [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12]
 
@@ -309,11 +402,17 @@ class SIGenerator(data_generator.NLIGenerator):
 
 
 
-        print("here9")
+
+
+
+
+
+#        print("here9")
         for i in range(12):
 
             C = (C_set[i])[0]
             metadata = C_set[i][1]
+
 
 
             sentence_pair = {
@@ -321,7 +420,9 @@ class SIGenerator(data_generator.NLIGenerator):
                 "sentence_2": "%s." % (C[1]),
                 "gold_label_log": metadata[0],
                 "gold_label_prag": metadata[1],
-                "type": type,
+                "spec_relation": metadata[2],
+                "item_type": metadata[3],
+                "trigger": trigger,
                 "position": position
             }
 
@@ -372,13 +473,16 @@ class SIGenerator(data_generator.NLIGenerator):
 
 
 
-generator = SIGenerator("some","all")
-generator.generate_paradigm(number_to_generate=20, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+#generator = SIGenerator("some","all")
+#generator.generate_paradigm(number_to_generate=20, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
-# generator = SIGenerator("or","and")
-# generator.generate_paradigm(number_to_generate=0, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
-#
-#
+#generator = SIGenerator("or","and")
+#generator.generate_paradigm(number_to_generate=1, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+
+
 # generator = SIGenerator("can", "have to")
 # generator.generate_paradigm(number_to_generate=0, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+
+generator = SIGenerator("two","three")
+generator.generate_paradigm(number_to_generate=2, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
