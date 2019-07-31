@@ -30,7 +30,10 @@ class Generator:
         # logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
 
     def log_exception(self, e):
-        logging.debug("".join(traceback.format_tb(e.__traceback__)) + str(e) + "\n")
+        logging.debug(self.get_stack_trace(e) + "\n")
+
+    def get_stack_trace(self, e):
+        return "".join(traceback.format_tb(e.__traceback__)) + str(e)
 
     def generate_paradigm(self, number_to_generate=1000, rel_output_path=None, absolute_path=None):
         if rel_output_path is not None:
@@ -43,9 +46,11 @@ class Generator:
         past_sentences = set()
         generated_data = []
         pairID = 0
+        error_counter = 0
         constant_data = self.make_metadata_dict()
         print("Generating data for " + constant_data["UID"])
         self.make_logger(constant_data)
+        output_writer = jsonlines.Writer(output, flush=True)
         while len(past_sentences) < number_to_generate:
             try:
                 new_data, track_sentence = self.sample()
@@ -59,9 +64,13 @@ class Generator:
                     pairID += 1
                     if pairID % 100 == 0:
                         print("%d sentences generated" % pairID)
-                    generated_data.append(new_data)
+                    output_writer.write(new_data)
             except Exception as e:
                 self.log_exception(e)
+                print(self.get_stack_trace(e))
+                error_counter += 1
+                if error_counter >= number_to_generate // 10:
+                    raise Exception("Over 10\% of samples result in errors. You should fix this.")
         jsonlines.Writer(output).write_all(generated_data)
 
 
@@ -136,8 +145,10 @@ class PresuppositionGenerator(Generator):
         past_sentences = set()
         generated_data = []
         pairID = 0
+        error_counter = 0
         constant_data = self.make_metadata_dict()
         self.make_logger(constant_data)
+        output_writer = jsonlines.Writer(output, flush=True)
         while len(past_sentences) < number_to_generate:
             try:
                 new_data, track_sentence = self.sample()
@@ -150,10 +161,13 @@ class PresuppositionGenerator(Generator):
                                 line.update(constant_data)
                         line["pairID"] = str(pairID) + line["gold_label"][0]
                         pairID += 1
-                        generated_data.append(line)
+                        output_writer.write(line)
             except Exception as e:
                 self.log_exception(e)
-        jsonlines.Writer(output).write_all(generated_data)
+                print(self.get_stack_trace(e))
+                error_counter += 1
+                if error_counter >= number_to_generate // 10:
+                    raise Exception("Over 10\% of samples result in errors. You should fix this.")
 
     def make_metadata_dict(self):
         """
