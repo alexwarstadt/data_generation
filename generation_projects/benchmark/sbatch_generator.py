@@ -37,7 +37,7 @@ scripts = ["only_npi_licensor_present",
              "sentential_negation_npi_licensor_present"
              ]
 
-project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
+project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
 for s in scripts:
     output_file = open(os.path.join(project_root, "slurm", "%s.sbatch" % s), "w")
     output_file.write(top % s)
