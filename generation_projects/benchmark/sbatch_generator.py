@@ -26,7 +26,7 @@ cd ~/data_generation
 python -m generation_projects.benchmark.%s"""
 
 scripts = ["only_npi_licensor_present",
-             "only_npy_scope",
+             "only_npi_scope",
              "principle_A_c_command",
              "principle_A_case",
              "principle_A_domain",
