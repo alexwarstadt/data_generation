@@ -30,8 +30,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
         # John knows itself
 
         V1 = choice(all_refl_preds)
-        N1 = choice(get_matches_of(V1, "arg_1", self.all_safe_nouns))
-        N1 = N_to_DP_mutate(N1)
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", self.all_safe_nouns))))
         refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
         refl_mismatch = choice(np.setdiff1d(self.all_singular_reflexives, [refl_match]))
 
@@ -48,7 +47,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 binding_generator = AnaphorGenerator()
-binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.tsv" % binding_generator.uid)
+binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
 
 
 
