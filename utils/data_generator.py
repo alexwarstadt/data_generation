@@ -75,7 +75,6 @@ class BenchmarkGenerator(Generator):
                  lexically_identical: bool,
                  category: str=None):
         super().__init__()
-        self.category = category
         self.field = field
         self.linguistics = linguistics
         self.uid = uid

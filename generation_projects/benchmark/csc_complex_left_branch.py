@@ -9,8 +9,7 @@ from utils.vocab_sets import *
 
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="movement",
-                         field="syntax",
+        super().__init__(field="syntax",
                          linguistics="island_effects",
                          uid="csc_complex_left_branch",
                          simple_lm_method=True,

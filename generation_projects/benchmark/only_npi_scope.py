@@ -8,8 +8,7 @@ from utils.string_utils import string_beautify
 
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="movement",
-                         field="syntax/semantics",
+        super().__init__(field="syntax/semantics",
                          linguistics="npi_licensing",
                          uid="only_npi_scope",
                          simple_lm_method=True,

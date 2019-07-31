@@ -6,7 +6,7 @@ all_non_negative_auxiliaries = get_all("negated", "0", all_auxiliaries)
 all_negative_auxiliaries = get_all("negated", "1", all_auxiliaries)
 
 all_aux = get_all("category_2", "aux")
-all_agreeing_aux = np.setdiff1d(all_aux, get_all("arg_1", ""))
+all_agreeing_aux = np.setdiff1d(all_aux, get_all("arg_1", "sg=1;sg=0"))
 all_non_negative_agreeing_aux = get_all("negated", "0", all_agreeing_aux)
 all_negative_agreeing_aux = get_all("negated", "1", all_agreeing_aux)
 

@@ -10,8 +10,7 @@ from utils.vocab_sets import *
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="agreement",
-                         field="morphology",
+        super().__init__(field="morphology",
                          linguistics="subject_verb_agreement",
                          uid="regular_plural_subj_v_agreement_1",
                          simple_lm_method=True,
