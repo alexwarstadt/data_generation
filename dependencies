@@ -1,6 +1,0 @@
-pattern.en is used for conjugation
-To install:
-1. Make sure you have mysql:
-    brew install mysql
-    export PATH=$PATH:/usr/local/mysql/bin
-    pip install MySQL-Python (or pip3 install mysqlclient if using python 3)

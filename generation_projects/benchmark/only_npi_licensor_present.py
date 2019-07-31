@@ -8,8 +8,7 @@ from utils.string_utils import string_beautify
 
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="movement",
-                         field="semantics",
+        super().__init__(field="semantics",
                          linguistics="npi_licensing",
                          uid="only_npi_licensor_present",
                          simple_lm_method=True,
@@ -27,7 +26,10 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         # EVEN subj        aux    EVER VP
 
         V = choice(self.safe_verbs)
+        bad_quantifiers = ["all", "every", "each", "most", "many", "a lot of"]
         args = verb_args_from_verb(V, allow_negated=False)
+        while reduce(lambda x, y: x or y, [args["subj"]["expression"].startswith(x) for x in bad_quantifiers]):
+            args = verb_args_from_verb(V, allow_negated=False)
         VP = V_to_VP_mutate(V, aux=False, args=args)
 
         data = {

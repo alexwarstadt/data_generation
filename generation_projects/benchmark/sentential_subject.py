@@ -9,8 +9,7 @@ from utils.vocab_sets import *
 
 class SentSubjGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="movement",
-                         field="A_bar_syntax",
+        super().__init__(field="A_bar_syntax",
                          linguistics="island_effects",
                          uid="sentential_subject",
                          simple_lm_method=True,
@@ -19,8 +18,6 @@ class SentSubjGenerator(data_generator.BenchmarkGenerator):
                          lexically_identical=True)
         self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
         self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
-        self.all_wh = get_all("category", "NP_wh")
-        self.all_who = get_all_conjunctive([("expression", "who")], self.all_wh)
         self.all_transitive_ing_verbs = get_all_conjunctive([("ing", "1")], all_transitive_verbs)
         self.all_inanim_anim_nonfinite_transitive_verbs = get_matched_by(choice(all_inanimate_nouns), "arg_1",
                                                   get_matched_by(choice(all_animate_nouns), "arg_2",
@@ -49,7 +46,7 @@ class SentSubjGenerator(data_generator.BenchmarkGenerator):
         except TypeError:
             pass
 
-        wh = choice(self.all_who)
+        wh = choice(get_matches_of(V2, "arg_2", all_wh_words))
 
         data = {
             "sentence_good": "%s %s %s %s %s %s." % (wh[0], V_do[0], N1_poss[0], Ving[0], N2[0], V2[0]),

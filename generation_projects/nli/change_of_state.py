@@ -10,7 +10,8 @@ import inflect
 class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
     def __init__(self):
         super().__init__(
-            uid="change_of_state"
+            # TODO: restore: uid="change_of_state"
+            uid="change_of_state_temp"
         )
         real_auxs = ["did", "is", "are", "was", "were", "has", "have", "had"]
         m_auxs = ["might", "would", "could", "should", "will", "can"]
@@ -91,7 +92,7 @@ class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
         return data, presupposition
 
 generator = ChangeOfStateGenerator()
-generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
 # The ice will melt         The ice is frozen
 # The ice melts             ***

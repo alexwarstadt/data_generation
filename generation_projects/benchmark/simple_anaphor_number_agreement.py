@@ -12,8 +12,7 @@ all_animate_nouns = get_all("animate", "1", all_nouns)
 
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="agreement",
-                         field="morphology",
+        super().__init__(field="morphology",
                          linguistics="anaphor_agreement",
                          uid="simple_anaphor_number_agreement",
                          simple_lm_method=True,
@@ -36,11 +35,11 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
         if random.choice([True, False]):
             V1 = choice(self.all_plural_reflexive_predicates)
-            N1 = choice(get_matches_of(V1, "arg_1", self.all_safe_plural_nouns))
+            N1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", self.all_safe_plural_nouns)))
             refl_mismatch = choice(self.all_singular_reflexives)
         else:
             V1 = choice(self.all_singular_reflexive_predicates)
-            N1 = choice(get_matches_of(V1, "arg_1", self.all_safe_singular_nouns))
+            N1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", self.all_safe_singular_nouns)))
             refl_mismatch = self.plural_reflexive
         N1 = N_to_DP_mutate(N1)
         refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))

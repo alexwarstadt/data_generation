@@ -11,9 +11,9 @@ from utils.string_utils import remove_extra_whitespace
 import numpy as np
 import random
 from utils.vocab_sets import *
-import pattern.en
+from nltk.stem import WordNetLemmatizer
 
-
+lemmatizer = WordNetLemmatizer()
 
 def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
     verb = choice(get_matched_by(subject, "arg_1", all_verbs))
@@ -300,12 +300,10 @@ def make_possessive(DP):
     DP[0] = DP[0] + poss_str
     return DP
 
-def get_bare_form(V):
-    bare_str = pattern.en.lemma(V[0])
 
 def get_bare_form(verb):
     words = verb["expression"].split(" ")
-    words[0] = pattern.en.lemma(words[0])
+    words[0] = lemmatizer.lemmatize(words[0], "v")
     bare_verb = verb.copy()
     bare_verb["expression"] = " ".join(words)
     bare_verb["finite"] = "0"

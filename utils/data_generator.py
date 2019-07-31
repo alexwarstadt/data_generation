@@ -24,13 +24,15 @@ class Generator:
         return {}
 
     def make_logger(self, metadata):
+        project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
         log_name = 'generation-%s-%s.log' % (metadata["UID"], str(datetime.datetime.now()))
-        logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
+        logging.basicConfig(filename=os.path.join(project_root, "logs/benchmark", log_name), level=logging.DEBUG)
+        # logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
 
     def log_exception(self, e):
         logging.debug("".join(traceback.format_tb(e.__traceback__)) + str(e) + "\n")
 
-    def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
+    def generate_paradigm(self, number_to_generate=1000, rel_output_path=None, absolute_path=None):
         if rel_output_path is not None:
             project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
             output = open(os.path.join(project_root, rel_output_path), "w")
@@ -42,6 +44,7 @@ class Generator:
         generated_data = []
         pairID = 0
         constant_data = self.make_metadata_dict()
+        print("Generating data for " + constant_data["UID"])
         self.make_logger(constant_data)
         while len(past_sentences) < number_to_generate:
             try:
@@ -54,6 +57,8 @@ class Generator:
                             new_data.update(constant_data)
                     new_data["pairID"] = str(pairID)
                     pairID += 1
+                    if pairID % 100 == 0:
+                        print("%d sentences generated" % pairID)
                     generated_data.append(new_data)
             except Exception as e:
                 self.log_exception(e)
@@ -62,16 +67,15 @@ class Generator:
 
 class BenchmarkGenerator(Generator):
     def __init__(self,
-                 category: str,
                  field: str,
                  linguistics: str,
                  uid: str,
                  simple_lm_method: bool,
                  one_prefix_method: bool,
                  two_prefix_method: bool,
-                 lexically_identical: bool):
+                 lexically_identical: bool,
+                 category: str=None):
         super().__init__()
-        self.category = category
         self.field = field
         self.linguistics = linguistics
         self.uid = uid
@@ -88,7 +92,6 @@ class BenchmarkGenerator(Generator):
         :return: join metadata
         """
         metadata = {
-            "category": self.category,
             "field": self.field,
             "linguistics_term": self.linguistics,
             "UID": self.uid,
@@ -145,7 +148,7 @@ class PresuppositionGenerator(Generator):
                             if field in line:
                                 line[field] = string_beautify(line[field])
                                 line.update(constant_data)
-                        line["pairID"] = pairID + new_data["gold_label"][0]
+                        line["pairID"] = str(pairID) + line["gold_label"][0]
                         pairID += 1
                         generated_data.append(line)
             except Exception as e:

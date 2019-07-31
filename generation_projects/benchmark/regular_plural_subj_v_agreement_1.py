@@ -10,8 +10,7 @@ from utils.vocab_sets import *
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="agreement",
-                         field="morphology",
+        super().__init__(field="morphology",
                          linguistics="subject_verb_agreement",
                          uid="regular_plural_subj_v_agreement_1",
                          simple_lm_method=True,
@@ -54,4 +53,4 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 generator = AgreementGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=100)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)

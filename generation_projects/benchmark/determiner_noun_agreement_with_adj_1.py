@@ -8,8 +8,7 @@ from utils.string_utils import string_beautify
 
 class DetNGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="agreement",
-                         field="morphology",
+        super().__init__(field="morphology",
                          linguistics="det_N_agreement",
                          uid="determiner_noun_agreement_with_adj_1",
                          simple_lm_method=True,

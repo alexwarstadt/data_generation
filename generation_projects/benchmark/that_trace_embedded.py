@@ -7,10 +7,9 @@ from utils.string_utils import string_beautify
 from utils.vocab_sets import *
 
 
-class BindingGenerator(data_generator.BenchmarkGenerator):
+class ThatTraceGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(category="movement",
-                         field="syntax",
+        super().__init__(field="syntax",
                          linguistics="that_trace",
                          uid="that_trace_embedded",
                          simple_lm_method=True,
@@ -20,8 +19,6 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
         self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
         self.all_nonfinite_embedding_verbs = get_all_conjunctive([("finite", "0")], all_embedding_verbs)
-        self.all_wh = get_all("category", "NP_wh")
-        self.all_who = get_all_conjunctive([("expression", "who")], self.all_wh)
         self.all_copula = get_all_conjunctive([("category_2", "copula"), ("finite", "1")])
         self.all_adj_CP_arg = get_all("category_2", "Adj_CP")
 
@@ -52,7 +49,8 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         else:
             V2 = choice(all_intransitive_verbs)
             N3 = " "
-        wh = choice(self.all_who)
+        N_interim = choice(get_matches_of(V2, "arg_1", all_nouns))
+        wh = choice(get_matched_by(N_interim, "arg_1", all_wh_words))
         N2 = N_to_DP_mutate(choice(all_animate_nouns))
         cop = choice(get_matched_by(N2, "arg_1", self.all_copula))
         Adj_embed = choice(self.all_adj_CP_arg)
@@ -67,8 +65,8 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-binding_generator = BindingGenerator()
-binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
+generator = ThatTraceGenerator()
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
 
 
 
