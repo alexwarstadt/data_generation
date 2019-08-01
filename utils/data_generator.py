@@ -169,6 +169,40 @@ class PresuppositionGenerator(Generator):
                 if error_counter >= number_to_generate // 10:
                     raise Exception("Over 10\% of samples result in errors. You should fix this.")
 
+    def build_presupposition_paradigm(self, unembedded_trigger=None, negated_trigger=None, interrogative_trigger=None, modal_trigger=None, conditional_trigger=None,
+                                      presupposition=None, negated_presupposition=None, neutral_presupposition=None):
+        triggers = []
+        if unembedded_trigger is not None:
+            triggers.append((unembedded_trigger, "unembedded"))
+        if negated_trigger is not None:
+            triggers.append((negated_trigger, "negated"))
+        if interrogative_trigger is not None:
+            triggers.append((interrogative_trigger, "interrogative"))
+        if modal_trigger is not None:
+            triggers.append((modal_trigger, "modal"))
+        if conditional_trigger is not None:
+            triggers.append((conditional_trigger, "conditional"))
+
+        presuppositions = []
+        if presupposition is not None:
+            presuppositions.append((presupposition, "positive", "entailment"))
+        if negated_presupposition is not None:
+            presuppositions.append((negated_presupposition, "negated", "contradiction"))
+        if neutral_presupposition is not None:
+            presuppositions.append((neutral_presupposition, "neutral", "neutral"))
+
+        data = []
+        for trigger in triggers:
+            for presupposition in presuppositions:
+                data.append({
+                    "sentence1": trigger[0],
+                    "sentence2": presupposition[0],
+                    "trigger": trigger[1],
+                    "presupposition": presupposition[1],
+                    "gold_label": presupposition[2]
+                })
+        return data
+
     def make_metadata_dict(self):
         """
         (non token-specific metadata is in class fields, e.g. self.field=syntax)

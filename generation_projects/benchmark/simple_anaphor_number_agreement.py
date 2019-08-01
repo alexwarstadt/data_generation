@@ -22,7 +22,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
         self.all_safe_singular_nouns = np.setdiff1d(all_singular_nouns, all_singular_neuter_animate_nouns)
         self.all_safe_plural_nouns = np.setdiff1d(all_plural_nouns, all_singular_neuter_animate_nouns)
 
-        self.all_singular_reflexive_predicates = np.setdiff1d(all_refl_preds, all_plural_transitive_verbs)
+        self.all_singular_reflexive_predicates = np.setdiff1d(all_refl_preds, all_strictly_plural_transitive_verbs)
         self.all_plural_reflexive_predicates = np.setdiff1d(all_refl_preds, all_singular_transitive_verbs)
         self.all_singular_reflexives = reduce(np.union1d, (get_all("expression", "himself"),
                                                            get_all("expression", "herself"),

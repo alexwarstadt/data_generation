@@ -136,6 +136,9 @@ def pred_args_from_pred(pred, frequent=True, subj=None, allow_negated=True):
 
     return args
 
+def join_args(args):
+    return " ".join(x[0] for x in args)
+
 def pred_to_predp_mutate(pred, frequent=True, copula=True, aux=True, args=None):
     if args is None:
         args = pred_args_from_pred(pred, frequent)
@@ -300,6 +303,16 @@ def make_possessive(DP):
     DP[0] = DP[0] + poss_str
     return DP
 
+def negate_VP(verb, aux):
+    if aux["expression"] == "":
+        aux_neg = get_all("expression", "didn't")[0] if verb["past"] == "1" \
+            else get_all("expression", "doesn't")[0] if verb["3sg"] == "1" \
+            else get_all("expression", "don't")[0]
+        verb_neg = get_bare_form(verb)
+    else:
+        aux_neg = negate_aux(aux)
+        verb_neg = verb
+    return verb_neg, aux_neg
 
 def get_bare_form(verb):
     words = verb["expression"].split(" ")
@@ -315,18 +328,11 @@ def get_bare_form(verb):
     bare_verb["3sg"] = "0"
     return bare_verb
 
-
-
 def negate_V_args(V_args):
     # TODO: this is a hack
-    if V_args["aux"]["expression"] == "":
-        V_args["aux_neg"] = get_all("expression", "didn't")[0] if V_args["verb"]["past"] == "1" \
-            else get_all("expression", "doesn't")[0] if V_args["verb"]["3sg"] == "1" \
-            else get_all("expression", "don't")[0]
-        V_args["verb_neg"] = get_bare_form(V_args["verb"])
-    else:
-        V_args["aux_neg"] = negate_aux(V_args["aux"])
-        V_args["verb_neg"] = V_args["verb"]
+    verb_neg, aux_neg = negate_VP(V_args["verb"], V_args["aux"])
+    V_args["aux_neg"] = aux_neg
+    V_args["verb_neg"] = verb_neg
     return V_args
 
 def negate_aux(aux):
@@ -365,7 +371,38 @@ def negate_aux(aux):
     if aux["expression"] == "had":
         return get_all("expression", "hadn't")[0]
 
+def embed_in_question(sentence):
+    V = choice(all_rogatives)
+    N = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", all_nouns)))
+    aux = return_aux(V, N, allow_negated=False)
+    return "%s %s %s whether %s" % (N[0], aux[0], V[0], sentence)
 
+
+def embed_in_conditional(sentence):
+    conditionals = ["if",
+                    "no matter if",
+                    "whether or not",
+                    "assuming that",
+                    "on the condition that",
+                    "under the circumstances that",
+                    "should it be true that",
+                    "supposing that"]
+    consequents = ["it is OK",
+                   "it will be OK",
+                   "it isn't OK",
+                   "it won't be OK",
+                   "we'll be fine",
+                   "we won't be fine",
+                   "we are fine",
+                   "we aren't fine"]
+    conditional = choice(conditionals)
+    consequent = choice(consequents)
+    if sentence.endswith("."):
+        sentence = sentence[:-1]
+    if random.choice([True, False]):
+        return "%s %s, %s." % (conditional, sentence, consequent)
+    else:
+        return "%s %s %s." % (consequent, conditional, sentence)
 
 
 # test
