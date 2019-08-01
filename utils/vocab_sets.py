@@ -1,6 +1,7 @@
 from utils.vocab_table import *
 from utils.randomize import *
 from functools import reduce
+import numpy as np
 
 # NOUNS
 all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
@@ -38,12 +39,38 @@ all_refl_preds = reduce(np.union1d, (all_anim_anim_verbs, all_doc_doc_verbs))
 all_non_plural_transitive_verbs = np.extract(
     ["sg=0" not in x["arg_1"] and "pl=1" not in x["arg_1"] for x in all_transitive_verbs],
     all_transitive_verbs)
-all_plural_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], all_transitive_verbs)
-all_singular_transitive_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], all_transitive_verbs)
+all_strictly_plural_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], all_verbs)
+all_strictly_singular_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], all_verbs)
+all_strictly_plural_transitive_verbs = np.intersect1d(all_strictly_plural_verbs, all_transitive_verbs)
+all_strictly_singular_transitive_verbs = np.intersect1d(all_strictly_singular_verbs, all_transitive_verbs)
+all_possibly_plural_verbs = np.setdiff1d(all_verbs, all_strictly_singular_verbs)
+all_possibly_singular_verbs = np.setdiff1d(all_verbs, all_strictly_plural_verbs)
 all_non_finite_transitive_verbs = np.intersect1d(all_non_finite_verbs, all_transitive_verbs)
 all_non_finite_intransitive_verbs = get_all("finite", "0", all_intransitive_verbs)
 all_modals_auxs = get_all("category", "(S\\NP)/(S[bare]\\NP)")
+all_modals = get_all("category_2", "modal")
+all_auxs = get_all("category_2", "aux")
+all_negated_modals_auxs = get_all("negated", "1", all_modals_auxs)
+all_non_negated_modals_auxs = get_all("negated", "0", all_modals_auxs)
+all_negated_modals = get_all("negated", "1", all_modals)
+all_non_negated_modals = get_all("negated", "0", all_modals)
+all_negated_auxs = get_all("negated", "1", all_auxs)
+all_non_negated_auxs = get_all("negated", "0", all_auxs)
+
 all_copulas = get_all("category_2", "copula")
+all_rogatives = get_all("category", "(S\\NP)/Q")
+
+
+# all_non_negative_auxiliaries = get_all("negated", "0", all_modals_auxs)
+# all_negative_auxiliaries = get_all("negated", "1", all_modals_auxs)
+all_agreeing_aux = np.setdiff1d(all_auxs, get_all("arg_1", "sg=1;sg=0"))
+all_non_negative_agreeing_aux = get_all("negated", "0", all_agreeing_aux)
+all_negative_agreeing_aux = get_all("negated", "1", all_agreeing_aux)
+all_auxiliaries_no_null = np.setdiff1d(all_auxs, get_all("expression", ""))
+# all_non_negative_auxiliaries_no_null = np.intersect1d(all_non_negative_auxiliaries, all_auxiliaries_no_null)
+# all_negative_auxiliaries_no_null = np.intersect1d(all_negative_auxiliaries, all_auxiliaries_no_null)
+all_non_negative_copulas = get_all("negated", "0", all_copulas)
+all_negative_copulas = get_all("negated", "1", all_copulas)
 
 # OTHER
 all_quantifiers = get_all("category", "(S/(S\\NP))/N")
