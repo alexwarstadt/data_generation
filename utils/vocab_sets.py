@@ -50,8 +50,27 @@ all_non_finite_intransitive_verbs = get_all("finite", "0", all_intransitive_verb
 all_modals_auxs = get_all("category", "(S\\NP)/(S[bare]\\NP)")
 all_modals = get_all("category_2", "modal")
 all_auxs = get_all("category_2", "aux")
+all_negated_modals_auxs = get_all("negated", "1", all_modals_auxs)
+all_non_negated_modals_auxs = get_all("negated", "0", all_modals_auxs)
+all_negated_modals = get_all("negated", "1", all_modals)
+all_non_negated_modals = get_all("negated", "0", all_modals)
+all_negated_auxs = get_all("negated", "1", all_auxs)
+all_non_negated_auxs = get_all("negated", "0", all_auxs)
+
 all_copulas = get_all("category_2", "copula")
 all_rogatives = get_all("category", "(S\\NP)/Q")
+
+
+# all_non_negative_auxiliaries = get_all("negated", "0", all_modals_auxs)
+# all_negative_auxiliaries = get_all("negated", "1", all_modals_auxs)
+all_agreeing_aux = np.setdiff1d(all_auxs, get_all("arg_1", "sg=1;sg=0"))
+all_non_negative_agreeing_aux = get_all("negated", "0", all_agreeing_aux)
+all_negative_agreeing_aux = get_all("negated", "1", all_agreeing_aux)
+all_auxiliaries_no_null = np.setdiff1d(all_auxs, get_all("expression", ""))
+# all_non_negative_auxiliaries_no_null = np.intersect1d(all_non_negative_auxiliaries, all_auxiliaries_no_null)
+# all_negative_auxiliaries_no_null = np.intersect1d(all_negative_auxiliaries, all_auxiliaries_no_null)
+all_non_negative_copulas = get_all("negated", "0", all_copulas)
+all_negative_copulas = get_all("negated", "1", all_copulas)
 
 # OTHER
 all_quantifiers = get_all("category", "(S/(S\\NP))/N")

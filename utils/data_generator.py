@@ -145,6 +145,7 @@ class PresuppositionGenerator(Generator):
         past_sentences = set()
         generated_data = []
         pairID = 0
+        paradigmID = 0
         error_counter = 0
         constant_data = self.make_metadata_dict()
         self.make_logger(constant_data)
@@ -160,14 +161,17 @@ class PresuppositionGenerator(Generator):
                                 line[field] = string_beautify(line[field])
                                 line.update(constant_data)
                         line["pairID"] = str(pairID) + line["gold_label"][0]
+                        line["paradigmID"] = paradigmID
                         pairID += 1
                         output_writer.write(line)
+                    paradigmID += 1
             except Exception as e:
                 self.log_exception(e)
                 print(self.get_stack_trace(e))
                 error_counter += 1
                 if error_counter >= number_to_generate // 10:
                     raise Exception("Over 10\% of samples result in errors. You should fix this.")
+
 
     def build_presupposition_paradigm(self, unembedded_trigger=None, negated_trigger=None, interrogative_trigger=None, modal_trigger=None, conditional_trigger=None,
                                       presupposition=None, negated_presupposition=None, neutral_presupposition=None):
@@ -201,6 +205,25 @@ class PresuppositionGenerator(Generator):
                     "presupposition": presupposition[1],
                     "gold_label": presupposition[2]
                 })
+
+        data.append({
+            "sentence1": negated_trigger,
+            "sentence2": unembedded_trigger,
+            "trigger1": "negated",
+            "trigger2": "unembedded",
+            "gold_label": "contradiction",
+            "control_item": True
+        })
+
+        for trigger2 in triggers[2:]:
+            data.append({
+                "sentence1": trigger2[0],
+                "sentence2": unembedded_trigger,
+                "trigger1": trigger2[1],
+                "trigger2": "unembedded",
+                "gold_label": "neutral",
+                "control_item": True
+            })
         return data
 
     def make_metadata_dict(self):

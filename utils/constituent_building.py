@@ -21,7 +21,7 @@ def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
     VP = V_to_VP_mutate(verb, frequent=frequent, args=args)
     return VP
 
-def verb_args_from_verb(verb, frequent=True, subj=None, allow_negated=True):
+def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True):
     """
     :param verb: 
     :param frequent: 
@@ -35,15 +35,15 @@ def verb_args_from_verb(verb, frequent=True, subj=None, allow_negated=True):
 
     # all verbs have a subject
     if subj is None:
-        try:
-            args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", freq_vocab))))
-        except TypeError:
-            pass
+        args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", freq_vocab))))
     else:
         args["subj"] = subj
 
     # all verbs have an auxiliary (or null)
-    args["aux"] = return_aux(verb, args["subj"], allow_negated=allow_negated)
+    if aux is None:
+        args["aux"] = return_aux(verb, args["subj"], allow_negated=allow_negated, allow_modal=allow_modal)
+    else:
+        args["aux"] = aux
 
     # INTRANSITIVE
     if verb["category"] == "S\\NP":
@@ -166,6 +166,7 @@ def make_sentence_from_verb(verb, frequent=True):
 
 
 def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
+    VP = verb.copy()
     if args is None:
         args = verb_args_from_verb(verb, frequent)
     try:
@@ -177,8 +178,8 @@ def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
         pass
     except KeyError:
         pass
-    verb[0] = " ".join(phrases)
-    return verb
+    VP[0] = " ".join(phrases)
+    return VP
 
 def make_sentence(frequent=True):
     verb = choice(all_verbs)
@@ -200,7 +201,7 @@ def make_emb_subj_question(frequent=True):
     verb[0] = make_sentence_from_args(args)
     return verb
 
-def noun_args_from_noun(noun, frequent=True):
+def noun_args_from_noun(noun, frequent=True, allow_recursion=False):
     """
     
     :param noun: 
@@ -222,13 +223,16 @@ def noun_args_from_noun(noun, frequent=True):
         args["det"] = []
         args["args"] = []
     if noun["category"] == "N/NP":
-        try:
+        if allow_recursion:
             obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, freq_vocab))))
-        except IndexError:
-            pass
+        else:
+            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, freq_vocab))))
         args["args"] = [obj]
     if noun["category"] == "N\\NP[poss]":
-        poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, freq_vocab)))))
+        if allow_recursion:
+            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, freq_vocab)))))
+        else:
+            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, freq_vocab)))))
         args["det"] = poss
         args["args"] = []
     else:
@@ -376,6 +380,43 @@ def embed_in_question(sentence):
     N = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", all_nouns)))
     aux = return_aux(V, N, allow_negated=False)
     return "%s %s %s whether %s" % (N[0], aux[0], V[0], sentence)
+
+def embed_in_negation(sentence, neutral=True):
+    if neutral:
+        negations = ["it's not the case that",
+                     "it's false that",
+                     "it's not true that",
+                     "it's incorrect to say that"]
+    else:
+        N = choice(all_proper_names)
+        negations = ["it's not the case that",
+                     "it's false that",
+                     "it's not true that",
+                     "it's incorrect to say that",
+                     "it's a lie that",
+                     "%s is mistaken that" % N[0],
+                     "%s is wrong that" % N[0],
+                     "%s lied that" % N[0],
+                     "%s falsely believes that" % N[0]]
+    neg = np.random.choice(negations)
+    return "%s %s" % (neg, sentence)
+
+
+def embed_in_modal(sentence):
+    N = choice(all_proper_names)
+    modals = ["it's possible that",
+              "it might be true that",
+              "it's conceivable that",
+              "it's unlikely that",
+              "it's likely that",
+              "it might turn out that",
+              "%s might be right that" % N[0],
+              "%s believes that" % N[0],
+              "%s is under the impression that" % N[0],
+              "%s is probably correct that" % N[0],
+              ]
+    modal = np.random.choice(modals)
+    return "%s %s" % (modal, sentence)
 
 
 def embed_in_conditional(sentence):
