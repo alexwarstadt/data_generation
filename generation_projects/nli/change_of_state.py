@@ -70,16 +70,9 @@ class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
         interrogative_trigger = embed_in_question(unembedded_trigger)
         conditional_trigger = embed_in_conditional(unembedded_trigger)
 
-
         presupposition = "%s %s %s %s." % (subj_changed[0], cop, pred[0], " ".join([x[0] for x in pred_args]))
         negated_presupposition = embed_in_negation(presupposition, neutral=True)
         neutral_presupposition = "%s %s %s %s." % (subj_changed_alternative[0], cop, pred[0], " ".join([x[0] for x in pred_args]))
-
-        triggers = [(unembedded_trigger, "unembedded"),
-                    (negated_trigger, "negated")]
-        presuppositions = [(presupposition, "positive", "entailment"),
-                           (negated_presupposition, "negated", "contradiction"),
-                           (neutral_presupposition, "neutral", "neutral")]
 
         data = self.build_presupposition_paradigm(unembedded_trigger=unembedded_trigger,
                                                   negated_trigger=negated_trigger,
@@ -92,7 +85,7 @@ class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
         return data, presupposition
 
 generator = ChangeOfStateGenerator()
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
 # The ice will melt         The ice is frozen
 # The ice melts             ***

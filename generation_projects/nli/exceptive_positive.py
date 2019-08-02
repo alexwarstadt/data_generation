@@ -9,17 +9,18 @@ import inflect
 class BothGenerator(data_generator.PresuppositionGenerator):
     def __init__(self):
         super().__init__(
-            uid="cleft_existence"
+            uid="exceptive_positive"
         )
-        safe_det_str = ["a", "the", "an", "this", "that", ""]
+        safe_det_str = ["a", "the", "an", "this", "that", "some", ""]
         self.safe_dets = reduce(np.union1d, [get_all("expression", x, get_all("category_2", "D")) for x in safe_det_str])
         bad_verbs = np.union1d(all_intransitive_verbs, get_all("category_2", "IV_ag_pl"))
         self.safe_verbs = np.setdiff1d(all_possibly_singular_verbs, bad_verbs)
-        self.safe_nouns = np.setdiff1d(all_singular_nouns, get_all("institution", "1"))
+        self.safe_nouns = np.setdiff1d(all_nominals, get_all("institution", "1"))
 
 
     def sample(self):
-        # It is John who likes mice
+        # Aside from John, someone left.
+        # TODO: finish this
 
         V = choice(self.safe_verbs)
         try:
