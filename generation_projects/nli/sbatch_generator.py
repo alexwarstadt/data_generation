@@ -23,7 +23,7 @@ top = """#!/bin/bash
 
 
 cd ~/data_generation
-python -m generation_projects.benchmark.%s"""
+python -m generation_projects.nli.%s"""
 
 scripts = ["all_n",
            "both",
@@ -37,5 +37,5 @@ scripts = ["all_n",
 
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
 for s in scripts:
-    output_file = open(os.path.join(project_root, "slurm", "%s.sbatch" % s), "w")
+    output_file = open(os.path.join(project_root, "slurm/nli", "%s.sbatch" % s), "w")
     output_file.write(top % s)
