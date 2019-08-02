@@ -34,7 +34,7 @@ class BothGenerator(data_generator.PresuppositionGenerator):
             negated_options = ["there are exactly three %s %s %s.", "There are more than two %s %s %s.", "There are dozens of %s %s %s."]
             negated_presupposition = np.random.choice(negated_options) % (N_subj[0], rel[0], RC[0])
         else:
-            negated_presupposition = embed_in_negation(unembedded_trigger, neutral=True)
+            negated_presupposition = embed_in_negation(presupposition, neutral=True)
         neutral_presupposition = "there are exactly two %s %s %s" % (N_subj_alt[0], rel[0], RC[0])
 
         data = self.build_presupposition_paradigm(unembedded_trigger=unembedded_trigger,

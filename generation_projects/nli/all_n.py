@@ -20,7 +20,7 @@ class BothGenerator(data_generator.PresuppositionGenerator):
         number_inflector = inflect.engine()
         n = random.randint(2, 10)
         Num = number_inflector.number_to_words(n)
-        Num_plus = number_inflector.number_to_words(n)
+        Num_plus = number_inflector.number_to_words(n + 1)
 
         V = choice(all_possibly_plural_verbs)
         N_subj = choice(get_matches_of(V, "arg_1", all_plural_nouns))
@@ -42,8 +42,8 @@ class BothGenerator(data_generator.PresuppositionGenerator):
                                "there are dozens of"]
             negated_presupposition = "%s %s %s %s." % (np.random.choice(negated_options), N_subj[0], rel[0], RC[0])
         else:
-            negated_presupposition = embed_in_negation(unembedded_trigger, neutral=True)
-        neutral_presupposition = "there are exactly two %s %s %s." % (N_subj_alt[0], rel[0], RC[0])
+            negated_presupposition = embed_in_negation(presupposition, neutral=True)
+        neutral_presupposition = "there are exactly %s %s %s %s." % (Num, N_subj_alt[0], rel[0], RC[0])
 
         data = self.build_presupposition_paradigm(unembedded_trigger=unembedded_trigger,
                                                   negated_trigger=negated_trigger,
