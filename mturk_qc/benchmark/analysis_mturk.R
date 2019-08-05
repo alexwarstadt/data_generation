@@ -12,12 +12,12 @@ setwd("~/data_generation/mturk_qc/benchmark")
 
 ############### 
 # assign qualification to mturkers who've already taken the survey
-file<-read.csv("raw_results/Batch_3723146_batch_results.csv",header=T,check.names=FALSE)
+file<-read.csv("raw_results/Batch_3723331_batch_results.csv",header=T,check.names=FALSE)
 
 allNewWorkers<-data.frame("WorkerId"=unique(file$WorkerId))
 workers<-allNewWorkers%>%mutate("UPDATE-Benchmark"=1)
 
-write.csv(workers,"workerfile3.csv",na="",row.names=F)
+write.csv(workers,"workerfile4.csv",na="",row.names=F)
 ###############
 
 filenames = list.files("raw_results/", pattern='*.csv',full.names = T)
@@ -44,9 +44,13 @@ anonymizedData<-withAnonCode%>%
 # save anonymized here
 write.csv(anonymizedData,"anonymizedData.csv",row.names=F)
 
+meanWorkTime=mean(allData$WorkTimeInSeconds,na.rm=T)
+sdWorkTime=sd(allData$WorkTimeInSeconds,na.rm=T)
+
 Data1<-allData%>%
   filter(AssignmentStatus!="Rejected")%>%
   filter(Answer.english==1)%>%
+  #filter(WorkTimeInSeconds>30)%>%
   mutate(full1=paste(Input.item_1_condition,"-",Input.field_1_1,"-",Input.field_1_2,"-",Answer.Choice1))%>%
   mutate(full2=paste(Input.item_2_condition,"-",Input.field_2_1,"-",Input.field_2_2,"-",Answer.Choice2))%>%
   mutate(full3=paste(Input.item_3_condition,"-",Input.field_3_1,"-",Input.field_3_2,"-",Answer.Choice3))%>%
@@ -57,6 +61,7 @@ Data1<-allData%>%
          #Answer.native,Answer.navtive)%>%
   gather(setNum,allInfo,-Input.answer_order,-Input.list)%>%#,-Answer.native,-Answer.navtive)
   separate(allInfo,c("Condition","Sentence1","Sentence2","Answer"),"-",remove=F)%>%
+  mutate(eachSent=paste0(Condition,Sentence1))%>%
   filter(Answer!=" NA")%>%
   mutate(corrResp=as.numeric(str_sub(Condition,start=-2,end=-1)))%>%
   mutate(answerGiven=as.numeric(str_sub(Answer,start=2,end=2)))%>%
@@ -69,3 +74,14 @@ Data1<-allData%>%
 (plot=ggplot()+
     geom_bar(data=Data1, aes(x=Condition,fill=is.corr))+
     theme(axis.text.x = element_text(angle = 50, hjust = 1)))
+
+# get by sent means
+Data2<-Data1%>%
+  mutate(numeric_answer=case_when(is.corr == TRUE ~ 1,
+                                is.corr == FALSE  ~ 0))%>%
+  group_by(eachSent,Condition)%>%
+  summarise(rating=mean(numeric_answer),count=n())%>%
+  mutate(good_sent=case_when(rating>0.5~1,
+                             rating<=0.5~0))%>%
+  group_by(Condition)%>%
+  summarise(accepted=sum(good_sent))
