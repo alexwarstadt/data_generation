@@ -123,9 +123,9 @@ def extract_pairs(src, config, args):
         if pair_case not in outputs_by_case:
             outputs_by_case[pair_case] = ([], [])
         if inv:
-            sample = [src, s1_txt, s0_txt, 1, pair_case]
+            sample = [src, s1_txt, s0_txt, 0, pair_case]
         else:
-            sample = [src, s0_txt, s1_txt, 0, pair_case]
+            sample = [src, s0_txt, s1_txt, 1, pair_case]
         outputs_by_case[pair_case][0].append(sample)
         if diff(sents[sid_0]["bert"], sents[sid_1]["bert"]):
             outputs_by_case[pair_case][1].append(sample)
@@ -169,7 +169,7 @@ def main(arguments):
         "--data_dir",
         help="directory to save data to",
         type=str,
-        default="../outputs/npi/environments/splits/",
+        default="../outputs/npi/environments/",
     )
     parser.add_argument(
         "-m", "--min_size", help="number of pairs in each unit", type=int, default="50"
@@ -185,11 +185,11 @@ def main(arguments):
         "collected %d pairs, %d minimal pairs in total"
         % (len(outputs_minimal_pairs), len(outputs_cloze_pairs))
     )
-    file_out = os.path.join(args.data_dir, "acceptability_cloze_pairs.tsv")
+    file_out = os.path.join(args.data_dir, "npi_cloze_pairs.tsv")
     with open(file_out, "w", newline="") as tsv_out:
         tsv_out = csv.writer(tsv_out, delimiter="\t")
         tsv_out.writerows(outputs_cloze_pairs)
-    file_out = os.path.join(args.data_dir, "acceptability_minimal_pairs.tsv")
+    file_out = os.path.join(args.data_dir, "npi_minimal_pairs.tsv")
     with open(file_out, "w", newline="") as tsv_out:
         tsv_out = csv.writer(tsv_out, delimiter="\t")
         tsv_out.writerows(outputs_minimal_pairs)
