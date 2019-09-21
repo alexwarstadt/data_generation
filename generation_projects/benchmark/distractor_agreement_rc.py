@@ -12,7 +12,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="morphology",
                          linguistics="subject_verb_agreement",
-                         uid="subj_v_agreement_rc_distractor",
+                         uid="distractor_agreement_rc",
                          simple_lm_method=True,
                          one_prefix_method=True,
                          two_prefix_method=False,
@@ -67,15 +67,18 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
             word_good = Aux_agree
             word_bad = Aux_not_agree
 
+        dependency_length = len(" ".join([rel[0], Aux_emb[0], V_emb[0], obj_emb[0]]).split())
+
         data = {
             "sentence_good": "%s %s %s %s %s %s %s %s." % (subj[0], rel[0], Aux_emb[0], V_emb[0], obj_emb[0], Aux_agree, V_mat_agree[0], join_args(V_mat_args["args"])),
             "sentence_bad": "%s %s %s %s %s %s %s %s." % (subj[0], rel[0], Aux_emb[0], V_emb[0], obj_emb[0], Aux_not_agree, V_mat_not_agree[0], join_args(V_mat_args["args"])),
             "one_prefix_prefix": prefix,
             "one_prefix_word_good": word_good,
             "one_prefix_word_bad": word_bad,
+            "dependency_length": dependency_length
             # "distractor_is_plausible_subj": distractor_is_plausible_subj
         }
         return data, data["sentence_good"]
 
 generator = AgreementGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=100)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
