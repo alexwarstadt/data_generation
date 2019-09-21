@@ -10,12 +10,12 @@ def conjugate(verb, subj, allow_negated=True, require_negated=False):
     :return: copy of verb with modified string to include auxiliary
     """
     if allow_negated:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_auxs)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_modals_auxs)
     else:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_auxiliaries)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negated_modals_auxs)
 
     if require_negated:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_auxiliaries)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negated_modals_auxs)
 
     verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
     aux = choice(verb_agree_auxiliaries)
@@ -87,20 +87,25 @@ def require_aux_agree(verb, subj, allow_negated=True):
     :param allow_negated: are negated auxiliaries (e.g. shouldn't) allowed
     :return: auxiliary that agrees with verb
     """
-    if allow_negated:
-        if choice([True, False]):
+    if verb["finite"] == "1":
+        aux_agree = choice(get_all("expression", "", all_modals_auxs))
+        aux_nonagree = choice(get_all("expression", "", all_modals_auxs))
+    else:
+        if allow_negated:
+            if choice([True, False]):
+                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux)
+                subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
+            else:
+                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_agreeing_aux)
+                subj_nonagree_auxiliaries = np.setdiff1d(all_negative_agreeing_aux, subj_agree_auxiliaries)
+        else:
             subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux)
             subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
-        else:
-            subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_agreeing_aux)
-            subj_nonagree_auxiliaries = np.setdiff1d(all_negative_agreeing_aux, subj_agree_auxiliaries)
-    else:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux)
-        subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
 
-    verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
-    verb_nonagree_auxiliaries = get_matched_by(verb, "arg_2", subj_nonagree_auxiliaries)
+        verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
+        verb_nonagree_auxiliaries = get_matched_by(verb, "arg_2", subj_nonagree_auxiliaries)
 
-    aux_agree = choice(verb_agree_auxiliaries)
-    aux_nonagree = choice(verb_nonagree_auxiliaries)
+        aux_agree = choice(verb_agree_auxiliaries)
+        aux_nonagree = choice(verb_nonagree_auxiliaries)
     return {'aux_agree':aux_agree[0], 'aux_nonagree':aux_nonagree[0]}
+

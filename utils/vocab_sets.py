@@ -61,14 +61,10 @@ all_copulas = get_all("category_2", "copula")
 all_rogatives = get_all("category", "(S\\NP)/Q")
 
 
-# all_non_negative_auxiliaries = get_all("negated", "0", all_modals_auxs)
-# all_negative_auxiliaries = get_all("negated", "1", all_modals_auxs)
 all_agreeing_aux = np.setdiff1d(all_auxs, get_all("arg_1", "sg=1;sg=0"))
 all_non_negative_agreeing_aux = get_all("negated", "0", all_agreeing_aux)
 all_negative_agreeing_aux = get_all("negated", "1", all_agreeing_aux)
 all_auxiliaries_no_null = np.setdiff1d(all_auxs, get_all("expression", ""))
-# all_non_negative_auxiliaries_no_null = np.intersect1d(all_non_negative_auxiliaries, all_auxiliaries_no_null)
-# all_negative_auxiliaries_no_null = np.intersect1d(all_negative_auxiliaries, all_auxiliaries_no_null)
 all_non_negative_copulas = get_all("negated", "0", all_copulas)
 all_negative_copulas = get_all("negated", "1", all_copulas)
 
