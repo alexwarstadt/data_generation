@@ -4,14 +4,13 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
-from utils.vocab_sets import *
 
 
 class DetNGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="morphology",
                          linguistics="det_N_agreement",
-                         uid="determiner_noun_agreement_irregular_1",
+                         uid="determiner_noun_agreement_with_adj_irregular_1",
                          simple_lm_method=True,
                          one_prefix_method=True,
                          two_prefix_method=False,
@@ -23,36 +22,33 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         self.all_irreg_pluralizable_nouns = np.setdiff1d(self.all_irregular_nouns, self.all_unusable_nouns)
 
     def sample(self):
-        # John cleaned this table.
-        # N1   V1      Dem  N2_match
+        # John cleaned this dirty table.
+        # N1   V1      Dem  adj   N2_match
 
-        # John cleaned this tables.
-        # N1   V1      Dem  N2_mismatch
+        # John cleaned this dirty tables.
+        # N1   V1      Dem  adj   N2_mismatch
 
-        N2_match = choice(self.all_irreg_pluralizable_nouns)
-        try:
-            V1 = choice(get_matched_by(N2_match, "arg_2", all_transitive_verbs))
-        except TypeError:
-            pass
+        V1 = choice(all_transitive_verbs)
         try:
             N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         except TypeError:
             pass
-        #try:
-        #    N2_match = choice(get_matches_of(V1, "arg_2", self.all_irreg_pluralizable_nouns))
-        #except TypeError:
-        #    pass
+        try:
+            N2_match = choice(get_matches_of(V1, "arg_2", self.all_irreg_pluralizable_nouns))
+        except TypeError:
+            pass
         Dem = choice(get_matched_by(N2_match, "arg_1", all_demonstratives))
         if N2_match['pl'] == "1":
             N2_mismatch = N2_match['singularform']
         else:
             N2_mismatch = N2_match['pluralform']
         V1 = conjugate(V1, N1)
+        adj = choice(get_matched_by(N2_match, "arg_1", all_adjectives))
 
         data = {
-            "sentence_good": "%s %s %s %s." % (N1[0], V1[0], Dem[0], N2_match[0]),
-            "sentence_bad": "%s %s %s %s." % (N1[0], V1[0], Dem[0], N2_mismatch),
-            "one_prefix_prefix": "%s %s %s" % (N1[0], V1[0], Dem[0]),
+            "sentence_good": "%s %s %s %s %s." % (N1[0], V1[0], Dem[0], adj[0], N2_match[0]),
+            "sentence_bad": "%s %s %s %s %s." % (N1[0], V1[0], Dem[0], adj[0], N2_mismatch),
+            "one_prefix_prefix": "%s %s %s %s" % (N1[0], V1[0], Dem[0], adj[0]),
             "one_prefix_word_good": N2_match[0],
             "one_prefix_word_bad": N2_mismatch
         }
