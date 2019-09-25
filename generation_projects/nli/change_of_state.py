@@ -4,8 +4,7 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 from utils.vocab_sets import *
-from utils.string_utils import string_beautify
-import inflect
+from utils.embed import *
 
 class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
     def __init__(self):
