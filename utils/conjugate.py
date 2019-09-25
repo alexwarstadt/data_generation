@@ -52,7 +52,7 @@ def return_aux(verb, subj, allow_negated=True, require_negated=False, allow_moda
 
 def return_copula(subj, allow_negated=True, require_negated=False):
     if allow_negated:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_copulas)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_finite_copulas)
     else:
         subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_copulas)
     if require_negated:

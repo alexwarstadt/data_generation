@@ -68,6 +68,14 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
         VP[0] = "to " + VP[0]
         args["args"] = [args_emb["subj"], VP]
 
+    # OBJECT CONTROL
+    if verb["category_2"] == "V_control_object":
+        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2")))
+        v_emb = choice(get_matched_by(obj, "arg_1", all_bare_verbs))
+        VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
+        VP[0] = "to " + VP[0]
+        args["args"] = [obj, VP]
+
     # CLAUSE EMBEDDING
     if verb["category"] == "(S\\NP)/S":
         emb_clause = make_sentence(frequent)
@@ -88,6 +96,15 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
         VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
         VP[0] = "to " + VP[0]
         args["args"] = [VP]
+
+    if verb["category_2"] == "V_raising_subj":
+        v_emb = choice(all_bare_verbs)
+        args_emb = verb_args_from_verb(v_emb, frequent, subj=False)
+        VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
+        VP[0] = "to " + VP[0]
+        args["args"] = [VP]
+
+
 
     # TODO:DITRANSITIVE
 

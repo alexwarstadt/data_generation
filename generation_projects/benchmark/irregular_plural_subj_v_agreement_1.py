@@ -17,8 +17,11 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=True,
                          two_prefix_method=False,
                          lexically_identical=False)
-        self.all_irreg_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "1")])
-        self.all_reg_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "")])
+        self.safe_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "1"), ("sgequalspl", "")])
+        # self.safe_nouns = np.array(filter(lambda x: x["pluralform"] != x["expression"], all_irreg_nouns), dtype=data_type)
+        self.safe_verbs = reduce(np.union1d, (get_all("pres", "1", all_verbs),
+                                              get_all("ing", "1", all_verbs),
+                                              get_all("en", "1", all_verbs)))
 
     def sample(self):
         # The cat is        eating food
@@ -26,26 +29,16 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         # The cat are          eating food
         #     N1  aux_nonagree V1     N2
 
-        if random.choice([True, False]):
-            V1 = choice(all_non_finite_transitive_verbs)
-            try:
-                N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns)))
-            except TypeError:
-                pass
-        else:
-            V1 = choice(all_non_finite_intransitive_verbs)
-            N2 = " "
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_irreg_nouns)))
-        except TypeError:
-                pass
+        N1 = N_to_DP_mutate(choice(self.safe_nouns))
+        V1 = choice(get_matched_by(N1, "arg_1", self.safe_verbs))
+        VP = V_to_VP_mutate(V1, aux=False)
         auxes = require_aux_agree(V1, N1)
         aux_agree = auxes["aux_agree"]
         aux_nonagree = auxes["aux_nonagree"]
 
         data = {
-            "sentence_good": "%s %s %s %s." % (N1[0], aux_agree, V1[0], N2[0]),
-            "sentence_bad": "%s %s %s %s." % (N1[0], aux_nonagree, V1[0], N2[0]),
+            "sentence_good": "%s %s %s." % (N1[0], aux_agree, VP[0]),
+            "sentence_bad": "%s %s %s." % (N1[0], aux_nonagree, VP[0]),
             "one_prefix_prefix": "%s" % (N1[0]),
             "one_prefix_word_good": aux_agree,
             "one_prefix_word_bad": aux_nonagree
@@ -53,4 +46,4 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 generator = AgreementGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=1000)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
