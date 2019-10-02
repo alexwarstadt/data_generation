@@ -9,7 +9,7 @@ from utils.string_utils import string_beautify
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="semantics",
-                         linguistics="existential_there_quantifiers",
+                         linguistics="quantifiers",
                          uid="existential_there_quantifiers_1",
                          simple_lm_method=True,
                          one_prefix_method=False,

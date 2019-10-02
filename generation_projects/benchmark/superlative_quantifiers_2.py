@@ -10,7 +10,7 @@ from utils.vocab_sets import *
 class SuperlativeGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="semantics",
-                         linguistics="superlative_quantifiers",
+                         linguistics="quantifiers",
                          uid="superlative_quantifiers_2",
                          simple_lm_method=True,
                          one_prefix_method=False,

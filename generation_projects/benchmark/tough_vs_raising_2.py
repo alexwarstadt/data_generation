@@ -37,8 +37,8 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         be = return_copula(subj)
 
         data = {
-            "sentence_good": "%s %s %s to %s" % (subj[0], be[0], A_raising[0], VP[0]),
-            "sentence_bad": "%s %s %s to %s" % (subj[0], be[0], A_tough[0], VP[0]),
+            "sentence_good": "%s %s %s to %s." % (subj[0], be[0], A_raising[0], VP[0]),
+            "sentence_bad": "%s %s %s to %s." % (subj[0], be[0], A_tough[0], VP[0]),
         }
         return data, data["sentence_good"]
 
