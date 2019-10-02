@@ -44,5 +44,5 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 generator = CSCGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 

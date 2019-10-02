@@ -37,7 +37,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 generator = AnaphorGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 
 
 

@@ -58,7 +58,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 binding_generator = AnaphorGenerator()
-binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid, number_to_generate=10)
+binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
 
 
 
