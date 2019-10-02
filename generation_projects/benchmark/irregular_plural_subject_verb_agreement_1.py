@@ -12,7 +12,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="morphology",
                          linguistics="subject_verb_agreement",
-                         uid="irregular_plural_subj_v_agreement_1",
+                         uid="irregular_plural_subject_verb_agreement_1",
                          simple_lm_method=True,
                          one_prefix_method=True,
                          two_prefix_method=False,
