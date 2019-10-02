@@ -7,6 +7,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.string_utils import string_beautify
 from functools import reduce
+from utils.vocab_sets import *
 all_animate_nouns = get_all("animate", "1", all_nouns)
 
 
@@ -23,7 +24,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
         self.all_safe_plural_nouns = np.setdiff1d(all_plural_nouns, all_singular_neuter_animate_nouns)
 
         self.all_singular_reflexive_predicates = np.setdiff1d(all_refl_preds, all_strictly_plural_transitive_verbs)
-        self.all_plural_reflexive_predicates = np.setdiff1d(all_refl_preds, all_singular_transitive_verbs)
+        self.all_plural_reflexive_predicates = np.setdiff1d(all_refl_preds, all_strictly_singular_transitive_verbs)
         self.all_singular_reflexives = reduce(np.union1d, (get_all("expression", "himself"),
                                                            get_all("expression", "herself"),
                                                            get_all("expression", "itself")))
@@ -57,7 +58,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
 
 binding_generator = AnaphorGenerator()
-binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid)
+binding_generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % binding_generator.uid, number_to_generate=10)
 
 
 

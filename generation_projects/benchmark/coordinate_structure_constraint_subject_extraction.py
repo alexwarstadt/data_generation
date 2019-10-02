@@ -11,7 +11,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
                          linguistics="island_effects",
-                         uid="csc_subj_extraction",
+                         uid="coordinate_structure_constraint_subject_extraction",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,

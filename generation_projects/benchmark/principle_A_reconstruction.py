@@ -10,9 +10,9 @@ from utils.vocab_sets import *
 
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(field="morphology",
-                         linguistics="anaphor_agreement",
-                         uid="anaphor_reconstruction",
+        super().__init__(field="syntax_semantics",
+                         linguistics="binding",
+                         uid="principle_A_reconstruction",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,

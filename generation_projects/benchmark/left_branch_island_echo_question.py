@@ -11,7 +11,7 @@ class LeftBranchGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
                          linguistics="island_effects",
-                         uid="complex_left_branch_echoQ",
+                         uid="left_branch_island_echo_question",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=True,

@@ -9,9 +9,9 @@ from utils.vocab_sets import *
 
 class SentSubjGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(field="A_bar_syntax",
+        super().__init__(field="syntax",
                          linguistics="island_effects",
-                         uid="sentential_subject",
+                         uid="sentential_subject_island",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,

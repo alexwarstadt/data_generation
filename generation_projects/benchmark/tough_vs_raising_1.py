@@ -8,8 +8,8 @@ from utils.string_utils import string_beautify
 
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(field="syntax/semantics",
-                         linguistics="control/raising",
+        super().__init__(field="syntax_semantics",
+                         linguistics="control_raising",
                          uid="tough_vs_raising_1",
                          simple_lm_method=True,
                          one_prefix_method=False,

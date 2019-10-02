@@ -10,7 +10,7 @@ from utils.vocab_sets import *
 class DetNGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="morphology",
-                         linguistics="det_N_agreement",
+                         linguistics="determiner_noun_agreement",
                          uid="determiner_noun_agreement_irregular_2",
                          simple_lm_method=True,
                          one_prefix_method=False,

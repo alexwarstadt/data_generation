@@ -9,9 +9,9 @@ from utils.vocab_sets import *
 
 class BindingGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(field="syntax/semantics",
+        super().__init__(field="syntax_semantics",
                          linguistics="binding",
-                         uid="principle_A_case",
+                         uid="principle_A_case_1",
                          simple_lm_method=True,
                          one_prefix_method=True,
                          two_prefix_method=False,

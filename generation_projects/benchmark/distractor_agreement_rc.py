@@ -12,7 +12,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="morphology",
                          linguistics="subject_verb_agreement",
-                         uid="distractor_agreement_rc",
+                         uid="distractor_agreement_relative_clause",
                          simple_lm_method=True,
                          one_prefix_method=True,
                          two_prefix_method=False,
