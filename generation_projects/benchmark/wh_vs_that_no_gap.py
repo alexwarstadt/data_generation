@@ -10,8 +10,8 @@ from utils.vocab_sets import *
 class FillerGapGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
-                         linguistics="Filler-gap_dependency",
-                         uid="wh-vs-that_no-gap",
+                         linguistics="filler_gap_dependency",
+                         uid="wh_vs_that_no-gap",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,
