@@ -28,7 +28,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
 
         V_mat = choice(all_non_finite_transitive_verbs)
         Subj = N_to_DP_mutate(choice(get_matches_of(V_mat, "arg_1", all_nouns)))
-        Aux_mat = return_aux(V_mat, Subj)
+        Aux_mat = return_aux(V_mat, Subj, allow_negated=False)
         Obj = N_to_DP_mutate(choice(get_matches_of(V_mat, "arg_2", all_nouns)))
         V_emb = choice(get_matched_by(Obj, "arg_2", get_matched_by(Subj, "arg_1", self.all_ing_transitives)))
         Wh = choice(get_matched_by(Obj, "arg_1", all_wh_words))
