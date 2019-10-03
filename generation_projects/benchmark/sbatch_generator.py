@@ -75,6 +75,7 @@ scripts = ["adjunct_island",
             "principle_A_reconstruction",
             "regular_plural_subject_verb_agreement_1",
             "regular_plural_subject_verb_agreement_2",
+            "sbatch_generator",
             "sentential_negation_npi_licensor_present",
             "sentential_negation_npi_scope",
             "sentential_subject",
@@ -87,14 +88,15 @@ scripts = ["adjunct_island",
             "tough_vs_raising_1",
             "tough_vs_raising_2",
             "transitive",
-            "wh-questions_subj_gap",
-            "wh-questions_subj_gap_long-distance",
-            "wh-vs-that_no-gap_long-distance",
             "wh_island",
-            "wh_questions_obj_gap",
-            "wh_questions_obj_gap_long_distance",
+            "wh_questions_object_gap",
+            "wh_questions_object_gap_long_distance",
+            "wh_questions_subject_gap",
+            "wh_questions_subject_gap_long_distance",
             "wh_vs_that_no_gap",
-            "wh_vs_that_with_gap"
+            "wh_vs_that_no_gap_long_distance",
+            "wh_vs_that_with_gap",
+            "wh_vs_that_with_gap_long_distance"
             ]
 
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
@@ -102,3 +104,4 @@ for s in scripts:
     output_file = open(os.path.join(project_root, "slurm", "%s.sbatch" % s), "w")
     output_file.write(top % s)
     
+
