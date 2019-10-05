@@ -70,7 +70,8 @@ class Generator:
                 print(self.get_stack_trace(e))
                 error_counter += 1
                 if error_counter > number_to_generate // 5:
-                    raise Exception("Over 20\% of samples result in errors. You should fix this.")
+                    pass
+                    # raise Exception("Over 20\% of samples result in errors. You should fix this.")
         jsonlines.Writer(output).write_all(generated_data)
 
 

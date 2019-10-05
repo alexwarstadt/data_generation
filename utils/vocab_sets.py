@@ -25,8 +25,11 @@ all_proper_names = get_all("properNoun", "1")
 all_verbs = get_all("verb", "1")
 all_transitive_verbs = get_all("category", "(S\\NP)/NP")
 all_intransitive_verbs = get_all("category", "S\\NP")
+all_non_recursive_verbs = np.union1d(all_transitive_verbs, all_intransitive_verbs)
+all_finite_verbs = get_all("finite", "1", all_verbs)
 all_non_finite_verbs = get_all("finite", "0", all_verbs)
 all_ing_verbs = get_all("ing", "1", all_verbs)
+all_en_verbs = get_all("en", "1", all_verbs)
 all_bare_verbs = get_all("bare", "1", all_verbs)
 all_anim_anim_verbs = get_matched_by(choice(all_animate_nouns), "arg_1",
                                           get_matched_by(choice(all_animate_nouns), "arg_2",

@@ -109,3 +109,22 @@ def require_aux_agree(verb, subj, allow_negated=True):
         aux_nonagree = choice(verb_nonagree_auxiliaries)
     return {'aux_agree':aux_agree[0], 'aux_nonagree':aux_nonagree[0]}
 
+def get_mismatch_verb(verb):
+    if verb["pres"] == "1":
+        verb_root = get_all("root", verb["root"])
+        if verb["3sg"] == "1":
+            return choice(get_all("pres", "1", get_all("3sg", "0", verb_root)))
+        else:
+            return choice(get_all("pres", "1", get_all("3sg", "1", verb_root)))
+    else:
+        raise ValueError("Verb should be present tense.")
+
+def get_same_aux_verbs(verb):
+    if verb["finite"] == "1":
+        return all_finite_verbs
+    elif verb["bare"] == "1":
+        return all_bare_verbs
+    elif verb["en"] == "1":
+        return all_en_verbs
+    elif verb["ing"] == "1":
+        return all_ing_verbs

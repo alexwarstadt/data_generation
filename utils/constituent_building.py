@@ -21,7 +21,7 @@ def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
     VP = V_to_VP_mutate(verb, frequent=frequent, args=args)
     return VP
 
-def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True):
+def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True, allow_recursion=False):
     """
     :param verb: 
     :param frequent: 
@@ -56,13 +56,21 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     # FROM-ING EMBEDDING
     if verb["category"] == "(S\\NP)/(S[from]\\NP)":
         obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", freq_vocab)))
-        VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", all_ing_verbs)), frequent=frequent, aux=False)
+        if allow_recursion:
+            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", all_ing_verbs)), frequent=frequent, aux=False)
+        else:
+            safe_verbs = np.intersect1d(all_ing_verbs, all_non_recursive_verbs)
+            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", safe_verbs)), frequent=frequent, aux=False)
         VP[0] = "from " + VP[0]
         args["args"] = [obj, VP]
 
     # RAISING TO OBJECT
     if verb["category_2"] == "V_raising_object":
-        v_emb = choice(all_bare_verbs)
+        if allow_recursion:
+            v_emb = choice(all_bare_verbs)
+        else:
+            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
+            v_emb = choice(safe_verbs)
         args_emb = verb_args_from_verb(v_emb, frequent)
         VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
         VP[0] = "to " + VP[0]
@@ -71,7 +79,11 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     # OBJECT CONTROL
     if verb["category_2"] == "V_control_object":
         obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2")))
-        v_emb = choice(get_matched_by(obj, "arg_1", all_bare_verbs))
+        if allow_recursion:
+            v_emb = choice(get_matched_by(obj, "arg_1", all_bare_verbs))
+        else:
+            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
+            v_emb = choice(get_matched_by(obj, "arg_1", safe_verbs))
         VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
         VP[0] = "to " + VP[0]
         args["args"] = [obj, VP]
@@ -92,21 +104,26 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
 
     # SUBJECT CONTROL
     if verb["category"] == "(S\\NP)/(S[to]\\NP)":
-        v_emb = choice(get_matched_by(args["subj"], "arg_1", all_bare_verbs))
+        if allow_recursion:
+            v_emb = choice(get_matched_by(args["subj"], "arg_1", all_bare_verbs))
+        else:
+            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
+            v_emb = choice(get_matched_by(args["subj"], "arg_1", safe_verbs))
         VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
         VP[0] = "to " + VP[0]
         args["args"] = [VP]
 
+    # RAISING TO SUBJECT
     if verb["category_2"] == "V_raising_subj":
-        v_emb = choice(all_bare_verbs)
+        if allow_recursion:
+            v_emb = choice(all_bare_verbs)
+        else:
+            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
+            v_emb = choice(safe_verbs)
         args_emb = verb_args_from_verb(v_emb, frequent, subj=False)
         VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
         VP[0] = "to " + VP[0]
         args["args"] = [VP]
-
-
-
-    # TODO:DITRANSITIVE
 
     return args
 
