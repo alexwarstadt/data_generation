@@ -16,7 +16,7 @@ class FillerGapGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=False,
                          two_prefix_method=False,
                          lexically_identical=False)
-        self.embedding_verbs = get_all("category", "(S\\NP)/S")
+        self.wh_np_verbs = get_all("wh_np_verb", "1")
 
     def sample(self):
         # John noticed the man that Bill knows that saw everyone.
@@ -25,7 +25,7 @@ class FillerGapGenerator(data_generator.BenchmarkGenerator):
         # John noticed who the man that Bill knows saw everyone.
         # N1   V1      wh      N2  that N4   V3    V2  N3
 
-        V1 = choice(all_transitive_verbs)
+        V1 = choice(self.wh_np_verbs)
         try:
             N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
             N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_common_nouns)))

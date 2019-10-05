@@ -14,7 +14,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,
-                         lexically_identical=False)
+                         lexically_identical=True)
 
         self.predicates = np.union1d(all_refl_preds, get_all("category_2", "Adj_comp_than"))
         self.safe_subjs = np.setdiff1d(all_nominals, all_proper_names)

@@ -38,14 +38,13 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         while no_match:
             try:
                 V_raise = choice(self.raising_verbs)
-                V_control = choice(self.control_verbs)
+                V_control = choice(np.intersect1d(get_same_aux_verbs(V_raise), self.control_verbs))
                 m_subj = N_to_DP_mutate(choice(get_matches_of(V_raise, "arg_1", get_matches_of(V_control, "arg_1"))))
             except Exception:
                 continue
             no_match = False
 
-        Aux_raise = return_aux(V_raise, m_subj)
-        Aux_control = return_aux(V_control, m_subj)
+        Aux = return_aux(V_raise, m_subj)
 
         emb_subj = N_to_DP_mutate(choice(self.safe_emb_subjs), determiner=False)
         try:
@@ -60,10 +59,10 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         VP = V_to_VP_mutate(V, args=args, aux=False)
 
         data = {
-            "sentence_good": "%s %s %s there to be %s %s %s." % (m_subj[0], Aux_raise[0], V_raise[0], D[0], emb_subj[0], VP[0]),
-            "sentence_bad": "%s %s %s there to be %s %s %s." % (m_subj[0], Aux_control[0], V_control[0], D[0], emb_subj[0], VP[0]),
-            "two_prefix_prefix_good": "%s %s %s" % (m_subj[0], Aux_raise[0], V_raise[0]),
-            "two_prefix_prefix_bad": "%s %s %s" % (m_subj[0], Aux_control[0], V_control[0]),
+            "sentence_good": "%s %s %s there to be %s %s %s." % (m_subj[0], Aux[0], V_raise[0], D[0], emb_subj[0], VP[0]),
+            "sentence_bad": "%s %s %s there to be %s %s %s." % (m_subj[0], Aux[0], V_control[0], D[0], emb_subj[0], VP[0]),
+            "two_prefix_prefix_good": "%s %s %s" % (m_subj[0], Aux[0], V_raise[0]),
+            "two_prefix_prefix_bad": "%s %s %s" % (m_subj[0], Aux[0], V_control[0]),
             "two_prefix_word": "there"
         }
         return data, data["sentence_good"]

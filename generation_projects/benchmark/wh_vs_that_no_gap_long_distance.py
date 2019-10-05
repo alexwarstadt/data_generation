@@ -11,12 +11,12 @@ class FillerGapGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
                          linguistics="filler_gap_dependency",
-                         uid="wh_vs_that_no_gap_long-distance",
+                         uid="wh_vs_that_no_gap_long_distance",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,
                          lexically_identical=False)
-        self.embedding_verbs = get_all("category", "(S\\NP)/S")
+        self.embedding_verbs = get_all("responsive", "1")
 
     def sample(self):
         # I  know that the lion that roamed the plains devoured a gazelle.

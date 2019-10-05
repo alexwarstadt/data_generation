@@ -19,36 +19,47 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                          lexically_identical=False)
         self.all_irreg_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "1")])
         self.all_reg_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "")])
+        self.safe_verbs = reduce(np.union1d, (get_all("pres", "1", all_verbs),
+                                              get_all("ing", "1", all_verbs),
+                                              get_all("en", "1", all_verbs)))
 
     def sample(self):
-        # The cat is        eating food
-        #     N1  aux_agree V1     N2
-        # The cat are          eating food
-        #     N1  aux_nonagree V1     N2
+        # The cat is        eating     food
+        #     N1  aux_agree V1_agree     N2
+        # The cat are          eating        food
+        #     N1  aux_nonagree V1_nonagree     N2
 
         if random.choice([True, False]):
-            V1 = choice(all_non_finite_transitive_verbs)
-            try:
-                N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns)))
-            except TypeError:
-                pass
+            V1_agree = choice(np.intersect1d(self.safe_verbs, all_transitive_verbs))
         else:
-            V1 = choice(all_non_finite_intransitive_verbs)
-            N2 = " "
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_reg_nouns)))
-        except TypeError:
-                pass
-        auxes = require_aux_agree(V1, N1)
+            V1_agree = choice(np.intersect1d(self.safe_verbs, all_transitive_verbs))
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1_agree, "arg_1", self.all_reg_nouns)))
+
+        if V1_agree["pres"] == "1":
+            V1_nonagree = get_mismatch_verb(V1_agree)
+        else:
+            V1_nonagree = V1_agree
+
+        args = join_args(verb_args_from_verb(V1_agree, aux=False)["args"])
+
+        auxes = require_aux_agree(V1_agree, N1)
         aux_agree = auxes["aux_agree"]
         aux_nonagree = auxes["aux_nonagree"]
 
+        if aux_agree == "":
+            word_agree = V1_agree
+            word_nonagree = V1_nonagree
+        else:
+            word_agree = aux_agree
+            word_nonagree = aux_nonagree
+
+
         data = {
-            "sentence_good": "%s %s %s %s." % (N1[0], aux_agree, V1[0], N2[0]),
-            "sentence_bad": "%s %s %s %s." % (N1[0], aux_nonagree, V1[0], N2[0]),
+            "sentence_good": "%s %s %s %s." % (N1[0], aux_agree, V1_agree[0], args),
+            "sentence_bad": "%s %s %s %s." % (N1[0], aux_nonagree, V1_nonagree[0], args),
             "one_prefix_prefix": "%s" % (N1[0]),
-            "one_prefix_word_good": aux_agree,
-            "one_prefix_word_bad": aux_nonagree
+            "one_prefix_word_good": word_agree,
+            "one_prefix_word_bad": word_nonagree
         }
         return data, data["sentence_good"]
 

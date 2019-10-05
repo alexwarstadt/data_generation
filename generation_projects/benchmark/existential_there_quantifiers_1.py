@@ -16,7 +16,14 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          two_prefix_method=False,
                          lexically_identical=False)
         good_quantifiers_sg_str = ["a", "an"]
-        good_quantifiers_pl_str = ["no", "some", "few", "fewer than three", "more than three", "many", "a lot of", ""]
+        good_quantifiers_pl_str = ["no",
+                                   "some",
+                                   "few",
+                                   # "fewer than three",
+                                   # "more than three",
+                                   # "a lot of",
+                                   # "",
+                                   "many"]
         bad_quantifiers_str = ["all", "most", "every", "each"]
         self.good_quantifiers_sg = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in good_quantifiers_sg_str])
         self.good_quantifiers_pl = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in good_quantifiers_pl_str])

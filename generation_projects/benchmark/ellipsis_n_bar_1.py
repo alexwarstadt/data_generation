@@ -48,6 +48,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                             ("one", "more"),
                             ("one", "at least as many")
                             ]
+        self.safe_objs = np.setdiff1d(all_nominals, all_proper_names)
 
     def sample(self):
         # John  has  had two green cups and the girls  have had three.
@@ -64,7 +65,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
             Aux2 = Aux1
         else:
             Aux2 = return_aux(V, subj=Subj2)
-        Obj = choice(get_matches_of(V, "arg_2", get_all("mass", "0", all_nouns)))
+        Obj = choice(get_matches_of(V, "arg_2", get_all("mass", "0", self.safe_objs)))
         Adj = choice(get_matched_by(Obj, "arg_1", all_adjectives))
         if Obj["pl"] == "0":
             (D1, D2) = random.choice(self.singular_dets)

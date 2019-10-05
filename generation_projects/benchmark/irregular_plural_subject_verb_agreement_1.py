@@ -24,24 +24,35 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                                               get_all("en", "1", all_verbs)))
 
     def sample(self):
-        # The cat is        eating food
-        #     N1  aux_agree V1     N2
-        # The cat are          eating food
-        #     N1  aux_nonagree V1     N2
+        # The cat is        eating    food
+        #     N1  aux_agree V1_agree     N2
+        # The cat are          eating        food
+        #     N1  aux_nonagree V1_nonagree     N2
 
         N1 = N_to_DP_mutate(choice(self.safe_nouns))
-        V1 = choice(get_matched_by(N1, "arg_1", self.safe_verbs))
-        VP = V_to_VP_mutate(V1, aux=False)
-        auxes = require_aux_agree(V1, N1)
+        V1_agree = choice(get_matched_by(N1, "arg_1", self.safe_verbs))
+        if V1_agree["pres"] == "1":
+            V1_nonagree = get_mismatch_verb(V1_agree)
+        else:
+            V1_nonagree = V1_agree
+        args = join_args(verb_args_from_verb(V1_agree, aux=False)["args"])
+        auxes = require_aux_agree(V1_agree, N1)
         aux_agree = auxes["aux_agree"]
         aux_nonagree = auxes["aux_nonagree"]
 
+        if aux_agree == "":
+            word_agree = V1_agree
+            word_nonagree = V1_nonagree
+        else:
+            word_agree = aux_agree
+            word_nonagree = aux_nonagree
+
         data = {
-            "sentence_good": "%s %s %s." % (N1[0], aux_agree, VP[0]),
-            "sentence_bad": "%s %s %s." % (N1[0], aux_nonagree, VP[0]),
+            "sentence_good": "%s %s %s %s." % (N1[0], aux_agree, V1_agree[0], args),
+            "sentence_bad": "%s %s %s %s." % (N1[0], aux_nonagree, V1_nonagree[0], args),
             "one_prefix_prefix": "%s" % (N1[0]),
-            "one_prefix_word_good": aux_agree,
-            "one_prefix_word_bad": aux_nonagree
+            "one_prefix_word_good": word_agree,
+            "one_prefix_word_bad": word_nonagree
         }
         return data, data["sentence_good"]
 

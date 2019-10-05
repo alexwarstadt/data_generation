@@ -15,7 +15,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=False,
                          two_prefix_method=True,
                          lexically_identical=False)
-        self.clause_embedding_adjectives = get_all("category_2", "Adj_clausal")
+        self.clause_embedding_adjectives = get_all("category_2", "Adj_clausal", get_all("arg_1", "expression=it"))
         self.raising_verbs = get_all("category_2", "V_raising_object")
         self.control_verbs = get_all("category_2", "V_control_object")
 

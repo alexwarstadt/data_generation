@@ -18,6 +18,7 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
                          lexically_identical=False)
         self.quantifiers = ["at least", "at most"]
         self.singular_quantifiers = np.extract(["sg=1" in x["arg_1"] and x["expression"] != "no" for x in all_quantifiers], all_quantifiers)
+        self.safe_nouns = np.setdiff1d(all_plural_nouns, all_proper_names)
 
     def sample(self):
         # Every professor graded at least three papers
@@ -32,7 +33,7 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
         except IndexError:
             pass
         V = conjugate(V, N1, False)
-        N2 = choice(get_matches_of(V, "arg_2", all_plural_nouns))
+        N2 = choice(get_matches_of(V, "arg_2", self.safe_nouns))
         Qsup = random.choice(self.quantifiers)
         number_inflector = inflect.engine()
         Num = number_inflector.number_to_words(random.randint(2, 10))

@@ -13,12 +13,13 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          uid="tough_vs_raising_2",
                          simple_lm_method=True,
                          one_prefix_method=False,
-                         two_prefix_method=True,
+                         two_prefix_method=False,
                          lexically_identical=False)
 
         self.raising_preds = get_all("category_2", "Adj_raising_subj")
-        self.tough_preds = get_all("category_2", "Adj_tough")
-        self.strict_transitive = get_all("strict_trans", "1")
+        self.tough_preds = np.setdiff1d(get_all("category_2", "Adj_tough"), get_all("expression", "ready"))
+        self.safe_verbs = np.setdiff1d(all_bare_verbs,
+                                       np.union1d(get_all("causative", "1"), get_all("strict_intrans", "0")))
 
     def sample(self):
         # The hamburger is likely   to taste good
@@ -28,7 +29,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
 
         A_tough = choice(self.tough_preds)
         A_raising = choice(self.raising_preds)
-        V = choice(all_bare_verbs)
+        V = choice(self.safe_verbs)
         try:
             VP = V_to_VP_mutate(V, aux=False)
         except Exception:

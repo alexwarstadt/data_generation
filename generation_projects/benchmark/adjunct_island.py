@@ -14,7 +14,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,
-                         lexically_identical=False)
+                         lexically_identical=True)
 
         self.all_ing_transitives = np.intersect1d(all_transitive_verbs, all_ing_verbs)
         self.adverbs = ["before", "while", "after", "without"]

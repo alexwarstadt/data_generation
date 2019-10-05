@@ -23,6 +23,9 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         self.all_pluralizable_nouns = np.setdiff1d(all_common_nouns, self.all_unusable_nouns)
         self.all_irreg_nouns = get_all("irrpl", "1", self.all_pluralizable_nouns)
         self.all_reg_nouns = get_all("irrpl", "", self.all_pluralizable_nouns)
+        self.safe_verbs = reduce(np.union1d, (get_all("pres", "1", all_verbs),
+                                              get_all("ing", "1", all_verbs),
+                                              get_all("en", "1", all_verbs)))
 
     def sample(self):
         # The cat       is        eating food
@@ -31,18 +34,15 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         # D   N1_nonagree aux_agree V1     N2
 
         if random.choice([True, False]):
-            V1 = choice(all_non_finite_transitive_verbs)
+            V1 = choice(np.intersect1d(self.safe_verbs, all_transitive_verbs))
             try:
                 N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns)))
             except TypeError:
                 pass
         else:
-            V1 = choice(all_non_finite_intransitive_verbs)
+            V1 = choice(np.intersect1d(self.safe_verbs, all_intransitive_verbs))
             N2 = " "
-        try:
-            N1_agree = choice(get_matches_of(V1, "arg_1", self.all_reg_nouns))
-        except TypeError:
-                pass
+        N1_agree = choice(get_matches_of(V1, "arg_1", self.all_reg_nouns))
         if N1_agree['sg'] == "1":
             N1_nonagree = N1_agree['pluralform']
         else:
@@ -50,14 +50,19 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
         auxes = require_aux_agree(V1, N1_agree)
         aux_agree = auxes["aux_agree"]
-        aux_nonagree = auxes["aux_nonagree"]
+
+
+        if aux_agree == "":
+            word_agree = V1
+        else:
+            word_agree = aux_agree
 
         data = {
             "sentence_good": "The %s %s %s %s." % (N1_agree[0], aux_agree, V1[0], N2[0]),
             "sentence_bad": "The %s %s %s %s." % (N1_nonagree, aux_agree, V1[0], N2[0]),
             "two_prefix_prefix_good": "The %s" % (N1_agree[0]),
             "two_prefix_prefix_bad": "The %s" % (N1_nonagree),
-            "two_prefix_word": aux_agree
+            "two_prefix_word": word_agree
         }
         return data, data["sentence_good"]
 

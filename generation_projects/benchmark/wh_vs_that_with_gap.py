@@ -16,7 +16,7 @@ class FillerGapGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=False,
                          two_prefix_method=False,
                          lexically_identical=False)
-        self.embedding_verbs = get_all("category", "(S\\NP)/S")
+        self.embedding_verbs = get_all("responsive", "1")
         self.robustly_transitive_verbs = get_all("strict_trans", "1")
 
     def sample(self):

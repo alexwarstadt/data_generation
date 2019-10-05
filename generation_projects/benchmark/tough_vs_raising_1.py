@@ -13,7 +13,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          uid="tough_vs_raising_1",
                          simple_lm_method=True,
                          one_prefix_method=False,
-                         two_prefix_method=True,
+                         two_prefix_method=False,
                          lexically_identical=False)
 
         self.raising_preds = get_all("category_2", "Adj_raising_subj")

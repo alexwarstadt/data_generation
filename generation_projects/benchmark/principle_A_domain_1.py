@@ -46,9 +46,9 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
         Vembed = conjugate(Vembed, N2)
 
         data = {
-            "sentence_good": "%s %s %s %s %s." % (N1[0], V1[0], N2[0], Vembed[0], pro_match[0]),
-            "sentence_bad": "%s %s %s %s %s." % (N1[0], V1[0], N2[0], Vembed[0], refl_match[0]),
-            "one_prefix_prefix": "%s %s %s %s" % (N1[0], V1[0], N2[0], Vembed[0]),
+            "sentence_good": "%s %s that %s %s %s." % (N1[0], V1[0], N2[0], Vembed[0], pro_match[0]),
+            "sentence_bad": "%s %s that %s %s %s." % (N1[0], V1[0], N2[0], Vembed[0], refl_match[0]),
+            "one_prefix_prefix": "%s %s that %s %s" % (N1[0], V1[0], N2[0], Vembed[0]),
             "one_prefix_word_good": pro_match[0],
             "one_prefix_word_bad": refl_match[0]
         }
