@@ -55,7 +55,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         aux_agree = auxes["aux_agree"]
 
         if aux_agree == "":
-            word_agree = V1
+            word_agree = V1[0].strip().split(" ")[0]
         else:
             word_agree = aux_agree
 

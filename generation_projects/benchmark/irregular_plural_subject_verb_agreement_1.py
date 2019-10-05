@@ -41,8 +41,8 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         aux_nonagree = auxes["aux_nonagree"]
 
         if aux_agree == "":
-            word_agree = V1_agree
-            word_nonagree = V1_nonagree
+            word_agree = V1_agree[0].strip().split(" ")[0]
+            word_nonagree = V1_nonagree[0].strip().split(" ")[0]
         else:
             word_agree = aux_agree
             word_nonagree = aux_nonagree
@@ -52,7 +52,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
             "sentence_bad": "%s %s %s %s." % (N1[0], aux_nonagree, V1_nonagree[0], args),
             "one_prefix_prefix": "%s" % (N1[0]),
             "one_prefix_word_good": word_agree,
-            "one_prefix_word_bad": word_nonagree
+            "one_prefix_word_bad": word_nonagree,
         }
         return data, data["sentence_good"]
 

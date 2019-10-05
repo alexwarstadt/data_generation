@@ -47,8 +47,8 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         aux_nonagree = auxes["aux_nonagree"]
 
         if aux_agree == "":
-            word_agree = V1_agree
-            word_nonagree = V1_nonagree
+            word_agree = V1_agree[0].strip().split(" ")[0]
+            word_nonagree = V1_nonagree[0].strip().split(" ")[0]
         else:
             word_agree = aux_agree
             word_nonagree = aux_nonagree
