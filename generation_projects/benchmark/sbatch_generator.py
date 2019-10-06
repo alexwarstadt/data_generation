@@ -27,10 +27,9 @@ python -m generation_projects.benchmark.%s"""
 
 scripts = ["adjunct_island",
             "anaphor_gender_agreement",
-            "animate_obj_passive",
-            "animate_obj_transitive",
-            "animate_subj_passive",
-            "animate_subj_transitive",
+            "anaphor_number_agreement",
+            "animate_subject_passive",
+            "animate_subject_transitive",
             "causative",
             "complex_NP_island",
             "coordinate_structure_constraint_complex_left_branch",
@@ -81,7 +80,6 @@ scripts = ["adjunct_island",
             "sentential_negation_npi_licensor_present",
             "sentential_negation_npi_scope",
             "sentential_subject",
-            "simple_anaphor_number_agreement",
             "superlative_quantifiers_1",
             "superlative_quantifiers_2",
             "tough_vs_raising_1",
@@ -103,5 +101,6 @@ for s in scripts:
     output_file = open(os.path.join(project_root, "slurm", "%s.sbatch" % s), "w")
     output_file.write(top % s)
     
+
 
 

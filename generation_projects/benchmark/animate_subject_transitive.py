@@ -12,7 +12,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
                          linguistics="s-selection",
-                         uid="animate_subj_trans",
+                         uid="animate_subject_trans",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=True,

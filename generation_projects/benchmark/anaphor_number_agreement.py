@@ -15,7 +15,7 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="morphology",
                          linguistics="anaphor_agreement",
-                         uid="simple_anaphor_number_agreement",
+                         uid="anaphor_number_agreement",
                          simple_lm_method=True,
                          one_prefix_method=True,
                          two_prefix_method=False,
