@@ -37,7 +37,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
             "sentence_bad": "%s %s %s %s." % (Subj[0], Aux[0], V_intrans[0], Obj[0]),
             "two_prefix_prefix_good": "%s %s %s" % (Subj[0], Aux[0], V_trans[0]),
             "two_prefix_prefix_bad": "%s %s %s" % (Subj[0], Aux[0], V_intrans[0]),
-            "two_prefix_prefix_word": Obj[0].strip().split(" ")[0]
+            "two_prefix_word": Obj[0].strip().split(" ")[0]
         }
         return data, data["sentence_good"]
 

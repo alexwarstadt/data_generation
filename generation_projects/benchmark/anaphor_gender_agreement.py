@@ -39,9 +39,9 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
         data = {
             "sentence_good": "%s %s %s." % (N1[0], V1[0], refl_match[0]),
             "sentence_bad": "%s %s %s." % (N1[0], V1[0], refl_mismatch[0]),
-            "one_prefix_prefix": "%s %s." % (N1[0], V1[0]),
-            "one_prefix_good": refl_match[0],
-            "one_prefix_bad": refl_mismatch[0]
+            "one_prefix_prefix": "%s %s" % (N1[0], V1[0]),
+            "one_prefix_word_good": refl_match[0],
+            "one_prefix_word_bad": refl_mismatch[0]
         }
         return data, data["sentence_good"]
 

@@ -1,10 +1,6 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
-from utils.randomize import choice
-from utils.string_utils import string_beautify
-from functools import reduce
 from utils.vocab_sets import *
 
 
@@ -18,10 +14,15 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                          two_prefix_method=False,
                          lexically_identical=False)
         self.safe_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "1"), ("sgequalspl", "")])
-        # self.safe_nouns = np.array(filter(lambda x: x["pluralform"] != x["expression"], all_irreg_nouns), dtype=data_type)
         self.safe_verbs = reduce(np.union1d, (get_all("pres", "1", all_verbs),
                                               get_all("ing", "1", all_verbs),
                                               get_all("en", "1", all_verbs)))
+        ambiguous_verbs = list(filter(lambda verb: len(list(filter(lambda x: x["root"] == verb["root"]
+                                                                             and x["past"] == "1"
+                                                                             and x["expression"] == verb["expression"],
+                                      all_verbs))) > 0,
+                                 get_all("pres", "1", all_verbs)))
+        self.safe_verbs = np.setdiff1d(self.safe_verbs, ambiguous_verbs)
 
     def sample(self):
         # The cat is        eating    food

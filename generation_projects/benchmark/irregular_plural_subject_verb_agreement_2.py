@@ -26,6 +26,12 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         self.safe_verbs = reduce(np.union1d, (get_all("pres", "1", all_verbs),
                                               get_all("ing", "1", all_verbs),
                                               get_all("en", "1", all_verbs)))
+        ambiguous_verbs = list(filter(lambda verb: len(list(filter(lambda x: x["root"] == verb["root"]
+                                                                             and x["past"] == "1"
+                                                                             and x["expression"] == verb["expression"],
+                                      all_verbs))) > 0,
+                                 get_all("pres", "1", all_verbs)))
+        self.safe_verbs = np.setdiff1d(self.safe_verbs, ambiguous_verbs)
 
     def sample(self):
         # The cat       is        eating food
