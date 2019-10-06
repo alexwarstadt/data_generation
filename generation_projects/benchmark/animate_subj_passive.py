@@ -17,10 +17,13 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=True,
                          two_prefix_method=False,
                          lexically_identical=False)
+        self.strict_transitive = get_all("strict_trans", "1")
         self.all_inanim_subj_allowing_verbs = get_matched_by(choice(all_inanimate_nouns), "arg_1", all_transitive_verbs)
         self.all_anim_subj_allowing_verbs = get_matched_by(choice(all_animate_nouns), "arg_1", all_transitive_verbs)
         self.all_anim_subj_verbs = np.setdiff1d(self.all_anim_subj_allowing_verbs, self.all_inanim_subj_allowing_verbs)
         self.dets = ['the', 'some']
+        self.location_nouns = get_all("locale", "1")
+        self.nonlocation_commonnouns = np.setdiff1d(all_common_nouns, self.location_nouns)
 
     def sample(self):
         # The boy was talked to by the woman
@@ -33,8 +36,8 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         N1 = N_to_DP_mutate(choice(get_matched_by(V1, 'arg_2', all_nouns)))
         cop = return_copula(N1)
         det = choice(self.dets)
-        N2_good = choice(get_all("animate", "1", all_common_nouns))
-        N2_bad = choice(get_all("animate", "0", all_common_nouns))
+        N2_good = choice(get_all("animate", "1", get_matched_by(V1, "arg_1", all_common_nouns)))
+        N2_bad = choice(get_all("animate", "0", self.nonlocation_commonnouns))
 
         data = {
             "sentence_good": "%s %s %s by %s %s." % (N1[0], cop[0], V1[0], det, N2_good[0]),
@@ -46,4 +49,4 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 generator = AgreementGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
