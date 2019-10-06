@@ -15,7 +15,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,
-                         lexically_identical=True)
+                         lexically_identical=False)
         self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
         self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
 
@@ -31,7 +31,10 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
             N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         except TypeError:
             pass
-        V_do = return_aux(V1, N1, allow_negated=False)
+        V_do_bad = return_aux(V1, N1, allow_negated=False)
+        N1['sg'] = "0"
+        N1['pl'] = "1"
+        V_do_good = return_aux(V1, N1, allow_negated=False)
         try:
             N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         except TypeError:
@@ -39,8 +42,8 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         wh = choice(get_matched_by(V1, "arg_2", all_wh_words))
 
         data = {
-            "sentence_good": "%s %s %s and %s %s?" % (wh[0], V_do[0], N1[0], N2[0], V1[0]),
-            "sentence_bad": "%s %s %s %s and %s?" % (wh[0], V_do[0], N1[0], V1[0], N2[0])
+            "sentence_good": "%s %s %s and %s %s?" % (wh[0], V_do_good[0], N1[0], N2[0], V1[0]),
+            "sentence_bad": "%s %s %s %s and %s?" % (wh[0], V_do_bad[0], N1[0], V1[0], N2[0])
         }
         return data, data["sentence_good"]
 
