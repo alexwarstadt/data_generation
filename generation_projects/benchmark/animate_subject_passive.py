@@ -33,7 +33,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
         V1 = choice(get_all('en', '1', self.all_anim_subj_verbs))
 
-        N1 = N_to_DP_mutate(choice(get_matched_by(V1, 'arg_2', all_nouns)))
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, 'arg_2', all_nouns)))
         cop = return_copula(N1)
         det = choice(self.dets)
         N2_good = choice(get_all("animate", "1", get_matched_by(V1, "arg_1", all_common_nouns)))
@@ -49,4 +49,4 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 generator = AgreementGenerator()
-generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid, number_to_generate=10)
+generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
