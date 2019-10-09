@@ -11,7 +11,7 @@ class FillerGapGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
                          linguistics="filler_gap_dependency",
-                         uid="wh_vs_that_no-gap",
+                         uid="wh_vs_that_no_gap",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,
