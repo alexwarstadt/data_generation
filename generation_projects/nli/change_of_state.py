@@ -4,14 +4,12 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 from utils.vocab_sets import *
-from utils.string_utils import string_beautify
-import inflect
+from utils.embed import *
 
 class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
     def __init__(self):
         super().__init__(
-            # TODO: restore: uid="change_of_state"
-            uid="change_of_state_temp"
+            uid="change_of_state"
         )
         real_auxs = ["did", "is", "are", "was", "were", "has", "have", "had"]
         m_auxs = ["might", "would", "could", "should", "will", "can"]
@@ -66,33 +64,27 @@ class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
 
         # BUILD SENTENCES
         unembedded_trigger = "%s %s %s %s." % (V_args["subj"][0], V_args["aux"][0], V_args["verb"][0], " ".join([x[0] for x in V_args["args"]]))
-        negated_trigger = "%s %s %s %s." % (V_args["subj"][0], V_args["aux_neg"][0], V_args["verb_neg"][0], " ".join([x[0] for x in V_args["args"]]))
+        negated_trigger = embed_in_negation(unembedded_trigger, neutral=False)
+        modal_trigger = embed_in_modal(unembedded_trigger)
+        interrogative_trigger = embed_in_question(unembedded_trigger)
+        conditional_trigger = embed_in_conditional(unembedded_trigger)
 
         presupposition = "%s %s %s %s." % (subj_changed[0], cop, pred[0], " ".join([x[0] for x in pred_args]))
-        negated_presupposition = "%s %s %s %s." % (subj_changed[0], cop_neg, pred[0], " ".join([x[0] for x in pred_args]))
+        negated_presupposition = embed_in_negation(presupposition, neutral=True)
         neutral_presupposition = "%s %s %s %s." % (subj_changed_alternative[0], cop, pred[0], " ".join([x[0] for x in pred_args]))
 
-        triggers = [(unembedded_trigger, "unembedded"),
-                    (negated_trigger, "negated")]
-        presuppositions = [(presupposition, "positive", "entailment"),
-                           (negated_presupposition, "negated", "contradiction"),
-                           (neutral_presupposition, "neutral", "neutral")]
-
-        data = []
-        for trigger in triggers:
-            for presupposition in presuppositions:
-                data.append({
-                    "sentence1": trigger[0],
-                    "sentence2": presupposition[0],
-                    "trigger": trigger[1],
-                    "presupposition": presupposition[1],
-                    "gold_label": presupposition[2]
-                })
-
+        data = self.build_presupposition_paradigm(unembedded_trigger=unembedded_trigger,
+                                                  negated_trigger=negated_trigger,
+                                                  interrogative_trigger=interrogative_trigger,
+                                                  modal_trigger=modal_trigger,
+                                                  conditional_trigger=conditional_trigger,
+                                                  presupposition=presupposition,
+                                                  negated_presupposition=negated_presupposition,
+                                                  neutral_presupposition=neutral_presupposition)
         return data, presupposition
 
 generator = ChangeOfStateGenerator()
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
 # The ice will melt         The ice is frozen
 # The ice melts             ***

@@ -9,14 +9,21 @@ from utils.string_utils import string_beautify
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="semantics",
-                         linguistics="existential_there_quantifiers",
+                         linguistics="quantifiers",
                          uid="existential_there_quantifiers_1",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,
                          lexically_identical=False)
         good_quantifiers_sg_str = ["a", "an"]
-        good_quantifiers_pl_str = ["no", "some", "few", "fewer than three", "more than three", "many", "a lot of", ""]
+        good_quantifiers_pl_str = ["no",
+                                   "some",
+                                   "few",
+                                   # "fewer than three",
+                                   # "more than three",
+                                   # "a lot of",
+                                   # "",
+                                   "many"]
         bad_quantifiers_str = ["all", "most", "every", "each"]
         self.good_quantifiers_sg = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in good_quantifiers_sg_str])
         self.good_quantifiers_pl = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in good_quantifiers_pl_str])

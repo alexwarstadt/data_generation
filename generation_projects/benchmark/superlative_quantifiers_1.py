@@ -10,7 +10,7 @@ from utils.vocab_sets import *
 class SuperlativeGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="semantics",
-                         linguistics="superlative_quantifiers",
+                         linguistics="quantifiers",
                          uid="superlative_quantifiers_1",
                          simple_lm_method=True,
                          one_prefix_method=False,
@@ -18,6 +18,7 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
                          lexically_identical=False)
         self.quantifiers = [("more than", "at least"),
                             ("fewer than", "at most")]
+        self.safe_nouns = np.setdiff1d(all_plural_nouns, all_proper_names)
 
     def sample(self):
         # No professor graded more than three papers
@@ -28,7 +29,7 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
         V = choice(all_non_plural_transitive_verbs)
         N1 = choice(get_matches_of(V, "arg_1", all_singular_count_nouns))
         V = conjugate(V, N1, False)
-        N2 = choice(get_matches_of(V, "arg_2", all_plural_nouns))
+        N2 = choice(get_matches_of(V, "arg_2", self.safe_nouns))
         quantifiers = random.choice(self.quantifiers)
         Q1 = quantifiers[0]
         Q2 = quantifiers[1]

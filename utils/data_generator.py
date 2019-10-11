@@ -30,7 +30,10 @@ class Generator:
         # logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
 
     def log_exception(self, e):
-        logging.debug("".join(traceback.format_tb(e.__traceback__)) + str(e) + "\n")
+        logging.debug(self.get_stack_trace(e) + "\n")
+
+    def get_stack_trace(self, e):
+        return "".join(traceback.format_tb(e.__traceback__)) + str(e)
 
     def generate_paradigm(self, number_to_generate=1000, rel_output_path=None, absolute_path=None):
         if rel_output_path is not None:
@@ -43,9 +46,11 @@ class Generator:
         past_sentences = set()
         generated_data = []
         pairID = 0
+        error_counter = 0
         constant_data = self.make_metadata_dict()
         print("Generating data for " + constant_data["UID"])
         self.make_logger(constant_data)
+        output_writer = jsonlines.Writer(output, flush=True)
         while len(past_sentences) < number_to_generate:
             try:
                 new_data, track_sentence = self.sample()
@@ -59,9 +64,14 @@ class Generator:
                     pairID += 1
                     if pairID % 100 == 0:
                         print("%d sentences generated" % pairID)
-                    generated_data.append(new_data)
+                    output_writer.write(new_data)
             except Exception as e:
                 self.log_exception(e)
+                print(self.get_stack_trace(e))
+                error_counter += 1
+                if error_counter > number_to_generate // 5:
+                    pass
+                    # raise Exception("Over 20\% of samples result in errors. You should fix this.")
         jsonlines.Writer(output).write_all(generated_data)
 
 
@@ -136,8 +146,11 @@ class PresuppositionGenerator(Generator):
         past_sentences = set()
         generated_data = []
         pairID = 0
+        paradigmID = 0
+        error_counter = 0
         constant_data = self.make_metadata_dict()
         self.make_logger(constant_data)
+        output_writer = jsonlines.Writer(output, flush=True)
         while len(past_sentences) < number_to_generate:
             try:
                 new_data, track_sentence = self.sample()
@@ -149,11 +162,70 @@ class PresuppositionGenerator(Generator):
                                 line[field] = string_beautify(line[field])
                                 line.update(constant_data)
                         line["pairID"] = str(pairID) + line["gold_label"][0]
+                        line["paradigmID"] = paradigmID
                         pairID += 1
-                        generated_data.append(line)
+                        output_writer.write(line)
+                    paradigmID += 1
             except Exception as e:
                 self.log_exception(e)
-        jsonlines.Writer(output).write_all(generated_data)
+                print(self.get_stack_trace(e))
+                error_counter += 1
+                if error_counter >= number_to_generate // 10:
+                    raise Exception("Over 10\% of samples result in errors. You should fix this.")
+
+
+    def build_presupposition_paradigm(self, unembedded_trigger=None, negated_trigger=None, interrogative_trigger=None, modal_trigger=None, conditional_trigger=None,
+                                      presupposition=None, negated_presupposition=None, neutral_presupposition=None):
+        triggers = []
+        if unembedded_trigger is not None:
+            triggers.append((unembedded_trigger, "unembedded"))
+        if negated_trigger is not None:
+            triggers.append((negated_trigger, "negated"))
+        if interrogative_trigger is not None:
+            triggers.append((interrogative_trigger, "interrogative"))
+        if modal_trigger is not None:
+            triggers.append((modal_trigger, "modal"))
+        if conditional_trigger is not None:
+            triggers.append((conditional_trigger, "conditional"))
+
+        presuppositions = []
+        if presupposition is not None:
+            presuppositions.append((presupposition, "positive", "entailment"))
+        if negated_presupposition is not None:
+            presuppositions.append((negated_presupposition, "negated", "contradiction"))
+        if neutral_presupposition is not None:
+            presuppositions.append((neutral_presupposition, "neutral", "neutral"))
+
+        data = []
+        for trigger in triggers:
+            for presupposition in presuppositions:
+                data.append({
+                    "sentence1": trigger[0],
+                    "sentence2": presupposition[0],
+                    "trigger": trigger[1],
+                    "presupposition": presupposition[1],
+                    "gold_label": presupposition[2]
+                })
+
+        data.append({
+            "sentence1": negated_trigger,
+            "sentence2": unembedded_trigger,
+            "trigger1": "negated",
+            "trigger2": "unembedded",
+            "gold_label": "contradiction",
+            "control_item": True
+        })
+
+        for trigger2 in triggers[2:]:
+            data.append({
+                "sentence1": trigger2[0],
+                "sentence2": unembedded_trigger,
+                "trigger1": trigger2[1],
+                "trigger2": "unembedded",
+                "gold_label": "neutral",
+                "control_item": True
+            })
+        return data
 
     def make_metadata_dict(self):
         """

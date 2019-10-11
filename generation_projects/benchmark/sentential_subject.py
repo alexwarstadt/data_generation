@@ -9,9 +9,9 @@ from utils.vocab_sets import *
 
 class SentSubjGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
-        super().__init__(field="A_bar_syntax",
+        super().__init__(field="syntax",
                          linguistics="island_effects",
-                         uid="sentential_subject",
+                         uid="sentential_subject_island",
                          simple_lm_method=True,
                          one_prefix_method=False,
                          two_prefix_method=False,
@@ -42,7 +42,7 @@ class SentSubjGenerator(data_generator.BenchmarkGenerator):
         V2 = choice(self.all_inanim_anim_nonfinite_transitive_verbs)
         V_do = return_aux(V2, N1_poss, allow_negated=False)
         try:
-            N2 = N_to_DP_mutate(choice(get_matches_of(Ving, "arg_2", self.all_safe_nouns)))
+            N2 = N_to_DP_mutate(choice(get_matches_of(Ving, "arg_2", get_matches_of(V2, "arg_2", self.all_safe_nouns))))
         except TypeError:
             pass
 
