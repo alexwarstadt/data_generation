@@ -19,7 +19,6 @@ class SIGenerator(data_generator.NLIGenerator):
         self.all_singular_verbs = get_all("3sg", "1", all_verbs)
         self.all_plural_inanimate_nouns = np.intersect1d(all_inanimate_nouns, all_plural_nouns)
 
-
         self.w = w
         self.s = s
 
@@ -44,7 +43,7 @@ class SIGenerator(data_generator.NLIGenerator):
             trigger = "quantifier"
             position = choice(["subject","object"])
             #position = "object"
-            print(position)
+            #print(position)
             if position=="subject":
                 """quantifiers in subject position"""
 
@@ -106,7 +105,7 @@ class SIGenerator(data_generator.NLIGenerator):
             trigger = "numeral_"+w+"-"+s
             position = choice(["subject","object"])
             #position = "object"
-            print(position)
+
             if position=="subject":
                 """numerals in subject position"""
 
@@ -324,7 +323,7 @@ class SIGenerator(data_generator.NLIGenerator):
             #print("here6")
 
         elif w =="can":
-            type="modal"
+            trigger="modal"
             position="NA"
 
             #print("A")
@@ -365,6 +364,95 @@ class SIGenerator(data_generator.NLIGenerator):
             notW = DP[0]+" "+CANT+" "+VP
             notS = DP[0]+" "+NOTHAVETO+" "+VP
 
+        elif w=="adj":
+            trigger = "adjective"
+#TODO: remove universal quantifiers
+
+
+            scal_adjs_an=(("smart","brilliant"),("big","enourmous"))#,["well-off","rich"],["good looking", "gorgeous"],["fine","great"],["fat","obese"]]
+            scal_adjs_inan=(("good","excellent"),("big","enourmous"),("fine","great"))
+            #scal_adjs_food={["good","excellent"],["tasty","delicious"],["warm","hot"]}
+
+
+            adj_type=choice(["an","inan"])
+
+
+            if adj_type=="an":
+                N = choice(all_animate_nouns)
+                adj_idx = choice(range(len(scal_adjs_an)))
+                adj = scal_adjs_an[adj_idx]
+            else:
+                #inan_type=choice("inan","food")
+                #TODO:ADD FOOD
+                N = choice(all_inanimate_nouns)
+                adj_idx = choice(range(len(scal_adjs_inan)))
+                adj = scal_adjs_inan[adj_idx]
+            print(adj)
+
+                #if inan_type=="food":
+
+                    #adjs = scalar_adjs_inan
+
+
+            if N["sg"]=="1":
+                BE=" is "
+            else:
+                BE=" are "
+
+            DP = N_to_DP_mutate(N)
+
+            W_adj = adj[0]
+            S_adj = adj[1]
+            W = DP[0]+BE+W_adj
+            S = DP[0]+BE+S_adj
+            notW = DP[0]+BE+"not "+W_adj
+            notS = DP[0]+BE+ "not " + S_adj
+
+            lexemes = W_adj + "-" + S_adj
+
+        elif w=="verb":
+            trigger = "verb"
+
+
+
+            scal_verbs=[["ran", "sprinted"],["went towards","got to"]]
+
+
+            N = choice(all_animate_nouns)
+            DP = N_to_DP_mutate(N)
+            V_idx = choice(0,1)
+            location = choice(get_all_conjunctive([("category", "N"), ("locale", "1")]))
+            DP_loc = (N_to_DP_mutate(location))[0]
+
+            if V_idx==0:
+                lexemes = "ran - sprinted"
+                VP_type=choice(["bare","prep"])
+
+
+                if VP_type == "bare":
+                    W= DP[0]+" ran"
+                    S= DP[0]+" sprinted"
+                    notW= DP[0]+" did not run"
+                    notS=DP[0]+" did not sprint"
+                else:
+                    W= DP[0]+" ran to "+DP_loc
+                    S= DP[0]+" sprinted to "+DP_loc
+                    notW= DP[0]+" did not run to "+DP_loc
+                    notS=DP[0]+" did not sprint to "+DP_loc
+
+            else:
+                lexemes = "went towards - got to"
+
+                W = N[0] + " went towards "+DP_loc
+                S = N[0] + " got to "+DP_loc
+                notW = N[0] + " did not go towards "+DP_loc
+                notS = N[0] + " did not get to "+DP_loc
+
+
+
+
+
+
 
 
         C1 = [[W, notS], ["neutral", "entailment", "implicature_PtoN", "target"]]
@@ -385,6 +473,8 @@ class SIGenerator(data_generator.NLIGenerator):
             C2 = [(C1[0])[::-1], ["neutral", "neutral", "no_impl", "target"]]
             C5 = [[notS, notW], ["neutral", "neutral", "no_impl", "target"]]
             C6 = [(C5[0])[::-1], ["entailment", "neutral", "no_impl", "target"]]
+
+
 
         else:
             C2 = [(C1[0])[::-1], ["neutral", "entailment", "implicature_NtoP", "target"]]
@@ -423,7 +513,8 @@ class SIGenerator(data_generator.NLIGenerator):
                 "spec_relation": metadata[2],
                 "item_type": metadata[3],
                 "trigger": trigger,
-                "position": position
+                #"position": position
+                "lexemes": lexemes
             }
 
 
@@ -453,13 +544,12 @@ class SIGenerator(data_generator.NLIGenerator):
 
             try:
                 new_data, track_sentence = self.sample()
-
+                print(track_sentence)
 
                 if track_sentence not in past_sentences:
-                    print("hi")
+
                     past_sentences.append(track_sentence)
 
-                    print(past_sentences)
 
                     for C in new_data:
                         for field in self.data_fields:
@@ -473,16 +563,23 @@ class SIGenerator(data_generator.NLIGenerator):
 
 
 
-#generator = SIGenerator("some","all")
-#generator.generate_paradigm(number_to_generate=20, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator = SIGenerator("some","all")
+generator.generate_paradigm(number_to_generate=5, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
 #generator = SIGenerator("or","and")
-#generator.generate_paradigm(number_to_generate=1, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+#generator.generate_paradigm(number_to_generate=200, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
+#generator = SIGenerator("can", "have to")
+#generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
-# generator = SIGenerator("can", "have to")
-# generator.generate_paradigm(number_to_generate=0, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+#generator = SIGenerator("two","three")
+#generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
-generator = SIGenerator("two","three")
-generator.generate_paradigm(number_to_generate=2, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+#generator = SIGenerator("three","four")
+#generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
 
+#generator = SIGenerator("adj","adj")
+#generator.generate_paradigm(number_to_generate=200, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+
+#generator = SIGenerator("verb","verb")
+#generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
