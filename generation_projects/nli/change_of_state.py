@@ -40,6 +40,7 @@ class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
         V_cos = choice(self.safe_cos_verbs)
         V_args = verb_args_from_verb(V_cos, allow_negated=False)
         V_args = negate_V_args(V_args)
+        V_bare = get_bare_form(V_cos)
 
         # PRESUPPOSITION
         subj_changed = V_args["subj"] if V_cos["change_arg"] == "1" else V_args["args"][0]
@@ -64,13 +65,21 @@ class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
 
         # BUILD SENTENCES
         unembedded_trigger = "%s %s %s %s." % (V_args["subj"][0], V_args["aux"][0], V_args["verb"][0], " ".join([x[0] for x in V_args["args"]]))
-        negated_trigger = embed_in_negation(unembedded_trigger, neutral=False)
-        modal_trigger = embed_in_modal(unembedded_trigger)
-        interrogative_trigger = embed_in_question(unembedded_trigger)
-        conditional_trigger = embed_in_conditional(unembedded_trigger)
+        negated_trigger = "%s %s %s %s." % (V_args["subj"][0], V_args["aux_neg"][0], V_args["verb_neg"][0], " ".join([x[0] for x in V_args["args"]]))
+        modal_trigger = "%s might %s %s." % (V_args["subj"][0], V_bare[0], " ".join([x[0] for x in V_args["args"]]))
+        conditional_trigger = "If %s %s %s %s, it's okay." % (V_args["subj"][0], V_args["aux"][0], V_args["verb"][0], " ".join([x[0] for x in V_args["args"]]))
+
+        if V_cos["finite"] == "1":
+            do = get_do_form(V_cos)
+            interrogative_trigger = "%s %s %s %s?" % (do[0], V_args["subj"][0], V_bare[0], " ".join([x[0] for x in V_args["args"]]))
+        else:
+            interrogative_trigger = "%s %s %s %s?" % (V_args["aux"][0], V_args["subj"][0], V_bare[0], " ".join([x[0] for x in V_args["args"]]))
+
+
+
 
         presupposition = "%s %s %s %s." % (subj_changed[0], cop, pred[0], " ".join([x[0] for x in pred_args]))
-        negated_presupposition = embed_in_negation(presupposition, neutral=True)
+        negated_presupposition = "%s %s %s %s." % (subj_changed[0], cop_neg, pred[0], " ".join([x[0] for x in pred_args]))
         neutral_presupposition = "%s %s %s %s." % (subj_changed_alternative[0], cop, pred[0], " ".join([x[0] for x in pred_args]))
 
         data = self.build_presupposition_paradigm(unembedded_trigger=unembedded_trigger,
@@ -84,7 +93,7 @@ class ChangeOfStateGenerator(data_generator.PresuppositionGenerator):
         return data, presupposition
 
 generator = ChangeOfStateGenerator()
-generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/presupposition/%s.jsonl" % generator.uid)
 
 # The ice will melt         The ice is frozen
 # The ice melts             ***

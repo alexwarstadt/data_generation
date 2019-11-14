@@ -14,7 +14,7 @@ results_files = [list(filter(lambda file_name: model_name in file_name, os.listd
                  for model_name in ["bert", "bow", "infersent"]]
 for x in results_files:
     x.sort()
-data_dir = "/Users/alexwarstadt/Workspace/data_generation/outputs/nli/"
+data_dir = "/Users/alexwarstadt/Workspace/data_generation/outputs/IMPPRES/presupposition"
 data_files = list(filter(lambda x: "jsonl" in x and "scalar" not in x, os.listdir(data_dir)))
 data_files.sort()
 
@@ -142,7 +142,10 @@ def get_different_interrogatives(data):
     rogatives = list(set([get_bare_form_str(verb[0]) for verb in get_all("category", "(S\\NP)/Q")]))
     for rog in rogatives:
         rog_data = list(filter(lambda x: rog in x["sentence1"] or rog.capitalize() in x["sentence1"], data))
-        print("rog=%s\tn=%d\taccuracy=%f" % (rog, len(rog_data), accuracy(rog_data)))
+        try:
+            print("rog=%s\tn=%d\taccuracy=%f" % (rog, len(rog_data), accuracy(rog_data)))
+        except ZeroDivisionError:
+            print("rog=%s\tn=%d\taccuracy=N/A" % (rog, len(rog_data)))
 
 
 def get_different_modals(data):
@@ -315,17 +318,21 @@ def filter_entire_dataset(dataset):
 for x in [0, 1, 2]:
     print(results_files[x][0])
     all_data = aggregate_data(results_files[x], data_files)
-    all_data_filtered = filter_entire_dataset(all_data)
-    finely_summarize_data(all_data, "all")
-    # summarize_data(all_data, "all")
-    finely_summarize_data(all_data_filtered, "all")
-    for results_file, data_file in zip(results_files[x], data_files):
-        data = unify_results(results_file, data_file)
-        # summarize_data(data, label=data_file)
-        filtered_data = filter_entire_dataset(data)
-        finely_summarize_data(data, label=data_file + " unfiltered")
-        finely_summarize_data(filtered_data, label=data_file + " filtered")
-        print()
+    # all_data_filtered = filter_entire_dataset(all_data)
+    # finely_summarize_data(all_data, "all")
+    # # summarize_data(all_data, "all")
+    # finely_summarize_data(all_data_filtered, "all")
+    # for results_file, data_file in zip(results_files[x], data_files):
+    #     data = unify_results(results_file, data_file)
+    #     # summarize_data(data, label=data_file)
+    #     filtered_data = filter_entire_dataset(data)
+    #     finely_summarize_data(data, label=data_file + " unfiltered")
+    #     finely_summarize_data(filtered_data, label=data_file + " filtered")
+    #     print()
+    get_different_negations(list(filter(filters["control_negated"], all_data)))
+    get_different_interrogatives(list(filter(filters["control_interrogative"], all_data)))
+    get_different_modals(list(filter(filters["control_modal"], all_data)))
+    get_different_conditionals(list(filter(filters["control_conditional"], all_data)))
 
 
 
@@ -333,10 +340,6 @@ for x in [0, 1, 2]:
 
 # summarize_data(all_data, label="all")
 
-# get_different_negations(list(filter(filters["control_negated"], all_data)))
-# get_different_interrogatives(list(filter(filters["control_interrogative"], all_data)))
-# get_different_modals(list(filter(filters["control_modal"], all_data)))
-# get_different_conditionals(list(filter(filters["control_conditional"], all_data)))
 
 
 

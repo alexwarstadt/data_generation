@@ -228,7 +228,7 @@ def make_sentence_from_args(args):
 
 
 def make_emb_subj_question(frequent=True):
-    verb = choice(all_verbs)
+    verb = choice(all_possibly_singular_verbs)
     args = verb_args_from_verb(verb)
     wh = choice(get_matched_by(args["subj"], "arg_1", all_wh_words))
     args["subj"] = wh
@@ -412,6 +412,18 @@ def negate_aux(aux):
     if aux["expression"] == "had":
         return get_all("expression", "hadn't")[0]
 
+
+def get_do_form(verb):
+    do = get_all("expression", "do", all_auxs)[0]
+    does = get_all("expression", "does", all_auxs)[0]
+    did = get_all("expression", "did", all_auxs)[0]
+    if verb["past"] == "1":
+        return did
+    if verb["pres"] == "1":
+        if verb["3sg"] == "1":
+            return does
+        else:
+            return do
 
 # test
 
