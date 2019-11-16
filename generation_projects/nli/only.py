@@ -19,7 +19,7 @@ class OnlyGenerator(data_generator.PresuppositionGenerator):
         V_args = negate_V_args(verb_args_from_verb(V, allow_negated=False, allow_modal=False, allow_quantifiers=False))
         V_args = embed_V_args_under_modal(V_args)
         V_bare = get_bare_form(V)
-        VP = V_to_VP_mutate(V, aux=False, args=V_args, allow_quantifiers=False)
+        VP = V_to_VP_mutate(V, aux=False, args=V_args)
         N_alt = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", get_matches_of(V_args["aux"], "arg_1", all_nominals))), allow_quantifiers=False)
 
         if V_args["aux"][0] in ["does", "do", "did"]:

@@ -55,4 +55,4 @@ class BothGenerator(data_generator.PresuppositionGenerator):
 
 
 generator = BothGenerator()
-generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/presupposition/%s.jsonl" % generator.uid)
