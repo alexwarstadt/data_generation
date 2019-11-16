@@ -51,7 +51,7 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
                 """quantifiers in subject position"""
                 V = choice(self.all_plural_verbs)
                 N = choice(get_matches_of(V, "arg_1", self.all_plural_common_nouns))
-                v_args = verb_args_from_verb(V, subj=N)
+                v_args = verb_args_from_verb(V, subj=N, allow_quantifiers=False)
                 Aux = return_aux(V, N, allow_negated=False)
                 VP = " ".join([Aux[0],
                                V[0]] +
@@ -76,7 +76,7 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
                 notW = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],"no ",N2[0]])
                 notS = " ".join([DP1[0],Neg_V_args["aux_neg"][0], Neg_V_args["verb_neg"][0],"all",N2[0]])
 
-        elif w=="three" or w =="two":
+        elif w=="ten" or w =="two":
             trigger = "numeral_"+w+"-"+s
             position = choice(["subject","object"])
             #position = "object"
@@ -103,22 +103,11 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
                 """numerals in object position"""
                 V = choice(all_transitive_verbs)
                 N1 = choice(get_matches_of(V, "arg_1", all_nouns))
-                DP1= N_to_DP_mutate(N1)
+                DP1= N_to_DP_mutate(N1, allow_quantifiers=False)
                 #print(DP1[0])
                 N2 = choice(get_matches_of(V, "arg_2", self.all_plural_common_nouns), [N1])
                 V_args = verb_args_from_verb(V, subj=N1, allow_negated=False)
                 Neg_V_args = negate_V_args(V_args)
-
-                #Aux = return_aux(V, N1, allow_negated=False)
-                #print(Aux)
-
-
-
-
-                # W = " ".join([DP1[0],Aux[0],V[0],"some ",N2[0]])
-                # S = " ".join([DP1[0],Aux[0],V[0],"all ",N2[0]])
-                # notW = " ".join([DP1[0],Aux[0],V[0],"no ",N2[0]])
-                # notS = " ".join([DP1[0],Aux[0],"not",bareV[0],"all",N2[0]])
 
                 W = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],w,N2[0]])
                 S = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],s,N2[0]])
@@ -135,11 +124,11 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
 
                 # always generate plural verbs & nouns to avoid agreement issues with "and"
                 V = choice(self.all_plural_verbs)
-                N = choice(get_matches_of(V, "arg_1", all_plural_nouns))
+                N = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", all_plural_nouns)), allow_quantifiers=False)
                 if N["animate"]=="0":
-                    N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N])
+                    N2 = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N]), allow_quantifiers=False)
                 else:
-                    N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N])
+                    N2 = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N]), allow_quantifiers=False)
 
 
                 V_args = verb_args_from_verb(V, subj=N, allow_negated=False)
@@ -157,56 +146,53 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
                 """connectives in object position"""
                 V = choice(all_transitive_verbs)
                 bareV = get_all_conjunctive([("expression", V[0]), ("bare", "1")])
-                N = choice(get_matches_of(V, "arg_1", all_nouns))
-                DP1= N_to_DP_mutate(N)
-                x = choice([0, 1])
+                DP1 = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", all_nouns)), allow_quantifiers=False)
 
-                if x == 0:
-                    """plural members"""
-                    V = choice(self.all_plural_verbs)
-                    N1 = choice(get_matches_of(V, "arg_1", all_plural_nouns))
-                    if N1["animate"] == "0":
-                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N1])
-                    else:
-                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N1])
-
+                # always generate plural verbs & nouns to avoid agreement issues with "and"
+                V = choice(self.all_plural_verbs)
+                N1 = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", all_plural_nouns)), allow_quantifiers=False)
+                if N1["animate"] == "0":
+                    N2 = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N1]), allow_quantifiers=False)
                 else:
-                    """singular members"""
-                    V = choice(self.all_singular_verbs)
-                    N1 = choice(get_matches_of(V, "arg_1", all_singular_nouns))
-                    if N1["animate"] == "0":
-                        N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N1])
-                    else:
-                        N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N1])
+                    N2 = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N1]), allow_quantifiers=False)
 
-                V_args = verb_args_from_verb(V, subj=N, allow_negated=False)
+                # else:
+                #     """singular members"""
+                #     V = choice(self.all_singular_verbs)
+                #     N1 = choice(get_matches_of(V, "arg_1", all_singular_nouns))
+                #     if N1["animate"] == "0":
+                #         N2 = choice(get_matches_of(V, "arg_1", self.all_plural_inanimate_nouns), [N1])
+                #     else:
+                #         N2 = choice(get_matches_of(V, "arg_1", all_plural_animate_nouns), [N1])
+
+                V_args = verb_args_from_verb(V, subj=N1, allow_negated=False)
                 Neg_V_args = negate_V_args(V_args)
 
-                W = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],N1[0], "or", N2[0]])
-                S = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],N1[0], "and", N2[0]])
-                notW = " ".join([DP1[0],V_args["aux"][0], V_args["verb"][0],"neither", N1[0],"nor", N2[0]])
-                notS = " ".join([DP1[0],Neg_V_args["aux_neg"][0], "both", Neg_V_args["verb_neg"][0],"both",N1[0], "and", N2[0]])
+                W = " ".join([DP1[0], V_args["aux"][0], V_args["verb"][0], N1[0], "or", N2[0]])
+                S = " ".join([DP1[0], V_args["aux"][0], V_args["verb"][0], N1[0], "and", N2[0]])
+                notW = " ".join([DP1[0], V_args["aux"][0], V_args["verb"][0], "neither", N1[0],"nor", N2[0]])
+                notS = " ".join([DP1[0], Neg_V_args["aux_neg"][0], "both", Neg_V_args["verb_neg"][0], "both", N1[0], "and", N2[0]])
 
         elif w =="can":
-            trigger="modal"
-            position="NA"
-            V=choice(get_all("bare","1",all_verbs))
+            trigger = "modal"
+            position = "NA"
+            V = choice(get_all("bare", "1", all_verbs))
             N = choice(get_matches_of(V, "arg_1", all_nouns))
-            DP = N_to_DP_mutate(N)
-            v_args = verb_args_from_verb(V, subj=N)
+            DP = N_to_DP_mutate(N, allow_quantifiers=False)
+            v_args = verb_args_from_verb(V, subj=N, allow_quantifiers=False)
             time = choice("past","pres")
 
-            if time=="past":
-                CAN="could"
-                CANT="couldn't"
-                HAVETO="needed to"
-                NOTHAVETO="didn't need to"
+            if time == "past":
+                CAN = "could"
+                CANT = "couldn't"
+                HAVETO = "needed to"
+                NOTHAVETO = "didn't need to"
             else:
-                CAN="can"
-                CANT="can't"
-                HAVETO="need to"
-                if N("sg")==1:
-                    NOTHAVETO="doesn't need to"
+                CAN = "can"
+                CANT = "can't"
+                HAVETO = "need to"
+                if N("sg") == 1:
+                    NOTHAVETO = "doesn't need to"
                 else:
                     NOTHAVETO = "don't need to"
 
@@ -218,7 +204,7 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
             notW = DP[0]+" "+CANT+" "+VP
             notS = DP[0]+" "+NOTHAVETO+" "+VP
 
-        elif w=="adj":
+        elif w == "adj":
             trigger = "adjective"
 #TODO: remove universal quantifiers
 
@@ -250,7 +236,7 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
             else:
                 BE=" are "
 
-            DP = N_to_DP_mutate(N)
+            DP = N_to_DP_mutate(N, allow_quantifiers=False)
 
             W_adj = adj[0]
             S_adj = adj[1]
@@ -265,10 +251,10 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
             trigger = "verb"
             scal_verbs=[["ran", "sprinted"],["went towards","got to"]]
             N = choice(all_animate_nouns)
-            DP = N_to_DP_mutate(N)
+            DP = N_to_DP_mutate(N, allow_quantifiers=False)
             V_idx = random.choice([0,1,2])
             location = choice(get_all_conjunctive([("category", "N"), ("locale", "1")]))
-            DP_loc = (N_to_DP_mutate(location))[0]
+            DP_loc = (N_to_DP_mutate(location, allow_quantifiers=False))[0]
 
             if V_idx==0:
                 lexemes = "ran - sprinted"
@@ -353,28 +339,28 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
 
 #200
 generator = SIGenerator("some", "all")
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/quantifiers.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/quantifiers.jsonl")
 
 #200
 generator = SIGenerator("or", "and")
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/connectives.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/connectives.jsonl")
 
 #100
 generator = SIGenerator("can", "have to")
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/modals.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/modals.jsonl")
 
 #100
 generator = SIGenerator("two", "three")
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/numerals_2_3.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/numerals_2_3.jsonl")
 
 #100
 generator = SIGenerator("ten", "one hundred")
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/numerals_10_100.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/numerals_10_100.jsonl")
 
 #200
 generator = SIGenerator("adj", "adj")
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/gradable_adjective.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/gradable_adjective.jsonl")
 
 #200
 generator = SIGenerator("verb", "verb")
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/gradable_verb.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/implicature/gradable_verb.jsonl")

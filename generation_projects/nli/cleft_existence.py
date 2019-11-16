@@ -27,8 +27,8 @@ class BothGenerator(data_generator.PresuppositionGenerator):
         except Exception:
             pass
         D = choice(get_matched_by(N_subj, "arg_1", self.safe_dets))
-        VP = V_to_VP_mutate(V, args=verb_args_from_verb(V, subj=N_subj, allow_negated=False, allow_modal=False))
-        VP_alt = V_to_VP_mutate(V, args=verb_args_from_verb(V, subj=N_subj, allow_negated=False, allow_modal=False))
+        VP = V_to_VP_mutate(V, args=verb_args_from_verb(V, subj=N_subj, allow_negated=False, allow_modal=False, allow_quantifiers=False))
+        VP_alt = V_to_VP_mutate(V, args=verb_args_from_verb(V, subj=N_subj, allow_negated=False, allow_modal=False, allow_quantifiers=False))
         rel = choice(get_matched_by(N_subj, "arg_1", all_relativizers))
         existential = "someone" if N_subj["animate"] == "1" else "something"
         neg_existential = "no one" if N_subj["animate"] == "1" else "nothing"

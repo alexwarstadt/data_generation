@@ -77,5 +77,6 @@ data_type = [("expression", "U100000"),
              ("openable", "U1"),
              ("climbable", "U1"),
              ("cleanable", "U1"),
+             ("quantifier", "U1"),
             ]
 

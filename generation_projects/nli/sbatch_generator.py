@@ -32,7 +32,9 @@ scripts = ["all_n",
            "cleft_uniqueness",
            "only",
            "possessed_definites_existence",
-           "question_presupposition"
+           "possessed_definites_uniqueness",
+           "question_presupposition",
+           "scalar_implicatures"
            ]
 
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])

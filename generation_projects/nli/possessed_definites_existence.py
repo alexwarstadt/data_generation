@@ -40,7 +40,7 @@ class PossessGenerator(data_generator.PresuppositionGenerator):
         N2 = choice(self.safe_nouns)
         s_poss = "'" if N1["pl"] == "1" and N1[0][-1] == "s" else "'s"
         V = choice(get_matched_by(N2, "arg_1", all_bare_verbs))
-        V_args = verb_args_from_verb(V, subj=N2, allow_negated=False, allow_modal=False)
+        V_args = verb_args_from_verb(V, subj=N2, allow_negated=False, allow_modal=False, allow_quantifiers=False)
         V_args = negate_V_args(V_args)
         V_args = embed_V_args_under_modal(V_args)
         V_bare = get_bare_form(V)

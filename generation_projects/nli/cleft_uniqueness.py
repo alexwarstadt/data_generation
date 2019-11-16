@@ -24,8 +24,8 @@ class BothGenerator(data_generator.PresuppositionGenerator):
         V = choice(self.safe_verbs)
         N_subj = choice(get_matches_of(V, "arg_1", all_singular_nouns))
         D = choice(get_matched_by(N_subj, "arg_1", self.safe_dets))
-        VP = V_to_VP_mutate(V, args=verb_args_from_verb(V, subj=N_subj, allow_negated=False, allow_modal=False))
-        VP_alt = V_to_VP_mutate(V, args=verb_args_from_verb(V, subj=N_subj, allow_negated=False, allow_modal=False))
+        VP = V_to_VP_mutate(V, args=verb_args_from_verb(V, subj=N_subj, allow_negated=False, allow_modal=False, allow_quantifiers=False))
+        VP_alt = V_to_VP_mutate(V, args=verb_args_from_verb(V, subj=N_subj, allow_negated=False, allow_modal=False, allow_quantifiers=False))
         rel = choice(get_matched_by(N_subj, "arg_1", all_relativizers))
         uniq_noun = "person" if N_subj["animate"] == "1" else "thing"
 

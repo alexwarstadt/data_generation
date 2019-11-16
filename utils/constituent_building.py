@@ -251,7 +251,7 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
         if allow_quantifiers:
             args["det"] = choice(get_matched_by(noun, "arg_1", get_all("category", "(S/(S\\NP))/N", freq_vocab)))
         else:
-            args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", all_common_dets)))
+            args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", get_all("category", "(S/(S\\NP))/N", freq_vocab))))
     except IndexError:
         pass
     if noun["category"] == "N":
