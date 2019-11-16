@@ -60,4 +60,4 @@ class OnlyGenerator(data_generator.PresuppositionGenerator):
 
 
 generator = OnlyGenerator()
-generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/presupposition/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/presupposition/%s.jsonl" % generator.uid)
