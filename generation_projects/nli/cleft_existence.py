@@ -31,15 +31,16 @@ class BothGenerator(data_generator.PresuppositionGenerator):
         VP_alt = V_to_VP_mutate(V, args=verb_args_from_verb(V, subj=N_subj, allow_negated=False, allow_modal=False))
         rel = choice(get_matched_by(N_subj, "arg_1", all_relativizers))
         existential = "someone" if N_subj["animate"] == "1" else "something"
+        neg_existential = "no one" if N_subj["animate"] == "1" else "nothing"
 
         unembedded_trigger = "it is %s %s %s %s." % (D[0], N_subj[0], rel[0], VP[0])
-        negated_trigger = embed_in_negation(unembedded_trigger, neutral=False)
-        modal_trigger = embed_in_modal(unembedded_trigger)
-        interrogative_trigger = embed_in_question(unembedded_trigger)
-        conditional_trigger = embed_in_conditional(unembedded_trigger)
+        negated_trigger = "it isn't %s %s %s %s." % (D[0], N_subj[0], rel[0], VP[0])
+        modal_trigger = "it may be %s %s %s %s." % (D[0], N_subj[0], rel[0], VP[0])
+        interrogative_trigger = "is it %s %s %s %s?" % (D[0], N_subj[0], rel[0], VP[0])
+        conditional_trigger = "if it is %s %s %s %s, it's okay" % (D[0], N_subj[0], rel[0], VP[0])
 
         presupposition = "%s %s" % (existential, VP[0])
-        negated_presupposition = embed_in_negation(presupposition, neutral=True)
+        negated_presupposition = "%s %s" % (neg_existential, VP[0])
         neutral_presupposition = "%s %s" % (existential, VP_alt[0])
 
         data = self.build_presupposition_paradigm(unembedded_trigger=unembedded_trigger,

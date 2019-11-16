@@ -127,6 +127,57 @@ class NLIGenerator(Generator):
         return metadata
 
 
+class ScalarImplicatureGenerator(Generator):
+
+    def __init__(self,
+                 uid):
+        super().__init__()
+        self.uid = uid
+        self.data_fields = ["sentence1", "sentence2"]
+
+    def log_exception(self, e):
+        logging.debug("".join(traceback.format_tb(e.__traceback__)) + str(e) + "\n")
+
+    def generate_paradigm(self, number_to_generate=12, rel_output_path=None, absolute_path=None):
+        if rel_output_path is not None:
+            project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
+            output = open(os.path.join(project_root, rel_output_path), "w")
+        elif absolute_path is not None:
+            output = open(absolute_path, "w")
+        else:
+            raise Exception("You need to give an output path")
+        past_sentences = []
+        generated_data = []
+        constant_data = self.make_metadata_dict()
+        # error_counter = 0
+        #print(len(past_sentences))
+
+        while len(past_sentences) < number_to_generate:
+
+            try:
+                new_data, track_sentence = self.sample()
+                print(track_sentence)
+
+                if track_sentence not in past_sentences:
+
+                    past_sentences.append(track_sentence)
+
+
+                    for C in new_data:
+                        for field in self.data_fields:
+                            if field in C:
+                                C[field] = string_beautify(C[field])
+                                C.update(constant_data)
+                        generated_data.append(C)
+            except Exception as e:
+                self.log_exception(e)
+                print(self.get_stack_trace(e))
+                # error_counter += 1
+                # if error_counter >= number_to_generate // 10:
+                #     raise Exception("Over 10\% of samples result in errors. You should fix this.")
+        jsonlines.Writer(output).write_all(generated_data)
+
+
 class PresuppositionGenerator(Generator):
 
     def __init__(self,

@@ -21,7 +21,7 @@ def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
     VP = V_to_VP_mutate(verb, frequent=frequent, args=args)
     return VP
 
-def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True, allow_recursion=False):
+def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True, allow_recursion=False, allow_quantifiers=True):
     """
     :param verb: 
     :param frequent: 
@@ -35,7 +35,7 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
 
     # all verbs have a subject
     if subj is None:
-        args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", freq_vocab))))
+        args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", freq_vocab))), allow_quantifiers=allow_quantifiers)
     else:
         args["subj"] = subj
 
@@ -51,11 +51,11 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
 
     # TRANSITIVE
     if verb["category"] == "(S\\NP)/NP":
-        args["args"] = [N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", get_all("category", "N", freq_vocab))))]
+        args["args"] = [N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", get_all("category", "N", freq_vocab))), allow_quantifiers=allow_quantifiers)]
 
     # FROM-ING EMBEDDING
     if verb["category"] == "(S\\NP)/(S[from]\\NP)":
-        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", freq_vocab)))
+        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", freq_vocab)), allow_quantifiers=allow_quantifiers)
         if allow_recursion:
             VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", all_ing_verbs)), frequent=frequent, aux=False)
         else:
@@ -78,7 +78,7 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
 
     # OBJECT CONTROL
     if verb["category_2"] == "V_control_object":
-        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2")))
+        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2")), allow_quantifiers=allow_quantifiers)
         if allow_recursion:
             v_emb = choice(get_matched_by(obj, "arg_1", all_bare_verbs))
         else:
@@ -235,7 +235,7 @@ def make_emb_subj_question(frequent=True):
     verb[0] = make_sentence_from_args(args)
     return verb
 
-def noun_args_from_noun(noun, frequent=True, allow_recursion=False):
+def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quantifiers=True):
     """
     
     :param noun: 
@@ -244,11 +244,14 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False):
     """
     args = {}
     if frequent:
-        freq_vocab = get_all("frequent", "1")
+        freq_vocab = all_frequent
     else:
         freq_vocab = vocab
     try:
-        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("category", "(S/(S\\NP))/N", freq_vocab)))
+        if allow_quantifiers:
+            args["det"] = choice(get_matched_by(noun, "arg_1", get_all("category", "(S/(S\\NP))/N", freq_vocab)))
+        else:
+            args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", all_common_dets)))
     except IndexError:
         pass
     if noun["category"] == "N":
@@ -287,25 +290,20 @@ def N_to_DP(noun, frequent=True):
     return D
 
 
-def N_to_DP_mutate(noun, frequent=True, determiner=True):
+def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True):
     """
     :param noun: noun to turn into DP
     :param frequent: restrict to frequent determiners only?
     :return: NONE. mutates string of noun.
     """
-    args = noun_args_from_noun(noun, frequent)
-    try:
-        if determiner and args["det"] is not []:
-            noun[0] = " ".join([args["det"][0],
-                                noun[0]] +
-                               [x[0] for x in args["args"]])
-        else:
-            noun[0] = " ".join([noun[0]] +
-                               [x[0] for x in args["args"]])
-    except KeyError:
-        pass
-    except IndexError:
-        pass
+    args = noun_args_from_noun(noun, frequent, allow_quantifiers=allow_quantifiers)
+    if determiner and args["det"] is not []:
+        noun[0] = " ".join([args["det"][0],
+                            noun[0]] +
+                           [x[0] for x in args["args"]])
+    else:
+        noun[0] = " ".join([noun[0]] +
+                           [x[0] for x in args["args"]])
     return noun
 
 
@@ -412,6 +410,74 @@ def negate_aux(aux):
     if aux["expression"] == "had":
         return get_all("expression", "hadn't")[0]
 
+
+def embed_V_args_under_modal(V_args):
+    """ 
+    This is used to embed `John was sleeping' under might as `John might have been sleeping'. 
+    If the aux doesn't need to change, return None.
+    """
+    aux_under_modal, verb_under_modal = get_VP_under_modal_form(V_args["aux"], V_args["verb"])
+    V_args["aux_under_modal"] = aux_under_modal
+    V_args["verb_under_modal"] = verb_under_modal
+    return V_args
+
+
+def get_VP_under_modal_form(aux, verb):
+    """ 
+    This is used to embed `John was sleeping' under might as `John might have been sleeping'. 
+    If the aux doesn't need to change, return None.
+    """
+    if aux["expression"] == "might":
+        return None, verb
+    if aux["expression"] == "would":
+        return None, verb
+    if aux["expression"] == "could":
+        return None, verb
+    if aux["expression"] == "should":
+        return None, verb
+    if aux["expression"] == "will":
+        return None, verb
+    if aux["expression"] == "can":
+        return None, verb
+    if aux["expression"] == "do":
+        return None, verb
+    if aux["expression"] == "does":
+        return None, verb
+    if aux["expression"] == "did":
+        try:
+            return get_all("expression", "have", all_auxs)[0], get_en_form(verb)
+        except IndexError:
+            pass
+    if aux["expression"] == "is":
+        bare_aux = aux.copy()
+        bare_aux["expression"] = "be"
+        return bare_aux, verb
+    if aux["expression"] == "are":
+        bare_aux = aux.copy()
+        bare_aux["expression"] = "be"
+        return bare_aux, verb
+    if aux["expression"] == "was":
+        bare_aux = aux.copy()
+        bare_aux["expression"] = "been"
+        return bare_aux, verb
+    if aux["expression"] == "were":
+        bare_aux = aux.copy()
+        bare_aux["expression"] = "been"
+        return bare_aux, verb
+    if aux["expression"] == "has":
+        bare_aux = aux.copy()
+        bare_aux["expression"] = "have"
+        return bare_aux, verb
+    if aux["expression"] == "have":
+        return get_all("expression", "have", all_auxs)[0], verb
+    if aux["expression"] == "had":
+        return get_all("expression", "have", all_auxs)[0], verb
+    if aux["expression"] == "":
+        return aux, get_bare_form(verb)
+
+
+def get_en_form(verb):
+    return get_all("root", verb["root"], all_en_verbs)[0]
 
 def get_do_form(verb):
     do = get_all("expression", "do", all_auxs)[0]

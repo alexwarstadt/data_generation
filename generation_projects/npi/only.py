@@ -36,11 +36,7 @@ all_plural_non_locales = get_all_conjunctive([("category","N"),("locale","0"),("
 
 #quantity_adv = ('happily', 'angrily', 'appropriately', 'inappropriately')
 
-<<<<<<< HEAD
-replace_ever = ["often", "also", "really", "certainly", "clearly"]
-=======
 replace_ever = ["often", "really", "certainly", "clearly", "also"]
->>>>>>> a14a830ce8e22952fb51a0f7d95f1a970faf1085
 
 any_decoys = np.concatenate((get_all("expression", "the"), get_all_conjunctive([("expression", "that"), ("category_2", "D")]),
                          get_all("expression", "this"), get_all("expression", "these"), get_all("expression", "those")))
@@ -87,12 +83,6 @@ while len(sentences) < number_to_generate:
         continue
 
 
-<<<<<<< HEAD
-    sentence_5 = "even %s %s %s ever %s %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_6 = "even %s %s %s %s %s %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
-    sentence_7 = "%s %s %s ever %s even %s %s ." % (D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
-    sentence_8 = "%s %s %s %s %s even %s %s ." % (D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
-=======
     sentence_1 = "%s only %s %s %s ever %s %s %s." % (Prepend, D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
     sentence_2 = "%s only %s %s %s %s %s %s %s." % (Prepend, D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
     sentence_3 = "%s %s %s %s ever %s only %s %s." % (Prepend, D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
@@ -103,7 +93,6 @@ while len(sentences) < number_to_generate:
     sentence_7 = "%s %s %s %s ever %s even %s %s." % (Prepend, D1[0], N1[0], Aux[0], V[0], D2[0], N2[0])
     sentence_8 = "%s %s %s %s %s %s even %s %s." % (Prepend, D1[0], N1[0], Aux[0], Adv, V[0], D2[0], N2[0])
 
->>>>>>> a14a830ce8e22952fb51a0f7d95f1a970faf1085
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -172,17 +161,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s any %s only %s %s %s." % (Prepend, N1[0], V[0], D2[0], N2[0])
     sentence_4 = "%s %s %s only %s %s %s." % (Prepend, any_decoy_N1[0], N1[0],  V[0], D2[0], N2[0])
 
-<<<<<<< HEAD
-    sentence_5 = "even %s %s %s any %s ." % (D1[0], N1[0], V[0], N2[0])
-    sentence_6 = "even %s %s %s %s %s ." % (D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
-    sentence_7 = "any %s even %s %s %s ." % (N1[0],  V[0], D2[0], N2[0])
-    sentence_8 = "%s %s even %s %s %s ." % (any_decoy_N1[0], N1[0], V[0], D2[0], N2[0])
-=======
     sentence_5 = "%s even %s %s %s any %s." % (Prepend, D1[0], N1[0], V[0], N2[0])
     sentence_6 = "%s even %s %s %s %s %s." % (Prepend, D1[0], N1[0], V[0], any_decoy_N2[0], N2[0])
     sentence_7 = "%s any %s even %s %s %s." % (Prepend, N1[0], V[0], D2[0], N2[0])
     sentence_8 = "%s %s %s even %s %s %s." % (Prepend, any_decoy_N1[0], N1[0],  V[0], D2[0], N2[0])
->>>>>>> a14a830ce8e22952fb51a0f7d95f1a970faf1085
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -260,17 +242,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s %s %s %s %s %s at all only at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_4 = "%s %s %s %s %s %s only at the %s." % (Prepend, D1[0], N1[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-<<<<<<< HEAD
-    sentence_5 = "even %s %s %s %s %s at all at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s at all even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-=======
     sentence_5 = "%s even %s %s %s %s %s at all at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_6 = "%s even %s %s %s %s %s %s at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
     sentence_7 = "%s %s %s %s %s %s at all even at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_8 = "%s %s %s %s %s %s even at the %s." % (Prepend, D1[0], N1[0], D2[0], N2[0], q_adv, fin_adv[0])
->>>>>>> a14a830ce8e22952fb51a0f7d95f1a970faf1085
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -348,17 +323,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s %s %s %s %s %s yet only at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_4 = "%s %s %s %s %s %s %s only at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-<<<<<<< HEAD
-    sentence_5 = "even %s %s %s %s %s yet at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s yet even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-=======
     sentence_5 = "%s even %s %s %s %s %s yet at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_6 = "%s even %s %s %s %s %s %s at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
     sentence_7 = "%s %s %s %s %s %s yet even at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_8 = "%s %s %s %s %s %s %s even at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
->>>>>>> a14a830ce8e22952fb51a0f7d95f1a970faf1085
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -440,17 +408,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s %s %s %s %s %s in years only at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_4 = "%s %s %s %s %s %s %s only at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-<<<<<<< HEAD
-    sentence_5 = "even %s %s %s %s %s in years at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "even %s %s %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s in years even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-=======
     sentence_5 = "%s even %s %s %s %s %s in years at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_6 = "%s even %s %s %s %s %s %s at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
     sentence_7 = "%s %s %s %s %s %s in years even at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_8 = "%s %s %s %s %s %s %s even at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
->>>>>>> a14a830ce8e22952fb51a0f7d95f1a970faf1085
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)
@@ -528,17 +489,10 @@ while len(sentences) < number_to_generate:
     sentence_3 = "%s %s %s %s %s %s either only at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_4 = "%s %s %s %s %s %s %s only at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
 
-<<<<<<< HEAD
-    sentence_5 = "even %s %s also %s %s %s either at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_6 = "even %s %s also %s %s %s %s at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-    sentence_7 = "%s %s %s %s %s either even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
-    sentence_8 = "%s %s %s %s %s %s even at the %s ." % (D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
-=======
     sentence_5 = "%s even %s %s %s %s %s either at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_6 = "%s even %s %s %s %s %s %s at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
     sentence_7 = "%s %s %s %s %s %s either even at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], fin_adv[0])
     sentence_8 = "%s %s %s %s %s %s %s even at the %s." % (Prepend, D1[0], N1[0], V[0], D2[0], N2[0], q_adv, fin_adv[0])
->>>>>>> a14a830ce8e22952fb51a0f7d95f1a970faf1085
 
     # remove doubled up spaces (this is because of empty determiner AND EMPTY AUXILIARY).
     sentence_1 = remove_extra_whitespace(sentence_1)

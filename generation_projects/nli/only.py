@@ -16,22 +16,32 @@ class OnlyGenerator(data_generator.PresuppositionGenerator):
         # John should only go to France
 
         V = choice(all_verbs)
-        V_args = negate_V_args(verb_args_from_verb(V, allow_negated=False, allow_modal=False))
+        V_args = negate_V_args(verb_args_from_verb(V, allow_negated=False, allow_modal=False, allow_quantifiers=False))
+        V_args = embed_V_args_under_modal(V_args)
+        V_bare = get_bare_form(V)
         VP = V_to_VP_mutate(V, aux=False, args=V_args)
         N_alt = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", get_matches_of(V_args["aux"], "arg_1", all_nominals))))
 
         if V_args["aux"][0] in ["does", "do", "did"]:
-            unembedded_trigger = "%s only %s %s" % (V_args["subj"][0], V_args["aux"][0], VP[0])
+            unembedded_trigger = "%s only %s %s." % (V_args["subj"][0], V_args["aux"][0], VP[0])
         else:
-            unembedded_trigger = "%s %s only %s" % (V_args["subj"][0], V_args["aux"][0], VP[0])
-        negated_trigger = embed_in_negation(unembedded_trigger, neutral=False)
-        interrogative_trigger = embed_in_question(unembedded_trigger)
-        modal_trigger = embed_in_modal(unembedded_trigger)
-        conditional_trigger = embed_in_conditional(unembedded_trigger)
+            unembedded_trigger = "%s %s only %s." % (V_args["subj"][0], V_args["aux"][0], VP[0])
+        negated_trigger = "%s %s only %s %s." % (V_args["subj"][0], V_args["aux_neg"][0], V_args["verb_neg"][0], " ".join([x[0] for x in V_args["args"]]))
+        if V_args["aux_under_modal"] == None:
+            modal_trigger = "%s might only %s." % (V_args["subj"][0], VP[0])
+        else:
+            modal_trigger = "%s might %s only %s %s." % (V_args["subj"][0], V_args["aux_under_modal"][0], V_args["verb_under_modal"][0], " ".join([x[0] for x in V_args["args"]]))
+        conditional_trigger = "if %s, it's okay." % unembedded_trigger[-1]
+        if V["finite"] == "1":
+            do = get_do_form(V)
+            interrogative_trigger = "%s %s only %s %s?" % (do[0], V_args["subj"][0], V_bare[0], join_args(V_args["args"]))
+        else:
+            interrogative_trigger = "%s %s only %s?" % (V_args["aux"][0],  V_args["subj"][0], VP[0])
 
-        presupposition = "%s %s %s" % (V_args["subj"][0], V_args["aux"][0], VP[0])
-        negated_presupposition = embed_in_negation(presupposition, neutral=True)
-        neutral_presupposition = "%s %s %s" % (N_alt[0], V_args["aux"][0], VP[0])
+
+        presupposition = "%s %s %s." % (V_args["subj"][0], V_args["aux"][0], VP[0])
+        negated_presupposition = "%s %s %s %s." % (V_args["subj"][0], V_args["aux_neg"][0], V_args["verb_neg"][0], " ".join([x[0] for x in V_args["args"]]))
+        neutral_presupposition = "%s %s %s." % (N_alt[0], V_args["aux"][0], VP[0])
 
 
         data = self.build_presupposition_paradigm(unembedded_trigger=unembedded_trigger,
@@ -50,4 +60,4 @@ class OnlyGenerator(data_generator.PresuppositionGenerator):
 
 
 generator = OnlyGenerator()
-generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=10, rel_output_path="outputs/IMPPRES/presupposition/%s.jsonl" % generator.uid)

@@ -35,30 +35,36 @@ class PossessGenerator(data_generator.PresuppositionGenerator):
         # John's sister has      not left.
         # N1  's N2     aux_real NOT V_real
 
-        N1 = N_to_DP_mutate(choice(get_all("animate", "1", all_nouns)))
-        N1_alt = N_to_DP_mutate(choice(get_all("animate", "1", all_nouns), avoid=N1))
+        N1 = N_to_DP_mutate(choice(get_all("animate", "1", all_nouns)), allow_quantifiers=False)
+        N1_alt = N_to_DP_mutate(choice(get_all("animate", "1", all_nouns), avoid=N1), allow_quantifiers=False)
         N2 = choice(self.safe_nouns)
         s_poss = "'" if N1["pl"] == "1" and N1[0][-1] == "s" else "'s"
         V = choice(get_matched_by(N2, "arg_1", all_bare_verbs))
-        aux_real = choice(get_matched_by(N2, "arg_1", get_matched_by(V, "arg_2", self.real_auxs)))
-        V_m = get_bare_form(V)
-        aux_m = choice(self.m_auxs)
-        v_args = verb_args_from_verb(V, subj=N2, allow_negated=False)
-        VP = V_to_VP_mutate(V, aux=False, args=v_args)
+        V_args = verb_args_from_verb(V, subj=N2, allow_negated=False, allow_modal=False)
+        V_args = negate_V_args(V_args)
+        V_args = embed_V_args_under_modal(V_args)
+        V_bare = get_bare_form(V)
+        VP = V_to_VP_mutate(V, aux=False, args=V_args)
         D = "" if N2["pl"] == "1" or N2["mass"] == "1" else "a"
         HAVE = "has" if N1["sg"] == "1" else "have"
-        V_rog = choice(self.rogatives)
-        N0 = N_to_DP_mutate(choice(get_matches_of(V_rog, "arg_1", all_nouns)))
+        HAVE_NEG = "doesn't have" if N1["sg"] == "1" else "don't have"
 
 
-        unembedded_trigger = "%s%s %s %s %s." % (N1[0], s_poss, N2[0], aux_real[0], VP[0])
-        negated_trigger = embed_in_negation(unembedded_trigger, neutral=False)
-        interrogative_trigger = embed_in_question(unembedded_trigger)
-        modal_trigger = embed_in_modal(unembedded_trigger)
-        conditional_trigger = embed_in_conditional(unembedded_trigger)
+        unembedded_trigger = "%s%s %s %s %s." % (N1[0], s_poss, N2[0], V_args["aux"][0], VP[0])
+        negated_trigger = "%s%s %s %s %s %s." % (N1[0], s_poss, N2[0], V_args["aux_neg"][0], V_args["verb_neg"][0], join_args(V_args["args"]))
+        conditional_trigger = "if %s, it's okay." % unembedded_trigger[:-1]
+        if V_args["aux_under_modal"] == None:
+            modal_trigger = "%s%s %s might %s %s." % (N1[0], s_poss, N2[0], V_bare[0], join_args(V_args["args"]))
+        else:
+            modal_trigger = "%s%s %s might %s %s %s." % (N1[0], s_poss, N2[0], V_args["aux_under_modal"][0], V_args["verb_under_modal"][0], join_args(V_args["args"]))
+        if V["finite"] == "1":
+            do = get_do_form(V)
+            interrogative_trigger = "%s %s%s %s %s %s?" % (do[0], N1[0], s_poss, N2[0], V_bare[0], join_args(V_args["args"]))
+        else:
+            interrogative_trigger = "%s %s%s %s %s %s?" % (V_args["aux"][0], N1[0], s_poss, N2[0], V[0], join_args(V_args["args"]))
 
         presupposition = "%s %s %s %s." % (N1[0], HAVE, D, N2[0])
-        negated_presupposition = embed_in_negation(presupposition, neutral=True)
+        negated_presupposition = "%s %s %s %s." % (N1[0], HAVE_NEG, D, N2[0])
         neutral_presupposition = "%s %s %s %s." % (N1_alt[0], HAVE, D, N2[0])
 
         data = self.build_presupposition_paradigm(unembedded_trigger=unembedded_trigger,
@@ -72,4 +78,4 @@ class PossessGenerator(data_generator.PresuppositionGenerator):
         return data, presupposition
 
 generator = PossessGenerator()
-generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/nli/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/presupposition/%s.jsonl" % generator.uid)

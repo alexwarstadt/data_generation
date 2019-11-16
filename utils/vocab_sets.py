@@ -88,3 +88,4 @@ all_demonstratives = np.append(get_all("expression", "this"),
                             np.append(get_all_conjunctive([("category_2", "D"),("expression", "that")]),
                                     np.append(get_all("expression", "these"), get_all("expression", "those"))))
 all_adjectives = np.append(get_all("category_2", "adjective"), get_all("category_2", "Adj"))
+all_frequent = get_all("frequent", "1")
