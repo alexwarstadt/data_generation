@@ -31,7 +31,7 @@ class OnlyGenerator(data_generator.PresuppositionGenerator):
             modal_trigger = "%s might only %s." % (V_args["subj"][0], VP[0])
         else:
             modal_trigger = "%s might %s only %s %s." % (V_args["subj"][0], V_args["aux_under_modal"][0], V_args["verb_under_modal"][0], " ".join([x[0] for x in V_args["args"]]))
-        conditional_trigger = "if %s, it's okay." % unembedded_trigger[-1]
+        conditional_trigger = "if %s, it's okay." % unembedded_trigger[:-1]
         if V["finite"] == "1":
             do = get_do_form(V)
             interrogative_trigger = "%s %s only %s %s?" % (do[0], V_args["subj"][0], V_bare[0], join_args(V_args["args"]))

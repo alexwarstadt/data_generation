@@ -41,7 +41,7 @@ class QuestionGenerator(data_generator.PresuppositionGenerator):
         S = make_sentence_from_args(args_emb)
 
         unembedded_trigger = "%s %s %s %s %s." % (N_rog[0], aux_rog[0], V_rog[0], wh, S)
-        negated_trigger = "%s %s %s %s %s." % (N_rog[0], V_args["aux_neg"][0], V_bare[0], wh, S)
+        negated_trigger = "%s %s %s %s %s." % (N_rog[0], V_args["aux_neg"][0], V_args["verb_neg"][0], wh, S)
         conditional_trigger = "if %s, it's okay." % unembedded_trigger[:-1]
 
         if V_args["aux_under_modal"] == None:

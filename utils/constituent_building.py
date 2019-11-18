@@ -458,11 +458,11 @@ def get_VP_under_modal_form(aux, verb):
         return bare_aux, verb
     if aux["expression"] == "was":
         bare_aux = aux.copy()
-        bare_aux["expression"] = "been"
+        bare_aux["expression"] = "have been"
         return bare_aux, verb
     if aux["expression"] == "were":
         bare_aux = aux.copy()
-        bare_aux["expression"] = "been"
+        bare_aux["expression"] = "have been"
         return bare_aux, verb
     if aux["expression"] == "has":
         bare_aux = aux.copy()
@@ -473,7 +473,14 @@ def get_VP_under_modal_form(aux, verb):
     if aux["expression"] == "had":
         return get_all("expression", "have", all_auxs)[0], verb
     if aux["expression"] == "":
-        return aux, get_bare_form(verb)
+        if verb["pres"] == "1":
+            return aux, get_bare_form(verb)
+        else:
+            try:
+                return get_all("expression", "have", all_auxs)[0], get_en_form(verb)
+            except IndexError:
+                pass
+
 
 
 def get_en_form(verb):

@@ -209,12 +209,12 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
 #TODO: remove universal quantifiers
 
 
-            scal_adjs_an=(("smart","brilliant"),("big","enourmous"))#,["well-off","rich"],["good looking", "gorgeous"],["fine","great"],["fat","obese"]]
-            scal_adjs_inan=(("good","excellent"),("big","enourmous"),("fine","great"))
-            #scal_adjs_food={["good","excellent"],["tasty","delicious"],["warm","hot"]}
-            adj_type=choice(["an","inan"])
+            scal_adjs_an = (("smart", "brilliant"), ("big", "enormous")) #,["well-off","rich"],["good looking", "gorgeous"],["fine","great"],["fat","obese"]]
+            scal_adjs_inan = (("good", "excellent"), ("big", "enormous"), ("fine", "great"))
+            #scal_adjs_food = {["good","excellent"],["tasty","delicious"],["warm","hot"]}
+            adj_type = choice(["an", "inan"])
 
-            if adj_type=="an":
+            if adj_type == "an":
                 N = choice(all_animate_nouns)
                 adj_idx = choice(range(len(scal_adjs_an)))
                 adj = scal_adjs_an[adj_idx]

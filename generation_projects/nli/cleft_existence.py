@@ -35,7 +35,7 @@ class BothGenerator(data_generator.PresuppositionGenerator):
 
         unembedded_trigger = "it is %s %s %s %s." % (D[0], N_subj[0], rel[0], VP[0])
         negated_trigger = "it isn't %s %s %s %s." % (D[0], N_subj[0], rel[0], VP[0])
-        modal_trigger = "it may be %s %s %s %s." % (D[0], N_subj[0], rel[0], VP[0])
+        modal_trigger = "it might be %s %s %s %s." % (D[0], N_subj[0], rel[0], VP[0])
         interrogative_trigger = "is it %s %s %s %s?" % (D[0], N_subj[0], rel[0], VP[0])
         conditional_trigger = "if it is %s %s %s %s, it's okay" % (D[0], N_subj[0], rel[0], VP[0])
 
