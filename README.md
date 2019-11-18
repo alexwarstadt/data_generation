@@ -1,9 +1,15 @@
 # data_generation
 
-This project includes utilities for generating sentences with certain grammatical properties.
-
-
 OVERVIEW
+
+This project includes utilities and scripts for automatic dataset generation. It is used in the following papers:
+
+Kann, K., Warstadt, A., Williams, A., & Bowman, S. R. (2018). Verb argument structure alternations in word and sentence embeddings. arXiv preprint arXiv:1811.10773.
+
+Warstadt, A., Cao, Y., Grosu, I., Peng, W., Blix, H., Nie, Y., ... & Wang, S. F. (2019). Investigating BERT's Knowledge of Language: Five Analysis Methods with NPIs. arXiv preprint arXiv:1909.02597.
+
+
+PROJECT STRUCTURE
 
 A shared vocabulary is vocabulary.csv to be read by the code.
 
