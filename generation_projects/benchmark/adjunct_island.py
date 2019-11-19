@@ -1,10 +1,7 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-
 
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -19,12 +16,11 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         self.all_ing_transitives = np.intersect1d(all_transitive_verbs, all_ing_verbs)
         self.adverbs = ["before", "while", "after", "without"]
 
-
     def sample(self):
         # What did      John read  before filing the book?
-        # Wh   Aux_mat  Subj V_mat ADV    V_ing  Obj
+        # Wh   Aux_mat  Subj V_mat ADV    V_emb  Obj
         # What did      John read  the book before filing?
-        # Wh   Aux_mat  Subj V_mat Obj      ADV    V_ing
+        # Wh   Aux_mat  Subj V_mat Obj      ADV    V_emb
 
         V_mat = choice(all_non_finite_transitive_verbs)
         Subj = N_to_DP_mutate(choice(get_matches_of(V_mat, "arg_1", all_nouns)))

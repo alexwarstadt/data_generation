@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="semantics",
                          linguistics="quantifiers",
@@ -20,13 +17,11 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         bad_subjs = reduce(np.union1d, (all_relational_poss_nouns, all_proper_names, get_all("category", "NP")))
         self.safe_subjs = np.setdiff1d(all_nominals, bad_subjs)
 
-
-
     def sample(self):
-        # There is  every monster eating children.
-        # THERE aux D     N       VP
         # Every monster is  there eating children.
-        # D     N       aux THERE VP
+        # D     subj    aux THERE VP
+        # There is  every monster eating children.
+        # THERE aux D     subj    VP
 
         subj = N_to_DP_mutate(choice(self.safe_subjs), determiner=False)
         D = choice(get_matched_by(subj, "arg_1", self.bad_quantifiers))
@@ -41,5 +36,5 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)

@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax_semantics",
                          linguistics="control_raising",
@@ -22,18 +19,15 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                                        np.union1d(get_all("causative", "1"), get_all("strict_intrans", "0")))
 
     def sample(self):
-        # The hamburger is likely   to taste good
-        # Subj          be A_tough  TO VP
+        # The hamburger is likely     to taste good
+        # Subj          be A_raising  TO VP
         # The hamburger is tough    to taste good
-        # Subj          be A_raise  TO VP
+        # Subj          be A_tough  TO VP
 
         A_tough = choice(self.tough_preds)
         A_raising = choice(self.raising_preds)
         V = choice(self.safe_verbs)
-        try:
-            VP = V_to_VP_mutate(V, aux=False)
-        except Exception:
-            pass
+        VP = V_to_VP_mutate(V, aux=False)
         subj = N_to_DP_mutate(choice(get_matches_of(V, "arg_1")))
         be = return_copula(subj)
 
@@ -43,6 +37,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 

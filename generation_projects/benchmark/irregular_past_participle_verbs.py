@@ -1,12 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-from functools import reduce
 from utils.vocab_sets import *
-
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -28,12 +24,8 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
         x = random.random()
         if x < 1 / 2:
-            # transitive V2
             V_base = choice(self.all_trans_en_verbs)
-            try:
-                N2 = N_to_DP_mutate(choice(get_matches_of(V_base, "arg_2", all_nouns)))
-            except IndexError:
-                pass
+            N2 = N_to_DP_mutate(choice(get_matches_of(V_base, "arg_2", all_nouns)))
         else:
             V_base = choice(self.all_intrans_en_verbs)
             N2 = " "
@@ -41,10 +33,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         Verbs = get_all("root", V_base["root"])
         V_past = get_all("past", "1", Verbs)
         V_en = get_all("en", "1", Verbs)
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V_base, "arg_1", all_nouns)))
-        except TypeError:
-                pass
+        N1 = N_to_DP_mutate(choice(get_matches_of(V_base, "arg_1", all_nouns)))
 
         data = {
             "sentence_good": "%s %s %s." % (N1[0], V_past[0][0], N2[0]),

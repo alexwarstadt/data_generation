@@ -1,11 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from utils.vocab_sets import *
-
 
 class FillerGapGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -20,38 +17,23 @@ class FillerGapGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # John noticed the cheese that the rat that bit John ate.
-        # N1   V1          N2     that     N3  that V3  N4   V2
-
+        # N1   V1          N2     THAT     N3  THAT V3  N4   V2
         # John noticed what the rat that bit John ate the cheese.
-        # N1   V1      wh       N3  that V3  N4   V2      N2
+        # N1   V1      wh       N3  THAT V3  N4   V2      N2
 
         V1 = choice(self.wh_np_verbs)
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
-            N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_common_nouns)))
-        except TypeError:
-            pass
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
+        N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_common_nouns)))
         V2 = choice(get_matched_by(N2, "arg_2", all_transitive_verbs))
-        try:
-            N3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_common_nouns)))
-        except TypeError:
-            pass
-
+        N3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_common_nouns)))
         V1 = conjugate(V1, N1)
         V2 = conjugate(V2, N3)
-
         wh = choice(get_matched_by(N2, "arg_1", all_wh_words))
 
         x = random.random()
         if x < 1 / 2:
-            # transitive V3
             V3 = choice(get_matched_by(N3, "arg_1", all_transitive_verbs))
-            try:
-                N4 = N_to_DP_mutate(choice(get_matches_of(V3, "arg_2", all_nouns)))
-            except IndexError:
-                pass
-            except TypeError:
-                pass
+            N4 = N_to_DP_mutate(choice(get_matches_of(V3, "arg_2", all_nouns)))
         else:
             V3 = choice(get_matched_by(N3, "arg_1", all_intransitive_verbs))
             N4 = " "

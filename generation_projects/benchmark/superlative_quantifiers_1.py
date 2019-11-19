@@ -1,9 +1,7 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 import inflect
 from utils.vocab_sets import *
 
@@ -22,9 +20,9 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # No professor graded more than three papers
-        # No N1        V      Q1        Num   N2
+        # NO N1        V      Q1        Num   N2
         # No professor graded at least four papers
-        # No N1        V      Q2       Num  N2
+        # NO N1        V      Q2       Num  N2
 
         V = choice(all_non_plural_transitive_verbs)
         N1 = choice(get_matches_of(V, "arg_1", all_singular_count_nouns))
@@ -38,7 +36,6 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
         data = {
             "sentence_good": "No %s %s %s %s %s." % (N1[0], V[0], Q1, Num, N2[0]),
             "sentence_bad": "No %s %s %s %s %s." % (N1[0], V[0], Q2, Num, N2[0]),
-            "crucial_item": Q2
         }
         return data, data["sentence_good"]
 

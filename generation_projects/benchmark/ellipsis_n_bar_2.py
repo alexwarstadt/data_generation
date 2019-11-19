@@ -1,12 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-from functools import reduce
 from utils.vocab_sets import *
-
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -53,9 +49,9 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # John  has  had two cups and Jane  has  had three green cups.
-        # Subj1 Aux1 V   D1  Obj  and Subj2 Aux2 V   D2    Adj2  Obj
+        # Subj1 Aux1 V   D1  Obj  AND Subj2 Aux2 V   D2    Adj2  Obj
         # John  has  had two red  cups and Jane  has  had three green.
-        # Subj1 Aux1 V   D1  Adj1 Obj  and Subj2 Aux2 V   D2    Adj2
+        # Subj1 Aux1 V   D1  Adj1 Obj  AND Subj2 Aux2 V   D2    Adj2
 
         V = choice(self.safe_verbs)
         Subj1 = choice(get_matches_of(V, "arg_1", all_nominals))
@@ -74,9 +70,6 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
             (D1, D2) = random.choice(self.singular_dets)
         else:
             (D1, D2) = random.choice(self.plural_dets)
-
-
-
 
         data = {
             "sentence_good": "%s %s %s %s %s and %s %s %s %s %s %s." % (Subj1[0], Aux1[0], V[0], D1, Obj[0], Subj2[0], Aux2[0], V[0], D2, Adj2[0], Obj[0]),

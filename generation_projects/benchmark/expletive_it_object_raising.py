@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax_semantics",
                          linguistics="control_raising",
@@ -19,13 +16,11 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         self.raising_verbs = get_all("category_2", "V_raising_object")
         self.control_verbs = get_all("category_2", "V_control_object")
 
-
-
     def sample(self):
-        # John   may        consider it to be unfortunate that Bill     has left.
-        # m_subj Aux_raise  V_raise  IT TO BE Adj         THAT emb_subj VP
-        # John   may       persuade it to be unfortunate that Bill has left.
-        # m_subj Aux_cont  V_cont   IT TO BE Adj         THAT emb_subj VP
+        # John   may        consider it to be unfortunate that Bill has left.
+        # m_subj Aux_raise  V_raise  IT TO BE Adj         THAT sentence
+        # John   may          persuade   it to be unfortunate that Bill has left.
+        # m_subj Aux_control  V_control  IT TO BE Adj         THAT sentence
 
         no_match = True
         while no_match:
@@ -51,6 +46,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 

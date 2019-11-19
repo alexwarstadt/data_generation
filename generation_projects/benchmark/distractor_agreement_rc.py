@@ -1,10 +1,7 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-from functools import reduce
 from utils.vocab_sets import *
 
 
@@ -23,9 +20,9 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # The cat   that was      eating the mice is        sleeping
-        #     Subj  Rel  Aux_Emb  V_emb  Obj_emb  Aux_agree V_mat_agree
+        #     Subj  Rel  Aux_Emb  V_emb  Obj_emb  Aux_agree V_mat_agree args
         # The cat   that was      eating the mice are           sleeping
-        #     Subj  Rel  Aux_Emb  V_emb  Obj_emb  Aux_not_agree V_mat_not_agree
+        #     Subj  Rel  Aux_Emb  V_emb  Obj_emb  Aux_not_agree V_mat_not_agree args
 
         V_emb = None
         while V_emb is None:
@@ -50,7 +47,6 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
             except IndexError:
                 pass
 
-        # distractor_is_plausible_subj = is_match_disj(obj_emb, V_emb["arg_1"])
         Aux_emb = return_aux(V_emb, subj)
 
         Auxs = require_aux_agree(V_mat_agree, subj)
@@ -67,16 +63,12 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
             word_good = Aux_agree
             word_bad = Aux_not_agree
 
-        dependency_length = len(" ".join([rel[0], Aux_emb[0], V_emb[0], obj_emb[0]]).split())
-
         data = {
             "sentence_good": "%s %s %s %s %s %s %s %s." % (subj[0], rel[0], Aux_emb[0], V_emb[0], obj_emb[0], Aux_agree, V_mat_agree[0], join_args(V_mat_args["args"])),
             "sentence_bad": "%s %s %s %s %s %s %s %s." % (subj[0], rel[0], Aux_emb[0], V_emb[0], obj_emb[0], Aux_not_agree, V_mat_not_agree[0], join_args(V_mat_args["args"])),
             "one_prefix_prefix": prefix,
             "one_prefix_word_good": word_good,
-            "one_prefix_word_bad": word_bad,
-            "dependency_length": dependency_length
-            # "distractor_is_plausible_subj": distractor_is_plausible_subj
+            "one_prefix_word_bad": word_bad
         }
         return data, data["sentence_good"]
 

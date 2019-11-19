@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="semantics",
                          linguistics="quantifiers",
@@ -19,10 +16,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         good_quantifiers_pl_str = ["no",
                                    "some",
                                    "few",
-                                   # "fewer than three",
-                                   # "more than three",
-                                   # "a lot of",
-                                   # "",
                                    "many"]
         bad_quantifiers_str = ["all", "most", "every", "each"]
         self.good_quantifiers_sg = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in good_quantifiers_sg_str])
@@ -31,22 +24,17 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         bad_subjs = reduce(np.union1d, (all_relational_poss_nouns, all_proper_names, get_all("category", "NP")))
         self.safe_subjs = np.setdiff1d(all_nominals, bad_subjs)
 
-
-
     def sample(self):
         # There is  a       monster eating children.
-        # THERE cop d_good  N       VP
+        # THERE aux d_good  subj    VP
         # There is  every monster eating children.
-        # THERE cop d_bad N       VP
+        # THERE aux d_bad subj    VP
 
         subj = N_to_DP_mutate(choice(self.safe_subjs), determiner=False)
         d_good = choice(get_matched_by(subj, "arg_1", self.good_quantifiers_sg)) \
             if subj["sg"] == "1" \
             else choice(get_matched_by(subj, "arg_1", self.good_quantifiers_pl))
-        try:
-            d_bad = choice(get_matched_by(subj, "arg_1", self.bad_quantifiers))
-        except IndexError:
-            pass
+        d_bad = choice(get_matched_by(subj, "arg_1", self.bad_quantifiers))
         V = choice(get_matched_by(subj, "arg_1", all_ing_verbs))
         allow_negated = d_good[0] != "no" and d_good[0] != "some" and d_bad[0] != "no" and d_bad[0] != "some"
         args = verb_args_from_verb(V, subj=subj, allow_negated=allow_negated)
@@ -58,6 +46,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 

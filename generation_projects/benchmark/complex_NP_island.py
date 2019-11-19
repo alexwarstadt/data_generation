@@ -1,10 +1,7 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-
 
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -39,8 +36,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         Wh = choice(get_matches_of(V_mat, "arg_2",
                                    get_matches_of(V_emb, "arg_2", all_wh_words)))
         Rel = choice(get_matched_by(Subj, "arg_1", all_relativizers))
-
-
 
         data = {
             "sentence_good": "%s %s %s %s %s %s %s %s?" % (Wh[0], Aux_mat[0], Subj[0], Rel[0], Aux_emb[0], V_emb[0], Obj[0], V_mat[0]),

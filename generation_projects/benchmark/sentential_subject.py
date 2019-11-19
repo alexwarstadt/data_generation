@@ -1,11 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from utils.vocab_sets import *
-
 
 class SentSubjGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -26,26 +23,18 @@ class SentSubjGenerator(data_generator.BenchmarkGenerator):
     def sample(self):
         # Who did  Bill's  calling the president annoy?
         # wh  V_do N1_poss Ving        N2        V2
-
         # Who did  Bill's  calling annoy the president?
         # wh  V_do N1_poss Ving    V2        N2
 
         Ving = choice(self.all_transitive_ing_verbs)
-        try:
-            N1_poss = N_to_DP_mutate(choice(get_matches_of(Ving, "arg_1", self.all_safe_common_nouns)))
-        except IndexError:
-            pass
+        N1_poss = N_to_DP_mutate(choice(get_matches_of(Ving, "arg_1", self.all_safe_common_nouns)))
         if N1_poss['pl'] == "1" and N1_poss['irrpl'] != "1":
             N1_poss[0] = N1_poss[0]+"'"
         else:
             N1_poss[0] = N1_poss[0]+"'s"
         V2 = choice(self.all_inanim_anim_nonfinite_transitive_verbs)
         V_do = return_aux(V2, N1_poss, allow_negated=False)
-        try:
-            N2 = N_to_DP_mutate(choice(get_matches_of(Ving, "arg_2", get_matches_of(V2, "arg_2", self.all_safe_nouns))))
-        except TypeError:
-            pass
-
+        N2 = N_to_DP_mutate(choice(get_matches_of(Ving, "arg_2", get_matches_of(V2, "arg_2", self.all_safe_nouns))))
         wh = choice(get_matches_of(V2, "arg_2", all_wh_words))
 
         data = {

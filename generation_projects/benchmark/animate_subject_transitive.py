@@ -1,17 +1,13 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-from functools import reduce
 from utils.vocab_sets import *
-
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
-                         linguistics="s-selection",
+                         linguistics="argument_structure",
                          uid="animate_subject_trans",
                          simple_lm_method=True,
                          one_prefix_method=False,
@@ -24,21 +20,18 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # John      talked to the boy
-        # N1_good   V1        det N2
+        # N1_good   V1        N2
         # The table talked to the boy
-        # N1_bad    V1        det N2
+        # N1_bad    V1        N2
 
         V1 = choice(self.all_anim_subj_verbs)
-        try:
-            N1_good = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
-            if N1_good['sg'] == '1':
-                N1_bad = N_to_DP_mutate(choice(get_all('sg', '1', all_inanimate_nouns)))
-            elif N1_good['pl'] == '1':
-                N1_bad = N_to_DP_mutate(choice(get_all('pl', '1', all_inanimate_nouns)))
-            else:
-                pass
-        except TypeError:
-                pass
+        N1_good = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
+           if N1_good['sg'] == '1':
+               N1_bad = N_to_DP_mutate(choice(get_all('sg', '1', all_inanimate_nouns)))
+           elif N1_good['pl'] == '1':
+               N1_bad = N_to_DP_mutate(choice(get_all('pl', '1', all_inanimate_nouns)))
+           else:
+               pass
         N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns)))
         V1 = conjugate(V1, N1_good)
 

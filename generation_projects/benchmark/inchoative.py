@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
                          linguistics="argument_structure",
@@ -44,14 +41,12 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
             safe_verbs = np.intersect1d(self.non_alternating_transitives, all_possibly_plural_verbs)
         V_trans = choice(get_matched_by(Subj, "arg_2", get_matches_of(Aux, "arg_2", safe_verbs)))
 
-
-
         data = {
             "sentence_good": "%s %s %s." % (Subj[0], Aux[0], V_inch[0]),
             "sentence_bad": "%s %s %s." % (Subj[0], Aux[0], V_trans[0])
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 

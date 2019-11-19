@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from functools import reduce
 from utils.vocab_sets import *
-
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -17,7 +14,6 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=True,
                          two_prefix_method=False,
                          lexically_identical=False)
-        self.all_irreg_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "1")])
         self.all_reg_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "")])
         self.safe_verbs = reduce(np.union1d, (get_all("pres", "1", all_verbs),
                                               get_all("ing", "1", all_verbs),
@@ -31,9 +27,9 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # The cat is        eating     food
-        #     N1  aux_agree V1_agree     N2
+        #     N1  aux_agree V1_agree   N2
         # The cat are          eating        food
-        #     N1  aux_nonagree V1_nonagree     N2
+        #     N1  aux_nonagree V1_nonagree   N2
 
         if random.choice([True, False]):
             V1_agree = choice(np.intersect1d(self.safe_verbs, all_transitive_verbs))
@@ -58,7 +54,6 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         else:
             word_agree = aux_agree
             word_nonagree = aux_nonagree
-
 
         data = {
             "sentence_good": "%s %s %s %s." % (N1[0], aux_agree, V1_agree[0], args),

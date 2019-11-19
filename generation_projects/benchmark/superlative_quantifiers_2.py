@@ -1,9 +1,7 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 import inflect
 from utils.vocab_sets import *
 
@@ -24,14 +22,11 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
         # Every professor graded at least three papers
         # Q     N1        V      Qsup     Num   N2
         # No professor graded at least three papers
-        # No N1        V      Qsup     Num   N2
+        # NO N1        V      Qsup     Num   N2
 
         V = choice(all_non_plural_transitive_verbs)
         N1 = choice(get_matches_of(V, "arg_1", all_singular_count_nouns))
-        try:
-            Q = choice(get_matched_by(N1, "arg_1", self.singular_quantifiers))
-        except IndexError:
-            pass
+        Q = choice(get_matched_by(N1, "arg_1", self.singular_quantifiers))
         V = conjugate(V, N1, False)
         N2 = choice(get_matches_of(V, "arg_2", self.safe_nouns))
         Qsup = random.choice(self.quantifiers)
@@ -40,11 +35,9 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
         data = {
             "sentence_good": "%s %s %s %s %s %s." % (Q[0], N1[0], V[0], Qsup, Num, N2[0]),
             "sentence_bad": "No %s %s %s %s %s." % (N1[0], V[0], Qsup, Num, N2[0]),
-            "crucial_item": Qsup,
             "two_prefix_prefix_good": "%s %s %s %s" % (Q[0], N1[0], V[0], Qsup.split()[0]),
             "two_prefix_prefix_bad": "No %s %s %s" % (N1[0], V[0], Qsup.split()[0]),
             "two_prefix_word": Qsup.split()[1],
-
         }
         return data, data["sentence_good"]
 

@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax_semantics",
                          linguistics="control_raising",
@@ -17,10 +14,8 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          lexically_identical=False)
         good_quantifiers_sg_str = ["a", "an", ""]
         good_quantifiers_pl_str = ["no", "some", "few", "fewer than three", "more than three", "many", "a lot of", ""]
-        # bad_quantifiers_str = ["all", "most", "every", "each"]
         self.good_quantifiers_sg = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in good_quantifiers_sg_str])
         self.good_quantifiers_pl = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in good_quantifiers_pl_str])
-        # self.bad_quantifiers = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in bad_quantifiers_str])
         bad_emb_subjs = reduce(np.union1d, (all_relational_poss_nouns, all_proper_names, get_all("category", "NP")))
         self.safe_emb_subjs = np.setdiff1d(all_nominals, bad_emb_subjs)
         self.raising_verbs = get_all("category_2", "V_raising_subj")
@@ -28,27 +23,18 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         self.raising_preds = ["about", "apt", "bound", "certain", "likely", "soon", "sure", "unlikely"]
         self.control_preds = ["able", "anxious", "eager", "excited", "happy", "overjoyed", "pleased", "ready",
                               "reluctant", "unable", "unhappy", "unwilling", "willing"]
-        self.there = choice(get_all("expression", "there"))
-
-
 
     def sample(self):
-        # There seems   to be a dog    eating an apple.
-        # THERE V_raise TO BE emb_subj VP
-        # There tried  to be a dog eating an apple.
-        # THERE V_cont TO BE emb_subj VP
+        # There does seem    to be a dog      eating an apple.
+        # THERE aux  raising TO BE D emb_subj VP
+        # There does try     to be a dog      eating an apple.
+        # THERE aux  control TO BE D emb_subj VP
 
         emb_subj = N_to_DP_mutate(choice(self.safe_emb_subjs), determiner=False)
-        try:
-            D = choice(get_matched_by(emb_subj, "arg_1", self.good_quantifiers_sg)) \
-                if emb_subj["sg"] == "1" \
-                else choice(get_matched_by(emb_subj, "arg_1", self.good_quantifiers_pl))
-        except IndexError:
-            pass
-        try:
-            allow_negated = D[0] != "no" and D[0] != "some"
-        except Exception:
-            pass
+        D = choice(get_matched_by(emb_subj, "arg_1", self.good_quantifiers_sg)) \
+            if emb_subj["sg"] == "1" \
+            else choice(get_matched_by(emb_subj, "arg_1", self.good_quantifiers_pl))
+        allow_negated = D[0] != "no" and D[0] != "some"
 
         if emb_subj["sg"] == "1":
             agree_verbs = all_possibly_singular_verbs
@@ -66,12 +52,9 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
 
         if verbal_predicate:
             raising = choice(np.intersect1d(self.raising_verbs, get_matches_of(aux, "arg_2", agree_verbs)))
-            # aux_raising = return_aux(raising, emb_subj, allow_negated=allow_negated)
             raising = raising[0]
         else:
             raising = choice(self.raising_preds)
-            # aux_raising = return_copula(emb_subj, allow_negated=allow_negated)
-        # aux_raising = aux_control
 
         V = choice(get_matched_by(emb_subj, "arg_1", all_ing_verbs))
         args = verb_args_from_verb(V, subj=emb_subj, allow_negated=allow_negated)
@@ -83,6 +66,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 

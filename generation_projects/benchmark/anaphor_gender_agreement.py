@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from functools import reduce
 from utils.vocab_sets import *
-
 
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -20,14 +17,15 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
             lexically_identical=False
         )
         self.all_safe_nouns = np.setdiff1d(all_singular_nouns, all_singular_neuter_animate_nouns)
-        # self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, self.all_common_nouns)
         self.all_singular_reflexives = reduce(np.union1d, (get_all("expression", "himself"),
                                                            get_all("expression", "herself"),
                                                            get_all("expression", "itself")))
 
     def sample(self):
         # John knows himself
+        # N1   V1    refl_match
         # John knows itself
+        # N1   V1    refl_mismatch
 
         V1 = choice(all_refl_preds)
         N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_matches_of(V1, "arg_2", self.all_safe_nouns))))

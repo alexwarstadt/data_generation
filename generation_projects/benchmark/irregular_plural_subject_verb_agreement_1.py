@@ -3,7 +3,6 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.vocab_sets import *
 
-
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="morphology",
@@ -26,9 +25,9 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # The cat is        eating    food
-        #     N1  aux_agree V1_agree     N2
+        #     N1  aux_agree V1_agree  args
         # The cat are          eating        food
-        #     N1  aux_nonagree V1_nonagree     N2
+        #     N1  aux_nonagree V1_nonagree   args
 
         N1 = N_to_DP_mutate(choice(self.safe_nouns))
         V1_agree = choice(get_matched_by(N1, "arg_1", self.safe_verbs))

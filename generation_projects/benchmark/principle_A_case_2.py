@@ -1,11 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from utils.vocab_sets import *
-
 
 class BindingGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -22,28 +19,18 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
     def sample(self):
         # John imagines himself       seeing     Mary
         # N1   V1       refl_match    Vembed_ing N2
-
         # John imagines himself      saw           Mary
         # N1   V1       refl_match   Vembed_finite N2
 
         special_verbs = choice(self.special_verbs)
         V1 = choice(get_all("root", special_verbs["root"]))
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_nouns)))
-        except IndexError:
-            pass
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_nouns)))
         Vembed_base = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
         Verb_embed = get_all("root", Vembed_base["root"])
-        try:
-            Vembed_ing = choice(get_all('ing', "1", Verb_embed))
-            Vembed_finite = choice(get_matched_by(N1, "arg_1", get_all('finite', "1", Verb_embed)))
-        except TypeError:
-            pass
+        Vembed_ing = choice(get_all('ing', "1", Verb_embed))
+        Vembed_finite = choice(get_matched_by(N1, "arg_1", get_all('finite', "1", Verb_embed)))
         refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
-        try:
-            N2 = N_to_DP_mutate(choice(get_matches_of(Vembed_base, "arg_2", all_nouns)))
-        except TypeError:
-            pass
+        N2 = N_to_DP_mutate(choice(get_matches_of(Vembed_base, "arg_2", all_nouns)))
 
         V1 = conjugate(V1, N1)
 
