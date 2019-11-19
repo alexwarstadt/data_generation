@@ -1,11 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from utils.vocab_sets import *
-
 
 class BindingGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -22,27 +19,19 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
     def sample(self):
         # The woman who defeated John saw herself.
         # N1        C1  Vembed   N2   V1  refl_match
-
         # The woman who defeated John saw himself.
         # N1        C1  Vembed   N2   V1  refl_mismatch
 
         V1 = choice(all_refl_preds)
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_common_nouns)))
-        except IndexError:
-            pass
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_common_nouns)))
         refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
         C1 = choice(get_matched_by(N1, "arg_1", all_relativizers))
         Vembed = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
-        try:
-            N2 = choice(get_matches_of(Vembed, "arg_2", self.all_safe_nouns))
-        except TypeError:
-            pass
+        N2 = choice(get_matches_of(Vembed, "arg_2", self.all_safe_nouns))
         while is_match_disj(N2, refl_match["arg_1"]):
             N2 = choice(get_matches_of(Vembed, "arg_2", self.all_safe_nouns))
         N2 = N_to_DP_mutate(N2)
         refl_mismatch = choice(get_matched_by(N2, "arg_1", all_reflexives))
-
         V1 = conjugate(V1, N1)
         Vembed = conjugate(Vembed, N1)
 

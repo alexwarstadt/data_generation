@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
                          linguistics="argument_structure",
@@ -17,8 +14,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          lexically_identical=False)
 
         self.strict_intransitive = get_all("strict_intrans", "1")
-        self.transitive = all_transitive_verbs
-        # get_all("strict_trans", "0", all_transitive_verbs)
 
     def sample(self):
         # The bear has attacked the girl.
@@ -26,7 +21,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         # The bear has smiled    the girl.
         # Subj     Aux V_intrans obj
 
-        V_trans = choice(self.transitive)
+        V_trans = choice(all_transitive_verbs)
         Subj = N_to_DP_mutate(choice(get_matches_of(V_trans, "arg_1", all_nominals)))
         Aux = return_aux(V_trans, Subj)
         Obj = N_to_DP_mutate(choice(get_matches_of(V_trans, "arg_2", all_nominals)))
@@ -41,6 +36,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)
 

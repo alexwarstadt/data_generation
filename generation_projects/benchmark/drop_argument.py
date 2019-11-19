@@ -1,10 +1,7 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-
 
 class CSCGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -18,7 +15,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
 
         self.strict_transitive = get_all("strict_trans", "1", all_transitive_verbs)
         self.drop_arg_transitive = get_all("strict_trans", "0", all_transitive_verbs)
-        # get_all("strict_trans", "0", all_transitive_verbs)
 
     def sample(self):
         # The bear has attacked.

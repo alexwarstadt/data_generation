@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax_semantics",
                          linguistics="npi_licensing",
@@ -18,7 +15,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         self.safe_verbs = np.setdiff1d(all_verbs, all_ing_verbs)
         self.safe_subjs = np.setdiff1d(all_nominals, all_proper_names)
 
-
     def sample(self):
         # Only the drivers who John     will    help     should ever love the dancers
         # ONLY subj        rel subj_emb aux_emb V_emb    aux    EVER VP
@@ -26,16 +22,12 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         # subj        rel ONLY subj_emb aux_emb V_emb    aux    EVER VP
 
         V = choice(self.safe_verbs)
-        try:
-            subj = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", self.safe_subjs)))
-        except TypeError:
-            pass
+        subj = N_to_DP_mutate(choice(get_matches_of(V, "arg_1", self.safe_subjs)))
         args = verb_args_from_verb(V, allow_negated=False, subj=subj)
         VP = V_to_VP_mutate(V, args=args, aux=False)
         rel = choice(get_matched_by(args["subj"], "arg_1", all_relativizers))
         V_emb = choice(get_matched_by(subj, "arg_2", all_transitive_verbs))
         args_emb = verb_args_from_verb(V_emb, allow_negated=False)
-
 
         data = {
             "sentence_good": "Only %s %s %s %s %s %s ever %s." % (subj[0], rel[0], args_emb["subj"][0], args_emb["aux"][0], V_emb[0], args["aux"][0], VP[0]),
@@ -46,5 +38,5 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)

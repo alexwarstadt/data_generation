@@ -1,9 +1,7 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from utils.vocab_sets import *
 
 
@@ -30,14 +28,8 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         # N1   V1      Dem  N2_mismatch
 
         V1 = choice(all_transitive_verbs)
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
-        except TypeError:
-            pass
-        try:
-            N2_match = choice(get_matches_of(V1, "arg_2", self.all_pluralizable_nouns))
-        except TypeError:
-            pass
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
+        N2_match = choice(get_matches_of(V1, "arg_2", self.all_pluralizable_nouns))
         Dem = choice(get_matched_by(N2_match, "arg_1", all_demonstratives))
         if N2_match['pl'] == "1":
             N2_mismatch = N2_match['singularform']

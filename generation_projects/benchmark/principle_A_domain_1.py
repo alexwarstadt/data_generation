@@ -1,11 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from utils.vocab_sets import *
-
 
 class BindingGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -17,27 +14,19 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
                          two_prefix_method=False,
                          lexically_identical=False)
         self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
-        self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
 
     def sample(self):
         # John thinks Mary saw      him.
         # N1   V1     N2   Vembed   pro_match
-
         # John thinks  Mary saw     himself.
         # N1   V1      N2   Vembed  refl_match
 
         V1 = choice(all_embedding_verbs)
         Vembed = choice(all_refl_preds)
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_nouns)))
-        except IndexError:
-            pass
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_nouns)))
         refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
         pro_match = choice(get_matched_by(N1, "arg_1", all_ACCpronouns))
-        try:
-            N2 = choice(get_matches_of(Vembed, "arg_1", self.all_safe_nouns))
-        except TypeError:
-            pass
+        N2 = choice(get_matches_of(Vembed, "arg_1", self.all_safe_nouns))
         n_tries = 0
         while is_match_disj(N2, refl_match["arg_1"]) and n_tries < 10:
             N2 = choice(get_matches_of(Vembed, "arg_1", self.all_safe_nouns))

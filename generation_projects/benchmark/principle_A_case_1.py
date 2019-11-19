@@ -1,11 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from utils.vocab_sets import *
-
 
 class BindingGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -17,28 +14,19 @@ class BindingGenerator(data_generator.BenchmarkGenerator):
                          two_prefix_method=False,
                          lexically_identical=False)
         self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
-        self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
 
     def sample(self):
         # John thinks he            saw     Mary
         # N1   V1     pro_match     Vembed  N2
-
         # John thinks  himself      saw     Mary
         # N1   V1      refl_match   Vembed  N2
 
         V1 = choice(all_embedding_verbs)
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_nouns)))
-        except IndexError:
-            pass
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.all_safe_nouns)))
         Vembed = choice(get_matched_by(N1, "arg_1", all_transitive_verbs))
         refl_match = choice(get_matched_by(N1, "arg_1", all_reflexives))
         pro_match = choice(get_matched_by(N1, "arg_1", all_NOMpronouns))
-        try:
-            N2 = N_to_DP_mutate(choice(get_matches_of(Vembed, "arg_2", all_nouns)))
-        except TypeError:
-            pass
-
+        N2 = N_to_DP_mutate(choice(get_matches_of(Vembed, "arg_2", all_nouns)))
         V1 = conjugate(V1, N1)
         Vembed = conjugate(Vembed, N1)
 

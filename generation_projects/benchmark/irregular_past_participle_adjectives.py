@@ -1,12 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-from functools import reduce
 from utils.vocab_sets import *
-
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -21,9 +17,9 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # The eaten pie was delicious
-        # The V_en  N1  cop adj
+        # THE V_en  N1  cop adj
         # The ate    pie was delicious
-        # The V_past N1 cop adj
+        # THE V_past N1 cop adj
 
         V_base = choice(self.all_trans_en_verbs)
         while (' ' in V_base[0]):
@@ -31,10 +27,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         Verbs = get_all("root", V_base["root"])
         V_past = get_all("past", "1", Verbs)
         V_en = get_all("en", "1", Verbs)
-        try:
-            N1 = choice(get_matches_of(V_base, "arg_2", all_common_nouns))
-        except TypeError:
-                pass
+        N1 = choice(get_matches_of(V_base, "arg_2", all_common_nouns))
         cop = return_copula(N1)
         adj = choice(get_matched_by(N1, "arg_1", all_adjectives))
 

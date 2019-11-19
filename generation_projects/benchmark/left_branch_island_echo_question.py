@@ -1,11 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from utils.vocab_sets import *
-
 
 class LeftBranchGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -16,30 +13,20 @@ class LeftBranchGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=False,
                          two_prefix_method=True,
                          lexically_identical=True)
-        self.all_safe_nouns = np.setdiff1d(all_nouns, all_singular_neuter_animate_nouns)
-        self.all_safe_common_nouns = np.intersect1d(self.all_safe_nouns, all_common_nouns)
         self.all_D_wh = get_all("category_2", "D_wh")
         self.which_what = np.append(get_all_conjunctive([("expression", "which")], self.all_D_wh), get_all_conjunctive([("expression", "what")], self.all_D_wh))
-
 
     def sample(self):
         # You are  petting whose dog?
         # N1  V_do V1      wh    N2
-
         # Whose are  you petting dog?
         # wh    V_do N1  V1      N2
 
         V1 = choice(all_non_finite_transitive_verbs)
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
-        except TypeError:
-            pass
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         V_do = return_aux(V1, N1, allow_negated=False)
         wh = choice(self.all_D_wh)
-        try:
-            N2 = choice(get_matches_of(V1, "arg_2", all_common_nouns))
-        except TypeError:
-            pass
+        N2 = choice(get_matches_of(V1, "arg_2", all_common_nouns))
         if N2['animate'] == "1":
             wh = choice(self.which_what)
         else:

@@ -1,12 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-from functools import reduce
 from utils.vocab_sets import *
-
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -51,10 +47,10 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         self.safe_objs = np.setdiff1d(all_nominals, all_proper_names)
 
     def sample(self):
-        # John  has  had two green cups and the girls  have had three.
-        # Subj1 Aux1 V   D1  Adj   Obj  and Subj2      Aux2 V   D2
-        # John  has two cups and Jane  has three green.
-        # Subj1 V   D1  Obj  and Subj2 V   D2    Adj
+        # John  has  had two green cups and Jane  has had three.
+        # Subj1 Aux1 V   D1  Adj   Obj  AND Subj2 Aux2 V   D2
+        # John  has  had two cups and Jane  has  had three green.
+        # Subj1 Aux1 V   D1  Obj  AND Subj2 Aux2 V   D2    Adj
         V = choice(self.safe_verbs)
         Subj1 = choice(get_matches_of(V, "arg_1", all_nominals))
         Subj2 = choice(get_matches_of(V, "arg_1", all_nominals), avoid=Subj1)
@@ -71,9 +67,6 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
             (D1, D2) = random.choice(self.singular_dets)
         else:
             (D1, D2) = random.choice(self.plural_dets)
-
-
-
 
         data = {
             "sentence_good": "%s %s %s %s %s %s and %s %s %s %s." % (Subj1[0], Aux1[0], V[0], D1, Adj[0], Obj[0], Subj2[0], Aux2[0], V[0], D2),

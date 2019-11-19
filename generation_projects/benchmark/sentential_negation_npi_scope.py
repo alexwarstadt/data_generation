@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax_semantics",
                          linguistics="npi_licensing",
@@ -18,7 +15,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         self.safe_matrix_verbs = np.setdiff1d(all_non_finite_verbs, all_ing_verbs)
         self.safe_emb_verbs = np.intersect1d(all_non_finite_verbs, all_transitive_verbs)
         self.safe_subjs = np.setdiff1d(all_nominals, all_proper_names)
-
 
     def sample(self):
         # The man who might   see Jane has not ever left.
@@ -35,8 +31,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         args_emb = verb_args_from_verb(V_emb, allow_negated=False, subj=args["subj"])
         VP_emb = V_to_VP_mutate(V_emb, aux=False, args=args_emb)
 
-
-
         data = {
             "sentence_good": "%s %s %s %s %s not ever %s." % (args["subj"][0], rel[0], args_emb["aux"][0], VP_emb[0], args["aux"][0], VP[0]),
             "sentence_bad": "%s %s %s not %s %s ever %s." % (args["subj"][0], rel[0], args_emb["aux"][0], VP_emb[0], args["aux"][0], VP[0]),
@@ -46,5 +40,5 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)

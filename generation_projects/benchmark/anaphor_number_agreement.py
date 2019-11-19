@@ -1,15 +1,9 @@
-# Author: Alex Warstadt
-
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from functools import reduce
 from utils.vocab_sets import *
-all_animate_nouns = get_all("animate", "1", all_nouns)
-
 
 class AnaphorGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -32,7 +26,9 @@ class AnaphorGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # The boy knows himself
+        # N1      V1    refl_match
         # The boy knows themselves
+        # N1      V1    refl_mismatch
 
         if random.choice([True, False]):
             V1 = choice(self.all_plural_reflexive_predicates)

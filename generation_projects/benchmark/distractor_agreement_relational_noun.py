@@ -1,12 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
-from functools import reduce
 from utils.vocab_sets import *
-
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -22,11 +18,10 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         self.safe_verbs = np.setdiff1d(all_verbs, get_all("past", "1"))
 
     def sample(self):
-        # The doctor of the men is        sleeping.
-        # D   Subj      S_arg   Aux_agree V_agree
-        # The doctor of the men are           sleeping.
-        # D   Subj      S_arg   Aux_not_agree V_not_agree
-
+        # The doctor of the men is        helping some people.
+        # D   Subj      S_arg   Aux_agree V_agree args
+        # The doctor of the men are           helping     some people.
+        # D   Subj      S_arg   Aux_not_agree V_not_agree args
 
         S_arg = None
         while S_arg is None:
@@ -67,19 +62,14 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
             word_good = Aux_agree
             word_bad = Aux_not_agree
 
-        dependency_length = len(" ".join([D[0], subj[0], S_arg[0]]).split())
-
         data = {
             "sentence_good": "%s %s %s %s %s %s." % (D[0], subj[0], S_arg[0], Aux_agree, V_agree[0], join_args(V_args["args"])),
             "sentence_bad": "%s %s %s %s %s %s." % (D[0], subj[0], S_arg[0], Aux_not_agree, V_not_agree[0], join_args(V_args["args"])),
             "one_prefix_prefix": prefix,
             "one_prefix_word_good": word_good,
-            "one_prefix_word_bad": word_bad,
-            "dependency_length": dependency_length
-            # "distractor_is_plausible_subj": distractor_is_plausible_subj
+            "one_prefix_word_bad": word_bad
         }
         return data, data["sentence_good"]
-
 
 generator = AgreementGenerator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)

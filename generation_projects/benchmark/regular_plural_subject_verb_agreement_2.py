@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from functools import reduce
 from utils.vocab_sets import *
-
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -21,7 +18,6 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         self.all_missingPluralSing_nouns = get_all_conjunctive([("pluralform", ""), ("singularform", "")])
         self.all_unusable_nouns = np.union1d(self.all_null_plural_nouns, self.all_missingPluralSing_nouns)
         self.all_pluralizable_nouns = np.setdiff1d(all_common_nouns, self.all_unusable_nouns)
-        self.all_irreg_nouns = get_all("irrpl", "1", self.all_pluralizable_nouns)
         self.all_reg_nouns = get_all("irrpl", "", self.all_pluralizable_nouns)
         self.safe_verbs = reduce(np.union1d, (get_all("pres", "1", all_verbs),
                                               get_all("ing", "1", all_verbs),
@@ -35,16 +31,13 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
     def sample(self):
         # The cat       is        eating food
-        # D   N1_agree  aux_agree V1     N2
-        # The cats        is          eating food
-        # D   N1_nonagree aux_agree V1     N2
+        #     N1_agree  aux_agree V1     N2
+        # The cats        is         eating food
+        #     N1_nonagree aux_agree  V1     N2
 
         if random.choice([True, False]):
             V1 = choice(np.intersect1d(self.safe_verbs, all_transitive_verbs))
-            try:
-                N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns)))
-            except TypeError:
-                pass
+            N2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", all_nouns)))
         else:
             V1 = choice(np.intersect1d(self.safe_verbs, all_intransitive_verbs))
             N2 = " "
@@ -56,7 +49,6 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
 
         auxes = require_aux_agree(V1, N1_agree)
         aux_agree = auxes["aux_agree"]
-
 
         if aux_agree == "":
             word_agree = V1[0].strip().split(" ")[0]

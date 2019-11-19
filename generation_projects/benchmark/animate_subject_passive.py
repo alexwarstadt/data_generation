@@ -7,17 +7,15 @@ from utils.string_utils import string_beautify
 from functools import reduce
 from utils.vocab_sets import *
 
-
 class AgreementGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="syntax",
-                         linguistics="s-selection",
+                         linguistics="argument_structure",
                          uid="animate_subject_passive",
                          simple_lm_method=True,
                          one_prefix_method=True,
                          two_prefix_method=False,
                          lexically_identical=False)
-        self.strict_transitive = get_all("strict_trans", "1")
         self.all_inanim_subj_allowing_verbs = get_matched_by(choice(all_inanimate_nouns), "arg_1", all_transitive_verbs)
         self.all_anim_subj_allowing_verbs = get_matched_by(choice(all_animate_nouns), "arg_1", all_transitive_verbs)
         self.all_anim_subj_verbs = np.setdiff1d(self.all_anim_subj_allowing_verbs, self.all_inanim_subj_allowing_verbs)

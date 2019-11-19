@@ -1,9 +1,7 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
 
 class CSCGenerator(data_generator.BenchmarkGenerator):
@@ -20,7 +18,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         self.non_alternating_intransitives = get_all("causative", "0", all_intransitive_verbs)
         self.all_singulars = get_all("sg", "1", all_nominals)
         self.all_plurals = get_all("sg", "0", all_nominals)
-        # get_all("strict_trans", "0", all_transitive_verbs)
 
     def sample(self):
         # The bear has broken  the lamp.
@@ -30,10 +27,7 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
 
         V_cause = choice(self.alternating_verbs)
         if V_cause["category"] == "S\\NP":
-            try:
-                Obj = N_to_DP_mutate(choice(get_matches_of(V_cause, "arg_1", all_nominals)))
-            except Exception:
-                pass
+            Obj = N_to_DP_mutate(choice(get_matches_of(V_cause, "arg_1", all_nominals)))
             if V_cause["3sg"] == "1":
                 Subj = N_to_DP_mutate(choice(np.intersect1d(all_animate_nouns, self.all_singulars)))
             elif V_cause["pres"] == "1":

@@ -1,12 +1,9 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 
-
-class CSCGenerator(data_generator.BenchmarkGenerator):
+class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
         super().__init__(field="semantics",
                          linguistics="npi_licensing",
@@ -16,7 +13,6 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
                          two_prefix_method=True,
                          lexically_identical=True)
         self.safe_verbs = np.setdiff1d(all_non_finite_verbs, all_ing_verbs)
-
 
     def sample(self):
         # Have the teachers ever watched the waitresses?
@@ -37,5 +33,5 @@ class CSCGenerator(data_generator.BenchmarkGenerator):
         }
         return data, data["sentence_good"]
 
-generator = CSCGenerator()
+generator = Generator()
 generator.generate_paradigm(rel_output_path="outputs/benchmark/%s.jsonl" % generator.uid)

@@ -1,11 +1,8 @@
 from utils import data_generator
-from utils.conjugate import *
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.string_utils import string_beautify
 from utils.vocab_sets import *
-
 
 class FillerGapGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -22,25 +19,16 @@ class FillerGapGenerator(data_generator.BenchmarkGenerator):
     def sample(self):
         # I  know what the lion devoured.
         # N1 V1   wh       N2   V2
-
         # I  know that the lion   devoured.
-        # N1 V1   that       N2   V2
+        # N1 V1   THAT     N2   V2
 
         V1 = choice(self.embedding_verbs)
-        try:
-            N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
-        except TypeError:
-            pass
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
         V2 = choice(self.robustly_transitive_verbs)
-        try:
-            N2 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_common_nouns)))
-            N3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_2", all_nouns)))
-        except TypeError:
-            pass
-
+        N2 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_common_nouns)))
+        N3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_2", all_nouns)))
         V1 = conjugate(V1, N1)
         V2 = conjugate(V2, N2)
-
         wh = choice(get_matched_by(N3, "arg_1", all_wh_words))
 
         data = {
