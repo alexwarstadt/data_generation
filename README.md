@@ -1,17 +1,17 @@
 # data_generation
 
-OVERVIEW
+## OVERVIEW
 - This project includes utilities and scripts for automatic dataset generation. It is used in the following papers:
     - Warstadt, A., Cao, Y., Grosu, I., Peng, W., Blix, H., Nie, Y., ... & Wang, S. F. (2019). Investigating BERT's Knowledge of Language: Five Analysis Methods with NPIs. arXiv preprint arXiv:1909.02597.
     
 
-USAGE
+## USAGE
 To run a sample data generation script, navigate to the data_generation directory and run the following command:
     python -m generation_projects.benchmark.adjunct_island
 If all dependencies are present in your workspace, this will generate the adjunct_island dataset in BLiMP. Generation will take a minute to begin, after which point the progress can be watched in outputs/benchmark/adjunct_island.jsonl.
 
 
-PROJECT STRUCTURE
+## PROJECT STRUCTURE
 - The project contains the following packages:
     - generation_projects: scripts for generating data, organized into subdirectories by research project.
     - mturk_qc: code for carrying out Amazon mechanical turk quality control.
@@ -24,7 +24,7 @@ PROJECT STRUCTURE
     - vocab_documentation.md: the vocab documentation
 
 
-VOCABULARY
+## VOCABULARY
 - The vocabulary file is vocabulary.csv.
 - Each row in the .csv is a lexical item. Each column is feature encoding grammatical information about the lexical item. Detailed documentation of the columns can be found in vocab_documentation.md.
 - The following notation is used to define selectional restrictions in the arg_1, arg_2, and arg_3 columns:
@@ -37,7 +37,7 @@ VOCABULARY
 - Disclaimer: As this project is under active development, data generated with different versions of the vocabulary may differ slightly.
 
 
-UTILS
+## UTILS
 - The utils package contains the shared code for the various generation projects.
     - utils.conjugate includes functions which conjugate verbs and add selecting auxiliaries/modals
     - utils.constituent_building includes functions which "do syntax". The following are especially useful:
