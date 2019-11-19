@@ -131,7 +131,8 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
 def pred_args_from_pred(pred, frequent=True, subj=None, allow_negated=True):
     """
         :param verb: 
-        :param frequent: 
+        :param frequent:
+        :param allow_negated:
         :return: dict of all arguments of verb: {subject:x1, auxiliary:x2, ...]
         """
     args = {"pred": pred}
@@ -155,12 +156,15 @@ def pred_args_from_pred(pred, frequent=True, subj=None, allow_negated=True):
     # all verbs have an auxiliary (or null)
     args["aux"] = return_aux(copula, args["subj"], allow_negated=allow_negated)
 
+    # ADJECTIVE PHRASE
     if pred["category"] == "N/N":
         args["args"] = []
 
+    # PREPOSITIONAL PHRASE
     if pred["category"] == "PP":
         args["args"] = []
 
+    # PREPOSITION
     if pred["category"] == "PP/NP":
         NP = N_to_DP_mutate(choice(get_matches_of(pred, "arg_2", all_nominals)))
         args["args"] = [NP]
@@ -203,15 +207,10 @@ def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
     VP = verb.copy()
     if args is None:
         args = verb_args_from_verb(verb, frequent)
-    try:
-        if aux:
-            phrases = [args["aux"][0], verb[0]] + [x[0] for x in args["args"]]
-        else:
-            phrases = [verb[0]] + [x[0] for x in args["args"]]
-    except IndexError:
-        pass
-    except KeyError:
-        pass
+    if aux:
+        phrases = [args["aux"][0], verb[0]] + [x[0] for x in args["args"]]
+    else:
+        phrases = [verb[0]] + [x[0] for x in args["args"]]
     VP[0] = " ".join(phrases)
     return VP
 
@@ -275,19 +274,6 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
     else:
         pass
     return args
-
-
-def N_to_DP(noun, frequent=True):
-    """
-    :param noun: noun to turn into DP
-    :param frequent: restrict to frequent determiners only?
-    :return: matching determiner, without noun
-    """
-    if frequent:
-        D = choice(get_matched_by(noun, "arg_1", get_all_conjunctive([("category", "(S/(S\\NP))/N"), ("frequent", '1')])))
-    else:
-        D = choice(get_matched_by(noun, "arg_1", get_all_conjunctive([("category", "(S/(S\\NP))/N"), ("frequent", '0')])))
-    return D
 
 
 def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True):
@@ -356,6 +342,10 @@ def get_bare_form_str(verb_str):
     return " ".join(words)
 
 def get_bare_form(verb):
+    """
+    :param verb:
+    :return:
+    """
     bare_verb = verb.copy()
     bare_verb["expression"] = get_bare_form_str(verb["expression"])
     bare_verb["finite"] = "0"
@@ -375,6 +365,10 @@ def negate_V_args(V_args):
     return V_args
 
 def negate_aux(aux):
+    """
+    :param aux: an auxiliary vocab entry
+    :return: the form
+    """
     if aux["expression"] == "might":
         aux_neg = get_all("expression", "might")[0]
         aux_neg[0] = "might not"
@@ -444,10 +438,7 @@ def get_VP_under_modal_form(aux, verb):
     if aux["expression"] == "does":
         return None, verb
     if aux["expression"] == "did":
-        try:
-            return get_all("expression", "have", all_auxs)[0], get_en_form(verb)
-        except IndexError:
-            pass
+        return get_all("expression", "have", all_auxs)[0], get_en_form(verb)
     if aux["expression"] == "is":
         bare_aux = aux.copy()
         bare_aux["expression"] = "be"
@@ -476,17 +467,21 @@ def get_VP_under_modal_form(aux, verb):
         if verb["pres"] == "1":
             return aux, get_bare_form(verb)
         else:
-            try:
-                return get_all("expression", "have", all_auxs)[0], get_en_form(verb)
-            except IndexError:
-                pass
-
+            return get_all("expression", "have", all_auxs)[0], get_en_form(verb)
 
 
 def get_en_form(verb):
+    """
+    :param verb: a verb vocab item
+    :return: the past participle form with the same root
+    """
     return get_all("root", verb["root"], all_en_verbs)[0]
 
 def get_do_form(verb):
+    """
+    :param verb: a verb vocab item
+    :return: the form of "do" necessary for "do"-support in question formation
+    """
     do = get_all("expression", "do", all_auxs)[0]
     does = get_all("expression", "does", all_auxs)[0]
     did = get_all("expression", "did", all_auxs)[0]
@@ -497,18 +492,3 @@ def get_do_form(verb):
             return does
         else:
             return do
-
-# test
-
-# tvs = get_all("category", "(S\\NP)/NP")
-#
-# for tv in tvs:
-#     args = verb_args_from_verb(tv)
-#     print(" ".join([args["subject"][0], args["auxiliary"][0], tv[0], args["object"][0]]))
-
-# for i in range(1000):
-#     N = choice(get_all("animate", "1", get_all("category", "N")))
-#     rc = subject_relative_clause(N)
-#     print(N[0], rc[0])
-
-pass

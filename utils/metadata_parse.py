@@ -1,5 +1,5 @@
 # Author: Alex Warstadt
-# Script for parsing the metadata column in generated datasets
+# Script for parsing the metadata column in generated datasets in the NPI dataset
 
 import numpy as np
 from utils.vocab_table import *

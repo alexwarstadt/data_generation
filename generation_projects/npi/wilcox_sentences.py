@@ -2,10 +2,7 @@
 # Script for generating NPI sentences from Wilcox et al. paradigm
 
 from utils.conjugate import *
-from utils.string_utils import remove_extra_whitespace
-from random import choice
-import random
-from utils.wilcox_data_type import data_type
+from generation_projects.npi.wilcox_data_type import data_type
 import numpy as np
 
 # read in Wilcox paradigm

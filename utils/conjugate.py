@@ -110,6 +110,10 @@ def require_aux_agree(verb, subj, allow_negated=True):
     return {'aux_agree':aux_agree[0], 'aux_nonagree':aux_nonagree[0]}
 
 def get_mismatch_verb(verb):
+    """
+    :param verb: a present tense verb vocab entry
+    :return: the verb with opposite agreement
+    """
     if verb["pres"] == "1":
         verb_root = get_all("root", verb["root"])
         if verb["3sg"] == "1":
@@ -120,6 +124,10 @@ def get_mismatch_verb(verb):
         raise ValueError("Verb should be present tense.")
 
 def get_same_aux_verbs(verb):
+    """
+    :param verb: a verb vocab entry
+    :return: the set of all verbs with the same auxiliary agreement properties
+    """
     if verb["finite"] == "1":
         return all_finite_verbs
     elif verb["bare"] == "1":
