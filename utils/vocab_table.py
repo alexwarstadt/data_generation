@@ -7,13 +7,10 @@ import re
 import os
 
 vocab_path = os.path.join("/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1]), "vocabulary.csv")
-vocab = np.genfromtxt(vocab_path, delimiter=",", names=True, dtype=data_type, encoding="latin1")
+vocab = np.genfromtxt(vocab_path, delimiter=",", names=True, dtype=data_type)
 # decode TODO: make this not a hack
 for entry in vocab:
     entry[0] = re.sub("!", "'", entry[0])
-
-# def get_all(label, value):
-#     return np.array(list(filter(lambda x: x[label]==value, vocab)), dtype=data_type)
 
 
 def get_all(label, value, table=vocab):
