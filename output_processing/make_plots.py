@@ -120,7 +120,7 @@ def make_five_sizes_plot(ax, correct_column, experiment_type, ylabel, summary_pa
     # plt.show()
 
 
-def make_10k_plot(ax, correct_column, experiment_type, ylabel, summary_path, experiment_template):
+def make_10k_plot(ax, correct_column, experiment_type, ylabel, summary_path, experiment_template, hide_yticks=True):
     sizes = ["10k"]
     data_type = output_processing.unify_test.get_results_dtype(True, experiment_type)
     results_table = np.genfromtxt(summary_path, delimiter="\t", names=True, dtype=data_type)
@@ -133,6 +133,8 @@ def make_10k_plot(ax, correct_column, experiment_type, ylabel, summary_path, exp
         good_five_sizes.append(good[correct_column])
         bad_five_sizes.append(bad[correct_column])
     # fig, ax = plt.subplots(nrows=1, ncols=1)
+    if hide_yticks:
+        ax.get_yaxis().set_ticks([])
     ax.set_ylim([-5, 105])
     set_axis_style(ax, [""], "")
     nans = [float('nan'), float('nan')]
@@ -144,7 +146,7 @@ def make_10k_plot(ax, correct_column, experiment_type, ylabel, summary_path, exp
     bad_x = [i + random.uniform(0.9, 1.1) for i, exp in enumerate(bad_five_sizes) for _ in range(len(exp))]
     bad_y = [y for list in bad_five_sizes for y in list]
     ax.plot(good_x, good_y, "x", color="k")
-    ax.plot(bad_x, bad_y, "x", color="lightgray")
+    ax.plot(bad_x, bad_y, "x", color="white")
     ax.set_ylabel(ylabel, fontsize=16)
     for body in vp["bodies"]:
         body.set_facecolor("blue")
@@ -154,22 +156,22 @@ def make_10k_plot(ax, correct_column, experiment_type, ylabel, summary_path, exp
         part.set_linewidth(1)
     for partname in ['cmeans']:
         part = vp[partname]
-        part.set_color('r')
+        part.set_color('k')
         part.set_linewidth(1)
 
 
-# fig, (ax1, ax2, ax3, ax4) = plt.subplots(nrows=1, ncols=4)
-fig, (ax1, ax2, ax3) = plt.subplots(nrows=1, ncols=3)
-ax1.set_title("Reflexive", fontsize=16)
-ax2.set_title("Polar Question", fontsize=16)
+fig, (ax1, ax2, ax3, ax4) = plt.subplots(nrows=1, ncols=4)
+# fig, (ax1, ax2, ax3) = plt.subplots(nrows=1, ncols=3)
+ax1.set_title("S-Aux-Inv", fontsize=16)
+ax2.set_title("Binding", fontsize=16)
 ax3.set_title("NPI", fontsize=16)
-# ax4.set_title("Tense", fontsize=16)
+ax4.set_title("Tense", fontsize=16)
 
 
 # ========= 5 SIZES PLOTS ==========
-make_five_sizes_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
-                     "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
-                     "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
+# make_five_sizes_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
+#                      "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
+#                      "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
 
 
 # make_five_sizes_plot(ax2, "10", "polar_q", "",
@@ -184,23 +186,29 @@ make_five_sizes_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
 # make_five_sizes_plot(ax4, "10", "embedded_tense", "",
 #                      "../results/structure_dependent_experiments/embedded_tense_summary.tsv",
 #                      "/scratch/asw462/jiant/structure_dependence/embedded_tense/embedded_tense_%s")
-plt.show()
+# plt.show()
 
 
 
 # ========= 10K PLOTS ==========
-# make_10k_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
-#                      "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
-#                      "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
-#
-# make_10k_plot(ax2, "10", "polar_q", "",
-#                      "../results/structure_dependent_experiments/polar_q_experiment_summary_new.tsv",
-#                      "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep")
-#
-# make_10k_plot(ax3, "01", "npi_scope", "",
-#                      "../results/structure_dependent_experiments/npi_scope_experiment_summary.tsv",
-#                      "/scratch/asw462/jiant/structure_dependence/npi_scope_experiment/npi_scope_%s_sweep")
-# plt.show()
+make_10k_plot(ax1, "10", "polar_q", "% OOD Pairs Correct",
+                     "../results/structure_dependent_experiments/polar_q_experiment_summary_new.tsv",
+                     "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep",
+                     hide_yticks=False)
+
+make_10k_plot(ax2, "10", "reflexive", "",
+                     "../results/structure_dependent_experiments/reflexive_experiment_summary.tsv",
+                     "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
+
+make_10k_plot(ax3, "01", "npi_scope", "",
+                     "../results/structure_dependent_experiments/npi_scope_experiment_summary.tsv",
+                     "/scratch/asw462/jiant/structure_dependence/npi_scope_experiment/npi_scope_%s_sweep")
+
+# OPTIONAL!!
+make_10k_plot(ax4, "10", "embedded_tense", "",
+                     "../results/structure_dependent_experiments/embedded_tense_summary.tsv",
+                     "/scratch/asw462/jiant/structure_dependence/embedded_tense/embedded_tense_%s")
+plt.show()
 
 
 
