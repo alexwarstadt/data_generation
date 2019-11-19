@@ -3,6 +3,8 @@ from utils.randomize import *
 from functools import reduce
 import numpy as np
 
+#
+
 # NOUNS
 all_nouns = get_all_conjunctive([("category", "N"), ("frequent", "1")])
 all_singular_nouns = get_all("sg", "1", all_nouns)

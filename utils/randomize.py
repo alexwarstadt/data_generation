@@ -2,7 +2,6 @@ import random
 import math
 import numpy as np
 
-
 def decision(probability):
     return random.random() < probability
 
