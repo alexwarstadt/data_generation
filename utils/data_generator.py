@@ -11,11 +11,18 @@ import traceback
 
 
 class Generator:
+    """
+    "Abstract" Class that is instantiated by individual data generation scripts
+    """
     def __init__(self):
         self.data_fields = None
         return
 
     def sample(self):
+        """
+        samples a single minimal pair/set of a paradigm
+        :return: the dictionary containing the data, and a representative sentence to avoid generating duplicates
+        """
         data = None
         track_sentence = None
         return data, track_sentence
@@ -24,10 +31,14 @@ class Generator:
         return {}
 
     def make_logger(self, metadata):
+        """
+        creates a logger for the generation project
+        :param metadata: metadata dict for the generation project
+        :return: None
+        """
         project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
         log_name = 'generation-%s-%s.log' % (metadata["UID"], str(datetime.datetime.now()))
         logging.basicConfig(filename=os.path.join(project_root, "logs/benchmark", log_name), level=logging.DEBUG)
-        # logging.basicConfig(filename=os.path.join("../../logs/benchmark", log_name), level=logging.DEBUG)
 
     def log_exception(self, e):
         logging.debug(self.get_stack_trace(e) + "\n")
@@ -36,6 +47,16 @@ class Generator:
         return "".join(traceback.format_tb(e.__traceback__)) + str(e)
 
     def generate_paradigm(self, number_to_generate=1000, rel_output_path=None, absolute_path=None):
+        """
+        Contains the main loop for generating a full dataset for a given paradigm.
+        Also contains exception handling: some exceptions are tolerated because sometimes no matching arguments can be found,
+        but if at least 10% of cases have an exception, it terminates since this is probably an issue in the code, and
+        it could cause an infinite loop otherwise.
+        :param number_to_generate: number of minimal pairs/sets to generate
+        :param rel_output_path: relative path of output file
+        :param absolute_path: absolute path of output file
+        :return: None
+        """
         if rel_output_path is not None:
             project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
             output = open(os.path.join(project_root, rel_output_path), "w")
@@ -76,6 +97,9 @@ class Generator:
 
 
 class BenchmarkGenerator(Generator):
+    """
+    Data generator for BLiMP.
+    """
     def __init__(self,
                  field: str,
                  linguistics: str,
@@ -112,23 +136,11 @@ class BenchmarkGenerator(Generator):
         }
         return metadata
 
-class NLIGenerator(Generator):
-    def __init__(self,
-                 uid):
-        super().__init__()
-        self.uid = uid
-        self.data_fields = ["sentence_1", "sentence_2"]
-
-
-    def make_metadata_dict(self):
-        metadata = {
-            "UID": self.uid
-        }
-        return metadata
-
 
 class ScalarImplicatureGenerator(Generator):
-
+    """
+    Data generator for IMPPRES implicatures
+    """
     def __init__(self,
                  uid):
         super().__init__()
@@ -179,6 +191,9 @@ class ScalarImplicatureGenerator(Generator):
 
 
 class PresuppositionGenerator(Generator):
+    """
+    Data generator for IMPPRES presuppositions
+    """
 
     def __init__(self,
                  uid):
