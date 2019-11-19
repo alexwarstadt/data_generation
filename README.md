@@ -2,8 +2,13 @@
 
 OVERVIEW
 - This project includes utilities and scripts for automatic dataset generation. It is used in the following papers:
-    - Kann, K., Warstadt, A., Williams, A., & Bowman, S. R. (2018). Verb argument structure alternations in word and sentence embeddings. arXiv preprint arXiv:1811.10773.
     - Warstadt, A., Cao, Y., Grosu, I., Peng, W., Blix, H., Nie, Y., ... & Wang, S. F. (2019). Investigating BERT's Knowledge of Language: Five Analysis Methods with NPIs. arXiv preprint arXiv:1909.02597.
+    
+
+USAGE
+To run a sample data generation script, navigate to the data_generation directory and run the following command:
+    python -m generation_projects.benchmark.adjunct_island
+If all dependencies are present in your workspace, this will generate the adjunct_island dataset in BLiMP. Generation will take a minute to begin, after which point the progress can be watched in outputs/benchmark/adjunct_island.jsonl.
 
 
 PROJECT STRUCTURE
@@ -44,5 +49,5 @@ UTILS
     - utils.string_utils contains functions for cleaning up generated strings (removing extra whitespace, capitalization, etc.)
     - utils.vocab_sets contains constants for accessing commonly used sets of vocab entries. Building these constants takes about a minute at the beginning of running a generation script, but this speeds up generation of large datasets.
     - utils.vocab_table contains functions for creating and accessing the vocabulary table
-    - get_all gathers all vocab items with a given restriction
-    - get_all_conjunctive gathers all vocab items with the given restrictions
+        - get_all gathers all vocab items with a given restriction
+        - get_all_conjunctive gathers all vocab items with the given restrictions
