@@ -23,9 +23,15 @@ def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
 
 def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True, allow_recursion=False, allow_quantifiers=True):
     """
-    :param verb: 
-    :param frequent: 
-    :return: dict of all arguments of verb: {subject:x1, auxiliary:x2, ...]
+    :param verb: a vocab entry for a verb
+    :param frequent: should only frequent vocab be generated?
+    :param subj: if supplied, the value of the subject in the returned dict. If None, a subject will be generated.
+    :param aux: if supplied, the value of the auxiliary in the returned dict. If None, an auxiliary will be generated.
+    :param allow_negated: should negated auxiliaries (e.g. has't) be generated?
+    :param allow_modal: should modal auxiliaries (e.g. might) be generated?
+    :param allow_recursion: for verbs that select for a clause or VP, should other clause/VP embedding verbs be generated in the embedded position?
+    :param allow_quantifiers: should quantifiers (e.g. most, every) be generated as determiners for DPs?
+    :return: dict of all arguments of verb: {subject:x1, auxiliary:x2, verb:x3, args:[arg_1, arg_2, ..., arg_n]}
     """
     args = {"verb": verb}
     if frequent:
@@ -130,11 +136,12 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
 
 def pred_args_from_pred(pred, frequent=True, subj=None, allow_negated=True):
     """
-        :param verb: 
-        :param frequent:
-        :param allow_negated:
-        :return: dict of all arguments of verb: {subject:x1, auxiliary:x2, ...]
-        """
+    :param pred: the vocab entry of a non-verbal predicate
+    :param frequent: should only frequent vocab be generated?
+    :param subj: if supplied, the value of the subject in the returned dict. If None, a subject will be generated.
+    :param allow_negated: should negated auxiliaries (e.g. has't) be generated?
+    :return: dict of all arguments of verb: {subject:x1, auxiliary:x2, copula:x3, pred:x4, args:[arg_1, arg_2, ..., arg_n]}
+    """
     args = {"pred": pred}
     if frequent:
         freq_vocab = get_all("frequent", "1")
@@ -143,10 +150,7 @@ def pred_args_from_pred(pred, frequent=True, subj=None, allow_negated=True):
 
     # all verbs have a subject
     if subj is None:
-        try:
-            args["subj"] = N_to_DP_mutate(choice(get_matches_of(pred, "arg_1", get_all("category", "N", freq_vocab))))
-        except TypeError:
-            pass
+        args["subj"] = N_to_DP_mutate(choice(get_matches_of(pred, "arg_1", get_all("category", "N", freq_vocab))))
     else:
         args["subj"] = subj
 
@@ -174,28 +178,21 @@ def pred_args_from_pred(pred, frequent=True, subj=None, allow_negated=True):
 
     return args
 
-def join_args(args):
-    return " ".join(x[0] for x in args)
 
-def pred_to_predp_mutate(pred, frequent=True, copula=True, aux=True, args=None):
-    if args is None:
-        args = pred_args_from_pred(pred, frequent)
-    try:
-        phrases = []
-        if aux:
-            phrases = phrases + [args["aux"][0]]
-        if copula:
-            phrases = phrases + [args["copula"][0]]
-        phrases = phrases + [pred[0]] + [x[0] for x in args["args"]]
-    except IndexError:
-        pass
-    except KeyError:
-        pass
-    pred[0] = " ".join(phrases)
-    return pred
+def join_args(args):
+    """
+    :param args: a list of argument for a predicate/verb
+    :return: the string made from joining the arguments with spaces
+    """
+    return " ".join(x[0] for x in args)
 
 
 def make_sentence_from_verb(verb, frequent=True):
+    """
+    :param verb: vocab entry for a verb
+    :param frequent: should only frequent vocab items be generated?
+    :return: the string for a sentence headed by the input verb.
+    """
     args = verb_args_from_verb(verb, frequent)
     return " ".join([args["subj"][0],
                      args["aux"][0],
@@ -204,6 +201,13 @@ def make_sentence_from_verb(verb, frequent=True):
 
 
 def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
+    """
+    :param verb: vocab entry for a verb
+    :param frequent: should only frequent vocab be generated?
+    :param aux: if supplied, the value of the auxiliary in the returned dict. If None, an auxiliary will be generated.
+    :param args: if supplied, the dictionary corresponding to the arguments of the verb
+    :return: a vocab entry with the expression containing the string of the full VP
+    """
     VP = verb.copy()
     if args is None:
         args = verb_args_from_verb(verb, frequent)
@@ -214,12 +218,22 @@ def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
     VP[0] = " ".join(phrases)
     return VP
 
+
 def make_sentence(frequent=True):
+    """
+    :param frequent: should only frequent vocab be generated?
+    :return: a vocab entry with the expression containing the string of the full sentence
+    """
     verb = choice(all_verbs)
     verb[0] = make_sentence_from_verb(verb, frequent)
     return verb
 
+
 def make_sentence_from_args(args):
+    """
+    :param args: the argument dictionary for a verb
+    :return: the string corresponding to the sentence containing the verb and all its arguments
+    """
     return " ".join([args["subj"][0],
                      args["aux"][0],
                      args["verb"][0]] +
@@ -227,6 +241,10 @@ def make_sentence_from_args(args):
 
 
 def make_emb_subj_question(frequent=True):
+    """
+    :param frequent: should only frequent vocab be generated?
+    :return: a vocab entry with the expression corresponding to the string of an entire embedded question with a wh-subject
+    """
     verb = choice(all_possibly_singular_verbs)
     args = verb_args_from_verb(verb)
     wh = choice(get_matched_by(args["subj"], "arg_1", all_wh_words))
@@ -236,23 +254,21 @@ def make_emb_subj_question(frequent=True):
 
 def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quantifiers=True):
     """
-    
-    :param noun: 
-    :param frequent: 
-    :return: 
+    :param noun: the vocab entry of a noun
+    :param frequent: should only frequent vocab be generated?
+    :param allow_recursion: for nouns that take other nouns as arguments, should other noun-embedding nouns be generated in the embedded position?
+    :param allow_quantifiers: should quantifiers (e.g. most, every) be generated as determiners for DPs?
+    :return: a dict containing all the arguments of the noun: {det: x1, args: [arg_1, ..., arg_n]}
     """
     args = {}
     if frequent:
         freq_vocab = all_frequent
     else:
         freq_vocab = vocab
-    try:
-        if allow_quantifiers:
-            args["det"] = choice(get_matched_by(noun, "arg_1", get_all("category", "(S/(S\\NP))/N", freq_vocab)))
-        else:
-            args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", get_all("category", "(S/(S\\NP))/N", freq_vocab))))
-    except IndexError:
-        pass
+    if allow_quantifiers:
+        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("category", "(S/(S\\NP))/N", freq_vocab)))
+    else:
+        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", get_all("category", "(S/(S\\NP))/N", freq_vocab))))
     if noun["category"] == "N":
         args["args"] = []
     if noun["category"] == "NP":
@@ -271,8 +287,6 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
             poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, freq_vocab)))))
         args["det"] = poss
         args["args"] = []
-    else:
-        pass
     return args
 
 
@@ -308,6 +322,10 @@ def subject_relative_clause(noun):
 
 
 def get_reflexive(noun):
+    """
+    :param noun: the vocab entry of a noun
+    :return: a reflexive pronoun agreeing with the noun
+    """
     themselves = get_all("expression", "themselves")[0]
     matches = get_matched_by(noun, "arg_1", get_all("category_2", "refl"))
     while True:
@@ -321,30 +339,29 @@ def get_reflexive(noun):
 
 
 def make_possessive(DP):
+    """
+    :param DP: a vocab entry for a full DP (expression of type e)
+    :return: the DP with expression containing the string with 's appended
+    """
     poss_str = "'" if DP["pl"] == "1" and DP[0][-1] == "s" else "'s"
     DP[0] = DP[0] + poss_str
     return DP
 
-def negate_VP(verb, aux):
-    if aux["expression"] == "":
-        aux_neg = get_all("expression", "didn't")[0] if verb["past"] == "1" \
-            else get_all("expression", "doesn't")[0] if verb["3sg"] == "1" \
-            else get_all("expression", "don't")[0]
-        verb_neg = get_bare_form(verb)
-    else:
-        aux_neg = negate_aux(aux)
-        verb_neg = verb
-    return verb_neg, aux_neg
 
 def get_bare_form_str(verb_str):
+    """
+    :param verb_str: the string of a verb
+    :return: the string of the bare form of the verb
+    """
     words = verb_str.split(" ")
     words[0] = lemmatizer.lemmatize(words[0], "v")
     return " ".join(words)
 
+
 def get_bare_form(verb):
     """
-    :param verb:
-    :return:
+    :param verb: the vocab entry of a verb
+    :return: the vocab entry of the bare form of the verb
     """
     bare_verb = verb.copy()
     bare_verb["expression"] = get_bare_form_str(verb["expression"])
@@ -357,8 +374,29 @@ def get_bare_form(verb):
     bare_verb["3sg"] = "0"
     return bare_verb
 
+
+def negate_VP(verb, aux):
+    """
+    :param verb: vocab entry for a verb
+    :param aux: vocab entry for an auxiliary
+    :return: the verb form and auxiliary form necessary for the corresponding negated VP
+    """
+    if aux["expression"] == "":
+        aux_neg = get_all("expression", "didn't")[0] if verb["past"] == "1" \
+            else get_all("expression", "doesn't")[0] if verb["3sg"] == "1" \
+            else get_all("expression", "don't")[0]
+        verb_neg = get_bare_form(verb)
+    else:
+        aux_neg = negate_aux(aux)
+        verb_neg = verb
+    return verb_neg, aux_neg
+
+
 def negate_V_args(V_args):
-    # TODO: this is a hack
+    """
+    :param V_args: a dict containing the arguments of a verb
+    :return: the dict with additional entries for the verb form and auxiliary form necessary for the corresponding negated VP
+    """
     verb_neg, aux_neg = negate_VP(V_args["verb"], V_args["aux"])
     V_args["aux_neg"] = aux_neg
     V_args["verb_neg"] = verb_neg
@@ -367,7 +405,7 @@ def negate_V_args(V_args):
 def negate_aux(aux):
     """
     :param aux: an auxiliary vocab entry
-    :return: the form
+    :return: the form of the auxiliary necessary for the corresponding negated VP
     """
     if aux["expression"] == "might":
         aux_neg = get_all("expression", "might")[0]

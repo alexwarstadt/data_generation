@@ -6,7 +6,8 @@ def conjugate(verb, subj, allow_negated=True, require_negated=False):
     """
     :param verb: vocab entry
     :param subj: vocab entry
-    :param allow_negated: are negated auxiliaries (e.g. shouldn't) allowed
+    :param allow_negated: should negated auxiliaries (e.g. shouldn't) ever be generated?
+    :param require_negated: should negated auxiliaries always be generated?
     :return: copy of verb with modified string to include auxiliary
     """
     if allow_negated:
@@ -28,7 +29,8 @@ def return_aux(verb, subj, allow_negated=True, require_negated=False, allow_moda
     """
     :param verb: vocab entry
     :param subj: vocab entry
-    :param allow_negated: are negated auxiliaries (e.g. shouldn't) allowed
+    :param allow_negated: should negated auxiliaries (e.g. shouldn't) ever be generated?
+    :param require_negated: should negated auxiliaries always be generated?
     :return: auxiliary that agrees with verb, or none if no auxiliary is needed.
     """
     if allow_negated and allow_modal:
@@ -43,14 +45,16 @@ def return_aux(verb, subj, allow_negated=True, require_negated=False, allow_moda
         safe_auxs = all_negated_modals_auxs
     if require_negated and not allow_modal:
         safe_auxs = all_negated_auxs
-
-    try:
-        aux = choice(get_matched_by(verb, "arg_2", get_matched_by(subj, "arg_1", safe_auxs)))
-    except IndexError:
-        pass
+    aux = choice(get_matched_by(verb, "arg_2", get_matched_by(subj, "arg_1", safe_auxs)))
     return aux
 
 def return_copula(subj, allow_negated=True, require_negated=False):
+    """
+    :param subj: vocab entry
+    :param allow_negated: should negated auxiliaries (e.g. shouldn't) ever be generated?
+    :param require_negated: should negated auxiliaries always be generated?
+    :return: copula that agrees with the subject
+    """
     if allow_negated:
         subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_finite_copulas)
     else:
