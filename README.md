@@ -34,6 +34,7 @@ VOCABULARY
 - In other words, the entire restriction is written in disjunctive normal form where ";" is used for disjunction and "^" is used for conjunction.
 - Example 1: arg_1 of lexical item "breaking" is "animate=1". This means any noun appearing as the subject of "breaking" must have value "1" in the column "animate". 
 - Example 2: arg_1 of lexical item "buys" is "institution=1^sg=1;animate=1^sg=1". This means any noun appearing as the subject of "breaking" must have value ("1" in column "institution" and value "1" in column "sg") OR ("1" in column "animate" and value "1" in column "sg"). 
+- Disclaimer: As this project is under active development, data generated with different versions of the vocabulary may differ slightly.
 
 
 UTILS
