@@ -295,17 +295,17 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
         #C5= [[notS,notW], ["neutral", "contradiction", "negated implicature_N", "target"]]
         #C6 = [(C5[0])[::-1], ["entailment", "contradiction","reverse negated implicature_N", "target"]]
 
-        C7 = [[S,notW], ["contradiction", "contradiction", "opposite", "control"]]
-        C8 = [(C7[0])[::-1], ["contradiction", "contradiction", "opposite", "control"]]
-        C9 = [[W,notW], ["contradiction", "contradiction", "negation","control"]]
-        C10 = [(C9[0])[::-1], ["contradiction", "contradiction", "negation","control"]]
-        C11 = [[S,notS], ["contradiction", "contradiction", "negation","control"]]
-        C12 = [(C11[0])[::-1], ["contradiction", "contradiction", "negation","control"]]
+        C7 = [[S,notW], ["contradiction", "contradiction", "opposite_1", "control"]]
+        C8 = [(C7[0])[::-1], ["contradiction", "contradiction", "opposite_2", "control"]]
+        C9 = [[W,notW], ["contradiction", "contradiction", "negation_W1","control"]]
+        C10 = [(C9[0])[::-1], ["contradiction", "contradiction", "negation_W2","control"]]
+        C11 = [[S,notS], ["contradiction", "contradiction", "negation_S1","control"]]
+        C12 = [(C11[0])[::-1], ["contradiction", "contradiction", "negation_S2","control"]]
 
         if w=="two" or w =="ten":
-            C2 = [(C1[0])[::-1], ["neutral", "neutral", "no_impl", "target"]]
-            C5 = [[notS, notW], ["neutral", "neutral", "no_impl", "target"]]
-            C6 = [(C5[0])[::-1], ["entailment", "neutral", "no_impl", "target"]]
+            C2 = [(C1[0])[::-1], ["neutral", "entailment", "no_impl_NtoP", "target"]]
+            C5 = [[notS, notW], ["neutral", "contradiction", "no_negimpl_N", "target"]]
+            C6 = [(C5[0])[::-1], ["entailment", "contradiction", "no_revimpl_N", "target"]]
 
         else:
             C2 = [(C1[0])[::-1], ["neutral", "entailment", "implicature_NtoP", "target"]]
