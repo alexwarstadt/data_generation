@@ -337,30 +337,23 @@ class SIGenerator(data_generator.ScalarImplicatureGenerator):
 
 
 
-#200
 generator = SIGenerator("some", "all")
 generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/implicature/quantifiers.jsonl")
 
-#200
 generator = SIGenerator("or", "and")
 generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/implicature/connectives.jsonl")
 
-#100
 generator = SIGenerator("can", "have to")
 generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/implicature/modals.jsonl")
 
-#100
 generator = SIGenerator("two", "three")
 generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/implicature/numerals_2_3.jsonl")
 
-#100
 generator = SIGenerator("ten", "one hundred")
 generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/implicature/numerals_10_100.jsonl")
 
-#200
 generator = SIGenerator("adj", "adj")
 generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/implicature/gradable_adjective.jsonl")
 
-#200
 generator = SIGenerator("verb", "verb")
 generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/IMPPRES/implicature/gradable_verb.jsonl")
