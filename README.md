@@ -6,23 +6,25 @@ This project includes utilities and scripts for automatic dataset generation. It
 
 ## Usage
 To run a sample data generation script, navigate to the data_generation directory and run the following command:
+
     ```
     python -m generation_projects.benchmark.adjunct_island
     ```
+    
 If all dependencies are present in your workspace, this will generate the adjunct_island dataset in BLiMP. Generation will take a minute to begin, after which point the progress can be watched in outputs/benchmark/adjunct_island.jsonl.
 
 
 ## Project Structure
 - The project contains the following packages:
-    - generation_projects: scripts for generating data, organized into subdirectories by research project.
-    - mturk_qc: code for carrying out Amazon mechanical turk quality control.
-    - outputs: generated data, organized into subdirectories by research project.
-    - results: experiment results files
-    - results_processing: scripts for analyzing results and producing figures
-    - utils: shared code for generation projects. Includes utilities for proecessing the vocabulary, generating constituents, manipulating generated strings, etc.
+    - ```generation_projects```: scripts for generating data, organized into subdirectories by research project.
+    - ```mturk_qc```: code for carrying out Amazon mechanical turk quality control.
+    - ```outputs```: generated data, organized into subdirectories by research project.
+    - ```results```: experiment results files
+    - ```results_processing```: scripts for analyzing results and producing figures
+    - ```utils```: shared code for generation projects. Includes utilities for proecessing the vocabulary, generating constituents, manipulating generated strings, etc.
 - It also contains a vocabulary file and documentation of the vocabulary:
-    - vocabulary.csv: the vocab file.
-    - vocab_documentation.md: the vocab documentation
+    - ```vocabulary.csv```: the vocab file.
+    - ```vocab_documentation.md```: the vocab documentation
 
 
 ## Vocabulary
@@ -38,7 +40,7 @@ If all dependencies are present in your workspace, this will generate the adjunc
 - Example 1: ```arg_1``` of lexical item *breaking* is ```animate=1```. This means any noun appearing as the subject of *breaking* must have value ```1``` in the column ```animate```. 
 - Example 2: ```arg_1``` of lexical item *buys* is ```institution=1^sg=1;animate=1^sg=1```. This means any noun appearing as the subject of *breaking* must meet one of the following conditions: 
     1. have value ```1``` in column ```institution``` and value ```1``` in column ```sg```, or
-    2. have value ```1```` in column ```animate``` and value ```1``` in column ```sg```. 
+    2. have value ```1``` in column ```animate``` and value ```1``` in column ```sg```. 
 - Disclaimer: As this project is under active development, data generated with different versions of the vocabulary may differ slightly.
 
 
