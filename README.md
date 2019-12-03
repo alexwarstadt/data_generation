@@ -6,10 +6,9 @@ This project includes utilities and scripts for automatic dataset generation. It
 
 ## Usage
 To run a sample data generation script, navigate to the data_generation directory and run the following command:
-
-    ```
-    python -m generation_projects.benchmark.adjunct_island
-    ```
+```
+python -m generation_projects.benchmark.adjunct_island
+```
     
 If all dependencies are present in your workspace, this will generate the adjunct_island dataset in BLiMP. Generation will take a minute to begin, after which point the progress can be watched in outputs/benchmark/adjunct_island.jsonl.
 
