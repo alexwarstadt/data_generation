@@ -1,17 +1,16 @@
-# data_generation
-
-## OVERVIEW
-- This project includes utilities and scripts for automatic dataset generation. It is used in the following papers:
-    - Warstadt, A., Cao, Y., Grosu, I., Peng, W., Blix, H., Nie, Y., ... & Wang, S. F. (2019). Investigating BERT's Knowledge of Language: Five Analysis Methods with NPIs. arXiv preprint arXiv:1909.02597.
+# Data Generation
+This project includes utilities and scripts for automatic dataset generation. It is used in the following papers:
+    - Warstadt, A., Cao, Y., Grosu, I., Peng, W., Blix, H., Nie, Y., Alsop, A., Bordia, S., Liu, H., Parrish, A. and Wang, S.F., Bowman, S.R. 2019. Investigating BERT's Knowledge of Language: Five Analysis Methods with NPIs. arXiv preprint arXiv:1909.02597.
+    - Warstadt, A., Parrish, A., Liu, H., Mohananey, A., Peng, W., Wang, S.F., Bowman. S.R. 2019. BLiMP: A Benchmark of Linguistic Minimal Pairs for English. arXiv preprint arXiv:1912.00582.
     
 
-## USAGE
+## Usage
 To run a sample data generation script, navigate to the data_generation directory and run the following command:
     python -m generation_projects.benchmark.adjunct_island
 If all dependencies are present in your workspace, this will generate the adjunct_island dataset in BLiMP. Generation will take a minute to begin, after which point the progress can be watched in outputs/benchmark/adjunct_island.jsonl.
 
 
-## PROJECT STRUCTURE
+## Project Structure
 - The project contains the following packages:
     - generation_projects: scripts for generating data, organized into subdirectories by research project.
     - mturk_qc: code for carrying out Amazon mechanical turk quality control.
@@ -24,7 +23,7 @@ If all dependencies are present in your workspace, this will generate the adjunc
     - vocab_documentation.md: the vocab documentation
 
 
-## VOCABULARY
+## Vocabulary
 - The vocabulary file is vocabulary.csv.
 - Each row in the .csv is a lexical item. Each column is feature encoding grammatical information about the lexical item. Detailed documentation of the columns can be found in vocab_documentation.md.
 - The following notation is used to define selectional restrictions in the arg_1, arg_2, and arg_3 columns:
@@ -37,7 +36,7 @@ If all dependencies are present in your workspace, this will generate the adjunc
 - Disclaimer: As this project is under active development, data generated with different versions of the vocabulary may differ slightly.
 
 
-## UTILS
+## Utils
 - The utils package contains the shared code for the various generation projects.
     - utils.conjugate includes functions which conjugate verbs and add selecting auxiliaries/modals
     - utils.constituent_building includes functions which "do syntax". The following are especially useful:
@@ -52,3 +51,15 @@ If all dependencies are present in your workspace, this will generate the adjunc
     - utils.vocab_table contains functions for creating and accessing the vocabulary table
         - get_all gathers all vocab items with a given restriction
         - get_all_conjunctive gathers all vocab items with the given restrictions
+        
+## Citation
+If you use the data generation project in your work, please cite the BLiMP paper:
+```
+@article{warstadt2019blimp,
+  title={BLiMP: A Benchmark of Linguistic Minimal Pairs for English},
+  author={Warstadt, Alex and Parrish, Alicia and Liu, Haokun and Mohananey, Anhad and Peng, Wei, and Wang, Sheng-Fu and Bowman, Samuel R},
+  journal={arXiv preprint arXiv:1912.00582},
+  year={2019}
+}
+```
+
