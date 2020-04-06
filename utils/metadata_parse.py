@@ -187,8 +187,8 @@ def make_combines():
     Function that creates 10 combines for the npi data: 9 all-but-one datasets, 1 all-in-one dataset
     :return: none. writes to output
     """
-    npi_path = "../outputs/npi/environments"
-    splits_path = "../outputs/npi/environments/splits"
+    npi_path = "../../outputs/npi/environments"
+    splits_path = "../../outputs/npi/environments/splits"
     split_folders = os.listdir(splits_path)
 
     if not os.path.isdir(os.path.join(npi_path, "combs")):

@@ -2,7 +2,7 @@ from utils.vocab_table import *
 from random import choice
 from utils.vocab_sets import *
 
-def conjugate(verb, subj, allow_negated=True, require_negated=False):
+def conjugate(verb, subj, allow_negated=True, require_negated=False, change_v_form=False):
     """
     :param verb: vocab entry
     :param subj: vocab entry
@@ -14,12 +14,31 @@ def conjugate(verb, subj, allow_negated=True, require_negated=False):
         subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_modals_auxs)
     else:
         subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negated_modals_auxs)
-
     if require_negated:
         subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negated_modals_auxs)
-
+    if change_v_form:
+        verb = choice(get_matched_by(subj, "arg_1", get_all("root", verb["root"])))
     verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
     aux = choice(verb_agree_auxiliaries)
+    verb = verb.copy()
+    verb[0] = aux[0] + " " + verb[0]
+    return verb
+
+def re_conjugate(verb, subj, aux):
+    """
+    :param verb: vocab entry
+    :param subj: vocab entry
+    :param allow_negated: should negated auxiliaries (e.g. shouldn't) ever be generated?
+    :param require_negated: should negated auxiliaries always be generated?
+    :return: copy of verb with modified string to include auxiliary
+    """
+    if verb["pres"] == "1" and subj["category_2"] == "nom_pronoun" and subj["sg"] == "1" and (subj["person"] == "1" or subj["person"] == "2"):
+        verb = get_all_conjunctive([("root", verb["root"]), ("pres", "1"), ("3sg", "0")])[0]
+    else:
+        verb = get_matches_of(aux, "arg_2",
+                              get_matched_by(subj, "arg_1",
+                                             get_all_conjunctive([("root", verb["root"]), ("pres", verb["pres"])])))[0]
+    aux = re_conjugate_aux(aux, subj)
     verb = verb.copy()
     verb[0] = aux[0] + " " + verb[0]
     return verb
@@ -140,3 +159,42 @@ def get_same_aux_verbs(verb):
         return all_en_verbs
     elif verb["ing"] == "1":
         return all_ing_verbs
+
+
+def re_conjugate_aux(aux, subject):
+    """
+    :param aux: an auxiliary vocab entry
+    :return: the form of the auxiliary necessary for the corresponding negated VP
+    """
+    if aux["category_2"] == "modal":
+        return aux
+    if aux["expression"] == "":
+        return aux
+    if aux["expression"] == "do" or aux["expression"] == "does":
+        if subject["sg"] == "0" or subject["person"] == "1" or subject["person"] == "2":
+            return get_all("expression", "do", all_auxs)[0]
+        else:
+            return get_all("expression", "does", all_auxs)[0]
+    if aux["expression"] == "did":
+        return aux
+    if aux["expression"] == "has" or aux["expression"] == "have":
+        if subject["sg"] == "0" or subject["person"] == "1" or subject["person"] == "2":
+            return get_all("expression", "have", all_auxs)[0]
+        else:
+            return get_all("expression", "has", all_auxs)[0]
+    if aux["expression"] == "had":
+        return aux
+    if aux["expression"] == "don't" or aux["expression"] == "doesn't":
+        if subject["sg"] == "0" or subject["person"] == "1" or subject["person"] == "2":
+            return get_all("expression", "don't", all_auxs)[0]
+        else:
+            return get_all("expression", "doesn't", all_auxs)[0]
+    if aux["expression"] == "didn't":
+        return get_all("expression", "didn't", all_auxs)[0]
+    if aux["expression"] == "hasn't" or aux["expression"] == "haven't":
+        if subject["sg"] == "0" or subject["person"] == "1" or subject["person"] == "2":
+            return get_all("expression", "haven't", all_auxs)[0]
+        else:
+            return get_all("expression", "hasn't", all_auxs)[0]
+    if aux["expression"] == "hadn't":
+        return get_all("expression", "hadn't", all_auxs)[0]

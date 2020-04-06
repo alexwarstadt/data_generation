@@ -304,3 +304,144 @@ class PresuppositionGenerator(Generator):
         }
         return metadata
 
+
+class InductiveBiasesGenerator(Generator):
+    """
+    Data generator for BLiMP.
+    """
+    def __init__(self,
+                 uid: str,
+                 linguistic_feature_type: str,
+                 linguistic_feature_description: str,
+                 surface_feature_type: str,
+                 surface_feature_description: str,
+                 control_paradigm: bool):
+        super().__init__()
+        self.uid = uid
+        self.linguistic_feature_type = linguistic_feature_type
+        self.linguistic_feature_description = linguistic_feature_description
+        self.surface_feature_type = surface_feature_type
+        self.surface_feature_description = surface_feature_description
+        self.control_paradigm = control_paradigm
+        self.data_fields = ["training_1_1", "training_0_0", "test_1_0", "test_0_1", "control_1_1", "control_0_0"]
+
+    def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
+        if rel_output_path is not None:
+            project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
+            output = open(os.path.join(project_root, rel_output_path), "w")
+        elif absolute_path is not None:
+            output = open(absolute_path, "w")
+        else:
+            raise Exception("You need to give an output path")
+        past_sentences = set()
+        generated_data = []
+        sentenceID = 0
+        paradigmID = 0
+        error_counter = 0
+        constant_data = self.make_metadata_dict()
+        self.make_logger(constant_data)
+        output_writer = jsonlines.Writer(output, flush=True)
+        while len(past_sentences) < number_to_generate:
+            try:
+                new_data, track_sentence = self.sample()
+                if track_sentence not in past_sentences:
+                    past_sentences.add(track_sentence)
+                    for line in new_data:
+                        line["sentence"] = string_beautify(line["sentence"])
+                        line.update(constant_data)
+                        line["sentenceID"] = "%s_%s_%s_%s" % (sentenceID, line["condition"], str(line["linguistic_feature_label"]), str(line["surface_feature_label"]))
+                        line["paradigmID"] = paradigmID
+                        sentenceID += 1
+                        output_writer.write(line)
+                    paradigmID += 1
+            except Exception as e:
+                self.log_exception(e)
+                print(self.get_stack_trace(e))
+                error_counter += 1
+                if error_counter >= number_to_generate // 10:
+                    raise Exception("Over 10\% of samples result in errors. You should fix this.")
+
+    def make_metadata_dict(self):
+        """
+        (non token-specific metadata is in class fields, e.g. self.field=syntax)
+        :param extra_metadata: token-specific metadata, e.g. one_prefix_word_1="the"
+        :return: join metadata
+        """
+        metadata = {
+            "UID": self.uid,
+            "linguistic_feature_type": self.linguistic_feature_type,
+            "linguistic_feature_description": self.linguistic_feature_description,
+            "surface_feature_type": self.surface_feature_type,
+            "surface_feature_description": self.surface_feature_description,
+            "control_paradigm": self.control_paradigm
+        }
+        return metadata
+
+    def build_paradigm(self, training_1_1, training_0_0, test_1_0, test_0_1, control_1_1=None, control_0_0=None):
+        if not self.control_paradigm:
+            data = [
+                {"sentence": training_1_1,
+                 "condition": "training",
+                 "linguistic_feature_label": 1,
+                 "surface_feature_label": 1},
+                {"sentence": training_0_0,
+                 "condition": "training",
+                 "linguistic_feature_label": 0,
+                 "surface_feature_label": 0},
+                {"sentence": test_1_0,
+                 "condition": "test",
+                 "linguistic_feature_label": 1,
+                 "surface_feature_label": 0},
+                {"sentence": test_0_1,
+                 "condition": "test",
+                 "linguistic_feature_label": 0,
+                 "surface_feature_label": 1},
+                {"sentence": control_1_1,
+                 "condition": "control",
+                 "linguistic_feature_label": 1,
+                 "surface_feature_label": 1},
+                {"sentence": control_0_0,
+                 "condition": "control",
+                 "linguistic_feature_label": 0,
+                 "surface_feature_label": 0},
+            ]
+
+        if self.control_paradigm and self.linguistic_feature_type is not None:
+            data = [
+                {"sentence": training_1_1,
+                 "condition": "training",
+                 "linguistic_feature_label": 1,
+                 "surface_feature_label": None},
+                {"sentence": training_0_0,
+                 "condition": "training",
+                 "linguistic_feature_label": 0,
+                 "surface_feature_label": None},
+                {"sentence": test_1_0,
+                 "condition": "test",
+                 "linguistic_feature_label": 1,
+                 "surface_feature_label": None},
+                {"sentence": test_0_1,
+                 "condition": "test",
+                 "linguistic_feature_label": 0,
+                 "surface_feature_label": None},
+            ]
+        elif self.control_paradigm and not self.surface_feature_type is not None:
+            data = [
+                {"sentence": training_1_1,
+                 "condition": "training",
+                 "linguistic_feature_label": None,
+                 "surface_feature_label": 1},
+                {"sentence": training_0_0,
+                 "condition": "training",
+                 "linguistic_feature_label": None,
+                 "surface_feature_label": 0},
+                {"sentence": test_1_0,
+                 "condition": "test",
+                 "linguistic_feature_label": None,
+                 "surface_feature_label": 1},
+                {"sentence": test_0_1,
+                 "condition": "test",
+                 "linguistic_feature_label": None,
+                 "surface_feature_label": 0},
+            ]
+        return data
