@@ -1,5 +1,5 @@
 import numpy as np
-import results_processing.unify_test
+import results_processing.alexs_qp_structure_dependence.unify_test
 import utils.vocab_table
 import matplotlib.pyplot as plt
 
@@ -69,7 +69,7 @@ def set_axis_style(ax, labels, xlabel):
     ax.set_xticks(np.arange(1, len(labels) + 1))
     ax.set_xticklabels(labels)
     ax.set_xlim(0.25, len(labels) + 0.75)
-    ax.set_xlabel(xlabel, fontsize=16)
+    ax.set_xlabel(xlabel, fontsize=12)
 
 
 def adjacent_values(vals, q1, q3):
@@ -83,7 +83,7 @@ def adjacent_values(vals, q1, q3):
 
 def make_five_sizes_plot(ax, correct_column, experiment_type, ylabel, summary_path, experiment_template):
     sizes = ["100", "300", "1k", "3k", "10k"]
-    data_type = results_processing.unify_test.get_results_dtype(True, experiment_type)
+    data_type = results_processing.alexs_qp_structure_dependence.unify_test.get_results_dtype(True, experiment_type)
     results_table = np.genfromtxt(summary_path, delimiter="\t", names=True, dtype=data_type)
     good_five_sizes = []
     bad_five_sizes = []
@@ -106,7 +106,7 @@ def make_five_sizes_plot(ax, correct_column, experiment_type, ylabel, summary_pa
     bad_y = [y for list in bad_five_sizes for y in list]
     ax.plot(good_x, good_y, "x", color="k")
     ax.plot(bad_x, bad_y, "x", color="lightgray")
-    ax.set_ylabel(ylabel, fontsize=16)
+    ax.set_ylabel(ylabel, fontsize=12)
     for body in vp["bodies"]:
         body.set_facecolor("blue")
     for partname in ['cbars', 'cmins', 'cmaxes', 'cmeans']:
@@ -122,7 +122,7 @@ def make_five_sizes_plot(ax, correct_column, experiment_type, ylabel, summary_pa
 
 def make_10k_plot(ax, correct_column, experiment_type, ylabel, summary_path, experiment_template, hide_yticks=True):
     sizes = ["10k"]
-    data_type = results_processing.unify_test.get_results_dtype(True, experiment_type)
+    data_type = results_processing.alexs_qp_structure_dependence.unify_test.get_results_dtype(True, experiment_type)
     results_table = np.genfromtxt(summary_path, delimiter="\t", names=True, dtype=data_type)
     good_five_sizes = []
     bad_five_sizes = []
@@ -147,7 +147,7 @@ def make_10k_plot(ax, correct_column, experiment_type, ylabel, summary_path, exp
     bad_y = [y for list in bad_five_sizes for y in list]
     ax.plot(good_x, good_y, "x", color="k")
     ax.plot(bad_x, bad_y, "x", color="white")
-    ax.set_ylabel(ylabel, fontsize=16)
+    ax.set_ylabel(ylabel, fontsize=12)
     for body in vp["bodies"]:
         body.set_facecolor("blue")
     for partname in ['cbars', 'cmins', 'cmaxes']:
@@ -162,10 +162,10 @@ def make_10k_plot(ax, correct_column, experiment_type, ylabel, summary_path, exp
 
 fig, (ax1, ax2, ax3, ax4) = plt.subplots(nrows=1, ncols=4)
 # fig, (ax1, ax2, ax3) = plt.subplots(nrows=1, ncols=3)
-ax1.set_title("S-Aux-Inv", fontsize=16)
-ax2.set_title("Binding", fontsize=16)
-ax3.set_title("NPI", fontsize=16)
-ax4.set_title("Tense", fontsize=16)
+ax1.set_title("Subj-Aux-Inv", fontsize=12)
+ax2.set_title("Reflexive", fontsize=12)
+ax3.set_title("NPI", fontsize=12)
+ax4.set_title("Tense", fontsize=12)
 
 
 # ========= 5 SIZES PLOTS ==========
@@ -191,22 +191,22 @@ ax4.set_title("Tense", fontsize=16)
 
 
 # ========= 10K PLOTS ==========
-make_10k_plot(ax1, "10", "polar_q", "% OOD Pairs Correct",
-                     "../results/alexs_qp_structure_depenence/polar_q_experiment_summary_new.tsv",
+make_10k_plot(ax1, "10", "polar_q", "% Test Pairs Correct",
+                     "../../results/alexs_qp_structure_depenence/polar_q_experiment_summary_new.tsv",
                      "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep",
                      hide_yticks=False)
 
 make_10k_plot(ax2, "10", "reflexive", "",
-                     "../results/alexs_qp_structure_depenence/reflexive_experiment_summary.tsv",
+                     "../../results/alexs_qp_structure_depenence/reflexive_experiment_summary.tsv",
                      "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
 
 make_10k_plot(ax3, "01", "npi_scope", "",
-                     "../results/alexs_qp_structure_depenence/npi_scope_experiment_summary.tsv",
+                     "../../results/alexs_qp_structure_depenence/npi_scope_experiment_summary.tsv",
                      "/scratch/asw462/jiant/structure_dependence/npi_scope_experiment/npi_scope_%s_sweep")
 
 # OPTIONAL!!
 make_10k_plot(ax4, "10", "embedded_tense", "",
-                     "../results/alexs_qp_structure_depenence/embedded_tense_summary.tsv",
+                     "../../results/alexs_qp_structure_depenence/embedded_tense_summary.tsv",
                      "/scratch/asw462/jiant/structure_dependence/embedded_tense/embedded_tense_%s")
 plt.show()
 
@@ -214,7 +214,7 @@ plt.show()
 
 # ========= EMBEDDED TENSE PLOTS ==========
 # fig, ax = plt.subplots(nrows=1, ncols=1)
-# ax.set_title("Tense", fontsize=16)
+# ax.set_title("Tense", fontsize=12)
 # make_10k_plot(ax, "10", "embedded_tense", "% OOD Pairs Correct",
 #                      "../results/alexs_qp_structure_depenence/embedded_tense_summary.tsv",
 #                      "/scratch/asw462/jiant/structure_dependence/embedded_tense/embedded_tense_%s")
