@@ -37,8 +37,11 @@ class Generator:
         :return: None
         """
         project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
-        log_name = 'generation-%s-%s.log' % (metadata["UID"], str(datetime.datetime.now()))
-        logging.basicConfig(filename=os.path.join(project_root, "logs/benchmark", log_name), level=logging.DEBUG)
+        log_dir = os.path.join(project_root, "logs")
+        log_file = 'generation-%s-%s.log' % (metadata["UID"], str(datetime.datetime.now()))
+        if not os.path.exists(log_dir):
+            os.mkdir(log_dir)
+        logging.basicConfig(filename=os.path.join(log_dir, log_file), level=logging.DEBUG)
 
     def log_exception(self, e):
         logging.debug(self.get_stack_trace(e) + "\n")
@@ -349,7 +352,7 @@ class InductiveBiasesGenerator(Generator):
                     for line in new_data:
                         line["sentence"] = string_beautify(line["sentence"])
                         line.update(constant_data)
-                        line["sentenceID"] = "%s_%s_%s_%s" % (sentenceID, line["condition"], str(line["linguistic_feature_label"]), str(line["surface_feature_label"]))
+                        line["sentenceID"] = sentenceID
                         line["paradigmID"] = paradigmID
                         sentenceID += 1
                         output_writer.write(line)

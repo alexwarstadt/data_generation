@@ -32,16 +32,19 @@ def re_conjugate(verb, subj, aux):
     :param require_negated: should negated auxiliaries always be generated?
     :return: copy of verb with modified string to include auxiliary
     """
-    if verb["pres"] == "1" and subj["category_2"] == "nom_pronoun" and subj["sg"] == "1" and (subj["person"] == "1" or subj["person"] == "2"):
-        verb = get_all_conjunctive([("root", verb["root"]), ("pres", "1"), ("3sg", "0")])[0]
-    else:
-        verb = get_matches_of(aux, "arg_2",
-                              get_matched_by(subj, "arg_1",
-                                             get_all_conjunctive([("root", verb["root"]), ("pres", verb["pres"])])))[0]
-    aux = re_conjugate_aux(aux, subj)
-    verb = verb.copy()
-    verb[0] = aux[0] + " " + verb[0]
-    return verb
+    try:
+        if verb["pres"] == "1" and subj["category_2"] == "nom_pronoun" and subj["sg"] == "1" and (subj["person"] == "1" or subj["person"] == "2"):
+            verb = get_all_conjunctive([("root", verb["root"]), ("pres", "1"), ("3sg", "0")])[0]
+        else:
+            verb = get_matches_of(aux, "arg_2",
+                                  get_matched_by(subj, "arg_1",
+                                                 get_all_conjunctive([("root", verb["root"]), ("pres", verb["pres"])])))[0]
+        aux = re_conjugate_aux(aux, subj)
+        verb = verb.copy()
+        verb[0] = aux[0] + " " + verb[0]
+        return verb
+    except Exception:
+        pass
 
 
 def return_aux(verb, subj, allow_negated=True, require_negated=False, allow_modal=True):

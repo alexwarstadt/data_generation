@@ -187,20 +187,23 @@ def join_args(args):
     return " ".join(x[0] for x in args)
 
 
-def make_sentence_from_verb(verb, frequent=True):
+def make_sentence_from_verb(verb, frequent=True, allow_recursion=False):
     """
     :param verb: vocab entry for a verb
     :param frequent: should only frequent vocab items be generated?
     :return: the string for a sentence headed by the input verb.
     """
-    args = verb_args_from_verb(verb, frequent)
-    return " ".join([args["subj"][0],
-                     args["aux"][0],
-                     verb[0]] +
-                    [x[0] for x in args["args"]])
+    args = verb_args_from_verb(verb, frequent=frequent, allow_recursion=False)
+    try:
+        return " ".join([args["subj"][0],
+                         args["aux"][0],
+                         verb[0]] +
+                        [x[0] for x in args["args"]])
+    except Exception:
+        pass
 
 
-def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
+def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=False):
     """
     :param verb: vocab entry for a verb
     :param frequent: should only frequent vocab be generated?
@@ -210,7 +213,7 @@ def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
     """
     VP = verb.copy()
     if args is None:
-        args = verb_args_from_verb(verb, frequent)
+        args = verb_args_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion)
     if aux:
         phrases = [args["aux"][0], verb[0]] + [x[0] for x in args["args"]]
     else:
@@ -219,13 +222,13 @@ def V_to_VP_mutate(verb, aux=True, frequent=True, args=None):
     return VP
 
 
-def make_sentence(frequent=True):
+def make_sentence(frequent=True, allow_recursion=False):
     """
     :param frequent: should only frequent vocab be generated?
     :return: a vocab entry with the expression containing the string of the full sentence
     """
     verb = choice(all_verbs)
-    verb[0] = make_sentence_from_verb(verb, frequent)
+    verb[0] = make_sentence_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion)
     return verb
 
 
