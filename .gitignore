@@ -1,6 +1,8 @@
+.DS_Store
 .idea/
 View_Vocab.xlsx
 *.pyc
+outputs/inductive_biases
 vocabulary_my_edits.csv
 vocabulary_orig.csv
 vocabularyorig.csv
