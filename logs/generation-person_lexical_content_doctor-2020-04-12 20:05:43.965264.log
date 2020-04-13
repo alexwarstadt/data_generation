@@ -1,6 +1,0 @@
-DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
-    new_data, track_sentence = self.sample()
-  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_doctor.py", line 62, in sample
-    print('non-first:',non-first)
-name 'non' is not defined
-
