@@ -1,0 +1,70 @@
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.concatenate((get_all("expression", "that")[0],NP1),axis=0))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.concatenate((get_all("expression", "that")[0],NP1),axis=0))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.concatenate((get_all("expression", "that")[0],NP1),axis=0))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.concatenate((get_all("expression", "that")[0],NP1),axis=0))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.concatenate((get_all("expression", "that")[0],NP1),axis=0))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.concatenate((get_all("expression", "that")[0],NP1),axis=0))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.concatenate((get_all("expression", "that")[0],NP1),axis=0))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.concatenate((get_all("expression", "that")[0],NP1),axis=0))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.array([get_all("expression", "that")[0],NP1]))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 349, in generate_paradigm
+    new_data, track_sentence = self.sample()
+  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/generation_projects/inductive_biases/person_lexical_content_repeated.py", line 51, in sample
+    print('two:',np.array([get_all("expression", "that")[0],NP1]))
+  File "<__array_function__ internals>", line 6, in concatenate
+zero-dimensional arrays cannot be concatenated
+
