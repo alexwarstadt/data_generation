@@ -336,7 +336,7 @@ class InductiveBiasesGenerator(Generator):
             output = open(absolute_path, "w")
         else:
             raise Exception("You need to give an output path")
-        past_sentences = set()
+        past_sentences = [set() for i in range(len(self.data_fields))]
         generated_data = []
         sentenceID = 0
         paradigmID = 0
@@ -344,11 +344,17 @@ class InductiveBiasesGenerator(Generator):
         constant_data = self.make_metadata_dict()
         self.make_logger(constant_data)
         output_writer = jsonlines.Writer(output, flush=True)
-        while len(past_sentences) < number_to_generate:
+        while len(past_sentences[0]) < number_to_generate:
             try:
                 new_data, track_sentence = self.sample()
-                if track_sentence not in past_sentences:
-                    past_sentences.add(track_sentence)
+                overlap = False
+                for i in range(len(track_sentence)):
+                    if track_sentence[i] in past_sentences[i]:
+                        overlap = True
+                        break
+                if not overlap:
+                    for i in range(len(track_sentence)):
+                        past_sentences[i].add(track_sentence[i])
                     for line in new_data:
                         line["sentence"] = string_beautify(line["sentence"])
                         line.update(constant_data)

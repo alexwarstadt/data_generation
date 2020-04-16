@@ -57,20 +57,29 @@ class MyGenerator(generation_projects.inductive_biases.person_helper.PersonGener
         verb_1 = re_conjugate(verb, NP1, verb_aux)
         verb_2 = re_conjugate(verb, NP2, verb_aux)
 
-        #?
-        try:
-            track_sentence = "%s %s that %s %s %s %s %s" % (first[0], cp_verb_first[0], Dt[0], NP1[0], verb_1[0], D2[0], NP2[0])
-        except:
-            print(first[0], cp_verb_first[0], Dt[0], NP1[0], verb_1[0], D2[0], NP2[0])
+        #Dt is taken as a content word in this script because it is closely related to the surface feature.
+        track_sentence = [
+                (first[0], cp_verb[0], Dt[0], NP1[0], verb[0], NP2[0]), #training 1/1
+                (non_first[0], cp_verb[0], Dt[0], NP1[0], verb[0], NP2[0]), #training 0/0
+                (Dt[0], NP1[0], cp_verb[0], NP2[0], verb[0], first_acc[0]), #Test 1/0
+                (Dt[0], NP1[0], cp_verb[0], NP2[0], verb[0], non_first_acc[0]), #Test 0/1
+                (Dt[0], NP1[0], cp_verb[0], NP2[0], verb[0], first_acc[0]), #Control 1/1
+                (Dt[0], NP1[0], cp_verb[0], NP2[0], verb[0], non_first_acc[0]) #Control 0/0
+            ]
 
-        data = self.build_paradigm(
-            training_1_1="%s %s that %s %s %s %s %s" % (first[0], cp_verb_first[0],Dt[0],NP1[0], verb_1[0], Dt[0], NP2[0]),
-            training_0_0="%s %s that %s %s %s %s %s" % (non_first[0], cp_verb_non_first[0], Dt[0], NP1[0], verb_1[0], D2[0], NP2[0]),
-            test_1_0="%s %s %s that %s %s %s %s" % (Dt[0], NP1[0], cp_verb_1[0], D2[0], NP2[0], verb_2[0], first_acc[0]),
-            test_0_1="%s %s %s that %s %s %s %s" % (Dt[0], NP1[0], cp_verb_1[0], Dt[0], NP2[0], verb_2[0], non_first_acc[0]),
-            control_1_1="%s %s %s that %s %s %s %s" % (Dt[0], NP1[0], cp_verb_1[0], Dt[0], NP2[0], verb_2[0], first_acc[0]),
-            control_0_0="%s %s %s that %s %s %s %s" % (Dt[0], NP1[0], cp_verb_1[0], D2[0], NP2[0], verb_2[0], non_first_acc[0])
-        )
+        try:
+            data = self.build_paradigm(
+                training_1_1="%s %s that %s %s %s %s %s" % (first[0], cp_verb_first[0],Dt[0],NP1[0], verb_1[0], Dt[0], NP2[0]),
+                training_0_0="%s %s that %s %s %s %s %s" % (non_first[0], cp_verb_non_first[0], Dt[0], NP1[0], verb_1[0], D2[0], NP2[0]),
+                test_1_0="%s %s %s that %s %s %s %s" % (Dt[0], NP1[0], cp_verb_1[0], D2[0], NP2[0], verb_2[0], first_acc[0]),
+                test_0_1="%s %s %s that %s %s %s %s" % (Dt[0], NP1[0], cp_verb_1[0], Dt[0], NP2[0], verb_2[0], non_first_acc[0]),
+                control_1_1="%s %s %s that %s %s %s %s" % (Dt[0], NP1[0], cp_verb_1[0], Dt[0], NP2[0], verb_2[0], first_acc[0]),
+                control_0_0="%s %s %s that %s %s %s %s" % (Dt[0], NP1[0], cp_verb_1[0], D2[0], NP2[0], verb_2[0], non_first_acc[0])
+            )
+        except:
+            print(first[0], cp_verb_first[0],Dt[0],NP1[0], verb_1[0], Dt[0], NP2[0])
+            print(first[0], cp_verb[0], Dt[0], NP1[0], verb[0], NP2[0])
+        
         return data, track_sentence
 
 generator = MyGenerator()

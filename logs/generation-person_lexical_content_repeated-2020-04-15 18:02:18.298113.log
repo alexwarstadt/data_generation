@@ -1,0 +1,40 @@
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
+DEBUG:root:  File "/Users/ianzhang/Desktop/Inductive Bias of BERT/data_generation/utils/data_generator.py", line 352, in generate_paradigm
+    if track_sentence[i] in past_sentences[i]:
+unhashable type: 'list'
+
