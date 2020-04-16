@@ -57,7 +57,14 @@ class MyGenerator(generation_projects.inductive_biases.person_helper.PersonGener
         verb_1 = re_conjugate(verb, NP1, verb_aux)
         verb_2 = re_conjugate(verb, NP2, verb_aux)
 
-        track_sentence = " ".join([first[0], cp_verb[0], verb[0], NP1[0], NP2[0]])
+        track_sentence = [
+                (first[0], cp_verb[0], NP1[0], verb[0], NP2[0]), #training 1/1
+                (non_first[0], cp_verb[0], NP1[0], verb[0], NP2[0]), #training 0/0
+                (NP1[0], cp_verb[0], NP2[0], verb[0], first_acc[0]), #Test 1/0
+                (NP1[0], cp_verb[0], NP2[0], verb[0], non_first_acc[0]), #Test 0/1
+                (NP1[0], cp_verb[0], NP2[0], verb[0], first_acc[0]), #Control 1/1
+                (NP1[0], cp_verb[0], NP2[0], verb[0], non_first_acc[0]) #Control 0/0
+            ]
 
         data = self.build_paradigm(
             training_1_1="%s %s that the %s %s a %s" % (first[0], cp_verb_first[0], NP1[0], verb_1[0], NP2[0]),

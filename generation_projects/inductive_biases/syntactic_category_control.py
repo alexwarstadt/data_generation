@@ -51,7 +51,12 @@ class MyGenerator(SyntacticCategoryGenerator):
         V2 = choice(self.clause_verbs_out_domain)
 
 
-        track_sentence = "%s %s %s that %s." % (DP[0], be[0], Adj1[0], S[0])
+        track_sentence = [
+                (DP[0], be[0], Adj1[0], S[0]), #training 1/1
+                (DP[0], be[0], V1[0], S[0]), #training 0/0
+                (DP[0], Adj2[0], S[0]), #Test 1/0
+                (DP[0], V2[0], S[0]), #Test 0/1
+            ]
 
         data = self.build_paradigm(
             training_1_1="%s %s %s that %s." % (DP[0], be[0], Adj1[0], S[0]),
