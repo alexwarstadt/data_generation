@@ -1,8 +1,8 @@
 # Data Generation
 This project includes utilities and scripts for automatic dataset generation. It is used in the following papers:
 - Warstadt, A., Cao, Y., Grosu, I., Peng, W., Blix, H., Nie, Y., Alsop, A., Bordia, S., Liu, H., Parrish, A. and Wang, S.F., Bowman, S.R. 2019. Investigating BERT's Knowledge of Language: Five Analysis Methods with NPIs. arXiv preprint arXiv:1909.02597.
-- Warstadt, A., Parrish, A., Liu, H., Mohananey, A., Peng, W., Wang, S.F., Bowman. S.R. 2019. BLiMP: A Benchmark of Linguistic Minimal Pairs for English. arXiv preprint arXiv:1912.00582.
-    
+- Warstadt, A., Parrish, A., Liu, H., Mohananey, A., Peng, W., Wang, S. F., & Bowman, S. R. (2019). BLiMP: A Benchmark of Linguistic Minimal Pairs for English. arXiv preprint arXiv:1912.00582.
+- Jeretic, P., Warstadt, A., Bhooshan, S., & Williams, A. (2020). Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition. arXiv preprint arXiv:2004.03066.
 
 ## Usage
 To run a sample data generation script, navigate to the data_generation directory and run the following command:
