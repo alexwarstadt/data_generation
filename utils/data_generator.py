@@ -1,5 +1,6 @@
 from utils.conjugate import *
 from utils.string_utils import string_beautify
+from utils.exceptions import LengthHelperError
 # from random import choice
 from functools import reduce
 import numpy as np
@@ -366,7 +367,8 @@ class InductiveBiasesGenerator(Generator):
             except Exception as e:
                 self.log_exception(e)
                 print(self.get_stack_trace(e))
-                error_counter += 1
+                if not isinstance(e, LengthHelperError):
+                    error_counter += 1
                 if error_counter >= number_to_generate // 10:
                     raise Exception("Over 10\% of samples result in errors. You should fix this.")
 

@@ -20,9 +20,9 @@ class LengthHelper:
             adverb = choice(self.adverbs)
             min_long_clause_length = self.long_length - min([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb[0].split())
             max_short_clause_length = self.long_length - max([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb[0].split()) - 1
-            if min_long_clause_length < 16 and max_short_clause_length > 5:
+            if min_long_clause_length < 16 and max_short_clause_length > 6:
                 break
-        if not(min_long_clause_length < 16 and max_short_clause_length > 5):
+        if not(min_long_clause_length < 16 and max_short_clause_length > 6):
             raise LengthHelperError(main_clause, "")
         short_keys = list(filter(lambda n: n <= max_short_clause_length, self.antecedents.keys()))
         if len(short_keys) > 0:
@@ -51,7 +51,7 @@ class LengthHelper:
         long_keys = list(filter(lambda n: n >= min_long_clause_length, self.antecedents.keys()))
         if len(long_keys) > 0:
             k = random.choice(long_keys)
-            short_subordinate_clause = self.antecedents[k]
+            long_subordinate_clause = self.antecedents[k]
             del self.antecedents[k]
         else:
             long_subordinate_clause = None

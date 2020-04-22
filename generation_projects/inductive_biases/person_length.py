@@ -18,7 +18,7 @@ class MyGenerator(generation_projects.inductive_biases.person_helper.PersonGener
 
         self.antecedents = {}
         self.adverbs = get_all("category_2", "subordinating_conj")
-        self.long_length = 18
+        self.long_length = 20
 
         # self.safe_animate_common_nouns = np.setdiff1d(np.intersect1d(all_common_nouns, all_animate_nouns), get_all("expression", "doctor"))
         # self.singular_dets = get_all(get_matched_by(get_all("expression", "doctor"), "arg_1"), get_all("category_2", "D"))
