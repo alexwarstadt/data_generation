@@ -16,14 +16,19 @@ class LengthHelper:
 
 
     def build_dependent_clauses(self, main_clause, other_main_clause=None):
-        adverb = choice(self.adverbs)
-        min_long_clause_length = self.long_length - min([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb[0].split())
-        max_short_clause_length = self.long_length - max([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb[0].split()) - 1
-        short_sentences = [self.antecedents[i] for i in filter(lambda n: n <= max_short_clause_length, self.antecedents.keys())]
-        # short_sentences = [s for sublist in short_sentences for s in sublist]
-        if len(short_sentences) > 0:
-            short_subordinate_clause = random.choice(short_sentences)
-            del self.antecedents[len(short_subordinate_clause[0].split())]
+        for _ in range(10):
+            adverb = choice(self.adverbs)
+            min_long_clause_length = self.long_length - min([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb[0].split())
+            max_short_clause_length = self.long_length - max([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb[0].split()) - 1
+            if min_long_clause_length < 16 and max_short_clause_length > 5:
+                break
+        if not(min_long_clause_length < 16 and max_short_clause_length > 5):
+            raise LengthHelperError(main_clause, "")
+        short_keys = list(filter(lambda n: n <= max_short_clause_length, self.antecedents.keys()))
+        if len(short_keys) > 0:
+            k = random.choice(short_keys)
+            short_subordinate_clause = self.antecedents[k]
+            del self.antecedents[k]
         else:
             short_subordinate_clause = None
         iters = 0
@@ -35,18 +40,19 @@ class LengthHelper:
             if new_sentence_length <= max_short_clause_length:
                 short_subordinate_clause = new_sentence
             else:
-                if new_sentence_length not in self.antecedents.keys():
+                if new_sentence_length not in self.antecedents:
                     self.antecedents[new_sentence_length] = new_sentence
                 # else:
                 #     self.antecedents[new_sentence_length] = [new_sentence]
         if iters > 10:
             raise LengthHelperError(main_clause, "too long")
 
-        long_sentences = [self.antecedents[i] for i in filter(lambda n: n >= min_long_clause_length, self.antecedents.keys())]
-        # long_sentences = [s for sublist in long_sentences for s in sublist]
-        if len(long_sentences) > 0:
-            long_subordinate_clause = random.choice(long_sentences)
-            del self.antecedents[len(long_subordinate_clause[0].split())]
+
+        long_keys = list(filter(lambda n: n >= min_long_clause_length, self.antecedents.keys()))
+        if len(long_keys) > 0:
+            k = random.choice(long_keys)
+            short_subordinate_clause = self.antecedents[k]
+            del self.antecedents[k]
         else:
             long_subordinate_clause = None
         iters = 0
@@ -58,7 +64,7 @@ class LengthHelper:
             if new_sentence_length >= min_long_clause_length:
                 long_subordinate_clause = new_sentence
             else:
-                if new_sentence_length in self.antecedents.keys():
+                if new_sentence_length not in self.antecedents:
                     self.antecedents[new_sentence_length] = new_sentence
                 # else:
                 #     self.antecedents[new_sentence_length] = [new_sentence]
