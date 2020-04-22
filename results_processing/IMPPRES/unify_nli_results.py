@@ -1,26 +1,18 @@
-import numpy as np
 import jsonlines
-import os
+import os.path
 import itertools
-from utils.vocab_table import get_all
-from nltk.stem import WordNetLemmatizer
 from utils.vocab_table import *
 import numpy as np
 
-
-lemmatizer = WordNetLemmatizer()
-
-
-presuppositions_dir = "/Users/alexwarstadt/Workspace/data_generation/results/IMPPRES/presuppositions/"
-
+project_root = "/".join(os.getcwd().split("/")[:-2])
+presuppositions_dir = os.path.join(project_root, "results/IMPPRES/presuppositions/")
 results_files = [list(filter(lambda file_name: model_name in file_name, os.listdir(presuppositions_dir)))
                  for model_name in ["bert", "bow", "infersent"]]
 for x in results_files:
     x.sort()
-data_dir = "/Users/alexwarstadt/Workspace/data_generation/outputs/IMPPRES/presupposition"
+data_dir = os.path.join(project_root, "outputs/IMPPRES/presupposition")
 data_files = list(filter(lambda x: "jsonl" in x and "scalar" not in x, os.listdir(data_dir)))
 data_files.sort()
-
 
 def unify_results(results_file, data_file):
     results = np.load(os.path.join(presuppositions_dir, results_file))
@@ -30,10 +22,6 @@ def unify_results(results_file, data_file):
         d["pred_neutral"] = r[1]
         d["pred_contradiction"] = r[2]
     return data
-
-
-
-
 
 def correct_prediction(datum):
     if datum["gold_label"] == "entailment":
@@ -56,8 +44,6 @@ def accuracy(data):
             n_correct += 1
         n_total += 1
     return n_correct / n_total
-
-            
 
 def get_controls(data):
     control_data = list(filter(lambda x: "control_item" in x.keys(), data))
@@ -118,96 +104,9 @@ def get_by_filter(data, filter_key, one=False):
     else:
         return list(filter(filters[filter_key], data))
 
-
-# def get_different_negations(data):
-#     negations = ["it's not the case that",
-#                  "it's false that",
-#                  "it's not true that",
-#                  "it's incorrect to say that",
-#                  "it's a lie that",
-#                  "is mistaken that",
-#                  "is wrong that",
-#                  "lied that",
-#                  "falsely believes that"]
-#     for neg in negations:
-#         neg_data = list(filter(lambda x: neg in x["sentence1"] or neg.capitalize() in x["sentence1"], data))
-#         print("Contradictions\tneg=%s\tn=%d\taccuracy=%f" % (neg, len(neg_data), accuracy(neg_data)))
-
-
-
-def get_bare_form_str(verb_str):
-    words = verb_str.split(" ")
-    words[0] = lemmatizer.lemmatize(words[0], "v")
-    return " ".join(words)
-
-
-# def get_different_interrogatives(data):
-#     rogatives = list(set([get_bare_form_str(verb[0]) for verb in get_all("category", "(S\\NP)/Q")]))
-#     for rog in rogatives:
-#         rog_data = list(filter(lambda x: rog in x["sentence1"] or rog.capitalize() in x["sentence1"], data))
-#         try:
-#             print("rog=%s\tn=%d\taccuracy=%f" % (rog, len(rog_data), accuracy(rog_data)))
-#         except ZeroDivisionError:
-#             print("rog=%s\tn=%d\taccuracy=N/A" % (rog, len(rog_data)))
-#
-#
-# def get_different_modals(data):
-#     modals = ["it's possible that",
-#               "it might be true that",
-#               "it's conceivable that",
-#               "it's unlikely that",
-#               "it's likely that",
-#               "it might turn out that",
-#               "might be right that",
-#               "believes that",
-#               "is under the impression that",
-#               "is probably correct that",
-#               ]
-#     for modal in modals:
-#         modal_data = list(filter(lambda x: modal in x["sentence1"] or modal.capitalize() in x["sentence1"], data))
-#         print("modal=%s\tn=%d\taccuracy=%f" % (modal, len(modal_data), accuracy(modal_data)))
-#
-#
-# def get_different_conditionals(data):
-#     conditionals = ["if",
-#                     "no matter if",
-#                     "whether or not",
-#                     "assuming that",
-#                     "on the condition that",
-#                     "under the circumstances that",
-#                     "should it be true that",
-#                     "supposing that"]
-#     for conditional in conditionals:
-#         conditional_data = list(filter(lambda x: conditional in x["sentence1"] or conditional.capitalize() in x["sentence1"], data))
-#         print("modal=%s\tn=%d\taccuracy=%f" % (conditional, len(conditional_data), accuracy(conditional_data)))
-
-
-
 def aggregate_data(results_files, data_files):
     data_sets = [unify_results(results_file, data_file) for results_file, data_file in zip(results_files, data_files)]
     return list(itertools.chain(*data_sets))
-
-def summarize_data_file(results_file, data_file, label=None):
-    data_set = unify_results(results_file, data_file)
-    summarize_data(data_set, label)
-
-def finely_summarize_data_file(results_file, data_file, label=None):
-    data_set = unify_results(results_file, data_file)
-    finely_summarize_data(data_set, label)
-
-
-def summarize_data(data, label=None):
-    if label is not None:
-        print("============================")
-        print(label)
-    for filter_key in filters.keys():
-        data_subset = get_by_filter(data, filter_key)
-        if len(data_subset) == 0:
-           print("%s\t%f\t%d" % (filter_key, 0, 0))
-        else:
-           print("%s\t%f\t%d" % (filter_key, accuracy(data_subset), len(data_subset)))
-    print()
-
 
 right_answers = {
     "test_unembedded_positive": "entailment",
@@ -240,58 +139,10 @@ right_answers = {
     "control_conditional": "neutral",
 }
 
-def finely_summarize_data(data, label=None):
-    results = {}
-    if label is not None:
-        print("============================")
-        print(label)
-    for pair_type_key in right_answers.keys():
-        pair_type = get_by_filter(data, pair_type_key)
-        # entail_avg = sum([d["pred_entailment"] for d in pair_type]) / len(pair_type)
-        # neutral_avg = sum([d["pred_neutral"] for d in pair_type]) / len(pair_type)
-        # contra_avg = sum([d["pred_contradiction"] for d in pair_type]) / len(pair_type)
-        try:
-            entail_n = sum([1 if d["pred_entailment"] > d["pred_neutral"] and d["pred_entailment"] > d["pred_contradiction"]
-                            else 0 for d in pair_type]) / len(pair_type)
-            neutral_n = sum([1 if d["pred_neutral"] > d["pred_entailment"] and d["pred_neutral"] > d["pred_contradiction"]
-                            else 0 for d in pair_type]) / len(pair_type)
-            contra_n = sum([1 if d["pred_contradiction"] > d["pred_neutral"] and d["pred_contradiction"] > d["pred_entailment"]
-                            else 0 for d in pair_type]) / len(pair_type)
-        except ZeroDivisionError:
-            entail_n = 0
-            neutral_n = 0
-            contra_n = 0
-        # if right_answers[pair_type_key] == "entailment":
-        #     print("%s\t*%.3f*\t%.3f\t%.3f\t%d" % (pair_type_key, entail_n, neutral_n, contra_n, len(pair_type)))
-        # elif right_answers[pair_type_key] == "neutral":
-        #     print("%s\t%.3f\t*%.3f*\t%.3f\t%d" % (pair_type_key, entail_n, neutral_n, contra_n, len(pair_type)))
-        # elif right_answers[pair_type_key] == "contradiction":
-        #     print("%s\t%.3f\t%.3f\t*%.3f*\t%d" % (pair_type_key, entail_n, neutral_n, contra_n, len(pair_type)))
-        if right_answers[pair_type_key] == "entailment":
-            print("%s\t%.3f\t%d" % (pair_type_key, entail_n, len(pair_type)))
-            results[pair_type_key] = (entail_n, len(pair_type))
-        elif right_answers[pair_type_key] == "neutral":
-            print("%s\t%.3f\t%d" % (pair_type_key, neutral_n, len(pair_type)))
-            results[pair_type_key] = (neutral_n, len(pair_type))
-        elif right_answers[pair_type_key] == "contradiction":
-            print("%s\t%.3f\t%d" % (pair_type_key, contra_n, len(pair_type)))
-            results[pair_type_key] = (contra_n, len(pair_type))
-        # if right_answers[pair_type_key] == "entailment":
-        #     print("%s\t*%f*\t%f\t%f\t|\t*%f*\t%f\t%f" % (pair_type_key, entail_avg, neutral_avg, contra_avg, entail_n, neutral_n, contra_n))
-        # elif right_answers[pair_type_key] == "neutral":
-        #     print("%s\t%f\t*%f*\t%f\t|\t%f\t*%f*\t%f" % (pair_type_key, entail_avg, neutral_avg, contra_avg, entail_n, neutral_n, contra_n))
-        # elif right_answers[pair_type_key] == "contradiction":
-        #     print("%s\t%f\t%f\t*%f*\t|\t%f\t%f\t*%f*" % (pair_type_key, entail_avg, neutral_avg, contra_avg, entail_n, neutral_n, contra_n))
-        return results
-
-
 def finely_summarize_data_to_table(data, trigger, model, filtered):
     results_table = []
     for pair_type_key in right_answers.keys():
         pair_type = get_by_filter(data, pair_type_key)
-        # entail_avg = sum([d["pred_entailment"] for d in pair_type]) / len(pair_type)
-        # neutral_avg = sum([d["pred_neutral"] for d in pair_type]) / len(pair_type)
-        # contra_avg = sum([d["pred_contradiction"] for d in pair_type]) / len(pair_type)
         try:
             entail_n = sum([1 if d["pred_entailment"] > d["pred_neutral"] and d["pred_entailment"] > d["pred_contradiction"]
                             else 0 for d in pair_type]) / len(pair_type)
@@ -321,31 +172,14 @@ def finely_summarize_data_to_table(data, trigger, model, filtered):
         entry["neutral"] = neutral_n
         entry["contradiction"] = contra_n
         entry["n_examples"] = len(pair_type)
-        # entry["embed_operator"] =
-            # ("model", "U100000"),
-            # ("filtered", "?"),
-            # ("trigger_type", "U100000"),
-            # ("condition", "U100000"),
-            # ("control", "?"),
-            # ("trigger_condition", "U100000"),
-            # ("presupposition_condition", "U100000"),
-            # ("accuracy", "f8"),
-            # ("entailment", "f8"),
-            # ("neutral", "f8"),
-            # ("contradiction", "f8"),
-            # ("n_examples", "i4")
         if right_answers[pair_type_key] == "entailment":
-            # print("%s\t%.3f\t%d" % (pair_type_key, entail_n, len(pair_type)))
             entry["accuracy"] = entail_n
         elif right_answers[pair_type_key] == "neutral":
-            # print("%s\t%.3f\t%d" % (pair_type_key, neutral_n, len(pair_type)))
             entry["accuracy"] = neutral_n
         elif right_answers[pair_type_key] == "contradiction":
-            # print("%s\t%.3f\t%d" % (pair_type_key, contra_n, len(pair_type)))
             entry["accuracy"] = contra_n
         results_table.append(entry)
     return results_table
-
 
 def split_into_paradigms(data):
     paradigms = []
@@ -360,7 +194,6 @@ def split_into_paradigms(data):
         l_curr_paradigm.append(d)
     paradigms.append(l_curr_paradigm)
     return paradigms
-
 
 def filter_paradigm(paradigm):
     filtered = []
@@ -378,7 +211,6 @@ def filter_paradigm(paradigm):
         filtered.extend(get_by_filter(paradigm, "test_conditional_*"))
     return filtered
 
-
 def filter_entire_dataset(dataset):
     paradigms = split_into_paradigms(dataset)
     filtered_paradigms = [filter_paradigm(p) for p in paradigms]
@@ -386,36 +218,9 @@ def filter_entire_dataset(dataset):
     return list(itertools.chain(*filtered_paradigms))
 
 
-
 ###### MAIN ######
 
-# # PRINT ALL RESULTS
-# for x in [0, 1, 2]:
-#     print(results_files[x][0])
-#     all_data = aggregate_data(results_files[x], data_files)
-#     all_data_filtered = filter_entire_dataset(all_data)
-#     finely_summarize_data(all_data, "all")
-#     # summarize_data(all_data, "all")
-#     finely_summarize_data(all_data_filtered, "all filtered")
-#     for results_file, data_file in zip(results_files[x], data_files):
-#         data = unify_results(results_file, data_file)
-#         # summarize_data(data, label=data_file)
-#         filtered_data = filter_entire_dataset(data)
-#         finely_summarize_data(data, label=data_file + " unfiltered")
-#         finely_summarize_data(filtered_data, label=data_file + " filtered")
-#         print()
-#     # get_different_negations(list(filter(filters["control_negated"], all_data)))
-#     # get_different_interrogatives(list(filter(filters["control_interrogative"], all_data)))
-#     # get_different_modals(list(filter(filters["control_modal"], all_data)))
-#     # get_different_conditionals(list(filter(filters["control_conditional"], all_data)))
-
-
-
-
-
-# summarize_data(all_data, label="all")
-
-# PUT ALL RESULTS IN NUMPY ARRAY
+# PUT SUMMARY OF RESULTS IN NUMPY ARRAY
 data_type = [
             ("model", "U100000"),
             ("filtered", "?"),
@@ -435,27 +240,22 @@ results_table = []
 for model, i in zip(["BERT", "BOW", "InferSent"], [0, 1, 2]):
     all_data = aggregate_data(results_files[i], data_files)
     all_data_filtered = filter_entire_dataset(all_data)
-    # finely_summarize_data_to_table(all_data, "all", model=model, filtered=False)
-    # # summarize_data(all_data, "all")
-    # finely_summarize_data(all_data_filtered, "all filtered")
+    results_table.extend(finely_summarize_data_to_table(all_data, "all", model=model, filtered=False))
+    results_table.extend(finely_summarize_data_to_table(all_data_filtered, "all", model=model, filtered=True))
     for results_file, data_file in zip(results_files[i], data_files):
         data = unify_results(results_file, data_file)
-        # summarize_data(data, label=data_file)
         filtered_data = filter_entire_dataset(data)
         results_table.extend(finely_summarize_data_to_table(data, trigger=data_file.split(".")[0], model=model, filtered=False))
         results_table.extend(finely_summarize_data_to_table(filtered_data, trigger=data_file.split(".")[0], model=model, filtered=True))
-
 results_table = np.array(results_table)
 
+# WRITE SUMMARY TO OUTPUT
+def save_csv(results_table, path):
+    file = open(path, "w")
+    file.write(",".join(results_table.dtype.names) + "\n")
+    for line in results_table:
+        file.write(",".join([str(x) for x in line[0]]) + "\n")
+    file.close()
 
-
-# def save_csv(results_table, path):
-#     file = open(path, "w")
-#     file.write(",".join(results_table.dtype.names) + "\n")
-#     for line in results_table:
-#         file.write(",".join([str(x) for x in line[0]]) + "\n")
-#     file.close()
-#
-pass
-
-# save_csv(results_table, "/Users/alexwarstadt/Workspace/data_generation/results/IMPPRES/presupposition.csv")
+output_path = os.path.join(project_root, "results/IMPPRES/presupposition_results_summary.csv")
+save_csv(results_table, output_path)
