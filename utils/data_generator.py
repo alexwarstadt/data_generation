@@ -436,7 +436,7 @@ class InductiveBiasesGenerator(Generator):
                  "linguistic_feature_label": 0,
                  "surface_feature_label": None},
             ]
-        elif self.control_paradigm and not self.surface_feature_type is not None:
+        elif self.control_paradigm and self.surface_feature_type is not None:
             data = [
                 {"sentence": training_1_1,
                  "condition": "training",

@@ -74,5 +74,5 @@ class LengthHelper:
     #     return long_subordinate_clause, short_subordinate_clause
 
     def build_dependent_clauses(self, main_clause, other_main_clause=None):
-        s = make_sentence()[0]
+        s = make_sentence()
         return s, s
