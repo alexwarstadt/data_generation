@@ -51,17 +51,17 @@ class MyGenerator(data_generator.InductiveBiasesGenerator, generation_projects.i
                 continue
 
             data = self.build_paradigm(
-                training_1_1="%s, %s." % (long_subordinate_clause[0], main_clause_trans),
-                training_0_0="%s, %s." % (short_subordinate_clause[0], main_clause_trans),
-                test_1_0="%s, %s." % (long_subordinate_clause[0], main_clause_intrans),
-                test_0_1="%s, %s." % (short_subordinate_clause[0], main_clause_intrans)
+                training_1_1="%s, %s." % (long_subordinate_clause, main_clause_trans),
+                training_0_0="%s, %s." % (short_subordinate_clause, main_clause_trans),
+                test_1_0="%s, %s." % (long_subordinate_clause, main_clause_intrans),
+                test_0_1="%s, %s." % (short_subordinate_clause, main_clause_intrans)
             )
 
             track_sentence = [
-                (long_subordinate_clause[0], main_clause_trans),
-                (short_subordinate_clause[0], main_clause_trans),
-                (long_subordinate_clause[0], main_clause_intrans),
-                (short_subordinate_clause[0], main_clause_intrans)
+                (long_subordinate_clause, main_clause_trans),
+                (short_subordinate_clause, main_clause_trans),
+                (long_subordinate_clause, main_clause_intrans),
+                (short_subordinate_clause, main_clause_intrans)
             ]
             return data, track_sentence
 
