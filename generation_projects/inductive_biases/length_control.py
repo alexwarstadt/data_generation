@@ -18,7 +18,7 @@ class MyGenerator(data_generator.InductiveBiasesGenerator, generation_projects.i
 
         self.antecedents = {}
         self.adverbs = get_all("category_2", "subordinating_conj")
-        self.long_length = 20
+        self.long_length = 15
 
 
     def sample(self):
