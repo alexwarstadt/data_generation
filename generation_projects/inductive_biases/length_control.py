@@ -9,9 +9,9 @@ from utils.exceptions import LengthHelperError
 
 class MyGenerator(data_generator.InductiveBiasesGenerator, generation_projects.inductive_biases.length_helper.LengthHelper):
     def __init__(self):
-        super().__init__(uid="person_length",
-                         linguistic_feature_type="morphological",
-                         linguistic_feature_description="Is the pronoun 1st person?",
+        super().__init__(uid="length_control",
+                         linguistic_feature_type=None,
+                         linguistic_feature_description=None,
                          surface_feature_type="length",
                          surface_feature_description="Is the sentence 20 words or longer?",
                          control_paradigm=False)
@@ -42,8 +42,8 @@ class MyGenerator(data_generator.InductiveBiasesGenerator, generation_projects.i
         while True:
             trans = choice(all_transitive_verbs)
             intrans = choice(all_intransitive_verbs)
-            main_clause_trans = make_sentence_from_verb(verb=trans, allow_recursion=True)[0]
-            main_clause_intrans = make_sentence_from_verb(verb=intrans, allow_recursion=True)[0]
+            main_clause_trans = make_sentence_from_verb(verb=trans, allow_recursion=True)
+            main_clause_intrans = make_sentence_from_verb(verb=intrans, allow_recursion=True)
             try:
                 long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses(main_clause_trans, main_clause_intrans)
             except LengthHelperError as e:
