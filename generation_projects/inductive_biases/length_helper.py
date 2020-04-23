@@ -79,20 +79,20 @@ class LengthHelper:
             adverb = choice(self.adverbs)[0]
             min_long_clause_length = self.long_length - min([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb.split())
             max_short_clause_length = self.long_length - max([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb.split()) - 1
-            if min_long_clause_length < 16 and max_short_clause_length > 6:
+            if min_long_clause_length < 13 and max_short_clause_length > 5:
                 break
-        if not(min_long_clause_length < 16 and max_short_clause_length > 6):
+        if not (min_long_clause_length < 13 and max_short_clause_length > 5):
             raise LengthHelperError(main_clause, "")
 
         short_subordinate_clause = None
-        short_sentences = list(filter(lambda x: len(x.split()) <= max_short_clause_length, self.antecedents))
+        short_sentences = list(filter(lambda x: len(x.split()) <= max_short_clause_length and x.startswith(adverb), self.antecedents))
         if len(short_sentences) > 0:
             short_subordinate_clause = choice(short_sentences)
         else:
             for _ in range(10):
                 new_sentence = make_sentence(allow_recursion=True)[0]
-                new_sentence = adverb + " " + new_sentence
                 new_sentence_length = len(new_sentence.split())
+                new_sentence = adverb + " " + new_sentence
                 if new_sentence_length <= max_short_clause_length:
                     short_subordinate_clause = new_sentence
                     break
@@ -103,12 +103,13 @@ class LengthHelper:
 
 
         long_subordinate_clause = None
-        long_sentences = list(filter(lambda x: len(x.split()) >= min_long_clause_length, self.antecedents))
+        long_sentences = list(filter(lambda x: len(x.split()) >= min_long_clause_length and x.startswith(adverb), self.antecedents))
         if len(long_sentences) > 0:
             long_subordinate_clause = choice(long_sentences)
         else:
             for _ in range(10):
                 new_sentence = make_sentence(allow_recursion=True)[0]
+                new_sentence_length = len(new_sentence.split())
                 new_sentence = adverb + " " + new_sentence
                 new_sentence_length = len(new_sentence.split())
                 if new_sentence_length >= min_long_clause_length:
@@ -120,4 +121,4 @@ class LengthHelper:
             raise LengthHelperError(main_clause, "is too short")
 
 
-        return short_subordinate_clause, long_subordinate_clause
+        return long_subordinate_clause, short_subordinate_clause

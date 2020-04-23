@@ -66,4 +66,4 @@ class MyGenerator(data_generator.InductiveBiasesGenerator, generation_projects.i
             return data, track_sentence
 
 generator = MyGenerator()
-generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/inductive_biases/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=3000, rel_output_path="outputs/inductive_biases/%s.jsonl" % generator.uid)
