@@ -14,7 +14,7 @@ class MyGenerator(data_generator.InductiveBiasesGenerator, generation_projects.i
                          linguistic_feature_description=None,
                          surface_feature_type="length",
                          surface_feature_description="Is the sentence 20 words or longer?",
-                         control_paradigm=False)
+                         control_paradigm=True)
 
         self.antecedents = {}
         self.adverbs = get_all("category_2", "subordinating_conj")

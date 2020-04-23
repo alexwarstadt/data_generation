@@ -194,13 +194,10 @@ def make_sentence_from_verb(verb, frequent=True, allow_recursion=False):
     :return: the string for a sentence headed by the input verb.
     """
     args = verb_args_from_verb(verb, frequent=frequent, allow_recursion=False)
-    try:
-        return " ".join([args["subj"][0],
-                         args["aux"][0],
-                         verb[0]] +
-                        [x[0] for x in args["args"]])
-    except Exception:
-        pass
+    return " ".join([args["subj"][0],
+                     args["aux"][0],
+                     verb[0]] +
+                    [x[0] for x in args["args"]])
 
 
 def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=False):
