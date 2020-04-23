@@ -97,7 +97,8 @@ class LengthHelper:
                     short_subordinate_clause = new_sentence
                     break
                 else:
-                    self.antecedents.append(new_sentence)
+                    pass
+                    # self.antecedents.append(new_sentence)
         if short_subordinate_clause is None:
             raise LengthHelperError(main_clause, "is too long")
 
