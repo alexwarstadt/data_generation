@@ -27,7 +27,3 @@ class SyntacticCategoryGenerator(data_generator.InductiveBiasesGenerator):
         self.clause_adjs_out_domain = clause_adjs[int(len(clause_adjs)/2):]
         self.clause_verbs_in_domain = list(filter(lambda x: x["root"] in clause_verb_roots[:int(len(clause_verb_roots)/2)], all_ing_verbs))
         self.clause_verbs_out_domain = list(filter(lambda x: x["root"] in clause_verb_roots[int(len(clause_verb_roots)/2):], all_bare_verbs))
-
-#
-# generator = MyGenerator()
-# generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/inductive_biases/%s.jsonl" % generator.uid)

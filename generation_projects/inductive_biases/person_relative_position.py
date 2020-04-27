@@ -77,4 +77,4 @@ class MyGenerator(generation_projects.inductive_biases.person_helper.PersonGener
         return data, track_sentence
 
 generator = MyGenerator()
-generator.generate_paradigm(number_to_generate=100, rel_output_path="outputs/inductive_biases/%s.jsonl" % generator.uid)
+generator.generate_paradigm(number_to_generate=5000, rel_output_path="outputs/inductive_biases/" + generator.uid)

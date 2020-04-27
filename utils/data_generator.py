@@ -332,45 +332,55 @@ class InductiveBiasesGenerator(Generator):
     def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
         if rel_output_path is not None:
             project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
-            output = open(os.path.join(project_root, rel_output_path), "w")
+            output_dir = os.path.join(project_root, rel_output_path)
         elif absolute_path is not None:
-            output = open(absolute_path, "w")
+            output_dir = absolute_path
         else:
             raise Exception("You need to give an output path")
+        try:
+            os.mkdir(output_dir)
+        except FileExistsError:
+            pass
         past_sentences = [set() for i in range(len(self.data_fields))]
-        generated_data = []
         sentenceID = 0
         paradigmID = 0
         error_counter = 0
         constant_data = self.make_metadata_dict()
         self.make_logger(constant_data)
-        output_writer = jsonlines.Writer(output, flush=True)
-        while len(past_sentences[0]) < number_to_generate:
-            try:
-                new_data, track_sentence = self.sample()
-                overlap = False
-                for i in range(len(track_sentence)):
-                    if track_sentence[i] in past_sentences[i]:
-                        overlap = True
-                        break
-                if not overlap:
+        for file in ["test.jsonl", "train.jsonl", "dev.jsonl"]:
+            output_file = open(os.path.join(output_dir, file), "w")
+            output_writer = jsonlines.Writer(output_file, flush=True)
+            split_counter = 0
+            while split_counter < number_to_generate:
+                try:
+                    new_data, track_sentence = self.sample()
+                    overlap = False
                     for i in range(len(track_sentence)):
-                        past_sentences[i].add(track_sentence[i])
-                    for line in new_data:
-                        line["sentence"] = string_beautify(line["sentence"])
-                        line.update(constant_data)
-                        line["sentenceID"] = sentenceID
-                        line["paradigmID"] = paradigmID
-                        sentenceID += 1
-                        output_writer.write(line)
-                    paradigmID += 1
-            except Exception as e:
-                self.log_exception(e)
-                print(self.get_stack_trace(e))
-                if not isinstance(e, LengthHelperError):
-                    error_counter += 1
-                if error_counter >= number_to_generate // 10:
-                    raise Exception("Over 10\% of samples result in errors. You should fix this.")
+                        if track_sentence[i] in past_sentences[i]:
+                            overlap = True
+                            break
+                    if not overlap:
+                        for i in range(len(track_sentence)):
+                            past_sentences[i].add(track_sentence[i])
+                        if file != "test.jsonl":
+                            new_data = new_data[:2]
+                        for line in new_data:
+                            line["sentence"] = string_beautify(line["sentence"])
+                            line.update(constant_data)
+                            line["sentenceID"] = sentenceID
+                            line["paradigmID"] = paradigmID
+                            line["split"] = file.split(".")[0]
+                            sentenceID += 1
+                            output_writer.write(line)
+                        split_counter += 1
+                        paradigmID += 1
+                except Exception as e:
+                    self.log_exception(e)
+                    print(self.get_stack_trace(e))
+                    if not isinstance(e, LengthHelperError):
+                        error_counter += 1
+                    if error_counter >= number_to_generate // 10:
+                        raise Exception("Over 10\% of samples result in errors. You should fix this.")
 
     def make_metadata_dict(self):
         """
