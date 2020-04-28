@@ -14,7 +14,7 @@ class MyGenerator(generation_projects.inductive_biases.person_helper.PersonGener
                          surface_feature_description="Does the word 'the' precede the word 'a'?",
                          control_paradigm=False)
 
-        match_a = get_matches_of(get_all("expression", "a", all_common_dets)[0], "arg_1")
+        match_a = get_matches_of(get_all("expression", "a", all_very_common_dets)[0], "arg_1")
         self.safe_singular_animate_common_nouns = np.intersect1d(np.intersect1d(all_common_nouns, all_animate_nouns), match_a)
 
     def sample(self):

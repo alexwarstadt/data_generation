@@ -79,5 +79,7 @@ data_type = [("expression", "U100000"),
              ("climbable", "U1"),
              ("cleanable", "U1"),
              ("quantifier", "U1"),
+             ("antonym", "U100"),
+             ("synonym/hypernym/hyponym", "U100"),
             ]
 

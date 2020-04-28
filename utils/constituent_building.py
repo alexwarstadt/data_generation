@@ -12,6 +12,7 @@ import numpy as np
 import random
 from utils.vocab_sets import *
 from nltk.stem import WordNetLemmatizer
+from utils.exceptions import *
 
 lemmatizer = WordNetLemmatizer()
 
@@ -266,9 +267,9 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
     else:
         freq_vocab = vocab
     if allow_quantifiers:
-        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("category", "(S/(S\\NP))/N", freq_vocab)))
+        args["det"] = choice(get_matched_by(noun, "arg_1", np.intersect1d(all_determiners, freq_vocab)))
     else:
-        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", get_all("category", "(S/(S\\NP))/N", freq_vocab))))
+        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", np.intersect1d(all_determiners, freq_vocab))))
     if noun["category"] == "N":
         args["args"] = []
     if noun["category"] == "NP":
@@ -530,3 +531,25 @@ def get_do_form(verb):
             return does
         else:
             return do
+
+def get_same_V_form(root, verb_to_match):
+    """
+    :param root: The string identifier for a verb root
+    :param verb_to_match: A reference verb in the inflectional form in which to conjugate root
+    :return: the vocab item corresponding to root in the same inflectional form as verb_to_match
+    """
+    verbs = get_all("root", root, all_verbs)
+    matches = list(filter(lambda v: v["finite"] == verb_to_match["finite"] and
+                                    v["bare"] == verb_to_match["bare"] and
+                                    v["pres"] == verb_to_match["pres"] and
+                                    v["past"] == verb_to_match["past"] and
+                                    v["ing"] == verb_to_match["ing"] and
+                                    v["en"] == verb_to_match["en"] and
+                                    v["3sg"] == verb_to_match["3sg"],
+                          verbs))
+    if len(matches) == 0:
+        raise LexicalGapError("No verb with root %s matching form of %s" % (root, str(verb_to_match)))
+    elif len(matches) == 1:
+        return matches[0]
+    else:
+        raise NonUniqueError("More than one verb with root %s matching form of %s" % (root, str(verb_to_match)))

@@ -75,11 +75,10 @@ all_non_negative_copulas = get_all("negated", "0", all_finite_copulas)
 all_negative_copulas = get_all("negated", "1", all_finite_copulas)
 
 # OTHER
-all_quantifiers = get_all("category", "(S/(S\\NP))/N")
-all_frequent_quantifiers = get_all("frequent", "1", all_quantifiers)
-all_quantifiers = get_all("category", "(S/(S\\NP))/N")
-all_common_dets = np.append(get_all("expression", "the"),
-                            np.append(get_all("expression", "a"), get_all("expression", "an")))
+all_determiners = get_all("category", "(S/(S\\NP))/N")
+all_frequent_determiners = get_all("frequent", "1", all_determiners)
+all_very_common_dets = np.append(get_all("expression", "the"),
+                                 np.append(get_all("expression", "a"), get_all("expression", "an")))
 all_relativizers = get_all("category_2", "rel")
 all_reflexives = get_all("category_2", "refl")
 all_ACCpronouns = get_all("category_2", "proACC")
