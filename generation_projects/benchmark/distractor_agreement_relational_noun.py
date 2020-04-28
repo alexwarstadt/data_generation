@@ -26,7 +26,7 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
         S_arg = None
         while S_arg is None:
             subj = choice(self.safe_subjs)
-            D = choice(get_matched_by(subj, "arg_1", all_common_dets))
+            D = choice(get_matched_by(subj, "arg_1", all_very_common_dets))
             V_agree = choice(get_matched_by(subj, "arg_1", self.safe_verbs))
             if V_agree["finite"] == "1":
                 if V_agree["3sg"] == "1":

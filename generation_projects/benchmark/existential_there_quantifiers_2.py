@@ -13,7 +13,7 @@ class Generator(data_generator.BenchmarkGenerator):
                          two_prefix_method=False,
                          lexically_identical=False)
         bad_quantifiers_str = ["all", "most", "every", "each"]
-        self.bad_quantifiers = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in bad_quantifiers_str])
+        self.bad_quantifiers = reduce(np.union1d, [get_all("expression", s, all_determiners) for s in bad_quantifiers_str])
         bad_subjs = reduce(np.union1d, (all_relational_poss_nouns, all_proper_names, get_all("category", "NP")))
         self.safe_subjs = np.setdiff1d(all_nominals, bad_subjs)
 

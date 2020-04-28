@@ -15,7 +15,7 @@ class SuperlativeGenerator(data_generator.BenchmarkGenerator):
                          two_prefix_method=True,
                          lexically_identical=False)
         self.quantifiers = ["at least", "at most"]
-        self.singular_quantifiers = np.extract(["sg=1" in x["arg_1"] and x["expression"] != "no" for x in all_quantifiers], all_quantifiers)
+        self.singular_quantifiers = np.extract(["sg=1" in x["arg_1"] and x["expression"] != "no" for x in all_determiners], all_determiners)
         self.safe_nouns = np.setdiff1d(all_plural_nouns, all_proper_names)
 
     def sample(self):

@@ -14,8 +14,8 @@ class Generator(data_generator.BenchmarkGenerator):
                          lexically_identical=False)
         good_quantifiers_sg_str = ["a", "an", ""]
         good_quantifiers_pl_str = ["no", "some", "few", "fewer than three", "more than three", "many", "a lot of", ""]
-        self.good_quantifiers_sg = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in good_quantifiers_sg_str])
-        self.good_quantifiers_pl = reduce(np.union1d, [get_all("expression", s, all_quantifiers) for s in good_quantifiers_pl_str])
+        self.good_quantifiers_sg = reduce(np.union1d, [get_all("expression", s, all_determiners) for s in good_quantifiers_sg_str])
+        self.good_quantifiers_pl = reduce(np.union1d, [get_all("expression", s, all_determiners) for s in good_quantifiers_pl_str])
         bad_emb_subjs = reduce(np.union1d, (all_relational_poss_nouns, all_proper_names, get_all("category", "NP")))
         self.safe_emb_subjs = np.setdiff1d(all_nominals, bad_emb_subjs)
         self.raising_verbs = get_all("category_2", "V_raising_subj")
