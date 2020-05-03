@@ -42,11 +42,16 @@ class MyGenerator(SyntacticCategoryGenerator):
         John is tall.
         The tall man is John.
         The tall man in the room is John.
+        The tall man is president.
+        The tall man in the room is president.
 
         Test 0
         John is in the room.
         The man is in the room.
         The man in the room is John.
+        John is president.
+        The man is president.
+        the man in the room is president.
         """
         name_in = choice(self.names_in_domain)
         name_out = choice(self.names_out_domain)
@@ -56,6 +61,7 @@ class MyGenerator(SyntacticCategoryGenerator):
         adj_out = choice(self.adjs_out_domain)
         locative_in = build_locative(choice(self.locales_in_domain))
         locative_out = build_locative(choice(self.locales_out_domain))
+        other_noun = choice(np.array(list(filter(lambda x: x["gender"] == name_out["gender"] or x["gender"] == "n", self.one_word_noun))))
 
         track_sentence = [
             (name_in[0], noun_in[0], adj_in[0], locative_in[0]),
@@ -82,23 +88,33 @@ class MyGenerator(SyntacticCategoryGenerator):
         else:
             training_0_0 = " ".join(["the", noun_in[0], "is", name_in[0], "."])
 
-        option = random.choice([1, 2, 3, 4])
+        option = random.choice([1, 2, 3, 4, 5, 6])
         if option == 1:
             test_1_1 = " ".join([name_out[0], "is", "the", adj_out[0], noun_out[0], locative_out[0], "."])
         elif option == 2:
             test_1_1 = " ".join([name_out[0], "is", adj_out[0], "."])
         elif option == 3:
             test_1_1 = " ".join(["the", adj_out[0], noun_out[0], "is", name_out[0], "."])
-        else:
+        elif option == 4:
             test_1_1 = " ".join(["the", adj_out[0], noun_out[0], locative_out[0], "is", name_out[0], "."])
+        elif option == 5:
+            test_1_1 = " ".join(["the", adj_out[0], noun_out[0], "is", other_noun[0], "."])
+        else:
+            test_1_1 = " ".join(["the", adj_out[0], noun_out[0], locative_out[0], "is", other_noun[0], "."])
 
-        option = random.choice([1, 2, 3])
+        option = random.choice([1, 2, 3, 4, 5, 6])
         if option == 1:
             test_0_0 = " ".join([name_out[0], "is", locative_out[0], "."])
         elif option == 2:
             test_0_0 = " ".join(["the", noun_out[0], "is", locative_out[0], "."])
-        else:
+        elif option == 3:
             test_0_0 = " ".join(["the", noun_out[0], locative_out[0], "is", name_out[0], "."])
+        elif option == 4:
+            test_0_0 = " ".join([name_out[0], "is", other_noun[0], "."])
+        elif option == 5:
+            test_0_0 = " ".join(["the", noun_out[0], "is", other_noun[0], "."])
+        else:
+            test_0_0 = " ".join(["the", noun_out[0], locative_out[0], "is", other_noun[0], "."])
 
         data = self.build_paradigm(
             training_1_1=training_1_1,

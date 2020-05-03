@@ -41,3 +41,4 @@ class SyntacticCategoryGenerator(data_generator.InductiveBiasesGenerator):
         self.locales_in_domain, self.locales_out_domain = split(locales)
         self.names_in_domain, self.names_out_domain = split(names)
         self.common_nouns_in_domain, self.common_nouns_out_domain = split(common_nouns)
+        self.one_word_noun = get_all("category_2", "N_pred")
