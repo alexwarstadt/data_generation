@@ -28,7 +28,7 @@ class SyntacticCategoryGenerator(data_generator.InductiveBiasesGenerator):
         self.clause_verbs_in_domain = list(filter(lambda x: x["root"] in clause_verb_roots[:int(len(clause_verb_roots)/2)], all_ing_verbs))
         self.clause_verbs_out_domain = list(filter(lambda x: x["root"] in clause_verb_roots[int(len(clause_verb_roots)/2):], all_bare_verbs))
 
-        adjs = get_matched_by(get_all("expression", "John")[0], "arg_1", get_all("category", "N\\N"))
+        adjs = get_matched_by(get_all("expression", "John")[0], "arg_1", get_all("category_2", "Adj_pred"))
         locales = get_all("locale", "1", all_nouns)
         names = np.intersect1d(all_singular_nouns, np.intersect1d(all_animate_nouns, all_proper_names))
         common_nouns = np.intersect1d(all_singular_nouns, np.intersect1d(all_animate_nouns, all_common_nouns))

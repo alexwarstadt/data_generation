@@ -59,8 +59,8 @@ class MyGenerator(SyntacticCategoryGenerator):
         noun_out = choice(np.array(list(filter(lambda x: x["gender"] == name_out["gender"] or x["gender"] == "n" or x["gender"] == "", self.common_nouns_out_domain))))
         adj_in = choice(self.adjs_in_domain)
         adj_out = choice(self.adjs_out_domain)
-        locative_in = build_locative(choice(self.locales_in_domain))
-        locative_out = build_locative(choice(self.locales_out_domain))
+        locative_in = build_locative(choice(self.locales_in_domain), allow_quantifiers=False)
+        locative_out = build_locative(choice(self.locales_out_domain), allow_quantifiers=False)
         other_noun = choice(np.array(list(filter(lambda x: x["gender"] == name_out["gender"] or x["gender"] == "n", self.one_word_noun))))
 
         track_sentence = [
