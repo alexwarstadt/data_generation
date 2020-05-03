@@ -81,5 +81,6 @@ data_type = [("expression", "U100000"),
              ("quantifier", "U1"),
              ("antonym", "U100"),
              ("synonym/hypernym/hyponym", "U100"),
+             ("locative_prepositions", "U100"),
             ]
 
