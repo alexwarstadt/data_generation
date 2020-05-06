@@ -11,15 +11,15 @@ class LengthHelper:
         self.adverbs = get_all("category_2", "subordinating_conj")
         self.long_length = 20
 
-    def build_dependent_clauses(self, main_clause, other_main_clause=None):
+    def build_dependent_clauses(self, main_clauses):
         for _ in range(10):
             adverb = choice(self.adverbs)[0]
-            min_long_clause_length = self.long_length - min([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb.split())
-            max_short_clause_length = self.long_length - max([len(main_clause.split()), len(other_main_clause.split())]) - len(adverb.split()) - 1
+            min_long_clause_length = self.long_length - min([len(x.split()) for x in main_clauses]) - len(adverb.split())
+            max_short_clause_length = self.long_length - max([len(x.split()) for x in main_clauses]) - len(adverb.split()) - 1
             if min_long_clause_length < 13 and max_short_clause_length > 5:
                 break
         if not (min_long_clause_length < 13 and max_short_clause_length > 5):
-            raise LengthHelperError(main_clause, "")
+            raise LengthHelperError("\n".join(main_clauses), "")
 
         short_subordinate_clause = None
         short_sentences = list(filter(lambda x: len(x.split()) <= max_short_clause_length and x.startswith(adverb), self.antecedents))
@@ -36,7 +36,7 @@ class LengthHelper:
                 else:
                     self.antecedents.append(new_sentence)
         if short_subordinate_clause is None:
-            raise LengthHelperError(main_clause, "is too long")
+            raise LengthHelperError("\n".join(main_clauses), "is too long")
 
 
         long_subordinate_clause = None
@@ -55,7 +55,7 @@ class LengthHelper:
                 else:
                     self.antecedents.append(new_sentence)
         if long_subordinate_clause is None:
-            raise LengthHelperError(main_clause, "is too short")
+            raise LengthHelperError("\n".join(main_clauses), "is too short")
 
 
         return long_subordinate_clause, short_subordinate_clause

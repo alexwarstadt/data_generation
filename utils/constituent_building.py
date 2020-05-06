@@ -98,9 +98,9 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     # CLAUSE EMBEDDING
     if verb["category"] == "(S\\NP)/S":
         emb_clause = make_sentence(frequent)
-        if verb["arg_2"] == "expression_that":
+        if "that" in verb["arg_2"]:
             emb_clause[0] = "that " + emb_clause
-        if verb["arg_2"] == "expression_wh":
+        if "wh" in verb["arg_2"]:
             emb_clause[0] = "whether " + emb_clause
         args["args"] = [emb_clause]
 
@@ -253,7 +253,7 @@ def make_emb_subj_question(frequent=True):
     verb[0] = make_sentence_from_args(args)
     return verb
 
-def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quantifiers=True):
+def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quantifiers=True, avoid=None):
     """
     :param noun: the vocab entry of a noun
     :param frequent: should only frequent vocab be generated?
@@ -263,13 +263,15 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
     """
     args = {}
     if frequent:
-        freq_vocab = all_frequent
+        sample_space = all_frequent
     else:
-        freq_vocab = vocab
+        sample_space = vocab
+    if avoid is not None:
+        sample_space = np.setdiff1d(sample_space, avoid)
     if allow_quantifiers:
-        args["det"] = choice(get_matched_by(noun, "arg_1", np.intersect1d(all_determiners, freq_vocab)))
+        args["det"] = choice(get_matched_by(noun, "arg_1", np.intersect1d(all_determiners, sample_space)))
     else:
-        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", np.intersect1d(all_determiners, freq_vocab))))
+        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", np.intersect1d(all_determiners, sample_space))))
     if noun["category"] == "N":
         args["args"] = []
     if noun["category"] == "NP":
@@ -277,27 +279,27 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
         args["args"] = []
     if noun["category"] == "N/NP":
         if allow_recursion:
-            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, freq_vocab))))
+            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, sample_space))))
         else:
-            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, freq_vocab))))
+            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, sample_space))))
         args["args"] = [obj]
     if noun["category"] == "N\\NP[poss]":
         if allow_recursion:
-            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, freq_vocab)))))
+            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, sample_space)))))
         else:
-            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, freq_vocab)))))
+            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, sample_space)))))
         args["det"] = poss
         args["args"] = []
     return args
 
 
-def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True):
+def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True, avoid=None):
     """
     :param noun: noun to turn into DP
     :param frequent: restrict to frequent determiners only?
     :return: NONE. mutates string of noun.
     """
-    args = noun_args_from_noun(noun, frequent, allow_quantifiers=allow_quantifiers)
+    args = noun_args_from_noun(noun, frequent, allow_quantifiers=allow_quantifiers, avoid=avoid)
     if determiner and args["det"] is not []:
         noun[0] = " ".join([args["det"][0],
                             noun[0]] +
@@ -554,8 +556,8 @@ def get_same_V_form(root, verb_to_match):
     else:
         raise NonUniqueError("More than one verb with root %s matching form of %s" % (root, str(verb_to_match)))
 
-def build_locative(locale, allow_quantifiers=True):
-    locale = N_to_DP_mutate(locale, allow_quantifiers=allow_quantifiers)
+def build_locative(locale, allow_quantifiers=True, avoid=None):
+    locale = N_to_DP_mutate(locale, allow_quantifiers=allow_quantifiers, avoid=avoid)
     if locale["locative_prepositions"] == "":
         raise FieldAbsentError("Item %s is missing field \"locative_prepositions\"." % (locale[0]))
     locale[0] = random.choice(locale["locative_prepositions"].split(";")) + " " + locale[0]

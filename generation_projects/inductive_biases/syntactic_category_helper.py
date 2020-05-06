@@ -30,6 +30,7 @@ class SyntacticCategoryGenerator(data_generator.InductiveBiasesGenerator):
 
         adjs = get_matched_by(get_all("expression", "John")[0], "arg_1", get_all("category_2", "Adj_pred"))
         locales = get_all("locale", "1", all_nouns)
+        locales = np.array(list(filter(lambda x: "public" not in x["expression"] and "Great" not in x["expression"], locales)))
         names = np.intersect1d(all_singular_nouns, np.intersect1d(all_animate_nouns, all_proper_names))
         common_nouns = np.intersect1d(all_singular_nouns, np.intersect1d(all_animate_nouns, all_common_nouns))
 
@@ -42,3 +43,4 @@ class SyntacticCategoryGenerator(data_generator.InductiveBiasesGenerator):
         self.names_in_domain, self.names_out_domain = split(names)
         self.common_nouns_in_domain, self.common_nouns_out_domain = split(common_nouns)
         self.one_word_noun = get_all("category_2", "N_pred")
+

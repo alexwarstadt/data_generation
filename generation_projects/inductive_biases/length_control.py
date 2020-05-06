@@ -13,7 +13,7 @@ class MyGenerator(data_generator.InductiveBiasesGenerator, generation_projects.i
                          linguistic_feature_type=None,
                          linguistic_feature_description=None,
                          surface_feature_type="length",
-                         surface_feature_description="Is the sentence 20 words or longer?",
+                         surface_feature_description="Is the sentence 15 words or longer?",
                          control_paradigm=True)
 
         self.antecedents = []
@@ -45,7 +45,7 @@ class MyGenerator(data_generator.InductiveBiasesGenerator, generation_projects.i
             main_clause_trans = make_sentence_from_verb(verb=trans, allow_recursion=True)
             main_clause_intrans = make_sentence_from_verb(verb=intrans, allow_recursion=True)
             try:
-                long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses(main_clause_trans, main_clause_intrans)
+                long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses([main_clause_trans, main_clause_intrans])
             except LengthHelperError as e:
                 print("\"%s\" is %s" % (e.sentence, e.too_long))
                 continue

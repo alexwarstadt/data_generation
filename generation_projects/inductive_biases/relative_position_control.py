@@ -93,10 +93,10 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
                                    "that", Ds[0][2], NP3[0], Aux2[0], V2[0], Ds[0][3], NP4[0]]),
             training_0_0=" ".join([Ds[1][0], NP1[0], rel1[0], Aux1[0], V1[0], Ds[1][1], NP2[0], Aux_cp[0], cp_verb[0],
                                    "that", Ds[1][2], NP3[0], Aux2[0], V2[0], Ds[1][3], NP4[0]]),
-            test_1_0=" ".join([Ds[2][0], NP1[0], Aux_cp[0], cp_verb[0], "that", Ds[2][2], NP3[0],
-                               rel2[0], Aux1[0], V1[0], Ds[2][1], NP2[0], Aux2[0], V2[0], Ds[2][3], NP4[0]]),
-            test_0_1=" ".join([Ds[3][0], NP1[0], Aux_cp[0], cp_verb[0], "that", Ds[3][2], NP3[0],
-                               rel2[0], Aux1[0], V1[0], Ds[3][1], NP2[0], Aux2[0], V2[0], Ds[3][3], NP4[0]]),
+            test_1_0=" ".join([Ds[2][0], NP1[0], Aux_cp[0], cp_verb[0], "that", Ds[2][1], NP3[0],
+                               rel2[0], Aux1[0], V1[0], Ds[2][2], NP2[0], Aux2[0], V2[0], Ds[2][3], NP4[0]]),
+            test_0_1=" ".join([Ds[3][0], NP1[0], Aux_cp[0], cp_verb[0], "that", Ds[3][1], NP3[0],
+                               rel2[0], Aux1[0], V1[0], Ds[3][2], NP2[0], Aux2[0], V2[0], Ds[3][3], NP4[0]]),
         )
         return data, track_sentence
 
