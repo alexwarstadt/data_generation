@@ -6,18 +6,17 @@ from generation_projects.inductive_biases.syntactic_category_helper import Synta
 from generation_projects.inductive_biases.length_helper import LengthHelper
 from utils.exceptions import LengthHelperError
 import random
+from titlecase import titlecase
 # import generation_projects.inductive_biases.person_helper
 
 class MyGenerator(SyntacticCategoryGenerator):
     def __init__(self):
-        super().__init__(uid="syntactic_category2_lexical_content_the",
+        super().__init__(uid="syntactic_category_title_case",
                          linguistic_feature_type="syntactic",
                          linguistic_feature_description="Is there an adjective present?",
-                         surface_feature_type="lexical_content",
-                         surface_feature_description="Is the word \"the\" present?",
+                         surface_feature_type="orthography",
+                         surface_feature_description="Does the sentence appear in title case?",
                          control_paradigm=False)
-        self.the = get_all("expression", "the")
-        self.a = np.union1d(get_all("expression", "a"), get_all("expression", "an"))
 
     def sample(self):
         """
@@ -52,12 +51,10 @@ class MyGenerator(SyntacticCategoryGenerator):
         name_out = choice(self.names_out_domain)
         noun_in = choice(np.array(list(filter(lambda x: x["gender"] == name_in["gender"] or x["gender"] == "n" or x["gender"] == "", self.common_nouns_in_domain))))
         noun_out = choice(np.array(list(filter(lambda x: x["gender"] == name_out["gender"] or x["gender"] == "n" or x["gender"] == "", self.common_nouns_out_domain))))
-        D_in = choice(get_matched_by(noun_in, "arg_1", self.a))
-        D_out = choice(get_matched_by(noun_out, "arg_1", self.a))
         adj_in = choice(self.adjs_in_domain)
         adj_out = choice(self.adjs_out_domain)
-        locative_in = build_locative(choice(self.locales_in_domain), allow_quantifiers=False, avoid=self.the)
-        locative_out = build_locative(choice(self.locales_out_domain), allow_quantifiers=False, avoid=self.the)
+        locative_in = build_locative(choice(self.locales_in_domain), allow_quantifiers=False)
+        locative_out = build_locative(choice(self.locales_out_domain), allow_quantifiers=False)
         other_noun = choice(np.array(list(filter(lambda x: x["gender"] == name_out["gender"] or x["gender"] == "n", self.one_word_noun))))
 
         track_sentence = [
@@ -69,7 +66,6 @@ class MyGenerator(SyntacticCategoryGenerator):
             (name_in[0], noun_in[0], adj_in[0], locative_in[0]),
         ]
 
-        # Training_1_1
         option = random.choice([1, 2, 3, 4])
         if option == 1:
             training_1 = " ".join([name_in[0], "is", "the", adj_in[0], noun_in[0]])
@@ -80,74 +76,52 @@ class MyGenerator(SyntacticCategoryGenerator):
         else:
             training_1 = " ".join(["the", noun_in[0], locative_in[0], "is", adj_in[0]])
 
-        # Training_0_0
         option = random.choice([1, 2, 3])
         if option == 1:
-            training_0 = " ".join([name_in[0], "is", D_in[0], noun_in[0]])
+            training_0 = " ".join([name_in[0], "is", "the", noun_in[0]])
         elif option == 2:
-            training_0 = " ".join([name_in[0], "is", D_in[0], noun_in[0], locative_in[0]])
+            training_0 = " ".join([name_in[0], "is", "the", noun_in[0], locative_in[0]])
         else:
-            training_0 = " ".join([D_in[0], noun_in[0], "is", name_in[0]])
+            training_0 = " ".join(["the", noun_in[0], "is", name_in[0]])
 
-        # Test_1_0
-        option = random.choice([1, 2, 3, 4, 5])
-        if option == 1:
-            test_1_0 = " ".join([name_out[0], "is", D_out[0], adj_out[0], noun_out[0], locative_out[0]])
-        elif option == 2:
-            test_1_0 = " ".join([D_out[0], adj_out[0], noun_out[0], "is", name_out[0]])
-        elif option == 3:
-            test_1_0 = " ".join([D_out[0], adj_out[0], noun_out[0], locative_out[0], "is", name_out[0]])
-        elif option == 4:
-            test_1_0 = " ".join([D_out[0], adj_out[0], noun_out[0], "is", other_noun[0]])
-        else:
-            test_1_0 = " ".join([D_out[0], adj_out[0], noun_out[0], locative_out[0], "is", other_noun[0]])
-
-        # Control_1_1
-        option = random.choice([1, 2, 3, 4, 5])
-        if option == 1:
-            control_1_1 = " ".join([name_out[0], "is", "the", adj_out[0], noun_out[0], locative_out[0]])
-        elif option == 2:
-            control_1_1 = " ".join(["the", adj_out[0], noun_out[0], "is", name_out[0]])
-        elif option == 3:
-            control_1_1 = " ".join(["the", adj_out[0], noun_out[0], locative_out[0], "is", name_out[0]])
-        elif option == 4:
-            control_1_1 = " ".join(["the", adj_out[0], noun_out[0], "is", other_noun[0]])
-        else:
-            control_1_1 = " ".join(["the", adj_out[0], noun_out[0], locative_out[0], "is", other_noun[0]])
-
-        # Test_0_1
-        option = random.choice([1, 2, 3, 4])
-        if option == 1:
-            test_0_1 = " ".join(["the", noun_out[0], "is", locative_out[0]])
-        elif option == 2:
-            test_0_1 = " ".join(["the", noun_out[0], locative_out[0], "is", name_out[0]])
-        elif option == 3:
-            test_0_1 = " ".join(["the", noun_out[0], "is", other_noun[0]])
-        else:
-            test_0_1 = " ".join(["the", noun_out[0], locative_out[0], "is", other_noun[0]])
-
-        # Control_0_0
         option = random.choice([1, 2, 3, 4, 5, 6])
         if option == 1:
-            control_0_0 = " ".join([name_out[0], "is", locative_out[0]])
+            test_1 = " ".join([name_out[0], "is", "the", adj_out[0], noun_out[0], locative_out[0]])
         elif option == 2:
-            control_0_0 = " ".join([D_out[0], noun_out[0], "is", locative_out[0]])
+            test_1 = " ".join([name_out[0], "is", adj_out[0]])
         elif option == 3:
-            control_0_0 = " ".join([D_out[0], noun_out[0], locative_out[0], "is", name_out[0]])
+            test_1 = " ".join(["the", adj_out[0], noun_out[0], "is", name_out[0]])
         elif option == 4:
-            control_0_0 = " ".join([name_out[0], "is", other_noun[0]])
+            test_1 = " ".join(["the", adj_out[0], noun_out[0], locative_out[0], "is", name_out[0]])
         elif option == 5:
-            control_0_0 = " ".join([D_out[0], noun_out[0], "is", other_noun[0]])
+            test_1 = " ".join(["the", adj_out[0], noun_out[0], "is", other_noun[0]])
         else:
-            control_0_0 = " ".join([D_out[0], noun_out[0], locative_out[0], "is", other_noun[0]])
+            test_1 = " ".join(["the", adj_out[0], noun_out[0], locative_out[0], "is", other_noun[0]])
+
+        option = random.choice([1, 2, 3, 4, 5, 6])
+        if option == 1:
+            test_0 = " ".join([name_out[0], "is", locative_out[0]])
+        elif option == 2:
+            test_0 = " ".join(["the", noun_out[0], "is", locative_out[0]])
+        elif option == 3:
+            test_0 = " ".join(["the", noun_out[0], locative_out[0], "is", name_out[0]])
+        elif option == 4:
+            test_0 = " ".join([name_out[0], "is", other_noun[0]])
+        elif option == 5:
+            test_0 = " ".join(["the", noun_out[0], "is", other_noun[0]])
+        else:
+            test_0 = " ".join(["the", noun_out[0], locative_out[0], "is", other_noun[0]])
+
+        # long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses(
+        #     [training_1, training_0, test_0, test_1])
 
         data = self.build_paradigm(
-            training_1_1=training_1 + ".",
-            training_0_0=training_0 + ".",
-            test_1_0=test_1_0 + ".",
-            test_0_1=test_0_1 + ".",
-            control_1_1=control_1_1 + ".",
-            control_0_0=control_0_0 + ".",
+            training_1_1=titlecase(training_1),
+            training_0_0=training_0,
+            test_1_0=test_1,
+            test_0_1=titlecase(test_0),
+            control_1_1=titlecase(test_1),
+            control_0_0=test_0,
         )
         return data, track_sentence
 

@@ -556,8 +556,11 @@ def get_same_V_form(root, verb_to_match):
     else:
         raise NonUniqueError("More than one verb with root %s matching form of %s" % (root, str(verb_to_match)))
 
-def build_locative(locale, allow_quantifiers=True, avoid=None):
-    locale = N_to_DP_mutate(locale, allow_quantifiers=allow_quantifiers, avoid=avoid)
+def build_locative(locale, allow_quantifiers=True, avoid=None, bind_det=False):
+    if bind_det:
+        locale[0] = "%s " + locale[0]
+    else:
+        locale = N_to_DP_mutate(locale, allow_quantifiers=allow_quantifiers, avoid=avoid)
     if locale["locative_prepositions"] == "":
         raise FieldAbsentError("Item %s is missing field \"locative_prepositions\"." % (locale[0]))
     locale[0] = random.choice(locale["locative_prepositions"].split(";")) + " " + locale[0]

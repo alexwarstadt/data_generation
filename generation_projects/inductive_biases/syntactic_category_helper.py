@@ -34,13 +34,15 @@ class SyntacticCategoryGenerator(data_generator.InductiveBiasesGenerator):
         names = np.intersect1d(all_singular_nouns, np.intersect1d(all_animate_nouns, all_proper_names))
         common_nouns = np.intersect1d(all_singular_nouns, np.intersect1d(all_animate_nouns, all_common_nouns))
 
-        def split(l):
-            np.random.shuffle(l)
-            return l[:int(len(l)/2)], l[int(len(l)/2):]
 
-        self.adjs_in_domain, self.adjs_out_domain = split(adjs)
-        self.locales_in_domain, self.locales_out_domain = split(locales)
-        self.names_in_domain, self.names_out_domain = split(names)
-        self.common_nouns_in_domain, self.common_nouns_out_domain = split(common_nouns)
+        self.adjs_in_domain, self.adjs_out_domain = self.split(adjs)
+        self.locales_in_domain, self.locales_out_domain = self.split(locales)
+        self.names_in_domain, self.names_out_domain = self.split(names)
+        self.common_nouns_in_domain, self.common_nouns_out_domain = self.split(common_nouns)
         self.one_word_noun = get_all("category_2", "N_pred")
+
+
+    def split(self, l):
+        np.random.shuffle(l)
+        return l[:int(len(l)/2)], l[int(len(l)/2):]
 
