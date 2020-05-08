@@ -99,9 +99,9 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     if verb["category"] == "(S\\NP)/S":
         emb_clause = make_sentence(frequent)
         if "that" in verb["arg_2"]:
-            emb_clause[0] = "that " + emb_clause
+            emb_clause[0] = "that " + emb_clause[0]
         if "wh" in verb["arg_2"]:
-            emb_clause[0] = "whether " + emb_clause
+            emb_clause[0] = "whether " + emb_clause[0]
         args["args"] = [emb_clause]
 
     # QUESTION EMBEDDING
