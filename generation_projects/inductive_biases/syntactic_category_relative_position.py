@@ -110,13 +110,6 @@ class MyGenerator(SyntacticCategoryGenerator):
         locative_out_the = locative_out[0] % "the"
         locative_in_a = locative_in[0] % "a"
         locative_out_a = locative_out[0] % "a"
-        # locative_out = build_locative(choice(self.locales_out_domain), allow_quantifiers=False, bind_det=True)
-        # locative_in = build_locative(choice(self.locales_in_domain), allow_quantifiers=False, bind_det=True)
-        # locative_out = build_locative(choice(self.locales_out_domain), allow_quantifiers=False, bind_det=True)
-        # locative_in = choice(self.locales_in_domain)
-        # locative_out = choice(self.locales_out_domain)
-        # P_loc_in = random.choice(locative_in["locative_prepositions"].split(";"))
-        # P_loc_out = random.choice(locative_out["locative_prepositions"].split(";"))
         other_noun = choice(np.array(
             list(filter(lambda x: x["gender"] == name_out["gender"] or x["gender"] == "n", self.one_word_noun))))
 
