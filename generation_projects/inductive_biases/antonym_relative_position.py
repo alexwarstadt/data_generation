@@ -22,6 +22,9 @@ class MyGenerator(AntonymHelper):
         self.safe_dets = np.setdiff1d(all_frequent_determiners, all_very_common_dets)
         self.all_singular_common_nouns = get_all("start_with_vowel", "0", np.intersect1d(all_common_nouns, all_singular_nouns))
         self.all_possibly_singular_transitive_verbs = np.intersect1d(all_possibly_singular_verbs, all_transitive_verbs)
+        self.in_domain_verbs_main = np.intersect1d(self.in_domain_verbs_main, all_possibly_singular_verbs)
+        self.out_domain_transitive_verbs_main = np.intersect1d(self.out_domain_transitive_verbs_main, all_possibly_singular_verbs)
+        self.out_domain_intransitive_verbs_main = np.intersect1d(self.out_domain_intransitive_verbs_main, all_possibly_singular_verbs)
 
     def sample(self):
         # Training 1
@@ -131,12 +134,12 @@ class MyGenerator(AntonymHelper):
             A2_ant = choice(get_all("expression", A2["antonym"], self.out_domain_adjs))
             try:
                 A2_other = choice(get_all("expression", A2["synonym_hypernym_hyponym"], self.out_domain_adjs))
+                Subj2 = choice(get_matches_of(A1_ant, "arg_1",
+                                              get_matches_of(A1_other, "arg_1",
+                                                             get_matches_of(A2_ant, "arg_1",
+                                                                            get_matches_of(A2_other, "arg_1", self.all_singular_common_nouns)))))
             except Exception:
                 pass
-            Subj2 = choice(get_matches_of(A1_ant, "arg_1",
-                                          get_matches_of(A1_other, "arg_1",
-                                                         get_matches_of(A2_ant, "arg_1",
-                                                                        get_matches_of(A2_other, "arg_1", self.all_singular_common_nouns)))))
             D2 = choice(get_matched_by(Subj2, "arg_1", self.safe_dets))
             Copula2 = return_copula(Subj2, allow_negated=False)
 
@@ -188,11 +191,8 @@ class MyGenerator(AntonymHelper):
         Aux_trans = return_aux(V_trans, NP_trans_1)
         S1_abs = " ".join(["%s", NP_trans_1[0], Aux_trans[0], V_trans[0], "%s", NP_trans_2[0]])
         V1 = choice(self.in_domain_verbs_main)
-        try:
-            V1_ant = get_same_V_form(V1["antonym"], V1)
-            V1_other = get_same_V_form(V1["synonym_hypernym_hyponym"], V1)
-        except Exception:
-            pass
+        V1_ant = get_same_V_form(V1["antonym"], V1)
+        V1_other = get_same_V_form(V1["synonym_hypernym_hyponym"], V1)
         Subj1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V1_ant, "arg_1", get_matches_of(V1_other, "arg_1", self.all_singular_common_nouns))))
         Subj2 = choice(get_matches_of(V1_ant, "arg_1", get_matches_of(V1_other, "arg_1", self.all_singular_common_nouns)))
         D1 = choice(get_matched_by(Subj1, "arg_1", self.safe_dets))
@@ -269,6 +269,8 @@ class MyGenerator(AntonymHelper):
         track_sentence = [
             (Subj1[0], V1[0], Obj1[0], Subj2[0], V1_ant[0], Obj2[0], "."),
             (Subj1[0], V1[0], Obj1[0], Subj2[0], V1_other[0], Obj2[0], "."),
+            (Subj1[0], V2[0], Obj1[0], Subj2[0], V2_ant[0], Obj2[0], "."),
+            (Subj1[0], V2[0], Obj1[0], Subj2[0], V2_ant[0], Obj2[0], "."),
             (Subj1[0], V2[0], Obj1[0], Subj2[0], V2_ant[0], Obj2[0], "."),
             (Subj1[0], V2[0], Obj1[0], Subj2[0], V2_ant[0], Obj2[0], "."),
         ]
