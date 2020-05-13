@@ -16,9 +16,9 @@ class LengthHelper:
             adverb = choice(self.adverbs)[0]
             min_long_clause_length = self.long_length - min([len(x.split()) for x in main_clauses]) - len(adverb.split())
             max_short_clause_length = self.long_length - max([len(x.split()) for x in main_clauses]) - len(adverb.split()) - 1
-            if min_long_clause_length < 13 and max_short_clause_length > 5:
+            if min_long_clause_length < 10 and max_short_clause_length > 2:
                 break
-        if not (min_long_clause_length < 13 and max_short_clause_length > 5):
+        if not (min_long_clause_length < 10 and max_short_clause_length > 2):
             raise LengthHelperError("\n".join(main_clauses), "")
 
         short_subordinate_clause = None

@@ -45,9 +45,8 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
 
     # all verbs have a subject
     if subj is None:
-        args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", sample_space))), allow_quantifiers=allow_quantifiers, basic_sample_space=basic_sample_space)
-    else:
-        args["subj"] = subj
+        subj = args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", sample_space))), allow_quantifiers=allow_quantifiers, basic_sample_space=basic_sample_space)
+    args["subj"] = subj
 
     # all verbs have an auxiliary (or null)
     if aux is None:
@@ -115,10 +114,10 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     # SUBJECT CONTROL
     if verb["category"] == "(S\\NP)/(S[to]\\NP)":
         if allow_recursion:
-            v_emb = choice(get_matched_by(args["subj"], "arg_1", np.intersect1d(all_bare_verbs, sample_space)))
+            v_emb = choice(get_matched_by(subj, "arg_1", np.intersect1d(all_bare_verbs, sample_space)))
         else:
             safe_verbs = np.intersect1d(np.intersect1d(all_bare_verbs, all_non_recursive_verbs), sample_space)
-            v_emb = choice(get_matched_by(args["subj"], "arg_1", safe_verbs))
+            v_emb = choice(get_matched_by(subj, "arg_1", safe_verbs))
         VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False, basic_sample_space=basic_sample_space)
         VP[0] = "to " + VP[0]
         args["args"] = [VP]
@@ -126,10 +125,10 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     # RAISING TO SUBJECT
     if verb["category_2"] == "V_raising_subj":
         if allow_recursion:
-            v_emb = choice(np.intersect1d(all_bare_verbs, sample_space))
+            v_emb = choice(all_bare_verbs)
         else:
-            safe_verbs = np.intersect1d(np.intersect1d(all_bare_verbs, all_non_recursive_verbs), sample_space)
-            v_emb = choice(safe_verbs)
+            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
+            v_emb = choice(get_matched_by(subj, "arg_1", safe_verbs))
         args_emb = verb_args_from_verb(v_emb, frequent, subj=False, basic_sample_space=basic_sample_space)
         VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False, basic_sample_space=basic_sample_space)
         VP[0] = "to " + VP[0]
