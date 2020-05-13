@@ -22,7 +22,7 @@ def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
     VP = V_to_VP_mutate(verb, frequent=frequent, args=args)
     return VP
 
-def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True, allow_recursion=False, allow_quantifiers=True, basic_sample_space=None):
+def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True, allow_recursion=False, allow_quantifiers=True):
     """
     :param verb: a vocab entry for a verb
     :param frequent: should only frequent vocab be generated?
@@ -36,16 +36,13 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     """
     args = {"verb": verb}
     if frequent:
-        sample_space = get_all("frequent", "1")
+        freq_vocab = get_all("frequent", "1")
     else:
-        sample_space = vocab
-
-    if basic_sample_space is not None:
-        sample_space = np.intersect1d(sample_space, basic_sample_space)
+        freq_vocab = vocab
 
     # all verbs have a subject
     if subj is None:
-        subj = args["subj"] = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", sample_space))), allow_quantifiers=allow_quantifiers, basic_sample_space=basic_sample_space)
+        subj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_1", get_all("category", "N", freq_vocab))), allow_quantifiers=allow_quantifiers)
     args["subj"] = subj
 
     # all verbs have an auxiliary (or null)
@@ -60,46 +57,46 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
 
     # TRANSITIVE
     if verb["category"] == "(S\\NP)/NP":
-        args["args"] = [N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", get_all("category", "N", sample_space))), allow_quantifiers=allow_quantifiers, basic_sample_space=basic_sample_space)]
+        args["args"] = [N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", get_all("category", "N", freq_vocab))), allow_quantifiers=allow_quantifiers)]
 
     # FROM-ING EMBEDDING
     if verb["category"] == "(S\\NP)/(S[from]\\NP)":
-        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", sample_space)), allow_quantifiers=allow_quantifiers, basic_sample_space=basic_sample_space)
+        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", freq_vocab)), allow_quantifiers=allow_quantifiers)
         if allow_recursion:
-            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", np.intersect1d(all_ing_verbs, sample_space))), frequent=frequent, aux=False, basic_sample_space=basic_sample_space)
+            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", all_ing_verbs)), frequent=frequent, aux=False)
         else:
-            safe_verbs = np.intersect1d(np.intersect1d(all_ing_verbs, all_non_recursive_verbs), sample_space)
-            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", safe_verbs)), frequent=frequent, aux=False, basic_sample_space=basic_sample_space)
+            safe_verbs = np.intersect1d(all_ing_verbs, all_non_recursive_verbs)
+            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", safe_verbs)), frequent=frequent, aux=False)
         VP[0] = "from " + VP[0]
         args["args"] = [obj, VP]
 
     # RAISING TO OBJECT
     if verb["category_2"] == "V_raising_object":
         if allow_recursion:
-            v_emb = choice(np.intersect1d(all_bare_verbs, sample_space))
+            v_emb = choice(all_bare_verbs)
         else:
-            safe_verbs = np.intersect1d(np.intersect1d(all_bare_verbs, all_non_recursive_verbs), sample_space)
+            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
             v_emb = choice(safe_verbs)
-        args_emb = verb_args_from_verb(v_emb, frequent, basic_sample_space=sample_space)
-        VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False, basic_sample_space=basic_sample_space)
+        args_emb = verb_args_from_verb(v_emb, frequent)
+        VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
         VP[0] = "to " + VP[0]
         args["args"] = [args_emb["subj"], VP]
 
     # OBJECT CONTROL
     if verb["category_2"] == "V_control_object":
-        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2")), allow_quantifiers=allow_quantifiers, basic_sample_space=basic_sample_space)
+        obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2")), allow_quantifiers=allow_quantifiers)
         if allow_recursion:
-            v_emb = choice(get_matched_by(obj, "arg_1", np.intersect1d(all_bare_verbs, sample_space)))
+            v_emb = choice(get_matched_by(obj, "arg_1", all_bare_verbs))
         else:
-            safe_verbs = np.intersect1d(np.intersect1d(all_bare_verbs, all_non_recursive_verbs), sample_space)
+            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
             v_emb = choice(get_matched_by(obj, "arg_1", safe_verbs))
-        VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False, basic_sample_space=basic_sample_space)
+        VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
         VP[0] = "to " + VP[0]
         args["args"] = [obj, VP]
 
     # CLAUSE EMBEDDING
     if verb["category"] == "(S\\NP)/S":
-        emb_clause = make_sentence(frequent, allow_recursion=allow_recursion, basic_sample_space=basic_sample_space)
+        emb_clause = make_sentence(frequent)
         if "that" in verb["arg_2"]:
             emb_clause[0] = "that " + emb_clause[0]
         if "wh" in verb["arg_2"]:
@@ -108,17 +105,17 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
 
     # QUESTION EMBEDDING
     if verb["category"] == "(S\\NP)/Q":
-        args["args"] = [make_emb_subj_question(frequent, basic_sample_space=basic_sample_space)]
+        args["args"] = [make_emb_subj_question(frequent)]
         # TODO: implement other kinds of questions
 
     # SUBJECT CONTROL
     if verb["category"] == "(S\\NP)/(S[to]\\NP)":
         if allow_recursion:
-            v_emb = choice(get_matched_by(subj, "arg_1", np.intersect1d(all_bare_verbs, sample_space)))
+            v_emb = choice(get_matched_by(subj, "arg_1", all_bare_verbs))
         else:
-            safe_verbs = np.intersect1d(np.intersect1d(all_bare_verbs, all_non_recursive_verbs), sample_space)
+            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
             v_emb = choice(get_matched_by(subj, "arg_1", safe_verbs))
-        VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False, basic_sample_space=basic_sample_space)
+        VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
         VP[0] = "to " + VP[0]
         args["args"] = [VP]
 
@@ -129,8 +126,8 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
         else:
             safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
             v_emb = choice(get_matched_by(subj, "arg_1", safe_verbs))
-        args_emb = verb_args_from_verb(v_emb, frequent, subj=False, basic_sample_space=basic_sample_space)
-        VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False, basic_sample_space=basic_sample_space)
+        args_emb = verb_args_from_verb(v_emb, frequent, subj=False)
+        VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
         VP[0] = "to " + VP[0]
         args["args"] = [VP]
 
@@ -190,20 +187,20 @@ def join_args(args):
     return " ".join(x[0] for x in args)
 
 
-def make_sentence_from_verb(verb, frequent=True, allow_recursion=False, basic_sample_space=None):
+def make_sentence_from_verb(verb, frequent=True, allow_recursion=False):
     """
     :param verb: vocab entry for a verb
     :param frequent: should only frequent vocab items be generated?
     :return: the string for a sentence headed by the input verb.
     """
-    args = verb_args_from_verb(verb, frequent=frequent, allow_recursion=False, basic_sample_space=basic_sample_space)
+    args = verb_args_from_verb(verb, frequent=frequent, allow_recursion=False)
     return " ".join([args["subj"][0],
                      args["aux"][0],
                      verb[0]] +
                     [x[0] for x in args["args"]])
 
 
-def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=False, basic_sample_space=None):
+def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=False):
     """
     :param verb: vocab entry for a verb
     :param frequent: should only frequent vocab be generated?
@@ -213,7 +210,7 @@ def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=Fal
     """
     VP = verb.copy()
     if args is None:
-        args = verb_args_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion, basic_sample_space=basic_sample_space)
+        args = verb_args_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion)
     if aux:
         phrases = [args["aux"][0], verb[0]] + [x[0] for x in args["args"]]
     else:
@@ -222,13 +219,13 @@ def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=Fal
     return VP
 
 
-def make_sentence(frequent=True, allow_recursion=False, basic_sample_space=None):
+def make_sentence(frequent=True, allow_recursion=False):
     """
     :param frequent: should only frequent vocab be generated?
     :return: a vocab entry with the expression containing the string of the full sentence
     """
     verb = choice(all_verbs)
-    verb[0] = make_sentence_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion, basic_sample_space=basic_sample_space)
+    verb[0] = make_sentence_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion)
     return verb
 
 
@@ -243,19 +240,19 @@ def make_sentence_from_args(args):
                     [x[0] for x in args["args"]])
 
 
-def make_emb_subj_question(frequent=True, basic_sample_space=None):
+def make_emb_subj_question(frequent=True):
     """
     :param frequent: should only frequent vocab be generated?
     :return: a vocab entry with the expression corresponding to the string of an entire embedded question with a wh-subject
     """
-    verb = choice(np.intersect1d(all_possibly_singular_verbs, basic_sample_space))
-    args = verb_args_from_verb(verb, basic_sample_space=basic_sample_space)
+    verb = choice(all_possibly_singular_verbs)
+    args = verb_args_from_verb(verb)
     wh = choice(get_matched_by(args["subj"], "arg_1", all_wh_words))
     args["subj"] = wh
     verb[0] = make_sentence_from_args(args)
     return verb
 
-def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quantifiers=True, avoid=None, basic_sample_space=None):
+def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quantifiers=True, avoid=None):
     """
     :param noun: the vocab entry of a noun
     :param frequent: should only frequent vocab be generated?
@@ -268,8 +265,8 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
         sample_space = all_frequent
     else:
         sample_space = vocab
-    if basic_sample_space is not None:
-        sample_space = np.intersect1d(sample_space, basic_sample_space)
+    if avoid is not None:
+        sample_space = np.setdiff1d(sample_space, avoid)
     if allow_quantifiers:
         args["det"] = choice(get_matched_by(noun, "arg_1", np.intersect1d(all_determiners, sample_space)))
     else:
@@ -295,13 +292,13 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
     return args
 
 
-def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True, basic_sample_space=None):
+def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True, avoid=None):
     """
     :param noun: noun to turn into DP
     :param frequent: restrict to frequent determiners only?
     :return: NONE. mutates string of noun.
     """
-    args = noun_args_from_noun(noun, frequent, allow_quantifiers=allow_quantifiers, basic_sample_space=basic_sample_space)
+    args = noun_args_from_noun(noun, frequent, allow_quantifiers=allow_quantifiers, avoid=avoid)
     if determiner and args["det"] is not []:
         noun[0] = " ".join([args["det"][0],
                             noun[0]] +
