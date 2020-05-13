@@ -122,6 +122,8 @@ class MyGenerator(SyntacticCategoryGenerator, LengthHelper):
         data = self.build_paradigm(
             training_1_1="%s, %s." % (long_subordinate_clause, training_1),
             training_0_0="%s, %s." % (short_subordinate_clause, training_0),
+            control_1_0="%s, %s." % (short_subordinate_clause, training_1),
+            control_0_1="%s, %s." % (long_subordinate_clause, training_0),
             test_1_0="%s, %s." % (short_subordinate_clause, test_1),
             test_0_1="%s, %s." % (long_subordinate_clause, test_0),
             control_1_1="%s, %s." % (long_subordinate_clause, test_1),

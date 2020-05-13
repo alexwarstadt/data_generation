@@ -154,6 +154,38 @@ class MyGenerator(SyntacticCategoryGenerator):
         else:
             training_0 = " ".join([S1_a_subj, "the", noun_in[0], "is", name_in[0]])
 
+        # Control_1_0
+        option = random.randint(0, 7)
+        if option == 0:
+            control_1_0 = " ".join([S1_a_subj, name_in[0], "is", "the", adj_in[0], noun_in[0]])
+        elif option == 1:
+            control_1_0 = " ".join([S1, "a", adj_in[0], noun_in[0], "is", locative_in_the])
+        elif option == 2:
+            control_1_0 = " ".join([S1_a_subj, D_in[0], adj_in[0], noun_in[0], "is", locative_in_the])
+        elif option == 3:
+            control_1_0 = " ".join([S1_a_subj, "the", adj_in[0], noun_in[0], "is", locative_in_d])
+        elif option == 4:
+            control_1_0 = " ".join([S1_a_subj, "the", noun_in[0], "is", adj_in[0]])
+        elif option == 5:
+            control_1_0 = " ".join([S1, "a", noun_in[0], locative_in_the, "is", adj_in[0]])
+        elif option == 6:
+            control_1_0 = " ".join([S1_a_subj, "the", noun_in[0], locative_in_d, "is", adj_in[0]])
+        else:
+            control_1_0 = " ".join([S1_a_subj, D_in[0], noun_in[0], locative_in_the, "is", adj_in[0]])
+
+        # Control_0_1
+        option = random.randint(0, 4)
+        if option == 0:
+            control_0_1 = " ".join([S1_the_subj, name_in[0], "is", "a", noun_in[0]])
+        elif option == 1:
+            control_0_1 = " ".join([S1_the_subj, name_in[0], "is", "a", noun_in[0], locative_in_d])
+        elif option == 2:
+            control_0_1 = " ".join([S1_the_subj, name_in[0], "is", D_in[0], noun_in[0], locative_in_a])
+        elif option == 3:
+            control_0_1 = " ".join([S1, name_in[0], "is", "the", noun_in[0], locative_in_a])
+        else:
+            control_0_1 = " ".join([S1_the_subj, "a", noun_in[0], "is", name_in[0]])
+
         # Test_1_0
         option = random.randint(0, 12)
         if option == 1:
@@ -271,6 +303,8 @@ class MyGenerator(SyntacticCategoryGenerator):
         data = self.build_paradigm(
             training_1_1=training_1 + ".",
             training_0_0=training_0 + ".",
+            control_1_0=control_1_0 + ".",
+            control_0_1=control_0_1 + ".",
             test_1_0=test_1_0 + ".",
             test_0_1=test_0_1 + ".",
             control_1_1=control_1_1 + ".",

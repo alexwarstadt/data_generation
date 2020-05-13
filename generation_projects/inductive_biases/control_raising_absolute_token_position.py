@@ -123,6 +123,11 @@ class MyGenerator(ControlRaisingHelper):
         else:
             control_1_1 = " ".join(["the", NP1[0], Aux1[0], V_control_out[0], to, V[0], D2[0], NP2[0], "and", S1, "."])
 
+        option = random.randint(0, 1)
+        if option == 1:
+            control_0_1 = " ".join([S1_the_subj, "and", D1[0], NP1[0], Aux1[0], V_raising_in[0], to, V[0], D2[0], NP2[0], "."])
+        else:
+            control_0_1 = " ".join(["the", NP1[0], Aux1[0], V_raising_in[0], to, V[0], D2[0], NP2[0], "and", S1, "."])
 
 
         option = random.randint(0, 1)
@@ -143,6 +148,12 @@ class MyGenerator(ControlRaisingHelper):
         else:
             control_0_0 = " ".join([D1[0], NP1[0], Aux1[0], V_raising_out[0], to, V[0], "the", NP2[0], "and", S1, "."])
 
+        option = random.randint(0, 1)
+        if option == 1:
+            control_1_0 = " ".join([S1_the_obj, "and", D1[0], NP1[0], Aux1[0], V_control_in[0], to, V[0], D2[0], NP2[0], "."])
+        else:
+            control_1_0 = " ".join([D1[0], NP1[0], Aux1[0], V_control_in[0], to, V[0], "the", NP2[0], "and", S1, "."])
+
 
         data = self.build_paradigm(
             training_1_1=training_1_1,
@@ -150,7 +161,9 @@ class MyGenerator(ControlRaisingHelper):
             test_1_0=test_1_0,
             test_0_1=test_0_1,
             control_1_1=control_1_1,
-            control_0_0=control_0_0
+            control_0_0=control_0_0,
+            control_1_0=control_1_0,
+            control_0_1=control_0_1
         )
 
         track_sentence = [

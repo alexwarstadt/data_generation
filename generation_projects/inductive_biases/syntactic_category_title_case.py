@@ -118,6 +118,8 @@ class MyGenerator(SyntacticCategoryGenerator):
         data = self.build_paradigm(
             training_1_1=titlecase(training_1),
             training_0_0=training_0,
+            control_1_0=training_1,
+            control_0_1=titlecase(training_0),
             test_1_0=test_1,
             test_0_1=titlecase(test_0),
             control_1_1=titlecase(test_1),

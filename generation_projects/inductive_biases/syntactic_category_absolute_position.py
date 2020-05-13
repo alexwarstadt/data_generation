@@ -137,6 +137,46 @@ class MyGenerator(SyntacticCategoryGenerator):
         else:
             training_0 = " ".join([D_in[0], noun_in[0], "is", name_in[0], "and", S1_the_obj])
 
+        # Control_1_0
+        option = random.randint(0, 12)
+        if option == 0:
+            control_1_0 = " ".join([S1_the_obj, "and", name_in[0], "is", D_in[0], adj_in[0], noun_in[0]])
+        elif option == 1:
+            control_1_0 = " ".join([S1, "and", name_in[0], "is", "the", adj_in[0], noun_in[0]])
+        elif option == 2:
+            control_1_0 = " ".join([name_in[0], "is", "the", adj_in[0], noun_in[0], "and", S1])
+        elif option == 3:
+            control_1_0 = " ".join([name_in[0], "is", D_in[0], adj_in[0], noun_in[0], "and", S1_the_obj])
+        elif option == 4:
+            control_1_0 = " ".join([S1_the_obj, "and", D_in[0], adj_in[0], noun_in[0], "is", locative_in[0]])
+        elif option == 5:
+            control_1_0 = " ".join([S1, "and", "the", adj_in[0], noun_in[0], "is", locative_in[0]])
+        elif option == 6:
+            control_1_0 = " ".join([D_in[0], adj_in[0], noun_in[0], "is", locative_in[0], "and", S1_the_obj])
+        elif option == 7:
+            control_1_0 = " ".join([S1_the_obj, "and", D_in[0], noun_in[0], "is", adj_in[0]])
+        elif option == 8:
+            control_1_0 = " ".join([S1, "and", "the", noun_in[0], "is", adj_in[0]])
+        elif option == 9:
+            control_1_0 = " ".join([D_in[0], noun_in[0], "is", adj_in[0], "and", S1_the_obj])
+        elif option == 10:
+            control_1_0 = " ".join([S1_the_obj, "and", D_in[0], noun_in[0], locative_in[0], "is", adj_in[0]])
+        elif option == 11:
+            control_1_0 = " ".join([S1, "and", "the", noun_in[0], locative_in[0], "is", adj_in[0]])
+        else:
+            control_1_0 = " ".join([D_in[0], noun_in[0], locative_in[0], "is", adj_in[0], "and", S1_the_obj])
+
+        # Control_0_1
+        option = random.randint(0, 3)
+        if option == 0:
+            control_0_1 = " ".join([S1_the_subj, "and", name_in[0], "is", D_in[0], noun_in[0]])
+        elif option == 1:
+            control_0_1 = " ".join([S1_the_subj, "and", name_in[0], "is", D_in[0], noun_in[0], locative_in[0]])
+        elif option == 2:
+            control_0_1 = " ".join([S1_the_subj, "and", D_in[0], noun_in[0], "is", name_in[0]])
+        else:
+            control_0_1 = " ".join(["the", noun_in[0], "is", name_in[0], "and", S1])
+
         # Test_1_0
         option = random.randint(0, 15)
         if option == 1:
@@ -240,6 +280,8 @@ class MyGenerator(SyntacticCategoryGenerator):
             test_0_1=test_0_1 + ".",
             control_1_1=control_1_1 + ".",
             control_0_0=control_0_0 + ".",
+            control_1_0=control_1_0 + ".",
+            control_0_1=control_0_1 + ".",
         )
         return data, track_sentence
 

@@ -81,16 +81,25 @@ class MyGenerator(AntonymHelper):
                 raise MatchNotFoundError("fail to match: %s %s %s %s %s " % (A2[0], A2_ant[0], A2_other[0], Subj[0], Obj[0]))
 
             Ds = []
+            # Training_1_1
             if choice([True, False]):
                 Ds.append(("the", D_trans_2[0], D1[0], D2[0]))
             else:
                 Ds.append((D_trans_1[0], D_trans_2[0], D1[0], "the"))
 
+            # Test_0_1
             if choice([True, False]):
                 Ds.append((D_trans_1[0], "the", D1[0], D2[0]))
             else:
                 Ds.append((D_trans_1[0], D_trans_2[0], "the", D2[0]))
 
+            # Control_1_0
+            if choice([True, False]):
+                Ds.append((D_trans_1[0], "the", D1[0], D2[0]))
+            else:
+                Ds.append((D_trans_1[0], D_trans_2[0], "the", D2[0]))
+
+            # Control_0_1
             if choice([True, False]):
                 Ds.append((D_trans_1[0], "the", D1[0], D2[0]))
             else:
@@ -103,6 +112,8 @@ class MyGenerator(AntonymHelper):
                 test_0_1=" ".join([S1_abs, "and", "%s", A2[0], Subj[0], Aux[0], V[0], "%s", A2_other[0], Obj[0], "."]) % Ds[1],
                 control_1_1=" ".join([S1_abs, "and", "%s", A2[0], Subj[0], Aux[0], V[0], "%s", A2_ant[0], Obj[0], "."]) % Ds[2],
                 control_0_0=" ".join([S1, "and", D1[0], A2[0], Subj[0], Aux[0], V[0], D2[0], A2_other[0], Obj[0], "."]),
+                control_1_0=" ".join([S1, "and", D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_ant[0], Obj[0], "."]),
+                control_0_1=" ".join([S1_abs, "and", "%s", A1[0], Subj[0], Aux[0], V[0], "%s", A1_other[0], Obj[0], "."]) % Ds[3],
             )
 
             track_sentence = [
@@ -133,16 +144,25 @@ class MyGenerator(AntonymHelper):
             Copula2 = return_copula(Subj2, allow_negated=False)
 
             Ds = []
+            # Training_1_1
             if choice([True, False]):
                 Ds.append(("the", D_trans_2[0], D1[0], D2[0]))
             else:
                 Ds.append((D_trans_1[0], D_trans_2[0], D1[0], "the"))
 
+            # Test_0_1
             if choice([True, False]):
                 Ds.append((D_trans_1[0], "the", D1[0], D2[0]))
             else:
                 Ds.append((D_trans_1[0], D_trans_2[0], "the", D2[0]))
 
+            # Control_1_1
+            if choice([True, False]):
+                Ds.append((D_trans_1[0], "the", D1[0], D2[0]))
+            else:
+                Ds.append((D_trans_1[0], D_trans_2[0], "the", D2[0]))
+
+            # Control_0_1
             if choice([True, False]):
                 Ds.append((D_trans_1[0], "the", D1[0], D2[0]))
             else:
@@ -155,6 +175,8 @@ class MyGenerator(AntonymHelper):
                 test_0_1=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A2[0], "and", "%s", Subj2[0], Copula2[0], A2_other[0], "."]) % Ds[1],
                 control_1_1=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A2[0], "and", "%s", Subj2[0], Copula2[0], A2_ant[0], "."]) % Ds[2],
                 control_0_0=" ".join([S1, "and", D1[0], Subj1[0], Copula1[0], A2[0], "and", D2[0], Subj2[0], Copula2[0], A2_other[0], "."]),
+                control_1_0=" ".join([S1, "and", D1[0], Subj1[0], Copula1[0], A1[0], "and", D2[0], Subj2[0], Copula2[0], A1_ant[0], "."]),
+                control_0_1=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A1[0], "and", "%s", Subj2[0], Copula2[0], A1_other[0], "."]) % Ds[3],
             )
             track_sentence = [
                 (A1[0], Subj1[0], A1_ant[0], Subj2[0]),
@@ -237,6 +259,11 @@ class MyGenerator(AntonymHelper):
         else:
             Ds.append((D_trans_1[0], D_trans_2[0], "the", D2[0]))
 
+        if choice([True, False]):
+            Ds.append((D_trans_1[0], "the", D1[0], D2[0]))
+        else:
+            Ds.append((D_trans_1[0], D_trans_2[0], "the", D2[0]))
+
         data = self.build_paradigm(
             training_1_1=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V1[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."]) % Ds[0],
             training_0_0=" ".join([S1, "and", D1[0], Subj1[0], Aux1[0], V1[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V1_other[0], Obj2[0], "."]),
@@ -244,6 +271,8 @@ class MyGenerator(AntonymHelper):
             test_0_1=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V2[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V2_other[0], Obj2[0], "."]) % Ds[1],
             control_1_1=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V2[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V2_ant[0], Obj2[0], "."]) % Ds[2],
             control_0_0=" ".join([S1, "and", D1[0], Subj1[0], Aux1[0], V2[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V2_other[0], Obj2[0], "."]),
+            control_1_0=" ".join([S1, "and", D1[0], Subj1[0], Aux1[0], V1[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."]),
+            control_0_1=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V1[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V1_other[0], Obj2[0], "."]) % Ds[3],
         )
         track_sentence = [
             (Subj1[0], V1[0], Obj1[0], Subj2[0], V1_ant[0], Obj2[0], "."),

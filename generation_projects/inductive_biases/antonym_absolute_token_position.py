@@ -100,6 +100,25 @@ class MyGenerator(AntonymHelper):
             else:
                 training_0_0 = " ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_other[0], Obj[0], "and", S1_the_obj, "."])
 
+            if choice([True, False]):
+                control_0_1 = " ".join([S1_the_subj, "and", D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_other[0], Obj[0], "."])
+            else:
+                control_0_1 = " ".join(["the", A1[0], Subj[0], Aux[0], V[0], D2[0], A1_other[0], Obj[0], "and", S1, "."])
+
+            option = random.randint(0, 5)
+            if option == 0:
+                control_1_0 = " ".join([S1_the_obj, "and", D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_ant[0], Obj[0], "."])
+            elif option == 1:
+                control_1_0 = " ".join([S1, "and", "the", A1[0], Subj[0], Aux[0], V[0], D2[0], A1_ant[0], Obj[0], "."])
+            elif option == 2:
+                control_1_0 = " ".join([S1, "and", D1[0], A1[0], Subj[0], Aux[0], V[0], "the", A1_ant[0], Obj[0], "."])
+            elif option == 3:
+                control_1_0 = " ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], "the", A1_ant[0], Obj[0], "and", S1, "."])
+            elif option == 4:
+                control_1_0 = " ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_ant[0], Obj[0], "and", S1_the_subj, "."])
+            else:
+                control_1_0 = " ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_ant[0], Obj[0], "and", S1_the_obj, "."])
+
             option = random.randint(0, 5)
             if option == 0:
                 test_1_0 = " ".join([S1_the_obj, "and", D1[0], A2[0], Subj[0], Aux[0], V[0], D2[0], A2_ant[0], Obj[0], "."])
@@ -193,6 +212,25 @@ class MyGenerator(AntonymHelper):
                 training_0_0 = " ".join([D1[0], Subj1[0], Copula1[0], A1[0], "and", D2[0], Subj2[0], Copula2[0], A1_other[0], "and", S1_the_subj, "."])
             else:
                 training_0_0 = " ".join([D1[0], Subj1[0], Copula1[0], A1[0], "and", D2[0], Subj2[0], Copula2[0], A1_other[0], "and", S1_the_obj, "."])
+
+            if choice([True, False]):
+                control_0_1 = " ".join([S1_the_subj, "and", D1[0], Subj1[0], Copula1[0], A1[0], "and", D2[0], Subj2[0], Copula2[0], A1_other[0], "."])
+            else:
+                control_0_1 = " ".join(["the", Subj1[0], Copula1[0], A1[0], "and", D2[0], Subj2[0], Copula2[0], A1_other[0], "and", S1, "."])
+
+            option = random.randint(0, 5)
+            if option == 0:
+                control_1_0 = " ".join([S1_the_obj, "and", D1[0], Subj1[0], Copula1[0], A1[0], "and", D2[0], Subj2[0], Copula2[0], A1_ant[0], "."])
+            elif option == 1:
+                control_1_0 = " ".join([S1, "and", "the", Subj1[0], Copula1[0], A1[0], "and", D2[0], Subj2[0], Copula2[0], A1_ant[0], "."])
+            elif option == 2:
+                control_1_0 = " ".join([S1, "and", D1[0], Subj1[0], Copula1[0], A1[0], "and", "the", Subj2[0], Copula2[0], A1_ant[0], "."])
+            elif option == 3:
+                control_1_0 = " ".join([D1[0], Subj1[0], Copula1[0], A1[0], "and", "the", Subj2[0], Copula2[0], A1_ant[0], "and", S1, "."])
+            elif option == 4:
+                control_1_0 = " ".join([D1[0], Subj1[0], Copula1[0], A1[0], "and", D2[0], Subj2[0], Copula2[0], A1_ant[0], "and", S1_the_subj, "."])
+            else:
+                control_1_0 = " ".join([D1[0], Subj1[0], Copula1[0], A1[0], "and", D2[0], Subj2[0], Copula2[0], A1_ant[0], "and", S1_the_obj, "."])
 
             option = random.randint(0, 5)
             if option == 0:
@@ -326,6 +364,25 @@ class MyGenerator(AntonymHelper):
         else:
             training_0_0 = " ".join([D1[0], Subj1[0], Aux1[0], V1[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V1_other[0], Obj2[0], "and", S1_the_obj, "."])
 
+        if choice([True, False]):
+            control_0_1 = " ".join([S1_the_subj, "and", D1[0], Subj1[0], Aux1[0], V1[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V1_other[0], Obj2[0], "."])
+        else:
+            control_0_1 = " ".join(["the", Subj1[0], Aux1[0], V1[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V1_other[0], Obj2[0], "and", S1, "."])
+
+        option = random.randint(0, 5)
+        if option == 0:
+            control_1_0 = " ".join([S1_the_obj, "and", D1[0], Subj1[0], Aux1[0], V1[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."])
+        elif option == 1:
+            control_1_0 = " ".join([S1, "and", "the", Subj1[0], Aux1[0], V1[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."])
+        elif option == 2:
+            control_1_0 = " ".join([S1, "and", D1[0], Subj1[0], Aux1[0], V1[0], Obj1[0], "and", "the", Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."])
+        elif option == 3:
+            control_1_0 = " ".join([D1[0], Subj1[0], Aux1[0], V1[0], Obj1[0], "and", "the", Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "and", S1, "."])
+        elif option == 4:
+            control_1_0 = " ".join([D1[0], Subj1[0], Aux1[0], V1[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "and", S1_the_subj, "."])
+        else:
+            control_1_0 = " ".join([D1[0], Subj1[0], Aux1[0], V1[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "and", S1_the_obj, "."])
+
         option = random.randint(0, 5)
         if option == 0:
             test_1_0 = " ".join([S1_the_obj, "and", D1[0], Subj1[0], Aux1[0], V2[0], Obj1[0], "and", D2[0], Subj2[0], Aux2[0], V2_ant[0], Obj2[0], "."])
@@ -371,6 +428,8 @@ class MyGenerator(AntonymHelper):
             test_0_1=test_0_1,
             control_1_1=control_1_1,
             control_0_0=control_0_0,
+            control_1_0=training_1_1,
+            control_0_1=training_0_0,
         )
         track_sentence = [
             (Subj1[0], V1[0], Obj1[0], Subj2[0], V1_ant[0], Obj2[0], "."),

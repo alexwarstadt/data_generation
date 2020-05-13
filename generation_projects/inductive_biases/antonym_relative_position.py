@@ -110,6 +110,8 @@ class MyGenerator(AntonymHelper):
             data = self.build_paradigm(
                 training_1_1=" ".join([S1_abs, "and", "%s", A1[0], Subj[0], Aux[0], V[0], "%s", A1_ant[0], Obj[0], "."]) % Ds[0],
                 training_0_0=" ".join([S1_abs, "and", "%s", A1[0], Subj[0], Aux[0], V[0], "%s", A1_other[0], Obj[0], "."]) % Ds[1],
+                control_1_0=" ".join([S1_abs, "and", "%s", A1[0], Subj[0], Aux[0], V[0], "%s", A1_ant[0], Obj[0], "."]) % Ds[1],
+                control_0_1=" ".join([S1_abs, "and", "%s", A1[0], Subj[0], Aux[0], V[0], "%s", A1_other[0], Obj[0], "."]) % Ds[0],
                 test_1_0=" ".join([S1_abs, "and", "%s", A2[0], Subj[0], Aux[0], V[0], "%s", A2_ant[0], Obj[0], "."]) % Ds[3],
                 test_0_1=" ".join([S1_abs, "and", "%s", A2[0], Subj[0], Aux[0], V[0], "%s", A2_other[0], Obj[0], "."]) % Ds[2],
                 control_1_1=" ".join([S1_abs, "and", "%s", A2[0], Subj[0], Aux[0], V[0], "%s", A2_ant[0], Obj[0], "."]) % Ds[2],
@@ -169,6 +171,8 @@ class MyGenerator(AntonymHelper):
             data = self.build_paradigm(
                 training_1_1=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A1[0], "and", "%s", Subj2[0], Copula2[0], A1_ant[0], "."]) % Ds[0],
                 training_0_0=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A1[0], "and", "%s", Subj2[0], Copula2[0], A1_other[0], "."]) % Ds[1],
+                control_1_0=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A1[0], "and", "%s", Subj2[0], Copula2[0], A1_ant[0], "."]) % Ds[1],
+                control_0_1=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A1[0], "and", "%s", Subj2[0], Copula2[0], A1_other[0], "."]) % Ds[0],
                 test_1_0=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A2[0], "and", "%s", Subj2[0], Copula2[0], A2_ant[0], "."]) % Ds[3],
                 test_0_1=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A2[0], "and", "%s", Subj2[0], Copula2[0], A2_other[0], "."]) % Ds[2],
                 control_1_1=" ".join([S1_abs, "and", "%s", Subj1[0], Copula1[0], A2[0], "and", "%s", Subj2[0], Copula2[0], A2_ant[0], "."]) % Ds[2],
@@ -261,6 +265,8 @@ class MyGenerator(AntonymHelper):
         data = self.build_paradigm(
             training_1_1=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V1[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."]) % Ds[0],
             training_0_0=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V1[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V1_other[0], Obj2[0], "."]) % Ds[1],
+            control_1_0=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V1[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."]) % Ds[1],
+            control_0_1=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V1[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V1_other[0], Obj2[0], "."]) % Ds[0],
             test_1_0=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V2[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V2_ant[0], Obj2[0], "."]) % Ds[3],
             test_0_1=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V2[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V2_other[0], Obj2[0], "."]) % Ds[2],
             control_1_1=" ".join([S1_abs, "and", "%s", Subj1[0], Aux1[0], V2[0], Obj1[0], "and", "%s", Subj2[0], Aux2[0], V2_ant[0], Obj2[0], "."]) % Ds[2],

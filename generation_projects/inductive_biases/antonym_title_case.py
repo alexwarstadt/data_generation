@@ -74,6 +74,8 @@ class MyGenerator(AntonymHelper):
             data = self.build_paradigm(
                 training_1_1=titlecase(" ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_ant[0], Obj[0], "."])),
                 training_0_0=" ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_other[0], Obj[0], "."]),
+                control_1_0=" ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_ant[0], Obj[0], "."]),
+                control_0_1=titlecase(" ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_other[0], Obj[0], "."])),
                 test_1_0=" ".join([D1[0], A2[0], Subj[0], Aux[0], V[0], D2[0], A2_ant[0], Obj[0], "."]),
                 test_0_1=titlecase(" ".join([D1[0], A2[0], Subj[0], Aux[0], V[0], D2[0], A2_other[0], Obj[0], "."])),
                 control_1_1=titlecase(" ".join([D1[0], A2[0], Subj[0], Aux[0], V[0], D2[0], A2_ant[0], Obj[0], "."])),
@@ -107,6 +109,8 @@ class MyGenerator(AntonymHelper):
             data = self.build_paradigm(
                 training_1_1=titlecase(" ".join([Subj1[0], Copula1[0], A1[0], "and", Subj2[0], Copula2[0], A1_ant[0], "."])),
                 training_0_0=" ".join([Subj1[0], Copula1[0], A1[0], "and", Subj2[0], Copula2[0], A1_other[0], "."]),
+                control_1_0=" ".join([Subj1[0], Copula1[0], A1[0], "and", Subj2[0], Copula2[0], A1_ant[0], "."]),
+                control_0_1=titlecase(" ".join([Subj1[0], Copula1[0], A1[0], "and", Subj2[0], Copula2[0], A1_other[0], "."])),
                 test_1_0=" ".join([Subj1[0], Copula1[0], A2[0], "and", Subj2[0], Copula2[0], A2_ant[0], "."]),
                 test_0_1=titlecase(" ".join([Subj1[0], Copula1[0], A2[0], "and", Subj2[0], Copula2[0], A2_other[0], "."])),
                 control_1_1=titlecase(" ".join([Subj1[0], Copula1[0], A2[0], "and", Subj2[0], Copula2[0], A2_ant[0], "."])),
@@ -177,6 +181,8 @@ class MyGenerator(AntonymHelper):
         data = self.build_paradigm(
             training_1_1=titlecase(" ".join([Subj1[0], Aux1[0], V1[0], Obj1[0], "and", Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."])),
             training_0_0=" ".join([Subj1[0], Aux1[0], V1[0], Obj1[0], "and", Subj2[0], Aux2[0], V1_other[0], Obj2[0], "."]),
+            control_1_0=" ".join([Subj1[0], Aux1[0], V1[0], Obj1[0], "and", Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."]),
+            control_0_1=titlecase(" ".join([Subj1[0], Aux1[0], V1[0], Obj1[0], "and", Subj2[0], Aux2[0], V1_other[0], Obj2[0], "."])),
             test_1_0=" ".join([Subj1[0], Aux1[0], V2[0], Obj1[0], "and", Subj2[0], Aux2[0], V2_ant[0], Obj2[0], "."]),
             test_0_1=titlecase(" ".join([Subj1[0], Aux1[0], V2[0], Obj1[0], "and", Subj2[0], Aux2[0], V2_other[0], Obj2[0], "."])),
             control_1_1=titlecase(" ".join([Subj1[0], Aux1[0], V2[0], Obj1[0], "and", Subj2[0], Aux2[0], V2_ant[0], Obj2[0], "."])),

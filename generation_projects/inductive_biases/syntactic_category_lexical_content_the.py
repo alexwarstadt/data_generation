@@ -116,6 +116,27 @@ class MyGenerator(SyntacticCategoryGenerator):
         else:
             training_0 = " ".join([S1, D_in[0], noun_in[0], "is", name_in[0]])
 
+        # Control_1_0
+        option = random.randint(0, 3)
+        if option == 0:
+            control_1_0 = " ".join([S, name_in[0], "is", D_in[0], adj_in[0], noun_in[0]])
+        elif option == 1:
+            control_1_0 = " ".join([S, D_in[0], adj_in[0], noun_in[0], "is", locative_in[0]])
+        elif option == 2:
+            control_1_0 = " ".join([S, D_in[0], noun_in[0], "is", adj_in[0]])
+        else:
+            control_1_0 = " ".join([S, D_in[0], noun_in[0], locative_in[0], "is", adj_in[0]])
+
+        # Control_0_1
+        option = random.randint(0, 5)
+        (D, S) = ("the", S1) if option < 3 else (D_in[0], S1_the_obj)
+        if option % 3 == 1:
+            control_0_1 = " ".join([S, name_in[0], "is", D, noun_in[0]])
+        elif option % 3 == 2:
+            control_0_1 = " ".join([S, name_in[0], "is", D, noun_in[0], locative_in[0]])
+        else:
+            control_0_1 = " ".join([S, D, noun_in[0], "is", name_in[0]])
+
         # Test_1_0
         option = random.choice([1, 2, 3, 4, 5])
         if option == 1:
@@ -173,6 +194,8 @@ class MyGenerator(SyntacticCategoryGenerator):
         data = self.build_paradigm(
             training_1_1=training_1 + ".",
             training_0_0=training_0 + ".",
+            control_1_0=control_1_0 + ".",
+            control_0_1=control_0_1 + ".",
             test_1_0=test_1_0 + ".",
             test_0_1=test_0_1 + ".",
             control_1_1=control_1_1 + ".",

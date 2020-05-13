@@ -5,6 +5,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 import random
 from generation_projects.inductive_biases.control_raising_helper import ControlRaisingHelper
+from titlecase import titlecase
 
 
 # import generation_projects.inductive_biases.person_helper
@@ -14,9 +15,9 @@ class MyGenerator(ControlRaisingHelper):
         super().__init__(uid="control_raising_control",
                          linguistic_feature_type="syntactic construction",
                          linguistic_feature_description="Is the sentence an example of control or raising",
-                         surface_feature_type=None,
-                         surface_feature_description=None,
-                         control_paradigm=True)
+                         surface_feature_type="orthography",
+                         surface_feature_description="Does the sentence appear in title case?",
+                         control_paradigm=False)
         self.all_bare_transitive_verbs = np.intersect1d(all_transitive_verbs, all_bare_verbs)
         self.safe_dets = all_frequent_determiners
 
@@ -90,14 +91,14 @@ class MyGenerator(ControlRaisingHelper):
 
 
         data = self.build_paradigm(
-            training_1_1=" ".join([S1, "and", DP1[0], Aux1[0], V_control_in[0], to, VP[0], "."]),
+            training_1_1=titlecase(" ".join([S1, "and", DP1[0], Aux1[0], V_control_in[0], to, VP[0], "."])),
             training_0_0=" ".join([S1, "and", DP1[0], Aux1[0], V_raising_in[0], to, VP[0], "."]),
             control_1_0=" ".join([S1, "and", DP1[0], Aux1[0], V_control_out[0], to, VP[0], "."]),
-            control_0_1=" ".join([S1, "and", DP1[0], Aux1[0], V_raising_out[0], to, VP[0], "."]),
-            control_1_1=" ".join([S1, "and", DP1[0], Aux1[0], V_control_in[0], to, VP[0], "."]),
+            control_0_1=titlecase(" ".join([S1, "and", DP1[0], Aux1[0], V_raising_out[0], to, VP[0], "."])),
+            control_1_1=titlecase(" ".join([S1, "and", DP1[0], Aux1[0], V_control_in[0], to, VP[0], "."])),
             control_0_0=" ".join([S1, "and", DP1[0], Aux1[0], V_raising_in[0], to, VP[0], "."]),
             test_1_0=" ".join([S1, "and", DP1[0], Aux1[0], V_control_out[0], to, VP[0], "."]),
-            test_0_1=" ".join([S1, "and", DP1[0], Aux1[0], V_raising_out[0], to, VP[0], "."]),
+            test_0_1=titlecase(" ".join([S1, "and", DP1[0], Aux1[0], V_raising_out[0], to, VP[0], "."])),
         )
 
         track_sentence = [

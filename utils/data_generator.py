@@ -398,7 +398,8 @@ class InductiveBiasesGenerator(Generator):
         }
         return metadata
 
-    def build_paradigm(self, training_1_1, training_0_0, test_1_0, test_0_1, control_1_1=None, control_0_0=None):
+    def build_paradigm(self, training_1_1, training_0_0, test_1_0, test_0_1,
+                       control_1_1=None, control_0_0=None, control_1_0=None, control_0_1=None):
         if not self.control_paradigm:
             data = [
                 {"sentence": training_1_1,
@@ -425,6 +426,14 @@ class InductiveBiasesGenerator(Generator):
                  "condition": "control",
                  "linguistic_feature_label": 0,
                  "surface_feature_label": 0},
+                {"sentence": control_1_0,
+                 "condition": "control",
+                 "linguistic_feature_label": 1,
+                 "surface_feature_label": 0},
+                {"sentence": control_0_1,
+                 "condition": "control",
+                 "linguistic_feature_label": 0,
+                 "surface_feature_label": 1},
             ]
 
         if self.control_paradigm and self.linguistic_feature_type is not None:
