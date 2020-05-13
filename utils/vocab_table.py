@@ -8,9 +8,12 @@ import os
 
 vocab_path = os.path.join("/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1]), "vocabulary.csv")
 vocab = np.genfromtxt(vocab_path, delimiter=",", names=True, dtype=data_type)
-# decode TODO: make this not a hack
+# decode apostrophe
 for entry in vocab:
     entry[0] = re.sub("!", "'", entry[0])
+
+# Remove if you want to keep in OOV words
+vocab = np.array(list(filter(lambda x: x["OOV_inductive_biases"] != "1", vocab)))
 
 
 def get_all(label, value, table=vocab):

@@ -82,7 +82,7 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
             safe_verbs = np.intersect1d(np.intersect1d(all_bare_verbs, all_non_recursive_verbs), sample_space)
             v_emb = choice(safe_verbs)
         args_emb = verb_args_from_verb(v_emb, frequent, basic_sample_space=sample_space)
-        VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False, basic_sample_space=basic_sample_space, basic_sample_space=basic_sample_space)
+        VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False, basic_sample_space=basic_sample_space)
         VP[0] = "to " + VP[0]
         args["args"] = [args_emb["subj"], VP]
 
@@ -296,7 +296,7 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
     return args
 
 
-def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True, basic_sample_space=basic_sample_space):
+def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True, basic_sample_space=None):
     """
     :param noun: noun to turn into DP
     :param frequent: restrict to frequent determiners only?
