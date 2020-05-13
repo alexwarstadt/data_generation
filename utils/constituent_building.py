@@ -22,7 +22,7 @@ def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
     VP = V_to_VP_mutate(verb, frequent=frequent, args=args)
     return VP
 
-def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True, allow_recursion=False, allow_quantifiers=True, basic_sample_space=None):
+def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=True, allow_modal=True, allow_recursion=False, allow_quantifiers=True, basic_sample_space=vocab):
     """
     :param verb: a vocab entry for a verb
     :param frequent: should only frequent vocab be generated?
@@ -190,7 +190,7 @@ def join_args(args):
     return " ".join(x[0] for x in args)
 
 
-def make_sentence_from_verb(verb, frequent=True, allow_recursion=False, basic_sample_space=None):
+def make_sentence_from_verb(verb, frequent=True, allow_recursion=False, basic_sample_space=vocab):
     """
     :param verb: vocab entry for a verb
     :param frequent: should only frequent vocab items be generated?
@@ -203,7 +203,7 @@ def make_sentence_from_verb(verb, frequent=True, allow_recursion=False, basic_sa
                     [x[0] for x in args["args"]])
 
 
-def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=False, basic_sample_space=None):
+def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=False, basic_sample_space=vocab):
     """
     :param verb: vocab entry for a verb
     :param frequent: should only frequent vocab be generated?
@@ -222,7 +222,7 @@ def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=Fal
     return VP
 
 
-def make_sentence(frequent=True, allow_recursion=False, basic_sample_space=None):
+def make_sentence(frequent=True, allow_recursion=False, basic_sample_space=vocab):
     """
     :param frequent: should only frequent vocab be generated?
     :return: a vocab entry with the expression containing the string of the full sentence
@@ -243,7 +243,7 @@ def make_sentence_from_args(args):
                     [x[0] for x in args["args"]])
 
 
-def make_emb_subj_question(frequent=True, basic_sample_space=None):
+def make_emb_subj_question(frequent=True, basic_sample_space=vocab):
     """
     :param frequent: should only frequent vocab be generated?
     :return: a vocab entry with the expression corresponding to the string of an entire embedded question with a wh-subject
@@ -255,7 +255,7 @@ def make_emb_subj_question(frequent=True, basic_sample_space=None):
     verb[0] = make_sentence_from_args(args)
     return verb
 
-def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quantifiers=True, avoid=None, basic_sample_space=None):
+def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quantifiers=True, avoid=None, basic_sample_space=vocab):
     """
     :param noun: the vocab entry of a noun
     :param frequent: should only frequent vocab be generated?
@@ -295,7 +295,7 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
     return args
 
 
-def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True, basic_sample_space=None):
+def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True, basic_sample_space=vocab):
     """
     :param noun: noun to turn into DP
     :param frequent: restrict to frequent determiners only?
