@@ -347,9 +347,12 @@ class InductiveBiasesGenerator(Generator):
         error_counter = 0
         constant_data = self.make_metadata_dict()
         self.make_logger(constant_data)
-        for file in ["test.jsonl", "train.jsonl", "dev.jsonl"]:
+        for file in ["test.jsonl", "train.jsonl"]:
             output_file = open(os.path.join(output_dir, file), "w")
             output_writer = jsonlines.Writer(output_file, flush=True)
+            if not self.control_paradigm:
+                output_control_file = open(os.path.join(output_dir, "control_" + file), "w")
+                output_control_writer = jsonlines.Writer(output_control_file, flush=True)
             split_counter = 0
             while split_counter < number_to_generate:
                 try:
@@ -362,8 +365,6 @@ class InductiveBiasesGenerator(Generator):
                     if not overlap:
                         for i in range(len(track_sentence)):
                             past_sentences[i].add(track_sentence[i])
-                        if file != "test.jsonl":
-                            new_data = new_data[:2]
                         for line in new_data:
                             line["sentence"] = string_beautify(line["sentence"])
                             line.update(constant_data)
@@ -371,7 +372,15 @@ class InductiveBiasesGenerator(Generator):
                             line["paradigmID"] = paradigmID
                             line["split"] = file.split(".")[0]
                             sentenceID += 1
-                            output_writer.write(line)
+                        if not self.control_paradigm:
+                            for line in list(filter(lambda x: x["condition"] == "control" and x["linguistic_feature_label"] != x["surface_feature_label"], new_data)):
+                                output_control_writer.write(line)
+                        if file == "test.jsonl":
+                            for line in list(filter(lambda x: not(x["condition"] == "control" and x["linguistic_feature_label"] != x["surface_feature_label"]), new_data)):
+                                output_writer.write(line)
+                        else:
+                            for line in list(filter(lambda x: x["condition"] == "training", new_data)):
+                                output_writer.write(line)
                         split_counter += 1
                         paradigmID += 1
                 except Exception as e:
