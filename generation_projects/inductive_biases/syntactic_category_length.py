@@ -19,7 +19,7 @@ class MyGenerator(SyntacticCategoryGenerator, LengthHelper):
 
         self.antecedents = []
         self.adverbs = get_all("category_2", "subordinating_conj")
-        self.long_length = 17
+        self.long_length = 14
 
 
     def sample(self):
