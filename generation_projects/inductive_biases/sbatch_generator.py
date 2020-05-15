@@ -6,7 +6,7 @@ top = """#!/bin/bash
 
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32GB
-#SBATCH -t200:00:00
+#SBATCH -t167:59:00
 #SBATCH --mail-type=END
 #SBATCH --mail-user=alexwarstadt@gmail.com
 
@@ -21,7 +21,8 @@ top = """#!/bin/bash
 
 
 cd ~/data_generation
-python -m generation_projects.inductive_biases.%s"""
+python -m generation_projects.inductive_biases.%s
+"""
 
 scripts = [
             "absolute_token_position_control",
