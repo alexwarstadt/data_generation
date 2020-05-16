@@ -7,9 +7,9 @@ import generation_projects.inductive_biases.person_helper
 
 class MyGenerator(generation_projects.inductive_biases.person_helper.PersonGenerator):
     def __init__(self):
-        super().__init__(uid="irregular_form_control",
-                         linguistic_feature_type="morphological",
-                         linguistic_feature_description="Is there an irregular past-tense verb?",
+        super().__init__(uid="same_clause_control",
+                         linguistic_feature_type="syntactic",
+                         linguistic_feature_description="Are the two adjectives ?",
                          surface_feature_type=None,
                          surface_feature_description=None,
                          control_paradigm=True)

@@ -48,7 +48,6 @@ class LengthHelper:
                 new_sentence = make_sentence(allow_recursion=True)[0]
                 new_sentence_length = len(new_sentence.split())
                 new_sentence = adverb + " " + new_sentence
-                new_sentence_length = len(new_sentence.split())
                 if new_sentence_length >= min_long_clause_length:
                     long_subordinate_clause = new_sentence
                     break

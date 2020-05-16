@@ -6,18 +6,18 @@ from utils.randomize import choice
 import random
 from generation_projects.inductive_biases.antonym_helper import AntonymHelper
 from utils.exceptions import *
-from titlecase import titlecase
+from generation_projects.inductive_biases.length_helper import LengthHelper
 
 
 # import generation_projects.inductive_biases.person_helper
 
-class MyGenerator(AntonymHelper):
+class MyGenerator(AntonymHelper, LengthHelper):
     def __init__(self):
-        super().__init__(uid="antonyms_title_case",
+        super().__init__(uid="antonyms_length",
                          linguistic_feature_type="lexical semantics",
                          linguistic_feature_description="Does the sentence contain antonyms",
                          surface_feature_type="length",
-                         surface_feature_description="Is the sentence 17 words or longer?",
+                         surface_feature_description="Is the sentence 16 words or longer?",
                          control_paradigm=False)
 
         self.antecedents = []
@@ -75,10 +75,10 @@ class MyGenerator(AntonymHelper):
             if not (is_match_disj(Obj, A2_ant["arg_1"]) and is_match_disj(Obj, A2_other["arg_1"])):
                 raise MatchNotFoundError("fail to match: %s %s %s %s %s " % (A2[0], A2_ant[0], A2_other[0], Subj[0], Obj[0]))
 
-            training_1 = " ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_ant[0], Obj[0], "."])
-            training_0 = " ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_other[0], Obj[0], "."])
-            test_1 = " ".join([D1[0], A2[0], Subj[0], Aux[0], V[0], D2[0], A2_ant[0], Obj[0], "."])
-            test_0 = titlecase(" ".join([D1[0], A2[0], Subj[0], Aux[0], V[0], D2[0], A2_other[0], Obj[0], "."]))
+            training_1 = " ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_ant[0], Obj[0]])
+            training_0 = " ".join([D1[0], A1[0], Subj[0], Aux[0], V[0], D2[0], A1_other[0], Obj[0]])
+            test_1 = " ".join([D1[0], A2[0], Subj[0], Aux[0], V[0], D2[0], A2_ant[0], Obj[0]])
+            test_0 = " ".join([D1[0], A2[0], Subj[0], Aux[0], V[0], D2[0], A2_other[0], Obj[0]])
 
             long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses(
                 [training_1, training_0, test_0, test_1])
@@ -118,10 +118,10 @@ class MyGenerator(AntonymHelper):
                                                                                        get_matches_of(A2_other, "arg_1", all_nominals))))))
             Copula2 = return_copula(Subj2, allow_negated=False)
 
-            training_1 = " ".join([Subj1[0], Copula1[0], A1[0], "and", Subj2[0], Copula2[0], A1_ant[0], "."])
-            training_0 = " ".join([Subj1[0], Copula1[0], A1[0], "and", Subj2[0], Copula2[0], A1_other[0], "."])
-            test_1 = " ".join([Subj1[0], Copula1[0], A2[0], "and", Subj2[0], Copula2[0], A2_ant[0], "."])
-            test_0 = " ".join([Subj1[0], Copula1[0], A2[0], "and", Subj2[0], Copula2[0], A2_other[0], "."])
+            training_1 = " ".join([Subj1[0], Copula1[0], A1[0], "and", Subj2[0], Copula2[0], A1_ant[0]])
+            training_0 = " ".join([Subj1[0], Copula1[0], A1[0], "and", Subj2[0], Copula2[0], A1_other[0]])
+            test_1 = " ".join([Subj1[0], Copula1[0], A2[0], "and", Subj2[0], Copula2[0], A2_ant[0]])
+            test_0 = " ".join([Subj1[0], Copula1[0], A2[0], "and", Subj2[0], Copula2[0], A2_other[0]])
 
             long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses(
                 [training_1, training_0, test_0, test_1])
@@ -199,13 +199,13 @@ class MyGenerator(AntonymHelper):
             else:
                 raise MatchNotFoundError("fail to match: %s %s %s %s" % (V1[0], V2[0], Subj1[0], Subj2[0]))
 
-            training_1 = " ".join([Subj1[0], Aux1[0], V1[0], Obj1[0], "and", Subj2[0], Aux2[0], V1_ant[0], Obj2[0], "."])
-            training_0 = " ".join([Subj1[0], Aux1[0], V1[0], Obj1[0], "and", Subj2[0], Aux2[0], V1_other[0], Obj2[0], "."])
-            test_1 = " ".join([Subj1[0], Aux1[0], V2[0], Obj1[0], "and", Subj2[0], Aux2[0], V2_ant[0], Obj2[0], "."])
-            test_0 = " ".join([Subj1[0], Aux1[0], V2[0], Obj1[0], "and", Subj2[0], Aux2[0], V2_other[0], Obj2[0], "."])
+        training_1 = " ".join([Subj1[0], Aux1[0], V1[0], Obj1[0], "and", Subj2[0], Aux2[0], V1_ant[0], Obj2[0]])
+        training_0 = " ".join([Subj1[0], Aux1[0], V1[0], Obj1[0], "and", Subj2[0], Aux2[0], V1_other[0], Obj2[0]])
+        test_1 = " ".join([Subj1[0], Aux1[0], V2[0], Obj1[0], "and", Subj2[0], Aux2[0], V2_ant[0], Obj2[0]])
+        test_0 = " ".join([Subj1[0], Aux1[0], V2[0], Obj1[0], "and", Subj2[0], Aux2[0], V2_other[0], Obj2[0]])
 
-            long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses(
-                [training_1, training_0, test_0, test_1])
+        long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses(
+            [training_1, training_0, test_0, test_1])
 
         data = self.build_paradigm(
             training_1_1="%s, %s." % (long_subordinate_clause, training_1),
@@ -218,10 +218,10 @@ class MyGenerator(AntonymHelper):
             control_0_0="%s, %s." % (short_subordinate_clause, test_0),
         )
         track_sentence = [
-            (Subj1[0], V1[0], Obj1[0], Subj2[0], V1_ant[0], Obj2[0], "."),
-            (Subj1[0], V1[0], Obj1[0], Subj2[0], V1_other[0], Obj2[0], "."),
-            (Subj1[0], V2[0], Obj1[0], Subj2[0], V2_ant[0], Obj2[0], "."),
-            (Subj1[0], V2[0], Obj1[0], Subj2[0], V2_ant[0], Obj2[0], "."),
+            (Subj1[0], V1[0], Obj1[0], Subj2[0], V1_ant[0], Obj2[0]),
+            (Subj1[0], V1[0], Obj1[0], Subj2[0], V1_other[0], Obj2[0]),
+            (Subj1[0], V2[0], Obj1[0], Subj2[0], V2_ant[0], Obj2[0]),
+            (Subj1[0], V2[0], Obj1[0], Subj2[0], V2_ant[0], Obj2[0]),
         ]
         return data, track_sentence
 

@@ -6,11 +6,11 @@ from utils.randomize import choice
 import random
 from generation_projects.inductive_biases.control_raising_helper import ControlRaisingHelper
 from titlecase import titlecase
-
+from generation_projects.inductive_biases.length_helper import LengthHelper
 
 # import generation_projects.inductive_biases.person_helper
 
-class MyGenerator(ControlRaisingHelper):
+class MyGenerator(ControlRaisingHelper, LengthHelper):
     def __init__(self):
         super().__init__(uid="control_raising_control",
                          linguistic_feature_type="syntactic construction",

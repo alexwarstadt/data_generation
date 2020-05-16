@@ -56,11 +56,14 @@ class AntonymHelper(data_generator.InductiveBiasesGenerator):
                                            get_all("expression", a["synonym_hypernym_hyponym"], all_adjectives)[0][
                                                "expression"]}))
                 elif len(matching_sets) == 1:
-                    sets[sets.index(matching_sets[0])] |= \
-                        frozenset({a["expression"],
-                                   get_all("expression", a["antonym"], all_adjectives)[0]["expression"],
-                                   get_all("expression", a["synonym_hypernym_hyponym"], all_adjectives)[0][
-                                       "expression"]})
+                    try:
+                        sets[sets.index(matching_sets[0])] |= \
+                            frozenset({a["expression"],
+                                       get_all("expression", a["antonym"], all_adjectives)[0]["expression"],
+                                       get_all("expression", a["synonym_hypernym_hyponym"], all_adjectives)[0][
+                                           "expression"]})
+                    except Exception:
+                        pass
                 else:
                     print(a[0], " has multiple matches!")
             random.shuffle(sets)
