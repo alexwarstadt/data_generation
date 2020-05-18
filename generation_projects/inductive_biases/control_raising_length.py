@@ -16,14 +16,14 @@ class MyGenerator(ControlRaisingHelper, LengthHelper):
                          linguistic_feature_type="syntactic construction",
                          linguistic_feature_description="Is the sentence an example of control or raising",
                          surface_feature_type="length",
-                         surface_feature_description="Is the sentence 22 words or longer?",
+                         surface_feature_description="Is the sentence 16 words or longer?",
                          control_paradigm=False)
         self.all_bare_transitive_verbs = np.intersect1d(all_transitive_verbs, all_bare_verbs)
         self.safe_dets = all_frequent_determiners
 
         self.antecedents = []
         self.adverbs = get_all("category_2", "subordinating_conj")
-        self.long_length = 22
+        self.long_length = 16
 
     def sample(self):
         # Training 1
