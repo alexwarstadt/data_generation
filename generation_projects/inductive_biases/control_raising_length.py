@@ -42,13 +42,13 @@ class MyGenerator(ControlRaisingHelper, LengthHelper):
         # John considered         Mary to leave.
         # DP1  Aux1 V_raising_out DP2  TO VP
 
-        V_trans = choice(all_transitive_verbs)
-        NP_trans_1 = choice(get_matches_of(V_trans, "arg_1", all_common_nouns))
-        NP_trans_2 = choice(get_matches_of(V_trans, "arg_2", all_common_nouns))
-        D_trans_1 = choice(get_matched_by(NP_trans_1, "arg_1", self.safe_dets))
-        D_trans_2 = choice(get_matched_by(NP_trans_2, "arg_1", self.safe_dets))
-        Aux_trans = return_aux(V_trans, NP_trans_1)
-        S1 = " ".join([D_trans_1[0], NP_trans_1[0], Aux_trans[0], V_trans[0], D_trans_2[0], NP_trans_2[0]])
+        # V_trans = choice(all_transitive_verbs)
+        # NP_trans_1 = choice(get_matches_of(V_trans, "arg_1", all_common_nouns))
+        # NP_trans_2 = choice(get_matches_of(V_trans, "arg_2", all_common_nouns))
+        # D_trans_1 = choice(get_matched_by(NP_trans_1, "arg_1", self.safe_dets))
+        # D_trans_2 = choice(get_matched_by(NP_trans_2, "arg_1", self.safe_dets))
+        # Aux_trans = return_aux(V_trans, NP_trans_1)
+        # S1 = " ".join([D_trans_1[0], NP_trans_1[0], Aux_trans[0], V_trans[0], D_trans_2[0], NP_trans_2[0]])
 
         option = random.choice([1, 2, 3])
         if option == 1:     # subject control/raising
@@ -93,10 +93,10 @@ class MyGenerator(ControlRaisingHelper, LengthHelper):
             V_raising_out = choice(self.adj_raising_subj_out)
             to = "to"
 
-        training_1 = " ".join([S1, "and", DP1[0], Aux1[0], V_control_in[0], to, VP[0]])
-        training_0 = " ".join([S1, "and", DP1[0], Aux1[0], V_raising_in[0], to, VP[0]])
-        test_1 = " ".join([S1, "and", DP1[0], Aux1[0], V_control_out[0], to, VP[0]])
-        test_0 = " ".join([S1, "and", DP1[0], Aux1[0], V_raising_out[0], to, VP[0]])
+        training_1 = " ".join([DP1[0], Aux1[0], V_control_in[0], to, VP[0]])
+        training_0 = " ".join([DP1[0], Aux1[0], V_raising_in[0], to, VP[0]])
+        test_1 = " ".join([DP1[0], Aux1[0], V_control_out[0], to, VP[0]])
+        test_0 = " ".join([DP1[0], Aux1[0], V_raising_out[0], to, VP[0]])
 
         long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses(
             [training_1, training_0, test_0, test_1])

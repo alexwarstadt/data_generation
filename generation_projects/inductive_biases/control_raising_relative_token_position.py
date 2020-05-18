@@ -21,6 +21,7 @@ class MyGenerator(ControlRaisingHelper):
         self.safe_dets = np.setdiff1d(all_frequent_determiners, all_very_common_dets)
         self.safe_nouns = get_all("start_with_vowel", "0", np.intersect1d(all_common_nouns, all_singular_nouns))
         self.all_possibly_singular_transitive_verbs = np.intersect1d(all_possibly_singular_verbs, all_transitive_verbs)
+        self.all_possibly_singular_transitive_verbs = np.array(list(filter(lambda x: x["root"] != "breed_(S\\NP)/NP", self.all_possibly_singular_transitive_verbs)))
         self.v_control_subj_in = np.intersect1d(self.v_control_subj_in, all_possibly_singular_verbs)
         self.v_control_subj_out = np.intersect1d(self.v_control_subj_out, all_possibly_singular_verbs)
         self.v_control_obj_in = np.intersect1d(self.v_control_obj_in, all_possibly_singular_verbs)
