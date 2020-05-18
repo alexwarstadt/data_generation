@@ -77,12 +77,11 @@ class MyGenerator(ControlRaisingHelper):
             V = choice(get_matches_of(V_control_in, "arg_3", get_matched_by(NP1, "arg_1", self.all_bare_transitive_verbs)))
             NP2 = choice(get_matches_of(V, "arg_2", all_common_nouns))
             D2 = choice(get_matched_by(NP2, "arg_1", self.safe_dets))
-            V_control_out = choice(get_matched_by(NP1, "arg_1",
-                                                  get_matches_of(Aux1, "arg_2",
-                                                                 get_matched_by(V, "arg_3",
-                                                                                get_matched_by(NP2, "arg_2", self.v_control_obj_out)))))
-
             try:
+                V_control_out = choice(get_matched_by(NP1, "arg_1",
+                                                      get_matches_of(Aux1, "arg_2",
+                                                                     get_matched_by(V, "arg_3",
+                                                                                    get_matched_by(control_obj, "arg_2", self.v_control_obj_out)))))
                 V_raising_in = choice(get_matched_by(NP1, "arg_1",
                                                  get_matches_of(Aux1, "arg_2", self.v_raising_obj_in)))
                 V_raising_out = choice(get_matched_by(NP1, "arg_1",

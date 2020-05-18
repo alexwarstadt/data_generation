@@ -90,7 +90,7 @@ class MyGenerator(ControlRaisingHelper):
             V_control_out = choice(get_matched_by(NP1, "arg_1",
                                                   get_matches_of(Aux1, "arg_2",
                                                                  get_matched_by(V, "arg_3",
-                                                                                get_matched_by(NP2, "arg_2", self.v_control_obj_out)))))
+                                                                                get_matched_by(control_obj, "arg_2", self.v_control_obj_out)))))
 
             try:
                 V_raising_in = choice(get_matched_by(NP1, "arg_1",

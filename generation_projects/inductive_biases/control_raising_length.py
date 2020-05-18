@@ -12,11 +12,11 @@ from generation_projects.inductive_biases.length_helper import LengthHelper
 
 class MyGenerator(ControlRaisingHelper, LengthHelper):
     def __init__(self):
-        super().__init__(uid="control_raising_control",
+        super().__init__(uid="control_raising_length",
                          linguistic_feature_type="syntactic construction",
                          linguistic_feature_description="Is the sentence an example of control or raising",
-                         surface_feature_type="orthography",
-                         surface_feature_description="Does the sentence appear in title case?",
+                         surface_feature_type="length",
+                         surface_feature_description="Is the sentence 22 words or longer?",
                          control_paradigm=False)
         self.all_bare_transitive_verbs = np.intersect1d(all_transitive_verbs, all_bare_verbs)
         self.safe_dets = all_frequent_determiners
@@ -93,10 +93,10 @@ class MyGenerator(ControlRaisingHelper, LengthHelper):
             V_raising_out = choice(self.adj_raising_subj_out)
             to = "to"
 
-        training_1 = " ".join([S1, "and", DP1[0], Aux1[0], V_control_in[0], to, VP[0], "."])
-        training_0 = " ".join([S1, "and", DP1[0], Aux1[0], V_raising_in[0], to, VP[0], "."])
-        test_1 = " ".join([S1, "and", DP1[0], Aux1[0], V_control_out[0], to, VP[0], "."])
-        test_0 = " ".join([S1, "and", DP1[0], Aux1[0], V_raising_out[0], to, VP[0], "."])
+        training_1 = " ".join([S1, "and", DP1[0], Aux1[0], V_control_in[0], to, VP[0]])
+        training_0 = " ".join([S1, "and", DP1[0], Aux1[0], V_raising_in[0], to, VP[0]])
+        test_1 = " ".join([S1, "and", DP1[0], Aux1[0], V_control_out[0], to, VP[0]])
+        test_0 = " ".join([S1, "and", DP1[0], Aux1[0], V_raising_out[0], to, VP[0]])
 
         long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses(
             [training_1, training_0, test_0, test_1])
@@ -113,10 +113,10 @@ class MyGenerator(ControlRaisingHelper, LengthHelper):
         )
 
         track_sentence = [
-            (DP1[0], Aux1[0], V_control_in[0], to, VP[0], "."),
-            (DP1[0], Aux1[0], V_raising_in[0], to, VP[0], "."),
-            (DP1[0], Aux1[0], V_control_out[0], to, VP[0], "."),
-            (DP1[0], Aux1[0], V_raising_out[0], to, VP[0], ".")
+            (DP1[0], Aux1[0], V_control_in[0], to, VP[0]),
+            (DP1[0], Aux1[0], V_raising_in[0], to, VP[0]),
+            (DP1[0], Aux1[0], V_control_out[0], to, VP[0]),
+            (DP1[0], Aux1[0], V_raising_out[0], to, VP[0])
         ]
 
         return data, track_sentence

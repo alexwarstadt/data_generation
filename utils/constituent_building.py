@@ -289,6 +289,10 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
             poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, sample_space)))))
         args["det"] = poss
         args["args"] = []
+    if noun["category"] == "N/S":
+        S = make_sentence(frequent=frequent, allow_recursion=allow_recursion)
+        S[0] = "that " + S[0]
+        args["args"] = [S]
     return args
 
 
