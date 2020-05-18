@@ -11,7 +11,7 @@ from generation_projects.inductive_biases.control_raising_helper import ControlR
 
 class MyGenerator(ControlRaisingHelper):
     def __init__(self):
-        super().__init__(uid="control_raising_absolute_token_position",
+        super().__init__(uid="control_raising_relative_token_position",
                          linguistic_feature_type="syntactic construction",
                          linguistic_feature_description="Is the sentence an example of control or raising",
                          surface_feature_type="relative_position",
@@ -50,13 +50,6 @@ class MyGenerator(ControlRaisingHelper):
         D_trans_1 = choice(get_matched_by(NP_trans_1, "arg_1", self.safe_dets))
         D_trans_2 = choice(get_matched_by(NP_trans_2, "arg_1", self.safe_dets))
         Aux_trans = return_aux(V_trans, NP_trans_1)
-        S1 = " ".join([D_trans_1[0], NP_trans_1[0], Aux_trans[0], V_trans[0], D_trans_2[0], NP_trans_2[0]])
-        S1_the_subj = " ".join(["the", NP_trans_1[0], Aux_trans[0], V_trans[0], D_trans_2[0], NP_trans_2[0]])
-        S1_the_obj = " ".join([D_trans_1[0], NP_trans_1[0], Aux_trans[0], V_trans[0], "the", NP_trans_2[0]])
-        S1_a_subj = " ".join(["a", NP_trans_1[0], Aux_trans[0], V_trans[0], D_trans_2[0], NP_trans_2[0]])
-        S1_a_obj = " ".join([D_trans_1[0], NP_trans_1[0], Aux_trans[0], V_trans[0], "a", NP_trans_2[0]])
-        S1_the_a = " ".join(["the", NP_trans_1[0], Aux_trans[0], V_trans[0], "a", NP_trans_2[0]])
-        S1_a_the = " ".join(["a", NP_trans_1[0], Aux_trans[0], V_trans[0], "the", NP_trans_2[0]])
         S1_abs = " ".join(["%s", NP_trans_1[0], Aux_trans[0], V_trans[0], "%s", NP_trans_2[0]])
 
         option = random.choice([1, 2, 3])
@@ -114,56 +107,6 @@ class MyGenerator(ControlRaisingHelper):
             V_raising_in = choice(self.adj_raising_subj_in)
             V_raising_out = choice(self.adj_raising_subj_out)
             to = "to"
-
-        # option = random.randint(0, 1)
-        # if option == 1:
-        #     training_1_1 = " ".join([S1_the_subj, "and", "a", NP1[0], Aux1[0], V_control_in[0], to, V[0], D2[0], NP2[0], "."])
-        #     control_1_0 = " ".join([S1_a_subj, "and", "the", NP1[0], Aux1[0], V_control_in[0], to, V[0], D2[0], NP2[0], "."])
-        # else:
-        #     training_1_1 = " ".join(["the", NP1[0], Aux1[0], V_control_in[0], to, V[0], "the", NP2[0], "and", S1, "."])
-        #
-        # option = random.randint(0, 1)
-        # if option == 1:
-        #     test_0_1 = " ".join([S1_the_subj, "and", D1[0], NP1[0], Aux1[0], V_raising_out[0], to, V[0], D2[0], NP2[0], "."])
-        # else:
-        #     test_0_1 = " ".join(["the", NP1[0], Aux1[0], V_raising_out[0], to, V[0], D2[0], NP2[0], "and", S1, "."])
-        #
-        # option = random.randint(0, 1)
-        # if option == 1:
-        #     control_1_1 = " ".join([S1_the_subj, "and", D1[0], NP1[0], Aux1[0], V_control_out[0], to, V[0], D2[0], NP2[0], "."])
-        # else:
-        #     control_1_1 = " ".join(["the", NP1[0], Aux1[0], V_control_out[0], to, V[0], D2[0], NP2[0], "and", S1, "."])
-        #
-        # option = random.randint(0, 1)
-        # if option == 1:
-        #     control_0_1 = " ".join([S1_the_subj, "and", D1[0], NP1[0], Aux1[0], V_raising_in[0], to, V[0], D2[0], NP2[0], "."])
-        # else:
-        #     control_0_1 = " ".join(["the", NP1[0], Aux1[0], V_raising_in[0], to, V[0], D2[0], NP2[0], "and", S1, "."])
-        #
-        #
-        # option = random.randint(0, 1)
-        # if option == 1:
-        #     training_0_0 = " ".join([S1_the_obj, "and", D1[0], NP1[0], Aux1[0], V_raising_in[0], to, V[0], D2[0], NP2[0], "."])
-        # else:
-        #     training_0_0 = " ".join([D1[0], NP1[0], Aux1[0], V_raising_in[0], to, V[0], "the", NP2[0], "and", S1, "."])
-        #
-        # option = random.randint(0, 1)
-        # if option == 1:
-        #     test_1_0 = " ".join([S1_the_obj, "and", D1[0], NP1[0], Aux1[0], V_control_out[0], to, V[0], D2[0], NP2[0], "."])
-        # else:
-        #     test_1_0 = " ".join([D1[0], NP1[0], Aux1[0], V_control_out[0], to, V[0], "the", NP2[0], "and", S1, "."])
-        #
-        # option = random.randint(0, 1)
-        # if option == 1:
-        #     control_0_0 = " ".join([S1_the_obj, "and", D1[0], NP1[0], Aux1[0], V_raising_out[0], to, V[0], D2[0], NP2[0], "."])
-        # else:
-        #     control_0_0 = " ".join([D1[0], NP1[0], Aux1[0], V_raising_out[0], to, V[0], "the", NP2[0], "and", S1, "."])
-        #
-        # option = random.randint(0, 1)
-        # if option == 1:
-        #     control_1_0 = " ".join([S1_the_obj, "and", D1[0], NP1[0], Aux1[0], V_control_in[0], to, V[0], D2[0], NP2[0], "."])
-        # else:
-        #     control_1_0 = " ".join([D1[0], NP1[0], Aux1[0], V_control_in[0], to, V[0], "the", NP2[0], "and", S1, "."])
 
         Ds = []
         option = random.choice([1, 2, 3])  # There are three in-domain configurations (arbitrarily chosen)
