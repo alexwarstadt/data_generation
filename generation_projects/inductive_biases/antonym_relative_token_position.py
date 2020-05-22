@@ -12,7 +12,7 @@ from utils.exceptions import *
 
 class MyGenerator(AntonymHelper):
     def __init__(self):
-        super().__init__(uid="antonyms_relative_position",
+        super().__init__(uid="antonyms_relative_token_position",
                          linguistic_feature_type="lexical semantics",
                          linguistic_feature_description="Does the sentence contain antonyms",
                          surface_feature_type="relative_position",

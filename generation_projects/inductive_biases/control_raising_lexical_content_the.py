@@ -128,10 +128,10 @@ class MyGenerator(ControlRaisingHelper):
         else:
             control_0_1 = " ".join([S1, "and", "the", NP1[0], Aux1[0], V_raising_in[0], to, V[0], D2[0], NP2[0], "."])
 
-        training_0_0 = " ".join([S1, D1[0], NP1[0], Aux1[0], V_raising_in[0], to, V[0], D2[0], NP2[0], "."])
-        test_1_0 = " ".join([S1, D1[0], NP1[0], Aux1[0], V_control_out[0], to, V[0], D2[0], NP2[0], "."])
-        control_0_0 = " ".join([S1, D1[0], NP1[0], Aux1[0], V_raising_out[0], to, V[0], D2[0], NP2[0], "."])
-        control_1_0 = " ".join([S1, D1[0], NP1[0], Aux1[0], V_control_in[0], to, V[0], D2[0], NP2[0], "."])
+        training_0_0 = " ".join([S1, "and", D1[0], NP1[0], Aux1[0], V_raising_in[0], to, V[0], D2[0], NP2[0], "."])
+        test_1_0 = " ".join([S1, "and", D1[0], NP1[0], Aux1[0], V_control_out[0], to, V[0], D2[0], NP2[0], "."])
+        control_0_0 = " ".join([S1, "and", D1[0], NP1[0], Aux1[0], V_raising_out[0], to, V[0], D2[0], NP2[0], "."])
+        control_1_0 = " ".join([S1, "and", D1[0], NP1[0], Aux1[0], V_control_in[0], to, V[0], D2[0], NP2[0], "."])
 
 
         data = self.build_paradigm(
