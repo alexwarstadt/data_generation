@@ -13,14 +13,6 @@ class MyGenerator(generation_projects.inductive_biases.person_helper.PersonGener
                          surface_feature_type=None,
                          surface_feature_description=None,
                          control_paradigm=True)
-        # self.present_plural_verbs = get_all("pres", "1", get_all("3sg", "0", all_transitive_verbs))
-        # self.irr_past_verbs = get_all("past", "1", get_all("irr_past", "1", all_transitive_verbs))
-        # np.random.shuffle(self.present_plural_verbs)
-        # np.random.shuffle(self.irr_past_verbs)
-        # self.present_plural_verbs_in_domain, self.present_plural_verbs_out_domain = self.present_plural_verbs[:int(len(self.present_plural_verbs)/2)], self.present_plural_verbs[int(len(self.present_plural_verbs)/2):]
-        # self.irr_past_verbs_in_domain, self.irr_past_verbs_out_domain = self.irr_past_verbs[:int(len(self.irr_past_verbs)/2)], self.irr_past_verbs[int(len(self.irr_past_verbs)/2):]
-        # self.all_plural_nouns = all_plural_nouns
-        # self.all_safe_verbs = all_non_finite_transitive_verbs
         self.safe_nouns = np.array(list(filter(lambda x: "public" not in x["expression"] 
                                                       and "Great" not in x["expression"] 
                                                       and "high" not in x["expression"], all_common_nouns)))
@@ -49,21 +41,23 @@ class MyGenerator(generation_projects.inductive_biases.person_helper.PersonGener
         track_sentence = []
         option = random.randint(0, 2)
         if option == 0:
-            data_in, track_sentence_in = self.sample_coordination()
+            data_out, track_sentence_out = self.sample_coordination()
         elif option == 1:
-            data_in, track_sentence_in = self.sample_coordination_over_rc()
+            data_out, track_sentence_out = self.sample_coordination_over_rc()
         else:
-            data_in, track_sentence_in = self.sample_CP_verb_RC()
-        track_sentence.extend(track_sentence_in)
-
-        option = random.randint(0, 2)
-        if option == 0:
-            data_out, track_sentence_out = self.sample_2_rcs()
-        elif option == 1:
-            data_out, track_sentence_out = self.sample_rc_over_multiple_DPs()
-        else:
-            data_out, track_sentence_out = self.sample_CP_noun()
+            data_out, track_sentence_out = self.sample_CP_verb_RC()
         track_sentence.extend(track_sentence_out)
+
+        option = random.randint(0, 3)
+        if option == 0:
+            data_in, track_sentence_in = self.sample_2_rcs()
+        elif option == 1:
+            data_in, track_sentence_in = self.sample_rc_over_multiple_DPs()
+        elif option == 2:
+            data_in, track_sentence_in = self.sample_nested_rc()
+        else:
+            data_in, track_sentence_in = self.sample_CP_noun()
+        track_sentence.extend(track_sentence_in)
 
         data = self.build_paradigm(
             training_1_1=data_in[0],
@@ -303,7 +297,12 @@ class MyGenerator(generation_projects.inductive_biases.person_helper.PersonGener
             rel = choice(get_matched_by(obj, "arg_1", get_all("category_2", "rel")))
             V = choice(get_matched_by(obj, "arg_2", self.all_possibly_plural_transitive_verbs))
             subj1 = choice(get_matches_of(V, "arg_1", self.safe_nouns))
-            subj2 = choice(get_matches_of(V, "arg_1", self.safe_nouns))
+            subj2 = choice(list(filter(lambda x: x["animate"] == subj1["animate"]
+                                                 and x["sg"] == subj1["sg"]
+                                                 and x["agent"] == subj1["agent"]
+                                                 and x["physical"] == subj1["physical"]
+                                                 and x["artifact"] == subj1["artifact"],
+                                                 get_matches_of(V, "arg_1", self.safe_nouns))))
             aux = return_aux(V, self.plural_noun)
             A1 = choice(get_matched_by(subj1, "arg_1", self.safe_adjectives))
             D1 = choice(get_matched_by(subj1, "arg_1", all_frequent_determiners))
