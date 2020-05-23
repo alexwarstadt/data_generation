@@ -13,12 +13,12 @@ class MyGenerator(data_generator.InductiveBiasesGenerator, generation_projects.i
                          linguistic_feature_type=None,
                          linguistic_feature_description=None,
                          surface_feature_type="length",
-                         surface_feature_description="Is the sentence 15 words or longer?",
+                         surface_feature_description="Is the sentence 12 words or longer?",
                          control_paradigm=True)
 
         self.antecedents = []
         self.adverbs = get_all("category_2", "subordinating_conj")
-        self.long_length = 15
+        self.long_length = 12
 
 
     def sample(self):
