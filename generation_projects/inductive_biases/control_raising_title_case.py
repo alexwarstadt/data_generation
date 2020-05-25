@@ -12,7 +12,7 @@ from titlecase import titlecase
 
 class MyGenerator(ControlRaisingHelper):
     def __init__(self):
-        super().__init__(uid="control_raising_control",
+        super().__init__(uid="control_raising_title_case",
                          linguistic_feature_type="syntactic construction",
                          linguistic_feature_description="Is the sentence an example of control or raising",
                          surface_feature_type="orthography",

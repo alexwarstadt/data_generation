@@ -164,6 +164,8 @@ class MyGenerator(AntonymHelper):
                 test_0_1=test_0_1,
                 control_1_1=control_1_1,
                 control_0_0=control_0_0,
+                control_1_0=control_1_0,
+                control_0_1=control_0_1,
             )
 
             track_sentence = [
@@ -277,6 +279,8 @@ class MyGenerator(AntonymHelper):
                 test_0_1=test_0_1,
                 control_1_1=control_1_1,
                 control_0_0=control_0_0,
+                control_1_0=control_1_0,
+                control_0_1=control_0_1
             )
             track_sentence = [
                 (A1[0], Subj1[0], A1_ant[0], Subj2[0]),
@@ -428,8 +432,8 @@ class MyGenerator(AntonymHelper):
             test_0_1=test_0_1,
             control_1_1=control_1_1,
             control_0_0=control_0_0,
-            control_1_0=training_1_1,
-            control_0_1=training_0_0,
+            control_1_0=control_1_0,
+            control_0_1=control_0_1,
         )
         track_sentence = [
             (Subj1[0], V1[0], Obj1[0], Subj2[0], V1_ant[0], Obj2[0], "."),
