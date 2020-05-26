@@ -7,7 +7,7 @@ import generation_projects.inductive_biases.person_helper
 
 class MyGenerator(data_generator.InductiveBiasesGenerator):
     def __init__(self):
-        super().__init__(uid="main_verb_control5",
+        super().__init__(uid="main_verb_control",
                          linguistic_feature_type="syntactic",
                          linguistic_feature_description="Is the main verb in the progressive form?",
                          surface_feature_type=None,
@@ -34,29 +34,22 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
 
 
     def sample(self):
-        # Training 1
-        # The boy might see the cat and the students bought the paper
-
-        # Training 0
-        # The boy might see the cat and the students shred the paper
-
-        # Test 1
-        # The boy might see the cat and the students found the book
-
-        # Test 0
-        # The boy might see the cat and the students understand the book
 
         track_sentence = []
-        option = random.randint(0, 1)
+        option = random.randint(0, 2)
         if option == 0:
             data_in, track_sentence_in = self.sample_nested_rc()
+        elif option == 1:
+            data_in, track_sentence_in = self.sample_CP_noun_RC()
         else:
             data_in, track_sentence_in = self.sample_CP_verb_RC()
         track_sentence.extend(track_sentence_in)
 
-        option = random.randint(0, 1)
+        option = random.randint(0, 2)
         if option == 0:
             data_out, track_sentence_out = self.sample_2_rcs()
+        elif option == 1:
+            data_out, track_sentence_out = self.sample_nested_rc_2_rcs()
         else:
             data_out, track_sentence_out = self.sample_CP_noun()
         track_sentence.extend(track_sentence_out)

@@ -3,16 +3,20 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 import random
-import generation_projects.inductive_biases.person_helper
+from generation_projects.inductive_biases.length_helper import LengthHelper
 
-class MyGenerator(data_generator.InductiveBiasesGenerator):
+class MyGenerator(data_generator.InductiveBiasesGenerator, LengthHelper):
     def __init__(self):
-        super().__init__(uid="main_verb_control3",
+        super().__init__(uid="main_verb_length",
                          linguistic_feature_type="syntactic",
                          linguistic_feature_description="Is the main verb in the progressive form?",
-                         surface_feature_type=None,
-                         surface_feature_description=None,
-                         control_paradigm=True)
+                         surface_feature_type="length",
+                         surface_feature_description="Is the sentence 23 words or longer?",
+                         control_paradigm=False)
+
+        self.antecedents = []
+        self.adverbs = get_all("category_2", "subordinating_conj")
+        self.long_length = 23
 
         self.safe_nouns = get_all("start_with_vowel", "0", all_common_nouns)
         self.CP_nouns = get_all("category", "N/S", all_nominals)
@@ -34,22 +38,11 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
 
 
     def sample(self):
-        # Training 1
-        # The boy might see the cat and the students bought the paper
-
-        # Training 0
-        # The boy might see the cat and the students shred the paper
-
-        # Test 1
-        # The boy might see the cat and the students found the book
-
-        # Test 0
-        # The boy might see the cat and the students understand the book
 
         track_sentence = []
         option = random.randint(0, 2)
         if option == 0:
-            data_in, track_sentence_in = self.sample_CP_noun()
+            data_in, track_sentence_in = self.sample_nested_rc()
         elif option == 1:
             data_in, track_sentence_in = self.sample_CP_noun_RC()
         else:
@@ -62,14 +55,21 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
         elif option == 1:
             data_out, track_sentence_out = self.sample_nested_rc_2_rcs()
         else:
-            data_out, track_sentence_out = self.sample_nested_rc()
+            data_out, track_sentence_out = self.sample_CP_noun()
         track_sentence.extend(track_sentence_out)
 
+        long_subordinate_clause, short_subordinate_clause = self.build_dependent_clauses([data_in[0], data_in[1], data_out[0], data_out[1]])
+
         data = self.build_paradigm(
-            training_1_1=data_in[0],
-            training_0_0=data_in[1],
-            test_1_0=data_out[0],
-            test_0_1=data_out[1]
+            training_1_1=" ".join([long_subordinate_clause, ",", data_in[0], "."]),
+            training_0_0=" ".join([short_subordinate_clause, ",", data_in[1], "."]),
+            test_1_0=" ".join([short_subordinate_clause, ",", data_out[0], "."]),
+            test_0_1=" ".join([long_subordinate_clause, ",", data_out[1], "."]),
+
+            control_1_0=" ".join([short_subordinate_clause, ",", data_in[0], "."]),
+            control_0_1=" ".join([long_subordinate_clause, ",", data_in[1], "."]),
+            control_1_1=" ".join([long_subordinate_clause, ",", data_out[0], "."]),
+            control_0_0=" ".join([short_subordinate_clause, ",", data_out[1], "."]),
         )
 
         return data, track_sentence

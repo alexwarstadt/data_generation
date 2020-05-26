@@ -3,16 +3,16 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 import random
-import generation_projects.inductive_biases.person_helper
+from titlecase import titlecase
 
 class MyGenerator(data_generator.InductiveBiasesGenerator):
     def __init__(self):
-        super().__init__(uid="main_verb_control1",
+        super().__init__(uid="main_verb_title_case",
                          linguistic_feature_type="syntactic",
                          linguistic_feature_description="Is the main verb in the progressive form?",
-                         surface_feature_type=None,
-                         surface_feature_description=None,
-                         control_paradigm=True)
+                         surface_feature_type="orthography",
+                         surface_feature_description="Does the sentence appear in title case?",
+                         control_paradigm=False)
 
         self.safe_nouns = get_all("start_with_vowel", "0", all_common_nouns)
         self.CP_nouns = get_all("category", "N/S", all_nominals)
@@ -28,23 +28,7 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
         self.CP_verbs_non_ing = np.intersect1d(CP_verbs, all_non_ing_verbs)
 
 
-        # self.all_possibly_plural_transitive_verbs = np.intersect1d(self.all_transitive_verbs, all_possibly_plural_verbs)
-        # self.plural_noun = choice(all_plural_nouns)
-
-
-
     def sample(self):
-        # Training 1
-        # The boy might see the cat and the students bought the paper
-
-        # Training 0
-        # The boy might see the cat and the students shred the paper
-
-        # Test 1
-        # The boy might see the cat and the students found the book
-
-        # Test 0
-        # The boy might see the cat and the students understand the book
 
         track_sentence = []
         option = random.randint(0, 2)
@@ -66,10 +50,15 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
         track_sentence.extend(track_sentence_out)
 
         data = self.build_paradigm(
-            training_1_1=data_in[0],
+            training_1_1=titlecase(data_in[0]),
             training_0_0=data_in[1],
             test_1_0=data_out[0],
-            test_0_1=data_out[1]
+            test_0_1=titlecase(data_out[1]),
+
+            control_1_0=data_in[0],
+            control_0_1=titlecase(data_in[1]),
+            control_1_1=titlecase(data_out[0]),
+            control_0_0=data_out[1]
         )
 
         return data, track_sentence
