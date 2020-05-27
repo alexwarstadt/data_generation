@@ -82,7 +82,10 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
 
     def subject_relative_clause_intransitive(self, subj):
         rel = choice(get_matched_by(subj, "arg_1", get_all("category_2", "rel")))
-        V = choice(get_matched_by(subj, "arg_1", self.all_non_ing_intransitive_verbs))
+        try:
+            V = choice(get_matched_by(subj, "arg_1", self.all_non_ing_intransitive_verbs))
+        except IndexError:
+            raise MatchNotFoundError("")
         V_ing = self.get_ing_form(V)
         V = conjugate(V, subj)
         V_ing = conjugate(V_ing, subj)
@@ -214,10 +217,10 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
         NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
         D1 = choice(get_matched_by(NP1, "arg_1", all_very_common_dets))
         V1 = conjugate(V1, NP1)
-        V1_ing = conjugate(V1_ing, NP2)
+        V1_ing = conjugate(V1_ing, NP1)
 
         V2 = choice(self.all_non_ing_transitive_verbs)
-        V2_ing = self.get_ing_form(V1)
+        V2_ing = self.get_ing_form(V2)
         NP2 = choice(get_matches_of(V2, "arg_1", self.safe_nouns))
         V2 = conjugate(V2, NP2)
         V2_ing = conjugate(V2_ing, NP2)
