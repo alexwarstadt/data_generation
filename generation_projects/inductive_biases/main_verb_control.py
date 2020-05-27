@@ -214,7 +214,7 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
         NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
         D1 = choice(get_matched_by(NP1, "arg_1", all_very_common_dets))
         V1 = conjugate(V1, NP1)
-        V1_ing = conjugate(V1_ing, NP1)
+        V1_ing = conjugate(V1_ing, NP2)
 
         V2 = choice(self.all_non_ing_transitive_verbs)
         V2_ing = self.get_ing_form(V1)

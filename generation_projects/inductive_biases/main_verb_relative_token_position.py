@@ -3,35 +3,32 @@ from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
 import random
-from copy import deepcopy
 
 class MyGenerator(data_generator.InductiveBiasesGenerator):
     def __init__(self):
-        super().__init__(uid="main_verb_lexical_content_the",
+        super().__init__(uid="main_verb_relative_token_position",
                          linguistic_feature_type="syntactic",
                          linguistic_feature_description="Is the main verb in the progressive form?",
-                         surface_feature_type="lexical_content",
-                         surface_feature_description="Is the word \"the\" present?",
+                         surface_feature_type="relative_position",
+                         surface_feature_description="Does the word 'the' precede the word 'a'?",
                          control_paradigm=False)
 
-        self.safe_nouns = get_all("start_with_vowel", "0", all_common_nouns)
+        self.safe_nouns = get_all("mass", "0", get_all("start_with_vowel", "0", np.intersect1d(all_common_nouns, all_singular_nouns)))
         self.CP_nouns = get_all("category", "N/S", all_nominals)
         self.all_ing_verbs = get_all("ing", "1", all_verbs)
         all_possibly_ing_verbs = np.unique(np.array([item for sublist in [get_all("root", x["root"], all_verbs) for x in self.all_ing_verbs] for item in sublist]))
         all_non_ing_verbs = np.setdiff1d(all_possibly_ing_verbs, self.all_ing_verbs)
         self.all_ing_transitive_verbs = np.intersect1d(self.all_ing_verbs, all_transitive_verbs)
-        self.all_non_ing_transitive_verbs = np.intersect1d(all_non_ing_verbs, all_transitive_verbs)
+        self.all_non_ing_transitive_verbs = np.intersect1d(all_non_ing_verbs, np.intersect1d(all_possibly_singular_verbs, all_transitive_verbs))
         self.all_ing_intransitive_verbs = np.intersect1d(self.all_ing_verbs, all_intransitive_verbs)
-        self.all_non_ing_intransitive_verbs = np.intersect1d(all_non_ing_verbs, all_intransitive_verbs)
+        self.all_non_ing_intransitive_verbs = np.intersect1d(all_non_ing_verbs, np.intersect1d(all_possibly_singular_verbs, all_intransitive_verbs))
         CP_verbs = get_all("category", "(S\\NP)/S")
         self.CP_verbs_ing = np.intersect1d(CP_verbs, self.all_ing_verbs)
-        self.CP_verbs_non_ing = np.intersect1d(CP_verbs, all_non_ing_verbs)
+        self.CP_verbs_non_ing = np.intersect1d(CP_verbs, np.intersect1d(all_possibly_singular_verbs, all_non_ing_verbs))
         self.the = get_all("expression", "the")
-        self.safe_dets = np.setdiff1d(all_frequent_determiners, self.the)
-
-
-        # self.all_possibly_plural_transitive_verbs = np.intersect1d(self.all_transitive_verbs, all_possibly_plural_verbs)
-        # self.plural_noun = choice(all_plural_nouns)
+        self.a = get_all("expression", "a")
+        self.safe_dets = np.setdiff1d(all_frequent_determiners, np.union1d(self.a, self.the))
+        self.safe_dets = np.array(list(filter(lambda x: x["expression"] != "a lot of", self.safe_dets)))
 
 
 
@@ -56,34 +53,66 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
             data_out, track_sentence_out, Ds_out = self.sample_CP_noun()
         track_sentence.extend(track_sentence_out)
 
-        Ds_in_the = [list(x) for x in Ds_in]
-        Ds_out_the = [list(x) for x in Ds_out]
-        if bool(random.randint(0, 1)):
-            Ds_in_the[0][0] = "the"
-            Ds_in_the[1][0] = "the"
+        Ds_in_the_a = [list(x) for x in Ds_in]
+        Ds_in_a_the = [list(x) for x in Ds_in]
+        option = random.randint(0, 2)
+        if option == 0:
+            Ds_in_the_a[0] = ["the", "a", Ds_in[0][2], Ds_in[0][3]]
+            Ds_in_a_the[0] = ["a", "the", Ds_in[0][2], Ds_in[0][3]]
+        elif option == 1:
+            Ds_in_the_a[0] = ["the", Ds_in[0][1], Ds_in[0][2], "a"]
+            Ds_in_a_the[0] = ["a", Ds_in[0][1], Ds_in[0][2], "the"]
         else:
-            Ds_in_the[0][3] = "the"
-            Ds_in_the[1][3] = "the"
-        Ds_in_the = [tuple(x) for x in Ds_in_the]
-            
-        if bool(random.randint(0, 1)):
-            Ds_out_the[0][1] = "the"
-            Ds_out_the[1][1] = "the"
+            Ds_in_the_a[0] = [Ds_in[0][0], "the", Ds_in[0][2], "a"]
+            Ds_in_a_the[0] = [Ds_in[0][0], "a", Ds_in[0][2], "the"]
+        option = random.randint(0, 2)
+        if option == 0:
+            Ds_in_the_a[1] = ["the", "a", Ds_in[1][2], Ds_in[1][3]]
+            Ds_in_a_the[1] = ["a", "the", Ds_in[1][2], Ds_in[1][3]]
+        elif option == 1:
+            Ds_in_the_a[1] = ["the", Ds_in[1][1], Ds_in[1][2], "a"]
+            Ds_in_a_the[1] = ["a", Ds_in[1][1], Ds_in[1][2], "the"]
         else:
-            Ds_out_the[0][2] = "the"
-            Ds_out_the[1][2] = "the"
-        Ds_out_the = [tuple(x) for x in Ds_out_the]
+            Ds_in_the_a[1] = [Ds_in[1][0], "the", Ds_in[1][2], "a"]
+            Ds_in_a_the[1] = [Ds_in[1][0], "a", Ds_in[1][2], "the"]
+        Ds_in_the_a = [tuple(x) for x in Ds_in_the_a]
+        Ds_in_a_the = [tuple(x) for x in Ds_in_a_the]
+
+        Ds_out_the_a = [list(x) for x in Ds_out]
+        Ds_out_a_the = [list(x) for x in Ds_out]
+        option = random.randint(0, 2)
+        if option == 0:
+            Ds_out_the_a[0] = ["the", Ds_out[0][1], "a", Ds_out[0][3]]
+            Ds_out_a_the[0] = ["a", Ds_out[0][1], "the", Ds_out[0][3]]
+        elif option == 1:
+            Ds_out_the_a[0] = [Ds_out[0][0], "the", "a", Ds_out[0][3]]
+            Ds_out_a_the[0] = [Ds_out[0][0], "a", "the", Ds_out[0][3]]
+        else:
+            Ds_out_the_a[0] = [Ds_out[0][0], Ds_out[0][1], "the", "a"]
+            Ds_out_a_the[0] = [Ds_out[0][0], Ds_out[0][1], "a", "the"]
+        option = random.randint(0, 2)
+        if option == 0:
+            Ds_out_the_a[1] = ["the", Ds_out[1][1], "a", Ds_out[1][3]]
+            Ds_out_a_the[1] = ["a", Ds_out[1][1], "the", Ds_out[1][3]]
+        elif option == 1:
+            Ds_out_the_a[1] = [Ds_out[1][0], "the", "a", Ds_out[1][3]]
+            Ds_out_a_the[1] = [Ds_out[1][0], "a", "the", Ds_out[1][3]]
+        else:
+            Ds_out_the_a[1] = [Ds_out[1][0], Ds_out[1][1], "the", "a"]
+            Ds_out_a_the[1] = [Ds_out[1][0], Ds_out[1][1], "a", "the"]
+        Ds_out_the_a = [tuple(x) for x in Ds_out_the_a]
+        Ds_out_a_the = [tuple(x) for x in Ds_out_a_the]
 
         data = self.build_paradigm(
-            training_1_1=data_in[0] % Ds_in_the[0] + ".",
-            training_0_0=data_in[1] % Ds_in[1] + ".",
-            test_1_0=data_out[0] % Ds_out[0] + ".",
-            test_0_1=data_out[1] % Ds_out_the[1] + ".",
+            training_1_1=data_in[0] % Ds_in_the_a[0] + ".",
+            training_0_0=data_in[1] % Ds_in_a_the[1] + ".",
+            test_1_0=data_out[0] % Ds_out_a_the[0] + ".",
+            test_0_1=data_out[1] % Ds_out_the_a[1] + ".",
 
-            control_1_0=data_in[0] % Ds_in[0] + ".",
-            control_0_1=data_in[1] % Ds_in_the[1] + ".",
-            control_1_1=data_out[0] % Ds_out_the[0] + ".",
-            control_0_0=data_out[1] % Ds_out[1] + ".",
+            control_1_0=data_in[0] % Ds_in_a_the[0] + ".",
+            control_0_1=data_in[1] % Ds_in_the_a[1] + ".",
+            control_1_1=data_out[0] % Ds_out_the_a[0] + ".",
+            control_0_0=data_out[1] % Ds_out_a_the[1] + ".",
         )
 
         return data, track_sentence
@@ -113,7 +142,7 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
         try:
             V = choice(get_matched_by(subj, "arg_1", self.all_non_ing_intransitive_verbs))
         except Exception:
-            pass
+            raise MatchNotFoundError("")
         V_ing = self.get_ing_form(V)
         V = conjugate(V, subj)
         try:

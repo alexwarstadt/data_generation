@@ -7,12 +7,12 @@ from copy import deepcopy
 
 class MyGenerator(data_generator.InductiveBiasesGenerator):
     def __init__(self):
-        super().__init__(uid="main_verb_lexical_content_the",
+        super().__init__(uid="main_verb_absolute_token_position",
                          linguistic_feature_type="syntactic",
                          linguistic_feature_description="Is the main verb in the progressive form?",
-                         surface_feature_type=None,
-                         surface_feature_description=None,
-                         control_paradigm=True)
+                         surface_feature_type="absolute token position",
+                         surface_feature_description="Is the first word of the sentence 'the'?",
+                         control_paradigm=False)
 
         self.safe_nouns = get_all("start_with_vowel", "0", all_common_nouns)
         self.CP_nouns = get_all("category", "N/S", all_nominals)
@@ -61,13 +61,9 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
         Ds_in_the_first[0][0] = "the"
         Ds_in_the_first[1][0] = "the"
         Ds_in_the_first = [tuple(x) for x in Ds_in_the_first]
-        Ds_out_the_first[0][1] = "the"
-        Ds_out_the_first[1][1] = "the"
+        Ds_out_the_first[0][0] = "the"
+        Ds_out_the_first[1][0] = "the"
         Ds_out_the_first = [tuple(x) for x in Ds_out_the_first]
-
-
-
-
 
 
         Ds_in_the_other = [list(x) for x in Ds_in]
@@ -135,7 +131,7 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
         try:
             V = choice(get_matched_by(subj, "arg_1", self.all_non_ing_intransitive_verbs))
         except Exception:
-            pass
+            raise MatchNotFoundError("")
         V_ing = self.get_ing_form(V)
         V = conjugate(V, subj)
         try:
@@ -287,7 +283,7 @@ class MyGenerator(data_generator.InductiveBiasesGenerator):
         V1_ing = conjugate(V1_ing, NP1)
 
         V2 = choice(self.all_non_ing_transitive_verbs)
-        V2_ing = self.get_ing_form(V1)
+        V2_ing = self.get_ing_form(V2)
         NP2 = choice(get_matches_of(V2, "arg_1", self.safe_nouns))
         V2 = conjugate(V2, NP2)
         V2_ing = conjugate(V2_ing, NP2)
