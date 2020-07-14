@@ -25,7 +25,7 @@ def unambiguize(dir):
     train_pairs = read_pairs(train_file)
     train_control_pairs = read_pairs(train_control_file)
 
-    percents = [0.0026, 0.005, 0.01, 0.02, 0.04, 0.08, 0.16]
+    percents = [0.001, 0.003, 0.01]
     for p in percents:
         data = random.sample(train_pairs, int(5000.0 * (1 - p)))
         data.extend(random.sample(train_control_pairs, int(5000 * p)))
@@ -46,11 +46,31 @@ def unambiguize(dir):
 
 #### MAIN ####
 dirs = [
-    "antonyms_relative_position",
-    "control_raising_length",
-    "irregular_form_title_case",
-    "syntactic_category_absolute_position",
-    "antonyms_lexical_content_the",
+        "antonyms_absolute_token_position",
+        "antonyms_length",
+        "antonyms_lexical_content_the",
+        "antonyms_relative_position",
+        "antonyms_title_case",
+        "control_raising_absolute_token_position",
+        "control_raising_length",
+        "control_raising_lexical_content_the",
+        "control_raising_relative_token_position",
+        "control_raising_title_case",
+        "irregular_form_absolute_token_position",
+        "irregular_form_length",
+        "irregular_form_lexical_content_the",
+        "irregular_form_relative_token_position",
+        "irregular_form_title_case",
+        "main_verb_absolute_token_position",
+        "main_verb_length",
+        "main_verb_lexical_content_the",
+        "main_verb_relative_token_position",
+        "main_verb_title_case",
+        "syntactic_category_absolute_position",
+        "syntactic_category_length",
+        "syntactic_category_lexical_content_the",
+        "syntactic_category_relative_position",
+        "syntactic_category_title_case"
         ]
 for dir in dirs:
     unambiguize(dir)
