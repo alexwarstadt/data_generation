@@ -12,6 +12,14 @@ python -m generation_projects.benchmark.adjunct_island
     
 If all dependencies are present in your workspace, this will generate the adjunct_island dataset in BLiMP. Generation will take a minute to begin, after which point the progress can be watched in outputs/benchmark/adjunct_island.jsonl.
 
+## Branches
+- With the exception of BLiMP, all project-specific code is kept in separate branches. BLiMP appears in master as a helpful examplar. 
+- Major branches include:
+    - blimp
+    - imppres
+    - npi
+    - msgs
+    - structure_dependence qp
 
 ## Project Structure
 - The project contains the following packages:
