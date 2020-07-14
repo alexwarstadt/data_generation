@@ -1,6 +1,0 @@
-sentence_good,sentence_bad,UID,pairID,rand_int,uniques
-Select this answer to show that you are paying attention,Do not select this answer at all.,attnchk,0,attnchk,attnchk
-Attention check: this is the answer you should select.,Attention check: this is not the answer to select.,attnchk,1,attnchk,attnchk
-This is an attention check: please choose this answer.,Please do not choose this answer.,attnchk,2,attnchk,attnchk
-To show you are paying attention select this choice.,Select the other choice -- not this one.,attnchk,3,attnchk,attnchk
-Here is the answer to select to show you're paying attention.,This one is not the correct selection; do not choose it.,attnchk,4,attnchk,attnchk
