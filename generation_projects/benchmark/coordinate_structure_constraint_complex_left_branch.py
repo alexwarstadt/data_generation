@@ -39,7 +39,7 @@ class Generator(data_generator.BenchmarkGenerator):
         else:
             pass
         V2_match = choice(get_all(Vmatch, "1", Verb2))
-        N2 = N_to_DP_mutate(choice(get_matches_of(V2_match, "arg_1", all_nouns)))
+        N2 = N_to_DP_mutate(choice(get_matches_of(V_do, "arg_1", get_matches_of(V2_match, "arg_1", all_nouns))))
 
         if N3['animate'] == "1":
             wh = choice(self.which_what)
