@@ -31,21 +31,29 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                             ("three", "almost as many"),
                             ]
 
-        self.singular_dets = [("one", "three"),
-                            ("one", "two"),
-                            ("one", "five"),
-                            ("one", "four"),
-                            ("one", "a few"),
-                            ("one", "several"),
-                            ("one", "few"),
-                            ("one", "many"),
-                            ("one", "a lot"),
-                            ("one", "some"),
-                            ("one", "more"),
-                            ("one", "at least as many")
+        self.singular_dets = [("one", "another"),
+                              ("each", "one"),
+                              ("this", "another"),
+                              ("that", "another"),
+                              ("this", "one"),
+                              ("that", "one")
                             ]
 
-        self.safe_objs = np.setdiff1d(all_nominals, all_proper_names)
+        # self.singular_dets = [("one", "two"),
+        #                         ("one", "five"),
+        #                         ("one", "four"),
+        #                         ("one", "a few"),
+        #                         ("one", "several"),
+        #                         ("one", "few"),
+        #                         ("one", "many"),
+        #                         ("one", "a lot"),
+        #                         ("one", "some"),
+        #                         ("one", "more"),
+        #                         ("one", "at least as many")
+        #                     ]
+
+        self.safe_objs_pl = np.setdiff1d(all_nominals, all_proper_names)
+        self.safe_objs_sg = np.setdiff1d(all_nominals, all_proper_names)
 
     def sample(self):
         # John  has  had two cups and Jane  has  had three green cups.
