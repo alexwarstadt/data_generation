@@ -173,12 +173,8 @@ class ScalarImplicatureGenerator(Generator):
             try:
                 new_data, track_sentence = self.sample()
                 print(track_sentence)
-
                 if track_sentence not in past_sentences:
-
                     past_sentences.append(track_sentence)
-
-
                     for C in new_data:
                         for field in self.data_fields:
                             if field in C:
@@ -309,9 +305,9 @@ class PresuppositionGenerator(Generator):
         return metadata
 
 
-class InductiveBiasesGenerator(Generator):
+class StructureDependenceGenerator(Generator):
     """
-    Data generator for BLiMP.
+    Data generator for structure dependence paper.
     """
     def __init__(self,
                  uid: str,
