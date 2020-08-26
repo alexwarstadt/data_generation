@@ -58,7 +58,7 @@ all_consistent_transitive_verbs = np.union1d(
 
 # sample sentences until desired number
 
-for writer in [train_output, dev_output, test_output]:
+for writer in [test_output, train_output, dev_output]:
     counter = 0
     while counter < number_to_generate:
         # Aux1/2 D1  N1  who Aux1  V1    D2  N2  Aux2 V2      D3  N3
@@ -74,16 +74,13 @@ for writer in [train_output, dev_output, test_output]:
         #     N1 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_singular_nouns)))
         # else:
         N1 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_nouns)))
-
         N3 = N_to_DP_mutate(choice(get_matched_by(V2, "arg_2", get_all_conjunctive([("animate", N1["animate"]), ("sg", N1["sg"])], all_nouns)), [N1]))
-
         try:
             if N3["sg"] == "0":
                 # if N3 is plural, then V1 must not be bare
-                    V1 = choice(get_matched_by(N3, "arg_1", all_non_bare_verbs))
+                V1 = choice(get_matched_by(N3, "arg_1", get_matched_by(N1, "arg_1", all_non_bare_verbs)))
             else:
-                V1 = choice(get_matched_by(N3, "arg_1", all_safe_verbs), [V2])
-
+                V1 = choice(get_matched_by(N3, "arg_1", get_matched_by(N1, "arg_1", all_safe_verbs)), [V2])
         except IndexError:
             print(V2[0], N1[0], N3[0])
             continue
@@ -117,10 +114,12 @@ for writer in [train_output, dev_output, test_output]:
                 counter += 1
                 test2_output.write("%d\t%s\n" % (counter, sentence_4))
                 counter += 1
+                test2_output.flush()
             else:
                 writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=1-highest=1-last=1-aux1=%s-aux2=%s" % (Aux1[0], Aux2[0]), 1, sentence_1))
                 writer.write("%s\t%d\t\t%s\n" % ("exp=polar-src=1-highest=0-last=0-aux1=%s-aux2=%s" % (Aux1[0], Aux2[0]), 0, sentence_2))
                 counter += 2
+            writer.flush()
         sentences.add(sentence_1)
 
 
