@@ -1,0 +1,1000 @@
+index	prediction	sentence_1	sentence_2	true_label
+0	0	some children who aren ' t hugging itself admire the chair .		0
+1	0	some children who aren ' t hugging the chair admire themselves .		0
+2	0	some children who aren ' t hugging the chair admire itself .		0
+3	0	many waitress ##es who praise themselves see this book .		0
+4	0	many waitress ##es who praise itself see this book .		0
+5	0	many waitress ##es who praise this book see themselves .		0
+6	0	many waitress ##es who praise this book see itself .		0
+7	0	this guy that discusses himself resembles people .		0
+8	0	this guy that discusses themselves resembles people .		0
+9	0	this guy that discusses people resembles himself .		0
+10	0	this guy that discusses people resembles themselves .		0
+11	0	boys who help themselves return to that library .		0
+12	0	boys who help itself return to that library .		0
+13	0	boys who help that library return to themselves .		0
+14	0	boys who help that library return to itself .		0
+15	0	a lot of actresses who hadn ' t fled from themselves were visiting the high school .		0
+16	0	a lot of actresses who hadn ' t fled from itself were visiting the high school .		0
+17	0	a lot of actresses who hadn ' t fled from the high school were visiting themselves .		0
+18	0	a lot of actresses who hadn ' t fled from the high school were visiting itself .		0
+19	0	these children that investigated themselves haven ' t talked about that school .		0
+20	0	these children that investigated itself haven ' t talked about that school .		0
+21	0	these children that investigated that school haven ' t talked about themselves .		0
+22	0	these children that investigated that school haven ' t talked about itself .		0
+23	0	every girl that was leaving herself hadn ' t discussed some girls .		0
+24	0	every girl that was leaving themselves hadn ' t discussed some girls .		0
+25	0	every girl that was leaving some girls hadn ' t discussed herself .		0
+26	0	every girl that was leaving some girls hadn ' t discussed themselves .		0
+27	0	some woman that has visited herself liked all waiter ##s .		0
+28	0	some woman that has visited themselves liked all waiter ##s .		0
+29	0	some woman that has visited all waiter ##s liked herself .		0
+30	0	some woman that has visited all waiter ##s liked themselves .		0
+31	0	every car that resembles itself resembled a lot of teachers .		0
+32	0	every car that resembles themselves resembled a lot of teachers .		0
+33	0	every car that resembles a lot of teachers resembled itself .		0
+34	0	every car that resembles a lot of teachers resembled themselves .		0
+35	0	all books that criticized themselves were talking about every public park .		0
+36	0	all books that criticized itself were talking about every public park .		0
+37	0	all books that criticized every public park were talking about themselves .		0
+38	0	all books that criticized every public park were talking about itself .		0
+39	0	every gal that doesn ' t approach herself wasn ' t admiring many gal ##s .		0
+40	0	every gal that doesn ' t approach themselves wasn ' t admiring many gal ##s .		0
+41	0	every gal that doesn ' t approach many gal ##s wasn ' t admiring herself .		0
+42	0	every gal that doesn ' t approach many gal ##s wasn ' t admiring themselves .		0
+43	0	men that might care for themselves observe that guy .		0
+44	0	men that might care for himself observe that guy .		0
+45	0	men that might care for that guy observe themselves .		0
+46	0	men that might care for that guy observe himself .		0
+47	0	many pedestrians that should describe themselves leave this woman .		0
+48	0	many pedestrians that should describe herself leave this woman .		0
+49	0	many pedestrians that should describe this woman leave themselves .		0
+50	0	many pedestrians that should describe this woman leave herself .		0
+51	0	all people who discuss themselves praise this report .		0
+52	0	all people who discuss itself praise this report .		0
+53	0	all people who discuss this report praise themselves .		0
+54	0	all people who discuss this report praise itself .		0
+55	0	many patients who respect themselves left this actress .		0
+56	0	many patients who respect herself left this actress .		0
+57	0	many patients who respect this actress left themselves .		0
+58	0	many patients who respect this actress left herself .		0
+59	0	the cash ##iers that reference themselves can praise the boy .		0
+60	0	the cash ##iers that reference himself can praise the boy .		0
+61	0	the cash ##iers that reference the boy can praise themselves .		0
+62	0	the cash ##iers that reference the boy can praise himself .		0
+63	0	these gal ##s who might forget themselves are discussing this girl .		0
+64	0	these gal ##s who might forget herself are discussing this girl .		0
+65	0	these gal ##s who might forget this girl are discussing themselves .		0
+66	0	these gal ##s who might forget this girl are discussing herself .		0
+67	0	doctors who weren ' t kissing themselves had watched every actress .		0
+68	0	doctors who weren ' t kissing herself had watched every actress .		0
+69	0	doctors who weren ' t kissing every actress had watched themselves .		0
+70	0	doctors who weren ' t kissing every actress had watched herself .		0
+71	0	women that haven ' t attacked themselves were hugging this girl .		0
+72	0	women that haven ' t attacked herself were hugging this girl .		0
+73	0	women that haven ' t attacked this girl were hugging themselves .		0
+74	0	women that haven ' t attacked this girl were hugging herself .		0
+75	0	some drivers who hadn ' t fled from themselves referenced the movie .		0
+76	0	some drivers who hadn ' t fled from itself referenced the movie .		0
+77	0	some drivers who hadn ' t fled from the movie referenced themselves .		0
+78	0	some drivers who hadn ' t fled from the movie referenced itself .		0
+79	0	every woman that is criticizing herself discusses this story .		0
+80	0	every woman that is criticizing itself discusses this story .		0
+81	0	every woman that is criticizing this story discusses herself .		0
+82	0	every woman that is criticizing this story discusses itself .		0
+83	0	some boys who talk to themselves didn ' t approach the gal .		0
+84	0	some boys who talk to herself didn ' t approach the gal .		0
+85	0	some boys who talk to the gal didn ' t approach themselves .		0
+86	0	some boys who talk to the gal didn ' t approach herself .		0
+87	0	a woman who should praise herself can describe all commentaries .		0
+88	0	a woman who should praise themselves can describe all commentaries .		0
+89	0	a woman who should praise all commentaries can describe herself .		0
+90	0	a woman who should praise all commentaries can describe themselves .		0
+91	0	these girls who talk to themselves investigate that guy .		0
+92	0	these girls who talk to himself investigate that guy .		0
+93	0	these girls who talk to that guy investigate themselves .		0
+94	0	these girls who talk to that guy investigate himself .		0
+95	0	a documentary that resembles itself criticized that waitress .		0
+96	0	a documentary that resembles herself criticized that waitress .		0
+97	0	a documentary that resembles that waitress criticized itself .		0
+98	0	a documentary that resembles that waitress criticized herself .		0
+99	0	all teachers that did return to themselves did kiss the girl .		0
+100	0	all teachers that did return to herself did kiss the girl .		0
+101	0	all teachers that did return to the girl did kiss themselves .		0
+102	0	all teachers that did return to the girl did kiss herself .		0
+103	0	some children that can help themselves can investigate some college campus .		0
+104	0	some children that can help itself can investigate some college campus .		0
+105	0	some children that can help some college campus can investigate themselves .		0
+106	0	some children that can help some college campus can investigate itself .		0
+107	0	every man that has talked about himself can ' t investigate a lot of waiter ##s .		0
+108	0	every man that has talked about themselves can ' t investigate a lot of waiter ##s .		0
+109	0	every man that has talked about a lot of waiter ##s can ' t investigate himself .		0
+110	0	every man that has talked about a lot of waiter ##s can ' t investigate themselves .		0
+111	0	these cash ##iers that listen to themselves are talking about every story .		0
+112	0	these cash ##iers that listen to itself are talking about every story .		0
+113	0	these cash ##iers that listen to every story are talking about themselves .		0
+114	0	these cash ##iers that listen to every story are talking about itself .		0
+115	0	these cash ##iers that criticized themselves forgot every play .		0
+116	0	these cash ##iers that criticized itself forgot every play .		0
+117	0	these cash ##iers that criticized every play forgot themselves .		0
+118	0	these cash ##iers that criticized every play forgot itself .		0
+119	0	the boys who do leave themselves saw that rug .		0
+120	0	the boys who do leave itself saw that rug .		0
+121	0	the boys who do leave that rug saw themselves .		0
+122	0	the boys who do leave that rug saw itself .		0
+123	0	a guy who has visited himself has cared for all cash ##iers .		0
+124	0	a guy who has visited themselves has cared for all cash ##iers .		0
+125	0	a guy who has visited all cash ##iers has cared for himself .		0
+126	0	a guy who has visited all cash ##iers has cared for themselves .		0
+127	0	some waitress ##es that observed themselves reference this lady .		0
+128	0	some waitress ##es that observed herself reference this lady .		0
+129	0	some waitress ##es that observed this lady reference themselves .		0
+130	0	some waitress ##es that observed this lady reference herself .		0
+131	0	the girls who listen to themselves have loved the documentary .		0
+132	0	the girls who listen to itself have loved the documentary .		0
+133	0	the girls who listen to the documentary have loved themselves .		0
+134	0	the girls who listen to the documentary have loved itself .		0
+135	0	these drivers who talked about themselves didn ' t talk to some waitress .		0
+136	0	these drivers who talked about herself didn ' t talk to some waitress .		0
+137	0	these drivers who talked about some waitress didn ' t talk to themselves .		0
+138	0	these drivers who talked about some waitress didn ' t talk to herself .		0
+139	0	all actresses that had hugged themselves shouldn ' t describe some report .		0
+140	0	all actresses that had hugged itself shouldn ' t describe some report .		0
+141	0	all actresses that had hugged some report shouldn ' t describe themselves .		0
+142	0	all actresses that had hugged some report shouldn ' t describe itself .		0
+143	0	the girl who had escaped from herself was criticizing every movie theater .		0
+144	0	the girl who had escaped from itself was criticizing every movie theater .		0
+145	0	the girl who had escaped from every movie theater was criticizing herself .		0
+146	0	the girl who had escaped from every movie theater was criticizing itself .		0
+147	0	these boys that remembered themselves don ' t approach every lady .		0
+148	0	these boys that remembered herself don ' t approach every lady .		0
+149	0	these boys that remembered every lady don ' t approach themselves .		0
+150	0	these boys that remembered every lady don ' t approach herself .		0
+151	0	some teenagers who did insult themselves listen to some guy .		0
+152	0	some teenagers who did insult himself listen to some guy .		0
+153	0	some teenagers who did insult some guy listen to themselves .		0
+154	0	some teenagers who did insult some guy listen to himself .		0
+155	0	a lot of men who investigated themselves can hate that actress .		0
+156	0	a lot of men who investigated herself can hate that actress .		0
+157	0	a lot of men who investigated that actress can hate themselves .		0
+158	0	a lot of men who investigated that actress can hate herself .		0
+159	0	some guy who hasn ' t hated himself hadn ' t known every woman .		0
+160	0	some guy who hasn ' t hated herself hadn ' t known every woman .		0
+161	0	some guy who hasn ' t hated every woman hadn ' t known himself .		0
+162	0	some guy who hasn ' t hated every woman hadn ' t known herself .		0
+163	0	a shirt that resembled itself should resemble the pants .		0
+164	0	a shirt that resembled themselves should resemble the pants .		0
+165	0	a shirt that resembled the pants should resemble itself .		0
+166	0	a shirt that resembled the pants should resemble themselves .		0
+167	0	pedestrians who hadn ' t forgotten themselves might respect this hospital .		0
+168	0	pedestrians who hadn ' t forgotten itself might respect this hospital .		0
+169	0	pedestrians who hadn ' t forgotten this hospital might respect themselves .		0
+170	0	pedestrians who hadn ' t forgotten this hospital might respect itself .		0
+171	0	some play that describes itself references a lot of girls .		0
+172	0	some play that describes themselves references a lot of girls .		0
+173	0	some play that describes a lot of girls references itself .		0
+174	0	some play that describes a lot of girls references themselves .		0
+175	0	these people that talk to themselves haven ' t talked about every high school .		0
+176	0	these people that talk to itself haven ' t talked about every high school .		0
+177	0	these people that talk to every high school haven ' t talked about themselves .		0
+178	0	these people that talk to every high school haven ' t talked about itself .		0
+179	0	museums that resemble themselves can ' t resemble a book .		0
+180	0	museums that resemble itself can ' t resemble a book .		0
+181	0	museums that resemble a book can ' t resemble themselves .		0
+182	0	museums that resemble a book can ' t resemble itself .		0
+183	0	some teachers that are talking about themselves are leaving some library .		0
+184	0	some teachers that are talking about itself are leaving some library .		0
+185	0	some teachers that are talking about some library are leaving themselves .		0
+186	0	some teachers that are talking about some library are leaving itself .		0
+187	0	many patients that are returning to themselves admire the dish .		0
+188	0	many patients that are returning to itself admire the dish .		0
+189	0	many patients that are returning to the dish admire themselves .		0
+190	0	many patients that are returning to the dish admire itself .		0
+191	0	cash ##iers that dislike themselves would respect this school .		0
+192	0	cash ##iers that dislike itself would respect this school .		0
+193	0	cash ##iers that dislike this school would respect themselves .		0
+194	0	cash ##iers that dislike this school would respect itself .		0
+195	0	the lady who wasn ' t kissing herself is listening to some teachers .		0
+196	0	the lady who wasn ' t kissing themselves is listening to some teachers .		0
+197	0	the lady who wasn ' t kissing some teachers is listening to herself .		0
+198	0	the lady who wasn ' t kissing some teachers is listening to themselves .		0
+199	0	many actresses who talk to themselves work with a boy .		0
+200	0	many actresses who talk to himself work with a boy .		0
+201	0	many actresses who talk to a boy work with themselves .		0
+202	0	many actresses who talk to a boy work with himself .		0
+203	0	every waitress that was working with herself should resemble these ladies .		0
+204	0	every waitress that was working with themselves should resemble these ladies .		0
+205	0	every waitress that was working with these ladies should resemble herself .		0
+206	0	every waitress that was working with these ladies should resemble themselves .		0
+207	0	this girl who has hugged herself hasn ' t kissed a lot of patients .		0
+208	0	this girl who has hugged themselves hasn ' t kissed a lot of patients .		0
+209	0	this girl who has hugged a lot of patients hasn ' t kissed herself .		0
+210	0	this girl who has hugged a lot of patients hasn ' t kissed themselves .		0
+211	0	a lot of waitress ##es who cared for themselves shouldn ' t respect that public park .		0
+212	0	a lot of waitress ##es who cared for itself shouldn ' t respect that public park .		0
+213	0	a lot of waitress ##es who cared for that public park shouldn ' t respect themselves .		0
+214	0	a lot of waitress ##es who cared for that public park shouldn ' t respect itself .		0
+215	0	all people that talked to themselves have insulted that girl .		0
+216	0	all people that talked to herself have insulted that girl .		0
+217	0	all people that talked to that girl have insulted themselves .		0
+218	0	all people that talked to that girl have insulted herself .		0
+219	0	a lot of doctors who haven ' t investigated themselves were admiring that guy .		0
+220	0	a lot of doctors who haven ' t investigated himself were admiring that guy .		0
+221	0	a lot of doctors who haven ' t investigated that guy were admiring themselves .		0
+222	0	a lot of doctors who haven ' t investigated that guy were admiring himself .		0
+223	0	every boy who doesn ' t love himself could watch all waitress ##es .		0
+224	0	every boy who doesn ' t love themselves could watch all waitress ##es .		0
+225	0	every boy who doesn ' t love all waitress ##es could watch himself .		0
+226	0	every boy who doesn ' t love all waitress ##es could watch themselves .		0
+227	0	actors who return to themselves couldn ' t see the guy .		0
+228	0	actors who return to himself couldn ' t see the guy .		0
+229	0	actors who return to the guy couldn ' t see themselves .		0
+230	0	actors who return to the guy couldn ' t see himself .		0
+231	0	every woman that did see herself isn ' t working with all teenagers .		0
+232	0	every woman that did see themselves isn ' t working with all teenagers .		0
+233	0	every woman that did see all teenagers isn ' t working with herself .		0
+234	0	every woman that did see all teenagers isn ' t working with themselves .		0
+235	0	this commentary that references itself discussed all cash ##iers .		0
+236	0	this commentary that references themselves discussed all cash ##iers .		0
+237	0	this commentary that references all cash ##iers discussed itself .		0
+238	0	this commentary that references all cash ##iers discussed themselves .		0
+239	0	the doctors who describe themselves help some girl .		0
+240	0	the doctors who describe herself help some girl .		0
+241	0	the doctors who describe some girl help themselves .		0
+242	0	the doctors who describe some girl help herself .		0
+243	0	a lot of pedestrians who kiss themselves described every guy .		0
+244	0	a lot of pedestrians who kiss himself described every guy .		0
+245	0	a lot of pedestrians who kiss every guy described themselves .		0
+246	0	a lot of pedestrians who kiss every guy described himself .		0
+247	0	the woman who wasn ' t attacking herself had escaped from some grocery store .		0
+248	0	the woman who wasn ' t attacking itself had escaped from some grocery store .		0
+249	0	the woman who wasn ' t attacking some grocery store had escaped from herself .		0
+250	0	the woman who wasn ' t attacking some grocery store had escaped from itself .		0
+251	0	these customers who approached themselves had referenced the documentary .		0
+252	0	these customers who approached itself had referenced the documentary .		0
+253	0	these customers who approached the documentary had referenced themselves .		0
+254	0	these customers who approached the documentary had referenced itself .		0
+255	0	the patients that might describe themselves had seen that book .		0
+256	0	the patients that might describe itself had seen that book .		0
+257	0	the patients that might describe that book had seen themselves .		0
+258	0	the patients that might describe that book had seen itself .		0
+259	0	these actors that haven ' t fled from themselves couldn ' t care for that gal .		0
+260	0	these actors that haven ' t fled from herself couldn ' t care for that gal .		0
+261	0	these actors that haven ' t fled from that gal couldn ' t care for themselves .		0
+262	0	these actors that haven ' t fled from that gal couldn ' t care for herself .		0
+263	0	some guests that won ' t admire themselves might return to the mall .		0
+264	0	some guests that won ' t admire itself might return to the mall .		0
+265	0	some guests that won ' t admire the mall might return to themselves .		0
+266	0	some guests that won ' t admire the mall might return to itself .		0
+267	0	all gal ##s who are watching themselves remember that documentary .		0
+268	0	all gal ##s who are watching itself remember that documentary .		0
+269	0	all gal ##s who are watching that documentary remember themselves .		0
+270	0	all gal ##s who are watching that documentary remember itself .		0
+271	0	every newspaper article that discusses itself hasn ' t criticized these ladies .		0
+272	0	every newspaper article that discusses themselves hasn ' t criticized these ladies .		0
+273	0	every newspaper article that discusses these ladies hasn ' t criticized itself .		0
+274	0	every newspaper article that discusses these ladies hasn ' t criticized themselves .		0
+275	0	many people that respected themselves observe every gal .		0
+276	0	many people that respected herself observe every gal .		0
+277	0	many people that respected every gal observe themselves .		0
+278	0	many people that respected every gal observe herself .		0
+279	0	many people that listen to themselves disliked some public park .		0
+280	0	many people that listen to itself disliked some public park .		0
+281	0	many people that listen to some public park disliked themselves .		0
+282	0	many people that listen to some public park disliked itself .		0
+283	0	these doctors that liked themselves visited that library .		0
+284	0	these doctors that liked itself visited that library .		0
+285	0	these doctors that liked that library visited themselves .		0
+286	0	these doctors that liked that library visited itself .		0
+287	0	the drivers that are attacking themselves hadn ' t fled from the movie theater .		0
+288	0	the drivers that are attacking itself hadn ' t fled from the movie theater .		0
+289	0	the drivers that are attacking the movie theater hadn ' t fled from themselves .		0
+290	0	the drivers that are attacking the movie theater hadn ' t fled from itself .		0
+291	0	some gal that could discuss herself disliked every cafe .		0
+292	0	some gal that could discuss itself disliked every cafe .		0
+293	0	some gal that could discuss every cafe disliked herself .		0
+294	0	some gal that could discuss every cafe disliked itself .		0
+295	0	that lady that helped herself did work with all guys .		0
+296	0	that lady that helped themselves did work with all guys .		0
+297	0	that lady that helped all guys did work with herself .		0
+298	0	that lady that helped all guys did work with themselves .		0
+299	0	the customers that weren ' t visiting themselves haven ' t praised a lady .		0
+300	0	the customers that weren ' t visiting herself haven ' t praised a lady .		0
+301	0	the customers that weren ' t visiting a lady haven ' t praised themselves .		0
+302	0	the customers that weren ' t visiting a lady haven ' t praised herself .		0
+303	0	a lady who hadn ' t hugged herself had discussed some high school .		0
+304	0	a lady who hadn ' t hugged itself had discussed some high school .		0
+305	0	a lady who hadn ' t hugged some high school had discussed herself .		0
+306	0	a lady who hadn ' t hugged some high school had discussed itself .		0
+307	0	many people that describe themselves visit that art gallery .		0
+308	0	many people that describe itself visit that art gallery .		0
+309	0	many people that describe that art gallery visit themselves .		0
+310	0	many people that describe that art gallery visit itself .		0
+311	0	the girls that have helped themselves could discuss that bank .		0
+312	0	the girls that have helped itself could discuss that bank .		0
+313	0	the girls that have helped that bank could discuss themselves .		0
+314	0	the girls that have helped that bank could discuss itself .		0
+315	0	the women that observe themselves approach a gal .		0
+316	0	the women that observe herself approach a gal .		0
+317	0	the women that observe a gal approach themselves .		0
+318	0	the women that observe a gal approach herself .		0
+319	0	many students who work with themselves return to the grocery store .		0
+320	0	many students who work with itself return to the grocery store .		0
+321	0	many students who work with the grocery store return to themselves .		0
+322	0	many students who work with the grocery store return to itself .		0
+323	0	all actresses that worked with themselves respect the library .		0
+324	0	all actresses that worked with itself respect the library .		0
+325	0	all actresses that worked with the library respect themselves .		0
+326	0	all actresses that worked with the library respect itself .		0
+327	0	some boys who worked with themselves have respected this public park .		0
+328	0	some boys who worked with itself have respected this public park .		0
+329	0	some boys who worked with this public park have respected themselves .		0
+330	0	some boys who worked with this public park have respected itself .		0
+331	0	the customers who kissed themselves aren ' t hugging this actress .		0
+332	0	the customers who kissed herself aren ' t hugging this actress .		0
+333	0	the customers who kissed this actress aren ' t hugging themselves .		0
+334	0	the customers who kissed this actress aren ' t hugging herself .		0
+335	0	every girl that was observing herself wasn ' t fleeing from some high school .		0
+336	0	every girl that was observing itself wasn ' t fleeing from some high school .		0
+337	0	every girl that was observing some high school wasn ' t fleeing from herself .		0
+338	0	every girl that was observing some high school wasn ' t fleeing from itself .		0
+339	0	the actors who weren ' t kissing themselves hadn ' t described every boy .		0
+340	0	the actors who weren ' t kissing himself hadn ' t described every boy .		0
+341	0	the actors who weren ' t kissing every boy hadn ' t described themselves .		0
+342	0	the actors who weren ' t kissing every boy hadn ' t described himself .		0
+343	0	that guy who should approach himself shouldn ' t critic ##ize the public park .		0
+344	0	that guy who should approach itself shouldn ' t critic ##ize the public park .		0
+345	0	that guy who should approach the public park shouldn ' t critic ##ize himself .		0
+346	0	that guy who should approach the public park shouldn ' t critic ##ize itself .		0
+347	0	that waitress who has loved herself did work with this man .		0
+348	0	that waitress who has loved himself did work with this man .		0
+349	0	that waitress who has loved this man did work with herself .		0
+350	0	that waitress who has loved this man did work with himself .		0
+351	0	a lot of ladies who were working with themselves described some woman .		0
+352	0	a lot of ladies who were working with herself described some woman .		0
+353	0	a lot of ladies who were working with some woman described themselves .		0
+354	0	a lot of ladies who were working with some woman described herself .		0
+355	0	waitress ##es who described themselves are talking to every boy .		0
+356	0	waitress ##es who described himself are talking to every boy .		0
+357	0	waitress ##es who described every boy are talking to themselves .		0
+358	0	waitress ##es who described every boy are talking to himself .		0
+359	0	some gal ##s who have remembered themselves weren ' t visiting that guy .		0
+360	0	some gal ##s who have remembered himself weren ' t visiting that guy .		0
+361	0	some gal ##s who have remembered that guy weren ' t visiting themselves .		0
+362	0	some gal ##s who have remembered that guy weren ' t visiting himself .		0
+363	0	these movies that have talked about themselves are describing this report .		0
+364	0	these movies that have talked about itself are describing this report .		0
+365	0	these movies that have talked about this report are describing themselves .		0
+366	0	these movies that have talked about this report are describing itself .		0
+367	0	some gal that isn ' t visiting herself had attacked some doctors .		0
+368	0	some gal that isn ' t visiting themselves had attacked some doctors .		0
+369	0	some gal that isn ' t visiting some doctors had attacked herself .		0
+370	0	some gal that isn ' t visiting some doctors had attacked themselves .		0
+371	0	a lot of pedestrians who have attacked themselves shouldn ' t kiss that waitress .		0
+372	0	a lot of pedestrians who have attacked herself shouldn ' t kiss that waitress .		0
+373	0	a lot of pedestrians who have attacked that waitress shouldn ' t kiss themselves .		0
+374	0	a lot of pedestrians who have attacked that waitress shouldn ' t kiss herself .		0
+375	0	many ladies who had kissed themselves see the report .		0
+376	0	many ladies who had kissed itself see the report .		0
+377	0	many ladies who had kissed the report see themselves .		0
+378	0	many ladies who had kissed the report see itself .		0
+379	0	the boys that respect themselves haven ' t escaped from every girl .		0
+380	0	the boys that respect herself haven ' t escaped from every girl .		0
+381	0	the boys that respect every girl haven ' t escaped from themselves .		0
+382	0	the boys that respect every girl haven ' t escaped from herself .		0
+383	0	the pedestrians that might remember themselves discussed the museum .		0
+384	0	the pedestrians that might remember itself discussed the museum .		0
+385	0	the pedestrians that might remember the museum discussed themselves .		0
+386	0	the pedestrians that might remember the museum discussed itself .		0
+387	0	a lot of actors who listen to themselves forgot some report .		0
+388	0	a lot of actors who listen to itself forgot some report .		0
+389	0	a lot of actors who listen to some report forgot themselves .		0
+390	0	a lot of actors who listen to some report forgot itself .		0
+391	0	boys that hugged themselves hadn ' t insulted an commentary .		0
+392	0	boys that hugged itself hadn ' t insulted an commentary .		0
+393	0	boys that hugged an commentary hadn ' t insulted themselves .		0
+394	0	boys that hugged an commentary hadn ' t insulted itself .		0
+395	0	many doctors that weren ' t talking about themselves talk about every restaurant .		0
+396	0	many doctors that weren ' t talking about itself talk about every restaurant .		0
+397	0	many doctors that weren ' t talking about every restaurant talk about themselves .		0
+398	0	many doctors that weren ' t talking about every restaurant talk about itself .		0
+399	0	many commentaries that critic ##ize themselves aren ' t insulting this man .		0
+400	0	many commentaries that critic ##ize himself aren ' t insulting this man .		0
+401	0	many commentaries that critic ##ize this man aren ' t insulting themselves .		0
+402	0	many commentaries that critic ##ize this man aren ' t insulting himself .		0
+403	0	the drivers who investigate themselves can ' t reference that girl .		0
+404	0	the drivers who investigate herself can ' t reference that girl .		0
+405	0	the drivers who investigate that girl can ' t reference themselves .		0
+406	0	the drivers who investigate that girl can ' t reference herself .		0
+407	0	some essay that talks about itself does discuss some movie theaters .		0
+408	0	some essay that talks about themselves does discuss some movie theaters .		0
+409	0	some essay that talks about some movie theaters does discuss itself .		0
+410	0	some essay that talks about some movie theaters does discuss themselves .		0
+411	0	many people who hadn ' t respected themselves wouldn ' t insult this school .		0
+412	0	many people who hadn ' t respected itself wouldn ' t insult this school .		0
+413	0	many people who hadn ' t respected this school wouldn ' t insult themselves .		0
+414	0	many people who hadn ' t respected this school wouldn ' t insult itself .		0
+415	0	some guys who have cared for themselves liked the actress .		0
+416	0	some guys who have cared for herself liked the actress .		0
+417	0	some guys who have cared for the actress liked themselves .		0
+418	0	some guys who have cared for the actress liked herself .		0
+419	0	some teenagers who did dislike themselves observe every girl .		0
+420	0	some teenagers who did dislike herself observe every girl .		0
+421	0	some teenagers who did dislike every girl observe themselves .		0
+422	0	some teenagers who did dislike every girl observe herself .		0
+423	0	a lot of women who aren ' t referencing themselves investigated this library .		0
+424	0	a lot of women who aren ' t referencing itself investigated this library .		0
+425	0	a lot of women who aren ' t referencing this library investigated themselves .		0
+426	0	a lot of women who aren ' t referencing this library investigated itself .		0
+427	0	this gal who is talking to herself did respect the malls .		0
+428	0	this gal who is talking to themselves did respect the malls .		0
+429	0	this gal who is talking to the malls did respect herself .		0
+430	0	this gal who is talking to the malls did respect themselves .		0
+431	0	some commentary that referenced itself wasn ' t insulting some banks .		0
+432	0	some commentary that referenced themselves wasn ' t insulting some banks .		0
+433	0	some commentary that referenced some banks wasn ' t insulting itself .		0
+434	0	some commentary that referenced some banks wasn ' t insulting themselves .		0
+435	0	that guy that worked with himself had approached all pedestrians .		0
+436	0	that guy that worked with themselves had approached all pedestrians .		0
+437	0	that guy that worked with all pedestrians had approached himself .		0
+438	0	that guy that worked with all pedestrians had approached themselves .		0
+439	0	teachers who attack themselves couldn ' t love some play .		0
+440	0	teachers who attack itself couldn ' t love some play .		0
+441	0	teachers who attack some play couldn ' t love themselves .		0
+442	0	teachers who attack some play couldn ' t love itself .		0
+443	0	all drivers who attack themselves had left some woman .		0
+444	0	all drivers who attack herself had left some woman .		0
+445	0	all drivers who attack some woman had left themselves .		0
+446	0	all drivers who attack some woman had left herself .		0
+447	0	the boy who resembled himself was observing a lot of boys .		0
+448	0	the boy who resembled themselves was observing a lot of boys .		0
+449	0	the boy who resembled a lot of boys was observing himself .		0
+450	0	the boy who resembled a lot of boys was observing themselves .		0
+451	0	a lot of pedestrians who respected themselves are discussing some grocery store .		0
+452	0	a lot of pedestrians who respected itself are discussing some grocery store .		0
+453	0	a lot of pedestrians who respected some grocery store are discussing themselves .		0
+454	0	a lot of pedestrians who respected some grocery store are discussing itself .		0
+455	0	many drivers that forget themselves aren ' t observing a man .		0
+456	0	many drivers that forget himself aren ' t observing a man .		0
+457	0	many drivers that forget a man aren ' t observing themselves .		0
+458	0	many drivers that forget a man aren ' t observing himself .		0
+459	0	women who aren ' t escaping from themselves have left some lady .		0
+460	0	women who aren ' t escaping from herself have left some lady .		0
+461	0	women who aren ' t escaping from some lady have left themselves .		0
+462	0	women who aren ' t escaping from some lady have left herself .		0
+463	0	all people that discuss themselves observe this woman .		0
+464	0	all people that discuss herself observe this woman .		0
+465	0	all people that discuss this woman observe themselves .		0
+466	0	all people that discuss this woman observe herself .		0
+467	0	the children who describe themselves worked with this guy .		0
+468	0	the children who describe himself worked with this guy .		0
+469	0	the children who describe this guy worked with themselves .		0
+470	0	the children who describe this guy worked with himself .		0
+471	0	all women who don ' t respect themselves talked about some movie theater .		0
+472	0	all women who don ' t respect itself talked about some movie theater .		0
+473	0	all women who don ' t respect some movie theater talked about themselves .		0
+474	0	all women who don ' t respect some movie theater talked about itself .		0
+475	0	many people that visit themselves aren ' t discussing some story .		0
+476	0	many people that visit itself aren ' t discussing some story .		0
+477	0	many people that visit some story aren ' t discussing themselves .		0
+478	0	many people that visit some story aren ' t discussing itself .		0
+479	0	every woman that listened to herself visited doctors .		0
+480	0	every woman that listened to themselves visited doctors .		0
+481	0	every woman that listened to doctors visited herself .		0
+482	0	every woman that listened to doctors visited themselves .		0
+483	0	the teachers that help themselves are visiting the college campus .		0
+484	0	the teachers that help itself are visiting the college campus .		0
+485	0	the teachers that help the college campus are visiting themselves .		0
+486	0	the teachers that help the college campus are visiting itself .		0
+487	0	the ladies that had approached themselves like every waitress .		0
+488	0	the ladies that had approached herself like every waitress .		0
+489	0	the ladies that had approached every waitress like themselves .		0
+490	0	the ladies that had approached every waitress like herself .		0
+491	0	every man that will kiss himself has worked with all humans .		0
+492	0	every man that will kiss themselves has worked with all humans .		0
+493	0	every man that will kiss all humans has worked with himself .		0
+494	0	every man that will kiss all humans has worked with themselves .		0
+495	0	a lot of customers that praised themselves talk to the boy .		0
+496	0	a lot of customers that praised himself talk to the boy .		0
+497	0	a lot of customers that praised the boy talk to themselves .		0
+498	0	a lot of customers that praised the boy talk to himself .		0
+499	0	these adults who might approach themselves haven ' t approached some girl .		0
+500	0	these adults who might approach herself haven ' t approached some girl .		0
+501	0	these adults who might approach some girl haven ' t approached themselves .		0
+502	0	these adults who might approach some girl haven ' t approached herself .		0
+503	0	some movies that praise themselves can ' t critic ##ize a waitress .		0
+504	0	some movies that praise herself can ' t critic ##ize a waitress .		0
+505	0	some movies that praise a waitress can ' t critic ##ize themselves .		0
+506	0	some movies that praise a waitress can ' t critic ##ize herself .		0
+507	0	an actress who hadn ' t attacked herself describes the boy .		0
+508	0	an actress who hadn ' t attacked himself describes the boy .		0
+509	0	an actress who hadn ' t attacked the boy describes herself .		0
+510	0	an actress who hadn ' t attacked the boy describes himself .		0
+511	0	many adults who could like themselves forget that actress .		0
+512	0	many adults who could like herself forget that actress .		0
+513	0	many adults who could like that actress forget themselves .		0
+514	0	many adults who could like that actress forget herself .		0
+515	0	many men that have loved themselves would attack a woman .		0
+516	0	many men that have loved herself would attack a woman .		0
+517	0	many men that have loved a woman would attack themselves .		0
+518	0	many men that have loved a woman would attack herself .		0
+519	0	the humans who hadn ' t escaped from themselves weren ' t escaping from that gal .		0
+520	0	the humans who hadn ' t escaped from herself weren ' t escaping from that gal .		0
+521	0	the humans who hadn ' t escaped from that gal weren ' t escaping from themselves .		0
+522	0	the humans who hadn ' t escaped from that gal weren ' t escaping from herself .		0
+523	0	many teenagers who are approaching themselves do like every book .		0
+524	0	many teenagers who are approaching itself do like every book .		0
+525	0	many teenagers who are approaching every book do like themselves .		0
+526	0	many teenagers who are approaching every book do like itself .		0
+527	0	all plays that had criticized themselves discuss an essay .		0
+528	0	all plays that had criticized itself discuss an essay .		0
+529	0	all plays that had criticized an essay discuss themselves .		0
+530	0	all plays that had criticized an essay discuss itself .		0
+531	0	some guy that might respect himself forgot a lot of waiter ##s .		0
+532	0	some guy that might respect themselves forgot a lot of waiter ##s .		0
+533	0	some guy that might respect a lot of waiter ##s forgot himself .		0
+534	0	some guy that might respect a lot of waiter ##s forgot themselves .		0
+535	0	this report that critic ##izes itself hadn ' t discussed the teachers .		0
+536	0	this report that critic ##izes themselves hadn ' t discussed the teachers .		0
+537	0	this report that critic ##izes the teachers hadn ' t discussed itself .		0
+538	0	this report that critic ##izes the teachers hadn ' t discussed themselves .		0
+539	0	all waiter ##s who can approach themselves have hugged that girl .		0
+540	0	all waiter ##s who can approach herself have hugged that girl .		0
+541	0	all waiter ##s who can approach that girl have hugged themselves .		0
+542	0	all waiter ##s who can approach that girl have hugged herself .		0
+543	0	every lady who doesn ' t talk to herself resembles all pedestrians .		0
+544	0	every lady who doesn ' t talk to themselves resembles all pedestrians .		0
+545	0	every lady who doesn ' t talk to all pedestrians resembles herself .		0
+546	0	every lady who doesn ' t talk to all pedestrians resembles themselves .		0
+547	0	every gal who will leave herself visited all adults .		0
+548	0	every gal who will leave themselves visited all adults .		0
+549	0	every gal who will leave all adults visited herself .		0
+550	0	every gal who will leave all adults visited themselves .		0
+551	0	some men that critic ##ize themselves referenced a girl .		0
+552	0	some men that critic ##ize herself referenced a girl .		0
+553	0	some men that critic ##ize a girl referenced themselves .		0
+554	0	some men that critic ##ize a girl referenced herself .		0
+555	0	all patients that like themselves respect the woman .		0
+556	0	all patients that like herself respect the woman .		0
+557	0	all patients that like the woman respect themselves .		0
+558	0	all patients that like the woman respect herself .		0
+559	0	many people who approach themselves returned to some art gallery .		0
+560	0	many people who approach itself returned to some art gallery .		0
+561	0	many people who approach some art gallery returned to themselves .		0
+562	0	many people who approach some art gallery returned to itself .		0
+563	0	a lot of women who haven ' t admired themselves haven ' t watched some guy .		0
+564	0	a lot of women who haven ' t admired himself haven ' t watched some guy .		0
+565	0	a lot of women who haven ' t admired some guy haven ' t watched themselves .		0
+566	0	a lot of women who haven ' t admired some guy haven ' t watched himself .		0
+567	0	many boys that respected themselves are criticizing some museum .		0
+568	0	many boys that respected itself are criticizing some museum .		0
+569	0	many boys that respected some museum are criticizing themselves .		0
+570	0	many boys that respected some museum are criticizing itself .		0
+571	0	that man that critic ##izes himself wasn ' t helping some actress .		0
+572	0	that man that critic ##izes herself wasn ' t helping some actress .		0
+573	0	that man that critic ##izes some actress wasn ' t helping himself .		0
+574	0	that man that critic ##izes some actress wasn ' t helping herself .		0
+575	0	teenagers who watch themselves kiss every actress .		0
+576	0	teenagers who watch herself kiss every actress .		0
+577	0	teenagers who watch every actress kiss themselves .		0
+578	0	teenagers who watch every actress kiss herself .		0
+579	0	all women that haven ' t left themselves talked about the school .		0
+580	0	all women that haven ' t left itself talked about the school .		0
+581	0	all women that haven ' t left the school talked about themselves .		0
+582	0	all women that haven ' t left the school talked about itself .		0
+583	0	the actresses who remembered themselves disliked this school .		0
+584	0	the actresses who remembered itself disliked this school .		0
+585	0	the actresses who remembered this school disliked themselves .		0
+586	0	the actresses who remembered this school disliked itself .		0
+587	0	this gal that wasn ' t fleeing from herself hadn ' t seen a lot of guests .		0
+588	0	this gal that wasn ' t fleeing from themselves hadn ' t seen a lot of guests .		0
+589	0	this gal that wasn ' t fleeing from a lot of guests hadn ' t seen herself .		0
+590	0	this gal that wasn ' t fleeing from a lot of guests hadn ' t seen themselves .		0
+591	0	the gal ##s who have watched themselves listen to some boy .		0
+592	0	the gal ##s who have watched himself listen to some boy .		0
+593	0	the gal ##s who have watched some boy listen to themselves .		0
+594	0	the gal ##s who have watched some boy listen to himself .		0
+595	0	these movies that hadn ' t referenced themselves don ' t reference the gal .		0
+596	0	these movies that hadn ' t referenced herself don ' t reference the gal .		0
+597	0	these movies that hadn ' t referenced the gal don ' t reference themselves .		0
+598	0	these movies that hadn ' t referenced the gal don ' t reference herself .		0
+599	0	some ladies that had hugged themselves wouldn ' t resemble every man .		0
+600	0	some ladies that had hugged himself wouldn ' t resemble every man .		0
+601	0	some ladies that had hugged every man wouldn ' t resemble themselves .		0
+602	0	some ladies that had hugged every man wouldn ' t resemble himself .		0
+603	0	all men who care for themselves don ' t see the dish .		0
+604	0	all men who care for itself don ' t see the dish .		0
+605	0	all men who care for the dish don ' t see themselves .		0
+606	0	all men who care for the dish don ' t see itself .		0
+607	0	all girls that were hugging themselves discuss some story .		0
+608	0	all girls that were hugging itself discuss some story .		0
+609	0	all girls that were hugging some story discuss themselves .		0
+610	0	all girls that were hugging some story discuss itself .		0
+611	0	a lot of cash ##iers that know themselves can ' t see every newspaper article .		0
+612	0	a lot of cash ##iers that know itself can ' t see every newspaper article .		0
+613	0	a lot of cash ##iers that know every newspaper article can ' t see themselves .		0
+614	0	a lot of cash ##iers that know every newspaper article can ' t see itself .		0
+615	0	the waiter ##s that have loved themselves have forgotten the book .		0
+616	0	the waiter ##s that have loved itself have forgotten the book .		0
+617	0	the waiter ##s that have loved the book have forgotten themselves .		0
+618	0	the waiter ##s that have loved the book have forgotten itself .		0
+619	0	a lot of drivers who return to themselves should approach this lady .		0
+620	0	a lot of drivers who return to herself should approach this lady .		0
+621	0	a lot of drivers who return to this lady should approach themselves .		0
+622	0	a lot of drivers who return to this lady should approach herself .		0
+623	0	some customers that are investigating themselves hadn ' t attacked this lady .		0
+624	0	some customers that are investigating herself hadn ' t attacked this lady .		0
+625	0	some customers that are investigating this lady hadn ' t attacked themselves .		0
+626	0	some customers that are investigating this lady hadn ' t attacked herself .		0
+627	0	a lot of commentaries that aren ' t insulting themselves have praised the newspaper article .		0
+628	0	a lot of commentaries that aren ' t insulting itself have praised the newspaper article .		0
+629	0	a lot of commentaries that aren ' t insulting the newspaper article have praised themselves .		0
+630	0	a lot of commentaries that aren ' t insulting the newspaper article have praised itself .		0
+631	0	men who didn ' t investigate themselves left some girl .		0
+632	0	men who didn ' t investigate herself left some girl .		0
+633	0	men who didn ' t investigate some girl left themselves .		0
+634	0	men who didn ' t investigate some girl left herself .		0
+635	0	many waiter ##s that watched themselves disliked the library .		0
+636	0	many waiter ##s that watched itself disliked the library .		0
+637	0	many waiter ##s that watched the library disliked themselves .		0
+638	0	many waiter ##s that watched the library disliked itself .		0
+639	0	these guests who shouldn ' t praise themselves would hug some waitress .		0
+640	0	these guests who shouldn ' t praise herself would hug some waitress .		0
+641	0	these guests who shouldn ' t praise some waitress would hug themselves .		0
+642	0	these guests who shouldn ' t praise some waitress would hug herself .		0
+643	0	these cash ##iers who could escape from themselves did forget the report .		0
+644	0	these cash ##iers who could escape from itself did forget the report .		0
+645	0	these cash ##iers who could escape from the report did forget themselves .		0
+646	0	these cash ##iers who could escape from the report did forget itself .		0
+647	0	a lot of guests who weren ' t escaping from themselves return to some bank .		0
+648	0	a lot of guests who weren ' t escaping from itself return to some bank .		0
+649	0	a lot of guests who weren ' t escaping from some bank return to themselves .		0
+650	0	a lot of guests who weren ' t escaping from some bank return to itself .		0
+651	0	these women that weren ' t criticizing themselves don ' t resemble some grocery store .		0
+652	0	these women that weren ' t criticizing itself don ' t resemble some grocery store .		0
+653	0	these women that weren ' t criticizing some grocery store don ' t resemble themselves .		0
+654	0	these women that weren ' t criticizing some grocery store don ' t resemble itself .		0
+655	0	a lady who loved herself would care for many girls .		0
+656	0	a lady who loved themselves would care for many girls .		0
+657	0	a lady who loved many girls would care for herself .		0
+658	0	a lady who loved many girls would care for themselves .		0
+659	0	a gal who is criticizing herself had insulted every essay .		0
+660	0	a gal who is criticizing itself had insulted every essay .		0
+661	0	a gal who is criticizing every essay had insulted herself .		0
+662	0	a gal who is criticizing every essay had insulted itself .		0
+663	0	the women who remembered themselves weren ' t praising a newspaper article .		0
+664	0	the women who remembered itself weren ' t praising a newspaper article .		0
+665	0	the women who remembered a newspaper article weren ' t praising themselves .		0
+666	0	the women who remembered a newspaper article weren ' t praising itself .		0
+667	0	some books that can ' t resemble themselves resemble that woman .		0
+668	0	some books that can ' t resemble herself resemble that woman .		0
+669	0	some books that can ' t resemble that woman resemble themselves .		0
+670	0	some books that can ' t resemble that woman resemble herself .		0
+671	0	the men who aren ' t praising themselves work with the boy .		0
+672	0	the men who aren ' t praising himself work with the boy .		0
+673	0	the men who aren ' t praising the boy work with themselves .		0
+674	0	the men who aren ' t praising the boy work with himself .		0
+675	0	all teachers who work with themselves had known this lady .		0
+676	0	all teachers who work with herself had known this lady .		0
+677	0	all teachers who work with this lady had known themselves .		0
+678	0	all teachers who work with this lady had known herself .		0
+679	0	the girls that have cared for themselves couldn ' t describe this restaurant .		0
+680	0	the girls that have cared for itself couldn ' t describe this restaurant .		0
+681	0	the girls that have cared for this restaurant couldn ' t describe themselves .		0
+682	0	the girls that have cared for this restaurant couldn ' t describe itself .		0
+683	0	the woman who is listening to herself investigated all pedestrians .		0
+684	0	the woman who is listening to themselves investigated all pedestrians .		0
+685	0	the woman who is listening to all pedestrians investigated herself .		0
+686	0	the woman who is listening to all pedestrians investigated themselves .		0
+687	0	all doctors who investigate themselves aren ' t criticizing the commentary .		0
+688	0	all doctors who investigate itself aren ' t criticizing the commentary .		0
+689	0	all doctors who investigate the commentary aren ' t criticizing themselves .		0
+690	0	all doctors who investigate the commentary aren ' t criticizing itself .		0
+691	0	the guests who escape from themselves are talking about every newspaper article .		0
+692	0	the guests who escape from itself are talking about every newspaper article .		0
+693	0	the guests who escape from every newspaper article are talking about themselves .		0
+694	0	the guests who escape from every newspaper article are talking about itself .		0
+695	0	many patients who had seen themselves observe a man .		0
+696	0	many patients who had seen himself observe a man .		0
+697	0	many patients who had seen a man observe themselves .		0
+698	0	many patients who had seen a man observe himself .		0
+699	0	the pedestrians that watch themselves hate a newspaper article .		0
+700	0	the pedestrians that watch itself hate a newspaper article .		0
+701	0	the pedestrians that watch a newspaper article hate themselves .		0
+702	0	the pedestrians that watch a newspaper article hate itself .		0
+703	0	many waitress ##es that respect themselves did listen to that boy .		0
+704	0	many waitress ##es that respect himself did listen to that boy .		0
+705	0	many waitress ##es that respect that boy did listen to themselves .		0
+706	0	many waitress ##es that respect that boy did listen to himself .		0
+707	0	waiter ##s that flee from themselves will admire every gal .		0
+708	0	waiter ##s that flee from herself will admire every gal .		0
+709	0	waiter ##s that flee from every gal will admire themselves .		0
+710	0	waiter ##s that flee from every gal will admire herself .		0
+711	0	this boy that does admire himself wasn ' t talking about all teachers .		0
+712	0	this boy that does admire themselves wasn ' t talking about all teachers .		0
+713	0	this boy that does admire all teachers wasn ' t talking about himself .		0
+714	0	this boy that does admire all teachers wasn ' t talking about themselves .		0
+715	0	the men who can describe themselves investigate this man .		0
+716	0	the men who can describe himself investigate this man .		0
+717	0	the men who can describe this man investigate themselves .		0
+718	0	the men who can describe this man investigate himself .		0
+719	0	these actors who saw themselves had kissed every lady .		0
+720	0	these actors who saw herself had kissed every lady .		0
+721	0	these actors who saw every lady had kissed themselves .		0
+722	0	these actors who saw every lady had kissed herself .		0
+723	0	a lot of doctors who haven ' t returned to themselves hadn ' t admired the car .		0
+724	0	a lot of doctors who haven ' t returned to itself hadn ' t admired the car .		0
+725	0	a lot of doctors who haven ' t returned to the car hadn ' t admired themselves .		0
+726	0	a lot of doctors who haven ' t returned to the car hadn ' t admired itself .		0
+727	0	these cash ##iers who watch themselves won ' t hate the woman .		0
+728	0	these cash ##iers who watch herself won ' t hate the woman .		0
+729	0	these cash ##iers who watch the woman won ' t hate themselves .		0
+730	0	these cash ##iers who watch the woman won ' t hate herself .		0
+731	0	a lot of gal ##s that didn ' t watch themselves aren ' t referencing this lady .		0
+732	0	a lot of gal ##s that didn ' t watch herself aren ' t referencing this lady .		0
+733	0	a lot of gal ##s that didn ' t watch this lady aren ' t referencing themselves .		0
+734	0	a lot of gal ##s that didn ' t watch this lady aren ' t referencing herself .		0
+735	0	the actresses that don ' t talk about themselves could kiss a boy .		0
+736	0	the actresses that don ' t talk about himself could kiss a boy .		0
+737	0	the actresses that don ' t talk about a boy could kiss themselves .		0
+738	0	the actresses that don ' t talk about a boy could kiss himself .		0
+739	0	some actresses that are discussing themselves investigated this school .		0
+740	0	some actresses that are discussing itself investigated this school .		0
+741	0	some actresses that are discussing this school investigated themselves .		0
+742	0	some actresses that are discussing this school investigated itself .		0
+743	0	some waitress ##es that observe themselves will remember some essay .		0
+744	0	some waitress ##es that observe itself will remember some essay .		0
+745	0	some waitress ##es that observe some essay will remember themselves .		0
+746	0	some waitress ##es that observe some essay will remember itself .		0
+747	0	all students who returned to themselves couldn ' t discuss this report .		0
+748	0	all students who returned to itself couldn ' t discuss this report .		0
+749	0	all students who returned to this report couldn ' t discuss themselves .		0
+750	0	all students who returned to this report couldn ' t discuss itself .		0
+751	0	some man who had referenced himself hasn ' t worked with many people .		0
+752	0	some man who had referenced themselves hasn ' t worked with many people .		0
+753	0	some man who had referenced many people hasn ' t worked with himself .		0
+754	0	some man who had referenced many people hasn ' t worked with themselves .		0
+755	0	all men who forget themselves insulted every newspaper article .		0
+756	0	all men who forget itself insulted every newspaper article .		0
+757	0	all men who forget every newspaper article insulted themselves .		0
+758	0	all men who forget every newspaper article insulted itself .		0
+759	0	many cash ##iers that had fled from themselves couldn ' t insult every lady .		0
+760	0	many cash ##iers that had fled from herself couldn ' t insult every lady .		0
+761	0	many cash ##iers that had fled from every lady couldn ' t insult themselves .		0
+762	0	many cash ##iers that had fled from every lady couldn ' t insult herself .		0
+763	0	a lot of humans who investigate themselves knew this girl .		0
+764	0	a lot of humans who investigate herself knew this girl .		0
+765	0	a lot of humans who investigate this girl knew themselves .		0
+766	0	a lot of humans who investigate this girl knew herself .		0
+767	0	a lot of actors that haven ' t criticized themselves can observe a woman .		0
+768	0	a lot of actors that haven ' t criticized herself can observe a woman .		0
+769	0	a lot of actors that haven ' t criticized a woman can observe themselves .		0
+770	0	a lot of actors that haven ' t criticized a woman can observe herself .		0
+771	0	people that shouldn ' t like themselves had talked about that story .		0
+772	0	people that shouldn ' t like itself had talked about that story .		0
+773	0	people that shouldn ' t like that story had talked about themselves .		0
+774	0	people that shouldn ' t like that story had talked about itself .		0
+775	0	the waitress ##es who attack themselves love the story .		0
+776	0	the waitress ##es who attack itself love the story .		0
+777	0	the waitress ##es who attack the story love themselves .		0
+778	0	the waitress ##es who attack the story love itself .		0
+779	0	some guests that saw themselves have observed the actress .		0
+780	0	some guests that saw herself have observed the actress .		0
+781	0	some guests that saw the actress have observed themselves .		0
+782	0	some guests that saw the actress have observed herself .		0
+783	0	a lot of patients that didn ' t talk to themselves had worked with this waitress .		0
+784	0	a lot of patients that didn ' t talk to herself had worked with this waitress .		0
+785	0	a lot of patients that didn ' t talk to this waitress had worked with themselves .		0
+786	0	a lot of patients that didn ' t talk to this waitress had worked with herself .		0
+787	0	these people who had worked with themselves had insulted this girl .		0
+788	0	these people who had worked with herself had insulted this girl .		0
+789	0	these people who had worked with this girl had insulted themselves .		0
+790	0	these people who had worked with this girl had insulted herself .		0
+791	0	the actress who returned to herself talked to a lot of teachers .		0
+792	0	the actress who returned to themselves talked to a lot of teachers .		0
+793	0	the actress who returned to a lot of teachers talked to herself .		0
+794	0	the actress who returned to a lot of teachers talked to themselves .		0
+795	0	the actresses that will describe themselves weren ' t referencing a woman .		0
+796	0	the actresses that will describe herself weren ' t referencing a woman .		0
+797	0	the actresses that will describe a woman weren ' t referencing themselves .		0
+798	0	the actresses that will describe a woman weren ' t referencing herself .		0
+799	0	every lady that praises herself isn ' t kissing a lot of actors .		0
+800	0	every lady that praises themselves isn ' t kissing a lot of actors .		0
+801	0	every lady that praises a lot of actors isn ' t kissing herself .		0
+802	0	every lady that praises a lot of actors isn ' t kissing themselves .		0
+803	0	all guests who might observe themselves haven ' t talked to the woman .		0
+804	0	all guests who might observe herself haven ' t talked to the woman .		0
+805	0	all guests who might observe the woman haven ' t talked to themselves .		0
+806	0	all guests who might observe the woman haven ' t talked to herself .		0
+807	0	women that approached themselves had criticized this documentary .		0
+808	0	women that approached itself had criticized this documentary .		0
+809	0	women that approached this documentary had criticized themselves .		0
+810	0	women that approached this documentary had criticized itself .		0
+811	0	doctors that liked themselves didn ' t admire that shirt .		0
+812	0	doctors that liked itself didn ' t admire that shirt .		0
+813	0	doctors that liked that shirt didn ' t admire themselves .		0
+814	0	doctors that liked that shirt didn ' t admire itself .		0
+815	0	some girls that knew themselves have kissed the girl .		0
+816	0	some girls that knew herself have kissed the girl .		0
+817	0	some girls that knew the girl have kissed themselves .		0
+818	0	some girls that knew the girl have kissed herself .		0
+819	0	this waitress who kissed herself has insulted some high school .		0
+820	0	this waitress who kissed itself has insulted some high school .		0
+821	0	this waitress who kissed some high school has insulted herself .		0
+822	0	this waitress who kissed some high school has insulted itself .		0
+823	0	some book that wasn ' t discussing itself resembles some movies .		0
+824	0	some book that wasn ' t discussing themselves resembles some movies .		0
+825	0	some book that wasn ' t discussing some movies resembles itself .		0
+826	0	some book that wasn ' t discussing some movies resembles themselves .		0
+827	0	every gal that was fleeing from herself wasn ' t hugging the guy .		0
+828	0	every gal that was fleeing from himself wasn ' t hugging the guy .		0
+829	0	every gal that was fleeing from the guy wasn ' t hugging herself .		0
+830	0	every gal that was fleeing from the guy wasn ' t hugging himself .		0
+831	0	many actors who were approaching themselves haven ' t cared for that waitress .		0
+832	0	many actors who were approaching herself haven ' t cared for that waitress .		0
+833	0	many actors who were approaching that waitress haven ' t cared for themselves .		0
+834	0	many actors who were approaching that waitress haven ' t cared for herself .		0
+835	0	every story that praises itself can talk about some teachers .		0
+836	0	every story that praises themselves can talk about some teachers .		0
+837	0	every story that praises some teachers can talk about itself .		0
+838	0	every story that praises some teachers can talk about themselves .		0
+839	0	many adults that care for themselves talked about this documentary .		0
+840	0	many adults that care for itself talked about this documentary .		0
+841	0	many adults that care for this documentary talked about themselves .		0
+842	0	many adults that care for this documentary talked about itself .		0
+843	0	a boy who should love himself didn ' t care for cash ##iers .		0
+844	0	a boy who should love themselves didn ' t care for cash ##iers .		0
+845	0	a boy who should love cash ##iers didn ' t care for himself .		0
+846	0	a boy who should love cash ##iers didn ' t care for themselves .		0
+847	0	the girls that leave themselves haven ' t seen the man .		0
+848	0	the girls that leave himself haven ' t seen the man .		0
+849	0	the girls that leave the man haven ' t seen themselves .		0
+850	0	the girls that leave the man haven ' t seen himself .		0
+851	0	a lot of ladies that knew themselves haven ' t known the boy .		0
+852	0	a lot of ladies that knew himself haven ' t known the boy .		0
+853	0	a lot of ladies that knew the boy haven ' t known themselves .		0
+854	0	a lot of ladies that knew the boy haven ' t known himself .		0
+855	0	a lot of ladies that can ' t discuss themselves liked some dish .		0
+856	0	a lot of ladies that can ' t discuss itself liked some dish .		0
+857	0	a lot of ladies that can ' t discuss some dish liked themselves .		0
+858	0	a lot of ladies that can ' t discuss some dish liked itself .		0
+859	0	waiter ##s that are hugging themselves forget some actress .		0
+860	0	waiter ##s that are hugging herself forget some actress .		0
+861	0	waiter ##s that are hugging some actress forget themselves .		0
+862	0	waiter ##s that are hugging some actress forget herself .		0
+863	0	a lot of actors that left themselves haven ' t respected every actress .		0
+864	0	a lot of actors that left herself haven ' t respected every actress .		0
+865	0	a lot of actors that left every actress haven ' t respected themselves .		0
+866	0	a lot of actors that left every actress haven ' t respected herself .		0
+867	0	these students that love themselves haven ' t kissed the guy .		0
+868	0	these students that love himself haven ' t kissed the guy .		0
+869	0	these students that love the guy haven ' t kissed themselves .		0
+870	0	these students that love the guy haven ' t kissed himself .		0
+871	0	many men that will discuss themselves have described some gal .		0
+872	0	many men that will discuss herself have described some gal .		0
+873	0	many men that will discuss some gal have described themselves .		0
+874	0	many men that will discuss some gal have described herself .		0
+875	0	students who should watch themselves haven ' t praised this documentary .		0
+876	0	students who should watch itself haven ' t praised this documentary .		0
+877	0	students who should watch this documentary haven ' t praised themselves .		0
+878	0	students who should watch this documentary haven ' t praised itself .		0
+879	0	that waitress who isn ' t working with herself can help all drivers .		0
+880	0	that waitress who isn ' t working with themselves can help all drivers .		0
+881	0	that waitress who isn ' t working with all drivers can help herself .		0
+882	0	that waitress who isn ' t working with all drivers can help themselves .		0
+883	0	the teenagers who couldn ' t love themselves haven ' t worked with every lady .		0
+884	0	the teenagers who couldn ' t love herself haven ' t worked with every lady .		0
+885	0	the teenagers who couldn ' t love every lady haven ' t worked with themselves .		0
+886	0	the teenagers who couldn ' t love every lady haven ' t worked with herself .		0
+887	0	the pedestrians who will hate themselves were returning to every boy .		0
+888	0	the pedestrians who will hate himself were returning to every boy .		0
+889	0	the pedestrians who will hate every boy were returning to themselves .		0
+890	0	the pedestrians who will hate every boy were returning to himself .		0
+891	0	these teachers who have left themselves wouldn ' t escape from the hospital .		0
+892	0	these teachers who have left itself wouldn ' t escape from the hospital .		0
+893	0	these teachers who have left the hospital wouldn ' t escape from themselves .		0
+894	0	these teachers who have left the hospital wouldn ' t escape from itself .		0
+895	0	humans who discuss themselves haven ' t listened to some gal .		0
+896	0	humans who discuss herself haven ' t listened to some gal .		0
+897	0	humans who discuss some gal haven ' t listened to themselves .		0
+898	0	humans who discuss some gal haven ' t listened to herself .		0
+899	0	a lady who shouldn ' t investigate herself listened to the guests .		0
+900	0	a lady who shouldn ' t investigate themselves listened to the guests .		0
+901	0	a lady who shouldn ' t investigate the guests listened to herself .		0
+902	0	a lady who shouldn ' t investigate the guests listened to themselves .		0
+903	0	these waitress ##es that are returning to themselves dislike every art gallery .		0
+904	0	these waitress ##es that are returning to itself dislike every art gallery .		0
+905	0	these waitress ##es that are returning to every art gallery dislike themselves .		0
+906	0	these waitress ##es that are returning to every art gallery dislike itself .		0
+907	0	many actresses who loved themselves return to this hospital .		0
+908	0	many actresses who loved itself return to this hospital .		0
+909	0	many actresses who loved this hospital return to themselves .		0
+910	0	many actresses who loved this hospital return to itself .		0
+911	0	all boys who forget themselves kiss this actress .		0
+912	0	all boys who forget herself kiss this actress .		0
+913	0	all boys who forget this actress kiss themselves .		0
+914	0	all boys who forget this actress kiss herself .		0
+915	0	all ladies that see themselves can ' t flee from the movie theater .		0
+916	0	all ladies that see itself can ' t flee from the movie theater .		0
+917	0	all ladies that see the movie theater can ' t flee from themselves .		0
+918	0	all ladies that see the movie theater can ' t flee from itself .		0
+919	0	the guys that might praise themselves described every hospital .		0
+920	0	the guys that might praise itself described every hospital .		0
+921	0	the guys that might praise every hospital described themselves .		0
+922	0	the guys that might praise every hospital described itself .		0
+923	0	the pedestrians that do visit themselves do talk to a girl .		0
+924	0	the pedestrians that do visit herself do talk to a girl .		0
+925	0	the pedestrians that do visit a girl do talk to themselves .		0
+926	0	the pedestrians that do visit a girl do talk to herself .		0
+927	0	boys that insult themselves attacked that guy .		0
+928	0	boys that insult himself attacked that guy .		0
+929	0	boys that insult that guy attacked themselves .		0
+930	0	boys that insult that guy attacked himself .		0
+931	0	some doctors who kiss themselves discuss this actress .		0
+932	0	some doctors who kiss herself discuss this actress .		0
+933	0	some doctors who kiss this actress discuss themselves .		0
+934	0	some doctors who kiss this actress discuss herself .		0
+935	0	the newspaper article that shouldn ' t critic ##ize itself criticized a waitress .		0
+936	0	the newspaper article that shouldn ' t critic ##ize herself criticized a waitress .		0
+937	0	the newspaper article that shouldn ' t critic ##ize a waitress criticized itself .		0
+938	0	the newspaper article that shouldn ' t critic ##ize a waitress criticized herself .		0
+939	0	many ladies that shouldn ' t hate themselves respected some college campus .		0
+940	0	many ladies that shouldn ' t hate itself respected some college campus .		0
+941	0	many ladies that shouldn ' t hate some college campus respected themselves .		0
+942	0	many ladies that shouldn ' t hate some college campus respected itself .		0
+943	0	a lot of children that wouldn ' t reference themselves should remember that cafe .		0
+944	0	a lot of children that wouldn ' t reference itself should remember that cafe .		0
+945	0	a lot of children that wouldn ' t reference that cafe should remember themselves .		0
+946	0	a lot of children that wouldn ' t reference that cafe should remember itself .		0
+947	0	some customers that were discussing themselves respect some boy .		0
+948	0	some customers that were discussing himself respect some boy .		0
+949	0	some customers that were discussing some boy respect themselves .		0
+950	0	some customers that were discussing some boy respect himself .		0
+951	0	the gal ##s that could escape from themselves kiss a guy .		0
+952	0	the gal ##s that could escape from himself kiss a guy .		0
+953	0	the gal ##s that could escape from a guy kiss themselves .		0
+954	0	the gal ##s that could escape from a guy kiss himself .		0
+955	0	a lot of teenagers that describe themselves have referenced some boy .		0
+956	0	a lot of teenagers that describe himself have referenced some boy .		0
+957	0	a lot of teenagers that describe some boy have referenced themselves .		0
+958	0	a lot of teenagers that describe some boy have referenced himself .		0
+959	0	all humans who aren ' t fleeing from themselves have observed every waitress .		0
+960	0	all humans who aren ' t fleeing from herself have observed every waitress .		0
+961	0	all humans who aren ' t fleeing from every waitress have observed themselves .		0
+962	0	all humans who aren ' t fleeing from every waitress have observed herself .		0
+963	0	that lady who hadn ' t helped herself has observed the children .		0
+964	0	that lady who hadn ' t helped themselves has observed the children .		0
+965	0	that lady who hadn ' t helped the children has observed herself .		0
+966	0	that lady who hadn ' t helped the children has observed themselves .		0
+967	0	all pedestrians that saw themselves haven ' t known this woman .		0
+968	0	all pedestrians that saw herself haven ' t known this woman .		0
+969	0	all pedestrians that saw this woman haven ' t known themselves .		0
+970	0	all pedestrians that saw this woman haven ' t known herself .		0
+971	0	many ladies who haven ' t listened to themselves criticized this movie theater .		0
+972	0	many ladies who haven ' t listened to itself criticized this movie theater .		0
+973	0	many ladies who haven ' t listened to this movie theater criticized themselves .		0
+974	0	many ladies who haven ' t listened to this movie theater criticized itself .		0
+975	0	every woman who describes herself admired that boy .		0
+976	0	every woman who describes himself admired that boy .		0
+977	0	every woman who describes that boy admired herself .		0
+978	0	every woman who describes that boy admired himself .		0
+979	0	these people that disliked themselves couldn ' t talk about every man .		0
+980	0	these people that disliked himself couldn ' t talk about every man .		0
+981	0	these people that disliked every man couldn ' t talk about themselves .		0
+982	0	these people that disliked every man couldn ' t talk about himself .		0
+983	0	all humans that won ' t talk to themselves reference that gal .		0
+984	0	all humans that won ' t talk to herself reference that gal .		0
+985	0	all humans that won ' t talk to that gal reference themselves .		0
+986	0	all humans that won ' t talk to that gal reference herself .		0
+987	0	many actresses that aren ' t admiring themselves have remembered that newspaper article .		0
+988	0	many actresses that aren ' t admiring itself have remembered that newspaper article .		0
+989	0	many actresses that aren ' t admiring that newspaper article have remembered themselves .		0
+990	0	many actresses that aren ' t admiring that newspaper article have remembered itself .		0
+991	0	the men who aren ' t investigating themselves hadn ' t known an actress .		0
+992	0	the men who aren ' t investigating herself hadn ' t known an actress .		0
+993	0	the men who aren ' t investigating an actress hadn ' t known themselves .		0
+994	0	the men who aren ' t investigating an actress hadn ' t known herself .		0
+995	0	the report that can ' t describe itself is talking about a lot of gal ##s .		0
+996	0	the report that can ' t describe themselves is talking about a lot of gal ##s .		0
+997	0	the report that can ' t describe a lot of gal ##s is talking about itself .		0
+998	0	the report that can ' t describe a lot of gal ##s is talking about themselves .		0

@@ -1,0 +1,108 @@
+experiment=npi_scope-npi=any-aux=won't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Some actress who has cleaned a lot of reports won't listen to any boys.
+experiment=npi_scope-npi=any-aux=won't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Some actress who has cleaned any reports won't listen to a lot of boys.
+experiment=npi_scope-npi=any-aux=hadn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Some actress who hadn't cleaned a lot of reports could listen to any boys.
+experiment=npi_scope-npi=any-aux=hadn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Some actress who hadn't cleaned any reports could listen to a lot of boys.
+experiment=npi_scope-npi=any-aux=weren't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		A lot of waiters that might sell a lot of couches weren't talking about any documentaries.
+experiment=npi_scope-npi=any-aux=weren't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		A lot of waiters that might sell any couches weren't talking about documentaries.
+experiment=npi_scope-npi=any-aux=don't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		A lot of waiters that don't sell a lot of couches are talking about any documentaries.
+experiment=npi_scope-npi=any-aux=don't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		A lot of waiters that don't sell any couches are talking about documentaries.
+experiment=npi_scope-npi=any-aux=weren't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		The actors who have bought chairs weren't talking to any ladies.
+experiment=npi_scope-npi=any-aux=weren't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		The actors who have bought any chairs weren't talking to the ladies.
+experiment=npi_scope-npi=any-aux=hadn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		The actors who hadn't bought chairs were talking to any ladies.
+experiment=npi_scope-npi=any-aux=hadn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		The actors who hadn't bought any chairs were talking to the ladies.
+experiment=npi_scope-npi=any-aux=wouldn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		A gal who should attack the teachers wouldn't discuss any cafes.
+experiment=npi_scope-npi=any-aux=wouldn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		A gal who should attack any teachers wouldn't discuss a lot of cafes.
+experiment=npi_scope-npi=any-aux=won't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		A gal who won't attack the teachers could discuss any cafes.
+experiment=npi_scope-npi=any-aux=won't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		A gal who won't attack any teachers could discuss a lot of cafes.
+experiment=npi_scope-npi=any-aux=hadn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		A story that is insulting many schools hadn't discussed any pedestrians.
+experiment=npi_scope-npi=any-aux=hadn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		A story that is insulting any schools hadn't discussed some pedestrians.
+experiment=npi_scope-npi=any-aux=isn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		A story that isn't insulting many schools has discussed any pedestrians.
+experiment=npi_scope-npi=any-aux=isn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		A story that isn't insulting any schools has discussed some pedestrians.
+experiment=npi_scope-npi=any-aux=aren't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Stories that were criticizing the waitresses aren't referencing any men.
+experiment=npi_scope-npi=any-aux=aren't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Stories that were criticizing any waitresses aren't referencing a lot of men.
+experiment=npi_scope-npi=any-aux=weren't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Stories that weren't criticizing the waitresses are referencing any men.
+experiment=npi_scope-npi=any-aux=weren't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Stories that weren't criticizing any waitresses are referencing a lot of men.
+experiment=npi_scope-npi=any-aux=couldn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		The person who did help the women couldn't drop by any public parks.
+experiment=npi_scope-npi=any-aux=couldn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		The person who did help any women couldn't drop by a lot of public parks.
+experiment=npi_scope-npi=any-aux=can't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		The person who can't help the women might drop by any public parks.
+experiment=npi_scope-npi=any-aux=can't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		The person who can't help any women might drop by a lot of public parks.
+experiment=npi_scope-npi=any-aux=won't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		A customer who will tour some museums won't wear any glasses.
+experiment=npi_scope-npi=any-aux=won't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		A customer who will tour any museums won't wear a lot of glasses.
+experiment=npi_scope-npi=any-aux=shouldn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		A customer who shouldn't tour some museums could wear any glasses.
+experiment=npi_scope-npi=any-aux=shouldn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		A customer who shouldn't tour any museums could wear a lot of glasses.
+experiment=npi_scope-npi=any-aux=hadn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		The pedestrian that can buy the cups hadn't attacked any girls.
+experiment=npi_scope-npi=any-aux=hadn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		The pedestrian that can buy any cups hadn't attacked the girls.
+experiment=npi_scope-npi=any-aux=didn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		The pedestrian that didn't buy the cups had attacked any girls.
+experiment=npi_scope-npi=any-aux=didn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		The pedestrian that didn't buy any cups had attacked the girls.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		The ladies that had hugged a lot of gals hadn't ever attacked the adults.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		The ladies that had ever hugged a lot of gals hadn't attacked the adults.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		The ladies that haven't hugged a lot of gals have ever attacked the adults.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		The ladies that haven't ever hugged a lot of gals have attacked the adults.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Many schools that could resemble the men haven't ever respected teachers.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Many schools that could ever resemble the men haven't respected teachers.
+experiment=npi_scope-npi=ever-aux=couldn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Many schools that couldn't resemble the men have ever respected teachers.
+experiment=npi_scope-npi=ever-aux=couldn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Many schools that couldn't ever resemble the men have respected teachers.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Waitresses that have walked through some art galleries haven't ever skated around a lot of grocery stores.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Waitresses that have ever walked through some art galleries haven't skated around a lot of grocery stores.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Waitresses that hadn't walked through some art galleries had ever skated around a lot of grocery stores.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Waitresses that hadn't ever walked through some art galleries had skated around a lot of grocery stores.
+experiment=npi_scope-npi=ever-aux=can't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Some adult that has disliked many students can't ever talk about some libraries.
+experiment=npi_scope-npi=ever-aux=can't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Some adult that has ever disliked many students can't talk about some libraries.
+experiment=npi_scope-npi=ever-aux=hasn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Some adult that hasn't disliked many students does ever talk about some libraries.
+experiment=npi_scope-npi=ever-aux=hasn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Some adult that hasn't ever disliked many students does talk about some libraries.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		The waitress who can examine a lot of newspaper articles hadn't ever helped many boys.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		The waitress who can ever examine a lot of newspaper articles hadn't helped many boys.
+experiment=npi_scope-npi=ever-aux=doesn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		The waitress who doesn't examine a lot of newspaper articles has ever helped many boys.
+experiment=npi_scope-npi=ever-aux=doesn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		The waitress who doesn't ever examine a lot of newspaper articles has helped many boys.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Some pedestrian who had biked to the movie theaters hadn't ever helped women.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Some pedestrian who had ever biked to the movie theaters hadn't helped women.
+experiment=npi_scope-npi=ever-aux=hasn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Some pedestrian who hasn't biked to the movie theaters has ever helped women.
+experiment=npi_scope-npi=ever-aux=hasn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Some pedestrian who hasn't ever biked to the movie theaters has helped women.
+experiment=npi_scope-npi=ever-aux=wouldn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Some plays that had talked about the movie theaters wouldn't ever be at many museums.
+experiment=npi_scope-npi=ever-aux=wouldn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Some plays that had ever talked about the movie theaters wouldn't be at many museums.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Some plays that haven't talked about the movie theaters might ever be at many museums.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Some plays that haven't ever talked about the movie theaters might be at many museums.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		The patient who might criticize some college campuses hadn't ever praised documentaries.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		The patient who might ever criticize some college campuses hadn't praised documentaries.
+experiment=npi_scope-npi=ever-aux=wouldn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		The patient who wouldn't criticize some college campuses had ever praised documentaries.
+experiment=npi_scope-npi=ever-aux=wouldn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		The patient who wouldn't ever criticize some college campuses had praised documentaries.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Movies that had described some waitresses haven't ever praised a lot of teenagers.
+experiment=npi_scope-npi=ever-aux=haven't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Movies that had ever described some waitresses haven't praised a lot of teenagers.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Movies that hadn't described some waitresses have ever praised a lot of teenagers.
+experiment=npi_scope-npi=ever-aux=hadn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Movies that hadn't ever described some waitresses have praised a lot of teenagers.
+experiment=npi_scope-npi=yet-aux=weren't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		The drivers that had broken dishes weren't being at some grocery stores yet.
+experiment=npi_scope-npi=yet-aux=weren't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		The drivers that had broken dishes yet weren't being at some grocery stores.
+experiment=npi_scope-npi=yet-aux=haven't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		The drivers that haven't broken dishes were being at some grocery stores yet.
+experiment=npi_scope-npi=yet-aux=haven't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		The drivers that haven't broken dishes yet were being at some grocery stores.
+experiment=npi_scope-npi=yet-aux=hasn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Some girl that has discussed many commentaries hasn't fled from some humans yet.
+experiment=npi_scope-npi=yet-aux=hasn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Some girl that has discussed many commentaries yet hasn't fled from some humans.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Some girl that hadn't discussed many commentaries had fled from some humans yet.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Some girl that hadn't discussed many commentaries yet had fled from some humans.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Some student who was boycotting the movie theaters hadn't approached a lot of gals yet.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Some student who was boycotting the movie theaters yet hadn't approached a lot of gals.
+experiment=npi_scope-npi=yet-aux=isn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Some student who isn't boycotting the movie theaters has approached a lot of gals yet.
+experiment=npi_scope-npi=yet-aux=isn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Some student who isn't boycotting the movie theaters yet has approached a lot of gals.
+experiment=npi_scope-npi=yet-aux=hasn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Some gal that has disliked some cashiers hasn't cleaned the shoes yet.
+experiment=npi_scope-npi=yet-aux=hasn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Some gal that has disliked some cashiers yet hasn't cleaned the shoes.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Some gal that hadn't disliked some cashiers had cleaned the shoes yet.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Some gal that hadn't disliked some cashiers yet had cleaned the shoes.
+experiment=npi_scope-npi=yet-aux=hasn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Some lady who has discussed some men hasn't attacked gals yet.
+experiment=npi_scope-npi=yet-aux=hasn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Some lady who has discussed some men yet hasn't attacked gals.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Some lady who hadn't discussed some men had attacked gals yet.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Some lady who hadn't discussed some men yet had attacked gals.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Some waitress who will buy many cups hadn't kissed humans yet.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Some waitress who will buy many cups yet hadn't kissed humans.
+experiment=npi_scope-npi=yet-aux=can't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Some waitress who can't buy many cups had kissed humans yet.
+experiment=npi_scope-npi=yet-aux=can't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Some waitress who can't buy many cups yet had kissed humans.
+experiment=npi_scope-npi=yet-aux=can't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		An actor that has seen many children can't boycott the libraries yet.
+experiment=npi_scope-npi=yet-aux=can't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		An actor that has seen many children yet can't boycott the libraries.
+experiment=npi_scope-npi=yet-aux=hasn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		An actor that hasn't seen many children could boycott the libraries yet.
+experiment=npi_scope-npi=yet-aux=hasn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		An actor that hasn't seen many children yet could boycott the libraries.
+experiment=npi_scope-npi=yet-aux=haven't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		Many books that are describing some guys haven't hated children yet.
+experiment=npi_scope-npi=yet-aux=haven't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		Many books that are describing some guys yet haven't hated children.
+experiment=npi_scope-npi=yet-aux=aren't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		Many books that aren't describing some guys have hated children yet.
+experiment=npi_scope-npi=yet-aux=aren't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		Many books that aren't describing some guys yet have hated children.
+experiment=npi_scope-npi=yet-aux=haven't-licensor_embedded=0-npi_embedded=0-licensor_precede=1	1		A lot of humans who had disliked many plays haven't described high schools yet.
+experiment=npi_scope-npi=yet-aux=haven't-licensor_embedded=0-npi_embedded=1-licensor_precede=0	0		A lot of humans who had disliked many plays yet haven't described high schools.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=1-npi_embedded=0-licensor_precede=1	0		A lot of humans who hadn't disliked many plays have described high schools yet.
+experiment=npi_scope-npi=yet-aux=hadn't-licensor_embedded=1-npi_embedded=1-licensor_precede=1	1		A lot of humans who hadn't disliked many plays yet have described high schools.

@@ -1,0 +1,100 @@
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Many boys that aren't talking to themselves left the girl.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=0	0		Many boys that aren't talking to herself left the girl.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Many boys that aren't talking to the girl left themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=herself-precede=1	0		Many boys that aren't talking to the girl left herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Teachers that approached themselves have fled from that lady.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=0	0		Teachers that approached herself have fled from that lady.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Teachers that approached that lady have fled from themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=herself-precede=1	0		Teachers that approached that lady have fled from herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=himself-refl2=themselves-precede=1	1		The man who doesn't like himself hasn't remembered a lot of cafes.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=himself-refl2=themselves-precede=0	0		The man who doesn't like themselves hasn't remembered a lot of cafes.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=himself-refl2=themselves-precede=1	1		The man who doesn't like a lot of cafes hasn't remembered himself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=himself-refl2=themselves-precede=1	0		The man who doesn't like a lot of cafes hasn't remembered themselves.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=herself-refl2=itself-precede=1	1		The actress that discusses herself will return to every mall.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=herself-refl2=itself-precede=0	0		The actress that discusses itself will return to every mall.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=herself-refl2=itself-precede=1	1		The actress that discusses every mall will return to herself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=herself-refl2=itself-precede=1	0		The actress that discusses every mall will return to itself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		All teachers that haven't approached themselves are attacking the actress.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=0	0		All teachers that haven't approached herself are attacking the actress.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		All teachers that haven't approached the actress are attacking themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=herself-precede=1	0		All teachers that haven't approached the actress are attacking herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		All humans that weren't talking to themselves insult that newspaper article.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=0	0		All humans that weren't talking to itself insult that newspaper article.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		All humans that weren't talking to that newspaper article insult themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=itself-precede=1	0		All humans that weren't talking to that newspaper article insult itself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=himself-precede=1	1		Some women who left themselves reference a guy.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=himself-precede=0	0		Some women who left himself reference a guy.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=himself-precede=1	1		Some women who left a guy reference themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=himself-precede=1	0		Some women who left a guy reference himself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=itself-refl2=themselves-precede=1	1		A newspaper article that hadn't referenced itself talked about these public parks.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=itself-refl2=themselves-precede=0	0		A newspaper article that hadn't referenced themselves talked about these public parks.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=itself-refl2=themselves-precede=1	1		A newspaper article that hadn't referenced these public parks talked about itself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=itself-refl2=themselves-precede=1	0		A newspaper article that hadn't referenced these public parks talked about themselves.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		Some commentaries that weren't describing themselves don't reference that report.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=0	0		Some commentaries that weren't describing itself don't reference that report.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		Some commentaries that weren't describing that report don't reference themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=itself-precede=1	0		Some commentaries that weren't describing that report don't reference itself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Many teachers that didn't help themselves hadn't observed some actress.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=0	0		Many teachers that didn't help herself hadn't observed some actress.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Many teachers that didn't help some actress hadn't observed themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=herself-precede=1	0		Many teachers that didn't help some actress hadn't observed herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		All men who will escape from themselves were fleeing from that restaurant.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=0	0		All men who will escape from itself were fleeing from that restaurant.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		All men who will escape from that restaurant were fleeing from themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=itself-precede=1	0		All men who will escape from that restaurant were fleeing from itself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=himself-refl2=themselves-precede=1	1		This boy that observes himself did remember a lot of high schools.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=himself-refl2=themselves-precede=0	0		This boy that observes themselves did remember a lot of high schools.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=himself-refl2=themselves-precede=1	1		This boy that observes a lot of high schools did remember himself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=himself-refl2=themselves-precede=1	0		This boy that observes a lot of high schools did remember themselves.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Many doctors who reference themselves hadn't talked to this woman.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=0	0		Many doctors who reference herself hadn't talked to this woman.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Many doctors who reference this woman hadn't talked to themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=herself-precede=1	0		Many doctors who reference this woman hadn't talked to herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Some students who insult themselves worked with every woman.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=0	0		Some students who insult herself worked with every woman.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Some students who insult every woman worked with themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=herself-precede=1	0		Some students who insult every woman worked with herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		Many guys who respected themselves had returned to that hospital.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=0	0		Many guys who respected itself had returned to that hospital.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		Many guys who respected that hospital had returned to themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=itself-precede=1	0		Many guys who respected that hospital had returned to itself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=herself-refl2=themselves-precede=1	1		That actress that kisses herself could kiss all cashiers.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=herself-refl2=themselves-precede=0	0		That actress that kisses themselves could kiss all cashiers.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=herself-refl2=themselves-precede=1	1		That actress that kisses all cashiers could kiss herself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=herself-refl2=themselves-precede=1	0		That actress that kisses all cashiers could kiss themselves.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		A lot of patients that couldn't remember themselves have worked with that gal.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=0	0		A lot of patients that couldn't remember herself have worked with that gal.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		A lot of patients that couldn't remember that gal have worked with themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=herself-precede=1	0		A lot of patients that couldn't remember that gal have worked with herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Actors who would visit themselves can't watch this girl.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=0	0		Actors who would visit herself can't watch this girl.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Actors who would visit this girl can't watch themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=herself-precede=1	0		Actors who would visit this girl can't watch herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=herself-refl2=themselves-precede=1	1		That actress who approached herself can't listen to actors.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=herself-refl2=themselves-precede=0	0		That actress who approached themselves can't listen to actors.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=herself-refl2=themselves-precede=1	1		That actress who approached actors can't listen to herself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=herself-refl2=themselves-precede=1	0		That actress who approached actors can't listen to themselves.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=himself-refl2=herself-precede=1	1		That boy that sees himself helps this girl.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=himself-refl2=herself-precede=0	0		That boy that sees herself helps this girl.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=himself-refl2=herself-precede=1	1		That boy that sees this girl helps himself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=himself-refl2=herself-precede=1	0		That boy that sees this girl helps herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=himself-precede=1	1		All women who hadn't loved themselves watched some man.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=himself-precede=0	0		All women who hadn't loved himself watched some man.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=himself-precede=1	1		All women who hadn't loved some man watched themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=himself-precede=1	0		All women who hadn't loved some man watched himself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=itself-refl2=themselves-precede=1	1		The documentary that is referencing itself resembles the guys.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=itself-refl2=themselves-precede=0	0		The documentary that is referencing themselves resembles the guys.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=itself-refl2=themselves-precede=1	1		The documentary that is referencing the guys resembles itself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=itself-refl2=themselves-precede=1	0		The documentary that is referencing the guys resembles themselves.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=itself-refl2=themselves-precede=1	1		That play that had referenced itself can discuss a lot of teachers.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=itself-refl2=themselves-precede=0	0		That play that had referenced themselves can discuss a lot of teachers.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=itself-refl2=themselves-precede=1	1		That play that had referenced a lot of teachers can discuss itself.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=itself-refl2=themselves-precede=1	0		That play that had referenced a lot of teachers can discuss themselves.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Boys that loved themselves had fled from a waitress.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=0	0		Boys that loved herself had fled from a waitress.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=herself-precede=1	1		Boys that loved a waitress had fled from themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=herself-precede=1	0		Boys that loved a waitress had fled from herself.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		The people who haven't watched themselves would describe every movie.
+exp=reflexive-matrix_reflexive=0-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=0	0		The people who haven't watched itself would describe every movie.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=1-refl1=themselves-refl2=itself-precede=1	1		The people who haven't watched every movie would describe themselves.
+exp=reflexive-matrix_reflexive=1-matrix_antecedent=0-refl1=themselves-refl2=itself-precede=1	0		The people who haven't watched every movie would describe itself.
