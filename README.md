@@ -13,7 +13,7 @@ If you use this data or these scripts in your work, please cite the paper as fol
 @inproceedings{warstadt2020can,
   title={Can neural networks acquire a structural bias from raw linguistic data?},
   author={Warstadt, Alex and Bowman, Samuel R},
-  Booktitle = {Proceedings of the 40th Annual Conference of the Cognitive Science Society.},
+  Booktitle = {Proceedings of the 42nd Annual Conference of the Cognitive Science Society.},
   year={2020}
 }
 ```
