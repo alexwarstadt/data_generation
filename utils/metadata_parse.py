@@ -41,14 +41,14 @@ def make_subsets(in_domain_size):
     """
 
     large_table = []
-    npi_path = "../outputs/npi/"
+    npi_path = "../data/npi/"
     for file in os.listdir(npi_path):
         if file[-4:] == ".tsv":
             large_table.append(read_data_tsv(os.path.join(npi_path, file)))
 
     stack = np.concatenate(large_table)
     environments = set(stack["env"])
-    output_dir = "../outputs/npi/subsets_6"
+    output_dir = "../data/npi/subsets_6"
     subsets = list(itertools.combinations(environments, in_domain_size))
     for in_domain in subsets:
         out_domain = np.setdiff1d(list(environments), in_domain)

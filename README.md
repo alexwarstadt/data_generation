@@ -1,53 +1,19 @@
-# data_generation
+# data_generation#structural_bias_cogsci
 
-This project includes utilities for generating sentences with certain grammatical properties.
+This branch includes the datasets for the four experiments in the paper ["Can neural networks acquire a structural bias from raw linguistic data?"](https://arxiv.org/abs/2007.06761).
 
+## Project structure
+- data: Contains datasets from the four experiments.
+- generation_projects/structural_bias_cogsci: Contains scripts for generating the four datasets.
+- utils: Contains general data generation code.
 
-OVERVIEW
-
-A shared vocabulary is vocabulary.csv to be read by the code.
-
-The utils package contains shared functionality for reading the vocab and accessing fields.
-
-The generation_projects package contains scripts for specific generated datasets.
-
-
-VOCABULARY
-
-The vocabulary lives in vocabulary.csv.
-
-If you add a new column, you must update utils/data_type.py.
-
-If you add a new row, definitely fill out all the relevant selectional restrictions.
-
-Selectional restrictions are written in disjunctive normal form:
-    A single condition is written as LABEL=VALUE.
-    The symbol ";" is used for disjunction.
-    The symbol "^" is used for conjunction.
-    The entire selectional restriction should be written in the from a1^...^an;...;z1^...^zn. This matches any vocab
-    item which matches conditions all of a1, ...., and an, OR ..., OR all of z1, ..., and zn
-
-
-UTILS
-utils.conjugate includes functions which conjugate verbs and add selecting auxiliaries/modals
-utils.constituent_building includes functions which "do syntax":
-    - build a subject relative clause from a head (subject_relative_clause)
-    - gather all arguments of a verb (verb_args_from_verb)
-utils.data_type contains the all-important data_type necessary for the numpy structured array data structure used in the vocabulary
-utils.string_utils contains functions for modifying strings
-utils.vocab_table contains functions for creating and accessing the vocabulary table
-    - get_all gathers all vocab items with a given restriction
-    - get_all_conjunctive gathers all vocab items with the given restrictions
-
-
-DOCUMENTATION
-Within each project's output directory, there is (should be) a docs document which explains:
-    - the metadata in the output file
-    - the data paradigm
-
-
-GENERATION PROJECTS
-long distance
-npi
-plurality
-structure dependence
+## Citation
+If you use this data or these scripts in your work, please cite the paper as follows:
+```
+@inproceedings{warstadt2020can,
+  title={Can neural networks acquire a structural bias from raw linguistic data?},
+  author={Warstadt, Alex and Bowman, Samuel R},
+  Booktitle = {Proceedings of the 40th Annual Conference of the Cognitive Science Society.},
+  year={2020}
+}
+```

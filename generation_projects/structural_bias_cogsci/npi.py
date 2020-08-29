@@ -9,7 +9,7 @@ from utils.randomize import choice
 import numpy as np
 
 # initialize output file
-rel_output_path = "outputs/npi/"
+rel_output_path = "data/npi/"
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
 train_output = open(os.path.join(project_root, rel_output_path, "train.tsv"), "w")
 test_output = open(os.path.join(project_root, rel_output_path, "test_full.tsv"), "w")
@@ -64,7 +64,7 @@ for writer in [train_output, dev_output, test_output]:
         sentence_4 = "%s %s %s %s %s %s %s %s %s %s %s." % (D1[0], N1[0], Rel[0], NegAux1[0], V1[0], "any", N2[0], PosAux2[0], V2[0], D3[0], N3[0])
 
         # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
-        # but the code outputs a determiner with an empty string. might want to change this)
+        # but the code data a determiner with an empty string. might want to change this)
         sentence_1 = string_beautify(sentence_1)
         sentence_2 = string_beautify(sentence_2)
         sentence_3 = string_beautify(sentence_3)
@@ -134,7 +134,7 @@ for writer in [train_output, dev_output, test_output]:
         sentence_4 = "%s %s %s %s ever %s %s %s %s %s %s %s." % (D1[0], N1[0], Rel[0], NegAux1[0], V1[0], D2[0], N2[0], PosAux2[0], V2[0], D3[0], N3[0])
 
         # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
-        # but the code outputs a determiner with an empty string. might want to change this)
+        # but the code data a determiner with an empty string. might want to change this)
         sentence_1 = string_beautify(sentence_1)
         sentence_2 = string_beautify(sentence_2)
         sentence_3 = string_beautify(sentence_3)
@@ -201,7 +201,7 @@ for writer in [train_output, dev_output, test_output]:
         sentence_4 = "%s %s %s %s %s %s %s yet %s %s %s %s." % (D1[0], N1[0], Rel[0], NegAux1[0], V1[0], D2[0], N2[0], PosAux2[0], V2[0], D3[0], N3[0])
 
         # remove doubled up spaces (this is because the bare plural doesn't have a determiner,
-        # but the code outputs a determiner with an empty string. might want to change this)
+        # but the code data a determiner with an empty string. might want to change this)
         sentence_1 = string_beautify(sentence_1)
         sentence_2 = string_beautify(sentence_2)
         sentence_3 = string_beautify(sentence_3)

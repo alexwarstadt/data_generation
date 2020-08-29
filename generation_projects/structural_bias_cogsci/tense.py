@@ -13,7 +13,7 @@ from pattern.en import PAST, SG, PL
 
 
 # initialize output file
-rel_output_path = "outputs/tense/"
+rel_output_path = "data/tense/"
 project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-2])
 train_output = open(os.path.join(project_root, rel_output_path, "train.tsv"), "w")
 test_output = open(os.path.join(project_root, rel_output_path, "test_full.tsv"), "w")
