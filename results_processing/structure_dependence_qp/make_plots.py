@@ -15,7 +15,7 @@ def separate_failed_runs(results_table):
 #
 #
 # def make_10k_plot():
-#     polar_q_summary_path = "../results/structure_dependence_qp/polar_q_experiment_summary.tsv"
+#     polar_q_summary_path = "../results/discovering_structure_cogsci/polar_q_experiment_summary.tsv"
 #     polar_q_data_type = results_processing.unify_test.get_results_dtype(True, "polar_q")
 #     polar_q_results = np.genfromtxt(polar_q_summary_path, delimiter="\t", names=True, dtype=polar_q_data_type)
 #     polar_q_results_10k = utils.vocab_table.get_all("experiment_name", "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_10k_sweep", polar_q_results)
@@ -23,7 +23,7 @@ def separate_failed_runs(results_table):
 #     polar_q_good_correct = polar_q_good["10"]
 #     polar_q_bad_correct = polar_q_bad["10"]
 #
-#     npi_scope_summary_path = "../results/structure_dependence_qp/npi_scope_experiment_summary.tsv"
+#     npi_scope_summary_path = "../results/discovering_structure_cogsci/npi_scope_experiment_summary.tsv"
 #     npi_scope_data_type = results_processing.unify_test.get_results_dtype(True, "npi_scope")
 #     npi_scope_results = np.genfromtxt(npi_scope_summary_path, delimiter="\t", names=True, dtype=npi_scope_data_type)
 #     npi_scope_results_10k = utils.vocab_table.get_all("experiment_name", "/scratch/asw462/jiant/structure_dependence/npi_scope_experiment/npi_scope_10k_sweep", npi_scope_results)
@@ -31,7 +31,7 @@ def separate_failed_runs(results_table):
 #     npi_scope_good_correct = npi_scope_good["01"]
 #     npi_scope_bad_correct = npi_scope_bad["01"]
 #
-#     reflexive_summary_path = "../results/structure_dependence_qp/reflexive_experiment_summary.tsv"
+#     reflexive_summary_path = "../results/discovering_structure_cogsci/reflexive_experiment_summary.tsv"
 #     reflexive_data_type = results_processing.unify_test.get_results_dtype(True, "reflexive")
 #     reflexive_results = np.genfromtxt(reflexive_summary_path, delimiter="\t", names=True, dtype=reflexive_data_type)
 #     reflexive_results_10k = utils.vocab_table.get_all("experiment_name", "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_10k_sweep", reflexive_results)
@@ -162,7 +162,7 @@ def make_10k_plot(ax, correct_column, experiment_type, ylabel, summary_path, exp
 
 def make_10k_plot_simple(ax, correct_column, experiment_type, ylabel, summary_path, experiment_template, hide_yticks=True):
     sizes = ["10k"]
-    # data_type = results_processing.structure_dependence_qp.unify_test.get_results_dtype(True, experiment_type)
+    # data_type = results_processing.discovering_structure_cogsci.unify_test.get_results_dtype(True, experiment_type)
     # results_table = np.genfromtxt(summary_path, delimiter="\t", names=True, dtype=data_type)
     # good_five_sizes = []
     # bad_five_sizes = []
@@ -178,6 +178,7 @@ def make_10k_plot_simple(ax, correct_column, experiment_type, ylabel, summary_pa
     ax.set_ylim([-5, 105])
     set_axis_style(ax, [""], "")
     y = [0.9998, 1.0, 0.9998, 1.0, 1.0, 0.9998, 0.9996, 0.9998, 1.0, 0.9998, 0.9998, 0.9998, 0.9998, 0.9998, 0.9998, 1.0, 1.0, 1.0, 0.9996, 0.9996]
+    y = [100 * y_i for y_i in y]
     # nans = [float('nan'), float('nan')]
     # good_five_sizes = [nans if len(x) == 0 else 100 * x for x in good_five_sizes]
     # bad_five_sizes = [nans if len(x) == 0 else 100 * x for x in bad_five_sizes]
@@ -210,28 +211,28 @@ ax4.set_title("Tense", fontsize=12)
 
 # ========= 5 SIZES PLOTS ==========
 # make_five_sizes_plot(ax1, "10", "reflexive", "% OOD Pairs Correct",
-#                      "../results/structure_dependence_qp/reflexive_experiment_summary.tsv",
+#                      "../results/discovering_structure_cogsci/reflexive_experiment_summary.tsv",
 #                      "/scratch/asw462/jiant/structure_dependence/reflexive_experiment/reflexive_%s_sweep")
 
 
 # make_five_sizes_plot(ax2, "10", "polar_q", "",
-#                      "../results/structure_dependence_qp/polar_q_experiment_summary.tsv",
+#                      "../results/discovering_structure_cogsci/polar_q_experiment_summary.tsv",
 #                      "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep")
 #
 #
 # make_five_sizes_plot(ax3, "01", "npi_scope", "",
-#                      "../results/structure_dependence_qp/npi_scope_experiment_summary.tsv",
+#                      "../results/discovering_structure_cogsci/npi_scope_experiment_summary.tsv",
 #                      "/scratch/asw462/jiant/structure_dependence/npi_scope_experiment/npi_scope_%s_sweep")
 #
 # make_five_sizes_plot(ax4, "10", "embedded_tense", "",
-#                      "../results/structure_dependence_qp/embedded_tense_summary.tsv",
+#                      "../results/discovering_structure_cogsci/embedded_tense_summary.tsv",
 #                      "/scratch/asw462/jiant/structure_dependence/embedded_tense/embedded_tense_%s")
 # plt.show()
 
 
 # ========= 10K PLOTS ==========
 # make_10k_plot(ax1, "10", "polar_q", "% Test Pairs Correct",
-#               "../../results/structure_dependence_qp/polar_q_experiment_summary_new.tsv",
+#               "../../results/discovering_structure_cogsci/polar_q_experiment_summary_new.tsv",
 #               "/scratch/asw462/jiant/structure_dependence/polar_q_experiment/polar_q_%s_sweep",
 #               hide_yticks=False)
 
@@ -260,6 +261,6 @@ plt.show()
 # fig, ax = plt.subplots(nrows=1, ncols=1)
 # ax.set_title("Tense", fontsize=12)
 # make_10k_plot(ax, "10", "embedded_tense", "% OOD Pairs Correct",
-#                      "../results/structure_dependence_qp/embedded_tense_summary.tsv",
+#                      "../results/discovering_structure_cogsci/embedded_tense_summary.tsv",
 #                      "/scratch/asw462/jiant/structure_dependence/embedded_tense/embedded_tense_%s")
 # plt.show()
