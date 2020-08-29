@@ -1,6 +1,6 @@
 # data_generation#structural_bias_cogsci
 
-This branch includes the datasets for the four experiments in the paper ["Can neural networks acquire a structural bias from raw linguistic data?"](https://arxiv.org/abs/2007.06761).
+This branch includes the datasets for the four experiments in the paper ["Can neural networks acquire a structural bias from raw linguistic data?"](https://arxiv.org/abs/2007.06761), as well as scripts used to create the datasets.
 
 ## Project structure
 - ```data```: Contains datasets from the four experiments.
