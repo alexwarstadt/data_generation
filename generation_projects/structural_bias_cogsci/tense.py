@@ -1,6 +1,4 @@
 # Author: Alex Warstadt
-# Script for generating Chomsky's "structure dependent" sentences for QP1
-# Loosens some restrictions from polar_q so that complementizer + finite verb is not such a reliable cue
 
 from utils.conjugate import *
 from utils.constituent_building import verb_args_from_verb
@@ -41,14 +39,6 @@ all_consistent_transitive_verbs = np.union1d(
     get_matched_by(inanimate_noun, "arg_1", get_matched_by(inanimate_noun, "arg_2", all_pres_verbs))
 )
 
-pass
-
-# all_anim_anim_verbs = get_matched_by(choice(all_animate_nouns), "arg_1", get_matched_by(choice(all_animate_nouns), "arg_2", all_transitive_verbs))
-# TODO: think about predicates that don't care about animacy (is adjacent to)
-
-# sample sentences until desired number
-
-
 def past(verb, sg):
     number = SG if sg == 1 else PL
     words = verb[0].split(" ")
@@ -88,7 +78,6 @@ for writer in [train_output, dev_output, test_output]:
 
         if sentence_1 not in sentences:
             if writer == test_output:
-                #TODO!!
                 writer.write("%s\t%d\t\t%s\n" % ("exp=matrix_tense-src=1-emb_past=1-first_past=1-matrix_v=%s-emb_v=%s" % (V3[0], V2[0]), 1, sentence_1))
                 writer.write("%s\t%d\t\t%s\n" % ("exp=matrix_tense-src=1-emb_past=0-first_past=0-matrix_v=%s-emb_v=%s" % (V3[0], V1[0]), 0, sentence_2))
                 writer.write("%s\t%d\t\t%s\n" % ("exp=matrix_tense-src=0-emb_past=1-first_past=0-matrix_v=%s-emb_v=%s" % (V2[0], V3[0]), 1, sentence_3))
