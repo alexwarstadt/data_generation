@@ -1,5 +1,4 @@
 # Author: Alex Warstadt
-# Script for generating structure dependent reflexive paradigm for QP1
 
 from utils.vocab_table import *
 from utils.constituent_building import *
