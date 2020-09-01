@@ -1,4 +1,6 @@
-import sqlite3, csv
+import sqlite3
+import csv
+
 from os import path
 
 basepath = path.dirname(__file__)
