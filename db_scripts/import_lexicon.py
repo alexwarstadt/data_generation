@@ -1,9 +1,26 @@
 import sqlite3, csv
+from os import path
 
-conn = sqlite3.connect('./../lexicon.db')
+basepath = path.dirname(__file__)
+db_filepath = path.abspath(path.join(basepath, '..', 'lexicon.db'))
+connection = sqlite3.connect(db_filepath)
 
-c = conn.cursor()
+cursor = connection.cursor()
+cursor.execute('DELETE FROM lexicon')
 
-with open('./../vocabulary.csv', 'r') as file:
+num_records = 0
+
+# Open up vocabulary file and read the headers to find value
+vocab_filepath = path.abspath(path.join(basepath, '..', 'vocabulary.csv'))
+with open(vocab_filepath, 'r') as file:
+    reader = csv.reader(file)
+    headers = next(reader)
+
     for row in file:
-        pass
+        insert_str = "INSERT INTO lexicon VALUES (" + (len(headers) * "?,").rstrip(',') + ")"
+        cursor.execute(insert_str, row.split(','))
+        connection.commit()
+        num_records += 1
+
+connection.close()
+print("\n{} Records added to databases successfully.\n".format(num_records))

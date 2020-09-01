@@ -5,10 +5,10 @@ from os import path
 
 basepath = path.dirname(__file__)
 db_filepath = path.abspath(path.join(basepath, '..', 'lexicon.db'))
-conn = sqlite3.connect(db_filepath)
+connection = sqlite3.connect(db_filepath)
 
-c = conn.cursor()
-c.execute("DROP TABLE IF EXISTS lexicon")
+cursor = connection.cursor()
+cursor.execute("DROP TABLE IF EXISTS lexicon")
 
 headers = []
 
@@ -26,7 +26,7 @@ for header in headers:
 execution_str = execution_str.rstrip('\n,') + ")"
 
 # Execute Sql command that initializes the database with the table called "lexicon"
-c.execute(execution_str)
+cursor.execute(execution_str)
 
-conn.commit()
-conn.close()
+connection.commit()
+connection.close()
