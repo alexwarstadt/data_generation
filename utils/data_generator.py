@@ -1,14 +1,13 @@
 from utils.conjugate import *
 from utils.string_utils import string_beautify
 from utils.exceptions import *
-# from random import choice
-from functools import reduce
-import numpy as np
-from utils.randomize import choice
 import jsonlines
 import logging
 import datetime
 import traceback
+import time
+from console_progressbar import ProgressBar
+from math import log10, ceil
 
 
 class Generator:
@@ -61,6 +60,8 @@ class Generator:
         :param absolute_path: absolute path of output file
         :return: None
         """
+        decimals = 1 if number_to_generate <= 100 else int(ceil(log10(number_to_generate/100)))
+        pb = ProgressBar(total=number_to_generate, suffix='Done', decimals=decimals, length=50, fill='X', zfill='-')
         if rel_output_path is not None:
             project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
             output = open(os.path.join(project_root, rel_output_path), "w")
@@ -78,6 +79,7 @@ class Generator:
         output_writer = jsonlines.Writer(output, flush=True)
         while len(past_sentences) < number_to_generate:
             try:
+                pb.print_progress_bar(len(past_sentences))
                 new_data, track_sentence = self.sample()
                 if track_sentence not in past_sentences:
                     past_sentences.add(track_sentence)

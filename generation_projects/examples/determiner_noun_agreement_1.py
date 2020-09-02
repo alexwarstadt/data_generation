@@ -47,4 +47,4 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         return data, data["sentence_good"]
 
 generator = DetNGenerator()
-generator.generate_paradigm(rel_output_path="outputs/blimp/%s.jsonl" % generator.uid)
+generator.generate_paradigm(rel_output_path="outputs/examples/%s.jsonl" % generator.uid)
