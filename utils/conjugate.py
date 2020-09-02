@@ -1,6 +1,6 @@
 from utils.vocab_table import *
 from random import choice
-from utils.vocab_sets import *
+from utils.vocab_sets_dynamic import *
 
 def conjugate(verb, subj, allow_negated=True, require_negated=False, change_v_form=False):
     """
@@ -11,11 +11,11 @@ def conjugate(verb, subj, allow_negated=True, require_negated=False, change_v_fo
     :return: copy of verb with modified string to include auxiliary
     """
     if allow_negated:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_modals_auxs)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_modals_auxs())
     else:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negated_modals_auxs)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_non_negated_modals_auxs())
     if require_negated:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negated_modals_auxs)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_negated_modals_auxs())
     if change_v_form:
         verb = choice(get_matched_by(subj, "arg_1", get_all("root", verb["root"])))
     verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
@@ -52,17 +52,17 @@ def return_aux(verb, subj, allow_negated=True, require_negated=False, allow_moda
     :return: auxiliary that agrees with verb, or none if no auxiliary is needed.
     """
     if allow_negated and allow_modal:
-        safe_auxs = all_modals_auxs
+        safe_auxs = get_all_modals_auxs()
     if allow_negated and not allow_modal:
-        safe_auxs = all_auxs
+        safe_auxs = get_all_auxs()
     if not allow_negated and allow_modal:
-        safe_auxs = all_non_negated_modals_auxs
+        safe_auxs = get_all_non_negated_modals_auxs()
     if not allow_negated and not allow_modal:
-        safe_auxs = all_non_negated_auxs
+        safe_auxs = get_all_non_negated_auxs()
     if require_negated and allow_modal:
-        safe_auxs = all_negated_modals_auxs
+        safe_auxs = get_all_negated_modals_auxs()
     if require_negated and not allow_modal:
-        safe_auxs = all_negated_auxs
+        safe_auxs = get_all_negated_auxs()
     aux = choice(get_matched_by(verb, "arg_2", get_matched_by(subj, "arg_1", safe_auxs)))
     return aux
 
@@ -74,11 +74,11 @@ def return_copula(subj, allow_negated=True, require_negated=False):
     :return: copula that agrees with the subject
     """
     if allow_negated:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_finite_copulas)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_finite_copulas())
     else:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_copulas)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_non_negative_copulas())
     if require_negated:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_copulas)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_negative_copulas())
     aux = choice(subj_agree_auxiliaries)
     return aux
 
@@ -91,12 +91,12 @@ def require_aux(verb, subj, allow_negated=True, require_negated=False):
     :return: auxiliary that agrees with verb, or none if no auxiliary is needed.
     """
     if allow_negated:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_auxiliaries_no_null)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_auxiliaries_no_null())
     else:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_auxiliaries_no_null)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_non_negative_auxiliaries_no_null())
 
     if require_negated:
-        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_auxiliaries_no_null)
+        subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_negative_auxiliaries_no_null())
 
     verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
     aux = choice(verb_agree_auxiliaries)
@@ -110,19 +110,19 @@ def require_aux_agree(verb, subj, allow_negated=True):
     :return: auxiliary that agrees with verb
     """
     if verb["finite"] == "1":
-        aux_agree = choice(get_all("expression", "", all_modals_auxs))
-        aux_nonagree = choice(get_all("expression", "", all_modals_auxs))
+        aux_agree = choice(get_all("expression", "", get_all_modals_auxs()))
+        aux_nonagree = choice(get_all("expression", "", get_all_modals_auxs()))
     else:
         if allow_negated:
             if choice([True, False]):
-                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux)
-                subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
+                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_non_negative_agreeing_aux())
+                subj_nonagree_auxiliaries = np.setdiff1d(get_all_non_negative_agreeing_aux(), subj_agree_auxiliaries)
             else:
-                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_agreeing_aux)
-                subj_nonagree_auxiliaries = np.setdiff1d(all_negative_agreeing_aux, subj_agree_auxiliaries)
+                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_negative_agreeing_aux())
+                subj_nonagree_auxiliaries = np.setdiff1d(get_all_negative_agreeing_aux(), subj_agree_auxiliaries)
         else:
-            subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux)
-            subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
+            subj_agree_auxiliaries = get_matched_by(subj, "arg_1", get_all_non_negative_agreeing_aux())
+            subj_nonagree_auxiliaries = np.setdiff1d(get_all_non_negative_agreeing_aux(), subj_agree_auxiliaries)
 
         verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
         verb_nonagree_auxiliaries = get_matched_by(verb, "arg_2", subj_nonagree_auxiliaries)
@@ -151,13 +151,13 @@ def get_same_aux_verbs(verb):
     :return: the set of all verbs with the same auxiliary agreement properties
     """
     if verb["finite"] == "1":
-        return all_finite_verbs
+        return get_all_finite_verbs()
     elif verb["bare"] == "1":
-        return all_bare_verbs
+        return get_all_bare_verbs()
     elif verb["en"] == "1":
-        return all_en_verbs
+        return get_all_en_verbs()
     elif verb["ing"] == "1":
-        return all_ing_verbs
+        return get_all_ing_verbs()
 
 
 def re_conjugate_aux(aux, subject):
@@ -171,29 +171,29 @@ def re_conjugate_aux(aux, subject):
         return aux
     if aux["expression"] == "do" or aux["expression"] == "does":
         if subject["sg"] == "0" or subject["person"] == "1" or subject["person"] == "2":
-            return get_all("expression", "do", all_auxs)[0]
+            return get_all("expression", "do", get_all_auxs())[0]
         else:
-            return get_all("expression", "does", all_auxs)[0]
+            return get_all("expression", "does", get_all_auxs())[0]
     if aux["expression"] == "did":
         return aux
     if aux["expression"] == "has" or aux["expression"] == "have":
         if subject["sg"] == "0" or subject["person"] == "1" or subject["person"] == "2":
-            return get_all("expression", "have", all_auxs)[0]
+            return get_all("expression", "have", get_all_auxs())[0]
         else:
-            return get_all("expression", "has", all_auxs)[0]
+            return get_all("expression", "has", get_all_auxs())[0]
     if aux["expression"] == "had":
         return aux
     if aux["expression"] == "don't" or aux["expression"] == "doesn't":
         if subject["sg"] == "0" or subject["person"] == "1" or subject["person"] == "2":
-            return get_all("expression", "don't", all_auxs)[0]
+            return get_all("expression", "don't", get_all_auxs())[0]
         else:
-            return get_all("expression", "doesn't", all_auxs)[0]
+            return get_all("expression", "doesn't", get_all_auxs())[0]
     if aux["expression"] == "didn't":
-        return get_all("expression", "didn't", all_auxs)[0]
+        return get_all("expression", "didn't", get_all_auxs())[0]
     if aux["expression"] == "hasn't" or aux["expression"] == "haven't":
         if subject["sg"] == "0" or subject["person"] == "1" or subject["person"] == "2":
-            return get_all("expression", "haven't", all_auxs)[0]
+            return get_all("expression", "haven't", get_all_auxs())[0]
         else:
-            return get_all("expression", "hasn't", all_auxs)[0]
+            return get_all("expression", "hasn't", get_all_auxs())[0]
     if aux["expression"] == "hadn't":
-        return get_all("expression", "hadn't", all_auxs)[0]
+        return get_all("expression", "hadn't", get_all_auxs())[0]

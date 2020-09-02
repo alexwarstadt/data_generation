@@ -2,7 +2,7 @@ from utils import data_generator
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.vocab_sets import *
+from utils.vocab_sets_dynamic import *
 
 
 class AgreementGenerator(data_generator.BenchmarkGenerator):
@@ -14,9 +14,9 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                          one_prefix_method=True,
                          two_prefix_method=False,
                          lexically_identical=False)
-        self.all_reg_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "")], all_common_nouns)
-        self.safe_emb_verbs = all_transitive_verbs
-        self.safe_mat_verbs = np.setdiff1d(all_verbs, get_all("past", "1"))
+        self.all_reg_nouns = get_all_conjunctive([("category", "N"), ("irrpl", "")], get_all_common_nouns())
+        self.safe_emb_verbs = get_all_transitive_verbs()
+        self.safe_mat_verbs = np.setdiff1d(get_all_verbs(), get_all("past", "1"))
 
     def sample(self):
         # The cat   that was      eating the mice is        sleeping
@@ -38,9 +38,9 @@ class AgreementGenerator(data_generator.BenchmarkGenerator):
                 V_mat_not_agree = V_mat_agree
 
             if subj["pl"] == "1":
-                obj_emb = N_to_DP_mutate(choice(get_matches_of(V_mat_not_agree, "arg_1", all_singular_nouns)))
+                obj_emb = N_to_DP_mutate(choice(get_matches_of(V_mat_not_agree, "arg_1", get_all_singular_nouns())))
             else:
-                obj_emb = N_to_DP_mutate(choice(get_matches_of(V_mat_not_agree, "arg_1", all_plural_nouns)))
+                obj_emb = N_to_DP_mutate(choice(get_matches_of(V_mat_not_agree, "arg_1", get_all_plural_nouns())))
 
             try:
                 V_emb = choice(get_matched_by(subj, "arg_1", get_matched_by(obj_emb, "arg_2", self.safe_emb_verbs)))

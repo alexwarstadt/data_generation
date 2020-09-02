@@ -2,6 +2,7 @@ from utils import data_generator
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
+from utils.vocab_sets_dynamic import *
 
 class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -14,9 +15,9 @@ class Generator(data_generator.BenchmarkGenerator):
                          lexically_identical=False)
 
         self.alternating_verbs = np.union1d(get_all("causative", "1"), get_all("inchoative", "1"))
-        self.non_alternating_transitives = get_all("inchoative", "0", all_transitive_verbs)
-        self.all_singulars = get_all("sg", "1", all_nominals)
-        self.all_plurals = get_all("sg", "0", all_nominals)
+        self.non_alternating_transitives = get_all("inchoative", "0", get_all_transitive_verbs())
+        self.all_singulars = get_all("sg", "1", get_all_nominals())
+        self.all_plurals = get_all("sg", "0", get_all_nominals())
 
     def sample(self):
         # The lamp has broken.
@@ -31,14 +32,14 @@ class Generator(data_generator.BenchmarkGenerator):
             elif V_inch["pres"] == "1":
                 Subj = N_to_DP_mutate(choice(get_matches_of(V_inch, "arg_2", self.all_plurals)))
             else:
-                Subj = N_to_DP_mutate(choice(get_matches_of(V_inch, "arg_2", all_nominals)))
+                Subj = N_to_DP_mutate(choice(get_matches_of(V_inch, "arg_2", get_all_nominals())))
         else:
             Subj = N_to_DP_mutate(choice(get_matches_of(V_inch, "arg_1")))
         Aux = return_aux(V_inch, Subj)
         if Subj["sg"] == "1":
-            safe_verbs = np.intersect1d(self.non_alternating_transitives, all_possibly_singular_verbs)
+            safe_verbs = np.intersect1d(self.non_alternating_transitives, get_all_possibly_singular_verbs())
         else:
-            safe_verbs = np.intersect1d(self.non_alternating_transitives, all_possibly_plural_verbs)
+            safe_verbs = np.intersect1d(self.non_alternating_transitives, get_all_possibly_plural_verbs())
         V_trans = choice(get_matched_by(Subj, "arg_2", get_matches_of(Aux, "arg_2", safe_verbs)))
 
         data = {

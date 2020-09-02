@@ -3,21 +3,17 @@
 
 # TODO: document metadata
 
-from utils.vocab_table import *
 from utils.conjugate import *
-from utils.data_type import data_type
 from random import choice
 from utils.string_utils import remove_extra_whitespace
-import numpy as np
-import random
-from utils.vocab_sets import *
+from utils.vocab_sets_dynamic import *
 from nltk.stem import WordNetLemmatizer
 from utils.exceptions import *
 
 lemmatizer = WordNetLemmatizer()
 
 def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
-    verb = choice(get_matched_by(subject, "arg_1", all_verbs))
+    verb = choice(get_matched_by(subject, "arg_1", get_all_verbs()()))
     args = verb_args_from_verb(verb=verb, frequent=frequent, subj=subject, allow_negated=allow_negated)
     VP = V_to_VP_mutate(verb, frequent=frequent, args=args)
     return VP
@@ -63,9 +59,9 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     if verb["category"] == "(S\\NP)/(S[from]\\NP)":
         obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", freq_vocab)), allow_quantifiers=allow_quantifiers)
         if allow_recursion:
-            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", all_ing_verbs)), frequent=frequent, aux=False)
+            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", get_all_ing_verbs()())), frequent=frequent, aux=False)
         else:
-            safe_verbs = np.intersect1d(all_ing_verbs, all_non_recursive_verbs)
+            safe_verbs = np.intersect1d(get_all_ing_verbs()(), get_all_non_recursive_verbs()())
             VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", safe_verbs)), frequent=frequent, aux=False)
         VP[0] = "from " + VP[0]
         args["args"] = [obj, VP]
@@ -73,9 +69,9 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     # RAISING TO OBJECT
     if verb["category_2"] == "V_raising_object":
         if allow_recursion:
-            v_emb = choice(all_bare_verbs)
+            v_emb = choice(get_all_bare_verbs())
         else:
-            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
+            safe_verbs = np.intersect1d(get_all_bare_verbs(), get_all_non_recursive_verbs())
             v_emb = choice(safe_verbs)
         args_emb = verb_args_from_verb(v_emb, frequent)
         VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
@@ -86,9 +82,9 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     if verb["category_2"] == "V_control_object":
         obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2")), allow_quantifiers=allow_quantifiers)
         if allow_recursion:
-            v_emb = choice(get_matched_by(obj, "arg_1", all_bare_verbs))
+            v_emb = choice(get_matched_by(obj, "arg_1", get_all_bare_verbs()))
         else:
-            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
+            safe_verbs = np.intersect1d(get_all_bare_verbs(), get_all_non_recursive_verbs())
             v_emb = choice(get_matched_by(obj, "arg_1", safe_verbs))
         VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
         VP[0] = "to " + VP[0]
@@ -111,9 +107,9 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     # SUBJECT CONTROL
     if verb["category"] == "(S\\NP)/(S[to]\\NP)":
         if allow_recursion:
-            v_emb = choice(get_matched_by(subj, "arg_1", all_bare_verbs))
+            v_emb = choice(get_matched_by(subj, "arg_1", get_all_bare_verbs()))
         else:
-            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
+            safe_verbs = np.intersect1d(get_all_bare_verbs(), get_all_non_recursive_verbs())
             v_emb = choice(get_matched_by(subj, "arg_1", safe_verbs))
         VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
         VP[0] = "to " + VP[0]
@@ -122,9 +118,9 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     # RAISING TO SUBJECT
     if verb["category_2"] == "V_raising_subj":
         if allow_recursion:
-            v_emb = choice(all_bare_verbs)
+            v_emb = choice(get_all_bare_verbs())
         else:
-            safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
+            safe_verbs = np.intersect1d(get_all_bare_verbs(), get_all_non_recursive_verbs())
             v_emb = choice(get_matched_by(subj, "arg_1", safe_verbs))
         args_emb = verb_args_from_verb(v_emb, frequent, subj=False)
         VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
@@ -154,7 +150,7 @@ def pred_args_from_pred(pred, frequent=True, subj=None, allow_negated=True):
     else:
         args["subj"] = subj
 
-    copula = choice(get_matched_by(subj, "arg_1", all_copulas))
+    copula = choice(get_matched_by(subj, "arg_1", get_all_copulas()))
     args["copula"] = copula
 
     # all verbs have an auxiliary (or null)
@@ -170,7 +166,7 @@ def pred_args_from_pred(pred, frequent=True, subj=None, allow_negated=True):
 
     # PREPOSITION
     if pred["category"] == "PP/NP":
-        NP = N_to_DP_mutate(choice(get_matches_of(pred, "arg_2", all_nominals)))
+        NP = N_to_DP_mutate(choice(get_matches_of(pred, "arg_2", get_all_nominals())))
         args["args"] = [NP]
 
     else:
@@ -224,7 +220,7 @@ def make_sentence(frequent=True, allow_recursion=False):
     :param frequent: should only frequent vocab be generated?
     :return: a vocab entry with the expression containing the string of the full sentence
     """
-    verb = choice(all_verbs)
+    verb = choice(get_all_verbs())
     verb[0] = make_sentence_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion)
     return verb
 
@@ -245,9 +241,9 @@ def make_emb_subj_question(frequent=True):
     :param frequent: should only frequent vocab be generated?
     :return: a vocab entry with the expression corresponding to the string of an entire embedded question with a wh-subject
     """
-    verb = choice(all_possibly_singular_verbs)
+    verb = choice(get_all_possibly_singular_verbs())
     args = verb_args_from_verb(verb)
-    wh = choice(get_matched_by(args["subj"], "arg_1", all_wh_words))
+    wh = choice(get_matched_by(args["subj"], "arg_1", get_all_wh_words()))
     args["subj"] = wh
     verb[0] = make_sentence_from_args(args)
     return verb
@@ -262,15 +258,15 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
     """
     args = {}
     if frequent:
-        sample_space = all_frequent
+        sample_space = get_all_frequent()
     else:
         sample_space = vocab
     if avoid is not None:
         sample_space = np.setdiff1d(sample_space, avoid)
     if allow_quantifiers:
-        args["det"] = choice(get_matched_by(noun, "arg_1", np.intersect1d(all_determiners, sample_space)))
+        args["det"] = choice(get_matched_by(noun, "arg_1", np.intersect1d(get_all_determiners(), sample_space)))
     else:
-        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", np.intersect1d(all_determiners, sample_space))))
+        args["det"] = choice(get_matched_by(noun, "arg_1", get_all("quantifier", "0", np.intersect1d(get_all_determiners(), sample_space))))
     if noun["category"] == "N":
         args["args"] = []
     if noun["category"] == "NP":
@@ -278,15 +274,15 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
         args["args"] = []
     if noun["category"] == "N/NP":
         if allow_recursion:
-            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, sample_space))))
+            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(get_all_nominals(), sample_space))))
         else:
-            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, sample_space))))
+            obj = N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(get_all_nouns(), sample_space))))
         args["args"] = [obj]
     if noun["category"] == "N\\NP[poss]":
         if allow_recursion:
-            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nominals, sample_space)))))
+            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(get_all_nominals(), sample_space)))))
         else:
-            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(all_nouns, sample_space)))))
+            poss = make_possessive(N_to_DP_mutate(choice(get_matches_of(noun, "arg_1", np.intersect1d(get_all_nouns(), sample_space)))))
         args["det"] = poss
         args["args"] = []
     if noun["category"] == "N/S":
@@ -482,7 +478,7 @@ def get_VP_under_modal_form(aux, verb):
     if aux["expression"] == "does":
         return None, verb
     if aux["expression"] == "did":
-        return get_all("expression", "have", all_auxs)[0], get_en_form(verb)
+        return get_all("expression", "have", get_all_auxs())[0], get_en_form(verb)
     if aux["expression"] == "is":
         bare_aux = aux.copy()
         bare_aux["expression"] = "be"
@@ -504,14 +500,14 @@ def get_VP_under_modal_form(aux, verb):
         bare_aux["expression"] = "have"
         return bare_aux, verb
     if aux["expression"] == "have":
-        return get_all("expression", "have", all_auxs)[0], verb
+        return get_all("expression", "have", get_all_auxs())[0], verb
     if aux["expression"] == "had":
-        return get_all("expression", "have", all_auxs)[0], verb
+        return get_all("expression", "have", get_all_auxs())[0], verb
     if aux["expression"] == "":
         if verb["pres"] == "1":
             return aux, get_bare_form(verb)
         else:
-            return get_all("expression", "have", all_auxs)[0], get_en_form(verb)
+            return get_all("expression", "have", get_all_auxs())[0], get_en_form(verb)
 
 
 def get_en_form(verb):
@@ -519,16 +515,16 @@ def get_en_form(verb):
     :param verb: a verb vocab item
     :return: the past participle form with the same root
     """
-    return get_all("root", verb["root"], all_en_verbs)[0]
+    return get_all("root", verb["root"], get_all_en_verbs())[0]
 
 def get_do_form(verb):
     """
     :param verb: a verb vocab item
     :return: the form of "do" necessary for "do"-support in question formation
     """
-    do = get_all("expression", "do", all_auxs)[0]
-    does = get_all("expression", "does", all_auxs)[0]
-    did = get_all("expression", "did", all_auxs)[0]
+    do = get_all("expression", "do", get_all_auxs())[0]
+    does = get_all("expression", "does", get_all_auxs())[0]
+    did = get_all("expression", "did", get_all_auxs())[0]
     if verb["past"] == "1":
         return did
     if verb["pres"] == "1":
@@ -543,7 +539,7 @@ def get_same_V_form(root, verb_to_match):
     :param verb_to_match: A reference verb in the inflectional form in which to conjugate root
     :return: the vocab item corresponding to root in the same inflectional form as verb_to_match
     """
-    verbs = get_all("root", root, all_verbs)
+    verbs = get_all("root", root, get_all_verbs())
     matches = list(filter(lambda v: v["finite"] == verb_to_match["finite"] and
                                     v["bare"] == verb_to_match["bare"] and
                                     v["pres"] == verb_to_match["pres"] and

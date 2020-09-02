@@ -2,6 +2,7 @@ from utils import data_generator
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
+from utils.vocab_sets_dynamic import *
 
 class Generator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -14,10 +15,10 @@ class Generator(data_generator.BenchmarkGenerator):
                          lexically_identical=False)
         good_quantifiers_sg_str = ["a", "an", ""]
         good_quantifiers_pl_str = ["no", "some", "few", "fewer than three", "more than three", "many", "a lot of", ""]
-        self.good_quantifiers_sg = reduce(np.union1d, [get_all("expression", s, all_determiners) for s in good_quantifiers_sg_str])
-        self.good_quantifiers_pl = reduce(np.union1d, [get_all("expression", s, all_determiners) for s in good_quantifiers_pl_str])
-        bad_emb_subjs = reduce(np.union1d, (all_relational_poss_nouns, all_proper_names, get_all("category", "NP")))
-        self.safe_emb_subjs = np.setdiff1d(all_nominals, bad_emb_subjs)
+        self.good_quantifiers_sg = reduce(np.union1d, [get_all("expression", s, get_all_determiners()) for s in good_quantifiers_sg_str])
+        self.good_quantifiers_pl = reduce(np.union1d, [get_all("expression", s, get_all_determiners()) for s in good_quantifiers_pl_str])
+        bad_emb_subjs = reduce(np.union1d, (get_all_relational_poss_nouns(), get_all_proper_names(), get_all("category", "NP")))
+        self.safe_emb_subjs = np.setdiff1d(get_all_nominals(), bad_emb_subjs)
         self.raising_verbs = get_all("category_2", "V_raising_object")
         self.control_verbs = get_all("category_2", "V_control_object")
 
@@ -43,7 +44,7 @@ class Generator(data_generator.BenchmarkGenerator):
         D = choice(get_matched_by(emb_subj, "arg_1", self.good_quantifiers_sg)) \
             if emb_subj["sg"] == "1" \
             else choice(get_matched_by(emb_subj, "arg_1", self.good_quantifiers_pl))
-        V = choice(get_matched_by(emb_subj, "arg_1", all_ing_verbs))
+        V = choice(get_matched_by(emb_subj, "arg_1", get_all_ing_verbs()))
         allow_negated = D[0] != "no" and D[0] != "some"
         args = verb_args_from_verb(V, subj=emb_subj, allow_negated=allow_negated)
         VP = V_to_VP_mutate(V, args=args, aux=False)

@@ -268,7 +268,7 @@ def get_all_rogatives():
 
 def get_all_agreeing_aux():
     if "all_agreeing_aux" not in VOCAB_SETS.keys():
-        VOCAB_SETS["all_agreeing_aux"] = np.setdiff1d(all_auxs, get_all("arg_1", "sg=1;sg=0"))  #TODO: This needs to change if we change querying
+        VOCAB_SETS["all_agreeing_aux"] = np.setdiff1d(get_all_auxs(), get_all("arg_1", "sg=1;sg=0"))  #TODO: This needs to change if we change querying
     return VOCAB_SETS["all_agreeing_aux"]
 
 def get_all_non_negative_agreeing_aux():
@@ -285,6 +285,16 @@ def get_all_auxiliaries_no_null():
     if "all_auxiliaries_no_null" not in VOCAB_SETS.keys():
         VOCAB_SETS["all_auxiliaries_no_null"] = np.setdiff1d(get_all_auxs(), get_all("expression", ""))
     return VOCAB_SETS["all_auxiliaries_no_null"]
+
+def get_all_non_negative_auxiliaries_no_null():
+    if "all_non_negative_auxiliaries_no_null" not in VOCAB_SETS.keys():
+        VOCAB_SETS["all_non_negative_auxiliaries_no_null"] = get_all("negated", "0", get_all_auxiliaries_no_null())
+    return VOCAB_SETS["all_non_negative_auxiliaries_no_null"]
+
+def get_all_negative_auxiliaries_no_null():
+    if "all_negative_auxiliaries_no_null" not in VOCAB_SETS.keys():
+        VOCAB_SETS["all_negative_auxiliaries_no_null"] = get_all("negated", "1", get_all_auxiliaries_no_null())
+    return VOCAB_SETS["all_negative_auxiliaries_no_null"]
 
 def get_all_non_negative_copulas():
     if "all_non_negative_copulas" not in VOCAB_SETS.keys():

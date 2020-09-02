@@ -2,7 +2,7 @@ from utils import data_generator
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.vocab_sets import *
+from utils.vocab_sets_dynamic import *
 
 
 class DetNGenerator(data_generator.BenchmarkGenerator):
@@ -18,7 +18,7 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         self.all_missingPluralSing_nouns = get_all_conjunctive([("pluralform", ""), ("singularform", "")])
         self.all_irregular_nouns = get_all("irrpl", "1")
         self.all_unusable_nouns = np.union1d(self.all_null_plural_nouns, np.union1d(self.all_missingPluralSing_nouns, self.all_irregular_nouns))
-        self.all_pluralizable_nouns = np.setdiff1d(all_common_nouns, self.all_unusable_nouns)
+        self.all_pluralizable_nouns = np.setdiff1d(get_all_common_nouns(), self.all_unusable_nouns)
 
     def sample(self):
         # John cleaned this table.
@@ -27,10 +27,10 @@ class DetNGenerator(data_generator.BenchmarkGenerator):
         # John cleaned this tables.
         # N1   V1      Dem  N2_mismatch
 
-        V1 = choice(all_transitive_verbs)
-        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
+        V1 = choice(get_all_transitive_verbs())
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_nouns())))
         N2_match = choice(get_matches_of(V1, "arg_2", self.all_pluralizable_nouns))
-        Dem = choice(get_matched_by(N2_match, "arg_1", all_demonstratives))
+        Dem = choice(get_matched_by(N2_match, "arg_1", get_all_demonstratives()))
         if N2_match['pl'] == "1":
             N2_mismatch = N2_match['singularform']
         else:

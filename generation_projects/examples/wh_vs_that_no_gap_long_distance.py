@@ -2,7 +2,8 @@ from utils import data_generator
 from utils.constituent_building import *
 from utils.conjugate import *
 from utils.randomize import choice
-from utils.vocab_sets import *
+from utils.vocab_sets_dynamic import *
+# from utils.vocab_sets import *
 
 class FillerGapGenerator(data_generator.BenchmarkGenerator):
     def __init__(self):
@@ -22,23 +23,23 @@ class FillerGapGenerator(data_generator.BenchmarkGenerator):
         # N1 V1   wh       N2   that V_rel      N_rel  V2         N3
 
         V1 = choice(self.embedding_verbs)
-        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", all_nouns)))
-        V2 = choice(all_transitive_verbs)
-        N2 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", all_common_nouns)))
-        N3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_2", all_nouns))) # needed to choose the correct wh-word, but N3 never gets used
+        N1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_nouns())))
+        V2 = choice(get_all_transitive_verbs())
+        N2 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", get_all_common_nouns())))
+        N3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_2", get_all_nouns()))) # needed to choose the correct wh-word, but N3 never gets used
 
         x = random.random()
         if x < 1 / 2:
-            V_rel = choice(get_matched_by(N2, "arg_1", all_transitive_verbs))
-            N_rel = N_to_DP_mutate(choice(get_matches_of(V_rel, "arg_2", all_nouns)))
+            V_rel = choice(get_matched_by(N2, "arg_1", get_all_transitive_verbs()))
+            N_rel = N_to_DP_mutate(choice(get_matches_of(V_rel, "arg_2", get_all_nouns())))
         else:
-            V_rel = choice(get_matched_by(N2, "arg_1", all_intransitive_verbs))
+            V_rel = choice(get_matched_by(N2, "arg_1", get_all_intransitive_verbs()))
             N_rel = " "
 
         V1 = conjugate(V1, N1)
         V2 = conjugate(V2, N2)
         V_rel = conjugate(V_rel, N2)
-        wh = choice(get_matched_by(N3, "arg_1", all_wh_words))
+        wh = choice(get_matched_by(N3, "arg_1", get_all_wh_words()))
 
         data = {
             "sentence_good": "%s %s that %s that %s %s %s %s." % (N1[0], V1[0], N2[0], V_rel[0], N_rel[0], V2[0], N3[0]),
