@@ -12,6 +12,7 @@ vocab = np.genfromtxt(vocab_path, delimiter=",", names=True, dtype=data_type)
 # decode apostrophe
 for entry in vocab:
     entry[0] = re.sub("!", "'", entry[0])
+print("Done reading in vocabulary")
 
 
 def get_all(label, value, table=vocab):

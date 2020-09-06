@@ -328,6 +328,8 @@ class StructureDependenceGenerator(Generator):
         self.data_fields = ["training_1_1", "training_0_0", "test_1_0", "test_0_1", "control_1_1", "control_0_0"]
 
     def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
+        decimals = 1 if number_to_generate <= 100 else int(ceil(log10(number_to_generate/100)))
+        pb = ProgressBar(total=number_to_generate, suffix='Done', decimals=decimals, length=50, fill='X', zfill='-')
         if rel_output_path is not None:
             project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
             output_dir = os.path.join(project_root, rel_output_path)
@@ -354,33 +356,35 @@ class StructureDependenceGenerator(Generator):
             split_counter = 0
             while split_counter < number_to_generate:
                 try:
+                    pb.print_progress_bar(split_counter)
                     new_data, track_sentence = self.sample()
-                    overlap = False
-                    for i in range(len(track_sentence)):
-                        if track_sentence[i] in past_sentences[i]:
-                            overlap = True
-                            break
-                    if not overlap:
-                        for i in range(len(track_sentence)):
-                            past_sentences[i].add(track_sentence[i])
-                        for line in new_data:
-                            line["sentence"] = string_beautify(line["sentence"])
-                            line.update(constant_data)
-                            line["sentenceID"] = sentenceID
-                            line["paradigmID"] = paradigmID
-                            line["split"] = file.split(".")[0]
-                            sentenceID += 1
-                        if not self.control_paradigm:
-                            for line in list(filter(lambda x: x["condition"] == "control" and x["linguistic_feature_label"] != x["surface_feature_label"], new_data)):
-                                output_control_writer.write(line)
-                        if file == "test.jsonl":
-                            for line in list(filter(lambda x: not(x["condition"] == "control" and x["linguistic_feature_label"] != x["surface_feature_label"]), new_data)):
-                                output_writer.write(line)
-                        else:
-                            for line in list(filter(lambda x: x["condition"] == "training", new_data)):
-                                output_writer.write(line)
-                        split_counter += 1
-                        paradigmID += 1
+                    # overlap = False
+                    # for i in range(len(track_sentence)):
+                    #     if track_sentence[i] in past_sentences[i]:
+                    #         overlap = True
+                    #         break
+                    # if not overlap:
+                    # for i in range(len(track_sentence)):
+                    #     past_sentences[i].add(track_sentence[i])
+                    for line in new_data:
+                        line["sentence_transform"] = string_beautify(line["sentence_transform"])
+                        line["sentence_base"] = string_beautify(line["sentence_base"])
+                        line.update(constant_data)
+                        line["sentenceID"] = sentenceID
+                        line["paradigmID"] = paradigmID
+                        line["split"] = file.split(".")[0]
+                        sentenceID += 1
+                    if not self.control_paradigm:
+                        for line in list(filter(lambda x: x["condition"] == "control" and x["linguistic_generalization_label"] != x["surface_generalization_label"], new_data)):
+                            output_control_writer.write(line)
+                    if file == "test.jsonl":
+                        for line in list(filter(lambda x: not(x["condition"] == "control" and x["linguistic_generalization_label"] != x["surface_generalization_label"]), new_data)):
+                            output_writer.write(line)
+                    else:
+                        for line in list(filter(lambda x: x["condition"] == "training", new_data)):
+                            output_writer.write(line)
+                    split_counter += 1
+                    paradigmID += 1
                 except Exception as e:
                     self.log_exception(e)
                     print(self.get_stack_trace(e))
@@ -406,79 +410,27 @@ class StructureDependenceGenerator(Generator):
         return metadata
 
     def build_paradigm(self, training_1_1, training_0_0, test_1_0, test_0_1,
-                       control_1_1=None, control_0_0=None, control_1_0=None, control_0_1=None):
-        if not self.control_paradigm:
-            data = [
-                {"sentence": training_1_1,
-                 "condition": "training",
-                 "linguistic_feature_label": 1,
-                 "surface_feature_label": 1},
-                {"sentence": training_0_0,
-                 "condition": "training",
-                 "linguistic_feature_label": 0,
-                 "surface_feature_label": 0},
-                {"sentence": test_1_0,
-                 "condition": "test",
-                 "linguistic_feature_label": 1,
-                 "surface_feature_label": 0},
-                {"sentence": test_0_1,
-                 "condition": "test",
-                 "linguistic_feature_label": 0,
-                 "surface_feature_label": 1},
-                {"sentence": control_1_1,
-                 "condition": "control",
-                 "linguistic_feature_label": 1,
-                 "surface_feature_label": 1},
-                {"sentence": control_0_0,
-                 "condition": "control",
-                 "linguistic_feature_label": 0,
-                 "surface_feature_label": 0},
-                {"sentence": control_1_0,
-                 "condition": "control",
-                 "linguistic_feature_label": 1,
-                 "surface_feature_label": 0},
-                {"sentence": control_0_1,
-                 "condition": "control",
-                 "linguistic_feature_label": 0,
-                 "surface_feature_label": 1},
-            ]
-
-        if self.control_paradigm and self.linguistic_feature_type is not None:
-            data = [
-                {"sentence": training_1_1,
-                 "condition": "training",
-                 "linguistic_feature_label": 1,
-                 "surface_feature_label": None},
-                {"sentence": training_0_0,
-                 "condition": "training",
-                 "linguistic_feature_label": 0,
-                 "surface_feature_label": None},
-                {"sentence": test_1_0,
-                 "condition": "test",
-                 "linguistic_feature_label": 1,
-                 "surface_feature_label": None},
-                {"sentence": test_0_1,
-                 "condition": "test",
-                 "linguistic_feature_label": 0,
-                 "surface_feature_label": None},
-            ]
-        elif self.control_paradigm and self.surface_feature_type is not None:
-            data = [
-                {"sentence": training_1_1,
-                 "condition": "training",
-                 "linguistic_feature_label": None,
-                 "surface_feature_label": 1},
-                {"sentence": training_0_0,
-                 "condition": "training",
-                 "linguistic_feature_label": None,
-                 "surface_feature_label": 0},
-                {"sentence": test_1_0,
-                 "condition": "test",
-                 "linguistic_feature_label": None,
-                 "surface_feature_label": 1},
-                {"sentence": test_0_1,
-                 "condition": "test",
-                 "linguistic_feature_label": None,
-                 "surface_feature_label": 0},
-            ]
+                       training_1_1_base, training_0_0_base, test_1_0_base, test_0_1_base):
+        data = [
+            {"sentence_transform": training_1_1,
+             "sentence_base": training_1_1_base,
+             "condition": "training",
+             "linguistic_feature_label": None,
+             "surface_feature_label": 1},
+            {"sentence_transform": training_0_0,
+             "sentence_base": training_0_0_base,
+             "condition": "training",
+             "linguistic_feature_label": None,
+             "surface_feature_label": 0},
+            {"sentence_transform": test_1_0,
+             "sentence_base": test_1_0_base,
+             "condition": "test",
+             "linguistic_feature_label": None,
+             "surface_feature_label": 1},
+            {"sentence_transform": test_0_1,
+             "sentence_base": test_0_1_base,
+             "condition": "test",
+             "linguistic_feature_label": None,
+             "surface_feature_label": 0},
+        ]
         return data
