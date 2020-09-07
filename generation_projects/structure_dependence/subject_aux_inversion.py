@@ -15,15 +15,16 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         self.safe_nouns = get_all_common_nouns()
         self.CP_nouns = get_all("category", "N/S", get_all_nominals())
-        self.all_pres_plural_verbs = get_all_present_plural_verbs()
-        self.all_homophonous_verbs = get_all("homophonous", "1")
-        self.all_non_pres_plural_verbs = np.setdiff1d(get_all_verbs(), self.all_pres_plural_verbs)
-        self.all_non_homophonous_verbs = np.setdiff1d(get_all_verbs(), self.all_homophonous_verbs)
-        self.all_non_pres_plural_transitive_verbs = np.intersect1d(self.all_non_pres_plural_verbs, get_all_transitive_verbs())
-        self.all_non_homophonous_verbs = np.intersect1d(self.all_non_homophonous_verbs, get_all_transitive_verbs())
-        self.all_CP_verbs = get_all("category", "(S\\NP)/S")
-        self.all_clause_embedding_verbs = np.union1d(self.all_CP_verbs, get_all_rogatives())
-        self.all_non_clause_embedding_verbs = np.setdiff1d(get_all_verbs(), self.all_clause_embedding_verbs)
+        self.all_non_finite_CP_verbs = np.intersect1d(get_all_non_finite_verbs(), get_all_CP_verbs())
+        # self.all_pres_plural_verbs = get_all_present_plural_verbs()
+        # self.all_homophonous_verbs = get_all("homophonous", "1")
+        # self.all_non_pres_plural_verbs = np.setdiff1d(get_all_verbs(), self.all_pres_plural_verbs)
+        # self.all_non_homophonous_verbs = np.setdiff1d(get_all_verbs(), self.all_homophonous_verbs)
+        # self.all_non_pres_plural_transitive_verbs = np.intersect1d(self.all_non_pres_plural_verbs, get_all_transitive_verbs())
+        # self.all_non_homophonous_verbs = np.intersect1d(self.all_non_homophonous_verbs, get_all_transitive_verbs())
+        # self.all_CP_verbs = get_all("category", "(S\\NP)/S")
+        # self.all_clause_embedding_verbs = np.union1d(self.all_CP_verbs, get_all_rogatives())
+        # self.all_non_clause_embedding_verbs = np.setdiff1d(get_all_verbs(), self.all_clause_embedding_verbs)
 
 
     def sample(self):
@@ -236,113 +237,95 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         return data_transform, data_base, track_sentence, templates
 
-    # def sample_CP_verb_RC(self, ambiguous):
-    #
-    #     template = "CP_verb_RC"
-    #     V1 = choice(self.CP_verbs_non_ing)
-    #     V1_ing = self.get_ing_form(V1)
-    #     NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
-    #     D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
-    #     V1 = conjugate(V1, NP1)
-    #     V1_ing = conjugate(V1_ing, NP1)
-    #
-    #     V2 = choice(self.all_non_ing_transitive_verbs)
-    #     V2_ing = self.get_ing_form(V2)
-    #     NP2 = choice(get_matches_of(V2, "arg_1", self.safe_nouns))
-    #     V2 = conjugate(V2, NP2)
-    #     V2_ing = conjugate(V2_ing, NP2)
-    #     D2 = choice(get_matched_by(NP2, "arg_1", get_all_very_common_dets()))
-    #     NP3 = choice(get_matches_of(V2, "arg_2", self.safe_nouns))
-    #     D3 = choice(get_matched_by(NP3, "arg_1", get_all_very_common_dets()))
-    #
-    #     option = random.randint(0, 1)
-    #     template += ",RC1=%d" % option
-    #     if option == 0:
-    #         RC1, _, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1)
-    #     else:
-    #         RC1, _, V_RC1, V_RC1_ing = self.object_relative_clause(NP1)
-    #
-    #     option = random.randint(0, 1)
-    #     template += ",RC2=%d" % option
-    #     if option == 0:
-    #         RC2, _, V_RC2, V_RC2_ing = self.subject_relative_clause(NP2)
-    #     else:
-    #         RC2, _, V_RC2, V_RC2_ing = self.object_relative_clause(NP2)
-    #
-    #     option = random.randint(0, 1)
-    #     template += ",RC3=%d" % option
-    #     if option == 0:
-    #         RC3, _, V_RC3, V_RC3_ing = self.subject_relative_clause(NP3)
-    #     else:
-    #         RC3, _, V_RC3, V_RC3_ing = self.object_relative_clause(NP3)
-    #
-    #     S1 = " ".join([D1[0], "%s", NP1[0], "%s", V1[0], "that", D2[0], "%s", NP2[0], V2[0], D3[0], "%s", NP3[0]])
-    #
-    #     track_sentence = [
-    #         (S1, RC1, RC2, RC3),
-    #         (S1, RC1, RC2, RC3)
-    #     ]
-    #
-    #     data_transform = []
-    #     data_base = []
-    #     templates = []
-    #
-    #     if ambiguous:
-    #         # 1_1
-    #         optionA = random.randint(0, 1)
-    #         templates.append(template + ",1_1,optionA=%d" % optionA)
-    #         optionB = random.randint(0, 1)
-    #         templates.append(template + ",0_0,optionA=%d,optionB=%d" % (optionA, optionB))
-    #         if optionA == 0:
-    #             data_transform.append(
-    #                 " ".join([D1[0], NP1[0], V1_ing[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
-    #             data_base.append(
-    #                 " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
-    #             if optionB == 0:
-    #                 data_transform.append(
-    #                     " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2_ing, V2[0], D3[0], NP3[0]]))
-    #                 data_base.append(
-    #                     " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
-    #             else:
-    #                 data_transform.append(
-    #                     " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2_ing[0], D3[0], NP3[0]]))
-    #                 data_base.append(
-    #                     " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
-    #         else:
-    #             data_transform.append(
-    #                 " ".join([D1[0], NP1[0], V1_ing[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
-    #             data_base.append(
-    #                 " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
-    #             if optionB == 0:
-    #                 data_transform.append(
-    #                     " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3_ing]))
-    #                 data_base.append(
-    #                     " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
-    #             else:
-    #                 data_transform.append(
-    #                     " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2_ing[0], D3[0], NP3[0], RC3 % V_RC3]))
-    #                 data_base.append(
-    #                     " ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
-    #
-    #             # Note: This 0_0 template can't be used because it doesn't have a 1_1 pair
-    #             # data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2_ing[0], D3[0], NP3[0]]))
-    #             # data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
-    #
-    #     else:  # unambiguous
-    #         # 1_0
-    #         data_transform.append(
-    #             " ".join([D1[0], NP1[0], RC1 % V_RC1, V1_ing[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
-    #         data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
-    #         templates.append(template + ",1_0")
-    #
-    #         # 0_1
-    #         data_transform.append(
-    #             " ".join([D1[0], NP1[0], RC1 % V_RC1_ing, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
-    #         data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
-    #         templates.append(template + ",0_1")
-    #
-    #     return data_transform, data_base, track_sentence, templates
-    #
+    def sample_CP_verb_RC(self, ambiguous):
+
+        template = "CP_verb_RC"
+        V1 = choice(self.all_non_finite_CP_verbs)
+        NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
+        D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
+        Aux1 = return_aux(V1, NP1)
+
+        V2 = choice(get_all_non_finite_transitive_verbs())
+        NP2 = choice(get_matches_of(V2, "arg_1", self.safe_nouns))
+        Aux2 = return_aux(V2, NP2)
+        D2 = choice(get_matched_by(NP2, "arg_1", get_all_very_common_dets()))
+        NP3 = choice(get_matches_of(V2, "arg_2", self.safe_nouns))
+        D3 = choice(get_matched_by(NP3, "arg_1", get_all_very_common_dets()))
+
+        option = random.randint(0, 1)
+        template += ",RC1=%d" % option
+        if option == 0:
+            RC1, _, V_RC1, Aux_RC1 = self.subject_relative_clause(NP1)
+        else:
+            RC1, _, V_RC1, Aux_RC1 = self.object_relative_clause(NP1)
+
+        option = random.randint(0, 1)
+        template += ",RC2=%d" % option
+        if option == 0:
+            RC2, _, V_RC2, Aux_RC2 = self.subject_relative_clause(NP2)
+        else:
+            RC2, _, V_RC2, Aux_RC2 = self.object_relative_clause(NP2)
+
+        option = random.randint(0, 1)
+        template += ",RC3=%d" % option
+        if option == 0:
+            RC3, _, V_RC3, Aux_RC3 = self.subject_relative_clause(NP3)
+        else:
+            RC3, _, V_RC3, Aux_RC3 = self.object_relative_clause(NP3)
+
+        S1 = " ".join([D1[0], "%s", NP1[0], "%s", V1[0], "that", D2[0], "%s", NP2[0], V2[0], D3[0], "%s", NP3[0]])
+
+        track_sentence = [
+            (S1, RC1, RC2, RC3),
+            (S1, RC1, RC2, RC3)
+        ]
+
+        data_transform = []
+        data_base = []
+        templates = []
+
+        if ambiguous:
+            # 1_1
+            optionA = random.randint(0, 1)
+            templates.append(template + ",1_1,optionA=%d" % optionA)
+            optionB = random.randint(0, 1)
+            templates.append(template + ",0_0,optionA=%d,optionB=%d" % (optionA, optionB))
+            if optionA == 0:
+                data_transform.append(" ".join([Aux1[0], D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux="", v=V_RC2[0]), Aux2[0], V2[0], D3[0], NP3[0]]))
+                data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0]), Aux2[0], V2[0], D3[0], NP3[0]]))
+                if optionB == 0:
+                    data_transform.append(" ".join([Aux_RC2[0], D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux="", v=V_RC2[0]), Aux2[0], V2[0], D3[0], NP3[0]]))
+                    data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0]), Aux2[0], V2[0], D3[0], NP3[0]]))
+                else:
+                    data_transform.append(" ".join([Aux2[0], D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0]), V2[0], D3[0], NP3[0]]))
+                    data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0]), Aux2[0], V2[0], D3[0], NP3[0]]))
+            else:
+                data_transform.append(" ".join([Aux1[0], D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], Aux2[0], V2[0], D3[0], NP3[0], RC3.format(aux=Aux_RC3[0], v=V_RC3[0])]))
+                data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], Aux2[0], V2[0], D3[0], NP3[0], RC3.format(aux=Aux_RC3[0], v=V_RC3[0])]))
+                if optionB == 0:
+                    data_transform.append(" ".join([Aux_RC3[0], D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], Aux2[0], V2[0], D3[0], NP3[0], RC3.format(aux="", v=V_RC3[0])]))
+                    data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], Aux2[0], V2[0], D3[0], NP3[0], RC3.format(aux=Aux_RC3[0], v=V_RC3[0])]))
+                else:
+                    data_transform.append(" ".join([Aux2[0], D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3.format(aux=Aux_RC3[0], v=V_RC3[0])]))
+                    data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], Aux2[0], V2[0], D3[0], NP3[0], RC3.format(aux=Aux_RC3[0], v=V_RC3[0])]))
+
+                # Note: This 0_0 template can't be used because it doesn't have a 1_1 pair
+                # data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2_ing[0], D3[0], NP3[0]]))
+                # data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
+
+        else:  # unambiguous
+            # 1_0
+            data_transform.append(" ".join([Aux1[0], D1[0], NP1[0], RC1.format(aux=Aux_RC1[0], v=V_RC1[0]), V1[0], "that", D2[0], NP2[0], Aux2[0], V2[0], D3[0], NP3[0]]))
+            data_base.append(" ".join([D1[0], NP1[0], RC1.format(aux=Aux_RC1[0], v=V_RC1[0]), Aux1[0], V1[0], "that", D2[0], NP2[0], Aux2[0], V2[0], D3[0], NP3[0]]))
+            templates.append(template + ",1_0")
+
+            # 0_1
+            data_transform.append(" ".join([Aux_RC1[0], D1[0], NP1[0], RC1.format(aux="", v=V_RC1[0]), Aux1[0], V1[0], "that", D2[0], NP2[0], Aux2[0], V2[0], D3[0], NP3[0]]))
+            data_base.append(" ".join([D1[0], NP1[0], RC1.format(aux=Aux_RC1[0], v=V_RC1[0]), Aux1[0], V1[0], "that", D2[0], NP2[0], Aux2[0], V2[0], D3[0], NP3[0]]))
+            templates.append(template + ",0_1")
+
+        return data_transform, data_base, track_sentence, templates
+
     # def sample_CP_noun(self, ambiguous):
     #     if ambiguous:
     #         raise Exception("This paradigm can't be ambiguous")

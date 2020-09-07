@@ -108,6 +108,11 @@ def get_all_non_recursive_verbs():
         VOCAB_SETS["all_non_recursive_verbs"] = np.union1d(get_all_transitive_verbs(), get_all_intransitive_verbs())
     return VOCAB_SETS["all_non_recursive_verbs"]
 
+def get_all_CP_verbs():
+    if "all_CP_verbs" not in VOCAB_SETS.keys():
+        VOCAB_SETS["all_CP_verbs"] = get_all("category", "(S\\NP)/S")
+    return VOCAB_SETS["all_CP_verbs"]
+
 def get_all_finite_verbs():
     if "all_finite_verbs" not in VOCAB_SETS.keys():
         VOCAB_SETS["all_finite_verbs"] = get_all("finite", "1", get_all_verbs())
@@ -195,6 +200,11 @@ def get_all_possibly_singular_verbs():
     if "all_possibly_singular_verbs" not in VOCAB_SETS.keys():
         VOCAB_SETS["all_possibly_singular_verbs"] = np.setdiff1d(get_all_verbs(), get_all_strictly_plural_verbs())
     return VOCAB_SETS["all_possibly_singular_verbs"]
+
+def get_all_present_plural_verbs():
+    if "all_present_plural_verbs" not in VOCAB_SETS.keys():
+        VOCAB_SETS["all_present_plural_verbs"] = get_all_conjunctive([("pres", "1"), ("3sg", "0")])
+    return VOCAB_SETS["all_present_plural_verbs"]
 
 def get_all_non_finite_transitive_verbs():
     if "all_non_finite_transitive_verbs" not in VOCAB_SETS.keys():
