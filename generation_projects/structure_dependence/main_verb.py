@@ -8,13 +8,11 @@ import random
 class MyGenerator(data_generator.StructureDependenceGenerator):
     def __init__(self):
         super().__init__(uid="main_verb",
-                         linguistic_feature_type="syntactic",
                          linguistic_feature_description="Is the main verb in the progressive form?",
-                         surface_feature_type="linear",
                          surface_feature_description="Is the first verb in the progressive form?",
                          control_paradigm=True)
 
-        self.safe_nouns = get_all_common_nouns()
+        self.safe_nouns = np.intersect1d(get_all_frequent(), get_all_common_nouns())
         self.CP_nouns = get_all("category", "N/S", get_all_nominals())
         self.all_ing_verbs = get_all("ing", "1", get_all_verbs())
         all_possibly_ing_verbs = np.unique(np.array([item for sublist in [get_all("root", x["root"], get_all_verbs()) for x in self.all_ing_verbs] for item in sublist]))
@@ -41,26 +39,26 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         track_sentence = []
         option = random.randint(0, 4)
         if option == 0:
-            data_transform_in, data_base_in, track_sentence_in = self.sample_nested_rc(ambiguous=True)
+            data_transform_in, data_base_in, track_sentence_in, templates = self.sample_nested_rc(ambiguous=True)
         elif option == 1:
-            data_transform_in, data_base_in, track_sentence_in = self.sample_CP_verb_RC(ambiguous=True)
+            data_transform_in, data_base_in, track_sentence_in, templates = self.sample_CP_verb_RC(ambiguous=True)
         elif option == 2:
-            data_transform_in, data_base_in, track_sentence_in = self.sample_1_rc(ambiguous=True)
+            data_transform_in, data_base_in, track_sentence_in, templates = self.sample_1_RC(ambiguous=True)
         elif option == 3:
-            data_transform_in, data_base_in, track_sentence_in = self.sample_nested_CP_verb(ambiguous=True)
+            data_transform_in, data_base_in, track_sentence_in, templates = self.sample_nested_CP_verb(ambiguous=True)
         else:
-            data_transform_in, data_base_in, track_sentence_in = self.sample_CP_under_RC(ambiguous=True)
+            data_transform_in, data_base_in, track_sentence_in, templates = self.sample_CP_under_RC(ambiguous=True)
         track_sentence.extend(track_sentence_in)
 
         option = random.randint(0, 3)
         if option == 0:
-            data_transform_out, data_base_out, track_sentence_out = self.sample_2_rcs(ambiguous=False)
+            data_transform_out, data_base_out, track_sentence_out, templates = self.sample_2_RCs(ambiguous=False)
         elif option == 1:
-            data_transform_out, data_base_out, track_sentence_out = self.sample_CP_noun(ambiguous=False)
+            data_transform_out, data_base_out, track_sentence_out, templates = self.sample_CP_noun(ambiguous=False)
         elif option == 2:
-            data_transform_out, data_base_out, track_sentence_out = self.sample_CP_noun_RC(ambiguous=False)
+            data_transform_out, data_base_out, track_sentence_out, templates = self.sample_CP_noun_RC(ambiguous=False)
         else:
-            data_transform_out, data_base_out, track_sentence_out = self.sample_nested_rc_2_rcs(ambiguous=False)
+            data_transform_out, data_base_out, track_sentence_out, templates = self.sample_nested_RC_2_RCs(ambiguous=False)
         track_sentence.extend(track_sentence_out)
 
         data_transform = self.build_paradigm(
@@ -121,15 +119,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             RC = " ".join([rel[0], D2[0], subj[0], "%s"])
         return RC, subj, V[0], V_ing[0]
 
-    def sample_2_rcs(self, ambiguous):
-        """
-        The dog that ate the bone is chasing the squirrel that climbed a tree.
-        D1  NP1 RC1               V1_ing     D2  NP2      RC2
+    def sample_2_RCs(self, ambiguous):
 
-        RC1 := that V_RC1 NP | (that) NP V_RC1
-        """
         if ambiguous:
             raise Exception("This paradigm can't be ambiguous")
+        template = "2_RCs"
         V1 = choice(self.all_non_ing_transitive_verbs)
         V1_ing = self.get_ing_form(V1)
         NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
@@ -143,12 +137,16 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         D2 = choice(get_matched_by(NP2, "arg_1", get_all_very_common_dets()))
         S1 = " ".join([D1[0], NP1[0], "%s", D2[0], NP2[0]])
 
-        if bool(random.randint(0, 1)):
+        option = random.randint(0, 1)
+        template += ",RC1=%d" % option
+        if option == 0:
             RC1, _, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1)
         else:
             RC1, _, V_RC1, V_RC1_ing = self.object_relative_clause(NP1)
 
-        if bool(random.randint(0, 1)):
+        option = random.randint(0, 1)
+        template += ",RC2=%d" % option
+        if option == 0:
             RC2, _, V_RC2, V_RC2_ing = self.subject_relative_clause(NP2)
         else:
             RC2, _, V_RC2, V_RC2_ing = self.object_relative_clause(NP2)
@@ -160,19 +158,23 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         
         data_transform = []
         data_base = []
+        templates = []
         # 1_0
         data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1_ing[0], D2[0], NP2[0], RC2 % V_RC2]))
         data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], D2[0], NP2[0], RC2 % V_RC2]))
+        templates.append(template + ",1_0")
 
         # 0_1
         data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1_ing, V1[0], D2[0], NP2[0], RC2 % V_RC2]))
         data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], D2[0], NP2[0], RC2 % V_RC2]))
+        templates.append(template + ",0_1")
 
-        return data_transform, data_base, track_sentence
+        return data_transform, data_base, track_sentence, templates
 
 
     def sample_nested_rc(self, ambiguous):
 
+        template = "nested_rc"
         V1 = choice(self.all_non_ing_transitive_verbs)
         V1_ing = self.get_ing_form(V1)
         NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
@@ -184,6 +186,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         S1 = " ".join([D1[0], NP1[0], "%s", D2[0], NP2[0]])
 
         option = random.randint(0, 2)
+        template += ",RC1=%d" % option
         if option == 0:
             RC1, arg_RC1, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1, bind=True)
             RC1_b, _, V_RC1_b, V_RC1_ing_b = self.subject_relative_clause(arg_RC1, bind=False)
@@ -196,6 +199,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
 
         option = random.randint(0, 2)
+        template += ",RC2=%d" % option
         if option == 0:
             RC2, arg_RC2, V_RC2, V_RC2_ing = self.subject_relative_clause(NP2, bind=True)
             RC2_b, _, V_RC2_b, V_RC2_ing_b = self.subject_relative_clause(arg_RC2, bind=False)
@@ -213,13 +217,16 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         data_transform = []
         data_base = []
+        templates = []
         if ambiguous:
             # 1_1
             data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
             data_base.append(" ".join([D1[0], NP1[0], V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
+            templates.append(template + ",1_1")
 
             # 0_0
             option = random.randint(0, 2)
+            templates.append(template + ",0_0,option=%d" % option)
             if option == 0:
                 data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_ing_b)), V1[0], D2[0], NP2[0]]))
                 data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0]]))
@@ -234,16 +241,19 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             # 1_0
             data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1_ing[0], D2[0], NP2[0]]))
             data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0]]))
+            templates.append(template + ",1_0")
 
             # 0_1
             data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1_ing, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0]]))
             data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0]]))
+            templates.append(template + ",0_1")
 
-        return data_transform, data_base, track_sentence
+        return data_transform, data_base, track_sentence, templates
 
 
     def sample_CP_verb_RC(self, ambiguous):
 
+        template = "CP_verb_RC"
         V1 = choice(self.CP_verbs_non_ing)
         V1_ing = self.get_ing_form(V1)
         NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
@@ -261,21 +271,26 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         D3 = choice(get_matched_by(NP3, "arg_1", get_all_very_common_dets()))
 
 
-        if bool(random.randint(0, 1)):
+        option = random.randint(0, 1)
+        template += ",RC1=%d" % option
+        if option == 0:
             RC1, _, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1)
         else:
             RC1, _, V_RC1, V_RC1_ing = self.object_relative_clause(NP1)
 
-        if bool(random.randint(0, 1)):
+        option = random.randint(0, 1)
+        template += ",RC2=%d" % option
+        if option == 0:
             RC2, _, V_RC2, V_RC2_ing = self.subject_relative_clause(NP2)
         else:
             RC2, _, V_RC2, V_RC2_ing = self.object_relative_clause(NP2)
 
-        if bool(random.randint(0, 1)):
+        option = random.randint(0, 1)
+        template += ",RC3=%d" % option
+        if option == 0:
             RC3, _, V_RC3, V_RC3_ing = self.subject_relative_clause(NP3)
         else:
             RC3, _, V_RC3, V_RC3_ing = self.object_relative_clause(NP3)
-
 
         S1 = " ".join([D1[0], "%s", NP1[0], "%s", V1[0], "that", D2[0], "%s", NP2[0], V2[0], D3[0], "%s", NP3[0]])
 
@@ -286,51 +301,56 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         data_transform = []
         data_base = []
+        templates = []
 
         if ambiguous:
             # 1_1
-            option = random.randint(0, 1)
-            if option == 0:
+            optionA = random.randint(0, 1)
+            templates.append(template + ",1_1,optionA=%d" % optionA)
+            optionB = random.randint(0, 1)
+            templates.append(template + ",0_0,optionA=%d,optionB=%d" % (optionA, optionB))
+            if optionA == 0:
                 data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
                 data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
+                if optionB == 0:
+                    data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2_ing, V2[0], D3[0], NP3[0]]))
+                    data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
+                else:
+                    data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2_ing[0], D3[0], NP3[0]]))
+                    data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
             else:
                 data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
                 data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
+                if optionB == 0:
+                    data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3_ing]))
+                    data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
+                else:
+                    data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2_ing[0], D3[0], NP3[0], RC3 % V_RC3]))
+                    data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
 
-            # 0_0
-            option = random.randint(0, 4)
-            if option == 0:
-                data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2_ing[0], D3[0], NP3[0]]))
-                data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
-            elif option == 1:
-                data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2_ing, V2[0], D3[0], NP3[0]]))
-                data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
-            elif option == 2:
-                data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2_ing[0], D3[0], NP3[0]]))
-                data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
-            elif option == 3:
-                data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3_ing]))
-                data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
-            else:
-                data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2_ing[0], D3[0], NP3[0], RC3 % V_RC3]))
-                data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
+                # Note: This 0_0 template can't be used because it doesn't have a 1_1 pair
+                # data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2_ing[0], D3[0], NP3[0]]))
+                # data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
 
         else:  # unambiguous
             # 1_0
             data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1_ing[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
             data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
+            templates.append(template + ",1_0")
 
             # 0_1
             data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1_ing, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
             data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0]]))
+            templates.append(template + ",0_1")
 
-        return data_transform, data_base, track_sentence
+        return data_transform, data_base, track_sentence, templates
 
 
     def sample_CP_noun(self, ambiguous):
         if ambiguous:
             raise Exception("This paradigm can't be ambiguous")
 
+        template = "CP_noun"
         NP1 = choice(self.CP_nouns)
         V1 = choice(get_matched_by(NP1, "arg_1", self.all_non_ing_transitive_verbs))
         V1_ing = self.get_ing_form(V1)
@@ -350,29 +370,30 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         D2_emb = choice(get_matched_by(NP2_emb, "arg_1", get_all_very_common_dets()))
 
         S1 = " ".join([D1[0], NP1[0], NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]])
-        track_sentence = [
-            (S1),
-            (S1)
-        ]
+        track_sentence = [S1, S1]
 
         data_transform = []
         data_base = []
+        templates = []
 
         # 1_0
         data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1_ing[0], D2[0], NP2[0]]))
         data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
+        templates.append(template + ",1_0")
 
         # 0_1
         data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb_ing[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
         data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
+        templates.append(template + ",0_1")
 
-        return data_transform, data_base, track_sentence
+        return data_transform, data_base, track_sentence, templates
 
 
     def sample_CP_noun_RC(self, ambiguous):
         if ambiguous:
             raise Exception("This paradigm can't be ambiguous")
 
+        template = "CP_noun_RC"
         NP1 = choice(self.CP_nouns)
         V1 = choice(get_matched_by(NP1, "arg_1", self.all_non_ing_transitive_verbs))
         V1_ing = self.get_ing_form(V1)
@@ -403,45 +424,50 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         data_transform = []
         data_base = []
-        option = random.randint(0, 2)
-        if option == 0:
+        templates = []
+        optionA = random.randint(0, 2)
+        templates.append(template + ",1_1,option=%d" % optionA)
+        optionB = random.randint(0, 1)
+        templates.append(template + ",0_0,optionA=%d,optionB=%d" % (optionA, optionB))
+
+        if optionA == 0:  # RC1_emb, 1_1
             data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1_ing[0], D2[0], NP2[0]]))
             data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
-        elif option == 1:
+            if optionB == 0:  # 0_0
+                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb_ing[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
+            else:  # 0_0
+                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb_ing, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
+
+        elif optionA == 1:  # RC_2_emb, 1_1
             data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1_ing[0], D2[0], NP2[0]]))
             data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
-        else:
+            if optionB == 0:  # 0_0
+                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb_ing[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
+            else:
+                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb_ing, V1[0], D2[0], NP2[0]]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
+
+        else: # RC_2, 1_1
             data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1_ing[0], D2[0], NP2[0], RC2 % V_RC2]))
             data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
+            if optionB == 0:  # 0_0
+                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb_ing[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
+            else:
+                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2_ing]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
 
-        option = random.randint(0, 5)
-        if option == 0:
-            data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb_ing[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
-            data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
-        elif option == 1:
-            data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb_ing[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
-            data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
-        elif option == 2:
-            data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb_ing[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
-            data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
-
-        elif option == 3:
-            data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb_ing, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
-            data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
-        elif option == 4:
-            data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb_ing, V1[0], D2[0], NP2[0]]))
-            data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
-        else:
-            data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2_ing]))
-            data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
-
-        return data_transform, data_base, track_sentence
+        return data_transform, data_base, track_sentence, templates
 
 
-    def sample_nested_rc_2_rcs(self, ambiguous):
+    def sample_nested_RC_2_RCs(self, ambiguous):
         if ambiguous:
             raise Exception("This paradigm can't be ambiguous")
 
+        template = "nested_RC_2_RCs"
         V1 = choice(self.all_non_ing_transitive_verbs)
         V1_ing = self.get_ing_form(V1)
         NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
@@ -453,6 +479,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         S1 = " ".join([D1[0], NP1[0], "%s", D2[0], NP2[0]])
 
         option = random.randint(0, 2)
+        template += ",RC1=%d" % option
         if option == 0:
             RC1, arg_RC1, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1, bind=True)
             RC1_b, _, V_RC1_b, V_RC1_ing_b = self.subject_relative_clause(arg_RC1, bind=False)
@@ -465,6 +492,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
 
         option = random.randint(0, 2)
+        template += ",RC2=%d" % option
         if option == 0:
             RC2, arg_RC2, V_RC2, V_RC2_ing = self.subject_relative_clause(NP2, bind=True)
             RC2_b, _, V_RC2_b, V_RC2_ing_b = self.subject_relative_clause(arg_RC2, bind=False)
@@ -486,38 +514,41 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         data_transform = []
         data_base = []
-        option = random.randint(0, 1)
-        if option == 0:
+        templates = []
+        optionA = random.randint(0, 1)
+        templates.append(template + ",1_1,option=%d" % optionA)
+        optionB = random.randint(0, 2)
+        templates.append(template + ",0_0,optionA=%d,optionB=%d" % (optionA, optionB))
+        if optionA == 0:
             data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1_ing[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
             data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
+            if optionB == 0:
+                data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1_ing, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
+                data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
+            elif optionB == 1:
+                data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_ing_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
+                data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
+            else:
+                data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv_ing]))
+                data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
         else:
             data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1_ing[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
             data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
+            if optionB == 0:
+                data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2_ing, rc=(RC2_b % V_RC2_b))]))
+                data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
+            elif optionB == 1:
+                data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_ing_b))]))
+                data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
+            else:
+                data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv_ing, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
+                data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
 
-        option = random.randint(0, 5)
-        if option == 0:
-            data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1_ing, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-            data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-        elif option == 1:
-            data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_ing_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-            data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-        elif option == 2:
-            data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv_ing]))
-            data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-        elif option == 3:
-            data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2_ing, rc=(RC2_b % V_RC2_b))]))
-            data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-        elif option == 4:
-            data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_ing_b))]))
-            data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-        else:
-            data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv_ing, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-            data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-
-        return data_transform, data_base, track_sentence
+        return data_transform, data_base, track_sentence, templates
 
 
-    def sample_1_rc(self, ambiguous):
+    def sample_1_RC(self, ambiguous):
+        template = "1_RC"
         V1 = choice(self.all_non_ing_transitive_verbs)
         V1_ing = self.get_ing_form(V1)
         NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
@@ -531,12 +562,16 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         D2 = choice(get_matched_by(NP2, "arg_1", get_all_very_common_dets()))
         S1 = " ".join([D1[0], NP1[0], "%s", D2[0], NP2[0]])
 
-        if bool(random.randint(0, 1)):
+        option = random.randint(0, 1)
+        template += ",RC1=%d" % option
+        if option == 0:
             RC1, _, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1)
         else:
             RC1, _, V_RC1, V_RC1_ing = self.object_relative_clause(NP1)
 
-        if bool(random.randint(0, 1)):
+        option = random.randint(0, 1)
+        template += ",RC2=%d" % option
+        if option == 0:
             RC2, _, V_RC2, V_RC2_ing = self.subject_relative_clause(NP2)
         else:
             RC2, _, V_RC2, V_RC2_ing = self.object_relative_clause(NP2)
@@ -548,30 +583,35 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         data_transform = []
         data_base = []
-
+        templates = []
         if ambiguous:
             # 1_1
             data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], D2[0], NP2[0], RC2 % V_RC2]))
             data_base.append(" ".join([D1[0], NP1[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
+            templates.append(template + ",1_1")
 
             # 0_0
             data_transform.append(" ".join([D1[0], NP1[0], V1[0], D2[0], NP2[0], RC2 % V_RC2_ing]))
             data_base.append(" ".join([D1[0], NP1[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
+            templates.append(template + ",0_0")
 
         else:  # unambiguous
             # 1_0
             data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1_ing[0], D2[0], NP2[0]]))
             data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], D2[0], NP2[0]]))
+            templates.append(template + ",1_0")
 
             # 0_1
             data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1_ing, V1[0], D2[0], NP2[0]]))
             data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], D2[0], NP2[0]]))
+            templates.append(template + ",0_1")
 
-        return data_transform, data_base, track_sentence
+        return data_transform, data_base, track_sentence, templates
 
     def sample_nested_CP_verb(self, ambiguous):
         if not ambiguous:
             raise Exception("This paradigm must be ambiguous")
+        template = "nested_CP_verb"
         V1 = choice(self.CP_verbs_non_ing)
         V1_ing = self.get_ing_form(V1)
         NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
@@ -588,10 +628,12 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         V3 = choice(self.all_non_CP_non_ing_verbs)
         V3_ing = self.get_ing_form(V3)
-        S3 = make_sentence_from_verb(V3)
-        S3_ing = make_sentence_from_verb(V3_ing)
+        V3_args = verb_args_from_verb(V3)
         that1 = "that" if random.choice([True, False]) else ""
         that2 = "that" if random.choice([True, False]) else ""
+        S3 = make_sentence_from_args(V3_args)
+        V3_args["aux"] = return_aux(V3_ing, V3_args["subj"])
+        S3_ing = make_sentence_from_args(V3_args)
 
         track_sentence = [
             (V1, NP1, V2, NP2, V3),
@@ -600,25 +642,28 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         data_transform = []
         data_base = []
+        templates = []
 
         # 1_1
         data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
         data_base.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
+        templates.append(template + ",1_1")
 
+        # 0_0
         option = random.randint(0, 1)
+        templates.append(template + ",0_0,option=%d" % option)
         if option == 0:
-            # 0_0
             data_transform.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2_ing[0], that2, S3]))
             data_base.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
         else:
-            # 0_0
             data_transform.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3_ing]))
             data_base.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
 
-        return data_transform, data_base, track_sentence
+        return data_transform, data_base, track_sentence, templates
 
 
     def sample_CP_under_RC(self, ambiguous):
+        template = "CP_under_RC"
         V_CP = choice(self.CP_verbs_non_ing)
         V_CP_ing = self.get_ing_form(V_CP)
 
@@ -662,13 +707,16 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
             data_transform = []
             data_base = []
+            templates = []
 
             # 1_1
             data_transform.append(" ".join([D4[0], NP4[0], V_main_ing[0], NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0])]))
             data_base.append(" ".join([D4[0], NP4[0], V_main[0], NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0])]))
+            templates.append(template + ",1_1")
 
             # 0_0
             option = random.randint(0, 1)
+            templates.append(template + ",0_0,option=%d" % option)
             if option == 0:
                 data_transform.append(" ".join([D4[0], NP4[0], V_main[0], NP_RC.format(V_CP=V_CP_ing[0], V_emb=V_emb[0])]))
                 data_base.append(" ".join([D4[0], NP4[0], V_main[0], NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0])]))
@@ -685,12 +733,16 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
             data_transform = []
             data_base = []
+            templates = []
 
             # 1_0
             data_transform.append(" ".join([NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0]), V_main_ing[0], join_args(V_main_args)]))
             data_base.append(" ".join([NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0]), V_main[0], join_args(V_main_args)]))
+            templates.append(template + ",1_0")
 
+            # 0_1
             option = random.randint(0, 1)
+            templates.append(template + ",0_1,option=%d" % option)
             if option == 0:
                 data_transform.append(" ".join([NP_RC.format(V_CP=V_CP_ing[0], V_emb=V_emb[0]), V_main[0], join_args(V_main_args)]))
                 data_base.append(" ".join([NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0]), V_main[0], join_args(V_main_args)]))
@@ -703,7 +755,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             (V_CP, NP1, V_emb, NP2, NP3, V_main)
         ]
 
-        return data_transform, data_base, track_sentence
+        return data_transform, data_base, track_sentence, templates
 
 
 

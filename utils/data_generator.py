@@ -313,16 +313,12 @@ class StructureDependenceGenerator(Generator):
     """
     def __init__(self,
                  uid: str,
-                 linguistic_feature_type: str,
                  linguistic_feature_description: str,
-                 surface_feature_type: str,
                  surface_feature_description: str,
                  control_paradigm: bool):
         super().__init__()
         self.uid = uid
-        self.linguistic_feature_type = linguistic_feature_type
         self.linguistic_feature_description = linguistic_feature_description
-        self.surface_feature_type = surface_feature_type
         self.surface_feature_description = surface_feature_description
         self.control_paradigm = control_paradigm
         self.data_fields = ["training_1_1", "training_0_0", "test_1_0", "test_0_1", "control_1_1", "control_0_0"]
@@ -401,9 +397,7 @@ class StructureDependenceGenerator(Generator):
         """
         metadata = {
             "UID": self.uid,
-            "linguistic_feature_type": self.linguistic_feature_type,
             "linguistic_feature_description": self.linguistic_feature_description,
-            "surface_feature_type": self.surface_feature_type,
             "surface_feature_description": self.surface_feature_description,
             "control_paradigm": self.control_paradigm
         }
