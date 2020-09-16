@@ -314,13 +314,11 @@ class StructureDependenceGenerator(Generator):
     def __init__(self,
                  uid: str,
                  linguistic_feature_description: str,
-                 surface_feature_description: str,
-                 control_paradigm: bool):
+                 surface_feature_description: str):
         super().__init__()
         self.uid = uid
         self.linguistic_feature_description = linguistic_feature_description
         self.surface_feature_description = surface_feature_description
-        self.control_paradigm = control_paradigm
         self.data_fields = ["training_1_1", "training_0_0", "test_1_0", "test_0_1", "control_1_1", "control_0_0"]
 
     def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
@@ -346,9 +344,6 @@ class StructureDependenceGenerator(Generator):
         for file in ["test.jsonl", "train.jsonl"]:
             output_file = open(os.path.join(output_dir, file), "w")
             output_writer = jsonlines.Writer(output_file, flush=True)
-            if not self.control_paradigm:
-                output_control_file = open(os.path.join(output_dir, "control_" + file), "w")
-                output_control_writer = jsonlines.Writer(output_control_file, flush=True)
             split_counter = 0
             while split_counter < number_to_generate:
                 try:
@@ -370,11 +365,11 @@ class StructureDependenceGenerator(Generator):
                         line["paradigmID"] = paradigmID
                         line["split"] = file.split(".")[0]
                         sentenceID += 1
-                    if not self.control_paradigm:
-                        for line in list(filter(lambda x: x["condition"] == "control" and x["linguistic_generalization_label"] != x["surface_generalization_label"], new_data)):
-                            output_control_writer.write(line)
+                    # if not self.control_paradigm:
+                    #     for line in list(filter(lambda x: x["condition"] == "control" and x["linguistic_generalization_label"] != x["surface_generalization_label"], new_data)):
+                    #         output_control_writer.write(line)
                     if file == "test.jsonl":
-                        for line in list(filter(lambda x: not(x["condition"] == "control" and x["linguistic_generalization_label"] != x["surface_generalization_label"]), new_data)):
+                        for line in new_data:
                             output_writer.write(line)
                     else:
                         for line in list(filter(lambda x: x["condition"] == "training", new_data)):
@@ -398,33 +393,37 @@ class StructureDependenceGenerator(Generator):
         metadata = {
             "UID": self.uid,
             "linguistic_feature_description": self.linguistic_feature_description,
-            "surface_feature_description": self.surface_feature_description,
-            "control_paradigm": self.control_paradigm
+            "surface_feature_description": self.surface_feature_description
         }
         return metadata
 
     def build_paradigm(self, training_1_1, training_0_0, test_1_0, test_0_1,
-                       training_1_1_base, training_0_0_base, test_1_0_base, test_0_1_base):
+                       training_1_1_base, training_0_0_base, test_1_0_base, test_0_1_base,
+                       template_1_1, template_0_0, template_1_0, template_0_1):
         data = [
             {"sentence_transform": training_1_1,
              "sentence_base": training_1_1_base,
-             "condition": "training",
-             "linguistic_feature_label": None,
+             "template": template_1_1,
+             "domain": "in",
+             "linguistic_feature_label": 1,
              "surface_feature_label": 1},
             {"sentence_transform": training_0_0,
              "sentence_base": training_0_0_base,
-             "condition": "training",
-             "linguistic_feature_label": None,
+             "template": template_0_0,
+             "domain": "in",
+             "linguistic_feature_label": 0,
              "surface_feature_label": 0},
             {"sentence_transform": test_1_0,
              "sentence_base": test_1_0_base,
-             "condition": "test",
-             "linguistic_feature_label": None,
-             "surface_feature_label": 1},
+             "template": template_1_0,
+             "domain": "out",
+             "linguistic_feature_label": 1,
+             "surface_feature_label": 0},
             {"sentence_transform": test_0_1,
              "sentence_base": test_0_1_base,
-             "condition": "test",
-             "linguistic_feature_label": None,
-             "surface_feature_label": 0},
+             "template": template_0_1,
+             "domain": "out",
+             "linguistic_feature_label": 0,
+             "surface_feature_label": 1},
         ]
         return data
