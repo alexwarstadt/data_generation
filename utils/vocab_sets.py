@@ -44,8 +44,8 @@ all_refl_preds = reduce(np.union1d, (all_anim_anim_verbs, all_doc_doc_verbs))
 all_non_plural_transitive_verbs = np.extract(
     ["sg=0" not in x["arg_1"] and "pl=1" not in x["arg_1"] for x in all_transitive_verbs],
     all_transitive_verbs)
-all_strictly_plural_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "0")], all_verbs)
-all_strictly_singular_verbs = get_all_conjunctive([("pres", "1"), ("3sg", "1")], all_verbs)
+all_strictly_plural_verbs = get_all_conjunctive([("pres", "1"), ("sg3", "0")], all_verbs)
+all_strictly_singular_verbs = get_all_conjunctive([("pres", "1"), ("sg3", "1")], all_verbs)
 all_strictly_plural_transitive_verbs = np.intersect1d(all_strictly_plural_verbs, all_transitive_verbs)
 all_strictly_singular_transitive_verbs = np.intersect1d(all_strictly_singular_verbs, all_transitive_verbs)
 all_possibly_plural_verbs = np.setdiff1d(all_verbs, all_strictly_singular_verbs)
