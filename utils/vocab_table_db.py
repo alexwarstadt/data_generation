@@ -19,12 +19,21 @@ attribute_lookup = dict([(j, i) for i, j in enumerate(headers)])
 
 
 def get_all(label, value):
+    """
+    :param label: string. field name.
+    :param value: string. label.
+    :return: table restricted to all entries with "value" in field "label"
+    """
     query = "SELECT * FROM vocabulary WHERE " + label + " = ?;"
     rows = cursor.execute(query, (value,))
     return np.array([row for row in rows])
 
 
 def get_all_conjunctive(labels_values):
+    """
+    :param labels_values: list of (l,v) pairs: [(l1, v1), (l2, v2), (l3, v3)]
+    :return: vocab items with the given value for each label
+    """
     select_substr = ''.join(["{} = ? and ".format(pair[0]) for pair in labels_values]).rstrip("and ")
     values = [pair[1] for pair in labels_values]
     query = "SELECT * FROM vocabulary WHERE " + select_substr
@@ -33,6 +42,11 @@ def get_all_conjunctive(labels_values):
 
 
 def get_matches_of(row, label):
+    """
+    :param row: ndarray row. functor vocab item.
+    :param label: string. field containing selectional restrictions.
+    :return: all entries in table that match the selectional restrictions of row as given in label.
+    """
     value = row[attribute_lookup[label]]
 
     if value is None:
@@ -49,11 +63,13 @@ def get_matches_of(row, label):
         return np.array(matches)
 
 
-def get_matches_of_conj(rows_labels):
-    pass
-
-
 def get_matched_by(row, label, table):
+    """
+    :param row: ndarray row. selected vocab item.
+    :param label: string. field containing selectional restrictions.
+    :param table: ndarray of vocab items.
+    :return: all entries in table whose selectional restrictions in label are matched by row.
+    """
     subset = get_all_conjunctive(table)
 
     matches = []
@@ -65,10 +81,6 @@ def get_matched_by(row, label, table):
             matches.append(entry)
 
     return np.array(matches)
-
-
-def get_matched_by_conj():
-    pass
 
 
 def conj_list(conjunction):
