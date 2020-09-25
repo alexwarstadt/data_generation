@@ -92,7 +92,7 @@ def get_all_unlike(packed_values):
     rows = cursor.execute(query, values)
     return np.array([row for row in rows])
 
-def get_matches_of(row, label):
+def get_matches_of(row, label, table=""):
     """
     :param row: ndarray row. functor vocab item.
     :param label: string. field containing selectional restrictions.
@@ -108,6 +108,11 @@ def get_matches_of(row, label):
 
         for disjunct in values:
             conjuncts = conj_list(disjunct)
+
+            # If we pass in a table, in this case a list of tuples, we want to refine our search.
+            if table != "":
+                conjuncts += table
+
             results = get_all_conjunctive(conjuncts)
             matches.extend(results)
 
