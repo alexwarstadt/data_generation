@@ -8,7 +8,7 @@ db_filepath = path.abspath(path.join(basepath, '..', 'lexicon.db'))
 connection = sqlite3.connect(db_filepath)
 
 cursor = connection.cursor()
-cursor.execute("DROP TABLE IF EXISTS lexicon")
+cursor.execute("DROP TABLE IF EXISTS vocabulary")
 
 headers = []
 
@@ -18,7 +18,7 @@ with open(vocab_filepath, 'r') as file:
     reader = csv.reader(file)
     headers = next(reader)
 
-execution_str = "CREATE TABLE lexicon (\n"
+execution_str = "CREATE TABLE vocabulary (\n"
 
 for header in headers:
     execution_str += header + " text," + "\n"

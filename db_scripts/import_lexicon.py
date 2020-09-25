@@ -8,7 +8,7 @@ db_filepath = path.abspath(path.join(basepath, '..', 'lexicon.db'))
 connection = sqlite3.connect(db_filepath)
 
 cursor = connection.cursor()
-cursor.execute('DELETE FROM lexicon')
+cursor.execute('DELETE FROM vocabulary')
 
 num_records = 0
 
@@ -19,7 +19,7 @@ with open(vocab_filepath, 'r') as file:
     headers = next(reader)
 
     for row in file:
-        insert_str = "INSERT INTO lexicon VALUES (" + (len(headers) * "?,").rstrip(',') + ")"
+        insert_str = "INSERT INTO vocabulary VALUES (" + (len(headers) * "?,").rstrip(',') + ")"
         cursor.execute(insert_str, row.split(','))
         connection.commit()
         num_records += 1
