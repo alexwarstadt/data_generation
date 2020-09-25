@@ -3,13 +3,9 @@
 
 # TODO: document metadata
 
-from utils.vocab_table import *
 from utils.conjugate import *
-from utils.data_type import data_type
 from random import choice
 from utils.string_utils import remove_extra_whitespace
-import numpy as np
-import random
 from utils.vocab_sets import *
 from nltk.stem import WordNetLemmatizer
 from utils.exceptions import *
