@@ -316,6 +316,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             if optionA == 0:
                 data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
                 data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
+                # 0_0
                 if optionB == 0:
                     data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2_ing, V2[0], D3[0], NP3[0]]))
                     data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
@@ -323,8 +324,10 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                     data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2_ing[0], D3[0], NP3[0]]))
                     data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2 % V_RC2, V2[0], D3[0], NP3[0]]))
             else:
+                # 1_1
                 data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
                 data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
+                # 0_0
                 if optionB == 0:
                     data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3_ing]))
                     data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], D3[0], NP3[0], RC3 % V_RC3]))
@@ -429,40 +432,30 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         data_transform = []
         data_base = []
         templates = []
-        optionA = random.randint(0, 2)
-        templates.append(template + ",1_1,option=%d" % optionA)
-        optionB = random.randint(0, 1)
-        templates.append(template + ",0_0,optionA=%d,optionB=%d" % (optionA, optionB))
+        option = random.randint(0, 2)
+        templates.append(template + ",1_0,option=%d" % option)
+        templates.append(template + ",0_1,option=%d" % option)
 
-        if optionA == 0:  # RC1_emb, 1_1
+        if option == 0:  # RC1_emb, 1_0
             data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1_ing[0], D2[0], NP2[0]]))
             data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
-            if optionB == 0:  # 0_0
-                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb_ing[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
-                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
-            else:  # 0_0
-                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb_ing, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
-                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
+            # 0_1
+            data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb_ing, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
+            data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], RC1_emb % V_RC1_emb, V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0]]))
 
-        elif optionA == 1:  # RC_2_emb, 1_1
+        elif option == 1:  # RC_2_emb, 1_0
             data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1_ing[0], D2[0], NP2[0]]))
             data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
-            if optionB == 0:  # 0_0
-                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb_ing[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
-                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
-            else:
-                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb_ing, V1[0], D2[0], NP2[0]]))
-                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
+            # 0_1
+            data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb_ing[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
+            data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], RC2_emb % V_RC2_emb, V1[0], D2[0], NP2[0]]))
 
-        else: # RC_2, 1_1
+        else: # RC_2, 1_0
             data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1_ing[0], D2[0], NP2[0], RC2 % V_RC2]))
             data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
-            if optionB == 0:  # 0_0
-                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb_ing[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
-                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
-            else:
-                data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2_ing]))
-                data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
+            # 0_1
+            data_transform.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb_ing[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
+            data_base.append(" ".join([D1[0], NP1[0], "that", D1_emb[0], NP1_emb[0], V_emb[0], D2_emb[0], NP2_emb[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
 
         return data_transform, data_base, track_sentence, templates
 
@@ -519,34 +512,21 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         data_transform = []
         data_base = []
         templates = []
-        optionA = random.randint(0, 1)
-        templates.append(template + ",1_1,option=%d" % optionA)
-        optionB = random.randint(0, 2)
-        templates.append(template + ",0_0,optionA=%d,optionB=%d" % (optionA, optionB))
-        if optionA == 0:
+        option = random.randint(0, 1)
+        templates.append(template + ",1_0,option=%d" % option)
+        templates.append(template + ",0_1,option=%d" % option)
+        if option == 0:  # RC_1_b, 1_0
             data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1_ing[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
             data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-            if optionB == 0:
-                data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1_ing, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-                data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-            elif optionB == 1:
-                data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_ing_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-                data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-            else:
-                data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv_ing]))
-                data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-        else:
+            # 0_1
+            data_transform.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1_ing, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
+            data_base.append(" ".join([D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
+        else:  # RC_2_b, 1_0
             data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1_ing[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
             data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-            if optionB == 0:
-                data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2_ing, rc=(RC2_b % V_RC2_b))]))
-                data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-            elif optionB == 1:
-                data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_ing_b))]))
-                data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-            else:
-                data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv_ing, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-                data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
+            # 0_1
+            data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv_ing, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
+            data_base.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
 
         return data_transform, data_base, track_sentence, templates
 
@@ -637,6 +617,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         that2 = "that" if random.choice([True, False]) else ""
         S3 = make_sentence_from_args(V3_args)
         V3_args["aux"] = return_aux(V3_ing, V3_args["subj"])
+        V3_args["verb"] = V3_ing
         S3_ing = make_sentence_from_args(V3_args)
 
         track_sentence = [
@@ -688,7 +669,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         try:
             option = random.randint(0, 2)
             if option == 0:  # bind subject of V_CP
-                that = "that" if random.choice([True, False]) else ""
+                that = "that"
                 NP_RC = " ".join([D1[0], NP1[0], Rel, "{V_CP}", that, D2[0], NP2[0], "{V_emb}", D3[0], NP3[0]])
             elif option == 1:  # bind subject of CP
                 Rel = Rel if random.choice([True, False]) else ""
@@ -696,7 +677,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 NP_RC = " ".join([D2[0], NP2[0], Rel, D1[0], NP1[0], "{V_CP}", that, "{V_emb}", D3[0], NP3[0]])
             else:  # bind object of CP
                 Rel = Rel if random.choice([True, False]) else ""
-                that = "that" if random.choice([True, False]) else ""
+                that = "that"
                 NP_RC = " ".join([D3[0], NP3[0], Rel, D1[0], NP1[0], "{V_CP}", that, D2[0], NP2[0], "{V_emb}"])
         except Exception:
             pass
