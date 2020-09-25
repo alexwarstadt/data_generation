@@ -9,8 +9,6 @@ vocab_filepath = path.abspath(path.join(basepath, '..', 'vocabulary.csv'))
 connection = sqlite3.connect(db_filepath)
 cursor = connection.cursor()
 
-headers = []
-
 with open(vocab_filepath, 'r') as file:
     reader = csv.reader(file)
     headers = next(reader)
@@ -63,7 +61,7 @@ def get_union_conjunctive(labels_values1, labels_values2):
 
 def get_all_except(packed_values):
     """
-    :param tuple (p_v, n_v) containing positive selection values p_v and negative selection values
+    :param packed_values: tuple (p_v, n_v) containing positive selection values p_v and negative selection values
         n_v
     :return: vocab items that fulfill the feature requirements of the first tuple element, but not the second.
     """
@@ -92,10 +90,12 @@ def get_all_unlike(packed_values):
     rows = cursor.execute(query, values)
     return np.array([row for row in rows])
 
+
 def get_matches_of(row, label, table=""):
     """
     :param row: ndarray row. functor vocab item.
     :param label: string. field containing selectional restrictions.
+    :param table: vocab_set_db object. a list of tuples providing labels and values
     :return: all entries in table that match the selectional restrictions of row as given in label.
     """
     value = row[attribute_lookup[label]]
@@ -150,6 +150,7 @@ def conj_list(conjunction):
     except IndexError:
         pass
 
+
 def is_match_disj(row, disjunction):
     """
     :param row: a vocab item
@@ -165,6 +166,7 @@ def is_match_disj(row, disjunction):
             match = match or is_match_conj(row, d)
         return match
 
+
 def is_match_conj(row, conjunction):
     """
     :param row: a vocab item
@@ -178,4 +180,5 @@ def is_match_conj(row, conjunction):
             match = match and row[k] == v
         except TypeError:
             pass
+
     return match
