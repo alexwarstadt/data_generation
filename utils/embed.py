@@ -1,5 +1,3 @@
-from random import choice
-from utils.vocab_sets import *
 from utils.constituent_building import *
 
 
