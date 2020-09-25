@@ -1,4 +1,3 @@
-from utils.vocab_table import *
 from random import choice
 from utils.vocab_sets import *
 
