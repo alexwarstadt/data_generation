@@ -41,6 +41,40 @@ def get_all_conjunctive(labels_values):
     return np.array([row for row in rows])
 
 
+def get_union(label_value_disjunct):
+    """
+    :param label_value_disjunct: tuple of ((l1, v1), (l2, v2) )pair
+    :return: vocab items that satisfy both sides of disjunction
+    """
+    (l1, v1), (l2, v2) = label_value_disjunct
+    query = "SELECT * FROM vocabulary WHERE {} = ? or {} = ?".format(l1, l2)
+    rows = cursor.execute(query, [v1, v2])
+    return np.array([row for row in rows])
+
+
+def get_union_conjunctive(labels_values1, labels_values2):
+    """
+    :param labels_values1: list of (l, v) pairs: [(l1, v1), (l2, v2), (l3, v3)].
+    :param labels_values2: list of (l, v) pairs: [(l1, v1), (l2, v2), (l3, v3)].
+    :return: vocab items that satisfy specifications of both sides of disjunction
+    """
+    pass
+
+
+def get_all_except(packed_values):
+    """
+    :param labels_values: list of (l, v) pairs for selection
+    :param neg_labels_values: list of (l, v) pairs for exclusion
+    """
+    labels_values, neg_labels_values = packed_values
+    select_substr = ''.join(["{} = ? and ".format(pair[0]) for pair in labels_values])
+    exclude_substr = ''.join("{} != ? and ".format(pair[0]) for pair in neg_labels_values).rstrip("and ")
+    values = [pair[1] for pair in labels_values] + [pair[1] for pair in neg_labels_values]
+    query = "SELECT * FROM vocabulary WHERE " + select_substr + exclude_substr
+    rows = cursor.execute(query, values)
+    return np.array([row for row in rows])
+
+
 def get_matches_of(row, label):
     """
     :param row: ndarray row. functor vocab item.
