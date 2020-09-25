@@ -32,15 +32,10 @@ all_bare_verbs = [("bare", "1")] + all_verbs
 #                                                          all_transitive_verbs))
 # all_doc_doc_verbs = get_matched_by(choice(all_documents), "arg_1",
 #                                         get_matched_by(choice(all_documents), "arg_2", all_transitive_verbs))
-# TODO: work on this np.extract thingy
-# all_refl_nonverbal_predicates = np.extract([x["arg_1"] == x["arg_2"] for x in get_all("category_2", "Pred")],
-#                                                 get_all("category_2", "Pred"))
+all_refl_nonverbal_predicates = [("category_2", "Pred")]
 # TODO: work on this reduce thingy
 # all_refl_preds = reduce(np.union1d, (all_anim_anim_verbs, all_doc_doc_verbs))
-# TODO: Work on this extract thingy
-# all_non_plural_transitive_verbs = np.extract(
-#     ["sg=0" not in x["arg_1"] and "pl=1" not in x["arg_1"] for x in all_transitive_verbs],
-#     all_transitive_verbs)    [("pres", "1"), ("sg3", "0"), ("verb", "1"), ("category", "(S\\NP)/NP")]
+all_non_plural_transitive_verbs = (all_transitive_verbs, [("arg_1", "sg=0"), ("arg_1", "pl=1")]) # get_all_unlike
 all_strictly_plural_verbs = [("pres", "1"), ("sg3", "0")] + all_verbs
 all_strictly_singular_verbs = [("pres", "1"), ("sg3", "1")] + all_verbs
 all_strictly_plural_transitive_verbs = all_strictly_plural_verbs + all_transitive_verbs
@@ -73,7 +68,7 @@ all_negative_copulas = (all_copulas + [("negated", "1")], [("bare", "1")])
 # OTHER
 all_determiners = [("category", "(S/(S\\NP))/N")]
 all_frequent_determiners = [("frequent", "1", all_determiners)]
-# FIX THIS
+# TODO FIX THIS by adding a query that takes in a complex disjunction
 all_very_common_dets = [("expression", "the"), ("expression", "a"), ("expression", "an")]
 
 all_relativizers = [("category_2", "rel")]

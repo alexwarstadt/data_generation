@@ -63,8 +63,9 @@ def get_union_conjunctive(labels_values1, labels_values2):
 
 def get_all_except(packed_values):
     """
-    :param labels_values: list of (l, v) pairs for selection
-    :param neg_labels_values: list of (l, v) pairs for exclusion
+    :param tuple (p_v, n_v) containing positive selection values p_v and negative selection values
+        n_v
+    :return: vocab items that fulfill the feature requirements of the first tuple element, but not the second.
     """
     labels_values, neg_labels_values = packed_values
     select_substr = ''.join(["{} = ? and ".format(pair[0]) for pair in labels_values])
@@ -74,6 +75,22 @@ def get_all_except(packed_values):
     rows = cursor.execute(query, values)
     return np.array([row for row in rows])
 
+
+def get_all_unlike(packed_values):
+    """
+    :param packed_values: tuple (p_v, n_v) containing positive selection values p_v and negative selection values
+        n_v
+        [("arg_1", "sg=0"), ("arg_1", "pl=1")]
+    :return: vocab items that fulfill the feature requirements of the first tuple element, but do not contain
+        any string elements found in the second pair.
+    """
+    labels_values, neg_labels_values = packed_values
+    select_substr = ''.join(["{} = ? and ".format(pair[0]) for pair in labels_values])
+    exclude_substr = ''.join("{} not like ? and ".format(pair[0]) for pair in neg_labels_values).rstrip("and ")
+    values = [pair[1] for pair in labels_values] + ["%" + pair[1] + "%" for pair in neg_labels_values]
+    query = "SELECT * FROM vocabulary WHERE " + select_substr + exclude_substr
+    rows = cursor.execute(query, values)
+    return np.array([row for row in rows])
 
 def get_matches_of(row, label):
     """
