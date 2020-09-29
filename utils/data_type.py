@@ -4,7 +4,7 @@
 # The second value is the encoding the data in that field. "U" is for unicode, the number marks the max number of characters.
 
 data_type = [("expression", "U100000"),
-             ("category", "U20"),
+             ("category", "U100"),
              ("category_2", "U20"),
              ("verb", "U1"),
              ("noun", "U1"),
