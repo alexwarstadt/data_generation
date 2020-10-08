@@ -292,13 +292,15 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
     return args
 
 
-def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True, avoid=None):
+def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True, avoid=None, very_common_det=False):
     """
     :param noun: noun to turn into DP
     :param frequent: restrict to frequent determiners only?
     :return: NONE. mutates string of noun.
     """
     args = noun_args_from_noun(noun, frequent, allow_quantifiers=allow_quantifiers, avoid=avoid)
+    if very_common_det:
+        args["det"] = choice(get_matched_by(noun, "arg_1", get_all_very_common_dets()))
     if determiner and args["det"] is not []:
         noun[0] = " ".join([args["det"][0],
                             noun[0]] +
