@@ -13,7 +13,7 @@ from utils.exceptions import *
 lemmatizer = WordNetLemmatizer()
 
 def verb_phrase_from_subj(subject, frequent=True, allow_negated=True):
-    verb = choice(get_matched_by(subject, "arg_1", get_all_verbs()()))
+    verb = choice(get_matched_by(subject, "arg_1", get_all_verbs()))
     args = verb_args_from_verb(verb=verb, frequent=frequent, subj=subject, allow_negated=allow_negated)
     VP = V_to_VP_mutate(verb, frequent=frequent, args=args)
     return VP
@@ -59,9 +59,9 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
     if verb["category"] == "(S\\NP)/(S[from]\\NP)":
         obj = N_to_DP_mutate(choice(get_matches_of(verb, "arg_2", freq_vocab)), allow_quantifiers=allow_quantifiers)
         if allow_recursion:
-            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", get_all_ing_verbs()())), frequent=frequent, aux=False)
+            VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", get_all_ing_verbs())), frequent=frequent, aux=False)
         else:
-            safe_verbs = np.intersect1d(get_all_ing_verbs()(), get_all_non_recursive_verbs()())
+            safe_verbs = np.intersect1d(get_all_ing_verbs(), get_all_non_recursive_verbs())
             VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", safe_verbs)), frequent=frequent, aux=False)
         VP[0] = "from " + VP[0]
         args["args"] = [obj, VP]

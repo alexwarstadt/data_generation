@@ -348,7 +348,7 @@ class StructureDependenceGenerator(Generator):
             while split_counter < number_to_generate:
                 try:
                     pb.print_progress_bar(split_counter)
-                    new_data, track_sentence = self.sample()
+                    new_data, _ = self.sample()
                     # overlap = False
                     # for i in range(len(track_sentence)):
                     #     if track_sentence[i] in past_sentences[i]:
@@ -372,7 +372,7 @@ class StructureDependenceGenerator(Generator):
                         for line in new_data:
                             output_writer.write(line)
                     else:
-                        for line in list(filter(lambda x: x["condition"] == "training", new_data)):
+                        for line in list(filter(lambda x: x["domain"] == "in", new_data)):
                             output_writer.write(line)
                     split_counter += 1
                     paradigmID += 1
