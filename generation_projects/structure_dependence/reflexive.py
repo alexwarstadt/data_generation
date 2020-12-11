@@ -5,6 +5,9 @@ from utils.randomize import choice
 from utils.vocab_sets_dynamic import *
 import random
 
+# TODO: prevent repeated nouns
+# TODO: sample non-binders from all nouns
+
 
 class MyGenerator(data_generator.StructureDependenceGenerator):
     def __init__(self):
@@ -21,6 +24,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         self.all_itself = get_all_conjunctive([("animate", "0"), ("sg", "1")], self.safe_nouns)
         self.all_themselves = np.intersect1d(get_all_plural_nouns(), self.safe_nouns)
         self.all_agreeing_nouns = np.union1d(self.all_himself, np.union1d(self.all_herself, np.union1d(self.all_itself, self.all_themselves)))
+        self.all_reflexive_nouns = np.array([n for n in self.all_agreeing_nouns if len(get_matched_by(n, "arg_1", get_matched_by(n, "arg_2", get_all_refl_preds()))) > 0])
         self.all_not_himself = np.setdiff1d(self.safe_nouns, self.all_himself)
         self.all_not_herself = np.setdiff1d(self.safe_nouns, self.all_herself)
         self.all_not_itself = np.setdiff1d(self.safe_nouns, self.all_itself)
@@ -34,47 +38,58 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_CP_verb_RC(ambiguous=False)
 
         track_sentence = []
-        # option = random.randint(0, 4)
-        # if option == 0:
-        #     data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_nested_rc(ambiguous=True)
-        # elif option == 1:
-        #     data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_CP_verb_RC(ambiguous=True)
-        # elif option == 2:
-        #     data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_1_RC(ambiguous=True)
-        # elif option == 3:
-        #     data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_nested_CP_verb(
-        #         ambiguous=True)
-        # else:
-        #     data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_CP_under_RC(ambiguous=True)
+        option = random.randint(0, 7)
+        if option == 0:
+            data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_2_RCs(ambiguous=True)
+        elif option == 1:    
+            data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_nested_rc(ambiguous=True)
+        elif option == 2:    
+            data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_CP_verb_RC(ambiguous=True)
+        elif option == 3:    
+            data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_CP_noun(ambiguous=True)
+        elif option == 4:    
+            data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_CP_noun_RC(ambiguous=True)
+        elif option == 5:    
+            data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_nested_RC_2_RCs(ambiguous=True)
+        elif option == 6:    
+            data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_1_RC(ambiguous=True)
+        elif option == 7:    
+            data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_nested_CP_verb(ambiguous=True)
+        else:    
+            data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_CP_under_RC(ambiguous=True)
+            
         track_sentence.extend(track_sentence_in)
 
-        # option = random.randint(0, 3)
-        # if option == 0:
-        #     data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_2_RCs(ambiguous=False)
-        # elif option == 1:
-        #     data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_CP_noun(ambiguous=False)
-        # elif option == 2:
-        #     data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_CP_noun_RC(
-        #         ambiguous=False)
-        # else:
-        #     data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_nested_RC_2_RCs(
-        #         ambiguous=False)
+        option = random.randint(0, 3)
+        if option == 0:
+            data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_nested_rc(ambiguous=False)
+        elif option == 1:    
+            data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_CP_verb_RC(ambiguous=False)
+        elif option == 2:    
+            data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_CP_noun_RC(ambiguous=False)
+        elif option == 3:    
+            data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_1_RC(ambiguous=False)
+        else:    
+            data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_CP_under_RC(ambiguous=False)
         track_sentence.extend(track_sentence_out)
 
-        data_transform = self.build_paradigm(
-            training_1_1=data_transform_in[0],
-            training_0_0=data_transform_in[1],
-            test_1_0=data_transform_out[0],
-            test_0_1=data_transform_out[1],
-            training_1_1_base=data_base_in[0],
-            training_0_0_base=data_base_in[1],
-            test_1_0_base=data_base_out[0],
-            test_0_1_base=data_base_out[1],
-            template_1_1=templates_in[0],
-            template_0_0=templates_in[1],
-            template_1_0=templates_out[0],
-            template_0_1=templates_out[1]
-        )
+        try:
+            data_transform = self.build_paradigm(
+                training_1_1=data_transform_in[0],
+                training_0_0=data_transform_in[1],
+                test_1_0=data_transform_out[0],
+                test_0_1=data_transform_out[1],
+                training_1_1_base=data_base_in[0],
+                training_0_0_base=data_base_in[1],
+                test_1_0_base=data_base_out[0],
+                test_0_1_base=data_base_out[1],
+                template_1_1=templates_in[0],
+                template_0_0=templates_in[1],
+                template_1_0=templates_out[0],
+                template_0_1=templates_out[1]
+            )
+        except Exception:
+            pass
 
         return data_transform, track_sentence
 
@@ -112,11 +127,20 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         V_sample_space = get_all_refl_preds() if reflexive else get_all_transitive_verbs()
         for NP in coindexes:
             V_sample_space = get_matched_by(NP, "arg_2", V_sample_space)
-        V = choice(get_matched_by(subj, "arg_1", V_sample_space))
+        try:
+            V = choice(get_matched_by(subj, "arg_1", V_sample_space))
+        except Exception:
+            pass
         V = conjugate(V, subj)
-        obj_sample_space = self.all_agreeing_nouns if binder else self.safe_nouns
+        try:
+            obj_sample_space = self.all_reflexive_nouns if binder else self.safe_nouns
+        except Exception:
+            pass
         for verb in other_verbs:
-            obj_sample_space = get_matches_of(verb[0], verb[1], obj_sample_space)
+            try:
+                obj_sample_space = get_matches_of(verb[0], verb[1], obj_sample_space)
+            except Exception:
+                pass
         obj = choice(obj_sample_space)
         obj_refl = self.return_reflexive(obj)
         obj = N_to_DP_mutate(obj, very_common_det=True)
@@ -156,7 +180,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         for NP in coindexes:
             V_sample_space = get_matched_by(NP, "arg_1", V_sample_space)
         V = choice(get_matched_by(obj, "arg_2", V_sample_space))
-        subj_sample_space = self.all_agreeing_nouns if binder else self.safe_nouns
+        subj_sample_space = self.all_reflexive_nouns if binder else self.safe_nouns
         for verb in other_verbs:
             subj_sample_space = get_matches_of(verb[0], verb[1], subj_sample_space)
         subj = choice(subj_sample_space)
@@ -176,9 +200,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         if not ambiguous:
             raise Exception("This paradigm must be ambiguous")
-
         template = "2_RCs"
-
         V1_refl = False
         V_RC1_refl = False
         V_RC2_refl = False
@@ -204,7 +226,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             V1 = choice(get_all_transitive_verbs())
 
         if 0 in coindex_bad or 0 in coindex_good:
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_agreeing_nouns))
+            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns))
         else:
             NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
         V1 = conjugate(V1, NP1)
@@ -212,7 +234,10 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         NP1 = N_to_DP_mutate(NP1, very_common_det=True)
 
         if 2 in coindex_bad or 2 in coindex_good:
-            NP2 = choice(get_matches_of(V1, "arg_2", self.all_agreeing_nouns))
+            try:
+                NP2 = choice(get_matches_of(V1, "arg_2", self.all_reflexive_nouns))
+            except Exception:
+                pass
         else:
             NP2 = choice(get_matches_of(V1, "arg_2", self.safe_nouns))
         NP2_refl = self.return_reflexive(NP2)
@@ -227,9 +252,9 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         bound1 = 1==coindex_good[1] or 1==coindex_bad[1]
         coindexes1 = [NP1] if coindex_good == (0,1) else []
         if option == 0 or bound1:
-            RC1, NP_RC1, NP_RC1_refl, V_RC1 = self.subject_relative_clause(NP1, reflexive=V_RC1_refl, binder=binder1, coindexes=coindexes1, other_verbs=[])
+            RC1, NP_RC1, NP_RC1_refl, V_RC1 = self.subject_relative_clause(NP1, reflexive=V_RC1_refl, binder=binder1, coindexes=coindexes1)
         else:
-            RC1, NP_RC1, NP_RC1_refl, V_RC1 = self.object_relative_clause(NP1, reflexive=V_RC1_refl, binder=binder1, coindexes=coindexes1, other_verbs=[])
+            RC1, NP_RC1, NP_RC1_refl, V_RC1 = self.object_relative_clause(NP1, reflexive=V_RC1_refl, binder=binder1, coindexes=coindexes1)
 
         option = random.randint(0, 1)
         template += ",RC2=%d" % option
@@ -243,9 +268,9 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         if (1,3) in coindex_bad:
             coindexes3.append(NP_RC1)
         if option == 0 or bound3:
-            RC2, NP_RC2, NP_RC2_refl, _ = self.subject_relative_clause(NP2, reflexive=V_RC2_refl, binder=binder3, coindexes=coindexes3, other_verbs=[])
+            RC2, NP_RC2, NP_RC2_refl, _ = self.subject_relative_clause(NP2, reflexive=V_RC2_refl, binder=binder3, coindexes=coindexes3)
         else:
-            RC2, NP_RC2, NP_RC2_refl, _ = self.object_relative_clause(NP2, reflexive=V_RC2_refl, binder=binder3, coindexes=coindexes3, other_verbs=[])
+            RC2, NP_RC2, NP_RC2_refl, _ = self.object_relative_clause(NP2, reflexive=V_RC2_refl, binder=binder3, coindexes=coindexes3)
 
         track_sentence = [
             (S1, RC1, RC2, NP_RC1, NP_RC2),
@@ -284,51 +309,64 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         if ambiguous:
             # optionA = random.randint(0, 1)
             optionA = 0     # TODO implement more of these if time
-            if optionA == 0:  # 1 binds 2: The girl that helped the boy who hurt himself ate the pie.
-                optionB = random.randint(0, 1)
-                if optionB == 0:
-                    coindex_bad = (0, 2)
-                else:
-                    coindex_bad = (1, 3)
-                if 3 in coindex_bad:
-                    V1 = choice(get_all_refl_preds())
-                else:
-                    V1 = choice(get_all_transitive_verbs())
-                if 0 in coindex_bad:
-                    NP1 = choice(get_matches_of(V1, "arg_1", self.all_agreeing_nouns))
-                else:
-                    NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
-                V1 = conjugate(V1, NP1)
-                NP1_refl = self.return_reflexive(NP1)
-                NP1 = N_to_DP_mutate(NP1, very_common_det=True)
-                NP2 = choice(get_matches_of(V1, "arg_2", self.safe_nouns))
-                NP2_refl = self.return_reflexive(NP2)
-                NP2 = N_to_DP_mutate(NP2, very_common_det=True)
-                option = random.randint(0, 1)
-                template += ",RC1=%d" % option
-                binder1 = coindex_bad[0] == 1
-                coindexes_RCb = [NP1] if coindex_bad == (0, 2) else []
-                other_verbs_RC = [(V1, "arg_2")] if coindex_bad == (1, 3) else []
-                if option == 0:
-                    RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, reflexive=False, binder=binder1, coindexes=[], other_verbs=other_verbs_RC, nested=True)
-                else:
-                    RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1, reflexive=False, binder=binder1, coindexes=[], other_verbs=other_verbs_RC, nested=True)
-                RCb, NP_RCb, NP_RCb_refl, V_RCb = self.subject_relative_clause(NP_RC, reflexive=True, binder=False, coindexes=coindexes_RCb + [NP_RC], other_verbs=[])
-                data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RC_refl)), V1[0], NP2[0]]))
-                data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RC[0])), V1[0], NP2[0]]))
-                templates.append(template + ",1_1,optionA=%d" % optionA)
-                if optionB == 0:  # 0 binds 2
+            if optionA == 0:
+                optionB = random.randint(0, 1)  # 0 = 0 binds 2; 1 = 1 binds 3
+                if optionB == 0:  # 0 = 0 binds 2
+                    # The boy that helped the girl who hurt herself/himself     ate the pie.
+                    # NP1     RC          NP_RC    RCb      NP_RC_refl/NP1_refl V1  NP2
+                    NP1 = choice(self.all_reflexive_nouns)
+                    NP1_refl = self.return_reflexive(NP1)
+                    NP1 = N_to_DP_mutate(NP1, very_common_det=True)
+                    V1 = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
+                    V1 = conjugate(V1, NP1)
+                    NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", get_all_nouns())), very_common_det=True)
+                    option_RC = random.randint(0, 1)
+                    template += ",RC1=%d" % option_RC
+                    if option_RC == 0:
+                        RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, binder=True, nested=True)
+                    else:
+                        RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1, binder=True, nested=True)
+                    RCb, NP_RCb, NP_RCb_refl, V_RCb = self.subject_relative_clause(NP_RC, reflexive=True, coindexes=[NP1])
+
+                    # 1_1
+                    data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RC_refl)), V1[0], NP2[0]]))
+                    data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RC[0])), V1[0], NP2[0]]))
+                    templates.append(template + ",1_1,optionA=%d" % optionA)
+
+                    # 0_0
                     data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP1_refl)), V1[0], NP2[0]]))
                     data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP1[0])), V1[0], NP2[0]]))
+                    templates.append(template + ",0_0,optionB=%d" % optionB)
+
                 else:  # 1 binds 3
+                    # The boy that found the girl who hurt herself/the child helped the child/*herself.
+                    # NP1     RC         NP_RC    RCb      NP_RC_refl/NP_RCb V1     NP2/NP_RC_refl
+                    V1 = choice(get_all_refl_preds())
+                    NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_nouns())), very_common_det=True)
+                    V1 = conjugate(V1, NP1)
+                    NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", get_all_nouns())), very_common_det=True)
+                    option_RC = random.randint(0, 1)
+                    template += ",RC1=%d" % option_RC
+                    if option_RC == 0:
+                        RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, binder=True, nested=True, other_verbs=[(V1, "arg_2")])
+                    else:
+                        RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1, binder=True, nested=True, other_verbs=[(V1, "arg_2")])
+                    RCb, NP_RCb, NP_RCb_refl, V_RCb = self.subject_relative_clause(NP_RC, reflexive=True, coindexes=[NP1])
+
+                    # 1_1
+                    data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RC_refl)), V1[0], NP2[0]]))
+                    data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RC[0])), V1[0], NP2[0]]))
+                    templates.append(template + ",1_1,optionA=%d" % optionA)
+
+                    # 0_0
                     data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RCb[0])), V1[0], NP_RC_refl]))
                     data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RCb[0])), V1[0], NP_RC[0]]))
-                templates.append(template + ",0_0,optionB=%d" % optionB)
+                    templates.append(template + ",0_0,optionB=%d" % optionB)
 
         else:  # 1 binds 4: The girl that ate the pie that shocked the boy hurt herself.
             coindex_bad = (2, 3)
             V1 = choice(get_all_refl_preds())
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_agreeing_nouns))
+            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns))
             V1 = conjugate(V1, NP1)
             NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1, very_common_det=True)
@@ -340,7 +378,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, nested=True)
             else:
                 RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1, nested=True)
-            RCb, NP_RCb, NP_RCb_refl, V_RCb = self.subject_relative_clause(NP_RC, binder=True, other_verbs=[V1])
+            RCb, NP_RCb, NP_RCb_refl, V_RCb = self.subject_relative_clause(NP_RC, binder=True, other_verbs=[(V1, "arg_1")])
             data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RCb[0])), V1[0], NP1_refl]))
             data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RCb[0])), V1[0], NP1[0]]))
             templates.append(template + ",1_0")
@@ -356,18 +394,18 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         data_transform = []
         data_base = []
         templates = []
-        # if not ambiguous:
-        #     raise Exception("This paradigm must be ambiguous")
         template = "CP_verb_RC"
 
         optionA = 1 if not ambiguous else random.randint(0, 2)  # Relative clause attached to NP1, NP2, or NP3
 
         if optionA == 0:    # RC attached to NP1
+            # The boy that played a game is saying that the girl hurt herself/*himself.
+            # NP1     RC          NP_RC  V1        that NP2      V2   NP2_refl/NP1_refl
             V1 = choice(self.all_CP_verbs)
             optionB = random.randint(0, 1)  # distractor is matrix subject (0) or RC argument (1)
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_agreeing_nouns)) if optionB == 1 else choice(get_matches_of(V1, "arg_1", self.safe_nouns))
+            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns)) if optionB == 1 else choice(get_matches_of(V1, "arg_1", self.safe_nouns))
             NP1_refl = self.return_reflexive(NP1)
-            NP1 = N_to_DP_mutate(NP1)
+            NP1 = N_to_DP_mutate(NP1, very_common_det=True)
             V1 = conjugate(V1, NP1)
             option = random.randint(0, 1)
             template += f",RC={option}"
@@ -376,15 +414,18 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             else:
                 RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1, binder=optionB)
             V2 = choice(get_matched_by(NP_RC, "arg_2", get_all_refl_preds())) if optionB else choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
-            NP2 = choice(get_matches_of(V2, "arg_1", get_matches_of(V2, "arg_2", self.all_agreeing_nouns)))
+            NP2 = choice(get_matches_of(V2, "arg_1", get_matches_of(V2, "arg_2", self.all_reflexive_nouns)))
             NP2_refl = self.return_reflexive(NP2)
-            NP2 = N_to_DP_mutate(NP2)
+            NP2 = N_to_DP_mutate(NP2, very_common_det=True)
             V2 = conjugate(V2, NP2)
 
             # 1_1
-            data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP2_refl]))
-            data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP2[0]]))
-            templates.append(f"{template},1_1,optionA={optionA}")
+            try:
+                data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP2_refl]))
+                data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP2[0]]))
+                templates.append(f"{template},1_1,optionA={optionA}")
+            except Exception:
+                pass
 
             # 0_0
             if optionB:
@@ -397,17 +438,25 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         elif optionA == 1:  # RC attached to NP2
             V1 = choice(self.all_CP_verbs)
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_agreeing_nouns)) if ambiguous == 1 else choice(get_matches_of(V1, "arg_1", get_all_nouns()))
-            NP1 = N_to_DP_mutate(NP1)
+            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns)) if ambiguous == 1 else choice(get_matches_of(V1, "arg_1", get_all_nouns()))
+            try:
+                NP1 = N_to_DP_mutate(NP1, very_common_det=True)
+            except Exception:
+                pass
             NP1_refl = self.return_reflexive(NP1)
             V1 = conjugate(V1, NP1)
             V2 = choice(get_all_transitive_verbs()) if ambiguous else choice(get_all_refl_preds())
-            NP2 = choice(get_matches_of(V2, "arg_1", self.all_agreeing_nouns))
-            NP2_refl = self.return_reflexive(NP2)
-            NP2 = N_to_DP_mutate(NP2)
+            NP2 = choice(get_matches_of(V2, "arg_1", self.all_reflexive_nouns))
+            try:
+                NP2_refl = self.return_reflexive(NP2)
+            except Exception:
+                pass
+            NP2 = N_to_DP_mutate(NP2, very_common_det=True)
             V2 = conjugate(V2, NP2)
-            NP3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_2", get_all_nouns())))
+            NP3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_2", get_all_nouns())), very_common_det=True)
             if ambiguous:
+                # The boy is saying that the girl that played a game hurt herself/*himself.
+                # NP1     V1        that NP2      RC          NP_RC  V2   NP2_refl/NP1_refl
                 RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP2, NP1])
                 # 1_1
                 data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], RC.format(n=NP2_refl), V2[0], NP3[0]]))
@@ -419,7 +468,9 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], RC.format(n=NP1[0]), V2[0], NP3[0]]))
                 templates.append(f"{template},0_0,optionA={optionA}")
 
-            else:
+            else:  # unambiguous
+                # The child is saying that the girl that helped a boy hurt herself/*himself.
+                # NP1       V1        that NP2      RC          NP_RC V2   NP2_refl/NP_RC_refl
                 option = random.randint(0, 1)
                 template += f",RC={option}"
                 if option == 0:
@@ -437,41 +488,41 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 templates.append(f"{template},0_1")
 
         else:   # RC attached to NP3
+            # The child is saying that the boy helped a girl that hurt herself/*himself.
+            # NP1       V1        that NP2     V2     NP3    RC        NP3_refl/NP2_refl
             optionB = random.randint(0, 1)  # distractor is matrix subject (0) or embedded subject argument (1)
             V1 = choice(self.all_CP_verbs)
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_agreeing_nouns)) if optionB == 1 else choice(get_matches_of(V1, "arg_1", self.safe_nouns))
-            NP1_refl = self.return_reflexive(NP1)
-            NP1 = N_to_DP_mutate(NP1)
+            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns)) if optionB == 0 else choice(get_matches_of(V1, "arg_1", get_all_nouns()))
+            NP1_refl = self.return_reflexive(NP1) if optionB == 0 else None
+            NP1 = N_to_DP_mutate(NP1, very_common_det=True)
             V1 = conjugate(V1, NP1)
-            V2 = choice(get_all_transitive_verbs())
-            NP2 = choice(get_matches_of(V2, "arg_1", self.all_agreeing_nouns)) if optionB == 0 else choice(get_matches_of(V1, "arg_1", self.safe_nouns))
-            NP2_refl = self.return_reflexive(NP2)
-            NP2 = N_to_DP_mutate(NP2)
-            V2 = conjugate(V2, NP2)
-            NP3 = choice(get_matches_of(V2, "arg_2", self.all_agreeing_nouns))
+
+            NP2 = choice(self.all_reflexive_nouns) if optionB == 1 else choice(get_all_nouns())
+            NP2_refl = self.return_reflexive(NP2) if optionB == 1 else None
+            NP2 = N_to_DP_mutate(NP2, very_common_det=True)
+
+            NP3 = choice(self.all_reflexive_nouns)
             NP3_refl = self.return_reflexive(NP3)
-            NP3 = N_to_DP_mutate(NP3)
+            NP3 = N_to_DP_mutate(NP3, very_common_det=True)
+
+            V2 = conjugate(choice(get_matched_by(NP2, "arg_1", get_matched_by(NP3, "arg_2", get_all_transitive_verbs()))), NP2)
             RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, reflexive=True, coindexes=[NP3])
 
             # 1_1
             data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP3_refl)]))
-            data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP_RC[0])]))
+            data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP3[0])]))
             templates.append(f"{template},1_1,optionA={optionA}")
 
             # 0_0
-            if optionB:
-                data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP1_refl]))
-                data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP1[0]]))
-            else:
-                try:
-                    data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP2_refl]))
-                except Exception:
-                    pass
-                data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP2[0]]))
+            if optionB:  # distractor is NP1
+                data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP1_refl)]))
+                data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP1[0])]))
+            else:  # distractor is NP2
+                data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP2_refl)]))
+                data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP2[0])]))
             templates.append(f"{template},1_1,optionA={optionA},optionB={optionB}")
 
         return data_transform, data_base, track_sentence, templates
-
 
     def sample_CP_noun(self, ambiguous):
         if not ambiguous:
@@ -484,8 +535,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", self.safe_nouns)), very_common_det=True)
 
         V_emb = choice(get_all_refl_preds())
-        NP1_emb = choice(get_matches_of(V_emb, "arg_1", get_matches_of(V1, "arg_2", self.all_agreeing_nouns)))
-        NP1_emb_refl = get_reflexive(NP1_emb)
+        NP1_emb = choice(get_matches_of(V_emb, "arg_1", get_matches_of(V1, "arg_2", self.all_reflexive_nouns)))
+        NP1_emb_refl = self.return_reflexive(NP1_emb)
         NP1_emb = N_to_DP_mutate(NP1_emb, very_common_det=True)
         V_emb = conjugate(V_emb, NP1_emb)
         NP2_emb = N_to_DP_mutate(choice(get_matches_of(V_emb, "arg_2", self.safe_nouns)))
@@ -495,9 +546,12 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         track_sentence = []
 
         # 1_1
-        data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP1_emb_refl, V1[0], NP2[0]]))
-        data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP1_emb[0], V1[0], NP2[0]]))
-        templates.append(template + ",1_1")
+        try:
+            data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP1_emb_refl, V1[0], NP2[0]]))
+            data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP1_emb[0], V1[0], NP2[0]]))
+            templates.append(template + ",1_1")
+        except Exception:
+            pass
 
         # 0_1
         data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP1_emb_refl]))
@@ -525,11 +579,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             V1 = choice(get_matched_by(NP1, "arg_1", get_all_refl_preds()))
             V1 = conjugate(V1, NP1)
             V_emb = choice(get_all_refl_preds())
-            NP1_emb = choice(get_matches_of(V_emb, "arg_1", self.all_agreeing_nouns))
-            NP1_emb_refl = get_reflexive(NP1_emb)
+            NP1_emb = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+            NP1_emb_refl = self.return_reflexive(NP1_emb)
             NP1_emb = N_to_DP_mutate(NP1_emb, very_common_det=True)
-            NP2_emb = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V1, "arg_2", self.all_agreeing_nouns)))
-            NP2_emb_refl = get_reflexive(NP2_emb)
+            NP2_emb = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V1, "arg_2", self.all_reflexive_nouns)))
+            NP2_emb_refl = self.return_reflexive(NP2_emb)
             NP2_emb = N_to_DP_mutate(NP2_emb, very_common_det=True)
             NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", self.safe_nouns)), very_common_det=True)
             option_RC = random.randint(0, 1)
@@ -561,8 +615,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 V_emb = choice(get_all_transitive_verbs())
                 NP1_emb = choice(get_matches_of(V_emb, "arg_1", self.safe_nouns))
                 NP1_emb = N_to_DP_mutate(NP1_emb, very_common_det=True)
-                NP2_emb = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V1, "arg_2", self.all_agreeing_nouns)))
-                NP2_emb_refl = get_reflexive(NP2_emb)
+                NP2_emb = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V1, "arg_2", self.all_reflexive_nouns)))
+                NP2_emb_refl = self.return_reflexive(NP2_emb)
                 NP2_emb = N_to_DP_mutate(NP2_emb, very_common_det=True)
                 NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", self.safe_nouns)), very_common_det=True)
                 RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1_emb, reflexive=True)
@@ -583,13 +637,13 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 V1 = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
                 V1 = conjugate(V1, NP1)
                 V_emb = choice(get_all_transitive_verbs())
-                NP1_emb = choice(get_matches_of(V_emb, "arg_1", get_matches_of(V1, "arg_2", self.all_agreeing_nouns)))
-                NP1_emb_refl = get_reflexive(NP1_emb)
+                NP1_emb = choice(get_matches_of(V_emb, "arg_1", get_matches_of(V1, "arg_2", self.all_reflexive_nouns)))
+                NP1_emb_refl = self.return_reflexive(NP1_emb)
                 NP1_emb = N_to_DP_mutate(NP1_emb, very_common_det=True)
                 NP2_emb = choice(get_matches_of(V_emb, "arg_2", self.safe_nouns))
                 NP2_emb = N_to_DP_mutate(NP2_emb, very_common_det=True)
-                NP2 = choice(get_matches_of(V1, "arg_2", self.all_agreeing_nouns))
-                NP2_refl = get_reflexive(NP2)
+                NP2 = choice(get_matches_of(V1, "arg_2", self.all_reflexive_nouns))
+                NP2_refl = self.return_reflexive(NP2)
                 NP2 = N_to_DP_mutate(NP2)
                 RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP2, reflexive=True)
 
@@ -605,84 +659,109 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         return data_transform, data_base, track_sentence, templates
 
+    def sample_nested_RC_2_RCs(self, ambiguous):
+        if not ambiguous:
+            raise Exception("This paradigm must be ambiguous")
 
-    # def sample_nested_RC_2_RCs(self, ambiguous):
-    #     if ambiguous:
-    #         raise Exception("This paradigm can't be ambiguous")
+        template = "nested_RC_2_RCs"
+        data_transform = []
+        data_base = []
+        templates = []
+        track_sentence = []
+        option = random.randint(0, 2)
+        if option == 0:
+            # The boy that ate the pie the actor baked is chasing a girl that hurt herself/*himself.
+            # NP1     that RC1 NP_RC1  RC_emb NP_RC_emb V1       NP2    that RC2  NP2_refl/NP1_refl
+            NP1 = choice(self.all_reflexive_nouns)
+            NP1_refl = self.return_reflexive(NP1)
+            NP1 = N_to_DP_mutate(NP1, very_common_det=True)
+            V1 = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
+            V1 = conjugate(V1, NP1)
+            RC1, NP_RC1, _, _ = self.subject_relative_clause(NP1, nested=True)
+            option_RC = random.randint(0, 1)
+            template += f",RC={option_RC}"
+            if option_RC == 0:  # subject RC
+                RC_emb, NP_RC_emb, _, _ = self.subject_relative_clause(NP_RC1, binder=True)
+            else:  # object RC
+                RC_emb, NP_RC_emb, _, _ = self.object_relative_clause(NP_RC1, binder=True)
+            try:
+                NP2 = choice(get_matches_of(V1, "arg_2", self.all_reflexive_nouns))
+            except Exception:
+                pass
+            NP2_refl = self.return_reflexive(NP2)
+            NP2 = N_to_DP_mutate(NP2, very_common_det=True)
+            RC2, NP_RC2, _, _ = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP1])
 
-    #     template = "nested_RC_2_RCs"
-    #     V1 = choice(self.all_non_ing_transitive_verbs)
-    #     V1_ing = self.get_ing_form(V1)
-    #     NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
-    #     V1 = conjugate(V1, NP1)
-    #     V1_ing = conjugate(V1_ing, NP1)
-    #     D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
-    #     NP2 = choice(get_matches_of(V1, "arg_2", self.safe_nouns))
-    #     D2 = choice(get_matched_by(NP2, "arg_1", get_all_very_common_dets()))
-    #     S1 = " ".join([D1[0], NP1[0], "%s", D2[0], NP2[0]])
-    #
-    #     option = random.randint(0, 2)
-    #     template += ",RC1=%d" % option
-    #     if option == 0:
-    #         RC1, arg_RC1, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1, bind=True)
-    #         RC1_b, _, V_RC1_b, V_RC1_ing_b = self.subject_relative_clause(arg_RC1, bind=False)
-    #     elif option == 1:
-    #         RC1, arg_RC1, V_RC1, V_RC1_ing = self.object_relative_clause(NP1, bind=True)
-    #         RC1_b, _, V_RC1_b, V_RC1_ing_b = self.subject_relative_clause(arg_RC1, bind=False)
-    #     else:
-    #         RC1, arg_RC1, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1, bind=True)
-    #         RC1_b, _, V_RC1_b, V_RC1_ing_b = self.object_relative_clause(arg_RC1, bind=False)
-    #
-    #     option = random.randint(0, 2)
-    #     template += ",RC2=%d" % option
-    #     if option == 0:
-    #         RC2, arg_RC2, V_RC2, V_RC2_ing = self.subject_relative_clause(NP2, bind=True)
-    #         RC2_b, _, V_RC2_b, V_RC2_ing_b = self.subject_relative_clause(arg_RC2, bind=False)
-    #     elif option == 1:
-    #         RC2, arg_RC2, V_RC2, V_RC2_ing = self.object_relative_clause(NP2, bind=True)
-    #         RC2_b, _, V_RC2_b, V_RC2_ing_b = self.subject_relative_clause(arg_RC2, bind=False)
-    #     else:
-    #         RC2, arg_RC2, V_RC2, V_RC2_ing = self.subject_relative_clause(NP2, bind=True)
-    #         RC2_b, _, V_RC2_b, V_RC2_ing_b = self.object_relative_clause(arg_RC2, bind=False)
-    #
-    #     RC1_iv, V_RC1_iv, V_RC1_iv_ing = self.subject_relative_clause_intransitive(NP1)
-    #     RC2_iv, V_RC2_iv, V_RC2_iv_ing = self.subject_relative_clause_intransitive(NP2)
-    #
-    #     track_sentence = [
-    #         (S1, RC1, RC2),
-    #         (S1, RC1, RC2)
-    #     ]
-    #
-    #     data_transform = []
-    #     data_base = []
-    #     templates = []
-    #     option = random.randint(0, 1)
-    #     templates.append(template + ",1_0,option=%d" % option)
-    #     templates.append(template + ",0_1,option=%d" % option)
-    #     if option == 0:  # RC_1_b, 1_0
-    #         data_transform.append(" ".join(
-    #             [D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1_ing[0], D2[0], NP2[0],
-    #              RC2_iv % V_RC2_iv]))
-    #         data_base.append(" ".join(
-    #             [D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-    #         # 0_1
-    #         data_transform.append(" ".join(
-    #             [D1[0], NP1[0], RC1.format(v=V_RC1_ing, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0],
-    #              RC2_iv % V_RC2_iv]))
-    #         data_base.append(" ".join(
-    #             [D1[0], NP1[0], RC1.format(v=V_RC1, rc=(RC1_b % V_RC1_b)), V1[0], D2[0], NP2[0], RC2_iv % V_RC2_iv]))
-    #     else:  # RC_2_b, 1_0
-    #         data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv, V1_ing[0], D2[0], NP2[0],
-    #                                         RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-    #         data_base.append(" ".join(
-    #             [D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-    #         # 0_1
-    #         data_transform.append(" ".join([D1[0], NP1[0], RC1_iv % V_RC1_iv_ing, V1[0], D2[0], NP2[0],
-    #                                         RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-    #         data_base.append(" ".join(
-    #             [D1[0], NP1[0], RC1_iv % V_RC1_iv, V1[0], D2[0], NP2[0], RC2.format(v=V_RC2, rc=(RC2_b % V_RC2_b))]))
-    #
-    #     return data_transform, data_base, track_sentence, templates
+            # 1_1
+            data_transform.append(" ".join([NP1[0], "that", RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], "that", RC2.format(n=NP2_refl)]))
+            data_base.append(" ".join([NP1[0], "that", RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], "that", RC2.format(n=NP2[0])]))
+            templates.append(template + f",option={option},1_1")
+
+            # 0_0
+            data_transform.append(" ".join([NP1[0], "that", RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], "that", RC2.format(n=NP1_refl)]))
+            data_base.append(" ".join([NP1[0], "that", RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], "that", RC2.format(n=NP1[0])]))
+            templates.append(template + f",option={option},0_0")
+
+        elif option == 1:
+            # The boy that chased the girl that hurt   herself/*himself     ate a pie that the actor baked.
+            # NP1     RC1         NP_RC1   that RC_emb NP_RC1_refl/NP1_refl V1  NP2   that RC2 NP_RC2
+            NP1 = choice(self.all_reflexive_nouns)
+            NP1_refl = self.return_reflexive(NP1)
+            NP1 = N_to_DP_mutate(NP1, very_common_det=True)
+            V1 = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
+            V1 = conjugate(V1, NP1)
+            option_RC = random.randint(0, 1)
+            template += f",RC={option_RC}"
+            if option_RC == 0:  # subject RC
+                RC1, NP_RC1, NP_RC1_refl, _ = self.subject_relative_clause(NP1, binder=True)
+            else:  # object RC
+                RC1, NP_RC1, NP_RC1_refl, _ = self.object_relative_clause(NP1, binder=True)
+            RC_emb, _, _, _ = self.subject_relative_clause(NP_RC1, reflexive=True, coindexes=[NP1])
+            try:
+                NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", get_all_nouns())), very_common_det=True)
+            except Exception:
+                pass
+            RC2, NP_RC2, _, _ = self.subject_relative_clause(NP2)
+
+            # 1_1
+            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC1_refl)), V1[0], NP2[0], RC2.format(n=NP_RC2[0])]))
+            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC1[0])), V1[0], NP2[0], RC2.format(n=NP_RC2[0])]))
+            templates.append(template + f",option={option},1_1")
+
+            # 0_0
+            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP1_refl)), V1[0], NP2[0], RC2.format(n=NP_RC2[0])]))
+            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP1[0])), V1[0], NP2[0], RC2.format(n=NP_RC2[0])]))
+            templates.append(template + f",option={option},0_0")
+
+        else:
+            # The child that ate the pie chased the boy that helped the girl that hurt   herself/*himself.
+            # NP1       that RC1 NP_RC1  V1     NP2     that RC2    NP_RC2   that RC_emb NP_RC2_refl/NP2_refl
+            NP2 = choice(self.all_reflexive_nouns)
+            NP2_refl = self.return_reflexive(NP2)
+            NP2 = N_to_DP_mutate(NP2, very_common_det=True)
+            V1 = choice(get_matched_by(NP2, "arg_2", get_all_transitive_verbs()))
+            option_RC = random.randint(0, 1)
+            template += f",RC={option_RC}"
+            if option_RC == 0:  # subject RC
+                RC2, NP_RC2, NP_RC2_refl, _ = self.subject_relative_clause(NP2, binder=True)
+            else:  # object RC
+                RC2, NP_RC2, NP_RC2_refl, _ = self.object_relative_clause(NP2, binder=True)
+            RC_emb, _, _, _ = self.subject_relative_clause(NP_RC2, reflexive=True, coindexes=[NP2])
+            NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_nouns())), very_common_det=True)
+            RC1, NP_RC1, _, _ = self.subject_relative_clause(NP1)
+            V1 = conjugate(V1, NP1)
+
+            # 1_1
+            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2, rc=RC_emb.format(n=NP_RC2_refl))]))
+            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2, rc=RC_emb.format(n=NP_RC2[0]))]))
+            templates.append(template + f",option={option},1_1")
+
+            # 0_0
+            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2, rc=RC_emb.format(n=NP2_refl))]))
+            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2, rc=RC_emb.format(n=NP2[0]))]))
+            templates.append(template + f",option={option},0_0")
+            
+        return data_transform, data_base, track_sentence, templates
 
     def sample_1_RC(self, ambiguous):
         template = "1_RC"
@@ -691,16 +770,17 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         track_sentence = []
         templates = []
         if ambiguous:
-            # The girl helped the boy that hurt himself/herself
+            # The boy helped the girl that hurt herself/*himself
+            # NP1      V1    NP2      that V2   NP2_refl/NP1_refl
             # RC on object
             # coindexes: (NP2, NP_RC), (NP1, NP_RC)
-            V1 = choice(get_all_transitive_verbs())
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_agreeing_nouns))
-            NP1_refl = get_reflexive(NP1)
+            NP1 = choice(self.all_reflexive_nouns)
+            NP2 = choice(self.all_reflexive_nouns)
+            V1 = choice(get_matched_by(NP1, "arg_1", get_matched_by(NP2, "arg_2", get_all_transitive_verbs())))
+            NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1, very_common_det=True)
             V1 = conjugate(V1, NP1)
-            NP2 = choice(get_matches_of(V1, "arg_2", self.all_agreeing_nouns))
-            NP2_refl = get_reflexive(NP2)
+            NP2_refl = self.return_reflexive(NP2)
             NP2 = N_to_DP_mutate(NP2)
             RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP1])
 
@@ -718,12 +798,12 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             # RC on subject
             # coindexes: (NP1, NP2), (NP_RC, NP2)
             V1 = choice(get_all_refl_preds())
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_agreeing_nouns))
-            NP1_refl = get_reflexive(NP1)
+            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns))
+            NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1, very_common_det=True)
             V1 = conjugate(V1, NP1)
             NP2 = choice(get_matches_of(V1, "arg_2", self.safe_nouns))
-            NP2_refl = get_reflexive(NP2)
+            NP2_refl = self.return_reflexive(NP2)
             NP2 = N_to_DP_mutate(NP2)
             option_RC = random.randint(0, 1)
             template += f",RC={option_RC}"
@@ -734,228 +814,211 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
             # 1_0
             data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], NP1_refl]))
-            data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], NP1[0]]))
+            data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], NP1[0]]))
             templates.append(template + ",1_0")
 
             # 0_1
             data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], NP_RC_refl]))
-            data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], NP_RC[0]]))
+            data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], NP_RC[0]]))
             templates.append(template + ",0_1")
             
         return data_transform, data_base, track_sentence, templates
 
-    #     V1 = choice(self.all_non_ing_transitive_verbs)
-    #     V1_ing = self.get_ing_form(V1)
-    #     NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
-    #     V1 = conjugate(V1, NP1)
-    #     try:
-    #         V1_ing = conjugate(V1_ing, NP1)
-    #     except Exception:
-    #         pass
-    #     D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
-    #     NP2 = choice(get_matches_of(V1, "arg_2", self.safe_nouns))
-    #     D2 = choice(get_matched_by(NP2, "arg_1", get_all_very_common_dets()))
-    #     S1 = " ".join([D1[0], NP1[0], "%s", D2[0], NP2[0]])
-    #
-    #     option = random.randint(0, 1)
-    #     template += ",RC1=%d" % option
-    #     if option == 0:
-    #         RC1, _, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1)
-    #     else:
-    #         RC1, _, V_RC1, V_RC1_ing = self.object_relative_clause(NP1)
-    #
-    #     option = random.randint(0, 1)
-    #     template += ",RC2=%d" % option
-    #     if option == 0:
-    #         RC2, _, V_RC2, V_RC2_ing = self.subject_relative_clause(NP2)
-    #     else:
-    #         RC2, _, V_RC2, V_RC2_ing = self.object_relative_clause(NP2)
-    #
-    #     track_sentence = [
-    #         (S1, RC1, RC2, V_RC1, V_RC2),
-    #         (S1, RC1, RC2, V_RC1, V_RC2),
-    #     ]
-    #
-    #     data_transform = []
-    #     data_base = []
-    #     templates = []
-    #     if ambiguous:
-    #         # 1_1
-    #         data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], D2[0], NP2[0], RC2 % V_RC2]))
-    #         data_base.append(" ".join([D1[0], NP1[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
-    #         templates.append(template + ",1_1")
-    #
-    #         # 0_0
-    #         data_transform.append(" ".join([D1[0], NP1[0], V1[0], D2[0], NP2[0], RC2 % V_RC2_ing]))
-    #         data_base.append(" ".join([D1[0], NP1[0], V1[0], D2[0], NP2[0], RC2 % V_RC2]))
-    #         templates.append(template + ",0_0")
-    #
-    #     else:  # unambiguous
-    #         # 1_0
-    #         data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1_ing[0], D2[0], NP2[0]]))
-    #         data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], D2[0], NP2[0]]))
-    #         templates.append(template + ",1_0")
-    #
-    #         # 0_1
-    #         data_transform.append(" ".join([D1[0], NP1[0], RC1 % V_RC1_ing, V1[0], D2[0], NP2[0]]))
-    #         data_base.append(" ".join([D1[0], NP1[0], RC1 % V_RC1, V1[0], D2[0], NP2[0]]))
-    #         templates.append(template + ",0_1")
-    #
-    #     return data_transform, data_base, track_sentence, templates
-    #
-    # def sample_nested_CP_verb(self, ambiguous):
-    #     if not ambiguous:
-    #         raise Exception("This paradigm must be ambiguous")
-    #     template = "nested_CP_verb"
-    #     V1 = choice(self.CP_verbs_non_ing)
-    #     V1_ing = self.get_ing_form(V1)
-    #     NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
-    #     D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
-    #     V1 = conjugate(V1, NP1)
-    #     V1_ing = conjugate(V1_ing, NP1)
-    #
-    #     V2 = choice(self.CP_verbs_non_ing, avoid=V1)
-    #     V2_ing = self.get_ing_form(V2)
-    #     NP2 = choice(get_matches_of(V2, "arg_1", self.safe_nouns))
-    #     D2 = choice(get_matched_by(NP2, "arg_1", get_all_very_common_dets()))
-    #     V2 = conjugate(V2, NP2)
-    #     V2_ing = conjugate(V2_ing, NP2)
-    #
-    #     V3 = choice(self.all_non_CP_non_ing_verbs)
-    #     V3_ing = self.get_ing_form(V3)
-    #     V3_args = verb_args_from_verb(V3)
-    #     that1 = "that" if random.choice([True, False]) else ""
-    #     that2 = "that" if random.choice([True, False]) else ""
-    #     S3 = make_sentence_from_args(V3_args)
-    #     V3_args["aux"] = return_aux(V3_ing, V3_args["subj"])
-    #     V3_args["verb"] = V3_ing
-    #     S3_ing = make_sentence_from_args(V3_args)
-    #
-    #     track_sentence = [
-    #         (V1, NP1, V2, NP2, V3),
-    #         (V1, NP1, V2, NP2, V3)
-    #     ]
-    #
-    #     data_transform = []
-    #     data_base = []
-    #     templates = []
-    #
-    #     # 1_1
-    #     data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
-    #     data_base.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
-    #     templates.append(template + ",1_1")
-    #
-    #     # 0_0
-    #     option = random.randint(0, 1)
-    #     templates.append(template + ",0_0,option=%d" % option)
-    #     if option == 0:
-    #         data_transform.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2_ing[0], that2, S3]))
-    #         data_base.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
-    #     else:
-    #         data_transform.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3_ing]))
-    #         data_base.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
-    #
-    #     return data_transform, data_base, track_sentence, templates
-    #
-    # def sample_CP_under_RC(self, ambiguous):
-    #     template = "CP_under_RC"
-    #     V_CP = choice(self.CP_verbs_non_ing)
-    #     V_CP_ing = self.get_ing_form(V_CP)
-    #
-    #     NP1 = choice(get_matches_of(V_CP, "arg_1", self.safe_nouns))
-    #     D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
-    #     Rel = choice(get_matched_by(NP1, "arg_1", get_all_relativizers()))[0]
-    #     V_CP = conjugate(V_CP, NP1)
-    #     V_CP_ing = conjugate(V_CP_ing, NP1)
-    #     V_emb = choice(self.all_non_ing_transitive_verbs)
-    #     V_emb_ing = self.get_ing_form(V_emb)
-    #     NP2 = choice(get_matches_of(V_emb, "arg_1", self.safe_nouns))
-    #     D2 = choice(get_matched_by(NP2, "arg_1", get_all_very_common_dets()))
-    #     NP3 = choice(get_matches_of(V_emb, "arg_2", self.safe_nouns))
-    #     D3 = choice(get_matched_by(NP3, "arg_1", get_all_very_common_dets()))
-    #     V_emb = conjugate(V_emb, NP2)
-    #     V_emb_ing = conjugate(V_emb_ing, NP2)
-    #
-    #     try:
-    #         option = random.randint(0, 2)
-    #         if option == 0:  # bind subject of V_CP
-    #             that = "that"
-    #             NP_RC = " ".join([D1[0], NP1[0], Rel, "{V_CP}", that, D2[0], NP2[0], "{V_emb}", D3[0], NP3[0]])
-    #         elif option == 1:  # bind subject of CP
-    #             Rel = Rel if random.choice([True, False]) else ""
-    #             that = ""
-    #             NP_RC = " ".join([D2[0], NP2[0], Rel, D1[0], NP1[0], "{V_CP}", that, "{V_emb}", D3[0], NP3[0]])
-    #         else:  # bind object of CP
-    #             Rel = Rel if random.choice([True, False]) else ""
-    #             that = "that"
-    #             NP_RC = " ".join([D3[0], NP3[0], Rel, D1[0], NP1[0], "{V_CP}", that, D2[0], NP2[0], "{V_emb}"])
-    #     except Exception:
-    #         pass
-    #
-    #     if ambiguous:
-    #         V_main = choice(get_matched_by(NP1, "arg_2", self.all_non_ing_transitive_verbs))
-    #         V_main_ing = self.get_ing_form(V_main)
-    #         NP4 = choice(get_matches_of(V_main, "arg_1", self.safe_nouns))
-    #         D4 = choice(get_matched_by(NP4, "arg_1", get_all_very_common_dets()))
-    #         V_main = conjugate(V_main, NP4)
-    #         V_main_ing = conjugate(V_main_ing, NP4)
-    #
-    #         data_transform = []
-    #         data_base = []
-    #         templates = []
-    #
-    #         # 1_1
-    #         data_transform.append(" ".join([D4[0], NP4[0], V_main_ing[0], NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0])]))
-    #         data_base.append(" ".join([D4[0], NP4[0], V_main[0], NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0])]))
-    #         templates.append(template + ",1_1")
-    #
-    #         # 0_0
-    #         option = random.randint(0, 1)
-    #         templates.append(template + ",0_0,option=%d" % option)
-    #         if option == 0:
-    #             data_transform.append(
-    #                 " ".join([D4[0], NP4[0], V_main[0], NP_RC.format(V_CP=V_CP_ing[0], V_emb=V_emb[0])]))
-    #             data_base.append(" ".join([D4[0], NP4[0], V_main[0], NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0])]))
-    #         else:
-    #             data_transform.append(
-    #                 " ".join([D4[0], NP4[0], V_main[0], NP_RC.format(V_CP=V_CP[0], V_emb=V_emb_ing[0])]))
-    #             data_base.append(" ".join([D4[0], NP4[0], V_main[0], NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0])]))
-    #
-    #     else:  # unambiguous
-    #         V_main = choice(get_matched_by(NP1, "arg_1", self.all_non_CP_non_ing_verbs))
-    #         V_main_ing = self.get_ing_form(V_main)
-    #         V_main_args = verb_args_from_verb(verb=V_main, subj=NP1)
-    #         V_main = conjugate(V_main, NP1)
-    #         V_main_ing = conjugate(V_main_ing, NP1)
-    #
-    #         data_transform = []
-    #         data_base = []
-    #         templates = []
-    #
-    #         # 1_0
-    #         data_transform.append(
-    #             " ".join([NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0]), V_main_ing[0], join_args(V_main_args["args"])]))
-    #         data_base.append(
-    #             " ".join([NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0]), V_main[0], join_args(V_main_args["args"])]))
-    #         templates.append(template + ",1_0")
-    #
-    #         # 0_1
-    #         data_transform.append(
-    #             " ".join([NP_RC.format(V_CP=V_CP_ing[0], V_emb=V_emb[0]), V_main[0], join_args(V_main_args["args"])]))
-    #         data_base.append(
-    #             " ".join([NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0]), V_main[0], join_args(V_main_args["args"])]))
-    #         templates.append(template + ",0_1")
-    #
-    #         # Note: The template can't be used because it cannot form a fully ambiguous or unambiguous minimal pair
-    #         # data_transform.append(" ".join([NP_RC.format(V_CP=V_CP[0], V_emb=V_emb_ing[0]), V_main[0], join_args(V_main_args["args"])]))
-    #         # data_base.append(" ".join([NP_RC.format(V_CP=V_CP[0], V_emb=V_emb[0]), V_main[0], join_args(V_main_args["args"])]))
-    #
-    #     track_sentence = [
-    #         (V_CP, NP1, V_emb, NP2, NP3, V_main),
-    #         (V_CP, NP1, V_emb, NP2, NP3, V_main)
-    #     ]
-    #
-    #     return data_transform, data_base, track_sentence, templates
+    def sample_nested_CP_verb(self, ambiguous):
+        if not ambiguous:
+            raise Exception("This paradigm must be ambiguous")
+        template = "nested_CP_verb"
+        data_base = []
+        data_transform = []
+        track_sentence = []
+        templates = []
+        V1 = choice(self.all_CP_verbs)
+        V2 = choice(self.all_CP_verbs, avoid=[V1])
+        option = random.randint(0, 1)
+        if option == 0:  # (NP3, NP4), (NP1, NP4)
+            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns))
+            NP1_refl = self.return_reflexive(NP1)
+            NP1 = N_to_DP_mutate(NP1)
+            V1 = conjugate(V1, NP1)
+            NP2 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", get_all_nouns())))
+            V2 = conjugate(V2, NP2)
+            V3 = choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
+            NP3 = choice(get_matches_of(V3, "arg_1", self.all_reflexive_nouns))
+            NP3_refl = self.return_reflexive(NP3)
+            NP3 = N_to_DP_mutate(NP3)
+            V3 = conjugate(V3, NP3)
+            refl = NP1_refl
+            binder = NP1[0]
+
+        else:  # (NP3, NP4), (NP2, NP4)
+            NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_nouns())))
+            V1 = conjugate(V1, NP1)
+            NP2 = choice(get_matches_of(V2, "arg_1", get_all_nouns()))
+            NP2_refl = self.return_reflexive(NP2)
+            NP2 = N_to_DP_mutate(NP2)
+            V2 = conjugate(V2, NP2)
+            V3 = choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
+            NP3 = choice(get_matches_of(V3, "arg_1", self.all_reflexive_nouns))
+            NP3_refl = self.return_reflexive(NP3)
+            NP3 = N_to_DP_mutate(NP3)
+            V3 = conjugate(V3, NP3)
+            refl = NP2_refl
+            binder = NP2[0]
+
+        # 1_1
+        try:
+            data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], "that", NP3[0], V3[0], NP3_refl]))
+            data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], "that", NP3[0], V3[0], NP3[0]]))
+            templates.append(template + f"option={option},1_1")
+
+            # 0_0
+            data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], "that", NP3[0], V3[0], refl]))
+            data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], "that", NP3[0], V3[0], binder]))
+            templates.append(template + f"option={option},0_0")
+
+        except Exception:
+            pass
+
+        return data_transform, data_base, track_sentence, templates
+
+    def sample_CP_under_RC(self, ambiguous):
+        template = "CP_under_RC"
+        data_base = []
+        data_transform = []
+        track_sentence = []
+        templates = []
+        if ambiguous:
+            option = random.randint(0, 1)
+            if option == 0:
+                # The boy that said that the girl hurt  herself/*himself   is eating a pie.
+                # NP1     THAT V_CP THAT NP2      V_emb NP2_refl/NP1_refl V_mat     NP3
+                V_CP = choice(self.all_CP_verbs)
+                NP1 = choice(get_matches_of(V_CP, "arg_1", self.all_reflexive_nouns))
+                NP1_refl = self.return_reflexive(NP1)
+                NP1 = N_to_DP_mutate(NP1, very_common_det=True)
+                V_CP = conjugate(V_CP, NP1)
+                V_emb = choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
+                NP2 = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+                NP2_refl = self.return_reflexive(NP2)
+                NP2 = N_to_DP_mutate(NP2, very_common_det=True)
+                V_emb = conjugate(V_emb, NP2)
+                V_mat = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
+                V_mat = conjugate(V_mat, NP1)
+                NP3 = N_to_DP_mutate(choice(get_matches_of(V_mat, "arg_2", get_all_nouns())), very_common_det=True)
+                # 1_1
+                data_transform.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP2_refl, V_mat[0], NP3[0]]))
+                data_base.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP2[0], V_mat[0], NP3[0]]))
+                templates.append(template + f"option={option},1_1")
+                # 0_0
+                data_transform.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP1_refl, V_mat[0], NP3[0]]))
+                data_base.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP1[0], V_mat[0], NP3[0]]))
+                templates.append(template + f"option={option},0_0")
+
+            else:
+                # The child helped the boy that said that the girl hurt  herself/*himself
+                # NP1       V_mat  NP2     that V_CP that NP3      V_emb NP3_refl/NP2_refl
+                V_CP = choice(self.all_CP_verbs)
+                NP2 = choice(get_matches_of(V_CP, "arg_1", self.all_reflexive_nouns))
+                NP2_refl = self.return_reflexive(NP2)
+                NP2 = N_to_DP_mutate(NP2, very_common_det=True)
+                V_CP = conjugate(V_CP, NP2)
+                V_emb = choice(get_matched_by(NP2, "arg_2", get_all_refl_preds()))
+                NP3 = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+                NP3_refl = self.return_reflexive(NP3)
+                NP3 = N_to_DP_mutate(NP3, very_common_det=True)
+                V_emb = conjugate(V_emb, NP3)
+                V_mat = choice(get_matched_by(NP2, "arg_2", get_all_transitive_verbs()))
+                NP1 = N_to_DP_mutate(choice(get_matches_of(V_mat, "arg_1", get_all_nouns())), very_common_det=True)
+                V_mat = conjugate(V_mat, NP1)
+                # 1_1
+                data_transform.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", V_CP[0], "that", NP3[0], V_emb[0], NP3_refl]))
+                data_base.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", V_CP[0], "that", NP3[0], V_emb[0], NP3[0]]))
+                templates.append(template + f"option={option},1_1")
+                # 0_0
+                data_transform.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", V_CP[0], "that", NP3[0], V_emb[0], NP2_refl]))
+                data_base.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", V_CP[0], "that", NP3[0], V_emb[0], NP2[0]]))
+                templates.append(template + f"option={option},0_0")
+
+
+        else:  # Not ambiguous
+            option = random.randint(0, 2)
+            if option == 0:
+                # The girl that the boy said hurt  herself/*himself  is eating a pie.
+                # NP1      that NP2     V_CP V_emb NP1_refl/NP2_refl V_mat     NP3
+                V_CP = choice(self.all_CP_verbs)
+                NP2 = choice(get_matches_of(V_CP, "arg_1", self.all_reflexive_nouns))
+                NP2_refl = self.return_reflexive(NP2)
+                NP2 = N_to_DP_mutate(NP2, very_common_det=True)
+                V_CP = conjugate(V_CP, NP2)
+                V_emb = choice(get_matched_by(NP2, "arg_2", get_all_refl_preds()))
+                NP1 = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+                NP1_refl = self.return_reflexive(NP1)
+                NP1 = N_to_DP_mutate(NP1, very_common_det=True)
+                V_emb = conjugate(V_emb, NP1)
+                V_mat = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
+                NP3 = N_to_DP_mutate(choice(get_matches_of(V_mat, "arg_2", get_all_nouns())), very_common_det=True)
+                V_mat = conjugate(V_mat, NP1)
+                # 1_0
+                data_transform.append(" ".join([NP1[0], "that", NP2[0], V_CP[0], V_emb[0], NP1_refl, V_mat[0], NP3[0]]))
+                data_base.append(" ".join([NP1[0], "that", NP2[0], V_CP[0], V_emb[0], NP1[0], V_mat[0], NP3[0]]))
+                templates.append(template + f"option={option},1_0")
+                # 0_1
+                data_transform.append(" ".join([NP1[0], "that", NP2[0], V_CP[0], V_emb[0], NP2_refl, V_mat[0], NP3[0]]))
+                data_base.append(" ".join([NP1[0], "that", NP2[0], V_CP[0], V_emb[0], NP2[0], V_mat[0], NP3[0]]))
+                templates.append(template + f"option={option},0_1")
+
+            elif option == 1:
+                # The girl that said that the child helped the boy hurt  herself/*himself
+                # NP1      that V_CP that NP2       V_emb  NP3     V_mat NP1_refl/NP3_refl
+                V_CP = choice(self.all_CP_verbs)
+                NP1 = choice(get_matches_of(V_CP, "arg_1", self.all_reflexive_nouns))
+                NP1_refl = self.return_reflexive(NP1)
+                NP1 = N_to_DP_mutate(NP1, very_common_det=True)
+                V_CP = conjugate(V_CP, NP1)
+                V_mat = get_matched_by(NP1, "arg_2", get_all_refl_preds())
+                NP3 = get_matches_of(V_mat, "arg_1", self.all_reflexive_nouns)
+                NP3_refl = self.return_reflexive(NP3)
+                NP3 = N_to_DP_mutate(NP3, very_common_det=True)
+                V_mat = conjugate(V_mat, NP3)
+                V_emb = choice(get_matched_by(NP3, "arg_2", get_all_transitive_verbs()))
+                NP2 = N_to_DP_mutate(choice(get_matches_of(V_emb, "arg_1", get_all_nouns())), very_common_det=True)
+                V_emb = conjugate(V_emb, NP2)
+                # 1_0
+                data_transform.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP3[0], V_mat[0], NP1_refl]))
+                data_base.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP3[0], V_mat[0], NP1[0]]))
+                templates.append(template + f"option={option},1_0")
+                # 0_1
+                data_transform.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP3[0], V_mat[0], NP3_refl]))
+                data_base.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP3[0], V_mat[0], NP3[0]]))
+                templates.append(template + f"option={option},0_1")
+
+            else:
+                # The child helped the girl that the boy said hurt  herself/*himself
+                # NP1       V_mat  NP2      THAT NP3     V_CP V_emb NP2_refl/NP3_refl
+                V_CP = choice(self.all_CP_verbs)
+                NP3 = choice(get_matches_of(V_CP, "arg_1", self.all_reflexive_nouns))
+                NP3_refl = self.return_reflexive(NP3)
+                NP3 = N_to_DP_mutate(NP3, very_common_det=True)
+                V_CP = conjugate(V_CP, NP3)
+                V_emb = choice(get_matched_by(NP3, "arg_2", get_all_refl_preds()))
+                NP2 = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+                NP2_refl = self.return_reflexive(NP2)
+                NP2 = N_to_DP_mutate(NP2, very_common_det=True)
+                V_emb = conjugate(V_emb, NP2)
+                V_mat = get_matched_by(NP2, "arg_2", get_all_transitive_verbs())
+                NP1 = N_to_DP_mutate(get_matches_of(V_mat, "arg_1", get_all_nouns()), very_common_det=True)
+                V_mat = conjugate(V_mat, NP1)
+                # 1_0
+                data_transform.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", NP3[0], V_CP[0], V_emb[0], NP2_refl]))
+                data_base.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", NP3[0], V_CP[0], V_emb[0], NP2[0]]))
+                templates.append(template + f"option={option},1_0")
+                # 0_1
+                data_transform.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", NP3[0], V_CP[0], V_emb[0], NP3_refl]))
+                data_base.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", NP3[0], V_CP[0], V_emb[0], NP3[0]]))
+                templates.append(template + f"option={option},0_1")
+
+
+        return data_transform, data_base, track_sentence, templates
 
 
 generator = MyGenerator()

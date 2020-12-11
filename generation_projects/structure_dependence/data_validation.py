@@ -2,7 +2,7 @@ import json
 import re
 
 lines = []
-for line in open("/Users/alexwarstadt/Workspace/data_generation/outputs/structure/main_verb/test.jsonl"):
+for line in open("/Users/alexwarstadt/Workspace/data_generation/outputs/structure/subject_aux_inversion/test.jsonl"):
     lines.append(json.loads(line))
 
 def remove_RCs(string):
@@ -18,7 +18,7 @@ for line in lines:
         templates[t] = []
     templates[t].append(line)
 
-output = open("/Users/alexwarstadt/Workspace/data_generation/outputs/structure/validation.tsv", "w")
+output = open("/Users/alexwarstadt/Workspace/data_generation/outputs/structure/subject_aux_inversion/validation.tsv", "w")
 output.write("\t".join(["template", "base", "transform", "structural", "linear"]) + "\n")
 for t in templates.keys():
     for i in range(3):

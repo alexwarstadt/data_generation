@@ -332,7 +332,7 @@ def get_all_frequent_determiners():
 
 def get_all_very_common_dets():
     if "all_very_common_dets" not in VOCAB_SETS.keys():
-        VOCAB_SETS["all_very_common_dets"] = np.append(get_all("expression", "the"), np.append(get_all("expression", "a"), get_all("expression", "an")))
+        VOCAB_SETS["all_very_common_dets"] = np.append(get_all("expression", ""), np.append(get_all("expression", "the"), np.append(get_all("expression", "a"), get_all("expression", "an"))))
     return VOCAB_SETS["all_very_common_dets"]
 
 def get_all_relativizers():
