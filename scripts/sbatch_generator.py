@@ -9,7 +9,7 @@ top = """#!/bin/bash
 #SBATCH --mail-user=alexwarstadt@gmail.com
 
 cd ~/data_generation
-python -m generation_projects.structure_dependence.{script}.py --number_to_generate {number} --output_path {output} --one_template {template} --ambiguous {ambiguous}
+python -m generation_projects.structure_dependence.{script} --number_to_generate {number} --output_path {output} --one_template {template} --ambiguous {ambiguous}
 """
 
 scripts = [
