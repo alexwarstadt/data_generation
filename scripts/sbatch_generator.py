@@ -66,6 +66,6 @@ for s in scripts:
     ambiguous = "ambiguous" if bool(s[2]) else "unambiguous"
     output_file.write(top.format(script=s[0],
                                  number=5000,
-                                 output=f"outputs/structure_dependence_language/",
+                                 output=f"outputs/structure/",
                                  template=s[1],
                                  ambiguous=s[2]))
