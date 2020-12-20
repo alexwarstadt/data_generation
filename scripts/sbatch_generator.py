@@ -63,9 +63,9 @@ for s in scripts:
     output_dir = os.path.join(project_root, "slurm", "struc_dep_language")
     os.makedirs(output_dir, exist_ok=True)
     output_file = open(os.path.join(output_dir, f"{s[0]}_{s[1]}_{s[2]}.sbatch"), "w")
-    ambiguous = "ambiguous" if s[2] == "True" else "unambiguous"
+    ambiguous = s[2] == "True"
     output_file.write(top.format(script=s[0],
                                  number=5000,
                                  output=f"outputs/structure/",
                                  template=s[1],
-                                 ambiguous=s[2]))
+                                 ambiguous=ambiguous))
