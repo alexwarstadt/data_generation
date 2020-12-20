@@ -321,7 +321,7 @@ class StructureDependenceGenerator(Generator):
         self.surface_feature_description = surface_feature_description
         self.data_fields = ["training_1_1", "training_0_0", "test_1_0", "test_0_1", "control_1_1", "control_0_0"]
 
-    def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None):
+    def generate_paradigm(self, number_to_generate=10, rel_output_path=None, absolute_path=None, one_template=None, ambiguous=None):
         decimals = 1 if number_to_generate <= 100 else int(ceil(log10(number_to_generate/100)))
         pb = ProgressBar(total=number_to_generate, suffix='Done', decimals=decimals, length=50, fill='X', zfill='-')
         if rel_output_path is not None:
@@ -341,14 +341,18 @@ class StructureDependenceGenerator(Generator):
         error_counter = 0
         constant_data = self.make_metadata_dict()
         self.make_logger(constant_data)
-        for file in ["test.jsonl", "train.jsonl"]:
+        files = ["test.jsonl", "train.jsonl"] if one_template is None else [f"{one_template}_ambiguous.jsonl"] if ambiguous else [f"{one_template}_unambiguous.jsonl"]
+        for file in files:
             output_file = open(os.path.join(output_dir, file), "w")
             output_writer = jsonlines.Writer(output_file, flush=True)
             split_counter = 0
             while split_counter < number_to_generate:
                 try:
                     pb.print_progress_bar(split_counter)
-                    new_data, _ = self.sample()
+                    if one_template is not None and ambiguous is not None:
+                        new_data, _ = self.sample(one_template=one_template, ambiguous=ambiguous)
+                    else:
+                        new_data, _ = self.sample()
                     # overlap = False
                     # for i in range(len(track_sentence)):
                     #     if track_sentence[i] in past_sentences[i]:
@@ -376,6 +380,9 @@ class StructureDependenceGenerator(Generator):
                             output_writer.write(line)
                     split_counter += 1
                     paradigmID += 1
+                except MatchNotFoundError as e:
+                    self.log_exception(e)
+                    print(self.get_stack_trace(e))
                 except Exception as e:
                     self.log_exception(e)
                     print(self.get_stack_trace(e))
@@ -426,4 +433,37 @@ class StructureDependenceGenerator(Generator):
              "linguistic_feature_label": 0,
              "surface_feature_label": 1},
         ]
+        return data
+
+    def build_pair(self, transform_1, transform_0, base_1, base_0, template_1, template_0, ambiguous):
+        if ambiguous:
+            data = [
+                {"sentence_transform": transform_1,
+                 "sentence_base": base_1,
+                 "template": template_1,
+                 "domain": "in",
+                 "linguistic_feature_label": 1,
+                 "surface_feature_label": 1},
+                {"sentence_transform": transform_0,
+                 "sentence_base": base_0,
+                 "template": template_0,
+                 "domain": "in",
+                 "linguistic_feature_label": 0,
+                 "surface_feature_label": 0}
+            ]
+        else:
+            data = [
+                {"sentence_transform": transform_1,
+                 "sentence_base": base_1,
+                 "template": template_1,
+                 "domain": "out",
+                 "linguistic_feature_label": 1,
+                 "surface_feature_label": 0},
+                {"sentence_transform": transform_0,
+                 "sentence_base": base_0,
+                 "template": template_0,
+                 "domain": "out",
+                 "linguistic_feature_label": 0,
+                 "surface_feature_label": 1},
+            ]
         return data

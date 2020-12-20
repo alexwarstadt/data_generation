@@ -4,6 +4,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.vocab_sets_dynamic import *
 import random
+import argparse
 
 
 class MyGenerator(data_generator.StructureDependenceGenerator):
@@ -27,7 +28,24 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         # self.all_non_clause_embedding_verbs = np.setdiff1d(get_all_verbs(), self.all_clause_embedding_verbs)
 
 
-    def sample(self):
+
+    def sample(self, ambiguous=None, one_template=None):
+        """
+        Sample sentences from this set of sub-templates.
+        The one_template option makes it possible to generate data from only a single sub-template.
+        """
+
+        if one_template is not None:
+            assert(ambiguous is not None)
+            data_transform, data_base, track_sentence, templates = getattr(self, one_template)(ambiguous=ambiguous)
+            data = self.build_pair(transform_1=data_transform[0],
+                                   transform_0=data_transform[1],
+                                   base_1=data_base[0],
+                                   base_0=data_base[1],
+                                   template_1=templates[0],
+                                   template_0=templates[1],
+                                   ambiguous=ambiguous)
+            return data, track_sentence
 
         track_sentence = []
         option = random.randint(0, 4)
@@ -94,7 +112,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             V = choice(get_matched_by(subj, "arg_1", get_all_non_finite_intransitive_verbs()))
         except IndexError:
             raise MatchNotFoundError("")
-        Aux = conjugate(V, subj)
+        Aux = return_aux(V, subj)
         RC = " ".join([rel[0], "{aux}", "{v}"])
         return RC, V, Aux
 
@@ -215,13 +233,13 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             templates.append(template + ",1_1")
 
             # 0_0
-            option = random.randint(0, 2)
+            option = random.randint(0, 1)
             templates.append(template + ",0_0,option=%d" % option)
             if option == 0:
                 data_transform.append(" ".join([Aux_RC2[0], D1[0], NP1[0], Aux1[0], V1[0], D2[0], NP2[0], RC2.format(aux="", v=V_RC2[0], rc=(RC2_b.format(aux=Aux_RC2_b[0], v=V_RC2_b[0])))]))
                 data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0], rc=(RC2_b.format(aux=Aux_RC2_b[0], v=V_RC2_b[0])))]))
             else:
-                data_transform.append(" ".join([RC2_b[0], D1[0], NP1[0], Aux1[0], V1[0], D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0], rc=(RC2_b.format(aux="", v=V_RC2_b[0])))]))
+                data_transform.append(" ".join([Aux_RC2_b[0], D1[0], NP1[0], Aux1[0], V1[0], D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0], rc=(RC2_b.format(aux="", v=V_RC2_b[0])))]))
                 data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0], rc=(RC2_b.format(aux=Aux_RC2_b[0], v=V_RC2_b[0])))]))
 
                 # NOTE: This template can't be used because there is no 1_1 version of it
@@ -296,7 +314,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             optionB = random.randint(0, 1)
             templates.append(template + ",0_0,optionA=%d,optionB=%d" % (optionA, optionB))
             if optionA == 0:
-                data_transform.append(" ".join([Aux1[0], D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux="", v=V_RC2[0]), Aux2[0], V2[0], D3[0], NP3[0]]))
+                data_transform.append(" ".join([Aux1[0], D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0]), Aux2[0], V2[0], D3[0], NP3[0]]))
                 data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux=Aux_RC2[0], v=V_RC2[0]), Aux2[0], V2[0], D3[0], NP3[0]]))
                 if optionB == 0:
                     data_transform.append(" ".join([Aux_RC2[0], D1[0], NP1[0], Aux1[0], V1[0], "that", D2[0], NP2[0], RC2.format(aux="", v=V_RC2[0]), Aux2[0], V2[0], D3[0], NP3[0]]))
@@ -569,8 +587,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         V3 = choice(self.all_non_finite_non_CP_verbs)
         V3_args = verb_args_from_verb(V3)
-        that1 = "that" if random.choice([True, False]) else ""
-        that2 = "that" if random.choice([True, False]) else ""
+        that1 = "that"# if random.choice([True, False]) else ""
+        that2 = "that"# if random.choice([True, False]) else ""
         # S3 = make_sentence_from_args(V3_args)
         # V3_args["aux"] = return_aux(V3_ing, V3_args["subj"])
         # S3_ing = make_sentence_from_args(V3_args)
@@ -585,19 +603,19 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         templates = []
 
         # 1_1
-        data_transform.append(" ".join([Aux1[0], D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], join_args(V3_args["args"])]))
-        data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], join_args(V3_args["args"])]))
+        data_transform.append(" ".join([Aux1[0], D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], V3[0], join_args(V3_args["args"])]))
+        data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], V3[0], join_args(V3_args["args"])]))
         templates.append(template + ",1_1")
 
         # 0_0
         option = random.randint(0, 1)
         templates.append(template + ",0_0,option=%d" % option)
         if option == 0:
-            data_transform.append(" ".join([Aux2[0], D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], join_args(V3_args["args"])]))
-            data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], join_args(V3_args["args"])]))
+            data_transform.append(" ".join([Aux2[0], D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], V3[0], join_args(V3_args["args"])]))
+            data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], V3[0], join_args(V3_args["args"])]))
         else:
-            data_transform.append(" ".join([V3_args["aux"][0], D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], join_args(V3_args["args"])]))
-            data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], join_args(V3_args["args"])]))
+            data_transform.append(" ".join([V3_args["aux"][0], D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], V3[0], join_args(V3_args["args"])]))
+            data_base.append(" ".join([D1[0], NP1[0], Aux1[0], V1[0], that1, D2[0], NP2[0], Aux2[0], V2[0], that2, V3_args["subj"][0], V3_args["aux"][0], V3[0], join_args(V3_args["args"])]))
 
         return data_transform, data_base, track_sentence, templates
 
@@ -687,5 +705,15 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         return data_transform, data_base, track_sentence, templates
 
 
-generator = MyGenerator()
-generator.generate_paradigm(number_to_generate=5000, rel_output_path="outputs/structure/" + generator.uid)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Extract re verbs.')
+    parser.add_argument("--number_to_generate", "-n", default=5000, type=int, help="Number of pairs/quadruples to generate")
+    parser.add_argument("--output_path", "-o", type=str, help="Relative path to output directory")
+    parser.add_argument("--one_template", "-t", type=str, help="If provided, the name of template to generate data from")
+    parser.add_argument("--ambiguous", "-a", type=bool, help="If one template is provided, specifies whether to generate ambiguous or unambiguous data")
+    args = parser.parse_args()
+    generator = MyGenerator()
+    generator.generate_paradigm(number_to_generate=args.number_to_generate,
+                                rel_output_path=args.output_path + generator.uid,
+                                one_template=args.one_template,
+                                ambiguous=args.ambiguous)

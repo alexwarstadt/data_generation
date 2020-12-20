@@ -4,6 +4,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.vocab_sets_dynamic import *
 import random
+import argparse
 
 # TODO: prevent repeated nouns
 # TODO: sample non-binders from all nouns
@@ -32,10 +33,23 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         # self.all_possibly_plural_transitive_verbs = np.intersect1d(self.all_transitive_verbs, all_possibly_plural_verbs)
         # self.plural_noun = choice(all_plural_nouns)
 
-    def sample(self):
+    def sample(self, ambiguous=None, one_template=None):
+        """
+        Sample sentences from this set of sub-templates.
+        The one_template option makes it possible to generate data from only a single sub-template.
+        """
 
-        data_transform_in, data_base_in, track_sentence_in, templates_in = self.sample_CP_verb_RC(ambiguous=True)
-        data_transform_out, data_base_out, track_sentence_out, templates_out = self.sample_CP_verb_RC(ambiguous=False)
+        if one_template is not None:
+            assert(ambiguous is not None)
+            data_transform, data_base, track_sentence, templates = getattr(self, one_template)(ambiguous=ambiguous)
+            data = self.build_pair(transform_1=data_transform[0],
+                                   transform_0=data_transform[1],
+                                   base_1=data_base[0],
+                                   base_0=data_base[1],
+                                   template_1=templates[0],
+                                   template_0=templates[1],
+                                   ambiguous=ambiguous)
+            return data, track_sentence
 
         track_sentence = []
         option = random.randint(0, 7)
@@ -74,7 +88,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         track_sentence.extend(track_sentence_out)
 
         try:
-            data_transform = self.build_paradigm(
+            data = self.build_paradigm(
                 training_1_1=data_transform_in[0],
                 training_0_0=data_transform_in[1],
                 test_1_0=data_transform_out[0],
@@ -91,7 +105,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         except Exception:
             pass
 
-        return data_transform, track_sentence
+        return data, track_sentence
 
     def return_reflexive(self, noun):
         if noun in self.all_himself:
@@ -127,30 +141,28 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         V_sample_space = get_all_refl_preds() if reflexive else get_all_transitive_verbs()
         for NP in coindexes:
             V_sample_space = get_matched_by(NP, "arg_2", V_sample_space)
-        try:
-            V = choice(get_matched_by(subj, "arg_1", V_sample_space))
-        except Exception:
-            pass
-        V = conjugate(V, subj)
-        try:
-            obj_sample_space = self.all_reflexive_nouns if binder else self.safe_nouns
-        except Exception:
-            pass
+        obj_sample_space = self.all_reflexive_nouns if binder else self.safe_nouns
         for verb in other_verbs:
             try:
                 obj_sample_space = get_matches_of(verb[0], verb[1], obj_sample_space)
-            except Exception:
-                pass
-        obj = choice(obj_sample_space)
+            except IndexError:
+                raise MatchNotFoundError("")
+        try:
+            if binder:
+                obj = choice(obj_sample_space)
+                V = choice(get_matched_by(subj, "arg_1", get_matched_by(obj, "arg_2", V_sample_space)))
+            else:
+                V = choice(get_matched_by(subj, "arg_1", V_sample_space))
+                obj = choice(get_matches_of(V, "arg_2", obj_sample_space))
+        except IndexError:
+            raise MatchNotFoundError("")
+        V = conjugate(V, subj)
         obj_refl = self.return_reflexive(obj)
         obj = N_to_DP_mutate(obj, very_common_det=True)
         if nested:
             RC = " ".join([rel[0], V[0], "{n}", "{rc}"])
         else:
-            try:
-                RC = " ".join([rel[0], V[0], "{n}"])
-            except Exception:
-                pass
+            RC = " ".join([rel[0], V[0], "{n}"])
         return RC, obj, obj_refl, V
 
     def subject_relative_clause_intransitive(self, subj):
@@ -179,17 +191,19 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         V_sample_space = get_all_refl_preds() if reflexive else get_all_transitive_verbs()
         for NP in coindexes:
             V_sample_space = get_matched_by(NP, "arg_1", V_sample_space)
-        V = choice(get_matched_by(obj, "arg_2", V_sample_space))
         subj_sample_space = self.all_reflexive_nouns if binder else self.safe_nouns
-        for verb in other_verbs:
-            subj_sample_space = get_matches_of(verb[0], verb[1], subj_sample_space)
-        subj = choice(subj_sample_space)
+        try:
+            if binder:
+                subj = choice(subj_sample_space)
+                V = choice(get_matched_by(subj, "arg_1", get_matched_by(obj, "arg_2", V_sample_space)))
+            else:
+                V = choice(get_matched_by(obj, "arg_2", V_sample_space))
+                subj = choice(get_matches_of(V, "arg_2", subj_sample_space))
+        except IndexError:
+            raise MatchNotFoundError("")
+        V = conjugate(V, subj)
         subj_refl = self.return_reflexive(subj)
         subj = N_to_DP_mutate(subj, very_common_det=True)
-        try:
-            V = conjugate(V, subj)
-        except Exception:
-            pass
         if nested:
             RC = " ".join([rel[0], "{n}", "{rc}", V[0]])
         else:
@@ -197,89 +211,65 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         return RC, subj, subj_refl, V
 
     def sample_2_RCs(self, ambiguous):
+        # The boy who saw the child helped the girl who knew the actor.
+        # NP1     RC1     NP_RC1    V1     NP2      RC2      NP_RC2
 
         if not ambiguous:
             raise Exception("This paradigm must be ambiguous")
         template = "2_RCs"
-        V1_refl = False
-        V_RC1_refl = False
-        V_RC2_refl = False
+
         optionA = random.randint(0, 1)
-        if optionA == 0:    # 0 binds 1
-            coindex_good = (0, 1)
-            V_RC1_refl = True
-        else:
-            coindex_good = (2, 3)
-            V_RC2_refl = True
+        # optionA = 0: 0 binds 1
+        # The girl who saw herself  helped the boy who knew the actor.
+        # NP1      RC1     NP1_refl V1     NP2     RC2      NP_RC2
+
+        # optionA = 1: 2 binds 3
+        # The boy who saw the child helped the girl who knew herself.
+        # NP1     RC1     NP_RC1    V1     NP2      RC2      NP2_refl
 
         optionB = random.randint(0, 1)
-        if optionB == 0:
-            coindex_bad = (0, 3)
-            V_RC2_refl = True
+        # optionB = 0: 0 binds 3 (*)
+        # The boy who saw the child helped the girl who knew himself.
+        # NP1     RC1     NP_RC1    V1     NP2      RC2      NP1_refl
+
+        # optionB = 1: 1 binds 3 (*)
+        # The child who saw the boy helped the girl who knew himself.
+        # NP1       RC1     NP_RC1  V1     NP2      RC2      NP_RC1_refl
+
+        if optionA == 0:
+            NP1 = choice(self.all_reflexive_nouns)
+            NP1_refl = self.return_reflexive(NP1)
+            NP1 = N_to_DP_mutate(NP1, very_common_det=True)
+            RC1, NP_RC1, NP_RC1_refl, V_RC1 = self.subject_relative_clause(NP1, reflexive=True, binder=optionB==1, coindexes=[NP1])
+            V1 = conjugate(choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs())), NP1)
+            NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", get_all_common_nouns())))
+            coindexes = [NP1] if optionB == 0 else [NP_RC1]
+            RC2, NP_RC2, NP_RC2_refl, V_RC2 = self.subject_relative_clause(NP2, reflexive=True, coindexes=coindexes)
+
         else:
-            coindex_bad = (1, 3)
-            V_RC2_refl = True
-
-        if V1_refl:
-            V1 = choice(get_all_refl_preds())
-        else:
-            V1 = choice(get_all_transitive_verbs())
-
-        if 0 in coindex_bad or 0 in coindex_good:
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns))
-        else:
-            NP1 = choice(get_matches_of(V1, "arg_1", self.safe_nouns))
-        V1 = conjugate(V1, NP1)
-        NP1_refl = self.return_reflexive(NP1)
-        NP1 = N_to_DP_mutate(NP1, very_common_det=True)
-
-        if 2 in coindex_bad or 2 in coindex_good:
-            try:
-                NP2 = choice(get_matches_of(V1, "arg_2", self.all_reflexive_nouns))
-            except Exception:
-                pass
-        else:
-            NP2 = choice(get_matches_of(V1, "arg_2", self.safe_nouns))
-        NP2_refl = self.return_reflexive(NP2)
-        NP2 = N_to_DP_mutate(NP2, very_common_det=True)
-
-
-        S1 = " ".join([NP1[0], "%s", NP2[0]])
-
-        option = random.randint(0, 1)
-        template += ",RC1=%d" % option
-        binder1 = 1==coindex_good[0] or 1==coindex_bad[0]
-        bound1 = 1==coindex_good[1] or 1==coindex_bad[1]
-        coindexes1 = [NP1] if coindex_good == (0,1) else []
-        if option == 0 or bound1:
-            RC1, NP_RC1, NP_RC1_refl, V_RC1 = self.subject_relative_clause(NP1, reflexive=V_RC1_refl, binder=binder1, coindexes=coindexes1)
-        else:
-            RC1, NP_RC1, NP_RC1_refl, V_RC1 = self.object_relative_clause(NP1, reflexive=V_RC1_refl, binder=binder1, coindexes=coindexes1)
-
-        option = random.randint(0, 1)
-        template += ",RC2=%d" % option
-        binder3 = 3==coindex_good[0] or 3==coindex_bad[0]
-        bound3 = 3==coindex_good[1] or 3==coindex_bad[1]
-        coindexes3 = []
-        if (2,3) in coindex_good:
-            coindexes3.append(NP2)
-        if (0,3) in coindex_bad:
-            coindexes3.append(NP1)
-        if (1,3) in coindex_bad:
-            coindexes3.append(NP_RC1)
-        if option == 0 or bound3:
-            RC2, NP_RC2, NP_RC2_refl, _ = self.subject_relative_clause(NP2, reflexive=V_RC2_refl, binder=binder3, coindexes=coindexes3)
-        else:
-            RC2, NP_RC2, NP_RC2_refl, _ = self.object_relative_clause(NP2, reflexive=V_RC2_refl, binder=binder3, coindexes=coindexes3)
-
-        track_sentence = [
-            (S1, RC1, RC2, NP_RC1, NP_RC2),
-            (S1, RC1, RC2, NP_RC1, NP_RC2),
-        ]
+            NP2 = choice(self.all_reflexive_nouns)
+            NP2_refl = self.return_reflexive(NP2)
+            NP2 = N_to_DP_mutate(NP2, very_common_det=True)
+            if optionB == 0:
+                NP1 = choice(self.all_reflexive_nouns)
+                NP1_refl = self.return_reflexive(NP1)
+                NP1 = N_to_DP_mutate(NP1, very_common_det=True)
+                try:
+                    V1 = choice(get_matched_by(NP1, "arg_1", get_matched_by(NP2, "arg_2", get_all_transitive_verbs())))
+                except Exception:
+                    pass
+            else:
+                V1 = choice(get_matched_by(NP2, "arg_2", get_all_transitive_verbs()))
+                NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_common_nouns())), very_common_det=True)
+            V1 = conjugate(V1, NP1)
+            RC1, NP_RC1, NP_RC1_refl, V_RC1 = self.subject_relative_clause(NP1, binder=optionB==1)
+            coindexes = [NP1, NP2] if optionB == 0 else [NP_RC1, NP2]
+            RC2, NP_RC2, NP_RC2_refl, V_RC2 = self.subject_relative_clause(NP2, reflexive=True, coindexes=coindexes)
 
         data_transform = []
         data_base = []
         templates = []
+        track_sentence = []
         # 1_1
         if optionA == 0:  # (0, 1)
             data_transform.append(" ".join([NP1[0], RC1.format(n=NP1_refl), V1[0], NP2[0], RC2.format(n=NP_RC2[0])]))
@@ -326,7 +316,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                         RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, binder=True, nested=True)
                     else:
                         RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1, binder=True, nested=True)
-                    RCb, NP_RCb, NP_RCb_refl, V_RCb = self.subject_relative_clause(NP_RC, reflexive=True, coindexes=[NP1])
+                    RCb, NP_RCb, NP_RCb_refl, V_RCb = self.subject_relative_clause(NP_RC, reflexive=True, coindexes=[NP1, NP_RC])
 
                     # 1_1
                     data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RC_refl)), V1[0], NP2[0]]))
@@ -342,7 +332,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                     # The boy that found the girl who hurt herself/the child helped the child/*herself.
                     # NP1     RC         NP_RC    RCb      NP_RC_refl/NP_RCb V1     NP2/NP_RC_refl
                     V1 = choice(get_all_refl_preds())
-                    NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_nouns())), very_common_det=True)
+                    NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_common_nouns())), very_common_det=True)
                     V1 = conjugate(V1, NP1)
                     NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", get_all_nouns())), very_common_det=True)
                     option_RC = random.randint(0, 1)
@@ -351,7 +341,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                         RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, binder=True, nested=True, other_verbs=[(V1, "arg_2")])
                     else:
                         RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1, binder=True, nested=True, other_verbs=[(V1, "arg_2")])
-                    RCb, NP_RCb, NP_RCb_refl, V_RCb = self.subject_relative_clause(NP_RC, reflexive=True, coindexes=[NP1])
+                    RCb, NP_RCb, NP_RCb_refl, V_RCb = self.subject_relative_clause(NP_RC, reflexive=True, coindexes=[NP1, NP_RC])
 
                     # 1_1
                     data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RC_refl)), V1[0], NP2[0]]))
@@ -363,10 +353,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                     data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0], rc=RCb.format(n=NP_RCb[0])), V1[0], NP_RC[0]]))
                     templates.append(template + ",0_0,optionB=%d" % optionB)
 
-        else:  # 1 binds 4: The girl that ate the pie that shocked the boy hurt herself.
-            coindex_bad = (2, 3)
+        else:  # 1 binds 4:
+            # The girl that ate the pie that shocked the boy hurt herself/himself.
+            # NP1      RC       NP_RC   RCb          NP_RCb  V1   NP1_ref/NP_RCb_refl
             V1 = choice(get_all_refl_preds())
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns))
+            NP1 = choice(get_matches_of(V1, "arg_2", get_matches_of(V1, "arg_1", self.all_reflexive_nouns)))
             V1 = conjugate(V1, NP1)
             NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1, very_common_det=True)
@@ -403,18 +394,21 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             # NP1     RC          NP_RC  V1        that NP2      V2   NP2_refl/NP1_refl
             V1 = choice(self.all_CP_verbs)
             optionB = random.randint(0, 1)  # distractor is matrix subject (0) or RC argument (1)
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns)) if optionB == 1 else choice(get_matches_of(V1, "arg_1", self.safe_nouns))
+            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns)) if optionB == 0 else choice(get_matches_of(V1, "arg_1", self.safe_nouns))
             NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1, very_common_det=True)
             V1 = conjugate(V1, NP1)
             option = random.randint(0, 1)
             template += f",RC={option}"
             if option == 0:
-                RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, binder=optionB)
+                RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, binder=optionB == 1)
             else:
-                RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1, binder=optionB)
-            V2 = choice(get_matched_by(NP_RC, "arg_2", get_all_refl_preds())) if optionB else choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
-            NP2 = choice(get_matches_of(V2, "arg_1", get_matches_of(V2, "arg_2", self.all_reflexive_nouns)))
+                RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1, binder=optionB == 1)
+            V2 = choice(get_matched_by(NP_RC, "arg_2", get_all_refl_preds())) if optionB == 1 else choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
+            try:
+                NP2 = choice(get_matches_of(V2, "arg_1", get_matches_of(V2, "arg_2", self.all_reflexive_nouns)))
+            except Exception:
+                pass
             NP2_refl = self.return_reflexive(NP2)
             NP2 = N_to_DP_mutate(NP2, very_common_det=True)
             V2 = conjugate(V2, NP2)
@@ -428,11 +422,15 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 pass
 
             # 0_0
-            if optionB:
+            if optionB == 0:
                 data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP1_refl]))
                 data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP1[0]]))
             else:
-                data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP_RC_refl]))
+                try:
+                    data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP_RC_refl]))
+                except Exception:
+                    pass
+
                 data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP_RC[0]]))
             templates.append(f"{template},1_1,optionA={optionA},optionB={optionB}")
 
@@ -445,7 +443,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 pass
             NP1_refl = self.return_reflexive(NP1)
             V1 = conjugate(V1, NP1)
-            V2 = choice(get_all_transitive_verbs()) if ambiguous else choice(get_all_refl_preds())
+            NP2 = choice(self.all_reflexive_nouns)
+            V2 = choice(get_matched_by(NP2, "arg_2", get_all_transitive_verbs())) if ambiguous else choice(get_matched_by(NP2, "arg_2", get_all_refl_preds()))
             NP2 = choice(get_matches_of(V2, "arg_1", self.all_reflexive_nouns))
             try:
                 NP2_refl = self.return_reflexive(NP2)
@@ -455,8 +454,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             V2 = conjugate(V2, NP2)
             NP3 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_2", get_all_nouns())), very_common_det=True)
             if ambiguous:
-                # The boy is saying that the girl that played a game hurt herself/*himself.
-                # NP1     V1        that NP2      RC          NP_RC  V2   NP2_refl/NP1_refl
+                # The boy is saying that the girl that hurt herself/*himself  played a game.
+                # NP1     V1        that NP2      RC        NP2_refl/NP1_refl V2   NP3
                 RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP2, NP1])
                 # 1_1
                 data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], RC.format(n=NP2_refl), V2[0], NP3[0]]))
@@ -504,9 +503,12 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             NP3 = choice(self.all_reflexive_nouns)
             NP3_refl = self.return_reflexive(NP3)
             NP3 = N_to_DP_mutate(NP3, very_common_det=True)
-
-            V2 = conjugate(choice(get_matched_by(NP2, "arg_1", get_matched_by(NP3, "arg_2", get_all_transitive_verbs()))), NP2)
-            RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1, reflexive=True, coindexes=[NP3])
+            try:
+                V2 = conjugate(choice(get_matched_by(NP2, "arg_1", get_matched_by(NP3, "arg_2", get_all_transitive_verbs()))), NP2)
+            except IndexError:
+                raise MatchNotFoundError("")
+            coindexes = [NP3, NP1] if optionB == 0 else [NP3, NP2]
+            RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP3, reflexive=True, coindexes=coindexes)
 
             # 1_1
             data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP3_refl)]))
@@ -514,7 +516,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             templates.append(f"{template},1_1,optionA={optionA}")
 
             # 0_0
-            if optionB:  # distractor is NP1
+            if optionB == 0:  # distractor is NP1
                 data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP1_refl)]))
                 data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP1[0])]))
             else:  # distractor is NP2
@@ -525,6 +527,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         return data_transform, data_base, track_sentence, templates
 
     def sample_CP_noun(self, ambiguous):
+        # The idea that the boy hurt  himself/the girl     is shocking the child/*himself
+        # NP1      that NP1_emb V_emb NP1_emb_refl/NP2_emb V1          NP2/NP1_emb_refl
         if not ambiguous:
             raise Exception("This paradigm must be ambiguous")
 
@@ -553,16 +557,16 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         except Exception:
             pass
 
-        # 0_1
+        # 0_0
         data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP1_emb_refl]))
         data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP1_emb[0]]))
-        templates.append(template + ",1_1")
+        templates.append(template + ",0_0")
 
         return data_transform, data_base, track_sentence, templates
 
     def sample_CP_noun_RC(self, ambiguous):
         """
-        The idea that the girl who hurt the boy chased herself/the man is shocking the actor/himself    (disambig)
+        The idea that the girl who hurt the boy chased herself/the man is shocking the actor/himself    (unambig)
         The idea that the girl chased a boy that hurt himself/the woman is shocking the actor/himself     (ambig)
         The idea that the girl chased a boy is shocking the actor that hurt himself/herself     (ambig)
         """
@@ -574,12 +578,13 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         track_sentence = []
 
         if not ambiguous:   # RC must attach to embedded subject
-            # coindexes: (NP1_emb, NP2_emb), (NP2_emb, NP2)
+            # The idea that the girl who hurt the boy chased herself/the man     is shocking the actor/*himself
+            # NP1      that NP1_emb  RC       NP_RC   V_emb  NP_emb_refl/NP2_emb V1          NP2/NP2_emb_refl
             NP1 = N_to_DP_mutate(choice(self.CP_nouns), very_common_det=True)
             V1 = choice(get_matched_by(NP1, "arg_1", get_all_refl_preds()))
             V1 = conjugate(V1, NP1)
-            V_emb = choice(get_all_refl_preds())
-            NP1_emb = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+            NP1_emb = choice(self.all_reflexive_nouns)
+            V_emb = choice(get_matched_by(NP1_emb, "arg_1", get_matched_by(NP1_emb, "arg_2", get_all_refl_preds())))
             NP1_emb_refl = self.return_reflexive(NP1_emb)
             NP1_emb = N_to_DP_mutate(NP1_emb, very_common_det=True)
             NP2_emb = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V1, "arg_2", self.all_reflexive_nouns)))
@@ -607,19 +612,20 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         else:
             optionA = random.randint(0, 1)  # 0 = RC on embedded obj; 1 = RC on matrix object
             if optionA == 0:    # RC on embedded obj
-                # coindexes: (NP2_emb, NP_RC), (NP2_emb, NP2)
+                # The idea that the girl chased a boy   that hurt himself/the woman  is shocking the actor/*himself
+                # NP1      that NP1_emb  V_emb  NP2_emb RC        NP2_emb_refl/NP_RC V1          NP2/*NP2_emb_refl
 
                 NP1 = N_to_DP_mutate(choice(self.CP_nouns), very_common_det=True)
-                V1 = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
-                V1 = conjugate(V1, NP1)
-                V_emb = choice(get_all_transitive_verbs())
-                NP1_emb = choice(get_matches_of(V_emb, "arg_1", self.safe_nouns))
-                NP1_emb = N_to_DP_mutate(NP1_emb, very_common_det=True)
-                NP2_emb = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V1, "arg_2", self.all_reflexive_nouns)))
+                V1 = conjugate(choice(get_matched_by(NP1, "arg_1", get_all_refl_preds())), NP1)
+                NP2 = choice(get_matches_of(V1, "arg_2", get_all_nouns()))
+                NP2_emb = choice(get_matches_of(V1, "arg_2", self.all_reflexive_nouns))
                 NP2_emb_refl = self.return_reflexive(NP2_emb)
                 NP2_emb = N_to_DP_mutate(NP2_emb, very_common_det=True)
-                NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", self.safe_nouns)), very_common_det=True)
-                RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP1_emb, reflexive=True)
+                V_emb = choice(get_matched_by(NP2_emb, "arg_2", get_all_transitive_verbs()))
+                NP1_emb = N_to_DP_mutate(choice(get_matches_of(V_emb, "arg_1", get_all_nouns())), very_common_det=True)
+                V_emb = conjugate(V_emb, NP1_emb)
+                RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP2_emb, reflexive=True, coindexes=[NP2_emb])
+
 
                 # 1_1
                 data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP2_emb_refl), V1[0], NP2[0]]))
@@ -631,21 +637,21 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP_RC[0]), V1[0], NP2_emb[0]]))
                 templates.append(template + f"optionA={optionA},0_0")
 
-            else:    # RC on embedded obj
-                # coindexes: (NP2, NP_RC), (NP1_emb, NP_RC)
+            else:    # RC on matrix obj
+                # The idea that the girl chased an actor is shocking the boy that hurt himself/*herself
+                # NP1      that NP1_emb  V_emb  NP2_emb  V1          NP2     RC        NP2_refl/*NP1_emb_refl
                 NP1 = N_to_DP_mutate(choice(self.CP_nouns), very_common_det=True)
                 V1 = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
                 V1 = conjugate(V1, NP1)
-                V_emb = choice(get_all_transitive_verbs())
-                NP1_emb = choice(get_matches_of(V_emb, "arg_1", get_matches_of(V1, "arg_2", self.all_reflexive_nouns)))
+                NP1_emb = choice(self.all_reflexive_nouns)
                 NP1_emb_refl = self.return_reflexive(NP1_emb)
                 NP1_emb = N_to_DP_mutate(NP1_emb, very_common_det=True)
-                NP2_emb = choice(get_matches_of(V_emb, "arg_2", self.safe_nouns))
-                NP2_emb = N_to_DP_mutate(NP2_emb, very_common_det=True)
                 NP2 = choice(get_matches_of(V1, "arg_2", self.all_reflexive_nouns))
                 NP2_refl = self.return_reflexive(NP2)
                 NP2 = N_to_DP_mutate(NP2)
-                RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP2, reflexive=True)
+                V_emb = conjugate(choice(get_matched_by(NP1_emb, "arg_1", get_all_transitive_verbs())), NP1_emb)
+                NP2_emb = N_to_DP_mutate(choice(get_matched_by(V_emb, "arg_2", get_all_nouns())), very_common_det=True)
+                RC, _, _, _ = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP2, NP1_emb])
 
                 # 1_1
                 data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP2[0], RC.format(n=NP2_refl)]))
@@ -670,8 +676,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         track_sentence = []
         option = random.randint(0, 2)
         if option == 0:
-            # The boy that ate the pie the actor baked is chasing a girl that hurt herself/*himself.
-            # NP1     that RC1 NP_RC1  RC_emb NP_RC_emb V1       NP2    that RC2  NP2_refl/NP1_refl
+            # The boy that ate the pie the actor baked  is chasing a girl that hurt herself/*himself.
+            # NP1          RC1 NP_RC1  RC_emb NP_RC_emb V1         NP2    RC2      NP2_refl/NP1_refl
             NP1 = choice(self.all_reflexive_nouns)
             NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1, very_common_det=True)
@@ -687,24 +693,24 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             try:
                 NP2 = choice(get_matches_of(V1, "arg_2", self.all_reflexive_nouns))
             except Exception:
-                pass
+                raise MatchNotFoundError("")
             NP2_refl = self.return_reflexive(NP2)
             NP2 = N_to_DP_mutate(NP2, very_common_det=True)
-            RC2, NP_RC2, _, _ = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP1])
+            RC2, NP_RC2, _, _ = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP1, NP2])
 
             # 1_1
-            data_transform.append(" ".join([NP1[0], "that", RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], "that", RC2.format(n=NP2_refl)]))
-            data_base.append(" ".join([NP1[0], "that", RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], "that", RC2.format(n=NP2[0])]))
+            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], RC2.format(n=NP2_refl)]))
+            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], RC2.format(n=NP2[0])]))
             templates.append(template + f",option={option},1_1")
 
             # 0_0
-            data_transform.append(" ".join([NP1[0], "that", RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], "that", RC2.format(n=NP1_refl)]))
-            data_base.append(" ".join([NP1[0], "that", RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], "that", RC2.format(n=NP1[0])]))
+            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], RC2.format(n=NP1_refl)]))
+            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0], rc=RC_emb.format(n=NP_RC_emb[0])), V1[0], NP2[0], RC2.format(n=NP1[0])]))
             templates.append(template + f",option={option},0_0")
 
         elif option == 1:
             # The boy that chased the girl that hurt   herself/*himself     ate a pie that the actor baked.
-            # NP1     RC1         NP_RC1   that RC_emb NP_RC1_refl/NP1_refl V1  NP2   that RC2 NP_RC2
+            # NP1     RC1         NP_RC1   RC_emb      NP_RC1_refl/NP1_refl V1  NP2   RC2 NP_RC2
             NP1 = choice(self.all_reflexive_nouns)
             NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1, very_common_det=True)
@@ -716,11 +722,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 RC1, NP_RC1, NP_RC1_refl, _ = self.subject_relative_clause(NP1, binder=True)
             else:  # object RC
                 RC1, NP_RC1, NP_RC1_refl, _ = self.object_relative_clause(NP1, binder=True)
-            RC_emb, _, _, _ = self.subject_relative_clause(NP_RC1, reflexive=True, coindexes=[NP1])
+            RC_emb, _, _, _ = self.subject_relative_clause(NP_RC1, reflexive=True, coindexes=[NP1, NP_RC1])
             try:
                 NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", get_all_nouns())), very_common_det=True)
             except Exception:
-                pass
+                raise MatchNotFoundError("")
             RC2, NP_RC2, _, _ = self.subject_relative_clause(NP2)
 
             # 1_1
@@ -735,7 +741,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         else:
             # The child that ate the pie chased the boy that helped the girl that hurt   herself/*himself.
-            # NP1       that RC1 NP_RC1  V1     NP2     that RC2    NP_RC2   that RC_emb NP_RC2_refl/NP2_refl
+            # NP1       RC1      NP_RC1  V1     NP2     RC2         NP_RC2   RC_emb      NP_RC2_refl/NP2_refl
             NP2 = choice(self.all_reflexive_nouns)
             NP2_refl = self.return_reflexive(NP2)
             NP2 = N_to_DP_mutate(NP2, very_common_det=True)
@@ -746,7 +752,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 RC2, NP_RC2, NP_RC2_refl, _ = self.subject_relative_clause(NP2, binder=True)
             else:  # object RC
                 RC2, NP_RC2, NP_RC2_refl, _ = self.object_relative_clause(NP2, binder=True)
-            RC_emb, _, _, _ = self.subject_relative_clause(NP_RC2, reflexive=True, coindexes=[NP2])
+            RC_emb, _, _, _ = self.subject_relative_clause(NP_RC2, reflexive=True, coindexes=[NP2, NP_RC2])
             NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_nouns())), very_common_det=True)
             RC1, NP_RC1, _, _ = self.subject_relative_clause(NP1)
             V1 = conjugate(V1, NP1)
@@ -771,18 +777,18 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         templates = []
         if ambiguous:
             # The boy helped the girl that hurt herself/*himself
-            # NP1      V1    NP2      that V2   NP2_refl/NP1_refl
+            # NP1      V1    NP2      RC        NP2_refl/NP1_refl
             # RC on object
             # coindexes: (NP2, NP_RC), (NP1, NP_RC)
-            NP1 = choice(self.all_reflexive_nouns)
             NP2 = choice(self.all_reflexive_nouns)
-            V1 = choice(get_matched_by(NP1, "arg_1", get_matched_by(NP2, "arg_2", get_all_transitive_verbs())))
+            RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP2])
+            V1 = choice(get_matched_by(NP2, "arg_2", get_all_transitive_verbs()))
+            NP1 = choice(get_matches_of(V1, "arg_1", get_matches_of(V_RC, "arg_2", self.all_reflexive_nouns)))
             NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1, very_common_det=True)
             V1 = conjugate(V1, NP1)
             NP2_refl = self.return_reflexive(NP2)
             NP2 = N_to_DP_mutate(NP2)
-            RC, NP_RC, NP_RC_refl, V_RC = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP1])
 
             # 1_1
             data_transform.append(" ".join([NP1[0], V1[0], NP2[0], RC.format(n=NP2_refl)]))
@@ -795,10 +801,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             templates.append(template + ",0_0")
         else:
             # The girl that helped the boy hurt herself/himself.
+            # NP1      RC          NP_RC   V1   NP1_refl/NP_RC_refl
             # RC on subject
             # coindexes: (NP1, NP2), (NP_RC, NP2)
-            V1 = choice(get_all_refl_preds())
-            NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns))
+            NP1 = choice(self.all_reflexive_nouns)
+            V1 = choice(get_matched_by(NP1, "arg_1", get_matched_by(NP1, "arg_2", get_all_refl_preds())))
             NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1, very_common_det=True)
             V1 = conjugate(V1, NP1)
@@ -836,6 +843,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         V2 = choice(self.all_CP_verbs, avoid=[V1])
         option = random.randint(0, 1)
         if option == 0:  # (NP3, NP4), (NP1, NP4)
+            # The boy is saying that the actor thought that the girl hurt herself/*himself.
+            # NP1     V1        that NP2       V2      that NP3      V3   NP3_refl/NP1_refl
             NP1 = choice(get_matches_of(V1, "arg_1", self.all_reflexive_nouns))
             NP1_refl = self.return_reflexive(NP1)
             NP1 = N_to_DP_mutate(NP1)
@@ -843,7 +852,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             NP2 = N_to_DP_mutate(choice(get_matches_of(V2, "arg_1", get_all_nouns())))
             V2 = conjugate(V2, NP2)
             V3 = choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
-            NP3 = choice(get_matches_of(V3, "arg_1", self.all_reflexive_nouns))
+            NP3 = choice(get_matches_of(V3, "arg_2", get_matches_of(V3, "arg_1", self.all_reflexive_nouns)))
             NP3_refl = self.return_reflexive(NP3)
             NP3 = N_to_DP_mutate(NP3)
             V3 = conjugate(V3, NP3)
@@ -851,14 +860,16 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             binder = NP1[0]
 
         else:  # (NP3, NP4), (NP2, NP4)
+            # The actor is saying that the boy thought that the girl hurt herself/*himself.
+            # NP1       V1        that NP2     V2      that NP3      V3   NP3_refl/NP2_refl
             NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_nouns())))
             V1 = conjugate(V1, NP1)
-            NP2 = choice(get_matches_of(V2, "arg_1", get_all_nouns()))
+            NP2 = choice(get_matches_of(V2, "arg_1", self.all_reflexive_nouns))
             NP2_refl = self.return_reflexive(NP2)
             NP2 = N_to_DP_mutate(NP2)
             V2 = conjugate(V2, NP2)
-            V3 = choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
-            NP3 = choice(get_matches_of(V3, "arg_1", self.all_reflexive_nouns))
+            V3 = choice(get_matched_by(NP2, "arg_2", get_all_refl_preds()))
+            NP3 = choice(get_matches_of(V3, "arg_2", get_matches_of(V3, "arg_1", self.all_reflexive_nouns)))
             NP3_refl = self.return_reflexive(NP3)
             NP3 = N_to_DP_mutate(NP3)
             V3 = conjugate(V3, NP3)
@@ -898,7 +909,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 NP1 = N_to_DP_mutate(NP1, very_common_det=True)
                 V_CP = conjugate(V_CP, NP1)
                 V_emb = choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
-                NP2 = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+                NP2 = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns)))
                 NP2_refl = self.return_reflexive(NP2)
                 NP2 = N_to_DP_mutate(NP2, very_common_det=True)
                 V_emb = conjugate(V_emb, NP2)
@@ -923,7 +934,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 NP2 = N_to_DP_mutate(NP2, very_common_det=True)
                 V_CP = conjugate(V_CP, NP2)
                 V_emb = choice(get_matched_by(NP2, "arg_2", get_all_refl_preds()))
-                NP3 = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+                NP3 = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns)))
                 NP3_refl = self.return_reflexive(NP3)
                 NP3 = N_to_DP_mutate(NP3, very_common_det=True)
                 V_emb = conjugate(V_emb, NP3)
@@ -951,7 +962,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 NP2 = N_to_DP_mutate(NP2, very_common_det=True)
                 V_CP = conjugate(V_CP, NP2)
                 V_emb = choice(get_matched_by(NP2, "arg_2", get_all_refl_preds()))
-                NP1 = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+                NP1 = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns)))
                 NP1_refl = self.return_reflexive(NP1)
                 NP1 = N_to_DP_mutate(NP1, very_common_det=True)
                 V_emb = conjugate(V_emb, NP1)
@@ -975,8 +986,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 NP1_refl = self.return_reflexive(NP1)
                 NP1 = N_to_DP_mutate(NP1, very_common_det=True)
                 V_CP = conjugate(V_CP, NP1)
-                V_mat = get_matched_by(NP1, "arg_2", get_all_refl_preds())
-                NP3 = get_matches_of(V_mat, "arg_1", self.all_reflexive_nouns)
+                V_mat = choice(get_matched_by(NP1, "arg_2", get_all_refl_preds()))
+                NP3 = choice(get_matches_of(V_mat, "arg_2", get_matches_of(V_mat, "arg_1", self.all_reflexive_nouns)))
                 NP3_refl = self.return_reflexive(NP3)
                 NP3 = N_to_DP_mutate(NP3, very_common_det=True)
                 V_mat = conjugate(V_mat, NP3)
@@ -1001,11 +1012,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 NP3 = N_to_DP_mutate(NP3, very_common_det=True)
                 V_CP = conjugate(V_CP, NP3)
                 V_emb = choice(get_matched_by(NP3, "arg_2", get_all_refl_preds()))
-                NP2 = choice(get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns))
+                NP2 = choice(get_matches_of(V_emb, "arg_2", get_matches_of(V_emb, "arg_1", self.all_reflexive_nouns)))
                 NP2_refl = self.return_reflexive(NP2)
                 NP2 = N_to_DP_mutate(NP2, very_common_det=True)
                 V_emb = conjugate(V_emb, NP2)
-                V_mat = get_matched_by(NP2, "arg_2", get_all_transitive_verbs())
+                V_mat = choice(get_matched_by(NP2, "arg_2", get_all_transitive_verbs()))
                 NP1 = N_to_DP_mutate(get_matches_of(V_mat, "arg_1", get_all_nouns()), very_common_det=True)
                 V_mat = conjugate(V_mat, NP1)
                 # 1_0
@@ -1021,5 +1032,30 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         return data_transform, data_base, track_sentence, templates
 
 
-generator = MyGenerator()
-generator.generate_paradigm(number_to_generate=5000, rel_output_path="outputs/structure/" + generator.uid)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Extract re verbs.')
+    parser.add_argument("--number_to_generate", "-n", default=5000, type=int, help="Number of pairs/quadruples to generate")
+    parser.add_argument("--output_path", "-o", type=str, help="Relative path to output directory")
+    parser.add_argument("--one_template", "-t", type=str, help="If provided, the name of template to generate data from")
+    parser.add_argument("--ambiguous", "-a", type=bool, help="If one template is provided, specifies whether to generate ambiguous or unambiguous data")
+    args = parser.parse_args()
+    generator = MyGenerator()
+    generator.generate_paradigm(number_to_generate=args.number_to_generate,
+                                rel_output_path=args.output_path + generator.uid,
+                                one_template=args.one_template,
+                                ambiguous=args.ambiguous)
+
+# x sample_2_RCs(ambiguous=True)
+# x sample_nested_rc(ambiguous=True)
+# x sample_CP_verb_RC(ambiguous=True)
+# x sample_CP_noun(ambiguous=True)
+# x sample_CP_noun_RC(ambiguous=True)
+# ? sample_nested_RC_2_RCs(ambiguous=True)  This has tons of errors, but hard to fix
+# ? sample_1_RC(ambiguous=True)  This has a few errors, but hard to fix
+# x sample_nested_CP_verb(ambiguous=True)
+# x sample_CP_under_RC(ambiguous=True)
+# x sample_nested_rc(ambiguous=False)
+# x sample_CP_verb_RC(ambiguous=False)
+# x sample_CP_noun_RC(ambiguous=False)
+# x sample_1_RC(ambiguous=False)  Some errors, but not too many
+# x sample_CP_under_RC(ambiguous=False)

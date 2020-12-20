@@ -238,8 +238,8 @@ mall,N,N,,1,,1,1,0,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,0,,,,,,,,,1,,,,malls,
 malls,N,N,,1,,1,0,1,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,0,,,,,,,,,1,,,,,mall,,,,,,,,,,,,,,,,1,1,,,,,,,,at;in,,,0
 restaurant,N,N,,1,,1,1,0,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,0,,,,,,,,,1,,,,restaurants,,,,,,,,,,,,,,,,,1,1,,,,,,,,at;in,,,0
 restaurants,N,N,,1,,1,0,1,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,0,,,,,,,,,1,,,,,restaurant,,,,,,,,,,,,,,,,1,1,,,,,,,,at;in,,,0
-museum,N,N,,1,,1,1,0,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,0,,,,,,,,,1,1,,,museums,,,,,,,,,,,,,,,,,1,1,,,,,,,,at;in,,,0
-museums,N,N,,1,,1,0,1,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,0,,,,,,,,,1,1,,,,museum,,,,,,,,,,,,,,,,1,1,,,,,,,,at;in,,,0
+museum,N,N,,1,,1,1,0,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,1,1,,,museums,,,,,,,,,,,,,,,,,1,1,,,,,,,,at;in,,,0
+museums,N,N,,1,,1,0,1,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,1,1,,,,museum,,,,,,,,,,,,,,,,1,1,,,,,,,,at;in,,,0
 university,N,N,,1,,1,1,0,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,0,,,,,,,,,,1,,,universities,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 universities,N,N,,1,,1,0,1,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,0,,,,,,,,,,1,,,,university,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 government,N,N,,1,,1,1,0,0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,0,,,,,,,,,,1,,,governments,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
@@ -789,7 +789,7 @@ skate around,(S\NP)/NP,TV,1,,,,,,,,,,1,0,1,0,0,0,0,animate=1^sg=0,locale=1,,skat
 skates around,(S\NP)/NP,TV,1,,,,,,,,,,1,0,1,0,0,0,1,animate=1^sg=1,locale=1,,skate around_(S\NP)/NP,,,,,0,,,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 skated around,(S\NP)/NP,TV,1,,,,,,,,,,1,0,0,1,0,0,0,animate=1,locale=1,,skate around_(S\NP)/NP,,,,,0,,,0,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 skated around,(S\NP)/NP,TV,1,,,,,,,,,,0,0,0,0,0,1,0,animate=1,locale=1,,skate around_(S\NP)/NP,,,,,0,,,0,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-skated around,(S\NP)/NP,TV,1,,,,,,,,,,0,0,0,0,1,0,0,animate=1,locale=1,,skate around_(S\NP)/NP,,,,,0,,,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+skating around,(S\NP)/NP,TV,1,,,,,,,,,,0,0,0,0,1,0,0,animate=1,locale=1,,skate around_(S\NP)/NP,,,,,0,,,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 walk through,(S\NP)/NP,TV,1,,,,,,,,,,0,1,0,0,0,0,0,animate=1,locale=1,,skate around_(S\NP)/NP,,,,,1,,,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 walk through,(S\NP)/NP,TV,1,,,,,,,,,,1,0,1,0,0,0,0,animate=1^sg=0,locale=1,,walk through_(S\NP)/NP,,,,,1,,,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 walks through,(S\NP)/NP,TV,1,,,,,,,,,,1,0,1,0,0,0,1,animate=1^sg=1,locale=1,,walk through_(S\NP)/NP,,,,,1,,,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
@@ -2470,186 +2470,186 @@ determines,(S\NP)/S[to],V_raising_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1,,
 determined,(S\NP)/S[to],V_raising_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1,,,determine_(S\NP)/S[to],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 determined,(S\NP)/S[to],V_raising_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1,,,determine_(S\NP)/S[to],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 determining,(S\NP)/S[to],V_raising_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1,,,determine_(S\NP)/S[to],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-commission,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-commission,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-commissions,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-commissioned,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-commissioned,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-commissioning,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-compel,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-compel,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-compels,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-compelled,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-compelled,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-compelling,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-convince,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-convince,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-convinces,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-convinced,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-convinced,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-convincing,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-dare,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-dare,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-dares,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-dared,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-dared,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-daring,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-encourage,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-encourage,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-encourages,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-encouraged,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-encouraged,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-encouraging,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-entice,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-entice,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-entices,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-enticed,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-enticed,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-enticing,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-force,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-force,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-forces,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-forced,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-forced,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-forcing,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-induce,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-induce,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-induces,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-induced,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-induced,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-inducing,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-motivate,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-motivate,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-motivates,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-motivated,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-motivated,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-motivating,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-obligate,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-obligate,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-obligates,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-obligated,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-obligated,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-obligating,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-oblige,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-oblige,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-obliges,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-obliged,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-obliged,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-obliging,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-persuade,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-persuade,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-persuades,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-persuaded,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-persuaded,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-persuading,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-pressure,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-pressure,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-pressures,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-pressured,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-pressured,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-pressuring,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-prod,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-prod,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-prods,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-prodded,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-prodded,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-prodding,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-prompt,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-prompt,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-prompts,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-prompted,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-prompted,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-prompting,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-push,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-push,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-pushes,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-pushed,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-pushed,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-pushing,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-spur,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-spur,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-spurs,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-spurred,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-spurred,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-spurring,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-sway,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-sway,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-sways,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-swayed,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-swayed,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-swaying,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-tempt,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-tempt,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-tempts,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-tempted,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-tempted,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-tempting,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-advise,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-advise,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-advises,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-advised,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-advised,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-advising,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ask,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ask,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-asks,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-asked,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-asked,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-asking,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-badger,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-badger,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-badgers,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-badgered,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
-badgered,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
-badgering,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-beg,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-beg,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-begs,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-begged,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-begged,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-begging,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-entreat,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-entreat,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-entreats,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-entreated,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
-entreated,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
-entreating,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-urge,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-urge,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-urges,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-urged,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-urged,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-urging,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-implore,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-implore,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-implores,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-implored,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
-implored,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
-imploring,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-press,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-press,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-presses,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-pressed,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-pressed,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-pressing,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-order,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-order,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-orders,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ordered,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-ordered,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-ordering,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-command,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-command,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-commands,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-commanded,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-commanded,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-commanding,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-require,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-require,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-requires,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-required,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-required,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-requiring,((S\NP)/(S[to]/NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]/NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+commission,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+commission,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+commissions,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+commissioned,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+commissioned,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+commissioning,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,commission_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+compel,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+compel,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+compels,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+compelled,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+compelled,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+compelling,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,compel_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+convince,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+convince,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+convinces,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+convinced,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+convinced,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+convincing,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,convince_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+dare,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+dare,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+dares,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+dared,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+dared,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+daring,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,dare_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+encourage,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+encourage,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+encourages,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+encouraged,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+encouraged,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+encouraging,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,encourage_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+entice,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+entice,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+entices,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+enticed,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+enticed,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+enticing,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,entice_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+force,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+force,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+forces,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+forced,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+forced,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+forcing,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,force_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+induce,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+induce,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+induces,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+induced,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+induced,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+inducing,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,induce_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+motivate,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+motivate,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+motivates,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+motivated,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+motivated,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+motivating,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,motivate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+obligate,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+obligate,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+obligates,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+obligated,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+obligated,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+obligating,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,obligate_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+oblige,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+oblige,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+obliges,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+obliged,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+obliged,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+obliging,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,oblige_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+persuade,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+persuade,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+persuades,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+persuaded,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+persuaded,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+persuading,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,persuade_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+pressure,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+pressure,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+pressures,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+pressured,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+pressured,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+pressuring,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,pressure_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+prod,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+prod,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+prods,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+prodded,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+prodded,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+prodding,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prod_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+prompt,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+prompt,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+prompts,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+prompted,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+prompted,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+prompting,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,prompt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+push,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+push,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+pushes,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+pushed,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+pushed,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+pushing,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,push_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+spur,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+spur,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0;event=1^sg=0,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+spurs,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1;event=1^sg=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+spurred,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+spurred,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+spurring,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1;event=1,agent=1;institution=1,verb=1;agentive=1,spur_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+sway,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+sway,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+sways,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+swayed,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+swayed,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+swaying,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,sway_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+tempt,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+tempt,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+tempts,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+tempted,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+tempted,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+tempting,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,tempt_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+advise,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+advise,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+advises,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+advised,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+advised,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+advising,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,advise_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ask,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ask,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+asks,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+asked,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+asked,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+asking,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,ask_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+badger,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+badger,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+badgers,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+badgered,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+badgered,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+badgering,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,badger_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+beg,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+beg,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+begs,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+begged,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+begged,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+begging,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,beg_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+entreat,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+entreat,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+entreats,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+entreated,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+entreated,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+entreating,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,entreat_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+urge,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+urge,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+urges,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+urged,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+urged,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+urging,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,urge_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+implore,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+implore,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+implores,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+implored,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+implored,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+imploring,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,implore_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+press,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+press,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+presses,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+pressed,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+pressed,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+pressing,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,press_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+order,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+order,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+orders,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ordered,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+ordered,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+ordering,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,order_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+command,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+command,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+commands,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+commanded,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+commanded,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+commanding,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,command_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+require,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,1,0,0,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+require,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,0,agent=1^sg=0;institution=1^sg=0,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+requires,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,1,0,0,0,1,agent=1^sg=1;institution=1^sg=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+required,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,1,0,0,1,0,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+required,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,0,1,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+requiring,((S\NP)/(S[to]\NP))/NP,V_control_object,1,,,,,,,,,,0,0,0,0,1,0,0,agent=1;institution=1,agent=1;institution=1,verb=1;agentive=1,require_((S\NP)/(S[to]\NP))/NP,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 know,(S\NP)/Q,V_rogative,1,,,1,,,,,,,0,1,0,0,0,0,0,animate=1;institution=1,expression=whether,,know_(S\NP)/Q,,1,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 know,(S\NP)/Q,V_rogative,1,,,1,,,,,,,1,0,1,0,0,0,0,animate=1^sg=0;institution=1^sg=0,expression=whether,,know_(S\NP)/Q,,1,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 knows,(S\NP)/Q,V_rogative,1,,,1,,,,,,,1,0,1,0,0,0,1,animate=1^sg=1;institution=1^sg=1,expression=whether,,know_(S\NP)/Q,,1,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
@@ -3537,171 +3537,171 @@ Irene,N,N,,1,,1,1,,,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,f,,,,,,,,,,,,,,,,,,
 Eva,N,N,,1,,1,1,,,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 Ella,N,N,,1,,1,1,,,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 Candice,N,N,,1,,1,1,,,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-sister of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,sisters of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-sisters of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,sister of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-brother of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,brothers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-brothers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,brother of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-daughter of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,daughters of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-daughters of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,daughter of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-son of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,sons of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-sons of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,son of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-mother of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,mothers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-mothers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,mother of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-father of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,fathers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-fathers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,father of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-cousin of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,cousins of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-cousins of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,,cousin of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-niece of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,nieces of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-nieces of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,niece of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-nephew of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,nephews of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-nephews of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,nephew of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandmother of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,grandmothers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandmothers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,grandmother of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandfather of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,grandfathers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandfathers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,grandfather of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-granddaughter of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,granddaughters of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-granddaughters of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,granddaughter of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandson of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,grandsons of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandsons of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,grandson of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-friend of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,friends of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-friends of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,,friend of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-sister,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,sisters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-sisters,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,sister,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-brother,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,brothers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-brothers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,brother,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-daughter,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,daughters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-daughters,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,daughter,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-son,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,sons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-sons,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,son,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-mother,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,mothers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-mothers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,mother,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-father,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,fathers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-fathers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,father,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-cousin,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,cousins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-cousins,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,,cousin,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-niece,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,nieces,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-nieces,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,niece,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-nephew,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,nephews,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-nephews,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,nephew,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandmother,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,grandmothers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandmothers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,grandmother,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandfather,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,grandfathers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandfathers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,grandfather,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-granddaughter,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,granddaughters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-granddaughters,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,granddaughter,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandson,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,grandsons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-grandsons,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,grandson,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-friend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,friends,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-friends,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,,friend,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-boss,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,bosses,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-bosses,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,boss,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-employee,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,employees,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-employees,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,,employee,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-supervisor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,supervisors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-supervisors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,supervisor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-mentor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,mentors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-mentors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,mentor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-mentee,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,mentees,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-mentees,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,mentee,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-teacher,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-teachers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-student,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,students,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-students,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,student,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-French teacher,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,French teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-French teachers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,French teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-piano teacher,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,piano teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-piano teachers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,piano teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-tutor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,tutors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-tutors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,tutor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-plumber,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,plumbers,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-plumbers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,plumber,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-electrician,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,electricians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-electricians,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,,electrician,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-handyman,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,1,,,,1,,,,,,handymen,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-handymen,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,1,,,,1,,,,,,,handyman,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-contractor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,contractors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-contractors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,contractor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-hairdresser,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,hairdressers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-hairdressers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,hairdresser,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-senator,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,senators,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-senators,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,senator,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-lawyer,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,lawyers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-lawyers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,lawyer,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-partner,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,partners,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-partners,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-associate,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,associates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-associates,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,,associate,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-doctor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,doctors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-doctors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,doctor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-dermatologist,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,dermatologists,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-dermatologists,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,dermatologist,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-dentist,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,dentists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-dentists,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,dentist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-oncologist,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,oncologists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-oncologists,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,,oncologist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-podiatrist,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,podiatrists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-podiatrists,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,podiatrist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-guest,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,guests,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-guests,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,,guest,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-spouse,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-wife,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-husband,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-boyfriend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-girlfriend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ex-girlfriend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,f,,,,,1,,,,,,ex-girlfriends,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ex-girlfriends,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,f,,,,,1,,,,,,,ex-girlfriend,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ex-boyfriend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,m,,,,,1,,,,,,ex-boyfriends,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ex-boyfriends,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,m,,,,,1,,,,,,,ex-boyfriend,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ex-wife,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,f,1,,,,1,,,,,,ex-wives,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ex-wives,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,f,1,,,,1,,,,,,,ex-wife,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ex-husband,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,m,,,,,1,,,,,,ex-husbands,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-ex-husbands,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,m,,,,,1,,,,,,,ex-husband,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-best friend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,best friends,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-best friends,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,,best friend,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-classmate,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,classmates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-classmates,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,,classmate,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-colleague,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,colleagues,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-colleagues,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,colleague,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-teacher,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-teachers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-student,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,students,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-students,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,student,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-French teacher,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,French teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-French teachers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,French teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-piano teacher,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,piano teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-piano teachers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,piano teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-tutor,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,tutors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-tutors,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,tutor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-plumber,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,plumbers,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-plumbers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,plumber,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-electrician,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,electricians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-electricians,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,,electrician,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-handyman,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,handymen,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-handymen,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,handyman,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-contractor,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,contractors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-contractors,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,contractor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-hairdresser,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,hairdressers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-hairdressers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,hairdresser,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-senator,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,senators,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-senators,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,senator,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-lawyer,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,lawyers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-lawyers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,lawyer,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-partner,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,partners,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-partners,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-associate,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,associates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-associates,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,,associate,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-doctor,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,doctors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-doctors,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,doctor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-dermatologist,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,dermatologists,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-dermatologists,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,dermatologist,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
-dentist,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,dentists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-dentists,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,dentist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-oncologist,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,oncologists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-oncologists,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,1,,,,,,,oncologist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-podiatrist,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,podiatrists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-podiatrists,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,1,,,,,,,podiatrist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-guest,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,guests,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-guests,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,1,,,,,,,guest,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+sister of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,sisters of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+sisters of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,sister of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+brother of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,brothers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+brothers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,brother of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+daughter of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,daughters of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+daughters of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,daughter of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+son of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,sons of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+sons of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,son of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+mother of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,mothers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+mothers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,mother of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+father of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,fathers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+fathers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,father of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+cousin of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,cousins of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+cousins of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,,cousin of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+niece of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,nieces of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+nieces of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,niece of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+nephew of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,nephews of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+nephews of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,nephew of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandmother of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,grandmothers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandmothers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,grandmother of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandfather of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,grandfathers of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandfathers of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,grandfather of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+granddaughter of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,granddaughters of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+granddaughters of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,granddaughter of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandson of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,grandsons of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandsons of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,grandson of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+friend of,N/NP,RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,friends of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+friends of,N/NP,RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,,friend of,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+sister,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,sisters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+sisters,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,sister,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+brother,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,brothers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+brothers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,brother,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+daughter,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,daughters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+daughters,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,daughter,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+son,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,sons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+sons,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,son,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+mother,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,mothers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+mothers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,mother,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+father,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,fathers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+fathers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,father,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+cousin,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,cousins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+cousins,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,,cousin,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+niece,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,nieces,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+nieces,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,niece,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+nephew,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,nephews,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+nephews,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,nephew,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandmother,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,grandmothers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandmothers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,grandmother,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandfather,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,grandfathers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandfathers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,grandfather,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+granddaughter,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,granddaughters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+granddaughters,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,granddaughter,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandson,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,grandsons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+grandsons,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,grandson,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+friend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,friends,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+friends,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,,friend,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+boss,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,bosses,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+bosses,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,boss,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+employee,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,employees,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+employees,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,,employee,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+supervisor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,supervisors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+supervisors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,supervisor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+mentor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,mentors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+mentors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,mentor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+mentee,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,mentees,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+mentees,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,mentee,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+teacher,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+teachers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+student,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,students,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+students,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,student,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+French teacher,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,French teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+French teachers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,French teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+piano teacher,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,piano teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+piano teachers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,piano teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+tutor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,tutors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+tutors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,tutor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+plumber,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,plumbers,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+plumbers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,plumber,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+electrician,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,electricians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+electricians,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,,electrician,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+handyman,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,1,,,,,,,,,,handymen,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+handymen,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,1,,,,,,,,,,,handyman,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+contractor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,contractors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+contractors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,contractor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+hairdresser,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,hairdressers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+hairdressers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,hairdresser,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+senator,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,senators,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+senators,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,senator,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+lawyer,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,lawyers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+lawyers,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,lawyer,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+partner,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,partners,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+partners,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+associate,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,associates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+associates,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,,associate,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+doctor,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,doctors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+doctors,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,doctor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+dermatologist,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,dermatologists,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+dermatologists,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,dermatologist,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+dentist,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,dentists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+dentists,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,dentist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+oncologist,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,oncologists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+oncologists,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,,oncologist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+podiatrist,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,podiatrists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+podiatrists,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,podiatrist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+guest,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,guests,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+guests,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,,guest,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+spouse,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+wife,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+husband,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+boyfriend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,m,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+girlfriend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ex-girlfriend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,f,,,,,,,,,,,ex-girlfriends,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ex-girlfriends,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,f,,,,,,,,,,,,ex-girlfriend,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ex-boyfriend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,m,,,,,,,,,,,ex-boyfriends,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ex-boyfriends,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,m,,,,,,,,,,,,ex-boyfriend,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ex-wife,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,f,1,,,,,,,,,,ex-wives,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ex-wives,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,f,1,,,,,,,,,,,ex-wife,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ex-husband,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,m,,,,,,,,,,,ex-husbands,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+ex-husbands,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,1,,m,,,,,,,,,,,,ex-husband,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+best friend,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,best friends,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+best friends,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,,best friend,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+classmate,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,classmates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+classmates,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,,classmate,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+colleague,N\NP[poss],RelN,,1,,1,1,0,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,colleagues,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+colleagues,N\NP[poss],RelN,,1,,1,0,1,0,1,,0,,,,,,,,animate=1,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,colleague,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+teacher,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+teachers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+student,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,students,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+students,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,student,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+French teacher,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,French teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+French teachers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,French teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+piano teacher,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,piano teachers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+piano teachers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,piano teacher,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+tutor,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,tutors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+tutors,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,tutor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+plumber,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,plumbers,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+plumbers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,plumber,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+electrician,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,electricians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+electricians,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,,electrician,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+handyman,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,handymen,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+handymen,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,handyman,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+contractor,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,contractors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+contractors,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,contractor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+hairdresser,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,hairdressers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+hairdressers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,hairdresser,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+senator,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,senators,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+senators,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,senator,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+lawyer,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,lawyers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+lawyers,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,lawyer,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+partner,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,partners,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+partners,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+associate,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,associates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+associates,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,,associate,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+doctor,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,doctors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+doctors,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,doctor,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+dermatologist,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,dermatologists,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+dermatologists,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,dermatologist,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0
+dentist,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,dentists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+dentists,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,dentist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+oncologist,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,oncologists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+oncologists,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,1,,n,,,,,,,,,,,,oncologist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+podiatrist,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,podiatrists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+podiatrists,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,1,,,0,,n,,,,,,,,,,,,podiatrist,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+guest,N,N,,1,,1,1,0,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,guests,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+guests,N,N,,1,,1,0,1,0,1,,0,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,0,,n,,,,,,,,,,,,guest,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 picture of,N/NP,RelN,,1,,1,1,0,0,0,,0,,,,,,,,physical=1,,,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,,,pictures of,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,0
 pictures of,N/NP,RelN,,1,,1,0,1,0,0,,0,,,,,,,,physical=1,,,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,,,,picture of,,,1,,,,,,,,,,,,,,,,,,,,,,,,,0
 painting of,N/NP,RelN,,1,,1,1,0,0,0,,0,,,,,,,,physical=1,,,,,,,,,,,,,,,,,,0,,,,1,,0,0,,,,,,,,,,,,,paintings of,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,0
@@ -3997,7 +3997,7 @@ bite,(S\NP)/NP,TV,1,,,1,,,,,,,0,1,0,0,0,0,0,animate=1,food=1;animate=1,,bite_(S\
 bite,(S\NP)/NP,TV,1,,,1,,,,,,,1,0,1,0,0,0,0,animate=1^sg=0,food=1;animate=1,,bite_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 bites,(S\NP)/NP,TV,1,,,1,,,,,,,1,0,1,0,0,0,1,animate=1^sg=1,food=1;animate=1,,bite_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 bit,(S\NP)/NP,TV,1,,,1,,,,,,,1,0,0,1,0,0,0,animate=1,food=1;animate=1,,bite_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,1,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
-bit,(S\NP)/NP,TV,1,,,1,,,,,,,0,0,0,0,0,1,0,animate=1,food=1;animate=1,,bite_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+bitten,(S\NP)/NP,TV,1,,,1,,,,,,,0,0,0,0,0,1,0,animate=1,food=1;animate=1,,bite_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 biting,(S\NP)/NP,TV,1,,,1,,,,,,,0,0,0,0,1,0,0,animate=1,food=1;animate=1,,bite_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 breed,(S\NP)/NP,TV,1,,,1,,,,,,,0,1,0,0,0,0,0,animate=1,animal=1^pl=1,,breed_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 breed,(S\NP)/NP,TV,1,,,1,,,,,,,1,0,1,0,0,0,0,animate=1^sg=0,animal=1^pl=1,,breed_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
@@ -4203,7 +4203,7 @@ writes,(S\NP)/NP,TV,1,,,1,,,,,,,1,0,1,0,0,0,1,animate=1^sg=1,document=1,,write_(
 wrote,(S\NP)/NP,TV,1,,,1,,,,,,,1,0,0,1,0,0,0,animate=1,document=1,,write_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 written,(S\NP)/NP,TV,1,,,1,,,,,,,0,0,0,0,0,1,0,animate=1,document=1,,write_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
 writing,(S\NP)/NP,TV,1,,,1,,,,,,,0,0,0,0,1,0,0,animate=1,document=1,,write_(S\NP)/NP,,,,,1,,,0,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
-allegations,N/S,N_embedding,,1,,1,1,0,0,0,,0,,,,,,,,expression=that,,,,,,,,,,,,,0,,,,,0,0,0,0,0,1,0,1,,n,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+allegations,N/S,N_embedding,,1,,1,0,1,0,0,,0,,,,,,,,expression=that,,,,,,,,,,,,,0,,,,,0,0,0,0,0,1,0,1,,n,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 claim,N/S,N_embedding,,1,,1,1,0,0,0,,0,,,,,,,,expression=that,,,,,,,,,,,,,0,,,,,0,0,0,0,0,1,0,0,,n,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 charges,N/S,N_embedding,,1,,1,0,1,0,0,,0,,,,,,,,expression=that,,,,,,,,,,,,,0,,,,,0,0,0,0,0,1,0,0,,n,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
 notion,N/S,N_embedding,,1,,1,1,0,0,0,,0,,,,,,,,expression=that,,,,,,,,,,,,,0,,,,,0,0,0,0,0,1,0,0,,n,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0

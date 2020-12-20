@@ -4,6 +4,7 @@ from utils.conjugate import *
 from utils.randomize import choice
 from utils.vocab_sets_dynamic import *
 import random
+import argparse
 
 class MyGenerator(data_generator.StructureDependenceGenerator):
     def __init__(self):
@@ -32,8 +33,23 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         # self.plural_noun = choice(all_plural_nouns)
 
 
+    def sample(self, ambiguous=None, one_template=None):
+        """
+        Sample sentences from this set of sub-templates.
+        The one_template option makes it possible to generate data from only a single sub-template.
+        """
 
-    def sample(self):
+        if one_template is not None:
+            assert(ambiguous is not None)
+            data_transform, data_base, track_sentence, templates = getattr(self, one_template)(ambiguous=ambiguous)
+            data = self.build_pair(transform_1=data_transform[0],
+                                   transform_0=data_transform[1],
+                                   base_1=data_base[0],
+                                   base_0=data_base[1],
+                                   template_1=templates[0],
+                                   template_0=templates[1],
+                                   ambiguous=ambiguous)
+            return data, track_sentence
 
         track_sentence = []
         option = random.randint(0, 4)
@@ -475,13 +491,10 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         D2 = choice(get_matched_by(NP2, "arg_1", get_all_very_common_dets()))
         S1 = " ".join([D1[0], NP1[0], "%s", D2[0], NP2[0]])
 
-        option = random.randint(0, 2)
+        option = random.randint(0, 1)
         template += ",RC1=%d" % option
         if option == 0:
             RC1, arg_RC1, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1, bind=True)
-            RC1_b, _, V_RC1_b, V_RC1_ing_b = self.subject_relative_clause(arg_RC1, bind=False)
-        elif option == 1:
-            RC1, arg_RC1, V_RC1, V_RC1_ing = self.object_relative_clause(NP1, bind=True)
             RC1_b, _, V_RC1_b, V_RC1_ing_b = self.subject_relative_clause(arg_RC1, bind=False)
         else:
             RC1, arg_RC1, V_RC1, V_RC1_ing = self.subject_relative_clause(NP1, bind=True)
@@ -613,8 +626,6 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         V3 = choice(self.all_non_CP_non_ing_verbs)
         V3_ing = self.get_ing_form(V3)
         V3_args = verb_args_from_verb(V3)
-        that1 = "that" if random.choice([True, False]) else ""
-        that2 = "that" if random.choice([True, False]) else ""
         S3 = make_sentence_from_args(V3_args)
         V3_args["aux"] = return_aux(V3_ing, V3_args["subj"])
         V3_args["verb"] = V3_ing
@@ -630,19 +641,19 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         templates = []
 
         # 1_1
-        data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
-        data_base.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
+        data_transform.append(" ".join([D1[0], NP1[0], V1_ing[0], "that", D2[0], NP2[0], V2[0], "that", S3]))
+        data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], "that", S3]))
         templates.append(template + ",1_1")
 
         # 0_0
         option = random.randint(0, 1)
         templates.append(template + ",0_0,option=%d" % option)
         if option == 0:
-            data_transform.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2_ing[0], that2, S3]))
-            data_base.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
+            data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2_ing[0], "that", S3]))
+            data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], "that", S3]))
         else:
-            data_transform.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3_ing]))
-            data_base.append(" ".join([D1[0], NP1[0], V1[0], that1, D2[0], NP2[0], V2[0], that2, S3]))
+            data_transform.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], "that", S3_ing]))
+            data_base.append(" ".join([D1[0], NP1[0], V1[0], "that", D2[0], NP2[0], V2[0], "that", S3]))
 
         return data_transform, data_base, track_sentence, templates
 
