@@ -754,6 +754,15 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
 
 
-
-generator = MyGenerator()
-generator.generate_paradigm(number_to_generate=5000, rel_output_path="outputs/structure/" + generator.uid)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Extract re verbs.')
+    parser.add_argument("--number_to_generate", "-n", default=5000, type=int, help="Number of pairs/quadruples to generate")
+    parser.add_argument("--output_path", "-o", type=str, help="Relative path to output directory")
+    parser.add_argument("--one_template", "-t", type=str, help="If provided, the name of template to generate data from")
+    parser.add_argument("--ambiguous", "-a", type=bool, help="If one template is provided, specifies whether to generate ambiguous or unambiguous data")
+    args = parser.parse_args()
+    generator = MyGenerator()
+    generator.generate_paradigm(number_to_generate=args.number_to_generate,
+                                rel_output_path=args.output_path + generator.uid,
+                                one_template=args.one_template,
+                                ambiguous=args.ambiguous)
