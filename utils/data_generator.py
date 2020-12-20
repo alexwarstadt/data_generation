@@ -332,7 +332,7 @@ class StructureDependenceGenerator(Generator):
         else:
             raise Exception("You need to give an output path")
         try:
-            os.mkdirs(output_dir, exist_ok=True)
+            os.mkdir(output_dir)
         except FileExistsError:
             pass
         past_sentences = [set() for i in range(len(self.data_fields))]
