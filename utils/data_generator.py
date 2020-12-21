@@ -372,7 +372,7 @@ class StructureDependenceGenerator(Generator):
                     # if not self.control_paradigm:
                     #     for line in list(filter(lambda x: x["condition"] == "control" and x["linguistic_generalization_label"] != x["surface_generalization_label"], new_data)):
                     #         output_control_writer.write(line)
-                    if file == "test.jsonl":
+                    if file == "test.jsonl" or one_template is None:
                         for line in new_data:
                             output_writer.write(line)
                     else:
