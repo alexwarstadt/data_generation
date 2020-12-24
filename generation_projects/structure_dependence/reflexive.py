@@ -533,7 +533,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             raise Exception("This paradigm must be ambiguous")
 
         template = "CP_noun"
-        NP1 = N_to_DP_mutate(choice(self.CP_nouns), very_common_det=True)
+        NP1 = choice(self.CP_nouns)
+        D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
         V1 = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
         V1 = conjugate(V1, NP1)
         NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", self.safe_nouns)), very_common_det=True)
@@ -551,15 +552,15 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
         # 1_1
         try:
-            data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP1_emb_refl, V1[0], NP2[0]]))
-            data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP1_emb[0], V1[0], NP2[0]]))
+            data_transform.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP1_emb_refl, V1[0], NP2[0]]))
+            data_base.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP1_emb[0], V1[0], NP2[0]]))
             templates.append(template + ",1_1")
         except Exception:
             pass
 
         # 0_0
-        data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP1_emb_refl]))
-        data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP1_emb[0]]))
+        data_transform.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP1_emb_refl]))
+        data_base.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP1_emb[0]]))
         templates.append(template + ",0_0")
 
         return data_transform, data_base, track_sentence, templates
@@ -580,7 +581,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         if not ambiguous:   # RC must attach to embedded subject
             # The idea that the girl who hurt the boy chased herself/the man     is shocking the actor/*himself
             # NP1      that NP1_emb  RC       NP_RC   V_emb  NP_emb_refl/NP2_emb V1          NP2/NP2_emb_refl
-            NP1 = N_to_DP_mutate(choice(self.CP_nouns), very_common_det=True)
+            NP1 = choice(self.CP_nouns)
+            D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
             V1 = choice(get_matched_by(NP1, "arg_1", get_all_refl_preds()))
             V1 = conjugate(V1, NP1)
             NP1_emb = choice(self.all_reflexive_nouns)
@@ -599,13 +601,13 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 RC, NP_RC, NP_RC_refl, V_RC = self.object_relative_clause(NP1_emb)
 
             # 1_0
-            data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], RC.format(n=NP_RC[0]), NP1_emb_refl, V1[0], NP2[0]]))
-            data_base.append(" ".join([NP1[0], "that", NP1_emb[0], RC.format(n=NP_RC[0]), NP1_emb[0], V1[0], NP2[0]]))
+            data_transform.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], RC.format(n=NP_RC[0]), NP1_emb_refl, V1[0], NP2[0]]))
+            data_base.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], RC.format(n=NP_RC[0]), NP1_emb[0], V1[0], NP2[0]]))
             templates.append(template + ",1_0")
 
             # 0_1
-            data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], RC.format(n=NP_RC[0]), NP2_emb[0], V1[0], NP2_emb_refl]))
-            data_base.append(" ".join([NP1[0], "that", NP1_emb[0], RC.format(n=NP_RC[0]), NP2_emb[0], V1[0], NP2_emb[0]]))
+            data_transform.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], RC.format(n=NP_RC[0]), NP2_emb[0], V1[0], NP2_emb_refl]))
+            data_base.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], RC.format(n=NP_RC[0]), NP2_emb[0], V1[0], NP2_emb[0]]))
             templates.append(template + ",0_1")
 
 
@@ -615,7 +617,8 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 # The idea that the girl chased a boy   that hurt himself/the woman  is shocking the actor/*himself
                 # NP1      that NP1_emb  V_emb  NP2_emb RC        NP2_emb_refl/NP_RC V1          NP2/*NP2_emb_refl
 
-                NP1 = N_to_DP_mutate(choice(self.CP_nouns), very_common_det=True)
+                NP1 = choice(self.CP_nouns)
+                D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
                 V1 = conjugate(choice(get_matched_by(NP1, "arg_1", get_all_refl_preds())), NP1)
                 NP2 = choice(get_matches_of(V1, "arg_2", get_all_nouns()))
                 NP2_emb = choice(get_matches_of(V1, "arg_2", self.all_reflexive_nouns))
@@ -628,19 +631,20 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
 
 
                 # 1_1
-                data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP2_emb_refl), V1[0], NP2[0]]))
-                data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP2_emb[0]), V1[0], NP2[0]]))
+                data_transform.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP2_emb_refl), V1[0], NP2[0]]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP2_emb[0]), V1[0], NP2[0]]))
                 templates.append(template + f"optionA={optionA},1_1")
 
                 # 0_0
-                data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP_RC[0]), V1[0], NP2_emb_refl]))
-                data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP_RC[0]), V1[0], NP2_emb[0]]))
+                data_transform.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP_RC[0]), V1[0], NP2_emb_refl]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], RC.format(n=NP_RC[0]), V1[0], NP2_emb[0]]))
                 templates.append(template + f"optionA={optionA},0_0")
 
             else:    # RC on matrix obj
                 # The idea that the girl chased an actor is shocking the boy that hurt himself/*herself
                 # NP1      that NP1_emb  V_emb  NP2_emb  V1          NP2     RC        NP2_refl/*NP1_emb_refl
-                NP1 = N_to_DP_mutate(choice(self.CP_nouns), very_common_det=True)
+                NP1 = choice(self.CP_nouns)
+                D1 = choice(get_matched_by(NP1, "arg_1", get_all_very_common_dets()))
                 V1 = choice(get_matched_by(NP1, "arg_1", get_all_transitive_verbs()))
                 V1 = conjugate(V1, NP1)
                 NP1_emb = choice(self.all_reflexive_nouns)
@@ -654,13 +658,13 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 RC, _, _, _ = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP2, NP1_emb])
 
                 # 1_1
-                data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP2[0], RC.format(n=NP2_refl)]))
-                data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP2[0], RC.format(n=NP2[0])]))
+                data_transform.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP2[0], RC.format(n=NP2_refl)]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP2[0], RC.format(n=NP2[0])]))
                 templates.append(template + f"optionA={optionA},1_1")
 
                 # 0_0
-                data_transform.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP2[0], RC.format(n=NP1_emb_refl)]))
-                data_base.append(" ".join([NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP2[0], RC.format(n=NP1_emb[0])]))
+                data_transform.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP2[0], RC.format(n=NP1_emb_refl)]))
+                data_base.append(" ".join([D1[0], NP1[0], "that", NP1_emb[0], V_emb[0], NP2_emb[0], V1[0], NP2[0], RC.format(n=NP1_emb[0])]))
                 templates.append(template + f"optionA={optionA},0_0")
 
         return data_transform, data_base, track_sentence, templates
@@ -719,12 +723,12 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             option_RC = random.randint(0, 1)
             template += f",RC={option_RC}"
             if option_RC == 0:  # subject RC
-                RC1, NP_RC1, NP_RC1_refl, _ = self.subject_relative_clause(NP1, binder=True)
+                RC1, NP_RC1, NP_RC1_refl, _ = self.subject_relative_clause(NP1, binder=True, nested=True)
             else:  # object RC
-                RC1, NP_RC1, NP_RC1_refl, _ = self.object_relative_clause(NP1, binder=True)
+                RC1, NP_RC1, NP_RC1_refl, _ = self.object_relative_clause(NP1, binder=True, nested=True)
             RC_emb, _, _, _ = self.subject_relative_clause(NP_RC1, reflexive=True, coindexes=[NP1, NP_RC1])
             try:
-                NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", get_all_nouns())), very_common_det=True)
+                NP2 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_2", self.safe_nouns)), very_common_det=True)
             except Exception:
                 raise MatchNotFoundError("")
             RC2, NP_RC2, _, _ = self.subject_relative_clause(NP2)
@@ -749,22 +753,22 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             option_RC = random.randint(0, 1)
             template += f",RC={option_RC}"
             if option_RC == 0:  # subject RC
-                RC2, NP_RC2, NP_RC2_refl, _ = self.subject_relative_clause(NP2, binder=True)
+                RC2, NP_RC2, NP_RC2_refl, _ = self.subject_relative_clause(NP2, binder=True, nested=True)
             else:  # object RC
-                RC2, NP_RC2, NP_RC2_refl, _ = self.object_relative_clause(NP2, binder=True)
+                RC2, NP_RC2, NP_RC2_refl, _ = self.object_relative_clause(NP2, binder=True, nested=True)
             RC_emb, _, _, _ = self.subject_relative_clause(NP_RC2, reflexive=True, coindexes=[NP2, NP_RC2])
-            NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", get_all_nouns())), very_common_det=True)
+            NP1 = N_to_DP_mutate(choice(get_matches_of(V1, "arg_1", self.safe_nouns)), very_common_det=True)
             RC1, NP_RC1, _, _ = self.subject_relative_clause(NP1)
             V1 = conjugate(V1, NP1)
 
             # 1_1
-            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2, rc=RC_emb.format(n=NP_RC2_refl))]))
-            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2, rc=RC_emb.format(n=NP_RC2[0]))]))
+            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2[0], rc=RC_emb.format(n=NP_RC2_refl))]))
+            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2[0], rc=RC_emb.format(n=NP_RC2[0]))]))
             templates.append(template + f",option={option},1_1")
 
             # 0_0
-            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2, rc=RC_emb.format(n=NP2_refl))]))
-            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2, rc=RC_emb.format(n=NP2[0]))]))
+            data_transform.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2[0], rc=RC_emb.format(n=NP2_refl))]))
+            data_base.append(" ".join([NP1[0], RC1.format(n=NP_RC1[0]), V1[0], NP2[0], RC2.format(n=NP_RC2[0], rc=RC_emb.format(n=NP2[0]))]))
             templates.append(template + f",option={option},0_0")
             
         return data_transform, data_base, track_sentence, templates
@@ -880,12 +884,12 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
         try:
             data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], "that", NP3[0], V3[0], NP3_refl]))
             data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], "that", NP3[0], V3[0], NP3[0]]))
-            templates.append(template + f"option={option},1_1")
+            templates.append(template + f",option={option},1_1")
 
             # 0_0
             data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], "that", NP3[0], V3[0], refl]))
             data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], "that", NP3[0], V3[0], binder]))
-            templates.append(template + f"option={option},0_0")
+            templates.append(template + f",option={option},0_0")
 
         except Exception:
             pass
@@ -919,11 +923,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 # 1_1
                 data_transform.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP2_refl, V_mat[0], NP3[0]]))
                 data_base.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP2[0], V_mat[0], NP3[0]]))
-                templates.append(template + f"option={option},1_1")
+                templates.append(template + f",option={option},1_1")
                 # 0_0
                 data_transform.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP1_refl, V_mat[0], NP3[0]]))
                 data_base.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP1[0], V_mat[0], NP3[0]]))
-                templates.append(template + f"option={option},0_0")
+                templates.append(template + f",option={option},0_0")
 
             else:
                 # The child helped the boy that said that the girl hurt  herself/*himself
@@ -944,11 +948,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 # 1_1
                 data_transform.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", V_CP[0], "that", NP3[0], V_emb[0], NP3_refl]))
                 data_base.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", V_CP[0], "that", NP3[0], V_emb[0], NP3[0]]))
-                templates.append(template + f"option={option},1_1")
+                templates.append(template + f",option={option},1_1")
                 # 0_0
                 data_transform.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", V_CP[0], "that", NP3[0], V_emb[0], NP2_refl]))
                 data_base.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", V_CP[0], "that", NP3[0], V_emb[0], NP2[0]]))
-                templates.append(template + f"option={option},0_0")
+                templates.append(template + f",option={option},0_0")
 
 
         else:  # Not ambiguous
@@ -972,11 +976,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 # 1_0
                 data_transform.append(" ".join([NP1[0], "that", NP2[0], V_CP[0], V_emb[0], NP1_refl, V_mat[0], NP3[0]]))
                 data_base.append(" ".join([NP1[0], "that", NP2[0], V_CP[0], V_emb[0], NP1[0], V_mat[0], NP3[0]]))
-                templates.append(template + f"option={option},1_0")
+                templates.append(template + f",option={option},1_0")
                 # 0_1
                 data_transform.append(" ".join([NP1[0], "that", NP2[0], V_CP[0], V_emb[0], NP2_refl, V_mat[0], NP3[0]]))
                 data_base.append(" ".join([NP1[0], "that", NP2[0], V_CP[0], V_emb[0], NP2[0], V_mat[0], NP3[0]]))
-                templates.append(template + f"option={option},0_1")
+                templates.append(template + f",option={option},0_1")
 
             elif option == 1:
                 # The girl that said that the child helped the boy hurt  herself/*himself
@@ -997,11 +1001,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 # 1_0
                 data_transform.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP3[0], V_mat[0], NP1_refl]))
                 data_base.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP3[0], V_mat[0], NP1[0]]))
-                templates.append(template + f"option={option},1_0")
+                templates.append(template + f",option={option},1_0")
                 # 0_1
                 data_transform.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP3[0], V_mat[0], NP3_refl]))
                 data_base.append(" ".join([NP1[0], "that", V_CP[0], "that", NP2[0], V_emb[0], NP3[0], V_mat[0], NP3[0]]))
-                templates.append(template + f"option={option},0_1")
+                templates.append(template + f",option={option},0_1")
 
             else:
                 # The child helped the girl that the boy said hurt  herself/*himself
@@ -1022,11 +1026,11 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 # 1_0
                 data_transform.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", NP3[0], V_CP[0], V_emb[0], NP2_refl]))
                 data_base.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", NP3[0], V_CP[0], V_emb[0], NP2[0]]))
-                templates.append(template + f"option={option},1_0")
+                templates.append(template + f",option={option},1_0")
                 # 0_1
                 data_transform.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", NP3[0], V_CP[0], V_emb[0], NP3_refl]))
                 data_base.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", NP3[0], V_CP[0], V_emb[0], NP3[0]]))
-                templates.append(template + f"option={option},0_1")
+                templates.append(template + f",option={option},0_1")
 
 
         return data_transform, data_base, track_sentence, templates

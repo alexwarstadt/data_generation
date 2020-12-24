@@ -1,4 +1,5 @@
 import os
+import argparse
 
 top = """#!/bin/bash
 # Generic job script for all experiments.
@@ -58,13 +59,23 @@ scripts = [
 ]
 
 
-project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
-for s in scripts:
-    output_dir = os.path.join(project_root, "slurm", "struc_dep_language")
-    os.makedirs(output_dir, exist_ok=True)
-    output_file = open(os.path.join(output_dir, f"{s[0]}_{s[1]}_{s[2]}.sbatch"), "w")
-    output_file.write(top.format(script=s[0],
-                                 number=5000,
-                                 output=f"outputs/structure/",
-                                 template=s[1],
-                                 ambiguous=s[2]))
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Create sbatch scripts for generating datasets.")
+    parser.add_argument("--phenomenon", "-p", type=str, default=None, help="What major phenomenon/experiment is the data from")
+    parser.add_argument("--template", "-t", type=str, default=None, help="What specific template is the data from")
+    parser.add_argument("--number", "-n", type=int, default=5000, help="How many pairs to generate for each template")
+    project_root = "/".join(os.path.join(os.path.dirname(os.path.abspath(__file__))).split("/")[:-1])
+    args = parser.parse_args()
+    if args.phenomenon is not None:
+        scripts = [s for s in scripts if s[0] == args.phenomenon]
+    if args.template is not None:
+        scripts = [s for s in scripts if s[1] == args.template]
+    for s in scripts:
+        output_dir = os.path.join(project_root, "slurm", "struc_dep_language")
+        os.makedirs(output_dir, exist_ok=True)
+        output_file = open(os.path.join(output_dir, f"{s[0]}_{s[1]}_{s[2]}.sbatch"), "w")
+        output_file.write(top.format(script=s[0],
+                                     number=args.number,
+                                     output=f"outputs/structure/",
+                                     template=s[1],
+                                     ambiguous=s[2]))
