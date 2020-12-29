@@ -3,6 +3,7 @@ import os
 import numpy as np
 import jsonlines
 from itertools import chain, combinations
+import random
 
 def powerset(iterable):
     "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
@@ -29,12 +30,21 @@ def sample_split(train_data, test_data, n_total, train_only=False, separate_temp
         else:  # both train & test
             pass  # TODO
 
-def sample_all_subsets(train_data, n_total):
-    ambiguous_templates = [template for template in train_data if template["ambiguous"]]
-    all_combos = powerset(ambiguous_templates)
+def sample_all_subsets(train_data, n_total, max_per_size=None, reverse=False):
+    usable_templates = [template for template in train_data if template["ambiguous"]] if not reverse \
+        else [template for template in train_data if not template["ambiguous"]]
+    all_combos = list(powerset(usable_templates))
     training_sets = []
     templates = []
+    tracker = {}
+    random.shuffle(all_combos)
     for combo in all_combos:
+        if max_per_size is not None:
+            if len(combo) not in tracker:
+                tracker[len(combo)] = 0
+            tracker[len(combo)] += 1
+            if tracker[len(combo)] > max_per_size:
+                continue
         lengths = [2 * len(x) for x in np.array_split(range(n_total // 2), len(combo))]
         curr_training_set = []
         train_templates = "-".join([t["template"] for t in combo])
@@ -57,8 +67,10 @@ if __name__ == "__main__":
     parser.add_argument("--directory", type=str, help="Path to directory containing template-only files.")
     parser.add_argument("--n_total", type=int, default=10000, help="Number of examples per dataset.")
     parser.add_argument("--n_templates", type=int, default=3, help="Number of templates to sample training data from.")
+    parser.add_argument("--max_per_size", type=int, default=10000, help="In combination with all_subsets, use to set a maximum number of combinations for a given number of templates.")
     parser.add_argument("--test_only", default=False, action="store_true", help="Generate only a test set.")
     parser.add_argument("--all_subsets", default=False, action="store_true", help="Generate all possible training sets.")
+    parser.add_argument("--reverse", default=False, action="store_true", help="Swap the in-domain and out-of-domain conditions.")
     parser.add_argument("--separate_templates", default=False, action="store_true", help="Avoid using ambiguous/unambiguous data from same template.")
     args = parser.parse_args()
     train_data = []
@@ -79,9 +91,10 @@ if __name__ == "__main__":
         output = open(os.path.join(args.directory, "test.jsonl"), "w")
         jsonlines.Writer(output).write_all(test_sample)
     elif args.all_subsets:
-        training_sets, templates = sample_all_subsets(train_data, n_total=args.n_total)
+        training_sets, templates = sample_all_subsets(train_data, n_total=args.n_total, max_per_size=args.max_per_size, reverse=args.reverse)
         for training_set, templates in zip(training_sets, templates):
-            output = open(os.path.join(args.directory, "sampled_training_sets", templates + ".jsonl"), "w")
+            sample_dir = "sampled_training_sets_reverse" if args.reverse else "sampled_training_sets"
+            output = open(os.path.join(args.directory, sample_dir, templates + ".jsonl"), "w")
             jsonlines.Writer(output).write_all(training_set)
 
     else:
