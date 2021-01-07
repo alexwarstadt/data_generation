@@ -1017,7 +1017,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 NP2 = N_to_DP_mutate(NP2, very_common_det=True)
                 V_emb = conjugate(V_emb, NP2)
                 V_mat = choice(get_matched_by(NP2, "arg_2", get_all_transitive_verbs()))
-                NP1 = N_to_DP_mutate(get_matches_of(V_mat, "arg_1", get_all_nouns()), very_common_det=True)
+                NP1 = N_to_DP_mutate(choice(get_matches_of(V_mat, "arg_1", get_all_nouns())), very_common_det=True)
                 V_mat = conjugate(V_mat, NP1)
                 # 1_0
                 data_transform.append(" ".join([NP1[0], V_mat[0], NP2[0], "that", NP3[0], V_CP[0], V_emb[0], NP2_refl]))
