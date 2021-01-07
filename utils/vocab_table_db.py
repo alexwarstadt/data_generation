@@ -2,6 +2,7 @@ import numpy as np
 import csv
 import sqlite3
 from os import path
+from utils.data_type import data_type
 
 basepath = path.dirname(__file__)
 db_filepath = path.abspath(path.join(basepath, '..', 'lexicon.db'))
@@ -26,6 +27,15 @@ def get_all(label, value):
     rows = cursor.execute(query, (value,))
     return np.array([row for row in rows])
 
+def get_all(label, value):
+    """
+    :param label: string. field name.
+    :param value: string. label.
+    :return: table restricted to all entries with "value" in field "label"
+    """
+    query = "SELECT * FROM vocabulary WHERE " + label + " = ?;"
+    rows = cursor.execute(query, (value,))
+    return np.array([row for row in rows], dtype=data_type)
 
 def get_all_conjunctive(labels_values):
     """
@@ -123,7 +133,7 @@ def get_matched_by(row, label, table):
     """
     :param row: ndarray row. selected vocab item.
     :param label: string. field containing selectional restrictions.
-    :param table: ndarray of vocab items.
+    :param table: list of tuples specifying a vocabulary table to be drawn from db
     :return: all entries in table whose selectional restrictions in label are matched by row.
     """
     subset = get_all_conjunctive(table)

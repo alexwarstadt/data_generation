@@ -77,6 +77,7 @@ all_ACCpronouns = [("category_2", "proACC")]
 all_NOMpronouns = [("category_2", "proNOM")]
 all_embedding_verbs = [("category_2", "V_embedding")]
 all_wh_words = [("category", "NP_wh")]
+# TODO try to find a fix
 all_demonstratives = [("quantifier", "0"), ("restrictor_DE", "")]
 all_adjectives = (("category_2", "adjective"), ("category_2", "Adj"))
 all_frequent = [("frequent", "1")]
