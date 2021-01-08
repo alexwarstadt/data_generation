@@ -17,6 +17,12 @@ with open(vocab_filepath, 'r') as file:
 attribute_lookup = dict([(j, i) for i, j in enumerate(headers)])
 
 
+def get_table():
+    query = "SELECT * FROM vocabulary"
+    rows = cursor.execute(query)
+    return np.array([row for row in rows])
+
+
 def get_all(label, value):
     """
     :param label: string. field name.
@@ -27,15 +33,6 @@ def get_all(label, value):
     rows = cursor.execute(query, (value,))
     return np.array([row for row in rows])
 
-def get_all(label, value):
-    """
-    :param label: string. field name.
-    :param value: string. label.
-    :return: table restricted to all entries with "value" in field "label"
-    """
-    query = "SELECT * FROM vocabulary WHERE " + label + " = ?;"
-    rows = cursor.execute(query, (value,))
-    return np.array([row for row in rows], dtype=data_type)
 
 def get_all_conjunctive(labels_values):
     """
