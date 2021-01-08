@@ -64,11 +64,73 @@ def return_copula(subj, allow_negated=True, require_negated=False):
     :return: copula that agrees with the subject
     """
     if allow_negated:
-        subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", vocab.all_finite_copulas)
+        all_finite_copulas = db.get_all_except(vocab.all_finite_copulas)
+        subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", all_finite_copulas, subtable=True)
     else:
-        subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", vocab.all_non_negative_copulas)
+        all_non_negative_copulas = db.get_all_except(vocab.all_non_negative_copulas)
+        subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", all_non_negative_copulas, subtable=True)
     if require_negated:
-        subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", vocab.all_negative_copulas)
+        all_negative_copulas = db.get_all_except(vocab.all_negative_copulas)
+        subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", all_negative_copulas, subtable=True)
     aux = choice(subj_agree_auxiliaries)
     return aux
 
+
+def require_aux_agree(verb, subj, allow_negated=True):
+    """
+    :param verb: vocab entry
+    :param subj: vocab entry
+    :param allow_negated: are negated auxiliaries (e.g. shouldn't) allowed
+    :return: auxiliary that agrees with verb
+    """
+    if verb["finite"] == "1":
+        aux_agree = choice(get_all("expression", "", all_modals_auxs))
+        aux_nonagree = choice(get_all("expression", "", all_modals_auxs))
+    else:
+        if allow_negated:
+            if choice([True, False]):
+                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux)
+                subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
+            else:
+                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_agreeing_aux)
+                subj_nonagree_auxiliaries = np.setdiff1d(all_negative_agreeing_aux, subj_agree_auxiliaries)
+        else:
+            subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux)
+            subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
+
+        verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
+        verb_nonagree_auxiliaries = get_matched_by(verb, "arg_2", subj_nonagree_auxiliaries)
+
+        aux_agree = choice(verb_agree_auxiliaries)
+        aux_nonagree = choice(verb_nonagree_auxiliaries)
+    return {'aux_agree':aux_agree[0], 'aux_nonagree':aux_nonagree[0]}
+
+
+def get_mismatch_verb(verb):
+    """
+    :param verb: a present tense verb vocab entry
+    :return: the verb with opposite agreement
+    """
+    if verb["pres"] == "1":
+        verb_root = get_all("root", verb["root"])
+        if verb["3sg"] == "1":
+            return choice(get_all("pres", "1", get_all("3sg", "0", verb_root)))
+        else:
+            return choice(get_all("pres", "1", get_all("3sg", "1", verb_root)))
+    else:
+        raise ValueError("Verb should be present tense.")
+
+
+def get_same_aux_verbs(verb):
+    """
+    :param verb: a verb vocab entry
+    :return: the set of all verbs with the same auxiliary agreement properties
+    """
+    if verb["finite"] == "1":
+        return all_finite_verbs
+    elif verb["bare"] == "1":
+        return all_bare_verbs
+    elif verb["en"] == "1":
+        return all_en_verbs
+    elif verb["ing"] == "1":
+        return all_ing_verbs
