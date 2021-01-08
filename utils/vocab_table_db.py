@@ -126,19 +126,24 @@ def get_matches_of(row, label, table=""):
         return np.array(matches)
 
 
-def get_matched_by(row, label, table):
+def get_matched_by(row, label, table, subtable=False):
     """
     :param row: ndarray row. selected vocab item.
     :param label: string. field containing selectional restrictions.
-    :param table: list of tuples specifying a vocabulary table to be drawn from db
+    :param table: either a list of tuples specifying a vocabulary table to be drawn from db or a list of vocabulary
+        items
     :return: all entries in table whose selectional restrictions in label are matched by row.
     """
-    subset = get_all_conjunctive(table)
+    if subtable:
+        subset = table
+    else:
+        subset = get_all_conjunctive(table)
 
     matches = []
 
     for entry in subset:
-        value = row[attribute_lookup[label]]
+        lookup = attribute_lookup[label]
+        value = entry[lookup]
 
         if is_match_disj(row, value):
             matches.append(entry)
@@ -184,7 +189,8 @@ def is_match_conj(row, conjunction):
     match = True
     for k, v in conjuncts:
         try:
-            match = match and row[k] == v
+            lookup = attribute_lookup[k]
+            match = match and row[lookup] == v
         except TypeError:
             pass
 
