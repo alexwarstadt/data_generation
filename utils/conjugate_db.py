@@ -54,3 +54,21 @@ def return_aux(verb, subj, allow_negated=True, require_negated=False, allow_moda
     aux = choice(db.get_matched_by(verb, "arg_2", subj_auxs, subtable=True))
 
     return aux
+
+
+def return_copula(subj, allow_negated=True, require_negated=False):
+    """
+    :param subj: vocab entry
+    :param allow_negated: should negated auxiliaries (e.g. shouldn't) ever be generated?
+    :param require_negated: should negated auxiliaries always be generated?
+    :return: copula that agrees with the subject
+    """
+    if allow_negated:
+        subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", vocab.all_finite_copulas)
+    else:
+        subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", vocab.all_non_negative_copulas)
+    if require_negated:
+        subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", vocab.all_negative_copulas)
+    aux = choice(subj_agree_auxiliaries)
+    return aux
+
