@@ -63,7 +63,7 @@ all_non_negative_agreeing_aux = (all_auxs + [("negated", "0")], [("arg_1", "sg=1
 all_negative_agreeing_aux = (all_auxs + [("negated", "1")], [("arg_1", "sg=1;sg=0")]) # get_all_except
 all_auxiliaries_no_null = (all_auxs, [("expression", "")]) # get_all_except
 all_non_negative_copulas = (all_copulas + [("negated", "0")], [("bare", "1")]) # get_all_except
-all_negative_copulas = (all_copulas + [("negated", "1")], [("bare", "1")])
+all_negative_copulas = (all_copulas + [("negated", "1")], [("bare", "1")]) # get_all_except
 
 # OTHER
 all_determiners = [("category", "(S/(S\\NP))/N")]
