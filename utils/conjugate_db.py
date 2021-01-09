@@ -1,6 +1,6 @@
 import utils.vocab_sets_db as vocab
 import utils.vocab_table_db as db
-
+from utils.vocab_table_db import attribute_lookup
 from random import choice
 
 
@@ -84,8 +84,8 @@ def require_aux_agree(verb, subj, allow_negated=True):
     :return: auxiliary that agrees with verb
     """
     if verb["finite"] == "1":
-        aux_agree = choice(get_all("expression", "", all_modals_auxs))
-        aux_nonagree = choice(get_all("expression", "", all_modals_auxs))
+        aux_agree = choice(db.get_all("expression", "", vocab.all_modals_auxs))
+        aux_nonagree = choice(db.get_all("expression", "", vocab.all_modals_auxs))
     else:
         if allow_negated:
             if choice([True, False]):
@@ -111,12 +111,11 @@ def get_mismatch_verb(verb):
     :param verb: a present tense verb vocab entry
     :return: the verb with opposite agreement
     """
-    if verb["pres"] == "1":
-        verb_root = db.get_all("root", verb["root"])
-        if verb["3sg"] == "1":
-            return choice(db.get_all_conjunctive([("pres", "1"), ("sg3", "0"), ("root", verb["root"])]))
+    if verb[attribute_lookup["pres"]] == "1":    # TODO fix this so that you can look up things by: verb["pres"] == 1
+        if verb[attribute_lookup["sg3"]] == "1":
+            return db.get_all_conjunctive([("pres", "1"), ("sg3", "0"), ("root", verb[attribute_lookup["root"]])])[0]
         else:
-            return choice(db.get_all_conjunctive([("pres", "1"), ("sg3", "1"), ("root", verb["root"])]))
+            return db.get_all_conjunctive([("pres", "1"), ("sg3", "1"), ("root", verb[attribute_lookup["root"]])])[0]
     else:
         raise ValueError("Verb should be present tense.")
 
