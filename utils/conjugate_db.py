@@ -112,11 +112,11 @@ def get_mismatch_verb(verb):
     :return: the verb with opposite agreement
     """
     if verb["pres"] == "1":
-        verb_root = get_all("root", verb["root"])
+        verb_root = db.get_all("root", verb["root"])
         if verb["3sg"] == "1":
-            return choice(get_all("pres", "1", get_all("3sg", "0", verb_root)))
+            return choice(db.get_all_conjunctive([("pres", "1"), ("sg3", "0"), ("root", verb["root"])]))
         else:
-            return choice(get_all("pres", "1", get_all("3sg", "1", verb_root)))
+            return choice(db.get_all_conjunctive([("pres", "1"), ("sg3", "1"), ("root", verb["root"])]))
     else:
         raise ValueError("Verb should be present tense.")
 
@@ -127,10 +127,10 @@ def get_same_aux_verbs(verb):
     :return: the set of all verbs with the same auxiliary agreement properties
     """
     if verb["finite"] == "1":
-        return all_finite_verbs
+        return db.get_all_conjunctive(vocab.all_finite_verbs)
     elif verb["bare"] == "1":
-        return all_bare_verbs
+        return db.get_all_conjunctive(vocab.all_bare_verbs)
     elif verb["en"] == "1":
-        return all_en_verbs
+        return db.get_all_conjunctive(vocab.all_en_verbs)
     elif verb["ing"] == "1":
-        return all_ing_verbs
+        return db.get_all_conjunctive(vocab.all_ing_verbs)
