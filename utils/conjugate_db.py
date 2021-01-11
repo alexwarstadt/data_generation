@@ -1,3 +1,4 @@
+import numpy as np
 import utils.vocab_sets_db as vocab
 import utils.vocab_table_db as db
 from utils.vocab_table_db import attribute_lookup
@@ -83,23 +84,31 @@ def require_aux_agree(verb, subj, allow_negated=True):
     :param allow_negated: are negated auxiliaries (e.g. shouldn't) allowed
     :return: auxiliary that agrees with verb
     """
-    if verb["finite"] == "1":
-        aux_agree = choice(db.get_all("expression", "", vocab.all_modals_auxs))
-        aux_nonagree = choice(db.get_all("expression", "", vocab.all_modals_auxs))
+    if verb[attribute_lookup["finite"]] == "1":
+        aux_agree = choice(db.get_all_conjunctive([("expression", "")] + vocab.all_modals_auxs))
+        aux_nonagree = choice(db.get_all_conjunctive([("expression", "")] + vocab.all_modals_auxs))
     else:
         if allow_negated:
             if choice([True, False]):
-                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux)
-                subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
+                all_non_negative_agreeing_aux = db.get_all_except(vocab.all_non_negative_agreeing_aux)
+                subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux, subtable=True)
+                # TODO Change return values from DB to be tuples instead of lists so we don't need this line.
+                subj_agree_auxiliaries = [tuple(vocab_item) for vocab_item in subj_agree_auxiliaries]
+                all_non_negative_agreeing_aux = [tuple(vocab_item) for vocab_item in all_non_negative_agreeing_aux]
+                subj_nonagree_auxiliaries = set(all_non_negative_agreeing_aux) - set(subj_agree_auxiliaries)
             else:
-                subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_negative_agreeing_aux)
-                subj_nonagree_auxiliaries = np.setdiff1d(all_negative_agreeing_aux, subj_agree_auxiliaries)
+                all_negative_agreeing_aux = db.get_all_except(vocab.all_negative_agreeing_aux)
+                subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", all_negative_agreeing_aux, subtable=True)
+                subj_agree_auxiliaries = [tuple(vocab_item) for vocab_item in subj_agree_auxiliaries]
+                all_negative_agreeing_aux = [tuple(vocab_item) for vocab_item in all_negative_agreeing_aux]
+                subj_nonagree_auxiliaries = set(all_negative_agreeing_aux) - set(subj_agree_auxiliaries)
         else:
-            subj_agree_auxiliaries = get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux)
+            all_non_negative_agreeing_aux = db.get_all_conjunctive(vocab.all_non_negative_agreeing_aux)
+            subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux, subtable=True)
             subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
 
-        verb_agree_auxiliaries = get_matched_by(verb, "arg_2", subj_agree_auxiliaries)
-        verb_nonagree_auxiliaries = get_matched_by(verb, "arg_2", subj_nonagree_auxiliaries)
+        verb_agree_auxiliaries = db.get_matched_by(verb, "arg_2", subj_agree_auxiliaries, subtable=True)
+        verb_nonagree_auxiliaries = db.get_matched_by(verb, "arg_2", subj_nonagree_auxiliaries, subtable=True)
 
         aux_agree = choice(verb_agree_auxiliaries)
         aux_nonagree = choice(verb_nonagree_auxiliaries)
