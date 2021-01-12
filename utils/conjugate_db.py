@@ -1,7 +1,6 @@
 import numpy as np
 import utils.vocab_sets_db as vocab
 import utils.vocab_table_db as db
-from utils.vocab_table_db import attribute_lookup
 from random import choice
 
 
@@ -84,7 +83,7 @@ def require_aux_agree(verb, subj, allow_negated=True):
     :param allow_negated: are negated auxiliaries (e.g. shouldn't) allowed
     :return: auxiliary that agrees with verb
     """
-    if verb[attribute_lookup["finite"]] == "1":
+    if verb["finite"] == "1":
         aux_agree = choice(db.get_all_conjunctive([("expression", "")] + vocab.all_modals_auxs))
         aux_nonagree = choice(db.get_all_conjunctive([("expression", "")] + vocab.all_modals_auxs))
     else:
@@ -92,16 +91,12 @@ def require_aux_agree(verb, subj, allow_negated=True):
             if choice([True, False]):
                 all_non_negative_agreeing_aux = db.get_all_except(vocab.all_non_negative_agreeing_aux)
                 subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux, subtable=True)
-                # TODO Change return values from DB to be tuples instead of lists so we don't need this line.
-                subj_agree_auxiliaries = [tuple(vocab_item) for vocab_item in subj_agree_auxiliaries]
-                all_non_negative_agreeing_aux = [tuple(vocab_item) for vocab_item in all_non_negative_agreeing_aux]
-                subj_nonagree_auxiliaries = set(all_non_negative_agreeing_aux) - set(subj_agree_auxiliaries)
+                subj_nonagree_auxiliaries = np.setdiff1d(all_non_negative_agreeing_aux, subj_agree_auxiliaries)
             else:
                 all_negative_agreeing_aux = db.get_all_except(vocab.all_negative_agreeing_aux)
                 subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", all_negative_agreeing_aux, subtable=True)
-                subj_agree_auxiliaries = [tuple(vocab_item) for vocab_item in subj_agree_auxiliaries]
-                all_negative_agreeing_aux = [tuple(vocab_item) for vocab_item in all_negative_agreeing_aux]
-                subj_nonagree_auxiliaries = set(all_negative_agreeing_aux) - set(subj_agree_auxiliaries)
+                subj_nonagree_auxiliaries = np.setdiff1d(all_negative_agreeing_aux, subj_agree_auxiliaries)
+
         else:
             all_non_negative_agreeing_aux = db.get_all_conjunctive(vocab.all_non_negative_agreeing_aux)
             subj_agree_auxiliaries = db.get_matched_by(subj, "arg_1", all_non_negative_agreeing_aux, subtable=True)
@@ -120,11 +115,11 @@ def get_mismatch_verb(verb):
     :param verb: a present tense verb vocab entry
     :return: the verb with opposite agreement
     """
-    if verb[attribute_lookup["pres"]] == "1":    # TODO fix this so that you can look up things by: verb["pres"] == 1
-        if verb[attribute_lookup["sg3"]] == "1":
-            return db.get_all_conjunctive([("pres", "1"), ("sg3", "0"), ("root", verb[attribute_lookup["root"]])])[0]
+    if verb["pres"] == "1":
+        if verb["sg3"] == "1":
+            return db.get_all_conjunctive([("pres", "1"), ("sg3", "0"), ("root", verb["root"])])[0]
         else:
-            return db.get_all_conjunctive([("pres", "1"), ("sg3", "1"), ("root", verb[attribute_lookup["root"]])])[0]
+            return db.get_all_conjunctive([("pres", "1"), ("sg3", "1"), ("root", verb["root"])])[0]
     else:
         raise ValueError("Verb should be present tense.")
 
