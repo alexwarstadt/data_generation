@@ -20,7 +20,7 @@ attribute_lookup = dict([(j, i) for i, j in enumerate(headers)])
 def get_table():
     query = "SELECT * FROM vocabulary"
     rows = cursor.execute(query)
-    return np.array([row for row in rows])
+    return np.array([row for row in rows], dtype=data_type)
 
 
 def get_all(label, value):
@@ -31,7 +31,7 @@ def get_all(label, value):
     """
     query = "SELECT * FROM vocabulary WHERE " + label + " = ?;"
     rows = cursor.execute(query, (value,))
-    return np.array([row for row in rows])
+    return np.array([row for row in rows], dtype=data_type)
 
 
 def get_all_conjunctive(labels_values):
@@ -43,7 +43,7 @@ def get_all_conjunctive(labels_values):
     values = [pair[1] for pair in labels_values]
     query = "SELECT * FROM vocabulary WHERE " + select_substr
     rows = cursor.execute(query, values)
-    return np.array([row for row in rows])
+    return np.array([row for row in rows], dtype=data_type)
 
 
 def get_union(label_value_disjunct):
@@ -54,7 +54,7 @@ def get_union(label_value_disjunct):
     (l1, v1), (l2, v2) = label_value_disjunct
     query = "SELECT * FROM vocabulary WHERE {} = ? or {} = ?".format(l1, l2)
     rows = cursor.execute(query, [v1, v2])
-    return np.array([row for row in rows])
+    return np.array([row for row in rows], dtype=data_type)
 
 
 def get_union_conjunctive(labels_values1, labels_values2):
@@ -78,7 +78,7 @@ def get_all_except(packed_values):
     values = [pair[1] for pair in labels_values] + [pair[1] for pair in neg_labels_values]
     query = "SELECT * FROM vocabulary WHERE " + select_substr + exclude_substr
     rows = cursor.execute(query, values)
-    return np.array([row for row in rows])
+    return np.array([row for row in rows], dtype=data_type)
 
 
 def get_all_unlike(packed_values):
@@ -95,7 +95,7 @@ def get_all_unlike(packed_values):
     values = [pair[1] for pair in labels_values] + ["%" + pair[1] + "%" for pair in neg_labels_values]
     query = "SELECT * FROM vocabulary WHERE " + select_substr + exclude_substr
     rows = cursor.execute(query, values)
-    return np.array([row for row in rows])
+    return np.array([row for row in rows], dtype=data_type)
 
 
 def get_matches_of(row, label, table=""):
@@ -105,7 +105,7 @@ def get_matches_of(row, label, table=""):
     :param table: vocab_set_db object. a list of tuples providing labels and values
     :return: all entries in table that match the selectional restrictions of row as given in label.
     """
-    value = row[attribute_lookup[label]]
+    value = row[label]
 
     if value is None:
         pass
@@ -123,10 +123,10 @@ def get_matches_of(row, label, table=""):
             results = get_all_conjunctive(conjuncts)
             matches.extend(results)
 
-        return np.array(matches)
+        return np.array(matches, dtype=data_type)
 
 
-def get_matched_by(row, label, table, subtable=False):
+def get_matched_by(row, label, table=None, subtable=False):
     """
     :param row: ndarray row. selected vocab item.
     :param label: string. field containing selectional restrictions.
@@ -136,19 +136,20 @@ def get_matched_by(row, label, table, subtable=False):
     """
     if subtable:
         subset = table
+    elif table is None:
+        subset = get_table()
     else:
         subset = get_all_conjunctive(table)
 
     matches = []
 
     for entry in subset:
-        lookup = attribute_lookup[label]
-        value = entry[lookup]
+        value = str(np.array(entry, dtype=data_type)[label])
 
         if is_match_disj(row, value):
             matches.append(entry)
 
-    return np.array(matches)
+    return np.array(matches, dtype=data_type)
 
 
 def conj_list(conjunction):
@@ -189,8 +190,7 @@ def is_match_conj(row, conjunction):
     match = True
     for k, v in conjuncts:
         try:
-            lookup = attribute_lookup[k]
-            match = match and row[lookup] == v
+            match = match and row[k] == v
         except TypeError:
             pass
 
