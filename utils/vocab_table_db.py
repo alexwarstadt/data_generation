@@ -111,18 +111,16 @@ def get_matches_of(row, label, table=None):
     :param table: vocab_set_db object. a list of tuples providing labels and values
     :return: all entries in table that match the selectional restrictions of row as given in label.
     """
-    if table is None:
-        table = get_table()
-
-    matches = []
-
-    for entry in table:
-        value = str(np.array(entry, dtype=data_type)[label])
-
-        if is_match_disj(row, value):
-            matches.append(entry)
-
-    return np.array(matches)
+    value = str(np.array(row, dtype=table.dtype)[label])
+    if value == "":
+        pass
+    else:
+        matches = []
+        values = str(value).split(";")
+        for disjunct in values:
+            k_vs = conj_list(disjunct)
+            matches.extend(list(get_all_conjunctive(k_vs, table)))
+        return np.array(matches, dtype=table.dtype)
 
 
 def get_matched_by(row, label, table=None, subtable=False):
