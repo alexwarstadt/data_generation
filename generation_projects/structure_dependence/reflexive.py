@@ -646,7 +646,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
                 NP2_refl = self.return_reflexive(NP2)
                 NP2 = N_to_DP_mutate(NP2)
                 V_emb = conjugate(choice(get_matched_by(NP1_emb, "arg_1", get_all_transitive_verbs())), NP1_emb)
-                NP2_emb = N_to_DP_mutate(choice(get_matched_by(V_emb, "arg_2", get_all_nouns()), avoid_add=avoid), very_common_det=True)
+                NP2_emb = N_to_DP_mutate(choice(get_matches_of(V_emb, "arg_2", get_all_nouns()), avoid_add=avoid), very_common_det=True)
                 RC, _, _, _ = self.subject_relative_clause(NP2, reflexive=True, coindexes=[NP2, NP1_emb], avoid=avoid)
 
                 # 1_1
