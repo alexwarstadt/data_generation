@@ -1,4 +1,4 @@
-from utils.conjugate import *
+from utils.conjugate_db import *
 from utils.string_utils import string_beautify
 from utils.exceptions import *
 import jsonlines

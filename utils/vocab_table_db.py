@@ -120,7 +120,7 @@ def get_matches_of(row, label, table=None):
         value = str(np.array(entry, dtype=data_type)[label])
 
         if is_match_disj(row, value):
-            matches.appen(entry)
+            matches.append(entry)
 
     return np.array(matches)
 
