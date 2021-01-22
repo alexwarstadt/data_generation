@@ -112,3 +112,4 @@ slurm/wh_questions_subject_gap_long_distance.sbatch
 slurm/wh_vs_that_no_gap_long_distance.sbatch
 slurm/wh_vs_that_with_gap_long_distance.sbatch
 outputs/*
+alex_test.py

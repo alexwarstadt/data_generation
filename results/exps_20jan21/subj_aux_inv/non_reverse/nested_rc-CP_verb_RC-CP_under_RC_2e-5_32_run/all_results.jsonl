@@ -1,0 +1,1 @@
+{"model": "roberta-base", "task_name": "subject_aux_inversion", "learning_rate": 2e-05, "#samples_per_id": 4, "overall_acc": 0.8131538461538461, "detail_accs": [0.9698461538461538, 0.6661538461538462, 0.9673846153846154, 0.6492307692307693], "pearson_corr": 0.650411345179567, "p_value": 0.0}

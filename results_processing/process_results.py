@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import matthews_corrcoef
 import numpy as np
 import math
+import pandas as pd
+import os
+import seaborn as sns
 
 def unify_jsonl_files(f_original, f_output):
     examples = []
@@ -16,10 +19,13 @@ def parse_template(examples):
     for e in examples:
         vals = e["template"].split(",")
         e["template1"] = vals[0]
-        # for v in vals:
-        #     if v == "0_0" or v == "0_1" or v == "1_0" or v == "1_1":
-        #         vals.remove(v)
         e["template2"] = ",".join(vals[1:])
+        assert(
+            "1_1" in vals and e["linguistic_feature_label"] == 1 and e["surface_feature_label"] == 1
+            or "1_0" in vals and e["linguistic_feature_label"] == 1 and e["surface_feature_label"] == 0
+            or "0_1" in vals and e["linguistic_feature_label"] == 0 and e["surface_feature_label"] == 1
+            or "0_0" in vals and e["linguistic_feature_label"] == 0 and e["surface_feature_label"] == 0
+        )
 
 def parse_condition(examples):
     for e in examples:
@@ -28,7 +34,10 @@ def parse_condition(examples):
 
 def get_accuracy(examples):
     n_total = len(examples)
-    n_correct = sum([int(e["prediction"] == e["linguistic_feature_label"]) for e in examples])
+    if type(examples) is pd.core.frame.DataFrame:
+        n_correct = sum(examples["prediction"] == examples["linguistic_feature_label"])
+    else:
+        n_correct = sum([int(e["prediction"] == e["linguistic_feature_label"]) for e in examples])
     return n_correct / n_total
 
 def get_pair_accuracy(examples):
@@ -53,8 +62,12 @@ def get_template_domain(examples, templates, template_key="template"):
 
 
 def get_matthews(examples):
-    preds = [e["prediction"] for e in examples]
-    labels = [e["linguistic_feature_label"] for e in examples]
+    if type(examples) is pd.core.frame.DataFrame:
+        preds = examples["prediction"]
+        labels = examples["linguistic_feature_label"]
+    else:
+        preds = [e["prediction"] for e in examples]
+        labels = [e["linguistic_feature_label"] for e in examples]
     return matthews_corrcoef(preds, labels)
 
 
@@ -187,23 +200,197 @@ def plot_all_subtemplates(examples):
         _ = ax.bar(xs, accuracies, width, color=colors)
         ax.set_xticks(xs)
         ax.set_xticklabels(all_template2[t], rotation=30, ha='right', fontsize=8)
-        ax.legend()
+        ax.legend(["1_1", "0_0", "1_0", "0_1"])
         ax.set_title(t)
         ax.set_ylim(-0, 1.05)
 
 
 
+def plot_all_subtemplates_1_plot(data):
+    data_1_1 = data[(data["linguistic_feature_label"] == 1) & (data["surface_feature_label"] == 1)]
+    data_0_0 = data[(data["linguistic_feature_label"] == 0) & (data["surface_feature_label"] == 0)]
+    data_1_0 = data[(data["linguistic_feature_label"] == 1) & (data["surface_feature_label"] == 0)]
+    data_0_1 = data[(data["linguistic_feature_label"] == 0) & (data["surface_feature_label"] == 1)]
+    data_by_condition = [data_1_1, data_0_0, data_1_0, data_0_1]
+    n_templates = [len(set(data["template1"])) for data in data_by_condition]
+    gs = {"width_ratios": [1], "height_ratios": n_templates}
+    fig, axs = plt.subplots(ncols=1, nrows=4, gridspec_kw=gs)
+
+
+    width = 0.7
+    for data, ax, condition in zip([data_1_1, data_0_0, data_1_0, data_0_1], axs.flatten(), ["1_1", "0_0", "1_0", "0_1"]):
+        all_template1 = set(data["template1"])
+
+        # accuracies = [get_accuracy([d for d in data if d["template2"] == t2]) for t2 in all_template2[t]]
+
+        accuracies = [get_accuracy(data[data["template1"] == t1]) for t1 in all_template1]
+        ys = np.arange(len(all_template1))
+        ax.barh(ys, accuracies, width)
+        ax.set_xlim(-0, 1.05)
+        # condition = (data["linguistic_feature_label"].iloc(0), data["surface_feature_label"].iloc(0))
+        ax.set_title(condition)
+        ax.set_yticks(ys)
+        ax.set_yticklabels(all_template1, ha='right', fontsize=8)
+    plt.tight_layout()
+    plt.subplots_adjust(hspace=0.2)
+
+
+
+def get_one_experiment_result(f_original, f_output):
+    examples = unify_jsonl_files(f_original, f_output)
+    parse_template(examples)
+    return pd.DataFrame(examples)
+
+
+def get_accuracies_df_by_template(data):
+    accuracies = []
+    all_template1 = set(data["template1"])
+    for linguistic_feature_label in [0, 1]:
+        for surface_feature_label in [0, 1]:
+            for template in all_template1:
+                this_data = data[
+                    (data["linguistic_feature_label"] == linguistic_feature_label)
+                    & (data["surface_feature_label"] == surface_feature_label)
+                    & (data["template1"] == template)
+                ]
+                if len(this_data) == 0:
+                    acc = None
+                else:
+                    acc = get_accuracy(this_data)
+                accuracies.append({
+                    "template": template,
+                    "linguistic_feature_label": linguistic_feature_label,
+                    "surface_feature_label": surface_feature_label,
+                    "condition": str(linguistic_feature_label) + "_" + str(surface_feature_label),
+                    "ambiguous": linguistic_feature_label == surface_feature_label,
+                    "accuracy": acc,
+
+                })
+    return pd.DataFrame(accuracies)
+
+def get_accuracies_df(data):
+    accuracies = []
+    for linguistic_feature_label in [0, 1]:
+        for surface_feature_label in [0, 1]:
+                this_data = data[
+                    (data["linguistic_feature_label"] == linguistic_feature_label)
+                    & (data["surface_feature_label"] == surface_feature_label)
+                ]
+                if len(this_data) == 0:
+                    acc = None
+                else:
+                    acc = get_accuracy(this_data)
+                accuracies.append({
+                    "linguistic_feature_label": linguistic_feature_label,
+                    "surface_feature_label": surface_feature_label,
+                    "condition": str(linguistic_feature_label) + "_" + str(surface_feature_label),
+                    "ambiguous": linguistic_feature_label == surface_feature_label,
+                    "accuracy": acc,
+
+                })
+    return pd.DataFrame(accuracies)
+
+
+def get_mccs_df_by_template(data):
+    mccs = []
+    all_template1 = set(data["template1"])
+    for domain in ["in", "out"]:
+        for template in all_template1:
+            this_data = data[
+                (data["domain"] == domain)
+                & (data["template1"] == template)
+                ]
+            if len(this_data) == 0:
+                mcc = None
+            else:
+                mcc = get_matthews(this_data)
+            mccs.append({
+                "template": template,
+                "ambiguous": domain == "in",
+                "mcc": mcc,
+
+            })
+    return pd.DataFrame(mccs)
+
+
+def get_mccs_df(data):
+    mccs = []
+    for domain in ["in", "out"]:
+        this_data = data[data["domain"] == domain]
+        if len(this_data) == 0:
+            mcc = None
+        else:
+            mcc = get_matthews(this_data)
+        mccs.append({
+            "ambiguous": domain == "in",
+            "mcc": mcc,
+        })
+    return pd.DataFrame(mccs)
 
 
 
 
-f_original = "../outputs/structure/subject_aux_inversion/test.jsonl"
-f_output = "../results/initial_exps_9dec20/subject_aux_inversion_all_outputs.jsonl"
-examples = unify_jsonl_files(f_original, f_output)
-parse_template(examples)
-# plot_accuracy_by_template(examples, title="Subject Aux Inversion")
-plot_all_subtemplates(examples)
-plt.show()
+def join_all_training_sets(function):
+    f_original = "../outputs/structure/main_verb/test.jsonl"
+    results_dir = "../results/exps_20jan21/main_verb/non_reverse/"
+    all_results = []
+    for training_set in os.listdir(results_dir):
+        if training_set.startswith("."):
+            continue
+        f_results = os.path.join(results_dir, training_set, "all_outputs.jsonl")
+        data = get_one_experiment_result(f_original, f_results)
+        results = function(data)
+        results["training"] = training_set
+        all_results.append(results)
+    all_results = pd.concat(all_results)
+    print(all_results.to_string())
+    return all_results
+
+
+def plot_all_mccs_bar():
+    all_mccs = join_all_training_sets(get_mccs_df)
+    unambiguous = all_mccs[~ all_mccs["ambiguous"]]
+    data = unambiguous.sort_values(by="mcc")
+    width = 0.7
+    ax = plt.gca()
+    ys = np.arange(len(data["mcc"]))
+    ax.barh(ys, data["mcc"], width)
+    ax.set_xlim(-1.05, 1.05)
+    # condition = (data["linguistic_feature_label"].iloc(0), data["surface_feature_label"].iloc(0))
+    ax.set_title("Main Verb")
+    ax.set_xlabel("LBS")
+    ax.set_ylabel("Training templates")
+    ax.set_yticks(ys)
+    labels = data["training"].apply(lambda x: " | ".join(x[:-12].split("-")))
+    ax.set_yticklabels(labels, ha='right', fontsize=8)
+    plt.show()
+
+
+
+# plot_all_mccs_bar()
+
+
+def plot_all_mccs_heatmap():
+    overall_mccs = join_all_training_sets(get_mccs_df)
+    template_mccs = join_all_training_sets(get_mccs_df_by_template)
+    overall_mccs["template"] = "overall"
+    data = pd.concat([overall_mccs, template_mccs])
+    data = data[~ data["ambiguous"]]
+    data = pd.pivot(data, index="training", columns="template", values="mcc")
+    labels = [" | ".join(x[:-12].split("-")) for x in data.index.values]
+    ax = sns.heatmap(data, annot=False, yticklabels=labels)
+    # ax.set_title("Main Verb")
+    # ax.set_xlabel("LBS")
+    # ax.set_ylabel("Training templates")
+    # ax.set_yticks(ys)
+    ax.set_yticklabels(labels, ha='right', fontsize=8)
+
+
+plot_all_mccs_heatmap()
+# print(pd.pivot_table(accuracies,
+#                      values=["accuracy"],
+#                      index=["template", 'ambiguous'],
+#                      columns=["condition"]).to_string())
 pass
 
 
