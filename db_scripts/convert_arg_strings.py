@@ -23,7 +23,7 @@ with open(vocab_filepath, 'r') as file:
     df["arg_1"] = df["arg_1"].apply(convert_disj)
     df["arg_2"] = df["arg_2"].apply(convert_disj)
     df["arg_3"] = df["arg_3"].apply(convert_disj)
-    df.to_csv(vocab_db_filepath, index=False)
+    df.to_csv(vocab_db_filepath, index_label="id")
     pass
     # reader = csv.reader(file)
     # headers = next(reader)

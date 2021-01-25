@@ -3,7 +3,8 @@
 # The first value is the name of the field (case sensitive!)
 # The second value is the encoding the data in that field. "U" is for unicode, the number marks the max number of characters.
 
-data_type = [("expression", "U100000"),
+data_type = [("id", "U10"),
+             ("expression", "U100000"),
              ("category", "U20"),
              ("category_2", "U20"),
              ("verb", "U1"),
@@ -92,3 +93,6 @@ data_type = [("expression", "U100000"),
              ("OOV_inductive_biases", "U1"),
             ]
 
+column_to_index = dict({(dtype[0], i) for i, dtype in enumerate(data_type)})
+index_to_column = dict({(i, dtype[0]) for i, dtype in enumerate(data_type)})
+EX = 1

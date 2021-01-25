@@ -12,6 +12,7 @@ from random import choice
 from utils.string_utils import remove_extra_whitespace
 from nltk.stem import WordNetLemmatizer
 from utils.exceptions import *
+from utils.data_type import EX
 
 lemmatizer = WordNetLemmatizer()
 
@@ -61,7 +62,7 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
         else:
             safe_verbs = np.intersect1d(all_ing_verbs, all_non_recursive_verbs)
             VP = V_to_VP_mutate(choice(get_matched_by(obj, "arg_1", safe_verbs)), frequent=frequent, aux=False)
-        VP[0] = "from " + VP[0]
+        VP[EX] = "from " + VP[EX]
         args["args"] = [obj, VP]
 
     # RAISING TO OBJECT
@@ -73,7 +74,7 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
             v_emb = choice(safe_verbs)
         args_emb = verb_args_from_verb(v_emb, frequent)
         VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
-        VP[0] = "to " + VP[0]
+        VP[EX] = "to " + VP[EX]
         args["args"] = [args_emb["subj"], VP]
 
     # OBJECT CONTROL
@@ -85,16 +86,16 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
             safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
             v_emb = choice(get_matched_by(obj, "arg_1", safe_verbs))
         VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
-        VP[0] = "to " + VP[0]
+        VP[EX] = "to " + VP[EX]
         args["args"] = [obj, VP]
 
     # CLAUSE EMBEDDING
     if verb["category"] == "(S\\NP)/S":
         emb_clause = make_sentence(frequent)
         if "that" in verb["arg_2"]:
-            emb_clause[0] = "that " + emb_clause[0]
+            emb_clause[EX] = "that " + emb_clause[EX]
         if "wh" in verb["arg_2"]:
-            emb_clause[0] = "whether " + emb_clause[0]
+            emb_clause[EX] = "whether " + emb_clause[EX]
         args["args"] = [emb_clause]
 
     # QUESTION EMBEDDING
@@ -110,7 +111,7 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
             safe_verbs = np.intersect1d(all_bare_verbs, all_non_recursive_verbs)
             v_emb = choice(get_matched_by(subj, "arg_1", safe_verbs))
         VP = V_to_VP_mutate(v_emb, frequent=frequent, aux=False)
-        VP[0] = "to " + VP[0]
+        VP[EX] = "to " + VP[EX]
         args["args"] = [VP]
 
     # RAISING TO SUBJECT
@@ -122,7 +123,7 @@ def verb_args_from_verb(verb, frequent=True, subj=None, aux=None, allow_negated=
             v_emb = choice(get_matched_by(subj, "arg_1", safe_verbs))
         args_emb = verb_args_from_verb(v_emb, frequent, subj=False)
         VP = V_to_VP_mutate(v_emb, frequent=frequent, args=args_emb, aux=False)
-        VP[0] = "to " + VP[0]
+        VP[EX] = "to " + VP[EX]
         args["args"] = [VP]
 
     return args
@@ -133,7 +134,7 @@ def join_args(args):
     :param args: a list of argument for a predicate/verb
     :return: the string made from joining the arguments with spaces
     """
-    return " ".join(x[0] for x in args)
+    return " ".join(x[EX] for x in args)
 
 
 def make_sentence_from_verb(verb, frequent=True, allow_recursion=False):
@@ -143,10 +144,10 @@ def make_sentence_from_verb(verb, frequent=True, allow_recursion=False):
     :return: the string for a sentence headed by the input verb.
     """
     args = verb_args_from_verb(verb, frequent=frequent, allow_recursion=False)
-    return " ".join([args["subj"][0],
-                     args["aux"][0],
-                     verb[0]] +
-                    [x[0] for x in args["args"]])
+    return " ".join([args["subj"][EX],
+                     args["aux"][EX],
+                     verb[EX]] +
+                    [x[EX] for x in args["args"]])
 
 
 def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=False):
@@ -161,10 +162,10 @@ def V_to_VP_mutate(verb, aux=True, frequent=True, args=None, allow_recursion=Fal
     if args is None:
         args = verb_args_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion)
     if aux:
-        phrases = [args["aux"][0], verb[0]] + [x[0] for x in args["args"]]
+        phrases = [args["aux"][EX], verb[EX]] + [x[EX] for x in args["args"]]
     else:
-        phrases = [verb[0]] + [x[0] for x in args["args"]]
-    VP[0] = " ".join(phrases)
+        phrases = [verb[EX]] + [x[EX] for x in args["args"]]
+    VP[EX] = " ".join(phrases)
     return VP
 
 
@@ -175,7 +176,7 @@ def make_sentence(frequent=True, allow_recursion=False):
     """
     all_verbs = db.get_all_conjunctive(vocab.all_verbs)
     verb = choice(all_verbs)
-    verb[0] = make_sentence_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion)
+    verb[EX] = make_sentence_from_verb(verb, frequent=frequent, allow_recursion=allow_recursion)
     return verb
 
 
@@ -184,10 +185,10 @@ def make_sentence_from_args(args):
     :param args: the argument dictionary for a verb
     :return: the string corresponding to the sentence containing the verb and all its arguments
     """
-    return " ".join([args["subj"][0],
-                     args["aux"][0],
-                     args["verb"][0]] +
-                    [x[0] for x in args["args"]])
+    return " ".join([args["subj"][EX],
+                     args["aux"][EX],
+                     args["verb"][EX]] +
+                    [x[EX] for x in args["args"]])
 
 
 def make_emb_subj_question(frequent=True):
@@ -199,7 +200,7 @@ def make_emb_subj_question(frequent=True):
     args = verb_args_from_verb(verb)
     wh = choice(db.get_matched_by(args["subj"], "arg_1", vocab.all_wh_words))
     args["subj"] = wh
-    verb[0] = make_sentence_from_args(args)
+    verb[EX] = make_sentence_from_args(args)
     return verb
 
 
@@ -221,7 +222,10 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
     if allow_quantifiers:
         all_determiners = db.get_all_conjunctive(vocab.all_determiners)
         sample_space_determiners = np.intersect1d(all_determiners, sample_space)
-        args["det"] = choice(db.get_matched_by(noun, "arg_1", sample_space_determiners, subtable=True))
+        try:
+            args["det"] = choice(db.get_matched_by(noun, "arg_1", sample_space_determiners, subtable=True))
+        except IndexError:
+            pass
     else:
         all_determiners = db.get_all_conjunctive(vocab.all_determiners)
         sample_space_determiners = np.intersect1d(all_determiners, sample_space)
@@ -251,7 +255,7 @@ def noun_args_from_noun(noun, frequent=True, allow_recursion=False, allow_quanti
         args["args"] = []
     if noun["category"] == "N/S":
         S = make_sentence(frequent=frequent, allow_recursion=allow_recursion)
-        S[0] = "that " + S[0]
+        S[EX] = "that " + S[EX]
         args["args"] = [S]
     return args
 
@@ -260,16 +264,21 @@ def N_to_DP_mutate(noun, frequent=True, determiner=True, allow_quantifiers=True,
     """
     :param noun: noun to turn into DP
     :param frequent: restrict to frequent determiners only?
-    :return: NONE. mutates string of noun.
+    :return: returns modified noun, and mutates string of original noun.
     """
     args = noun_args_from_noun(noun, frequent, allow_quantifiers=allow_quantifiers, avoid=avoid)
+    if "args" not in args:
+        pass
     if determiner and args["det"] is not []:
-        noun[0] = " ".join([args["det"][0],
-                            noun[0]] +
-                           [x[0] for x in args["args"]])
+        try:
+            noun[EX] = " ".join([args["det"][EX],
+                                noun[EX]] +
+                               [x[EX] for x in args["args"]])
+        except KeyError:
+            pass
     else:
-        noun[0] = " ".join([noun[0]] +
-                           [x[0] for x in args["args"]])
+        noun[EX] = " ".join([noun[EX]] +
+                           [x[EX] for x in args["args"]])
     return noun
 
 
@@ -278,7 +287,7 @@ def make_possessive(DP):
     :param DP: a vocab entry for a full DP (expression of type e)
     :return: the DP with expression containing the string with 's appended
     """
-    poss_str = "'" if DP["pl"] == "1" and DP[0][-1] == "s" else "'s"
-    DP[0] = DP[0] + poss_str
+    poss_str = "'" if DP["pl"] == "1" and DP[EX][-1] == "s" else "'s"
+    DP[EX] = DP[EX] + poss_str
     return DP
 

@@ -2,7 +2,7 @@ import numpy as np
 import csv
 import sqlite3
 from os import path
-from utils.data_type import data_type
+from utils.data_type import data_type, index_to_column, column_to_index
 
 basepath = path.dirname(__file__)
 db_filepath = path.abspath(path.join(basepath, '..', 'lexicon.db'))
@@ -104,23 +104,30 @@ def get_all_unlike(packed_values):
     return np.array([row for row in rows], dtype=data_type)
 
 
-def get_matches_of(row, label, table=None):
+def get_matches_of(row, label, restrictors=None, sample_space=None):
     """
     :param row: ndarray row. functor vocab item.
     :param label: string. field containing selectional restrictions.
-    :param table: vocab_set_db object. a list of tuples providing labels and values
+    :param restrictors: vocab_set_db object. a list of tuples providing labels and values
+    :param sample_space: a list of ndarray rows to restrict the matches to
     :return: all entries in table that match the selectional restrictions of row as given in label.
     """
-    value = str(np.array(row, dtype=table.dtype)[label])
+    value = str(row[column_to_index[label]])
     if value == "":
         pass
     else:
-        matches = []
-        values = str(value).split(";")
-        for disjunct in values:
-            k_vs = conj_list(disjunct)
-            matches.extend(list(get_all_conjunctive(k_vs, table)))
-        return np.array(matches, dtype=table.dtype)
+        query = "SELECT * FROM vocabulary WHERE " + value
+        if restrictors is not None:
+            query += " AND " + restrictors  # TODO
+        rows = np.array(list(cursor.execute(query)), dtype=data_type)
+        if sample_space is not None:
+            rows = np.intersect1d(rows, sample_space)
+        return np.array([row for row in rows], dtype=data_type)
+
+def random_sample(where):
+    query = f"SELECT * FROM vocabulary WHERE id IN (SELECT id FROM vocabulary where {where} ORDER BY RANDOM() LIMIT 1)"
+    rows = cursor.execute(query)
+    return np.array(list(rows), dtype=data_type)
 
 
 def get_matched_by(row, label, table=None, subtable=False):
@@ -155,7 +162,7 @@ def conj_list(conjunction):
     :return: a list of k, v pairs
     """
     try:
-        to_return = [(v.split("=")[0], v.split("=")[1]) for v in conjunction.split("^")]
+        to_return = [(v.split("=")[0], v.split("=")[1]) for v in conjunction.strip("()").split(" AND ")]
         return to_return
     except IndexError:
         pass
@@ -170,7 +177,7 @@ def is_match_disj(row, disjunction):
     if disjunction == "":
         return True
     else:
-        disjuncts = disjunction.split(";")
+        disjuncts = disjunction.split(" OR ")
         match = False
         for d in disjuncts:
             match = match or is_match_conj(row, d)
