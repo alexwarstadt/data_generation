@@ -13,7 +13,7 @@ cursor.execute('DELETE FROM vocabulary')
 num_records = 0
 
 # Open up vocabulary file and read the headers to find value
-vocab_filepath = path.abspath(path.join(basepath, '..', 'vocabulary.csv'))
+vocab_filepath = path.abspath(path.join(basepath, '..', 'vocabulary_db.csv'))
 with open(vocab_filepath, 'r') as file:
     reader = csv.reader(file)
     headers = next(reader)

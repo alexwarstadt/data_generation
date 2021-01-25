@@ -1,7 +1,7 @@
 #from utils import data_generator
 import utils.vocab_sets_db as db
 import utils.vocab_table_db as vocab
-
+from utils.data_type import EX
 from utils.constituent_building_db import *
 from utils.conjugate_db import *
 from utils.randomize import choice
@@ -38,9 +38,9 @@ class CSCGenerator():#data_generator.BenchmarkGenerator):
         # Adv = choice(self.adverbs)
 
         V_mat = choice(self.all_non_finite_transitive_verbs)
-        Subj = N_to_DP_mutate(choice(db.get_matches_of(V_mat, "arg_1", self.all_nouns)))
+        Subj = N_to_DP_mutate(choice(db.get_matches_of(V_mat, "arg_1", sample_space=self.all_nouns)))
         Aux_mat = return_aux(V_mat, Subj, allow_negated=False)
-        Obj = N_to_DP_mutate(choice(db.get_matches_of(V_mat, "arg_2", self.all_nouns)))
+        Obj = N_to_DP_mutate(choice(db.get_matches_of(V_mat, "arg_2", sample_space=self.all_nouns)))
         match_arg1 = db.get_matched_by(Subj, "arg_1", self.all_ing_transitives, subtable=True)
         match_arg2 = db.get_matched_by(Obj, "arg_2", match_arg1, subtable=True)
         V_emb = choice(match_arg2)
@@ -48,8 +48,8 @@ class CSCGenerator():#data_generator.BenchmarkGenerator):
         Adv = choice(self.adverbs)
 
         data = {
-            "sentence_good": "%s %s %s %s %s %s %s?" % (Wh[0], Aux_mat[0], Subj[0], V_mat[0], Adv, V_emb[0], Obj[0]),
-            "sentence_bad": "%s %s %s %s %s %s %s?" % (Wh[0], Aux_mat[0], Subj[0], V_mat[0], Obj[0], Adv, V_emb[0])
+            "sentence_good": "%s %s %s %s %s %s %s?" % (Wh[EX], Aux_mat[EX], Subj[EX], V_mat[EX], Adv, V_emb[EX], Obj[EX]),
+            "sentence_bad": "%s %s %s %s %s %s %s?" % (Wh[EX], Aux_mat[EX], Subj[EX], V_mat[EX], Obj[EX], Adv, V_emb[EX])
         }
         return data, data["sentence_good"]
 
