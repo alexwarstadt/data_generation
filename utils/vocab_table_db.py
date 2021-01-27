@@ -109,7 +109,7 @@ def get_matches_of(row, label, restrictors=None, sample_space=None):
     :param row: ndarray row. functor vocab item.
     :param label: string. field containing selectional restrictions.
     :param restrictors: vocab_set_db object. a list of tuples providing labels and values
-    :param sample_space: a list of ndarray rows to restrict the matches to
+    :param sample_space: a list of ndarray rows to restrict the matches to *WARNING: INEFFICIENT*
     :return: all entries in table that match the selectional restrictions of row as given in label.
     """
     value = str(row[column_to_index[label]])
