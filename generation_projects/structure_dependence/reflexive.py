@@ -426,7 +426,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             else:
                 data_transform.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP_RC_refl]))
                 data_base.append(" ".join([NP1[0], RC.format(n=NP_RC[0]), V1[0], "that", NP2[0], V2[0], NP_RC[0]]))
-            templates.append(f"{template},1_1,optionA={optionA},optionB={optionB}")
+            templates.append(f"{template},0_0,optionA={optionA},optionB={optionB}")
 
         elif optionA == 1:  # RC attached to NP2
             V1 = choice(self.all_CP_verbs)
@@ -512,7 +512,7 @@ class MyGenerator(data_generator.StructureDependenceGenerator):
             else:  # distractor is NP2
                 data_transform.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP2_refl)]))
                 data_base.append(" ".join([NP1[0], V1[0], "that", NP2[0], V2[0], NP3[0], RC.format(n=NP2[0])]))
-            templates.append(f"{template},1_1,optionA={optionA},optionB={optionB}")
+            templates.append(f"{template},0_0,optionA={optionA},optionB={optionB}")
 
         return data_transform, data_base, track_sentence, templates
 
