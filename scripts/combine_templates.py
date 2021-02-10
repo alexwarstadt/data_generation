@@ -43,7 +43,7 @@ def sample_all_subsets(train_data, n_total, max_per_size=None, reverse=False):
             if len(combo) not in tracker:
                 tracker[len(combo)] = 0
             tracker[len(combo)] += 1
-            if tracker[len(combo)] > max_per_size:
+            if len(combo) > 1 and tracker[len(combo)] > max_per_size:
                 continue
         lengths = [2 * len(x) for x in np.array_split(range(n_total // 2), len(combo))]
         curr_training_set = []

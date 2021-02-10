@@ -20,12 +20,15 @@ def parse_template(examples):
         vals = e["template"].split(",")
         e["template1"] = vals[0]
         e["template2"] = ",".join(vals[1:])
-        assert(
-            "1_1" in vals and e["linguistic_feature_label"] == 1 and e["surface_feature_label"] == 1
-            or "1_0" in vals and e["linguistic_feature_label"] == 1 and e["surface_feature_label"] == 0
-            or "0_1" in vals and e["linguistic_feature_label"] == 0 and e["surface_feature_label"] == 1
-            or "0_0" in vals and e["linguistic_feature_label"] == 0 and e["surface_feature_label"] == 0
-        )
+        # try:
+        #     assert(
+        #         "1_1" in vals and e["linguistic_feature_label"] == 1 and e["surface_feature_label"] == 1
+        #         or "1_0" in vals and e["linguistic_feature_label"] == 1 and e["surface_feature_label"] == 0
+        #         or "0_1" in vals and e["linguistic_feature_label"] == 0 and e["surface_feature_label"] == 1
+        #         or "0_0" in vals and e["linguistic_feature_label"] == 0 and e["surface_feature_label"] == 0
+        #     )
+        # except AssertionError:
+        #     pass
 
 def parse_condition(examples):
     for e in examples:
@@ -330,9 +333,9 @@ def get_mccs_df(data):
 
 
 
-def join_all_training_sets(function):
-    f_original = "../outputs/structure/main_verb/test.jsonl"
-    results_dir = "../results/exps_20jan21/main_verb/non_reverse/"
+def join_all_training_sets(f_original, results_dir, function):
+    # f_original = "../outputs/structure/main_verb/test.jsonl"
+    # results_dir = "../results/exps_20jan21/main_verb/non_reverse/"
     all_results = []
     for training_set in os.listdir(results_dir):
         if training_set.startswith("."):
@@ -343,7 +346,7 @@ def join_all_training_sets(function):
         results["training"] = training_set
         all_results.append(results)
     all_results = pd.concat(all_results)
-    print(all_results.to_string())
+    # print(all_results.to_string())
     return all_results
 
 
@@ -367,18 +370,17 @@ def plot_all_mccs_bar():
 
 
 
-# plot_all_mccs_bar()
-
-
-def plot_all_mccs_heatmap():
-    overall_mccs = join_all_training_sets(get_mccs_df)
-    template_mccs = join_all_training_sets(get_mccs_df_by_template)
+def plot_all_mccs_heatmap(f_original, results_dir):
+    fig = plt.gcf()
+    fig.set_size_inches(12, 6)
+    overall_mccs = join_all_training_sets(f_original, results_dir, get_mccs_df)
+    template_mccs = join_all_training_sets(f_original, results_dir, get_mccs_df_by_template)
     overall_mccs["template"] = "overall"
     data = pd.concat([overall_mccs, template_mccs])
     data = data[~ data["ambiguous"]]
     data = pd.pivot(data, index="training", columns="template", values="mcc")
     labels = [" | ".join(x[:-12].split("-")) for x in data.index.values]
-    ax = sns.heatmap(data, annot=False, yticklabels=labels)
+    ax = sns.heatmap(data, annot=False, yticklabels=labels, vmin=-1, vmax=1, cmap="RdBu", center=0)
     # ax.set_title("Main Verb")
     # ax.set_xlabel("LBS")
     # ax.set_ylabel("Training templates")
@@ -386,7 +388,8 @@ def plot_all_mccs_heatmap():
     ax.set_yticklabels(labels, ha='right', fontsize=8)
 
 
-plot_all_mccs_heatmap()
+plot_all_mccs_heatmap("../outputs/structure/reflexive/test.jsonl", "../results/exps_20jan21/reflexive/reverse")
+plt.show()
 # print(pd.pivot_table(accuracies,
 #                      values=["accuracy"],
 #                      index=["template", 'ambiguous'],
