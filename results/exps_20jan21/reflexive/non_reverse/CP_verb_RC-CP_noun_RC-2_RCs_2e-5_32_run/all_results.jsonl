@@ -1,0 +1,1 @@
+{"model": "roberta-base", "task_name": "main_verb", "learning_rate": 2e-05, "#samples_per_id": 4, "overall_acc": 0.8345, "detail_accs": [0.7682857142857142, 0.9045714285714286, 0.7702857142857142, 0.8948571428571429], "pearson_corr": 0.6703645663741226, "p_value": 0.0}
