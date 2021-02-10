@@ -1,8 +1,6 @@
 # Authors: Alex Warstadt
 # Script for generating NPI sentences manipulating scope
 
-# TODO: document metadata
-
 from utils.conjugate import *
 from utils.string_utils import string_beautify
 from utils.randomize import choice
@@ -163,11 +161,6 @@ for writer in [train_output, dev_output, test_output]:
 
 
 # # repeat for "yet"
-#
-# # PITFALL:
-# # ever doesn't occur with progressive
-# # Every boy who has ever eaten a potato is tall.
-# # *? Every boy who is ever eating a potato is tall.
 sentences = set()
 for writer in [train_output, dev_output, test_output]:
     counter = 0

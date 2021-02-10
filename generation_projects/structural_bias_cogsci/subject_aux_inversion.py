@@ -1,6 +1,4 @@
 # Author: Alex Warstadt
-# Script for generating Chomsky's "structure dependent" sentences for QP1
-# Loosens some restrictions from polar_q so that complementizer + finite verb is not such a reliable cue
 
 from utils.conjugate import *
 from utils.constituent_building import verb_args_from_verb
@@ -211,38 +209,3 @@ train_output.close()
 test_output.close()
 test2_output.close()
 dev_output.close()
-
-
-
-
-
-
-"""
-Think more about the paradigm
-
-1.  1   Has the teacher [who is] praising the essay criticized the student?
-2.  0   Is the teacher [who praising] the essay has criticized the student?
-3.  1   Has the teacher criticized the student [who is] praising the essay?
-4.  0   Is the teacher has criticized the student [who praising] the essay? 
-
-
-1.  1   Has the teacher who is praising the essay has criticized the student?
-2.  0   Is the teacher who is praising the essay has criticized the student?
-3.  1   Has the teacher has criticized the student who is praising the essay?
-4.  0   Is the teacher has criticized the student who is praising the essay? 
-
-
-Question: Does the model use the bigram of complementizer + finite verb to identify grammatical sentences?
-- Response 1: If this were so we would expect to see incorrect classification on ungrammatical sentences with the same bigram
-- Response 2: If we eliminate this as a reliable cue...
-    1.  1   Has the teacher [who praising the essay criticized the student?
-    2.  0   Is the teacher [who praising] the essay has criticized the student?
-    3.  1   Has the teacher criticized the student [who is] praising the essay?
-    4.  0   Is the teacher has criticized the student [who praising] the essay? 
-
-
-
-"""
-
-
-
